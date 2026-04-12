@@ -28,8 +28,6 @@ if (RES_PROXY_ENABLED && RES_PROXY_HOST && RES_PROXY_PORT && RES_PROXY_USER && R
 }
 
 // ===== PLAYER =====
-// Renderiza o HTML do player. As rotas /api/stream-secure e /api/refresh-stream
-// são gerenciadas exclusivamente pelo secure-stream.routes.js (mais robusto).
 router.get('/player/:token', async (req, res) => {
   try {
     const decoded = jwt.verify(req.params.token, JWT_SECRET);
@@ -47,7 +45,9 @@ router.get('/player/:token', async (req, res) => {
     await purchase.save();
 
     const streamPath = `/api/stream-secure/${req.params.token}/${purchase.sessionToken}`;
-    const msRestantes = Math.max(0, purchase.expiresAt.getTime() - Date.now());
+    
+    // Captura o timestamp exato de expiração para o JS do navegador calcular
+    const expirationTimestamp = purchase.expiresAt.getTime();
 
     res.send(`
 <!DOCTYPE html>
@@ -78,7 +78,7 @@ router.get('/player/:token', async (req, res) => {
     .meta { display: flex; gap: 20px; flex-wrap: wrap; font-size: 14px; color: #aaa; margin-bottom: 15px; }
     .meta span { display: flex; align-items: center; gap: 8px; }
     .warning { text-align: center; margin-top: 20px; padding: 15px; background: rgba(229,9,20,0.1); border-radius: 8px; font-size: 14px; border: 1px solid rgba(229,9,20,0.3); }
-    .timer { display: inline-block; background: rgba(229,9,20,0.2); padding: 5px 12px; border-radius: 20px; font-weight: bold; }
+    .timer { display: inline-block; background: rgba(229,9,20,0.2); padding: 5px 12px; border-radius: 20px; font-weight: bold; font-family: monospace; font-size: 15px; }
     @media (max-width: 768px) { .video-js { height: 50vh; } }
   </style>
 </head>
@@ -96,7 +96,7 @@ router.get('/player/:token', async (req, res) => {
       ${purchase.episodeName ? `<div class="meta"><span><i class="fas fa-tv"></i> ${purchase.episodeName}</span></div>` : ''}
       <div class="meta">
         <span><i class="fas fa-calendar"></i> Comprado em ${new Date(purchase.purchaseDate).toLocaleDateString('pt-BR')}</span>
-        <span><i class="fas fa-clock"></i> Expira em <span class="timer" id="countdown"></span></span>
+        <span><i class="fas fa-clock"></i> Expira em: <span class="timer" id="countdown">Carregando...</span></span>
         <span><i class="fas fa-eye"></i> ${purchase.viewCount} visualizaç${purchase.viewCount === 1 ? 'ão' : 'ões'}</span>
       </div>
     </div>
@@ -107,8 +107,48 @@ router.get('/player/:token', async (req, res) => {
   </div>
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
   <script>
-    let msRestantes = ${msRestantes};
+    // Configuração do Cronômetro
+    const expirationTime = ${expirationTimestamp};
+    const countdownEl = document.getElementById('countdown');
+
+    function updateCountdown() {
+      const now = Date.now();
+      const diff = expirationTime - now;
+
+      if (diff <= 0) {
+        countdownEl.innerText = 'EXPIRADO';
+        countdownEl.style.color = '#ff4444';
+        
+        // Se o player existir, desliga o vídeo
+        if (typeof player !== 'undefined' && player) { 
+          player.pause(); 
+          player.dispose(); 
+          document.querySelector('.video-wrapper').innerHTML = '<div style="padding: 50px; text-align: center; color: red; background: #000; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;"><h3>Tempo Expirado</h3><p>O seu acesso a este conteúdo terminou.</p></div>';
+        }
+        clearInterval(timerInterval);
+        return;
+      }
+
+      // Converte a diferença para horas, minutos e segundos
+      const hours = Math.floor(diff / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      // Formata os números para terem sempre 2 dígitos (ex: 09m 05s)
+      const h = hours > 0 ? hours + 'h ' : '';
+      const m = minutes.toString().padStart(2, '0') + 'm ';
+      const s = seconds.toString().padStart(2, '0') + 's';
+
+      countdownEl.innerText = h + m + s;
+    }
+
+    // Inicia o cronômetro e atualiza a cada 1 segundo (1000ms)
+    updateCountdown();
+    const timerInterval = setInterval(updateCountdown, 1000);
+
+    // Configuração do Player
     let player;
+    let retryCount = 0;
 
     document.addEventListener('DOMContentLoaded', function() {
       player = videojs('player');
@@ -128,59 +168,31 @@ router.get('/player/:token', async (req, res) => {
         }
       });
 
-    let erroDeRedeCount = 0;
-
+      // Lógica de Reconexão (Evita loop infinito)
       player.on('error', function() {
         const err = player.error();
-        console.error("Erro no player detectado:", err);
-        
-        // Code 2 = Erro de rede (Caiu a conexão)
         if (err && (err.code === 2 || err.code === 4)) {
-          erroDeRedeCount++;
-          
-          // Se falhou 3 vezes seguidas, para o loop e avisa o usuário
-          if (erroDeRedeCount > 3) {
-             const wrapper = document.querySelector('.video-wrapper');
-             wrapper.innerHTML = '<div style="padding: 50px; text-align: center; color: red; background: #000; height: 100%; display: flex; align-items: center; justify-content: center;"><h3>Falha na conexão com o servidor de vídeo.</h3><p>Tente recarregar a página.</p></div>';
+          if (retryCount >= 3) {
+             document.querySelector('.video-wrapper').innerHTML = '<div style="padding: 50px; text-align: center; color: red; background: #000; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;"><h3>Falha na conexão com o servidor.</h3><p>Tente recarregar a página.</p></div>';
              return;
           }
-
-          // Tenta pegar um link novo e continuar
+          
+          retryCount++;
+          const currentTime = player.currentTime(); // Guarda onde o vídeo parou
+          
           fetch('/api/refresh-stream/${req.params.token}/${purchase.sessionToken}')
             .then(r => r.json())
             .then(d => { 
               if (d.url) { 
-                const tempoAtual = player.currentTime(); // Salva onde parou
                 player.src({ src: d.url, type: 'video/mp4' }); 
                 player.play(); 
-                player.currentTime(tempoAtual); // Tenta voltar para onde estava
+                if (currentTime > 0) player.currentTime(currentTime); // Tenta voltar para o minuto exato
               } 
             })
-            .catch(e => console.error("Falha ao dar refresh no stream", e));
+            .catch(() => {});
         }
       });
-
-    function updateCountdown() {
-      msRestantes -= 60000;
-      if (msRestantes <= 0) {
-        document.getElementById('countdown').innerText = 'EXPIRADO';
-        if (player) { player.pause(); player.dispose(); }
-        return;
-      }
-      const totalMin = Math.floor(msRestantes / 60000);
-      const hours = Math.floor(totalMin / 60);
-      const minutes = totalMin % 60;
-      document.getElementById('countdown').innerText = hours + 'h ' + minutes + 'm';
-    }
-
-    (function() {
-      const totalMin = Math.floor(msRestantes / 60000);
-      const hours = Math.floor(totalMin / 60);
-      const minutes = totalMin % 60;
-      document.getElementById('countdown').innerText = hours + 'h ' + minutes + 'm';
-    })();
-
-    setInterval(updateCountdown, 60000);
+    });
   </script>
 </body>
 </html>
