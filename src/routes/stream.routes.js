@@ -43,7 +43,7 @@ router.get('/relay-stream', async (req, res, next) => {
     const base = type === 'series' ? 'http://goplay.icu/series' : 'http://goplay.icu/movie';
     const streamUrl = `${base}/${login}/${senha}/${encodeURIComponent(videoId)}.mp4`;
 
-    // Bate na porta do GoPlay apenas para extrair a URL de redirecionamento (IP Dinâmico)
+    // 1. Usa o proxy apenas para descobrir a porta do cofre (0 consumo de dados pesados)
     const response = await axios.get(streamUrl, {
       httpAgent: residentialProxyAgent,
       httpsAgent: residentialProxyAgent,
@@ -57,16 +57,17 @@ router.get('/relay-stream', async (req, res, next) => {
       return res.status(404).send('Falha ao capturar IP do video.');
     }
 
-    logger.info({ msg: 'Delegando IP bruto para o Nginx processar', videoId, ip: finalUrl });
+    // 2. Remove o "http://" para que o Nginx consiga ler o caminho corretamente
+    const urlLimpa = finalUrl.replace(/^https?:\/\//, '');
 
-    // Permite que o player avance e recue o filme
+    logger.info({ msg: 'Delegando IP bruto para o Nginx', videoId, urlLimpa });
+
     if (req.headers.range) {
       res.setHeader('Range', req.headers.range);
     }
 
-    // A JOGADA DE MESTRE: Envia a URL do IP no header e manda o Nginx iniciar o proxy
-    res.setHeader('X-Target-Url', finalUrl);
-    res.setHeader('X-Accel-Redirect', '/proxy-stream');
+    // 3. O Node envia o IP dinâmico diretamente na URI do túnel
+    res.setHeader('X-Accel-Redirect', `/proxy-stream/${urlLimpa}`);
     res.end();
 
   } catch (error) {
