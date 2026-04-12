@@ -129,17 +129,20 @@ router.get('/player/:token', async (req, res) => {
         return;
       }
 
-      // Converte a diferença para horas, minutos e segundos
-      const hours = Math.floor(diff / (1000 * 60 * 60));
+// Converte a diferença para dias, horas, minutos e segundos
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-      // Formata os números para terem sempre 2 dígitos (ex: 09m 05s)
-      const h = hours > 0 ? hours + 'h ' : '';
+      // Formata a exibição
+      const d = days > 0 ? days + 'd ' : '';
+      // Se tiver dias, obriga a hora a ter 2 dígitos (ex: 06h), se não, mostra normal
+      const h = (hours > 0 || days > 0) ? hours.toString().padStart(2, '0') + 'h ' : '';
       const m = minutes.toString().padStart(2, '0') + 'm ';
       const s = seconds.toString().padStart(2, '0') + 's';
 
-      countdownEl.innerText = h + m + s;
+      countdownEl.innerText = d + h + m + s;
     }
 
     // Inicia o cronômetro e atualiza a cada 1 segundo (1000ms)
