@@ -123,10 +123,14 @@ router.get('/relay-stream', async (req, res, next) => {
       maxRedirects: 10,
       validateStatus: () => true,
       headers,
-      proxy: true,
-      httpAgent: residentialProxyAgent || undefined,
-      httpsAgent: residentialProxyAgent || undefined
+      proxy: false,
+      httpAgent: undefined,
+      httpsAgent: undefined
     });
+
+
+      //       httpAgent: residentialProxyAgent || undefined,
+      // httpsAgent: residentialProxyAgent || undefined 
 
     logger.info({
       msg: 'relay upstream status',
