@@ -128,16 +128,37 @@ router.get('/player/:token', async (req, res) => {
         }
       });
 
+    let erroDeRedeCount = 0;
+
       player.on('error', function() {
         const err = player.error();
+        console.error("Erro no player detectado:", err);
+        
+        // Code 2 = Erro de rede (Caiu a conexão)
         if (err && (err.code === 2 || err.code === 4)) {
+          erroDeRedeCount++;
+          
+          // Se falhou 3 vezes seguidas, para o loop e avisa o usuário
+          if (erroDeRedeCount > 3) {
+             const wrapper = document.querySelector('.video-wrapper');
+             wrapper.innerHTML = '<div style="padding: 50px; text-align: center; color: red; background: #000; height: 100%; display: flex; align-items: center; justify-content: center;"><h3>Falha na conexão com o servidor de vídeo.</h3><p>Tente recarregar a página.</p></div>';
+             return;
+          }
+
+          // Tenta pegar um link novo e continuar
           fetch('/api/refresh-stream/${req.params.token}/${purchase.sessionToken}')
             .then(r => r.json())
-            .then(d => { if (d.url) { player.src({ src: d.url, type: 'video/mp4' }); player.play(); } })
-            .catch(() => {});
+            .then(d => { 
+              if (d.url) { 
+                const tempoAtual = player.currentTime(); // Salva onde parou
+                player.src({ src: d.url, type: 'video/mp4' }); 
+                player.play(); 
+                player.currentTime(tempoAtual); // Tenta voltar para onde estava
+              } 
+            })
+            .catch(e => console.error("Falha ao dar refresh no stream", e));
         }
       });
-    });
 
     function updateCountdown() {
       msRestantes -= 60000;

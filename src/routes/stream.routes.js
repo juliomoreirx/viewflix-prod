@@ -118,14 +118,14 @@ router.get('/relay-stream', async (req, res, next) => {
 
     const upstream = await axios.get(streamUrl, {
       responseType: 'stream',
-      timeout: 60000,
+      timeout: 0,
       // Segue redirects automaticamente no servidor — cliente nunca vê as URLs intermediárias
       maxRedirects: 10,
       validateStatus: () => true,
       headers,
       proxy: false,
-      httpAgent: undefined,
-      httpsAgent: undefined
+      httpAgent: residentialProxyAgent || undefined,
+      httpsAgent: residentialProxyAgent || undefined
     });
 
 
