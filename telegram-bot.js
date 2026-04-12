@@ -53,7 +53,7 @@ console.log('✅ [Bot] Variáveis de ambiente carregadas');
 // ============================
 // INICIALIZAÇÃO DO BOT
 // ============================
-const bot = new TelegramBot(BOT_TOKEN, { polling: true });
+const bot = new TelegramBot(BOT_TOKEN, { polling: false });
 
 // ============================
 // ESTADO E CACHE
@@ -116,7 +116,12 @@ function initBot(models, services, dominio) {
 
   DOMINIO_PUBLICO = dominio || DOMINIO_PUBLICO;
 
-  console.log('✅ Bot do Telegram inicializado com sucesso!');
+  // ==========================================
+  // ADICIONE ESTA LINHA AQUI:
+  bot.startPolling();
+  // ==========================================
+
+  console.log('✅ Bot do Telegram inicializado com sucesso e a escutar!');
   console.log(`🌐 Domínio configurado: ${DOMINIO_PUBLICO}`);
 }
 
