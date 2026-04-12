@@ -21,15 +21,10 @@ const MP_ACCESS_TOKEN = process.env.MP_ACCESS_TOKEN;
 
 let DOMINIO_PUBLICO = '';
 
-// Preços (centavos) - vindo do .env
-// PRECO_POR_HORA=250 => R$ 2,50/h
-// PRECO_MINIMO=25 => R$ 0,25
-// PRECO_MINIMO_SERIE=10 => R$ 0,10 (opcional)
 const PRECO_POR_HORA = parseInt(process.env.PRECO_POR_HORA || '250', 10);
 const PRECO_MINIMO = parseInt(process.env.PRECO_MINIMO || '25', 10);
 const PRECO_MINIMO_SERIE = parseInt(process.env.PRECO_MINIMO_SERIE || String(PRECO_MINIMO), 10);
 
-// Lista de IDs de administradores
 const ADMIN_IDS = process.env.ADMIN_IDS ? process.env.ADMIN_IDS.split(',').map(id => parseInt(id, 10)) : [];
 
 // ===== VALIDAÇÃO DE VARIÁVEIS OBRIGATÓRIAS =====
@@ -108,7 +103,6 @@ function initBot(models, services, dominio) {
     services?.atualizarCache ||
     vouverService.atualizarCache;
 
-  // manter referência viva do cache
   vouverService.CACHE_CONTEUDO =
     services?.CACHE_CONTEUDO ||
     vouverService.CACHE_CONTEUDO ||
@@ -118,13 +112,6 @@ function initBot(models, services, dominio) {
 
   console.log('✅ Bot do Telegram inicializado com sucesso!');
   console.log(`🌐 Domínio configurado: ${DOMINIO_PUBLICO}`);
-  console.log('🧩 Services injetados:', {
-    hasBuscarDetalhes: typeof vouverService.buscarDetalhes === 'function',
-    hasEstimarDuracao: typeof vouverService.estimarDuracao === 'function',
-    hasAtualizarCache: typeof vouverService.atualizarCache === 'function',
-    movies: vouverService?.CACHE_CONTEUDO?.movies?.length || 0,
-    series: vouverService?.CACHE_CONTEUDO?.series?.length || 0
-  });
 }
 
 function getCacheSafe() {
@@ -148,11 +135,34 @@ function getEstimarDuracao(defaultMin = 109) {
 }
 
 // ============================
-// FUNÇÕES AUXILIARES
+// FUNÇÕES AUXILIARES (TRADUTORES HTML)
 // ============================
+
+// NOVA FUNÇÃO: Tradutor universal de textos zumbados (&#231; -> ç)
+function decodificarHTML(texto) {
+  if (!texto) return '';
+  let t = texto.replace(/&#(\d+);/g, (m, d) => String.fromCharCode(d))
+               .replace(/&#x([a-fA-F0-9]+);/gi, (m, h) => String.fromCharCode(parseInt(h, 16)));
+  
+  const entities = {
+    '&aacute;': 'á', '&Aacute;': 'Á', '&atilde;': 'ã', '&Atilde;': 'Ã',
+    '&acirc;': 'â', '&Acirc;': 'Â', '&agrave;': 'à', '&Agrave;': 'À',
+    '&eacute;': 'é', '&Eacute;': 'É', '&ecirc;': 'ê', '&Ecirc;': 'Ê',
+    '&iacute;': 'í', '&Iacute;': 'Í',
+    '&oacute;': 'ó', '&Oacute;': 'Ó', '&otilde;': 'õ', '&Otilde;': 'Õ',
+    '&ocirc;': 'ô', '&Ocirc;': 'Ô',
+    '&uacute;': 'ú', '&Uacute;': 'Ú',
+    '&ccedil;': 'ç', '&Ccedil;': 'Ç', '&ntilde;': 'ñ', '&Ntilde;': 'Ñ',
+    '&nbsp;': ' ', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&apos;': "'"
+  };
+  t = t.replace(/&[a-zA-Z]+;/g, m => entities[m] || m);
+  return t;
+}
+
 function escaparMarkdown(texto) {
   if (!texto) return '';
-  return texto
+  let t = decodificarHTML(texto); // Limpa o HTML antes
+  return t
     .replace(/[\u{1D400}-\u{1D7FF}]/gu, '')
     .replace(/[\u{1F100}-\u{1F1FF}]/gu, '')
     .replace(/([_*`\[])/g, '\\$1')
@@ -161,7 +171,8 @@ function escaparMarkdown(texto) {
 
 function sanitizarTexto(texto) {
   if (!texto) return '';
-  return texto
+  let t = decodificarHTML(texto); // Limpa o HTML antes
+  return t
     .replace(/[\u{1D400}-\u{1D7FF}]/gu, '')
     .replace(/[\u{1F100}-\u{1F1FF}]/gu, '')
     .replace(/[*_`\[\]()~>#+=|{}.!]/g, '')
@@ -170,21 +181,20 @@ function sanitizarTexto(texto) {
 
 function removerAcentos(texto) {
   if (!texto) return '';
-  return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+  let t = decodificarHTML(texto);
+  return t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 }
 
 function formatMoney(centavos) {
   return `R$ ${(centavos / 100).toFixed(2).replace('.', ',')}`;
 }
 
-// NOVO: normaliza duração com fallback justo
 function normalizarDuracaoMin(mediaType, duracaoMinutos) {
   const d = parseInt(String(duracaoMinutos || 0), 10);
   if (Number.isFinite(d) && d > 0) return d;
-  return mediaType === 'movie' ? 110 : 24; // fallback
+  return mediaType === 'movie' ? 110 : 24; 
 }
 
-// NOVO: precificação por tipo (com mínimo separado para série)
 function calcularPrecoFinal({ mediaType = 'movie', duracaoMinutos = 0 }) {
   const tipo = mediaType === 'series' ? 'series' : 'movie';
   const minutos = normalizarDuracaoMin(tipo, duracaoMinutos);
@@ -205,7 +215,6 @@ function calcularPrecoFinal({ mediaType = 'movie', duracaoMinutos = 0 }) {
   };
 }
 
-// Mantido por compatibilidade (não usar em código novo)
 function calcularPreco(minutos) {
   return calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos }).precoFinal;
 }
@@ -375,19 +384,7 @@ function showMainMenu(chatId, text = '🏠 *Menu Principal*') {
       ],
       resize_keyboard: true
     }
-  }).catch(() => {
-    bot.sendMessage(chatId, '🏠 Menu Principal', {
-      reply_markup: {
-        keyboard: [
-          ['🔍 Buscar Filmes', '📺 Buscar Séries'],
-          ['🎬 Filmes A-Z', '📺 Séries A-Z'],
-          ['📦 Meu Conteúdo', '🔞 Conteúdo +18'],
-          ['💰 Adicionar Créditos', '💳 Meu Saldo']
-        ],
-        resize_keyboard: true
-      }
-    }).catch(() => {});
-  });
+  }).catch(() => {});
 }
 
 function mostrarAlfabeto(chatId, tipo) {
@@ -419,9 +416,9 @@ async function listarPorLetra(chatId, tipo, letra, pagina = 1) {
 
     let resultados;
     if (letra === '#') {
-      resultados = lista.filter(i => !isAdulto(i.name) && /^[^a-zA-Z]/.test(i.name || ''));
+      resultados = lista.filter(i => !isAdulto(i.name) && /^[^a-zA-Z]/.test(decodificarHTML(i.name || '')));
     } else {
-      resultados = lista.filter(i => !isAdulto(i.name) && (i.name || '').toUpperCase().startsWith(letra));
+      resultados = lista.filter(i => !isAdulto(i.name) && decodificarHTML(i.name || '').toUpperCase().startsWith(letra));
     }
 
     const totalItens = resultados.length;
@@ -447,10 +444,14 @@ async function listarPorLetra(chatId, tipo, letra, pagina = 1) {
       return;
     }
 
-    const buttons = itensPagina.map(item => [{
-      text: `${(item.name || '').substring(0, 60)}${(item.name || '').length > 60 ? '...' : ''}`,
-      callback_data: `details_${item.id}_${tipo}`
-    }]);
+    // APLICANDO DECODER NOS BOTÕES A-Z
+    const buttons = itensPagina.map(item => {
+      const name = decodificarHTML(item.name || '');
+      return [{
+        text: `${name.substring(0, 60)}${name.length > 60 ? '...' : ''}`,
+        callback_data: `details_${item.id}_${tipo}`
+      }];
+    });
 
     const navRow = [];
     if (paginaAtual > 1) navRow.push({ text: '◀️ Anterior', callback_data: `letter_${tipo}_${letra}_${paginaAtual - 1}` });
@@ -505,10 +506,14 @@ async function mostrarMeuConteudo(chatId) {
       return;
     }
 
+    // APLICANDO DECODER EM "MEU CONTEÚDO"
     const buttons = conteudos.map(item => {
-      const nome = item.episodeName ? `${item.title} - ${item.episodeName}` : item.title;
+      const title = decodificarHTML(item.title || '');
+      const epName = item.episodeName ? decodificarHTML(item.episodeName) : '';
+      const nome = epName ? `${title} - ${epName}` : title;
       const timer = formatTimeRemaining(item.expiresAt);
       const emoji = item.mediaType === 'movie' ? '🎬' : '📺';
+      
       return [{
         text: `${emoji} ${nome.substring(0, 45)} | ${timer}`,
         callback_data: `mycontent_${item._id}`
@@ -940,7 +945,7 @@ function mostrarOpcoesCredito(chatId) {
 }
 
 // ============================
-// PROCESSAMENTO DE MENSAGENS
+// PROCESSAMENTO DE MENSAGENS (BUSCA)
 // ============================
 bot.on('message', async (msg) => {
   const chatId = msg.chat.id;
@@ -985,9 +990,11 @@ bot.on('message', async (msg) => {
       return;
     }
 
+    // APLICANDO DECODER NOS BOTÕES DE RESULTADO DE BUSCA
     const buttons = resultados.map(item => {
+      const name = decodificarHTML(item.name || '');
       const tipo = (cache.movies || []).find(m => m.id === item.id) ? 'movies' : 'series';
-      return [{ text: `${(item.name || '').substring(0, 60)}${(item.name || '').length > 60 ? '...' : ''}`, callback_data: `details_${item.id}_${tipo}` }];
+      return [{ text: `${name.substring(0, 60)}${name.length > 60 ? '...' : ''}`, callback_data: `details_${item.id}_${tipo}` }];
     });
     buttons.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
@@ -1165,16 +1172,13 @@ bot.on('callback_query', async (query) => {
       const keyboard = [];
 
       if (detalhes.mediaType === 'movie') {
-        // 1) tenta duração verdadeira do HTML
         let minutos = parseInt(detalhes.info?.duracaoMinutos || 0, 10);
 
-        // 2) se não veio, tenta estimador
         if (!Number.isFinite(minutos) || minutos <= 0) {
           const estimarDuracao = getEstimarDuracao(110);
           minutos = await estimarDuracao('movie', id, null);
         }
 
-        // 3) fallback final justo
         const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos });
 
         mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
@@ -1240,12 +1244,8 @@ bot.on('callback_query', async (query) => {
         : async () => 24;
 
       for (const ep of episodios) {
-        // 1) tenta duração real no estimador
         let min = await estimarDuracao('series', ep.id);
-
-        // 2) fallback para 24 só se vier inválido
         if (!Number.isFinite(min) || min <= 0) min = 24;
-
         const p = calcularPrecoFinal({ mediaType: 'series', duracaoMinutos: min });
         precoTotal += p.precoFinal;
       }
@@ -1253,10 +1253,12 @@ bot.on('callback_query', async (query) => {
       const saldoAtual = await getUserCredits(chatId);
       const keyboard = [];
 
+      // APLICANDO DECODER NOS BOTÕES DOS EPISÓDIOS DA TEMPORADA
       for (let i = 0; i < episodios.length; i++) {
         const ep = episodios[i];
+        const name = decodificarHTML(ep.name || `Episódio ${i + 1}`);
         keyboard.push([{
-          text: `${i + 1}. ${(ep.name || `Episódio ${i + 1}`).substring(0, 50)}${(ep.name || '').length > 50 ? '...' : ''}`,
+          text: `${i + 1}. ${name.substring(0, 50)}${name.length > 50 ? '...' : ''}`,
           callback_data: `episode_${ep.id}_${season}`
         }]);
       }
@@ -1322,10 +1324,7 @@ bot.on('callback_query', async (query) => {
         ? vouverService.estimarDuracao
         : async () => 24;
 
-      // 1) tenta duração real
       let minutos = await estimarDuracao('series', epId);
-
-      // 2) fallback
       if (!Number.isFinite(minutos) || minutos <= 0) minutos = 24;
 
       const pricing = calcularPrecoFinal({ mediaType: 'series', duracaoMinutos: minutos });

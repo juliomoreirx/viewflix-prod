@@ -23,13 +23,26 @@ function corrigirCaracteresEspeciais(html) {
 function limparTexto(texto) {
   if (!texto) return '';
   let t = texto.trim().replace(/\s+/g, ' ');
-  t = t
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'");
+
+  // 1. Decodifica HTML Entities numéricas (ex: &#233; -> é)
+  t = t.replace(/&#(\d+);/g, (m, d) => String.fromCharCode(d))
+       .replace(/&#x([a-fA-F0-9]+);/gi, (m, h) => String.fromCharCode(parseInt(h, 16)));
+
+  // 2. Decodifica HTML Entities nomeadas (ex: &aacute; -> á)
+  const entities = {
+    '&aacute;': 'á', '&Aacute;': 'Á', '&atilde;': 'ã', '&Atilde;': 'Ã',
+    '&acirc;': 'â', '&Acirc;': 'Â', '&agrave;': 'à', '&Agrave;': 'À',
+    '&eacute;': 'é', '&Eacute;': 'É', '&ecirc;': 'ê', '&Ecirc;': 'Ê',
+    '&iacute;': 'í', '&Iacute;': 'Í',
+    '&oacute;': 'ó', '&Oacute;': 'Ó', '&otilde;': 'õ', '&Otilde;': 'Õ',
+    '&ocirc;': 'ô', '&Ocirc;': 'Ô',
+    '&uacute;': 'ú', '&Uacute;': 'Ú',
+    '&ccedil;': 'ç', '&Ccedil;': 'Ç',
+    '&ntilde;': 'ñ', '&Ntilde;': 'Ñ',
+    '&nbsp;': ' ', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&#39;': "'", '&apos;': "'"
+  };
+  t = t.replace(/&[a-zA-Z]+;/g, m => entities[m] || m);
+
   return t;
 }
 
