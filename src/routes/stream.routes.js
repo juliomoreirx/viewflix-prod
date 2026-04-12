@@ -13,7 +13,7 @@ const querySchema = z.object({
   type: z.enum(['movie', 'series']).optional().default('movie')
 });
 
-// Configuração do Proxy Residencial (Apenas para autenticação)
+// Proxy apenas para autenticação rápida (não consome dados)
 const RES_PROXY_HOST = (env.RES_PROXY_HOST || '').trim();
 const RES_PROXY_PORT = parseInt(String(env.RES_PROXY_PORT || '0').trim(), 10);
 const RES_PROXY_USER = env.RES_PROXY_USER || '';
@@ -43,26 +43,31 @@ router.get('/relay-stream', async (req, res, next) => {
     const base = type === 'series' ? 'http://goplay.icu/series' : 'http://goplay.icu/movie';
     const streamUrl = `${base}/${login}/${senha}/${encodeURIComponent(videoId)}.mp4`;
 
-    // 1. Usa o proxy para "falar com o porteiro"
+    // Bate na porta do GoPlay apenas para extrair a URL de redirecionamento (IP Dinâmico)
     const response = await axios.get(streamUrl, {
       httpAgent: residentialProxyAgent,
       httpsAgent: residentialProxyAgent,
-      maxRedirects: 0, // IMPORTANTE: Impede o Axios de baixar o vídeo!
+      maxRedirects: 0, 
       validateStatus: (status) => status >= 200 && status <= 302
     });
 
-    // 2. Extrai a URL final do cofre (que vem no cabeçalho Location)
     const finalUrl = response.headers.location;
 
     if (!finalUrl) {
-      logger.error({ msg: 'Sem redirecionamento', status: response.status });
-      return res.status(404).send('Vídeo não encontrado ou proxy bloqueado.');
+      return res.status(404).send('Falha ao capturar IP do video.');
     }
 
-    logger.info({ msg: 'URL extraida com sucesso via proxy', videoId });
+    logger.info({ msg: 'Delegando IP bruto para o Nginx processar', videoId, ip: finalUrl });
 
-    // 3. Devolve um Redirecionamento para o Cloudflare Worker
-    res.redirect(302, finalUrl);
+    // Permite que o player avance e recue o filme
+    if (req.headers.range) {
+      res.setHeader('Range', req.headers.range);
+    }
+
+    // A JOGADA DE MESTRE: Envia a URL do IP no header e manda o Nginx iniciar o proxy
+    res.setHeader('X-Target-Url', finalUrl);
+    res.setHeader('X-Accel-Redirect', '/proxy-stream');
+    res.end();
 
   } catch (error) {
     logger.error({ msg: 'erro no /relay-stream', error: error.message });
