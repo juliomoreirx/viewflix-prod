@@ -5,46 +5,12 @@ const env = require('../config/env');
 const logger = require('../lib/logger');
 const { getSessionCookiesRaw } = require('./content-cache.service');
 
+// Importa o nosso novo serviço de limpeza
+const { limparTexto } = require('./text-utils.service');
+
 const BASE_URL = env.BASE_URL || 'http://vouver.me';
 
-function corrigirCaracteresEspeciais(html) {
-  const entitiesMap = {
-    '&#231;': 'ç', '&#233;': 'é', '&#225;': 'á', '&#227;': 'ã',
-    '&#245;': 'õ', '&#237;': 'í', '&#243;': 'ó', '&#250;': 'ú',
-    '&ccedil;': 'ç', '&eacute;': 'é', '&aacute;': 'á', '&atilde;': 'ã',
-    '&otilde;': 'õ', '&iacute;': 'í', '&oacute;': 'ó', '&uacute;': 'ú'
-  };
-  for (const [entity, char] of Object.entries(entitiesMap)) {
-    html = html.split(entity).join(char);
-  }
-  return html;
-}
 
-function limparTexto(texto) {
-  if (!texto) return '';
-  let t = texto.trim().replace(/\s+/g, ' ');
-
-  // 1. Decodifica HTML Entities numéricas (ex: &#233; -> é)
-  t = t.replace(/&#(\d+);/g, (m, d) => String.fromCharCode(d))
-       .replace(/&#x([a-fA-F0-9]+);/gi, (m, h) => String.fromCharCode(parseInt(h, 16)));
-
-  // 2. Decodifica HTML Entities nomeadas (ex: &aacute; -> á)
-  const entities = {
-    '&aacute;': 'á', '&Aacute;': 'Á', '&atilde;': 'ã', '&Atilde;': 'Ã',
-    '&acirc;': 'â', '&Acirc;': 'Â', '&agrave;': 'à', '&Agrave;': 'À',
-    '&eacute;': 'é', '&Eacute;': 'É', '&ecirc;': 'ê', '&Ecirc;': 'Ê',
-    '&iacute;': 'í', '&Iacute;': 'Í',
-    '&oacute;': 'ó', '&Oacute;': 'Ó', '&otilde;': 'õ', '&Otilde;': 'Õ',
-    '&ocirc;': 'ô', '&Ocirc;': 'Ô',
-    '&uacute;': 'ú', '&Uacute;': 'Ú',
-    '&ccedil;': 'ç', '&Ccedil;': 'Ç',
-    '&ntilde;': 'ñ', '&Ntilde;': 'Ñ',
-    '&nbsp;': ' ', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&#39;': "'", '&apos;': "'"
-  };
-  t = t.replace(/&[a-zA-Z]+;/g, m => entities[m] || m);
-
-  return t;
-}
 
 function decodeHtml(buffer) {
   for (const enc of ['ISO-8859-1', 'Windows-1252', 'UTF-8', 'latin1']) {

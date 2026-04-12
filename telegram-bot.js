@@ -9,8 +9,14 @@ const crypto = require('crypto');
 const UserLocal = require('./src/models/user.model.js');
 const PurchasedContentLocal = require('./src/models/purchased-content.model.js');
 
-let UserModel = UserLocal;
-let PurchasedContentModel = PurchasedContentLocal;
+// Importando o novo serviço purificador
+const { 
+  decodificarHTML, 
+  escaparMarkdownSeguro, 
+  sanitizarTexto, 
+  removerAcentos 
+} = require('./src/services/text-utils.service');
+
 
 // ============================
 // CONFIGURAÇÕES (TODAS DO .ENV)
@@ -138,52 +144,7 @@ function getEstimarDuracao(defaultMin = 109) {
 // FUNÇÕES AUXILIARES (TRADUTORES HTML)
 // ============================
 
-// NOVA FUNÇÃO: Tradutor universal de textos zumbados (&#231; -> ç)
-function decodificarHTML(texto) {
-  if (!texto) return '';
-  let t = texto.replace(/&#(\d+);/g, (m, d) => String.fromCharCode(d))
-               .replace(/&#x([a-fA-F0-9]+);/gi, (m, h) => String.fromCharCode(parseInt(h, 16)));
-  
-  const entities = {
-    '&aacute;': 'á', '&Aacute;': 'Á', '&atilde;': 'ã', '&Atilde;': 'Ã',
-    '&acirc;': 'â', '&Acirc;': 'Â', '&agrave;': 'à', '&Agrave;': 'À',
-    '&eacute;': 'é', '&Eacute;': 'É', '&ecirc;': 'ê', '&Ecirc;': 'Ê',
-    '&iacute;': 'í', '&Iacute;': 'Í',
-    '&oacute;': 'ó', '&Oacute;': 'Ó', '&otilde;': 'õ', '&Otilde;': 'Õ',
-    '&ocirc;': 'ô', '&Ocirc;': 'Ô',
-    '&uacute;': 'ú', '&Uacute;': 'Ú',
-    '&ccedil;': 'ç', '&Ccedil;': 'Ç', '&ntilde;': 'ñ', '&Ntilde;': 'Ñ',
-    '&nbsp;': ' ', '&amp;': '&', '&lt;': '<', '&gt;': '>', '&quot;': '"', '&apos;': "'"
-  };
-  t = t.replace(/&[a-zA-Z]+;/g, m => entities[m] || m);
-  return t;
-}
 
-function escaparMarkdown(texto) {
-  if (!texto) return '';
-  let t = decodificarHTML(texto); // Limpa o HTML antes
-  return t
-    .replace(/[\u{1D400}-\u{1D7FF}]/gu, '')
-    .replace(/[\u{1F100}-\u{1F1FF}]/gu, '')
-    .replace(/([_*`\[])/g, '\\$1')
-    .trim();
-}
-
-function sanitizarTexto(texto) {
-  if (!texto) return '';
-  let t = decodificarHTML(texto); // Limpa o HTML antes
-  return t
-    .replace(/[\u{1D400}-\u{1D7FF}]/gu, '')
-    .replace(/[\u{1F100}-\u{1F1FF}]/gu, '')
-    .replace(/[*_`\[\]()~>#+=|{}.!]/g, '')
-    .trim();
-}
-
-function removerAcentos(texto) {
-  if (!texto) return '';
-  let t = decodificarHTML(texto);
-  return t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
-}
 
 function formatMoney(centavos) {
   return `R$ ${(centavos / 100).toFixed(2).replace('.', ',')}`;
@@ -566,8 +527,8 @@ async function mostrarDetalhesConteudo(chatId, contentId) {
     const emoji = content.mediaType === 'movie' ? '🎬' : '📺';
 
     const mensagem =
-      `${emoji} *${escaparMarkdown(content.title)}*\n\n` +
-      (content.episodeName ? `📺 ${escaparMarkdown(content.episodeName)}\n\n` : '') +
+      `${emoji} *${escaparMarkdownSeguro(content.title)}*\n\n` +
+      (content.episodeName ? `📺 ${escaparMarkdownSeguro(content.episodeName)}\n\n` : '') +
       `💰 Preço pago: ${formatMoney(content.price)}\n` +
       `📅 Comprado em: ${new Date(content.purchaseDate).toLocaleDateString('pt-BR', {
         day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
@@ -599,7 +560,7 @@ async function enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, m
     const emoji = mediaType === 'movie' ? '🎬' : '📺';
 
     await bot.sendMessage(chatId,
-      `✅ *Conteúdo Liberado!*\n\n${escaparMarkdown(caption)}\n\n${emoji} *Como assistir:*\n1. Clique no botão "▶️ Assistir Agora"\n2. O vídeo abrirá no seu navegador\n3. Assista em tela cheia!\n\n⏰ *Link válido por ${tempoValido}*\n📦 Salvo em "Meu Conteúdo"\n🔒 Link protegido por DRM`,
+      `✅ *Conteúdo Liberado!*\n\n${escaparMarkdownSeguro(caption)}\n\n${emoji} *Como assistir:*\n1. Clique no botão "▶️ Assistir Agora"\n2. O vídeo abrirá no seu navegador\n3. Assista em tela cheia!\n\n⏰ *Link válido por ${tempoValido}*\n📦 Salvo em "Meu Conteúdo"\n🔒 Link protegido por DRM`,
       {
         parse_mode: 'Markdown',
         reply_markup: {
@@ -792,7 +753,7 @@ async function verificarConteudosExpirando() {
 
         await bot.sendMessage(
           content.userId,
-          `⏰ *${tipo} Expirando em Breve!*\n\n${emoji} *${escaparMarkdown(nomeCompleto)}*\n\n${timeRemaining}\n\n⚠️ Assista agora antes que expire!`,
+          `⏰ *${tipo} Expirando em Breve!*\n\n${emoji} *${escaparMarkdownSeguro(nomeCompleto)}*\n\n${timeRemaining}\n\n⚠️ Assista agora antes que expire!`,
           {
             parse_mode: 'Markdown',
             reply_markup: {
@@ -840,7 +801,7 @@ bot.onText(/\/start/, async (msg) => {
 
     if (bloqueio.blocked) {
       bot.sendMessage(chatId,
-        `🚫 *Acesso Bloqueado*\n\n${escaparMarkdown(bloqueio.reason)}\n\nEntre em contato com o suporte.`,
+        `🚫 *Acesso Bloqueado*\n\n${escaparMarkdownSeguro(bloqueio.reason)}\n\nEntre em contato com o suporte.`,
         { parse_mode: 'Markdown' }
       );
       return;
@@ -1161,13 +1122,13 @@ bot.on('callback_query', async (query) => {
 
       userStates[chatId] = { step: 'details', data: detalhes, id, type };
       const saldoAtual = await getUserCredits(chatId);
-      const tituloSeguro = escaparMarkdown(detalhes.title);
+      const tituloSeguro = escaparMarkdownSeguro(detalhes.title);
 
       let mensagem = `🎬 *${tituloSeguro}*\n\n`;
-      if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdown(detalhes.info.genero)}\n`;
+      if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
       if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
       if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
-      if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdown(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
+      if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
       const keyboard = [];
 
@@ -1281,7 +1242,7 @@ bot.on('callback_query', async (query) => {
       bot.deleteMessage(chatId, msgId).catch(() => {});
       bot.sendMessage(
         chatId,
-        `📺 *${escaparMarkdown(state.data.title)}*\n*Temporada ${season}*\n\n` +
+        `📺 *${escaparMarkdownSeguro(state.data.title)}*\n*Temporada ${season}*\n\n` +
           `Total: ${episodios.length} episódio${episodios.length > 1 ? 's' : ''}\n` +
           `Preço da temporada: ${formatMoney(precoTotal)}\n` +
           `⏰ Válido por: 7 dias\n` +
@@ -1333,8 +1294,8 @@ bot.on('callback_query', async (query) => {
       bot.deleteMessage(chatId, msgId).catch(() => {});
 
       let mensagem =
-        `📺 *${escaparMarkdown(state.data.title)}*\n` +
-        `*Temporada ${season} - ${escaparMarkdown(episodio.name || 'Episódio')}*\n\n` +
+        `📺 *${escaparMarkdownSeguro(state.data.title)}*\n` +
+        `*Temporada ${season} - ${escaparMarkdownSeguro(episodio.name || 'Episódio')}*\n\n` +
         `⏱️ Duração: ~${pricing.duracaoMinutos}min\n` +
         `💰 Preço: ${formatMoney(pricing.precoFinal)}\n` +
         `⏰ Válido por: 7 dias\n` +
@@ -1460,7 +1421,7 @@ bot.on('callback_query', async (query) => {
 
       const novoSaldo = await getUserCredits(chatId);
       await bot.sendMessage(chatId,
-        `✅ *Pagamento Confirmado!*\n\n📺 Episódio: ${escaparMarkdown(nomeEpisodio)}\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏰ Link válido por *7 dias*`,
+        `✅ *Pagamento Confirmado!*\n\n📺 Episódio: ${escaparMarkdownSeguro(nomeEpisodio)}\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏰ Link válido por *7 dias*`,
         { parse_mode: 'Markdown' }
       );
 
