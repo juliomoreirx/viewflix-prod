@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ViewFlix Space: streaming de filmes e series sem mensalidade. Pague apenas pelo tempo que assistir, a R$2,50 por hora. Acesse via Telegram, sem cadastro, sem contrato.">
+    <meta name="keywords" content="streaming sem mensalidade, filmes por hora, series online, streaming barato, ViewFlix, pay-per-view filmes, streaming Telegram">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ViewFlix Space">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="ViewFlix Space — Streaming Sem Mensalidade. Pague So o Que Assistir.">
+    <meta property="og:description" content="35 mil filmes e 8 mil series a partir de R$1,75 por episodio. Sem contrato, sem cobranca automatica. Acesse agora pelo Telegram.">
+    <meta property="og:url" content="https://viewflixspace.com.br">
+    <meta property="og:site_name" content="ViewFlix Space">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ViewFlix Space — Streaming Sem Mensalidade">
+    <meta name="twitter:description" content="Pague apenas pelo tempo que assistir. R$2,50/hora, creditos que nunca expiram, zero contrato.">
+
+    <title>ViewFlix Space | Streaming Sem Mensalidade — Pague So o Que Assistir</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Ccircle cx='12' cy='8' r='4' fill='%234facfe'/%3E%3Crect x='7' y='13' width='10' height='7' rx='3' fill='%234facfe'/%3E%3Ccircle cx='12' cy='8' r='2.2' fill='%230b0c1b'/%3E%3Crect x='9.5' y='6.5' width='5' height='3' rx='1' fill='%234facfe' opacity='.4'/%3E%3Crect x='5' y='15' width='2' height='4' rx='1' fill='%234facfe' opacity='.7'/%3E%3Crect x='17' y='15' width='2' height='4' rx='1' fill='%234facfe' opacity='.7'/%3E%3C/svg%3E">
+
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","name":"ViewFlix Space","description":"Servico de streaming de filmes e series com cobranca por hora assistida, sem mensalidade.","provider":{"@type":"Organization","name":"ViewFlix Space"},"offers":{"@type":"Offer","price":"2.50","priceCurrency":"BRL","description":"Taxa por hora de conteudo assistido"}}</script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        html { scroll-padding-top: 72px; }
+        body {
+            background: linear-gradient(135deg, #050505 0%, #0b0c1b 50%, #1a1025 100%);
+            color: #e2e8f0;
+            overflow-x: hidden;
+        }
+        .stars-bg {
+            background-image: radial-gradient(#ffffff 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.08;
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(79,172,254,0.15);
+        }
+        .neon-border {
+            border: 1px solid rgba(79,172,254,0.45);
+            box-shadow: 0 0 20px rgba(79,172,254,0.1);
+        }
+        .pulse-cyan { animation: pulseCyan 2.5s infinite; }
+        @keyframes pulseCyan {
+            0%   { box-shadow: 0 0 0 0 rgba(79,172,254,0.4); }
+            70%  { box-shadow: 0 0 0 14px rgba(79,172,254,0); }
+            100% { box-shadow: 0 0 0 0 rgba(79,172,254,0); }
+        }
+        .floating { animation: floating 5s ease-in-out infinite; }
+        @keyframes floating {
+            0%,100% { transform: translateY(0px) rotate(0deg); }
+            50%     { transform: translateY(-18px) rotate(2deg); }
+        }
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: all 0.7s ease-out;
+        }
+        .scroll-reveal.active { opacity: 1; transform: translateY(0); }
+
+        /* Hamburger menu */
+        #mobile-menu { display: none; }
+        #mobile-menu.open { display: block; }
+        .ham-line {
+            display: block; width: 22px; height: 2px;
+            background: #e2e8f0; border-radius: 2px;
+            transition: all 0.25s ease;
+        }
+        #ham-btn.open .ham-line:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+        #ham-btn.open .ham-line:nth-child(2) { opacity: 0; }
+        #ham-btn.open .ham-line:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+        .step-card { position: relative; }
+        .step-card::before {
+            content: '';
+            position: absolute;
+            top: 50%; right: -1px;
+            width: 2px; height: 40%;
+            transform: translateY(-50%);
+            background: linear-gradient(180deg, transparent, rgba(79,172,254,0.3), transparent);
+        }
+        .step-card:last-child::before { display: none; }
+        @media (max-width: 767px) { .step-card::before { display: none; } }
+
+        .vantagem-icon {
+            width: 46px; height: 46px;
+            border-radius: 13px;
+            background: rgba(79,172,254,0.1);
+            border: 1px solid rgba(79,172,254,0.25);
+            display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0;
+        }
+        .price-row { transition: all 0.2s ease; }
+        .price-row:hover {
+            background: rgba(79,172,254,0.05);
+            border-radius: 8px;
+            padding-left: 8px; margin-left: -8px;
+        }
+        .faq-item summary { cursor: pointer; list-style: none; }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item[open] summary .faq-icon { transform: rotate(45deg); }
+        .faq-icon { transition: transform 0.2s ease; }
+        .badge-new {
+            background: rgba(0,242,254,0.12);
+            border: 1px solid rgba(0,242,254,0.3);
+            color: #00f2fe;
+        }
+
+        /* Mobile touch targets */
+        @media (max-width: 767px) {
+            .touch-btn { min-height: 52px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="stars-bg" aria-hidden="true"></div>
+
+    <!-- NAV -->
+    <nav class="fixed w-full z-50 glass border-b border-white/5" role="navigation" aria-label="Navegacao principal">
+        <div class="container mx-auto px-5 py-3.5 flex justify-between items-center">
+
+            <a href="/" class="flex items-center gap-2 shrink-0" aria-label="ViewFlix Space inicio">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="filter:drop-shadow(0 0 5px rgba(79,172,254,0.5))">
+                    <circle cx="12" cy="8" r="4" fill="#4facfe"/>
+                    <rect x="7" y="13" width="10" height="7" rx="3" fill="#4facfe"/>
+                    <circle cx="12" cy="8" r="2.2" fill="#0b0c1b"/>
+                    <rect x="9.5" y="6.5" width="5" height="3" rx="1" fill="#4facfe" opacity=".4"/>
+                    <rect x="5" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                    <rect x="17" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                </svg>
+                <span class="text-xl font-black tracking-tighter leading-none">VIEWFLIX <span class="gradient-text">SPACE</span></span>
+            </a>
+
+            <!-- Desktop links -->
+            <div class="hidden md:flex items-center space-x-7 font-medium text-xs uppercase tracking-widest text-gray-400">
+                <a href="#como-funciona" class="hover:text-white transition">Como Funciona</a>
+                <a href="#precos" class="hover:text-white transition">Precos</a>
+                <a href="#vantagens" class="hover:text-white transition">Vantagens</a>
+                <a href="#faq" class="hover:text-white transition">FAQ</a>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <a href="https://t.me/ViewFlixBOT" class="hidden sm:inline-flex items-center bg-[#4facfe] hover:bg-[#00f2fe] text-black px-5 py-2 rounded-full font-bold transition hover:scale-105 pulse-cyan text-sm whitespace-nowrap" rel="noopener">
+                    COMECAR AGORA
+                </a>
+                <!-- Hamburger -->
+                <button id="ham-btn" class="md:hidden flex flex-col gap-[5px] p-2 -mr-1" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <span class="ham-line"></span>
+                    <span class="ham-line"></span>
+                    <span class="ham-line"></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden glass border-t border-white/5 px-5 pb-5 pt-4" role="menu">
+            <div class="flex flex-col gap-1 text-sm font-medium text-gray-300 mb-4">
+                <a href="#como-funciona" class="py-2.5 px-3 rounded-xl hover:bg-white/5 transition" role="menuitem">Como Funciona</a>
+                <a href="#precos" class="py-2.5 px-3 rounded-xl hover:bg-white/5 transition" role="menuitem">Precos</a>
+                <a href="#vantagens" class="py-2.5 px-3 rounded-xl hover:bg-white/5 transition" role="menuitem">Vantagens</a>
+                <a href="#faq" class="py-2.5 px-3 rounded-xl hover:bg-white/5 transition" role="menuitem">FAQ</a>
+            </div>
+            <a href="https://t.me/ViewFlixBOT" class="flex items-center justify-center gap-2 w-full bg-gradient-to-r from-[#00f2fe] to-[#4facfe] text-black py-3.5 rounded-2xl font-black text-base touch-btn" rel="noopener">
+                <i class="fa-brands fa-telegram" aria-hidden="true"></i> Acessar pelo Telegram
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="relative pt-32 sm:pt-40 pb-20 sm:pb-28 px-5 overflow-hidden" aria-labelledby="hero-headline">
+        <div class="container mx-auto text-center relative z-10">
+
+            <div class="inline-flex items-center gap-2 badge-new px-4 py-1.5 rounded-full text-xs font-bold tracking-wider mb-7">
+                <span class="w-1.5 h-1.5 rounded-full bg-[#00f2fe] inline-block shrink-0"></span>
+                SEM MENSALIDADE · PAGUE SO O QUE ASSISTIR
+            </div>
+
+            <h1 id="hero-headline" class="text-4xl sm:text-6xl md:text-8xl font-black mb-5 leading-[1.05] tracking-tight">
+                Streaming do jeito<br>
+                <span class="gradient-text">que faz sentido.</span>
+            </h1>
+
+            <p class="text-base sm:text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-3 leading-relaxed px-2">
+                Chega de pagar mensalidade por catalogos que voce mal usa. Na <strong class="text-white font-semibold">ViewFlix Space</strong>, voce carrega creditos e so desconta quando assistir. <strong class="text-white font-semibold">R$2,50 por hora.</strong>
+            </p>
+            <p class="text-sm text-gray-500 max-w-md mx-auto mb-10 px-2">
+                Creditos que nunca expiram. Zero cobranca automatica. Acesso imediato pelo Telegram.
+            </p>
+
+            <div class="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-3 mb-5 px-2">
+                <a href="https://t.me/ViewFlixBOT" class="flex items-center justify-center gap-2 bg-gradient-to-r from-[#00f2fe] to-[#4facfe] text-black px-8 py-4 rounded-2xl font-black text-base sm:text-lg shadow-[0_0_30px_rgba(79,172,254,0.25)] hover:brightness-110 transition touch-btn" rel="noopener">
+                    <i class="fa-brands fa-telegram" aria-hidden="true"></i> Acessar pelo Telegram
+                </a>
+                <a href="#como-funciona" class="flex items-center justify-center glass px-8 py-4 rounded-2xl font-bold text-base sm:text-lg hover:bg-white/10 transition touch-btn">
+                    Como funciona?
+                </a>
+            </div>
+
+            <p class="text-xs text-gray-600 tracking-widest uppercase">Sem cadastro · Sem cartao · Sem contrato</p>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-16 max-w-3xl mx-auto px-1">
+                <div class="glass p-4 sm:p-6 rounded-2xl sm:rounded-3xl">
+                    <div class="text-2xl sm:text-4xl font-black gradient-text">35k+</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-wider mt-1.5 leading-tight">Filmes em HD</div>
+                </div>
+                <div class="glass p-4 sm:p-6 rounded-2xl sm:rounded-3xl">
+                    <div class="text-2xl sm:text-4xl font-black gradient-text">8k+</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-wider mt-1.5 leading-tight">Series Completas</div>
+                </div>
+                <div class="glass p-4 sm:p-6 rounded-2xl sm:rounded-3xl">
+                    <div class="text-2xl sm:text-4xl font-black gradient-text">R$2,50</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-wider mt-1.5 leading-tight">Por Hora Assistida</div>
+                </div>
+                <div class="glass p-4 sm:p-6 rounded-2xl sm:rounded-3xl">
+                    <div class="text-2xl sm:text-4xl font-black gradient-text">Zero</div>
+                    <div class="text-xs text-gray-500 uppercase tracking-wider mt-1.5 leading-tight">Mensalidade</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decorative (hidden on mobile to prevent overflow) -->
+        <div class="hidden sm:block absolute top-1/3 -left-10 opacity-10 floating pointer-events-none" aria-hidden="true">
+            <svg width="160" height="160" viewBox="0 0 64 64" fill="none">
+                <rect x="28" y="20" width="8" height="24" rx="2" fill="#4facfe"/>
+                <rect x="20" y="28" width="24" height="8" rx="2" fill="#4facfe"/>
+                <circle cx="32" cy="32" r="5" fill="#0b0c1b" stroke="#4facfe" stroke-width="2"/>
+                <rect x="4" y="26" width="16" height="12" rx="2" fill="#4facfe" opacity=".5"/>
+                <rect x="44" y="26" width="16" height="12" rx="2" fill="#4facfe" opacity=".5"/>
+            </svg>
+        </div>
+        <div class="hidden sm:block absolute bottom-1/4 -right-10 opacity-8 floating pointer-events-none" style="animation-delay:-2s" aria-hidden="true">
+            <svg width="110" height="110" viewBox="0 0 64 64" fill="none">
+                <circle cx="32" cy="32" r="14" fill="#4facfe" opacity=".12" stroke="#4facfe" stroke-width="1.5"/>
+                <ellipse cx="32" cy="32" rx="28" ry="8" fill="none" stroke="#4facfe" stroke-width="1.5" opacity=".35" transform="rotate(-20 32 32)"/>
+                <circle cx="32" cy="32" r="7" fill="#4facfe" opacity=".4"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="py-16 sm:py-24 px-5 scroll-reveal" aria-labelledby="como-funciona-titulo">
+        <div class="container mx-auto">
+            <div class="text-center mb-12 sm:mb-16">
+                <h2 id="como-funciona-titulo" class="text-3xl sm:text-4xl md:text-5xl font-black mb-3 tracking-tight">Do zero ao play em <span class="gradient-text">4 passos</span></h2>
+                <p class="text-gray-500 text-sm sm:text-base max-w-md mx-auto">Sem burocracia. O processo inteiro leva menos de tres minutos.</p>
+                <div class="h-px w-16 bg-gradient-to-r from-transparent via-[#4facfe] to-transparent mx-auto mt-5"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 sm:gap-5">
+                <div class="step-card group">
+                    <div class="glass p-6 sm:p-8 rounded-3xl text-center h-full border-white/5 group-hover:border-[#4facfe]/40 transition-all duration-300">
+                        <div class="w-11 h-11 rounded-xl bg-[#4facfe]/10 border border-[#4facfe]/25 flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-brands fa-telegram text-[#4facfe] text-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="text-xs text-[#4facfe] font-bold tracking-widest uppercase mb-2">01</div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-2">Acesse o Bot</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Abra o Telegram e inicie conversa com <strong class="text-gray-300">@ViewFlixBOT</strong>. Sem formulario, sem email.</p>
+                    </div>
+                </div>
+
+                <div class="step-card group">
+                    <div class="glass p-6 sm:p-8 rounded-3xl text-center h-full border-white/5 group-hover:border-[#4facfe]/40 transition-all duration-300">
+                        <div class="w-11 h-11 rounded-xl bg-[#4facfe]/10 border border-[#4facfe]/25 flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-solid fa-wallet text-[#4facfe] text-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="text-xs text-[#4facfe] font-bold tracking-widest uppercase mb-2">02</div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-2">Adicione Creditos</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Deposite via PIX o valor que quiser. Seus creditos ficam na carteira <strong class="text-gray-300">sem prazo de validade</strong>.</p>
+                    </div>
+                </div>
+
+                <div class="step-card group">
+                    <div class="glass p-6 sm:p-8 rounded-3xl text-center h-full border-white/5 group-hover:border-[#4facfe]/40 transition-all duration-300">
+                        <div class="w-11 h-11 rounded-xl bg-[#4facfe]/10 border border-[#4facfe]/25 flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-solid fa-magnifying-glass text-[#4facfe] text-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="text-xs text-[#4facfe] font-bold tracking-widest uppercase mb-2">03</div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-2">Escolha o Titulo</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Pesquise entre mais de 35 mil titulos. O sistema exibe o <strong class="text-gray-300">custo exato</strong> antes de voce confirmar.</p>
+                    </div>
+                </div>
+
+                <div class="step-card group">
+                    <div class="glass p-6 sm:p-8 rounded-3xl text-center h-full border-white/5 group-hover:border-[#4facfe]/40 transition-all duration-300">
+                        <div class="w-11 h-11 rounded-xl bg-[#4facfe]/10 border border-[#4facfe]/25 flex items-center justify-center mx-auto mb-4">
+                            <i class="fa-solid fa-play text-[#4facfe] text-lg" aria-hidden="true"></i>
+                        </div>
+                        <div class="text-xs text-[#4facfe] font-bold tracking-widest uppercase mb-2">04</div>
+                        <h3 class="text-lg sm:text-xl font-bold mb-2">Assista</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed">Player exclusivo, alta definicao, <strong class="text-gray-300">zero delay</strong>. Filmes por 24h, series por 7 dias.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRECOS -->
+    <section id="precos" class="py-16 sm:py-24 px-5 bg-black/30 scroll-reveal" aria-labelledby="precos-titulo">
+        <div class="container mx-auto max-w-4xl">
+            <div class="text-center mb-12 sm:mb-14">
+                <h2 id="precos-titulo" class="text-3xl sm:text-4xl md:text-5xl font-black mb-3 tracking-tight">Transparencia <span class="gradient-text">total nos precos</span></h2>
+                <p class="text-gray-500 text-sm sm:text-base max-w-md mx-auto">Sem surpresas. Voce ve o valor antes de confirmar qualquer titulo.</p>
+                <div class="h-px w-16 bg-gradient-to-r from-transparent via-[#4facfe] to-transparent mx-auto mt-5"></div>
+            </div>
+
+            <div class="glass p-6 sm:p-10 rounded-3xl sm:rounded-[44px] neon-border">
+                <div class="grid md:grid-cols-2 gap-8 md:gap-14">
+
+                    <div>
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-5">Exemplos de custo</h3>
+                        <div class="space-y-4">
+                            <div class="price-row flex justify-between items-center pb-3.5 border-b border-white/8">
+                                <div>
+                                    <span class="text-sm sm:text-base font-medium">Episodio de serie</span>
+                                    <span class="text-xs text-gray-500 block mt-0.5">~42 minutos</span>
+                                </div>
+                                <span class="font-black text-[#4facfe] text-base sm:text-lg shrink-0 ml-4">R$ 1,75</span>
+                            </div>
+                            <div class="price-row flex justify-between items-center pb-3.5 border-b border-white/8">
+                                <div>
+                                    <span class="text-sm sm:text-base font-medium">Filme padrao</span>
+                                    <span class="text-xs text-gray-500 block mt-0.5">~1h 30min</span>
+                                </div>
+                                <span class="font-black text-[#4facfe] text-base sm:text-lg shrink-0 ml-4">R$ 3,75</span>
+                            </div>
+                            <div class="price-row flex justify-between items-center pb-3.5 border-b border-white/8">
+                                <div>
+                                    <span class="text-sm sm:text-base font-medium">Filme longo</span>
+                                    <span class="text-xs text-gray-500 block mt-0.5">~3 horas</span>
+                                </div>
+                                <span class="font-black text-[#4facfe] text-base sm:text-lg shrink-0 ml-4">R$ 7,50</span>
+                            </div>
+                            <div class="price-row flex justify-between items-center">
+                                <div>
+                                    <span class="text-sm sm:text-base font-medium">Temporada completa</span>
+                                    <span class="text-xs text-gray-500 block mt-0.5">10 eps ~42min</span>
+                                </div>
+                                <span class="font-black text-[#4facfe] text-base sm:text-lg shrink-0 ml-4">R$ 17,50</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col justify-center">
+                        <div class="bg-[#4facfe]/8 border border-[#4facfe]/20 p-6 sm:p-8 rounded-2xl sm:rounded-3xl text-center mb-5">
+                            <div class="text-xs font-bold uppercase tracking-widest text-gray-400 mb-2">Taxa unica por hora</div>
+                            <div class="text-5xl sm:text-6xl font-black text-[#4facfe] leading-none">R$2,50</div>
+                            <div class="text-xs text-gray-500 mt-2 uppercase tracking-widest">por hora de conteudo</div>
+                        </div>
+                        <ul class="space-y-2.5 text-sm text-gray-400">
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-[#4facfe] text-xs mt-1 shrink-0" aria-hidden="true"></i>
+                                Valor descontado proporcionalmente a duracao
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-[#4facfe] text-xs mt-1 shrink-0" aria-hidden="true"></i>
+                                Creditos nao expiram — acumule sem pressa
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-[#4facfe] text-xs mt-1 shrink-0" aria-hidden="true"></i>
+                                Nenhuma cobranca automatica ou recorrente
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-[#4facfe] text-xs mt-1 shrink-0" aria-hidden="true"></i>
+                                Pagamento via PIX, confirmacao instantanea
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-8 pt-6 border-t border-white/8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                    <p class="text-xs sm:text-sm text-gray-500 leading-relaxed">
+                        <i class="fa-solid fa-circle-info mr-1 text-[#4facfe]" aria-hidden="true"></i>
+                        Filmes liberados por 24h apos a compra. Series liberadas por 7 dias por temporada.
+                    </p>
+                    <a href="https://t.me/ViewFlixBOT" class="w-full sm:w-auto text-center bg-gradient-to-r from-[#00f2fe] to-[#4facfe] text-black px-7 py-3 rounded-full font-bold text-sm hover:brightness-110 transition whitespace-nowrap touch-btn flex items-center justify-center" rel="noopener">
+                        Carregar creditos agora
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VANTAGENS -->
+    <section id="vantagens" class="py-16 sm:py-24 px-5 scroll-reveal" aria-labelledby="vantagens-titulo">
+        <div class="container mx-auto">
+            <div class="text-center mb-12 sm:mb-16">
+                <h2 id="vantagens-titulo" class="text-3xl sm:text-4xl md:text-5xl font-black mb-3 tracking-tight">Por que a <span class="gradient-text">ViewFlix Space</span>?</h2>
+                <p class="text-gray-500 text-sm sm:text-base max-w-md mx-auto">Um modelo pensado para quem assiste com consciencia — e nao quer pagar por tempo que nao usa.</p>
+                <div class="h-px w-16 bg-gradient-to-r from-transparent via-[#4facfe] to-transparent mx-auto mt-5"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+                <div class="glass p-6 sm:p-7 rounded-3xl border-white/5 hover:border-[#4facfe]/35 transition-all duration-300 group">
+                    <div class="vantagem-icon mb-4 group-hover:bg-[#4facfe]/20 transition">
+                        <i class="fa-solid fa-ban text-[#4facfe]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-base sm:text-lg font-bold mb-2">Sem contrato ou fidelidade</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Nao existe clausula de permanencia, multa por cancelamento ou renovacao automatica. Voce e livre para usar quando quiser.</p>
+                </div>
+
+                <div class="glass p-6 sm:p-7 rounded-3xl border-white/5 hover:border-[#4facfe]/35 transition-all duration-300 group">
+                    <div class="vantagem-icon mb-4 group-hover:bg-[#4facfe]/20 transition">
+                        <i class="fa-solid fa-coins text-[#4facfe]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-base sm:text-lg font-bold mb-2">Creditos sem validade</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Carregou R$50 hoje e so vai usar daqui a tres meses? Sem problema. Seu saldo fica intacto — sem desconto por inatividade.</p>
+                </div>
+
+                <div class="glass p-6 sm:p-7 rounded-3xl border-white/5 hover:border-[#4facfe]/35 transition-all duration-300 group">
+                    <div class="vantagem-icon mb-4 group-hover:bg-[#4facfe]/20 transition">
+                        <i class="fa-solid fa-display text-[#4facfe]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-base sm:text-lg font-bold mb-2">Player em alta definicao</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Tecnologia de streaming otimizada para conexoes brasileiras. Full HD, legendas em portugues e carregamento rapido.</p>
+                </div>
+
+                <div class="glass p-6 sm:p-7 rounded-3xl border-white/5 hover:border-[#4facfe]/35 transition-all duration-300 group">
+                    <div class="vantagem-icon mb-4 group-hover:bg-[#4facfe]/20 transition">
+                        <i class="fa-solid fa-layer-group text-[#4facfe]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-base sm:text-lg font-bold mb-2">Catalogo amplo e atualizado</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Mais de 35 mil filmes e 8 mil series, com titulos novos adicionados regularmente. De classicos a lancamentos recentes.</p>
+                </div>
+
+                <div class="glass p-6 sm:p-7 rounded-3xl border-white/5 hover:border-[#4facfe]/35 transition-all duration-300 group">
+                    <div class="vantagem-icon mb-4 group-hover:bg-[#4facfe]/20 transition">
+                        <i class="fa-solid fa-bolt text-[#4facfe]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-base sm:text-lg font-bold mb-2">Acesso imediato via Telegram</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Sem app para instalar, sem senha para criar. O bot no Telegram e sua central: busca, compra e reproducao em um so lugar.</p>
+                </div>
+
+                <div class="glass p-6 sm:p-7 rounded-3xl border-white/5 hover:border-[#4facfe]/35 transition-all duration-300 group">
+                    <div class="vantagem-icon mb-4 group-hover:bg-[#4facfe]/20 transition">
+                        <i class="fa-solid fa-shield-halved text-[#4facfe]" aria-hidden="true"></i>
+                    </div>
+                    <h3 class="text-base sm:text-lg font-bold mb-2">Pagamento seguro via PIX</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Transacoes via sistema oficial do Banco Central. Confirmacao em segundos, sem compartilhar dados bancarios ou cartao.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPARATIVO -->
+    <section class="py-16 sm:py-20 px-5 bg-black/40 scroll-reveal" aria-labelledby="comparativo-titulo">
+        <div class="container mx-auto max-w-3xl">
+            <div class="text-center mb-10 sm:mb-12">
+                <h2 id="comparativo-titulo" class="text-2xl sm:text-3xl md:text-4xl font-black mb-3 tracking-tight">ViewFlix Space vs. <span class="gradient-text">mensalidade tradicional</span></h2>
+                <p class="text-gray-500 text-sm">Quem assiste menos de 80h por mes economiza. Veja a diferenca.</p>
+            </div>
+
+            <!-- Scroll container para mobile -->
+            <div class="overflow-x-auto -mx-5 px-5">
+                <div class="min-w-[520px]">
+                    <div class="glass rounded-2xl sm:rounded-3xl overflow-hidden neon-border">
+                        <table class="w-full text-sm" role="table" aria-label="Comparativo de precos">
+                            <thead>
+                                <tr class="border-b border-white/10">
+                                    <th class="py-4 px-5 text-left text-gray-500 font-medium text-xs" scope="col">Caracteristica</th>
+                                    <th class="py-4 px-5 text-center font-bold text-[#4facfe] text-xs" scope="col">ViewFlix Space</th>
+                                    <th class="py-4 px-5 text-center text-gray-400 font-medium text-xs" scope="col">Streaming Tradicional</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b border-white/5">
+                                    <td class="py-3.5 px-5 text-gray-400 text-xs sm:text-sm">Custo mensal (40h assistidas)</td>
+                                    <td class="py-3.5 px-5 text-center font-bold text-white text-xs sm:text-sm">R$ 100,00</td>
+                                    <td class="py-3.5 px-5 text-center text-gray-400 text-xs sm:text-sm">R$ 45 a R$ 80</td>
+                                </tr>
+                                <tr class="border-b border-white/5 bg-[#4facfe]/3">
+                                    <td class="py-3.5 px-5 text-gray-400 text-xs sm:text-sm">Custo mensal (10h assistidas)</td>
+                                    <td class="py-3.5 px-5 text-center font-black text-[#4facfe] text-xs sm:text-sm">R$ 25,00</td>
+                                    <td class="py-3.5 px-5 text-center text-gray-400 text-xs sm:text-sm">R$ 45 a R$ 80</td>
+                                </tr>
+                                <tr class="border-b border-white/5">
+                                    <td class="py-3.5 px-5 text-gray-400 text-xs sm:text-sm">Cobranca automatica</td>
+                                    <td class="py-3.5 px-5 text-center"><span class="text-emerald-400 font-bold text-xs">NAO</span></td>
+                                    <td class="py-3.5 px-5 text-center"><span class="text-gray-500 text-xs">SIM</span></td>
+                                </tr>
+                                <tr class="border-b border-white/5">
+                                    <td class="py-3.5 px-5 text-gray-400 text-xs sm:text-sm">Credito expira</td>
+                                    <td class="py-3.5 px-5 text-center"><span class="text-emerald-400 font-bold text-xs">NAO</span></td>
+                                    <td class="py-3.5 px-5 text-center text-gray-500 text-xs">N/A</td>
+                                </tr>
+                                <tr>
+                                    <td class="py-3.5 px-5 text-gray-400 text-xs sm:text-sm">Sem cadastro de cartao</td>
+                                    <td class="py-3.5 px-5 text-center"><span class="text-emerald-400 font-bold text-xs">SIM</span></td>
+                                    <td class="py-3.5 px-5 text-center"><span class="text-gray-500 text-xs">NAO</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <p class="text-xs text-center text-gray-600 mt-3 px-2">* Simulacao com base na taxa de R$2,50/hora. Precos de concorrentes podem variar.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="py-16 sm:py-24 px-5 scroll-reveal" aria-labelledby="faq-titulo">
+        <div class="container mx-auto max-w-2xl">
+            <div class="text-center mb-12 sm:mb-14">
+                <h2 id="faq-titulo" class="text-3xl sm:text-4xl font-black mb-3 tracking-tight">Perguntas <span class="gradient-text">frequentes</span></h2>
+                <div class="h-px w-16 bg-gradient-to-r from-transparent via-[#4facfe] to-transparent mx-auto mt-5"></div>
+            </div>
+
+            <div class="space-y-2.5">
+                <details class="faq-item glass rounded-2xl border-white/5 hover:border-[#4facfe]/30 transition" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <summary class="flex justify-between items-center px-5 sm:px-7 py-4 sm:py-5" itemprop="name">
+                        <span class="font-semibold text-sm sm:text-base pr-4">Preciso criar uma conta ou fornecer email?</span>
+                        <i class="fa-solid fa-plus faq-icon text-[#4facfe] flex-shrink-0 text-sm" aria-hidden="true"></i>
+                    </summary>
+                    <div class="px-5 sm:px-7 pb-4 sm:pb-5" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm leading-relaxed" itemprop="text">Nao. O acesso e feito integralmente via Telegram. Basta iniciar conversa com o bot, sem formulario, sem email e sem senha adicional.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item glass rounded-2xl border-white/5 hover:border-[#4facfe]/30 transition" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <summary class="flex justify-between items-center px-5 sm:px-7 py-4 sm:py-5" itemprop="name">
+                        <span class="font-semibold text-sm sm:text-base pr-4">Os creditos tem prazo de validade?</span>
+                        <i class="fa-solid fa-plus faq-icon text-[#4facfe] flex-shrink-0 text-sm" aria-hidden="true"></i>
+                    </summary>
+                    <div class="px-5 sm:px-7 pb-4 sm:pb-5" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm leading-relaxed" itemprop="text">Nao expiram. Voce pode adicionar creditos hoje e usa-los meses depois sem perder nenhum centavo do saldo.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item glass rounded-2xl border-white/5 hover:border-[#4facfe]/30 transition" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <summary class="flex justify-between items-center px-5 sm:px-7 py-4 sm:py-5" itemprop="name">
+                        <span class="font-semibold text-sm sm:text-base pr-4">Como e feita a cobranca exatamente?</span>
+                        <i class="fa-solid fa-plus faq-icon text-[#4facfe] flex-shrink-0 text-sm" aria-hidden="true"></i>
+                    </summary>
+                    <div class="px-5 sm:px-7 pb-4 sm:pb-5" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm leading-relaxed" itemprop="text">A taxa e de R$2,50 por hora, cobrada proporcionalmente a duracao do titulo. Antes de confirmar a compra, o bot exibe o valor exato. Voce decide antes de pagar.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item glass rounded-2xl border-white/5 hover:border-[#4facfe]/30 transition" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <summary class="flex justify-between items-center px-5 sm:px-7 py-4 sm:py-5" itemprop="name">
+                        <span class="font-semibold text-sm sm:text-base pr-4">Posso assistir em qualquer dispositivo?</span>
+                        <i class="fa-solid fa-plus faq-icon text-[#4facfe] flex-shrink-0 text-sm" aria-hidden="true"></i>
+                    </summary>
+                    <div class="px-5 sm:px-7 pb-4 sm:pb-5" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm leading-relaxed" itemprop="text">Sim. O player e acessado via navegador, entao funciona em celular, computador ou tablet — qualquer dispositivo com internet e Telegram instalado.</p>
+                    </div>
+                </details>
+
+                <details class="faq-item glass rounded-2xl border-white/5 hover:border-[#4facfe]/30 transition" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <summary class="flex justify-between items-center px-5 sm:px-7 py-4 sm:py-5" itemprop="name">
+                        <span class="font-semibold text-sm sm:text-base pr-4">O catalogo e atualizado com lancamentos?</span>
+                        <i class="fa-solid fa-plus faq-icon text-[#4facfe] flex-shrink-0 text-sm" aria-hidden="true"></i>
+                    </summary>
+                    <div class="px-5 sm:px-7 pb-4 sm:pb-5" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <p class="text-gray-400 text-sm leading-relaxed" itemprop="text">Sim. Novos titulos sao adicionados regularmente. Voce pode buscar diretamente pelo bot para verificar a disponibilidade de qualquer titulo.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="py-16 sm:py-24 px-5 scroll-reveal" aria-labelledby="cta-titulo">
+        <div class="container mx-auto max-w-2xl text-center">
+            <div class="glass p-8 sm:p-14 rounded-3xl sm:rounded-[44px] neon-border relative overflow-hidden">
+                <div class="absolute inset-0 bg-gradient-to-b from-[#4facfe]/5 to-transparent pointer-events-none" aria-hidden="true"></div>
+                <div class="relative z-10">
+                    <h2 id="cta-titulo" class="text-2xl sm:text-4xl md:text-5xl font-black mb-4 tracking-tight leading-tight">
+                        Pronto para parar de<br><span class="gradient-text">pagar por assinatura?</span>
+                    </h2>
+                    <p class="text-gray-400 text-sm sm:text-base max-w-md mx-auto mb-8 leading-relaxed">
+                        Comece agora sem compromisso. Adicione o valor que quiser, assista o que quiser, quando quiser.
+                    </p>
+                    <a href="https://t.me/ViewFlixBOT" class="inline-flex items-center justify-center gap-2.5 w-full sm:w-auto bg-gradient-to-r from-[#00f2fe] to-[#4facfe] text-black px-10 py-4 sm:py-5 rounded-2xl font-black text-lg shadow-[0_0_40px_rgba(79,172,254,0.25)] hover:brightness-110 transition touch-btn" rel="noopener">
+                        <i class="fa-brands fa-telegram" aria-hidden="true"></i> Acessar pelo Telegram
+                    </a>
+                    <p class="text-xs text-gray-600 mt-5 uppercase tracking-widest">Sem cadastro · Sem cartao · Sem contrato</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 sm:py-16 px-5 border-t border-white/5" role="contentinfo">
+        <div class="container mx-auto">
+            <div class="flex flex-col gap-10 mb-10 sm:flex-row sm:justify-between sm:items-start">
+                <div class="max-w-xs">
+                    <div class="flex items-center gap-2 mb-3">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                            <circle cx="12" cy="8" r="4" fill="#4facfe"/>
+                            <rect x="7" y="13" width="10" height="7" rx="3" fill="#4facfe"/>
+                            <circle cx="12" cy="8" r="2.2" fill="#0b0c1b"/>
+                            <rect x="9.5" y="6.5" width="5" height="3" rx="1" fill="#4facfe" opacity=".4"/>
+                            <rect x="5" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                            <rect x="17" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                        </svg>
+                        <span class="text-xl font-black tracking-tighter">VIEWFLIX <span class="gradient-text">SPACE</span></span>
+                    </div>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        Entretenimento sem contrato, sem cobranca automatica e sem letras miudas. Pague so pelo que assistir.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-8 sm:gap-12 text-sm">
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-4">Navegacao</h4>
+                        <ul class="space-y-2.5 text-gray-400">
+                            <li><a href="#como-funciona" class="hover:text-white transition">Como funciona</a></li>
+                            <li><a href="#precos" class="hover:text-white transition">Precos</a></li>
+                            <li><a href="#vantagens" class="hover:text-white transition">Vantagens</a></li>
+                            <li><a href="#faq" class="hover:text-white transition">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-widest text-gray-500 mb-4">Contato</h4>
+                        <ul class="space-y-2.5 text-gray-400">
+                            <li><a href="https://t.me/ViewFlixBOT" class="hover:text-[#4facfe] transition flex items-center gap-2" rel="noopener"><i class="fa-brands fa-telegram w-4 shrink-0" aria-hidden="true"></i> Telegram</a></li>
+                            <li><a href="#" class="hover:text-[#4facfe] transition flex items-center gap-2"><i class="fa-brands fa-instagram w-4 shrink-0" aria-hidden="true"></i> Instagram</a></li>
+                            <li><a href="#" class="hover:text-[#4facfe] transition flex items-center gap-2"><i class="fa-solid fa-envelope w-4 shrink-0" aria-hidden="true"></i> E-mail</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-gray-600">
+                <div class="uppercase tracking-widest text-center sm:text-left">
+                    &copy; 2026 ViewFlix Space &middot; Todos os direitos reservados
+                </div>
+                <div class="flex gap-5">
+                    <a href="#" class="hover:text-gray-400 transition">Politica de Privacidade</a>
+                    <a href="#" class="hover:text-gray-400 transition">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll reveal
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('active');
+            });
+        }, { threshold: 0.07 });
+        document.querySelectorAll('.scroll-reveal').forEach(el => observer.observe(el));
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const href = this.getAttribute('href');
+                if (href === '#') return;
+                const target = document.querySelector(href);
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    // Fecha menu mobile se estiver aberto
+                    mobileMenu.classList.remove('open');
+                    hamBtn.classList.remove('open');
+                    hamBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        });
+
+        // Hamburger menu
+        const hamBtn = document.getElementById('ham-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        hamBtn.addEventListener('click', () => {
+            const isOpen = mobileMenu.classList.toggle('open');
+            hamBtn.classList.toggle('open', isOpen);
+            hamBtn.setAttribute('aria-expanded', String(isOpen));
+        });
+
+        // Fecha menu ao clicar fora
+        document.addEventListener('click', (e) => {
+            if (!hamBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+                mobileMenu.classList.remove('open');
+                hamBtn.classList.remove('open');
+                hamBtn.setAttribute('aria-expanded', 'false');
+            }
+        });
+    </script>
+</body>
+</html>

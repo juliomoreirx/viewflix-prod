@@ -5,7 +5,6 @@ const rateLimit = require('express-rate-limit');
 
 const env = require('./config/env');
 const requestContext = require('./middlewares/request-context');
-const { notFoundHandler, errorHandler } = require('./middlewares/error-handler');
 const routes = require('./routes');
 
 const app = express();
@@ -19,8 +18,6 @@ app.use(helmet({
 }));
 
 // CORS: permite o domínio público E o worker do Cloudflare
-// O relay-stream não precisa de CORS (é chamado server-to-server pelo worker)
-// mas o player e APIs do browser precisam
 const allowedOrigins = [
   env.DOMINIO_PUBLICO,
   'https://fasttv-worker.julinhopentakill.workers.dev',
@@ -52,8 +49,14 @@ app.use(rateLimit({
 }));
 
 // ==========================================
-// PÁGINA 404 PERSONALIZADA (PERDIDO NO ESPAÇO)
-// Coloque isto APÓS todas as outras rotas
+// 1. ROTAS PRINCIPAIS (PLAYER, API, ETC)
+// Isto tem que vir ANTES das telas de erro!
+// ==========================================
+app.use(routes);
+
+// ==========================================
+// 2. PÁGINA 404 PERSONALIZADA (PERDIDO NO ESPAÇO)
+// Se não achou em "routes" acima, cai aqui.
 // ==========================================
 app.use((req, res, next) => {
   res.status(404).send(`
@@ -103,8 +106,8 @@ app.use((req, res, next) => {
 });
 
 // ==========================================
-// PÁGINA 500 PERSONALIZADA (FALHA NO MOTOR DE DOBRA)
-// Coloque isto no FIM DE TUDO (O Express reconhece pelo "err" como primeiro parâmetro)
+// 3. PÁGINA 500 PERSONALIZADA (FALHA NO MOTOR DE DOBRA)
+// Se o código de alguma rota der "crash", cai aqui.
 // ==========================================
 app.use((err, req, res, next) => {
   console.error('Erro de Servidor detectado:', err.message);
@@ -147,9 +150,5 @@ app.use((err, req, res, next) => {
 </body>
 </html>`);
 });
-
-app.use(routes);
-app.use(notFoundHandler);
-app.use(errorHandler);
 
 module.exports = app;
