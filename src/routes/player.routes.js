@@ -51,25 +51,26 @@ router.get('/player/:token', async (req, res) => {
     // ==========================================
     // NOVO FRONT-END VIEWFLIX SPACE
     // ==========================================
-    res.send(`
+ res.send(`
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${purchase.title} - ViewFlix Space</title>
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%234facfe'>👨‍🚀</text></svg>">
+  
   <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      /* Fundo espacial elegante (gradiente escuro) */
       background: linear-gradient(135deg, #050505 0%, #0b0c1b 50%, #1a1025 100%);
       display: flex; flex-direction: column; justify-content: center; align-items: center;
       min-height: 100vh; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #e2e8f0; user-select: none;
     }
     
-    /* Efeito de estrelas sutil no background */
     body::before {
       content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%;
       background-image: radial-gradient(#ffffff 1px, transparent 1px), radial-gradient(#ffffff 1px, transparent 1px);
@@ -79,7 +80,6 @@ router.get('/player/:token', async (req, res) => {
 
     .container { width: 100%; max-width: 1400px; padding: 20px; position: relative; z-index: 1; }
     
-    /* Logo ViewFlix Space */
     .logo { 
       font-size: 34px; font-weight: 800; text-align: center; margin-bottom: 30px; 
       color: #fff; letter-spacing: 1.5px; text-transform: uppercase;
@@ -99,7 +99,6 @@ router.get('/player/:token', async (req, res) => {
     }
     .video-js { width: 100%; height: 80vh; font-family: 'Segoe UI', Arial, sans-serif; }
     
-    /* Customização do Video.js para o tema Espacial */
     .vjs-theme-viewflix .vjs-control-bar { background: linear-gradient(to top, rgba(5,5,5,0.95) 0%, rgba(11,12,27,0.8) 50%, transparent 100%); height: 4.5em; }
     
     .vjs-theme-viewflix .vjs-big-play-button { 
@@ -118,7 +117,6 @@ router.get('/player/:token', async (req, res) => {
     }
     .vjs-slider { background-color: rgba(255,255,255,0.15); }
 
-    /* Barra de Informações */
     .info-bar { 
       background: rgba(11, 12, 27, 0.7); backdrop-filter: blur(20px); padding: 25px; 
       border-radius: 16px; margin-top: 25px; border: 1px solid rgba(255,255,255,0.08); 
@@ -164,7 +162,6 @@ router.get('/player/:token', async (req, res) => {
   </div>
   <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
   <script>
-    // Configuração do Cronômetro (Já atualizado com os dias!)
     const expirationTime = ${expirationTimestamp};
     const countdownEl = document.getElementById('countdown');
 
@@ -203,7 +200,6 @@ router.get('/player/:token', async (req, res) => {
     updateCountdown();
     const timerInterval = setInterval(updateCountdown, 1000);
 
-    // Configuração do Player
     let player;
     let retryCount = 0;
 
@@ -256,14 +252,13 @@ router.get('/player/:token', async (req, res) => {
   } catch (error) {
     console.error('Erro no player:', error.message);
     
-    // ==========================================
-    // TELA DE ERRO (ACESSO NEGADO) TEMA ESPACIAL
-    // ==========================================
+    // TELA DE ERRO (ACESSO NEGADO) TEMA ESPACIAL (COM ASTRONAUTA NA ABA TAMBÉM)
     res.status(403).send(`
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8"><title>Acesso Negado - ViewFlix Space</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%234facfe'>👨‍🚀</text></svg>">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -286,7 +281,7 @@ router.get('/player/:token', async (req, res) => {
     }
     h1{ color: #4facfe; margin-bottom: 20px; font-size: 32px; font-weight: 800; text-shadow: 0 0 15px rgba(79, 172, 254, 0.4); }
     h1 i { font-size: 40px; margin-bottom: 15px; display: block; }
-    p { color: #94a3b8; font-size: 16px; line-height: 1.6; }
+    p { color: #94a3b8; font-size: 16px; line-height: 1.6; margin-bottom: 25px; }
   </style>
 </head>
 <body>
