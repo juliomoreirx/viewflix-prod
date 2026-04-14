@@ -56,11 +56,28 @@ console.log('✅ [Bot] Variáveis de ambiente carregadas');
 const bot = new TelegramBot(BOT_TOKEN, { polling: false });
 
 // ============================
-// ESTADO E CACHE
+// GARBAGE COLLECTION E ESTADO 
 // ============================
 let userStates = {};
 let pendingPayments = {};
-let paymentCheckIntervals = {};
+let paymentCheckIntervals = {}
+
+// Limpa memória a cada 30 minutos
+setInterval(() => {
+  const agora = Date.now();
+  // Limpar estados inativos há mais de 1 hora
+  for (const chatId in userStates) {
+    if (userStates[chatId].updatedAt && (agora - userStates[chatId].updatedAt > 3600000)) {
+      delete userStates[chatId];
+    }
+  }
+  // Limpar pagamentos pendentes expirados
+  for (const pixId in pendingPayments) {
+    if (pendingPayments[pixId].timestamp && (agora - pendingPayments[pixId].timestamp > 1800000)) {
+      delete pendingPayments[pixId];
+    }
+  }
+}, 1800000); // 30 min
 
 // ============================
 // SERVIÇOS EXTERNOS
@@ -337,6 +354,10 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
 
 function clearUserState(chatId) {
   if (userStates[chatId]) delete userStates[chatId];
+}
+
+function setUserState(chatId, stateData) {
+  userStates[chatId] = { ...stateData, updatedAt: Date.now() };
 }
 
 function showMainMenu(chatId, text = '🏠 *Menu Principal*') {
@@ -814,7 +835,7 @@ bot.onText(/\/start/, async (msg) => {
     }
 
     clearUserState(chatId);
-    userStates[chatId] = { step: 'menu' };
+    setUserState(chatId, { step: 'menu' });
 
     const cache = getCacheSafe();
     const totalFilmes = cache.movies.length;
@@ -858,7 +879,7 @@ bot.onText(/📦 Meu Conteúdo/, async (msg) => mostrarMeuConteudo(msg.chat.id))
 
 bot.onText(/🔍 Buscar Filmes/, (msg) => {
   const chatId = msg.chat.id;
-  userStates[chatId] = { step: 'search_movies' };
+  setUserState(chatId, { step: 'search_movies' });
   bot.sendMessage(chatId, '🎬 *Buscar Filmes*\n\nDigite o nome do filme:', {
     parse_mode: 'Markdown',
     reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
@@ -867,7 +888,7 @@ bot.onText(/🔍 Buscar Filmes/, (msg) => {
 
 bot.onText(/📺 Buscar Séries/, (msg) => {
   const chatId = msg.chat.id;
-  userStates[chatId] = { step: 'search_series' };
+  setUserState(chatId, { step: 'search_series' });
   bot.sendMessage(chatId, '📺 *Buscar Séries*\n\nDigite o nome da série:', {
     parse_mode: 'Markdown',
     reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
@@ -876,7 +897,7 @@ bot.onText(/📺 Buscar Séries/, (msg) => {
 
 bot.onText(/🔞 Conteúdo \+18/, (msg) => {
   const chatId = msg.chat.id;
-  userStates[chatId] = { step: 'search_adult' };
+  setUserState(chatId, { step: 'search_adult' });
   bot.sendMessage(chatId,
     '🔞 *Conteúdo Adulto*\n\nDigite o termo de busca:',
     { parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] } }
@@ -1000,7 +1021,7 @@ bot.on('callback_query', async (query) => {
 
     if (data.startsWith('retry_')) {
       const step = data.replace('retry_', '');
-      userStates[chatId] = { step };
+      setUserState(chatId, { step });
       bot.answerCallbackQuery(query.id);
       bot.deleteMessage(chatId, msgId).catch(() => {});
       bot.sendMessage(
@@ -1126,7 +1147,7 @@ bot.on('callback_query', async (query) => {
         return;
       }
 
-      userStates[chatId] = { step: 'details', data: detalhes, id, type };
+      setUserState(chatId, { step: 'details', data: detalhes, id, type });
       const saldoAtual = await getUserCredits(chatId);
       const tituloSeguro = escaparMarkdownSeguro(detalhes.title);
 
@@ -1275,7 +1296,7 @@ bot.on('callback_query', async (query) => {
         [];
 
       if ((!Array.isArray(episodios) || episodios.length === 0) && typeof state.data.seasons === 'object') {
-        const foundKey = Object.keys(state.data.seasons).find(k => String(k) === season || String(k).includes(season));
+        const foundKey = Object.keys(state.seasons).find(k => String(k) === season || String(k).includes(season));
         if (foundKey) episodios = state.data.seasons[foundKey] || [];
       }
 

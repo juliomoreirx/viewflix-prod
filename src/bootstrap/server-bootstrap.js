@@ -2,7 +2,7 @@ const app = require('../app');
 const env = require('../config/env');
 const logger = require('../lib/logger');
 
-const { connectMongo } = require('../db/mongoose');
+const { connectMongo, mongoose } = require('../db/mongoose');
 const models = require('../models');
 
 const telegramBot = require('../../telegram-bot');
@@ -50,9 +50,58 @@ async function startServer() {
     };
 
     const port = env.PORT || 3000;
-    app.listen(port, () => {
+    const server = app.listen(port, () => {
       logger.info({ msg: `Server iniciado na porta ${port}` });
     });
+
+    // ============================
+    // ENCERRAMENTO GRACIOSO (Graceful Shutdown)
+    // ============================
+    const gracefulShutdown = async (signal) => {
+      logger.info({ msg: `Sinal ${signal} recebido. Encerrando servidor graciosamente...` });
+      try {
+        server.close(async () => {
+          logger.info({ msg: 'Servidor HTTP fechado.' });
+          
+          // Se o bot estiver rodando online via polling
+          if (telegramBot.bot && typeof telegramBot.bot.stopPolling === 'function') {
+            await telegramBot.bot.stopPolling();
+            logger.info({ msg: 'Telegram Bot polling encerrado.' });
+          }
+
+          // Desconexão do banco de dados
+          if (mongoose.connection.readyState === 1) {
+            await mongoose.disconnect();
+            logger.info({ msg: 'Conexão com o MongoDB encerrada.' });
+          }
+          
+          process.exit(0);
+        });
+
+        // Caso as conexões demorem muito a fechar
+        setTimeout(() => {
+          logger.error({ msg: 'Encerramento forçado do processo após 10 segundos.' });
+          process.exit(1);
+        }, 10000);
+      } catch (err) {
+        logger.error({ msg: 'Erro durante o encerramento gracioso', err });
+        process.exit(1);
+      }
+    };
+
+    process.on('SIGINT', () => gracefulShutdown('SIGINT'));
+    process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
+
+    process.on('uncaughtException', (err) => {
+      logger.error({ msg: 'Uncaught Exception detectada!', error: err.stack || err.message });
+      gracefulShutdown('uncaughtException');
+    });
+
+    process.on('unhandledRejection', (reason, promise) => {
+      logger.error({ msg: 'Unhandled Rejection não tratado!', promise, reason });
+      gracefulShutdown('unhandledRejection');
+    });
+
   } catch (error) {
     logger.error({
       msg: 'Falha ao iniciar servidor',
