@@ -301,8 +301,9 @@ async function deductCredits(userId, centavos) {
 
 function gerarTokenAcesso(userId, videoId, mediaType) {
   try {
+    const tempoSegundos = (mediaType === 'series' || mediaType === 'serie') ? 604800 : 86400;
     return jwt.sign(
-      { userId, videoId, mediaType, exp: Math.floor(Date.now() / 1000) + 86400 },
+      { userId, videoId, mediaType, exp: Math.floor(Date.now() / 1000) + tempoSegundos },
       JWT_SECRET
     );
   } catch (error) {
