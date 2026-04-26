@@ -366,6 +366,7 @@ router.get('/player/:token', async (req, res) => {
       const videoEl = document.getElementById('player');
       const normalizedUrl = String(url || '').split('?')[0].toLowerCase();
       const isMp4 = normalizedUrl.endsWith('.mp4');
+      const isHlsManifest = normalizedUrl.endsWith('.m3u8');
 
       if (hls) {
         try { hls.destroy(); } catch (e) {}
@@ -377,8 +378,11 @@ router.get('/player/:token', async (req, res) => {
 
       const isNativeHls = videoEl.canPlayType('application/vnd.apple.mpegurl') || videoEl.canPlayType('application/x-mpegURL');
 
-      if (isMp4) {
+      // Estratégia: conteúdo não-HLS toca direto (MP4-first).
+      // Hls.js só entra para manifest .m3u8 explícito.
+      if (isMp4 || !isHlsManifest) {
         videoEl.src = url;
+        videoEl.load();
         videoEl.addEventListener('loadedmetadata', () => {
           if (resumeAt > 0) videoEl.currentTime = resumeAt;
           videoEl.play().catch(() => {});
