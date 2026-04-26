@@ -606,12 +606,16 @@ router.get('/player/:token', async (req, res) => {
     }
 
     function isTelegramWebView() {
-      const ua = navigator.userAgent || '';
-      const isTelegramUa = /telegram/i.test(ua);
-      const isTelegramWebApp = !!(window.Telegram && window.Telegram.WebApp);
-      const hasTelegramHint = /tgWebAppData|tgWebAppVersion|tgWebAppPlatform/i.test(window.location.search || '');
+      try {
+        const ua = String(navigator.userAgent || '');
+        const isTelegramUa = /telegram/i.test(ua);
+        const isTelegramWebApp = !!(window.Telegram && window.Telegram.WebApp);
+        const hasTelegramHint = /tgWebAppData|tgWebAppVersion|tgWebAppPlatform/i.test(String(window.location.search || ''));
 
-      return isTelegramUa || isTelegramWebApp || hasTelegramHint;
+        return isTelegramUa || isTelegramWebApp || hasTelegramHint;
+      } catch (_) {
+        return false;
+      }
     }
 
     async function copyCurrentLinkForNativeBrowser() {
@@ -638,10 +642,11 @@ router.get('/player/:token', async (req, res) => {
       }
     }
 
-    document.addEventListener('DOMContentLoaded', function() {
+    function bootstrapPlayerPage() {
       const shouldShowDisclaimer = isTelegramWebView();
+      const canRenderDisclaimer = !!(disclaimerOverlay && continueInTelegramBtn && copyLinkBtn);
 
-      if (shouldShowDisclaimer) {
+      if (shouldShowDisclaimer && canRenderDisclaimer) {
         disclaimerOverlay.style.display = 'flex';
         document.body.style.overflow = 'hidden';
 
@@ -649,16 +654,24 @@ router.get('/player/:token', async (req, res) => {
           disclaimerOverlay.style.display = 'none';
           document.body.style.overflow = '';
           initializePlayer();
-        });
+        }, { once: true });
 
         copyLinkBtn.addEventListener('click', copyCurrentLinkForNativeBrowser);
         return;
       }
 
-      disclaimerOverlay.style.display = 'none';
+      if (disclaimerOverlay) {
+        disclaimerOverlay.style.display = 'none';
+      }
       document.body.style.overflow = '';
       initializePlayer();
-    });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', bootstrapPlayerPage);
+    } else {
+      bootstrapPlayerPage();
+    }
   </script>
 </body>
 </html>
