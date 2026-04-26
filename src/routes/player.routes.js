@@ -207,109 +207,10 @@ router.get('/player/:token', async (req, res) => {
     .warning i { color: #4facfe; margin-right: 8px; }
     .timer { display: inline-block; background: rgba(79, 172, 254, 0.15); padding: 4px 10px; border-radius: 6px; font-weight: 700; font-family: 'Courier New', monospace; color: #4facfe; border: 1px solid rgba(79, 172, 254, 0.3); }
 
-    .player-disclaimer-overlay {
-      position: fixed;
-      inset: 0;
-      z-index: 9999;
-      display: none;
-      align-items: center;
-      justify-content: center;
-      padding: 20px;
-      background: rgba(3, 4, 12, 0.82);
-      backdrop-filter: blur(10px);
-    }
-
-    .player-disclaimer-box {
-      width: 100%;
-      max-width: 620px;
-      background: linear-gradient(145deg, rgba(11,12,27,0.96), rgba(15,22,38,0.94));
-      border: 1px solid rgba(79, 172, 254, 0.25);
-      border-radius: 16px;
-      box-shadow: 0 20px 50px rgba(0,0,0,0.6), 0 0 30px rgba(79, 172, 254, 0.12);
-      padding: 24px;
-      color: #e2e8f0;
-    }
-
-    .player-disclaimer-title {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      color: #4facfe;
-      font-size: 21px;
-      font-weight: 800;
-      margin-bottom: 12px;
-    }
-
-    .player-disclaimer-text {
-      color: #cbd5e1;
-      font-size: 14px;
-      line-height: 1.6;
-      margin-bottom: 18px;
-    }
-
-    .player-disclaimer-actions {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .player-disclaimer-btn {
-      border: 0;
-      border-radius: 10px;
-      padding: 10px 14px;
-      font-size: 14px;
-      font-weight: 700;
-      cursor: pointer;
-      transition: transform .2s ease, opacity .2s ease, box-shadow .2s ease;
-    }
-
-    .player-disclaimer-btn:hover {
-      transform: translateY(-1px);
-      opacity: .95;
-    }
-
-    .player-disclaimer-btn.primary {
-      background: linear-gradient(90deg, #00b2ff 0%, #4facfe 100%);
-      color: #fff;
-      box-shadow: 0 6px 18px rgba(79, 172, 254, 0.35);
-    }
-
-    .player-disclaimer-btn.secondary {
-      background: rgba(79, 172, 254, 0.12);
-      color: #cfe8ff;
-      border: 1px solid rgba(79, 172, 254, 0.35);
-    }
-
-    .player-disclaimer-hint {
-      margin-top: 10px;
-      color: #93a6bf;
-      font-size: 12.5px;
-    }
-    
     @media (max-width: 768px) { .player-shell { height: 50vh; } }
   </style>
 </head>
 <body>
-  <div id="playerDisclaimerOverlay" class="player-disclaimer-overlay" role="dialog" aria-modal="true" aria-labelledby="playerDisclaimerTitle">
-    <div class="player-disclaimer-box">
-      <div id="playerDisclaimerTitle" class="player-disclaimer-title">
-        <i class="fa-solid fa-mobile-screen-button"></i>
-        Melhor experiência em Tela Cheia
-      </div>
-      <div class="player-disclaimer-text">
-        Se você estiver assistindo pelo Telegram, o modo fullscreen pode não funcionar corretamente.<br>
-        Para uma experiência melhor, abra este link no navegador nativo do seu celular (Chrome/Safari).
-      </div>
-      <div class="player-disclaimer-actions">
-        <button id="continueInTelegramBtn" class="player-disclaimer-btn primary">Entendi e desejo continuar</button>
-        <button id="copyLinkBtn" class="player-disclaimer-btn secondary">Copiar link para abrir no navegador</button>
-      </div>
-      <div class="player-disclaimer-hint">
-        Dica: após copiar, cole o link no Chrome/Safari para fullscreen funcionar corretamente.
-      </div>
-    </div>
-  </div>
-
   <div class="container">
     <div class="logo"><i class="fa-solid fa-user-astronaut"></i>VIEWFLIX <span>SPACE</span></div>
     <div class="video-wrapper">
@@ -389,14 +290,10 @@ router.get('/player/:token', async (req, res) => {
     let hls;
     let retryCount = 0;
     let playLogged = false;
-    let playerInitialized = false;
     const audioTrackWrap = document.getElementById('audioTrackWrap');
     const audioTrackSelect = document.getElementById('audioTrackSelect');
     const qualityTrackWrap = document.getElementById('qualityTrackWrap');
     const qualityTrackSelect = document.getElementById('qualityTrackSelect');
-    const disclaimerOverlay = document.getElementById('playerDisclaimerOverlay');
-    const continueInTelegramBtn = document.getElementById('continueInTelegramBtn');
-    const copyLinkBtn = document.getElementById('copyLinkBtn');
 
     function logPlayOnce() {
       if (playLogged) return;
@@ -575,9 +472,6 @@ router.get('/player/:token', async (req, res) => {
     }
 
     function initializePlayer() {
-      if (playerInitialized) return;
-      playerInitialized = true;
-
       const videoEl = document.getElementById('player');
       videoEl.addEventListener('contextmenu', e => { e.preventDefault(); return false; });
 
@@ -605,80 +499,9 @@ router.get('/player/:token', async (req, res) => {
       loadSource(streamPath, 0);
     }
 
-    function isTelegramWebView() {
-      try {
-        const ua = String(navigator.userAgent || '');
-        const isTelegramUa = /telegram/i.test(ua);
-        const isTelegramWebApp = !!(window.Telegram && window.Telegram.WebApp);
-        const hasTelegramHint = /tgWebAppData|tgWebAppVersion|tgWebAppPlatform/i.test(String(window.location.search || ''));
-
-        return isTelegramUa || isTelegramWebApp || hasTelegramHint;
-      } catch (_) {
-        return false;
-      }
-    }
-
-    function copyCurrentLinkForNativeBrowser() {
-      const currentUrl = window.location.href;
-
-      try {
-        if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(currentUrl)
-            .then(() => {
-              alert('Link copiado! Agora cole no navegador nativo (Chrome/Safari) para melhor fullscreen.');
-            })
-            .catch(() => {
-              alert('Não foi possível copiar automaticamente. Copie manualmente este link:\n\n' + currentUrl);
-            });
-          return;
-        } else {
-          const input = document.createElement('textarea');
-          input.value = currentUrl;
-          input.setAttribute('readonly', '');
-          input.style.position = 'fixed';
-          input.style.opacity = '0';
-          document.body.appendChild(input);
-          input.select();
-          document.execCommand('copy');
-          document.body.removeChild(input);
-        }
-
-        alert('Link copiado! Agora cole no navegador nativo (Chrome/Safari) para melhor fullscreen.');
-      } catch (_) {
-        alert('Não foi possível copiar automaticamente. Copie manualmente este link:\n\n' + currentUrl);
-      }
-    }
-
-    function bootstrapPlayerPage() {
-      const shouldShowDisclaimer = isTelegramWebView();
-      const canRenderDisclaimer = !!(disclaimerOverlay && continueInTelegramBtn && copyLinkBtn);
-
-      if (shouldShowDisclaimer && canRenderDisclaimer) {
-        disclaimerOverlay.style.display = 'flex';
-        document.body.style.overflow = 'hidden';
-
-        continueInTelegramBtn.addEventListener('click', () => {
-          disclaimerOverlay.style.display = 'none';
-          document.body.style.overflow = '';
-          initializePlayer();
-        }, { once: true });
-
-        copyLinkBtn.addEventListener('click', copyCurrentLinkForNativeBrowser);
-        return;
-      }
-
-      if (disclaimerOverlay) {
-        disclaimerOverlay.style.display = 'none';
-      }
-      document.body.style.overflow = '';
+    document.addEventListener('DOMContentLoaded', function() {
       initializePlayer();
-    }
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', bootstrapPlayerPage);
-    } else {
-      bootstrapPlayerPage();
-    }
+    });
   </script>
 </body>
 </html>
