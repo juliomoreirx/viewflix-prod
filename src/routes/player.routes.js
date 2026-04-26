@@ -122,18 +122,20 @@ router.get('/player/:token', async (req, res) => {
     }
 
     .plyr__control--overlaid {
-      background: rgba(11, 12, 27, 0.6) !important;
-      border: 2px solid #4facfe;
-      color: #4facfe;
-      box-shadow: 0 0 25px rgba(79, 172, 254, 0.4);
-      transition: all 0.35s ease;
+      background: var(--plyr-video-control-background-hover, var(--plyr-color-main, #00b2ff)) !important;
+      border: 0 !important;
+      border-radius: 100% !important;
+      color: var(--plyr-video-control-color, #fff) !important;
+      opacity: .9;
+      padding: 15px !important;
+      top: 45% !important;
+      box-shadow: 0 0 24px rgba(79, 172, 254, 0.45);
     }
 
     .plyr__control--overlaid:hover {
-      background: #4facfe !important;
-      color: #fff;
-      transform: scale(1.01);
-      box-shadow: 0 0 28px rgba(79, 172, 254, 0.55);
+      opacity: 1;
+      box-shadow: 0 0 28px rgba(79, 172, 254, 0.6);
+      transform: translate(-50%, -50%) scale(1.01) !important;
     }
 
     .plyr--video .plyr__controls {
