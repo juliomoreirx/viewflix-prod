@@ -28,13 +28,100 @@ async function syncViewflixCookies() {
     const proxyUrlCompleta = `http://${PROXY_USER}:${PROXY_PASS}@${PROXY_HOST}:${PROXY_PORT}`;
     let proxyLocalAutenticado;
     
-    try {
-        // Cria um túnel local para autenticar no proxy residencial
-        proxyLocalAutenticado = await proxyChain.anonymizeProxy(proxyUrlCompleta);
-    } catch (err) {
-        console.error('[Erro Crítico] Falha ao configurar túnel de proxy:', err.message);
-        return;
-    }
+try {
+        page = await browser.newPage();
+        
+        // Desativa o timeout padrão para navegação, pois redirecionamentos em série podem demorar
+        await page.setDefaultNavigationTimeout(0); 
+
+        const client = await page.target().createCDPSession();
+        await client.send('Security.setIgnoreCertificateErrors', { ignore: true });
+
+        console.log('[Info] Acessando vouver.me...');
+        
+        // Mudança crucial: usamos waitUntil: 'load' em vez de networkidle2 para evitar que 
+        // redirecionamentos de scripts de terceiros matem o contexto.
+        await page.goto(TARGET_URL, { 
+            waitUntil: 'load', 
+            timeout: 90000 
+        }).catch(() => {});
+
+        console.log('[Info] Aguardando estabilização da página (10s)...');
+        await new Promise(r => setTimeout(r, 10000));
+
+        console.log('[Info] Localizando formulário de login...');
+        // Esperamos o seletor sem pressa
+        await page.waitForSelector('#username', { visible: true, timeout: 60000 });
+
+        console.log('[Info] Preenchendo credenciais...');
+        // Usando evaluate para digitar direto no DOM, evitando quebras de contexto
+        await page.evaluate((u, p) => {
+            document.querySelector('#username').value = u;
+            document.querySelector('#sifre').value = p;
+        }, LOGIN_USER, LOGIN_PASS);
+
+        console.log('[Info] Disparando login...');
+        await page.evaluate(() => {
+            const btn = document.querySelector('#login');
+            if (btn) btn.click();
+        });
+
+        // Espera definitiva para o redirecionamento pós-login (que o site faz após 3s)
+        console.log('[Info] Login disparado. Aguardando processamento final (12s)...');
+        await new Promise(r => setTimeout(r, 12000));
+
+        console.log('[Info] Extraindo cookies...');
+        const cookies = await page.cookies();
+        
+        let cookieMap = new Map();
+        let cfClearanceValue = '';
+
+        cookies.forEach(cookie => {
+            cookieMap.set(cookie.name, cookie.value);
+            if (cookie.name === 'cf_clearance') cfClearanceValue = cookie.value;
+        });
+
+        const order = ['PHPSESSID', 'vouverme', 'username', 'password', 'cf_clearance'];
+        let sessionCookiesArray = [];
+        order.forEach(name => {
+            if (cookieMap.has(name)) sessionCookiesArray.push(`${name}=${cookieMap.get(name)}`);
+        });
+
+        const finalSessionString = sessionCookiesArray.join('; ');
+
+        if (!finalSessionString.includes('PHPSESSID')) {
+            throw new Error('PHPSESSID não capturado após o login.');
+        }
+
+        const payload = {
+            source: 'puppeteer_vps_worker',
+            pageUrl: TARGET_URL,
+            userAgent: await browser.userAgent(),
+            sentAt: new Date().toISOString(),
+            sessionCookies: finalSessionString,
+            cfClearance: cfClearanceValue
+        };
+
+        console.log('[Info] Enviando para o Webhook...');
+        const response = await fetch(WEBHOOK_URL, {
+            method: 'POST',
+            headers: { 
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${WEBHOOK_TOKEN}`
+            },
+            body: JSON.stringify(payload)
+        });
+
+        if (response.ok) {
+            console.log('[Sucesso] Cookies sincronizados!');
+        } else {
+            console.error('[Erro Webhook] Status:', response.status);
+        }
+
+    } catch (error) {
+        console.error('[Erro Crítico]:', error.message);
+    } 
+
 
     const browser = await puppeteer.launch({
         headless: "new", // Modo VPS (sem interface visual)
