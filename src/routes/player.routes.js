@@ -132,8 +132,8 @@ router.get('/player/:token', async (req, res) => {
     .plyr__control--overlaid:hover {
       background: #4facfe !important;
       color: #fff;
-      transform: scale(1.08);
-      box-shadow: 0 0 40px rgba(79, 172, 254, 0.8);
+      transform: scale(1.03);
+      box-shadow: 0 0 28px rgba(79, 172, 254, 0.55);
     }
 
     .plyr--video .plyr__controls {
@@ -159,6 +159,27 @@ router.get('/player/:token', async (req, res) => {
     .audio-track-wrap label { color: #4facfe; font-weight: 600; }
 
     .audio-track-wrap select {
+      background: rgba(11, 12, 27, 0.8);
+      color: #e2e8f0;
+      border: 1px solid rgba(79, 172, 254, 0.3);
+      border-radius: 8px;
+      padding: 6px 10px;
+      outline: none;
+    }
+
+    .quality-track-wrap {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+      margin-left: 14px;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+
+    .quality-track-wrap label { color: #4facfe; font-weight: 600; }
+
+    .quality-track-wrap select {
       background: rgba(11, 12, 27, 0.8);
       color: #e2e8f0;
       border: 1px solid rgba(79, 172, 254, 0.3);
@@ -203,9 +224,15 @@ router.get('/player/:token', async (req, res) => {
         <span><i class="fas fa-hourglass-half"></i> Expira em: <span class="timer" id="countdown">Calculando...</span></span>
         <span><i class="fas fa-eye"></i> ${purchase.viewCount} visualizaç${purchase.viewCount === 1 ? 'ão' : 'ões'}</span>
       </div>
-      <div class="audio-track-wrap" id="audioTrackWrap">
-        <label for="audioTrackSelect"><i class="fas fa-volume-up"></i> Áudio</label>
-        <select id="audioTrackSelect"></select>
+      <div style="display:flex; flex-wrap:wrap; align-items:center;">
+        <div class="audio-track-wrap" id="audioTrackWrap">
+          <label for="audioTrackSelect"><i class="fas fa-volume-up"></i> Áudio</label>
+          <select id="audioTrackSelect"></select>
+        </div>
+        <div class="quality-track-wrap" id="qualityTrackWrap">
+          <label for="qualityTrackSelect"><i class="fas fa-tv"></i> Qualidade</label>
+          <select id="qualityTrackSelect"></select>
+        </div>
       </div>
     </div>
     <div class="warning">
@@ -263,6 +290,8 @@ router.get('/player/:token', async (req, res) => {
     let playLogged = false;
     const audioTrackWrap = document.getElementById('audioTrackWrap');
     const audioTrackSelect = document.getElementById('audioTrackSelect');
+    const qualityTrackWrap = document.getElementById('qualityTrackWrap');
+    const qualityTrackSelect = document.getElementById('qualityTrackSelect');
 
     function logPlayOnce() {
       if (playLogged) return;
@@ -295,6 +324,34 @@ router.get('/player/:token', async (req, res) => {
       audioTrackSelect.onchange = (event) => onChange(Number(event.target.value));
     }
 
+    function renderQualityLevels(levels, onChange) {
+      if (!levels || levels.length === 0) {
+        qualityTrackWrap.style.display = 'none';
+        qualityTrackSelect.innerHTML = '';
+        return;
+      }
+
+      const uniqueHeights = Array.from(new Set(levels.map((level) => Number(level.height || 0)).filter(Boolean))).sort((a, b) => b - a);
+
+      qualityTrackSelect.innerHTML = '';
+
+      const autoOption = document.createElement('option');
+      autoOption.value = '-1';
+      autoOption.textContent = 'Auto';
+      autoOption.selected = true;
+      qualityTrackSelect.appendChild(autoOption);
+
+      uniqueHeights.forEach((height) => {
+        const option = document.createElement('option');
+        option.value = String(height);
+        option.textContent = height + 'p';
+        qualityTrackSelect.appendChild(option);
+      });
+
+      qualityTrackWrap.style.display = 'inline-flex';
+      qualityTrackSelect.onchange = (event) => onChange(Number(event.target.value));
+    }
+
     function loadWithNativeHls(videoEl, url) {
       videoEl.src = url;
       videoEl.addEventListener('loadedmetadata', () => {
@@ -307,13 +364,26 @@ router.get('/player/:token', async (req, res) => {
 
     function loadSource(url, resumeAt = 0) {
       const videoEl = document.getElementById('player');
+      const isMp4 = /\.mp4(?:$|\?)/i.test(url || '');
 
       if (hls) {
         try { hls.destroy(); } catch (e) {}
         hls = null;
       }
 
+      qualityTrackWrap.style.display = 'none';
+      qualityTrackSelect.innerHTML = '';
+
       const isNativeHls = videoEl.canPlayType('application/vnd.apple.mpegurl') || videoEl.canPlayType('application/x-mpegURL');
+
+      if (isMp4) {
+        videoEl.src = url;
+        videoEl.addEventListener('loadedmetadata', () => {
+          if (resumeAt > 0) videoEl.currentTime = resumeAt;
+          videoEl.play().catch(() => {});
+        }, { once: true });
+        return;
+      }
 
       if (window.Hls && Hls.isSupported()) {
         hls = new Hls({
@@ -333,6 +403,18 @@ router.get('/player/:token', async (req, res) => {
 
           renderAudioTracks(tracks, (selected) => {
             hls.audioTrack = selected;
+          });
+
+          renderQualityLevels(hls.levels || [], (selectedHeight) => {
+            if (selectedHeight === -1) {
+              hls.currentLevel = -1;
+              return;
+            }
+
+            const targetLevelIndex = (hls.levels || []).findIndex((level) => Number(level.height || 0) === selectedHeight);
+            if (targetLevelIndex >= 0) {
+              hls.currentLevel = targetLevelIndex;
+            }
           });
 
           if (resumeAt > 0) {
