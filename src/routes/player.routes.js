@@ -132,7 +132,7 @@ router.get('/player/:token', async (req, res) => {
     .plyr__control--overlaid:hover {
       background: #4facfe !important;
       color: #fff;
-      transform: scale(1.03);
+      transform: scale(1.01);
       box-shadow: 0 0 28px rgba(79, 172, 254, 0.55);
     }
 
