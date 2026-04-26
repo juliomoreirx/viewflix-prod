@@ -618,12 +618,19 @@ router.get('/player/:token', async (req, res) => {
       }
     }
 
-    async function copyCurrentLinkForNativeBrowser() {
+    function copyCurrentLinkForNativeBrowser() {
       const currentUrl = window.location.href;
 
       try {
         if (navigator.clipboard && navigator.clipboard.writeText) {
-          await navigator.clipboard.writeText(currentUrl);
+          navigator.clipboard.writeText(currentUrl)
+            .then(() => {
+              alert('Link copiado! Agora cole no navegador nativo (Chrome/Safari) para melhor fullscreen.');
+            })
+            .catch(() => {
+              alert('Não foi possível copiar automaticamente. Copie manualmente este link:\n\n' + currentUrl);
+            });
+          return;
         } else {
           const input = document.createElement('textarea');
           input.value = currentUrl;
