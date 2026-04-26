@@ -8,7 +8,12 @@ const logger = require('../lib/logger');
 const { setSessionCookiesRaw, atualizarCache } = require('./content-cache.service');
 
 const BASE_URL = env.BASE_URL || 'http://vouver.me';
-const CF_CLEARANCE = env.CF_CLEARANCE || '';
+
+function getCurrentCfClearance() {
+  return String(process.env.CF_CLEARANCE || env.CF_CLEARANCE || '')
+    .replace(/^cf_clearance=/i, '')
+    .trim();
+}
 
 const RES_PROXY_ENABLED = String(env.RES_PROXY_ENABLED || 'false')
   .replace(/['"]/g, '')
@@ -75,9 +80,11 @@ async function fazerLoginVouver(username, password, tentativa = 1) {
   try {
     await jar.removeAllCookies();
 
-    if (CF_CLEARANCE) {
-      await jar.setCookie(`cf_clearance=${CF_CLEARANCE}; Path=/`, BASE_URL);
-      await jar.setCookie(`cf_clearance=${CF_CLEARANCE}; Path=/`, BASE_URL.replace(/^http:\/\//i, 'https://'));
+    const currentCfClearance = getCurrentCfClearance();
+
+    if (currentCfClearance) {
+      await jar.setCookie(`cf_clearance=${currentCfClearance}; Path=/`, BASE_URL);
+      await jar.setCookie(`cf_clearance=${currentCfClearance}; Path=/`, BASE_URL.replace(/^http:\/\//i, 'https://'));
     }
 
     const loginUrl = `${BASE_URL}/index.php?page=login`;
