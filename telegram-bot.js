@@ -16,6 +16,8 @@ const {
   sanitizarTexto, 
   removerAcentos 
 } = require('./src/services/text-utils.service');
+const sessionService = require('./src/services/session.service');
+const paymentAdapter = require('./src/adapters/payment.adapter');
 
 
 // ============================
@@ -277,27 +279,11 @@ async function verificarBloqueio(userId) {
 }
 
 async function getUserCredits(userId) {
-  try {
-    const user = await UserModel.findOne({ userId });
-    return user ? user.credits : 0;
-  } catch (error) {
-    console.error('Erro ao obter créditos:', error);
-    return 0;
-  }
+  return await paymentAdapter.getUserCredits(userId);
 }
 
 async function addCredits(userId, centavos) {
-  try {
-    await UserModel.findOneAndUpdate(
-      { userId },
-      { $inc: { credits: centavos } },
-      { upsert: true, new: true }
-    );
-    return true;
-  } catch (error) {
-    console.error('Erro ao adicionar créditos:', error);
-    return false;
-  }
+  return await paymentAdapter.addCredits(userId, centavos);
 }
 
 async function deductCredits(userId, centavos) {
@@ -616,57 +602,7 @@ async function enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, m
 // SISTEMA DE PAGAMENTO PIX
 // ============================
 async function criarPagamentoPix(userId, valorCentavos) {
-  const valorReais = valorCentavos / 100;
-  const idempotencyKey = crypto.randomUUID();
-
-  const paymentData = {
-    transaction_amount: valorReais,
-    description: `FastTV - Créditos ${formatMoney(valorCentavos)}`,
-    payment_method_id: 'pix',
-    payer: {
-      email: `user${userId}@fasttv.com`,
-      first_name: 'Cliente',
-      last_name: 'FastTV',
-      identification: { type: 'CPF', number: '12345678909' }
-    },
-    notification_url: `${DOMINIO_PUBLICO}/webhook/mercadopago`,
-    external_reference: userId.toString(),
-    metadata: { user_id: userId.toString(), amount_cents: valorCentavos }
-  };
-
-  try {
-    const response = await axios.post('https://api.mercadopago.com/v1/payments', paymentData, {
-      headers: {
-        Authorization: `Bearer ${MP_ACCESS_TOKEN}`,
-        'Content-Type': 'application/json',
-        'X-Idempotency-Key': idempotencyKey
-      },
-      timeout: 15000
-    });
-
-    const payment = response.data;
-
-    if (payment.status !== 'pending' || payment.status_detail !== 'pending_waiting_transfer') return null;
-
-    const pixData = payment.point_of_interaction?.transaction_data;
-    if (!pixData || !pixData.qr_code || !pixData.qr_code_base64) return null;
-
-    pendingPayments[payment.id] = {
-      userId, amount: valorCentavos, timestamp: Date.now(), status: 'pending', idempotencyKey
-    };
-
-    startPaymentVerification(payment.id, userId);
-
-    return {
-      paymentId: payment.id,
-      pix_code: pixData.qr_code,
-      pix_qr_base64: pixData.qr_code_base64,
-      ticket_url: pixData.ticket_url || null
-    };
-  } catch (error) {
-    console.error('❌ Erro ao criar PIX:', error.response?.data || error.message);
-    return null;
-  }
+  return await paymentAdapter.criarPagamentoPix(userId, valorCentavos);
 }
 
 function startPaymentVerification(paymentId, userId) {
@@ -697,43 +633,11 @@ function startPaymentVerification(paymentId, userId) {
 }
 
 async function checkPaymentStatus(paymentId) {
-  try {
-    const response = await axios.get(`https://api.mercadopago.com/v1/payments/${paymentId}`, {
-      headers: { Authorization: `Bearer ${MP_ACCESS_TOKEN}` },
-      timeout: 10000
-    });
-    return response.data.status;
-  } catch (error) {
-    console.error(`Erro ao consultar pagamento ${paymentId}:`, error.message);
-    return null;
-  }
+  return await paymentAdapter.checkPaymentStatus(paymentId);
 }
 
 async function processarPagamentoAprovado(paymentId, userId, amount) {
-  try {
-    if (!pendingPayments[paymentId]) return false;
-
-    const success = await addCredits(userId, amount);
-    if (!success) return false;
-
-    delete pendingPayments[paymentId];
-    if (paymentCheckIntervals[paymentId]) {
-      clearInterval(paymentCheckIntervals[paymentId]);
-      delete paymentCheckIntervals[paymentId];
-    }
-
-    const saldo = await getUserCredits(userId);
-    bot.sendMessage(
-      userId,
-      `✅ *PAGAMENTO CONFIRMADO!*\n\n💰 +${formatMoney(amount)}\n💳 Saldo atual: ${formatMoney(saldo)}\n\nObrigado por recarregar!`,
-      { parse_mode: 'Markdown' }
-    ).catch(() => {});
-
-    return true;
-  } catch (error) {
-    console.error('Erro ao processar pagamento aprovado:', error);
-    return false;
-  }
+  return await paymentAdapter.processarPagamentoAprovado(paymentId, userId, amount);
 }
 
 // ============================

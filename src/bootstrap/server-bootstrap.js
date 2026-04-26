@@ -7,6 +7,9 @@ const models = require('../models');
 
 const telegramBot = require('../../telegram-bot');
 const contentService = require('../services/content-cache.service');
+const PaymentService = require('../services/payment.service');
+const paymentAdapter = require('../adapters/payment.adapter');
+const CookieManagerService = require('../services/cookie-manager.service');
 
 async function startServer() {
   try {
@@ -19,8 +22,37 @@ async function startServer() {
     await connectMongo();
     app.locals.models = models;
 
-    // Carrega cache antes de iniciar bot (importante)
-    await contentService.atualizarCache(true);
+    // Inicializa Payment Service
+    const paymentService = new PaymentService(models, {
+      MP_ACCESS_TOKEN: env.MP_ACCESS_TOKEN,
+      JWT_SECRET: env.JWT_SECRET,
+      DOMINIO_PUBLICO: env.DOMINIO_PUBLICO,
+      logger
+    });
+    paymentAdapter.initPaymentAdapter(paymentService);
+
+    // Inicializa Cookie Manager para monitorar Cloudflare
+    const cookieManager = new CookieManagerService({
+      targetUrl: env.VOUVER_BASE_URL || 'http://vouver.me',
+      checkInterval: 3600000, // 1 hora
+      requireCfClearance: true,
+      logger
+    });
+
+    // Warm-up inicial síncrono para popular cookies antes de carregar cache
+    const cookiesReady = await cookieManager.checkAndRefreshCookies();
+    cookieManager.startMonitoring();
+
+    // Carrega cache apenas com cookies válidos/completeos
+    if (cookiesReady) {
+      await contentService.atualizarCache(true);
+    } else {
+      logger.warn({
+        msg: 'Cookies incompletos no boot; cache inicial adiado até renovação completa',
+        hasSessionCookies: !!cookieManager.sessionCookies,
+        hasCfClearance: !!cookieManager.cfClearance
+      });
+    }
 
     // Resolve nomes alternativos de funções do service
     const buscarDetalhesFn =
@@ -46,7 +78,9 @@ async function startServer() {
     );
 
     app.locals.services = {
-      content: contentService
+      content: contentService,
+      payment: paymentService,
+      cookieManager: cookieManager
     };
 
     const port = env.PORT || 3000;

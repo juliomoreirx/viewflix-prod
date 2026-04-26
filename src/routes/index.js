@@ -7,6 +7,7 @@ const authRoutes = require('./auth.routes');
 const adminRoutes = require('./admin.routes');
 const paymentsRoutes = require('./payments.routes');
 const playerRoutes = require('./player.routes');
+const cookiesRoutes = require('./cookies.routes');
 
 
 
@@ -19,6 +20,7 @@ router.use(catalogRoutes);
 router.use(authRoutes);
 router.use(adminRoutes);
 router.use(paymentsRoutes);
-router.use('/', playerRoutes);
+router.use(playerRoutes);
+router.use('/cookies', cookiesRoutes);
 
 module.exports = router;
