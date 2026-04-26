@@ -61,7 +61,7 @@ router.get('/player/:token', async (req, res) => {
   
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90' fill='%234facfe'>👨‍🚀</text></svg>">
   
-  <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -97,25 +97,75 @@ router.get('/player/:token', async (req, res) => {
       overflow: hidden; box-shadow: 0 20px 80px rgba(0, 0, 0, 0.9), 0 0 30px rgba(79, 172, 254, 0.15); 
       border: 1px solid rgba(79, 172, 254, 0.2);
     }
-    .video-js { width: 100%; height: 80vh; font-family: 'Segoe UI', Arial, sans-serif; }
+    .player-shell { width: 100%; height: 80vh; }
+    #player { width: 100%; height: 100%; }
     
-    .vjs-theme-viewflix .vjs-control-bar { background: linear-gradient(to top, rgba(5,5,5,0.95) 0%, rgba(11,12,27,0.8) 50%, transparent 100%); height: 4.5em; }
-    
-    .vjs-theme-viewflix .vjs-big-play-button { 
-      background: rgba(11, 12, 27, 0.6); border: 2px solid #4facfe; border-radius: 50%; 
-      width: 2.5em; height: 2.5em; line-height: 2.3em; font-size: 3.5em; left: 50%; top: 50%; 
-      transform: translate(-50%,-50%); transition: all 0.4s ease; backdrop-filter: blur(8px);
-      color: #4facfe; box-shadow: 0 0 25px rgba(79, 172, 254, 0.4);
+    :root {
+      --plyr-color-main: #4facfe;
+      --plyr-video-control-color: #e2e8f0;
+      --plyr-video-control-color-hover: #ffffff;
+      --plyr-tooltip-background: rgba(11, 12, 27, 0.95);
+      --plyr-tooltip-color: #e2e8f0;
+      --plyr-range-fill-background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+      --plyr-video-progress-buffered-background: rgba(255,255,255,0.15);
+      --plyr-video-controls-background: linear-gradient(to top, rgba(5,5,5,0.95) 0%, rgba(11,12,27,0.8) 50%, transparent 100%);
+      --plyr-control-radius: 8px;
     }
-    .vjs-theme-viewflix .vjs-big-play-button:hover { 
-      background: #4facfe; color: #fff; transform: translate(-50%,-50%) scale(1.1); 
-      box-shadow: 0 0 40px rgba(79, 172, 254, 0.8); border-color: #fff;
+
+    .plyr,
+    .plyr__video-wrapper,
+    .plyr video {
+      width: 100%;
+      height: 100%;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #000;
     }
-    .vjs-theme-viewflix .vjs-play-progress, .vjs-theme-viewflix .vjs-volume-level { 
-      background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%); 
-      box-shadow: 0 0 15px rgba(79, 172, 254, 0.8);
+
+    .plyr__control--overlaid {
+      background: rgba(11, 12, 27, 0.6) !important;
+      border: 2px solid #4facfe;
+      color: #4facfe;
+      box-shadow: 0 0 25px rgba(79, 172, 254, 0.4);
+      transition: all 0.35s ease;
     }
-    .vjs-slider { background-color: rgba(255,255,255,0.15); }
+
+    .plyr__control--overlaid:hover {
+      background: #4facfe !important;
+      color: #fff;
+      transform: scale(1.08);
+      box-shadow: 0 0 40px rgba(79, 172, 254, 0.8);
+    }
+
+    .plyr--video .plyr__controls {
+      padding: 12px;
+      backdrop-filter: blur(8px);
+    }
+
+    .plyr__menu__container,
+    .plyr__tooltip {
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(79, 172, 254, 0.2);
+    }
+
+    .audio-track-wrap {
+      display: none;
+      align-items: center;
+      gap: 8px;
+      margin-top: 12px;
+      color: #94a3b8;
+      font-size: 13px;
+    }
+
+    .audio-track-wrap label { color: #4facfe; font-weight: 600; }
+
+    .audio-track-wrap select {
+      background: rgba(11, 12, 27, 0.8);
+      color: #e2e8f0;
+      border: 1px solid rgba(79, 172, 254, 0.3);
+      border-radius: 8px;
+      padding: 6px 10px;
+      outline: none;
+    }
 
     .info-bar { 
       background: rgba(11, 12, 27, 0.7); backdrop-filter: blur(20px); padding: 25px; 
@@ -134,17 +184,16 @@ router.get('/player/:token', async (req, res) => {
     .warning i { color: #4facfe; margin-right: 8px; }
     .timer { display: inline-block; background: rgba(79, 172, 254, 0.15); padding: 4px 10px; border-radius: 6px; font-weight: 700; font-family: 'Courier New', monospace; color: #4facfe; border: 1px solid rgba(79, 172, 254, 0.3); }
     
-    @media (max-width: 768px) { .video-js { height: 50vh; } }
+    @media (max-width: 768px) { .player-shell { height: 50vh; } }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="logo"><i class="fa-solid fa-user-astronaut"></i>VIEWFLIX <span>SPACE</span></div>
     <div class="video-wrapper">
-      <video id="player" class="video-js vjs-theme-viewflix vjs-big-play-centered" controls preload="auto"
-        data-setup='{"fluid":true,"aspectRatio":"16:9","playbackRates":[0.5,0.75,1,1.25,1.5,2]}'>
-        <source src="${streamPath}" type="video/mp4">
-      </video>
+      <div class="player-shell">
+        <video id="player" playsinline controls preload="auto" crossorigin="anonymous"></video>
+      </div>
     </div>
     <div class="info-bar">
       <div class="title">${purchase.title}</div>
@@ -154,16 +203,22 @@ router.get('/player/:token', async (req, res) => {
         <span><i class="fas fa-hourglass-half"></i> Expira em: <span class="timer" id="countdown">Calculando...</span></span>
         <span><i class="fas fa-eye"></i> ${purchase.viewCount} visualizaç${purchase.viewCount === 1 ? 'ão' : 'ões'}</span>
       </div>
+      <div class="audio-track-wrap" id="audioTrackWrap">
+        <label for="audioTrackSelect"><i class="fas fa-volume-up"></i> Áudio</label>
+        <select id="audioTrackSelect"></select>
+      </div>
     </div>
     <div class="warning">
       <i class="fas fa-user-shield"></i>
       Missão Pessoal e Intransferível • Conexão Criptografada HMAC • ID do Cadete: ${userId}
     </div>
   </div>
-  <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.15/dist/hls.min.js"></script>
+  <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
   <script>
     const expirationTime = ${expirationTimestamp};
     const countdownEl = document.getElementById('countdown');
+    const streamPath = '${streamPath}';
 
     function updateCountdown() {
       const now = Date.now();
@@ -176,10 +231,12 @@ router.get('/player/:token', async (req, res) => {
         countdownEl.style.background = 'rgba(239, 68, 68, 0.1)';
         
         if (typeof player !== 'undefined' && player) { 
-          player.pause(); 
-          player.dispose(); 
-          document.querySelector('.video-wrapper').innerHTML = '<div style="padding: 50px; text-align: center; color: #4facfe; background: #000; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;"><h3><i class="fa-solid fa-meteor" style="font-size:40px; margin-bottom:15px;"></i><br>Transmissão Expirada</h3><p style="color:#94a3b8; margin-top:10px;">O seu tempo de acesso a este conteúdo chegou ao fim.</p></div>';
+          try { player.pause(); } catch (e) {}
         }
+        if (typeof hls !== 'undefined' && hls) {
+          try { hls.destroy(); } catch (e) {}
+        }
+          document.querySelector('.video-wrapper').innerHTML = '<div style="padding: 50px; text-align: center; color: #4facfe; background: #000; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;"><h3><i class="fa-solid fa-meteor" style="font-size:40px; margin-bottom:15px;"></i><br>Transmissão Expirada</h3><p style="color:#94a3b8; margin-top:10px;">O seu tempo de acesso a este conteúdo chegou ao fim.</p></div>';
         clearInterval(timerInterval);
         return;
       }
@@ -201,49 +258,156 @@ router.get('/player/:token', async (req, res) => {
     const timerInterval = setInterval(updateCountdown, 1000);
 
     let player;
+    let hls;
     let retryCount = 0;
+    let playLogged = false;
+    const audioTrackWrap = document.getElementById('audioTrackWrap');
+    const audioTrackSelect = document.getElementById('audioTrackSelect');
+
+    function logPlayOnce() {
+      if (playLogged) return;
+      fetch('/api/log-view', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ userId: ${userId}, videoId: '${videoId}', token: '${req.params.token}', timestamp: Date.now() })
+      }).catch(() => {});
+      playLogged = true;
+    }
+
+    function renderAudioTracks(tracks, onChange) {
+      if (!tracks || tracks.length <= 1) {
+        audioTrackWrap.style.display = 'none';
+        return;
+      }
+
+      audioTrackSelect.innerHTML = '';
+
+      tracks.forEach((track, index) => {
+        const option = document.createElement('option');
+        const label = track.name || track.lang || 'Faixa ' + (index + 1);
+        option.value = String(index);
+        option.textContent = label;
+        option.selected = !!track.default;
+        audioTrackSelect.appendChild(option);
+      });
+
+      audioTrackWrap.style.display = 'inline-flex';
+      audioTrackSelect.onchange = (event) => onChange(Number(event.target.value));
+    }
+
+    function loadWithNativeHls(videoEl, url) {
+      videoEl.src = url;
+      videoEl.addEventListener('loadedmetadata', () => {
+        const nativeTracks = videoEl.audioTracks ? Array.from(videoEl.audioTracks) : [];
+        renderAudioTracks(nativeTracks, (selected) => {
+          nativeTracks.forEach((track, idx) => { track.enabled = idx === selected; });
+        });
+      }, { once: true });
+    }
+
+    function loadSource(url, resumeAt = 0) {
+      const videoEl = document.getElementById('player');
+
+      if (hls) {
+        try { hls.destroy(); } catch (e) {}
+        hls = null;
+      }
+
+      const isNativeHls = videoEl.canPlayType('application/vnd.apple.mpegurl') || videoEl.canPlayType('application/x-mpegURL');
+
+      if (window.Hls && Hls.isSupported()) {
+        hls = new Hls({
+          enableWorker: true,
+          lowLatencyMode: true,
+          backBufferLength: 90
+        });
+
+        hls.loadSource(url);
+        hls.attachMedia(videoEl);
+
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          const tracks = (hls.audioTracks || []).map((track, index) => ({
+            name: track.name || track.lang || 'Faixa ' + (index + 1),
+            default: index === hls.audioTrack
+          }));
+
+          renderAudioTracks(tracks, (selected) => {
+            hls.audioTrack = selected;
+          });
+
+          if (resumeAt > 0) {
+            videoEl.currentTime = resumeAt;
+          }
+          videoEl.play().catch(() => {});
+        });
+
+        hls.on(Hls.Events.ERROR, (_, data) => {
+          if (!data || !data.fatal) return;
+
+          if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+            retryStream();
+            return;
+          }
+
+          if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+            try { hls.recoverMediaError(); } catch (e) { retryStream(); }
+            return;
+          }
+
+          retryStream();
+        });
+      } else if (isNativeHls) {
+        loadWithNativeHls(videoEl, url);
+      } else {
+        videoEl.src = url;
+      }
+    }
+
+    function retryStream() {
+      if (retryCount >= 3) {
+        document.querySelector('.video-wrapper').innerHTML = '<div style="padding: 50px; text-align: center; color: #ef4444; background: #000; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;"><h3><i class="fa-solid fa-satellite-dish" style="font-size:40px; margin-bottom:15px;"></i><br>Falha no Sinal</h3><p style="color:#94a3b8; margin-top:10px;">A conexão com o servidor foi interrompida. Tente recarregar a página.</p></div>';
+        return;
+      }
+
+      retryCount++;
+      const videoEl = document.getElementById('player');
+      const currentTime = videoEl.currentTime || 0;
+
+      fetch('/api/refresh-stream/${req.params.token}/${purchase.sessionToken}')
+        .then(r => r.json())
+        .then(d => {
+          if (!d || !d.url) return;
+          loadSource(d.url, currentTime);
+        })
+        .catch(() => {});
+    }
 
     document.addEventListener('DOMContentLoaded', function() {
-      player = videojs('player');
-      player.el().addEventListener('contextmenu', e => { e.preventDefault(); return false; });
+      const videoEl = document.getElementById('player');
+      videoEl.addEventListener('contextmenu', e => { e.preventDefault(); return false; });
 
-      player.ready(function() { player.load(); });
-
-      let playLogged = false;
-      player.on('play', function() {
-        if (!playLogged) {
-          fetch('/api/log-view', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ userId: ${userId}, videoId: '${videoId}', token: '${req.params.token}', timestamp: Date.now() })
-          });
-          playLogged = true;
+      player = new Plyr(videoEl, {
+        controls: [
+          'play-large',
+          'play',
+          'progress',
+          'current-time',
+          'mute',
+          'volume',
+          'settings',
+          'fullscreen'
+        ],
+        settings: ['speed'],
+        speed: {
+          selected: 1,
+          options: [0.5, 0.75, 1, 1.25, 1.5, 2]
         }
       });
 
-      player.on('error', function() {
-        const err = player.error();
-        if (err && (err.code === 2 || err.code === 4)) {
-          if (retryCount >= 3) {
-             document.querySelector('.video-wrapper').innerHTML = '<div style="padding: 50px; text-align: center; color: #ef4444; background: #000; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;"><h3><i class="fa-solid fa-satellite-dish" style="font-size:40px; margin-bottom:15px;"></i><br>Falha no Sinal</h3><p style="color:#94a3b8; margin-top:10px;">A conexão com o servidor foi interrompida. Tente recarregar a página.</p></div>';
-             return;
-          }
-          
-          retryCount++;
-          const currentTime = player.currentTime(); 
-          
-          fetch('/api/refresh-stream/${req.params.token}/${purchase.sessionToken}')
-            .then(r => r.json())
-            .then(d => { 
-              if (d.url) { 
-                player.src({ src: d.url, type: 'video/mp4' }); 
-                player.play(); 
-                if (currentTime > 0) player.currentTime(currentTime); 
-              } 
-            })
-            .catch(() => {});
-        }
-      });
+      videoEl.addEventListener('play', logPlayOnce);
+      videoEl.addEventListener('error', retryStream);
+
+      loadSource(streamPath, 0);
     });
   </script>
 </body>
