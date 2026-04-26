@@ -364,7 +364,8 @@ router.get('/player/:token', async (req, res) => {
 
     function loadSource(url, resumeAt = 0) {
       const videoEl = document.getElementById('player');
-      const isMp4 = /\.mp4(?:$|\?)/i.test(url || '');
+      const normalizedUrl = String(url || '').split('?')[0].toLowerCase();
+      const isMp4 = normalizedUrl.endsWith('.mp4');
 
       if (hls) {
         try { hls.destroy(); } catch (e) {}
