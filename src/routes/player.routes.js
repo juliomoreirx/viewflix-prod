@@ -211,7 +211,7 @@ router.get('/player/:token', async (req, res) => {
       position: fixed;
       inset: 0;
       z-index: 9999;
-      display: flex;
+      display: none;
       align-items: center;
       justify-content: center;
       padding: 20px;
@@ -302,10 +302,10 @@ router.get('/player/:token', async (req, res) => {
       </div>
       <div class="player-disclaimer-actions">
         <button id="continueInTelegramBtn" class="player-disclaimer-btn primary">Entendi e desejo continuar</button>
-        <button id="openNativeBrowserBtn" class="player-disclaimer-btn secondary">Abrir no navegador nativo</button>
+        <button id="copyLinkBtn" class="player-disclaimer-btn secondary">Copiar link para abrir no navegador</button>
       </div>
       <div class="player-disclaimer-hint">
-        Dica: se o app não abrir automaticamente, copie o link e cole no navegador.
+        Dica: após copiar, cole o link no Chrome/Safari para fullscreen funcionar corretamente.
       </div>
     </div>
   </div>
@@ -396,7 +396,7 @@ router.get('/player/:token', async (req, res) => {
     const qualityTrackSelect = document.getElementById('qualityTrackSelect');
     const disclaimerOverlay = document.getElementById('playerDisclaimerOverlay');
     const continueInTelegramBtn = document.getElementById('continueInTelegramBtn');
-    const openNativeBrowserBtn = document.getElementById('openNativeBrowserBtn');
+    const copyLinkBtn = document.getElementById('copyLinkBtn');
 
     function logPlayOnce() {
       if (playLogged) return;
@@ -605,28 +605,59 @@ router.get('/player/:token', async (req, res) => {
       loadSource(streamPath, 0);
     }
 
-    function openInNativeBrowser() {
-      const currentUrl = window.location.href;
-      const opened = window.open(currentUrl, '_blank', 'noopener,noreferrer');
+    function isTelegramWebView() {
+      const ua = navigator.userAgent || '';
+      const isTelegramUa = /telegram/i.test(ua);
+      const isTelegramWebApp = !!(window.Telegram && window.Telegram.WebApp);
+      const hasTelegramHint = /tgWebAppData|tgWebAppVersion|tgWebAppPlatform/i.test(window.location.search || '');
 
-      if (!opened) {
+      return isTelegramUa || isTelegramWebApp || hasTelegramHint;
+    }
+
+    async function copyCurrentLinkForNativeBrowser() {
+      const currentUrl = window.location.href;
+
+      try {
         if (navigator.clipboard && navigator.clipboard.writeText) {
-          navigator.clipboard.writeText(currentUrl).catch(() => {});
+          await navigator.clipboard.writeText(currentUrl);
+        } else {
+          const input = document.createElement('textarea');
+          input.value = currentUrl;
+          input.setAttribute('readonly', '');
+          input.style.position = 'fixed';
+          input.style.opacity = '0';
+          document.body.appendChild(input);
+          input.select();
+          document.execCommand('copy');
+          document.body.removeChild(input);
         }
-        alert('Não foi possível abrir automaticamente. O link foi copiado para você colar no navegador nativo.');
+
+        alert('Link copiado! Agora cole no navegador nativo (Chrome/Safari) para melhor fullscreen.');
+      } catch (_) {
+        alert('Não foi possível copiar automaticamente. Copie manualmente este link:\n\n' + currentUrl);
       }
     }
 
     document.addEventListener('DOMContentLoaded', function() {
-      document.body.style.overflow = 'hidden';
+      const shouldShowDisclaimer = isTelegramWebView();
 
-      continueInTelegramBtn.addEventListener('click', () => {
-        disclaimerOverlay.style.display = 'none';
-        document.body.style.overflow = '';
-        initializePlayer();
-      });
+      if (shouldShowDisclaimer) {
+        disclaimerOverlay.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
 
-      openNativeBrowserBtn.addEventListener('click', openInNativeBrowser);
+        continueInTelegramBtn.addEventListener('click', () => {
+          disclaimerOverlay.style.display = 'none';
+          document.body.style.overflow = '';
+          initializePlayer();
+        });
+
+        copyLinkBtn.addEventListener('click', copyCurrentLinkForNativeBrowser);
+        return;
+      }
+
+      disclaimerOverlay.style.display = 'none';
+      document.body.style.overflow = '';
+      initializePlayer();
     });
   </script>
 </body>
