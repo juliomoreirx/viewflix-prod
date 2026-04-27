@@ -521,6 +521,69 @@ async function listarCanaisAoVivo(chatId, pagina = 1) {
   }
 }
 
+function buscarCanaisPorTermo(canais = [], termo = '') {
+  const termoBusca = removerAcentos(String(termo || '').trim());
+  if (!termoBusca) return [];
+  return canais.filter((item) => removerAcentos(item?.name || '').includes(termoBusca));
+}
+
+async function renderBuscaCanaisPaginada(chatId, termoOriginal, pagina = 1) {
+  await ensureCacheLoaded();
+  const cache = getCacheSafe();
+  const canais = cache.livetv || [];
+  const resultados = buscarCanaisPorTermo(canais, termoOriginal);
+
+  if (resultados.length === 0) {
+    await bot.sendMessage(chatId,
+      `❌ *Nenhum canal encontrado para:* ${escaparMarkdownSeguro(termoOriginal)}\n\nTente outro termo.`,
+      {
+        parse_mode: 'Markdown',
+        reply_markup: {
+          inline_keyboard: [
+            [{ text: '🔄 Buscar novamente', callback_data: 'retry_search_livetv' }],
+            [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]
+          ]
+        }
+      }
+    );
+    return;
+  }
+
+  const ITENS_POR_PAGINA = 20;
+  const totalItens = resultados.length;
+  const totalPaginas = Math.max(1, Math.ceil(totalItens / ITENS_POR_PAGINA));
+  const paginaAtual = Math.min(Math.max(1, pagina), totalPaginas);
+  const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
+  const fim = inicio + ITENS_POR_PAGINA;
+  const itensPagina = resultados.slice(inicio, fim);
+
+  const buttons = itensPagina.map((item) => {
+    const name = decodificarHTML(item.name || `Canal ${item.id}`);
+    return [{
+      text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`,
+      callback_data: `live_details_${item.id}`
+    }];
+  });
+
+  const navRow = [];
+  if (paginaAtual > 1) navRow.push({ text: '◀️ Anterior', callback_data: `live_search_page_${paginaAtual - 1}` });
+  if (totalPaginas > 1) navRow.push({ text: `📄 ${paginaAtual}/${totalPaginas}`, callback_data: 'noop' });
+  if (paginaAtual < totalPaginas) navRow.push({ text: 'Próximo ▶️', callback_data: `live_search_page_${paginaAtual + 1}` });
+  if (navRow.length > 0) buttons.push(navRow);
+
+  buttons.push([
+    { text: '🔎 Nova busca', callback_data: 'search_livetv' },
+    { text: '📡 Lista completa', callback_data: 'list_livetv' }
+  ]);
+  buttons.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+
+  await bot.sendMessage(
+    chatId,
+    `🔎 *Busca de Canais*\n\nTermo: *${escaparMarkdownSeguro(termoOriginal)}*\n💰 Valor fixo por canal: ${formatMoney(PRECO_LIVETV_FIXO)}\n⏰ Validade: 24 horas\n\n📋 Mostrando ${inicio + 1}-${Math.min(fim, totalItens)} de ${totalItens} resultados`,
+    { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
+  );
+}
+
 async function mostrarMeuConteudo(chatId) {
   try {
     if (!PurchasedContentModel || typeof PurchasedContentModel.find !== 'function') {
@@ -933,7 +996,7 @@ bot.on('message', async (msg) => {
   if (!text || text.startsWith('/') || /🔍|🔎|📺|📡|🔞|💰|💳|🎬|📦/.test(text)) return;
 
   const state = userStates[chatId];
-  if (!state || !['search_movies', 'search_series', 'search_adult', 'search_livetv'].includes(state.step)) return;
+  if (!state || !['search_movies', 'search_series', 'search_adult', 'search_livetv', 'search_livetv_results'].includes(state.step)) return;
 
   try {
     const loadingMsg = await bot.sendMessage(chatId, '🔍 Buscando...');
@@ -947,9 +1010,11 @@ bot.on('message', async (msg) => {
     if (state.step === 'search_adult') {
       const todosItens = [...(cache.movies || []), ...(cache.series || [])];
       resultados = todosItens.filter(i => isAdulto(i.name) && removerAcentos(i.name || '').includes(termoBusca)).slice(0, 15);
-    } else if (state.step === 'search_livetv') {
-      const lista = cache.livetv || [];
-      resultados = lista.filter(i => removerAcentos(i.name || '').includes(termoBusca)).slice(0, 20);
+    } else if (state.step === 'search_livetv' || state.step === 'search_livetv_results') {
+      setUserState(chatId, { step: 'search_livetv_results', liveSearchTerm: text });
+      bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
+      await renderBuscaCanaisPaginada(chatId, text, 1);
+      return;
     } else {
       const lista = cache[state.step === 'search_movies' ? 'movies' : 'series'] || [];
       resultados = lista.filter(i => !isAdulto(i.name) && removerAcentos(i.name || '').includes(termoBusca)).slice(0, 15);
@@ -964,7 +1029,7 @@ bot.on('message', async (msg) => {
           parse_mode: 'Markdown',
           reply_markup: {
             inline_keyboard: [
-              [{ text: '🔄 Buscar novamente', callback_data: `retry_${state.step}` }],
+              [{ text: '🔄 Buscar novamente', callback_data: `retry_${state.step === 'search_livetv_results' ? 'search_livetv' : state.step}` }],
               [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]
             ]
           }
@@ -1058,6 +1123,28 @@ bot.on('callback_query', async (query) => {
       bot.answerCallbackQuery(query.id);
       bot.deleteMessage(chatId, msgId).catch(() => {});
       await listarCanaisAoVivo(chatId, pagina);
+      return;
+    }
+
+    if (data.startsWith('live_search_page_')) {
+      const pagina = parseInt(data.split('_')[3], 10) || 1;
+      const state = userStates[chatId];
+      const termo = state?.liveSearchTerm || '';
+
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+
+      if (!termo) {
+        setUserState(chatId, { step: 'search_livetv' });
+        await bot.sendMessage(chatId, '📡 *Buscar Canais ao Vivo*\n\nDigite o nome do canal (ex: Globo):', {
+          parse_mode: 'Markdown',
+          reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
+        });
+        return;
+      }
+
+      setUserState(chatId, { step: 'search_livetv_results', liveSearchTerm: termo });
+      await renderBuscaCanaisPaginada(chatId, termo, pagina);
       return;
     }
 
