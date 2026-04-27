@@ -32,6 +32,7 @@ let DOMINIO_PUBLICO = '';
 const PRECO_POR_HORA = parseInt(process.env.PRECO_POR_HORA || '250', 10);
 const PRECO_MINIMO = parseInt(process.env.PRECO_MINIMO || '25', 10);
 const PRECO_MINIMO_SERIE = parseInt(process.env.PRECO_MINIMO_SERIE || String(PRECO_MINIMO), 10);
+const PRECO_LIVETV_FIXO = parseInt(process.env.PRECO_LIVETV_FIXO || '500', 10);
 
 const ADMIN_IDS = process.env.ADMIN_IDS ? process.env.ADMIN_IDS.split(',').map(id => parseInt(id, 10)) : [];
 
@@ -88,7 +89,7 @@ let vouverService = {
   buscarDetalhes: null,
   estimarDuracao: null,
   atualizarCache: async () => {},
-  CACHE_CONTEUDO: { movies: [], series: [] }
+  CACHE_CONTEUDO: { movies: [], series: [], livetv: [] }
 };
 
 function setModels(models) {
@@ -131,7 +132,7 @@ function initBot(models, services, dominio) {
   vouverService.CACHE_CONTEUDO =
     services?.CACHE_CONTEUDO ||
     vouverService.CACHE_CONTEUDO ||
-    { movies: [], series: [] };
+    { movies: [], series: [], livetv: [] };
 
   DOMINIO_PUBLICO = dominio || DOMINIO_PUBLICO;
 
@@ -145,12 +146,16 @@ function initBot(models, services, dominio) {
 }
 
 function getCacheSafe() {
-  return vouverService?.CACHE_CONTEUDO || { movies: [], series: [] };
+  return vouverService?.CACHE_CONTEUDO || { movies: [], series: [], livetv: [] };
 }
 
 async function ensureCacheLoaded() {
   const cache = getCacheSafe();
-  if ((!cache.movies || cache.movies.length === 0) && (!cache.series || cache.series.length === 0)) {
+  if (
+    (!cache.movies || cache.movies.length === 0) &&
+    (!cache.series || cache.series.length === 0) &&
+    (!cache.livetv || cache.livetv.length === 0)
+  ) {
     await vouverService?.atualizarCache?.();
   }
 }
@@ -321,7 +326,7 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
     if (!token) return null;
 
     const purchaseDate = new Date();
-    const horasExpiracao = mediaType === 'movie' ? 24 : (7 * 24);
+    const horasExpiracao = mediaType === 'series' ? (7 * 24) : 24;
     const expiresAt = new Date(purchaseDate.getTime() + (horasExpiracao * 60 * 60 * 1000));
     const sessionToken = crypto.randomBytes(32).toString('hex');
 
@@ -352,6 +357,7 @@ function showMainMenu(chatId, text = '🏠 *Menu Principal*') {
     reply_markup: {
       keyboard: [
         ['🔍 Buscar Filmes', '📺 Buscar Séries'],
+        ['📡 Canais ao Vivo', '🔎 Buscar Canais'],
         ['🎬 Filmes A-Z', '📺 Séries A-Z'],
         ['📦 Meu Conteúdo', '🔞 Conteúdo +18'],
         ['💰 Adicionar Créditos', '💳 Meu Saldo']
@@ -450,6 +456,71 @@ async function listarPorLetra(chatId, tipo, letra, pagina = 1) {
   }
 }
 
+async function listarCanaisAoVivo(chatId, pagina = 1) {
+  try {
+    await ensureCacheLoaded();
+    const cache = getCacheSafe();
+    const canais = cache.livetv || [];
+
+    if (canais.length === 0) {
+      await bot.sendMessage(chatId,
+        '❌ *Nenhum canal ao vivo disponível no momento.*',
+        {
+          parse_mode: 'Markdown',
+          reply_markup: {
+            inline_keyboard: [
+              [{ text: '🔎 Buscar Canais', callback_data: 'search_livetv' }],
+              [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]
+            ]
+          }
+        }
+      );
+      return;
+    }
+
+    const ITENS_POR_PAGINA = 20;
+    const totalItens = canais.length;
+    const totalPaginas = Math.max(1, Math.ceil(totalItens / ITENS_POR_PAGINA));
+    const paginaAtual = Math.min(Math.max(1, pagina), totalPaginas);
+    const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
+    const fim = inicio + ITENS_POR_PAGINA;
+    const itensPagina = canais.slice(inicio, fim);
+
+    const buttons = itensPagina.map((item) => {
+      const name = decodificarHTML(item.name || `Canal ${item.id}`);
+      return [{
+        text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`,
+        callback_data: `live_details_${item.id}`
+      }];
+    });
+
+    const navRow = [];
+    if (paginaAtual > 1) navRow.push({ text: '◀️ Anterior', callback_data: `livepage_${paginaAtual - 1}` });
+    if (totalPaginas > 1) navRow.push({ text: `📄 ${paginaAtual}/${totalPaginas}`, callback_data: 'noop' });
+    if (paginaAtual < totalPaginas) navRow.push({ text: 'Próximo ▶️', callback_data: `livepage_${paginaAtual + 1}` });
+    if (navRow.length > 0) buttons.push(navRow);
+
+    buttons.push([
+      { text: '🔎 Buscar Canais', callback_data: 'search_livetv' },
+      { text: '🏠 Menu', callback_data: 'back_main' }
+    ]);
+
+    await bot.sendMessage(
+      chatId,
+      `📡 *Canais ao Vivo*
+
+💰 Valor fixo por canal: ${formatMoney(PRECO_LIVETV_FIXO)}
+⏰ Validade do acesso: 24 horas
+
+📋 Mostrando ${inicio + 1}-${Math.min(fim, totalItens)} de ${totalItens} canais`,
+      { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
+    );
+  } catch (error) {
+    console.error('Erro ao listar canais ao vivo:', error);
+    await bot.sendMessage(chatId, '❌ Erro ao listar canais. Tente novamente.');
+  }
+}
+
 async function mostrarMeuConteudo(chatId) {
   try {
     if (!PurchasedContentModel || typeof PurchasedContentModel.find !== 'function') {
@@ -486,7 +557,7 @@ async function mostrarMeuConteudo(chatId) {
       const epName = item.episodeName ? decodificarHTML(item.episodeName) : '';
       const nome = epName ? `${title} - ${epName}` : title;
       const timer = formatTimeRemaining(item.expiresAt);
-      const emoji = item.mediaType === 'movie' ? '🎬' : '📺';
+      const emoji = item.mediaType === 'movie' ? '🎬' : (item.mediaType === 'livetv' ? '📡' : '📺');
       
       return [{
         text: `${emoji} ${nome.substring(0, 45)} | ${timer}`,
@@ -497,7 +568,7 @@ async function mostrarMeuConteudo(chatId) {
     buttons.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
     await bot.sendMessage(chatId,
-      `📦 *Meu Conteúdo*\n\nVocê tem ${conteudos.length} conteúdo${conteudos.length > 1 ? 's' : ''} disponível${conteudos.length > 1 ? 'is' : ''}:\n\n💡 *Dica:* Filmes expiram em 24h, Séries em 7 dias`,
+      `📦 *Meu Conteúdo*\n\nVocê tem ${conteudos.length} conteúdo${conteudos.length > 1 ? 's' : ''} disponível${conteudos.length > 1 ? 'is' : ''}:\n\n💡 *Dica:* Filmes e Canais expiram em 24h, Séries em 7 dias`,
       { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
     );
   } catch (error) {
@@ -537,7 +608,7 @@ async function mostrarDetalhesConteudo(chatId, contentId) {
 
     const playerUrl = `${DOMINIO_PUBLICO}/player/${content.token}`;
     const timeRemaining = formatTimeRemaining(content.expiresAt);
-    const emoji = content.mediaType === 'movie' ? '🎬' : '📺';
+    const emoji = content.mediaType === 'movie' ? '🎬' : (content.mediaType === 'livetv' ? '📡' : '📺');
 
     const mensagem =
       `${emoji} *${escaparMarkdownSeguro(content.title)}*\n\n` +
@@ -569,8 +640,8 @@ async function mostrarDetalhesConteudo(chatId, contentId) {
 async function enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, mediaType = 'movie') {
   try {
     const playerUrl = `${DOMINIO_PUBLICO}/player/${token}`;
-    const tempoValido = mediaType === 'movie' ? '24 horas' : '7 dias';
-    const emoji = mediaType === 'movie' ? '🎬' : '📺';
+    const tempoValido = mediaType === 'series' ? '7 dias' : '24 horas';
+    const emoji = mediaType === 'movie' ? '🎬' : (mediaType === 'livetv' ? '📡' : '📺');
 
     await bot.sendMessage(chatId,
       `✅ *Conteúdo Liberado!*\n\n${escaparMarkdownSeguro(caption)}\n\n${emoji} *Como assistir:*\n1. Clique no botão "▶️ Assistir Agora"\n2. O vídeo abrirá no seu navegador\n3. Assista em tela cheia!\n\n⏰ *Link válido por ${tempoValido}*\n📦 Salvo em "Meu Conteúdo"\n🔒 Link protegido por DRM`,
@@ -664,7 +735,13 @@ async function verificarConteudosExpirando() {
       notificationSent: false
     });
 
-    const todosExpirando = [...filmesExpirando, ...seriesExpirando];
+    const canaisExpirando = await PurchasedContentModel.find({
+      mediaType: 'livetv',
+      expiresAt: { $gt: agora, $lte: daquiA2Horas },
+      notificationSent: false
+    });
+
+    const todosExpirando = [...filmesExpirando, ...seriesExpirando, ...canaisExpirando];
 
     for (const content of todosExpirando) {
       try {
@@ -679,8 +756,8 @@ async function verificarConteudosExpirando() {
         const timeRemaining = formatTimeRemaining(content.expiresAt);
         const playerUrl = `${DOMINIO_PUBLICO}/player/${content.token}`;
         const nomeCompleto = content.episodeName ? `${content.title} - ${content.episodeName}` : content.title;
-        const emoji = content.mediaType === 'movie' ? '🎬' : '📺';
-        const tipo = content.mediaType === 'movie' ? 'Filme' : 'Episódio';
+        const emoji = content.mediaType === 'movie' ? '🎬' : (content.mediaType === 'livetv' ? '📡' : '📺');
+        const tipo = content.mediaType === 'movie' ? 'Filme' : (content.mediaType === 'livetv' ? 'Canal' : 'Episódio');
 
         await bot.sendMessage(
           content.userId,
@@ -744,13 +821,14 @@ bot.onText(/\/start/, async (msg) => {
     const cache = getCacheSafe();
     const totalFilmes = cache.movies.length;
     const totalSeries = cache.series.length;
-    const totalConteudo = totalFilmes + totalSeries;
+    const totalCanais = (cache.livetv || []).length;
+    const totalConteudo = totalFilmes + totalSeries + totalCanais;
     const saldo = user.credits;
     const nomeSeguro = sanitizarTexto(user.firstName);
 
     const welcome = isNew
-      ? `🎉 *Bem-vindo ao FastTV, ${nomeSeguro}!*\n\n✅ Conta criada com sucesso!\n\n📊 Catálogo:\n🎥 ${totalFilmes.toLocaleString('pt-BR')} filmes\n📺 ${totalSeries.toLocaleString('pt-BR')} séries\n📦 ${totalConteudo.toLocaleString('pt-BR')} conteúdos\n\n💰 Saldo: ${formatMoney(saldo)}`
-      : `🎬 *Bem-vindo de volta, ${nomeSeguro}!*\n\n📊 Catálogo:\n🎥 ${totalFilmes.toLocaleString('pt-BR')} filmes\n📺 ${totalSeries.toLocaleString('pt-BR')} séries\n📦 ${totalConteudo.toLocaleString('pt-BR')} conteúdos\n\n💰 Saldo: ${formatMoney(saldo)}`;
+      ? `🎉 *Bem-vindo ao FastTV, ${nomeSeguro}!*\n\n✅ Conta criada com sucesso!\n\n📊 Catálogo:\n🎥 ${totalFilmes.toLocaleString('pt-BR')} filmes\n📺 ${totalSeries.toLocaleString('pt-BR')} séries\n📡 ${totalCanais.toLocaleString('pt-BR')} canais ao vivo\n📦 ${totalConteudo.toLocaleString('pt-BR')} conteúdos\n\n💰 Saldo: ${formatMoney(saldo)}`
+      : `🎬 *Bem-vindo de volta, ${nomeSeguro}!*\n\n📊 Catálogo:\n🎥 ${totalFilmes.toLocaleString('pt-BR')} filmes\n📺 ${totalSeries.toLocaleString('pt-BR')} séries\n📡 ${totalCanais.toLocaleString('pt-BR')} canais ao vivo\n📦 ${totalConteudo.toLocaleString('pt-BR')} conteúdos\n\n💰 Saldo: ${formatMoney(saldo)}`;
 
     showMainMenu(chatId, welcome);
   } catch (error) {
@@ -780,6 +858,7 @@ bot.onText(/\/saldo/, async (msg) => {
 bot.onText(/🎬 Filmes A-Z/, (msg) => mostrarAlfabeto(msg.chat.id, 'movies'));
 bot.onText(/📺 Séries A-Z/, (msg) => mostrarAlfabeto(msg.chat.id, 'series'));
 bot.onText(/📦 Meu Conteúdo/, async (msg) => mostrarMeuConteudo(msg.chat.id));
+bot.onText(/📡 Canais ao Vivo/, async (msg) => listarCanaisAoVivo(msg.chat.id, 1));
 
 bot.onText(/🔍 Buscar Filmes/, (msg) => {
   const chatId = msg.chat.id;
@@ -794,6 +873,15 @@ bot.onText(/📺 Buscar Séries/, (msg) => {
   const chatId = msg.chat.id;
   setUserState(chatId, { step: 'search_series' });
   bot.sendMessage(chatId, '📺 *Buscar Séries*\n\nDigite o nome da série:', {
+    parse_mode: 'Markdown',
+    reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
+  });
+});
+
+bot.onText(/🔎 Buscar Canais/, (msg) => {
+  const chatId = msg.chat.id;
+  setUserState(chatId, { step: 'search_livetv' });
+  bot.sendMessage(chatId, '📡 *Buscar Canais ao Vivo*\n\nDigite o nome do canal (ex: Globo):', {
     parse_mode: 'Markdown',
     reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
   });
@@ -842,10 +930,10 @@ function mostrarOpcoesCredito(chatId) {
 bot.on('message', async (msg) => {
   const chatId = msg.chat.id;
   const text = msg.text;
-  if (!text || text.startsWith('/') || /🔍|📺|🔞|💰|💳|🎬|📦/.test(text)) return;
+  if (!text || text.startsWith('/') || /🔍|🔎|📺|📡|🔞|💰|💳|🎬|📦/.test(text)) return;
 
   const state = userStates[chatId];
-  if (!state || !['search_movies', 'search_series', 'search_adult'].includes(state.step)) return;
+  if (!state || !['search_movies', 'search_series', 'search_adult', 'search_livetv'].includes(state.step)) return;
 
   try {
     const loadingMsg = await bot.sendMessage(chatId, '🔍 Buscando...');
@@ -859,6 +947,9 @@ bot.on('message', async (msg) => {
     if (state.step === 'search_adult') {
       const todosItens = [...(cache.movies || []), ...(cache.series || [])];
       resultados = todosItens.filter(i => isAdulto(i.name) && removerAcentos(i.name || '').includes(termoBusca)).slice(0, 15);
+    } else if (state.step === 'search_livetv') {
+      const lista = cache.livetv || [];
+      resultados = lista.filter(i => removerAcentos(i.name || '').includes(termoBusca)).slice(0, 20);
     } else {
       const lista = cache[state.step === 'search_movies' ? 'movies' : 'series'] || [];
       resultados = lista.filter(i => !isAdulto(i.name) && removerAcentos(i.name || '').includes(termoBusca)).slice(0, 15);
@@ -885,6 +976,9 @@ bot.on('message', async (msg) => {
     // APLICANDO DECODER NOS BOTÕES DE RESULTADO DE BUSCA
     const buttons = resultados.map(item => {
       const name = decodificarHTML(item.name || '');
+      if (state.step === 'search_livetv') {
+        return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `live_details_${item.id}` }];
+      }
       const tipo = (cache.movies || []).find(m => m.id === item.id) ? 'movies' : 'series';
       return [{ text: `${name.substring(0, 60)}${name.length > 60 ? '...' : ''}`, callback_data: `details_${item.id}_${tipo}` }];
     });
@@ -934,8 +1028,75 @@ bot.on('callback_query', async (query) => {
           ? '🎬 Digite o nome do filme:'
           : step === 'search_series'
             ? '📺 Digite o nome da série:'
-            : '🔞 Digite o termo de busca:'
+            : step === 'search_livetv'
+              ? '📡 Digite o nome do canal:'
+              : '🔞 Digite o termo de busca:'
       );
+      return;
+    }
+
+    if (data === 'search_livetv') {
+      setUserState(chatId, { step: 'search_livetv' });
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      bot.sendMessage(chatId, '📡 *Buscar Canais ao Vivo*\n\nDigite o nome do canal (ex: Globo):', {
+        parse_mode: 'Markdown',
+        reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
+      });
+      return;
+    }
+
+    if (data === 'list_livetv') {
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await listarCanaisAoVivo(chatId, 1);
+      return;
+    }
+
+    if (data.startsWith('livepage_')) {
+      const pagina = parseInt(data.split('_')[1], 10) || 1;
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await listarCanaisAoVivo(chatId, pagina);
+      return;
+    }
+
+    if (data.startsWith('live_details_')) {
+      const id = data.replace('live_details_', '');
+      bot.answerCallbackQuery(query.id, { text: 'Carregando canal...' });
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+
+      await ensureCacheLoaded();
+      const cache = getCacheSafe();
+      const canal = (cache.livetv || []).find((item) => String(item.id) === String(id));
+
+      if (!canal) {
+        await bot.sendMessage(chatId, '❌ Canal não encontrado. Atualize e tente novamente.');
+        return;
+      }
+
+      const saldoAtual = await getUserCredits(chatId);
+      const nomeCanal = decodificarHTML(canal.name || `Canal ${id}`);
+      const mensagem =
+        `📡 *${escaparMarkdownSeguro(nomeCanal)}*\n\n` +
+        `💰 Preço fixo: ${formatMoney(PRECO_LIVETV_FIXO)}\n` +
+        `⏰ Validade do acesso: 24 horas\n` +
+        `💳 Seu saldo: ${formatMoney(saldoAtual)}`;
+
+      const keyboard = [];
+      if (saldoAtual < PRECO_LIVETV_FIXO) {
+        keyboard.push([{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]);
+      } else {
+        keyboard.push([{ text: `▶️ Assistir Canal - ${formatMoney(PRECO_LIVETV_FIXO)}`, callback_data: `watch_live_${id}_${PRECO_LIVETV_FIXO}` }]);
+      }
+
+      keyboard.push([{ text: '📡 Ver Lista de Canais', callback_data: 'list_livetv' }]);
+      keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+
+      await bot.sendMessage(chatId, mensagem, {
+        parse_mode: 'Markdown',
+        reply_markup: { inline_keyboard: keyboard }
+      });
       return;
     }
 
@@ -1300,6 +1461,57 @@ bot.on('callback_query', async (query) => {
       );
 
       await enviarVideoComLink(chatId, token, `🎬 ${titulo} (${minutosReais}min)`, precoNum, titulo, 'movie');
+      return;
+    }
+
+    if (data.startsWith('watch_live_')) {
+      const [, , id, preco] = data.split('_');
+      const precoNum = parseInt(preco, 10) || PRECO_LIVETV_FIXO;
+
+      bot.answerCallbackQuery(query.id);
+
+      const saldoAtual = await getUserCredits(chatId);
+      if (saldoAtual < precoNum) {
+        await bot.sendMessage(chatId,
+          `❌ *Saldo Insuficiente*\n\nVocê possui: ${formatMoney(saldoAtual)}\nNecessário: ${formatMoney(precoNum)}\nFaltam: ${formatMoney(precoNum - saldoAtual)}`,
+          {
+            parse_mode: 'Markdown',
+            reply_markup: {
+              inline_keyboard: [
+                [{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }],
+                [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]
+              ]
+            }
+          }
+        );
+        return;
+      }
+
+      const deducaoSucesso = await deductCredits(chatId, precoNum);
+      if (!deducaoSucesso) {
+        await bot.sendMessage(chatId, '❌ Erro ao processar pagamento. Tente novamente.');
+        return;
+      }
+
+      await ensureCacheLoaded();
+      const cache = getCacheSafe();
+      const canal = (cache.livetv || []).find((item) => String(item.id) === String(id));
+      const tituloCanal = decodificarHTML(canal?.name || `Canal ${id}`);
+
+      const token = await salvarConteudoComprado(chatId, id, 'livetv', tituloCanal, precoNum);
+      if (!token) {
+        await addCredits(chatId, precoNum);
+        await bot.sendMessage(chatId, '❌ Erro ao gerar link. Créditos devolvidos.');
+        return;
+      }
+
+      const novoSaldo = await getUserCredits(chatId);
+      await bot.sendMessage(chatId,
+        `✅ *Pagamento Confirmado!*\n\n📡 Canal: ${escaparMarkdownSeguro(tituloCanal)}\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏰ Link válido por *24 horas*`,
+        { parse_mode: 'Markdown' }
+      );
+
+      await enviarVideoComLink(chatId, token, `📡 ${tituloCanal}`, precoNum, tituloCanal, 'livetv');
       return;
     }
 

@@ -16,7 +16,11 @@ async function listCatalog({
   const pageNum = parseInt(page, 10) || 1;
   const limit = 20;
 
-  if (cacheConteudo.series.length === 0) {
+  if (
+    (!cacheConteudo.series || cacheConteudo.series.length === 0) &&
+    (!cacheConteudo.movies || cacheConteudo.movies.length === 0) &&
+    (!cacheConteudo.livetv || cacheConteudo.livetv.length === 0)
+  ) {
     await atualizarCache(true);
   }
 
@@ -25,6 +29,8 @@ async function listCatalog({
     lista = [...cacheConteudo.movies, ...cacheConteudo.series].filter((i) =>
       isAdultoNome(i.name)
     );
+  } else if (type === 'livetv') {
+    lista = cacheConteudo.livetv || [];
   } else {
     lista = (cacheConteudo[type] || []).filter((i) => !isAdultoNome(i.name));
   }

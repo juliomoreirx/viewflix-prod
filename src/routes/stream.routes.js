@@ -10,7 +10,7 @@ const router = express.Router();
 const querySchema = z.object({
   relay_secret: z.string().optional(),
   videoId: z.string().min(1),
-  type: z.enum(['movie', 'series']).optional().default('movie')
+  type: z.enum(['movie', 'series', 'livetv', 'live']).optional().default('movie')
 });
 
 // Proxy apenas para autenticação rápida (não consome dados)
@@ -32,7 +32,8 @@ router.get('/relay-stream', async (req, res, next) => {
 
     if (!parsed.success) return res.status(400).send('Invalid query');
 
-    const { relay_secret, videoId, type } = parsed.data;
+    const { relay_secret, videoId } = parsed.data;
+    const type = parsed.data.type === 'live' ? 'livetv' : parsed.data.type;
 
     if (!relay_secret || relay_secret !== env.RELAY_SECRET) {
       return res.status(403).send('Forbidden');
@@ -40,13 +41,21 @@ router.get('/relay-stream', async (req, res, next) => {
 
     const login = env.LOGIN_USER || '';
     const senha = env.LOGIN_PASS || '';
-    const base = type === 'series' ? 'http://goplay.icu/series' : 'http://goplay.icu/movie';
-    const streamUrl = `${base}/${login}/${senha}/${encodeURIComponent(videoId)}.mp4`;
+    const streamUrl = type === 'livetv'
+      ? `http://goplay.icu/live/${login}/${senha}/${encodeURIComponent(videoId)}.m3u8`
+      : `http://goplay.icu/${type === 'series' ? 'series' : 'movie'}/${login}/${senha}/${encodeURIComponent(videoId)}.mp4`;
 
     // 1. Usa o proxy apenas para descobrir a porta do cofre (0 consumo de dados pesados)
     const response = await axios.get(streamUrl, {
       httpAgent: residentialProxyAgent,
       httpsAgent: residentialProxyAgent,
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0',
+        Accept: '*/*',
+        'Accept-Language': 'pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3',
+        Referer: 'http://vouver.me/',
+        Origin: 'http://vouver.me'
+      },
       maxRedirects: 0, 
       validateStatus: (status) => status >= 200 && status <= 302
     });

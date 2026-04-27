@@ -49,8 +49,12 @@ const jar = new CookieJar();
 const client = wrapper(axios.create({ jar, withCredentials: true }));
 const clientNoJar = axios.create({ withCredentials: false });
 
-const CACHE_CONTEUDO = { movies: [], series: [], lastUpdated: 0 };
+const CACHE_CONTEUDO = { movies: [], series: [], livetv: [], lastUpdated: 0 };
 let SESSION_COOKIES = '';
+
+function sortByName(list = []) {
+  return [...list].sort((a, b) => String(a?.name || '').localeCompare(String(b?.name || '')));
+}
 
 const HEADERS = {
   'User-Agent':
@@ -177,23 +181,28 @@ async function carregarDoArquivo(contentPath) {
 
     let rawMovies = [];
     let rawSeries = [];
+    let rawLiveTv = [];
 
     if (cacheData.data) {
       rawMovies = cacheData.data.movies || [];
       rawSeries = cacheData.data.series || [];
+      rawLiveTv = cacheData.data.livetv || cacheData.data.liveTv || cacheData.data.live_tv || cacheData.data.channels || [];
     } else if (cacheData.movies) {
       rawMovies = cacheData.movies || [];
       rawSeries = cacheData.series || [];
+      rawLiveTv = cacheData.livetv || cacheData.liveTv || cacheData.live_tv || cacheData.channels || [];
     }
 
-    if (rawMovies.length > 0 || rawSeries.length > 0) {
-      CACHE_CONTEUDO.movies = rawMovies.sort((a, b) => a.name.localeCompare(b.name));
-      CACHE_CONTEUDO.series = rawSeries.sort((a, b) => a.name.localeCompare(b.name));
+    if (rawMovies.length > 0 || rawSeries.length > 0 || rawLiveTv.length > 0) {
+      CACHE_CONTEUDO.movies = sortByName(rawMovies);
+      CACHE_CONTEUDO.series = sortByName(rawSeries);
+      CACHE_CONTEUDO.livetv = sortByName(rawLiveTv);
       CACHE_CONTEUDO.lastUpdated = Date.now();
       logger.info({
         msg: 'Cache carregado de arquivo',
         movies: CACHE_CONTEUDO.movies.length,
-        series: CACHE_CONTEUDO.series.length
+        series: CACHE_CONTEUDO.series.length,
+        livetv: CACHE_CONTEUDO.livetv.length
       });
       return true;
     }
@@ -219,11 +228,22 @@ async function carregarViaWorker(contentPath) {
 
     const rawMovies = data.data?.data?.movies || data.data?.movies || [];
     const rawSeries = data.data?.data?.series || data.data?.series || [];
+    const rawLiveTv =
+      data.data?.data?.livetv ||
+      data.data?.livetv ||
+      data.data?.data?.liveTv ||
+      data.data?.liveTv ||
+      data.data?.data?.live_tv ||
+      data.data?.live_tv ||
+      data.data?.data?.channels ||
+      data.data?.channels ||
+      [];
 
-    if (rawMovies.length === 0 && rawSeries.length === 0) return false;
+    if (rawMovies.length === 0 && rawSeries.length === 0 && rawLiveTv.length === 0) return false;
 
-    CACHE_CONTEUDO.movies = rawMovies.sort((a, b) => a.name.localeCompare(b.name));
-    CACHE_CONTEUDO.series = rawSeries.sort((a, b) => a.name.localeCompare(b.name));
+    CACHE_CONTEUDO.movies = sortByName(rawMovies);
+    CACHE_CONTEUDO.series = sortByName(rawSeries);
+    CACHE_CONTEUDO.livetv = sortByName(rawLiveTv);
     CACHE_CONTEUDO.lastUpdated = Date.now();
 
     await fs.writeFile(contentPath, JSON.stringify(data.data, null, 2), 'utf8');
@@ -231,7 +251,8 @@ async function carregarViaWorker(contentPath) {
     logger.info({
       msg: 'Cache carregado via worker',
       movies: CACHE_CONTEUDO.movies.length,
-      series: CACHE_CONTEUDO.series.length
+      series: CACHE_CONTEUDO.series.length,
+      livetv: CACHE_CONTEUDO.livetv.length
     });
 
     return true;
@@ -269,14 +290,25 @@ async function carregarViaApiDireta(contentPath) {
     const cacheData = resp.data || {};
     const rawMovies = cacheData?.data?.movies || cacheData?.movies || [];
     const rawSeries = cacheData?.data?.series || cacheData?.series || [];
+    const rawLiveTv =
+      cacheData?.data?.livetv ||
+      cacheData?.livetv ||
+      cacheData?.data?.liveTv ||
+      cacheData?.liveTv ||
+      cacheData?.data?.live_tv ||
+      cacheData?.live_tv ||
+      cacheData?.data?.channels ||
+      cacheData?.channels ||
+      [];
 
-    if (rawMovies.length === 0 && rawSeries.length === 0) {
+    if (rawMovies.length === 0 && rawSeries.length === 0 && rawLiveTv.length === 0) {
       logger.warn({ msg: 'API direta respondeu sem catálogo' });
       return false;
     }
 
-    CACHE_CONTEUDO.movies = rawMovies.sort((a, b) => a.name.localeCompare(b.name));
-    CACHE_CONTEUDO.series = rawSeries.sort((a, b) => a.name.localeCompare(b.name));
+    CACHE_CONTEUDO.movies = sortByName(rawMovies);
+    CACHE_CONTEUDO.series = sortByName(rawSeries);
+    CACHE_CONTEUDO.livetv = sortByName(rawLiveTv);
     CACHE_CONTEUDO.lastUpdated = Date.now();
 
     await fs.writeFile(contentPath, JSON.stringify(cacheData, null, 2), 'utf8');
@@ -284,7 +316,8 @@ async function carregarViaApiDireta(contentPath) {
     logger.info({
       msg: 'Cache carregado via API direta',
       movies: CACHE_CONTEUDO.movies.length,
-      series: CACHE_CONTEUDO.series.length
+      series: CACHE_CONTEUDO.series.length,
+      livetv: CACHE_CONTEUDO.livetv.length
     });
 
     return true;

@@ -3,7 +3,7 @@ const { mongoose } = require('../db/mongoose');
 const purchasedContentSchema = new mongoose.Schema({
   userId: { type: Number, required: true, index: true },
   videoId: { type: String, required: true },
-  mediaType: { type: String, enum: ['movie', 'series'], required: true },
+  mediaType: { type: String, enum: ['movie', 'series', 'livetv'], required: true },
   title: { type: String, required: true },
   episodeName: { type: String },
   season: { type: String },

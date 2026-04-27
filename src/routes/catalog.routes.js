@@ -10,7 +10,7 @@ const { buscarDetalhes } = require('../services/content-details.service');
 const router = express.Router();
 
 const listQuerySchema = z.object({
-  type: z.enum(['movies', 'series', 'adult']).optional(),
+  type: z.enum(['movies', 'series', 'adult', 'livetv']).optional(),
   page: z.string().optional(),
   q: z.string().optional()
 });
@@ -28,13 +28,21 @@ router.get('/api/list', asyncHandler(async (req, res) => {
   const pageNum = parseInt(page, 10) || 1;
   const limit = 20;
 
-  if (CACHE_CONTEUDO.series.length === 0) await atualizarCache(true);
+  if (
+    CACHE_CONTEUDO.series.length === 0 &&
+    CACHE_CONTEUDO.movies.length === 0 &&
+    (CACHE_CONTEUDO.livetv || []).length === 0
+  ) {
+    await atualizarCache(true);
+  }
 
   const isAdulto = (n) => /[\[\(]xxx|\+18|adulto|hentai/i.test(String(n).toUpperCase());
 
   let lista;
   if (type === 'adult') {
     lista = [...CACHE_CONTEUDO.movies, ...CACHE_CONTEUDO.series].filter((i) => isAdulto(i.name));
+  } else if (type === 'livetv') {
+    lista = CACHE_CONTEUDO.livetv || [];
   } else {
     lista = (CACHE_CONTEUDO[type] || []).filter((i) => !isAdulto(i.name));
   }
