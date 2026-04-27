@@ -19,7 +19,10 @@ const userSchema = new mongoose.Schema({
   metadata: {
     telegramLanguageCode: String,
     isPremium: Boolean,
-    lastIp: String
+    lastIp: String,
+    initialBonusGranted: { type: Boolean, default: false },
+    initialBonusGrantedAt: Date,
+    initialBonusAmount: Number
   }
 });
 

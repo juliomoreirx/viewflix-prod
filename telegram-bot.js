@@ -33,6 +33,7 @@ const PRECO_POR_HORA = parseInt(process.env.PRECO_POR_HORA || '250', 10);
 const PRECO_MINIMO = parseInt(process.env.PRECO_MINIMO || '25', 10);
 const PRECO_MINIMO_SERIE = parseInt(process.env.PRECO_MINIMO_SERIE || String(PRECO_MINIMO), 10);
 const PRECO_LIVETV_FIXO = parseInt(process.env.PRECO_LIVETV_FIXO || '500', 10);
+const BONUS_INICIAL_NOVO_USUARIO = parseInt(process.env.BONUS_INICIAL_NOVO_USUARIO || '500', 10);
 
 const ADMIN_IDS = process.env.ADMIN_IDS ? process.env.ADMIN_IDS.split(',').map(id => parseInt(id, 10)) : [];
 
@@ -280,6 +281,57 @@ async function verificarBloqueio(userId) {
   } catch (error) {
     console.error('Erro ao verificar bloqueio:', error);
     return { blocked: false };
+  }
+}
+
+async function concederBonusInicialSeElegivel(user, isNewUser) {
+  if (!isNewUser || !user || BONUS_INICIAL_NOVO_USUARIO <= 0) {
+    return { granted: false, amount: 0 };
+  }
+
+  try {
+    if (!UserModel || typeof UserModel.findOneAndUpdate !== 'function') {
+      return { granted: false, amount: 0 };
+    }
+
+    const reservado = await UserModel.findOneAndUpdate(
+      {
+        userId: user.userId,
+        'metadata.initialBonusGranted': { $ne: true }
+      },
+      {
+        $set: {
+          'metadata.initialBonusGranted': true,
+          'metadata.initialBonusGrantedAt': new Date(),
+          'metadata.initialBonusAmount': BONUS_INICIAL_NOVO_USUARIO
+        }
+      },
+      { new: true }
+    );
+
+    if (!reservado) {
+      return { granted: false, amount: 0 };
+    }
+
+    const creditado = await addCredits(user.userId, BONUS_INICIAL_NOVO_USUARIO);
+    if (!creditado) {
+      await UserModel.updateOne(
+        { userId: user.userId },
+        {
+          $set: { 'metadata.initialBonusGranted': false },
+          $unset: {
+            'metadata.initialBonusGrantedAt': '',
+            'metadata.initialBonusAmount': ''
+          }
+        }
+      );
+      return { granted: false, amount: 0 };
+    }
+
+    return { granted: true, amount: BONUS_INICIAL_NOVO_USUARIO };
+  } catch (error) {
+    console.error('Erro ao conceder bônus inicial:', error.message);
+    return { granted: false, amount: 0 };
   }
 }
 
@@ -881,16 +933,22 @@ bot.onText(/\/start/, async (msg) => {
     clearUserState(chatId);
     setUserState(chatId, { step: 'menu' });
 
+    const bonusInfo = await concederBonusInicialSeElegivel(user, isNew);
+
     const cache = getCacheSafe();
     const totalFilmes = cache.movies.length;
     const totalSeries = cache.series.length;
     const totalCanais = (cache.livetv || []).length;
     const totalConteudo = totalFilmes + totalSeries + totalCanais;
-    const saldo = user.credits;
+    const saldo = await getUserCredits(chatId);
     const nomeSeguro = sanitizarTexto(user.firstName);
 
+    const bonusMensagem = bonusInfo.granted
+      ? `\n\n🎁 *Bônus de Boas-Vindas Liberado Hoje!*\nVocê recebeu ${formatMoney(bonusInfo.amount)} em créditos iniciais para começar agora.`
+      : '';
+
     const welcome = isNew
-      ? `🎉 *Bem-vindo ao FastTV, ${nomeSeguro}!*\n\n✅ Conta criada com sucesso!\n\n📊 Catálogo:\n🎥 ${totalFilmes.toLocaleString('pt-BR')} filmes\n📺 ${totalSeries.toLocaleString('pt-BR')} séries\n📡 ${totalCanais.toLocaleString('pt-BR')} canais ao vivo\n📦 ${totalConteudo.toLocaleString('pt-BR')} conteúdos\n\n💰 Saldo: ${formatMoney(saldo)}`
+      ? `🎉 *Bem-vindo ao FastTV, ${nomeSeguro}!*\n\n✅ Conta criada com sucesso!\n\n📊 Catálogo:\n🎥 ${totalFilmes.toLocaleString('pt-BR')} filmes\n📺 ${totalSeries.toLocaleString('pt-BR')} séries\n📡 ${totalCanais.toLocaleString('pt-BR')} canais ao vivo\n📦 ${totalConteudo.toLocaleString('pt-BR')} conteúdos\n\n💰 Saldo: ${formatMoney(saldo)}${bonusMensagem}`
       : `🎬 *Bem-vindo de volta, ${nomeSeguro}!*\n\n📊 Catálogo:\n🎥 ${totalFilmes.toLocaleString('pt-BR')} filmes\n📺 ${totalSeries.toLocaleString('pt-BR')} séries\n📡 ${totalCanais.toLocaleString('pt-BR')} canais ao vivo\n📦 ${totalConteudo.toLocaleString('pt-BR')} conteúdos\n\n💰 Saldo: ${formatMoney(saldo)}`;
 
     showMainMenu(chatId, welcome);
