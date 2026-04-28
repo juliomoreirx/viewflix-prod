@@ -7,6 +7,8 @@ const { CACHE_CONTEUDO, atualizarCache } = require('../services/content-cache.se
 
 const router = express.Router();
 
+const crypto = require('crypto');
+
 const usersQuerySchema = z.object({
   page: z.string().optional(),
   limit: z.string().optional(),
@@ -226,6 +228,76 @@ router.post('/api/admin/refresh-cache', adminAuth, asyncHandler(async (req, res)
     series: CACHE_CONTEUDO.series.length,
     lastUpdated: CACHE_CONTEUDO.lastUpdated
   });
+}));
+
+// List channels with admin overrides merged
+router.get('/api/admin/channels', adminAuth, asyncHandler(async (req, res) => {
+  const { ChannelOverride } = req.app.locals.models;
+  const channels = (CACHE_CONTEUDO.livetv || []).map((c) => c || {});
+
+  const overrides = await ChannelOverride.find({}).lean();
+  const overrideMap = new Map(overrides.map(o => [o.key, o]));
+
+  function computeKey(ch) {
+    const raw = ch.id || ch.videoId || ch.key || ch.name || ch.title || ch.url || JSON.stringify(ch);
+    return crypto.createHash('sha1').update(String(raw)).digest('hex');
+  }
+
+  const data = channels.map((ch) => {
+    const key = computeKey(ch);
+    const ov = overrideMap.get(key) || {};
+    return {
+      key,
+      title: ch.name || ch.title || ch.label || ch.channel || null,
+      url: ch.url || ch.hls || ch.stream || null,
+      raw: ch,
+      hidden: !!ov.hidden,
+      disabled: !!ov.disabled,
+      override: ov
+    };
+  });
+
+  return res.json({ success: true, total: data.length, data });
+}));
+
+// Bulk update channels (hide/unhide/disable/enable)
+router.post('/api/admin/channels/bulk-update', adminAuth, asyncHandler(async (req, res) => {
+  const { ChannelOverride } = req.app.locals.models;
+  const { keys = [], action } = req.body || {};
+  if (!Array.isArray(keys) || keys.length === 0) return res.status(400).json({ error: 'keys required' });
+  if (!['hide','unhide','disable','enable'].includes(action)) return res.status(400).json({ error: 'invalid action' });
+
+  let modified = 0;
+  for (const key of keys) {
+    if (!key) continue;
+    const existing = await ChannelOverride.findOne({ key });
+    if (action === 'hide') {
+      if (existing) {
+        if (!existing.hidden) { existing.hidden = true; await existing.save(); modified++; }
+      } else {
+        await ChannelOverride.create({ key, hidden: true }); modified++;
+      }
+    }
+    if (action === 'unhide') {
+      if (existing) {
+        if (existing.hidden) { existing.hidden = false; await existing.save(); modified++; }
+      }
+    }
+    if (action === 'disable') {
+      if (existing) {
+        if (!existing.disabled) { existing.disabled = true; await existing.save(); modified++; }
+      } else {
+        await ChannelOverride.create({ key, disabled: true }); modified++;
+      }
+    }
+    if (action === 'enable') {
+      if (existing) {
+        if (existing.disabled) { existing.disabled = false; await existing.save(); modified++; }
+      }
+    }
+  }
+
+  return res.json({ success: true, modified });
 }));
 
 module.exports = router;

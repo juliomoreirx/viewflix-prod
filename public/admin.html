@@ -345,6 +345,9 @@
                     <button data-tab="filters" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-sliders w-4 mr-3"></i>Filtros
                     </button>
+                    <button data-tab="channels" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                        <i class="fa-solid fa-tv w-4 mr-3"></i>Canais
+                    </button>
                 </nav>
                 
                 <div class="pt-6 border-t border-white/10">
@@ -464,6 +467,41 @@
                         <i class="fa-solid fa-sliders text-5xl opacity-30 mb-4"></i>
                         <p class="text-gray-400">Opcoes de filtro avancadas disponveis na aba de usuarios.</p>
                     </div>
+                </div>
+                
+                <div id="channelsTab" class="tab-content hidden">
+                    <div class="glass rounded-2xl p-6 mb-4 border border-white/5">
+                        <div class="flex gap-3">
+                            <input id="channelsSearch" type="text" placeholder="Pesquisar canal por nome..." class="search-box flex-1">
+                            <select id="channelsAction" class="search-box w-48">
+                                <option value="hide">Ocultar Selecionados</option>
+                                <option value="unhide">Mostrar Selecionados</option>
+                                <option value="disable">Desativar Selecionados</option>
+                                <option value="enable">Ativar Selecionados</option>
+                            </select>
+                            <button id="channelsApplyBtn" class="btn-primary">Aplicar</button>
+                        </div>
+                    </div>
+
+                    <div class="glass rounded-2xl p-4 border border-white/5 mb-4">
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-left">
+                                <thead>
+                                    <tr class="text-xs text-gray-400 border-b border-white/5">
+                                        <th class="py-3 pr-4"><input id="selectAllChannels" type="checkbox"></th>
+                                        <th class="py-3">Canal</th>
+                                        <th class="py-3">URL</th>
+                                        <th class="py-3">Status</th>
+                                        <th class="py-3">Ações</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="channelsTableBody">
+                                    <!-- rows -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div id="channelsMessage" class="text-sm text-gray-400"></div>
                 </div>
                 
             </div>
@@ -597,6 +635,108 @@
                 document.getElementById('usersListContainer').innerHTML = `<div class="glass p-6 rounded-xl text-center text-red-400"><i class="fa-solid fa-circle-exclamation mr-2"></i>${err.message}</div>`;
             }
         }
+
+        // Channels management
+        state.channels = [];
+        state.selectedChannelKeys = new Set();
+
+        async function loadChannels() {
+            if (!state.token) return;
+            document.getElementById('channelsTableBody').innerHTML = '<tr><td colspan="5"><div class="loading-skeleton h-12 rounded"></div></td></tr>';
+            try {
+                const res = await fetch('/api/admin/channels', { headers: { 'Authorization': `Bearer ${state.token}` } });
+                if (!res.ok) throw new Error('Falha ao carregar canais');
+                const json = await res.json();
+                state.channels = json.data || [];
+                renderChannels();
+            } catch (err) {
+                document.getElementById('channelsTableBody').innerHTML = `<tr><td colspan="5"><div class="glass p-4 rounded text-red-400">${err.message}</div></td></tr>`;
+            }
+        }
+
+        function renderChannels() {
+            const q = (document.getElementById('channelsSearch').value || '').trim().toLowerCase();
+            const rows = state.channels
+                .filter(c => !q || (c.title || '').toLowerCase().includes(q))
+                .map(c => {
+                    const key = c.key;
+                    const title = sanitize(c.title || (c.raw && (c.raw.name || c.raw.title)) || 'N/A');
+                    const url = sanitize(String(c.url || (c.raw && (c.raw.url || c.raw.hls)) || ''));
+                    const status = [];
+                    if (c.hidden) status.push('<span class="badge badge-inactive">OCULTO</span>');
+                    if (c.disabled) status.push('<span class="badge badge-blocked">DESATIVADO</span>');
+                    return `
+                        <tr class="border-b border-white/5">
+                            <td class="py-3 pr-4"><input data-key="${key}" type="checkbox" class="channel-checkbox" ${state.selectedChannelKeys.has(key) ? 'checked' : ''}></td>
+                            <td class="py-3"><div class="font-semibold">${title}</div></td>
+                            <td class="py-3 text-xs text-gray-400">${url}</td>
+                            <td class="py-3">${status.join(' ') || '<span class="badge badge-active">ATIVO</span>'}</td>
+                            <td class="py-3">
+                                <button data-key="${key}" class="btn-secondary btn-sm toggle-hide">Toggle Ocultar</button>
+                                <button data-key="${key}" class="btn-secondary btn-sm ml-2 toggle-disable">Toggle Desativar</button>
+                            </td>
+                        </tr>
+                    `;
+                });
+            document.getElementById('channelsTableBody').innerHTML = rows.join('') || '<tr><td colspan="5"><div class="glass p-6 rounded text-gray-400">Nenhum canal encontrado</div></td></tr>';
+
+            // Attach checkbox handlers
+            document.querySelectorAll('.channel-checkbox').forEach(cb => {
+                cb.addEventListener('change', (e) => {
+                    const k = e.target.dataset.key;
+                    if (e.target.checked) state.selectedChannelKeys.add(k); else state.selectedChannelKeys.delete(k);
+                });
+            });
+
+            document.querySelectorAll('.toggle-hide').forEach(btn => btn.addEventListener('click', async (e) => {
+                const key = e.target.dataset.key;
+                await bulkUpdateChannels([key], 'hide');
+                await loadChannels();
+            }));
+
+            document.querySelectorAll('.toggle-disable').forEach(btn => btn.addEventListener('click', async (e) => {
+                const key = e.target.dataset.key;
+                await bulkUpdateChannels([key], 'disable');
+                await loadChannels();
+            }));
+
+            // select all
+            const selectAll = document.getElementById('selectAllChannels');
+            if (selectAll) {
+                selectAll.checked = state.channels.length > 0 && state.channels.every(c => state.selectedChannelKeys.has(c.key));
+                selectAll.onchange = () => {
+                    if (selectAll.checked) state.channels.forEach(c => state.selectedChannelKeys.add(c.key)); else state.selectedChannelKeys.clear();
+                    renderChannels();
+                };
+            }
+        }
+
+        async function bulkUpdateChannels(keys, action) {
+            if (!keys || keys.length === 0) return;
+            try {
+                const res = await fetch('/api/admin/channels/bulk-update', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${state.token}` },
+                    body: JSON.stringify({ keys, action })
+                });
+                if (!res.ok) throw new Error('Falha ao aplicar acao');
+                const json = await res.json();
+                document.getElementById('channelsMessage').textContent = `Modificados: ${json.modified || 0}`;
+                setTimeout(() => document.getElementById('channelsMessage').textContent = '', 4000);
+            } catch (err) {
+                document.getElementById('channelsMessage').textContent = err.message;
+            }
+        }
+
+        document.getElementById('channelsApplyBtn').addEventListener('click', async () => {
+            const action = document.getElementById('channelsAction').value;
+            const keys = Array.from(state.selectedChannelKeys);
+            if (keys.length === 0) { document.getElementById('channelsMessage').textContent = 'Nenhum canal selecionado'; return; }
+            await bulkUpdateChannels(keys, action);
+            await loadChannels();
+        });
+
+        document.getElementById('channelsSearch').addEventListener('keypress', (e) => { if (e.key === 'Enter') renderChannels(); });
 
         function renderUsers() {
             const container = document.getElementById('usersListContainer');

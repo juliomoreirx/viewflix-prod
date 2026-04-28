@@ -6,6 +6,7 @@ const env = require('../config/env');
 const logger = require('../lib/logger');
 
 const router = express.Router();
+const crypto = require('crypto');
 
 const querySchema = z.object({
   relay_secret: z.string().optional(),
@@ -191,6 +192,18 @@ router.get('/relay-stream', async (req, res, next) => {
     const senha = env.LOGIN_PASS || '';
 
     if (type === 'livetv') {
+      // Check admin overrides: if disabled, block access
+      try {
+        const { ChannelOverride } = req.app.locals.models || {};
+        const key = crypto.createHash('sha1').update(String(videoId)).digest('hex');
+        if (ChannelOverride) {
+          const ov = await ChannelOverride.findOne({ key }).lean();
+          if (ov && ov.disabled) return res.status(403).send('Canal desativado');
+        }
+      } catch (e) {
+        logger.warn({ msg: 'Erro ao checar override de canal', err: e.message });
+      }
+
       const manifestRelayUrl = `/relay-live-manifest?videoId=${encodeURIComponent(videoId)}&relay_secret=${encodeURIComponent(relay_secret)}`;
       return res.redirect(302, manifestRelayUrl);
     }
@@ -243,6 +256,18 @@ router.get('/relay-live-manifest', async (req, res, next) => {
     const { relay_secret, videoId } = parsed.data;
     if (!relay_secret || relay_secret !== env.RELAY_SECRET) {
       return res.status(403).send('Forbidden');
+    }
+
+    // Check admin overrides: if disabled, block access to manifest
+    try {
+      const { ChannelOverride } = req.app.locals.models || {};
+      const key = crypto.createHash('sha1').update(String(videoId)).digest('hex');
+      if (ChannelOverride) {
+        const ov = await ChannelOverride.findOne({ key }).lean();
+        if (ov && ov.disabled) return res.status(403).send('Canal desativado');
+      }
+    } catch (e) {
+      logger.warn({ msg: 'Erro ao checar override de canal (manifest)', err: e.message });
     }
 
     const finalManifestUrl = await resolveLiveTvFinalUrl(videoId);

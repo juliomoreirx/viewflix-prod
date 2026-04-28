@@ -8,6 +8,7 @@ const { CACHE_CONTEUDO, atualizarCache } = require('../services/content-cache.se
 const { buscarDetalhes } = require('../services/content-details.service');
 
 const router = express.Router();
+const crypto = require('crypto');
 
 const listQuerySchema = z.object({
   type: z.enum(['movies', 'series', 'adult', 'livetv']).optional(),
@@ -42,7 +43,23 @@ router.get('/api/list', asyncHandler(async (req, res) => {
   if (type === 'adult') {
     lista = [...CACHE_CONTEUDO.movies, ...CACHE_CONTEUDO.series].filter((i) => isAdulto(i.name));
   } else if (type === 'livetv') {
-    lista = CACHE_CONTEUDO.livetv || [];
+    // Apply admin overrides (hidden/disabled) in real-time
+    const { ChannelOverride } = req.app.locals.models || {};
+    const overrides = ChannelOverride ? await ChannelOverride.find({}).lean() : [];
+    const overrideMap = new Map(overrides.map(o => [o.key, o]));
+
+    function computeKey(ch) {
+      const raw = ch.id || ch.videoId || ch.key || ch.name || ch.title || ch.url || JSON.stringify(ch);
+      return crypto.createHash('sha1').update(String(raw)).digest('hex');
+    }
+
+    lista = (CACHE_CONTEUDO.livetv || []).filter((ch) => {
+      const key = computeKey(ch);
+      const ov = overrideMap.get(key);
+      // Hide or disabled channels should not appear in the public list
+      if (ov && (ov.hidden === true || ov.disabled === true)) return false;
+      return true;
+    });
   } else {
     lista = (CACHE_CONTEUDO[type] || []).filter((i) => !isAdulto(i.name));
   }
