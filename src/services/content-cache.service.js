@@ -588,6 +588,17 @@ async function estimarDuracao(mediaType, id, duracaoDoHTML = null) {
 module.exports = {
   CACHE_CONTEUDO,
   atualizarCache,
+  // For admin UI: force read content.json from disk and populate CACHE_CONTEUDO
+  readCacheFromFile: async function () {
+    try {
+      const contentPath = path.join(process.cwd(), 'content.json');
+      const ok = await carregarDoArquivo(contentPath);
+      return ok ? CACHE_CONTEUDO : null;
+    } catch (e) {
+      logger.warn({ msg: 'readCacheFromFile failed', err: e.message });
+      return null;
+    }
+  },
   buscarDetalhes,
   estimarDuracao,
   setSessionCookiesRaw,

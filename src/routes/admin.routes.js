@@ -5,7 +5,7 @@ const path = require('path');
 const asyncHandler = require('../middlewares/async-handler');
 const adminAuth = require('../middlewares/admin-auth');
 const logger = require('../lib/logger');
-const { CACHE_CONTEUDO, atualizarCache } = require('../services/content-cache.service');
+const { CACHE_CONTEUDO, atualizarCache, readCacheFromFile } = require('../services/content-cache.service');
 
 const router = express.Router();
 
@@ -230,6 +230,16 @@ router.post('/api/admin/refresh-cache', adminAuth, asyncHandler(async (req, res)
     series: CACHE_CONTEUDO.series.length,
     lastUpdated: CACHE_CONTEUDO.lastUpdated
   });
+}));
+
+router.post('/api/admin/reload-content-json', adminAuth, asyncHandler(async (req, res) => {
+  logger.info({ msg: 'Admin requested reload of content.json from disk' });
+  const result = await readCacheFromFile();
+  if (!result) {
+    return res.status(500).json({ success: false, error: 'Falha ao ler content.json' });
+  }
+
+  return res.json({ success: true, movies: CACHE_CONTEUDO.movies.length, series: CACHE_CONTEUDO.series.length, livetv: CACHE_CONTEUDO.livetv.length });
 }));
 
 // List channels with admin overrides merged

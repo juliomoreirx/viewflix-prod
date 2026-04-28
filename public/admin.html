@@ -480,6 +480,7 @@
                                 <option value="enable">Ativar Selecionados</option>
                             </select>
                             <button id="channelsApplyBtn" class="btn-primary">Aplicar</button>
+                            <button id="reloadFromDiskBtn" class="btn-secondary">Recarregar do disco</button>
                         </div>
                     </div>
 
@@ -564,6 +565,8 @@
                     dashboardPage.style.display = 'flex';
                     document.getElementById('password').value = '';
                     loadUsers();
+                    // also load channels tab data immediately
+                    if (typeof loadChannels === 'function') loadChannels();
                 } else {
                     showLoginError('Token invalido ou expirado');
                 }
@@ -594,6 +597,10 @@
                 btn.classList.add('active');
                 const tabId = btn.dataset.tab + 'Tab';
                 document.getElementById(tabId).classList.remove('hidden');
+                // load data when opening specific tabs
+                if (btn.dataset.tab === 'channels' && typeof loadChannels === 'function') {
+                    loadChannels();
+                }
             });
         });
 
@@ -737,6 +744,24 @@
         });
 
         document.getElementById('channelsSearch').addEventListener('keypress', (e) => { if (e.key === 'Enter') renderChannels(); });
+
+        document.getElementById('reloadFromDiskBtn').addEventListener('click', async () => {
+            if (!state.token) return;
+            document.getElementById('channelsMessage').textContent = 'Recarregando content.json do disco...';
+            try {
+                const res = await fetch('/api/admin/reload-content-json', {
+                    method: 'POST',
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+                if (!res.ok) throw new Error('Falha ao recarregar do disco');
+                const json = await res.json();
+                document.getElementById('channelsMessage').textContent = `Recarregado: ${json.livetv || 0} canais`;
+                await loadChannels();
+            } catch (err) {
+                document.getElementById('channelsMessage').textContent = err.message;
+            }
+            setTimeout(() => document.getElementById('channelsMessage').textContent = '', 4000);
+        });
 
         function renderUsers() {
             const container = document.getElementById('usersListContainer');
