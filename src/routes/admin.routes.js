@@ -1,5 +1,7 @@
 const express = require('express');
 const { z } = require('zod');
+const fs = require('fs');
+const path = require('path');
 const asyncHandler = require('../middlewares/async-handler');
 const adminAuth = require('../middlewares/admin-auth');
 const logger = require('../lib/logger');
@@ -233,7 +235,28 @@ router.post('/api/admin/refresh-cache', adminAuth, asyncHandler(async (req, res)
 // List channels with admin overrides merged
 router.get('/api/admin/channels', adminAuth, asyncHandler(async (req, res) => {
   const { ChannelOverride } = req.app.locals.models;
-  const channels = (CACHE_CONTEUDO.livetv || []).map((c) => c || {});
+
+  // Prefer content.json on disk as the source of truth for admin listing (updated externally)
+  let channels = [];
+  try {
+    const contentPath = path.join(process.cwd(), 'content.json');
+    if (fs.existsSync(contentPath)) {
+      const fileContent = fs.readFileSync(contentPath, 'utf8');
+      const parsed = JSON.parse(fileContent || '{}');
+      let rawLiveTv = [];
+      if (parsed.data) {
+        rawLiveTv = parsed.data.livetv || parsed.data.liveTv || parsed.data.live_tv || parsed.data.channels || [];
+      } else {
+        rawLiveTv = parsed.livetv || parsed.liveTv || parsed.live_tv || parsed.channels || [];
+      }
+      channels = Array.isArray(rawLiveTv) ? rawLiveTv : [];
+    } else {
+      channels = (CACHE_CONTEUDO.livetv || []).map((c) => c || {});
+    }
+  } catch (e) {
+    logger.warn({ msg: 'Falha ao ler content.json para admin channels', err: e.message });
+    channels = (CACHE_CONTEUDO.livetv || []).map((c) => c || {});
+  }
 
   const overrides = await ChannelOverride.find({}).lean();
   const overrideMap = new Map(overrides.map(o => [o.key, o]));
