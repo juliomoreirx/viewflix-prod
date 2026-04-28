@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ViewFlix Admin - Painel administrativo">
+    <meta name="robots" content="noindex, nofollow">
+    
+    <title>ViewFlix Admin | Dashboard Administrativo</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none'%3E%3Ccircle cx='12' cy='8' r='4' fill='%234facfe'/%3E%3Crect x='7' y='13' width='10' height='7' rx='3' fill='%234facfe'/%3E%3Ccircle cx='12' cy='8' r='2.2' fill='%230b0c1b'/%3E%3Crect x='9.5' y='6.5' width='5' height='3' rx='1' fill='%234facfe' opacity='.4'/%3E%3Crect x='5' y='15' width='2' height='4' rx='1' fill='%234facfe' opacity='.7'/%3E%3Crect x='17' y='15' width='2' height='4' rx='1' fill='%234facfe' opacity='.7'/%3E%3C/svg%3E">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        * { font-family: 'Inter', sans-serif; }
+        html { scroll-padding-top: 72px; }
+        body {
+            background: linear-gradient(135deg, #050505 0%, #0b0c1b 50%, #1a1025 100%);
+            color: #e2e8f0;
+            overflow-x: hidden;
+        }
+        .stars-bg {
+            background-image: radial-gradient(#ffffff 1px, transparent 1px);
+            background-size: 50px 50px;
+            opacity: 0.08;
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glass {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(79,172,254,0.15);
+        }
+        .neon-border {
+            border: 1px solid rgba(79,172,254,0.45);
+            box-shadow: 0 0 20px rgba(79,172,254,0.1);
+        }
+        .pulse-cyan { animation: pulseCyan 2.5s infinite; }
+        @keyframes pulseCyan {
+            0%   { box-shadow: 0 0 0 0 rgba(79,172,254,0.4); }
+            70%  { box-shadow: 0 0 0 14px rgba(79,172,254,0); }
+            100% { box-shadow: 0 0 0 0 rgba(79,172,254,0); }
+        }
+        
+        .admin-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .auth-page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        .dashboard-page {
+            display: none;
+            flex-direction: column;
+            flex: 1;
+        }
+        
+        .sidebar {
+            width: 280px;
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border-right: 1px solid rgba(255,255,255,0.05);
+            padding: 1.5rem;
+            position: fixed;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            overflow-y: auto;
+            z-index: 40;
+        }
+        
+        .main-content {
+            margin-left: 280px;
+            flex: 1;
+            overflow-y: auto;
+            padding: 2rem;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .stat-card:hover {
+            border-color: rgba(79,172,254,0.4);
+            box-shadow: 0 0 30px rgba(79,172,254,0.1);
+        }
+        
+        .user-row {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(79,172,254,0.1);
+            cursor: pointer;
+        }
+        
+        .user-row:hover {
+            border-color: rgba(79,172,254,0.3);
+            background: rgba(79,172,254,0.05);
+        }
+        
+        .badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+        
+        .badge-active {
+            background: rgba(34,197,94,0.1);
+            border: 1px solid rgba(34,197,94,0.3);
+            color: #22c55e;
+        }
+        
+        .badge-inactive {
+            background: rgba(239,68,68,0.1);
+            border: 1px solid rgba(239,68,68,0.3);
+            color: #ef4444;
+        }
+        
+        .badge-blocked {
+            background: rgba(168,85,247,0.1);
+            border: 1px solid rgba(168,85,247,0.3);
+            color: #a855f7;
+        }
+        
+        .loading-skeleton {
+            background: linear-gradient(90deg, rgba(255,255,255,0.05), rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+        
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+        
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                position: relative;
+                border-right: none;
+                border-bottom: 1px solid rgba(255,255,255,0.05);
+                margin-bottom: 1rem;
+            }
+            
+            .main-content {
+                margin-left: 0;
+                padding: 1rem;
+            }
+        }
+        
+        input[type="password"], input[type="text"] {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(79,172,254,0.2);
+            color: #e2e8f0;
+        }
+        
+        input[type="password"]:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: rgba(79,172,254,0.5);
+            box-shadow: 0 0 20px rgba(79,172,254,0.1);
+        }
+        
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 50;
+        }
+        
+        .modal.open {
+            display: flex;
+        }
+        
+        .modal-content {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border-radius: 1.5rem;
+            padding: 2rem;
+            max-width: 42rem;
+            width: 100%;
+            margin: 0 1rem;
+            border: 1px solid rgba(79,172,254,0.45);
+            box-shadow: 0 0 20px rgba(79,172,254,0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+            color: #0b0c1b;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 30px rgba(79,172,254,0.3);
+        }
+        
+        .btn-secondary {
+            background: rgba(79,172,254,0.1);
+            color: #4facfe;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            border: 1px solid rgba(79,172,254,0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background: rgba(79,172,254,0.2);
+        }
+        
+        .search-box {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(79,172,254,0.2);
+            color: #e2e8f0;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            width: 100%;
+        }
+        
+        .search-box::placeholder {
+            color: rgba(226,232,240,0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="stars-bg" aria-hidden="true"></div>
+    <div class="admin-container">
+        
+        <!-- LOGIN PAGE -->
+        <div id="authPage" class="auth-page">
+            <div class="max-w-sm w-full mx-4">
+                <div class="text-center mb-10">
+                    <svg width="60" height="60" viewBox="0 0 24 24" fill="none" class="mx-auto mb-4" style="filter:drop-shadow(0 0 8px rgba(79,172,254,0.5))">
+                        <circle cx="12" cy="8" r="4" fill="#4facfe"/>
+                        <rect x="7" y="13" width="10" height="7" rx="3" fill="#4facfe"/>
+                        <circle cx="12" cy="8" r="2.2" fill="#0b0c1b"/>
+                        <rect x="9.5" y="6.5" width="5" height="3" rx="1" fill="#4facfe" opacity=".4"/>
+                        <rect x="5" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                        <rect x="17" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                    </svg>
+                    <h1 class="text-3xl font-black mb-2">
+                        VIEWFLIX <span class="gradient-text">ADMIN</span>
+                    </h1>
+                    <p class="text-gray-400 text-sm">Painel administrativo restrito</p>
+                </div>
+                
+                <form id="loginForm" class="glass rounded-3xl p-8 neon-border">
+                    <div class="mb-6">
+                        <label for="password" class="block text-sm font-semibold mb-2 text-gray-300">
+                            <i class="fa-solid fa-key mr-2"></i>Token de Acesso
+                        </label>
+                        <input 
+                            type="password" 
+                            id="password" 
+                            placeholder="Cole seu admin token aqui" 
+                            class="search-box"
+                            required
+                        >
+                        <p class="text-xs text-gray-500 mt-2">
+                            Token encontrado em <code class="bg-black/50 px-2 py-1 rounded">.env</code> como <code class="bg-black/50 px-2 py-1 rounded">ADMIN_API_TOKEN</code>
+                        </p>
+                    </div>
+                    
+                    <button type="submit" class="w-full btn-primary py-3 font-bold text-base">
+                        <i class="fa-solid fa-lock-open mr-2"></i>Acessar Admin
+                    </button>
+                    
+                    <div id="loginError" class="mt-4 p-3 rounded-lg bg-red-500/10 border border-red-500/30 text-red-400 text-sm hidden">
+                        <i class="fa-solid fa-circle-exclamation mr-2"></i>
+                        <span id="loginErrorText"></span>
+                    </div>
+                </form>
+                
+                <div class="mt-8 p-4 glass rounded-xl text-center text-xs text-gray-500">
+                    <i class="fa-solid fa-lock mr-1"></i> Esta pagina esta protegida. Acesso apenas com token valido.
+                </div>
+            </div>
+        </div>
+        
+        <!-- DASHBOARD PAGE -->
+        <div id="dashboardPage" class="dashboard-page">
+            
+            <!-- SIDEBAR -->
+            <div class="sidebar">
+                <div class="flex items-center gap-3 mb-8 pb-6 border-b border-white/10">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" style="filter:drop-shadow(0 0 5px rgba(79,172,254,0.5))">
+                        <circle cx="12" cy="8" r="4" fill="#4facfe"/>
+                        <rect x="7" y="13" width="10" height="7" rx="3" fill="#4facfe"/>
+                        <circle cx="12" cy="8" r="2.2" fill="#0b0c1b"/>
+                        <rect x="9.5" y="6.5" width="5" height="3" rx="1" fill="#4facfe" opacity=".4"/>
+                        <rect x="5" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                        <rect x="17" y="15" width="2" height="4" rx="1" fill="#4facfe" opacity=".7"/>
+                    </svg>
+                    <div>
+                        <div class="font-black text-sm">VIEWFLIX <span class="gradient-text">ADMIN</span></div>
+                        <div class="text-xs text-gray-500">Dashboard</div>
+                    </div>
+                </div>
+                
+                <nav class="space-y-2 mb-8">
+                    <button data-tab="users" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-300 hover:text-white hover:bg-white/5 transition active">
+                        <i class="fa-solid fa-users w-4 mr-3"></i>Usuarios
+                    </button>
+                    <button data-tab="stats" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                        <i class="fa-solid fa-chart-line w-4 mr-3"></i>Estatisticas
+                    </button>
+                    <button data-tab="filters" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                        <i class="fa-solid fa-sliders w-4 mr-3"></i>Filtros
+                    </button>
+                </nav>
+                
+                <div class="pt-6 border-t border-white/10">
+                    <button id="logoutBtn" class="w-full btn-secondary text-sm py-2">
+                        <i class="fa-solid fa-sign-out-alt mr-2"></i>Sair
+                    </button>
+                </div>
+            </div>
+            
+            <!-- MAIN CONTENT -->
+            <div class="main-content">
+                
+                <!-- TOP BAR -->
+                <div class="flex justify-between items-center mb-8">
+                    <div>
+                        <h1 class="text-3xl font-black mb-1">Dashboard Administrativo</h1>
+                        <p class="text-gray-500 text-sm">Visao completa de usuarios e atividades</p>
+                    </div>
+                    <button id="refreshBtn" class="btn-secondary py-2 px-4">
+                        <i class="fa-solid fa-rotate-right mr-2"></i>Atualizar
+                    </button>
+                </div>
+                
+                <!-- STATS CARDS -->
+                <div id="statsContainer" class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+                    <div class="stat-card">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-gray-400 text-sm font-medium">Total de Usuarios</p>
+                                <p id="totalUsers" class="text-3xl font-black gradient-text mt-2">--</p>
+                            </div>
+                            <i class="fa-solid fa-users text-4xl opacity-20"></i>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-gray-400 text-sm font-medium">Ativos Hoje</p>
+                                <p id="activeToday" class="text-3xl font-black gradient-text mt-2">--</p>
+                            </div>
+                            <i class="fa-solid fa-user-check text-4xl opacity-20"></i>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-gray-400 text-sm font-medium">Total Gasto</p>
+                                <p id="totalSpent" class="text-3xl font-black gradient-text mt-2">--</p>
+                            </div>
+                            <i class="fa-solid fa-money-bill-wave text-4xl opacity-20"></i>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-gray-400 text-sm font-medium">Bloqueados</p>
+                                <p id="totalBlocked" class="text-3xl font-black gradient-text mt-2">--</p>
+                            </div>
+                            <i class="fa-solid fa-ban text-4xl opacity-20"></i>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- TABS CONTENT -->
+                <div id="usersTab" class="tab-content">
+                    <!-- SEARCH & FILTERS -->
+                    <div class="glass rounded-2xl p-6 mb-6 border border-white/5">
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                            <input 
+                                type="text" 
+                                id="searchInput" 
+                                placeholder="Pesquisar usuario..." 
+                                class="search-box"
+                            >
+                            <select id="filterActive" class="search-box">
+                                <option value="">Todos os status</option>
+                                <option value="true">Apenas Ativos</option>
+                                <option value="false">Apenas Inativos</option>
+                            </select>
+                            <select id="filterBlocked" class="search-box">
+                                <option value="">Mostrar Todos</option>
+                                <option value="true">Apenas Bloqueados</option>
+                                <option value="false">Desbloquear apenas</option>
+                            </select>
+                            <button id="applyFiltersBtn" class="btn-primary">
+                                <i class="fa-solid fa-filter mr-2"></i>Aplicar Filtros
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- USERS LIST -->
+                    <div id="usersListContainer">
+                        <!-- Loaded dynamically -->
+                    </div>
+                    
+                    <!-- PAGINATION -->
+                    <div id="paginationContainer" class="flex justify-between items-center mt-6">
+                        <button id="prevPageBtn" class="btn-secondary" disabled>
+                            <i class="fa-solid fa-chevron-left mr-2"></i>Anterior
+                        </button>
+                        <span id="pageInfo" class="text-gray-400 text-sm">Pagina -- de --</span>
+                        <button id="nextPageBtn" class="btn-secondary" disabled>
+                            Proxima <i class="fa-solid fa-chevron-right ml-2"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="statsTab" class="tab-content hidden">
+                    <div class="glass rounded-2xl p-8 border border-white/5 text-center">
+                        <i class="fa-solid fa-chart-line text-5xl opacity-30 mb-4"></i>
+                        <p class="text-gray-400">Estatisticas detalhadas serao carregadas aqui.</p>
+                    </div>
+                </div>
+                
+                <div id="filtersTab" class="tab-content hidden">
+                    <div class="glass rounded-2xl p-8 border border-white/5 text-center">
+                        <i class="fa-solid fa-sliders text-5xl opacity-30 mb-4"></i>
+                        <p class="text-gray-400">Opcoes de filtro avancadas disponveis na aba de usuarios.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- USER DETAIL MODAL -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <div class="flex justify-between items-start mb-6">
+                <h2 class="text-2xl font-black">Detalhes do Usuario</h2>
+                <button class="text-gray-400 hover:text-white text-2xl cursor-pointer" onclick="document.getElementById('userModal').classList.remove('open')">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+            </div>
+            <div id="userModalContent">
+                <!-- Loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // State
+        const state = {
+            token: null,
+            currentPage: 1,
+            users: [],
+            totalUsers: 0,
+            totalPages: 0,
+            filters: {
+                q: '',
+                isActive: '',
+                blocked: '',
+                sortBy: 'registeredAt',
+                sortOrder: 'desc'
+            }
+        };
+
+        // Auth
+        const loginForm = document.getElementById('loginForm');
+        const authPage = document.getElementById('authPage');
+        const dashboardPage = document.getElementById('dashboardPage');
+        const logoutBtn = document.getElementById('logoutBtn');
+
+        loginForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const token = document.getElementById('password').value.trim();
+            if (!token) {
+                showLoginError('Token nao pode estar vazio');
+                return;
+            }
+            try {
+                // Test token with simple request
+                const res = await fetch('/api/admin/users?limit=1', {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                if (res.ok) {
+                    state.token = token;
+                    authPage.style.display = 'none';
+                    dashboardPage.style.display = 'flex';
+                    document.getElementById('password').value = '';
+                    loadUsers();
+                } else {
+                    showLoginError('Token invalido ou expirado');
+                }
+            } catch (err) {
+                showLoginError('Erro ao validar token: ' + err.message);
+            }
+        });
+
+        logoutBtn.addEventListener('click', () => {
+            state.token = null;
+            state.currentPage = 1;
+            authPage.style.display = 'flex';
+            dashboardPage.style.display = 'none';
+        });
+
+        function showLoginError(msg) {
+            const errorDiv = document.getElementById('loginError');
+            document.getElementById('loginErrorText').textContent = msg;
+            errorDiv.classList.remove('hidden');
+            setTimeout(() => errorDiv.classList.add('hidden'), 5000);
+        }
+
+        // Tabs
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
+                btn.classList.add('active');
+                const tabId = btn.dataset.tab + 'Tab';
+                document.getElementById(tabId).classList.remove('hidden');
+            });
+        });
+
+        // Load users
+        async function loadUsers() {
+            if (!state.token) return;
+            
+            const params = new URLSearchParams({
+                page: state.currentPage,
+                limit: 10,
+                q: state.filters.q,
+                sortBy: state.filters.sortBy,
+                sortOrder: state.filters.sortOrder,
+                includePurchases: 'true',
+                purchasesLimit: 3
+            });
+
+            if (state.filters.isActive) params.append('isActive', state.filters.isActive);
+            if (state.filters.blocked) params.append('blocked', state.filters.blocked);
+
+            try {
+                document.getElementById('usersListContainer').innerHTML = '<div class="space-y-3">' + Array(5).fill().map(() => '<div class="loading-skeleton h-24 rounded-xl"></div>').join('') + '</div>';
+                
+                const res = await fetch(`/api/admin/users?${params}`, {
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+
+                if (!res.ok) throw new Error('Erro ao carregar usuarios');
+
+                const data = await res.json();
+                state.users = data.data || [];
+                state.totalUsers = data.totalUsers;
+                state.totalPages = data.totalPages;
+
+                renderUsers();
+                updateStats(data);
+                updatePagination();
+            } catch (err) {
+                document.getElementById('usersListContainer').innerHTML = `<div class="glass p-6 rounded-xl text-center text-red-400"><i class="fa-solid fa-circle-exclamation mr-2"></i>${err.message}</div>`;
+            }
+        }
+
+        function renderUsers() {
+            const container = document.getElementById('usersListContainer');
+            if (state.users.length === 0) {
+                container.innerHTML = '<div class="glass p-8 rounded-xl text-center text-gray-500"><i class="fa-solid fa-inbox text-4xl mb-3"></i><p>Nenhum usuario encontrado</p></div>';
+                return;
+            }
+
+            container.innerHTML = state.users.map(user => `
+                <div class="user-row" onclick="showUserDetail(${JSON.stringify(user).replace(/"/g, '&quot;')})">
+                    <div class="flex justify-between items-start mb-3">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-base">${sanitize(user.name || 'N/A')}</h3>
+                            <p class="text-xs text-gray-500">@${sanitize(user.username || 'N/A')} • ID: ${user.userId}</p>
+                        </div>
+                        <div class="flex gap-2">
+                            ${user.isBlocked ? '<span class="badge badge-blocked">BLOQUEADO</span>' : ''}
+                            <span class="badge ${user.isActive ? 'badge-active' : 'badge-inactive'}">
+                                ${user.isActive ? 'ATIVO' : 'INATIVO'}
+                            </span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-3 gap-4 text-sm">
+                        <div>
+                            <p class="text-gray-500 text-xs">Saldo</p>
+                            <p class="font-black gradient-text">R$ ${(user.credits / 100).toFixed(2)}</p>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 text-xs">Gasto</p>
+                            <p class="font-semibold text-orange-400">R$ ${(user.totalSpent / 100).toFixed(2)}</p>
+                        </div>
+                        <div>
+                            <p class="text-gray-500 text-xs">Compras</p>
+                            <p class="font-semibold text-blue-400">${user.totalPurchases}</p>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function updateStats(data) {
+            document.getElementById('totalUsers').textContent = data.totalUsers.toLocaleString('pt-BR');
+            document.getElementById('activeToday').textContent = data.data.filter(u => u.isActive).length;
+            document.getElementById('totalSpent').textContent = 'R$ ' + (data.data.reduce((sum, u) => sum + u.totalSpent, 0) / 100).toFixed(2);
+            document.getElementById('totalBlocked').textContent = data.data.filter(u => u.isBlocked).length;
+        }
+
+        function updatePagination() {
+            document.getElementById('pageInfo').textContent = `Pagina ${state.currentPage} de ${state.totalPages}`;
+            document.getElementById('prevPageBtn').disabled = state.currentPage <= 1;
+            document.getElementById('nextPageBtn').disabled = state.currentPage >= state.totalPages;
+
+            document.getElementById('prevPageBtn').onclick = () => {
+                state.currentPage--;
+                loadUsers();
+            };
+            document.getElementById('nextPageBtn').onclick = () => {
+                state.currentPage++;
+                loadUsers();
+            };
+        }
+
+        function showUserDetail(user) {
+            const content = document.getElementById('userModalContent');
+            const recentPurchases = user.recentPurchases || [];
+            
+            content.innerHTML = `
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Informacoes Pessoais</h3>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <p class="text-xs text-gray-600">Nome</p>
+                                <p class="font-semibold">${sanitize(user.name)}</p>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-600">Username</p>
+                                <p class="font-semibold">@${sanitize(user.username)}</p>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-600">ID do Usuario</p>
+                                <p class="font-mono text-sm">${user.userId}</p>
+                            </div>
+                            <div>
+                                <p class="text-xs text-gray-600">Status</p>
+                                <p class="font-semibold ${user.isActive ? 'text-green-400' : 'text-red-400'}">
+                                    ${user.isActive ? 'ATIVO' : 'INATIVO'}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Finacas</h3>
+                        <div class="grid grid-cols-3 gap-4">
+                            <div class="glass p-3 rounded-lg">
+                                <p class="text-xs text-gray-600">Saldo</p>
+                                <p class="text-xl font-black gradient-text">R$ ${(user.credits / 100).toFixed(2)}</p>
+                            </div>
+                            <div class="glass p-3 rounded-lg">
+                                <p class="text-xs text-gray-600">Total Gasto</p>
+                                <p class="text-xl font-black text-orange-400">R$ ${(user.totalSpent / 100).toFixed(2)}</p>
+                            </div>
+                            <div class="glass p-3 rounded-lg">
+                                <p class="text-xs text-gray-600">Total Compras</p>
+                                <p class="text-xl font-black text-blue-400">${user.totalPurchases}</p>
+                            </div>
+                        </div>
+                        ${user.metadata && user.metadata.initialBonusGranted ? `
+                            <div class="mt-3 p-3 glass rounded-lg border border-green-500/30 bg-green-500/5">
+                                <p class="text-xs text-green-400 font-semibold">
+                                    <i class="fa-solid fa-gift mr-1"></i>Bonus inicial concedido
+                                </p>
+                            </div>
+                        ` : ''}
+                    </div>
+
+                    ${recentPurchases.length > 0 ? `
+                        <div>
+                            <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Ultimas Compras</h3>
+                            <div class="space-y-2">
+                                ${recentPurchases.map(p => `
+                                    <div class="glass p-3 rounded-lg text-sm">
+                                        <div class="flex justify-between">
+                                            <span class="font-medium">${sanitize(p.title)}</span>
+                                            <span class="gradient-text font-bold">R$ ${(p.pricePaid / 100).toFixed(2)}</span>
+                                        </div>
+                                        <p class="text-xs text-gray-500 mt-1">
+                                            <i class="fa-solid fa-calendar-days mr-1"></i>
+                                            ${new Date(p.purchasedAt).toLocaleDateString('pt-BR')}
+                                        </p>
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+
+                    <div>
+                        <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Timestamps</h3>
+                        <div class="grid grid-cols-2 gap-3 text-xs">
+                            <div class="glass p-2 rounded">
+                                <p class="text-gray-600">Registrado em</p>
+                                <p>${new Date(user.registeredAt).toLocaleString('pt-BR')}</p>
+                            </div>
+                            <div class="glass p-2 rounded">
+                                <p class="text-gray-600">Ultimo acesso</p>
+                                <p>${new Date(user.lastAccess).toLocaleString('pt-BR')}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('userModal').classList.add('open');
+        }
+
+        // Filters
+        document.getElementById('applyFiltersBtn').addEventListener('click', () => {
+            state.currentPage = 1;
+            state.filters.q = document.getElementById('searchInput').value;
+            state.filters.isActive = document.getElementById('filterActive').value;
+            state.filters.blocked = document.getElementById('filterBlocked').value;
+            loadUsers();
+        });
+
+        document.getElementById('searchInput').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') document.getElementById('applyFiltersBtn').click();
+        });
+
+        document.getElementById('refreshBtn').addEventListener('click', loadUsers);
+
+        // Close modal on background click
+        document.getElementById('userModal').addEventListener('click', (e) => {
+            if (e.target.id === 'userModal') e.target.classList.remove('open');
+        });
+
+        function sanitize(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        // Initial state
+        console.log('Admin dashboard loaded. Please log in.');
+    </script>
+</body>
+</html>
