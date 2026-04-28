@@ -6,6 +6,7 @@ const rateLimit = require('express-rate-limit');
 const env = require('./config/env');
 const requestContext = require('./middlewares/request-context');
 const routes = require('./routes');
+const path = require('path');
 
 const app = express();
 
@@ -47,6 +48,15 @@ app.use(rateLimit({
   // Não aplica rate limit no relay-stream (é chamado pelo worker, não pelo usuário)
   skip: (req) => req.path === '/relay-stream'
 }));
+
+// Serve arquivos estáticos da pasta `public/`
+// (ex: /admin.html, assets, index, etc)
+app.use(express.static(path.join(__dirname, '..', 'public')));
+
+// Rota amigável sem extensão para o painel admin
+app.get('/admin', (req, res) => {
+  res.sendFile(path.join(__dirname, '..', 'public', 'admin.html'));
+});
 
 // ==========================================
 // 1. ROTAS PRINCIPAIS (PLAYER, API, ETC)
