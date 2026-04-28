@@ -207,6 +207,20 @@ router.get('/player/:token', async (req, res) => {
     .warning i { color: #4facfe; margin-right: 8px; }
     .timer { display: inline-block; background: rgba(79, 172, 254, 0.15); padding: 4px 10px; border-radius: 6px; font-weight: 700; font-family: 'Courier New', monospace; color: #4facfe; border: 1px solid rgba(79, 172, 254, 0.3); }
 
+    .stream-status {
+      display: none;
+      margin-top: 15px;
+      padding: 12px 14px;
+      border-radius: 12px;
+      font-size: 13px;
+      line-height: 1.5;
+      border: 1px solid rgba(245, 158, 11, 0.28);
+      background: rgba(245, 158, 11, 0.08);
+      color: #fde68a;
+    }
+    .stream-status.show { display: block; }
+    .stream-status strong { color: #fbbf24; }
+
     @media (max-width: 768px) { .player-shell { height: 50vh; } }
   </style>
 </head>
@@ -241,6 +255,7 @@ router.get('/player/:token', async (req, res) => {
       <i class="fas fa-user-shield"></i>
       Missão Pessoal e Intransferível • Conexão Criptografada HMAC • ID do Cadete: ${userId}
     </div>
+    <div class="stream-status" id="streamStatus" role="status" aria-live="polite"></div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.15/dist/hls.min.js"></script>
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -248,6 +263,32 @@ router.get('/player/:token', async (req, res) => {
     const expirationTime = ${expirationTimestamp};
     const countdownEl = document.getElementById('countdown');
     const streamPath = '${streamPath}';
+    const streamStatusEl = document.getElementById('streamStatus');
+
+    const LIVE_DELAY_SECONDS = 15;
+    const LIVE_DELAY_WARNING_THRESHOLD = 1;
+
+    function setStreamStatus(message, tone = 'warn') {
+      if (!streamStatusEl) return;
+      streamStatusEl.innerHTML = message;
+      streamStatusEl.classList.add('show');
+
+      if (tone === 'error') {
+        streamStatusEl.style.borderColor = 'rgba(239, 68, 68, 0.3)';
+        streamStatusEl.style.background = 'rgba(239, 68, 68, 0.08)';
+        streamStatusEl.style.color = '#fecaca';
+      } else {
+        streamStatusEl.style.borderColor = 'rgba(245, 158, 11, 0.28)';
+        streamStatusEl.style.background = 'rgba(245, 158, 11, 0.08)';
+        streamStatusEl.style.color = '#fde68a';
+      }
+    }
+
+    function clearStreamStatus() {
+      if (!streamStatusEl) return;
+      streamStatusEl.classList.remove('show');
+      streamStatusEl.innerHTML = '';
+    }
 
     function updateCountdown() {
       const now = Date.now();
@@ -395,14 +436,19 @@ router.get('/player/:token', async (req, res) => {
       if (window.Hls && Hls.isSupported()) {
         hls = new Hls({
           enableWorker: true,
-          lowLatencyMode: true,
-          backBufferLength: 90
+          lowLatencyMode: false,
+          backBufferLength: 120,
+          liveSyncDuration: LIVE_DELAY_SECONDS,
+          liveMaxLatencyDuration: LIVE_DELAY_SECONDS * 2,
+          liveDurationInfinity: true
         });
 
         hls.loadSource(url);
         hls.attachMedia(videoEl);
 
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          clearStreamStatus();
+
           const tracks = (hls.audioTracks || []).map((track, index) => ({
             name: track.name || track.lang || 'Faixa ' + (index + 1),
             default: index === hls.audioTrack
@@ -427,11 +473,23 @@ router.get('/player/:token', async (req, res) => {
           if (resumeAt > 0) {
             videoEl.currentTime = resumeAt;
           }
+
+          if (LIVE_DELAY_SECONDS > 0) {
+            setStreamStatus('<strong>Modo estabilidade ativo:</strong> buffer de ' + LIVE_DELAY_SECONDS + 's ligado para reduzir travadas.');
+          }
+
           videoEl.play().catch(() => {});
         });
 
         hls.on(Hls.Events.ERROR, (_, data) => {
           if (!data || !data.fatal) return;
+
+          if (retryCount >= LIVE_DELAY_WARNING_THRESHOLD) {
+            setStreamStatus(
+              '<strong>O canal pode estar instável agora.</strong> Estamos segurando o buffer para você. Se demorar, tenha um pouco de paciência.',
+              'warn'
+            );
+          }
 
           if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
             retryStream();
@@ -454,11 +512,19 @@ router.get('/player/:token', async (req, res) => {
 
     function retryStream() {
       if (retryCount >= 3) {
+        setStreamStatus(
+          '<strong>O canal parece instável no momento.</strong> Vamos tentar reconectar algumas vezes; se persistir, aguarde um pouco antes de tentar novamente.',
+          'error'
+        );
         document.querySelector('.video-wrapper').innerHTML = '<div style="padding: 50px; text-align: center; color: #ef4444; background: #000; height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;"><h3><i class="fa-solid fa-satellite-dish" style="font-size:40px; margin-bottom:15px;"></i><br>Falha no Sinal</h3><p style="color:#94a3b8; margin-top:10px;">A conexão com o servidor foi interrompida. Tente recarregar a página.</p></div>';
         return;
       }
 
       retryCount++;
+      setStreamStatus(
+        '<strong>O canal pode estar instável agora.</strong> Tentando recuperar a transmissão com buffer de ' + LIVE_DELAY_SECONDS + 's.',
+        'warn'
+      );
       const videoEl = document.getElementById('player');
       const currentTime = videoEl.currentTime || 0;
 
@@ -495,6 +561,11 @@ router.get('/player/:token', async (req, res) => {
 
       videoEl.addEventListener('play', logPlayOnce);
       videoEl.addEventListener('error', retryStream);
+
+      setStreamStatus(
+        '<strong>Buffer de estabilidade ativo:</strong> a transmissão pode ficar alguns segundos atrás do vivo para evitar travadas.',
+        'warn'
+      );
 
       loadSource(streamPath, 0);
     }
