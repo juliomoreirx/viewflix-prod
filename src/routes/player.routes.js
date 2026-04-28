@@ -265,7 +265,7 @@ router.get('/player/:token', async (req, res) => {
     const streamPath = '${streamPath}';
     const streamStatusEl = document.getElementById('streamStatus');
 
-    const LIVE_DELAY_SECONDS = 15;
+    const LIVE_DELAY_SECONDS = 30;
     const LIVE_DELAY_WARNING_THRESHOLD = 1;
 
     function setStreamStatus(message, tone = 'warn') {

@@ -32,6 +32,95 @@ const RES_PROXY_PASS = env.RES_PROXY_PASS || '';
 const proxyUrl = `http://${encodeURIComponent(RES_PROXY_USER)}:${encodeURIComponent(RES_PROXY_PASS)}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
 const residentialProxyAgent = new HttpProxyAgent(proxyUrl);
 
+const LIVE_SEGMENT_CACHE_TTL_MS = 45 * 1000;
+const LIVE_SEGMENT_CACHE_MAX_ENTRIES = 180;
+const LIVE_SEGMENT_FETCH_TIMEOUT_MS = 15000;
+
+const liveSegmentCache = new Map();
+const liveSegmentInFlight = new Map();
+
+function cleanupLiveSegmentCache(now = Date.now()) {
+  for (const [key, entry] of liveSegmentCache.entries()) {
+    if (!entry || entry.expiresAt <= now) {
+      liveSegmentCache.delete(key);
+    }
+  }
+
+  while (liveSegmentCache.size > LIVE_SEGMENT_CACHE_MAX_ENTRIES) {
+    const oldestKey = liveSegmentCache.keys().next().value;
+    if (!oldestKey) break;
+    liveSegmentCache.delete(oldestKey);
+  }
+}
+
+function storeLiveSegmentCache(cacheKey, payload) {
+  liveSegmentCache.set(cacheKey, {
+    ...payload,
+    expiresAt: Date.now() + LIVE_SEGMENT_CACHE_TTL_MS,
+    lastAccessAt: Date.now()
+  });
+
+  cleanupLiveSegmentCache();
+}
+
+function getLiveSegmentCache(cacheKey) {
+  const entry = liveSegmentCache.get(cacheKey);
+  if (!entry) return null;
+
+  if (entry.expiresAt <= Date.now()) {
+    liveSegmentCache.delete(cacheKey);
+    return null;
+  }
+
+  entry.lastAccessAt = Date.now();
+  return entry;
+}
+
+async function fetchLiveSegment(absoluteUrl) {
+  const response = await axios.get(absoluteUrl, {
+    httpAgent: residentialProxyAgent,
+    httpsAgent: residentialProxyAgent,
+    headers: getRelayRequestHeaders(),
+    timeout: LIVE_SEGMENT_FETCH_TIMEOUT_MS,
+    responseType: 'arraybuffer',
+    maxRedirects: 3,
+    validateStatus: (status) => status >= 200 && status < 400
+  });
+
+  return {
+    buffer: Buffer.from(response.data),
+    contentType: response.headers['content-type'] || 'video/mp2t',
+    contentLength: response.headers['content-length'] ? Number(response.headers['content-length']) : undefined,
+    cacheControl: response.headers['cache-control'] || 'public, max-age=30'
+  };
+}
+
+async function getLiveSegmentPayload(absoluteUrl) {
+  const cacheKey = absoluteUrl;
+  const cached = getLiveSegmentCache(cacheKey);
+  if (cached) {
+    return { ...cached, source: 'cache' };
+  }
+
+  if (liveSegmentInFlight.has(cacheKey)) {
+    return liveSegmentInFlight.get(cacheKey);
+  }
+
+  const inFlightPromise = (async () => {
+    const payload = await fetchLiveSegment(absoluteUrl);
+    storeLiveSegmentCache(cacheKey, payload);
+    return { ...payload, source: 'origin' };
+  })();
+
+  liveSegmentInFlight.set(cacheKey, inFlightPromise);
+
+  try {
+    return await inFlightPromise;
+  } finally {
+    liveSegmentInFlight.delete(cacheKey);
+  }
+}
+
 function getRelayRequestHeaders() {
   return {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0',
@@ -197,16 +286,18 @@ router.get('/relay-live-segment', async (req, res, next) => {
       return res.status(403).send('Forbidden');
     }
 
-    const urlLimpa = u.replace(/^https?:\/\//i, '');
+    const payload = await getLiveSegmentPayload(u);
 
-    if (req.headers.range) {
-      res.setHeader('Range', req.headers.range);
+    res.setHeader('Content-Type', payload.contentType || 'video/mp2t');
+    res.setHeader('Cache-Control', payload.cacheControl || `public, max-age=${Math.floor(LIVE_SEGMENT_CACHE_TTL_MS / 1000)}`);
+    res.setHeader('Pragma', 'cache');
+
+    if (payload.contentLength) {
+      res.setHeader('Content-Length', String(payload.contentLength));
     }
 
-    res.setHeader('Cache-Control', 'no-store, no-cache, private, must-revalidate');
-    res.setHeader('Pragma', 'no-cache');
-    res.setHeader('X-Accel-Redirect', `/proxy-stream/${urlLimpa}`);
-    return res.end();
+    res.setHeader('X-Live-Segment-Source', payload.source || 'origin');
+    return res.status(200).end(payload.buffer);
   } catch (error) {
     logger.error({ msg: 'erro no /relay-live-segment', error: error.message });
     return next(error);
