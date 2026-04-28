@@ -684,13 +684,14 @@
         function renderChannels() {
             const qRaw = (document.getElementById('channelsSearch').value || '').trim();
             const q = normalizeForSearch(qRaw);
-            const rows = state.channels
+            const filtered = state.channels
                 .filter(c => {
                     if (!q) return true;
                     const title = c.title || (c.raw && (c.raw.name || c.raw.title)) || '';
                     const nTitle = normalizeForSearch(title);
                     return nTitle.includes(q);
-                })
+                });
+            const rows = filtered
                 .map(c => {
                     const key = c.key;
                     const title = sanitize(c.title || (c.raw && (c.raw.name || c.raw.title)) || 'N/A');
@@ -742,12 +743,17 @@
                 await loadChannels();
             }));
 
-            // select all
+            // select all (apenas os visíveis após filtro)
             const selectAll = document.getElementById('selectAllChannels');
             if (selectAll) {
-                selectAll.checked = state.channels.length > 0 && state.channels.every(c => state.selectedChannelKeys.has(c.key));
+                selectAll.checked = filtered.length > 0 && filtered.every(c => state.selectedChannelKeys.has(c.key));
                 selectAll.onchange = () => {
-                    if (selectAll.checked) state.channels.forEach(c => state.selectedChannelKeys.add(c.key)); else state.selectedChannelKeys.clear();
+                    if (selectAll.checked) {
+                        filtered.forEach(c => state.selectedChannelKeys.add(c.key));
+                    } else {
+                        filtered.forEach(c => state.selectedChannelKeys.delete(c.key));
+                    }
+                    updateSelectionInfo();
                     renderChannels();
                 };
             }
@@ -774,13 +780,28 @@
             const action = document.getElementById('channelsAction').value;
             const keys = Array.from(state.selectedChannelKeys);
             if (keys.length === 0) { document.getElementById('channelsMessage').textContent = 'Nenhum canal selecionado'; return; }
-            const ok = await showConfirm(`Confirma aplicar a acão "${action}" em ${keys.length} canal(is)?`);
+            // Monta mensagem com lista dos primeiros 5 canais selecionados visíveis
+            const qRaw = (document.getElementById('channelsSearch').value || '').trim();
+            const q = normalizeForSearch(qRaw);
+            const visibleSelected = state.channels
+                .filter(c => {
+                    if (!q) return keys.includes(c.key);
+                    const title = c.title || (c.raw && (c.raw.name || c.raw.title)) || '';
+                    const nTitle = normalizeForSearch(title);
+                    return nTitle.includes(q) && keys.includes(c.key);
+                })
+                .slice(0, 5);
+            const titles = visibleSelected.map(c => c.title || (c.raw && (c.raw.name || c.raw.title)) || 'N/A').join(', ');
+            const listStr = visibleSelected.length < keys.length 
+                ? `${titles}, ...${keys.length - visibleSelected.length} mais`
+                : titles;
+            const ok = await showConfirm(`Confirma aplicar a acão "${action}" em ${keys.length} canal(is)?\n\n${listStr}`);
             if (!ok) return;
             await bulkUpdateChannels(keys, action);
             await loadChannels();
         });
 
-        document.getElementById('channelsSearch').addEventListener('keypress', (e) => { if (e.key === 'Enter') renderChannels(); });
+        document.getElementById('channelsSearch').addEventListener('input', () => { renderChannels(); });
 
         document.getElementById('reloadFromDiskBtn').addEventListener('click', async () => {
             if (!state.token) return;
