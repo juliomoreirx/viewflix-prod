@@ -524,6 +524,23 @@
         </div>
     </div>
 
+    <!-- CONFIRM MODAL -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <div class="flex justify-between items-start mb-4">
+                <h2 class="text-xl font-black">Confirmação</h2>
+                <button class="text-gray-400 hover:text-white text-2xl cursor-pointer" onclick="closeConfirm()">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+            </div>
+            <div id="confirmModalMessage" class="mb-6 text-gray-300"></div>
+            <div class="flex justify-end gap-3">
+                <button id="confirmCancelBtn" class="btn-secondary">Cancelar</button>
+                <button id="confirmOkBtn" class="btn-primary">Confirmar</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         // State
         const state = {
@@ -662,9 +679,15 @@
         }
 
         function renderChannels() {
-            const q = (document.getElementById('channelsSearch').value || '').trim().toLowerCase();
+            const qRaw = (document.getElementById('channelsSearch').value || '').trim();
+            const q = normalizeForSearch(qRaw);
             const rows = state.channels
-                .filter(c => !q || (c.title || '').toLowerCase().includes(q))
+                .filter(c => {
+                    if (!q) return true;
+                    const title = c.title || (c.raw && (c.raw.name || c.raw.title)) || '';
+                    const nTitle = normalizeForSearch(title);
+                    return nTitle.includes(q);
+                })
                 .map(c => {
                     const key = c.key;
                     const title = sanitize(c.title || (c.raw && (c.raw.name || c.raw.title)) || 'N/A');
@@ -697,12 +720,20 @@
 
             document.querySelectorAll('.toggle-hide').forEach(btn => btn.addEventListener('click', async (e) => {
                 const key = e.target.dataset.key;
+                const row = e.target.closest('tr');
+                const title = row ? row.querySelector('td:nth-child(2)').textContent.trim() : key;
+                const ok = await showConfirm(`Confirma ocultar o canal "${title}"?`);
+                if (!ok) return;
                 await bulkUpdateChannels([key], 'hide');
                 await loadChannels();
             }));
 
             document.querySelectorAll('.toggle-disable').forEach(btn => btn.addEventListener('click', async (e) => {
                 const key = e.target.dataset.key;
+                const row = e.target.closest('tr');
+                const title = row ? row.querySelector('td:nth-child(2)').textContent.trim() : key;
+                const ok = await showConfirm(`Confirma desativar o canal "${title}"?`);
+                if (!ok) return;
                 await bulkUpdateChannels([key], 'disable');
                 await loadChannels();
             }));
@@ -739,6 +770,8 @@
             const action = document.getElementById('channelsAction').value;
             const keys = Array.from(state.selectedChannelKeys);
             if (keys.length === 0) { document.getElementById('channelsMessage').textContent = 'Nenhum canal selecionado'; return; }
+            const ok = await showConfirm(`Confirma aplicar a acão "${action}" em ${keys.length} canal(is)?`);
+            if (!ok) return;
             await bulkUpdateChannels(keys, action);
             await loadChannels();
         });
@@ -941,6 +974,42 @@
             const div = document.createElement('div');
             div.textContent = str;
             return div.innerHTML;
+        }
+
+        // Normalize string for search: remove non-alphanumeric and lowercase
+        function normalizeForSearch(s) {
+            if (!s) return '';
+            return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '');
+        }
+
+        // Confirm modal helpers (returns Promise<boolean>)
+        function showConfirm(message) {
+            return new Promise((resolve) => {
+                const modal = document.getElementById('confirmModal');
+                const msg = document.getElementById('confirmModalMessage');
+                const ok = document.getElementById('confirmOkBtn');
+                const cancel = document.getElementById('confirmCancelBtn');
+
+                function cleanup(result) {
+                    ok.removeEventListener('click', onOk);
+                    cancel.removeEventListener('click', onCancel);
+                    modal.classList.remove('open');
+                    resolve(result);
+                }
+
+                function onOk() { cleanup(true); }
+                function onCancel() { cleanup(false); }
+
+                msg.textContent = message;
+                ok.addEventListener('click', onOk);
+                cancel.addEventListener('click', onCancel);
+                modal.classList.add('open');
+            });
+        }
+
+        function closeConfirm() {
+            const modal = document.getElementById('confirmModal');
+            modal.classList.remove('open');
         }
 
         // Initial state
