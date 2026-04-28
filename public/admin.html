@@ -471,7 +471,7 @@
                 
                 <div id="channelsTab" class="tab-content hidden">
                     <div class="glass rounded-2xl p-6 mb-4 border border-white/5">
-                        <div class="flex gap-3">
+                        <div class="flex gap-3 mb-3">
                             <input id="channelsSearch" type="text" placeholder="Pesquisar canal por nome..." class="search-box flex-1">
                             <select id="channelsAction" class="search-box w-48">
                                 <option value="hide">Ocultar Selecionados</option>
@@ -481,6 +481,9 @@
                             </select>
                             <button id="channelsApplyBtn" class="btn-primary">Aplicar</button>
                             <button id="reloadFromDiskBtn" class="btn-secondary">Recarregar do disco</button>
+                        </div>
+                        <div class="text-sm text-gray-400 mb-2">
+                            <span id="selectionInfo">0 canais selecionados</span>
                         </div>
                     </div>
 
@@ -715,6 +718,7 @@
                 cb.addEventListener('change', (e) => {
                     const k = e.target.dataset.key;
                     if (e.target.checked) state.selectedChannelKeys.add(k); else state.selectedChannelKeys.delete(k);
+                    updateSelectionInfo();
                 });
             });
 
