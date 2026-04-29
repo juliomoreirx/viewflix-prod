@@ -753,8 +753,12 @@
                     } else {
                         filtered.forEach(c => state.selectedChannelKeys.delete(c.key));
                     }
+                    // Update checkbox states WITHOUT re-rendering (which resets everything)
+                    document.querySelectorAll('.channel-checkbox').forEach(cb => {
+                        const k = cb.dataset.key;
+                        cb.checked = state.selectedChannelKeys.has(k);
+                    });
                     updateSelectionInfo();
-                    renderChannels();
                 };
             }
         }
