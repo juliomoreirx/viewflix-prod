@@ -7,8 +7,12 @@ const env = require('./config/env');
 const requestContext = require('./middlewares/request-context');
 const routes = require('./routes');
 const path = require('path');
+const { ChannelOverride } = require('./models');
 
 const app = express();
+
+// Register models in app.locals for access in routes
+app.locals.models = { ChannelOverride };
 
 app.set('trust proxy', 1);
 

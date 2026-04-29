@@ -1004,7 +1004,9 @@
         // Normalize string for search: remove non-alphanumeric and lowercase
         function normalizeForSearch(s) {
             if (!s) return '';
-            return String(s).toLowerCase().replace(/[^a-z0-9]+/g, '');
+            // Preserve tags in brackets (e.g., [HDR], [H265]) by keeping alphanumeric and brackets
+            // Convert to lowercase and remove only special chars except brackets
+            return String(s).toLowerCase().replace(/[^a-z0-9\[\]]/g, '');
         }
 
         // Confirm modal helpers (returns Promise<boolean>)
