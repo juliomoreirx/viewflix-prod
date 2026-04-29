@@ -30,7 +30,7 @@ Authorization: Bearer {ADMIN_API_TOKEN}
 ### Variável de Ambiente
 ```env
 # .env
-ADMIN_API_TOKEN=3276427420213442
+ADMIN_API_TOKEN=SEU_TOKEN_AQUI
 ```
 
 ### Localização
@@ -308,7 +308,7 @@ curl http://localhost:3000/admin.html | grep "VIEWFLIX ADMIN"
 
 ### Teste 2: API Responde
 ```bash
-curl -H "Authorization: Bearer 3276427420213442" \
+curl -H "Authorization: Bearer SEU_TOKEN_AQUI" \
      http://localhost:3000/api/admin/users?page=1&limit=1
 ```
 
@@ -339,7 +339,7 @@ curl -H "Authorization: Bearer 3276427420213442" \
 
 ### Token
 ```env
-ADMIN_API_TOKEN=3276427420213442
+ADMIN_API_TOKEN=SEU_TOKEN_AQUI
 ```
 
 ### Validação

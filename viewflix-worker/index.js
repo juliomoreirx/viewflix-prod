@@ -6,17 +6,17 @@ const cron = require('node-cron');
 
 puppeteer.use(StealthPlugin());
 
-const PROXY_HOST = 'brd.superproxy.io';
-const PROXY_PORT = '33335';
-const PROXY_USER = 'brd-customer-hl_110d360f-zone-viewflix_login';
-const PROXY_PASS = 'nje410p9m2w1';
+const PROXY_HOST = process.env.PROXY_HOST || 'brd.superproxy.io';
+const PROXY_PORT = process.env.PROXY_PORT || '33335';
+const PROXY_USER = process.env.PROXY_USER;
+const PROXY_PASS = process.env.PROXY_PASS;
 
-const TARGET_URL = 'http://vouver.me/index.php?page=login';
-const WEBHOOK_URL = 'https://watch.viewflix.space/cookies/webhook';
-const WEBHOOK_TOKEN = 'QI113sPuww5G32yRefBTWefUXr63d7UrrmrhoI58orUk';
+const TARGET_URL = process.env.TARGET_URL || 'http://vouver.me/index.php?page=login';
+const WEBHOOK_URL = process.env.WEBHOOK_URL || 'https://watch.viewflix.space/cookies/webhook';
+const WEBHOOK_TOKEN = process.env.WEBHOOK_TOKEN;
 
-const LOGIN_USER = '85119rbz';
-const LOGIN_PASS = 'cyd16156';
+const LOGIN_USER = process.env.LOGIN_USER;
+const LOGIN_PASS = process.env.LOGIN_PASS;
 
 async function syncViewflixCookies() {
     console.log(`\n[${new Date().toISOString()}] Iniciando rotina de automação...`);

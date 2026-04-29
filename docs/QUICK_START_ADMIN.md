@@ -5,7 +5,7 @@
 ### 1. Verificar Token
 Abra `.env` e encontre:
 ```env
-ADMIN_API_TOKEN=3276427420213442
+ADMIN_API_TOKEN=SEU_TOKEN_AQUI
 ```
 Copie este valor (será usado no login).
 
@@ -131,7 +131,7 @@ Clique em "Aplicar Filtros" ou pressione Enter na busca.
 ### "Token inválido"
 - ✅ Verifique se copiou corretamente de `.env`
 - ✅ Não adicione aspas
-- ✅ Copie exatamente como está: `3276427420213442`
+- ✅ Copie exatamente como está: `SEU_TOKEN_AQUI`
 
 ### "Nenhum usuário aparece"
 - ✅ MongoDB pode estar fora do ar

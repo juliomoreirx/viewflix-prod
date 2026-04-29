@@ -8,6 +8,7 @@
     "dotenv": "^17.4.1",
     "express-rate-limit": "^8.3.2",
     "fs-extra": "^11.3.4",
+    "he": "^1.2.0",
     "helmet": "^8.1.0",
     "http-proxy-agent": "^9.0.0",
     "iconv-lite": "^0.7.2",

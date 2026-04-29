@@ -5,6 +5,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const jwt = require('jsonwebtoken');
 const axios = require('axios');
 const crypto = require('crypto');
+const logger = require('./src/lib/logger');
 
 const UserLocal = require('./src/models/user.model.js');
 const PurchasedContentLocal = require('./src/models/purchased-content.model.js');
@@ -39,20 +40,20 @@ const ADMIN_IDS = process.env.ADMIN_IDS ? process.env.ADMIN_IDS.split(',').map(i
 
 // ===== VALIDAÇÃO DE VARIÁVEIS OBRIGATÓRIAS =====
 if (!BOT_TOKEN) {
-  console.error('❌ ERRO CRÍTICO: BOT_TOKEN não definido no .env');
+  logger.fatal('❌ ERRO CRÍTICO: BOT_TOKEN não definido no .env');
   process.exit(1);
 }
 
 if (!JWT_SECRET) {
-  console.error('❌ ERRO CRÍTICO: JWT_SECRET não definido no .env');
+  logger.fatal('❌ ERRO CRÍTICO: JWT_SECRET não definido no .env');
   process.exit(1);
 }
 
 if (!MP_ACCESS_TOKEN) {
-  console.warn('⚠️ AVISO: MP_ACCESS_TOKEN não definido - pagamentos PIX não funcionarão');
+  logger.warn('⚠️ AVISO: MP_ACCESS_TOKEN não definido - pagamentos PIX não funcionarão');
 }
 
-console.log('✅ [Bot] Variáveis de ambiente carregadas');
+logger.info('✅ [Bot] Variáveis de ambiente carregadas');
 
 // ============================
 // INICIALIZAÇÃO DO BOT
@@ -62,26 +63,8 @@ const bot = new TelegramBot(BOT_TOKEN, { polling: false });
 // ============================
 // GARBAGE COLLECTION E ESTADO 
 // ============================
-let userStates = {};
-let pendingPayments = {};
-let paymentCheckIntervals = {}
-
-// Limpa memória a cada 30 minutos
-setInterval(() => {
-  const agora = Date.now();
-  // Limpar estados inativos há mais de 1 hora
-  for (const chatId in userStates) {
-    if (userStates[chatId].updatedAt && (agora - userStates[chatId].updatedAt > 3600000)) {
-      delete userStates[chatId];
-    }
-  }
-  // Limpar pagamentos pendentes expirados
-  for (const pixId in pendingPayments) {
-    if (pendingPayments[pixId].timestamp && (agora - pendingPayments[pixId].timestamp > 1800000)) {
-      delete pendingPayments[pixId];
-    }
-  }
-}, 1800000); // 30 min
+const StateManager = require('./src/bot/state-manager');
+let paymentCheckIntervals = {};
 
 // ============================
 // SERVIÇOS EXTERNOS
@@ -106,7 +89,7 @@ function setModels(models) {
     models?.['purchased-content.model'] ||
     PurchasedContentLocal;
 
-  console.log('✅ [Bot] Models injetados:', {
+  logger.info({ msg: '✅ [Bot] Models injetados:',
     hasUser: !!UserModel,
     hasPurchasedContent: !!PurchasedContentModel
   });
@@ -142,8 +125,8 @@ function initBot(models, services, dominio) {
   bot.startPolling();
   // ==========================================
 
-  console.log('✅ Bot do Telegram inicializado com sucesso e a escutar!');
-  console.log(`🌐 Domínio configurado: ${DOMINIO_PUBLICO}`);
+  logger.info('✅ Bot do Telegram inicializado com sucesso e a escutar!');
+  logger.info(`🌐 Domínio configurado: ${DOMINIO_PUBLICO}`);
 }
 
 function getCacheSafe() {
@@ -266,7 +249,7 @@ async function verificarOuCriarUsuario(msg) {
     await user.save();
     return { isNew: false, user };
   } catch (error) {
-    console.error('Erro ao verificar/criar usuário:', error);
+    logger.error({ msg: 'Erro ao verificar/criar usuário', error: error.message });
     return null;
   }
 }
@@ -279,7 +262,7 @@ async function verificarBloqueio(userId) {
     }
     return { blocked: false };
   } catch (error) {
-    console.error('Erro ao verificar bloqueio:', error);
+    logger.error({ msg: 'Erro ao verificar bloqueio', error: error.message });
     return { blocked: false };
   }
 }
@@ -330,7 +313,7 @@ async function concederBonusInicialSeElegivel(user, isNewUser) {
 
     return { granted: true, amount: BONUS_INICIAL_NOVO_USUARIO };
   } catch (error) {
-    console.error('Erro ao conceder bônus inicial:', error.message);
+    logger.error({ msg: 'Erro ao conceder bônus inicial', error: error.message });
     return { granted: false, amount: 0 };
   }
 }
@@ -354,7 +337,7 @@ async function deductCredits(userId, centavos) {
     await user.save();
     return true;
   } catch (error) {
-    console.error('Erro ao deduzir créditos:', error);
+    logger.error({ msg: 'Erro ao deduzir créditos', error: error.message });
     return false;
   }
 }
@@ -367,7 +350,7 @@ function gerarTokenAcesso(userId, videoId, mediaType) {
       JWT_SECRET
     );
   } catch (error) {
-    console.error('Erro ao gerar token:', error);
+    logger.error({ msg: 'Erro ao gerar token', error: error.message });
     return null;
   }
 }
@@ -390,17 +373,17 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
     await purchase.save();
     return token;
   } catch (error) {
-    console.error('Erro ao salvar conteúdo comprado:', error);
+    logger.error({ msg: 'Erro ao salvar conteúdo comprado', error: error.message });
     return null;
   }
 }
 
-function clearUserState(chatId) {
-  if (userStates[chatId]) delete userStates[chatId];
+async function clearUserState(chatId) {
+  await StateManager.clearUserState(chatId);
 }
 
-function setUserState(chatId, stateData) {
-  userStates[chatId] = { ...stateData, updatedAt: Date.now() };
+async function setUserState(chatId, stateData) {
+  await StateManager.setUserState(chatId, stateData);
 }
 
 function showMainMenu(chatId, text = '🏠 *Menu Principal*') {
@@ -503,8 +486,8 @@ async function listarPorLetra(chatId, tipo, letra, pagina = 1) {
       { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
     );
   } catch (error) {
-    console.error('Erro ao listar por letra:', error);
-    await bot.sendMessage(chatId, '❌ Erro ao buscar conteúdo. Tente novamente.');
+    logger.error({ msg: 'Erro ao listar por letra', error: error.message });
+    await bot.sendMessage(chatId, '❌ Erro ao buscar conteúdo. Tente novamente.').catch(e => logger.debug(e.message));
   }
 }
 
@@ -568,8 +551,8 @@ async function listarCanaisAoVivo(chatId, pagina = 1) {
       { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
     );
   } catch (error) {
-    console.error('Erro ao listar canais ao vivo:', error);
-    await bot.sendMessage(chatId, '❌ Erro ao listar canais. Tente novamente.');
+    logger.error({ msg: 'Erro ao listar canais ao vivo', error: error.message });
+    await bot.sendMessage(chatId, '❌ Erro ao listar canais. Tente novamente.').catch(e => logger.debug(e.message));
   }
 }
 
@@ -687,8 +670,8 @@ async function mostrarMeuConteudo(chatId) {
       { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
     );
   } catch (error) {
-    console.error('Erro ao mostrar conteúdo:', error);
-    await bot.sendMessage(chatId, '❌ Erro ao carregar seu conteúdo. Tente novamente.');
+    logger.error({ msg: 'Erro ao mostrar conteúdo', error: error.message });
+    await bot.sendMessage(chatId, '❌ Erro ao carregar seu conteúdo. Tente novamente.').catch(e => logger.debug(e.message));
   }
 }
 
@@ -747,8 +730,8 @@ async function mostrarDetalhesConteudo(chatId, contentId) {
       }
     });
   } catch (error) {
-    console.error('Erro ao mostrar detalhes do conteúdo:', error);
-    await bot.sendMessage(chatId, '❌ Erro ao carregar detalhes. Tente novamente.');
+    logger.error({ msg: 'Erro ao mostrar detalhes do conteúdo', error: error.message });
+    await bot.sendMessage(chatId, '❌ Erro ao carregar detalhes. Tente novamente.').catch(e => logger.debug(e.message));
   }
 }
 
@@ -773,13 +756,13 @@ async function enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, m
     );
     return true;
   } catch (error) {
-    console.error(`❌ Erro ao enviar link ${videoInfo}:`, error.message);
+    logger.error({ msg: `❌ Erro ao enviar link ${videoInfo}`, error: error.message });
     await addCredits(chatId, precoNum);
     const saldoRestaurado = await getUserCredits(chatId);
     await bot.sendMessage(chatId,
       `❌ *Erro ao Enviar Conteúdo*\n\n💰 Créditos devolvidos: ${formatMoney(precoNum)}\n💳 Saldo atual: ${formatMoney(saldoRestaurado)}`,
       { parse_mode: 'Markdown' }
-    );
+    ).catch(e => logger.debug(e.message));
     return false;
   }
 }
@@ -807,13 +790,14 @@ function startPaymentVerification(paymentId, userId) {
       } else if (status === 'cancelled' || status === 'rejected' || attempts >= maxAttempts) {
         clearInterval(paymentCheckIntervals[paymentId]);
         delete paymentCheckIntervals[paymentId];
-        if (pendingPayments[paymentId]) {
+        const p = await StateManager.getPendingPayment(paymentId);
+        if (p) {
           bot.sendMessage(userId, '⏰ O pagamento expirou ou foi cancelado. Tente novamente se desejar adicionar créditos.').catch(() => {});
-          delete pendingPayments[paymentId];
+          await StateManager.clearPendingPayment(paymentId);
         }
       }
     } catch (error) {
-      console.error(`Erro ao verificar pagamento ${paymentId}:`, error.message);
+      logger.error({ msg: `Erro ao verificar pagamento ${paymentId}`, error: error.message });
     }
   }, 5000);
 }
@@ -895,12 +879,12 @@ async function verificarConteudosExpirando() {
           content.notificationSent = true;
           await content.save();
         } else {
-          console.error(`Erro ao enviar notificação para ${content.userId}:`, error.message);
+          logger.error({ msg: `Erro ao enviar notificação para ${content.userId}`, error: error.message });
         }
       }
     }
   } catch (error) {
-    console.error('Erro ao verificar conteúdos expirando:', error);
+    logger.error({ msg: 'Erro ao verificar conteúdos expirando', error: error.message });
   }
 }
 
@@ -930,8 +914,8 @@ bot.onText(/\/start/, async (msg) => {
       return;
     }
 
-    clearUserState(chatId);
-    setUserState(chatId, { step: 'menu' });
+    await clearUserState(chatId);
+    await setUserState(chatId, { step: 'menu' });
 
     const bonusInfo = await concederBonusInicialSeElegivel(user, isNew);
 
@@ -953,8 +937,8 @@ bot.onText(/\/start/, async (msg) => {
 
     showMainMenu(chatId, welcome);
   } catch (error) {
-    console.error('Erro no comando /start:', error);
-    bot.sendMessage(chatId, '❌ Erro ao iniciar. Tente novamente com /start');
+    logger.error({ msg: 'Erro no comando /start', error: error.message });
+    bot.sendMessage(chatId, '❌ Erro ao iniciar. Tente novamente com /start').catch(e => logger.debug(e.message));
   }
 });
 
@@ -981,36 +965,36 @@ bot.onText(/📺 Séries A-Z/, (msg) => mostrarAlfabeto(msg.chat.id, 'series'));
 bot.onText(/📦 Meu Conteúdo/, async (msg) => mostrarMeuConteudo(msg.chat.id));
 bot.onText(/📡 Canais ao Vivo/, async (msg) => listarCanaisAoVivo(msg.chat.id, 1));
 
-bot.onText(/🔍 Buscar Filmes/, (msg) => {
+bot.onText(/🔍 Buscar Filmes/, async (msg) => {
   const chatId = msg.chat.id;
-  setUserState(chatId, { step: 'search_movies' });
+  await setUserState(chatId, { step: 'search_movies' });
   bot.sendMessage(chatId, '🎬 *Buscar Filmes*\n\nDigite o nome do filme:', {
     parse_mode: 'Markdown',
     reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
   });
 });
 
-bot.onText(/📺 Buscar Séries/, (msg) => {
+bot.onText(/📺 Buscar Séries/, async (msg) => {
   const chatId = msg.chat.id;
-  setUserState(chatId, { step: 'search_series' });
+  await setUserState(chatId, { step: 'search_series' });
   bot.sendMessage(chatId, '📺 *Buscar Séries*\n\nDigite o nome da série:', {
     parse_mode: 'Markdown',
     reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
   });
 });
 
-bot.onText(/🔎 Buscar Canais/, (msg) => {
+bot.onText(/🔎 Buscar Canais/, async (msg) => {
   const chatId = msg.chat.id;
-  setUserState(chatId, { step: 'search_livetv' });
+  await setUserState(chatId, { step: 'search_livetv' });
   bot.sendMessage(chatId, '📡 *Buscar Canais ao Vivo*\n\nDigite o nome do canal (ex: Globo):', {
     parse_mode: 'Markdown',
     reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] }
   });
 });
 
-bot.onText(/🔞 Conteúdo \+18/, (msg) => {
+bot.onText(/🔞 Conteúdo \+18/, async (msg) => {
   const chatId = msg.chat.id;
-  setUserState(chatId, { step: 'search_adult' });
+  await setUserState(chatId, { step: 'search_adult' });
   bot.sendMessage(chatId,
     '🔞 *Conteúdo Adulto*\n\nDigite o termo de busca:',
     { parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: '⬅️ Voltar', callback_data: 'back_main' }]] } }
@@ -1053,7 +1037,7 @@ bot.on('message', async (msg) => {
   const text = msg.text;
   if (!text || text.startsWith('/') || /🔍|🔎|📺|📡|🔞|💰|💳|🎬|📦/.test(text)) return;
 
-  const state = userStates[chatId];
+  const state = await StateManager.getUserState(chatId);
   if (!state || !['search_movies', 'search_series', 'search_adult', 'search_livetv', 'search_livetv_results'].includes(state.step)) return;
 
   try {
@@ -1112,8 +1096,8 @@ bot.on('message', async (msg) => {
       { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
     );
   } catch (error) {
-    console.error('Erro ao processar busca:', error);
-    bot.sendMessage(chatId, '❌ Erro ao realizar busca.');
+    logger.error({ msg: 'Erro ao processar busca', error: error.message });
+    bot.sendMessage(chatId, '❌ Erro ao realizar busca.').catch(e => logger.debug(e.message));
   }
 });
 
@@ -1128,7 +1112,7 @@ bot.on('callback_query', async (query) => {
   const msgId = query.message.message_id;
 
   try {
-    console.log('📲 CALLBACK:', data);
+    logger.debug({ msg: '📲 CALLBACK', data });
 
     if (data === 'noop') { bot.answerCallbackQuery(query.id); return; }
 
@@ -1186,7 +1170,7 @@ bot.on('callback_query', async (query) => {
 
     if (data.startsWith('live_search_page_')) {
       const pagina = parseInt(data.split('_')[3], 10) || 1;
-      const state = userStates[chatId];
+      const state = await StateManager.getUserState(chatId);
       const termo = state?.liveSearchTerm || '';
 
       bot.answerCallbackQuery(query.id);
@@ -1292,6 +1276,15 @@ bot.on('callback_query', async (query) => {
 
       bot.answerCallbackQuery(query.id, { text: 'Gerando PIX...' });
       const pix = await criarPagamentoPix(chatId, valor);
+
+      if (pix) {
+        await StateManager.setPendingPayment(pix.paymentId, {
+          userId: chatId,
+          amount: valor,
+          pix_code: pix.pix_code
+        });
+        startPaymentVerification(pix.paymentId, chatId);
+      }
 
       if (!pix) {
         bot.sendMessage(chatId, '❌ Erro ao gerar PIX.', {
@@ -1411,7 +1404,7 @@ bot.on('callback_query', async (query) => {
     if (data.startsWith('season_')) {
       const [, id, seasonRaw] = data.split('_');
       const season = String(seasonRaw);
-      const state = userStates[chatId];
+      const state = await StateManager.getUserState(chatId);
 
       if (!state || !state.data || !state.data.seasons) {
         bot.answerCallbackQuery(query.id, { text: 'Erro ao carregar temporada' });
@@ -1492,7 +1485,7 @@ bot.on('callback_query', async (query) => {
 
     if (data.startsWith('episode_')) {
       const [, epId, season] = data.split('_');
-      const state = userStates[chatId];
+      const state = await StateManager.getUserState(chatId);
 
       if (!state || !state.data || !state.data.seasons) {
         bot.answerCallbackQuery(query.id, { text: 'Erro ao carregar episódio' });
@@ -1564,7 +1557,7 @@ bot.on('callback_query', async (query) => {
       const id = parts[2];
       const precoNum = parseInt(parts[3], 10);
       const minutosReais = parts[4] ? parseInt(parts[4], 10) : 110;
-      const state = userStates[chatId];
+      const state = await StateManager.getUserState(chatId);
 
       bot.answerCallbackQuery(query.id);
 
@@ -1663,7 +1656,7 @@ bot.on('callback_query', async (query) => {
     if (data.startsWith('watch_ep_')) {
       const [, , epId, preco, season] = data.split('_');
       const precoNum = parseInt(preco, 10);
-      const state = userStates[chatId];
+      const state = await StateManager.getUserState(chatId);
 
       bot.answerCallbackQuery(query.id);
 
@@ -1720,7 +1713,7 @@ bot.on('callback_query', async (query) => {
     if (data.startsWith('buy_season_')) {
       const [, , id, season, preco] = data.split('_');
       const precoNum = parseInt(preco, 10);
-      const state = userStates[chatId];
+      const state = await StateManager.getUserState(chatId);
 
       bot.answerCallbackQuery(query.id);
 
@@ -1776,7 +1769,7 @@ bot.on('callback_query', async (query) => {
           const token = await salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season);
           if (token) salvos++;
         } catch (e) {
-          console.error('Erro ao salvar episódio:', e.message);
+          logger.error({ msg: 'Erro ao salvar episódio', error: e.message });
         }
       }
 
@@ -1796,7 +1789,7 @@ bot.on('callback_query', async (query) => {
     }
 
   } catch (error) {
-    console.error('Erro ao processar callback query:', error);
+    logger.error({ msg: 'Erro ao processar callback query', error: error.message });
     bot.answerCallbackQuery(query.id, { text: 'Erro ao processar ação' }).catch(() => {});
     bot.sendMessage(chatId, '❌ Erro ao processar sua solicitação.').catch(() => {});
   }
@@ -1808,35 +1801,24 @@ bot.on('callback_query', async (query) => {
 // ============================
 bot.on('polling_error', (error) => {
   if (error.code === 'ETELEGRAM' && error.response?.body?.error_code === 409) {
-    console.warn('⚠️ Conflito de polling — outra instância do bot está rodando');
+    logger.warn('⚠️ Conflito de polling — outra instância do bot está rodando');
   } else {
-    console.error('Erro de polling do bot:', error.message);
+    logger.error({ msg: 'Erro de polling do bot', error: error.message });
   }
 });
 
 // ============================
 // LIMPEZA PERIÓDICA
 // ============================
-setInterval(() => {
-  const agora = Date.now();
-  const TEMPO_EXPIRACAO = 15 * 60 * 1000;
-  for (const [paymentId, payment] of Object.entries(pendingPayments)) {
-    if (agora - payment.timestamp > TEMPO_EXPIRACAO) {
-      delete pendingPayments[paymentId];
-      if (paymentCheckIntervals[paymentId]) {
-        clearInterval(paymentCheckIntervals[paymentId]);
-        delete paymentCheckIntervals[paymentId];
-      }
-    }
-  }
-}, 5 * 60 * 1000);
+// Note: As Redis automatically clears state due to EXPIRE/TTL, we no longer need the local manual garbage collection
+// loop. The only thing remaining locally is intervals array but intervals naturally stop if maxAttempts or status reaches approved.
 
 setInterval(async () => {
   try {
     if (!PurchasedContentModel || typeof PurchasedContentModel.deleteMany !== 'function') return;
     await PurchasedContentModel.deleteMany({ expiresAt: { $lt: new Date() } });
   } catch (error) {
-    console.error('Erro ao limpar conteúdos expirados:', error);
+    logger.error({ msg: 'Erro ao limpar conteúdos expirados', error: error.message });
   }
 }, 60 * 60 * 1000);
 
