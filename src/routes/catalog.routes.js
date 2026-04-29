@@ -38,6 +38,7 @@ router.get('/api/list', asyncHandler(async (req, res) => {
   }
 
   const isAdulto = (n) => /[\[\(]xxx|\+18|adulto|hentai/i.test(String(n).toUpperCase());
+  const isBlocked = (n) => /\[hdr\]|\[h265\]|\[h\.265\]/i.test(String(n));
 
   let lista;
   if (type === 'adult') {
@@ -60,6 +61,9 @@ router.get('/api/list', asyncHandler(async (req, res) => {
       const ov = overrideMap.get(key);
       // Hide or disabled channels should not appear in the public list
       if (ov && (ov.hidden === true || ov.disabled === true)) return false;
+      // Block channels with [HDR] or [H265] tags
+      const chName = ch.name || ch.title || '';
+      if (isBlocked(chName)) return false;
       return true;
     });
   } else {
