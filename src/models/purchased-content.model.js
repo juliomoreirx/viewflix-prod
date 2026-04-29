@@ -17,6 +17,8 @@ const purchasedContentSchema = new mongoose.Schema({
   sessionToken: { type: String, unique: true }
 });
 
+purchasedContentSchema.index({ token: 1, sessionToken: 1 });
+
 module.exports =
   mongoose.models.PurchasedContent ||
   mongoose.model('PurchasedContent', purchasedContentSchema);

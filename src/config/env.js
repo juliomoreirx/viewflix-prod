@@ -30,6 +30,8 @@ const envSchema = z.object({
 
   MP_ACCESS_TOKEN: z.string().optional(),
   ADMIN_API_TOKEN: z.string().optional(),
+
+  REDIS_URI: z.string().optional(),
 });
 
 const parsed = envSchema.safeParse(process.env);
