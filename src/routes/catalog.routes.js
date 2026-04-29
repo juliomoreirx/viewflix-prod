@@ -49,8 +49,10 @@ router.get('/api/list', asyncHandler(async (req, res) => {
     const overrideMap = new Map(overrides.map(o => [o.key, o]));
 
     function computeKey(ch) {
-      const raw = ch.id || ch.videoId || ch.key || ch.name || ch.title || ch.url || JSON.stringify(ch);
-      return crypto.createHash('sha1').update(String(raw)).digest('hex');
+      // Use URL as primary key (most stable identifier for streaming channels)
+      // Fallback to name, then to full object if no URL
+      const raw = ch.url || ch.hls || ch.stream || ch.name || ch.title || ch.id || ch.videoId || ch.key || JSON.stringify(ch);
+      return crypto.createHash('sha1').update(String(raw).toLowerCase()).digest('hex');
     }
 
     lista = (CACHE_CONTEUDO.livetv || []).filter((ch) => {
