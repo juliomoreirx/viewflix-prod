@@ -2,8 +2,11 @@ const express = require('express');
 const helmet = require('helmet');
 const cors = require('cors');
 const rateLimit = require('express-rate-limit');
+const RedisStore = require('rate-limit-redis').default;
+const compression = require('compression');
 
 const env = require('./config/env');
+const redisClient = require('./lib/redis');
 const requestContext = require('./middlewares/request-context');
 const routes = require('./routes');
 const path = require('path');
@@ -15,6 +18,8 @@ const app = express();
 app.locals.models = { ChannelOverride };
 
 app.set('trust proxy', 1);
+
+app.use(compression());
 
 // Helmet apenas para rotas do browser (player, catalog, etc)
 // O relay não precisa de CSP
@@ -44,14 +49,22 @@ app.use(express.json({ limit: '1mb' }));
 app.use(requestContext);
 
 // Rate limit geral — relay tem volume alto, aumentar um pouco
-app.use(rateLimit({
+const rateLimitConfig = {
   windowMs: 60 * 1000,
   max: 600,
   standardHeaders: true,
   legacyHeaders: false,
   // Não aplica rate limit no relay-stream (é chamado pelo worker, não pelo usuário)
   skip: (req) => req.path === '/relay-stream'
-}));
+};
+
+if (redisClient) {
+  rateLimitConfig.store = new RedisStore({
+    sendCommand: (...args) => redisClient.call(...args),
+  });
+}
+
+app.use(rateLimit(rateLimitConfig));
 
 // Serve arquivos estáticos da pasta `public/`
 // (ex: /admin.html, assets, index, etc)

@@ -31,7 +31,10 @@ const RES_PROXY_USER = env.RES_PROXY_USER || '';
 const RES_PROXY_PASS = env.RES_PROXY_PASS || '';
 
 const proxyUrl = `http://${encodeURIComponent(RES_PROXY_USER)}:${encodeURIComponent(RES_PROXY_PASS)}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
-const residentialProxyAgent = new HttpProxyAgent(proxyUrl);
+let residentialProxyAgent = null;
+if (RES_PROXY_HOST && RES_PROXY_PORT) {
+  residentialProxyAgent = new HttpProxyAgent(proxyUrl);
+}
 
 const LIVE_SEGMENT_CACHE_TTL_MS = 45 * 1000;
 const LIVE_SEGMENT_CACHE_MAX_ENTRIES = 180;
