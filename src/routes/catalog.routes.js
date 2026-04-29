@@ -57,7 +57,8 @@ router.get('/api/list', asyncHandler(async (req, res) => {
     }
 
 
-    
+    const livetv = (CACHE_CONTEUDO.livetv || []);
+
     lista = livetv.filter((ch) => {
       const key = computeKey(ch);
       const ov = overrideMap.get(key);
@@ -67,6 +68,8 @@ router.get('/api/list', asyncHandler(async (req, res) => {
       const chName = ch.name || ch.title || '';
       const blocked = isBlocked(chName);
       return !blocked;
+    });
+
   } else {
     lista = (CACHE_CONTEUDO[type] || []).filter((i) => !isAdulto(i.name));
   }
