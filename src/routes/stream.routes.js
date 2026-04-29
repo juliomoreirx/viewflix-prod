@@ -192,14 +192,15 @@ router.get('/relay-stream', async (req, res, next) => {
     const senha = env.LOGIN_PASS || '';
 
     if (type === 'livetv') {
-      // Block channels with [HDR] or [H265] tags
+      // Block channels with H265/HDR in their identifier
       const isBlocked = /(h265|h\.265|hevc|hdr)/i.test(String(videoId));
       if (isBlocked) return res.status(403).send('Canal não disponível');
 
       // Check admin overrides: if disabled, block access
       try {
+        const { computeChannelKey } = require('../lib/keys');
         const { ChannelOverride } = req.app.locals.models || {};
-        const key = crypto.createHash('sha1').update(String(videoId)).digest('hex');
+        const key = computeChannelKey(String(videoId));
         if (ChannelOverride) {
           const ov = await ChannelOverride.findOne({ key }).lean();
           if (ov && ov.disabled) return res.status(403).send('Canal desativado');
@@ -268,8 +269,9 @@ router.get('/relay-live-manifest', async (req, res, next) => {
 
     // Check admin overrides: if disabled, block access to manifest
     try {
+      const { computeChannelKey } = require('../lib/keys');
       const { ChannelOverride } = req.app.locals.models || {};
-      const key = crypto.createHash('sha1').update(String(videoId)).digest('hex');
+      const key = computeChannelKey(String(videoId));
       if (ChannelOverride) {
         const ov = await ChannelOverride.findOne({ key }).lean();
         if (ov && ov.disabled) return res.status(403).send('Canal desativado');

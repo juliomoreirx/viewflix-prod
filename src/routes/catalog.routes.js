@@ -49,18 +49,13 @@ router.get('/api/list', asyncHandler(async (req, res) => {
     const overrides = ChannelOverride ? await ChannelOverride.find({}).lean() : [];
     const overrideMap = new Map(overrides.map(o => [o.key, o]));
 
-    function computeKey(ch) {
-      // Use URL as primary key (most stable identifier for streaming channels)
-      // Fallback to name, then to full object if no URL
-      const raw = ch.url || ch.hls || ch.stream || ch.name || ch.title || ch.id || ch.videoId || ch.key || JSON.stringify(ch);
-      return crypto.createHash('sha1').update(String(raw).toLowerCase()).digest('hex');
-    }
+    const { computeChannelKey } = require('../lib/keys');
 
 
     const livetv = (CACHE_CONTEUDO.livetv || []);
 
     lista = livetv.filter((ch) => {
-      const key = computeKey(ch);
+      const key = computeChannelKey(ch);
       const ov = overrideMap.get(key);
       // Hide or disabled channels should not appear in the public list
       if (ov && (ov.hidden === true || ov.disabled === true)) return false;

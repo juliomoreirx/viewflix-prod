@@ -270,16 +270,10 @@ router.get('/api/admin/channels', adminAuth, asyncHandler(async (req, res) => {
 
   const overrides = await ChannelOverride.find({}).lean();
   const overrideMap = new Map(overrides.map(o => [o.key, o]));
-
-  function computeKey(ch) {
-    // Use URL as primary key (most stable identifier for streaming channels)
-    // Fallback to name, then to full object if no URL
-    const raw = ch.url || ch.hls || ch.stream || ch.name || ch.title || ch.id || ch.videoId || ch.key || JSON.stringify(ch);
-    return crypto.createHash('sha1').update(String(raw).toLowerCase()).digest('hex');
-  }
+  const { computeChannelKey } = require('../lib/keys');
 
   const data = channels.map((ch) => {
-    const key = computeKey(ch);
+    const key = computeChannelKey(ch);
     const ov = overrideMap.get(key) || {};
     return {
       key,
@@ -298,8 +292,26 @@ router.get('/api/admin/channels', adminAuth, asyncHandler(async (req, res) => {
 // Bulk update channels (hide/unhide/disable/enable)
 router.post('/api/admin/channels/bulk-update', adminAuth, asyncHandler(async (req, res) => {
   const { ChannelOverride } = req.app.locals.models;
-  const { keys = [], action } = req.body || {};
-  if (!Array.isArray(keys) || keys.length === 0) return res.status(400).json({ error: 'keys required' });
+  const body = req.body || {};
+  const keys = Array.isArray(body.keys) ? body.keys : [];
+  // Support two modes: legacy { keys, action } and new { keys, updates }
+  if (!keys || keys.length === 0) return res.status(400).json({ error: 'keys required' });
+
+  if (body.updates && typeof body.updates === 'object') {
+    // New idempotent bulk update using bulkWrite
+    const updates = body.updates;
+    const bulkOps = keys.map(k => ({
+      updateOne: {
+        filter: { key: k },
+        update: { $set: { ...updates, updatedAt: new Date() } },
+        upsert: true
+      }
+    }));
+    await ChannelOverride.bulkWrite(bulkOps);
+    return res.json({ success: true, modified: keys.length });
+  }
+
+  const action = body.action;
   if (!['hide','unhide','disable','enable'].includes(action)) return res.status(400).json({ error: 'invalid action' });
 
   let modified = 0;
@@ -333,6 +345,17 @@ router.post('/api/admin/channels/bulk-update', adminAuth, asyncHandler(async (re
   }
 
   return res.json({ success: true, modified });
+}));
+
+// Endpoint protegido para limpar/migrar (Documentar para equipe)
+router.post('/api/admin/channels/clean-overrides', adminAuth, asyncHandler(async (req, res) => {
+  try {
+    if (req.body.confirm !== 'I_KNOW_WHAT_I_AM_DOING') return res.status(400).json({ error: 'Confirmação ausente.' });
+    const result = await ChannelOverride.deleteMany({});
+    return res.json({ success: true, deletedCount: result.deletedCount });
+  } catch (err) {
+    return res.status(500).json({ error: 'Erro ao limpar overrides.' });
+  }
 }));
 
 module.exports = router;
