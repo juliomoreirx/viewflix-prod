@@ -13,7 +13,7 @@ const crypto = require('crypto');
 const listQuerySchema = z.object({
   type: z.enum(['movies', 'series', 'adult', 'livetv']).optional(),
   page: z.string().optional(),
-  q: z.string().optional()
+  q: z.string().max(100).optional()
 });
 
 const detailsQuerySchema = z.object({

@@ -41,7 +41,7 @@
 🚀 COMO ACESSAR (3 PASSOS)
 
   1️⃣  Copie o token do .env:
-      ADMIN_API_TOKEN=3276427420213442
+      ADMIN_API_TOKEN=SEU_TOKEN_AQUI
 
   2️⃣  Inicie o servidor:
       npm start

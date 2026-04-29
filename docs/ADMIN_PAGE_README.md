@@ -83,7 +83,7 @@ http://localhost:3000/admin.html
 
 ### Exemplo de Token
 ```env
-ADMIN_API_TOKEN=3276427420213442
+ADMIN_API_TOKEN=SEU_TOKEN_AQUI
 ```
 
 ---
