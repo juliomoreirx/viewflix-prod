@@ -193,7 +193,7 @@ router.get('/relay-stream', async (req, res, next) => {
 
     if (type === 'livetv') {
       // Block channels with [HDR] or [H265] tags
-      const isBlocked = /\[hdr\]|\[h265\]|\[h\.265\]/i.test(String(videoId));
+      const isBlocked = /(h265|h\.265|hevc|hdr)/i.test(String(videoId));
       if (isBlocked) return res.status(403).send('Canal não disponível');
 
       // Check admin overrides: if disabled, block access
@@ -263,7 +263,7 @@ router.get('/relay-live-manifest', async (req, res, next) => {
     }
 
     // Block channels with [HDR] or [H265] tags
-    const isBlocked = /\[hdr\]|\[h265\]|\[h\.265\]/i.test(String(videoId));
+    const isBlocked = /(h265|h\.265|hevc|hdr)/i.test(String(videoId));
     if (isBlocked) return res.status(403).send('Canal não disponível');
 
     // Check admin overrides: if disabled, block access to manifest

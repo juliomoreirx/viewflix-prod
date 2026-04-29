@@ -38,7 +38,7 @@ router.get('/api/list', asyncHandler(async (req, res) => {
   }
 
   const isAdulto = (n) => /[\[\(]xxx|\+18|adulto|hentai/i.test(String(n).toUpperCase());
-  const isBlocked = (n) => /\[hdr\]|\[h265\]|\[h\.265\]/i.test(String(n));
+  const isBlocked = (n) => /(h265|h\.265|hevc|hdr)/i.test(String(n));
 
   let lista;
   if (type === 'adult') {
@@ -56,16 +56,17 @@ router.get('/api/list', asyncHandler(async (req, res) => {
       return crypto.createHash('sha1').update(String(raw).toLowerCase()).digest('hex');
     }
 
-    lista = (CACHE_CONTEUDO.livetv || []).filter((ch) => {
+
+    
+    lista = livetv.filter((ch) => {
       const key = computeKey(ch);
       const ov = overrideMap.get(key);
       // Hide or disabled channels should not appear in the public list
       if (ov && (ov.hidden === true || ov.disabled === true)) return false;
-      // Block channels with [HDR] or [H265] tags
+      // Block channels with H265 or HDR tags
       const chName = ch.name || ch.title || '';
-      if (isBlocked(chName)) return false;
-      return true;
-    });
+      const blocked = isBlocked(chName);
+      return !blocked;
   } else {
     lista = (CACHE_CONTEUDO[type] || []).filter((i) => !isAdulto(i.name));
   }
@@ -95,6 +96,18 @@ router.get('/api/list', asyncHandler(async (req, res) => {
     totalPages: Math.ceil(total / limit),
     totalItems: total
   });
+}));
+
+// DEBUG: endpoint para ver primeiros 5 canais com nomes completos
+router.get('/api/debug/channels', asyncHandler(async (req, res) => {
+  const channels = (CACHE_CONTEUDO.livetv || []).slice(0, 5).map(ch => ({
+    name: ch.name,
+    title: ch.title,
+    url: ch.url || ch.hls || ch.stream,
+    hasHDR: /\[hdr\]/i.test(String(ch.name || ch.title || '')),
+    hasH265: /\[h265\]|\[h\.265\]/i.test(String(ch.name || ch.title || ''))
+  }));
+  return res.json(channels);
 }));
 
 router.get('/api/details', asyncHandler(async (req, res) => {
