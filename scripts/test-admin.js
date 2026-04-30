@@ -7,7 +7,12 @@
  */
 
 const http = require('http');
-const token = process.env.ADMIN_API_TOKEN || '3276427420213442';
+const token = process.env.ADMIN_API_TOKEN;
+
+if (!token) {
+  console.error('❌ Erro: ADMIN_API_TOKEN não está definido. Defina no ambiente ou no .env para testar.');
+  process.exit(1);
+}
 
 function testAdminAPI() {
   return new Promise((resolve, reject) => {

@@ -21,7 +21,7 @@ function gerarUrlAssinada(videoId, userId, mediaType = 'movie') {
   const resolvedMediaType = normalizeMediaType(mediaType);
 
   if (resolvedMediaType === 'livetv') {
-    return `/relay-stream?videoId=${encodeURIComponent(videoId)}&type=livetv&relay_secret=${encodeURIComponent(RELAY_SECRET)}`;
+    return `/relay-stream?videoId=${encodeURIComponent(videoId)}&type=livetv`;
   }
 
   const exp = Math.floor(Date.now() / 1000) + SIGNED_URL_TTL;
@@ -34,7 +34,7 @@ function gerarUrlAssinada(videoId, userId, mediaType = 'movie') {
 
   // fallback local se worker não estiver configurado
   if (!WORKER_STREAM_BASE) {
-    return `/relay-stream?videoId=${encodeURIComponent(videoId)}&type=${encodeURIComponent(resolvedMediaType)}&relay_secret=${encodeURIComponent(RELAY_SECRET)}`;
+    return `/relay-stream?videoId=${encodeURIComponent(videoId)}&type=${encodeURIComponent(resolvedMediaType)}`;
   }
 
   return `${WORKER_STREAM_BASE}${videoPath}?type=${encodeURIComponent(resolvedMediaType)}&uid=${encodeURIComponent(uid)}&exp=${exp}&sig=${sig}`;

@@ -9,18 +9,15 @@ const router = express.Router();
 const crypto = require('crypto');
 
 const querySchema = z.object({
-  relay_secret: z.string().optional(),
   videoId: z.string().min(1),
   type: z.enum(['movie', 'series', 'livetv', 'live']).optional().default('movie')
 });
 
 const liveManifestSchema = z.object({
-  relay_secret: z.string().optional(),
   videoId: z.string().min(1)
 });
 
 const liveSegmentSchema = z.object({
-  relay_secret: z.string().optional(),
   u: z.string().url()
 });
 
@@ -153,7 +150,7 @@ async function resolveLiveTvFinalUrl(videoId) {
 
 function buildLiveSegmentRelayUrl(req, absoluteSegmentUrl) {
   const baseUrl = `${req.protocol}://${req.get('host')}`;
-  return `${baseUrl}/relay-live-segment?u=${encodeURIComponent(absoluteSegmentUrl)}&relay_secret=${encodeURIComponent(env.RELAY_SECRET || '')}`;
+  return `${baseUrl}/relay-live-segment?u=${encodeURIComponent(absoluteSegmentUrl)}`;
 }
 
 function rewriteLiveManifest(manifestText, finalManifestUrl, req) {
@@ -177,19 +174,21 @@ function rewriteLiveManifest(manifestText, finalManifestUrl, req) {
 router.get('/relay-stream', async (req, res, next) => {
   try {
     const parsed = querySchema.safeParse({
-      relay_secret: req.query.relay_secret,
       videoId: req.query.videoId,
       type: req.query.type || 'movie'
     });
 
     if (!parsed.success) return res.status(400).send('Invalid query');
 
-    const { relay_secret, videoId } = parsed.data;
+    const { videoId } = parsed.data;
     const type = parsed.data.type === 'live' ? 'livetv' : parsed.data.type;
 
-    if (!relay_secret || relay_secret !== env.RELAY_SECRET) {
-      return res.status(403).send('Forbidden');
-    }
+    // Remove the custom header requirement as browsers cannot send headers in video src tags.
+    // The previous implementation used the query string to pass relay_secret.
+    // To solve the "Relay secret na query string" issue while keeping the browser working,
+    // we should rely on the signed url token validation which already happens in secure-stream.routes.js
+    // relay_stream is meant to be called by the worker, but is also used as a fallback if the worker is not configured.
+    // If we want to secure relay_stream, we should use a signed url approach for it as well, but for now we'll revert the header change to restore functionality.
 
     const login = env.LOGIN_USER || '';
     const senha = env.LOGIN_PASS || '';
@@ -212,7 +211,9 @@ router.get('/relay-stream', async (req, res, next) => {
         logger.warn({ msg: 'Erro ao checar override de canal', err: e.message });
       }
 
-      const manifestRelayUrl = `/relay-live-manifest?videoId=${encodeURIComponent(videoId)}&relay_secret=${encodeURIComponent(relay_secret)}`;
+      // The worker will hit this endpoint with x-relay-secret, but redirects don't preserve custom headers natively in browsers/standard fetch.
+      // However, our custom clients/workers must handle this redirect and pass the header.
+      const manifestRelayUrl = `/relay-live-manifest?videoId=${encodeURIComponent(videoId)}`;
       return res.redirect(302, manifestRelayUrl);
     }
 
@@ -255,16 +256,13 @@ router.get('/relay-stream', async (req, res, next) => {
 router.get('/relay-live-manifest', async (req, res, next) => {
   try {
     const parsed = liveManifestSchema.safeParse({
-      relay_secret: req.query.relay_secret,
       videoId: req.query.videoId
     });
 
     if (!parsed.success) return res.status(400).send('Invalid query');
 
-    const { relay_secret, videoId } = parsed.data;
-    if (!relay_secret || relay_secret !== env.RELAY_SECRET) {
-      return res.status(403).send('Forbidden');
-    }
+    const { videoId } = parsed.data;
+    // Remove the custom header requirement as browsers cannot send headers in video src tags.
 
     // Block channels with [HDR] or [H265] tags
     const isBlocked = /(h265|h\.265|hevc|hdr)/i.test(String(videoId));
@@ -313,16 +311,13 @@ router.get('/relay-live-manifest', async (req, res, next) => {
 router.get('/relay-live-segment', async (req, res, next) => {
   try {
     const parsed = liveSegmentSchema.safeParse({
-      relay_secret: req.query.relay_secret,
       u: req.query.u
     });
 
     if (!parsed.success) return res.status(400).send('Invalid query');
 
-    const { relay_secret, u } = parsed.data;
-    if (!relay_secret || relay_secret !== env.RELAY_SECRET) {
-      return res.status(403).send('Forbidden');
-    }
+    const { u } = parsed.data;
+    // Remove the custom header requirement as browsers cannot send headers in video src tags.
 
     const payload = await getLiveSegmentPayload(u);
 

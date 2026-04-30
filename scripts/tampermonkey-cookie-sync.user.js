@@ -112,8 +112,8 @@ function getCfClearanceAsync() {
     if (!cookieString) return '';
 
     const cookieMap = parseCookieString(cookieString);
-    const wanted = new Set(['PHPSESSID', 'vouverme', 'username', 'password']);
-    const order = ['PHPSESSID', 'vouverme', 'username', 'password'];
+    const wanted = new Set(['PHPSESSID', 'vouverme']);
+    const order = ['PHPSESSID', 'vouverme'];
 
     return order
       .filter((name) => wanted.has(name) && cookieMap.has(name))

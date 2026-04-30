@@ -96,18 +96,6 @@ router.get('/api/list', asyncHandler(async (req, res) => {
   });
 }));
 
-// DEBUG: endpoint para ver primeiros 5 canais com nomes completos
-router.get('/api/debug/channels', asyncHandler(async (req, res) => {
-  const channels = (CACHE_CONTEUDO.livetv || []).slice(0, 5).map(ch => ({
-    name: ch.name,
-    title: ch.title,
-    url: ch.url || ch.hls || ch.stream,
-    hasHDR: /\[hdr\]/i.test(String(ch.name || ch.title || '')),
-    hasH265: /\[h265\]|\[h\.265\]/i.test(String(ch.name || ch.title || ''))
-  }));
-  return res.json(channels);
-}));
-
 router.get('/api/details', asyncHandler(async (req, res) => {
   const parsed = detailsQuerySchema.safeParse(req.query);
   if (!parsed.success) return res.status(400).json({ error: 'ID e tipo são obrigatórios' });

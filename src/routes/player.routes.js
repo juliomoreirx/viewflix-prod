@@ -67,10 +67,10 @@ router.get('/player/:token', async (req, res) => {
                .replace(/\{\{purchaseDate\}\}/g, safePurchaseDate)
                .replace(/\{\{viewCount\}\}/g, purchase.viewCount)
                .replace(/\{\{viewCountSuffix\}\}/g, purchase.viewCount === 1 ? 'ão' : 'ões')
-               .replace(/\{\{userId\}\}/g, he.encode(String(userId)))
-               .replace(/\{\{videoId\}\}/g, he.encode(String(videoId)))
-               .replace(/\{\{token\}\}/g, he.encode(req.params.token))
-               .replace(/\{\{sessionToken\}\}/g, he.encode(purchase.sessionToken))
+               .replace(/\{\{userId\}\}/g, JSON.stringify(String(userId)))
+               .replace(/\{\{videoId\}\}/g, JSON.stringify(String(videoId)))
+               .replace(/\{\{token\}\}/g, JSON.stringify(req.params.token))
+               .replace(/\{\{sessionToken\}\}/g, JSON.stringify(purchase.sessionToken))
                .replace(/\{\{expirationTimestamp\}\}/g, expirationTimestamp)
                .replace(/\{\{streamPath\}\}/g, streamPath);
 

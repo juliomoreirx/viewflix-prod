@@ -61,13 +61,19 @@ export default {
     const relayUrl = new URL(`${env.SERVER_BASE_URL}/relay-stream`);
     relayUrl.searchParams.set('videoId', videoId);
     relayUrl.searchParams.set('type', type);
-    relayUrl.searchParams.set('relay_secret', env.RELAY_SECRET);
+
+    const requestHeaders = new Headers();
+    requestHeaders.set('x-relay-secret', env.RELAY_SECRET);
 
     const rangeHeader = request.headers.get('Range');
-    if (rangeHeader) relayUrl.searchParams.set('range', rangeHeader);
+    if (rangeHeader) {
+      relayUrl.searchParams.set('range', rangeHeader);
+      requestHeaders.set('Range', rangeHeader);
+    }
 
     const relayResponse = await fetch(relayUrl.toString(), {
       method: 'GET',
+      headers: requestHeaders,
       cf: { cacheEverything: false }
     });
 

@@ -276,7 +276,7 @@ class CookieManagerService {
     };
 
     // Lista de cookies de sessão importantes
-    const sessionCookieNames = ['PHPSESSID', 'vouverme', 'username', 'password'];
+    const sessionCookieNames = ['PHPSESSID', 'vouverme'];
 
     for (const setCookie of setCookieHeaders) {
       // Parse: "name=value; Path=/; HttpOnly; Secure"
@@ -370,13 +370,9 @@ class CookieManagerService {
   ensureEssentialSessionCookies(cookieString, cfClearanceValue = '') {
     const cookieMap = this.parseCookieString(cookieString);
 
-    if (!cookieMap.get('username') && process.env.LOGIN_USER) {
-      cookieMap.set('username', process.env.LOGIN_USER);
-    }
-
-    if (!cookieMap.get('password') && process.env.LOGIN_PASS) {
-      cookieMap.set('password', process.env.LOGIN_PASS);
-    }
+    // Remove credenciais em texto puro dos cookies de sessão
+    cookieMap.delete('username');
+    cookieMap.delete('password');
 
     if (cfClearanceValue) {
       cookieMap.set('cf_clearance', cfClearanceValue.replace(/^cf_clearance=/i, '').trim());
@@ -393,7 +389,7 @@ class CookieManagerService {
    * Serializa cookies na ordem esperada pelo backend, mantendo cf_clearance no corpo.
    */
   serializeSessionCookies(cookieMap) {
-    const orderedKeys = ['PHPSESSID', 'vouverme', 'username', 'password', 'cf_clearance'];
+    const orderedKeys = ['PHPSESSID', 'vouverme', 'cf_clearance'];
 
     return orderedKeys
       .filter((key) => cookieMap.has(key))

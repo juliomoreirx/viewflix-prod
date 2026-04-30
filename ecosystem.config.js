@@ -3,8 +3,8 @@ module.exports = {
     {
       name: 'fasttv',
       script: './server.js',
-      instances: 'max', // Use maximum available CPUs
-      exec_mode: 'cluster', // Enables clustering mode
+      instances: 1, // Single instance required for Telegram bot polling
+      exec_mode: 'fork', // Disables clustering mode to prevent polling conflicts
       env: {
         NODE_ENV: 'development'
       },

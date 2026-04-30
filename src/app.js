@@ -37,11 +37,12 @@ const allowedOrigins = [
 
 app.use(cors({
   origin: function (origin, callback) {
-    // Permite requisições sem origin (server-to-server, curl, etc)
-    // Se o uso de server-to-server não for estritamente necessário para API pública
-    // deveríamos ser mais cautelosos. Vamos manter temporariamente pois worker necessita,
-    // mas de ideal deveríamos limitar aos domains aprovados.
+    // Same-origin requests (where the browser omits the Origin header) should be allowed.
+    // In standard Express setups, same-origin requests to API endpoints from the frontend
+    // might omit the Origin header. Thus, allowing origin = undefined is necessary for
+    // internal API calls to work properly, including frontend browser integrations.
     if (!origin) return callback(null, true);
+
     if (allowedOrigins.includes(origin)) return callback(null, true);
 
     // Bloqueia origens desconhecidas

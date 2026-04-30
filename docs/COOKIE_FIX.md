@@ -11,7 +11,7 @@ SESSION_COOKIES=PHPSESSID=c0302133fafaedb89cec49b1d6dbffc8
 
 ### Depois (Completo):
 ```
-SESSION_COOKIES=PHPSESSID=427dc1a42194c028bdf1e01229bf31dc; vouverme=7323574; username=85119rbz; password=cyd16156
+SESSION_COOKIES=PHPSESSID=427dc1a42194c028bdf1e01229bf31dc; vouverme=7323574
 CF_CLEARANCE=ahOkOTRCCuf1mvMjlhpdQZfeme7qEJLA8x0MG4jF2vc-1776988972-...
 ```
 
@@ -48,12 +48,12 @@ const response = await axios.post(`${this.targetUrl}/login.php`,
 ### 2. **Lógica de Parse Melhorada**
 - ✅ Agora usa `Map` para evitar duplicatas de cookies
 - ✅ Parse correto de `Set-Cookie: name=value; Path=/; HttpOnly; Secure`
-- ✅ Captura todos os 5 cookies importantes: `PHPSESSID`, `vouverme`, `username`, `password`, `cf_clearance`
+- ✅ Captura apenas os cookies não-críticos de sessão importantes: `PHPSESSID`, `vouverme`, `cf_clearance` (não propaga credenciais como `username` e `password`)
 - ✅ Consolidação em string separada por `; ` (sem espaço duplo ou formatação inválida)
 
 ```javascript
 // Cookies extraídos corretamente:
-const sessionCookieNames = ['PHPSESSID', 'vouverme', 'username', 'password', 'cf_clearance'];
+const sessionCookieNames = ['PHPSESSID', 'vouverme', 'cf_clearance'];
 
 for (const setCookie of setCookieHeaders) {
   const parts = setCookie.split(';');
@@ -65,7 +65,7 @@ for (const setCookie of setCookieHeaders) {
   }
 }
 
-// Resultado: "PHPSESSID=x; vouverme=y; username=z; password=p; cf_clearance=c"
+// Resultado: "PHPSESSID=x; vouverme=y; cf_clearance=c"
 ```
 
 ### 3. **Validação Crítica Implementada**
@@ -118,7 +118,7 @@ parseCookiesFromHeaders(setCookieHeaders) {
     sessionCookies: new Map() // ← Map garante unicidade
   };
 
-  const sessionCookieNames = ['PHPSESSID', 'vouverme', 'username', 'password', 'cf_clearance'];
+  const sessionCookieNames = ['PHPSESSID', 'vouverme', 'cf_clearance'];
 
   for (const setCookie of setCookieHeaders) {
     const parts = setCookie.split(';');
@@ -260,11 +260,9 @@ Teste:
 ```
 ✅ PHPSESSID extraído
 ✅ vouverme extraído
-✅ username extraído
-✅ password extraído
 ✅ CF_CLEARANCE extraído
 
-SESSION_COOKIES=PHPSESSID=427dc1a42194c028bdf1e01229bf31dc; vouverme=7323574; username=85119rbz; password=cyd16156
+SESSION_COOKIES=PHPSESSID=427dc1a42194c028bdf1e01229bf31dc; vouverme=7323574
 CF_CLEARANCE=ahOkOTRCCuf1mvMjlhpdQZfeme7qEJLA8x0MG4jF2vc-...
 ```
 
