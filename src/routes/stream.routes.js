@@ -29,12 +29,19 @@ const RES_PROXY_PORT = parseInt(String(env.RES_PROXY_PORT || '0').trim(), 10);
 const RES_PROXY_USER = env.RES_PROXY_USER || '';
 const RES_PROXY_PASS = env.RES_PROXY_PASS || '';
 
-const proxyUrl = `http://${encodeURIComponent(RES_PROXY_USER)}:${encodeURIComponent(RES_PROXY_PASS)}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
-const residentialProxyAgent = new HttpProxyAgent(proxyUrl);
+let residentialProxyAgent = null;
+if (RES_PROXY_HOST && RES_PROXY_PORT) {
+  const proxyUrl = `http://${encodeURIComponent(RES_PROXY_USER)}:${encodeURIComponent(RES_PROXY_PASS)}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
+  residentialProxyAgent = new HttpProxyAgent(proxyUrl);
+}
 
 const LIVE_SEGMENT_CACHE_TTL_MS = 45 * 1000;
 const LIVE_SEGMENT_CACHE_MAX_ENTRIES = 180;
 const LIVE_SEGMENT_FETCH_TIMEOUT_MS = 15000;
+
+const VOD_RESOLVE_TTL_MS = 2 * 60 * 1000;
+const VOD_RESOLVE_STALE_TTL_MS = 10 * 60 * 1000;
+const vodResolveCache = new Map();
 
 const liveSegmentCache = new Map();
 const liveSegmentInFlight = new Map();
@@ -131,6 +138,27 @@ function getRelayRequestHeaders() {
   };
 }
 
+function getVodCacheKey(videoId, type) {
+  return `${type}:${videoId}`;
+}
+
+function getCachedVodFinalUrl(cacheKey, now = Date.now()) {
+  const entry = vodResolveCache.get(cacheKey);
+  if (!entry) return null;
+  if (entry.expiresAt > now) return entry;
+  return entry;
+}
+
+function storeVodFinalUrl(cacheKey, finalUrl) {
+  const now = Date.now();
+  vodResolveCache.set(cacheKey, {
+    url: finalUrl,
+    createdAt: now,
+    expiresAt: now + VOD_RESOLVE_TTL_MS,
+    staleUntil: now + VOD_RESOLVE_STALE_TTL_MS
+  });
+}
+
 async function resolveLiveTvFinalUrl(videoId) {
   const login = env.LOGIN_USER || '';
   const senha = env.LOGIN_PASS || '';
@@ -196,20 +224,36 @@ router.get('/relay-stream', async (req, res, next) => {
     }
 
     const streamUrl = `http://goplay.icu/${type === 'series' ? 'series' : 'movie'}/${login}/${senha}/${encodeURIComponent(videoId)}.mp4`;
+    const cacheKey = getVodCacheKey(videoId, type);
+    const cached = getCachedVodFinalUrl(cacheKey);
 
-    // 1. Usa o proxy apenas para descobrir a porta do cofre (0 consumo de dados pesados)
-    const response = await axios.get(streamUrl, {
-      httpAgent: residentialProxyAgent,
-      httpsAgent: residentialProxyAgent,
-      headers: getRelayRequestHeaders(),
-      maxRedirects: 0, 
-      validateStatus: (status) => status >= 200 && status <= 302
-    });
-
-    const finalUrl = response.headers.location;
+    let finalUrl = cached && cached.expiresAt > Date.now() ? cached.url : null;
 
     if (!finalUrl) {
-      return res.status(404).send('Falha ao capturar IP do video.');
+      // 1. Usa o proxy apenas para descobrir a porta do cofre (0 consumo de dados pesados)
+      const response = await axios.get(streamUrl, {
+        httpAgent: residentialProxyAgent || undefined,
+        httpsAgent: residentialProxyAgent || undefined,
+        headers: getRelayRequestHeaders(),
+        maxRedirects: 0,
+        timeout: 12000,
+        validateStatus: (status) => status >= 200 && status <= 302
+      });
+
+      finalUrl = response.headers.location;
+
+      if (finalUrl) {
+        storeVodFinalUrl(cacheKey, finalUrl);
+      }
+    }
+
+    if (!finalUrl) {
+      // fallback: tentar URL cacheada ainda dentro da janela de staleness
+      if (cached && cached.url && cached.staleUntil > Date.now()) {
+        finalUrl = cached.url;
+      } else {
+        return res.status(404).send('Falha ao capturar IP do video.');
+      }
     }
 
     // 2. Remove o "http://" para que o Nginx consiga ler o caminho corretamente
@@ -218,7 +262,8 @@ router.get('/relay-stream', async (req, res, next) => {
     logger.info({ msg: 'Delegando IP bruto para o Nginx', videoId, urlLimpa });
 
     if (req.headers.range) {
-      res.setHeader('Range', req.headers.range);
+      res.setHeader('Accept-Ranges', 'bytes');
+      res.setHeader('X-Accel-Buffering', 'no');
     }
 
     // 3. O Node envia o IP dinâmico diretamente na URI do túnel
