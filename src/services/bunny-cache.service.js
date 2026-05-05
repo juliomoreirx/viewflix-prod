@@ -148,7 +148,22 @@ class BunnyCacheService {
         }
       });
 
-      await bunnyStorage.uploadFromUrl(finalUrl, storagePath, async (progress) => {
+      // Download via stream (axios) and pipe to Bunny uploadStream to support proxy agents
+      const axios = require('axios');
+
+      const downloadResponse = await axios.get(finalUrl, {
+        httpAgent: residentialProxyAgent || undefined,
+        httpsAgent: residentialProxyAgent || undefined,
+        headers: getRelayRequestHeaders(),
+        responseType: 'stream',
+        timeout: 60000,
+        maxRedirects: 3,
+        validateStatus: (status) => status >= 200 && status < 400
+      });
+
+      const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
+
+      await bunnyStorage.uploadStream(storagePath, downloadResponse.data, contentLength, async (progress) => {
         const percent = progress.percent || 0;
         await purchase.updateOne({
           $set: {

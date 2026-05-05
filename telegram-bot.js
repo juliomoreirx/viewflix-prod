@@ -397,51 +397,70 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
     if (mediaType === 'movie' || mediaType === 'series') {
       try {
         const chatId = userId;
-        const throttle = (tokenKey, percent) => {
-          const last = cacheProgressByToken.get(tokenKey) || -1;
-          if (percent === null) return true;
-          if (percent === 100 || percent - last >= 10) {
-            cacheProgressByToken.set(tokenKey, percent);
-            return true;
-          }
-          return false;
-        };
+        // Send a single progress message and edit it to avoid spamming the chat
+        try {
+          const initialText = `📥 *Preparando seu conteúdo...*\n\nEstamos baixando e otimizando o arquivo para você.\nAguarde...`;
+          const msg = await bot.sendMessage(chatId, initialText, { parse_mode: 'Markdown' }).catch(() => null);
+          const messageId = msg?.message_id || null;
 
-        bot.sendMessage(chatId,
-          `📥 *Preparando seu conteúdo...*\n\n` +
-          `Estamos baixando e otimizando o arquivo para você.\n` +
-          `Assim que estiver 100% pronto, eu te aviso aqui.`,
-          { parse_mode: 'Markdown' }
-        ).catch(() => {});
-
-        bunnyCacheService.enqueue(purchase, {
-          onProgress: (progress) => {
-            const percent = typeof progress.percent === 'number' ? progress.percent : null;
-            if (!throttle(token, percent)) return;
-
-            if (percent !== null) {
-              bot.sendMessage(chatId,
-                `⏳ *Processando vídeo:* ${percent}%\n` +
-                `Aguarde, já vai ficar disponível para assistir.`,
-                { parse_mode: 'Markdown' }
-              ).catch(() => {});
+          const throttle = (tokenKey, percent) => {
+            const last = cacheProgressByToken.get(tokenKey) || -1;
+            // update on full completion or every 5% increase
+            if (percent === null) return false;
+            if (percent === 100 || percent - last >= 5) {
+              cacheProgressByToken.set(tokenKey, percent);
+              return true;
             }
-          },
-          onReady: () => {
-            bot.sendMessage(chatId,
-              `✅ *Conteúdo pronto para assistir!*\n\n` +
-              `Seu tempo de acesso começa a contar agora.`,
-              { parse_mode: 'Markdown' }
-            ).catch(() => {});
-          },
-          onError: () => {
-            bot.sendMessage(chatId,
-              `⚠️ *Falha ao preparar o conteúdo.*\n` +
-              `Tente novamente em alguns minutos.`,
-              { parse_mode: 'Markdown' }
-            ).catch(() => {});
-          }
-        });
+            return false;
+          };
+
+          bunnyCacheService.enqueue(purchase, {
+            onProgress: (progress) => {
+              const percent = typeof progress.percent === 'number' ? progress.percent : null;
+              if (percent === null) {
+                // show generic uploading state once
+                if (messageId) {
+                  bot.editMessageText(`📥 *Preparando seu conteúdo...*\n\nEnviando para armazenamento...`, {
+                    chat_id: chatId,
+                    message_id: messageId,
+                    parse_mode: 'Markdown'
+                  }).catch(() => {});
+                }
+                return;
+              }
+
+              if (!throttle(token, percent)) return;
+
+              const text = `⏳ *Processando vídeo:* ${percent}%\n\n` +
+                `Aguarde, já vai ficar disponível para assistir.`;
+
+              if (messageId) {
+                bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
+              } else {
+                // fallback: send once if editing unavailable
+                bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
+              }
+            },
+            onReady: () => {
+              const text = `✅ *Conteúdo pronto para assistir!*\n\nSeu tempo de acesso começa a contar agora.`;
+              if (messageId) {
+                bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
+              } else {
+                bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
+              }
+            },
+            onError: () => {
+              const text = `⚠️ *Falha ao preparar o conteúdo.*\nTente novamente em alguns minutos.`;
+              if (messageId) {
+                bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
+              } else {
+                bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
+              }
+            }
+          });
+        } catch (e) {
+          console.error('Erro ao enviar mensagem inicial de progresso:', e.message);
+        }
       } catch (error) {
         console.error('Erro ao enfileirar cache Bunny:', error.message);
       }
