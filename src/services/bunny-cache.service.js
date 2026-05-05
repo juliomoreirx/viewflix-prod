@@ -109,6 +109,11 @@ class BunnyCacheService {
 
   async processTask({ purchase, options }) {
     const { onProgress, onReady, onError } = options;
+    const debug = String(env.BUNNY_CACHE_DEBUG || 'false').toLowerCase() === 'true';
+    const logDebug = (payload) => {
+      if (!debug) return;
+      logger.info({ msg: 'bunny-cache-debug', ...payload });
+    };
 
     if (!bunnyStorage.isConfigured()) {
       if (typeof onError === 'function') {
@@ -118,6 +123,8 @@ class BunnyCacheService {
     }
 
     const storagePath = purchase.storagePath || buildStoragePath(purchase);
+
+    logDebug({ stage: 'start', purchaseId: String(purchase._id), mediaType: purchase.mediaType, videoId: purchase.videoId, storagePath });
 
     await purchase.updateOne({
       $set: {
@@ -130,6 +137,7 @@ class BunnyCacheService {
 
     try {
       const exists = await bunnyStorage.exists(storagePath);
+      logDebug({ stage: 'exists-check', storagePath, exists });
       if (exists) {
         const readyAt = new Date();
         const expiresAt = new Date(readyAt.getTime() + getExpirationHours(purchase.mediaType) * 3600 * 1000);
@@ -147,6 +155,7 @@ class BunnyCacheService {
       }
 
       const finalUrl = await resolveFinalUrl(purchase.mediaType, purchase.videoId);
+      logDebug({ stage: 'resolve-final-url', finalUrl });
 
       await purchase.updateOne({
         $set: {
@@ -157,6 +166,8 @@ class BunnyCacheService {
       });
 
       // Download via stream (axios) and pipe to Bunny uploadStream to support proxy agents
+      logDebug({ stage: 'download-start', url: finalUrl });
+
       const downloadResponse = await axios.get(finalUrl, {
         httpAgent: residentialProxyAgent || undefined,
         httpsAgent: residentialProxyAgent || undefined,
@@ -165,6 +176,13 @@ class BunnyCacheService {
         timeout: 60000,
         maxRedirects: 3,
         validateStatus: (status) => status >= 200 && status < 400
+      });
+
+      logDebug({
+        stage: 'download-headers',
+        status: downloadResponse.status,
+        contentLength: downloadResponse.headers['content-length'] || null,
+        contentType: downloadResponse.headers['content-type'] || null
       });
 
       const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
@@ -177,6 +195,10 @@ class BunnyCacheService {
             cacheUpdatedAt: new Date()
           }
         });
+
+        if (debug && percent && percent % 5 === 0) {
+          logDebug({ stage: 'upload-progress', percent, uploadedBytes: progress.uploadedBytes, totalBytes: progress.totalBytes });
+        }
 
         if (typeof onProgress === 'function') {
           onProgress(progress);
@@ -196,7 +218,9 @@ class BunnyCacheService {
       });
 
       if (typeof onReady === 'function') onReady({ storagePath });
+      logDebug({ stage: 'ready', storagePath });
     } catch (error) {
+      logDebug({ stage: 'error', error: error.message });
       await purchase.updateOne({
         $set: {
           cacheStatus: 'failed',

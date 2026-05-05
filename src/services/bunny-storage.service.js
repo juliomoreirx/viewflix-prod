@@ -85,6 +85,12 @@ class BunnyStorageService {
       throw new Error('Bunny Storage não configurado');
     }
 
+    const debug = String(env.BUNNY_CACHE_DEBUG || 'false').toLowerCase() === 'true';
+    const logDebug = (payload) => {
+      if (!debug) return;
+      this.logger.info({ msg: 'bunny-upload-debug', ...payload });
+    };
+
     const url = this.getStorageUrl(remotePath);
     const pass = new PassThrough();
 
@@ -98,6 +104,8 @@ class BunnyStorageService {
         onProgress({ uploadedBytes: uploaded, totalBytes: total, percent });
       }
     });
+
+    logDebug({ stage: 'upload-start', remotePath, contentLength: total || null });
 
     stream.pipe(pass);
 
@@ -123,6 +131,8 @@ class BunnyStorageService {
     if (!response || response.status < 200 || response.status >= 300) {
       throw new Error(`Bunny upload failed: ${response?.status || 'unknown'}`);
     }
+
+    logDebug({ stage: 'upload-complete', remotePath, status: response.status });
 
     return true;
   }
