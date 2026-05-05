@@ -74,6 +74,8 @@ class BunnyCacheService {
   constructor() {
     this.queue = [];
     this.processing = false;
+    this.activeCount = 0;
+    this.maxConcurrent = parseInt(env.BUNNY_CACHE_CONCURRENCY || '2', 10);
   }
 
   enqueue(purchase, options = {}) {
@@ -85,18 +87,24 @@ class BunnyCacheService {
 
   async processNext() {
     if (this.processing) return;
-    const task = this.queue.shift();
-    if (!task) return;
-
     this.processing = true;
-    try {
-      await this.processTask(task);
-    } catch (error) {
-      logger.error({ msg: 'Bunny cache falhou', err: error.message });
-    } finally {
-      this.processing = false;
-      setImmediate(() => this.processNext());
+
+    while (this.activeCount < this.maxConcurrent && this.queue.length > 0) {
+      const task = this.queue.shift();
+      if (!task) break;
+
+      this.activeCount += 1;
+      this.processTask(task)
+        .catch((error) => {
+          logger.error({ msg: 'Bunny cache falhou', err: error.message });
+        })
+        .finally(() => {
+          this.activeCount -= 1;
+          setImmediate(() => this.processNext());
+        });
     }
+
+    this.processing = false;
   }
 
   async processTask({ purchase, options }) {
@@ -149,8 +157,6 @@ class BunnyCacheService {
       });
 
       // Download via stream (axios) and pipe to Bunny uploadStream to support proxy agents
-      const axios = require('axios');
-
       const downloadResponse = await axios.get(finalUrl, {
         httpAgent: residentialProxyAgent || undefined,
         httpsAgent: residentialProxyAgent || undefined,

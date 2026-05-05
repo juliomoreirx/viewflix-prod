@@ -1,4 +1,5 @@
 const crypto = require('crypto');
+const axios = require('axios');
 const { PassThrough, Readable } = require('stream');
 const env = require('../config/env');
 
@@ -98,23 +99,29 @@ class BunnyStorageService {
       }
     });
 
-    const responsePromise = fetch(url, {
-      method: 'PUT',
+    stream.pipe(pass);
+
+    let response;
+    try {
+      response = await axios.put(url, pass, {
       headers: {
         AccessKey: this.storageKey,
         'Content-Type': 'application/octet-stream',
         ...(total ? { 'Content-Length': String(total) } : {})
       },
-      body: pass,
-      duplex: 'half'
-    });
+      maxBodyLength: Infinity,
+      maxContentLength: Infinity,
+      timeout: 0,
+      validateStatus: (status) => status >= 200 && status < 300
+      });
+    } catch (error) {
+      const status = error.response?.status;
+      const detail = error.response?.data ? JSON.stringify(error.response.data) : error.message;
+      throw new Error(`Bunny upload failed: ${status || 'unknown'} ${detail}`);
+    }
 
-    stream.pipe(pass);
-
-    const response = await responsePromise;
-    if (!response.ok) {
-      const text = await response.text();
-      throw new Error(`Bunny upload failed: ${response.status} ${text}`);
+    if (!response || response.status < 200 || response.status >= 300) {
+      throw new Error(`Bunny upload failed: ${response?.status || 'unknown'}`);
     }
 
     return true;

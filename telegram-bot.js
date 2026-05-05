@@ -393,83 +393,71 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
     });
 
     await purchase.save();
-
-    if (mediaType === 'movie' || mediaType === 'series') {
-      try {
-        const chatId = userId;
-        // Send a single progress message and edit it to avoid spamming the chat
-        try {
-          const initialText = `📥 *Preparando seu conteúdo...*\n\nEstamos baixando e otimizando o arquivo para você.\nAguarde...`;
-          const msg = await bot.sendMessage(chatId, initialText, { parse_mode: 'Markdown' }).catch(() => null);
-          const messageId = msg?.message_id || null;
-
-          const throttle = (tokenKey, percent) => {
-            const last = cacheProgressByToken.get(tokenKey) || -1;
-            // update on full completion or every 5% increase
-            if (percent === null) return false;
-            if (percent === 100 || percent - last >= 5) {
-              cacheProgressByToken.set(tokenKey, percent);
-              return true;
-            }
-            return false;
-          };
-
-          bunnyCacheService.enqueue(purchase, {
-            onProgress: (progress) => {
-              const percent = typeof progress.percent === 'number' ? progress.percent : null;
-              if (percent === null) {
-                // show generic uploading state once
-                if (messageId) {
-                  bot.editMessageText(`📥 *Preparando seu conteúdo...*\n\nEnviando para armazenamento...`, {
-                    chat_id: chatId,
-                    message_id: messageId,
-                    parse_mode: 'Markdown'
-                  }).catch(() => {});
-                }
-                return;
-              }
-
-              if (!throttle(token, percent)) return;
-
-              const text = `⏳ *Processando vídeo:* ${percent}%\n\n` +
-                `Aguarde, já vai ficar disponível para assistir.`;
-
-              if (messageId) {
-                bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
-              } else {
-                // fallback: send once if editing unavailable
-                bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
-              }
-            },
-            onReady: () => {
-              const text = `✅ *Conteúdo pronto para assistir!*\n\nSeu tempo de acesso começa a contar agora.`;
-              if (messageId) {
-                bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
-              } else {
-                bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
-              }
-            },
-            onError: () => {
-              const text = `⚠️ *Falha ao preparar o conteúdo.*\nTente novamente em alguns minutos.`;
-              if (messageId) {
-                bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
-              } else {
-                bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
-              }
-            }
-          });
-        } catch (e) {
-          console.error('Erro ao enviar mensagem inicial de progresso:', e.message);
-        }
-      } catch (error) {
-        console.error('Erro ao enfileirar cache Bunny:', error.message);
-      }
-    }
-    return token;
+    return { token, purchase };
   } catch (error) {
     console.error('Erro ao salvar conteúdo comprado:', error);
     return null;
   }
+}
+
+async function iniciarCacheComNotificacao(chatId, purchase, caption, mediaType) {
+  if (!purchase || (mediaType !== 'movie' && mediaType !== 'series')) return;
+
+  const token = purchase.token;
+  const initialText = `📥 *Preparando seu conteúdo...*\n\nEstamos baixando e otimizando o arquivo para você.\nAguarde...`;
+  const msg = await bot.sendMessage(chatId, initialText, { parse_mode: 'Markdown' }).catch(() => null);
+  const messageId = msg?.message_id || null;
+
+  const throttle = (tokenKey, percent) => {
+    const last = cacheProgressByToken.get(tokenKey) || -1;
+    if (percent === null) return false;
+    if (percent === 100 || percent - last >= 5) {
+      cacheProgressByToken.set(tokenKey, percent);
+      return true;
+    }
+    return false;
+  };
+
+  bunnyCacheService.enqueue(purchase, {
+    onProgress: (progress) => {
+      const percent = typeof progress.percent === 'number' ? progress.percent : null;
+      if (percent === null) {
+        if (messageId) {
+          bot.editMessageText(`📥 *Preparando seu conteúdo...*\n\nEnviando para armazenamento...`, {
+            chat_id: chatId,
+            message_id: messageId,
+            parse_mode: 'Markdown'
+          }).catch(() => {});
+        }
+        return;
+      }
+
+      if (!throttle(token, percent)) return;
+
+      const text = `⏳ *Processando vídeo:* ${percent}%\n\nAguarde, já vai ficar disponível para assistir.`;
+      if (messageId) {
+        bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
+      }
+    },
+    onReady: () => {
+      const text = `✅ *Conteúdo pronto para assistir!*\n\nSeu tempo de acesso começa a contar agora.`;
+      if (messageId) {
+        bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
+      } else {
+        bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
+      }
+
+      enviarVideoComLink(chatId, token, caption, 0, caption, mediaType).catch(() => {});
+    },
+    onError: () => {
+      const text = `⚠️ *Falha ao preparar o conteúdo.*\nTente novamente em alguns minutos.`;
+      if (messageId) {
+        bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
+      } else {
+        bot.sendMessage(chatId, text, { parse_mode: 'Markdown' }).catch(() => {});
+      }
+    }
+  });
 }
 
 function clearUserState(chatId) {
@@ -1669,8 +1657,8 @@ bot.on('callback_query', async (query) => {
       }
 
       const titulo = state?.data?.title || 'Filme';
-      const token = await salvarConteudoComprado(chatId, id, 'movie', titulo, precoNum);
-      if (!token) {
+      const saved = await salvarConteudoComprado(chatId, id, 'movie', titulo, precoNum);
+      if (!saved?.token) {
         await addCredits(chatId, precoNum);
         bot.sendMessage(chatId, '❌ Erro ao gerar link. Créditos devolvidos.');
         return;
@@ -1682,7 +1670,7 @@ bot.on('callback_query', async (query) => {
         { parse_mode: 'Markdown' }
       );
 
-      await enviarVideoComLink(chatId, token, `🎬 ${titulo} (${minutosReais}min)`, precoNum, titulo, 'movie');
+      await iniciarCacheComNotificacao(chatId, saved.purchase, `🎬 ${titulo} (${minutosReais}min)`, 'movie');
       return;
     }
 
@@ -1720,8 +1708,8 @@ bot.on('callback_query', async (query) => {
       const canal = (cache.livetv || []).find((item) => String(item.id) === String(id));
       const tituloCanal = decodificarHTML(canal?.name || `Canal ${id}`);
 
-      const token = await salvarConteudoComprado(chatId, id, 'livetv', tituloCanal, precoNum);
-      if (!token) {
+      const saved = await salvarConteudoComprado(chatId, id, 'livetv', tituloCanal, precoNum);
+      if (!saved?.token) {
         await addCredits(chatId, precoNum);
         await bot.sendMessage(chatId, '❌ Erro ao gerar link. Créditos devolvidos.');
         return;
@@ -1733,7 +1721,7 @@ bot.on('callback_query', async (query) => {
         { parse_mode: 'Markdown' }
       );
 
-      await enviarVideoComLink(chatId, token, `📡 ${tituloCanal}`, precoNum, tituloCanal, 'livetv');
+      await enviarVideoComLink(chatId, saved.token, `📡 ${tituloCanal}`, precoNum, tituloCanal, 'livetv');
       return;
     }
 
@@ -1776,9 +1764,9 @@ bot.on('callback_query', async (query) => {
       }
 
       const tituloSerie = state?.data?.title || 'Série';
-      const token = await salvarConteudoComprado(chatId, epId, 'series', tituloSerie, precoNum, nomeEpisodio, season);
+      const saved = await salvarConteudoComprado(chatId, epId, 'series', tituloSerie, precoNum, nomeEpisodio, season);
 
-      if (!token) {
+      if (!saved?.token) {
         await addCredits(chatId, precoNum);
         bot.sendMessage(chatId, '❌ Erro ao gerar link. Créditos devolvidos.');
         return;
@@ -1790,7 +1778,7 @@ bot.on('callback_query', async (query) => {
         { parse_mode: 'Markdown' }
       );
 
-      await enviarVideoComLink(chatId, token, `📺 ${nomeEpisodio}`, precoNum, nomeEpisodio, 'series');
+      await iniciarCacheComNotificacao(chatId, saved.purchase, `📺 ${nomeEpisodio}`, 'series');
       return;
     }
 
@@ -1850,8 +1838,11 @@ bot.on('callback_query', async (query) => {
       const tituloSerie = state?.data?.title || 'Série';
       for (const ep of episodios) {
         try {
-          const token = await salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season);
-          if (token) salvos++;
+          const saved = await salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season);
+          if (saved?.token) {
+            salvos++;
+            bunnyCacheService.enqueue(saved.purchase);
+          }
         } catch (e) {
           console.error('Erro ao salvar episódio:', e.message);
         }
