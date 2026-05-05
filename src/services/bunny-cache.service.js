@@ -243,10 +243,7 @@ class BunnyCacheService {
 
       logDebug({ stage: 'temp-download-complete', tempFile });
 
-      const localStats = await fsp.stat(tempFile);
-      const uploadSource = fs.createReadStream(tempFile);
-
-      await bunnyStorage.uploadStream(storagePath, uploadSource, localStats.size, async (progress) => {
+      await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
         const percent = progress.percent || 0;
         await purchase.updateOne({
           $set: {
@@ -264,7 +261,6 @@ class BunnyCacheService {
         }
       });
 
-      uploadSource.destroy();
       await fsp.unlink(tempFile).catch(() => {});
 
       const readyAt = new Date();

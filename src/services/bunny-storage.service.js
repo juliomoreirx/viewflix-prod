@@ -1,5 +1,6 @@
 const crypto = require('crypto');
 const axios = require('axios');
+const { spawn } = require('child_process');
 const { PassThrough, Readable } = require('stream');
 const env = require('../config/env');
 
@@ -149,8 +150,64 @@ class BunnyStorageService {
     }
 
     logDebug({ stage: 'upload-complete', remotePath, status: response.status });
-
     return true;
+  }
+
+  async uploadFileFromPath(filePath, remotePath, onProgress) {
+    const useCurl = String(env.BUNNY_UPLOAD_USE_CURL || 'false').toLowerCase() === 'true';
+    if (!useCurl) {
+      const stream = require('fs').createReadStream(filePath);
+      const stats = await require('fs/promises').stat(filePath);
+      return this.uploadStream(remotePath, stream, stats.size, onProgress);
+    }
+
+    if (!this.storageKey || !this.storageName) {
+      throw new Error('Bunny Storage não configurado');
+    }
+
+    const url = this.getStorageUrl(remotePath);
+    const debug = String(env.BUNNY_CACHE_DEBUG || 'false').toLowerCase() === 'true';
+    const logDebug = (payload) => {
+      if (!debug) return;
+      this.logger.info({ msg: 'bunny-upload-debug', ...payload });
+    };
+
+    if (typeof onProgress === 'function') {
+      onProgress({ percent: null, uploadedBytes: 0, totalBytes: 0 });
+    }
+
+    logDebug({ stage: 'upload-curl-start', remotePath });
+
+    await new Promise((resolve, reject) => {
+      const args = [
+        '-sS',
+        '--fail',
+        '-X', 'PUT',
+        '-H', `AccessKey: ${this.storageKey}`,
+        '-H', 'Content-Type: application/octet-stream',
+        '--upload-file', filePath,
+        url
+      ];
+
+      const child = spawn('curl', args, { stdio: ['ignore', 'pipe', 'pipe'] });
+
+      let stderr = '';
+      child.stderr.on('data', (data) => { stderr += data.toString(); });
+
+      child.on('error', (err) => reject(err));
+
+      child.on('close', (code) => {
+        if (code === 0) {
+          logDebug({ stage: 'upload-curl-complete', remotePath });
+          if (typeof onProgress === 'function') {
+            onProgress({ percent: 100, uploadedBytes: 0, totalBytes: 0 });
+          }
+          resolve();
+        } else {
+          reject(new Error(`curl upload failed (code ${code}): ${stderr}`));
+        }
+      });
+    });
   }
 
   async uploadFromUrl(sourceUrl, remotePath, onProgress) {
