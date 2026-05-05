@@ -404,7 +404,7 @@ async function iniciarCacheComNotificacao(chatId, purchase, caption, mediaType) 
   if (!purchase || (mediaType !== 'movie' && mediaType !== 'series')) return;
 
   const token = purchase.token;
-  const initialText = `📥 *Preparando seu conteúdo...*\n\nEstamos baixando e otimizando o arquivo para você.\nAguarde...`;
+  const initialText = `⏳ *Estamos preparando seu conteúdo...*\n\nAguarde alguns minutos. Assim que estiver disponível, avisaremos aqui.`;
   const msg = await bot.sendMessage(chatId, initialText, { parse_mode: 'Markdown' }).catch(() => null);
   const messageId = msg?.message_id || null;
 
@@ -421,26 +421,17 @@ async function iniciarCacheComNotificacao(chatId, purchase, caption, mediaType) 
   bunnyCacheService.enqueue(purchase, {
     onProgress: (progress) => {
       const percent = typeof progress.percent === 'number' ? progress.percent : null;
-      if (percent === null) {
-        if (messageId) {
-          bot.editMessageText(`📥 *Preparando seu conteúdo...*\n\nEnviando para armazenamento...`, {
-            chat_id: chatId,
-            message_id: messageId,
-            parse_mode: 'Markdown'
-          }).catch(() => {});
-        }
-        return;
-      }
+      if (percent === null) return;
 
       if (!throttle(token, percent)) return;
 
-      const text = `⏳ *Processando vídeo:* ${percent}%\n\nAguarde, já vai ficar disponível para assistir.`;
+      const text = `⏳ *Preparando seu conteúdo:* ${percent}%\n\nAguarde alguns minutos. Assim que estiver disponível, avisaremos aqui.`;
       if (messageId) {
         bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
       }
     },
     onReady: () => {
-      const text = `✅ *Conteúdo pronto para assistir!*\n\nSeu tempo de acesso começa a contar agora.`;
+      const text = `✅ *Conteúdo disponível!*\n\nVocê já pode assistir. Bom proveito!`;
       if (messageId) {
         bot.editMessageText(text, { chat_id: chatId, message_id: messageId, parse_mode: 'Markdown' }).catch(() => {});
       } else {
