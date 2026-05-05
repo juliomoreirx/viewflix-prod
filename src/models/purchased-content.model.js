@@ -14,7 +14,13 @@ const purchasedContentSchema = new mongoose.Schema({
   viewed: { type: Boolean, default: false },
   viewCount: { type: Number, default: 0 },
   notificationSent: { type: Boolean, default: false },
-  sessionToken: { type: String, unique: true }
+  sessionToken: { type: String, unique: true },
+  storagePath: { type: String },
+  cacheStatus: { type: String, enum: ['pending', 'uploading', 'ready', 'failed'], default: 'pending' },
+  cacheProgress: { type: Number, default: 0 },
+  cacheReadyAt: { type: Date },
+  cacheUpdatedAt: { type: Date },
+  cacheError: { type: String }
 });
 
 module.exports =

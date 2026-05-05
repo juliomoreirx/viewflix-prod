@@ -18,6 +18,7 @@ const {
 } = require('./src/services/text-utils.service');
 const sessionService = require('./src/services/session.service');
 const paymentAdapter = require('./src/adapters/payment.adapter');
+const bunnyCacheService = require('./src/services/bunny-cache.service');
 
 
 // ============================
@@ -65,6 +66,8 @@ const bot = new TelegramBot(BOT_TOKEN, { polling: false });
 let userStates = {};
 let pendingPayments = {};
 let paymentCheckIntervals = {}
+
+const cacheProgressByToken = new Map();
 
 // Limpa memória a cada 30 minutos
 setInterval(() => {
@@ -384,10 +387,65 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
 
     const purchase = new PurchasedContentModel({
       userId, videoId, mediaType, title, episodeName, season,
-      purchaseDate, expiresAt, token, price, sessionToken
+      purchaseDate, expiresAt, token, price, sessionToken,
+      cacheStatus: (mediaType === 'movie' || mediaType === 'series') ? 'pending' : undefined,
+      cacheProgress: (mediaType === 'movie' || mediaType === 'series') ? 0 : undefined
     });
 
     await purchase.save();
+
+    if (mediaType === 'movie' || mediaType === 'series') {
+      try {
+        const chatId = userId;
+        const throttle = (tokenKey, percent) => {
+          const last = cacheProgressByToken.get(tokenKey) || -1;
+          if (percent === null) return true;
+          if (percent === 100 || percent - last >= 10) {
+            cacheProgressByToken.set(tokenKey, percent);
+            return true;
+          }
+          return false;
+        };
+
+        bot.sendMessage(chatId,
+          `📥 *Preparando seu conteúdo...*\n\n` +
+          `Estamos baixando e otimizando o arquivo para você.\n` +
+          `Assim que estiver 100% pronto, eu te aviso aqui.`,
+          { parse_mode: 'Markdown' }
+        ).catch(() => {});
+
+        bunnyCacheService.enqueue(purchase, {
+          onProgress: (progress) => {
+            const percent = typeof progress.percent === 'number' ? progress.percent : null;
+            if (!throttle(token, percent)) return;
+
+            if (percent !== null) {
+              bot.sendMessage(chatId,
+                `⏳ *Processando vídeo:* ${percent}%\n` +
+                `Aguarde, já vai ficar disponível para assistir.`,
+                { parse_mode: 'Markdown' }
+              ).catch(() => {});
+            }
+          },
+          onReady: () => {
+            bot.sendMessage(chatId,
+              `✅ *Conteúdo pronto para assistir!*\n\n` +
+              `Seu tempo de acesso começa a contar agora.`,
+              { parse_mode: 'Markdown' }
+            ).catch(() => {});
+          },
+          onError: () => {
+            bot.sendMessage(chatId,
+              `⚠️ *Falha ao preparar o conteúdo.*\n` +
+              `Tente novamente em alguns minutos.`,
+              { parse_mode: 'Markdown' }
+            ).catch(() => {});
+          }
+        });
+      } catch (error) {
+        console.error('Erro ao enfileirar cache Bunny:', error.message);
+      }
+    }
     return token;
   } catch (error) {
     console.error('Erro ao salvar conteúdo comprado:', error);

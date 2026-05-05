@@ -10,6 +10,7 @@ const contentService = require('../services/content-cache.service');
 const PaymentService = require('../services/payment.service');
 const paymentAdapter = require('../adapters/payment.adapter');
 const CookieManagerService = require('../services/cookie-manager.service');
+const bunnyStorageService = require('../services/bunny-storage.service');
 
 async function startServer() {
   try {
@@ -80,7 +81,8 @@ async function startServer() {
     app.locals.services = {
       content: contentService,
       payment: paymentService,
-      cookieManager: cookieManager
+      cookieManager: cookieManager,
+      bunnyStorage: bunnyStorageService
     };
 
     const port = env.PORT || 3000;

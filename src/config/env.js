@@ -30,6 +30,11 @@ const envSchema = z.object({
 
   MP_ACCESS_TOKEN: z.string().optional(),
   ADMIN_API_TOKEN: z.string().optional(),
+
+  BUNNY_STORAGE_KEY: z.string().optional(),
+  BUNNY_STORAGE_NAME: z.string().optional(),
+  BUNNY_PULL_ZONE_URL: z.string().optional(),
+  BUNNY_PULL_ZONE_KEY: z.string().optional()
 });
 
 const parsed = envSchema.safeParse(process.env);

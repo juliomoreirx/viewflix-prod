@@ -32,6 +32,10 @@ function isExpired(expiresAt) {
   return new Date() > d;
 }
 
+function isVod(mediaType) {
+  return mediaType === 'movie' || mediaType === 'series';
+}
+
 /**
  * Valida o vínculo entre o JWT e o documento de compra.
  * Tolerante: só bloqueia se o campo existir no purchase E for diferente do JWT.
@@ -109,6 +113,17 @@ router.get(
       return res.sendStatus(403);
     }
 
+    const bunnyStorage = req.app.locals.services?.bunnyStorage;
+    const bunnyConfigured = bunnyStorage?.isConfigured?.();
+
+    if (isVod(mediaType) && bunnyConfigured && purchase.cacheStatus && purchase.cacheStatus !== 'ready') {
+      return res.status(425).json({
+        error: 'Conteúdo em processamento',
+        status: purchase.cacheStatus,
+        progress: purchase.cacheProgress || 0
+      });
+    }
+
     if (isExpired(purchase.expiresAt)) {
       logger.info({
         msg: 'stream-secure conteudo expirado',
@@ -128,6 +143,13 @@ router.get(
         userId
       });
       return res.sendStatus(403);
+    }
+
+    if (isVod(mediaType) && purchase.cacheStatus === 'ready' && purchase.storagePath && bunnyConfigured) {
+      const bunnyUrl = bunnyStorage.getSignedPullZoneUrl(purchase.storagePath);
+      if (bunnyUrl) {
+        return res.redirect(302, bunnyUrl);
+      }
     }
 
     const signedUrl = gerarUrlAssinada(videoId, userId, mediaType);
@@ -187,6 +209,17 @@ router.get(
       return res.status(403).json({ error: 'Inválido' });
     }
 
+    const bunnyStorage = req.app.locals.services?.bunnyStorage;
+    const bunnyConfigured = bunnyStorage?.isConfigured?.();
+
+    if (isVod(mediaType) && bunnyConfigured && purchase.cacheStatus && purchase.cacheStatus !== 'ready') {
+      return res.status(425).json({
+        error: 'Conteúdo em processamento',
+        status: purchase.cacheStatus,
+        progress: purchase.cacheProgress || 0
+      });
+    }
+
     if (isExpired(purchase.expiresAt)) {
       logger.info({
         msg: 'refresh-stream expirado',
@@ -200,6 +233,13 @@ router.get(
     const user = await User.findOne({ userId });
     if (!user || user.isBlocked) {
       return res.status(403).json({ error: 'Bloqueado' });
+    }
+
+    if (isVod(mediaType) && purchase.cacheStatus === 'ready' && purchase.storagePath && bunnyConfigured) {
+      const bunnyUrl = bunnyStorage.getSignedPullZoneUrl(purchase.storagePath);
+      if (bunnyUrl) {
+        return res.json({ url: bunnyUrl });
+      }
     }
 
     const signedUrl = gerarUrlAssinada(videoId, userId, mediaType);
