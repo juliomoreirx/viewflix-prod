@@ -97,6 +97,14 @@ class BunnyStorageService {
     let uploaded = 0;
     const total = contentLength ? Number(contentLength) : 0;
 
+    pass.on('error', (err) => {
+      logDebug({ stage: 'upload-pass-error', error: err.message });
+    });
+
+    pass.on('close', () => {
+      logDebug({ stage: 'upload-pass-close' });
+    });
+
     pass.on('data', (chunk) => {
       uploaded += chunk.length;
       if (typeof onProgress === 'function') {
@@ -106,6 +114,14 @@ class BunnyStorageService {
     });
 
     logDebug({ stage: 'upload-start', remotePath, contentLength: total || null });
+
+    stream.on('error', (err) => {
+      logDebug({ stage: 'upload-source-error', error: err.message });
+    });
+
+    stream.on('close', () => {
+      logDebug({ stage: 'upload-source-close' });
+    });
 
     stream.pipe(pass);
 

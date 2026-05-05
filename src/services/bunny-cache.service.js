@@ -76,6 +76,7 @@ class BunnyCacheService {
     this.processing = false;
     this.activeCount = 0;
     this.maxConcurrent = parseInt(env.BUNNY_CACHE_CONCURRENCY || '2', 10);
+    this.maxRetries = parseInt(env.BUNNY_CACHE_RETRIES || '2', 10);
   }
 
   enqueue(purchase, options = {}) {
@@ -135,7 +136,10 @@ class BunnyCacheService {
       }
     });
 
-    try {
+    let attempt = 0;
+    while (attempt <= this.maxRetries) {
+      attempt += 1;
+      try {
       const exists = await bunnyStorage.exists(storagePath);
       logDebug({ stage: 'exists-check', storagePath, exists });
       if (exists) {
@@ -173,7 +177,7 @@ class BunnyCacheService {
         httpsAgent: residentialProxyAgent || undefined,
         headers: getRelayRequestHeaders(),
         responseType: 'stream',
-        timeout: 60000,
+        timeout: 0,
         maxRedirects: 3,
         validateStatus: (status) => status >= 200 && status < 400
       });
@@ -186,6 +190,24 @@ class BunnyCacheService {
       });
 
       const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
+
+      let lastProgressAt = Date.now();
+      const stallTimeoutMs = parseInt(env.BUNNY_CACHE_STALL_MS || '90000', 10);
+
+      const stallTimer = setInterval(() => {
+        if (Date.now() - lastProgressAt > stallTimeoutMs) {
+          logDebug({ stage: 'stall-detected', attempt, stallTimeoutMs });
+          downloadResponse.data?.destroy?.(new Error('Download stalled'));
+        }
+      }, 10000);
+
+      downloadResponse.data.on('error', (err) => {
+        logDebug({ stage: 'download-stream-error', attempt, error: err.message });
+      });
+
+      downloadResponse.data.on('data', () => {
+        lastProgressAt = Date.now();
+      });
 
       await bunnyStorage.uploadStream(storagePath, downloadResponse.data, contentLength, async (progress) => {
         const percent = progress.percent || 0;
@@ -205,6 +227,8 @@ class BunnyCacheService {
         }
       });
 
+      clearInterval(stallTimer);
+
       const readyAt = new Date();
       const expiresAt = new Date(readyAt.getTime() + getExpirationHours(purchase.mediaType) * 3600 * 1000);
       await purchase.updateOne({
@@ -219,17 +243,26 @@ class BunnyCacheService {
 
       if (typeof onReady === 'function') onReady({ storagePath });
       logDebug({ stage: 'ready', storagePath });
+      return;
     } catch (error) {
-      logDebug({ stage: 'error', error: error.message });
+      logDebug({ stage: 'error', attempt, error: error.message });
       await purchase.updateOne({
         $set: {
-          cacheStatus: 'failed',
+          cacheStatus: attempt > this.maxRetries ? 'failed' : 'uploading',
           cacheError: error.message,
           cacheUpdatedAt: new Date()
         }
       });
 
-      if (typeof onError === 'function') onError(error);
+      if (attempt > this.maxRetries) {
+        if (typeof onError === 'function') onError(error);
+        return;
+      }
+
+      const backoffMs = attempt * 5000;
+      logDebug({ stage: 'retrying', attempt, backoffMs });
+      await new Promise((resolve) => setTimeout(resolve, backoffMs));
+    }
     }
   }
 }

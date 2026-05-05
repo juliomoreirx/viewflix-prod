@@ -36,7 +36,9 @@ const envSchema = z.object({
   BUNNY_PULL_ZONE_URL: z.string().optional(),
   BUNNY_PULL_ZONE_KEY: z.string().optional(),
   BUNNY_CACHE_CONCURRENCY: z.string().optional(),
-  BUNNY_CACHE_DEBUG: z.string().optional()
+  BUNNY_CACHE_DEBUG: z.string().optional(),
+  BUNNY_CACHE_RETRIES: z.string().optional(),
+  BUNNY_CACHE_STALL_MS: z.string().optional()
 });
 
 const parsed = envSchema.safeParse(process.env);
