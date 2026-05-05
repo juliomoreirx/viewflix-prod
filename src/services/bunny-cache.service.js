@@ -1,4 +1,8 @@
 const axios = require('axios');
+const fs = require('fs');
+const fsp = require('fs/promises');
+const path = require('path');
+const os = require('os');
 const { HttpProxyAgent } = require('http-proxy-agent');
 const env = require('../config/env');
 const bunnyStorage = require('./bunny-storage.service');
@@ -64,6 +68,16 @@ async function resolveFinalUrl(mediaType, videoId) {
   });
 
   return response.headers.location || streamUrl;
+}
+
+async function ensureDir(dirPath) {
+  await fsp.mkdir(dirPath, { recursive: true });
+}
+
+function buildTempFilePath(purchase) {
+  const baseDir = env.BUNNY_TEMP_DIR || path.join(os.tmpdir(), 'viewflix-cache');
+  const fileName = `${purchase.videoId}-${Date.now()}.mp4`;
+  return path.join(baseDir, fileName);
 }
 
 function getExpirationHours(mediaType) {
@@ -137,6 +151,8 @@ class BunnyCacheService {
     });
 
     let attempt = 0;
+    let tempFile;
+    let stallTimer;
     while (attempt <= this.maxRetries) {
       attempt += 1;
       try {
@@ -194,7 +210,7 @@ class BunnyCacheService {
       let lastProgressAt = Date.now();
       const stallTimeoutMs = parseInt(env.BUNNY_CACHE_STALL_MS || '90000', 10);
 
-      const stallTimer = setInterval(() => {
+      stallTimer = setInterval(() => {
         if (Date.now() - lastProgressAt > stallTimeoutMs) {
           logDebug({ stage: 'stall-detected', attempt, stallTimeoutMs });
           downloadResponse.data?.destroy?.(new Error('Download stalled'));
@@ -209,7 +225,28 @@ class BunnyCacheService {
         lastProgressAt = Date.now();
       });
 
-      await bunnyStorage.uploadStream(storagePath, downloadResponse.data, contentLength, async (progress) => {
+      tempFile = buildTempFilePath(purchase);
+      await ensureDir(path.dirname(tempFile));
+
+      logDebug({ stage: 'temp-download-start', tempFile });
+
+      const fileWriteStream = fs.createWriteStream(tempFile);
+
+      await new Promise((resolve, reject) => {
+        downloadResponse.data.pipe(fileWriteStream);
+        downloadResponse.data.on('error', reject);
+        fileWriteStream.on('error', reject);
+        fileWriteStream.on('finish', resolve);
+      });
+
+      if (stallTimer) clearInterval(stallTimer);
+
+      logDebug({ stage: 'temp-download-complete', tempFile });
+
+      const localStats = await fsp.stat(tempFile);
+      const uploadSource = fs.createReadStream(tempFile);
+
+      await bunnyStorage.uploadStream(storagePath, uploadSource, localStats.size, async (progress) => {
         const percent = progress.percent || 0;
         await purchase.updateOne({
           $set: {
@@ -227,7 +264,8 @@ class BunnyCacheService {
         }
       });
 
-      clearInterval(stallTimer);
+      uploadSource.destroy();
+      await fsp.unlink(tempFile).catch(() => {});
 
       const readyAt = new Date();
       const expiresAt = new Date(readyAt.getTime() + getExpirationHours(purchase.mediaType) * 3600 * 1000);
@@ -246,6 +284,12 @@ class BunnyCacheService {
       return;
     } catch (error) {
       logDebug({ stage: 'error', attempt, error: error.message });
+      if (stallTimer) clearInterval(stallTimer);
+      try {
+        if (typeof tempFile !== 'undefined') {
+          await fsp.unlink(tempFile).catch(() => {});
+        }
+      } catch {}
       await purchase.updateOne({
         $set: {
           cacheStatus: attempt > this.maxRetries ? 'failed' : 'uploading',
