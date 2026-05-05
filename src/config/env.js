@@ -39,7 +39,8 @@ const envSchema = z.object({
   BUNNY_CACHE_DEBUG: z.string().optional(),
   BUNNY_CACHE_RETRIES: z.string().optional(),
   BUNNY_CACHE_STALL_MS: z.string().optional(),
-  BUNNY_UPLOAD_USE_CURL: z.string().optional()
+  BUNNY_UPLOAD_USE_CURL: z.string().optional(),
+  BUNNY_DOWNLOAD_USE_CURL: z.string().optional()
 });
 
 const parsed = envSchema.safeParse(process.env);

@@ -182,6 +182,7 @@ class BunnyStorageService {
       const args = [
         '-sS',
         '--fail',
+        '--progress-bar',
         '-X', 'PUT',
         '-H', `AccessKey: ${this.storageKey}`,
         '-H', 'Content-Type: application/octet-stream',
@@ -192,7 +193,22 @@ class BunnyStorageService {
       const child = spawn('curl', args, { stdio: ['ignore', 'pipe', 'pipe'] });
 
       let stderr = '';
+      let lastPercent = -1;
       child.stderr.on('data', (data) => { stderr += data.toString(); });
+      child.stderr.on('data', (data) => {
+        const text = data.toString();
+        const match = text.match(/(\d{1,3})%/);
+        if (match) {
+          const percent = Math.max(0, Math.min(100, parseInt(match[1], 10)));
+          if (!Number.isNaN(percent) && percent !== lastPercent) {
+            lastPercent = percent;
+            logDebug({ stage: 'upload-curl-progress', percent });
+            if (typeof onProgress === 'function') {
+              onProgress({ percent, uploadedBytes: 0, totalBytes: 0 });
+            }
+          }
+        }
+      });
 
       child.on('error', (err) => reject(err));
 

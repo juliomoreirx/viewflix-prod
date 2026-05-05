@@ -1,4 +1,5 @@
 const axios = require('axios');
+const { spawn } = require('child_process');
 const fs = require('fs');
 const fsp = require('fs/promises');
 const path = require('path');
@@ -78,6 +79,47 @@ function buildTempFilePath(purchase) {
   const baseDir = env.BUNNY_TEMP_DIR || path.join(os.tmpdir(), 'viewflix-cache');
   const fileName = `${purchase.videoId}-${Date.now()}.mp4`;
   return path.join(baseDir, fileName);
+}
+
+function parseCurlPercent(chunk) {
+  const text = String(chunk || '');
+  const match = text.match(/(\d{1,3})%/);
+  if (!match) return null;
+  const value = parseInt(match[1], 10);
+  if (Number.isNaN(value)) return null;
+  return Math.max(0, Math.min(100, value));
+}
+
+async function downloadWithCurl(url, outputFile, logDebug) {
+  await new Promise((resolve, reject) => {
+    const args = [
+      '-L',
+      '--fail',
+      '--retry', '3',
+      '--retry-delay', '3',
+      '--progress-bar',
+      '-o', outputFile,
+      url
+    ];
+
+    const child = spawn('curl', args, { stdio: ['ignore', 'ignore', 'pipe'] });
+    let lastPercent = -1;
+
+    child.stderr.on('data', (data) => {
+      const percent = parseCurlPercent(data);
+      if (percent !== null && percent !== lastPercent) {
+        lastPercent = percent;
+        logDebug({ stage: 'curl-download-progress', percent });
+      }
+    });
+
+    child.on('error', (err) => reject(err));
+
+    child.on('close', (code) => {
+      if (code === 0) return resolve();
+      return reject(new Error(`curl download failed (code ${code})`));
+    });
+  });
 }
 
 function getExpirationHours(mediaType) {
@@ -188,6 +230,8 @@ class BunnyCacheService {
       // Download via stream (axios) and pipe to Bunny uploadStream to support proxy agents
       logDebug({ stage: 'download-start', url: finalUrl });
 
+      const useCurlDownload = String(env.BUNNY_DOWNLOAD_USE_CURL || 'false').toLowerCase() === 'true';
+
       const downloadResponse = await axios.get(finalUrl, {
         httpAgent: residentialProxyAgent || undefined,
         httpsAgent: residentialProxyAgent || undefined,
@@ -228,16 +272,20 @@ class BunnyCacheService {
       tempFile = buildTempFilePath(purchase);
       await ensureDir(path.dirname(tempFile));
 
-      logDebug({ stage: 'temp-download-start', tempFile });
+      logDebug({ stage: 'temp-download-start', tempFile, method: useCurlDownload ? 'curl' : 'stream' });
 
-      const fileWriteStream = fs.createWriteStream(tempFile);
+      if (useCurlDownload) {
+        await downloadWithCurl(finalUrl, tempFile, logDebug);
+      } else {
+        const fileWriteStream = fs.createWriteStream(tempFile);
 
-      await new Promise((resolve, reject) => {
-        downloadResponse.data.pipe(fileWriteStream);
-        downloadResponse.data.on('error', reject);
-        fileWriteStream.on('error', reject);
-        fileWriteStream.on('finish', resolve);
-      });
+        await new Promise((resolve, reject) => {
+          downloadResponse.data.pipe(fileWriteStream);
+          downloadResponse.data.on('error', reject);
+          fileWriteStream.on('error', reject);
+          fileWriteStream.on('finish', resolve);
+        });
+      }
 
       if (stallTimer) clearInterval(stallTimer);
 
