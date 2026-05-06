@@ -993,7 +993,7 @@ async function mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
   for (const seasonKey of seasonKeys) {
     const episodes = serie.seasons.get(seasonKey) || [];
     episodes.sort((a, b) => {
-      const dateDiff = new Date(b.purchaseDate || 0) - new Date(a.purchaseDate || 0);
+      const dateDiff = new Date(a.purchaseDate || 0) - new Date(b.purchaseDate || 0);
       if (dateDiff !== 0) return dateDiff;
       const nameA = String(a.episodeName || '');
       const nameB = String(b.episodeName || '');
