@@ -396,6 +396,67 @@ async function addCredits(userId, centavos) {
   return await paymentAdapter.addCredits(userId, centavos);
 }
 
+async function dispararCampanhaTelegram({ message, bonusAmount = 0, bonusLimit = 0, adminLabel = 'Admin' }) {
+  if (!UserModel || typeof UserModel.find !== 'function') {
+    throw new Error('Modelo de usuário indisponível');
+  }
+
+  const texto = String(message || '').trim();
+  if (!texto) {
+    throw new Error('Mensagem da campanha é obrigatória');
+  }
+
+  const bonusCentavos = Math.max(0, parseInt(String(bonusAmount || 0), 10) || 0);
+  const bonusMax = Math.max(0, parseInt(String(bonusLimit || 0), 10) || 0);
+
+  const usuarios = await UserModel.find({
+    registeredAt: { $exists: true },
+    isBlocked: { $ne: true }
+  })
+    .sort({ registeredAt: 1, userId: 1 })
+    .select('userId firstName username registeredAt isActive isBlocked')
+    .lean();
+
+  let sentCount = 0;
+  let failedCount = 0;
+  let bonusGrantedCount = 0;
+  const bonusWinners = [];
+
+  for (const user of usuarios) {
+    try {
+      await bot.sendMessage(user.userId, texto, {
+        parse_mode: 'Markdown',
+        disable_web_page_preview: false
+      });
+      sentCount += 1;
+
+      if (bonusCentavos > 0 && bonusGrantedCount < bonusMax) {
+        await addCredits(user.userId, bonusCentavos);
+        bonusGrantedCount += 1;
+        bonusWinners.push({ userId: user.userId, username: user.username || null, firstName: user.firstName || null });
+
+        await bot.sendMessage(
+          user.userId,
+          `🎁 *Você ganhou um bônus de ${formatMoney(bonusCentavos)}!*\n\nObrigado por testar a plataforma.`,
+          { parse_mode: 'Markdown' }
+        ).catch(() => {});
+      }
+    } catch (error) {
+      failedCount += 1;
+    }
+  }
+
+  return {
+    adminLabel,
+    totalRecipients: usuarios.length,
+    sentCount,
+    failedCount,
+    bonusGrantedCount,
+    bonusAmount: bonusCentavos,
+    bonusWinners
+  };
+}
+
 async function deductCredits(userId, centavos) {
   try {
     const user = await UserModel.findOne({ userId });
@@ -2381,5 +2442,6 @@ module.exports = {
   initBot,
   processarPagamentoAprovado,
   getUserCredits,
-  addCredits
+  addCredits,
+  dispararCampanhaTelegram
 };

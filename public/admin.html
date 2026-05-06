@@ -174,13 +174,13 @@
             }
         }
         
-        input[type="password"], input[type="text"] {
+        input[type="password"], input[type="text"], select, textarea {
             background: rgba(255,255,255,0.05);
             border: 1px solid rgba(79,172,254,0.2);
             color: #e2e8f0;
         }
         
-        input[type="password"]:focus, input[type="text"]:focus {
+        input[type="password"]:focus, input[type="text"]:focus, select:focus, textarea:focus {
             outline: none;
             border-color: rgba(79,172,254,0.5);
             box-shadow: 0 0 20px rgba(79,172,254,0.1);
@@ -345,6 +345,9 @@
                     <button data-tab="filters" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-sliders w-4 mr-3"></i>Filtros
                     </button>
+                    <button data-tab="broadcast" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                        <i class="fa-solid fa-bullhorn w-4 mr-3"></i>Campanha
+                    </button>
                 </nav>
                 
                 <div class="pt-6 border-t border-white/10">
@@ -465,6 +468,64 @@
                         <p class="text-gray-400">Opcoes de filtro avancadas disponveis na aba de usuarios.</p>
                     </div>
                 </div>
+
+                <div id="broadcastTab" class="tab-content hidden">
+                    <div class="glass rounded-2xl p-8 border border-white/5">
+                        <div class="flex items-start justify-between gap-4 mb-6">
+                            <div>
+                                <h2 class="text-2xl font-black mb-2">Campanha para usuários</h2>
+                                <p class="text-gray-400 text-sm">Envie uma mensagem para todos que já iniciaram o bot e, se quiser, premie os primeiros 10 com bônus automático.</p>
+                            </div>
+                            <i class="fa-solid fa-paper-plane text-5xl opacity-20"></i>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-gray-300">Título interno</label>
+                                <input id="broadcastTitle" type="text" class="search-box" placeholder="Ex.: Chamada para testar a nova versão">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-gray-300">Bônus por usuário (R$)</label>
+                                <input id="broadcastBonusAmount" type="text" class="search-box" value="5">
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-gray-300">Quantidade de bonificados</label>
+                                <input id="broadcastBonusLimit" type="text" class="search-box" value="10">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold mb-2 text-gray-300">Aviso</label>
+                                <div class="glass rounded-xl p-4 text-xs text-gray-400 border border-white/5 h-full flex items-center">
+                                    Os 10 primeiros usuários elegíveis receberão automaticamente o bônus configurado.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="block text-sm font-semibold mb-2 text-gray-300">Mensagem da campanha</label>
+                            <textarea id="broadcastMessage" rows="8" class="search-box resize-none" placeholder="Escreva a mensagem que será enviada para todos os usuários...">🎯 Chamada especial para testar o sistema!
+
+Estamos liberando acesso para vocês testarem a plataforma.
+
+Os 10 primeiros usuários elegíveis recebem R$ 5,00 de bônus automático para experimentar o sistema.
+
+Abra o bot e confira o que preparamos.</textarea>
+                        </div>
+
+                        <div class="flex flex-wrap gap-3 mb-4">
+                            <button id="sendBroadcastBtn" class="btn-primary">
+                                <i class="fa-solid fa-bullhorn mr-2"></i>Disparar campanha
+                            </button>
+                            <button id="previewBroadcastBtn" class="btn-secondary">
+                                <i class="fa-solid fa-eye mr-2"></i>Pré-visualizar
+                            </button>
+                        </div>
+
+                        <div id="broadcastStatus" class="hidden rounded-xl border p-4 text-sm"></div>
+                    </div>
+                </div>
                 
             </div>
         </div>
@@ -507,6 +568,8 @@
         const authPage = document.getElementById('authPage');
         const dashboardPage = document.getElementById('dashboardPage');
         const logoutBtn = document.getElementById('logoutBtn');
+        const sendBroadcastBtn = document.getElementById('sendBroadcastBtn');
+        const previewBroadcastBtn = document.getElementById('previewBroadcastBtn');
 
         loginForm.addEventListener('submit', async (e) => {
             e.preventDefault();
@@ -766,6 +829,86 @@
         });
 
         document.getElementById('refreshBtn').addEventListener('click', loadUsers);
+
+        function setBroadcastStatus(type, html) {
+            const box = document.getElementById('broadcastStatus');
+            box.classList.remove('hidden', 'border-green-500/30', 'bg-green-500/5', 'text-green-300', 'border-red-500/30', 'bg-red-500/5', 'text-red-300', 'border-blue-500/30', 'bg-blue-500/5', 'text-blue-300');
+            if (type === 'success') {
+                box.classList.add('border-green-500/30', 'bg-green-500/5', 'text-green-300');
+            } else if (type === 'error') {
+                box.classList.add('border-red-500/30', 'bg-red-500/5', 'text-red-300');
+            } else {
+                box.classList.add('border-blue-500/30', 'bg-blue-500/5', 'text-blue-300');
+            }
+            box.innerHTML = html;
+        }
+
+        function buildBroadcastPayload() {
+            const title = document.getElementById('broadcastTitle').value.trim();
+            const message = document.getElementById('broadcastMessage').value.trim();
+            const bonusAmountRaw = document.getElementById('broadcastBonusAmount').value.trim();
+            const bonusLimitRaw = document.getElementById('broadcastBonusLimit').value.trim();
+
+            const bonusAmount = Math.max(0, Math.round(Number(bonusAmountRaw.replace(',', '.')) * 100 || 0));
+            const bonusLimit = Math.max(0, parseInt(bonusLimitRaw, 10) || 0);
+            const finalMessage = title ? `📢 *${title}*\n\n${message}` : message;
+
+            return { message: finalMessage, bonusAmount, bonusLimit, adminLabel: 'Painel Admin' };
+        }
+
+        previewBroadcastBtn.addEventListener('click', () => {
+            const payload = buildBroadcastPayload();
+            setBroadcastStatus('info', `
+                <div class="space-y-2">
+                    <p class="font-semibold text-base"><i class="fa-solid fa-eye mr-2"></i>Prévia da campanha</p>
+                    <p><span class="text-gray-400">Bônus:</span> R$ ${(payload.bonusAmount / 100).toFixed(2)}</p>
+                    <p><span class="text-gray-400">Bonificados:</span> ${payload.bonusLimit} primeiros elegíveis</p>
+                    <p class="whitespace-pre-wrap text-sm text-gray-200 border-t border-white/10 pt-2 mt-2">${sanitize(payload.message).replace(/\n/g, '<br>')}</p>
+                </div>
+            `);
+        });
+
+        sendBroadcastBtn.addEventListener('click', async () => {
+            if (!state.token) return;
+            const payload = buildBroadcastPayload();
+            if (!payload.message.trim()) {
+                setBroadcastStatus('error', 'A mensagem da campanha não pode ficar vazia.');
+                return;
+            }
+
+            sendBroadcastBtn.disabled = true;
+            sendBroadcastBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Enviando...';
+
+            try {
+                const res = await fetch('/api/admin/broadcast', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${state.token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const data = await res.json().catch(() => ({}));
+                if (!res.ok) {
+                    throw new Error(data.error || 'Falha ao disparar campanha');
+                }
+
+                setBroadcastStatus('success', `
+                    <div class="space-y-2">
+                        <p class="font-semibold text-base"><i class="fa-solid fa-circle-check mr-2"></i>Campanha enviada com sucesso</p>
+                        <p>Destinatários: <strong>${data.totalRecipients || 0}</strong></p>
+                        <p>Enviados: <strong>${data.sentCount || 0}</strong> | Falhas: <strong>${data.failedCount || 0}</strong></p>
+                        <p>Bônus liberados: <strong>${data.bonusGrantedCount || 0}</strong> de R$ ${( (data.bonusAmount || 0) / 100).toFixed(2)}</p>
+                    </div>
+                `);
+            } catch (err) {
+                setBroadcastStatus('error', `<i class="fa-solid fa-triangle-exclamation mr-2"></i>${sanitize(err.message)}`);
+            } finally {
+                sendBroadcastBtn.disabled = false;
+                sendBroadcastBtn.innerHTML = '<i class="fa-solid fa-bullhorn mr-2"></i>Disparar campanha';
+            }
+        });
 
         // Close modal on background click
         document.getElementById('userModal').addEventListener('click', (e) => {

@@ -4,6 +4,7 @@ const asyncHandler = require('../middlewares/async-handler');
 const adminAuth = require('../middlewares/admin-auth');
 const logger = require('../lib/logger');
 const { CACHE_CONTEUDO, atualizarCache } = require('../services/content-cache.service');
+const telegramBot = require('../../telegram-bot');
 
 const router = express.Router();
 
@@ -17,6 +18,13 @@ const usersQuerySchema = z.object({
   isActive: z.enum(['true', 'false']).optional(),
   includePurchases: z.enum(['true', 'false']).optional(),
   purchasesLimit: z.string().optional()
+});
+
+const broadcastSchema = z.object({
+  message: z.string().trim().min(1).max(4000),
+  bonusAmount: z.coerce.number().int().min(0).max(100000).default(0),
+  bonusLimit: z.coerce.number().int().min(0).max(1000).default(0),
+  adminLabel: z.string().trim().max(80).optional()
 });
 
 router.get('/api/admin/users', adminAuth, asyncHandler(async (req, res) => {
@@ -225,6 +233,41 @@ router.post('/api/admin/refresh-cache', adminAuth, asyncHandler(async (req, res)
     movies: CACHE_CONTEUDO.movies.length,
     series: CACHE_CONTEUDO.series.length,
     lastUpdated: CACHE_CONTEUDO.lastUpdated
+  });
+}));
+
+router.post('/api/admin/broadcast', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = broadcastSchema.safeParse(req.body);
+  if (!parsed.success) {
+    return res.status(400).json({
+      error: 'Dados inválidos',
+      details: parsed.error.flatten()
+    });
+  }
+
+  const { message, bonusAmount, bonusLimit, adminLabel } = parsed.data;
+
+  if (!telegramBot || typeof telegramBot.dispararCampanhaTelegram !== 'function') {
+    return res.status(500).json({ error: 'Serviço de Telegram indisponível' });
+  }
+
+  logger.info({
+    msg: 'Campanha administrativa iniciada',
+    bonusAmount,
+    bonusLimit,
+    adminLabel: adminLabel || null
+  });
+
+  const result = await telegramBot.dispararCampanhaTelegram({
+    message,
+    bonusAmount,
+    bonusLimit,
+    adminLabel: adminLabel || 'Admin'
+  });
+
+  return res.json({
+    success: true,
+    ...result
   });
 }));
 
