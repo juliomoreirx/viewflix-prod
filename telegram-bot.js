@@ -783,30 +783,245 @@ async function mostrarMeuConteudo(chatId) {
       return;
     }
 
-    // APLICANDO DECODER EM "MEU CONTEÚDO"
-    const buttons = conteudos.map(item => {
-      const title = decodificarHTML(item.title || '');
-      const epName = item.episodeName ? decodificarHTML(item.episodeName) : '';
-      const nome = epName ? `${title} - ${epName}` : title;
-      const timer = formatTimeRemaining(item.expiresAt);
-      const emoji = item.mediaType === 'movie' ? '🎬' : (item.mediaType === 'livetv' ? '📡' : '📺');
-      
-      return [{
-        text: `${emoji} ${nome.substring(0, 45)} | ${timer}`,
-        callback_data: `mycontent_${item._id}`
-      }];
-    });
+    const groups = buildMeuConteudoGroups(conteudos);
+    userStates[chatId] = {
+      ...(userStates[chatId] || {}),
+      myContent: groups,
+      updatedAt: Date.now()
+    };
+
+    const buttons = [];
+    if (groups.movies.length > 0) {
+      buttons.push([{ text: `🎬 Filmes (${groups.movies.length})`, callback_data: 'mycontent_movies' }]);
+    }
+    if (groups.series.length > 0) {
+      buttons.push([{ text: `📺 Séries (${groups.series.length})`, callback_data: 'mycontent_series' }]);
+    }
+    if (groups.livetv.length > 0) {
+      buttons.push([{ text: `📡 Canais (${groups.livetv.length})`, callback_data: 'mycontent_live' }]);
+    }
 
     buttons.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
     await bot.sendMessage(chatId,
-      `📦 *Meu Conteúdo*\n\nVocê tem ${conteudos.length} conteúdo${conteudos.length > 1 ? 's' : ''} disponível${conteudos.length > 1 ? 'is' : ''}:\n\n💡 *Dica:* Filmes e Canais expiram em 24h, Séries em 7 dias`,
+      `📦 *Meu Conteúdo*\n\n🎬 Filmes: ${groups.movies.length}\n📺 Séries: ${groups.series.length}\n📡 Canais: ${groups.livetv.length}\n\nSelecione uma categoria para ver seus itens.\n\n💡 *Dica:* Filmes e Canais expiram em 24h, Séries em 7 dias`,
       { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
     );
   } catch (error) {
     console.error('Erro ao mostrar conteúdo:', error);
     await bot.sendMessage(chatId, '❌ Erro ao carregar seu conteúdo. Tente novamente.');
   }
+}
+
+function buildMeuConteudoGroups(conteudos) {
+  const movies = [];
+  const livetv = [];
+  const seriesMap = new Map();
+
+  for (const item of conteudos) {
+    const title = decodificarHTML(item.title || '') || item.title || '';
+    if (item.mediaType === 'movie') {
+      movies.push({ ...item.toObject?.() || item, title });
+      continue;
+    }
+
+    if (item.mediaType === 'livetv') {
+      livetv.push({ ...item.toObject?.() || item, title });
+      continue;
+    }
+
+    const key = normalizeTitle(title || item.title || '');
+    if (!seriesMap.has(key)) {
+      seriesMap.set(key, { title: title || item.title || 'Série', seasons: new Map(), totalEpisodes: 0 });
+    }
+
+    const group = seriesMap.get(key);
+    const seasonKey = String(item.season || '1');
+    if (!group.seasons.has(seasonKey)) group.seasons.set(seasonKey, []);
+    group.seasons.get(seasonKey).push({ ...item.toObject?.() || item, title });
+    group.totalEpisodes += 1;
+  }
+
+  const series = Array.from(seriesMap.values()).sort((a, b) =>
+    String(a.title).localeCompare(String(b.title), 'pt-BR', { sensitivity: 'base' })
+  );
+
+  return { movies, livetv, series };
+}
+
+function paginateList(items, page = 1, perPage = 10) {
+  const total = items.length;
+  const totalPages = Math.max(1, Math.ceil(total / perPage));
+  const current = Math.min(Math.max(1, page), totalPages);
+  const start = (current - 1) * perPage;
+  const end = start + perPage;
+  return {
+    items: items.slice(start, end),
+    total,
+    totalPages,
+    current
+  };
+}
+
+function buildPaginationRow(prefix, current, totalPages) {
+  const row = [];
+  if (current > 1) row.push({ text: '◀️ Anterior', callback_data: `${prefix}_${current - 1}` });
+  if (totalPages > 1) row.push({ text: `📄 ${current}/${totalPages}`, callback_data: 'noop' });
+  if (current < totalPages) row.push({ text: 'Próximo ▶️', callback_data: `${prefix}_${current + 1}` });
+  return row;
+}
+
+async function mostrarMeuConteudoFilmes(chatId, page = 1) {
+  const state = userStates[chatId]?.myContent;
+  if (!state) return mostrarMeuConteudo(chatId);
+  if (state.movies.length === 0) {
+    await bot.sendMessage(chatId, '🎬 Você não tem filmes disponíveis.', {
+      reply_markup: { inline_keyboard: [[{ text: '📦 Voltar ao Meu Conteúdo', callback_data: 'my_content' }]] }
+    });
+    return;
+  }
+
+  const pageData = paginateList(state.movies, page, 10);
+  const buttons = pageData.items.map((item) => {
+    const nome = decodificarHTML(item.title || '');
+    const timer = formatTimeRemaining(item.expiresAt);
+    return [{
+      text: `🎬 ${nome.substring(0, 45)} | ${timer}`,
+      callback_data: `mycontent_${item._id}`
+    }];
+  });
+
+  const navRow = buildPaginationRow('mycontent_movies_page', pageData.current, pageData.totalPages);
+  if (navRow.length > 0) buttons.push(navRow);
+
+  buttons.push([{ text: '📦 Voltar ao Meu Conteúdo', callback_data: 'my_content' }]);
+
+  await bot.sendMessage(chatId,
+    `🎬 *Meus Filmes*\n\nTotal: ${pageData.total}`,
+    { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
+  );
+}
+
+async function mostrarMeuConteudoLive(chatId, page = 1) {
+  const state = userStates[chatId]?.myContent;
+  if (!state) return mostrarMeuConteudo(chatId);
+  if (state.livetv.length === 0) {
+    await bot.sendMessage(chatId, '📡 Você não tem canais disponíveis.', {
+      reply_markup: { inline_keyboard: [[{ text: '📦 Voltar ao Meu Conteúdo', callback_data: 'my_content' }]] }
+    });
+    return;
+  }
+
+  const pageData = paginateList(state.livetv, page, 10);
+  const buttons = pageData.items.map((item) => {
+    const nome = decodificarHTML(item.title || '');
+    const timer = formatTimeRemaining(item.expiresAt);
+    return [{
+      text: `📡 ${nome.substring(0, 45)} | ${timer}`,
+      callback_data: `mycontent_${item._id}`
+    }];
+  });
+
+  const navRow = buildPaginationRow('mycontent_live_page', pageData.current, pageData.totalPages);
+  if (navRow.length > 0) buttons.push(navRow);
+
+  buttons.push([{ text: '📦 Voltar ao Meu Conteúdo', callback_data: 'my_content' }]);
+
+  await bot.sendMessage(chatId,
+    `📡 *Meus Canais*\n\nTotal: ${pageData.total}`,
+    { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
+  );
+}
+
+async function mostrarMeuConteudoSeries(chatId, page = 1) {
+  const state = userStates[chatId]?.myContent;
+  if (!state) return mostrarMeuConteudo(chatId);
+  if (state.series.length === 0) {
+    await bot.sendMessage(chatId, '📺 Você não tem séries disponíveis.', {
+      reply_markup: { inline_keyboard: [[{ text: '📦 Voltar ao Meu Conteúdo', callback_data: 'my_content' }]] }
+    });
+    return;
+  }
+
+  const pageData = paginateList(state.series, page, 10);
+  const buttons = pageData.items.map((serie, index) => {
+    const nome = decodificarHTML(serie.title || '');
+    return [{
+      text: `📺 ${nome.substring(0, 45)} (${serie.totalEpisodes} ep)`,
+      callback_data: `myseries_${(pageData.current - 1) * 10 + index}`
+    }];
+  });
+
+  const navRow = buildPaginationRow('mycontent_series_page', pageData.current, pageData.totalPages);
+  if (navRow.length > 0) buttons.push(navRow);
+
+  buttons.push([{ text: '📦 Voltar ao Meu Conteúdo', callback_data: 'my_content' }]);
+
+  await bot.sendMessage(chatId,
+    `📺 *Minhas Séries*\n\nSelecione uma série para ver temporadas e episódios.`,
+    { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
+  );
+}
+
+async function mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
+  const state = userStates[chatId]?.myContent;
+  if (!state) return mostrarMeuConteudo(chatId);
+  const serie = state.series[index];
+  if (!serie) return mostrarMeuConteudoSeries(chatId);
+
+  const seasonKeys = Array.from(serie.seasons.keys()).sort((a, b) => {
+    const na = Number.parseInt(a, 10);
+    const nb = Number.parseInt(b, 10);
+    const bothNumeric = !Number.isNaN(na) && !Number.isNaN(nb);
+    if (bothNumeric) return na - nb;
+    return String(a).localeCompare(String(b), 'pt-BR', { sensitivity: 'base' });
+  });
+
+  const episodeEntries = [];
+  for (const seasonKey of seasonKeys) {
+    const episodes = serie.seasons.get(seasonKey) || [];
+    episodes.sort((a, b) => {
+      const nameA = String(a.episodeName || '');
+      const nameB = String(b.episodeName || '');
+      return nameA.localeCompare(nameB, 'pt-BR', { sensitivity: 'base' });
+    });
+
+    for (const episode of episodes) {
+      const epName = episode.episodeName ? decodificarHTML(episode.episodeName) : 'Episódio';
+      episodeEntries.push({
+        season: seasonKey,
+        label: `▶️ ${epName}`,
+        expiresAt: episode.expiresAt,
+        id: episode._id
+      });
+    }
+  }
+
+  const pageData = paginateList(episodeEntries, page, 10);
+  const buttons = [];
+
+  let currentSeason = null;
+  for (const entry of pageData.items) {
+    if (entry.season !== currentSeason) {
+      currentSeason = entry.season;
+      buttons.push([{ text: `📂 Temporada ${currentSeason}`, callback_data: 'noop' }]);
+    }
+
+    const timer = formatTimeRemaining(entry.expiresAt);
+    const label = `${entry.label} | ${timer}`;
+    buttons.push([{ text: label.substring(0, 60), callback_data: `mycontent_${entry.id}` }]);
+  }
+
+  const navRow = buildPaginationRow(`myseries_${index}_page`, pageData.current, pageData.totalPages);
+  if (navRow.length > 0) buttons.push(navRow);
+
+  buttons.push([{ text: '📺 Voltar às Séries', callback_data: 'mycontent_series' }]);
+  buttons.push([{ text: '📦 Voltar ao Meu Conteúdo', callback_data: 'my_content' }]);
+
+  await bot.sendMessage(chatId,
+    `📺 *${escaparMarkdownSeguro(serie.title)}*\n\n${serie.totalEpisodes} episódio${serie.totalEpisodes > 1 ? 's' : ''} disponível${serie.totalEpisodes > 1 ? 'is' : ''}.`,
+    { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } }
+  );
 }
 
 async function mostrarDetalhesConteudo(chatId, contentId) {
@@ -1397,6 +1612,69 @@ bot.on('callback_query', async (query) => {
       bot.answerCallbackQuery(query.id);
       bot.deleteMessage(chatId, msgId).catch(() => {});
       await mostrarMeuConteudo(chatId);
+      return;
+    }
+
+    if (data === 'mycontent_movies') {
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await mostrarMeuConteudoFilmes(chatId);
+      return;
+    }
+
+    if (data.startsWith('mycontent_movies_page_')) {
+      const page = parseInt(data.split('_').pop(), 10) || 1;
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await mostrarMeuConteudoFilmes(chatId, page);
+      return;
+    }
+
+    if (data === 'mycontent_series') {
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await mostrarMeuConteudoSeries(chatId);
+      return;
+    }
+
+    if (data.startsWith('mycontent_series_page_')) {
+      const page = parseInt(data.split('_').pop(), 10) || 1;
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await mostrarMeuConteudoSeries(chatId, page);
+      return;
+    }
+
+    if (data === 'mycontent_live') {
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await mostrarMeuConteudoLive(chatId);
+      return;
+    }
+
+    if (data.startsWith('mycontent_live_page_')) {
+      const page = parseInt(data.split('_').pop(), 10) || 1;
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      await mostrarMeuConteudoLive(chatId, page);
+      return;
+    }
+
+    if (data.startsWith('myseries_')) {
+      const parts = data.split('_');
+      const index = parseInt(parts[1], 10);
+      bot.answerCallbackQuery(query.id);
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      if (Number.isFinite(index)) {
+        if (parts.length >= 4 && parts[2] === 'page') {
+          const page = parseInt(parts[3], 10) || 1;
+          await mostrarMeuConteudoSerieDetalhes(chatId, index, page);
+        } else {
+          await mostrarMeuConteudoSerieDetalhes(chatId, index);
+        }
+      } else {
+        await mostrarMeuConteudoSeries(chatId);
+      }
       return;
     }
 
