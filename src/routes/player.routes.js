@@ -84,6 +84,7 @@ router.get('/player/:token', async (req, res) => {
     const streamPath = `/api/stream-secure/${req.params.token}/${purchase.sessionToken}`;
     const expirationTimestamp = purchase.expiresAt.getTime();
     let nextEpisode = null;
+    let prevEpisode = null;
 
     if (purchase.mediaType === 'series' && Number.isFinite(purchase.episodeIndex)) {
       const next = await PurchasedContent.findOne({
@@ -97,6 +98,19 @@ router.get('/player/:token', async (req, res) => {
 
       if (next?.token) {
         nextEpisode = { token: next.token, episodeName: next.episodeName || null };
+      }
+
+      const prev = await PurchasedContent.findOne({
+        userId,
+        mediaType: 'series',
+        title: purchase.title,
+        season: String(purchase.season || ''),
+        episodeIndex: purchase.episodeIndex - 1,
+        expiresAt: { $gt: new Date() }
+      }).select('token episodeName');
+
+      if (prev?.token) {
+        prevEpisode = { token: prev.token, episodeName: prev.episodeName || null };
       }
     }
 
@@ -273,6 +287,79 @@ router.get('/player/:token', async (req, res) => {
     .stream-status.show { display: block; }
     .stream-status strong { color: #fbbf24; }
 
+    .resume-prompt {
+      margin-top: 16px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid rgba(79, 172, 254, 0.25);
+      background: rgba(79, 172, 254, 0.08);
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .resume-prompt button {
+      border: 0;
+      background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+      color: #000;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 10px 30px rgba(79, 172, 254, 0.25);
+    }
+    .resume-prompt button:hover { transform: translateY(-1px); }
+
+    .episode-actions {
+      margin-top: 18px;
+      display: none;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .episode-actions button {
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(11, 12, 27, 0.7);
+      color: #e2e8f0;
+      font-weight: 600;
+      padding: 10px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    }
+    .episode-actions button.primary {
+      background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+      color: #000;
+      border: 0;
+      box-shadow: 0 10px 30px rgba(79, 172, 254, 0.25);
+    }
+    .episode-actions button:hover { transform: translateY(-1px); }
+
+    .confirm-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.65);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 5;
+      padding: 20px;
+    }
+    .confirm-box {
+      background: rgba(11, 12, 27, 0.9);
+      border: 1px solid rgba(79, 172, 254, 0.25);
+      border-radius: 16px;
+      padding: 22px;
+      max-width: 420px;
+      width: 100%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    }
+    .confirm-box h4 { margin-bottom: 10px; font-size: 18px; color: #fff; }
+    .confirm-box p { font-size: 14px; color: #94a3b8; margin-bottom: 16px; }
+    .confirm-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    .confirm-actions button { flex: 1 1 140px; }
+
     .next-episode {
       margin-top: 18px;
       padding: 14px 16px;
@@ -311,6 +398,13 @@ router.get('/player/:token', async (req, res) => {
         <video id="player" playsinline controls preload="auto" crossorigin="anonymous"></video>
       </div>
     </div>
+    <div class="resume-prompt" id="resumePrompt">
+      <div>
+        <strong>Continuar de onde parou:</strong>
+        <span id="resumeTime">00:00</span>
+      </div>
+      <button id="resumeBtn">Continuar</button>
+    </div>
     <div class="info-bar">
       <div class="title">${purchase.title}</div>
       ${purchase.episodeName ? `<div class="meta"><span><i class="fas fa-satellite-dish"></i> ${purchase.episodeName}</span></div>` : ''}
@@ -336,12 +430,26 @@ router.get('/player/:token', async (req, res) => {
         </div>
         <button id="nextEpisodeBtn">Assistir próximo episódio</button>
       </div>
+      <div class="episode-actions" id="episodeActions">
+        <button id="prevEpisodeBtn">Episódio anterior</button>
+        <button class="primary" id="nextEpisodeBtnInline">Próximo episódio</button>
+      </div>
     </div>
     <div class="warning">
       <i class="fas fa-user-shield"></i>
       Missão Pessoal e Intransferível • Conexão Criptografada HMAC • ID do Cadete: ${userId}
     </div>
     <div class="stream-status" id="streamStatus" role="status" aria-live="polite"></div>
+  </div>
+  <div class="confirm-overlay" id="confirmOverlay" aria-hidden="true">
+    <div class="confirm-box">
+      <h4>Retomar reprodução?</h4>
+      <p>Você parou em <strong id="confirmResumeTime">00:00</strong>. Deseja continuar desse ponto?</p>
+      <div class="confirm-actions">
+        <button id="confirmResumeBtn" class="primary">Continuar</button>
+        <button id="cancelResumeBtn">Começar do início</button>
+      </div>
+    </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.15/dist/hls.min.js"></script>
   <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
@@ -353,10 +461,21 @@ router.get('/player/:token', async (req, res) => {
     const progressToken = '${req.params.token}';
     const initialResumeSeconds = ${Number(purchase.resumeSeconds || 0)};
     const nextEpisode = ${JSON.stringify(nextEpisode)};
+    const prevEpisode = ${JSON.stringify(prevEpisode)};
     const nextEpisodeWrap = document.getElementById('nextEpisodeWrap');
     const nextEpisodeBtn = document.getElementById('nextEpisodeBtn');
     const nextEpisodeName = document.getElementById('nextEpisodeName');
     const nextEpisodeHint = document.getElementById('nextEpisodeHint');
+    const resumePrompt = document.getElementById('resumePrompt');
+    const resumeBtn = document.getElementById('resumeBtn');
+    const resumeTime = document.getElementById('resumeTime');
+    const confirmOverlay = document.getElementById('confirmOverlay');
+    const confirmResumeTime = document.getElementById('confirmResumeTime');
+    const confirmResumeBtn = document.getElementById('confirmResumeBtn');
+    const cancelResumeBtn = document.getElementById('cancelResumeBtn');
+    const episodeActions = document.getElementById('episodeActions');
+    const prevEpisodeBtn = document.getElementById('prevEpisodeBtn');
+    const nextEpisodeBtnInline = document.getElementById('nextEpisodeBtnInline');
 
     const LIVE_DELAY_SECONDS = 30;
     const LIVE_DELAY_WARNING_THRESHOLD = 1;
@@ -606,6 +725,17 @@ router.get('/player/:token', async (req, res) => {
       }
     }
 
+    function formatTime(totalSeconds = 0) {
+      const total = Math.max(0, Math.floor(totalSeconds || 0));
+      const h = Math.floor(total / 3600);
+      const m = Math.floor((total % 3600) / 60);
+      const s = total % 60;
+      const mm = String(m).padStart(2, '0');
+      const ss = String(s).padStart(2, '0');
+      if (h > 0) return String(h).padStart(2, '0') + ':' + mm + ':' + ss;
+      return mm + ':' + ss;
+    }
+
     function saveProgress(ended = false) {
       const videoEl = document.getElementById('player');
       const position = Math.floor(videoEl.currentTime || 0);
@@ -629,6 +759,51 @@ router.get('/player/:token', async (req, res) => {
       nextEpisodeBtn.addEventListener('click', () => {
         if (nextEpisodeTimer) clearTimeout(nextEpisodeTimer);
         window.location.href = '/player/' + nextEpisode.token;
+      });
+    }
+
+    function setupEpisodeActions() {
+      const hasPrev = !!(prevEpisode && prevEpisode.token);
+      const hasNext = !!(nextEpisode && nextEpisode.token);
+      if (!episodeActions || (!hasPrev && !hasNext)) return;
+      episodeActions.style.display = 'flex';
+      if (hasPrev) {
+        prevEpisodeBtn.addEventListener('click', () => {
+          window.location.href = '/player/' + prevEpisode.token;
+        });
+      } else {
+        prevEpisodeBtn.style.display = 'none';
+      }
+      if (hasNext) {
+        nextEpisodeBtnInline.addEventListener('click', () => {
+          window.location.href = '/player/' + nextEpisode.token;
+        });
+      } else {
+        nextEpisodeBtnInline.style.display = 'none';
+      }
+    }
+
+    function setupResumePrompt() {
+      if (!resumePrompt || !Number.isFinite(initialResumeSeconds) || initialResumeSeconds < 10) return;
+      const timeLabel = formatTime(initialResumeSeconds);
+      resumeTime.textContent = timeLabel;
+      confirmResumeTime.textContent = timeLabel;
+      resumePrompt.style.display = 'flex';
+      resumeBtn.addEventListener('click', () => {
+        confirmOverlay.style.display = 'flex';
+        confirmOverlay.setAttribute('aria-hidden', 'false');
+      });
+      cancelResumeBtn.addEventListener('click', () => {
+        confirmOverlay.style.display = 'none';
+        confirmOverlay.setAttribute('aria-hidden', 'true');
+      });
+      confirmResumeBtn.addEventListener('click', () => {
+        confirmOverlay.style.display = 'none';
+        confirmOverlay.setAttribute('aria-hidden', 'true');
+        const videoEl = document.getElementById('player');
+        videoEl.currentTime = initialResumeSeconds;
+        videoEl.play().catch(() => {});
+        resumePrompt.style.display = 'none';
       });
     }
 
@@ -710,7 +885,9 @@ router.get('/player/:token', async (req, res) => {
       );
 
       setupNextEpisode();
-      loadSource(streamPath, initialResumeSeconds || 0);
+      setupEpisodeActions();
+      setupResumePrompt();
+      loadSource(streamPath, 0);
     }
 
     document.addEventListener('DOMContentLoaded', function() {
