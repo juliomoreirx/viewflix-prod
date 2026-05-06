@@ -1153,13 +1153,28 @@ bot.on('message', async (msg) => {
     }
 
     // APLICANDO DECODER NOS BOTÕES DE RESULTADO DE BUSCA
+    let ownedMovieIds = new Set();
+    let ownedSeriesTitles = new Set();
+
+    if (state.step === 'search_movies') {
+      ownedMovieIds = await getOwnedMoviesSet(chatId, resultados.map((r) => r.id));
+    }
+
+    if (state.step === 'search_series') {
+      ownedSeriesTitles = await getOwnedSeriesTitleSet(chatId, resultados.map((r) => decodificarHTML(r.name || '')));
+    }
+
     const buttons = resultados.map(item => {
       const name = decodificarHTML(item.name || '');
       if (state.step === 'search_livetv') {
         return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `live_details_${item.id}` }];
       }
       const tipo = (cache.movies || []).find(m => m.id === item.id) ? 'movies' : 'series';
-      return [{ text: `${name.substring(0, 60)}${name.length > 60 ? '...' : ''}`, callback_data: `details_${item.id}_${tipo}` }];
+      const owned = tipo === 'movies'
+        ? ownedMovieIds.has(String(item.id))
+        : ownedSeriesTitles.has(normalizeTitle(name));
+      const prefix = owned ? '✅ ' : '';
+      return [{ text: `${prefix}${name.substring(0, 60)}${name.length > 60 ? '...' : ''}`, callback_data: `details_${item.id}_${tipo}` }];
     });
     buttons.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
@@ -1780,23 +1795,6 @@ bot.on('callback_query', async (query) => {
 
       bot.answerCallbackQuery(query.id);
 
-      const saldoAtual = await getUserCredits(chatId);
-      if (saldoAtual < precoNum) {
-        bot.sendMessage(chatId,
-          `❌ *Saldo Insuficiente*\n\nVocê possui: ${formatMoney(saldoAtual)}\nNecessário: ${formatMoney(precoNum)}\nFaltam: ${formatMoney(precoNum - saldoAtual)}`,
-          {
-            parse_mode: 'Markdown',
-            reply_markup: {
-              inline_keyboard: [
-                [{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }],
-                [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]
-              ]
-            }
-          }
-        );
-        return;
-      }
-
       let episodios =
         state?.data?.seasons?.[season] ||
         state?.data?.seasons?.[String(season)] ||
@@ -1813,7 +1811,48 @@ bot.on('callback_query', async (query) => {
         return;
       }
 
-      const deducaoSucesso = await deductCredits(chatId, precoNum);
+      const episodeIds = episodios.map((ep) => String(ep.id));
+      const ownedEpisodes = await getOwnedEpisodesSet(chatId, state?.data?.title || '', season, episodeIds);
+      const restantes = episodios.filter((ep) => !ownedEpisodes.has(String(ep.id)));
+
+      if (restantes.length === 0) {
+        await bot.sendMessage(chatId,
+          `✅ *Você já possui todos os episódios desta temporada.*`,
+          { parse_mode: 'Markdown' }
+        );
+        return;
+      }
+
+      let precoRestante = 0;
+      const estimarDuracao = typeof vouverService?.estimarDuracao === 'function'
+        ? vouverService.estimarDuracao
+        : async () => 24;
+
+      for (const ep of restantes) {
+        let min = await estimarDuracao('series', ep.id);
+        if (!Number.isFinite(min) || min <= 0) min = 24;
+        const p = calcularPrecoFinal({ mediaType: 'series', duracaoMinutos: min });
+        precoRestante += p.precoFinal;
+      }
+
+      const saldoAtual = await getUserCredits(chatId);
+      if (saldoAtual < precoRestante) {
+        bot.sendMessage(chatId,
+          `❌ *Saldo Insuficiente*\n\nVocê possui: ${formatMoney(saldoAtual)}\nNecessário: ${formatMoney(precoRestante)}\nFaltam: ${formatMoney(precoRestante - saldoAtual)}`,
+          {
+            parse_mode: 'Markdown',
+            reply_markup: {
+              inline_keyboard: [
+                [{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }],
+                [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]
+              ]
+            }
+          }
+        );
+        return;
+      }
+
+      const deducaoSucesso = await deductCredits(chatId, precoRestante);
       if (!deducaoSucesso) {
         bot.sendMessage(chatId, '❌ Erro ao processar pagamento. Tente novamente.');
         return;
@@ -1821,13 +1860,13 @@ bot.on('callback_query', async (query) => {
 
       const novoSaldo = await getUserCredits(chatId);
       await bot.sendMessage(chatId,
-        `✅ *Temporada ${season} Liberada!*\n\n-${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n📤 Salvando ${episodios.length} episódios em "Meu Conteúdo"...\n\n⏰ *Links válidos por 7 dias*`,
+        `✅ *Temporada ${season} Liberada!*\n\n-${formatMoney(precoRestante)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n📤 Salvando ${restantes.length} episódios restantes em "Meu Conteúdo"...\n\n⏰ *Links válidos por 7 dias*`,
         { parse_mode: 'Markdown' }
       );
 
       let salvos = 0;
       const tituloSerie = state?.data?.title || 'Série';
-      for (const ep of episodios) {
+      for (const ep of restantes) {
         try {
           const saved = await salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season);
           if (saved?.token) {
@@ -1840,7 +1879,7 @@ bot.on('callback_query', async (query) => {
       }
 
       await bot.sendMessage(chatId,
-        `✅ *Temporada ${season} Completa!*\n\n📦 ${salvos} de ${episodios.length} episódios salvos\n⏰ Válidos por 7 dias\n\nAcesse em "📦 Meu Conteúdo" para assistir!`,
+        `✅ *Temporada ${season} Completa!*\n\n📦 ${salvos} de ${restantes.length} episódios restantes salvos\n⏰ Válidos por 7 dias\n\nAcesse em "📦 Meu Conteúdo" para assistir!`,
         {
           parse_mode: 'Markdown',
           reply_markup: {
