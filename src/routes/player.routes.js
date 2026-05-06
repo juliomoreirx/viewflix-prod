@@ -336,6 +336,7 @@ router.get('/player/:token', async (req, res) => {
       border-radius: 999px;
       cursor: pointer;
       transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+      min-height: 44px;
     }
     .episode-actions button.primary {
       background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
@@ -396,7 +397,13 @@ router.get('/player/:token', async (req, res) => {
     .next-episode button:hover { transform: translateY(-1px); }
     .next-episode small { color: #94a3b8; }
 
-    @media (max-width: 768px) { .player-shell { height: 50vh; } }
+    @media (max-width: 768px) {
+      .player-shell { height: 50vh; }
+      .next-episode { flex-direction: column; align-items: flex-start; }
+      .next-episode button { width: 100%; }
+      .episode-actions { width: 100%; }
+      .episode-actions button { width: 100%; }
+    }
   </style>
 </head>
 <body>
@@ -432,13 +439,6 @@ router.get('/player/:token', async (req, res) => {
           <select id="qualityTrackSelect"></select>
         </div>
       </div>
-      <div class="next-episode" id="nextEpisodeWrap">
-        <div>
-          <div><strong>Próximo episódio disponível:</strong> <span id="nextEpisodeName"></span></div>
-          <small id="nextEpisodeHint"></small>
-        </div>
-        <button id="nextEpisodeBtn">Assistir próximo episódio</button>
-      </div>
       <div class="episode-actions" id="episodeActions">
         <button id="prevEpisodeBtn">Episódio anterior</button>
         <button class="primary" id="nextEpisodeBtnInline">Próximo episódio</button>
@@ -471,10 +471,6 @@ router.get('/player/:token', async (req, res) => {
     let resumeSeconds = ${Number(purchase.resumeSeconds || 0)};
     const nextEpisode = ${JSON.stringify(nextEpisode)};
     const prevEpisode = ${JSON.stringify(prevEpisode)};
-    const nextEpisodeWrap = document.getElementById('nextEpisodeWrap');
-    const nextEpisodeBtn = document.getElementById('nextEpisodeBtn');
-    const nextEpisodeName = document.getElementById('nextEpisodeName');
-    const nextEpisodeHint = document.getElementById('nextEpisodeHint');
     const resumePrompt = document.getElementById('resumePrompt');
     const resumeBtn = document.getElementById('resumeBtn');
     const resumeTime = document.getElementById('resumeTime');
@@ -770,16 +766,6 @@ router.get('/player/:token', async (req, res) => {
       }).catch(() => {});
     }
 
-    function setupNextEpisode() {
-      if (!nextEpisode || !nextEpisode.token || !nextEpisodeWrap) return;
-      nextEpisodeWrap.style.display = 'flex';
-      nextEpisodeName.textContent = nextEpisode.episodeName || 'Próximo episódio';
-      nextEpisodeBtn.addEventListener('click', () => {
-        if (nextEpisodeTimer) clearTimeout(nextEpisodeTimer);
-        window.location.href = '/player/' + nextEpisode.token;
-      });
-    }
-
     function setupEpisodeActions() {
       const hasPrev = !!(prevEpisode && prevEpisode.token);
       const hasNext = !!(nextEpisode && nextEpisode.token);
@@ -794,6 +780,7 @@ router.get('/player/:token', async (req, res) => {
       }
       if (hasNext) {
         nextEpisodeBtnInline.addEventListener('click', () => {
+          if (nextEpisodeTimer) clearTimeout(nextEpisodeTimer);
           window.location.href = '/player/' + nextEpisode.token;
         });
       } else {
@@ -918,7 +905,6 @@ router.get('/player/:token', async (req, res) => {
         'warn'
       );
 
-      setupNextEpisode();
       setupEpisodeActions();
       setupResumePrompt();
       loadSource(streamPath, 0);
