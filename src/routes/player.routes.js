@@ -86,31 +86,40 @@ router.get('/player/:token', async (req, res) => {
     let nextEpisode = null;
     let prevEpisode = null;
 
-    if (purchase.mediaType === 'series' && Number.isFinite(purchase.episodeIndex)) {
-      const next = await PurchasedContent.findOne({
+    if (purchase.mediaType === 'series') {
+      const seasonKey = String(purchase.season || '');
+      const sameSeason = await PurchasedContent.find({
         userId,
         mediaType: 'series',
         title: purchase.title,
-        season: String(purchase.season || ''),
-        episodeIndex: purchase.episodeIndex + 1,
+        season: seasonKey,
         expiresAt: { $gt: new Date() }
-      }).select('token episodeName');
+      }).select('token episodeName episodeIndex purchaseDate videoId');
 
-      if (next?.token) {
-        nextEpisode = { token: next.token, episodeName: next.episodeName || null };
-      }
+      const parseEpisodeIndex = (item) => {
+        if (Number.isFinite(item.episodeIndex)) return item.episodeIndex;
+        const name = String(item.episodeName || '');
+        const match = name.match(/\b(\d{1,3})\b/);
+        if (match) return parseInt(match[1], 10);
+        return null;
+      };
 
-      const prev = await PurchasedContent.findOne({
-        userId,
-        mediaType: 'series',
-        title: purchase.title,
-        season: String(purchase.season || ''),
-        episodeIndex: purchase.episodeIndex - 1,
-        expiresAt: { $gt: new Date() }
-      }).select('token episodeName');
+      const ordered = (sameSeason || []).slice().sort((a, b) => {
+        const idxA = parseEpisodeIndex(a);
+        const idxB = parseEpisodeIndex(b);
+        if (Number.isFinite(idxA) && Number.isFinite(idxB) && idxA !== idxB) return idxA - idxB;
+        const dateA = new Date(a.purchaseDate || 0).getTime();
+        const dateB = new Date(b.purchaseDate || 0).getTime();
+        if (dateA !== dateB) return dateA - dateB;
+        return String(a.episodeName || '').localeCompare(String(b.episodeName || ''), 'pt-BR', { sensitivity: 'base' });
+      });
 
-      if (prev?.token) {
-        prevEpisode = { token: prev.token, episodeName: prev.episodeName || null };
+      const currentIndex = ordered.findIndex((item) => String(item.token) === String(purchase.token));
+      if (currentIndex >= 0) {
+        const prev = ordered[currentIndex - 1];
+        const next = ordered[currentIndex + 1];
+        if (prev?.token) prevEpisode = { token: prev.token, episodeName: prev.episodeName || null };
+        if (next?.token) nextEpisode = { token: next.token, episodeName: next.episodeName || null };
       }
     }
 
@@ -459,7 +468,7 @@ router.get('/player/:token', async (req, res) => {
     const streamPath = '${streamPath}';
     const streamStatusEl = document.getElementById('streamStatus');
     const progressToken = '${req.params.token}';
-    const initialResumeSeconds = ${Number(purchase.resumeSeconds || 0)};
+    let resumeSeconds = ${Number(purchase.resumeSeconds || 0)};
     const nextEpisode = ${JSON.stringify(nextEpisode)};
     const prevEpisode = ${JSON.stringify(prevEpisode)};
     const nextEpisodeWrap = document.getElementById('nextEpisodeWrap');
@@ -744,10 +753,19 @@ router.get('/player/:token', async (req, res) => {
       if (!ended && Math.abs(position - lastProgressSecond) < 10) return;
       lastProgressSecond = position;
 
+      const payload = JSON.stringify({ token: progressToken, position, duration, ended });
+      if (navigator.sendBeacon) {
+        try {
+          const blob = new Blob([payload], { type: 'application/json' });
+          navigator.sendBeacon('/api/progress', blob);
+          return;
+        } catch (e) {}
+      }
+
       fetch('/api/progress', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token: progressToken, position, duration, ended }),
+        body: payload,
         keepalive: true
       }).catch(() => {});
     }
@@ -783,12 +801,17 @@ router.get('/player/:token', async (req, res) => {
       }
     }
 
-    function setupResumePrompt() {
-      if (!resumePrompt || !Number.isFinite(initialResumeSeconds) || initialResumeSeconds < 10) return;
-      const timeLabel = formatTime(initialResumeSeconds);
+    function applyResumeSeconds(value) {
+      if (!Number.isFinite(value) || value < 10) return;
+      resumeSeconds = value;
+      const timeLabel = formatTime(resumeSeconds);
       resumeTime.textContent = timeLabel;
       confirmResumeTime.textContent = timeLabel;
       resumePrompt.style.display = 'flex';
+    }
+
+    function setupResumePrompt() {
+      if (!resumePrompt) return;
       resumeBtn.addEventListener('click', () => {
         confirmOverlay.style.display = 'flex';
         confirmOverlay.setAttribute('aria-hidden', 'false');
@@ -801,10 +824,21 @@ router.get('/player/:token', async (req, res) => {
         confirmOverlay.style.display = 'none';
         confirmOverlay.setAttribute('aria-hidden', 'true');
         const videoEl = document.getElementById('player');
-        videoEl.currentTime = initialResumeSeconds;
+        videoEl.currentTime = resumeSeconds;
         videoEl.play().catch(() => {});
         resumePrompt.style.display = 'none';
       });
+
+      applyResumeSeconds(resumeSeconds);
+
+      fetch('/api/progress/' + progressToken)
+        .then((r) => r.json())
+        .then((d) => {
+          if (d && Number.isFinite(d.resumeSeconds)) {
+            applyResumeSeconds(d.resumeSeconds);
+          }
+        })
+        .catch(() => {});
     }
 
     function retryStream() {
