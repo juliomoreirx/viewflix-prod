@@ -820,31 +820,43 @@ function buildMeuConteudoGroups(conteudos) {
 
   for (const item of conteudos) {
     const title = decodificarHTML(item.title || '') || item.title || '';
+    const purchaseDate = item.purchaseDate ? new Date(item.purchaseDate) : new Date(0);
     if (item.mediaType === 'movie') {
-      movies.push({ ...item.toObject?.() || item, title });
+      movies.push({ ...item.toObject?.() || item, title, purchaseDate });
       continue;
     }
 
     if (item.mediaType === 'livetv') {
-      livetv.push({ ...item.toObject?.() || item, title });
+      livetv.push({ ...item.toObject?.() || item, title, purchaseDate });
       continue;
     }
 
     const key = normalizeTitle(title || item.title || '');
     if (!seriesMap.has(key)) {
-      seriesMap.set(key, { title: title || item.title || 'Série', seasons: new Map(), totalEpisodes: 0 });
+      seriesMap.set(key, {
+        title: title || item.title || 'Série',
+        seasons: new Map(),
+        totalEpisodes: 0,
+        lastPurchaseDate: purchaseDate
+      });
     }
 
     const group = seriesMap.get(key);
+    if (purchaseDate > group.lastPurchaseDate) group.lastPurchaseDate = purchaseDate;
     const seasonKey = String(item.season || '1');
     if (!group.seasons.has(seasonKey)) group.seasons.set(seasonKey, []);
-    group.seasons.get(seasonKey).push({ ...item.toObject?.() || item, title });
+    group.seasons.get(seasonKey).push({ ...item.toObject?.() || item, title, purchaseDate });
     group.totalEpisodes += 1;
   }
 
-  const series = Array.from(seriesMap.values()).sort((a, b) =>
-    String(a.title).localeCompare(String(b.title), 'pt-BR', { sensitivity: 'base' })
-  );
+  movies.sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate));
+  livetv.sort((a, b) => new Date(b.purchaseDate) - new Date(a.purchaseDate));
+
+  const series = Array.from(seriesMap.values()).sort((a, b) => {
+    const diff = new Date(b.lastPurchaseDate) - new Date(a.lastPurchaseDate);
+    if (diff !== 0) return diff;
+    return String(a.title).localeCompare(String(b.title), 'pt-BR', { sensitivity: 'base' });
+  });
 
   return { movies, livetv, series };
 }
@@ -981,6 +993,8 @@ async function mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
   for (const seasonKey of seasonKeys) {
     const episodes = serie.seasons.get(seasonKey) || [];
     episodes.sort((a, b) => {
+      const dateDiff = new Date(b.purchaseDate || 0) - new Date(a.purchaseDate || 0);
+      if (dateDiff !== 0) return dateDiff;
       const nameA = String(a.episodeName || '');
       const nameB = String(b.episodeName || '');
       return nameA.localeCompare(nameB, 'pt-BR', { sensitivity: 'base' });
@@ -2219,10 +2233,54 @@ bot.on('callback_query', async (query) => {
       }
 
       const novoSaldo = await getUserCredits(chatId);
-      await bot.sendMessage(chatId,
-        `✅ *Temporada ${season} Liberada!*\n\n-${formatMoney(precoRestante)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n📤 Salvando ${restantes.length} episódios restantes em "Meu Conteúdo"...\n\n⏰ *Links válidos por 7 dias*`,
+      const statusMessage = await bot.sendMessage(chatId,
+        `✅ *Compra confirmada!*\n\n-${formatMoney(precoRestante)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n📤 Estamos liberando ${restantes.length} episódios desta temporada.\n⏳ Conteúdo em processamento — vamos avisando conforme ficar disponível.\n\nDisponíveis agora: 0/${restantes.length}\n⏰ *Links válidos por 7 dias*`,
         { parse_mode: 'Markdown' }
       );
+      const statusMessageId = statusMessage?.message_id || null;
+      const progressState = {
+        total: restantes.length,
+        ready: 0,
+        lastUpdateAt: 0,
+        lastReleased: [],
+        startedAt: Date.now()
+      };
+
+      const updateProgressMessage = async (force = false) => {
+        if (!statusMessageId) return;
+        const now = Date.now();
+        if (!force && now - progressState.lastUpdateAt < 1500) return;
+        progressState.lastUpdateAt = now;
+
+        const done = progressState.ready >= progressState.total;
+        const header = done ? `✅ *Temporada ${season} Liberada!*` : '⏳ *Conteúdo em processamento*';
+        const body = done
+          ? `\n\nTodos os episódios desta temporada já estão disponíveis.`
+          : `\n\nEstamos liberando episódios desta temporada.`;
+
+        const lastList = progressState.lastReleased.length > 0
+          ? `\n\n🆕 Últimos liberados:\n${progressState.lastReleased.map((name) => `• ${escaparMarkdownSeguro(name)}`).join('\n')}`
+          : '';
+
+        let etaText = '';
+        if (!done && progressState.ready > 0) {
+          const elapsedMs = Date.now() - progressState.startedAt;
+          const avgMs = elapsedMs / Math.max(1, progressState.ready);
+          const remaining = Math.max(0, progressState.total - progressState.ready);
+          const etaMs = Math.round(avgMs * remaining);
+          const etaMinutes = Math.max(1, Math.ceil(etaMs / 60000));
+          etaText = `\n\n⏱️ Estimativa: ~${etaMinutes} min restantes`;
+        }
+
+        const text =
+          `${header}\n\n-${formatMoney(precoRestante)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}${body}\n\nDisponíveis agora: ${progressState.ready}/${progressState.total}${lastList}${etaText}\n⏰ *Links válidos por 7 dias*`;
+
+        await bot.editMessageText(text, {
+          chat_id: chatId,
+          message_id: statusMessageId,
+          parse_mode: 'Markdown'
+        }).catch(() => {});
+      };
 
       let salvos = 0;
       const tituloSerie = state?.data?.title || 'Série';
@@ -2231,7 +2289,20 @@ bot.on('callback_query', async (query) => {
           const saved = await salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season);
           if (saved?.token) {
             salvos++;
-            bunnyCacheService.enqueue(saved.purchase);
+            bunnyCacheService.enqueue(saved.purchase, {
+              onReady: async () => {
+                progressState.ready += 1;
+                const epName = ep?.name ? decodificarHTML(ep.name) : `Episódio ${progressState.ready}`;
+                if (epName) {
+                  progressState.lastReleased.unshift(epName);
+                  progressState.lastReleased = progressState.lastReleased.slice(0, 3);
+                }
+                await updateProgressMessage(progressState.ready >= progressState.total);
+              },
+              onError: async () => {
+                await updateProgressMessage(true);
+              }
+            });
           }
         } catch (e) {
           console.error('Erro ao salvar episódio:', e.message);
@@ -2239,7 +2310,7 @@ bot.on('callback_query', async (query) => {
       }
 
       await bot.sendMessage(chatId,
-        `✅ *Temporada ${season} Completa!*\n\n📦 ${salvos} de ${restantes.length} episódios restantes salvos\n⏰ Válidos por 7 dias\n\nAcesse em "📦 Meu Conteúdo" para assistir!`,
+        `✅ *Compra concluída!*\n\n📦 ${salvos} de ${restantes.length} episódios salvos em "Meu Conteúdo"\n⏳ Se algum ainda estiver em processamento, liberamos assim que ficar pronto.\n\nAcesse em "📦 Meu Conteúdo" para acompanhar!`,
         {
           parse_mode: 'Markdown',
           reply_markup: {
