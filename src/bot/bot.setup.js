@@ -28,7 +28,6 @@ function setupBot(bot, models, services, envVars, textUtils) {
   // Registra todos os actions (callback_query)
   registerAllActions(bot, deps);
 
-  console.log('✅ [Bot] Todos os comandos e actions registrados com sucesso');
   
   return bot;
 }

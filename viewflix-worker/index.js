@@ -19,7 +19,7 @@ const LOGIN_USER = '85119rbz';
 const LOGIN_PASS = 'cyd16156';
 
 async function syncViewflixCookies() {
-    console.log(`\n[${new Date().toISOString()}] Iniciando rotina de automação...`);
+    
 
     const proxyUrlCompleta = `http://${PROXY_USER}:${PROXY_PASS}@${PROXY_HOST}:${PROXY_PORT}`;
     let proxyLocalAutenticado = null;
@@ -80,35 +80,31 @@ async function syncViewflixCookies() {
             }
             // Detecta loop de redirect e força URL original
             if (req.isNavigationRequest() && req.redirectChain().length > 3) {
-                console.log('[Aviso] Loop de redirect detectado, abortando cadeia...');
+                
                 return req.abort();
             }
             req.continue();
         });
 
-        console.log('[Info] Navegando para o alvo...');
+        
         try {
             await page.goto(TARGET_URL, {
-                waitUntil: 'domcontentloaded', // mais permissivo que networkidle
+                waitUntil: 'domcontentloaded', 
                 timeout: 60000
             });
         } catch (err) {
-            console.log('[Aviso] Erro na navegação:', err.message);
-            // Mesmo com erro, tenta verificar o conteúdo
+
         }
 
-        console.log('[Info] Estabilizando renderização (8s)...');
         await new Promise(r => setTimeout(r, 8000));
 
         // Checagem do conteúdo atual
         const currentUrl = page.url();
         const content = await page.content();
-        console.log('[Debug] URL atual:', currentUrl);
-        console.log('[Debug] HTML (300 chars):', content.substring(0, 300));
 
         // Se ainda está na página de erro do Chrome, tenta navegar direto via fetch interno
         if (content.includes('--google-blue') || content.includes('ERR_')) {
-            console.log('[Aviso] Página de erro do Chrome detectada. Tentando estratégia alternativa...');
+
             
             // Tenta via about:blank + injeção de fetch
             await page.goto('about:blank');
@@ -123,17 +119,14 @@ async function syncViewflixCookies() {
             await new Promise(r => setTimeout(r, 8000));
         }
 
-        console.log('[Info] Buscando formulário de login...');
         try {
             await page.waitForSelector('#username', { visible: true, timeout: 30000 });
         } catch (e) {
             const finalContent = await page.content();
-            console.log('[Debug] HTML final (1000 chars):', finalContent.substring(0, 1000));
             await page.screenshot({ path: 'erro-vps.png', fullPage: true });
             throw new Error('Falha de renderização: #username não encontrado.');
         }
 
-        console.log('[Info] Injetando credenciais...');
         await page.evaluate((u, p) => {
             const user = document.getElementById('username');
             const pass = document.getElementById('sifre');
@@ -143,7 +136,7 @@ async function syncViewflixCookies() {
             }
         }, LOGIN_USER, LOGIN_PASS);
 
-        console.log('[Info] Disparando login...');
+
         await Promise.all([
             page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {}),
             page.evaluate(() => {
@@ -152,10 +145,9 @@ async function syncViewflixCookies() {
             })
         ]);
 
-        console.log('[Info] Aguardando sessão estabilizar (10s)...');
+
         await new Promise(r => setTimeout(r, 10000));
 
-        console.log('[Info] Extraindo cookies...');
         const cookies = await page.cookies();
         let cookieMap = new Map();
         let cfClearanceValue = '';
@@ -175,11 +167,10 @@ async function syncViewflixCookies() {
 
         if (!finalSessionString.includes('PHPSESSID')) {
             // Loga todos cookies recebidos para diagnóstico
-            console.log('[Debug] Todos os cookies:', cookies.map(c => c.name).join(', '));
             throw new Error('Login falhou: PHPSESSID ausente após clique.');
         }
 
-        console.log('[Info] Enviando para o Webhook...');
+
         const response = await fetch(WEBHOOK_URL, {
             method: 'POST',
             headers: {
@@ -194,7 +185,7 @@ async function syncViewflixCookies() {
         });
 
         if (response.ok) {
-            console.log('[Sucesso] Cookies atualizados! Status:', response.status);
+            console.log('✅ Cookies sincronizados com sucesso via webhook');
         } else {
             const body = await response.text();
             console.error('[Erro Webhook] Status:', response.status, '| Body:', body);
@@ -205,7 +196,6 @@ async function syncViewflixCookies() {
     } finally {
         if (browser) await browser.close();
         if (proxyLocalAutenticado) await proxyChain.closeAnonymizedProxy(proxyLocalAutenticado, true);
-        console.log('[Info] Fim do ciclo.');
     }
 }
 

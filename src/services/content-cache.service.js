@@ -466,14 +466,13 @@ async function buscarDetalhes(id, type) {
         validateStatus: s => s < 500
       }, detailUrl));
       const html = decodeHtml(r.data);
-      if (isBlockedPage(html)) { console.log(`⚠️ Página bloqueada (${pType}/${pId})`); return null; }
+      if (isBlockedPage(html)) { return null; }
       return html;
-    } catch (e) { console.error(`❌ Erro ao buscar HTML (${pType}/${pId}):`, e.message); return null; }
+    } catch (e) { return null; }
   };
 
   try {
     if (WORKER_CACHE_ENABLED && CLOUDFLARE_WORKER_URL && SESSION_COOKIES) {
-      console.log(`🔍 Buscando detalhes via Worker: ${type}/${id}...`);
       try {
         const response = await axios.post(
           `${CLOUDFLARE_WORKER_URL}/details-direct`,
@@ -488,17 +487,16 @@ async function buscarDetalhes(id, type) {
           const bloqueado = titulo.includes('you are unable to access') || titulo.includes('cloudflare') || sinopse.includes('cloudflare');
           const invalido = !d.title || d.title.length < 2 || (!d.seasons && !d.info);
           if (!bloqueado && !invalido) {
-            console.log('✅ Detalhes obtidos via Worker');
+            
             return d;
           }
-          console.log('⚠️ Worker retornou conteúdo inválido/bloqueio, tentando direto...');
+          
         }
       } catch (workerError) {
-        console.log('⚠️ Worker falhou:', workerError.message);
+        
       }
     }
 
-    console.log(`🌐 Buscando detalhes diretamente: ${type}/${id}...`);
     await refreshSessionCookiesFromJar();
     await logCurrentCookies(`detalhes-${type}-${id}`);
 
@@ -538,7 +536,7 @@ async function buscarDetalhes(id, type) {
           const segundos = parseInt(duracaoMatch[3], 10);
           data.info.duracaoMinutos = (horas * 60) + minutos + Math.ceil(segundos / 60);
           data.info.duracaoTexto = tag;
-          console.log(`✅ [FILME] Duração: ${tag} = ${data.info.duracaoMinutos}min`);
+          
         }
 
         if (!tag.includes(':') && isNaN(tag) && !/^\d{4}$/.test(tag)) {
@@ -563,7 +561,7 @@ async function buscarDetalhes(id, type) {
     }
 
     if (!data.title || data.title.length < 2) {
-      console.log('⚠️ HTML retornado sem título válido (possível bloqueio/sessão inválida)');
+      
       return null;
     }
 

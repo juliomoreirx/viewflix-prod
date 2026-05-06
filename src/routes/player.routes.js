@@ -626,7 +626,6 @@ router.get('/player/:token', async (req, res) => {
 router.post('/api/log-view', async (req, res) => {
   try {
     const { userId, videoId } = req.body;
-    console.log(`📊 Play: User ${userId} | Vídeo ${videoId}`);
     res.sendStatus(200);
   } catch {
     res.sendStatus(500);

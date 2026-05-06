@@ -27,7 +27,6 @@ function initializeProviders(config = {}) {
     logger: config.logger || console
   });
 
-  console.log('✅ [Providers] Vouver e GoPlay inicializados com retry automático');
 
   return providers;
 }
