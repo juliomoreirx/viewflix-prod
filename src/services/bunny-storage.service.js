@@ -25,6 +25,15 @@ function normalizePullzoneHost(hostname = '') {
   return trimmed.replace(/^https?:\/\//, '').replace(/\/+$/, '');
 }
 
+function splitPath(path = '') {
+  const normalized = normalizePath(path);
+  if (!normalized) return { dir: '', name: '' };
+  const parts = normalized.split('/');
+  const name = parts.pop() || '';
+  const dir = parts.join('/');
+  return { dir, name };
+}
+
 class BunnyStorageService {
   constructor(config = {}) {
     this.storageKey = config.storageKey || env.BUNNY_STORAGE_KEY || '';
@@ -47,11 +56,27 @@ class BunnyStorageService {
   async exists(remotePath) {
     if (!this.storageKey || !this.storageName) return false;
     const url = this.getStorageUrl(remotePath);
-    const response = await fetch(url, {
-      method: 'HEAD',
-      headers: { AccessKey: this.storageKey }
-    });
-    return response.ok;
+    try {
+      const response = await fetch(url, {
+        method: 'HEAD',
+        headers: { AccessKey: this.storageKey }
+      });
+
+      if (response.ok) return true;
+      if (response.status === 404) return false;
+    } catch (error) {
+      this.logger.warn({ msg: 'bunny-exists-head-failed', error: error.message, remotePath });
+    }
+
+    try {
+      const { dir, name } = splitPath(remotePath);
+      if (!name) return false;
+      const items = await this.list(dir);
+      return items.some((item) => String(item?.ObjectName || item?.objectName || '') === name);
+    } catch (error) {
+      this.logger.warn({ msg: 'bunny-exists-list-failed', error: error.message, remotePath });
+      return false;
+    }
   }
 
   async list(path = '') {
