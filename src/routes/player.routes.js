@@ -10,6 +10,42 @@ const PurchasedContent = require('../models/purchased-content.model');
 
 const JWT_SECRET = env.JWT_SECRET;
 
+router.get('/api/progress/:token', async (req, res) => {
+  try {
+    const decoded = jwt.verify(req.params.token, JWT_SECRET);
+    const { userId } = decoded;
+    const purchase = await PurchasedContent.findOne({ token: req.params.token, userId });
+    if (!purchase) return res.status(404).json({ resumeSeconds: 0 });
+    if (new Date() > purchase.expiresAt) return res.status(410).json({ resumeSeconds: 0 });
+    return res.json({ resumeSeconds: Number(purchase.resumeSeconds || 0) });
+  } catch (error) {
+    return res.status(401).json({ resumeSeconds: 0 });
+  }
+});
+
+router.post('/api/progress', async (req, res) => {
+  try {
+    const { token, position, duration, ended } = req.body || {};
+    if (!token) return res.sendStatus(400);
+    const decoded = jwt.verify(token, JWT_SECRET);
+    const { userId } = decoded;
+    const purchase = await PurchasedContent.findOne({ token, userId });
+    if (!purchase) return res.sendStatus(404);
+    if (new Date() > purchase.expiresAt) return res.sendStatus(410);
+
+    const safeDuration = Number.isFinite(duration) ? Math.max(0, duration) : 0;
+    const safePosition = Number.isFinite(position) ? Math.max(0, position) : 0;
+    const shouldReset = ended || (safeDuration > 0 && safePosition >= Math.max(0, safeDuration - 5));
+
+    purchase.resumeSeconds = shouldReset ? 0 : Math.floor(safePosition);
+    purchase.resumeUpdatedAt = new Date();
+    await purchase.save();
+    return res.sendStatus(200);
+  } catch (error) {
+    return res.sendStatus(401);
+  }
+});
+
 // Proxy residencial opcional
 const RES_PROXY_ENABLED = String(env.RES_PROXY_ENABLED || 'false')
   .replace(/['"]/g, '')
@@ -47,6 +83,22 @@ router.get('/player/:token', async (req, res) => {
 
     const streamPath = `/api/stream-secure/${req.params.token}/${purchase.sessionToken}`;
     const expirationTimestamp = purchase.expiresAt.getTime();
+    let nextEpisode = null;
+
+    if (purchase.mediaType === 'series' && Number.isFinite(purchase.episodeIndex)) {
+      const next = await PurchasedContent.findOne({
+        userId,
+        mediaType: 'series',
+        title: purchase.title,
+        season: String(purchase.season || ''),
+        episodeIndex: purchase.episodeIndex + 1,
+        expiresAt: { $gt: new Date() }
+      }).select('token episodeName');
+
+      if (next?.token) {
+        nextEpisode = { token: next.token, episodeName: next.episodeName || null };
+      }
+    }
 
     // ==========================================
     // NOVO FRONT-END VIEWFLIX SPACE
@@ -221,6 +273,33 @@ router.get('/player/:token', async (req, res) => {
     .stream-status.show { display: block; }
     .stream-status strong { color: #fbbf24; }
 
+    .next-episode {
+      margin-top: 18px;
+      padding: 14px 16px;
+      border-radius: 12px;
+      border: 1px solid rgba(79, 172, 254, 0.25);
+      background: rgba(79, 172, 254, 0.08);
+      display: none;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .next-episode strong { color: #e2e8f0; }
+    .next-episode button {
+      border: 0;
+      background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+      color: #000;
+      font-weight: 700;
+      padding: 10px 16px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      box-shadow: 0 10px 30px rgba(79, 172, 254, 0.25);
+    }
+    .next-episode button:hover { transform: translateY(-1px); }
+    .next-episode small { color: #94a3b8; }
+
     @media (max-width: 768px) { .player-shell { height: 50vh; } }
   </style>
 </head>
@@ -250,6 +329,13 @@ router.get('/player/:token', async (req, res) => {
           <select id="qualityTrackSelect"></select>
         </div>
       </div>
+      <div class="next-episode" id="nextEpisodeWrap">
+        <div>
+          <div><strong>Próximo episódio disponível:</strong> <span id="nextEpisodeName"></span></div>
+          <small id="nextEpisodeHint"></small>
+        </div>
+        <button id="nextEpisodeBtn">Assistir próximo episódio</button>
+      </div>
     </div>
     <div class="warning">
       <i class="fas fa-user-shield"></i>
@@ -264,6 +350,13 @@ router.get('/player/:token', async (req, res) => {
     const countdownEl = document.getElementById('countdown');
     const streamPath = '${streamPath}';
     const streamStatusEl = document.getElementById('streamStatus');
+    const progressToken = '${req.params.token}';
+    const initialResumeSeconds = ${Number(purchase.resumeSeconds || 0)};
+    const nextEpisode = ${JSON.stringify(nextEpisode)};
+    const nextEpisodeWrap = document.getElementById('nextEpisodeWrap');
+    const nextEpisodeBtn = document.getElementById('nextEpisodeBtn');
+    const nextEpisodeName = document.getElementById('nextEpisodeName');
+    const nextEpisodeHint = document.getElementById('nextEpisodeHint');
 
     const LIVE_DELAY_SECONDS = 30;
     const LIVE_DELAY_WARNING_THRESHOLD = 1;
@@ -331,6 +424,9 @@ router.get('/player/:token', async (req, res) => {
     let hls;
     let retryCount = 0;
     let playLogged = false;
+    let lastProgressSaveAt = 0;
+    let lastProgressSecond = 0;
+    let nextEpisodeTimer = null;
     const audioTrackWrap = document.getElementById('audioTrackWrap');
     const audioTrackSelect = document.getElementById('audioTrackSelect');
     const qualityTrackWrap = document.getElementById('qualityTrackWrap');
@@ -510,6 +606,32 @@ router.get('/player/:token', async (req, res) => {
       }
     }
 
+    function saveProgress(ended = false) {
+      const videoEl = document.getElementById('player');
+      const position = Math.floor(videoEl.currentTime || 0);
+      const duration = Math.floor(videoEl.duration || 0);
+      if (!ended && position < 5) return;
+      if (!ended && Math.abs(position - lastProgressSecond) < 10) return;
+      lastProgressSecond = position;
+
+      fetch('/api/progress', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ token: progressToken, position, duration, ended }),
+        keepalive: true
+      }).catch(() => {});
+    }
+
+    function setupNextEpisode() {
+      if (!nextEpisode || !nextEpisode.token || !nextEpisodeWrap) return;
+      nextEpisodeWrap.style.display = 'flex';
+      nextEpisodeName.textContent = nextEpisode.episodeName || 'Próximo episódio';
+      nextEpisodeBtn.addEventListener('click', () => {
+        if (nextEpisodeTimer) clearTimeout(nextEpisodeTimer);
+        window.location.href = '/player/' + nextEpisode.token;
+      });
+    }
+
     function retryStream() {
       if (retryCount >= 3) {
         setStreamStatus(
@@ -561,13 +683,34 @@ router.get('/player/:token', async (req, res) => {
 
       videoEl.addEventListener('play', logPlayOnce);
       videoEl.addEventListener('error', retryStream);
+      videoEl.addEventListener('pause', () => saveProgress(false));
+      videoEl.addEventListener('ended', () => {
+        saveProgress(true);
+        if (nextEpisode && nextEpisode.token) {
+          nextEpisodeHint.textContent = 'Iniciando próximo episódio em 5s...';
+          nextEpisodeTimer = setTimeout(() => {
+            window.location.href = '/player/' + nextEpisode.token;
+          }, 5000);
+        }
+      });
+      videoEl.addEventListener('timeupdate', () => {
+        const now = Date.now();
+        if (now - lastProgressSaveAt < 10000) return;
+        lastProgressSaveAt = now;
+        saveProgress(false);
+      });
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) saveProgress(false);
+      });
+      window.addEventListener('beforeunload', () => saveProgress(false));
 
       setStreamStatus(
         '<strong>Buffer de estabilidade ativo:</strong> a transmissão pode ficar alguns segundos atrás do vivo para evitar travadas.',
         'warn'
       );
 
-      loadSource(streamPath, 0);
+      setupNextEpisode();
+      loadSource(streamPath, initialResumeSeconds || 0);
     }
 
     document.addEventListener('DOMContentLoaded', function() {

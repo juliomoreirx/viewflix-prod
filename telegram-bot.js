@@ -486,7 +486,7 @@ function gerarTokenAcesso(userId, videoId, mediaType) {
   }
 }
 
-async function salvarConteudoComprado(userId, videoId, mediaType, title, price, episodeName = null, season = null) {
+async function salvarConteudoComprado(userId, videoId, mediaType, title, price, episodeName = null, season = null, extra = {}) {
   try {
     const token = gerarTokenAcesso(userId, videoId, mediaType);
     if (!token) return null;
@@ -498,6 +498,9 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
 
     const purchase = new PurchasedContentModel({
       userId, videoId, mediaType, title, episodeName, season,
+      seriesId: extra?.seriesId || undefined,
+      episodeIndex: Number.isFinite(extra?.episodeIndex) ? extra.episodeIndex : undefined,
+      totalEpisodes: Number.isFinite(extra?.totalEpisodes) ? extra.totalEpisodes : undefined,
       purchaseDate, expiresAt, token, price, sessionToken,
       cacheStatus: (mediaType === 'movie' || mediaType === 'series') ? 'pending' : undefined,
       cacheProgress: (mediaType === 'movie' || mediaType === 'series') ? 0 : undefined
@@ -2197,15 +2200,29 @@ bot.on('callback_query', async (query) => {
       }
 
       let nomeEpisodio = 'Episódio';
+      let episodeIndex = null;
+      let totalEpisodes = null;
+      let seriesId = state?.id || state?.data?.id || null;
       if (state?.data?.seasons) {
         for (const s of Object.values(state.data.seasons)) {
-          const ep = (s || []).find(e => String(e.id) === String(epId));
-          if (ep) { nomeEpisodio = ep.name; break; }
+          const list = Array.isArray(s) ? s : [];
+          const epIndex = list.findIndex(e => String(e.id) === String(epId));
+          if (epIndex >= 0) {
+            const ep = list[epIndex];
+            nomeEpisodio = ep?.name || nomeEpisodio;
+            episodeIndex = epIndex + 1;
+            totalEpisodes = list.length || null;
+            break;
+          }
         }
       }
 
       const tituloSerie = state?.data?.title || 'Série';
-      const saved = await salvarConteudoComprado(chatId, epId, 'series', tituloSerie, precoNum, nomeEpisodio, season);
+      const saved = await salvarConteudoComprado(chatId, epId, 'series', tituloSerie, precoNum, nomeEpisodio, season, {
+        seriesId,
+        episodeIndex,
+        totalEpisodes
+      });
 
       if (!saved?.token) {
         await addCredits(chatId, precoNum);
@@ -2345,9 +2362,18 @@ bot.on('callback_query', async (query) => {
 
       let salvos = 0;
       const tituloSerie = state?.data?.title || 'Série';
+      const seriesId = state?.id || state?.data?.id || null;
+      const episodeIndexById = new Map(
+        (episodios || []).map((ep, idx) => [String(ep.id), idx + 1])
+      );
+      const totalEpisodes = Array.isArray(episodios) ? episodios.length : null;
       for (const ep of restantes) {
         try {
-          const saved = await salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season);
+          const saved = await salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season, {
+            seriesId,
+            episodeIndex: episodeIndexById.get(String(ep.id)) || null,
+            totalEpisodes
+          });
           if (saved?.token) {
             salvos++;
             bunnyCacheService.enqueue(saved.purchase, {
