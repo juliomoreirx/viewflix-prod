@@ -50,10 +50,8 @@ if (!JWT_SECRET) {
 }
 
 if (!MP_ACCESS_TOKEN) {
-  console.warn('⚠️ AVISO: MP_ACCESS_TOKEN não definido - pagamentos PIX não funcionarão');
+  // Pix não disponível sem token
 }
-
-console.log('✅ [Bot] Variáveis de ambiente carregadas');
 
 // ============================
 // INICIALIZAÇÃO DO BOT
@@ -109,10 +107,7 @@ function setModels(models) {
     models?.['purchased-content.model'] ||
     PurchasedContentLocal;
 
-  console.log('✅ [Bot] Models injetados:', {
-    hasUser: !!UserModel,
-    hasPurchasedContent: !!PurchasedContentModel
-  });
+  // Models injetados
 }
 
 function initBot(models, services, dominio) {
@@ -145,8 +140,7 @@ function initBot(models, services, dominio) {
   bot.startPolling();
   // ==========================================
 
-  console.log('✅ Bot do Telegram inicializado com sucesso e a escutar!');
-  console.log(`🌐 Domínio configurado: ${DOMINIO_PUBLICO}`);
+  // Bot inicializado
 }
 
 function getCacheSafe() {
@@ -340,6 +334,62 @@ async function concederBonusInicialSeElegivel(user, isNewUser) {
 
 async function getUserCredits(userId) {
   return await paymentAdapter.getUserCredits(userId);
+}
+
+function normalizeTitle(value) {
+  return removerAcentos(String(value || '')).toLowerCase().trim();
+}
+
+async function getOwnedMoviesSet(userId, ids) {
+  if (!PurchasedContentModel || typeof PurchasedContentModel.find !== 'function') return new Set();
+  const uniqueIds = Array.from(new Set((ids || []).map((id) => String(id))));
+  if (uniqueIds.length === 0) return new Set();
+
+  const rows = await PurchasedContentModel.find({
+    userId,
+    mediaType: 'movie',
+    videoId: { $in: uniqueIds },
+    expiresAt: { $gt: new Date() }
+  }).select('videoId');
+
+  return new Set(rows.map((r) => String(r.videoId)));
+}
+
+async function getOwnedSeriesTitleSet(userId, titles) {
+  if (!PurchasedContentModel || typeof PurchasedContentModel.find !== 'function') return new Set();
+  const normalizedTitles = Array.from(new Set((titles || []).map((t) => normalizeTitle(t))));
+  if (normalizedTitles.length === 0) return new Set();
+
+  const rows = await PurchasedContentModel.find({
+    userId,
+    mediaType: 'series',
+    expiresAt: { $gt: new Date() }
+  }).select('title');
+
+  const owned = new Set();
+  for (const row of rows) {
+    const key = normalizeTitle(row.title);
+    if (normalizedTitles.includes(key)) owned.add(key);
+  }
+
+  return owned;
+}
+
+async function getOwnedEpisodesSet(userId, title, season, episodeIds) {
+  if (!PurchasedContentModel || typeof PurchasedContentModel.find !== 'function') return new Set();
+  const ids = Array.from(new Set((episodeIds || []).map((id) => String(id))));
+  if (ids.length === 0) return new Set();
+
+  const rows = await PurchasedContentModel.find({
+    userId,
+    mediaType: 'series',
+    title: String(title || ''),
+    season: String(season || ''),
+    videoId: { $in: ids },
+    expiresAt: { $gt: new Date() }
+  }).select('videoId');
+
+  return new Set(rows.map((r) => String(r.videoId)));
 }
 
 async function addCredits(userId, centavos) {
@@ -1199,7 +1249,7 @@ bot.on('callback_query', async (query) => {
   const msgId = query.message.message_id;
 
   try {
-    console.log('📲 CALLBACK:', data);
+    // callback debug desativado
 
     if (data === 'noop') { bot.answerCallbackQuery(query.id); return; }
 
@@ -1906,7 +1956,7 @@ bot.on('callback_query', async (query) => {
 // ============================
 bot.on('polling_error', (error) => {
   if (error.code === 'ETELEGRAM' && error.response?.body?.error_code === 409) {
-    console.warn('⚠️ Conflito de polling — outra instância do bot está rodando');
+    // conflito de polling
   } else {
     console.error('Erro de polling do bot:', error.message);
   }

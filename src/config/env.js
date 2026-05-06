@@ -2,6 +2,7 @@ const { z } = require('zod');
 
 const envSchema = z.object({
   NODE_ENV: z.enum(['development', 'staging', 'production']).default('development'),
+  LOG_LEVEL: z.string().optional(),
   PORT: z.string().default('3000'),
   DOMINIO_PUBLICO: z.string().default('http://localhost:3000'),
 
