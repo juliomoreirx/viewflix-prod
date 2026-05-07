@@ -1,9 +1,14 @@
 const express = require('express');
+const jwt = require('jsonwebtoken');
 const { z } = require('zod');
 const asyncHandler = require('../middlewares/async-handler');
 const adminAuth = require('../middlewares/admin-auth');
 const logger = require('../lib/logger');
 const { CACHE_CONTEUDO, atualizarCache } = require('../services/content-cache.service');
+const { buscarDetalhes } = require('../services/content-details.service');
+const bunnyCacheService = require('../services/bunny-cache.service');
+const bunnyStorage = require('../services/bunny-storage.service');
+const env = require('../config/env');
 const telegramBot = require('../../telegram-bot');
 
 const router = express.Router();
@@ -26,6 +31,115 @@ const broadcastSchema = z.object({
   bonusLimit: z.coerce.number().int().min(0).max(1000).default(0),
   adminLabel: z.string().trim().max(80).optional()
 });
+
+const contentSearchSchema = z.object({
+  q: z.string().trim().optional(),
+  type: z.enum(['all', 'movies', 'series', 'livetv']).optional().default('all'),
+  limit: z.coerce.number().int().min(1).max(50).optional().default(20)
+});
+
+const contentDetailsSchema = z.object({
+  id: z.string().trim().min(1),
+  type: z.enum(['movies', 'series'])
+});
+
+const createLinkSchema = z.object({
+  userId: z.coerce.number().int().positive(),
+  contentId: z.string().trim().min(1),
+  sourceType: z.enum(['movies', 'series']).default('movies'),
+  contentType: z.enum(['movie', 'episode', 'season']),
+  season: z.string().trim().optional(),
+  episodeId: z.string().trim().optional(),
+  expiresAt: z.string().trim().min(1),
+  prepareCache: z.coerce.boolean().optional().default(true)
+});
+
+function formatSearchItem(item, sourceType) {
+  return {
+    id: String(item.id),
+    title: String(item.name || item.title || ''),
+    type: sourceType,
+    cover: item.img || item.cover || null
+  };
+}
+
+function buildAccessToken({ userId, videoId, mediaType, expiresAt }) {
+  const expDate = expiresAt instanceof Date ? expiresAt : new Date(expiresAt);
+  return jwt.sign(
+    {
+      userId,
+      videoId,
+      mediaType,
+      exp: Math.floor(expDate.getTime() / 1000)
+    },
+    env.JWT_SECRET
+  );
+}
+
+async function ensureAdminTestUser(User, userId) {
+  let user = await User.findOne({ userId });
+  if (user) return user;
+
+  user = await User.create({
+    userId,
+    firstName: `Teste ${userId}`,
+    credits: 0,
+    isActive: true,
+    isBlocked: false,
+    registeredAt: new Date(),
+    lastAccess: new Date(),
+    totalSpent: 0,
+    totalPurchases: 0,
+    notificationsEnabled: true,
+    metadata: {
+      initialBonusGranted: false
+    }
+  });
+
+  return user;
+}
+
+async function ensureBunnyCacheForPurchase(purchase, { skipCache = false } = {}) {
+  if (skipCache) {
+    await purchase.save();
+    return { cacheStatus: null, cacheStrategy: 'skipped', storagePath: null };
+  }
+
+  if (!bunnyStorage.isConfigured()) {
+    await purchase.save();
+    return { cacheStatus: null, cacheStrategy: 'origin', storagePath: null };
+  }
+
+  const storagePath = bunnyCacheService.buildStoragePath(purchase);
+  purchase.storagePath = storagePath;
+
+  const exists = await bunnyStorage.exists(storagePath);
+  if (exists) {
+    await purchase.updateOne({
+      $set: {
+        storagePath,
+        cacheStatus: 'ready',
+        cacheProgress: 100,
+        cacheReadyAt: new Date(),
+        cacheUpdatedAt: new Date()
+      }
+    });
+
+    return { cacheStatus: 'ready', cacheStrategy: 'cached', storagePath };
+  }
+
+  await purchase.updateOne({
+    $set: {
+      storagePath,
+      cacheStatus: 'pending',
+      cacheProgress: 0,
+      cacheUpdatedAt: new Date()
+    }
+  });
+
+  bunnyCacheService.enqueue(purchase);
+  return { cacheStatus: 'pending', cacheStrategy: 'queued', storagePath };
+}
 
 router.get('/api/admin/users', adminAuth, asyncHandler(async (req, res) => {
   const parsed = usersQuerySchema.safeParse(req.query);
@@ -268,6 +382,170 @@ router.post('/api/admin/broadcast', adminAuth, asyncHandler(async (req, res) => 
   return res.json({
     success: true,
     ...result
+  });
+}));
+
+router.get('/api/admin/content/search', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = contentSearchSchema.safeParse(req.query);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+  }
+
+  const { q = '', type = 'all', limit = 20 } = parsed.data;
+  const term = q.toLowerCase().trim();
+
+  if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
+    await atualizarCache(true);
+  }
+
+  const pools = [];
+  if (type === 'all' || type === 'movies') pools.push({ sourceType: 'movies', items: CACHE_CONTEUDO.movies || [] });
+  if (type === 'all' || type === 'series') pools.push({ sourceType: 'series', items: CACHE_CONTEUDO.series || [] });
+  if (type === 'all' || type === 'livetv') pools.push({ sourceType: 'livetv', items: CACHE_CONTEUDO.livetv || [] });
+
+  const matches = pools.flatMap(({ sourceType, items }) => {
+    return items
+      .filter((item) => {
+        if (!term) return true;
+        return String(item.name || item.title || '').toLowerCase().includes(term);
+      })
+      .slice(0, limit)
+      .map((item) => formatSearchItem(item, sourceType));
+  }).slice(0, limit);
+
+  return res.json({
+    success: true,
+    total: matches.length,
+    data: matches
+  });
+}));
+
+router.get('/api/admin/content/details', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = contentDetailsSchema.safeParse(req.query);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+  }
+
+  const { id, type } = parsed.data;
+  const details = await buscarDetalhes(id, type);
+  if (!details) return res.status(404).json({ error: 'Conteúdo não encontrado' });
+
+  return res.json({ success: true, data: details });
+}));
+
+router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = createLinkSchema.safeParse(req.body);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Dados inválidos', details: parsed.error.flatten() });
+  }
+
+  const { User, PurchasedContent } = req.app.locals.models;
+  const { userId, contentId, sourceType, contentType, season, episodeId, expiresAt, prepareCache } = parsed.data;
+  const expirationDate = new Date(expiresAt);
+  if (Number.isNaN(expirationDate.getTime())) {
+    return res.status(400).json({ error: 'Data de expiração inválida' });
+  }
+
+  const user = await ensureAdminTestUser(User, userId);
+  const details = await buscarDetalhes(contentId, sourceType);
+  if (!details || !details.title) {
+    return res.status(404).json({ error: 'Conteúdo não encontrado' });
+  }
+
+  const seriesTitle = String(details.title || '').trim();
+  const seasonKey = String(season || '').trim();
+  const baseUrl = String(env.DOMINIO_PUBLICO || '').replace(/\/$/, '');
+  const now = new Date();
+  const responseItems = [];
+
+  const createPurchase = async ({ videoId, episodeName = null, mediaType = contentType === 'movie' ? 'movie' : 'series', episodeIndex = null, totalEpisodes = null }) => {
+    const token = buildAccessToken({ userId: user.userId, videoId, mediaType, expiresAt: expirationDate });
+    const sessionToken = require('crypto').randomBytes(32).toString('hex');
+
+    const purchase = new PurchasedContent({
+      userId: user.userId,
+      videoId: String(videoId),
+      mediaType,
+      title: seriesTitle,
+      episodeName: episodeName || undefined,
+      season: mediaType === 'series' ? seasonKey || undefined : undefined,
+      seriesId: sourceType === 'series' ? String(contentId) : undefined,
+      episodeIndex: Number.isFinite(episodeIndex) ? episodeIndex : undefined,
+      totalEpisodes: Number.isFinite(totalEpisodes) ? totalEpisodes : undefined,
+      purchaseDate: now,
+      expiresAt: expirationDate,
+      token,
+      price: 0,
+      sessionToken,
+      viewed: false,
+      viewCount: 0
+    });
+
+    const cacheResult = await ensureBunnyCacheForPurchase(purchase, { skipCache: !prepareCache });
+    const playerUrl = `${baseUrl}/player/${token}`;
+
+    responseItems.push({
+      token,
+      playerUrl,
+      videoId: String(videoId),
+      mediaType,
+      episodeName: episodeName || null,
+      cacheStatus: cacheResult.cacheStatus,
+      cacheStrategy: cacheResult.cacheStrategy,
+      storagePath: cacheResult.storagePath,
+      expiresAt: expirationDate.toISOString()
+    });
+
+    return purchase;
+  };
+
+  if (contentType === 'movie') {
+    await createPurchase({ videoId: contentId, mediaType: 'movie' });
+  } else {
+    const seasonMap = details.seasons || {};
+    const availableSeasons = Object.keys(seasonMap);
+    const chosenSeason = seasonKey || availableSeasons[0];
+    const episodes = Array.isArray(seasonMap[chosenSeason]) ? seasonMap[chosenSeason] : [];
+
+    if (episodes.length === 0) {
+      return res.status(400).json({ error: 'Temporada sem episódios disponíveis' });
+    }
+
+    if (contentType === 'episode') {
+      const episode = episodes.find((ep) => String(ep.id) === String(episodeId)) || episodes[0];
+      const episodeIndex = Math.max(1, episodes.findIndex((ep) => String(ep.id) === String(episode.id)) + 1);
+      await createPurchase({
+        videoId: episode.id,
+        episodeName: episode.name,
+        mediaType: 'series',
+        episodeIndex,
+        totalEpisodes: episodes.length
+      });
+    } else {
+      for (let index = 0; index < episodes.length; index += 1) {
+        const episode = episodes[index];
+        await createPurchase({
+          videoId: episode.id,
+          episodeName: episode.name,
+          mediaType: 'series',
+          episodeIndex: index + 1,
+          totalEpisodes: episodes.length
+        });
+      }
+    }
+  }
+
+  return res.json({
+    success: true,
+    userId: user.userId,
+    contentTitle: seriesTitle,
+    contentType,
+    sourceType,
+    expiresAt: expirationDate.toISOString(),
+    prepareCache,
+    links: responseItems,
+    primaryLink: responseItems[0]?.playerUrl || null,
+    totalLinks: responseItems.length
   });
 }));
 

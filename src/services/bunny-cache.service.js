@@ -202,14 +202,12 @@ class BunnyCacheService {
       logDebug({ stage: 'exists-check', storagePath, exists });
       if (exists) {
         const readyAt = new Date();
-        const expiresAt = new Date(readyAt.getTime() + getExpirationHours(purchase.mediaType) * 3600 * 1000);
         await purchase.updateOne({
           $set: {
             cacheStatus: 'ready',
             cacheProgress: 100,
             cacheReadyAt: readyAt,
-            cacheUpdatedAt: readyAt,
-            expiresAt
+            cacheUpdatedAt: readyAt
           }
         });
         if (typeof onReady === 'function') onReady({ storagePath });
@@ -312,14 +310,12 @@ class BunnyCacheService {
       await fsp.unlink(tempFile).catch(() => {});
 
       const readyAt = new Date();
-      const expiresAt = new Date(readyAt.getTime() + getExpirationHours(purchase.mediaType) * 3600 * 1000);
       await purchase.updateOne({
         $set: {
           cacheStatus: 'ready',
           cacheProgress: 100,
           cacheReadyAt: readyAt,
-          cacheUpdatedAt: readyAt,
-          expiresAt
+          cacheUpdatedAt: readyAt
         }
       });
 

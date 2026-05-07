@@ -258,6 +258,80 @@
         .search-box::placeholder {
             color: rgba(226,232,240,0.4);
         }
+
+        .builder-card {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(79,172,254,0.12);
+            border-radius: 1rem;
+            padding: 1rem;
+        }
+
+        .builder-result {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(79,172,254,0.12);
+            border-radius: 0.9rem;
+            padding: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .builder-result:hover {
+            border-color: rgba(79,172,254,0.35);
+            transform: translateY(-1px);
+        }
+
+        .builder-result.active {
+            border-color: rgba(79,172,254,0.55);
+            background: rgba(79,172,254,0.08);
+        }
+
+        .link-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.35rem 0.7rem;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            border: 1px solid rgba(79,172,254,0.25);
+            background: rgba(79,172,254,0.08);
+            color: #9be7ff;
+        }
+
+        .copy-link-btn {
+            background: rgba(79,172,254,0.1);
+            color: #4facfe;
+            border: 1px solid rgba(79,172,254,0.25);
+            border-radius: 0.75rem;
+            padding: 0.5rem 0.9rem;
+            font-size: 0.75rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .copy-link-btn:hover {
+            background: rgba(79,172,254,0.2);
+        }
+
+        .mode-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.45rem;
+            padding: 0.45rem 0.8rem;
+            border-radius: 999px;
+            border: 1px solid rgba(79,172,254,0.2);
+            background: rgba(255,255,255,0.03);
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .mode-chip input { accent-color: #4facfe; }
+
+        .mode-chip.active {
+            border-color: rgba(79,172,254,0.55);
+            background: rgba(79,172,254,0.08);
+        }
     </style>
 </head>
 <body>
@@ -347,6 +421,9 @@
                     </button>
                     <button data-tab="broadcast" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-bullhorn w-4 mr-3"></i>Campanha
+                    </button>
+                    <button data-tab="linkBuilder" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                        <i class="fa-solid fa-link w-4 mr-3"></i>Gerar Link
                     </button>
                 </nav>
                 
@@ -526,6 +603,128 @@ Abra o bot e confira o que preparamos.</textarea>
                         <div id="broadcastStatus" class="hidden rounded-xl border p-4 text-sm"></div>
                     </div>
                 </div>
+
+                <div id="linkBuilderTab" class="tab-content hidden">
+                    <div class="glass rounded-2xl p-6 sm:p-8 border border-white/5">
+                        <div class="flex items-start justify-between gap-4 mb-6">
+                            <div>
+                                <h2 class="text-2xl font-black mb-2">Gerador de Link Personalizado</h2>
+                                <p class="text-gray-400 text-sm max-w-2xl">Pesquise um filme, episódio ou temporada, defina a data de expiração e gere o link. Se o conteúdo não estiver no Bunny, o sistema prepara automaticamente.</p>
+                            </div>
+                            <i class="fa-solid fa-wand-magic-sparkles text-5xl opacity-20"></i>
+                        </div>
+
+                        <div class="grid grid-cols-1 xl:grid-cols-12 gap-6">
+                            <div class="xl:col-span-5 space-y-4">
+                                <div class="builder-card">
+                                    <label class="block text-sm font-semibold mb-2 text-gray-300">Buscar conteúdo</label>
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                                        <input id="builderSearchInput" type="text" class="search-box md:col-span-2" placeholder="Ex.: The Boys, Homem-Aranha, etc.">
+                                        <select id="builderSearchType" class="search-box">
+                                            <option value="all">Todos</option>
+                                            <option value="movies">Filmes</option>
+                                            <option value="series">Séries</option>
+                                            <option value="livetv">Ao vivo</option>
+                                        </select>
+                                    </div>
+                                    <div class="mt-3 flex gap-3">
+                                        <button id="builderSearchBtn" class="btn-primary flex-1">
+                                            <i class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar
+                                        </button>
+                                        <button id="builderClearBtn" class="btn-secondary whitespace-nowrap">
+                                            Limpar
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="builder-card">
+                                    <div class="flex items-center justify-between mb-3">
+                                        <h3 class="font-bold text-base">Resultados</h3>
+                                        <span id="builderSearchCount" class="text-xs text-gray-500">0 itens</span>
+                                    </div>
+                                    <div id="builderResults" class="space-y-2 max-h-[420px] overflow-y-auto pr-1"></div>
+                                </div>
+                            </div>
+
+                            <div class="xl:col-span-7 space-y-4">
+                                <div class="builder-card">
+                                    <div class="flex items-center justify-between gap-4 mb-4">
+                                        <div>
+                                            <h3 class="font-bold text-lg">Conteúdo selecionado</h3>
+                                            <p id="builderSelectedHint" class="text-sm text-gray-500">Selecione um resultado para continuar.</p>
+                                        </div>
+                                        <span id="builderSelectedType" class="link-pill hidden"></span>
+                                    </div>
+                                    <div id="builderSelectedBox" class="glass rounded-2xl p-4 border border-white/5 text-sm text-gray-400">
+                                        Nenhum conteúdo selecionado.
+                                    </div>
+                                </div>
+
+                                <div class="builder-card space-y-5">
+                                    <div>
+                                        <label class="block text-sm font-semibold mb-2 text-gray-300">ID do usuário de teste</label>
+                                        <input id="builderUserId" type="text" class="search-box" placeholder="Ex.: 123456789">
+                                        <p class="text-xs text-gray-500 mt-2">Se o usuário não existir, o painel cria um perfil de teste automaticamente.</p>
+                                    </div>
+
+                                    <div id="builderModeGroup">
+                                        <label class="block text-sm font-semibold mb-2 text-gray-300">Tipo de link</label>
+                                        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+                                            <label class="mode-chip active" data-mode-chip="movie">
+                                                <input type="radio" name="builderMode" value="movie" checked>
+                                                <span>Filme</span>
+                                            </label>
+                                            <label class="mode-chip" data-mode-chip="episode">
+                                                <input type="radio" name="builderMode" value="episode">
+                                                <span>Episódio</span>
+                                            </label>
+                                            <label class="mode-chip" data-mode-chip="season">
+                                                <input type="radio" name="builderMode" value="season">
+                                                <span>Temporada completa</span>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <div id="builderSeasonRow" class="hidden">
+                                        <label class="block text-sm font-semibold mb-2 text-gray-300">Temporada</label>
+                                        <select id="builderSeasonSelect" class="search-box"></select>
+                                    </div>
+
+                                    <div id="builderEpisodeRow" class="hidden">
+                                        <label class="block text-sm font-semibold mb-2 text-gray-300">Episódio</label>
+                                        <select id="builderEpisodeSelect" class="search-box"></select>
+                                    </div>
+
+                                    <div>
+                                        <label class="block text-sm font-semibold mb-2 text-gray-300">Expiração personalizada</label>
+                                        <input id="builderExpiresAt" type="datetime-local" class="search-box">
+                                    </div>
+
+                                    <label class="flex items-center gap-3 text-sm text-gray-300">
+                                        <input id="builderPrepareCache" type="checkbox" checked class="rounded border-white/20 bg-transparent text-[#4facfe] focus:ring-[#4facfe]">
+                                        Preparar Bunny automaticamente se o conteúdo não estiver disponível
+                                    </label>
+
+                                    <button id="builderGenerateBtn" class="btn-primary w-full py-3">
+                                        <i class="fa-solid fa-bolt mr-2"></i>Gerar link
+                                    </button>
+
+                                    <div id="builderStatus" class="hidden rounded-xl border p-4 text-sm"></div>
+                                </div>
+
+                                <div class="builder-card">
+                                    <div class="flex items-center justify-between gap-4 mb-3">
+                                        <h3 class="font-bold text-lg">Links gerados</h3>
+                                        <button id="builderCopyAllBtn" class="copy-link-btn hidden"><i class="fa-solid fa-copy mr-2"></i>Copiar tudo</button>
+                                    </div>
+                                    <div id="builderLinks" class="space-y-3 text-sm text-gray-400">
+                                        <div class="text-gray-500">Nenhum link gerado ainda.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
         </div>
@@ -570,6 +769,35 @@ Abra o bot e confira o que preparamos.</textarea>
         const logoutBtn = document.getElementById('logoutBtn');
         const sendBroadcastBtn = document.getElementById('sendBroadcastBtn');
         const previewBroadcastBtn = document.getElementById('previewBroadcastBtn');
+        const builderSearchInput = document.getElementById('builderSearchInput');
+        const builderSearchType = document.getElementById('builderSearchType');
+        const builderSearchBtn = document.getElementById('builderSearchBtn');
+        const builderClearBtn = document.getElementById('builderClearBtn');
+        const builderResults = document.getElementById('builderResults');
+        const builderSearchCount = document.getElementById('builderSearchCount');
+        const builderSelectedBox = document.getElementById('builderSelectedBox');
+        const builderSelectedHint = document.getElementById('builderSelectedHint');
+        const builderSelectedType = document.getElementById('builderSelectedType');
+        const builderUserId = document.getElementById('builderUserId');
+        const builderExpiresAt = document.getElementById('builderExpiresAt');
+        const builderPrepareCache = document.getElementById('builderPrepareCache');
+        const builderGenerateBtn = document.getElementById('builderGenerateBtn');
+        const builderStatus = document.getElementById('builderStatus');
+        const builderLinks = document.getElementById('builderLinks');
+        const builderCopyAllBtn = document.getElementById('builderCopyAllBtn');
+        const builderSeasonRow = document.getElementById('builderSeasonRow');
+        const builderEpisodeRow = document.getElementById('builderEpisodeRow');
+        const builderSeasonSelect = document.getElementById('builderSeasonSelect');
+        const builderEpisodeSelect = document.getElementById('builderEpisodeSelect');
+        const builderModeGroup = document.getElementById('builderModeGroup');
+
+        const builderState = {
+            items: [],
+            selected: null,
+            details: null,
+            mode: 'movie',
+            generated: []
+        };
 
         loginForm.addEventListener('submit', async (e) => {
             e.preventDefault();
@@ -620,6 +848,289 @@ Abra o bot e confira o que preparamos.</textarea>
                 const tabId = btn.dataset.tab + 'Tab';
                 document.getElementById(tabId).classList.remove('hidden');
             });
+        });
+
+        function setBuilderStatus(type, html) {
+            builderStatus.classList.remove('hidden', 'border-green-500/30', 'bg-green-500/5', 'text-green-300', 'border-red-500/30', 'bg-red-500/5', 'text-red-300', 'border-blue-500/30', 'bg-blue-500/5', 'text-blue-300');
+            if (type === 'success') {
+                builderStatus.classList.add('border-green-500/30', 'bg-green-500/5', 'text-green-300');
+            } else if (type === 'error') {
+                builderStatus.classList.add('border-red-500/30', 'bg-red-500/5', 'text-red-300');
+            } else {
+                builderStatus.classList.add('border-blue-500/30', 'bg-blue-500/5', 'text-blue-300');
+            }
+            builderStatus.innerHTML = html;
+        }
+
+        function getBuilderMode() {
+            const checked = document.querySelector('input[name="builderMode"]:checked');
+            return checked ? checked.value : 'movie';
+        }
+
+        function setBuilderMode(mode) {
+            builderState.mode = mode;
+            document.querySelectorAll('[data-mode-chip]').forEach((chip) => {
+                chip.classList.toggle('active', chip.dataset.modeChip === mode);
+            });
+
+            const hasDetails = !!builderState.details;
+            const isSeries = hasDetails && builderState.selected?.type === 'series';
+            builderSeasonRow.classList.toggle('hidden', !(isSeries && (mode === 'episode' || mode === 'season')));
+            builderEpisodeRow.classList.toggle('hidden', !(isSeries && mode === 'episode'));
+            builderModeGroup.classList.toggle('opacity-60', !builderState.selected);
+        }
+
+        function renderBuilderSelected() {
+            if (!builderState.selected) {
+                builderSelectedBox.innerHTML = 'Nenhum conteúdo selecionado.';
+                builderSelectedHint.textContent = 'Selecione um resultado para continuar.';
+                builderSelectedType.classList.add('hidden');
+                return;
+            }
+
+            const item = builderState.selected;
+            builderSelectedType.classList.remove('hidden');
+            builderSelectedType.textContent = String(item.type || '').toUpperCase();
+            builderSelectedHint.textContent = `${item.title} • ID ${item.id}`;
+
+            builderSelectedBox.innerHTML = `
+                <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+                    ${item.cover ? `<img src="${item.cover}" alt="${sanitize(item.title)}" class="w-20 h-28 object-cover rounded-xl border border-white/10">` : ''}
+                    <div class="flex-1">
+                        <div class="text-lg font-bold text-white">${sanitize(item.title)}</div>
+                        <div class="text-gray-400 text-xs mt-1">ID: ${sanitize(item.id)} • Tipo: ${sanitize(item.type)}</div>
+                        <div class="mt-2 text-xs text-gray-500">${builderState.details ? `Tem ${Object.keys(builderState.details.seasons || {}).length} temporada(s) disponíveis.` : 'Carregando detalhes...'}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderBuilderResults(items) {
+            builderState.items = items || [];
+            builderSearchCount.textContent = `${builderState.items.length} item(ns)`;
+
+            if (!builderState.items.length) {
+                builderResults.innerHTML = '<div class="text-gray-500 text-sm">Nenhum conteúdo encontrado.</div>';
+                return;
+            }
+
+            builderResults.innerHTML = builderState.items.map((item, index) => `
+                <button type="button" class="builder-result w-full text-left ${builderState.selected && String(builderState.selected.id) === String(item.id) && builderState.selected.type === item.type ? 'active' : ''}" data-builder-index="${index}">
+                    <div class="flex items-start gap-3">
+                        ${item.cover ? `<img src="${item.cover}" alt="${sanitize(item.title)}" class="w-12 h-16 object-cover rounded-lg border border-white/10 shrink-0">` : '<div class="w-12 h-16 rounded-lg bg-white/5 border border-white/10 shrink-0"></div>'}
+                        <div class="min-w-0 flex-1">
+                            <div class="font-semibold text-sm text-white truncate">${sanitize(item.title)}</div>
+                            <div class="text-xs text-gray-500 mt-1 flex items-center gap-2 flex-wrap">
+                                <span class="link-pill">${sanitize(item.type)}</span>
+                                <span>ID: ${sanitize(item.id)}</span>
+                            </div>
+                        </div>
+                    </div>
+                </button>
+            `).join('');
+
+            builderResults.querySelectorAll('[data-builder-index]').forEach((btn) => {
+                btn.addEventListener('click', async () => {
+                    const item = builderState.items[Number(btn.dataset.builderIndex)];
+                    if (!item) return;
+                    builderState.selected = item;
+                    builderState.details = null;
+                    renderBuilderResults(builderState.items);
+                    renderBuilderSelected();
+                    setBuilderStatus('info', 'Carregando detalhes do conteúdo...');
+                    try {
+                        const res = await fetch(`/api/admin/content/details?id=${encodeURIComponent(item.id)}&type=${encodeURIComponent(item.type === 'livetv' ? 'movies' : item.type)}`, {
+                            headers: { 'Authorization': `Bearer ${state.token}` }
+                        });
+                        const data = await res.json();
+                        if (!res.ok) throw new Error(data.error || 'Erro ao carregar detalhes');
+                        builderState.details = data.data;
+                        populateBuilderSelections();
+                        renderBuilderSelected();
+                        setBuilderStatus('success', 'Conteúdo carregado. Você já pode definir o tipo de link e a expiração.');
+                    } catch (err) {
+                        setBuilderStatus('error', sanitize(err.message));
+                    }
+                });
+            });
+        }
+
+        function populateBuilderSelections() {
+            const details = builderState.details;
+            if (!details || !details.seasons) {
+                builderSeasonSelect.innerHTML = '';
+                builderEpisodeSelect.innerHTML = '';
+                setBuilderMode(builderState.mode);
+                return;
+            }
+
+            const seasons = Object.keys(details.seasons);
+            builderSeasonSelect.innerHTML = seasons.map((season) => `<option value="${sanitize(season)}">Temporada ${sanitize(season)}</option>`).join('');
+
+            const renderEpisodes = () => {
+                const season = builderSeasonSelect.value || seasons[0];
+                const episodes = details.seasons[season] || details.seasons[String(season)] || [];
+                builderEpisodeSelect.innerHTML = episodes.map((ep, idx) => `<option value="${sanitize(ep.id)}">${idx + 1}. ${sanitize(ep.name || 'Episódio')}</option>`).join('');
+            };
+
+            builderSeasonSelect.onchange = renderEpisodes;
+            renderEpisodes();
+            setBuilderMode(builderState.mode);
+        }
+
+        async function searchBuilderContent() {
+            const q = builderSearchInput.value.trim();
+            const type = builderSearchType.value;
+            setBuilderStatus('info', 'Buscando conteúdo no catálogo...');
+
+            try {
+                const params = new URLSearchParams({ q, type, limit: '20' });
+                const res = await fetch(`/api/admin/content/search?${params.toString()}`, {
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.error || 'Erro ao pesquisar conteúdo');
+                renderBuilderResults(data.data || []);
+                if ((data.data || []).length === 0) {
+                    setBuilderStatus('info', 'Nenhum conteúdo encontrado. Tente outro termo.');
+                } else {
+                    setBuilderStatus('success', 'Conteúdo encontrado. Selecione um item para continuar.');
+                }
+            } catch (err) {
+                setBuilderStatus('error', sanitize(err.message));
+            }
+        }
+
+        function buildBuilderPayload() {
+            const selected = builderState.selected;
+            if (!selected) throw new Error('Selecione um conteúdo antes de gerar o link.');
+
+            const userId = parseInt(builderUserId.value, 10);
+            if (!Number.isFinite(userId) || userId <= 0) throw new Error('Informe um ID de usuário válido.');
+
+            const expiresAt = builderExpiresAt.value ? new Date(builderExpiresAt.value).toISOString() : null;
+            if (!expiresAt) throw new Error('Defina uma data de expiração.');
+
+            const mode = getBuilderMode();
+            const payload = {
+                userId,
+                contentId: String(selected.id),
+                sourceType: selected.type === 'livetv' ? 'movies' : selected.type,
+                contentType: mode,
+                expiresAt,
+                prepareCache: !!builderPrepareCache.checked
+            };
+
+            if (mode === 'episode') {
+                payload.season = builderSeasonSelect.value;
+                payload.episodeId = builderEpisodeSelect.value;
+            } else if (mode === 'season') {
+                payload.season = builderSeasonSelect.value;
+            }
+
+            return payload;
+        }
+
+        function renderGeneratedLinks(result) {
+            builderState.generated = result.links || [];
+            builderLinks.innerHTML = '';
+
+            if (!builderState.generated.length) {
+                builderLinks.innerHTML = '<div class="text-gray-500">Nenhum link gerado.</div>';
+                builderCopyAllBtn.classList.add('hidden');
+                return;
+            }
+
+            builderCopyAllBtn.classList.remove('hidden');
+            builderLinks.innerHTML = builderState.generated.map((link, index) => `
+                <div class="builder-result">
+                    <div class="flex flex-col gap-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2">
+                            <div class="font-semibold text-white">${sanitize(link.episodeName || result.contentTitle || 'Link')}</div>
+                            <span class="link-pill">${sanitize(link.mediaType)} • ${sanitize(link.cacheStrategy || 'origin')}</span>
+                        </div>
+                        <div class="text-xs text-gray-500 break-all">${sanitize(link.playerUrl)}</div>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="copy-link-btn" data-copy-link="${index}"><i class="fa-solid fa-copy mr-2"></i>Copiar link</button>
+                            <a class="copy-link-btn" href="${sanitize(link.playerUrl)}" target="_blank" rel="noopener">Abrir</a>
+                            ${link.storagePath ? `<span class="link-pill">Bunny: ${sanitize(link.storagePath)}</span>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            builderLinks.querySelectorAll('[data-copy-link]').forEach((btn) => {
+                btn.addEventListener('click', async () => {
+                    const item = builderState.generated[Number(btn.dataset.copyLink)];
+                    if (!item) return;
+                    await navigator.clipboard.writeText(item.playerUrl);
+                    btn.innerHTML = '<i class="fa-solid fa-check mr-2"></i>Copiado';
+                    setTimeout(() => { btn.innerHTML = '<i class="fa-solid fa-copy mr-2"></i>Copiar link'; }, 1200);
+                });
+            });
+        }
+
+        builderSearchBtn.addEventListener('click', searchBuilderContent);
+        builderClearBtn.addEventListener('click', () => {
+            builderSearchInput.value = '';
+            builderResults.innerHTML = '<div class="text-gray-500 text-sm">Use a busca para encontrar conteúdo.</div>';
+            builderSearchCount.textContent = '0 itens';
+            builderState.selected = null;
+            builderState.details = null;
+            builderState.generated = [];
+            builderSelectedBox.innerHTML = 'Nenhum conteúdo selecionado.';
+            builderSelectedHint.textContent = 'Selecione um resultado para continuar.';
+            builderSelectedType.classList.add('hidden');
+            builderLinks.innerHTML = '<div class="text-gray-500">Nenhum link gerado ainda.</div>';
+            builderStatus.classList.add('hidden');
+            builderCopyAllBtn.classList.add('hidden');
+            builderSeasonSelect.innerHTML = '';
+            builderEpisodeSelect.innerHTML = '';
+            setBuilderMode('movie');
+        });
+
+        document.querySelectorAll('input[name="builderMode"]').forEach((radio) => {
+            radio.addEventListener('change', () => setBuilderMode(radio.value));
+        });
+
+        builderGenerateBtn.addEventListener('click', async () => {
+            if (!state.token) return;
+            try {
+                const payload = buildBuilderPayload();
+                builderGenerateBtn.disabled = true;
+                builderGenerateBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Gerando...';
+
+                const res = await fetch('/api/admin/content-link', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${state.token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(payload)
+                });
+
+                const data = await res.json().catch(() => ({}));
+                if (!res.ok) throw new Error(data.error || 'Falha ao gerar link');
+
+                renderGeneratedLinks(data);
+                setBuilderStatus('success', `Link criado com sucesso. ${data.totalLinks} link(s) gerado(s) até agora.`);
+            } catch (err) {
+                setBuilderStatus('error', sanitize(err.message));
+            } finally {
+                builderGenerateBtn.disabled = false;
+                builderGenerateBtn.innerHTML = '<i class="fa-solid fa-bolt mr-2"></i>Gerar link';
+            }
+        });
+
+        builderCopyAllBtn.addEventListener('click', async () => {
+            const text = builderState.generated.map((item) => item.playerUrl).join('\n');
+            await navigator.clipboard.writeText(text);
+            builderCopyAllBtn.innerHTML = '<i class="fa-solid fa-check mr-2"></i>Copiado';
+            setTimeout(() => { builderCopyAllBtn.innerHTML = '<i class="fa-solid fa-copy mr-2"></i>Copiar tudo'; }, 1200);
+        });
+
+        builderSearchInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') searchBuilderContent();
         });
 
         // Load users
