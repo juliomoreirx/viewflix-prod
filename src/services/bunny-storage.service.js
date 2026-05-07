@@ -62,7 +62,12 @@ class BunnyStorageService {
         headers: { AccessKey: this.storageKey }
       });
 
-      if (response.ok) return true;
+      // Only consider the file present if HEAD succeeds and there's a non-empty content-length.
+      if (response.ok) {
+        const contentLength = Number(response.headers.get('content-length') || '0');
+        if (contentLength > 0) return true;
+        // If content-length is missing or zero, fall back to listing to be safer.
+      }
       if (response.status === 404) return false;
     } catch (error) {
       this.logger.warn({ msg: 'bunny-exists-head-failed', error: error.message, remotePath });
