@@ -8,6 +8,7 @@ const purchasedContentSchema = new mongoose.Schema({
   episodeName: { type: String },
   season: { type: String },
   seriesId: { type: String },
+  accessGroupId: { type: String, index: true },
   episodeIndex: { type: Number },
   totalEpisodes: { type: Number },
   purchaseDate: { type: Date, default: Date.now, index: true },

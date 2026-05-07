@@ -57,6 +57,11 @@ const linkStatusSchema = z.object({
   token: z.string().trim().min(20)
 });
 
+const revokeLinkSchema = z.object({
+  token: z.string().trim().min(20),
+  revokeGroup: z.coerce.boolean().optional().default(true)
+});
+
 function formatSearchItem(item, sourceType) {
   return {
     id: String(item.id),
@@ -84,6 +89,8 @@ function buildAccessToken({ userId, videoId, mediaType, expiresAt }) {
 }
 
 function formatLinkStatus(purchase, { bunnyConfigured = false } = {}) {
+  const now = Date.now();
+  const isRevoked = purchase.expiresAt ? new Date(purchase.expiresAt).getTime() <= now : false;
   const cacheStatus = purchase.cacheStatus || (purchase.storagePath && bunnyConfigured ? 'ready' : 'origin');
   const cacheProgress = Number.isFinite(purchase.cacheProgress) ? purchase.cacheProgress : 0;
 
@@ -99,9 +106,44 @@ function formatLinkStatus(purchase, { bunnyConfigured = false } = {}) {
     cacheStatus,
     cacheProgress,
     storagePath: purchase.storagePath || null,
+    accessGroupId: purchase.accessGroupId || null,
     playerUrl: `${String(env.DOMINIO_PUBLICO || '').replace(/\/$/, '')}/player/${purchase.token}`,
     ready: cacheStatus === 'ready',
-    queued: cacheStatus === 'pending' || cacheStatus === 'uploading'
+    queued: cacheStatus === 'pending' || cacheStatus === 'uploading',
+    revoked: isRevoked
+  };
+}
+
+function summarizeGroupStatus(items = []) {
+  const list = Array.isArray(items) ? items : [];
+  if (!list.length) {
+    return {
+      cacheStatus: 'origin',
+      cacheProgress: 0,
+      revoked: false,
+      totalItems: 0,
+      readyItems: 0
+    };
+  }
+
+  const progressAvg = Math.round(list.reduce((acc, item) => acc + (Number.isFinite(item.cacheProgress) ? item.cacheProgress : 0), 0) / list.length);
+  const revokedCount = list.filter((item) => item.revoked).length;
+  const failedCount = list.filter((item) => item.cacheStatus === 'failed').length;
+  const queuedCount = list.filter((item) => item.cacheStatus === 'pending' || item.cacheStatus === 'uploading').length;
+  const readyCount = list.filter((item) => item.cacheStatus === 'ready').length;
+
+  let cacheStatus = 'origin';
+  if (revokedCount === list.length) cacheStatus = 'revoked';
+  else if (failedCount > 0) cacheStatus = 'failed';
+  else if (queuedCount > 0) cacheStatus = 'pending';
+  else if (readyCount === list.length) cacheStatus = 'ready';
+
+  return {
+    cacheStatus,
+    cacheProgress: progressAvg,
+    revoked: revokedCount > 0,
+    totalItems: list.length,
+    readyItems: readyCount
   };
 }
 
@@ -512,6 +554,7 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
   const baseUrl = String(env.DOMINIO_PUBLICO || '').replace(/\/$/, '');
   const now = new Date();
   const responseItems = [];
+  const accessGroupId = require('crypto').randomBytes(12).toString('hex');
 
   const createPurchase = async ({ videoId, episodeName = null, mediaType = contentType === 'movie' ? 'movie' : 'series', episodeIndex = null, totalEpisodes = null }) => {
     const token = buildAccessToken({ userId: user.userId, videoId, mediaType, expiresAt: expirationDate });
@@ -527,6 +570,7 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
       seriesId: sourceType === 'series' ? String(contentId) : undefined,
       episodeIndex: Number.isFinite(episodeIndex) ? episodeIndex : undefined,
       totalEpisodes: Number.isFinite(totalEpisodes) ? totalEpisodes : undefined,
+      accessGroupId,
       purchaseDate: now,
       expiresAt: expirationDate,
       token,
@@ -548,6 +592,7 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
       cacheStatus: cacheResult.cacheStatus,
       cacheStrategy: cacheResult.cacheStrategy,
       storagePath: cacheResult.storagePath,
+      accessGroupId,
       expiresAt: expirationDate.toISOString()
     });
 
@@ -590,17 +635,23 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
     }
   }
 
+  const visibleLinks = contentType === 'season' ? responseItems.slice(0, 1) : responseItems;
+
   return res.json({
     success: true,
+    groupId: accessGroupId,
     userId: user.userId,
     contentTitle: seriesTitle,
     contentType,
+    season: seasonKey || null,
     sourceType,
     expiresAt: expirationDate.toISOString(),
     prepareCache,
-    links: responseItems,
+    links: visibleLinks,
+    hiddenLinks: Math.max(0, responseItems.length - visibleLinks.length),
+    totalItems: responseItems.length,
     primaryLink: responseItems[0]?.playerUrl || null,
-    totalLinks: responseItems.length
+    totalLinks: visibleLinks.length
   });
 }));
 
@@ -617,9 +668,63 @@ router.get('/api/admin/content-link/status', adminAuth, asyncHandler(async (req,
     return res.status(404).json({ error: 'Link não encontrado' });
   }
 
+  const groupFilter = purchase.accessGroupId
+    ? { accessGroupId: purchase.accessGroupId, userId: purchase.userId }
+    : { token: purchase.token, userId: purchase.userId };
+
+  const groupPurchases = await PurchasedContent.find(groupFilter)
+    .sort({ episodeIndex: 1, purchaseDate: 1 })
+    .select('token userId videoId title episodeName mediaType season expiresAt cacheStatus cacheProgress storagePath accessGroupId')
+    .lean();
+
+  const formatted = groupPurchases.map((item) => formatLinkStatus(item, { bunnyConfigured }));
+  const summary = summarizeGroupStatus(formatted);
+  const primary = formatted.find((item) => String(item.token) === String(purchase.token)) || formatted[0] || formatLinkStatus(purchase, { bunnyConfigured });
+
   return res.json({
     success: true,
-    data: formatLinkStatus(purchase, { bunnyConfigured })
+    data: {
+      ...primary,
+      ...summary,
+      groupId: purchase.accessGroupId || null,
+      links: formatted
+    }
+  });
+}));
+
+router.post('/api/admin/content-link/revoke', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = revokeLinkSchema.safeParse(req.body);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Dados inválidos', details: parsed.error.flatten() });
+  }
+
+  const { PurchasedContent } = req.app.locals.models;
+  const { token, revokeGroup } = parsed.data;
+  const purchase = await PurchasedContent.findOne({ token });
+
+  if (!purchase) {
+    return res.status(404).json({ error: 'Link não encontrado' });
+  }
+
+  const now = new Date();
+  const filter = (revokeGroup && purchase.accessGroupId)
+    ? { accessGroupId: purchase.accessGroupId, userId: purchase.userId }
+    : { token: purchase.token, userId: purchase.userId };
+
+  const updateResult = await PurchasedContent.updateMany(filter, {
+    $set: {
+      expiresAt: now,
+      cacheUpdatedAt: now
+    }
+  });
+
+  return res.json({
+    success: true,
+    token,
+    groupId: purchase.accessGroupId || null,
+    revokeGroup: !!(revokeGroup && purchase.accessGroupId),
+    revokedCount: updateResult.modifiedCount || 0,
+    revokedAt: now.toISOString()
   });
 }));
 
