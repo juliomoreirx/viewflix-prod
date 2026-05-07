@@ -54,6 +54,10 @@ const createLinkSchema = z.object({
   prepareCache: z.coerce.boolean().optional().default(true)
 });
 
+const linkStatusSchema = z.object({
+  token: z.string().trim().min(20)
+});
+
 function formatSearchItem(item, sourceType) {
   return {
     id: String(item.id),
@@ -74,6 +78,28 @@ function buildAccessToken({ userId, videoId, mediaType, expiresAt }) {
     },
     env.JWT_SECRET
   );
+}
+
+function formatLinkStatus(purchase, { bunnyConfigured = false } = {}) {
+  const cacheStatus = purchase.cacheStatus || (purchase.storagePath && bunnyConfigured ? 'ready' : 'origin');
+  const cacheProgress = Number.isFinite(purchase.cacheProgress) ? purchase.cacheProgress : 0;
+
+  return {
+    token: purchase.token,
+    userId: purchase.userId,
+    videoId: purchase.videoId,
+    title: purchase.title,
+    episodeName: purchase.episodeName || null,
+    mediaType: purchase.mediaType,
+    season: purchase.season || null,
+    expiresAt: purchase.expiresAt ? new Date(purchase.expiresAt).toISOString() : null,
+    cacheStatus,
+    cacheProgress,
+    storagePath: purchase.storagePath || null,
+    playerUrl: `${String(env.DOMINIO_PUBLICO || '').replace(/\/$/, '')}/player/${purchase.token}`,
+    ready: cacheStatus === 'ready',
+    queued: cacheStatus === 'pending' || cacheStatus === 'uploading'
+  };
 }
 
 async function ensureAdminTestUser(User, userId) {
@@ -100,13 +126,15 @@ async function ensureAdminTestUser(User, userId) {
 }
 
 async function ensureBunnyCacheForPurchase(purchase, { skipCache = false } = {}) {
-  if (skipCache) {
+  if (purchase.isNew) {
     await purchase.save();
+  }
+
+  if (skipCache) {
     return { cacheStatus: null, cacheStrategy: 'skipped', storagePath: null };
   }
 
   if (!bunnyStorage.isConfigured()) {
-    await purchase.save();
     return { cacheStatus: null, cacheStrategy: 'origin', storagePath: null };
   }
 
@@ -546,6 +574,25 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
     links: responseItems,
     primaryLink: responseItems[0]?.playerUrl || null,
     totalLinks: responseItems.length
+  });
+}));
+
+router.get('/api/admin/content-link/status', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = linkStatusSchema.safeParse(req.query);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+  }
+
+  const { PurchasedContent } = req.app.locals.models;
+  const bunnyConfigured = bunnyStorage.isConfigured?.() || false;
+  const purchase = await PurchasedContent.findOne({ token: parsed.data.token });
+  if (!purchase) {
+    return res.status(404).json({ error: 'Link não encontrado' });
+  }
+
+  return res.json({
+    success: true,
+    data: formatLinkStatus(purchase, { bunnyConfigured })
   });
 }));
 

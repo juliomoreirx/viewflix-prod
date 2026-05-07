@@ -624,7 +624,6 @@ Abra o bot e confira o que preparamos.</textarea>
                                             <option value="all">Todos</option>
                                             <option value="movies">Filmes</option>
                                             <option value="series">Séries</option>
-                                            <option value="livetv">Ao vivo</option>
                                         </select>
                                     </div>
                                     <div class="mt-3 flex gap-3">
@@ -715,10 +714,23 @@ Abra o bot e confira o que preparamos.</textarea>
                                 <div class="builder-card">
                                     <div class="flex items-center justify-between gap-4 mb-3">
                                         <h3 class="font-bold text-lg">Links gerados</h3>
-                                        <button id="builderCopyAllBtn" class="copy-link-btn hidden"><i class="fa-solid fa-copy mr-2"></i>Copiar tudo</button>
+                                        <div class="flex items-center gap-2">
+                                            <button id="builderRefreshStatusBtn" class="copy-link-btn hidden"><i class="fa-solid fa-rotate mr-2"></i>Atualizar status</button>
+                                            <button id="builderCopyAllBtn" class="copy-link-btn hidden"><i class="fa-solid fa-copy mr-2"></i>Copiar tudo</button>
+                                        </div>
                                     </div>
                                     <div id="builderLinks" class="space-y-3 text-sm text-gray-400">
                                         <div class="text-gray-500">Nenhum link gerado ainda.</div>
+                                    </div>
+                                </div>
+
+                                <div class="builder-card">
+                                    <div class="flex items-center justify-between gap-4 mb-3">
+                                        <h3 class="font-bold text-lg">Status de preparação</h3>
+                                        <span id="builderStatusSummary" class="text-xs text-gray-500">0 ativo(s)</span>
+                                    </div>
+                                    <div id="builderLiveStatus" class="space-y-2 text-sm text-gray-400">
+                                        <div class="text-gray-500">Nenhum link para acompanhar.</div>
                                     </div>
                                 </div>
                             </div>
@@ -785,6 +797,9 @@ Abra o bot e confira o que preparamos.</textarea>
         const builderStatus = document.getElementById('builderStatus');
         const builderLinks = document.getElementById('builderLinks');
         const builderCopyAllBtn = document.getElementById('builderCopyAllBtn');
+        const builderRefreshStatusBtn = document.getElementById('builderRefreshStatusBtn');
+        const builderLiveStatus = document.getElementById('builderLiveStatus');
+        const builderStatusSummary = document.getElementById('builderStatusSummary');
         const builderSeasonRow = document.getElementById('builderSeasonRow');
         const builderEpisodeRow = document.getElementById('builderEpisodeRow');
         const builderSeasonSelect = document.getElementById('builderSeasonSelect');
@@ -796,8 +811,126 @@ Abra o bot e confira o que preparamos.</textarea>
             selected: null,
             details: null,
             mode: 'movie',
-            generated: []
+            generated: [],
+            pollTimer: null
         };
+
+        function setBuilderPanelVisibility() {
+            const hasLinks = builderState.generated.length > 0;
+            builderCopyAllBtn.classList.toggle('hidden', !hasLinks);
+            builderRefreshStatusBtn.classList.toggle('hidden', !hasLinks);
+        }
+
+        function builderStatusBadge(status) {
+            if (status === 'ready' || status === 'cached') return 'bg-green-500/10 text-green-300 border-green-500/30';
+            if (status === 'pending' || status === 'uploading' || status === 'queued') return 'bg-amber-500/10 text-amber-300 border-amber-500/30';
+            if (status === 'failed') return 'bg-red-500/10 text-red-300 border-red-500/30';
+            return 'bg-blue-500/10 text-blue-300 border-blue-500/30';
+        }
+
+        function builderStatusLabel(status) {
+            switch (status) {
+                case 'ready': return 'Pronto';
+                case 'cached': return 'No Bunny';
+                case 'pending': return 'Pendente';
+                case 'uploading': return 'Enviando';
+                case 'queued': return 'Na fila';
+                case 'failed': return 'Falhou';
+                default: return 'Origin';
+            }
+        }
+
+        function renderBuilderLiveStatus(items = builderState.generated) {
+            const list = Array.isArray(items) ? items : [];
+            const active = list.length;
+            builderStatusSummary.textContent = `${active} ativo(s)`;
+            builderLiveStatus.innerHTML = '';
+
+            if (!list.length) {
+                builderLiveStatus.innerHTML = '<div class="text-gray-500">Nenhum link para acompanhar.</div>';
+                return;
+            }
+
+            builderLiveStatus.innerHTML = list.map((item, index) => `
+                <div class="builder-result" data-status-token="${sanitize(item.token || '')}">
+                    <div class="flex flex-col gap-3">
+                        <div class="flex items-center justify-between gap-2 flex-wrap">
+                            <div class="font-semibold text-white truncate">${sanitize(item.episodeName || item.contentTitle || item.title || 'Link')}</div>
+                            <span class="link-pill ${builderStatusBadge(item.cacheStatus)}">${builderStatusLabel(item.cacheStatus)} ${typeof item.cacheProgress === 'number' ? `• ${item.cacheProgress}%` : ''}</span>
+                        </div>
+                        <div class="text-xs text-gray-500 break-all">${sanitize(item.playerUrl || '')}</div>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="copy-link-btn" data-copy-link="${index}"><i class="fa-solid fa-copy mr-2"></i>Copiar link</button>
+                            <a class="copy-link-btn" href="${sanitize(item.playerUrl || '#')}" target="_blank" rel="noopener">Abrir</a>
+                            <button class="copy-link-btn" data-refresh-link="${index}"><i class="fa-solid fa-rotate mr-2"></i>Atualizar</button>
+                            ${item.storagePath ? `<span class="link-pill">Bunny: ${sanitize(item.storagePath)}</span>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            builderLiveStatus.querySelectorAll('[data-copy-link]').forEach((btn) => {
+                btn.addEventListener('click', async () => {
+                    const item = builderState.generated[Number(btn.dataset.copyLink)];
+                    if (!item) return;
+                    await navigator.clipboard.writeText(item.playerUrl);
+                    btn.innerHTML = '<i class="fa-solid fa-check mr-2"></i>Copiado';
+                    setTimeout(() => { btn.innerHTML = '<i class="fa-solid fa-copy mr-2"></i>Copiar link'; }, 1200);
+                });
+            });
+
+            builderLiveStatus.querySelectorAll('[data-refresh-link]').forEach((btn) => {
+                btn.addEventListener('click', async () => {
+                    await refreshSingleStatus(builderState.generated[Number(btn.dataset.refreshLink)]?.token);
+                });
+            });
+        }
+
+        async function refreshSingleStatus(token) {
+            if (!token || !state.token) return null;
+            try {
+                const res = await fetch(`/api/admin/content-link/status?token=${encodeURIComponent(token)}`, {
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+                const data = await res.json().catch(() => ({}));
+                if (!res.ok) throw new Error(data.error || 'Erro ao consultar status');
+
+                const idx = builderState.generated.findIndex((item) => String(item.token) === String(token));
+                if (idx >= 0) {
+                    builderState.generated[idx] = { ...builderState.generated[idx], ...data.data };
+                    renderGeneratedLinks({ links: builderState.generated, contentTitle: builderState.selected?.title || '' });
+                }
+                return data.data;
+            } catch (err) {
+                setBuilderStatus('error', sanitize(err.message));
+                return null;
+            }
+        }
+
+        async function refreshAllStatuses() {
+            const pending = builderState.generated.filter((item) => ['pending', 'uploading', 'queued'].includes(item.cacheStatus));
+            if (!pending.length) {
+                renderBuilderLiveStatus();
+                return;
+            }
+
+            await Promise.all(pending.map((item) => refreshSingleStatus(item.token)));
+            renderBuilderLiveStatus();
+        }
+
+        function startBuilderPolling() {
+            if (builderState.pollTimer) clearInterval(builderState.pollTimer);
+            const hasPending = builderState.generated.some((item) => ['pending', 'uploading', 'queued'].includes(item.cacheStatus));
+            if (!hasPending) return;
+
+            builderState.pollTimer = setInterval(async () => {
+                await refreshAllStatuses();
+                if (!builderState.generated.some((item) => ['pending', 'uploading', 'queued'].includes(item.cacheStatus))) {
+                    clearInterval(builderState.pollTimer);
+                    builderState.pollTimer = null;
+                }
+            }, 5000);
+        }
 
         loginForm.addEventListener('submit', async (e) => {
             e.preventDefault();
@@ -1037,11 +1170,12 @@ Abra o bot e confira o que preparamos.</textarea>
 
             if (!builderState.generated.length) {
                 builderLinks.innerHTML = '<div class="text-gray-500">Nenhum link gerado.</div>';
-                builderCopyAllBtn.classList.add('hidden');
+                setBuilderPanelVisibility();
+                renderBuilderLiveStatus([]);
                 return;
             }
 
-            builderCopyAllBtn.classList.remove('hidden');
+            setBuilderPanelVisibility();
             builderLinks.innerHTML = builderState.generated.map((link, index) => `
                 <div class="builder-result">
                     <div class="flex flex-col gap-3">
@@ -1068,6 +1202,9 @@ Abra o bot e confira o que preparamos.</textarea>
                     setTimeout(() => { btn.innerHTML = '<i class="fa-solid fa-copy mr-2"></i>Copiar link'; }, 1200);
                 });
             });
+
+            renderBuilderLiveStatus(builderState.generated);
+            startBuilderPolling();
         }
 
         builderSearchBtn.addEventListener('click', searchBuilderContent);
@@ -1084,8 +1221,15 @@ Abra o bot e confira o que preparamos.</textarea>
             builderLinks.innerHTML = '<div class="text-gray-500">Nenhum link gerado ainda.</div>';
             builderStatus.classList.add('hidden');
             builderCopyAllBtn.classList.add('hidden');
+            builderRefreshStatusBtn.classList.add('hidden');
+            builderStatusSummary.textContent = '0 ativo(s)';
+            builderLiveStatus.innerHTML = '<div class="text-gray-500">Nenhum link para acompanhar.</div>';
             builderSeasonSelect.innerHTML = '';
             builderEpisodeSelect.innerHTML = '';
+            if (builderState.pollTimer) {
+                clearInterval(builderState.pollTimer);
+                builderState.pollTimer = null;
+            }
             setBuilderMode('movie');
         });
 
@@ -1128,6 +1272,8 @@ Abra o bot e confira o que preparamos.</textarea>
             builderCopyAllBtn.innerHTML = '<i class="fa-solid fa-check mr-2"></i>Copiado';
             setTimeout(() => { builderCopyAllBtn.innerHTML = '<i class="fa-solid fa-copy mr-2"></i>Copiar tudo'; }, 1200);
         });
+
+        builderRefreshStatusBtn.addEventListener('click', refreshAllStatuses);
 
         builderSearchInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter') searchBuilderContent();
