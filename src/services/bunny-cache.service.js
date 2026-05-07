@@ -126,6 +126,37 @@ function getExpirationHours(mediaType) {
   return mediaType === 'series' ? 7 * 24 : 24;
 }
 
+// Valida se o arquivo é um vídeo válido checando magic bytes
+async function isValidVideoFile(filePath) {
+  try {
+    const fd = await fsp.open(filePath, 'r');
+    const buffer = Buffer.alloc(16);
+    await fd.read(buffer, 0, 16, 0);
+    await fd.close();
+
+    // MP4 magic bytes: 00 00 00 XX 66 74 79 70 (ftyp box)
+    if (buffer[4] === 0x66 && buffer[5] === 0x74 && buffer[6] === 0x79 && buffer[7] === 0x70) {
+      return true;
+    }
+    // MPEG-TS magic byte: 47 (common for .ts files)
+    if (buffer[0] === 0x47) {
+      return true;
+    }
+    // Matroska (MKV) magic: 1A 45 DF A3
+    if (buffer[0] === 0x1a && buffer[1] === 0x45 && buffer[2] === 0xdf && buffer[3] === 0xa3) {
+      return true;
+    }
+    // WebM magic: 1A 45 DF A3 (same as MKV)
+    // FLV magic: 46 4C 56 01 (FLV header)
+    if (buffer[0] === 0x46 && buffer[1] === 0x4c && buffer[2] === 0x56) {
+      return true;
+    }
+    return false;
+  } catch (error) {
+    return false;
+  }
+}
+
 class BunnyCacheService {
   constructor() {
     this.queue = [];
@@ -260,6 +291,8 @@ class BunnyCacheService {
       const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
 
       let lastProgressAt = Date.now();
+      let downloadedBytes = 0;
+      let lastProgressPercent = 0;
       const stallTimeoutMs = parseInt(env.BUNNY_CACHE_STALL_MS || '90000', 10);
 
       stallTimer = setInterval(() => {
@@ -273,8 +306,25 @@ class BunnyCacheService {
         logDebug({ stage: 'download-stream-error', attempt, error: err.message });
       });
 
-      downloadResponse.data.on('data', () => {
+      downloadResponse.data.on('data', (chunk) => {
         lastProgressAt = Date.now();
+        downloadedBytes += chunk.length;
+        
+        // Calculate and report download progress
+        if (contentLength && typeof onProgress === 'function') {
+          const percent = Math.min(Math.round((downloadedBytes / contentLength) * 100), 99); // Cap at 99% until upload starts
+          // Only report every 5% to avoid excessive DB updates
+          if (percent >= lastProgressPercent + 5 || percent === 99) {
+            lastProgressPercent = percent;
+            onProgress({ 
+              percent, 
+              downloadedBytes, 
+              totalBytes: contentLength,
+              stage: 'downloading'
+            });
+            logDebug({ stage: 'download-progress', percent, downloadedBytes, contentLength });
+          }
+        }
       });
 
       tempFile = buildTempFilePath(purchase);
@@ -346,6 +396,13 @@ class BunnyCacheService {
         throw new Error(`download_incomplete_after_retries expected=${contentLength} actual=${localSize}`);
       }
 
+      // Validate file format by checking magic bytes
+      const isValid = await isValidVideoFile(tempFile);
+      if (!isValid) {
+        logDebug({ stage: 'invalid-video-format', tempFile, size: localSize });
+        throw new Error('download_invalid_video_format');
+      }
+
       // Perform upload and update DB only after upload callbacks complete.
       let lastPercent = 0;
       await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
@@ -364,7 +421,10 @@ class BunnyCacheService {
         }
 
         if (typeof onProgress === 'function') {
-          onProgress(progress);
+          onProgress({ 
+            ...progress,
+            stage: 'uploading'
+          });
         }
       });
 

@@ -1350,7 +1350,20 @@ bot.onText(/\/requeue_(.+)/, async (msg, match) => {
       }
     });
 
-    bunnyCacheService.enqueue(purchase);
+    bunnyCacheService.enqueue(purchase, {
+      onProgress: ({ percent, stage }) => {
+        cacheProgressByToken.set(purchase._id.toString(), percent);
+      },
+      onReady: ({ storagePath }) => {
+        // Send success message with video link
+        enviarVideoComLink(chatId, purchase.token, purchase.title || 'Conteúdo', 0, purchase.title || 'Conteúdo', purchase.mediaType).catch((err) => {
+          console.error('Erro ao enviar link após requeue:', err);
+        });
+      },
+      onError: (error) => {
+        notificarFalhaCacheAoUsuario(chatId, purchase);
+      }
+    });
 
     await bot.sendMessage(
       chatId,

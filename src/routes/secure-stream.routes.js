@@ -156,9 +156,43 @@ router.get(
         });
       }
 
-      const bunnyUrl = bunnyStorage.getSignedPullZoneUrl(purchase.storagePath);
-      if (bunnyUrl) {
-        return res.redirect(302, bunnyUrl);
+      try {
+        // Verify file exists on Bunny before redirecting
+        const remoteSize = await bunnyStorage.getContentLength(purchase.storagePath).catch(() => null);
+        if (remoteSize && remoteSize > 0) {
+          const bunnyUrl = bunnyStorage.getSignedPullZoneUrl(purchase.storagePath);
+          if (bunnyUrl) {
+            logger.info({
+              msg: 'stream-secure redirecting to bunny',
+              requestId: req.requestId,
+              userId,
+              videoId,
+              storagePath: purchase.storagePath,
+              remoteSize,
+              bunnyUrl: bunnyUrl.replace(/token=[^&]*/, 'token=***') // mask token for logs
+            });
+            return res.redirect(302, bunnyUrl);
+          }
+        } else {
+          // File not accessible on Bunny, fall through to origin
+          logger.warn({
+            msg: 'stream-secure bunny file not accessible',
+            requestId: req.requestId,
+            userId,
+            videoId,
+            storagePath: purchase.storagePath,
+            remoteSize
+          });
+        }
+      } catch (err) {
+        // If we can't verify Bunny file, fall through to origin
+        logger.warn({
+          msg: 'stream-secure bunny verification failed',
+          requestId: req.requestId,
+          userId,
+          videoId,
+          error: err.message
+        });
       }
     }
 

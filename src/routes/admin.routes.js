@@ -267,7 +267,17 @@ async function ensureBunnyCacheForPurchase(purchase, { skipCache = false } = {})
     }
   });
 
-  bunnyCacheService.enqueue(purchase);
+  bunnyCacheService.enqueue(purchase, {
+    onProgress: ({ percent }) => {
+      // onProgress will update cacheProgress in DB
+    },
+    onReady: ({ storagePath }) => {
+      // onReady will update cacheStatus and cacheReadyAt in DB
+    },
+    onError: (error) => {
+      // onError will update cacheStatus and cacheError in DB
+    }
+  });
   return { cacheStatus: 'pending', cacheStrategy: 'queued', storagePath };
 }
 
