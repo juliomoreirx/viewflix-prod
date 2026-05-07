@@ -84,6 +84,23 @@ class BunnyStorageService {
     }
   }
 
+  async getContentLength(remotePath) {
+    if (!this.storageKey || !this.storageName) return null;
+    const url = this.getStorageUrl(remotePath);
+    try {
+      const response = await fetch(url, {
+        method: 'HEAD',
+        headers: { AccessKey: this.storageKey }
+      });
+      if (!response.ok) return null;
+      const cl = Number(response.headers.get('content-length') || '0');
+      return Number.isFinite(cl) && cl > 0 ? cl : null;
+    } catch (err) {
+      this.logger.warn({ msg: 'bunny-get-content-length-failed', error: err.message, remotePath });
+      return null;
+    }
+  }
+
   async list(path = '') {
     if (!this.storageKey || !this.storageName) return [];
     const normalized = normalizePath(path);

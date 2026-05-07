@@ -807,4 +807,39 @@ router.post('/api/admin/content-link/revoke', adminAuth, asyncHandler(async (req
   });
 }));
 
+router.post('/api/admin/content-link/requeue', adminAuth, asyncHandler(async (req, res) => {
+  const { token, group } = req.body || {};
+  if (!token && !group) {
+    return res.status(400).json({ error: 'token or group required' });
+  }
+
+  const { PurchasedContent } = req.app.locals.models;
+  let filter;
+  if (group) {
+    filter = { accessGroupId: group };
+  } else {
+    filter = { token };
+  }
+
+  const purchases = await PurchasedContent.find(filter).lean();
+  if (!purchases || purchases.length === 0) {
+    return res.status(404).json({ error: 'Purchases not found' });
+  }
+
+  // enqueue each purchase for retry
+  const bunny = require('../services/bunny-cache.service');
+  let queued = 0;
+  for (const p of purchases) {
+    // need a mongoose document; fetch full doc
+    const doc = await PurchasedContent.findOne({ _id: p._id });
+    if (doc) {
+      await doc.updateOne({ $set: { cacheStatus: 'pending', cacheProgress: 0, cacheUpdatedAt: new Date(), cacheError: null } });
+      bunny.enqueue(doc);
+      queued += 1;
+    }
+  }
+
+  return res.json({ success: true, queued });
+}));
+
 module.exports = router;

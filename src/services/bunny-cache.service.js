@@ -311,14 +311,21 @@ class BunnyCacheService {
         }
       });
 
+      // capture local file size before removing
+      let localSize = 0;
+      try {
+        const s = await fsp.stat(tempFile);
+        localSize = Number(s.size || 0);
+      } catch (e) {
+        localSize = 0;
+      }
+
       // ensure temp file is removed
       await fsp.unlink(tempFile).catch(() => {});
 
-      // Confirm upload result by checking lastPercent and optionally verifying existence
-      // on Bunny storage. Only after confirmation, mark as ready.
+      // Confirm upload result by checking remote existence and size
       const readyAt = new Date();
 
-      // Verify file exists on Bunny; if not, mark as failed.
       const uploadedExists = await bunnyStorage.exists(storagePath).catch(() => false);
       if (!uploadedExists) {
         await purchase.updateOne({
@@ -330,6 +337,26 @@ class BunnyCacheService {
         });
         if (typeof onError === 'function') onError(new Error('Uploaded file not found on Bunny storage'));
         return;
+      }
+
+      // verify content-length matches local size when possible
+      try {
+        const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
+        if (remoteSize && localSize && Math.abs(remoteSize - localSize) > Math.max(100, Math.round(localSize * 0.05))) {
+          // remote size differs significantly from local file -> treat as failed
+          await purchase.updateOne({
+            $set: {
+              cacheStatus: 'failed',
+              cacheError: `size_mismatch remote=${remoteSize} local=${localSize}`,
+              cacheUpdatedAt: new Date()
+            }
+          });
+          if (typeof onError === 'function') onError(new Error('Uploaded file size mismatch'));
+          return;
+        }
+      } catch (e) {
+        // ignore size check errors but keep processing
+        logDebug({ stage: 'size-check-error', error: e.message });
       }
 
       await purchase.updateOne({
