@@ -141,7 +141,10 @@ function buildAccessToken({ userId, videoId, mediaType, expiresAt }) {
 function formatLinkStatus(purchase, { bunnyConfigured = false } = {}) {
   const now = Date.now();
   const isRevoked = purchase.expiresAt ? new Date(purchase.expiresAt).getTime() <= now : false;
-  const cacheStatus = purchase.cacheStatus || (purchase.storagePath && bunnyConfigured ? 'ready' : 'origin');
+    // Prefer explicit cacheStatus or cacheReadyAt to determine 'ready'.
+    // Avoid inferring 'ready' solely from storagePath, which may be present
+    // before upload completes and produces false positives in the UI.
+    const cacheStatus = purchase.cacheStatus || (purchase.cacheReadyAt ? 'ready' : 'origin');
   const cacheProgress = Number.isFinite(purchase.cacheProgress) ? purchase.cacheProgress : 0;
 
   return {
@@ -234,7 +237,9 @@ async function ensureBunnyCacheForPurchase(purchase, { skipCache = false } = {})
   }
 
   const storagePath = bunnyCacheService.buildStoragePath(purchase);
-  purchase.storagePath = storagePath;
+    // do not set `purchase.storagePath` in-memory here to avoid a race where
+    // the in-memory doc appears to have a storagePath before the DB persists
+    // the actual cache status/progress. The DB is updated below when setting pending/ready.
 
   const exists = await bunnyStorage.exists(storagePath);
   if (exists) {
@@ -251,9 +256,11 @@ async function ensureBunnyCacheForPurchase(purchase, { skipCache = false } = {})
     return { cacheStatus: 'ready', cacheStrategy: 'cached', storagePath };
   }
 
+  // Mark as queued/pending but do NOT persist storagePath yet to avoid
+  // indicating a storage location before upload completes. `storagePath`
+  // will be persisted once upload finishes successfully.
   await purchase.updateOne({
     $set: {
-      storagePath,
       cacheStatus: 'pending',
       cacheProgress: 0,
       cacheUpdatedAt: new Date()

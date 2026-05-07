@@ -289,12 +289,16 @@ class BunnyCacheService {
 
       logDebug({ stage: 'temp-download-complete', tempFile });
 
+      // Perform upload and update DB only after upload callbacks complete.
+      let lastPercent = 0;
       await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
-        const percent = progress.percent || 0;
+        const percent = Math.max(0, Math.min(100, Math.round(progress.percent || 0)));
+        lastPercent = percent;
         await purchase.updateOne({
           $set: {
             cacheProgress: percent,
-            cacheUpdatedAt: new Date()
+            cacheUpdatedAt: new Date(),
+            cacheStatus: percent >= 1 ? 'uploading' : 'uploading'
           }
         });
 
@@ -307,15 +311,34 @@ class BunnyCacheService {
         }
       });
 
+      // ensure temp file is removed
       await fsp.unlink(tempFile).catch(() => {});
 
+      // Confirm upload result by checking lastPercent and optionally verifying existence
+      // on Bunny storage. Only after confirmation, mark as ready.
       const readyAt = new Date();
+
+      // Verify file exists on Bunny; if not, mark as failed.
+      const uploadedExists = await bunnyStorage.exists(storagePath).catch(() => false);
+      if (!uploadedExists) {
+        await purchase.updateOne({
+          $set: {
+            cacheStatus: 'failed',
+            cacheError: 'upload_not_found_after_transfer',
+            cacheUpdatedAt: new Date()
+          }
+        });
+        if (typeof onError === 'function') onError(new Error('Uploaded file not found on Bunny storage'));
+        return;
+      }
+
       await purchase.updateOne({
         $set: {
           cacheStatus: 'ready',
           cacheProgress: 100,
           cacheReadyAt: readyAt,
-          cacheUpdatedAt: readyAt
+          cacheUpdatedAt: readyAt,
+          storagePath
         }
       });
 
