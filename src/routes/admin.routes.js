@@ -61,10 +61,14 @@ const linkStatusSchema = z.object({
 function formatSearchItem(item, sourceType) {
   return {
     id: String(item.id),
-    title: String(item.name || item.title || ''),
+    title: String(item.name || item.title || item.originalTitle || item.label || ''),
     type: sourceType,
     cover: item.img || item.cover || null
   };
+}
+
+function getContentSearchLabel(item) {
+  return String(item?.name || item?.title || item?.originalTitle || item?.label || '').trim();
 }
 
 function buildAccessToken({ userId, videoId, mediaType, expiresAt }) {
@@ -435,15 +439,39 @@ router.get('/api/admin/content/search', adminAuth, asyncHandler(async (req, res)
     return items
       .filter((item) => {
         if (!term) return true;
-        return String(item.name || item.title || '').toLowerCase().includes(term);
+        return getContentSearchLabel(item).toLowerCase().includes(term);
       })
       .slice(0, limit)
       .map((item) => formatSearchItem(item, sourceType));
   }).slice(0, limit);
 
+  if (term && matches.length === 0) {
+    await atualizarCache(true);
+
+    const refreshedPools = [];
+    if (type === 'all' || type === 'movies') refreshedPools.push({ sourceType: 'movies', items: CACHE_CONTEUDO.movies || [] });
+    if (type === 'all' || type === 'series') refreshedPools.push({ sourceType: 'series', items: CACHE_CONTEUDO.series || [] });
+    if (type === 'all' || type === 'livetv') refreshedPools.push({ sourceType: 'livetv', items: CACHE_CONTEUDO.livetv || [] });
+
+    const refreshedMatches = refreshedPools.flatMap(({ sourceType, items }) => {
+      return items
+        .filter((item) => getContentSearchLabel(item).toLowerCase().includes(term))
+        .slice(0, limit)
+        .map((item) => formatSearchItem(item, sourceType));
+    }).slice(0, limit);
+
+    return res.json({
+      success: true,
+      total: refreshedMatches.length,
+      refreshed: true,
+      data: refreshedMatches
+    });
+  }
+
   return res.json({
     success: true,
     total: matches.length,
+    refreshed: false,
     data: matches
   });
 }));

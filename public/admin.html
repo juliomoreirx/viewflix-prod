@@ -1115,6 +1115,7 @@ Abra o bot e confira o que preparamos.</textarea>
             const q = builderSearchInput.value.trim();
             const type = builderSearchType.value;
             setBuilderStatus('info', 'Buscando conteúdo no catálogo...');
+            builderResults.innerHTML = '<div class="text-gray-500 text-sm">Carregando resultados...</div>';
 
             try {
                 const params = new URLSearchParams({ q, type, limit: '20' });
@@ -1125,12 +1126,13 @@ Abra o bot e confira o que preparamos.</textarea>
                 if (!res.ok) throw new Error(data.error || 'Erro ao pesquisar conteúdo');
                 renderBuilderResults(data.data || []);
                 if ((data.data || []).length === 0) {
-                    setBuilderStatus('info', 'Nenhum conteúdo encontrado. Tente outro termo.');
+                    setBuilderStatus('info', 'Nenhum conteúdo encontrado. Tente outro termo ou clique em atualizar cache.');
                 } else {
-                    setBuilderStatus('success', 'Conteúdo encontrado. Selecione um item para continuar.');
+                    setBuilderStatus('success', data.refreshed ? 'Catálogo atualizado e conteúdo encontrado.' : 'Conteúdo encontrado. Selecione um item para continuar.');
                 }
             } catch (err) {
                 setBuilderStatus('error', sanitize(err.message));
+                builderResults.innerHTML = '<div class="text-red-300 text-sm">Falha ao carregar resultados.</div>';
             }
         }
 
