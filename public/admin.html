@@ -1439,6 +1439,7 @@ Abra o bot e confira o que preparamos.</textarea>
                                     <div class="text-xs text-gray-500 break-all mt-1">${sanitize(link.playerUrl || '')}</div>
                                     <div class="flex flex-wrap gap-2 mt-2">
                                         <button class="copy-link-btn" data-copy-link-token="${sanitize(link.token)}"><i class="fa-solid fa-copy mr-2"></i>Copiar</button>
+                                        ${link.cacheStatus === 'failed' ? `<button class="copy-link-btn" style="background: #ff9500;" data-requeue-link-token="${sanitize(link.token)}"><i class="fa-solid fa-redo mr-2"></i>Retentar</button>` : ''}
                                         <button class="copy-link-btn" data-revoke-link-token="${sanitize(link.token)}"><i class="fa-solid fa-ban mr-2"></i>Revogar</button>
                                     </div>
                                 </div>
@@ -1500,6 +1501,30 @@ Abra o bot e confira o que preparamos.</textarea>
             builderLinks.querySelectorAll('[data-revoke-link-token]').forEach((btn) => {
                 btn.addEventListener('click', async () => {
                     await revokeBuilderLink(btn.dataset.revokeLinkToken, false);
+                });
+            });
+
+            builderLinks.querySelectorAll('[data-requeue-link-token]').forEach((btn) => {
+                btn.addEventListener('click', async () => {
+                    const token = btn.dataset.requeueLinkToken;
+                    try {
+                        btn.disabled = true;
+                        btn.innerHTML = '<i class="fa-solid fa-hourglass-spin mr-2"></i>Processando...';
+                        const res = await fetch('/api/admin/content-link/requeue', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${adminToken}` },
+                            body: JSON.stringify({ token })
+                        });
+                        const data = await res.json();
+                        if (!res.ok) throw new Error(data.error || 'Erro ao retentar');
+                        btn.innerHTML = '<i class="fa-solid fa-check mr-2"></i>Enfileirado';
+                        await refreshSingleStatus(token);
+                        setTimeout(() => { btn.innerHTML = '<i class="fa-solid fa-redo mr-2"></i>Retentar'; btn.disabled = false; }, 2000);
+                    } catch (err) {
+                        alert('Erro: ' + err.message);
+                        btn.innerHTML = '<i class="fa-solid fa-redo mr-2"></i>Retentar';
+                        btn.disabled = false;
+                    }
                 });
             });
 

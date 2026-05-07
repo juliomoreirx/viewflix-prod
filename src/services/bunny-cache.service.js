@@ -299,8 +299,12 @@ class BunnyCacheService {
       }
 
       // If download is significantly smaller than expected, retry with curl (more robust)
-      if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
-        logDebug({ stage: 'download-size-small', expected: contentLength, actual: localSize, retrying: 'curl' });
+      // Try up to 3 curl retries before giving up
+      let curlRetries = 0;
+      const maxCurlRetries = 3;
+      while (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95)) && curlRetries < maxCurlRetries) {
+        curlRetries += 1;
+        logDebug({ stage: 'download-size-small-curl-retry', expected: contentLength, actual: localSize, attempt: curlRetries, maxRetries: maxCurlRetries });
         try {
           // Remove incomplete file and retry with curl
           await fsp.unlink(tempFile).catch(() => {});
@@ -310,14 +314,22 @@ class BunnyCacheService {
           try {
             const st2 = await fsp.stat(tempFile);
             localSize = Number(st2.size || 0);
-            logDebug({ stage: 'download-size-after-curl', newSize: localSize });
+            logDebug({ stage: 'download-size-after-curl', newSize: localSize, attempt: curlRetries });
           } catch (e) {
             localSize = 0;
           }
         } catch (curlErr) {
-          logDebug({ stage: 'curl-retry-failed', error: curlErr.message });
-          // If curl fails, log but continue with original file (will fail at size-check post-upload)
+          logDebug({ stage: 'curl-retry-failed', error: curlErr.message, attempt: curlRetries });
+          // Wait a bit before next retry
+          if (curlRetries < maxCurlRetries) {
+            await new Promise((resolve) => setTimeout(resolve, 2000 * curlRetries));
+          }
         }
+      }
+
+      // Final check: if still too small, fail this attempt (will trigger main retry loop)
+      if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
+        throw new Error(`download_incomplete_after_retries expected=${contentLength} actual=${localSize}`);
       }
 
       // Perform upload and update DB only after upload callbacks complete.
@@ -421,6 +433,17 @@ class BunnyCacheService {
 
       if (attempt > this.maxRetries) {
         if (typeof onError === 'function') onError(error);
+        
+        // Notificar usuário via Telegram
+        try {
+          const telegramBot = require('../../telegram-bot');
+          if (telegramBot && typeof telegramBot.notificarFalhaCacheAoUsuario === 'function') {
+            telegramBot.notificarFalhaCacheAoUsuario(purchase.userId, purchase).catch(() => {});
+          }
+        } catch (e) {
+          logDebug({ stage: 'telegram-notify-error', error: e.message });
+        }
+        
         return;
       }
 

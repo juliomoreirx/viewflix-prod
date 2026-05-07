@@ -1317,6 +1317,52 @@ async function verificarConteudosExpirando() {
 // ============================
 // COMANDOS DO BOT
 // ============================
+
+// Comando: Retentar download de conteúdo falhado
+bot.onText(/\/requeue_(.+)/, async (msg, match) => {
+  const chatId = msg.chat.id;
+  const purchaseId = match[1];
+
+  try {
+    if (!PurchasedContentModel) {
+      await bot.sendMessage(chatId, '❌ Sistema indisponível. Tente novamente.');
+      return;
+    }
+
+    const purchase = await PurchasedContentModel.findById(purchaseId);
+    if (!purchase) {
+      await bot.sendMessage(chatId, '❌ Conteúdo não encontrado.');
+      return;
+    }
+
+    if (purchase.userId !== msg.from.id) {
+      await bot.sendMessage(chatId, '❌ Você não tem permissão para retentar este conteúdo.');
+      return;
+    }
+
+    // Reset cache status e reenfileira
+    await purchase.updateOne({
+      $set: {
+        cacheStatus: 'pending',
+        cacheProgress: 0,
+        cacheError: null,
+        cacheUpdatedAt: new Date()
+      }
+    });
+
+    bunnyCacheService.enqueue(purchase);
+
+    await bot.sendMessage(
+      chatId,
+      `♻️ *Download retentando*\n\n${sanitizarTexto(purchase.title || 'Conteúdo')}\n\nVocê será notificado quando estiver pronto.`,
+      { parse_mode: 'Markdown' }
+    );
+  } catch (error) {
+    console.error('Erro ao requeue:', error);
+    await bot.sendMessage(chatId, '❌ Erro ao retentar. Tente novamente.');
+  }
+});
+
 bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
 
@@ -2460,6 +2506,40 @@ setInterval(verificarConteudosExpirando, 60 * 60 * 1000);
 setTimeout(verificarConteudosExpirando, 30000);
 
 // ============================
+// FUNÇÃO: Notificar Falha de Cache ao Usuário
+// ============================
+async function notificarFalhaCacheAoUsuario(userId, purchase) {
+  if (!bot || typeof bot.sendMessage !== 'function') return;
+  
+  try {
+    const titulo = sanitizarTexto(purchase.title || 'Conteúdo');
+    const erro = sanitizarTexto(purchase.cacheError || 'Erro desconhecido');
+    
+    const texto = `
+⚠️ *Problema ao baixar conteúdo*
+
+Título: ${titulo}
+Erro: ${erro}
+
+O arquivo ficou incompleto (${purchase.cacheProgress || 0}%). 
+
+*O que fazer:*
+Você não foi cobrado novamente. Clique no botão abaixo para retentar o download:
+
+/requeue_${purchase._id}
+
+Precisar de ajuda? Entre em contato com o suporte.
+    `.trim();
+    
+    await bot.sendMessage(userId, texto, { parse_mode: 'Markdown' }).catch((err) => {
+      console.error('Erro ao notificar usuário sobre falha de cache:', err.message);
+    });
+  } catch (error) {
+    console.error('Erro em notificarFalhaCacheAoUsuario:', error.message);
+  }
+}
+
+// ============================
 // EXPORTS
 // ============================
 module.exports = {
@@ -2469,5 +2549,6 @@ module.exports = {
   processarPagamentoAprovado,
   getUserCredits,
   addCredits,
-  dispararCampanhaTelegram
+  dispararCampanhaTelegram,
+  notificarFalhaCacheAoUsuario
 };
