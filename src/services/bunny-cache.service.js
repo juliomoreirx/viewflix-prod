@@ -202,17 +202,26 @@ class BunnyCacheService {
       const exists = await bunnyStorage.exists(storagePath);
       logDebug({ stage: 'exists-check', storagePath, exists });
       if (exists) {
-        const readyAt = new Date();
-        await purchase.updateOne({
-          $set: {
-            cacheStatus: 'ready',
-            cacheProgress: 100,
-            cacheReadyAt: readyAt,
-            cacheUpdatedAt: readyAt
-          }
-        });
-        if (typeof onReady === 'function') onReady({ storagePath });
-        return;
+        // Before marking ready, verify the remote file has reasonable size
+        // (not a stray 4MB incomplete file from a previous failed attempt)
+        const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
+        if (remoteSize && remoteSize < 1024 * 100) {
+          // Remote file is suspiciously small (<100KB), likely incomplete from before
+          logDebug({ stage: 'exists-but-small', storagePath, remoteSize, willRetry: true });
+          // Continue to re-download instead of marking ready
+        } else {
+          const readyAt = new Date();
+          await purchase.updateOne({
+            $set: {
+              cacheStatus: 'ready',
+              cacheProgress: 100,
+              cacheReadyAt: readyAt,
+              cacheUpdatedAt: readyAt
+            }
+          });
+          if (typeof onReady === 'function') onReady({ storagePath });
+          return;
+        }
       }
 
       const finalUrl = await resolveFinalUrl(purchase.mediaType, purchase.videoId);
@@ -328,6 +337,11 @@ class BunnyCacheService {
       }
 
       // Final check: if still too small, fail this attempt (will trigger main retry loop)
+      // Threshold: reject if < 100MB (typical movie/series is much larger)
+      if (localSize && localSize < 1024 * 100) {
+        throw new Error(`download_incomplete_after_retries size=${localSize}`);
+      }
+
       if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
         throw new Error(`download_incomplete_after_retries expected=${contentLength} actual=${localSize}`);
       }

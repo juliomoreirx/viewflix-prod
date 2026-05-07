@@ -145,7 +145,17 @@ router.get(
       return res.sendStatus(403);
     }
 
-    if (isVod(mediaType) && purchase.cacheStatus === 'ready' && purchase.storagePath && bunnyConfigured) {
+    // If content is VOD and was supposed to be cached, only serve from Bunny when fully ready
+    if (isVod(mediaType) && bunnyConfigured && purchase.storagePath) {
+      if (purchase.cacheStatus !== 'ready') {
+        // File exists in Bunny but cache isn't ready (still downloading/processing)
+        return res.status(425).json({
+          error: 'Conteúdo em processamento',
+          status: purchase.cacheStatus || 'pending',
+          progress: purchase.cacheProgress || 0
+        });
+      }
+
       const bunnyUrl = bunnyStorage.getSignedPullZoneUrl(purchase.storagePath);
       if (bunnyUrl) {
         return res.redirect(302, bunnyUrl);
@@ -235,7 +245,17 @@ router.get(
       return res.status(403).json({ error: 'Bloqueado' });
     }
 
-    if (isVod(mediaType) && purchase.cacheStatus === 'ready' && purchase.storagePath && bunnyConfigured) {
+    // If content is VOD and was supposed to be cached, only serve from Bunny when fully ready
+    if (isVod(mediaType) && bunnyConfigured && purchase.storagePath) {
+      if (purchase.cacheStatus !== 'ready') {
+        // File exists in Bunny but cache isn't ready (still downloading/processing)
+        return res.status(425).json({
+          error: 'Conteúdo em processamento',
+          status: purchase.cacheStatus || 'pending',
+          progress: purchase.cacheProgress || 0
+        });
+      }
+
       const bunnyUrl = bunnyStorage.getSignedPullZoneUrl(purchase.storagePath);
       if (bunnyUrl) {
         return res.json({ url: bunnyUrl });
