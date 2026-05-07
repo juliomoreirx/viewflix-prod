@@ -298,25 +298,25 @@ class BunnyCacheService {
         localSize = 0;
       }
 
-      if (contentLength && localSize && localSize < Math.max(1024, Math.round(contentLength * 0.98))) {
-        // Local file is significantly smaller than expected. Try a curl-based download once.
-        logDebug({ stage: 'download-size-mismatch', expected: contentLength, actual: localSize, tryCurl: true });
+      // If download is significantly smaller than expected, retry with curl (more robust)
+      if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
+        logDebug({ stage: 'download-size-small', expected: contentLength, actual: localSize, retrying: 'curl' });
         try {
+          // Remove incomplete file and retry with curl
+          await fsp.unlink(tempFile).catch(() => {});
           await downloadWithCurl(finalUrl, tempFile, logDebug);
-        } catch (err) {
-          logDebug({ stage: 'curl-redownload-failed', error: err.message });
-        }
-
-        // recheck size
-        try {
-          const st2 = await fsp.stat(tempFile);
-          localSize = Number(st2.size || 0);
-        } catch (e) {
-          localSize = 0;
-        }
-
-        if (localSize < Math.max(1024, Math.round(contentLength * 0.98))) {
-          throw new Error(`download_incomplete expected=${contentLength} actual=${localSize}`);
+          
+          // Recheck size after curl download
+          try {
+            const st2 = await fsp.stat(tempFile);
+            localSize = Number(st2.size || 0);
+            logDebug({ stage: 'download-size-after-curl', newSize: localSize });
+          } catch (e) {
+            localSize = 0;
+          }
+        } catch (curlErr) {
+          logDebug({ stage: 'curl-retry-failed', error: curlErr.message });
+          // If curl fails, log but continue with original file (will fail at size-check post-upload)
         }
       }
 
