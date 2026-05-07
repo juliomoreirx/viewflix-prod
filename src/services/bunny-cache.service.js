@@ -195,6 +195,7 @@ class BunnyCacheService {
     let attempt = 0;
     let tempFile;
     let stallTimer;
+    let localSize = 0;
     while (attempt <= this.maxRetries) {
       attempt += 1;
       try {
@@ -289,6 +290,36 @@ class BunnyCacheService {
 
       logDebug({ stage: 'temp-download-complete', tempFile });
 
+      // Verify local file size when Content-Length was provided by origin.
+      try {
+        const st = await fsp.stat(tempFile);
+        localSize = Number(st.size || 0);
+      } catch (e) {
+        localSize = 0;
+      }
+
+      if (contentLength && localSize && localSize < Math.max(1024, Math.round(contentLength * 0.98))) {
+        // Local file is significantly smaller than expected. Try a curl-based download once.
+        logDebug({ stage: 'download-size-mismatch', expected: contentLength, actual: localSize, tryCurl: true });
+        try {
+          await downloadWithCurl(finalUrl, tempFile, logDebug);
+        } catch (err) {
+          logDebug({ stage: 'curl-redownload-failed', error: err.message });
+        }
+
+        // recheck size
+        try {
+          const st2 = await fsp.stat(tempFile);
+          localSize = Number(st2.size || 0);
+        } catch (e) {
+          localSize = 0;
+        }
+
+        if (localSize < Math.max(1024, Math.round(contentLength * 0.98))) {
+          throw new Error(`download_incomplete expected=${contentLength} actual=${localSize}`);
+        }
+      }
+
       // Perform upload and update DB only after upload callbacks complete.
       let lastPercent = 0;
       await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
@@ -312,7 +343,7 @@ class BunnyCacheService {
       });
 
       // capture local file size before removing
-      let localSize = 0;
+      localSize = 0;
       try {
         const s = await fsp.stat(tempFile);
         localSize = Number(s.size || 0);
