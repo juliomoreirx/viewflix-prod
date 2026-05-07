@@ -75,6 +75,56 @@ function getContentSearchLabel(item) {
   return String(item?.name || item?.title || item?.originalTitle || item?.label || '').trim();
 }
 
+async function searchFromPurchasedContent(PurchasedContent, { term = '', limit = 20 } = {}) {
+  if (!PurchasedContent) return [];
+
+  const safeLimit = Math.min(50, Math.max(1, Number(limit) || 20));
+  const escapedTerm = String(term || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const regex = escapedTerm ? new RegExp(escapedTerm, 'i') : null;
+
+  const match = {
+    mediaType: { $in: ['movie', 'series'] }
+  };
+
+  if (regex) {
+    match.$or = [
+      { title: regex },
+      { episodeName: regex }
+    ];
+  }
+
+  const rows = await PurchasedContent.find(match)
+    .sort({ purchaseDate: -1 })
+    .select('mediaType title videoId seriesId')
+    .limit(safeLimit * 10)
+    .lean();
+
+  const unique = new Map();
+  for (const row of rows) {
+    const isSeries = row.mediaType === 'series' && row.seriesId;
+    const id = String(isSeries ? row.seriesId : row.videoId || '').trim();
+    if (!id) continue;
+
+    const type = isSeries ? 'series' : 'movies';
+    const key = `${type}:${id}`;
+    if (unique.has(key)) continue;
+
+    const title = String(row.title || '').trim();
+    if (regex && !regex.test(title)) continue;
+
+    unique.set(key, {
+      id,
+      title,
+      type,
+      cover: null
+    });
+
+    if (unique.size >= safeLimit) break;
+  }
+
+  return Array.from(unique.values());
+}
+
 function buildAccessToken({ userId, videoId, mediaType, expiresAt }) {
   const expDate = expiresAt instanceof Date ? expiresAt : new Date(expiresAt);
   return jwt.sign(
@@ -468,6 +518,10 @@ router.get('/api/admin/content/search', adminAuth, asyncHandler(async (req, res)
   const term = q.toLowerCase().trim();
 
   if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
+    await atualizarCache(false);
+  }
+
+  if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
     await atualizarCache(true);
   }
 
@@ -487,7 +541,11 @@ router.get('/api/admin/content/search', adminAuth, asyncHandler(async (req, res)
   }).slice(0, limit);
 
   if (term && matches.length === 0) {
-    await atualizarCache(true);
+    await atualizarCache(false);
+
+    if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
+      await atualizarCache(true);
+    }
 
     const refreshedPools = [];
     if (type === 'all' || type === 'movies') refreshedPools.push({ sourceType: 'movies', items: CACHE_CONTEUDO.movies || [] });
@@ -507,6 +565,20 @@ router.get('/api/admin/content/search', adminAuth, asyncHandler(async (req, res)
       refreshed: true,
       data: refreshedMatches
     });
+  }
+
+  if (matches.length === 0) {
+    const { PurchasedContent } = req.app.locals.models || {};
+    const fallbackMatches = await searchFromPurchasedContent(PurchasedContent, { term, limit });
+    if (fallbackMatches.length > 0) {
+      return res.json({
+        success: true,
+        total: fallbackMatches.length,
+        refreshed: false,
+        fallback: 'purchases',
+        data: fallbackMatches
+      });
+    }
   }
 
   return res.json({

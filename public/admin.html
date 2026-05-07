@@ -1330,6 +1330,8 @@ Abra o bot e confira o que preparamos.</textarea>
                 renderBuilderResults(data.data || []);
                 if ((data.data || []).length === 0) {
                     setBuilderStatus('info', 'Nenhum conteúdo encontrado. Tente outro termo ou clique em atualizar cache.');
+                } else if (data.fallback === 'purchases') {
+                    setBuilderStatus('info', 'Resultados carregados do histórico de compras (fallback).');
                 } else {
                     setBuilderStatus('success', data.refreshed ? 'Catálogo atualizado e conteúdo encontrado.' : 'Conteúdo encontrado. Selecione um item para continuar.');
                 }
