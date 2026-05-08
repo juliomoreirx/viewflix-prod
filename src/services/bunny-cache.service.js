@@ -418,6 +418,15 @@ class BunnyCacheService {
 
         if (debug && percent && percent % 5 === 0) {
           logDebug({ stage: 'upload-progress', percent, uploadedBytes: progress.uploadedBytes, totalBytes: progress.totalBytes });
+
+          if (typeof onProgress === 'function') {
+            onProgress({
+              percent,
+              uploadedBytes: progress.uploadedBytes,
+              totalBytes: progress.totalBytes,
+              stage: 'uploading'
+            });
+          }
         }
 
         if (typeof onProgress === 'function') {

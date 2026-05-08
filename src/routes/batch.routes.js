@@ -13,10 +13,10 @@ const createBatchSchema = z.object({
   items: z.array(
     z.object({
       videoId: z.string().min(1),
-      title: z.string().optional(),
+      title: z.string().nullable().optional(),
       mediaType: z.enum(['movie', 'series']),
-      season: z.string().optional(),
-      episodeName: z.string().optional(),
+      season: z.string().nullable().optional(),
+      episodeName: z.string().nullable().optional(),
       episodeIndex: z.number().optional()
     })
   ).max(500).optional(), // Permite estar vazio ou ausente
@@ -36,14 +36,48 @@ const addBatchItemsSchema = z.object({
   items: z.array(
     z.object({
       videoId: z.string().min(1),
-      title: z.string().optional(),
+      title: z.string().nullable().optional(),
       mediaType: z.enum(['movie', 'series']),
-      season: z.string().optional(),
-      episodeName: z.string().optional(),
+      season: z.string().nullable().optional(),
+      episodeName: z.string().nullable().optional(),
       episodeIndex: z.number().optional()
     })
   ).min(1).max(50)
 });
+
+function normalizeBatchItems(items = []) {
+  return items.map((item, idx) => ({
+    ...item,
+    status: item.status || 'pending',
+    stage: item.stage || 'queued',
+    progress: Number.isFinite(Number(item.progress)) ? Number(item.progress) : 0,
+    episodeIndex: item.episodeIndex ?? idx
+  }));
+}
+
+function recomputeBatchStats(batch) {
+  const items = batch.items || [];
+  batch.totalItems = items.length;
+  batch.completedItems = items.filter((item) => item.status === 'ready').length;
+  batch.failedItems = items.filter((item) => item.status === 'failed').length;
+  const progressSum = items.reduce((sum, item) => sum + (Number.isFinite(Number(item.progress)) ? Number(item.progress) : 0), 0);
+  batch.overallProgress = items.length > 0 ? Math.min(100, Math.round(progressSum / items.length)) : 0;
+}
+
+function createBatchPersistQueue(batch, BatchDownload) {
+  let chain = Promise.resolve();
+  return (snapshot = {}) => {
+    chain = chain
+      .then(() => BatchDownload.updateOne(
+        { _id: batch._id },
+        { $set: { ...snapshot, updatedAt: new Date() } }
+      ))
+      .catch((error) => {
+        console.error('Erro ao persistir progresso do batch:', error);
+      });
+    return chain;
+  };
+}
 
 // ===== CREATE BATCH =====
 router.post('/api/admin/batch/create', adminAuth, asyncHandler(async (req, res) => {
@@ -61,14 +95,14 @@ router.post('/api/admin/batch/create', adminAuth, asyncHandler(async (req, res) 
     userId: req.userId, // Admin user ID
     name: parsed.data.name,
     description: parsed.data.description,
-    items: (parsed.data.items || []).map((item, idx) => ({
-      ...item,
-      episodeIndex: item.episodeIndex ?? idx
-    })),
+    items: normalizeBatchItems(parsed.data.items || []),
     concurrency: parsed.data.concurrency || 2,
     bunnyFolder: parsed.data.bunnyFolder || `batches/${Date.now()}`,
     autoStart: parsed.data.autoStart || false,
-    totalItems: (parsed.data.items || []).length
+    totalItems: (parsed.data.items || []).length,
+    completedItems: 0,
+    failedItems: 0,
+    overallProgress: 0
   });
 
   await batch.save();
@@ -185,6 +219,7 @@ router.post('/api/admin/batch/:id/items', adminAuth, asyncHandler(async (req, re
       ...item,
       episodeIndex: item.episodeIndex ?? (batch.items.length + idx),
       status: 'pending',
+      stage: 'queued',
       progress: 0
     }));
 
@@ -319,6 +354,7 @@ router.post('/api/admin/batch/:id/resume', adminAuth, asyncHandler(async (req, r
 // Função auxiliar para processar lote em background
 async function processBatchAsync(batch, bunnyCacheService) {
   const { PurchasedContent, BatchDownload } = require('../models');
+  const persistBatch = createBatchPersistQueue(batch, BatchDownload);
 
   try {
     const activeDownloads = [];
@@ -354,12 +390,22 @@ async function processBatchAsync(batch, bunnyCacheService) {
         // Enfileirar no cache service
         const downloadPromise = new Promise((resolve) => {
           bunnyCacheService.enqueue(purchase, {
-            onProgress: ({ percent }) => {
+            onProgress: ({ percent, stage }) => {
               const idx = batch.items.findIndex(i => String(i._id) === String(item._id));
               if (idx >= 0) {
-                batch.items[idx].progress = percent;
+                batch.items[idx].progress = Number.isFinite(Number(percent)) ? Number(percent) : 0;
+                batch.items[idx].stage = stage || 'downloading';
                 batch.items[idx].status = percent === 100 ? 'ready' : 'downloading';
-                batch.updatedAt = new Date();
+                recomputeBatchStats(batch);
+                void persistBatch({
+                  items: batch.items,
+                  completedItems: batch.completedItems,
+                  failedItems: batch.failedItems,
+                  overallProgress: batch.overallProgress,
+                  status: batch.status,
+                  startedAt: batch.startedAt,
+                  completedAt: batch.completedAt
+                });
               }
             },
             onReady: ({ storagePath }) => {
@@ -367,10 +413,19 @@ async function processBatchAsync(batch, bunnyCacheService) {
               if (idx >= 0) {
                 batch.items[idx].status = 'ready';
                 batch.items[idx].progress = 100;
+                batch.items[idx].stage = 'ready';
                 batch.items[idx].storagePath = storagePath;
                 batch.items[idx].cacheReadyAt = new Date();
-                batch.completedItems++;
-                batch.updatedAt = new Date();
+                recomputeBatchStats(batch);
+                void persistBatch({
+                  items: batch.items,
+                  completedItems: batch.completedItems,
+                  failedItems: batch.failedItems,
+                  overallProgress: batch.overallProgress,
+                  status: batch.status,
+                  startedAt: batch.startedAt,
+                  completedAt: batch.completedAt
+                });
               }
               resolve();
             },
@@ -379,8 +434,18 @@ async function processBatchAsync(batch, bunnyCacheService) {
               if (idx >= 0) {
                 batch.items[idx].status = 'failed';
                 batch.items[idx].error = error.message;
-                batch.failedItems++;
-                batch.updatedAt = new Date();
+                batch.items[idx].stage = 'failed';
+                batch.items[idx].progress = Number.isFinite(Number(batch.items[idx].progress)) ? Number(batch.items[idx].progress) : 0;
+                recomputeBatchStats(batch);
+                void persistBatch({
+                  items: batch.items,
+                  completedItems: batch.completedItems,
+                  failedItems: batch.failedItems,
+                  overallProgress: batch.overallProgress,
+                  status: batch.status,
+                  startedAt: batch.startedAt,
+                  completedAt: batch.completedAt
+                });
               }
               resolve();
             }
@@ -400,18 +465,15 @@ async function processBatchAsync(batch, bunnyCacheService) {
 
       // Atualizar batch a cada item completado
       if (batch.status !== 'paused') {
-        batch.overallProgress = Math.round(
-          ((batch.completedItems + batch.failedItems) / batch.totalItems) * 100
-        );
-        await BatchDownload.updateOne({ _id: batch._id }, {
-          $set: {
-            'items.$[].status': batch.items.map((i, idx) => batch.items[idx].status),
-            'items.$[].progress': batch.items.map((i, idx) => batch.items[idx].progress),
-            completedItems: batch.completedItems,
-            failedItems: batch.failedItems,
-            overallProgress: batch.overallProgress,
-            updatedAt: new Date()
-          }
+        recomputeBatchStats(batch);
+        await persistBatch({
+          items: batch.items,
+          completedItems: batch.completedItems,
+          failedItems: batch.failedItems,
+          overallProgress: batch.overallProgress,
+          status: batch.status,
+          startedAt: batch.startedAt,
+          completedAt: batch.completedAt
         });
       }
 
@@ -421,8 +483,9 @@ async function processBatchAsync(batch, bunnyCacheService) {
     }
 
     // Finalizar
-    batch.status = batch.failedItems > 0 ? 'completed' : 'completed';
+    batch.status = 'completed';
     batch.completedAt = new Date();
+    recomputeBatchStats(batch);
     batch.updatedAt = new Date();
     await batch.save();
   } catch (error) {
