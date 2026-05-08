@@ -2482,8 +2482,22 @@ bot.on('callback_query', async (query) => {
 // TRATAMENTO DE ERROS
 // ============================
 bot.on('polling_error', (error) => {
-  if (error.code === 'ETELEGRAM' && error.response?.body?.error_code === 409) {
-    // conflito de polling
+  if (error.code === 'ETELEGRAM') {
+    const errorCode = error.response?.body?.error_code;
+    const errorMsg = error.response?.body?.description || error.message;
+    
+    // Ignorar erros comuns que não precisam ser tratados como crash
+    if (errorCode === 409) {
+      // conflito de polling (2 bots rodando)
+      return;
+    }
+    
+    if (errorCode === 400 && errorMsg?.includes('query')) {
+      // query muito antiga - Telegram descarta, é normal
+      return;
+    }
+    
+    console.error('Erro de polling do bot (ETELEGRAM):', errorCode, errorMsg);
   } else {
     console.error('Erro de polling do bot:', error.message);
   }

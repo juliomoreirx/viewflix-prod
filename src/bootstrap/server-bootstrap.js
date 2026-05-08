@@ -135,7 +135,21 @@ async function startServer() {
 
     process.on('unhandledRejection', (reason, promise) => {
       logger.error({ msg: 'Unhandled Rejection não tratado!', promise, reason });
-      gracefulShutdown('unhandledRejection');
+      
+      // Não fazer graceful shutdown para erros não-críticos
+      const isCritical = reason && (
+        reason.message?.includes('ECONNREFUSED') ||
+        reason.message?.includes('EADDRINUSE') ||
+        reason.code === 'EADDRINUSE' ||
+        reason.code === 'ERR_'
+      );
+      
+      if (isCritical) {
+        gracefulShutdown('unhandledRejection-critical');
+      } else {
+        // Log apenas, continua rodando
+        logger.warn({ msg: 'Unhandled rejection não-crítico, continuando...', reason: reason?.message });
+      }
     });
 
   } catch (error) {

@@ -72,8 +72,10 @@ class CookieManagerService {
           this.lastCheck = new Date();
           return true;
         } else {
-          this.logger.error('[CookieManager] ❌ Falha ao renovar cookies. Sistema pode estar instável.');
-          return false;
+          this.logger.warn('[CookieManager] ⚠️ Falha ao renovar cookies. Continuando com cookies antigos por fallback.');
+          // Permitir continuar com cookies expirados como fallback
+          this.lastCheck = new Date();
+          return this.hasRequiredCookies();
         }
       } else {
         this.logger.info('[CookieManager] ✅ Cookies válidos');
@@ -82,7 +84,8 @@ class CookieManagerService {
       }
     } catch (error) {
       this.logger.error('[CookieManager] Erro ao verificar cookies:', error.message);
-      return false;
+      // Fallback: permitir continuar se já tem cookies configurados
+      return this.hasRequiredCookies();
     }
   }
 
