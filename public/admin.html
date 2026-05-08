@@ -425,7 +425,7 @@
                     <button data-tab="linkBuilder" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-link w-4 mr-3"></i>Gerar Link
                     </button>
-                    <button onclick="showDownloadsPage()" class="w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                    <button data-tab="downloads" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-inbox-in w-4 mr-3"></i>Downloads
                     </button>
                 </nav>
@@ -1919,7 +1919,7 @@ Abra o bot e confira o que preparamos.</textarea>
     </script>
 
     <!-- Batch Manager UI -->
-    <div id="downloadsPage" class="hidden">
+    <div id="downloadsTab" class="tab-content hidden">
       <div class="space-y-6">
         <div class="flex justify-between items-center">
           <div>
@@ -2186,12 +2186,10 @@ Abra o bot e confira o que preparamos.</textarea>
             }
         });
 
-        // Switch tabs
-        function showDownloadsPage() {
-            document.querySelectorAll('[id$="Page"]').forEach(p => p.classList.add('hidden'));
-            document.getElementById('downloadsPage').classList.remove('hidden');
-            batchManager.loadBatches();
-        }
+        // Carregar batches quando aba for aberta
+        document.querySelector('[data-tab="downloads"]')?.addEventListener('click', () => {
+            setTimeout(() => batchManager.loadBatches(), 100);
+        });
     </script>
 </body>
 </html>
