@@ -21,7 +21,6 @@ const createBatchSchema = z.object({
     })
   ).max(500).optional(), // Permite estar vazio ou ausente
   concurrency: z.number().min(1).max(10).optional(),
-  bunnyFolder: z.string().optional(),
   autoStart: z.boolean().optional()
 });
 
@@ -97,7 +96,6 @@ router.post('/api/admin/batch/create', adminAuth, asyncHandler(async (req, res) 
     description: parsed.data.description,
     items: normalizeBatchItems(parsed.data.items || []),
     concurrency: parsed.data.concurrency || 2,
-    bunnyFolder: parsed.data.bunnyFolder || `batches/${Date.now()}`,
     autoStart: parsed.data.autoStart || false,
     totalItems: (parsed.data.items || []).length,
     completedItems: 0,
@@ -379,7 +377,7 @@ async function processBatchAsync(batch, bunnyCacheService) {
           cacheStatus: 'pending',
           cacheProgress: 0,
           expiresAt: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000), // 1 ano
-          storagePath: `${batch.bunnyFolder}/${item.mediaType}/${item.title || item.videoId}/`,
+          // Deixar buildStoragePath gerar o caminho correto (movies/ ou series/)
           // Não fazer purchase real, apenas cache
           price: 0,
           purchaseDate: new Date()

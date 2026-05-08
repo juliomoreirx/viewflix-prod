@@ -42,7 +42,18 @@ async function startServer() {
     });
 
     // Warm-up inicial síncrono para popular cookies antes de carregar cache
-    const cookiesReady = await cookieManager.checkAndRefreshCookies();
+    // Não bloquear boot se cookies falharem - permitir fallback
+    let cookiesReady = false;
+    try {
+      cookiesReady = await cookieManager.checkAndRefreshCookies();
+    } catch (err) {
+      logger.warn({
+        msg: 'Erro ao verificar cookies no boot, continuando com fallback',
+        error: err.message
+      });
+      cookiesReady = false;
+    }
+    
     cookieManager.startMonitoring();
 
     // Carrega cache apenas com cookies válidos/completeos
