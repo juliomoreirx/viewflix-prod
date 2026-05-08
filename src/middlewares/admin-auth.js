@@ -8,6 +8,9 @@ function adminAuth(req, res, next) {
     return res.status(401).json({ error: 'Não autorizado' });
   }
 
+  // Set userId para usuário admin
+  req.userId = 'admin';
+
   return next();
 }
 
