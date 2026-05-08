@@ -1,0 +1,444 @@
+<!-- Aba Downloads Batch -->
+<div id="downloadsPage" class="page-content hidden">
+  <div class="space-y-6">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+      <div>
+        <h1 class="text-4xl font-bold gradient-text">📥 Downloads em Lote</h1>
+        <p class="text-slate-400 mt-2">Gerencie downloads múltiplos, organize no Bunny</p>
+      </div>
+      <button id="newBatchBtn" class="px-6 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg font-semibold hover:shadow-lg hover:shadow-blue-500/50 transition">
+        <i class="fas fa-plus mr-2"></i> Novo Lote
+      </button>
+    </div>
+
+    <!-- Lista de Lotes -->
+    <div class="grid gap-4">
+      <div id="batchList" class="space-y-4">
+        <div class="text-center py-12 text-slate-400">
+          <i class="fas fa-inbox text-4xl mb-3 opacity-50"></i>
+          <p>Nenhum lote criado ainda</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Novo Lote -->
+<div id="newBatchModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden z-50 flex items-center justify-center">
+  <div class="bg-slate-900 rounded-xl border border-blue-500/30 w-96 max-h-96 overflow-y-auto p-6 space-y-4">
+    <h2 class="text-2xl font-bold gradient-text">Criar Novo Lote</h2>
+    
+    <div>
+      <label class="block text-sm font-medium mb-2">Nome do Lote</label>
+      <input type="text" id="batchName" placeholder="Ex: Marvel Collection" class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500">
+    </div>
+    
+    <div>
+      <label class="block text-sm font-medium mb-2">Descrição (opcional)</label>
+      <textarea id="batchDesc" placeholder="Descrição do lote" class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500 h-20 resize-none"></textarea>
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium mb-2">Concorrência (downloads simultâneos)</label>
+      <input type="number" id="batchConcurrency" value="2" min="1" max="10" class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500">
+    </div>
+
+    <div>
+      <label class="block text-sm font-medium mb-2">Pasta no Bunny (opcional)</label>
+      <input type="text" id="batchFolder" placeholder="Ex: collections/marvel" class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500">
+    </div>
+
+    <div class="flex gap-3 pt-4">
+      <button id="closeBatchModal" class="flex-1 px-4 py-2 bg-slate-700 rounded-lg hover:bg-slate-600">Cancelar</button>
+      <button id="createBatchBtn" class="flex-1 px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg font-semibold">Criar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Adicionar Items -->
+<div id="addItemsModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden z-50 flex items-center justify-center">
+  <div class="bg-slate-900 rounded-xl border border-blue-500/30 w-full max-w-2xl max-h-96 overflow-y-auto p-6 space-y-4">
+    <h2 class="text-2xl font-bold gradient-text">Adicionar Items ao Lote</h2>
+
+    <div class="space-y-3">
+      <div>
+        <label class="block text-sm font-medium mb-2">Tipo de Conteúdo</label>
+        <div class="flex gap-2">
+          <button class="contentTypeBtn px-4 py-2 bg-blue-600 rounded-lg active" data-type="movie">🎬 Filme</button>
+          <button class="contentTypeBtn px-4 py-2 bg-slate-700 rounded-lg" data-type="series">📺 Série</button>
+        </div>
+      </div>
+
+      <div id="movieSearch" class="space-y-3">
+        <div>
+          <label class="block text-sm font-medium mb-2">Buscar Filme</label>
+          <input type="text" id="movieSearchInput" placeholder="Nome do filme..." class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500">
+        </div>
+        <div id="movieResults" class="max-h-40 overflow-y-auto space-y-2"></div>
+      </div>
+
+      <div id="seriesSearch" class="hidden space-y-3">
+        <div>
+          <label class="block text-sm font-medium mb-2">Buscar Série</label>
+          <input type="text" id="seriesSearchInput" placeholder="Nome da série..." class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-lg text-white focus:outline-none focus:border-blue-500">
+        </div>
+        <div id="seriesResults" class="max-h-40 overflow-y-auto space-y-2"></div>
+        
+        <div id="seasonSelector" class="hidden space-y-2">
+          <label class="block text-sm font-medium">Seleção de Episódios</label>
+          <div class="text-sm text-slate-400">Selecione a temporada e episódios...</div>
+          <div id="episodesList" class="max-h-40 overflow-y-auto space-y-1"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Items Selecionados -->
+    <div>
+      <label class="block text-sm font-medium mb-2">Items Selecionados</label>
+      <div id="selectedItems" class="bg-slate-800 rounded-lg p-3 max-h-32 overflow-y-auto min-h-20">
+        <p class="text-slate-500 text-center py-3">Nenhum item selecionado</p>
+      </div>
+    </div>
+
+    <div class="flex gap-3 pt-4">
+      <button id="closeItemsModal" class="flex-1 px-4 py-2 bg-slate-700 rounded-lg hover:bg-slate-600">Cancelar</button>
+      <button id="addItemsBtn" class="flex-1 px-4 py-2 bg-gradient-to-r from-green-500 to-cyan-500 rounded-lg font-semibold disabled:opacity-50" disabled>Adicionar</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Detalhes do Lote -->
+<div id="batchDetailModal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden z-50 flex items-center justify-center">
+  <div class="bg-slate-900 rounded-xl border border-blue-500/30 w-full max-w-3xl max-h-screen overflow-y-auto p-6 space-y-4">
+    <div class="flex justify-between items-center">
+      <h2 id="detailTitle" class="text-2xl font-bold gradient-text"></h2>
+      <button id="closeDetailModal" class="text-slate-400 hover:text-white text-2xl">&times;</button>
+    </div>
+
+    <!-- Progresso Geral -->
+    <div class="bg-slate-800 rounded-lg p-4">
+      <div class="flex justify-between mb-2">
+        <span>Progresso Geral</span>
+        <span id="detailProgress" class="font-mono">0%</span>
+      </div>
+      <div class="w-full bg-slate-700 rounded-full h-3 overflow-hidden">
+        <div id="detailProgressBar" class="bg-gradient-to-r from-blue-500 to-cyan-500 h-full transition-all duration-300" style="width: 0%"></div>
+      </div>
+    </div>
+
+    <!-- Status -->
+    <div class="grid grid-cols-3 gap-4">
+      <div class="bg-slate-800 rounded-lg p-4 text-center">
+        <div class="text-2xl font-bold text-blue-400" id="detailCompleted">0</div>
+        <div class="text-sm text-slate-400">Completados</div>
+      </div>
+      <div class="bg-slate-800 rounded-lg p-4 text-center">
+        <div class="text-2xl font-bold text-yellow-400" id="detailPending">0</div>
+        <div class="text-sm text-slate-400">Pendentes</div>
+      </div>
+      <div class="bg-slate-800 rounded-lg p-4 text-center">
+        <div class="text-2xl font-bold text-red-400" id="detailFailed">0</div>
+        <div class="text-sm text-slate-400">Falhas</div>
+      </div>
+    </div>
+
+    <!-- Items -->
+    <div>
+      <h3 class="text-lg font-semibold mb-3">Items</h3>
+      <div id="detailItems" class="space-y-2 max-h-64 overflow-y-auto">
+        <!-- Itens renderizados aqui -->
+      </div>
+    </div>
+
+    <!-- Ações -->
+    <div id="detailActions" class="flex gap-3 pt-4">
+      <button id="detailStartBtn" class="flex-1 px-4 py-2 bg-gradient-to-r from-green-500 to-emerald-500 rounded-lg font-semibold hidden">▶️ Iniciar</button>
+      <button id="detailPauseBtn" class="flex-1 px-4 py-2 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-lg font-semibold hidden">⏸ Pausar</button>
+      <button id="detailResumeBtn" class="flex-1 px-4 py-2 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-lg font-semibold hidden">▶️ Retomar</button>
+      <button id="detailDeleteBtn" class="px-4 py-2 bg-red-600 rounded-lg font-semibold">🗑 Deletar</button>
+    </div>
+  </div>
+</div>
+
+<style>
+  .page-content {
+    animation: fadeIn 0.3s ease-in;
+  }
+  .page-content.hidden {
+    display: none;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .batch-card {
+    background: rgba(255,255,255,0.03);
+    backdrop-filter: blur(12px);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    border: 1px solid rgba(79,172,254,0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .batch-card:hover {
+    border-color: rgba(79,172,254,0.45);
+    box-shadow: 0 0 20px rgba(79,172,254,0.1);
+  }
+</style>
+
+<script>
+// ============ BATCH MANAGER ============
+const batchManager = {
+  currentBatchId: null,
+  selectedItems: [],
+  currentContentType: 'movie',
+
+  async loadBatches() {
+    try {
+      const res = await fetch('/api/admin/batch/list', {
+        headers: { 'Authorization': `Bearer ${state.token}` }
+      });
+      const data = await res.json();
+      
+      if (!data.success) throw new Error(data.error);
+      
+      const list = document.getElementById('batchList');
+      if (data.data.length === 0) {
+        list.innerHTML = '<div class="text-center py-12 text-slate-400"><i class="fas fa-inbox text-4xl mb-3 opacity-50"></i><p>Nenhum lote criado ainda</p></div>';
+        return;
+      }
+
+      list.innerHTML = data.data.map(batch => `
+        <div class="batch-card" onclick="batchManager.viewBatch('${batch._id}')">
+          <div class="flex justify-between items-start mb-3">
+            <div>
+              <h3 class="text-lg font-semibold">${sanitize(batch.name)}</h3>
+              <p class="text-sm text-slate-400">${sanitize(batch.description || '')}</p>
+            </div>
+            <span class="px-3 py-1 rounded-full text-sm font-medium ${
+              batch.status === 'completed' ? 'bg-green-500/20 text-green-300' :
+              batch.status === 'processing' ? 'bg-blue-500/20 text-blue-300' :
+              batch.status === 'failed' ? 'bg-red-500/20 text-red-300' :
+              'bg-slate-500/20 text-slate-300'
+            }">${batch.status}</span>
+          </div>
+          <div class="space-y-2">
+            <div class="flex justify-between text-sm">
+              <span>${batch.completedItems}/${batch.totalItems} completados</span>
+              <span>${batch.overallProgress}%</span>
+            </div>
+            <div class="w-full bg-slate-700 rounded-full h-2">
+              <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-2 rounded-full transition-all" style="width: ${batch.overallProgress}%"></div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    } catch (error) {
+      setBuilderStatus('error', sanitize(error.message));
+    }
+  },
+
+  async viewBatch(batchId) {
+    try {
+      const res = await fetch(`/api/admin/batch/${batchId}`, {
+        headers: { 'Authorization': `Bearer ${state.token}` }
+      });
+      const data = await res.json();
+      
+      if (!data.success) throw new Error(data.error);
+      
+      this.currentBatchId = batchId;
+      const batch = data.data;
+      
+      // Preencher modal
+      document.getElementById('detailTitle').textContent = sanitize(batch.name);
+      document.getElementById('detailProgress').textContent = `${batch.overallProgress}%`;
+      document.getElementById('detailProgressBar').style.width = `${batch.overallProgress}%`;
+      document.getElementById('detailCompleted').textContent = batch.completedItems;
+      document.getElementById('detailPending').textContent = batch.totalItems - batch.completedItems - batch.failedItems;
+      document.getElementById('detailFailed').textContent = batch.failedItems;
+
+      // Items
+      document.getElementById('detailItems').innerHTML = (batch.items || []).map(item => `
+        <div class="bg-slate-800 rounded p-3 flex justify-between items-center">
+          <div>
+            <p class="font-medium">${sanitize(item.title || item.videoId)}</p>
+            <p class="text-xs text-slate-400">${item.episodeName ? sanitize(item.episodeName) : item.mediaType}</p>
+          </div>
+          <div class="text-right">
+            <span class="inline-block px-2 py-1 rounded text-xs font-medium ${
+              item.status === 'ready' ? 'bg-green-500/20 text-green-300' :
+              item.status === 'downloading' ? 'bg-blue-500/20 text-blue-300' :
+              item.status === 'failed' ? 'bg-red-500/20 text-red-300' :
+              'bg-slate-500/20 text-slate-300'
+            }">${item.status}</span>
+            <p class="text-xs text-slate-400 mt-1">${item.progress}%</p>
+          </div>
+        </div>
+      `).join('');
+
+      // Botões de ação
+      document.getElementById('detailStartBtn').classList.toggle('hidden', batch.status !== 'draft');
+      document.getElementById('detailPauseBtn').classList.toggle('hidden', batch.status !== 'processing');
+      document.getElementById('detailResumeBtn').classList.toggle('hidden', batch.status !== 'paused');
+
+      document.getElementById('batchDetailModal').classList.remove('hidden');
+
+      // Polling se em processamento
+      if (batch.status === 'processing') {
+        this.startPolling();
+      }
+    } catch (error) {
+      setBuilderStatus('error', sanitize(error.message));
+    }
+  },
+
+  startPolling() {
+    const interval = setInterval(async () => {
+      if (!this.currentBatchId || document.getElementById('batchDetailModal').classList.contains('hidden')) {
+        clearInterval(interval);
+        return;
+      }
+      await this.viewBatch(this.currentBatchId);
+    }, 3000);
+  },
+
+  async startBatch() {
+    try {
+      const res = await fetch(`/api/admin/batch/${this.currentBatchId}/start`, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${state.token}` }
+      });
+      const data = await res.json();
+      
+      if (!data.success) throw new Error(data.error);
+      
+      setBuilderStatus('success', 'Lote iniciado!');
+      await this.viewBatch(this.currentBatchId);
+      this.startPolling();
+    } catch (error) {
+      setBuilderStatus('error', sanitize(error.message));
+    }
+  },
+
+  async pauseBatch() {
+    try {
+      const res = await fetch(`/api/admin/batch/${this.currentBatchId}/pause`, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${state.token}` }
+      });
+      const data = await res.json();
+      
+      if (!data.success) throw new Error(data.error);
+      setBuilderStatus('success', 'Lote pausado!');
+      await this.viewBatch(this.currentBatchId);
+    } catch (error) {
+      setBuilderStatus('error', sanitize(error.message));
+    }
+  },
+
+  async resumeBatch() {
+    try {
+      const res = await fetch(`/api/admin/batch/${this.currentBatchId}/resume`, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${state.token}` }
+      });
+      const data = await res.json();
+      
+      if (!data.success) throw new Error(data.error);
+      setBuilderStatus('success', 'Lote retomado!');
+      await this.viewBatch(this.currentBatchId);
+      this.startPolling();
+    } catch (error) {
+      setBuilderStatus('error', sanitize(error.message));
+    }
+  },
+
+  async deleteBatch() {
+    if (!confirm('Tem certeza que quer deletar este lote?')) return;
+    
+    try {
+      const res = await fetch(`/api/admin/batch/${this.currentBatchId}`, {
+        method: 'DELETE',
+        headers: { 'Authorization': `Bearer ${state.token}` }
+      });
+      const data = await res.json();
+      
+      if (!data.success) throw new Error(data.error);
+      
+      document.getElementById('batchDetailModal').classList.add('hidden');
+      setBuilderStatus('success', 'Lote deletado!');
+      await this.loadBatches();
+    } catch (error) {
+      setBuilderStatus('error', sanitize(error.message));
+    }
+  }
+};
+
+// Event Listeners
+document.getElementById('newBatchBtn').addEventListener('click', () => {
+  document.getElementById('newBatchModal').classList.remove('hidden');
+});
+
+document.getElementById('closeBatchModal').addEventListener('click', () => {
+  document.getElementById('newBatchModal').classList.add('hidden');
+});
+
+document.getElementById('createBatchBtn').addEventListener('click', async () => {
+  const name = document.getElementById('batchName').value.trim();
+  const desc = document.getElementById('batchDesc').value.trim();
+  const concurrency = Number(document.getElementById('batchConcurrency').value) || 2;
+  const folder = document.getElementById('batchFolder').value.trim();
+
+  if (!name) return alert('Nome do lote é obrigatório');
+
+  try {
+    const res = await fetch('/api/admin/batch/create', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${state.token}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        name,
+        description: desc,
+        concurrency,
+        bunnyFolder: folder || undefined,
+        items: [] // Adicionar items depois
+      })
+    });
+
+    const data = await res.json();
+    if (!data.success) throw new Error(data.error);
+
+    document.getElementById('newBatchModal').classList.add('hidden');
+    document.getElementById('batchName').value = '';
+    document.getElementById('batchDesc').value = '';
+    document.getElementById('batchConcurrency').value = '2';
+    document.getElementById('batchFolder').value = '';
+
+    setBuilderStatus('success', 'Lote criado! Agora adicione items.');
+    await batchManager.loadBatches();
+  } catch (error) {
+    setBuilderStatus('error', sanitize(error.message));
+  }
+});
+
+document.getElementById('closeDetailModal').addEventListener('click', () => {
+  document.getElementById('batchDetailModal').classList.add('hidden');
+});
+
+document.getElementById('detailStartBtn').addEventListener('click', () => batchManager.startBatch());
+document.getElementById('detailPauseBtn').addEventListener('click', () => batchManager.pauseBatch());
+document.getElementById('detailResumeBtn').addEventListener('click', () => batchManager.resumeBatch());
+document.getElementById('detailDeleteBtn').addEventListener('click', () => batchManager.deleteBatch());
+
+// Inicializar quando a aba for aberta
+function showDownloadsPage() {
+  document.querySelectorAll('.page-content').forEach(p => p.classList.add('hidden'));
+  document.getElementById('downloadsPage').classList.remove('hidden');
+  batchManager.loadBatches();
+}
+</script>

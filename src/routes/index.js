@@ -8,6 +8,7 @@ const adminRoutes = require('./admin.routes');
 const paymentsRoutes = require('./payments.routes');
 const playerRoutes = require('./player.routes');
 const cookiesRoutes = require('./cookies.routes');
+const batchRoutes = require('./batch.routes');
 
 
 
@@ -22,5 +23,6 @@ router.use(adminRoutes);
 router.use(paymentsRoutes);
 router.use(playerRoutes);
 router.use('/cookies', cookiesRoutes);
+router.use(batchRoutes);
 
 module.exports = router;
