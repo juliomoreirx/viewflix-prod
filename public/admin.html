@@ -338,7 +338,6 @@
     <div class="stars-bg" aria-hidden="true"></div>
     <div class="admin-container">
         
-        <!-- LOGIN PAGE -->
         <div id="authPage" class="auth-page">
             <div class="max-w-sm w-full mx-4">
                 <div class="text-center mb-10">
@@ -389,10 +388,8 @@
             </div>
         </div>
         
-        <!-- DASHBOARD PAGE -->
         <div id="dashboardPage" class="dashboard-page">
             
-            <!-- SIDEBAR -->
             <div class="sidebar">
                 <div class="flex items-center gap-3 mb-8 pb-6 border-b border-white/10">
                     <svg width="40" height="40" viewBox="0 0 24 24" fill="none" style="filter:drop-shadow(0 0 5px rgba(79,172,254,0.5))">
@@ -437,10 +434,8 @@
                 </div>
             </div>
             
-            <!-- MAIN CONTENT -->
             <div class="main-content">
                 
-                <!-- TOP BAR -->
                 <div class="flex justify-between items-center mb-8">
                     <div>
                         <h1 class="text-3xl font-black mb-1">Dashboard Administrativo</h1>
@@ -451,7 +446,6 @@
                     </button>
                 </div>
                 
-                <!-- STATS CARDS -->
                 <div id="statsContainer" class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
                     <div class="stat-card">
                         <div class="flex items-center justify-between">
@@ -491,9 +485,7 @@
                     </div>
                 </div>
                 
-                <!-- TABS CONTENT -->
                 <div id="usersTab" class="tab-content">
-                    <!-- SEARCH & FILTERS -->
                     <div class="glass rounded-2xl p-6 mb-6 border border-white/5">
                         <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
                             <input 
@@ -518,12 +510,9 @@
                         </div>
                     </div>
                     
-                    <!-- USERS LIST -->
                     <div id="usersListContainer">
-                        <!-- Loaded dynamically -->
-                    </div>
+                        </div>
                     
-                    <!-- PAGINATION -->
                     <div id="paginationContainer" class="flex justify-between items-center mt-6">
                         <button id="prevPageBtn" class="btn-secondary" disabled>
                             <i class="fa-solid fa-chevron-left mr-2"></i>Anterior
@@ -741,11 +730,28 @@ Abra o bot e confira o que preparamos.</textarea>
                     </div>
                 </div>
                 
-            </div>
-        </div>
+                <div id="downloadsTab" class="tab-content hidden">
+                    <div class="flex justify-between items-center mb-8">
+                        <div>
+                        <h1 class="text-3xl font-black mb-1">Downloads em Lote</h1>
+                        <p class="text-gray-500 text-sm">Gerencie downloads múltiplos e organize no Bunny</p>
+                        </div>
+                        <button id="newBatchBtn" class="btn-primary">
+                        <i class="fa-solid fa-plus mr-2"></i>Novo Lote
+                        </button>
+                    </div>
+
+                    <div id="batchList" class="space-y-4">
+                        <div class="stat-card text-center py-12">
+                        <i class="fa-solid fa-inbox text-5xl text-gray-600 mb-4 block"></i>
+                        <p class="text-gray-500">Nenhum lote criado ainda</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div> </div>
     </div>
     
-    <!-- USER DETAIL MODAL -->
     <div id="userModal" class="modal">
         <div class="modal-content">
             <div class="flex justify-between items-start mb-6">
@@ -755,8 +761,19 @@ Abra o bot e confira o que preparamos.</textarea>
                 </button>
             </div>
             <div id="userModalContent">
-                <!-- Loaded dynamically -->
+                </div>
+        </div>
+    </div>
+
+    <div id="batchDetailModal" class="modal">
+        <div class="modal-content max-w-2xl w-full max-h-screen overflow-y-auto">
+            <div class="flex justify-between items-center mb-6">
+                <h2 id="batchModalTitle" class="text-2xl font-black">Lote</h2>
+                <button onclick="document.getElementById('batchDetailModal').classList.remove('open')" class="text-gray-400 hover:text-white text-2xl cursor-pointer">
+                    <i class="fa-solid fa-times"></i>
+                </button>
             </div>
+            <div id="batchModalContent"></div>
         </div>
     </div>
 
@@ -777,7 +794,7 @@ Abra o bot e confira o que preparamos.</textarea>
             }
         };
 
-        // Auth
+        // Auth & Elements
         const loginForm = document.getElementById('loginForm');
         const authPage = document.getElementById('authPage');
         const dashboardPage = document.getElementById('dashboardPage');
@@ -821,6 +838,215 @@ Abra o bot e confira o que preparamos.</textarea>
             pollTimer: null
         };
 
+        // ===== BATCH MANAGER =====
+        const batchManager = {
+            pollTimer: null,
+
+            async loadBatches() {
+                if (!state.token) return;
+                try {
+                    const res = await fetch('/api/admin/batch/list', {
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+
+                    const list = document.getElementById('batchList');
+                    if (!data.data || data.data.length === 0) {
+                        list.innerHTML = `
+                            <div class="stat-card text-center py-12">
+                                <i class="fa-solid fa-inbox text-5xl text-gray-600 mb-4 block"></i>
+                                <p class="text-gray-500">Nenhum lote criado ainda</p>
+                            </div>`;
+                        return;
+                    }
+
+                    list.innerHTML = data.data.map(batch => {
+                        const statusColor = {
+                            completed: 'bg-green-500/20 text-green-300',
+                            processing: 'bg-blue-500/20 text-blue-300',
+                            failed: 'bg-red-500/20 text-red-300',
+                            paused: 'bg-yellow-500/20 text-yellow-300'
+                        }[batch.status] || 'bg-gray-500/20 text-gray-300';
+
+                        return `
+                            <div class="stat-card hover:border-[#4facfe]/50 cursor-pointer transition" onclick="batchManager.viewBatch('${batch._id}')">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div class="flex-1">
+                                        <h3 class="text-lg font-semibold">${sanitize(batch.name)}</h3>
+                                        ${batch.description ? `<p class="text-sm text-gray-500 mt-1">${sanitize(batch.description)}</p>` : ''}
+                                    </div>
+                                    <span class="px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap ml-4 ${statusColor}">
+                                        ${batch.status}
+                                    </span>
+                                </div>
+                                <div class="space-y-2">
+                                    <div class="flex justify-between text-sm text-gray-400">
+                                        <span>${batch.completedItems}/${batch.totalItems} completados</span>
+                                        <span>${batch.overallProgress}%</span>
+                                    </div>
+                                    <div class="w-full bg-gray-700 rounded-full h-2">
+                                        <div class="bg-gradient-to-r from-[#00f2fe] to-[#4facfe] h-2 rounded-full" style="width: ${batch.overallProgress}%"></div>
+                                    </div>
+                                </div>
+                                <div class="flex gap-4 mt-3 text-xs text-gray-500">
+                                    <span><i class="fa-solid fa-check text-green-400 mr-1"></i>${batch.completedItems} prontos</span>
+                                    <span><i class="fa-solid fa-times text-red-400 mr-1"></i>${batch.failedItems} erros</span>
+                                </div>
+                            </div>`;
+                    }).join('');
+                } catch (err) {
+                    console.error('Erro ao carregar lotes:', err);
+                }
+            },
+
+            async viewBatch(batchId) {
+                if (!state.token) return;
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}`, {
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+
+                    const batch = data.data;
+                    document.getElementById('batchModalTitle').textContent = sanitize(batch.name);
+
+                    const itemsHtml = (batch.items || []).map(item => {
+                        const color = { ready: 'text-green-400', downloading: 'text-blue-400', uploading: 'text-cyan-400', failed: 'text-red-400' }[item.status] || 'text-gray-400';
+                        return `
+                            <div class="glass p-3 rounded-lg border border-white/5 mb-2">
+                                <div class="flex justify-between items-start">
+                                    <div class="flex-1">
+                                        <p class="font-medium text-sm">${sanitize(item.title || item.videoId)}</p>
+                                        ${item.episodeName ? `<p class="text-xs text-gray-500">${sanitize(item.episodeName)}</p>` : ''}
+                                    </div>
+                                    <div class="text-right ml-4 shrink-0">
+                                        <span class="text-xs font-medium ${color}">${item.status}</span>
+                                        <p class="text-xs text-gray-500 mt-1">${item.progress}%</p>
+                                    </div>
+                                </div>
+                                <div class="mt-2 w-full bg-gray-700 rounded-full h-1">
+                                    <div class="bg-gradient-to-r from-[#00f2fe] to-[#4facfe] h-1 rounded-full" style="width: ${item.progress}%"></div>
+                                </div>
+                            </div>`;
+                    }).join('') || '<p class="text-gray-500 text-sm text-center py-4">Nenhum item</p>';
+
+                    document.getElementById('batchModalContent').innerHTML = `
+                        <div class="grid grid-cols-3 gap-3 mb-6">
+                            <div class="glass p-3 rounded-lg text-center">
+                                <p class="text-2xl font-black text-green-400">${batch.completedItems}</p>
+                                <p class="text-xs text-gray-500">Completados</p>
+                            </div>
+                            <div class="glass p-3 rounded-lg text-center">
+                                <p class="text-2xl font-black text-yellow-400">${batch.totalItems - batch.completedItems - batch.failedItems}</p>
+                                <p class="text-xs text-gray-500">Pendentes</p>
+                            </div>
+                            <div class="glass p-3 rounded-lg text-center">
+                                <p class="text-2xl font-black text-red-400">${batch.failedItems}</p>
+                                <p class="text-xs text-gray-500">Erros</p>
+                            </div>
+                        </div>
+
+                        <div class="glass p-4 rounded-lg mb-4">
+                            <div class="flex justify-between mb-2 text-sm">
+                                <span>Progresso geral</span>
+                                <span class="font-mono font-bold">${batch.overallProgress}%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-2">
+                                <div class="bg-gradient-to-r from-[#00f2fe] to-[#4facfe] h-2 rounded-full" style="width: ${batch.overallProgress}%"></div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <h3 class="font-semibold mb-3 text-sm">Items (${(batch.items || []).length})</h3>
+                            <div class="max-h-64 overflow-y-auto pr-2">${itemsHtml}</div>
+                        </div>
+
+                        <div class="flex gap-3 flex-wrap">
+                            ${batch.status === 'draft' ? `<button onclick="batchManager.startBatch('${batchId}')" class="btn-primary flex-1">Iniciar</button>` : ''}
+                            ${batch.status === 'processing' ? `<button onclick="batchManager.pauseBatch('${batchId}')" class="btn-secondary flex-1">Pausar</button>` : ''}
+                            ${batch.status === 'paused' ? `<button onclick="batchManager.resumeBatch('${batchId}')" class="btn-primary flex-1">Retomar</button>` : ''}
+                            <button onclick="batchManager.deleteBatch('${batchId}')" class="btn-secondary flex-1 border-red-500/30 text-red-400 hover:bg-red-500/20">Deletar</button>
+                        </div>`;
+
+                    document.getElementById('batchDetailModal').classList.add('open');
+
+                    if (batch.status === 'processing') this.startPolling(batchId);
+                } catch (err) {
+                    console.error('Erro ao carregar lote:', err);
+                }
+            },
+
+            startPolling(batchId) {
+                if (this.pollTimer) clearInterval(this.pollTimer);
+                this.pollTimer = setInterval(async () => {
+                    const modal = document.getElementById('batchDetailModal');
+                    if (!modal.classList.contains('open')) {
+                        clearInterval(this.pollTimer);
+                        return;
+                    }
+                    await this.viewBatch(batchId);
+                }, 3000);
+            },
+
+            async startBatch(batchId) {
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}/start`, {
+                        method: 'POST',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    await this.viewBatch(batchId);
+                    this.startPolling(batchId);
+                    await this.loadBatches();
+                } catch (err) { alert('Erro: ' + err.message); }
+            },
+
+            async pauseBatch(batchId) {
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}/pause`, {
+                        method: 'POST',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    await this.viewBatch(batchId);
+                    await this.loadBatches();
+                } catch (err) { alert('Erro: ' + err.message); }
+            },
+
+            async resumeBatch(batchId) {
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}/resume`, {
+                        method: 'POST',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    await this.viewBatch(batchId);
+                    this.startPolling(batchId);
+                    await this.loadBatches();
+                } catch (err) { alert('Erro: ' + err.message); }
+            },
+
+            async deleteBatch(batchId) {
+                if (!confirm('Deletar este lote?')) return;
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}`, {
+                        method: 'DELETE',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    document.getElementById('batchDetailModal').classList.remove('open');
+                    await this.loadBatches();
+                } catch (err) { alert('Erro: ' + err.message); }
+            }
+        };
+
+        // Builders & Functions
         function getAllGeneratedLinks() {
             return builderState.generatedGroups.flatMap((group) => group.links || []);
         }
@@ -1083,7 +1309,7 @@ Abra o bot e confira o que preparamos.</textarea>
             setTimeout(() => errorDiv.classList.add('hidden'), 5000);
         }
 
-        // Tabs
+        // Tabs Logic
         document.querySelectorAll('.tab-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -1091,7 +1317,29 @@ Abra o bot e confira o que preparamos.</textarea>
                 btn.classList.add('active');
                 const tabId = btn.dataset.tab + 'Tab';
                 document.getElementById(tabId).classList.remove('hidden');
+
+                // Load Batch list if Downloads tab is selected
+                if (btn.dataset.tab === 'downloads') {
+                    batchManager.loadBatches();
+                }
             });
+        });
+
+        // New Batch Button Logic
+        document.getElementById('newBatchBtn').addEventListener('click', async () => {
+            const name = prompt('Nome do lote:');
+            if (!name || !state.token) return;
+            const desc = prompt('Descrição (opcional):') || undefined;
+            try {
+                const res = await fetch('/api/admin/batch/create', {
+                    method: 'POST',
+                    headers: { 'Authorization': `Bearer ${state.token}`, 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ name, description: desc, concurrency: 2, items: [] })
+                });
+                const data = await res.json();
+                if (!data.success) throw new Error(data.error);
+                await batchManager.loadBatches();
+            } catch (err) { alert('Erro: ' + err.message); }
         });
 
         function setBuilderStatus(type, html) {
@@ -1515,7 +1763,7 @@ Abra o bot e confira o que preparamos.</textarea>
                         btn.innerHTML = '<i class="fa-solid fa-hourglass-spin mr-2"></i>Processando...';
                         const res = await fetch('/api/admin/content-link/requeue', {
                             method: 'POST',
-                            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${adminToken}` },
+                            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${state.token}` },
                             body: JSON.stringify({ token })
                         });
                         const data = await res.json();
@@ -1908,6 +2156,9 @@ Abra o bot e confira o que preparamos.</textarea>
         document.getElementById('userModal').addEventListener('click', (e) => {
             if (e.target.id === 'userModal') e.target.classList.remove('open');
         });
+        document.getElementById('batchDetailModal').addEventListener('click', (e) => {
+            if (e.target.id === 'batchDetailModal') e.target.classList.remove('open');
+        });
 
         function sanitize(str) {
             const div = document.createElement('div');
@@ -1915,273 +2166,6 @@ Abra o bot e confira o que preparamos.</textarea>
             return div.innerHTML;
         }
 
-        // Initial state
     </script>
-
-<!-- ===== DOWNLOADS TAB ===== -->
-<div id="downloadsTab" class="tab-content hidden">
-  <div class="flex justify-between items-center mb-8">
-    <div>
-      <h1 class="text-3xl font-black mb-1">Downloads em Lote</h1>
-      <p class="text-gray-500 text-sm">Gerencie downloads múltiplos e organize no Bunny</p>
-    </div>
-    <button id="newBatchBtn" class="btn-primary">
-      <i class="fas fa-plus mr-2"></i>Novo Lote
-    </button>
-  </div>
-
-  <div id="batchList" class="space-y-4">
-    <div class="stat-card text-center py-12">
-      <i class="fas fa-inbox text-5xl text-gray-600 mb-4 block"></i>
-      <p class="text-gray-500">Nenhum lote criado ainda</p>
-    </div>
-  </div>
-</div>
-
-<!-- Modal de detalhes do lote -->
-<div id="batchDetailModal" class="modal">
-  <div class="modal-content max-w-2xl w-full max-h-screen overflow-y-auto">
-    <div class="flex justify-between items-center mb-6">
-      <h2 id="batchModalTitle" class="text-2xl font-black">Lote</h2>
-      <button onclick="document.getElementById('batchDetailModal').classList.remove('open')" class="text-gray-400 hover:text-white text-2xl cursor-pointer">
-        <i class="fa-solid fa-times"></i>
-      </button>
-    </div>
-    <div id="batchModalContent"></div>
-  </div>
-</div>
-
-<script>
-// ===== BATCH MANAGER =====
-const batchManager = {
-  pollTimer: null,
-
-  async loadBatches() {
-    if (!state.token) return;
-    try {
-      const res = await fetch('/api/admin/batch/list', {
-        headers: { 'Authorization': `Bearer ${state.token}` }
-      });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.error);
-
-      const list = document.getElementById('batchList');
-      if (!data.data || data.data.length === 0) {
-        list.innerHTML = `
-          <div class="stat-card text-center py-12">
-            <i class="fas fa-inbox text-5xl text-gray-600 mb-4 block"></i>
-            <p class="text-gray-500">Nenhum lote criado ainda</p>
-          </div>`;
-        return;
-      }
-
-      list.innerHTML = data.data.map(batch => {
-        const statusColor = {
-          completed: 'bg-green-500/20 text-green-300',
-          processing: 'bg-blue-500/20 text-blue-300',
-          failed: 'bg-red-500/20 text-red-300',
-          paused: 'bg-yellow-500/20 text-yellow-300'
-        }[batch.status] || 'bg-gray-500/20 text-gray-300';
-
-        return `
-          <div class="stat-card hover:border-blue-500/50 cursor-pointer transition" onclick="batchManager.viewBatch('${batch._id}')">
-            <div class="flex justify-between items-start mb-4">
-              <div class="flex-1">
-                <h3 class="text-lg font-semibold">${sanitize(batch.name)}</h3>
-                ${batch.description ? `<p class="text-sm text-gray-500 mt-1">${sanitize(batch.description)}</p>` : ''}
-              </div>
-              <span class="px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap ml-4 ${statusColor}">
-                ${batch.status}
-              </span>
-            </div>
-            <div class="space-y-2">
-              <div class="flex justify-between text-sm text-gray-400">
-                <span>${batch.completedItems}/${batch.totalItems} completados</span>
-                <span>${batch.overallProgress}%</span>
-              </div>
-              <div class="w-full bg-gray-700 rounded-full h-2">
-                <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-2 rounded-full" style="width: ${batch.overallProgress}%"></div>
-              </div>
-            </div>
-            <div class="flex gap-4 mt-3 text-xs text-gray-500">
-              <span><i class="fas fa-check text-green-400 mr-1"></i>${batch.completedItems} prontos</span>
-              <span><i class="fas fa-times text-red-400 mr-1"></i>${batch.failedItems} erros</span>
-            </div>
-          </div>`;
-      }).join('');
-    } catch (err) {
-      console.error('Erro ao carregar lotes:', err);
-    }
-  },
-
-  async viewBatch(batchId) {
-    if (!state.token) return;
-    try {
-      const res = await fetch(`/api/admin/batch/${batchId}`, {
-        headers: { 'Authorization': `Bearer ${state.token}` }
-      });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.error);
-
-      const batch = data.data;
-      document.getElementById('batchModalTitle').textContent = sanitize(batch.name);
-
-      const itemsHtml = (batch.items || []).map(item => {
-        const color = { ready: 'text-green-400', downloading: 'text-blue-400', uploading: 'text-cyan-400', failed: 'text-red-400' }[item.status] || 'text-gray-400';
-        return `
-          <div class="glass p-3 rounded-lg border border-white/5 mb-2">
-            <div class="flex justify-between items-start">
-              <div class="flex-1">
-                <p class="font-medium text-sm">${sanitize(item.title || item.videoId)}</p>
-                ${item.episodeName ? `<p class="text-xs text-gray-500">${sanitize(item.episodeName)}</p>` : ''}
-              </div>
-              <div class="text-right ml-4 shrink-0">
-                <span class="text-xs font-medium ${color}">${item.status}</span>
-                <p class="text-xs text-gray-500 mt-1">${item.progress}%</p>
-              </div>
-            </div>
-            <div class="mt-2 w-full bg-gray-700 rounded-full h-1">
-              <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-1 rounded-full" style="width: ${item.progress}%"></div>
-            </div>
-          </div>`;
-      }).join('') || '<p class="text-gray-500 text-sm text-center py-4">Nenhum item</p>';
-
-      document.getElementById('batchModalContent').innerHTML = `
-        <div class="grid grid-cols-3 gap-3 mb-6">
-          <div class="glass p-3 rounded-lg text-center">
-            <p class="text-2xl font-black text-green-400">${batch.completedItems}</p>
-            <p class="text-xs text-gray-500">Completados</p>
-          </div>
-          <div class="glass p-3 rounded-lg text-center">
-            <p class="text-2xl font-black text-yellow-400">${batch.totalItems - batch.completedItems - batch.failedItems}</p>
-            <p class="text-xs text-gray-500">Pendentes</p>
-          </div>
-          <div class="glass p-3 rounded-lg text-center">
-            <p class="text-2xl font-black text-red-400">${batch.failedItems}</p>
-            <p class="text-xs text-gray-500">Erros</p>
-          </div>
-        </div>
-
-        <div class="glass p-4 rounded-lg mb-4">
-          <div class="flex justify-between mb-2 text-sm">
-            <span>Progresso geral</span>
-            <span class="font-mono font-bold">${batch.overallProgress}%</span>
-          </div>
-          <div class="w-full bg-gray-700 rounded-full h-2">
-            <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-2 rounded-full" style="width: ${batch.overallProgress}%"></div>
-          </div>
-        </div>
-
-        <div class="mb-4">
-          <h3 class="font-semibold mb-3 text-sm">Items (${(batch.items || []).length})</h3>
-          <div class="max-h-64 overflow-y-auto">${itemsHtml}</div>
-        </div>
-
-        <div class="flex gap-3 flex-wrap">
-          ${batch.status === 'draft' ? `<button onclick="batchManager.startBatch('${batchId}')" class="btn-primary flex-1">Iniciar</button>` : ''}
-          ${batch.status === 'processing' ? `<button onclick="batchManager.pauseBatch('${batchId}')" class="btn-secondary flex-1">Pausar</button>` : ''}
-          ${batch.status === 'paused' ? `<button onclick="batchManager.resumeBatch('${batchId}')" class="btn-primary flex-1">Retomar</button>` : ''}
-          <button onclick="batchManager.deleteBatch('${batchId}')" class="btn-secondary flex-1">Deletar</button>
-        </div>`;
-
-      document.getElementById('batchDetailModal').classList.add('open');
-
-      if (batch.status === 'processing') this.startPolling(batchId);
-    } catch (err) {
-      console.error('Erro ao carregar lote:', err);
-    }
-  },
-
-  startPolling(batchId) {
-    if (this.pollTimer) clearInterval(this.pollTimer);
-    this.pollTimer = setInterval(async () => {
-      const modal = document.getElementById('batchDetailModal');
-      if (!modal.classList.contains('open')) {
-        clearInterval(this.pollTimer);
-        return;
-      }
-      await this.viewBatch(batchId);
-    }, 3000);
-  },
-
-  async startBatch(batchId) {
-    try {
-      const res = await fetch(`/api/admin/batch/${batchId}/start`, {
-        method: 'POST',
-        headers: { 'Authorization': `Bearer ${state.token}` }
-      });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.error);
-      await this.viewBatch(batchId);
-      this.startPolling(batchId);
-      await this.loadBatches();
-    } catch (err) { alert('Erro: ' + err.message); }
-  },
-
-  async pauseBatch(batchId) {
-    try {
-      const res = await fetch(`/api/admin/batch/${batchId}/pause`, {
-        method: 'POST',
-        headers: { 'Authorization': `Bearer ${state.token}` }
-      });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.error);
-      await this.viewBatch(batchId);
-      await this.loadBatches();
-    } catch (err) { alert('Erro: ' + err.message); }
-  },
-
-  async resumeBatch(batchId) {
-    try {
-      const res = await fetch(`/api/admin/batch/${batchId}/resume`, {
-        method: 'POST',
-        headers: { 'Authorization': `Bearer ${state.token}` }
-      });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.error);
-      await this.viewBatch(batchId);
-      this.startPolling(batchId);
-      await this.loadBatches();
-    } catch (err) { alert('Erro: ' + err.message); }
-  },
-
-  async deleteBatch(batchId) {
-    if (!confirm('Deletar este lote?')) return;
-    try {
-      const res = await fetch(`/api/admin/batch/${batchId}`, {
-        method: 'DELETE',
-        headers: { 'Authorization': `Bearer ${state.token}` }
-      });
-      const data = await res.json();
-      if (!data.success) throw new Error(data.error);
-      document.getElementById('batchDetailModal').classList.remove('open');
-      await this.loadBatches();
-    } catch (err) { alert('Erro: ' + err.message); }
-  }
-};
-
-// Novo lote
-document.getElementById('newBatchBtn').addEventListener('click', async () => {
-  const name = prompt('Nome do lote:');
-  if (!name || !state.token) return;
-  const desc = prompt('Descrição (opcional):') || undefined;
-  try {
-    const res = await fetch('/api/admin/batch/create', {
-      method: 'POST',
-      headers: { 'Authorization': `Bearer ${state.token}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, description: desc, concurrency: 2, items: [] })
-    });
-    const data = await res.json();
-    if (!data.success) throw new Error(data.error);
-    await batchManager.loadBatches();
-  } catch (err) { alert('Erro: ' + err.message); }
-});
-
-// Carrega ao abrir a aba
-document.querySelector('[data-tab="downloads"]').addEventListener('click', () => {
-  setTimeout(() => batchManager.loadBatches(), 50);
-});
-</script>
-
 </body>
 </html>
