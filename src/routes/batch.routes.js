@@ -19,7 +19,7 @@ const createBatchSchema = z.object({
       episodeName: z.string().optional(),
       episodeIndex: z.number().optional()
     })
-  ).min(1).max(500),
+  ).max(500).optional(), // Permite estar vazio ou ausente
   concurrency: z.number().min(1).max(10).optional(),
   bunnyFolder: z.string().optional(),
   autoStart: z.boolean().optional()
@@ -48,14 +48,14 @@ router.post('/api/admin/batch/create', adminAuth, asyncHandler(async (req, res) 
     userId: req.userId, // Admin user ID
     name: parsed.data.name,
     description: parsed.data.description,
-    items: parsed.data.items.map((item, idx) => ({
+    items: (parsed.data.items || []).map((item, idx) => ({
       ...item,
       episodeIndex: item.episodeIndex ?? idx
     })),
     concurrency: parsed.data.concurrency || 2,
     bunnyFolder: parsed.data.bunnyFolder || `batches/${Date.now()}`,
     autoStart: parsed.data.autoStart || false,
-    totalItems: parsed.data.items.length
+    totalItems: (parsed.data.items || []).length
   });
 
   await batch.save();
