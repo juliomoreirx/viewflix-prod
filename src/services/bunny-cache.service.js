@@ -122,10 +122,6 @@ async function downloadWithCurl(url, outputFile, logDebug) {
   });
 }
 
-function getExpirationHours(mediaType) {
-  return mediaType === 'series' ? 7 * 24 : 24;
-}
-
 // Valida se o arquivo é um vídeo válido checando magic bytes
 async function isValidVideoFile(filePath) {
   try {
@@ -138,7 +134,7 @@ async function isValidVideoFile(filePath) {
     if (buffer[4] === 0x66 && buffer[5] === 0x74 && buffer[6] === 0x79 && buffer[7] === 0x70) {
       return true;
     }
-    // MPEG-TS magic byte: 47 (common for .ts files)
+    // MPEG-TS magic byte: 47
     if (buffer[0] === 0x47) {
       return true;
     }
@@ -146,8 +142,7 @@ async function isValidVideoFile(filePath) {
     if (buffer[0] === 0x1a && buffer[1] === 0x45 && buffer[2] === 0xdf && buffer[3] === 0xa3) {
       return true;
     }
-    // WebM magic: 1A 45 DF A3 (same as MKV)
-    // FLV magic: 46 4C 56 01 (FLV header)
+    // FLV magic: 46 4C 56 01
     if (buffer[0] === 0x46 && buffer[1] === 0x4c && buffer[2] === 0x56) {
       return true;
     }
@@ -227,313 +222,362 @@ class BunnyCacheService {
     let tempFile;
     let stallTimer;
     let localSize = 0;
+
     while (attempt <= this.maxRetries) {
       attempt += 1;
       try {
-      const exists = await bunnyStorage.exists(storagePath);
-      logDebug({ stage: 'exists-check', storagePath, exists });
-      if (exists) {
-        // Before marking ready, verify the remote file has reasonable size
-        // (not a stray 4MB incomplete file from a previous failed attempt)
-        const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
-        if (remoteSize && remoteSize < 1024 * 100) {
-          // Remote file is suspiciously small (<100KB), likely incomplete from before
-          logDebug({ stage: 'exists-but-small', storagePath, remoteSize, willRetry: true });
-          // Continue to re-download instead of marking ready
-        } else {
-          const readyAt = new Date();
-          await purchase.updateOne({
-            $set: {
-              cacheStatus: 'ready',
-              cacheProgress: 100,
-              cacheReadyAt: readyAt,
-              cacheUpdatedAt: readyAt
-            }
-          });
-          if (typeof onReady === 'function') onReady({ storagePath });
-          return;
-        }
-      }
+        const exists = await bunnyStorage.exists(storagePath);
+        logDebug({ stage: 'exists-check', storagePath, exists });
 
-      const finalUrl = await resolveFinalUrl(purchase.mediaType, purchase.videoId);
-      logDebug({ stage: 'resolve-final-url', finalUrl });
-
-      await purchase.updateOne({
-        $set: {
-          cacheStatus: 'uploading',
-          cacheProgress: 0,
-          cacheUpdatedAt: new Date()
-        }
-      });
-
-      // Download via stream (axios) and pipe to Bunny uploadStream to support proxy agents
-      logDebug({ stage: 'download-start', url: finalUrl });
-
-      const useCurlDownload = String(env.BUNNY_DOWNLOAD_USE_CURL || 'false').toLowerCase() === 'true';
-
-      const downloadResponse = await axios.get(finalUrl, {
-        httpAgent: residentialProxyAgent || undefined,
-        httpsAgent: residentialProxyAgent || undefined,
-        headers: getRelayRequestHeaders(),
-        responseType: 'stream',
-        timeout: 0,
-        maxRedirects: 3,
-        validateStatus: (status) => status >= 200 && status < 400
-      });
-
-      logDebug({
-        stage: 'download-headers',
-        status: downloadResponse.status,
-        contentLength: downloadResponse.headers['content-length'] || null,
-        contentType: downloadResponse.headers['content-type'] || null
-      });
-
-      const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
-
-      let lastProgressAt = Date.now();
-      let downloadedBytes = 0;
-      let lastProgressPercent = 0;
-      const stallTimeoutMs = parseInt(env.BUNNY_CACHE_STALL_MS || '90000', 10);
-
-      stallTimer = setInterval(() => {
-        if (Date.now() - lastProgressAt > stallTimeoutMs) {
-          logDebug({ stage: 'stall-detected', attempt, stallTimeoutMs });
-          downloadResponse.data?.destroy?.(new Error('Download stalled'));
-        }
-      }, 10000);
-
-      downloadResponse.data.on('error', (err) => {
-        logDebug({ stage: 'download-stream-error', attempt, error: err.message });
-      });
-
-      downloadResponse.data.on('data', (chunk) => {
-        lastProgressAt = Date.now();
-        downloadedBytes += chunk.length;
-        
-        // Calculate and report download progress
-        if (contentLength && typeof onProgress === 'function') {
-          const percent = Math.min(Math.round((downloadedBytes / contentLength) * 100), 99); // Cap at 99% until upload starts
-          // Only report every 5% to avoid excessive DB updates
-          if (percent >= lastProgressPercent + 5 || percent === 99) {
-            lastProgressPercent = percent;
-            onProgress({ 
-              percent, 
-              downloadedBytes, 
-              totalBytes: contentLength,
-              stage: 'downloading'
+        if (exists) {
+          const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
+          if (remoteSize && remoteSize < 1024 * 100) {
+            logDebug({ stage: 'exists-but-small', storagePath, remoteSize, willRetry: true });
+            // continua para re-download
+          } else {
+            const readyAt = new Date();
+            await purchase.updateOne({
+              $set: {
+                cacheStatus: 'ready',
+                cacheProgress: 100,
+                cacheReadyAt: readyAt,
+                cacheUpdatedAt: readyAt
+              }
             });
-            logDebug({ stage: 'download-progress', percent, downloadedBytes, contentLength });
+            if (typeof onReady === 'function') onReady({ storagePath });
+            return;
           }
         }
-      });
 
-      tempFile = buildTempFilePath(purchase);
-      await ensureDir(path.dirname(tempFile));
+        const finalUrl = await resolveFinalUrl(purchase.mediaType, purchase.videoId);
+        logDebug({ stage: 'resolve-final-url', finalUrl });
 
-      logDebug({ stage: 'temp-download-start', tempFile, method: useCurlDownload ? 'curl' : 'stream' });
-
-      if (useCurlDownload) {
-        await downloadWithCurl(finalUrl, tempFile, logDebug);
-      } else {
-        const fileWriteStream = fs.createWriteStream(tempFile);
-
-        await new Promise((resolve, reject) => {
-          downloadResponse.data.pipe(fileWriteStream);
-          downloadResponse.data.on('error', reject);
-          fileWriteStream.on('error', reject);
-          fileWriteStream.on('finish', resolve);
-        });
-      }
-
-      if (stallTimer) clearInterval(stallTimer);
-
-      logDebug({ stage: 'temp-download-complete', tempFile });
-
-      // Verify local file size when Content-Length was provided by origin.
-      try {
-        const st = await fsp.stat(tempFile);
-        localSize = Number(st.size || 0);
-      } catch (e) {
-        localSize = 0;
-      }
-
-      // If download is significantly smaller than expected, retry with curl (more robust)
-      // Try up to 3 curl retries before giving up
-      let curlRetries = 0;
-      const maxCurlRetries = 3;
-      while (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95)) && curlRetries < maxCurlRetries) {
-        curlRetries += 1;
-        logDebug({ stage: 'download-size-small-curl-retry', expected: contentLength, actual: localSize, attempt: curlRetries, maxRetries: maxCurlRetries });
-        try {
-          // Remove incomplete file and retry with curl
-          await fsp.unlink(tempFile).catch(() => {});
-          await downloadWithCurl(finalUrl, tempFile, logDebug);
-          
-          // Recheck size after curl download
-          try {
-            const st2 = await fsp.stat(tempFile);
-            localSize = Number(st2.size || 0);
-            logDebug({ stage: 'download-size-after-curl', newSize: localSize, attempt: curlRetries });
-          } catch (e) {
-            localSize = 0;
-          }
-        } catch (curlErr) {
-          logDebug({ stage: 'curl-retry-failed', error: curlErr.message, attempt: curlRetries });
-          // Wait a bit before next retry
-          if (curlRetries < maxCurlRetries) {
-            await new Promise((resolve) => setTimeout(resolve, 2000 * curlRetries));
-          }
-        }
-      }
-
-      // Final check: if still too small, fail this attempt (will trigger main retry loop)
-      // Threshold: reject if < 100MB (typical movie/series is much larger)
-      if (localSize && localSize < 1024 * 100) {
-        throw new Error(`download_incomplete_after_retries size=${localSize}`);
-      }
-
-      if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
-        throw new Error(`download_incomplete_after_retries expected=${contentLength} actual=${localSize}`);
-      }
-
-      // Validate file format by checking magic bytes
-      const isValid = await isValidVideoFile(tempFile);
-      if (!isValid) {
-        logDebug({ stage: 'invalid-video-format', tempFile, size: localSize });
-        throw new Error('download_invalid_video_format');
-      }
-
-      // Perform upload and update DB only after upload callbacks complete.
-      let lastPercent = 0;
-      await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
-        const percent = Math.max(0, Math.min(100, Math.round(progress.percent || 0)));
-        lastPercent = percent;
         await purchase.updateOne({
           $set: {
-            cacheProgress: percent,
-            cacheUpdatedAt: new Date(),
-            cacheStatus: percent >= 1 ? 'uploading' : 'uploading'
-          }
-        });
-
-        if (debug && percent && percent % 5 === 0) {
-          logDebug({ stage: 'upload-progress', percent, uploadedBytes: progress.uploadedBytes, totalBytes: progress.totalBytes });
-
-          if (typeof onProgress === 'function') {
-            onProgress({
-              percent,
-              uploadedBytes: progress.uploadedBytes,
-              totalBytes: progress.totalBytes,
-              stage: 'uploading'
-            });
-          }
-        }
-
-        if (typeof onProgress === 'function') {
-          onProgress({ 
-            ...progress,
-            stage: 'uploading'
-          });
-        }
-      });
-
-      // capture local file size before removing
-      localSize = 0;
-      try {
-        const s = await fsp.stat(tempFile);
-        localSize = Number(s.size || 0);
-      } catch (e) {
-        localSize = 0;
-      }
-
-      // ensure temp file is removed
-      await fsp.unlink(tempFile).catch(() => {});
-
-      // Confirm upload result by checking remote existence and size
-      const readyAt = new Date();
-
-      const uploadedExists = await bunnyStorage.exists(storagePath).catch(() => false);
-      if (!uploadedExists) {
-        await purchase.updateOne({
-          $set: {
-            cacheStatus: 'failed',
-            cacheError: 'upload_not_found_after_transfer',
+            cacheStatus: 'uploading',
+            cacheProgress: 0,
             cacheUpdatedAt: new Date()
           }
         });
-        if (typeof onError === 'function') onError(new Error('Uploaded file not found on Bunny storage'));
-        return;
-      }
 
-      // verify content-length matches local size when possible
-      try {
-        const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
-        if (remoteSize && localSize && Math.abs(remoteSize - localSize) > Math.max(100, Math.round(localSize * 0.05))) {
-          // remote size differs significantly from local file -> treat as failed
+        logDebug({ stage: 'download-start', url: finalUrl });
+
+        const useCurlDownload = String(env.BUNNY_DOWNLOAD_USE_CURL || 'false').toLowerCase() === 'true';
+
+        const downloadResponse = await axios.get(finalUrl, {
+          httpAgent: residentialProxyAgent || undefined,
+          httpsAgent: residentialProxyAgent || undefined,
+          headers: getRelayRequestHeaders(),
+          responseType: 'stream',
+          timeout: 0,
+          maxRedirects: 3,
+          validateStatus: (status) => status >= 200 && status < 400
+        });
+
+        logDebug({
+          stage: 'download-headers',
+          status: downloadResponse.status,
+          contentLength: downloadResponse.headers['content-length'] || null,
+          contentType: downloadResponse.headers['content-type'] || null
+        });
+
+        const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
+
+        // ============================================================
+        // STALL TIMER — detecta stream travada
+        // ============================================================
+        let lastProgressAt = Date.now();
+        const stallTimeoutMs = parseInt(env.BUNNY_CACHE_STALL_MS || '90000', 10);
+
+        stallTimer = setInterval(() => {
+          if (Date.now() - lastProgressAt > stallTimeoutMs) {
+            logDebug({ stage: 'stall-detected', attempt, stallTimeoutMs });
+            downloadResponse.data?.destroy?.(new Error('Download stalled'));
+          }
+        }, 10000);
+
+        // ============================================================
+        // PREPARAR ARQUIVO TEMPORÁRIO
+        // ============================================================
+        tempFile = buildTempFilePath(purchase);
+        await ensureDir(path.dirname(tempFile));
+
+        logDebug({ stage: 'temp-download-start', tempFile, method: useCurlDownload ? 'curl' : 'stream' });
+
+        if (useCurlDownload) {
+          // ---- Download via curl ----
+          await downloadWithCurl(finalUrl, tempFile, logDebug);
+        } else {
+          // ---- Download via stream axios ----
+          // IMPORTANTE: todos os listeners ANTES do .pipe()
+          // O stream Node começa a fluir assim que há listeners 'data',
+          // então adicionar depois do pipe pode perder chunks → trava em 99%
+          const fileWriteStream = fs.createWriteStream(tempFile);
+          let downloadedBytes = 0;
+          let lastDownloadPercent = 0;
+
+          await new Promise((resolve, reject) => {
+            // 1. Listener de erro do source stream
+            downloadResponse.data.on('error', (err) => {
+              logDebug({ stage: 'download-stream-error', attempt, error: err.message });
+              reject(err);
+            });
+
+            // 2. Listener de progresso — atualiza lastProgressAt para o stall timer
+            downloadResponse.data.on('data', (chunk) => {
+              lastProgressAt = Date.now();
+              downloadedBytes += chunk.length;
+
+              if (contentLength && typeof onProgress === 'function') {
+                // Capeado em 95% durante download; os 5% finais ficam para o upload
+                const percent = Math.min(Math.round((downloadedBytes / contentLength) * 100), 95);
+                if (percent >= lastDownloadPercent + 5) {
+                  lastDownloadPercent = percent;
+                  onProgress({
+                    percent,
+                    downloadedBytes,
+                    totalBytes: contentLength,
+                    stage: 'downloading'
+                  });
+                  logDebug({ stage: 'download-progress', percent, downloadedBytes, contentLength });
+                }
+              }
+            });
+
+            // 3. Listeners do arquivo de destino
+            fileWriteStream.on('error', reject);
+            fileWriteStream.on('finish', resolve);
+
+            // 4. pipe por último — só depois de todos os listeners registrados
+            downloadResponse.data.pipe(fileWriteStream);
+          });
+        }
+
+        // Para o stall timer após download completo
+        if (stallTimer) {
+          clearInterval(stallTimer);
+          stallTimer = null;
+        }
+
+        logDebug({ stage: 'temp-download-complete', tempFile });
+
+        // ============================================================
+        // VERIFICAR TAMANHO LOCAL
+        // ============================================================
+        try {
+          const st = await fsp.stat(tempFile);
+          localSize = Number(st.size || 0);
+        } catch (e) {
+          localSize = 0;
+        }
+
+        // Se download menor que esperado, tenta novamente com curl
+        let curlRetries = 0;
+        const maxCurlRetries = 3;
+        while (
+          contentLength &&
+          localSize &&
+          localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95)) &&
+          curlRetries < maxCurlRetries
+        ) {
+          curlRetries += 1;
+          logDebug({ stage: 'download-size-small-curl-retry', expected: contentLength, actual: localSize, attempt: curlRetries });
+          try {
+            await fsp.unlink(tempFile).catch(() => {});
+            await downloadWithCurl(finalUrl, tempFile, logDebug);
+            try {
+              const st2 = await fsp.stat(tempFile);
+              localSize = Number(st2.size || 0);
+              logDebug({ stage: 'download-size-after-curl', newSize: localSize, attempt: curlRetries });
+            } catch (e) {
+              localSize = 0;
+            }
+          } catch (curlErr) {
+            logDebug({ stage: 'curl-retry-failed', error: curlErr.message, attempt: curlRetries });
+            if (curlRetries < maxCurlRetries) {
+              await new Promise((resolve) => setTimeout(resolve, 2000 * curlRetries));
+            }
+          }
+        }
+
+        if (localSize && localSize < 1024 * 100) {
+          throw new Error(`download_incomplete_after_retries size=${localSize}`);
+        }
+
+        if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
+          throw new Error(`download_incomplete_after_retries expected=${contentLength} actual=${localSize}`);
+        }
+
+        // Validar formato do vídeo via magic bytes
+        const isValid = await isValidVideoFile(tempFile);
+        if (!isValid) {
+          logDebug({ stage: 'invalid-video-format', tempFile, size: localSize });
+          throw new Error('download_invalid_video_format');
+        }
+
+        // ============================================================
+        // UPLOAD PARA O BUNNY
+        // ============================================================
+        // Notifica que está iniciando o upload (96% = limiar entre download e upload)
+        if (typeof onProgress === 'function') {
+          onProgress({ percent: 96, stage: 'uploading' });
+        }
+
+        await purchase.updateOne({
+          $set: {
+            cacheStatus: 'uploading',
+            cacheProgress: 96,
+            cacheUpdatedAt: new Date()
+          }
+        });
+
+        let lastUploadPercent = 0;
+
+        await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
+          // Mapeia 0-100% do upload para 96-99% do progresso total
+          // (100% só é marcado após confirmar que o arquivo existe no Bunny)
+          const rawPercent = Math.max(0, Math.min(100, Math.round(progress.percent || 0)));
+          const mappedPercent = 96 + Math.round(rawPercent * 3 / 100); // 96..99
+
+          if (mappedPercent >= lastUploadPercent + 1) {
+            lastUploadPercent = mappedPercent;
+
+            await purchase.updateOne({
+              $set: {
+                cacheProgress: mappedPercent,
+                cacheUpdatedAt: new Date(),
+                cacheStatus: 'uploading'
+              }
+            });
+
+            if (typeof onProgress === 'function') {
+              onProgress({
+                percent: mappedPercent,
+                uploadedBytes: progress.uploadedBytes,
+                totalBytes: progress.totalBytes,
+                stage: 'uploading'
+              });
+            }
+
+            logDebug({ stage: 'upload-progress', rawPercent, mappedPercent });
+          }
+        });
+
+        // ============================================================
+        // CAPTURAR TAMANHO LOCAL ANTES DE REMOVER O ARQUIVO TEMPORÁRIO
+        // ============================================================
+        localSize = 0;
+        try {
+          const s = await fsp.stat(tempFile);
+          localSize = Number(s.size || 0);
+        } catch (e) {
+          localSize = 0;
+        }
+
+        // Remover arquivo temporário
+        await fsp.unlink(tempFile).catch(() => {});
+        tempFile = undefined;
+
+        // ============================================================
+        // CONFIRMAR QUE O ARQUIVO EXISTE NO BUNNY
+        // ============================================================
+        const uploadedExists = await bunnyStorage.exists(storagePath).catch(() => false);
+        if (!uploadedExists) {
           await purchase.updateOne({
             $set: {
               cacheStatus: 'failed',
-              cacheError: `size_mismatch remote=${remoteSize} local=${localSize}`,
+              cacheError: 'upload_not_found_after_transfer',
               cacheUpdatedAt: new Date()
             }
           });
-          if (typeof onError === 'function') onError(new Error('Uploaded file size mismatch'));
+          if (typeof onError === 'function') onError(new Error('Uploaded file not found on Bunny storage'));
           return;
         }
-      } catch (e) {
-        // ignore size check errors but keep processing
-        logDebug({ stage: 'size-check-error', error: e.message });
-      }
 
-      await purchase.updateOne({
-        $set: {
-          cacheStatus: 'ready',
-          cacheProgress: 100,
-          cacheReadyAt: readyAt,
-          cacheUpdatedAt: readyAt,
-          storagePath
-        }
-      });
-
-      if (typeof onReady === 'function') onReady({ storagePath });
-      logDebug({ stage: 'ready', storagePath });
-      return;
-    } catch (error) {
-      logDebug({ stage: 'error', attempt, error: error.message });
-      if (stallTimer) clearInterval(stallTimer);
-      try {
-        if (typeof tempFile !== 'undefined') {
-          await fsp.unlink(tempFile).catch(() => {});
-        }
-      } catch {}
-      await purchase.updateOne({
-        $set: {
-          cacheStatus: attempt > this.maxRetries ? 'failed' : 'uploading',
-          cacheError: error.message,
-          cacheUpdatedAt: new Date()
-        }
-      });
-
-      if (attempt > this.maxRetries) {
-        if (typeof onError === 'function') onError(error);
-        
-        // Notificar usuário via Telegram
+        // Verificar tamanho remoto vs local
         try {
-          const telegramBot = require('../../telegram-bot');
-          if (telegramBot && typeof telegramBot.notificarFalhaCacheAoUsuario === 'function') {
-            telegramBot.notificarFalhaCacheAoUsuario(purchase.userId, purchase).catch(() => {});
+          const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
+          if (remoteSize && localSize && Math.abs(remoteSize - localSize) > Math.max(100, Math.round(localSize * 0.05))) {
+            await purchase.updateOne({
+              $set: {
+                cacheStatus: 'failed',
+                cacheError: `size_mismatch remote=${remoteSize} local=${localSize}`,
+                cacheUpdatedAt: new Date()
+              }
+            });
+            if (typeof onError === 'function') onError(new Error('Uploaded file size mismatch'));
+            return;
           }
         } catch (e) {
-          logDebug({ stage: 'telegram-notify-error', error: e.message });
+          logDebug({ stage: 'size-check-error', error: e.message });
         }
-        
-        return;
-      }
 
-      const backoffMs = attempt * 5000;
-      logDebug({ stage: 'retrying', attempt, backoffMs });
-      await new Promise((resolve) => setTimeout(resolve, backoffMs));
-    }
+        // ============================================================
+        // MARCAR COMO PRONTO — 100%
+        // ============================================================
+        const readyAt = new Date();
+        await purchase.updateOne({
+          $set: {
+            cacheStatus: 'ready',
+            cacheProgress: 100,
+            cacheReadyAt: readyAt,
+            cacheUpdatedAt: readyAt,
+            storagePath
+          }
+        });
+
+        if (typeof onProgress === 'function') {
+          onProgress({ percent: 100, stage: 'ready' });
+        }
+
+        if (typeof onReady === 'function') onReady({ storagePath });
+        logDebug({ stage: 'ready', storagePath });
+        return;
+
+      } catch (error) {
+        logDebug({ stage: 'error', attempt, error: error.message });
+
+        if (stallTimer) {
+          clearInterval(stallTimer);
+          stallTimer = null;
+        }
+
+        // Limpar arquivo temporário se existir
+        try {
+          if (typeof tempFile !== 'undefined' && tempFile) {
+            await fsp.unlink(tempFile).catch(() => {});
+            tempFile = undefined;
+          }
+        } catch (_) {}
+
+        await purchase.updateOne({
+          $set: {
+            cacheStatus: attempt > this.maxRetries ? 'failed' : 'uploading',
+            cacheError: error.message,
+            cacheUpdatedAt: new Date()
+          }
+        });
+
+        if (attempt > this.maxRetries) {
+          if (typeof onError === 'function') onError(error);
+
+          // Notificar usuário via Telegram
+          try {
+            const telegramBot = require('../../telegram-bot');
+            if (telegramBot && typeof telegramBot.notificarFalhaCacheAoUsuario === 'function') {
+              telegramBot.notificarFalhaCacheAoUsuario(purchase.userId, purchase).catch(() => {});
+            }
+          } catch (e) {
+            logDebug({ stage: 'telegram-notify-error', error: e.message });
+          }
+
+          return;
+        }
+
+        const backoffMs = attempt * 5000;
+        logDebug({ stage: 'retrying', attempt, backoffMs });
+        await new Promise((resolve) => setTimeout(resolve, backoffMs));
+      }
     }
   }
 }
