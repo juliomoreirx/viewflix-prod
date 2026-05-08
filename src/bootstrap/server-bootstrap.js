@@ -36,7 +36,7 @@ async function startServer() {
     // Inicializa Cookie Manager para monitorar Cloudflare
     const cookieManager = new CookieManagerService({
       targetUrl: env.VOUVER_BASE_URL || 'http://vouver.me',
-      checkInterval: 3600000, // 1 hora
+      checkInterval: 1800000, // 30 minutos
       requireCfClearance: true,
       logger
     });

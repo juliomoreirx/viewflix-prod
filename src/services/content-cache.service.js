@@ -56,6 +56,54 @@ function sortByName(list = []) {
   return [...list].sort((a, b) => String(a?.name || '').localeCompare(String(b?.name || '')));
 }
 
+function cleanCookieValue(value = '') {
+  return String(value || '')
+    .trim()
+    .replace(/^['"]+|['"]+$/g, '')
+    .replace(/>+$/g, '');
+}
+
+function findCatalogNode(node, depth = 0) {
+  if (!node || typeof node !== 'object' || depth > 5) return null;
+
+  const hasCatalogArrays =
+    Array.isArray(node.movies) ||
+    Array.isArray(node.series) ||
+    Array.isArray(node.livetv) ||
+    Array.isArray(node.liveTv) ||
+    Array.isArray(node.live_tv) ||
+    Array.isArray(node.channels);
+
+  if (hasCatalogArrays) return node;
+
+  const nestedKeys = ['data', 'result', 'payload', 'catalog', 'content', 'items'];
+  for (const key of nestedKeys) {
+    const found = findCatalogNode(node[key], depth + 1);
+    if (found) return found;
+  }
+
+  return null;
+}
+
+function normalizeCatalogPayload(responseData = {}) {
+  const root = findCatalogNode(responseData) || findCatalogNode(responseData?.data) || responseData?.data || responseData || {};
+
+  return {
+    payload: root,
+    movies: Array.isArray(root.movies) ? root.movies : [],
+    series: Array.isArray(root.series) ? root.series : [],
+    livetv: Array.isArray(root.livetv)
+      ? root.livetv
+      : Array.isArray(root.liveTv)
+        ? root.liveTv
+        : Array.isArray(root.live_tv)
+          ? root.live_tv
+          : Array.isArray(root.channels)
+            ? root.channels
+            : []
+  };
+}
+
 const HEADERS = {
   'User-Agent':
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -105,12 +153,12 @@ function buildCookieHeader() {
 
 async function hydrateJarFromCookieString(cookieStr, baseUrl) {
   if (!cookieStr) return;
-  const parts = cookieStr.split(';').map((s) => s.trim()).filter(Boolean);
+  const parts = cleanCookieValue(cookieStr).split(';').map((s) => s.trim()).filter(Boolean);
   for (const part of parts) {
     const idx = part.indexOf('=');
     if (idx <= 0) continue;
-    const name = part.substring(0, idx).trim();
-    const value = part.substring(idx + 1).trim();
+    const name = cleanCookieValue(part.substring(0, idx));
+    const value = cleanCookieValue(part.substring(idx + 1));
     try {
       await jar.setCookie(`${name}=${value}; Path=/`, baseUrl);
       await jar.setCookie(`${name}=${value}; Path=/`, baseUrl.replace(/^http:\/\//i, 'https://'));
@@ -144,12 +192,12 @@ async function ensureSessionHydrated() {
   if (SESSION_COOKIES) return;
 
   if (SESSION_COOKIES_ENV) {
-    await hydrateJarFromCookieString(SESSION_COOKIES_ENV, BASE_URL);
+    await hydrateJarFromCookieString(cleanCookieValue(SESSION_COOKIES_ENV), BASE_URL);
     await refreshSessionCookiesFromJar();
   }
 
   if (!SESSION_COOKIES && SESSION_COOKIES_ENV) {
-    SESSION_COOKIES = SESSION_COOKIES_ENV.trim();
+    SESSION_COOKIES = cleanCookieValue(SESSION_COOKIES_ENV);
   }
 
   if (CF_CLEARANCE && !SESSION_COOKIES.includes('cf_clearance=')) {
@@ -160,7 +208,7 @@ async function ensureSessionHydrated() {
 }
 
 async function setSessionCookiesRaw(raw) {
-  SESSION_COOKIES = String(raw || '').trim();
+  SESSION_COOKIES = cleanCookieValue(raw);
 
   if (SESSION_COOKIES) {
     await hydrateJarFromCookieString(SESSION_COOKIES, BASE_URL);
@@ -226,18 +274,10 @@ async function carregarViaWorker(contentPath) {
     const data = response.data;
     if (!data?.success || !data?.data) return false;
 
-    const rawMovies = data.data?.data?.movies || data.data?.movies || [];
-    const rawSeries = data.data?.data?.series || data.data?.series || [];
-    const rawLiveTv =
-      data.data?.data?.livetv ||
-      data.data?.livetv ||
-      data.data?.data?.liveTv ||
-      data.data?.liveTv ||
-      data.data?.data?.live_tv ||
-      data.data?.live_tv ||
-      data.data?.data?.channels ||
-      data.data?.channels ||
-      [];
+    const normalized = normalizeCatalogPayload(data);
+    const rawMovies = normalized.movies;
+    const rawSeries = normalized.series;
+    const rawLiveTv = normalized.livetv;
 
     if (rawMovies.length === 0 && rawSeries.length === 0 && rawLiveTv.length === 0) return false;
 
@@ -246,7 +286,7 @@ async function carregarViaWorker(contentPath) {
     CACHE_CONTEUDO.livetv = sortByName(rawLiveTv);
     CACHE_CONTEUDO.lastUpdated = Date.now();
 
-    await fs.writeFile(contentPath, JSON.stringify(data.data, null, 2), 'utf8');
+    await fs.writeFile(contentPath, JSON.stringify(normalized.payload, null, 2), 'utf8');
 
     logger.info({
       msg: 'Cache carregado via worker',
@@ -288,18 +328,10 @@ async function carregarViaApiDireta(contentPath) {
     );
 
     const cacheData = resp.data || {};
-    const rawMovies = cacheData?.data?.movies || cacheData?.movies || [];
-    const rawSeries = cacheData?.data?.series || cacheData?.series || [];
-    const rawLiveTv =
-      cacheData?.data?.livetv ||
-      cacheData?.livetv ||
-      cacheData?.data?.liveTv ||
-      cacheData?.liveTv ||
-      cacheData?.data?.live_tv ||
-      cacheData?.live_tv ||
-      cacheData?.data?.channels ||
-      cacheData?.channels ||
-      [];
+    const normalized = normalizeCatalogPayload(cacheData);
+    const rawMovies = normalized.movies;
+    const rawSeries = normalized.series;
+    const rawLiveTv = normalized.livetv;
 
     if (rawMovies.length === 0 && rawSeries.length === 0 && rawLiveTv.length === 0) {
       logger.warn({ msg: 'API direta respondeu sem catálogo' });
@@ -311,7 +343,7 @@ async function carregarViaApiDireta(contentPath) {
     CACHE_CONTEUDO.livetv = sortByName(rawLiveTv);
     CACHE_CONTEUDO.lastUpdated = Date.now();
 
-    await fs.writeFile(contentPath, JSON.stringify(cacheData, null, 2), 'utf8');
+    await fs.writeFile(contentPath, JSON.stringify(normalized.payload, null, 2), 'utf8');
 
     logger.info({
       msg: 'Cache carregado via API direta',

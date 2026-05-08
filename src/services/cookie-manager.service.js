@@ -13,7 +13,7 @@ class CookieManagerService {
     
     // Configurações
     this.targetUrl = config.targetUrl || 'http://vouver.me'; // URL que requer cookies
-    this.checkInterval = config.checkInterval || 3600000; // 1 hora
+    this.checkInterval = config.checkInterval || 300000; // 5 minutos
     this.refreshThreshold = config.refreshThreshold || 86400000; // 24 horas antes de expirar
     this.maxRetries = config.maxRetries || 3;
     this.timeout = config.timeout || 30000;
