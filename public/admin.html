@@ -1336,8 +1336,22 @@ Abra o bot e confira o que preparamos.</textarea>
                     headers: { 'Authorization': `Bearer ${state.token}`, 'Content-Type': 'application/json' },
                     body: JSON.stringify({ name, description: desc, concurrency: 2, items: [] })
                 });
-                const data = await res.json();
-                if (!data.success) throw new Error(data.error);
+                const raw = await res.text();
+                let data = {};
+
+                if (raw) {
+                    try {
+                        data = JSON.parse(raw);
+                    } catch (_parseError) {
+                        const preview = raw.replace(/\s+/g, ' ').slice(0, 160);
+                        throw new Error(preview.includes('<!DOCTYPE') ? 'Servidor retornou HTML inesperado' : preview || 'Resposta inválida do servidor');
+                    }
+                }
+
+                if (!res.ok || !data.success) {
+                    throw new Error(data.error || `Falha ao criar lote (HTTP ${res.status})`);
+                }
+
                 await batchManager.loadBatches();
             } catch (err) { alert('Erro: ' + err.message); }
         });
