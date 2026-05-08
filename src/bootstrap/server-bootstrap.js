@@ -11,6 +11,7 @@ const PaymentService = require('../services/payment.service');
 const paymentAdapter = require('../adapters/payment.adapter');
 const CookieManagerService = require('../services/cookie-manager.service');
 const bunnyStorageService = require('../services/bunny-storage.service');
+const bunnyCacheService = require('../services/bunny-cache.service');
 
 async function startServer() {
   try {
@@ -82,7 +83,8 @@ async function startServer() {
       content: contentService,
       payment: paymentService,
       cookieManager: cookieManager,
-      bunnyStorage: bunnyStorageService
+      bunnyStorage: bunnyStorageService,
+      bunnyCacheService
     };
 
     const port = env.PORT || 3000;

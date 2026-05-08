@@ -32,6 +32,19 @@ const updateBatchSchema = z.object({
   concurrency: z.number().min(1).max(10).optional()
 });
 
+const addBatchItemsSchema = z.object({
+  items: z.array(
+    z.object({
+      videoId: z.string().min(1),
+      title: z.string().optional(),
+      mediaType: z.enum(['movie', 'series']),
+      season: z.string().optional(),
+      episodeName: z.string().optional(),
+      episodeIndex: z.number().optional()
+    })
+  ).min(1).max(50)
+});
+
 // ===== CREATE BATCH =====
 router.post('/api/admin/batch/create', adminAuth, asyncHandler(async (req, res) => {
   const parsed = createBatchSchema.safeParse(req.body);
@@ -136,6 +149,54 @@ router.put('/api/admin/batch/:id', adminAuth, asyncHandler(async (req, res) => {
 
   Object.assign(batch, parsed.data);
   batch.updatedAt = new Date();
+  await batch.save();
+
+  res.json({
+    success: true,
+    data: batch
+  });
+}));
+
+// ===== ADD ITEMS TO BATCH =====
+router.post('/api/admin/batch/:id/items', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = addBatchItemsSchema.safeParse(req.body);
+  if (!parsed.success) {
+    return res.status(400).json({
+      error: 'Dados inválidos',
+      details: parsed.error.flatten()
+    });
+  }
+
+  const { BatchDownload } = req.app.locals.models;
+  const batch = await BatchDownload.findById(req.params.id);
+
+  if (!batch || batch.userId !== req.userId) {
+    return res.status(404).json({ error: 'Lote não encontrado' });
+  }
+
+  if (batch.status === 'processing' || batch.status === 'completed') {
+    return res.status(409).json({ error: 'Não é possível editar um lote em processamento' });
+  }
+
+  const existingIds = new Set((batch.items || []).map((item) => String(item.videoId)));
+  const incomingItems = parsed.data.items
+    .filter((item) => !existingIds.has(String(item.videoId)))
+    .map((item, idx) => ({
+      ...item,
+      episodeIndex: item.episodeIndex ?? (batch.items.length + idx),
+      status: 'pending',
+      progress: 0
+    }));
+
+  batch.items.push(...incomingItems);
+  batch.totalItems = batch.items.length;
+  batch.completedItems = batch.items.filter((item) => item.status === 'ready').length;
+  batch.failedItems = batch.items.filter((item) => item.status === 'failed').length;
+  batch.overallProgress = batch.totalItems > 0
+    ? Math.round(((batch.completedItems + batch.failedItems) / batch.totalItems) * 100)
+    : 0;
+  batch.updatedAt = new Date();
+
   await batch.save();
 
   res.json({

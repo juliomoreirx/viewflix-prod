@@ -777,6 +777,34 @@ Abra o bot e confira o que preparamos.</textarea>
         </div>
     </div>
 
+    <div id="contentPickerModal" class="modal">
+        <div class="modal-content max-w-3xl w-full max-h-screen overflow-y-auto">
+            <div class="flex justify-between items-start mb-6">
+                <div>
+                    <h2 class="text-2xl font-black">Adicionar conteúdo</h2>
+                    <p class="text-sm text-gray-500">Busque filmes ou séries e adicione ao lote</p>
+                </div>
+                <button onclick="document.getElementById('contentPickerModal').classList.remove('open')" class="text-gray-400 hover:text-white text-2xl cursor-pointer">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+            </div>
+
+            <div class="flex gap-3 mb-4">
+                <input id="contentSearchInput" type="text" placeholder="Buscar conteúdo..." class="flex-1 bg-gray-900 border border-white/10 rounded-lg px-4 py-3 text-white outline-none focus:border-[#4facfe]">
+                <select id="contentSearchType" class="bg-gray-900 border border-white/10 rounded-lg px-4 py-3 text-white outline-none focus:border-[#4facfe]">
+                    <option value="all">Tudo</option>
+                    <option value="movies">Filmes</option>
+                    <option value="series">Séries</option>
+                </select>
+                <button id="contentSearchBtn" class="btn-primary whitespace-nowrap">Buscar</button>
+            </div>
+
+            <div id="contentSearchResults" class="space-y-3">
+                <div class="text-gray-500 text-sm text-center py-6">Digite para buscar conteúdo</div>
+            </div>
+        </div>
+    </div>
+
     <script>
         // State
         const state = {
@@ -841,6 +869,94 @@ Abra o bot e confira o que preparamos.</textarea>
         // ===== BATCH MANAGER =====
         const batchManager = {
             pollTimer: null,
+            currentBatchId: null,
+
+            openContentPicker(batchId) {
+                this.currentBatchId = batchId;
+                const modal = document.getElementById('contentPickerModal');
+                const input = document.getElementById('contentSearchInput');
+                const results = document.getElementById('contentSearchResults');
+
+                if (input) input.value = '';
+                if (results) {
+                    results.innerHTML = '<div class="text-gray-500 text-sm text-center py-6">Digite para buscar conteúdo</div>';
+                }
+                modal.classList.add('open');
+                input?.focus();
+            },
+
+            async searchContent() {
+                if (!state.token) return;
+
+                const query = document.getElementById('contentSearchInput')?.value.trim() || '';
+                const type = document.getElementById('contentSearchType')?.value || 'all';
+                const results = document.getElementById('contentSearchResults');
+
+                if (!query) {
+                    results.innerHTML = '<div class="text-gray-500 text-sm text-center py-6">Digite para buscar conteúdo</div>';
+                    return;
+                }
+
+                results.innerHTML = '<div class="text-gray-500 text-sm text-center py-6">Buscando...</div>';
+
+                try {
+                    const params = new URLSearchParams({ q: query, type, limit: '12' });
+                    const res = await fetch(`/api/admin/content/search?${params.toString()}`, {
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error || 'Falha na busca');
+
+                    const items = data.data || [];
+                    if (!items.length) {
+                        results.innerHTML = '<div class="text-gray-500 text-sm text-center py-6">Nenhum conteúdo encontrado</div>';
+                        return;
+                    }
+
+                    results.innerHTML = items.map((item) => `
+                        <div class="glass p-4 rounded-lg flex items-center gap-4">
+                            <img src="${item.cover || ''}" alt="${sanitize(item.title)}" class="w-14 h-20 object-cover rounded-md border border-white/10 bg-gray-800">
+                            <div class="flex-1 min-w-0">
+                                <div class="flex items-center gap-2 mb-1">
+                                    <h3 class="font-semibold truncate">${sanitize(item.title)}</h3>
+                                    <span class="text-[11px] px-2 py-0.5 rounded-full bg-white/10 text-gray-300">${sanitize(item.type || '')}</span>
+                                </div>
+                                <p class="text-xs text-gray-500 truncate">ID: ${sanitize(item.id)}</p>
+                            </div>
+                            <button class="btn-primary whitespace-nowrap" onclick='batchManager.addSearchResultToBatch(${JSON.stringify(item.id)}, ${JSON.stringify(item.title)}, ${JSON.stringify(item.type)})'>Adicionar</button>
+                        </div>
+                    `).join('');
+                } catch (err) {
+                    results.innerHTML = `<div class="text-red-400 text-sm text-center py-6">${sanitize(err.message)}</div>`;
+                }
+            },
+
+            async addSearchResultToBatch(videoId, title, type) {
+                if (!this.currentBatchId) return;
+                try {
+                    const res = await fetch(`/api/admin/batch/${this.currentBatchId}/items`, {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': `Bearer ${state.token}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            items: [{
+                                videoId,
+                                title,
+                                mediaType: type === 'series' ? 'series' : 'movie'
+                            }]
+                        })
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error || 'Falha ao adicionar conteúdo');
+
+                    await this.viewBatch(this.currentBatchId);
+                    await this.loadBatches();
+                } catch (err) {
+                    alert('Erro: ' + err.message);
+                }
+            },
 
             async loadBatches() {
                 if (!state.token) return;
@@ -964,6 +1080,7 @@ Abra o bot e confira o que preparamos.</textarea>
                         </div>
 
                         <div class="flex gap-3 flex-wrap">
+                            ${(batch.status === 'draft' || batch.status === 'paused') ? `<button onclick="batchManager.openContentPicker('${batchId}')" class="btn-primary flex-1">Adicionar conteúdo</button>` : ''}
                             ${batch.status === 'draft' ? `<button onclick="batchManager.startBatch('${batchId}')" class="btn-primary flex-1">Iniciar</button>` : ''}
                             ${batch.status === 'processing' ? `<button onclick="batchManager.pauseBatch('${batchId}')" class="btn-secondary flex-1">Pausar</button>` : ''}
                             ${batch.status === 'paused' ? `<button onclick="batchManager.resumeBatch('${batchId}')" class="btn-primary flex-1">Retomar</button>` : ''}
@@ -1354,6 +1471,11 @@ Abra o bot e confira o que preparamos.</textarea>
 
                 await batchManager.loadBatches();
             } catch (err) { alert('Erro: ' + err.message); }
+        });
+
+        document.getElementById('contentSearchBtn')?.addEventListener('click', () => batchManager.searchContent());
+        document.getElementById('contentSearchInput')?.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') batchManager.searchContent();
         });
 
         function setBuilderStatus(type, html) {
