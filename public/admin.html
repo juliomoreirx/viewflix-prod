@@ -1920,27 +1920,41 @@ Abra o bot e confira o que preparamos.</textarea>
 
     <!-- Batch Manager UI -->
     <div id="downloadsTab" class="tab-content hidden">
-      <div class="space-y-6">
-        <div class="flex justify-between items-center">
-          <div>
-            <h1 class="text-3xl font-black mb-1">📥 Downloads em Lote</h1>
-            <p class="text-gray-500 text-sm">Gerencie downloads múltiplos, organize no Bunny</p>
-          </div>
-          <button id="newBatchBtn" class="btn-primary">
-            <i class="fas fa-plus mr-2"></i> Novo Lote
-          </button>
+      <!-- Header -->
+      <div class="flex justify-between items-center mb-8">
+        <div>
+          <h1 class="text-3xl font-black mb-1">📥 Downloads em Lote</h1>
+          <p class="text-gray-500 text-sm">Gerencie downloads múltiplos e organize no Bunny</p>
         </div>
-        <div id="batchList" class="grid gap-4">
-          <div class="text-center py-12 text-gray-500">
-            <i class="fas fa-inbox text-4xl mb-3 opacity-50"></i>
-            <p>Nenhum lote criado ainda</p>
-          </div>
+        <button id="newBatchBtn" class="btn-primary">
+          <i class="fas fa-plus mr-2"></i>Novo Lote
+        </button>
+      </div>
+
+      <!-- Lista de Lotes -->
+      <div id="batchList" class="space-y-4">
+        <div class="stat-card text-center py-12">
+          <i class="fas fa-inbox text-5xl text-gray-600 mb-4"></i>
+          <p class="text-gray-500">Nenhum lote criado ainda</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: Detalhes do Lote (Hidden Modal) -->
+    <div id="batchModal" class="fixed inset-0 bg-black/50 z-50 hidden flex items-center justify-center p-4">
+      <div class="bg-slate-900 rounded-lg border border-gray-700 w-full max-w-2xl max-h-screen overflow-y-auto">
+        <div class="sticky top-0 bg-slate-900 border-b border-gray-700 p-6 flex justify-between items-center">
+          <h2 id="modalTitle" class="text-2xl font-bold">Lote</h2>
+          <button onclick="document.getElementById('batchModal').classList.add('hidden')" class="text-2xl text-gray-400 hover:text-white">&times;</button>
+        </div>
+        <div id="modalContent" class="p-6 space-y-6">
+          <!-- Content renderizado via JS -->
         </div>
       </div>
     </div>
 
     <script>
-        // ========== BATCH DOWNLOAD MANAGER ==========
+        // ========== BATCH MANAGER ==========
         const batchManager = {
             currentBatchId: null,
             
@@ -1954,37 +1968,56 @@ Abra o bot e confira o que preparamos.</textarea>
                     
                     const list = document.getElementById('batchList');
                     if (!data.data || data.data.length === 0) {
-                        list.innerHTML = '<div class="text-center py-12 text-gray-500"><i class="fas fa-inbox text-4xl mb-3 opacity-50"></i><p>Nenhum lote criado ainda</p></div>';
+                        list.innerHTML = `
+                            <div class="stat-card text-center py-12">
+                                <i class="fas fa-inbox text-5xl text-gray-600 mb-4"></i>
+                                <p class="text-gray-500">Nenhum lote criado ainda</p>
+                            </div>
+                        `;
                         return;
                     }
                     
-                    list.innerHTML = data.data.map(batch => `
-                        <div class="stat-card cursor-pointer hover:scale-105 transition" onclick="batchManager.viewBatch('${batch._id}')">
-                            <div class="flex justify-between items-start mb-3">
-                                <div>
-                                    <h3 class="text-lg font-semibold">${sanitize(batch.name)}</h3>
-                                    <p class="text-sm text-gray-500">${sanitize(batch.description || '')}</p>
+                    list.innerHTML = data.data.map(batch => {
+                        const statusColor = {
+                            'completed': 'bg-green-500/20 text-green-300',
+                            'processing': 'bg-blue-500/20 text-blue-300',
+                            'failed': 'bg-red-500/20 text-red-300',
+                            'paused': 'bg-yellow-500/20 text-yellow-300'
+                        }[batch.status] || 'bg-gray-500/20 text-gray-300';
+                        
+                        return `
+                            <div class="stat-card hover:border-blue-500/50 cursor-pointer transition" onclick="batchManager.viewBatch('${batch._id}')">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div class="flex-1">
+                                        <h3 class="text-lg font-semibold">${sanitize(batch.name)}</h3>
+                                        ${batch.description ? `<p class="text-sm text-gray-500 mt-1">${sanitize(batch.description)}</p>` : ''}
+                                    </div>
+                                    <span class="px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap ml-4 ${statusColor}">
+                                        ${batch.status}
+                                    </span>
                                 </div>
-                                <span class="px-3 py-1 rounded-full text-xs font-semibold ${
-                                    batch.status === 'completed' ? 'bg-green-500/20 text-green-300' :
-                                    batch.status === 'processing' ? 'bg-blue-500/20 text-blue-300' :
-                                    batch.status === 'failed' ? 'bg-red-500/20 text-red-300' :
-                                    'bg-gray-500/20 text-gray-300'
-                                }">${batch.status}</span>
+                                
+                                <div class="space-y-2">
+                                    <div class="flex justify-between text-sm text-gray-400">
+                                        <span>${batch.completedItems}/${batch.totalItems} items completados</span>
+                                        <span class="font-mono">${batch.overallProgress}%</span>
+                                    </div>
+                                    <div class="w-full bg-gray-700 rounded-full h-2.5">
+                                        <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-2.5 rounded-full transition-all duration-300" style="width: ${batch.overallProgress}%"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex gap-2 mt-4 text-xs text-gray-500">
+                                    <span><i class="fas fa-check text-green-400 mr-1"></i>${batch.completedItems} prontos</span>
+                                    <span class="mx-2">•</span>
+                                    <span><i class="fas fa-times text-red-400 mr-1"></i>${batch.failedItems} erros</span>
+                                </div>
                             </div>
-                            <div class="space-y-2">
-                                <div class="flex justify-between text-sm text-gray-400">
-                                    <span>${batch.completedItems}/${batch.totalItems} completos</span>
-                                    <span>${batch.overallProgress}%</span>
-                                </div>
-                                <div class="w-full bg-gray-700 rounded-full h-2">
-                                    <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-2 rounded-full transition-all" style="width: ${batch.overallProgress}%"></div>
-                                </div>
-                            </div>
-                        </div>
-                    `).join('');
+                        `;
+                    }).join('');
                 } catch (error) {
                     console.error('Erro ao carregar lotes:', error);
+                    setBuilderStatus('error', 'Erro ao carregar lotes: ' + error.message);
                 }
             },
 
@@ -1998,6 +2031,225 @@ Abra o bot e confira o que preparamos.</textarea>
 
                     this.currentBatchId = batchId;
                     const batch = data.data;
+                    
+                    // Renderizar modal
+                    document.getElementById('modalTitle').textContent = sanitize(batch.name);
+                    
+                    const itemsHtml = (batch.items || []).map(item => {
+                        const statusIcon = {
+                            'ready': '<i class="fas fa-check text-green-400"></i>',
+                            'downloading': '<i class="fas fa-download text-blue-400"></i>',
+                            'uploading': '<i class="fas fa-cloud-upload-alt text-cyan-400"></i>',
+                            'failed': '<i class="fas fa-exclamation-circle text-red-400"></i>'
+                        }[item.status] || '<i class="fas fa-clock text-gray-400"></i>';
+                        
+                        return `
+                            <div class="bg-gray-800/50 rounded-lg p-3 border border-gray-700">
+                                <div class="flex justify-between items-start mb-2">
+                                    <div class="flex-1">
+                                        <p class="font-medium">${sanitize(item.title || item.videoId)}</p>
+                                        <p class="text-xs text-gray-500">${item.episodeName ? sanitize(item.episodeName) : item.mediaType}</p>
+                                    </div>
+                                    <div class="text-right ml-4">
+                                        ${statusIcon}
+                                        <p class="text-sm font-mono font-semibold mt-1">${item.progress}%</p>
+                                    </div>
+                                </div>
+                                <div class="w-full bg-gray-700 rounded-full h-1.5">
+                                    <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-1.5 rounded-full" style="width: ${item.progress}%"></div>
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+                    
+                    const content = `
+                        <!-- Status Cards -->
+                        <div class="grid grid-cols-3 gap-3">
+                            <div class="bg-blue-500/10 border border-blue-500/20 rounded-lg p-3 text-center">
+                                <p class="text-2xl font-bold text-blue-400">${batch.completedItems}</p>
+                                <p class="text-xs text-gray-500">Completados</p>
+                            </div>
+                            <div class="bg-yellow-500/10 border border-yellow-500/20 rounded-lg p-3 text-center">
+                                <p class="text-2xl font-bold text-yellow-400">${batch.totalItems - batch.completedItems - batch.failedItems}</p>
+                                <p class="text-xs text-gray-500">Pendentes</p>
+                            </div>
+                            <div class="bg-red-500/10 border border-red-500/20 rounded-lg p-3 text-center">
+                                <p class="text-2xl font-bold text-red-400">${batch.failedItems}</p>
+                                <p class="text-xs text-gray-500">Erros</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Progresso Geral -->
+                        <div class="bg-gray-800/50 border border-gray-700 rounded-lg p-4">
+                            <div class="flex justify-between mb-2">
+                                <span class="font-semibold">Progresso Geral</span>
+                                <span class="font-mono font-bold">${batch.overallProgress}%</span>
+                            </div>
+                            <div class="w-full bg-gray-700 rounded-full h-3">
+                                <div class="bg-gradient-to-r from-blue-500 to-cyan-500 h-3 rounded-full transition-all duration-300" style="width: ${batch.overallProgress}%"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Items -->
+                        <div>
+                            <h3 class="font-semibold mb-3">Items (${batch.items?.length || 0})</h3>
+                            <div class="space-y-2 max-h-64 overflow-y-auto">
+                                ${itemsHtml || '<p class="text-gray-500 text-center py-4">Nenhum item adicionado</p>'}
+                            </div>
+                        </div>
+                        
+                        <!-- Ações -->
+                        <div class="flex gap-2">
+                            ${batch.status === 'draft' ? `
+                                <button onclick="batchManager.startBatch('${batchId}')" class="btn-primary flex-1">
+                                    <i class="fas fa-play mr-2"></i>Iniciar
+                                </button>
+                            ` : ''}
+                            ${batch.status === 'processing' ? `
+                                <button onclick="batchManager.pauseBatch('${batchId}')" class="btn-secondary flex-1">
+                                    <i class="fas fa-pause mr-2"></i>Pausar
+                                </button>
+                            ` : ''}
+                            ${batch.status === 'paused' ? `
+                                <button onclick="batchManager.resumeBatch('${batchId}')" class="btn-primary flex-1">
+                                    <i class="fas fa-play mr-2"></i>Retomar
+                                </button>
+                            ` : ''}
+                            <button onclick="batchManager.deleteBatch('${batchId}')" class="btn-secondary flex-1">
+                                <i class="fas fa-trash mr-2"></i>Deletar
+                            </button>
+                        </div>
+                    `;
+                    
+                    document.getElementById('modalContent').innerHTML = content;
+                    document.getElementById('batchModal').classList.remove('hidden');
+
+                    // Polling se em processamento
+                    if (batch.status === 'processing') {
+                        this.startPolling(batchId);
+                    }
+                } catch (error) {
+                    setBuilderStatus('error', 'Erro: ' + error.message);
+                }
+            },
+
+            startPolling(batchId) {
+                const interval = setInterval(async () => {
+                    if (document.getElementById('batchModal').classList.contains('hidden')) {
+                        clearInterval(interval);
+                        return;
+                    }
+                    await this.viewBatch(batchId);
+                }, 2000);
+            },
+
+            async startBatch(batchId) {
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}/start`, {
+                        method: 'POST',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    
+                    setBuilderStatus('success', 'Lote iniciado!');
+                    await this.viewBatch(batchId);
+                    this.startPolling(batchId);
+                } catch (error) {
+                    setBuilderStatus('error', 'Erro: ' + error.message);
+                }
+            },
+
+            async pauseBatch(batchId) {
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}/pause`, {
+                        method: 'POST',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    
+                    setBuilderStatus('success', 'Lote pausado!');
+                    await this.viewBatch(batchId);
+                } catch (error) {
+                    setBuilderStatus('error', 'Erro: ' + error.message);
+                }
+            },
+
+            async resumeBatch(batchId) {
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}/resume`, {
+                        method: 'POST',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    
+                    setBuilderStatus('success', 'Lote retomado!');
+                    await this.viewBatch(batchId);
+                    this.startPolling(batchId);
+                } catch (error) {
+                    setBuilderStatus('error', 'Erro: ' + error.message);
+                }
+            },
+
+            async deleteBatch(batchId) {
+                if (!confirm('Tem certeza que quer deletar este lote?')) return;
+                
+                try {
+                    const res = await fetch(`/api/admin/batch/${batchId}`, {
+                        method: 'DELETE',
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!data.success) throw new Error(data.error);
+                    
+                    document.getElementById('batchModal').classList.add('hidden');
+                    setBuilderStatus('success', 'Lote deletado!');
+                    await this.loadBatches();
+                } catch (error) {
+                    setBuilderStatus('error', 'Erro: ' + error.message);
+                }
+            }
+        };
+
+        // Event Listeners
+        document.getElementById('newBatchBtn')?.addEventListener('click', async () => {
+            const name = prompt('Nome do lote:');
+            if (!name) return;
+            
+            const desc = prompt('Descrição (opcional):');
+            
+            try {
+                const res = await fetch('/api/admin/batch/create', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${state.token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        name,
+                        description: desc || undefined,
+                        concurrency: 2,
+                        items: []
+                    })
+                });
+                const data = await res.json();
+                if (!data.success) throw new Error(data.error);
+                
+                setBuilderStatus('success', 'Lote criado com sucesso!');
+                await batchManager.loadBatches();
+            } catch (error) {
+                setBuilderStatus('error', 'Erro: ' + error.message);
+            }
+        });
+
+        // Carregar batches quando aba abrir
+        document.querySelector('[data-tab="downloads"]')?.addEventListener('click', () => {
+            setTimeout(() => batchManager.loadBatches(), 50);
+        });
+    </script>
+
 
                     const modal = `
                         <div class="stat-card space-y-4">
