@@ -169,6 +169,8 @@ class CookieManagerService {
           }
         );
 
+        this.logger.debug(`[CookieManager] Login response status: ${response.status}, data: ${JSON.stringify(response.data).substring(0, 200)}`);
+
         // Extrair cookies da resposta
         let setCookieHeaders = response.headers['set-cookie'] || [];
         if (!Array.isArray(setCookieHeaders)) {
@@ -224,7 +226,7 @@ class CookieManagerService {
             });
           }
         } else {
-          this.logger.warn(`[CookieManager] Nenhum Set-Cookie header recebido na tentativa ${attempt}`);
+          this.logger.warn(`[CookieManager] Nenhum Set-Cookie header recebido na tentativa ${attempt}. Status: ${response.status}, body preview: ${JSON.stringify(response.data).substring(0, 300)}`);
         }
       } catch (error) {
         this.logger.warn(`[CookieManager] Tentativa ${attempt} falhou: ${error.message}`);
