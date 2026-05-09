@@ -158,15 +158,46 @@ class CookieManagerService {
           await jar.setCookie(`${cfCookieValue}; Path=/`, this.targetUrl.replace(/^http:\/\//i, 'https://'));
         }
 
-        const client = wrapper(axios.create({ jar, withCredentials: true }));
+        const useResidentialProxy = !!this.residentialProxyAgent;
+        const client = useResidentialProxy
+          ? axios.create({ withCredentials: true })
+          : wrapper(axios.create({ jar, withCredentials: true }));
+
+        const proxyConfig = useResidentialProxy ? this.withOptionalResidentialProxy({}, this.loginUrl) : {};
+
+        const getJarCookieHeader = async (url) => {
+          const cookieList = await jar.getCookies(url);
+          return cookieList.map((cookie) => `${cookie.key}=${cookie.value}`).join('; ');
+        };
+
+        const syncResponseCookiesToJar = async (response) => {
+          let setCookieHeaders = response.headers['set-cookie'] || [];
+          if (!Array.isArray(setCookieHeaders)) {
+            setCookieHeaders = [setCookieHeaders];
+          }
+
+          for (const setCookie of setCookieHeaders) {
+            if (setCookie) {
+              await jar.setCookie(setCookie, this.targetUrl);
+              await jar.setCookie(setCookie, this.targetUrl.replace(/^http:\/\//i, 'https://'));
+            }
+          }
+
+          return setCookieHeaders;
+        };
 
         const loginPageResponse = await client.get(this.loginUrl, {
-          ...this.withOptionalResidentialProxy({}, this.loginUrl),
-          headers: this.buildBrowserHeaders(),
+          ...proxyConfig,
+          headers: {
+            ...this.buildBrowserHeaders(),
+            ...(useResidentialProxy ? { Cookie: await getJarCookieHeader(this.loginUrl) } : {})
+          },
           timeout: this.timeout,
           maxRedirects: 5,
           validateStatus: (status) => status < 500
         });
+
+        await syncResponseCookiesToJar(loginPageResponse);
 
         const loginPageHtml = String(loginPageResponse.data || '');
         const csrfMatch =
@@ -190,12 +221,13 @@ class CookieManagerService {
             login: 'Acessar'
           }).toString(),
           {
-            ...this.withOptionalResidentialProxy({}, this.loginUrl),
+            ...proxyConfig,
             headers: {
               ...this.buildBrowserHeaders(),
               'Content-Type': 'application/x-www-form-urlencoded',
               Origin: this.targetUrl,
-              Referer: this.loginUrl
+              Referer: this.loginUrl,
+              ...(useResidentialProxy ? { Cookie: await getJarCookieHeader(this.loginUrl) } : {})
             },
             timeout: this.timeout,
             maxRedirects: 5,
@@ -215,19 +247,22 @@ class CookieManagerService {
             type: '1'
           }).toString(),
           {
-            ...this.withOptionalResidentialProxy({}, this.ajaxLoginUrl),
+            ...proxyConfig,
             headers: {
               ...this.buildBrowserHeaders(),
               'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
               'X-Requested-With': 'XMLHttpRequest',
               Origin: this.targetUrl,
-              Referer: this.loginUrl
+              Referer: this.loginUrl,
+              ...(useResidentialProxy ? { Cookie: await getJarCookieHeader(this.ajaxLoginUrl) } : {})
             },
             timeout: this.timeout,
             validateStatus: () => true,
             maxRedirects: 5
           }
         );
+
+        await syncResponseCookiesToJar(response);
 
         const responsePreview = typeof response.data === 'string' ? response.data : JSON.stringify(response.data || '');
         this.logger.debug(`[CookieManager] Login response status: ${response.status}, data: ${responsePreview.substring(0, 200)}`);
