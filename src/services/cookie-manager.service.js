@@ -294,6 +294,14 @@ class CookieManagerService {
       }
     }
 
+    // Fallback: tentar disparar o worker Puppeteer se tudo falhou
+    this.logger.warn('[CookieManager] Todos os retries falharam. Tentando fallback com worker Puppeteer...');
+    try {
+      await this.triggerWorkerFallback();
+    } catch (workerError) {
+      this.logger.error('[CookieManager] Erro ao tentar fallback do worker:', workerError.message);
+    }
+
     return false;
   }
 
@@ -660,6 +668,34 @@ class CookieManagerService {
       checkInterval: this.checkInterval,
       refreshThreshold: this.refreshThreshold
     };
+  }
+
+  /**
+   * Dispara o worker Puppeteer em background para obter cookies via browser
+   * Não bloqueia o fluxo principal; retorna uma promise que resolve rapidamente
+   */
+  async triggerWorkerFallback() {
+    const { spawn } = require('child_process');
+    const workerPath = path.join(__dirname, '../../viewflix-worker/index.js');
+
+    if (!fs.existsSync(workerPath)) {
+      this.logger.warn('[CookieManager] Worker não encontrado em', workerPath);
+      return;
+    }
+
+    this.logger.info('[CookieManager] Disparando worker Puppeteer para renovar cookies...');
+
+    // Spawn em background, não aguarda
+    const workerProcess = spawn('node', [workerPath], {
+      detached: true,
+      stdio: 'ignore',
+      cwd: path.dirname(workerPath)
+    });
+
+    // Permite que o processo pai encerre sem esperar pelo worker
+    workerProcess.unref();
+
+    this.logger.info('[CookieManager] Worker disparado com PID:', workerProcess.pid);
   }
 
   /**
