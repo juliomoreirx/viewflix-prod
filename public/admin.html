@@ -694,7 +694,7 @@ Abra o bot e confira o que preparamos.</textarea>
 
                                     <div id="builderModeGroup">
                                         <label class="block text-sm font-semibold mb-2 text-gray-300">Tipo de link</label>
-                                        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
+                                        <div class="grid grid-cols-1 md:grid-cols-4 gap-3 text-sm">
                                             <label class="mode-chip active" data-mode-chip="movie">
                                                 <input type="radio" name="builderMode" value="movie" checked>
                                                 <span>Filme</span>
@@ -706,6 +706,10 @@ Abra o bot e confira o que preparamos.</textarea>
                                             <label class="mode-chip" data-mode-chip="season">
                                                 <input type="radio" name="builderMode" value="season">
                                                 <span>Temporada completa</span>
+                                            </label>
+                                            <label class="mode-chip" data-mode-chip="full-series">
+                                                <input type="radio" name="builderMode" value="full-series">
+                                                <span>Série completa</span>
                                             </label>
                                         </div>
                                     </div>
@@ -1617,11 +1621,21 @@ Abra o bot e confira o que preparamos.</textarea>
             builderModeGroup.classList.toggle('opacity-60', !builderState.selected);
 
             if (isSeries) {
-                builderSeasonSelect.disabled = false;
+                builderSeasonSelect.disabled = !(mode === 'episode' || mode === 'season');
                 builderEpisodeSelect.disabled = mode !== 'episode';
             } else {
                 builderSeasonSelect.disabled = true;
                 builderEpisodeSelect.disabled = true;
+            }
+        }
+
+        function formatBuilderContentType(type) {
+            switch (String(type || '').toLowerCase()) {
+                case 'movie': return 'Filme';
+                case 'episode': return 'Episódio';
+                case 'season': return 'Temporada completa';
+                case 'full-series': return 'Série completa';
+                default: return String(type || 'link');
             }
         }
 
@@ -1691,7 +1705,7 @@ Abra o bot e confira o que preparamos.</textarea>
                         <div class="text-lg font-bold text-white">${sanitize(item.title)}</div>
                         <div class="text-gray-400 text-xs mt-1">ID: ${sanitize(item.id)} • Tipo: ${sanitize(item.type)}</div>
                         <div class="mt-2 text-xs text-gray-500">${details ? `${seasons.length} temporada(s) disponíveis${activeSeason ? ` • Temporada atual ${sanitize(activeSeason)}` : ''}` : 'Carregando detalhes...'}</div>
-                        ${details && item.type === 'series' ? `<div class="mt-1 text-xs text-gray-500">${activeEpisodeInfo ? `Episódio selecionado: ${sanitize(activeEpisodeInfo.name || 'Episódio')} • ${sanitize(activeEpisodeInfo.id)}` : 'Escolha uma temporada e um episódio, ou gere a temporada completa.'}</div>` : ''}
+                        ${details && item.type === 'series' ? `<div class="mt-1 text-xs text-gray-500">${activeEpisodeInfo ? `Episódio selecionado: ${sanitize(activeEpisodeInfo.name || 'Episódio')} • ${sanitize(activeEpisodeInfo.id)}` : 'Escolha temporada/episódio, gere uma temporada completa ou a série completa.'}</div>` : ''}
                     </div>
                 </div>
                 ${renderBuilderSeasonPreview()}
@@ -1865,6 +1879,10 @@ Abra o bot e confira o que preparamos.</textarea>
             } else if (mode === 'season') {
                 payload.season = builderSeasonSelect.value || builderState.activeSeason;
                 if (!payload.season) throw new Error('Selecione uma temporada.');
+            } else if (mode === 'full-series') {
+                if (selected.type !== 'series') {
+                    throw new Error('Série completa só está disponível para conteúdos do tipo série.');
+                }
             }
 
             return payload;
@@ -1907,7 +1925,7 @@ Abra o bot e confira o que preparamos.</textarea>
                 const isExpanded = !!group.expanded;
                 const links = group.links || [];
                 const seasonMeta = group.season ? ` • Temporada ${sanitize(group.season)}` : '';
-                const contentMeta = `${sanitize(group.contentType || 'link')}${seasonMeta}`;
+                const contentMeta = `${sanitize(formatBuilderContentType(group.contentType || 'link'))}${seasonMeta}`;
                 return `
                 <div class="builder-result">
                     <div class="flex flex-col gap-3">

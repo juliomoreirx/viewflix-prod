@@ -46,7 +46,7 @@ const createLinkSchema = z.object({
   userId: z.coerce.number().int().positive(),
   contentId: z.string().trim().min(1),
   sourceType: z.enum(['movies', 'series']).default('movies'),
-  contentType: z.enum(['movie', 'episode', 'season']),
+  contentType: z.enum(['movie', 'episode', 'season', 'full-series']),
   season: z.string().trim().optional(),
   episodeId: z.string().trim().optional(),
   expiresAt: z.string().trim().min(1),
@@ -771,7 +771,7 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
   const responseItems = [];
   const accessGroupId = require('crypto').randomBytes(12).toString('hex');
 
-  const createPurchase = async ({ videoId, episodeName = null, mediaType = contentType === 'movie' ? 'movie' : 'series', episodeIndex = null, totalEpisodes = null }) => {
+  const createPurchase = async ({ videoId, episodeName = null, mediaType = contentType === 'movie' ? 'movie' : 'series', episodeIndex = null, totalEpisodes = null, seasonValue = null }) => {
     const token = buildAccessToken({ userId: user.userId, videoId, mediaType, expiresAt: expirationDate });
     const sessionToken = require('crypto').randomBytes(32).toString('hex');
 
@@ -781,7 +781,7 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
       mediaType,
       title: seriesTitle,
       episodeName: episodeName || undefined,
-      season: mediaType === 'series' ? seasonKey || undefined : undefined,
+      season: mediaType === 'series' ? String(seasonValue || seasonKey || '').trim() || undefined : undefined,
       seriesId: sourceType === 'series' ? String(contentId) : undefined,
       episodeIndex: Number.isFinite(episodeIndex) ? episodeIndex : undefined,
       totalEpisodes: Number.isFinite(totalEpisodes) ? totalEpisodes : undefined,
@@ -804,6 +804,7 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
       videoId: String(videoId),
       mediaType,
       episodeName: episodeName || null,
+      season: mediaType === 'series' ? String(seasonValue || seasonKey || '').trim() || null : null,
       cacheStatus: cacheResult.cacheStatus,
       cacheStrategy: cacheResult.cacheStrategy,
       storagePath: cacheResult.storagePath,
@@ -819,38 +820,64 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
   } else {
     const seasonMap = details.seasons || {};
     const availableSeasons = Object.keys(seasonMap);
-    const chosenSeason = seasonKey || availableSeasons[0];
-    const episodes = Array.isArray(seasonMap[chosenSeason]) ? seasonMap[chosenSeason] : [];
+    if (contentType === 'full-series') {
+      let addedEpisodes = 0;
 
-    if (episodes.length === 0) {
-      return res.status(400).json({ error: 'Temporada sem episódios disponíveis' });
-    }
+      for (const currentSeason of availableSeasons) {
+        const episodes = Array.isArray(seasonMap[currentSeason]) ? seasonMap[currentSeason] : [];
+        for (let index = 0; index < episodes.length; index += 1) {
+          const episode = episodes[index];
+          await createPurchase({
+            videoId: episode.id,
+            episodeName: episode.name,
+            mediaType: 'series',
+            episodeIndex: index + 1,
+            totalEpisodes: episodes.length,
+            seasonValue: currentSeason
+          });
+          addedEpisodes += 1;
+        }
+      }
 
-    if (contentType === 'episode') {
-      const episode = episodes.find((ep) => String(ep.id) === String(episodeId)) || episodes[0];
-      const episodeIndex = Math.max(1, episodes.findIndex((ep) => String(ep.id) === String(episode.id)) + 1);
-      await createPurchase({
-        videoId: episode.id,
-        episodeName: episode.name,
-        mediaType: 'series',
-        episodeIndex,
-        totalEpisodes: episodes.length
-      });
+      if (addedEpisodes === 0) {
+        return res.status(400).json({ error: 'Série sem episódios disponíveis' });
+      }
     } else {
-      for (let index = 0; index < episodes.length; index += 1) {
-        const episode = episodes[index];
+      const chosenSeason = seasonKey || availableSeasons[0];
+      const episodes = Array.isArray(seasonMap[chosenSeason]) ? seasonMap[chosenSeason] : [];
+
+      if (episodes.length === 0) {
+        return res.status(400).json({ error: 'Temporada sem episódios disponíveis' });
+      }
+
+      if (contentType === 'episode') {
+        const episode = episodes.find((ep) => String(ep.id) === String(episodeId)) || episodes[0];
+        const episodeIndex = Math.max(1, episodes.findIndex((ep) => String(ep.id) === String(episode.id)) + 1);
         await createPurchase({
           videoId: episode.id,
           episodeName: episode.name,
           mediaType: 'series',
-          episodeIndex: index + 1,
-          totalEpisodes: episodes.length
+          episodeIndex,
+          totalEpisodes: episodes.length,
+          seasonValue: chosenSeason
         });
+      } else {
+        for (let index = 0; index < episodes.length; index += 1) {
+          const episode = episodes[index];
+          await createPurchase({
+            videoId: episode.id,
+            episodeName: episode.name,
+            mediaType: 'series',
+            episodeIndex: index + 1,
+            totalEpisodes: episodes.length,
+            seasonValue: chosenSeason
+          });
+        }
       }
     }
   }
 
-  const visibleLinks = contentType === 'season' ? responseItems.slice(0, 1) : responseItems;
+  const visibleLinks = (contentType === 'season' || contentType === 'full-series') ? responseItems.slice(0, 1) : responseItems;
 
   return res.json({
     success: true,
@@ -858,7 +885,7 @@ router.post('/api/admin/content-link', adminAuth, asyncHandler(async (req, res) 
     userId: user.userId,
     contentTitle: seriesTitle,
     contentType,
-    season: seasonKey || null,
+    season: contentType === 'full-series' ? null : seasonKey || null,
     sourceType,
     expiresAt: expirationDate.toISOString(),
     prepareCache,
