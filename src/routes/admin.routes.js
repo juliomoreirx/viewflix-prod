@@ -1014,6 +1014,40 @@ router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, as
   }
 }));
 
+router.post('/api/admin/livetv-buffer/reprovision', adminAuth, asyncHandler(async (req, res) => {
+  try {
+    const liveTvBufferProvisioner = req.app.locals.services?.liveTvBufferProvisioner;
+    const contentService = req.app.locals.services?.content;
+    
+    if (!liveTvBufferProvisioner || !contentService) {
+      return res.status(500).json({ error: 'Serviço de provisioning não disponível' });
+    }
+
+    const catalogLiveTV = contentService.CACHE_CONTEUDO?.livetv || [];
+    if (catalogLiveTV.length === 0) {
+      return res.status(400).json({ error: 'Nenhum canal LiveTV no catálogo' });
+    }
+
+    const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
+    
+    logger.info({ msg: '[Admin] Reprovisionando todos os canais LiveTV', count: catalogLiveTV.length });
+    
+    await liveTvBufferProvisioner.provisionAllChannels(catalogLiveTV, LiveTvBufferProfile);
+    await liveTvBufferProvisioner.startAutoWarmup(LiveTvBufferProfile);
+
+    const stats = liveTvBufferProvisioner.getStats();
+    
+    return res.json({
+      success: true,
+      message: 'Reprovisionamento iniciado com sucesso',
+      stats
+    });
+  } catch (error) {
+    logger.error({ msg: 'erro ao reprovisionar live tv buffer', error: error.stack || error.message });
+    return res.status(500).json({ error: 'Falha ao reprovisionar canais', details: error.message });
+  }
+}));
+
 router.get('/api/admin/content/details', adminAuth, asyncHandler(async (req, res) => {
   const parsed = contentDetailsSchema.safeParse(req.query);
   if (!parsed.success) {
