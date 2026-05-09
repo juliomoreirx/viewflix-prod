@@ -3152,7 +3152,7 @@ async function saveLiveTvBufferProfile(channelId, payload, btn) {
             const detail = data.error || data.message || data.raw || 'Falha ao salvar perfil de buffering';
             throw new Error(`HTTP ${res.status}: ${detail}`);
         }
-        await loadLiveTvBufferCatalog();
+        loadLiveTvBufferCatalog().catch(() => {});
     } catch (err) {
         alert(err.message);
     } finally {
@@ -3186,7 +3186,7 @@ async function requestLiveTvWarmup(channelId, btn) {
             const detail = data.error || data.message || data.raw || 'Falha ao solicitar warmup';
             throw new Error(`HTTP ${res.status}: ${detail}`);
         }
-        await loadLiveTvBufferCatalog();
+        loadLiveTvBufferCatalog().catch(() => {});
     } catch (err) {
         alert(err.message);
     } finally {

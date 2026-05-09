@@ -926,84 +926,99 @@ router.get('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandl
 }));
 
 router.put('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandler(async (req, res) => {
-  const parsedParams = liveTvChannelParamSchema.safeParse(req.params);
-  if (!parsedParams.success) {
-    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsedParams.error.flatten() });
+  try {
+    const parsedParams = liveTvChannelParamSchema.safeParse(req.params);
+    if (!parsedParams.success) {
+      return res.status(400).json({ error: 'Parâmetros inválidos', details: parsedParams.error.flatten() });
+    }
+
+    const parsedBody = liveTvBufferProfileSchema.safeParse(req.body || {});
+    if (!parsedBody.success) {
+      return res.status(400).json({ error: 'Dados inválidos', details: parsedBody.error.flatten() });
+    }
+
+    const { channelId } = parsedParams.data;
+    const updates = parsedBody.data;
+    const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
+
+    const existing = await LiveTvBufferProfile.findOne({ channelId }).lean();
+    const nextEnabled = typeof updates.enabled === 'boolean' ? updates.enabled : !!existing?.enabled;
+
+    const payload = {
+      ...updates,
+      channelId,
+      status: nextEnabled
+        ? (existing?.status === 'disabled' || !existing?.status ? 'idle' : existing.status)
+        : 'disabled',
+      lastError: nextEnabled ? (existing?.lastError || null) : null
+    };
+
+    await LiveTvBufferProfile.updateOne(
+      { channelId },
+      { $set: payload, $setOnInsert: { channelId } },
+      { upsert: true }
+    );
+
+    const profile = await LiveTvBufferProfile.findOne({ channelId }).lean();
+
+    return res.json({
+      success: true,
+      data: formatLiveTvBufferProfile(profile || payload)
+    });
+  } catch (error) {
+    logger.error({ msg: 'erro ao salvar live tv buffer profile', error: error.stack || error.message });
+    return res.status(500).json({ error: 'Falha ao salvar perfil de buffering', details: error.message });
   }
-
-  const parsedBody = liveTvBufferProfileSchema.safeParse(req.body || {});
-  if (!parsedBody.success) {
-    return res.status(400).json({ error: 'Dados inválidos', details: parsedBody.error.flatten() });
-  }
-
-  const { channelId } = parsedParams.data;
-  const updates = parsedBody.data;
-  const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
-
-  const existing = await LiveTvBufferProfile.findOne({ channelId });
-  const nextEnabled = typeof updates.enabled === 'boolean' ? updates.enabled : !!existing?.enabled;
-
-  const payload = {
-    ...updates,
-    channelId,
-    status: nextEnabled
-      ? (existing?.status === 'disabled' || !existing?.status ? 'idle' : existing.status)
-      : 'disabled',
-    lastError: nextEnabled ? (existing?.lastError || null) : null
-  };
-
-  const profile = await LiveTvBufferProfile.findOneAndUpdate(
-    { channelId },
-    { $set: payload, $setOnInsert: { channelId } },
-    { upsert: true, new: true }
-  ).lean();
-
-  return res.json({
-    success: true,
-    data: formatLiveTvBufferProfile(profile)
-  });
 }));
 
 router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, asyncHandler(async (req, res) => {
-  const parsed = liveTvChannelParamSchema.safeParse(req.params);
-  if (!parsed.success) {
-    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
-  }
+  try {
+    const parsed = liveTvChannelParamSchema.safeParse(req.params);
+    if (!parsed.success) {
+      return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+    }
 
-  const channelId = parsed.data.channelId;
-  const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
-  const catalogItem = (CACHE_CONTEUDO.livetv || []).find((item) => String(item?.id || '') === channelId);
-  const fallbackTitle = getLiveTvChannelLabel(catalogItem || { id: channelId });
+    const channelId = parsed.data.channelId;
+    const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
+    const catalogItem = (CACHE_CONTEUDO.livetv || []).find((item) => String(item?.id || '') === channelId);
+    const fallbackTitle = getLiveTvChannelLabel(catalogItem || { id: channelId });
 
-  const profile = await LiveTvBufferProfile.findOneAndUpdate(
-    { channelId },
-    {
-      $setOnInsert: {
-        channelId,
-        channelTitle: fallbackTitle,
-        enabled: true,
-        segmentDurationSec: 6,
-        segmentCount: 30,
-        warmupMode: 'on-demand',
-        status: 'idle'
+    await LiveTvBufferProfile.updateOne(
+      { channelId },
+      {
+        $set: {
+          channelId,
+          channelTitle: fallbackTitle || undefined,
+          enabled: true,
+          status: 'warming',
+          lastWarmupAt: new Date(),
+          lastError: null,
+          statusNote: 'Warmup solicitado manualmente pelo admin'
+        },
+        $setOnInsert: {
+          channelId,
+          channelTitle: fallbackTitle,
+          enabled: true,
+          segmentDurationSec: 6,
+          segmentCount: 30,
+          warmupMode: 'on-demand',
+          status: 'idle'
+        }
       },
-      $set: {
-        channelTitle: fallbackTitle || undefined,
-        enabled: true,
-        status: 'warming',
-        lastWarmupAt: new Date(),
-        lastError: null,
-        statusNote: 'Warmup solicitado manualmente pelo admin'
-      }
-    },
-    { upsert: true, new: true }
-  );
+      { upsert: true }
+    );
 
-  return res.json({
-    success: true,
-    message: 'Warmup solicitado. Integração do worker será conectada no próximo passo.',
-    data: formatLiveTvBufferProfile(profile.toObject())
-  });
+    const profile = await LiveTvBufferProfile.findOne({ channelId }).lean();
+
+    return res.json({
+      success: true,
+      message: 'Warmup solicitado. Integração do worker será conectada no próximo passo.',
+      data: formatLiveTvBufferProfile(profile || { channelId, enabled: true, status: 'warming', channelTitle: fallbackTitle })
+    });
+  } catch (error) {
+    logger.error({ msg: 'erro ao solicitar warmup live tv buffer', error: error.stack || error.message });
+    return res.status(500).json({ error: 'Falha ao solicitar warmup', details: error.message });
+  }
 }));
 
 router.get('/api/admin/content/details', adminAuth, asyncHandler(async (req, res) => {
