@@ -3141,8 +3141,17 @@ async function saveLiveTvBufferProfile(channelId, payload, btn) {
             },
             body: JSON.stringify(payload)
         });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok || !data.success) throw new Error(data.error || 'Falha ao salvar perfil de buffering');
+        const rawText = await res.text();
+        let data = {};
+        try {
+            data = rawText ? JSON.parse(rawText) : {};
+        } catch (parseErr) {
+            data = { raw: rawText };
+        }
+        if (!res.ok || !data.success) {
+            const detail = data.error || data.message || data.raw || 'Falha ao salvar perfil de buffering';
+            throw new Error(`HTTP ${res.status}: ${detail}`);
+        }
         await loadLiveTvBufferCatalog();
     } catch (err) {
         alert(err.message);
@@ -3166,8 +3175,17 @@ async function requestLiveTvWarmup(channelId, btn) {
             method: 'POST',
             headers: { 'Authorization': `Bearer ${state.token}` }
         });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok || !data.success) throw new Error(data.error || 'Falha ao solicitar warmup');
+        const rawText = await res.text();
+        let data = {};
+        try {
+            data = rawText ? JSON.parse(rawText) : {};
+        } catch (parseErr) {
+            data = { raw: rawText };
+        }
+        if (!res.ok || !data.success) {
+            const detail = data.error || data.message || data.raw || 'Falha ao solicitar warmup';
+            throw new Error(`HTTP ${res.status}: ${detail}`);
+        }
         await loadLiveTvBufferCatalog();
     } catch (err) {
         alert(err.message);
