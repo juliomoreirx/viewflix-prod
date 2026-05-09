@@ -764,45 +764,48 @@ Abra o bot e confira o que preparamos.</textarea>
                     </div>
                 </div>
 
-                <div id="mongoTab" class="tab-content hidden">
-                    <div class="mongo-shell">
-                    <div class="mongo-card p-6 sm:p-8 flex-1">
-                        <div class="flex items-start justify-between gap-4 mb-6 shrink-0">
-                            <div>
-                                <h2 class="text-2xl font-black mb-2">Mongo / Conteúdos por usuário</h2>
-                                <p class="text-gray-400 text-sm max-w-2xl">Veja os conteúdos comprados separados por usuário, com opção de excluir cada item quando precisar.</p>
-                            </div>
-                            <i class="fa-solid fa-database text-5xl opacity-20"></i>
-                        </div>
+<div id="mongoTab" class="tab-content hidden">
+    <div class="flex items-start justify-between gap-4 mb-6">
+        <div>
+            <h2 class="text-2xl font-black mb-2">Mongo / Conteúdos por usuário</h2>
+            <p class="text-gray-400 text-sm max-w-2xl">Veja os conteúdos comprados separados por usuário, com opção de excluir cada item quando precisar.</p>
+        </div>
+        <i class="fa-solid fa-database text-5xl opacity-20"></i>
+    </div>
 
-                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4 shrink-0">
-                            <input id="mongoSearchInput" type="text" class="search-box md:col-span-2" placeholder="Buscar usuário, username ou ID...">
-                            <button id="mongoSearchBtn" class="btn-primary">
-                                <i class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar
-                            </button>
-                            <button id="mongoRefreshBtn" class="btn-secondary">
-                                <i class="fa-solid fa-rotate-right mr-2"></i>Atualizar
-                            </button>
-                        </div>
+    <div class="glass rounded-2xl p-6 mb-6 border border-white/5">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <input id="mongoSearchInput" type="text" class="search-box md:col-span-2" placeholder="Buscar usuário, username ou ID...">
+            <button id="mongoSearchBtn" class="btn-primary">
+                <i class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar
+            </button>
+            <button id="mongoRefreshBtn" class="btn-secondary">
+                <i class="fa-solid fa-rotate-right mr-2"></i>Atualizar
+            </button>
+        </div>
+    </div>
 
-                        <div id="mongoSummary" class="mongo-summary-grid grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-sm shrink-0"></div>
-                        <div id="mongoListContainer" class="mongo-list-scroll space-y-4">
-                            <div class="loading-skeleton h-28 rounded-xl"></div>
-                            <div class="loading-skeleton h-28 rounded-xl"></div>
-                            <div class="loading-skeleton h-28 rounded-xl"></div>
-                        </div>
-                        <div class="flex justify-between items-center mt-4 shrink-0">
-                            <button id="mongoPrevPageBtn" class="btn-secondary" disabled>
-                                <i class="fa-solid fa-chevron-left mr-2"></i>Anterior
-                            </button>
-                            <span id="mongoPageInfo" class="text-gray-400 text-sm">Pagina -- de --</span>
-                            <button id="mongoNextPageBtn" class="btn-secondary" disabled>
-                                Proxima <i class="fa-solid fa-chevron-right ml-2"></i>
-                            </button>
-                        </div>
-                    </div>
-                    </div>
-                </div>
+    <!-- Container dos cards de resumo numérico -->
+    <div id="mongoSummary" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6"></div>
+
+    <!-- Lista de usuários com os conteúdos -->
+    <div id="mongoListContainer" class="space-y-4">
+        <div class="loading-skeleton h-28 rounded-xl"></div>
+        <div class="loading-skeleton h-28 rounded-xl"></div>
+        <div class="loading-skeleton h-28 rounded-xl"></div>
+    </div>
+
+    <!-- Paginação -->
+    <div class="flex justify-between items-center mt-6">
+        <button id="mongoPrevPageBtn" class="btn-secondary" disabled>
+            <i class="fa-solid fa-chevron-left mr-2"></i>Anterior
+        </button>
+        <span id="mongoPageInfo" class="text-gray-400 text-sm">Página -- de --</span>
+        <button id="mongoNextPageBtn" class="btn-secondary" disabled>
+            Próxima <i class="fa-solid fa-chevron-right ml-2"></i>
+        </button>
+    </div>
+</div>
                 
                 <div id="downloadsTab" class="tab-content hidden">
                     <div class="flex justify-between items-center mb-8">
@@ -2434,84 +2437,98 @@ Abra o bot e confira o que preparamos.</textarea>
             return { message: finalMessage, bonusAmount, bonusLimit, adminLabel: 'Painel Admin' };
         }
 
-        function buildMongoSummary(summary = {}) {
-            return `
-                <div class="glass p-3 rounded-lg">
-                    <p class="text-xs text-gray-500">Usuários</p>
-                    <p class="text-lg font-black gradient-text">${summary.totalUsers || 0}</p>
-                </div>
-                <div class="glass p-3 rounded-lg">
-                    <p class="text-xs text-gray-500">Compras reais</p>
-                    <p class="text-lg font-black text-blue-400">${summary.totalPurchases || 0}</p>
-                </div>
-                <div class="glass p-3 rounded-lg">
-                    <p class="text-xs text-gray-500">Ativos</p>
-                    <p class="text-lg font-black text-green-400">${summary.totalActive || 0}</p>
-                </div>
-                <div class="glass p-3 rounded-lg">
-                    <p class="text-xs text-gray-500">Expirados</p>
-                    <p class="text-lg font-black text-orange-400">${summary.totalExpired || 0}</p>
-                </div>
-            `;
-        }
+function buildMongoSummary(summary = {}) {
+    return `
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Usuários</p>
+                <p class="text-2xl font-black gradient-text">${summary.totalUsers || 0}</p>
+            </div>
+            <i class="fa-solid fa-users text-2xl opacity-20 text-[#4facfe]"></i>
+        </div>
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Compras reais</p>
+                <p class="text-2xl font-black text-blue-400">${summary.totalPurchases || 0}</p>
+            </div>
+            <i class="fa-solid fa-cart-shopping text-2xl opacity-20 text-blue-400"></i>
+        </div>
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Ativos</p>
+                <p class="text-2xl font-black text-green-400">${summary.totalActive || 0}</p>
+            </div>
+            <i class="fa-solid fa-check-circle text-2xl opacity-20 text-green-400"></i>
+        </div>
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Expirados</p>
+                <p class="text-2xl font-black text-orange-400">${summary.totalExpired || 0}</p>
+            </div>
+            <i class="fa-solid fa-clock text-2xl opacity-20 text-orange-400"></i>
+        </div>
+    `;
+}
 
-        function renderMongoUsers() {
-            const users = state.mongoUsers || [];
+function renderMongoUsers() {
+    const users = state.mongoUsers || [];
 
-            mongoSummary.innerHTML = buildMongoSummary({
-                totalUsers: state.mongoTotalUsers,
-                totalPurchases: users.reduce((sum, user) => sum + (user.totalPurchasedItems || 0), 0),
-                totalActive: users.reduce((sum, user) => sum + (user.activeItems || 0), 0),
-                totalExpired: users.reduce((sum, user) => sum + (user.expiredItems || 0), 0)
-            });
+    mongoSummary.innerHTML = buildMongoSummary({
+        totalUsers: state.mongoTotalUsers,
+        totalPurchases: users.reduce((sum, user) => sum + (user.totalPurchasedItems || 0), 0),
+        totalActive: users.reduce((sum, user) => sum + (user.activeItems || 0), 0),
+        totalExpired: users.reduce((sum, user) => sum + (user.expiredItems || 0), 0)
+    });
 
-            if (!users.length) {
-                mongoListContainer.innerHTML = '<div class="glass p-8 rounded-xl text-center text-gray-500"><i class="fa-solid fa-database text-4xl mb-3"></i><p>Nenhum conteúdo encontrado</p></div>';
-                return;
-            }
+    if (!users.length) {
+        mongoListContainer.innerHTML = '<div class="glass p-8 rounded-xl text-center text-gray-500 border border-white/5"><i class="fa-solid fa-database text-4xl mb-3 opacity-50"></i><p>Nenhum conteúdo encontrado</p></div>';
+        return;
+    }
 
-            mongoListContainer.innerHTML = users.map((user) => `
-                <div class="glass rounded-xl p-5 border border-white/5">
-                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
-                        <div class="min-w-0">
-                            <div class="flex items-center gap-3 mb-1">
-                                <h3 class="font-bold text-lg truncate">${sanitize(user.firstName || 'Usuário')} ${sanitize(user.lastName || '')}</h3>
-                                ${user.isBlocked ? '<span class="badge badge-blocked">BLOQUEADO</span>' : ''}
-                                ${user.isActive ? '<span class="badge badge-active">ATIVO</span>' : '<span class="badge badge-inactive">INATIVO</span>'}
-                            </div>
-                            <p class="text-sm text-gray-400">@${sanitize(user.username || 'sem username')} • ID ${user.userId}</p>
-                            <p class="text-xs text-gray-500 mt-2">Última compra: ${user.lastPurchaseAt ? new Date(user.lastPurchaseAt).toLocaleString('pt-BR') : '—'}</p>
-                        </div>
-                        <div class="flex flex-wrap gap-2">
-                            <button class="btn-primary px-4 py-2 text-sm" onclick='showUserDetail(${JSON.stringify(user).replace(/"/g, '&quot;')})'>
-                                <i class="fa-solid fa-eye mr-2"></i>Ver conteúdos
-                            </button>
-                        </div>
+    mongoListContainer.innerHTML = users.map((user) => `
+        <div class="glass rounded-xl p-6 border border-white/5 transition duration-300 hover:border-[#4facfe]/40">
+            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+                <div class="min-w-0">
+                    <div class="flex items-center gap-3 mb-1">
+                        <h3 class="font-bold text-lg truncate">${sanitize(user.firstName || 'Usuário')} ${sanitize(user.lastName || '')}</h3>
+                        ${user.isBlocked ? '<span class="badge badge-blocked">BLOQUEADO</span>' : ''}
+                        ${user.isActive ? '<span class="badge badge-active">ATIVO</span>' : '<span class="badge badge-inactive">INATIVO</span>'}
                     </div>
-
-                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4 text-sm">
-                        <div class="glass p-3 rounded-lg">
-                            <p class="text-xs text-gray-500">Compras reais</p>
-                            <p class="font-black text-blue-400">${user.totalPurchasedItems || 0}</p>
-                        </div>
-                        <div class="glass p-3 rounded-lg">
-                        <div class="glass p-3 rounded-lg">
-                            <p class="text-xs text-gray-500">Ativos</p>
-                            <p class="font-black text-green-400">${user.activeItems || 0}</p>
-                        </div>
-                        <div class="glass p-3 rounded-lg">
-                            <p class="text-xs text-gray-500">Gasto</p>
-                            <p class="font-black gradient-text">R$ ${((user.totalSpentOnPurchases || 0) / 100).toFixed(2)}</p>
-                        </div>
-                    </div>
+                    <p class="text-sm text-gray-400">@${sanitize(user.username || 'sem_username')} • ID: ${user.userId}</p>
+                    <p class="text-xs text-gray-500 mt-2">Última compra: ${user.lastPurchaseAt ? new Date(user.lastPurchaseAt).toLocaleString('pt-BR') : '—'}</p>
                 </div>
-            `).join('');
+                <div class="flex flex-wrap gap-2 shrink-0">
+                    <button class="btn-primary px-5 py-2 text-sm" onclick='showUserDetail(${JSON.stringify(user).replace(/"/g, '&quot;')})'>
+                        <i class="fa-solid fa-eye mr-2"></i>Ver conteúdos
+                    </button>
+                </div>
+            </div>
 
-            mongoPageInfo.textContent = `Pagina ${state.mongoPage} de ${state.mongoTotalPages}`;
-            mongoPrevPageBtn.disabled = state.mongoPage <= 1;
-            mongoNextPageBtn.disabled = state.mongoPage >= state.mongoTotalPages;
-        }
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-5 pt-5 border-t border-white/5 text-sm">
+                <div class="glass p-3 rounded-lg border border-white/5">
+                    <p class="text-xs text-gray-500 mb-1">Compras reais</p>
+                    <p class="font-black text-blue-400 text-lg">${user.totalPurchasedItems || 0}</p>
+                </div>
+                <div class="glass p-3 rounded-lg border border-white/5">
+                    <p class="text-xs text-gray-500 mb-1">Ativos</p>
+                    <p class="font-black text-green-400 text-lg">${user.activeItems || 0}</p>
+                </div>
+                <div class="glass p-3 rounded-lg border border-white/5">
+                    <p class="text-xs text-gray-500 mb-1">Expirados</p>
+                    <p class="font-black text-orange-400 text-lg">${user.expiredItems || 0}</p>
+                </div>
+                <div class="glass p-3 rounded-lg border border-white/5">
+                    <p class="text-xs text-gray-500 mb-1">Gasto no bot</p>
+                    <p class="font-black gradient-text text-lg">R$ ${((user.totalSpentOnPurchases || 0) / 100).toFixed(2)}</p>
+                </div>
+            </div>
+        </div>
+    `).join('');
 
+    mongoPageInfo.textContent = `Página ${state.mongoPage} de ${state.mongoTotalPages}`;
+    mongoPrevPageBtn.disabled = state.mongoPage <= 1;
+    mongoNextPageBtn.disabled = state.mongoPage >= state.mongoTotalPages;
+}
         async function loadMongoContent() {
             if (!state.token) return;
 
