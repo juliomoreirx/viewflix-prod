@@ -966,21 +966,34 @@ router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, as
     return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
   }
 
+  const channelId = parsed.data.channelId;
   const { LiveTvBufferProfile } = req.app.locals.models;
-  const profile = await LiveTvBufferProfile.findOne({ channelId: parsed.data.channelId });
-  if (!profile) {
-    return res.status(404).json({ error: 'Perfil de buffering não encontrado' });
-  }
+  const catalogItem = (CACHE_CONTEUDO.livetv || []).find((item) => String(item?.id || '') === channelId);
+  const fallbackTitle = getLiveTvChannelLabel(catalogItem || { id: channelId });
 
-  if (!profile.enabled) {
-    return res.status(400).json({ error: 'Ative o buffering do canal antes de aquecer' });
-  }
-
-  profile.status = 'warming';
-  profile.lastWarmupAt = new Date();
-  profile.lastError = null;
-  profile.statusNote = profile.statusNote || 'Warmup solicitado manualmente pelo admin';
-  await profile.save();
+  const profile = await LiveTvBufferProfile.findOneAndUpdate(
+    { channelId },
+    {
+      $setOnInsert: {
+        channelId,
+        channelTitle: fallbackTitle,
+        enabled: true,
+        segmentDurationSec: 6,
+        segmentCount: 30,
+        warmupMode: 'on-demand',
+        status: 'idle'
+      },
+      $set: {
+        channelTitle: fallbackTitle || undefined,
+        enabled: true,
+        status: 'warming',
+        lastWarmupAt: new Date(),
+        lastError: null,
+        statusNote: 'Warmup solicitado manualmente pelo admin'
+      }
+    },
+    { upsert: true, new: true }
+  );
 
   return res.json({
     success: true,
