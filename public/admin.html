@@ -422,6 +422,9 @@
                     <button data-tab="linkBuilder" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-link w-4 mr-3"></i>Gerar Link
                     </button>
+                    <button data-tab="mongo" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                        <i class="fa-solid fa-database w-4 mr-3"></i>Mongo / Conteúdos
+                    </button>
                     <button data-tab="downloads" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-inbox-in w-4 mr-3"></i>Downloads
                     </button>
@@ -729,6 +732,44 @@ Abra o bot e confira o que preparamos.</textarea>
                         </div>
                     </div>
                 </div>
+
+                <div id="mongoTab" class="tab-content hidden">
+                    <div class="glass rounded-2xl p-6 sm:p-8 border border-white/5">
+                        <div class="flex items-start justify-between gap-4 mb-6">
+                            <div>
+                                <h2 class="text-2xl font-black mb-2">Mongo / Conteúdos por usuário</h2>
+                                <p class="text-gray-400 text-sm max-w-2xl">Veja os conteúdos comprados separados por usuário, com opção de excluir cada item quando precisar.</p>
+                            </div>
+                            <i class="fa-solid fa-database text-5xl opacity-20"></i>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+                            <input id="mongoSearchInput" type="text" class="search-box md:col-span-2" placeholder="Buscar usuário, username ou ID...">
+                            <button id="mongoSearchBtn" class="btn-primary">
+                                <i class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar
+                            </button>
+                            <button id="mongoRefreshBtn" class="btn-secondary">
+                                <i class="fa-solid fa-rotate-right mr-2"></i>Atualizar
+                            </button>
+                        </div>
+
+                        <div id="mongoSummary" class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6 text-sm"></div>
+                        <div id="mongoListContainer" class="space-y-4">
+                            <div class="loading-skeleton h-28 rounded-xl"></div>
+                            <div class="loading-skeleton h-28 rounded-xl"></div>
+                            <div class="loading-skeleton h-28 rounded-xl"></div>
+                        </div>
+                        <div class="flex justify-between items-center mt-6">
+                            <button id="mongoPrevPageBtn" class="btn-secondary" disabled>
+                                <i class="fa-solid fa-chevron-left mr-2"></i>Anterior
+                            </button>
+                            <span id="mongoPageInfo" class="text-gray-400 text-sm">Pagina -- de --</span>
+                            <button id="mongoNextPageBtn" class="btn-secondary" disabled>
+                                Proxima <i class="fa-solid fa-chevron-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
                 
                 <div id="downloadsTab" class="tab-content hidden">
                     <div class="flex justify-between items-center mb-8">
@@ -813,6 +854,10 @@ Abra o bot e confira o que preparamos.</textarea>
             users: [],
             totalUsers: 0,
             totalPages: 0,
+            mongoPage: 1,
+            mongoUsers: [],
+            mongoTotalUsers: 0,
+            mongoTotalPages: 0,
             filters: {
                 q: '',
                 isActive: '',
@@ -853,6 +898,14 @@ Abra o bot e confira o que preparamos.</textarea>
         const builderSeasonSelect = document.getElementById('builderSeasonSelect');
         const builderEpisodeSelect = document.getElementById('builderEpisodeSelect');
         const builderModeGroup = document.getElementById('builderModeGroup');
+        const mongoSearchInput = document.getElementById('mongoSearchInput');
+        const mongoSearchBtn = document.getElementById('mongoSearchBtn');
+        const mongoRefreshBtn = document.getElementById('mongoRefreshBtn');
+        const mongoListContainer = document.getElementById('mongoListContainer');
+        const mongoSummary = document.getElementById('mongoSummary');
+        const mongoPrevPageBtn = document.getElementById('mongoPrevPageBtn');
+        const mongoNextPageBtn = document.getElementById('mongoNextPageBtn');
+        const mongoPageInfo = document.getElementById('mongoPageInfo');
 
         const builderState = {
             items: [],
@@ -1438,9 +1491,29 @@ Abra o bot e confira o que preparamos.</textarea>
                 // Load Batch list if Downloads tab is selected
                 if (btn.dataset.tab === 'downloads') {
                     batchManager.loadBatches();
+                } else if (btn.dataset.tab === 'mongo') {
+                    state.mongoPage = 1;
+                    loadMongoContent();
                 }
             });
         });
+
+        function refreshActiveTab() {
+            const activeTabBtn = document.querySelector('.tab-btn.active');
+            const activeTab = activeTabBtn?.dataset?.tab || 'users';
+
+            if (activeTab === 'mongo') {
+                loadMongoContent();
+                return;
+            }
+
+            if (activeTab === 'downloads') {
+                batchManager.loadBatches();
+                return;
+            }
+
+            loadUsers();
+        }
 
         // New Batch Button Logic
         document.getElementById('newBatchBtn').addEventListener('click', async () => {
@@ -2100,9 +2173,87 @@ Abra o bot e confira o que preparamos.</textarea>
             };
         }
 
-        function showUserDetail(user) {
+        async function deleteManagedPurchase(purchaseId, userId) {
+            if (!state.token || !purchaseId) return;
+            if (!confirm('Tem certeza que deseja excluir este conteúdo do Mongo?')) return;
+
+            try {
+                const res = await fetch(`/api/admin/purchases/${encodeURIComponent(purchaseId)}`, {
+                    method: 'DELETE',
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+
+                const data = await res.json().catch(() => ({}));
+                if (!res.ok) throw new Error(data.error || 'Falha ao excluir conteúdo');
+
+                await showUserDetail({ userId, _refresh: true });
+                loadUsers();
+            } catch (err) {
+                alert(err.message);
+            }
+        }
+
+        async function showUserDetail(user) {
             const content = document.getElementById('userModalContent');
-            const recentPurchases = user.recentPurchases || [];
+            const userId = Number(user.userId);
+
+            content.innerHTML = `
+                <div class="glass p-4 rounded-xl border border-white/5 text-sm text-gray-400 flex items-center gap-3">
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+                    Carregando conteúdos do usuário...
+                </div>
+            `;
+            document.getElementById('userModal').classList.add('open');
+
+            let purchasesData = null;
+            if (!user._refresh) {
+                try {
+                    const res = await fetch(`/api/admin/users/${encodeURIComponent(userId)}/content`, {
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+
+                    const data = await res.json().catch(() => ({}));
+                    if (!res.ok) throw new Error(data.error || 'Falha ao carregar conteúdos');
+                    purchasesData = data;
+                } catch (error) {
+                    content.innerHTML = `<div class="glass p-4 rounded-xl border border-red-500/30 text-red-300">${sanitize(error.message)}</div>`;
+                    return;
+                }
+            } else {
+                const res = await fetch(`/api/admin/users/${encodeURIComponent(userId)}/content`, {
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+                purchasesData = await res.json().catch(() => null);
+                if (!purchasesData || !purchasesData.success) {
+                    content.innerHTML = `<div class="glass p-4 rounded-xl border border-red-500/30 text-red-300">Falha ao recarregar conteúdos.</div>`;
+                    return;
+                }
+            }
+
+            const purchaseItems = purchasesData?.data?.grouped?.purchase || [];
+            const batchItems = purchasesData?.data?.grouped?.batch || [];
+            const renderItems = (items, emptyText) => items.length > 0
+                ? `<div class="space-y-2">${items.map((p) => `
+                        <div class="glass p-3 rounded-lg text-sm border border-white/5">
+                            <div class="flex justify-between items-start gap-3">
+                                <div class="min-w-0">
+                                    <p class="font-semibold truncate">${sanitize(p.title || 'Sem título')}</p>
+                                    <p class="text-xs text-gray-500 mt-1">
+                                        ${sanitize((p.mediaType || '').toUpperCase())}${p.source === 'batch' ? ' • Pré-carregado no painel' : ' • Compra real'}
+                                        ${p.expired ? ' • Expirado' : ''}
+                                    </p>
+                                    <p class="text-xs text-gray-500 mt-1">Token: ${sanitize(p.token || '')}</p>
+                                </div>
+                                <div class="flex flex-col items-end gap-2 shrink-0">
+                                    <span class="badge ${p.expired ? 'badge-inactive' : 'badge-active'}">${p.expired ? 'EXPIRADO' : 'ATIVO'}</span>
+                                    <button class="btn-secondary border border-red-500/40 text-red-300 hover:bg-red-500/10 text-xs px-3 py-1" onclick="deleteManagedPurchase('${p.id}', ${userId})">
+                                        <i class="fa-solid fa-trash mr-1"></i>Excluir
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `).join('')}</div>`
+                : `<div class="glass p-4 rounded-xl border border-white/5 text-gray-500 text-sm">${emptyText}</div>`;
             
             content.innerHTML = `
                 <div class="space-y-6">
@@ -2155,25 +2306,15 @@ Abra o bot e confira o que preparamos.</textarea>
                         ` : ''}
                     </div>
 
-                    ${recentPurchases.length > 0 ? `
-                        <div>
-                            <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Ultimas Compras</h3>
-                            <div class="space-y-2">
-                                ${recentPurchases.map(p => `
-                                    <div class="glass p-3 rounded-lg text-sm">
-                                        <div class="flex justify-between">
-                                            <span class="font-medium">${sanitize(p.title)}</span>
-                                            <span class="gradient-text font-bold">R$ ${(p.pricePaid / 100).toFixed(2)}</span>
-                                        </div>
-                                        <p class="text-xs text-gray-500 mt-1">
-                                            <i class="fa-solid fa-calendar-days mr-1"></i>
-                                            ${new Date(p.purchasedAt).toLocaleDateString('pt-BR')}
-                                        </p>
-                                    </div>
-                                `).join('')}
-                            </div>
-                        </div>
-                    ` : ''}
+                    <div>
+                        <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Compras reais</h3>
+                        ${renderItems(purchaseItems, 'Nenhuma compra real encontrada para este usuário.')}
+                    </div>
+
+                    <div>
+                        <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Pré-carregados no painel</h3>
+                        ${renderItems(batchItems, 'Nenhum conteúdo pré-carregado encontrado para este usuário.')}
+                    </div>
 
                     <div>
                         <h3 class="text-sm text-gray-500 font-semibold uppercase mb-3">Timestamps</h3>
@@ -2206,7 +2347,33 @@ Abra o bot e confira o que preparamos.</textarea>
             if (e.key === 'Enter') document.getElementById('applyFiltersBtn').click();
         });
 
-        document.getElementById('refreshBtn').addEventListener('click', loadUsers);
+        document.getElementById('refreshBtn').addEventListener('click', refreshActiveTab);
+        mongoSearchBtn.addEventListener('click', () => {
+            state.mongoPage = 1;
+            loadMongoContent();
+        });
+        mongoSearchInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                state.mongoPage = 1;
+                loadMongoContent();
+            }
+        });
+        mongoRefreshBtn.addEventListener('click', () => {
+            state.mongoPage = 1;
+            loadMongoContent();
+        });
+        mongoPrevPageBtn.addEventListener('click', () => {
+            if (state.mongoPage > 1) {
+                state.mongoPage--;
+                loadMongoContent();
+            }
+        });
+        mongoNextPageBtn.addEventListener('click', () => {
+            if (state.mongoPage < state.mongoTotalPages) {
+                state.mongoPage++;
+                loadMongoContent();
+            }
+        });
 
         function setBroadcastStatus(type, html) {
             const box = document.getElementById('broadcastStatus');
@@ -2232,6 +2399,117 @@ Abra o bot e confira o que preparamos.</textarea>
             const finalMessage = title ? `📢 *${title}*\n\n${message}` : message;
 
             return { message: finalMessage, bonusAmount, bonusLimit, adminLabel: 'Painel Admin' };
+        }
+
+        function buildMongoSummary(summary = {}) {
+            return `
+                <div class="glass p-3 rounded-lg">
+                    <p class="text-xs text-gray-500">Usuários</p>
+                    <p class="text-lg font-black gradient-text">${summary.totalUsers || 0}</p>
+                </div>
+                <div class="glass p-3 rounded-lg">
+                    <p class="text-xs text-gray-500">Compras reais</p>
+                    <p class="text-lg font-black text-blue-400">${summary.totalPurchases || 0}</p>
+                </div>
+                <div class="glass p-3 rounded-lg">
+                    <p class="text-xs text-gray-500">Ativos</p>
+                    <p class="text-lg font-black text-green-400">${summary.totalActive || 0}</p>
+                </div>
+                <div class="glass p-3 rounded-lg">
+                    <p class="text-xs text-gray-500">Expirados</p>
+                    <p class="text-lg font-black text-orange-400">${summary.totalExpired || 0}</p>
+                </div>
+            `;
+        }
+
+        function renderMongoUsers() {
+            const users = state.mongoUsers || [];
+
+            mongoSummary.innerHTML = buildMongoSummary({
+                totalUsers: state.mongoTotalUsers,
+                totalPurchases: users.reduce((sum, user) => sum + (user.totalPurchasedItems || 0), 0),
+                totalActive: users.reduce((sum, user) => sum + (user.activeItems || 0), 0),
+                totalExpired: users.reduce((sum, user) => sum + (user.expiredItems || 0), 0)
+            });
+
+            if (!users.length) {
+                mongoListContainer.innerHTML = '<div class="glass p-8 rounded-xl text-center text-gray-500"><i class="fa-solid fa-database text-4xl mb-3"></i><p>Nenhum conteúdo encontrado</p></div>';
+                return;
+            }
+
+            mongoListContainer.innerHTML = users.map((user) => `
+                <div class="glass rounded-xl p-5 border border-white/5">
+                    <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+                        <div class="min-w-0">
+                            <div class="flex items-center gap-3 mb-1">
+                                <h3 class="font-bold text-lg truncate">${sanitize(user.firstName || 'Usuário')} ${sanitize(user.lastName || '')}</h3>
+                                ${user.isBlocked ? '<span class="badge badge-blocked">BLOQUEADO</span>' : ''}
+                                ${user.isActive ? '<span class="badge badge-active">ATIVO</span>' : '<span class="badge badge-inactive">INATIVO</span>'}
+                            </div>
+                            <p class="text-sm text-gray-400">@${sanitize(user.username || 'sem username')} • ID ${user.userId}</p>
+                            <p class="text-xs text-gray-500 mt-2">Última compra: ${user.lastPurchaseAt ? new Date(user.lastPurchaseAt).toLocaleString('pt-BR') : '—'}</p>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="btn-primary px-4 py-2 text-sm" onclick='showUserDetail(${JSON.stringify(user).replace(/"/g, '&quot;')})'>
+                                <i class="fa-solid fa-eye mr-2"></i>Ver conteúdos
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-4 text-sm">
+                        <div class="glass p-3 rounded-lg">
+                            <p class="text-xs text-gray-500">Compras reais</p>
+                            <p class="font-black text-blue-400">${user.totalPurchasedItems || 0}</p>
+                        </div>
+                        <div class="glass p-3 rounded-lg">
+                        <div class="glass p-3 rounded-lg">
+                            <p class="text-xs text-gray-500">Ativos</p>
+                            <p class="font-black text-green-400">${user.activeItems || 0}</p>
+                        </div>
+                        <div class="glass p-3 rounded-lg">
+                            <p class="text-xs text-gray-500">Gasto</p>
+                            <p class="font-black gradient-text">R$ ${((user.totalSpentOnPurchases || 0) / 100).toFixed(2)}</p>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            mongoPageInfo.textContent = `Pagina ${state.mongoPage} de ${state.mongoTotalPages}`;
+            mongoPrevPageBtn.disabled = state.mongoPage <= 1;
+            mongoNextPageBtn.disabled = state.mongoPage >= state.mongoTotalPages;
+        }
+
+        async function loadMongoContent() {
+            if (!state.token) return;
+
+            const params = new URLSearchParams({
+                page: state.mongoPage,
+                limit: 20,
+                q: mongoSearchInput.value.trim(),
+                sortBy: 'registeredAt',
+                sortOrder: 'desc',
+                includePurchases: 'true',
+                purchasesLimit: 10
+            });
+
+            try {
+                mongoListContainer.innerHTML = '<div class="space-y-3">' + Array(4).fill().map(() => '<div class="loading-skeleton h-28 rounded-xl"></div>').join('') + '</div>';
+
+                const res = await fetch(`/api/admin/users?${params.toString()}`, {
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+
+                if (!res.ok) throw new Error('Erro ao carregar conteúdos do Mongo');
+
+                const data = await res.json();
+                state.mongoUsers = data.data || [];
+                state.mongoTotalUsers = data.totalUsers || 0;
+                state.mongoTotalPages = data.totalPages || 1;
+
+                renderMongoUsers();
+            } catch (err) {
+                mongoListContainer.innerHTML = `<div class="glass p-6 rounded-xl text-center text-red-400"><i class="fa-solid fa-circle-exclamation mr-2"></i>${err.message}</div>`;
+            }
         }
 
         previewBroadcastBtn.addEventListener('click', () => {

@@ -75,6 +75,54 @@ function getContentSearchLabel(item) {
   return String(item?.name || item?.title || item?.originalTitle || item?.label || '').trim();
 }
 
+function buildPurchaseQuery({ userId, includeBatch = true, activeOnly = false, expiredOnly = false } = {}) {
+  const query = {
+    mediaType: { $in: ['movie', 'series', 'livetv'] }
+  };
+
+  if (Number.isFinite(Number(userId))) {
+    query.userId = Number(userId);
+  }
+
+  if (!includeBatch) {
+    query.source = { $ne: 'batch' };
+    query.token = { $not: /^batch-/ };
+  }
+
+  if (activeOnly) {
+    query.expiresAt = { $gt: new Date() };
+  } else if (expiredOnly) {
+    query.expiresAt = { $lte: new Date() };
+  }
+
+  return query;
+}
+
+function formatAdminPurchaseItem(item) {
+  const source = String(item.source || (String(item.token || '').startsWith('batch-') ? 'batch' : 'purchase'));
+  return {
+    id: String(item._id),
+    userId: item.userId,
+    videoId: String(item.videoId || ''),
+    title: String(item.title || ''),
+    episodeName: item.episodeName || null,
+    mediaType: item.mediaType,
+    season: item.season || null,
+    token: item.token,
+    price: Number(item.price || 0),
+    purchaseDate: item.purchaseDate || null,
+    expiresAt: item.expiresAt || null,
+    expired: item.expiresAt ? new Date(item.expiresAt).getTime() <= Date.now() : false,
+    cacheStatus: item.cacheStatus || null,
+    cacheProgress: Number.isFinite(Number(item.cacheProgress)) ? Number(item.cacheProgress) : 0,
+    storagePath: item.storagePath || null,
+    source,
+    sourceLabel: source === 'batch' ? 'Pré-carregado no painel' : 'Compra real',
+    sourceBatchId: item.sourceBatchId || null,
+    sourceBatchItemId: item.sourceBatchItemId || null
+  };
+}
+
 async function searchFromPurchasedContent(PurchasedContent, { term = '', limit = 20 } = {}) {
   if (!PurchasedContent) return [];
 
@@ -82,9 +130,8 @@ async function searchFromPurchasedContent(PurchasedContent, { term = '', limit =
   const escapedTerm = String(term || '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const regex = escapedTerm ? new RegExp(escapedTerm, 'i') : null;
 
-  const match = {
-    mediaType: { $in: ['movie', 'series'] }
-  };
+  const match = buildPurchaseQuery({ includeBatch: false });
+  match.mediaType = { $in: ['movie', 'series'] };
 
   if (regex) {
     match.$or = [
@@ -349,7 +396,7 @@ router.get('/api/admin/users', adminAuth, asyncHandler(async (req, res) => {
 
   const purchaseStats = userIds.length > 0
     ? await PurchasedContent.aggregate([
-      { $match: { userId: { $in: userIds } } },
+      { $match: buildPurchaseQuery({ includeBatch: false }) },
       {
         $group: {
           _id: '$userId',
@@ -375,7 +422,10 @@ router.get('/api/admin/users', adminAuth, asyncHandler(async (req, res) => {
 
   let recentPurchasesMap = new Map();
   if (includePurchases === 'true' && userIds.length > 0) {
-    const recentRows = await PurchasedContent.find({ userId: { $in: userIds } })
+    const recentRows = await PurchasedContent.find({
+      userId: { $in: userIds },
+      ...buildPurchaseQuery({ includeBatch: false })
+    })
       .sort({ purchaseDate: -1 })
       .select('userId videoId mediaType title episodeName season price purchaseDate expiresAt viewed viewCount')
       .lean();
@@ -465,8 +515,8 @@ router.get('/api/admin/stats', adminAuth, asyncHandler(async (req, res) => {
         (await User.aggregate([{ $group: { _id: null, total: { $sum: '$totalSpent' } } }]))[0]?.total || 0
     },
     content: {
-      active: await PurchasedContent.countDocuments({ expiresAt: { $gt: new Date() } }),
-      expired: await PurchasedContent.countDocuments({ expiresAt: { $lte: new Date() } })
+      active: await PurchasedContent.countDocuments(buildPurchaseQuery({ includeBatch: false, activeOnly: true })),
+      expired: await PurchasedContent.countDocuments(buildPurchaseQuery({ includeBatch: false, expiredOnly: true }))
     },
     catalog: {
       movies: CACHE_CONTEUDO.movies.length,
@@ -475,6 +525,82 @@ router.get('/api/admin/stats', adminAuth, asyncHandler(async (req, res) => {
   };
 
   return res.json(stats);
+}));
+
+router.get('/api/admin/users/:userId/content', adminAuth, asyncHandler(async (req, res) => {
+  const { User, PurchasedContent } = req.app.locals.models;
+  const userId = Number(req.params.userId);
+
+  if (!Number.isFinite(userId)) {
+    return res.status(400).json({ error: 'Usuário inválido' });
+  }
+
+  const user = await User.findOne({ userId }).lean();
+  if (!user) {
+    return res.status(404).json({ error: 'Usuário não encontrado' });
+  }
+
+  const items = await PurchasedContent.find({ userId })
+    .sort({ purchaseDate: -1, expiresAt: -1 })
+    .lean();
+
+  const formatted = items.map(formatAdminPurchaseItem);
+  const grouped = formatted.reduce((acc, item) => {
+    const sourceKey = item.source === 'batch' ? 'batch' : 'purchase';
+    if (!acc[sourceKey]) acc[sourceKey] = [];
+    if (!acc[item.mediaType]) acc[item.mediaType] = [];
+    acc[sourceKey].push(item);
+    acc[item.mediaType].push(item);
+    return acc;
+  }, { purchase: [], batch: [], movie: [], series: [], livetv: [] });
+
+  return res.json({
+    success: true,
+    user: {
+      userId: user.userId,
+      firstName: user.firstName,
+      lastName: user.lastName || null,
+      username: user.username || null
+    },
+    summary: {
+      total: formatted.length,
+      purchases: grouped.purchase.length,
+      batch: grouped.batch.length,
+      movies: grouped.movie.length,
+      series: grouped.series.length,
+      livetv: grouped.livetv.length,
+      active: formatted.filter((item) => !item.expired).length,
+      expired: formatted.filter((item) => item.expired).length
+    },
+    data: {
+      all: formatted,
+      grouped
+    }
+  });
+}));
+
+router.delete('/api/admin/purchases/:id', adminAuth, asyncHandler(async (req, res) => {
+  const { PurchasedContent, BatchDownload } = req.app.locals.models;
+  const purchase = await PurchasedContent.findById(req.params.id);
+
+  if (!purchase) {
+    return res.status(404).json({ error: 'Conteúdo não encontrado' });
+  }
+
+  const deleted = await PurchasedContent.deleteOne({ _id: purchase._id });
+
+  if (purchase.source === 'batch' && purchase.sourceBatchId) {
+    await BatchDownload.updateOne(
+      { _id: purchase.sourceBatchId },
+      { $pull: { items: { _id: purchase.sourceBatchItemId || purchase._id } } }
+    );
+  }
+
+  return res.json({
+    success: true,
+    deletedCount: deleted.deletedCount || 0,
+    source: purchase.source || 'purchase'
+  });
 }));
 
 router.post('/api/admin/refresh-cache', adminAuth, asyncHandler(async (req, res) => {

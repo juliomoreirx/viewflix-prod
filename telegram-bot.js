@@ -340,6 +340,14 @@ function normalizeTitle(value) {
   return removerAcentos(String(value || '')).toLowerCase().trim();
 }
 
+function getPurchaseVisibilityFilter(extra = {}) {
+  return {
+    ...extra,
+    source: { $ne: 'batch' },
+    token: { $not: /^batch-/ }
+  };
+}
+
 async function getOwnedMoviesSet(userId, ids) {
   if (!PurchasedContentModel || typeof PurchasedContentModel.find !== 'function') return new Set();
   const uniqueIds = Array.from(new Set((ids || []).map((id) => String(id))));
@@ -349,7 +357,7 @@ async function getOwnedMoviesSet(userId, ids) {
     userId,
     mediaType: 'movie',
     videoId: { $in: uniqueIds },
-    expiresAt: { $gt: new Date() }
+    ...getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
   }).select('videoId');
 
   return new Set(rows.map((r) => String(r.videoId)));
@@ -363,7 +371,7 @@ async function getOwnedSeriesTitleSet(userId, titles) {
   const rows = await PurchasedContentModel.find({
     userId,
     mediaType: 'series',
-    expiresAt: { $gt: new Date() }
+    ...getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
   }).select('title');
 
   const owned = new Set();
@@ -386,7 +394,7 @@ async function getOwnedEpisodesSet(userId, title, season, episodeIds) {
     title: String(title || ''),
     season: String(season || ''),
     videoId: { $in: ids },
-    expiresAt: { $gt: new Date() }
+    ...getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
   }).select('videoId');
 
   return new Set(rows.map((r) => String(r.videoId)));
@@ -502,6 +510,7 @@ async function salvarConteudoComprado(userId, videoId, mediaType, title, price, 
       episodeIndex: Number.isFinite(extra?.episodeIndex) ? extra.episodeIndex : undefined,
       totalEpisodes: Number.isFinite(extra?.totalEpisodes) ? extra.totalEpisodes : undefined,
       purchaseDate, expiresAt, token, price, sessionToken,
+      source: 'purchase',
       cacheStatus: (mediaType === 'movie' || mediaType === 'series') ? 'pending' : undefined,
       cacheProgress: (mediaType === 'movie' || mediaType === 'series') ? 0 : undefined
     });
@@ -827,7 +836,7 @@ async function mostrarMeuConteudo(chatId) {
     await bot.sendMessage(chatId, '📦 Carregando seu conteúdo...');
     const conteudos = await PurchasedContentModel.find({
       userId: chatId,
-      expiresAt: { $gt: new Date() }
+      ...getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
     }).sort({ purchaseDate: -1 });
 
     if (conteudos.length === 0) {
@@ -1250,19 +1259,19 @@ async function verificarConteudosExpirando() {
 
     const filmesExpirando = await PurchasedContentModel.find({
       mediaType: 'movie',
-      expiresAt: { $gt: agora, $lte: daquiA2Horas },
+      ...getPurchaseVisibilityFilter({ expiresAt: { $gt: agora, $lte: daquiA2Horas } }),
       notificationSent: false
     });
 
     const seriesExpirando = await PurchasedContentModel.find({
       mediaType: 'series',
-      expiresAt: { $gt: agora, $lte: daquiA24Horas },
+      ...getPurchaseVisibilityFilter({ expiresAt: { $gt: agora, $lte: daquiA24Horas } }),
       notificationSent: false
     });
 
     const canaisExpirando = await PurchasedContentModel.find({
       mediaType: 'livetv',
-      expiresAt: { $gt: agora, $lte: daquiA2Horas },
+      ...getPurchaseVisibilityFilter({ expiresAt: { $gt: agora, $lte: daquiA2Horas } }),
       notificationSent: false
     });
 
@@ -2090,7 +2099,7 @@ bot.on('callback_query', async (query) => {
         userId: chatId,
         mediaType: 'series',
         videoId: String(epId),
-        expiresAt: { $gt: new Date() }
+        ...getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
       });
 
       let mensagem =

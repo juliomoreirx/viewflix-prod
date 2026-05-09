@@ -21,6 +21,8 @@ const purchasedContentSchema = new mongoose.Schema({
   resumeUpdatedAt: { type: Date },
   notificationSent: { type: Boolean, default: false },
   sessionToken: { type: String, unique: true },
+  source: { type: String, enum: ['purchase', 'batch'], default: 'purchase', index: true },
+  sourceBatchId: { type: String, index: true },
   storagePath: { type: String },
   cacheStatus: { type: String, enum: ['pending', 'uploading', 'ready', 'failed'], default: 'pending' },
   cacheProgress: { type: Number, default: 0 },

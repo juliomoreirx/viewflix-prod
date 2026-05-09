@@ -374,6 +374,9 @@ async function processBatchAsync(batch, bunnyCacheService) {
           episodeName: item.episodeName,
           token: `batch-${batch._id}-${item._id}`,
           sessionToken: `batch-session-${Date.now()}-${Math.random()}`,
+          source: 'batch',
+          sourceBatchId: String(batch._id),
+          sourceBatchItemId: String(item._id),
           cacheStatus: 'pending',
           cacheProgress: 0,
           expiresAt: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000), // 1 ano
