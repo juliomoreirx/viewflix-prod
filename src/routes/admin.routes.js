@@ -989,7 +989,6 @@ router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, as
       { channelId },
       {
         $set: {
-          channelTitle: fallbackTitle || undefined,
           enabled: true,
           status: 'warming',
           lastWarmupAt: new Date(),
