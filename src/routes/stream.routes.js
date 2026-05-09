@@ -42,6 +42,8 @@ if (RES_PROXY_HOST && RES_PROXY_PORT) {
 const LIVE_SEGMENT_CACHE_TTL_MS = 600 * 1000; // 10 minutos (em vez de 45 segundos)
 const LIVE_SEGMENT_CACHE_MAX_ENTRIES = 600; // 600 segmentos (em vez de 180) = 6.000 segundos com 10s por segmento
 const LIVE_SEGMENT_FETCH_TIMEOUT_MS = 15000;
+const LIVE_SEGMENT_RETRY_DELAY_MS = 250;
+const LIVE_SEGMENT_RETRY_ATTEMPTS = 2;
 
 const VOD_RESOLVE_TTL_MS = 2 * 60 * 1000;
 const VOD_RESOLVE_STALE_TTL_MS = 10 * 60 * 1000;
@@ -88,22 +90,49 @@ function getLiveSegmentCache(cacheKey) {
 }
 
 async function fetchLiveSegment(absoluteUrl) {
-  const response = await axios.get(absoluteUrl, {
-    httpAgent: residentialProxyAgent,
-    httpsAgent: residentialProxyAgent,
-    headers: getRelayRequestHeaders(),
-    timeout: LIVE_SEGMENT_FETCH_TIMEOUT_MS,
-    responseType: 'arraybuffer',
-    maxRedirects: 3,
-    validateStatus: (status) => status >= 200 && status < 400
-  });
+  let lastError = null;
 
-  return {
-    buffer: Buffer.from(response.data),
-    contentType: response.headers['content-type'] || 'video/mp2t',
-    contentLength: response.headers['content-length'] ? Number(response.headers['content-length']) : undefined,
-    cacheControl: response.headers['cache-control'] || 'public, max-age=30'
-  };
+  for (let attempt = 0; attempt <= LIVE_SEGMENT_RETRY_ATTEMPTS; attempt += 1) {
+    try {
+      const response = await axios.get(absoluteUrl, {
+        httpAgent: residentialProxyAgent,
+        httpsAgent: residentialProxyAgent,
+        headers: getRelayRequestHeaders(),
+        timeout: LIVE_SEGMENT_FETCH_TIMEOUT_MS,
+        responseType: 'arraybuffer',
+        maxRedirects: 3,
+        validateStatus: (status) => status >= 200 && status < 400
+      });
+
+      return {
+        buffer: Buffer.from(response.data),
+        contentType: response.headers['content-type'] || 'video/mp2t',
+        contentLength: response.headers['content-length'] ? Number(response.headers['content-length']) : undefined,
+        cacheControl: response.headers['cache-control'] || 'public, max-age=30'
+      };
+    } catch (error) {
+      lastError = error;
+      const status = error.response?.status;
+
+      logger.warn({
+        msg: '[LiveTV Segment Fetch Failed]',
+        attempt: attempt + 1,
+        maxAttempts: LIVE_SEGMENT_RETRY_ATTEMPTS + 1,
+        status,
+        url: absoluteUrl,
+        error: error.message
+      });
+
+      if (attempt < LIVE_SEGMENT_RETRY_ATTEMPTS && (status === 404 || status >= 500 || !status)) {
+        await new Promise((resolve) => setTimeout(resolve, LIVE_SEGMENT_RETRY_DELAY_MS * (attempt + 1)));
+        continue;
+      }
+
+      throw error;
+    }
+  }
+
+  throw lastError || new Error('Falha ao buscar segmento LiveTV');
 }
 
 async function getLiveSegmentPayload(absoluteUrl) {
