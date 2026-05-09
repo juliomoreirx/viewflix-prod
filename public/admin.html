@@ -2295,26 +2295,37 @@ Abra o bot e confira o que preparamos.</textarea>
             return { series, standaloneItems };
         }
 
-        function renderMongoLeafItem(item, userId) {
-            const sourceLabel = item.source === 'batch' ? 'Pré-carregado no painel' : 'Compra real';
-            const mediaLabel = String(item.mediaType || '').toUpperCase() || 'ITEM';
+function renderMongoLeafItem(item, userId, episodeIndex = null) {
+            const sourceLabel = item.source === 'batch' ? 'Pré-carregado' : 'Compra real';
+            const isSeriesItem = item.mediaType === 'series' || item.season || item.episodeName || item.seriesId;
+
+            let displayTitle = sanitize(item.episodeName || item.title || 'Sem título');
+
+            // Formata o número do episódio lindamente se for uma série
+            if (isSeriesItem && episodeIndex !== null) {
+                // Tenta pegar o index do banco, se não existir, usa a ordem da lista
+                const epNum = item.episodeIndex !== undefined && item.episodeIndex !== null ? item.episodeIndex : (episodeIndex + 1);
+                displayTitle = `<span class="text-[#4facfe] font-mono font-bold mr-2 text-[10px] bg-[#4facfe]/10 border border-[#4facfe]/20 px-1.5 py-0.5 rounded uppercase">EP ${String(epNum).padStart(2, '0')}</span> ${displayTitle}`;
+            }
+
             return `
-                <div class="glass p-3 rounded-lg text-sm border border-white/5">
-                    <div class="flex justify-between items-start gap-3">
-                        <div class="min-w-0">
-                            <p class="font-semibold truncate">${sanitize(item.episodeName || item.title || 'Sem título')}</p>
-                            <p class="text-xs text-gray-500 mt-1">
-                                ${sanitize(mediaLabel)} • ${sanitize(sourceLabel)}${item.season ? ` • Temporada ${sanitize(item.season)}` : ''}
-                                ${item.expired ? ' • Expirado' : ''}
-                            </p>
-                            <p class="text-xs text-gray-500 mt-1">Token: ${sanitize(item.token || '')}</p>
+                <div class="group flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3 bg-black/20 hover:bg-white/5 border-b border-white/5 last:border-0 transition-colors">
+                    <div class="min-w-0 flex-1">
+                        <div class="font-medium text-sm text-gray-200 truncate flex items-center">
+                            ${displayTitle}
                         </div>
-                        <div class="flex flex-col items-end gap-2 shrink-0">
-                            <span class="badge ${item.expired ? 'badge-inactive' : 'badge-active'}">${item.expired ? 'EXPIRADO' : 'ATIVO'}</span>
-                            <button class="btn-secondary border border-red-500/40 text-red-300 hover:bg-red-500/10 text-xs px-3 py-1" onclick="deleteManagedPurchase('${item.id}', ${userId})">
-                                <i class="fa-solid fa-trash mr-1"></i>Excluir
-                            </button>
+                        <div class="text-[11px] text-gray-500 mt-1.5 flex items-center gap-2 flex-wrap">
+                            <span class="px-1.5 py-0.5 rounded bg-white/5 border border-white/10">
+                                <i class="fa-solid ${item.source === 'batch' ? 'fa-box' : 'fa-cart-shopping'} mr-1 opacity-50"></i>${sanitize(sourceLabel)}
+                            </span>
+                            ${item.token ? `<span>Token: <span class="font-mono text-gray-400 bg-black/40 px-1 rounded border border-white/5">${sanitize(item.token)}</span></span>` : ''}
+                            ${item.expired ? '<span class="text-red-400 font-medium"><i class="fa-solid fa-circle-xmark mr-1"></i>Expirado</span>' : '<span class="text-green-400 font-medium"><i class="fa-solid fa-circle-check mr-1"></i>Ativo</span>'}
                         </div>
+                    </div>
+                    <div class="flex items-center gap-2 shrink-0 opacity-100 sm:opacity-0 group-hover:opacity-100 transition-opacity">
+                        <button class="btn-secondary border border-red-500/40 text-red-300 hover:bg-red-500/10 hover:border-red-500/60 text-xs px-3 py-1.5 rounded-md flex items-center transition-colors" onclick="deleteManagedPurchase('${item.id}', ${userId})">
+                            <i class="fa-solid fa-trash mr-1.5"></i>Excluir
+                        </button>
                     </div>
                 </div>
             `;
@@ -2322,16 +2333,20 @@ Abra o bot e confira o que preparamos.</textarea>
 
         function renderMongoSeasonGroup(seasonGroup, userId) {
             return `
-                <details class="rounded-xl border border-white/5 bg-white/5 overflow-hidden group" open>
-                    <summary class="cursor-pointer list-none px-4 py-3 flex items-center justify-between gap-3 hover:bg-white/5 transition">
-                        <div class="min-w-0">
-                            <p class="font-semibold text-white truncate">Temporada ${sanitize(seasonGroup.key)}</p>
-                            <p class="text-xs text-gray-500">${seasonGroup.items.length} item(ns)</p>
+                <details class="group mb-2 last:mb-0" open>
+                    <summary class="cursor-pointer list-none flex items-center gap-3 p-2 hover:bg-white/5 rounded-lg transition-colors select-none border border-transparent group-open:border-white/5 group-open:bg-black/20">
+                        <div class="w-6 h-6 rounded-md bg-white/5 border border-white/10 flex items-center justify-center shrink-0 group-open:bg-[#4facfe]/20 group-open:border-[#4facfe]/30 group-open:text-[#4facfe] transition-colors">
+                            <i class="fa-solid fa-chevron-right text-[10px] transition-transform duration-200 group-open:rotate-90"></i>
                         </div>
-                        <i class="fa-solid fa-chevron-down text-xs text-gray-500 transition-transform group-open:rotate-180"></i>
+                        <div class="flex-1">
+                            <p class="font-bold text-sm text-gray-400 group-open:text-white transition-colors">Temporada ${sanitize(seasonGroup.key)}</p>
+                        </div>
+                        <span class="text-[10px] font-bold text-gray-500 bg-black/40 px-2 py-1 rounded border border-white/5 uppercase tracking-wider">${seasonGroup.items.length} eps</span>
                     </summary>
-                    <div class="p-3 pt-0 space-y-2">
-                        ${seasonGroup.items.map((item) => renderMongoLeafItem(item, userId)).join('')}
+                    <div class="pl-4 pr-1 py-2 mt-1 border-l-2 border-white/5 ml-3">
+                        <div class="rounded-xl border border-white/5 bg-black/40 overflow-hidden shadow-inner">
+                            ${seasonGroup.items.map((item, idx) => renderMongoLeafItem(item, userId, idx)).join('')}
+                        </div>
                     </div>
                 </details>
             `;
@@ -2339,23 +2354,69 @@ Abra o bot e confira o que preparamos.</textarea>
 
         function renderMongoSeriesGroup(seriesGroup, userId) {
             return `
-                <details class="rounded-2xl border border-[#4facfe]/20 bg-[#4facfe]/5 overflow-hidden group" open>
-                    <summary class="cursor-pointer list-none px-4 py-4 flex items-center justify-between gap-4 hover:bg-white/5 transition">
-                        <div class="min-w-0">
-                            <p class="text-xs uppercase tracking-[0.18em] text-[#4facfe] mb-1">Série</p>
-                            <h4 class="text-lg font-bold truncate">${sanitize(seriesGroup.title)}</h4>
-                            <p class="text-xs text-gray-500 mt-1">${seriesGroup.seasons.length} temporada(s) • ${seriesGroup.items.length} item(ns)</p>
+                <div class="glass rounded-2xl border border-white/10 bg-gradient-to-b from-white/[0.02] to-transparent overflow-hidden mb-6 shadow-lg">
+                    <div class="p-4 sm:p-5 border-b border-white/10 flex items-start sm:items-center gap-4 bg-black/40">
+                        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-[#00f2fe]/20 to-[#4facfe]/10 border border-[#4facfe]/30 flex items-center justify-center shrink-0 shadow-[0_0_15px_rgba(79,172,254,0.15)]">
+                            <i class="fa-solid fa-tv text-[#4facfe] text-xl"></i>
                         </div>
-                        <i class="fa-solid fa-chevron-down text-sm text-gray-500 transition-transform group-open:rotate-180"></i>
-                    </summary>
-                    <div class="px-4 pb-4 space-y-3">
+                        <div class="flex-1 min-w-0">
+                            <div class="flex items-center gap-2 mb-1">
+                                <span class="text-[9px] uppercase tracking-[0.2em] text-[#4facfe] font-black bg-[#4facfe]/10 px-2 py-0.5 rounded-full border border-[#4facfe]/20">Série</span>
+                            </div>
+                            <h4 class="text-lg sm:text-xl font-black text-white truncate leading-tight">${sanitize(seriesGroup.title)}</h4>
+                            <div class="flex items-center gap-3 mt-1.5 text-xs text-gray-400 font-medium">
+                                <span class="flex items-center gap-1.5"><i class="fa-solid fa-layer-group text-gray-500"></i> ${seriesGroup.seasons.length} Temporada(s)</span>
+                                <span class="flex items-center gap-1.5"><i class="fa-solid fa-film text-gray-500"></i> ${seriesGroup.items.length} Episódio(s)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-3 sm:p-4 bg-white/[0.01]">
                         ${seriesGroup.seasons.map((seasonGroup) => renderMongoSeasonGroup(seasonGroup, userId)).join('')}
                     </div>
-                </details>
+                </div>
             `;
         }
 
         function renderMongoGroupedItems(items, emptyText, userId) {
+            const tree = getMongoContentTree(items);
+            
+            const seriesHtml = tree.series.length
+                ? `<div class="mb-6">${tree.series.map((seriesGroup) => renderMongoSeriesGroup(seriesGroup, userId)).join('')}</div>`
+                : '';
+
+            const standaloneHtml = tree.standaloneItems.length
+                ? `
+                    <div class="mb-6">
+                        <div class="flex items-center gap-2 mb-4 pl-1 border-b border-white/5 pb-2">
+                            <i class="fa-solid fa-film text-gray-500"></i>
+                            <h4 class="text-xs uppercase tracking-widest text-gray-400 font-bold">Filmes / Avulsos</h4>
+                            <span class="text-[10px] bg-white/10 border border-white/10 text-gray-300 font-bold px-2 py-0.5 rounded-full ml-auto">${tree.standaloneItems.length} item(ns)</span>
+                        </div>
+                        <div class="rounded-2xl border border-white/10 bg-black/40 overflow-hidden shadow-inner">
+                            ${tree.standaloneItems.map((item) => renderMongoLeafItem(item, userId, null)).join('')}
+                        </div>
+                    </div>
+                  `
+                : '';
+
+            if (!seriesHtml && !standaloneHtml) {
+                return `
+                    <div class="glass p-8 rounded-2xl border border-white/5 text-gray-500 text-sm text-center flex flex-col items-center justify-center gap-4">
+                        <div class="w-16 h-16 rounded-full bg-white/5 flex items-center justify-center mb-2">
+                            <i class="fa-solid fa-folder-open text-3xl opacity-40"></i>
+                        </div>
+                        <p>${emptyText}</p>
+                    </div>
+                `;
+            }
+
+            return `
+                <div class="mt-2">
+                    ${seriesHtml}
+                    ${standaloneHtml}
+                </div>
+            `;
+        }
             const tree = getMongoContentTree(items);
             const seriesHtml = tree.series.length
                 ? `<div class="space-y-3">${tree.series.map((seriesGroup) => renderMongoSeriesGroup(seriesGroup, userId)).join('')}</div>`
