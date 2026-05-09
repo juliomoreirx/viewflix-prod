@@ -985,8 +985,7 @@ Abra o bot e confira o que preparamos.</textarea>
                 input?.focus();
             },
 
-            async addItemsToBatch(batchId, items = []) {
-                const chunkSize = 50;
+            async addItemsToBatch(batchId, items = [], chunkSize = 50) {
                 for (let offset = 0; offset < items.length; offset += chunkSize) {
                     const chunk = items.slice(offset, offset + chunkSize);
                     const res = await fetch(`/api/admin/batch/${batchId}/items`, {
@@ -1001,6 +1000,8 @@ Abra o bot e confira o que preparamos.</textarea>
                     if (!res.ok || !data.success) {
                         throw new Error(data.error || 'Falha ao adicionar conteúdo ao lote');
                     }
+                    // small delay to avoid hammering the API
+                    await new Promise((r) => setTimeout(r, 250));
                 }
             },
 
@@ -1039,6 +1040,54 @@ Abra o bot e confira o que preparamos.</textarea>
                 }
 
                 return expandedItems;
+            },
+
+            async addAllContentToBatch(batchId, type) {
+                if (!batchId || !type) return;
+                try {
+                    const res = await fetch(`/api/admin/content/search?type=${encodeURIComponent(type)}&limit=10000`, {
+                        headers: { 'Authorization': `Bearer ${state.token}` }
+                    });
+                    const data = await res.json();
+                    if (!res.ok || !data.success) throw new Error(data.error || 'Falha ao listar conteúdo');
+
+                    const items = data.data || [];
+                    if (!items.length) return alert('Nenhum conteúdo encontrado para o tipo selecionado.');
+
+                    const toAdd = [];
+                    if (type === 'movies') {
+                        for (const it of items) {
+                            toAdd.push({ videoId: String(it.id), title: it.title, mediaType: 'movie' });
+                        }
+                    } else if (type === 'series') {
+                        for (const it of items) {
+                            try {
+                                const episodes = await this.buildSeriesBatchItems(it.id, it.title);
+                                toAdd.push(...episodes);
+                            } catch (err) {
+                                console.warn('Ignorando série com erro:', it.id, err.message);
+                            }
+                        }
+                    }
+
+                    if (!toAdd.length) return alert('Nenhum item para adicionar ao lote.');
+
+                    // Add in chunks of 10 to avoid overloading
+                    await this.addItemsToBatch(batchId, toAdd, 10);
+
+                    // Refresh and start batch if appropriate
+                    await this.viewBatch(batchId);
+                    const batchRes = await fetch(`/api/admin/batch/${batchId}`, { headers: { 'Authorization': `Bearer ${state.token}` } });
+                    const batchData = await batchRes.json().catch(() => ({}));
+                    const batch = batchData.data;
+                    if (batch && (batch.status === 'draft' || batch.status === 'paused')) {
+                        await this.startBatch(batchId);
+                    }
+
+                    await this.loadBatches();
+                } catch (err) {
+                    alert('Erro: ' + err.message);
+                }
             },
 
             async searchContent() {
@@ -1232,6 +1281,8 @@ Abra o bot e confira o que preparamos.</textarea>
 
                         <div class="flex gap-3 flex-wrap">
                             ${(batch.status === 'draft' || batch.status === 'paused') ? `<button onclick="batchManager.openContentPicker('${batchId}')" class="btn-primary flex-1">Adicionar conteúdo</button>` : ''}
+                            ${(batch.status === 'draft' || batch.status === 'paused') ? `<button onclick="batchManager.addAllContentToBatch('${batchId}','movies')" class="btn-secondary flex-1">Adicionar todos os filmes</button>` : ''}
+                            ${(batch.status === 'draft' || batch.status === 'paused') ? `<button onclick="batchManager.addAllContentToBatch('${batchId}','series')" class="btn-secondary flex-1">Adicionar todas as séries</button>` : ''}
                             ${batch.status === 'draft' ? `<button onclick="batchManager.startBatch('${batchId}')" class="btn-primary flex-1">Iniciar</button>` : ''}
                             ${batch.status === 'processing' ? `<button onclick="batchManager.pauseBatch('${batchId}')" class="btn-secondary flex-1">Pausar</button>` : ''}
                             ${batch.status === 'paused' ? `<button onclick="batchManager.resumeBatch('${batchId}')" class="btn-primary flex-1">Retomar</button>` : ''}
