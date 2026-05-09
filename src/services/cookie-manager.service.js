@@ -2,6 +2,8 @@
 // Gerencia renovação automática de cookies Cloudflare e sessão
 
 const axios = require('axios');
+const { CookieJar } = require('tough-cookie');
+const { wrapper } = require('axios-cookiejar-support');
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
@@ -18,6 +20,9 @@ class CookieManagerService {
     this.maxRetries = config.maxRetries || 3;
     this.timeout = config.timeout || 30000;
     this.requireCfClearance = config.requireCfClearance !== false;
+    this.homepageUrl = `${this.targetUrl}/index.php?page=homepage`;
+    this.loginUrl = `${this.targetUrl}/index.php?page=login`;
+    this.ajaxLoginUrl = `${this.targetUrl}/ajax/login.php`;
 
     // Estado
     this.sessionCookies = process.env.SESSION_COOKIES || '';
@@ -100,17 +105,21 @@ class CookieManagerService {
 
     try {
       const headers = this.buildHeaders();
-      const response = await axios.get(`${this.targetUrl}/api/test`, {
+      const response = await axios.get(this.homepageUrl, {
         headers,
         timeout: this.timeout,
         validateStatus: (status) => status < 500
       });
 
-      // Status 200-299 = válido, 301-399 = redirect (pode ser válido), 403-429 = bloqueado (cookie inválido)
-      const isValid = response.status < 400 && response.status !== 403 && response.status !== 429;
+      const responseBody = typeof response.data === 'string' ? response.data : String(response.data || '');
+      const looksLoggedIn = /Meu Perfil|Sair|sair|perfil/i.test(responseBody);
+      const isValid = response.status >= 200 && response.status < 400 && looksLoggedIn;
       
       if (!isValid) {
-        this.logger.warn(`[CookieManager] Validação retornou status ${response.status}`);
+        this.logger.warn(`[CookieManager] Validação retornou status ${response.status}`, {
+          looksLoggedIn,
+          bodyPreview: responseBody.substring(0, 120)
+        });
       }
 
       return isValid;
@@ -128,40 +137,81 @@ class CookieManagerService {
       try {
         this.logger.info(`[CookieManager] Tentativa ${attempt}/${this.maxRetries} de renovar cookies`);
 
-        const preflightCookies = await this.fetchCookiesFromHomePage();
-        if (preflightCookies.cfClearance && !this.cfClearance) {
-          this.cfClearance = preflightCookies.cfClearance;
-          process.env.CF_CLEARANCE = preflightCookies.cfClearance;
-          this.logger.info('[CookieManager] ✅ CF_CLEARANCE obtido no preflight');
+        const jar = new CookieJar();
+        const seedCookieString = this.buildHeaders().Cookie || '';
+        const seededCookies = this.parseCookieString(seedCookieString);
+
+        for (const [name, value] of seededCookies.entries()) {
+          await jar.setCookie(`${name}=${value}; Path=/`, this.targetUrl);
+          await jar.setCookie(`${name}=${value}; Path=/`, this.targetUrl.replace(/^http:\/\//i, 'https://'));
         }
 
-        if (preflightCookies.sessionCookies) {
-          this.sessionCookies = this.ensureEssentialSessionCookies(
-            this.mergeSessionCookies(this.sessionCookies, preflightCookies.sessionCookies),
-            this.cfClearance || preflightCookies.cfClearance || this.resolveCfClearanceFallback()
-          );
-          if (this.sessionCookies) {
-            process.env.SESSION_COOKIES = this.sessionCookies;
-          }
+        if (this.cfClearance) {
+          const cfCookieValue = this.cfClearance.startsWith('cf_clearance=')
+            ? this.cfClearance
+            : `cf_clearance=${this.cfClearance}`;
+          await jar.setCookie(`${cfCookieValue}; Path=/`, this.targetUrl);
+          await jar.setCookie(`${cfCookieValue}; Path=/`, this.targetUrl.replace(/^http:\/\//i, 'https://'));
         }
 
-        const payload = new URLSearchParams({
-          username: process.env.LOGIN_USER || '',
-          password: process.env.LOGIN_PASS || '',
-          remember: '1',
-          type: '1'
-        }).toString();
+        const client = wrapper(axios.create({ jar, withCredentials: true }));
 
-        // POST para ajax/login.php com credenciais
-        const response = await axios.post(`${this.targetUrl}/ajax/login.php`, 
-          payload,
+        const loginPageResponse = await client.get(this.loginUrl, {
+          headers: this.buildBrowserHeaders(),
+          timeout: this.timeout,
+          maxRedirects: 5,
+          validateStatus: (status) => status < 500
+        });
+
+        const loginPageHtml = String(loginPageResponse.data || '');
+        const csrfMatch =
+          loginPageHtml.match(/name=["']csrf_token["']\s+value=["']([\w-]+)["']/i) ||
+          loginPageHtml.match(/csrf_token["']\s+value=["']([a-f0-9-]+)["']/i) ||
+          loginPageHtml.match(/name=["']csrf_token["'][^>]*value=["']([a-f0-9-]+)["']/i);
+        const csrfToken = csrfMatch ? csrfMatch[1] : '';
+
+        if (!csrfToken) {
+          this.logger.warn('[CookieManager] CSRF token não encontrado na página de login');
+        }
+
+        await client.post(
+          this.loginUrl,
+          new URLSearchParams({
+            username: process.env.LOGIN_USER || '',
+            sifre: process.env.LOGIN_PASS || '',
+            beni_hatirla: 'on',
+            csrf_token: csrfToken,
+            recaptcha_response: '',
+            login: 'Acessar'
+          }).toString(),
           {
             headers: {
+              ...this.buildBrowserHeaders(),
               'Content-Type': 'application/x-www-form-urlencoded',
-              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+              Origin: this.targetUrl,
+              Referer: this.loginUrl
+            },
+            timeout: this.timeout,
+            maxRedirects: 5,
+            validateStatus: (status) => status < 500
+          }
+        );
+
+        const response = await client.post(
+          this.ajaxLoginUrl,
+          new URLSearchParams({
+            username: process.env.LOGIN_USER || '',
+            password: process.env.LOGIN_PASS || '',
+            csrf_token: csrfToken,
+            type: '1'
+          }).toString(),
+          {
+            headers: {
+              ...this.buildBrowserHeaders(),
+              'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
               'X-Requested-With': 'XMLHttpRequest',
-              'Referer': `${this.targetUrl}/`,
-              ...(this.buildHeaders().Cookie ? { Cookie: this.buildHeaders().Cookie } : {})
+              Origin: this.targetUrl,
+              Referer: this.loginUrl
             },
             timeout: this.timeout,
             validateStatus: () => true,
@@ -169,7 +219,8 @@ class CookieManagerService {
           }
         );
 
-        this.logger.debug(`[CookieManager] Login response status: ${response.status}, data: ${JSON.stringify(response.data).substring(0, 200)}`);
+        const responsePreview = typeof response.data === 'string' ? response.data : JSON.stringify(response.data || '');
+        this.logger.debug(`[CookieManager] Login response status: ${response.status}, data: ${responsePreview.substring(0, 200)}`);
 
         // Extrair cookies da resposta
         let setCookieHeaders = response.headers['set-cookie'] || [];
@@ -181,17 +232,20 @@ class CookieManagerService {
           const newCookies = this.parseCookiesFromHeaders(setCookieHeaders);
           const mergedSessionCookies = this.ensureEssentialSessionCookies(
             this.mergeSessionCookies(this.sessionCookies, newCookies.sessionCookies),
-            this.cfClearance || newCookies.cfClearance || preflightCookies.cfClearance || this.resolveCfClearanceFallback()
+            this.cfClearance || newCookies.cfClearance || this.resolveCfClearanceFallback()
           );
           
           if (newCookies.cfClearance) {
             this.cfClearance = newCookies.cfClearance;
             process.env.CF_CLEARANCE = newCookies.cfClearance;
             this.logger.info('[CookieManager] ✅ CF_CLEARANCE renovado');
-          } else if (preflightCookies.cfClearance && !this.cfClearance) {
-            this.cfClearance = preflightCookies.cfClearance;
-            process.env.CF_CLEARANCE = preflightCookies.cfClearance;
-            this.logger.info('[CookieManager] ✅ CF_CLEARANCE mantido do preflight');
+          } else if (!this.cfClearance) {
+            const fallbackCf = this.resolveCfClearanceFallback();
+            if (fallbackCf) {
+              this.cfClearance = fallbackCf;
+              process.env.CF_CLEARANCE = fallbackCf;
+              this.logger.info('[CookieManager] ✅ CF_CLEARANCE mantido por fallback');
+            }
           }
 
           if (mergedSessionCookies) {
@@ -536,6 +590,15 @@ class CookieManagerService {
     }
 
     return headers;
+  }
+
+  buildBrowserHeaders() {
+    return {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+      'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+      Connection: 'keep-alive'
+    };
   }
 
   /**
