@@ -949,7 +949,6 @@ router.put('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandl
 
     const payload = {
       ...updates,
-      channelId,
       status: nextEnabled
         ? (existing?.status === 'disabled' || !existing?.status ? 'idle' : existing.status)
         : 'disabled',
@@ -990,7 +989,6 @@ router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, as
       { channelId },
       {
         $set: {
-          channelId,
           channelTitle: fallbackTitle || undefined,
           enabled: true,
           status: 'warming',
