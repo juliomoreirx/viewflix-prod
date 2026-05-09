@@ -34,12 +34,16 @@ const broadcastSchema = z.object({
 const contentSearchSchema = z.object({
   q: z.string().trim().optional(),
   type: z.enum(['all', 'movies', 'series', 'livetv']).optional().default('all'),
-  limit: z.coerce.number().int().min(1).max(50).optional().default(20)
+  limit: z.coerce.number().int().min(1).max(10000).optional().default(20)
 });
 
 const contentDetailsSchema = z.object({
   id: z.string().trim().min(1),
   type: z.enum(['movies', 'series'])
+});
+
+const contentLibrarySchema = z.object({
+  type: z.enum(['all', 'movies', 'series', 'livetv']).optional().default('all')
 });
 
 const createLinkSchema = z.object({
@@ -729,6 +733,36 @@ router.get('/api/admin/content/search', adminAuth, asyncHandler(async (req, res)
     total: matches.length,
     refreshed: false,
     data: matches
+  });
+}));
+
+router.get('/api/admin/content/library', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = contentLibrarySchema.safeParse(req.query);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+  }
+
+  const { type = 'all' } = parsed.data;
+
+  if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
+    await atualizarCache(false);
+  }
+
+  if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
+    await atualizarCache(true);
+  }
+
+  const pools = [];
+  if (type === 'all' || type === 'movies') pools.push({ sourceType: 'movies', items: CACHE_CONTEUDO.movies || [] });
+  if (type === 'all' || type === 'series') pools.push({ sourceType: 'series', items: CACHE_CONTEUDO.series || [] });
+  if (type === 'all' || type === 'livetv') pools.push({ sourceType: 'livetv', items: CACHE_CONTEUDO.livetv || [] });
+
+  const data = pools.flatMap(({ sourceType, items }) => items.map((item) => formatSearchItem(item, sourceType)));
+
+  return res.json({
+    success: true,
+    total: data.length,
+    data
   });
 }));
 

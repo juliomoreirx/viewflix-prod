@@ -891,6 +891,40 @@ Abra o bot e confira o que preparamos.</textarea>
         </div>
     </div>
 
+    <div id="bulkConfirmModal" class="modal">
+        <div class="modal-content max-w-xl w-full max-h-screen overflow-y-auto">
+            <div class="flex justify-between items-start mb-6">
+                <div>
+                    <h2 class="text-2xl font-black">Confirmar ação em massa</h2>
+                    <p id="bulkConfirmSubtitle" class="text-sm text-gray-500">Revisando itens antes de iniciar</p>
+                </div>
+                <button id="bulkConfirmCloseBtn" class="text-gray-400 hover:text-white text-2xl cursor-pointer">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+            </div>
+
+            <div class="glass rounded-2xl p-4 border border-white/5 space-y-4">
+                <div class="grid grid-cols-2 gap-3 text-sm">
+                    <div class="glass p-3 rounded-xl border border-white/5">
+                        <p class="text-xs text-gray-500 mb-1">Quantidade estimada</p>
+                        <p id="bulkConfirmTotal" class="text-2xl font-black gradient-text">0</p>
+                    </div>
+                    <div class="glass p-3 rounded-xl border border-white/5">
+                        <p class="text-xs text-gray-500 mb-1">Lotes de 10</p>
+                        <p id="bulkConfirmChunks" class="text-2xl font-black text-blue-400">0</p>
+                    </div>
+                </div>
+
+                <div id="bulkConfirmDetail" class="text-sm text-gray-300 leading-relaxed"></div>
+
+                <div class="flex gap-3 flex-wrap pt-2">
+                    <button id="bulkConfirmCancelBtn" class="btn-secondary flex-1">Cancelar</button>
+                    <button id="bulkConfirmOkBtn" class="btn-primary flex-1">Confirmar e continuar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script>
         // State
         const state = {
@@ -903,6 +937,7 @@ Abra o bot e confira o que preparamos.</textarea>
             mongoUsers: [],
             mongoTotalUsers: 0,
             mongoTotalPages: 0,
+            bulkConfirmAction: null,
             filters: {
                 q: '',
                 isActive: '',
@@ -951,6 +986,14 @@ Abra o bot e confira o que preparamos.</textarea>
         const mongoPrevPageBtn = document.getElementById('mongoPrevPageBtn');
         const mongoNextPageBtn = document.getElementById('mongoNextPageBtn');
         const mongoPageInfo = document.getElementById('mongoPageInfo');
+        const bulkConfirmModal = document.getElementById('bulkConfirmModal');
+        const bulkConfirmSubtitle = document.getElementById('bulkConfirmSubtitle');
+        const bulkConfirmTotal = document.getElementById('bulkConfirmTotal');
+        const bulkConfirmChunks = document.getElementById('bulkConfirmChunks');
+        const bulkConfirmDetail = document.getElementById('bulkConfirmDetail');
+        const bulkConfirmOkBtn = document.getElementById('bulkConfirmOkBtn');
+        const bulkConfirmCancelBtn = document.getElementById('bulkConfirmCancelBtn');
+        const bulkConfirmCloseBtn = document.getElementById('bulkConfirmCloseBtn');
 
         const builderState = {
             items: [],
@@ -1045,7 +1088,7 @@ Abra o bot e confira o que preparamos.</textarea>
             async addAllContentToBatch(batchId, type) {
                 if (!batchId || !type) return;
                 try {
-                    const res = await fetch(`/api/admin/content/search?type=${encodeURIComponent(type)}&limit=10000`, {
+                    const res = await fetch(`/api/admin/content/library?type=${encodeURIComponent(type)}`, {
                         headers: { 'Authorization': `Bearer ${state.token}` }
                     });
                     const data = await res.json();
@@ -1072,21 +1115,60 @@ Abra o bot e confira o que preparamos.</textarea>
 
                     if (!toAdd.length) return alert('Nenhum item para adicionar ao lote.');
 
-                    // Add in chunks of 10 to avoid overloading
-                    await this.addItemsToBatch(batchId, toAdd, 10);
+                    this.openBulkConfirmModal({
+                        batchId,
+                        type,
+                        totalItems: toAdd.length,
+                        totalChunks: Math.max(1, Math.ceil(toAdd.length / 10)),
+                        previewLabel: type === 'movies' ? 'filmes' : 'episódios de séries',
+                        onConfirm: async () => {
+                            await this.addItemsToBatch(batchId, toAdd, 10);
 
-                    // Refresh and start batch if appropriate
-                    await this.viewBatch(batchId);
-                    const batchRes = await fetch(`/api/admin/batch/${batchId}`, { headers: { 'Authorization': `Bearer ${state.token}` } });
-                    const batchData = await batchRes.json().catch(() => ({}));
-                    const batch = batchData.data;
-                    if (batch && (batch.status === 'draft' || batch.status === 'paused')) {
-                        await this.startBatch(batchId);
-                    }
+                            await this.viewBatch(batchId);
+                            const batchRes = await fetch(`/api/admin/batch/${batchId}`, { headers: { 'Authorization': `Bearer ${state.token}` } });
+                            const batchData = await batchRes.json().catch(() => ({}));
+                            const batch = batchData.data;
+                            if (batch && (batch.status === 'draft' || batch.status === 'paused')) {
+                                await this.startBatch(batchId);
+                            }
 
-                    await this.loadBatches();
+                            await this.loadBatches();
+                        }
+                    });
                 } catch (err) {
                     alert('Erro: ' + err.message);
+                }
+            },
+
+            openBulkConfirmModal({ batchId, type, totalItems, totalChunks, previewLabel, onConfirm }) {
+                state.bulkConfirmAction = typeof onConfirm === 'function' ? onConfirm : null;
+                bulkConfirmSubtitle.textContent = `Você está prestes a adicionar ${totalItems} ${previewLabel} ao lote #${batchId}.`;
+                bulkConfirmTotal.textContent = String(totalItems || 0);
+                bulkConfirmChunks.textContent = String(totalChunks || 0);
+                bulkConfirmDetail.innerHTML = `
+                    <p>Os itens serão enviados em blocos de 10 para reduzir travamentos.</p>
+                    <p class="mt-2 text-gray-400">Tipo selecionado: <span class="text-white font-semibold">${sanitize(type)}</span></p>
+                `;
+                bulkConfirmModal.classList.add('open');
+            },
+
+            closeBulkConfirmModal() {
+                state.bulkConfirmAction = null;
+                bulkConfirmModal.classList.remove('open');
+            },
+
+            async confirmBulkAction() {
+                if (!state.bulkConfirmAction) return;
+                const action = state.bulkConfirmAction;
+                state.bulkConfirmAction = null;
+                bulkConfirmModal.classList.remove('open');
+                bulkConfirmOkBtn.disabled = true;
+                bulkConfirmOkBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Processando...';
+                try {
+                    await action();
+                } finally {
+                    bulkConfirmOkBtn.disabled = false;
+                    bulkConfirmOkBtn.innerHTML = 'Confirmar e continuar';
                 }
             },
 
@@ -2916,6 +2998,12 @@ function renderMongoUsers() {
         });
         document.getElementById('batchDetailModal').addEventListener('click', (e) => {
             if (e.target.id === 'batchDetailModal') e.target.classList.remove('open');
+        });
+        bulkConfirmCloseBtn.addEventListener('click', () => batchManager.closeBulkConfirmModal());
+        bulkConfirmCancelBtn.addEventListener('click', () => batchManager.closeBulkConfirmModal());
+        bulkConfirmOkBtn.addEventListener('click', () => batchManager.confirmBulkAction());
+        bulkConfirmModal.addEventListener('click', (e) => {
+            if (e.target.id === 'bulkConfirmModal') batchManager.closeBulkConfirmModal();
         });
 
         function sanitize(str) {
