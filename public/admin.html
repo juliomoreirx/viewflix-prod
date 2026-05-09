@@ -2331,7 +2331,7 @@ function renderMongoLeafItem(item, userId, episodeIndex = null) {
             `;
         }
 
-        function renderMongoSeasonGroup(seasonGroup, userId) {
+function renderMongoSeasonGroup(seasonGroup, userId) {
             return `
                 <details class="group mb-2 last:mb-0" open>
                     <summary class="cursor-pointer list-none flex items-center gap-3 p-2 hover:bg-white/5 rounded-lg transition-colors select-none border border-transparent group-open:border-white/5 group-open:bg-black/20">
@@ -2377,7 +2377,7 @@ function renderMongoLeafItem(item, userId, episodeIndex = null) {
             `;
         }
 
-        function renderMongoGroupedItems(items, emptyText, userId) {
+function renderMongoGroupedItems(items, emptyText, userId) {
             const tree = getMongoContentTree(items);
             
             const seriesHtml = tree.series.length
@@ -2412,26 +2412,6 @@ function renderMongoLeafItem(item, userId, episodeIndex = null) {
 
             return `
                 <div class="mt-2">
-                    ${seriesHtml}
-                    ${standaloneHtml}
-                </div>
-            `;
-        }
-            const tree = getMongoContentTree(items);
-            const seriesHtml = tree.series.length
-                ? `<div class="space-y-3">${tree.series.map((seriesGroup) => renderMongoSeriesGroup(seriesGroup, userId)).join('')}</div>`
-                : '';
-
-            const standaloneHtml = tree.standaloneItems.length
-                ? `<div class="space-y-2">${tree.standaloneItems.map((item) => renderMongoLeafItem(item, userId)).join('')}</div>`
-                : '';
-
-            if (!seriesHtml && !standaloneHtml) {
-                return `<div class="glass p-4 rounded-xl border border-white/5 text-gray-500 text-sm">${emptyText}</div>`;
-            }
-
-            return `
-                <div class="space-y-4">
                     ${seriesHtml}
                     ${standaloneHtml}
                 </div>
