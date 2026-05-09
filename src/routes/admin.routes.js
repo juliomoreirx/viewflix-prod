@@ -985,35 +985,28 @@ router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, as
     const catalogItem = (CACHE_CONTEUDO.livetv || []).find((item) => String(item?.id || '') === channelId);
     const fallbackTitle = getLiveTvChannelLabel(catalogItem || { id: channelId });
 
-    await LiveTvBufferProfile.updateOne(
+    const profile = await LiveTvBufferProfile.findOneAndUpdate(
       { channelId },
       {
-        $set: {
-          enabled: true,
-          status: 'warming',
-          lastWarmupAt: new Date(),
-          lastError: null,
-          statusNote: 'Warmup solicitado manualmente pelo admin'
-        },
-        $setOnInsert: {
-          channelId,
-          channelTitle: fallbackTitle,
-          enabled: true,
-          segmentDurationSec: 6,
-          segmentCount: 30,
-          warmupMode: 'on-demand',
-          status: 'idle'
-        }
+        enabled: true,
+        status: 'warming',
+        lastWarmupAt: new Date(),
+        lastError: null,
+        statusNote: 'Warmup solicitado manualmente pelo admin'
       },
-      { upsert: true }
+      { upsert: true, new: true, lean: true, setDefaultsOnInsert: true }
     );
 
-    const profile = await LiveTvBufferProfile.findOne({ channelId }).lean();
+    if (!profile.channelTitle) {
+      await LiveTvBufferProfile.updateOne({ channelId }, { $set: { channelTitle: fallbackTitle } });
+    }
+
+    const finalProfile = await LiveTvBufferProfile.findOne({ channelId }).lean();
 
     return res.json({
       success: true,
       message: 'Warmup solicitado. Integração do worker será conectada no próximo passo.',
-      data: formatLiveTvBufferProfile(profile, { channelId, enabled: true, status: 'warming', channelTitle: fallbackTitle })
+      data: formatLiveTvBufferProfile(finalProfile, { channelId, enabled: true, status: 'warming', channelTitle: fallbackTitle })
     });
   } catch (error) {
     logger.error({ msg: 'erro ao solicitar warmup live tv buffer', error: error.stack || error.message });
