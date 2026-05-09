@@ -12,6 +12,7 @@ const paymentAdapter = require('../adapters/payment.adapter');
 const CookieManagerService = require('../services/cookie-manager.service');
 const bunnyStorageService = require('../services/bunny-storage.service');
 const bunnyCacheService = require('../services/bunny-cache.service');
+const liveTvBufferProvisioner = require('../services/livetv-buffer-provisioner.service');
 
 async function startServer() {
   try {
@@ -90,12 +91,35 @@ async function startServer() {
       env.DOMINIO_PUBLICO
     );
 
+    // ============================
+    // LiveTV Buffer Provisioning
+    // ============================
+    // Auto-provisionar perfis de buffer para todos os canais LiveTV
+    (async () => {
+      try {
+        const catalogLiveTV = contentService.CACHE_CONTEUDO?.livetv || [];
+        if (catalogLiveTV.length > 0) {
+          logger.info({ msg: `Iniciando provisioning de ${catalogLiveTV.length} canais LiveTV` });
+          await liveTvBufferProvisioner.provisionAllChannels(catalogLiveTV, models.LiveTvBufferProfile);
+          
+          // Iniciar warmup automático após provisioning
+          await liveTvBufferProvisioner.startAutoWarmup(models.LiveTvBufferProfile);
+        }
+      } catch (err) {
+        logger.warn({
+          msg: 'Erro ao provisionar LiveTV buffer no boot',
+          error: err.message
+        });
+      }
+    })();
+
     app.locals.services = {
       content: contentService,
       payment: paymentService,
       cookieManager: cookieManager,
       bunnyStorage: bunnyStorageService,
-      bunnyCacheService
+      bunnyCacheService,
+      liveTvBufferProvisioner
     };
 
     const port = env.PORT || 3000;
