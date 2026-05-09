@@ -1,5 +1,5 @@
-// src/services/cookie-manager.service.js
-// Gerencia renovação automática de cookies Cloudflare e sessão
+﻿// src/services/cookie-manager.service.js
+// Gerencia renovaÃ§Ã£o automÃ¡tica de cookies Cloudflare e sessÃ£o
 
 const axios = require('axios');
 const { CookieJar } = require('tough-cookie');
@@ -13,7 +13,7 @@ class CookieManagerService {
     this.logger = config.logger || console;
     this.envFilePath = config.envFilePath || path.join(__dirname, '../../.env');
     
-    // Configurações
+    // ConfiguraÃ§Ãµes
     this.targetUrl = config.targetUrl || 'http://vouver.me'; // URL que requer cookies
     this.checkInterval = config.checkInterval || 300000; // 5 minutos
     this.refreshThreshold = config.refreshThreshold || 86400000; // 24 horas antes de expirar
@@ -33,15 +33,15 @@ class CookieManagerService {
   }
 
   /**
-   * Inicia o monitoramento automático de cookies
+   * Inicia o monitoramento automÃ¡tico de cookies
    */
   startMonitoring() {
-    this.logger.info('[CookieManager] Iniciando monitoramento automático de cookies');
+    this.logger.info('[CookieManager] Iniciando monitoramento automÃ¡tico de cookies');
     
     // Fazer check imediato
     this.checkAndRefreshCookies();
     
-    // Agendar check periódico
+    // Agendar check periÃ³dico
     this.checkIntervalId = setInterval(
       () => this.checkAndRefreshCookies(),
       this.checkInterval
@@ -60,7 +60,7 @@ class CookieManagerService {
   }
 
   /**
-   * Verifica e renova cookies se necessário
+   * Verifica e renova cookies se necessÃ¡rio
    */
   async checkAndRefreshCookies() {
     try {
@@ -69,37 +69,37 @@ class CookieManagerService {
       const isValid = await this.validateCookies();
       
       if (!isValid) {
-        this.logger.warn('[CookieManager] Cookies inválidos ou expirados! Tentando renovar...');
+        this.logger.warn('[CookieManager] Cookies invÃ¡lidos ou expirados! Tentando renovar...');
         const refreshed = await this.refreshCookies();
         
         if (refreshed) {
-          this.logger.info('[CookieManager] ✅ Cookies renovados com sucesso!');
+          this.logger.info('[CookieManager] âœ… Cookies renovados com sucesso!');
           this.lastCheck = new Date();
           return true;
         } else {
-          this.logger.warn('[CookieManager] ⚠️ Falha ao renovar cookies. Continuando com cookies antigos por fallback.');
+          this.logger.warn('[CookieManager] âš ï¸ Falha ao renovar cookies. Continuando com cookies antigos por fallback.');
           // Permitir continuar com cookies expirados como fallback
           this.lastCheck = new Date();
           return this.hasRequiredCookies();
         }
       } else {
-        this.logger.info('[CookieManager] ✅ Cookies válidos');
+        this.logger.info('[CookieManager] âœ… Cookies vÃ¡lidos');
         this.lastCheck = new Date();
         return true;
       }
     } catch (error) {
       this.logger.error('[CookieManager] Erro ao verificar cookies:', error.message);
-      // Fallback: permitir continuar se já tem cookies configurados
+      // Fallback: permitir continuar se jÃ¡ tem cookies configurados
       return this.hasRequiredCookies();
     }
   }
 
   /**
-   * Valida se os cookies atuais funcionam fazendo uma requisição test
+   * Valida se os cookies atuais funcionam fazendo uma requisiÃ§Ã£o test
    */
   async validateCookies() {
     if (!this.hasRequiredCookies()) {
-      this.logger.warn('[CookieManager] Cookies obrigatórios não configurados');
+      this.logger.warn('[CookieManager] Cookies obrigatÃ³rios nÃ£o configurados');
       return false;
     }
 
@@ -116,7 +116,7 @@ class CookieManagerService {
       const isValid = response.status >= 200 && response.status < 400 && looksLoggedIn;
       
       if (!isValid) {
-        this.logger.warn(`[CookieManager] Validação retornou status ${response.status}`, {
+        this.logger.warn(`[CookieManager] ValidaÃ§Ã£o retornou status ${response.status}`, {
           looksLoggedIn,
           bodyPreview: responseBody.substring(0, 120)
         });
@@ -171,7 +171,7 @@ class CookieManagerService {
         const csrfToken = csrfMatch ? csrfMatch[1] : '';
 
         if (!csrfToken) {
-          this.logger.warn('[CookieManager] CSRF token não encontrado na página de login');
+          this.logger.warn('[CookieManager] CSRF token nÃ£o encontrado na pÃ¡gina de login');
         }
 
         await client.post(
@@ -196,6 +196,9 @@ class CookieManagerService {
             validateStatus: (status) => status < 500
           }
         );
+
+        // Aguardar para permitir sessão ser estabelecida no servidor (800ms mínimo)
+        await new Promise(resolve => setTimeout(resolve, 800));
 
         const response = await client.post(
           this.ajaxLoginUrl,
@@ -238,29 +241,29 @@ class CookieManagerService {
           if (newCookies.cfClearance) {
             this.cfClearance = newCookies.cfClearance;
             process.env.CF_CLEARANCE = newCookies.cfClearance;
-            this.logger.info('[CookieManager] ✅ CF_CLEARANCE renovado');
+            this.logger.info('[CookieManager] âœ… CF_CLEARANCE renovado');
           } else if (!this.cfClearance) {
             const fallbackCf = this.resolveCfClearanceFallback();
             if (fallbackCf) {
               this.cfClearance = fallbackCf;
               process.env.CF_CLEARANCE = fallbackCf;
-              this.logger.info('[CookieManager] ✅ CF_CLEARANCE mantido por fallback');
+              this.logger.info('[CookieManager] âœ… CF_CLEARANCE mantido por fallback');
             }
           }
 
           if (mergedSessionCookies) {
             this.sessionCookies = mergedSessionCookies;
             process.env.SESSION_COOKIES = mergedSessionCookies;
-            this.logger.info('[CookieManager] ✅ SESSION_COOKIES renovados');
+            this.logger.info('[CookieManager] âœ… SESSION_COOKIES renovados');
           }
 
-          // Validar se os cookies extraídos contêm PHPSESSID (crítico)
+          // Validar se os cookies extraÃ­dos contÃªm PHPSESSID (crÃ­tico)
           const hasCriticalCookies = this.sessionCookies && this.sessionCookies.includes('PHPSESSID=');
           if (!this.cfClearance) {
             this.cfClearance = this.resolveCfClearanceFallback();
             if (this.cfClearance) {
               process.env.CF_CLEARANCE = this.cfClearance;
-              this.logger.info('[CookieManager] ✅ CF_CLEARANCE aplicado por fallback');
+              this.logger.info('[CookieManager] âœ… CF_CLEARANCE aplicado por fallback');
             }
           }
           const hasRequiredCf = !this.requireCfClearance || !!this.cfClearance;
@@ -286,10 +289,10 @@ class CookieManagerService {
         this.logger.warn(`[CookieManager] Tentativa ${attempt} falhou: ${error.message}`);
       }
 
-      // Aguardar antes de próxima tentativa com exponential backoff
+      // Aguardar antes de prÃ³xima tentativa com exponential backoff
       if (attempt < this.maxRetries) {
         const delayMs = 1000 * Math.pow(2, attempt - 1); // 1s, 2s, 4s
-        this.logger.info(`[CookieManager] Aguardando ${delayMs}ms antes da próxima tentativa...`);
+        this.logger.info(`[CookieManager] Aguardando ${delayMs}ms antes da prÃ³xima tentativa...`);
         await this.delay(delayMs);
       }
     }
@@ -306,7 +309,7 @@ class CookieManagerService {
   }
 
   /**
-   * Preflight para capturar cookies iniciais (incluindo cf_clearance quando disponível)
+   * Preflight para capturar cookies iniciais (incluindo cf_clearance quando disponÃ­vel)
    */
   async fetchCookiesFromHomePage() {
     try {
@@ -342,7 +345,7 @@ class CookieManagerService {
       sessionCookies: new Map() // Usar Map para evitar duplicatas
     };
 
-    // Lista de cookies de sessão importantes
+    // Lista de cookies de sessÃ£o importantes
     const sessionCookieNames = ['PHPSESSID', 'vouverme', 'username', 'password'];
 
     for (const setCookie of setCookieHeaders) {
@@ -359,13 +362,13 @@ class CookieManagerService {
       // Tratar cf_clearance especialmente
       if (trimmedName.toLowerCase() === 'cf_clearance') {
         cookies.cfClearance = trimmedValue;
-        this.logger.info(`[CookieManager] CF_CLEARANCE extraído`);
+        this.logger.info(`[CookieManager] CF_CLEARANCE extraÃ­do`);
       }
 
-      // Adicionar cookies de sessão ao Map (evita duplicatas)
+      // Adicionar cookies de sessÃ£o ao Map (evita duplicatas)
       if (sessionCookieNames.includes(trimmedName)) {
         cookies.sessionCookies.set(trimmedName, `${trimmedName}=${trimmedValue}`);
-        this.logger.info(`[CookieManager] Cookie extraído: ${trimmedName}`);
+        this.logger.info(`[CookieManager] Cookie extraÃ­do: ${trimmedName}`);
       }
     }
 
@@ -432,7 +435,7 @@ class CookieManagerService {
   }
 
   /**
-   * Garante cookies essenciais de sessão mesmo quando o backend retorna parcial
+   * Garante cookies essenciais de sessÃ£o mesmo quando o backend retorna parcial
    */
   ensureEssentialSessionCookies(cookieString, cfClearanceValue = '') {
     const cookieMap = this.parseCookieString(cookieString);
@@ -487,7 +490,7 @@ class CookieManagerService {
   }
 
   /**
-   * Resolve fallback de CF_CLEARANCE quando Cloudflare não envia Set-Cookie
+   * Resolve fallback de CF_CLEARANCE quando Cloudflare nÃ£o envia Set-Cookie
    */
   resolveCfClearanceFallback() {
     if (this.cfClearance) {
@@ -548,17 +551,17 @@ class CookieManagerService {
         fs.writeFileSync(this.envFilePath, envContent, 'utf8');
       }
       
-      // Recarregar variáveis no process.env
+      // Recarregar variÃ¡veis no process.env
       Object.assign(process.env, updates);
 
       if (changed) {
-        this.logger.info('[CookieManager] ✅ Arquivo .env atualizado com novos cookies', {
+        this.logger.info('[CookieManager] âœ… Arquivo .env atualizado com novos cookies', {
           envFilePath: this.envFilePath,
           previousLength: originalContent.length,
           nextLength: envContent.length
         });
       } else {
-        this.logger.info('[CookieManager] ℹ️ .env sem alterações (valores já estavam iguais)', {
+        this.logger.info('[CookieManager] â„¹ï¸ .env sem alteraÃ§Ãµes (valores jÃ¡ estavam iguais)', {
           envFilePath: this.envFilePath
         });
       }
@@ -571,7 +574,7 @@ class CookieManagerService {
   }
 
   /**
-   * Constrói headers com cookies atuais
+   * ConstrÃ³i headers com cookies atuais
    */
   buildHeaders() {
     const headers = {
@@ -672,20 +675,20 @@ class CookieManagerService {
 
   /**
    * Dispara o worker Puppeteer em background para obter cookies via browser
-   * Não bloqueia o fluxo principal; retorna uma promise que resolve rapidamente
+   * NÃ£o bloqueia o fluxo principal; retorna uma promise que resolve rapidamente
    */
   async triggerWorkerFallback() {
     const { spawn } = require('child_process');
     const workerPath = path.join(__dirname, '../../viewflix-worker/index.js');
 
     if (!fs.existsSync(workerPath)) {
-      this.logger.warn('[CookieManager] Worker não encontrado em', workerPath);
+      this.logger.warn('[CookieManager] Worker nÃ£o encontrado em', workerPath);
       return;
     }
 
     this.logger.info('[CookieManager] Disparando worker Puppeteer para renovar cookies...');
 
-    // Spawn em background, não aguarda
+    // Spawn em background, nÃ£o aguarda
     const workerProcess = spawn('node', [workerPath], {
       detached: true,
       stdio: 'ignore',
@@ -707,3 +710,4 @@ class CookieManagerService {
 }
 
 module.exports = CookieManagerService;
+
