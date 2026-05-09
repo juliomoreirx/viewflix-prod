@@ -4,7 +4,6 @@ const router = express.Router();
 
 const adminAuth = require('../middlewares/admin-auth');
 const asyncHandler = require('../middlewares/async-handler');
-const env = require('../config/env');
 
 // Schemas de validação
 const createBatchSchema = z.object({
@@ -351,7 +350,7 @@ router.post('/api/admin/batch/:id/resume', adminAuth, asyncHandler(async (req, r
 
 // Função auxiliar para processar lote em background
 async function processBatchAsync(batch, bunnyCacheService) {
-  const { PurchasedContent, BatchDownload } = require('../models');
+  const { BatchDownload } = require('../models');
   const persistBatch = createBatchPersistQueue(batch, BatchDownload);
 
   try {
@@ -364,33 +363,27 @@ async function processBatchAsync(batch, bunnyCacheService) {
         const item = batch.items[itemIndex];
         itemIndex++;
 
-        // Criar purchase object para o item do batch
-        const purchase = new PurchasedContent({
+        const cacheTask = {
+          _id: `batch-${batch._id}-${item._id}`,
           userId: batch.userId,
           videoId: item.videoId,
           title: item.title || item.videoId,
           mediaType: item.mediaType,
           season: item.season,
           episodeName: item.episodeName,
-          token: `batch-${batch._id}-${item._id}`,
-          sessionToken: `batch-session-${Date.now()}-${Math.random()}`,
-          source: 'batch',
-          sourceBatchId: String(batch._id),
-          sourceBatchItemId: String(item._id),
+          storagePath: item.storagePath || null,
           cacheStatus: 'pending',
           cacheProgress: 0,
-          expiresAt: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000), // 1 ano
-          // Deixar buildStoragePath gerar o caminho correto (movies/ ou series/)
-          // Não fazer purchase real, apenas cache
-          price: 0,
-          purchaseDate: new Date()
-        });
-
-        await purchase.save();
+          async updateOne(update = {}) {
+            const set = update && update.$set ? update.$set : {};
+            Object.assign(this, set);
+            return { acknowledged: true };
+          }
+        };
 
         // Enfileirar no cache service
         const downloadPromise = new Promise((resolve) => {
-          bunnyCacheService.enqueue(purchase, {
+          bunnyCacheService.enqueue(cacheTask, {
             onProgress: ({ percent, stage }) => {
               const idx = batch.items.findIndex(i => String(i._id) === String(item._id));
               if (idx >= 0) {
