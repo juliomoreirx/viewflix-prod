@@ -105,24 +105,27 @@ function getLiveTvChannelLabel(item) {
 }
 
 function formatLiveTvBufferProfile(profile = {}, fallback = {}) {
-  const segmentDurationSec = Number(profile.segmentDurationSec || 6);
-  const segmentCount = Number(profile.segmentCount || 30);
-  const status = String(profile.status || (profile.enabled ? 'idle' : 'disabled'));
+  const p = profile && typeof profile === 'object' ? profile : {};
+  const f = fallback && typeof fallback === 'object' ? fallback : {};
+  const segmentDurationSec = Number(p.segmentDurationSec || f.segmentDurationSec || 6);
+  const segmentCount = Number(p.segmentCount || f.segmentCount || 30);
+  const isEnabled = !!p.enabled || !!f.enabled;
+  const status = String(p.status || f.status || (isEnabled ? 'idle' : 'disabled'));
   return {
-    channelId: String(profile.channelId || fallback.channelId || ''),
-    channelTitle: String(profile.channelTitle || fallback.channelTitle || ''),
-    enabled: !!profile.enabled,
-    warmupMode: String(profile.warmupMode || 'on-demand'),
+    channelId: String(p.channelId || f.channelId || ''),
+    channelTitle: String(p.channelTitle || f.channelTitle || ''),
+    enabled: isEnabled,
+    warmupMode: String(p.warmupMode || f.warmupMode || 'on-demand'),
     segmentDurationSec,
     segmentCount,
     targetBufferSec: segmentDurationSec * segmentCount,
     status,
-    statusNote: profile.statusNote || null,
-    lastWarmupAt: profile.lastWarmupAt || null,
-    lastReadyAt: profile.lastReadyAt || null,
-    lastError: profile.lastError || null,
-    updatedAt: profile.updatedAt || null,
-    createdAt: profile.createdAt || null
+    statusNote: p.statusNote || f.statusNote || null,
+    lastWarmupAt: p.lastWarmupAt || f.lastWarmupAt || null,
+    lastReadyAt: p.lastReadyAt || f.lastReadyAt || null,
+    lastError: p.lastError || f.lastError || null,
+    updatedAt: p.updatedAt || f.updatedAt || null,
+    createdAt: p.createdAt || f.createdAt || null
   };
 }
 
@@ -864,7 +867,7 @@ router.get('/api/admin/livetv-buffer/catalog', adminAuth, asyncHandler(async (re
       channelTitle: String(profile.channelTitle || profileChannelId),
       cover: null,
       inCatalog: false,
-      profile: formatLiveTvBufferProfile(profile)
+      profile: formatLiveTvBufferProfile(profile, { channelId: profileChannelId, channelTitle: String(profile.channelTitle || profileChannelId) })
     });
   }
 
@@ -921,7 +924,7 @@ router.get('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandl
 
   return res.json({
     success: true,
-    data: formatLiveTvBufferProfile(profile)
+    data: formatLiveTvBufferProfile(profile, { channelId })
   });
 }));
 
@@ -963,7 +966,7 @@ router.put('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandl
 
     return res.json({
       success: true,
-      data: formatLiveTvBufferProfile(profile || payload)
+      data: formatLiveTvBufferProfile(profile || payload, { channelId })
     });
   } catch (error) {
     logger.error({ msg: 'erro ao salvar live tv buffer profile', error: error.stack || error.message });
@@ -1013,7 +1016,7 @@ router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, as
     return res.json({
       success: true,
       message: 'Warmup solicitado. Integração do worker será conectada no próximo passo.',
-      data: formatLiveTvBufferProfile(profile || { channelId, enabled: true, status: 'warming', channelTitle: fallbackTitle })
+      data: formatLiveTvBufferProfile(profile, { channelId, enabled: true, status: 'warming', channelTitle: fallbackTitle })
     });
   } catch (error) {
     logger.error({ msg: 'erro ao solicitar warmup live tv buffer', error: error.stack || error.message });

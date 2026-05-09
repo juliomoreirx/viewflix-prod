@@ -203,27 +203,29 @@ function rewriteLiveManifest(manifestText, finalManifestUrl, req) {
 }
 
 function formatLiveTvBufferStatus(profile = {}, fallback = {}) {
-  const segmentDurationSec = Number(profile.segmentDurationSec || 6);
-  const segmentCount = Number(profile.segmentCount || 30);
-  const enabled = !!profile.enabled;
-  const status = String(profile.status || (enabled ? 'idle' : 'disabled'));
+  const p = profile && typeof profile === 'object' ? profile : {};
+  const f = fallback && typeof fallback === 'object' ? fallback : {};
+  const segmentDurationSec = Number(p.segmentDurationSec || f.segmentDurationSec || 6);
+  const segmentCount = Number(p.segmentCount || f.segmentCount || 30);
+  const isEnabled = !!p.enabled || !!f.enabled;
+  const status = String(p.status || f.status || (isEnabled ? 'idle' : 'disabled'));
 
   return {
-    channelId: String(profile.channelId || fallback.channelId || ''),
-    channelTitle: String(profile.channelTitle || fallback.channelTitle || ''),
-    enabled,
-    warmupMode: String(profile.warmupMode || 'on-demand'),
+    channelId: String(p.channelId || f.channelId || ''),
+    channelTitle: String(p.channelTitle || f.channelTitle || ''),
+    enabled: isEnabled,
+    warmupMode: String(p.warmupMode || f.warmupMode || 'on-demand'),
     segmentDurationSec,
     segmentCount,
     targetBufferSec: segmentDurationSec * segmentCount,
     status,
-    statusNote: profile.statusNote || null,
-    lastWarmupAt: profile.lastWarmupAt || null,
-    lastReadyAt: profile.lastReadyAt || null,
-    lastError: profile.lastError || null,
-    updatedAt: profile.updatedAt || null,
-    createdAt: profile.createdAt || null,
-    shouldDelayPlayback: enabled && status === 'warming'
+    statusNote: p.statusNote || f.statusNote || null,
+    lastWarmupAt: p.lastWarmupAt || f.lastWarmupAt || null,
+    lastReadyAt: p.lastReadyAt || f.lastReadyAt || null,
+    lastError: p.lastError || f.lastError || null,
+    updatedAt: p.updatedAt || f.updatedAt || null,
+    createdAt: p.createdAt || f.createdAt || null,
+    shouldDelayPlayback: isEnabled && status === 'warming'
   };
 }
 
