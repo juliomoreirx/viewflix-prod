@@ -39,8 +39,8 @@ if (RES_PROXY_HOST && RES_PROXY_PORT) {
   residentialProxyAgent = new HttpProxyAgent(proxyUrl);
 }
 
-const LIVE_SEGMENT_CACHE_TTL_MS = 45 * 1000;
-const LIVE_SEGMENT_CACHE_MAX_ENTRIES = 180;
+const LIVE_SEGMENT_CACHE_TTL_MS = 600 * 1000; // 10 minutos (em vez de 45 segundos)
+const LIVE_SEGMENT_CACHE_MAX_ENTRIES = 600; // 600 segmentos (em vez de 180) = 6.000 segundos com 10s por segmento
 const LIVE_SEGMENT_FETCH_TIMEOUT_MS = 15000;
 
 const VOD_RESOLVE_TTL_MS = 2 * 60 * 1000;
@@ -110,7 +110,10 @@ async function getLiveSegmentPayload(absoluteUrl) {
   const cacheKey = absoluteUrl;
   const cached = getLiveSegmentCache(cacheKey);
   if (cached) {
+    logger.debug({ msg: '[LiveTV Cache HIT]', url: absoluteUrl.substring(0, 80), cacheSize: liveSegmentCache.size });
     return { ...cached, source: 'cache' };
+  }
+  logger.debug({ msg: '[LiveTV Cache MISS]', url: absoluteUrl.substring(0, 80), cacheSize: liveSegmentCache.size });
   }
 
   if (liveSegmentInFlight.has(cacheKey)) {
