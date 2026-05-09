@@ -485,7 +485,7 @@ router.get('/player/:token', async (req, res) => {
     const liveTvChannelId = ${JSON.stringify(String(videoId || ''))};
     const liveTvBufferStatusEndpoint = isLiveTvContent ? '/api/livetv-buffer/' + encodeURIComponent(liveTvChannelId) + '/status' : '';
 
-    const LIVE_DELAY_SECONDS = 30;
+    const LIVE_DELAY_SECONDS = 8;
     const LIVE_DELAY_WARNING_THRESHOLD = 1;
     const LIVE_TV_WARMUP_POLL_MS = 3000;
     const LIVE_TV_WARMUP_MAX_ATTEMPTS = 12;
