@@ -481,9 +481,14 @@ router.get('/player/:token', async (req, res) => {
     const episodeActions = document.getElementById('episodeActions');
     const prevEpisodeBtn = document.getElementById('prevEpisodeBtn');
     const nextEpisodeBtnInline = document.getElementById('nextEpisodeBtnInline');
+    const isLiveTvContent = ${JSON.stringify(String(purchase.mediaType || '') === 'livetv')};
+    const liveTvChannelId = ${JSON.stringify(String(videoId || ''))};
+    const liveTvBufferStatusEndpoint = isLiveTvContent ? '/api/livetv-buffer/' + encodeURIComponent(liveTvChannelId) + '/status' : '';
 
     const LIVE_DELAY_SECONDS = 30;
     const LIVE_DELAY_WARNING_THRESHOLD = 1;
+    const LIVE_TV_WARMUP_POLL_MS = 3000;
+    const LIVE_TV_WARMUP_MAX_ATTEMPTS = 12;
 
     function setStreamStatus(message, tone = 'warn') {
       if (!streamStatusEl) return;
@@ -551,10 +556,96 @@ router.get('/player/:token', async (req, res) => {
     let lastProgressSaveAt = 0;
     let lastProgressSecond = 0;
     let nextEpisodeTimer = null;
+    let liveTvWarmupTimer = null;
+    let liveTvWarmupAttempts = 0;
+    let liveTvPlaybackStarted = false;
     const audioTrackWrap = document.getElementById('audioTrackWrap');
     const audioTrackSelect = document.getElementById('audioTrackSelect');
     const qualityTrackWrap = document.getElementById('qualityTrackWrap');
     const qualityTrackSelect = document.getElementById('qualityTrackSelect');
+
+    function escapeHtml(value = '') {
+      return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function stopLiveTvWarmupPolling() {
+      if (liveTvWarmupTimer) {
+        clearTimeout(liveTvWarmupTimer);
+        liveTvWarmupTimer = null;
+      }
+    }
+
+    function startLiveTvPlayback(message = '', tone = 'warn') {
+      stopLiveTvWarmupPolling();
+      liveTvPlaybackStarted = true;
+      if (message) {
+        setStreamStatus(message, tone);
+      }
+      loadSource(streamPath, 0);
+    }
+
+    function scheduleLiveTvStatusCheck() {
+      stopLiveTvWarmupPolling();
+      liveTvWarmupTimer = setTimeout(() => {
+        checkLiveTvBufferStatus();
+      }, LIVE_TV_WARMUP_POLL_MS);
+    }
+
+    function checkLiveTvBufferStatus() {
+      if (!isLiveTvContent || liveTvPlaybackStarted) return;
+
+      if (!liveTvBufferStatusEndpoint) {
+        startLiveTvPlayback();
+        return;
+      }
+
+      liveTvWarmupAttempts++;
+
+      fetch(liveTvBufferStatusEndpoint, { cache: 'no-store' })
+        .then((response) => response.json())
+        .then((payload) => {
+          const data = payload && payload.data ? payload.data : payload;
+
+          if (!data || !data.status) {
+            startLiveTvPlayback('<strong>Conectando ao canal ao vivo:</strong> não conseguimos confirmar o buffer agora.', 'warn');
+            return;
+          }
+
+          const note = escapeHtml(data.statusNote || 'Este canal está sendo preparado para reduzir travamentos.');
+
+          if (data.enabled && data.status === 'warming') {
+            setStreamStatus('<strong>Canal em preparação:</strong> ' + note + ' Aguarde um instante enquanto aquecemos a transmissão.', 'warn');
+
+            if (liveTvWarmupAttempts >= LIVE_TV_WARMUP_MAX_ATTEMPTS) {
+              startLiveTvPlayback('<strong>Preparação demorando mais que o normal:</strong> vamos tentar abrir o canal agora.', 'warn');
+              return;
+            }
+
+            scheduleLiveTvStatusCheck();
+            return;
+          }
+
+          if (data.enabled && data.status === 'error') {
+            startLiveTvPlayback('<strong>Canal com instabilidade:</strong> vamos tentar abrir a transmissão mesmo assim.', 'warn');
+            return;
+          }
+
+          if (data.enabled && data.status === 'ready') {
+            startLiveTvPlayback('<strong>Canal pronto:</strong> buffer estabilizado, iniciando transmissão.', 'warn');
+            return;
+          }
+
+          startLiveTvPlayback();
+        })
+        .catch(() => {
+          startLiveTvPlayback('<strong>Conectando ao canal ao vivo:</strong> a checagem de buffer falhou, então vamos tentar reproduzir agora.', 'warn');
+        });
+    }
 
     function logPlayOnce() {
       if (playLogged) return;
@@ -900,13 +991,22 @@ router.get('/player/:token', async (req, res) => {
       });
       window.addEventListener('beforeunload', () => saveProgress(false));
 
+      setupEpisodeActions();
+      setupResumePrompt();
+
+      if (isLiveTvContent) {
+        setStreamStatus(
+          '<strong>Conectando ao canal ao vivo:</strong> verificando se o buffer já está aquecido.',
+          'warn'
+        );
+        checkLiveTvBufferStatus();
+        return;
+      }
+
       setStreamStatus(
         '<strong>Buffer de estabilidade ativo:</strong> a transmissão pode ficar alguns segundos atrás do vivo para evitar travadas.',
         'warn'
       );
-
-      setupEpisodeActions();
-      setupResumePrompt();
       loadSource(streamPath, 0);
     }
 

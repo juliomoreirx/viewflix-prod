@@ -23,6 +23,10 @@ const liveSegmentSchema = z.object({
   u: z.string().url()
 });
 
+const liveTvBufferStatusSchema = z.object({
+  channelId: z.string().trim().min(1).max(200)
+});
+
 // Proxy apenas para autenticação rápida (não consome dados)
 const RES_PROXY_HOST = (env.RES_PROXY_HOST || '').trim();
 const RES_PROXY_PORT = parseInt(String(env.RES_PROXY_PORT || '0').trim(), 10);
@@ -197,6 +201,59 @@ function rewriteLiveManifest(manifestText, finalManifestUrl, req) {
 
   return rewritten.join('\n');
 }
+
+function formatLiveTvBufferStatus(profile = {}, fallback = {}) {
+  const segmentDurationSec = Number(profile.segmentDurationSec || 6);
+  const segmentCount = Number(profile.segmentCount || 30);
+  const enabled = !!profile.enabled;
+  const status = String(profile.status || (enabled ? 'idle' : 'disabled'));
+
+  return {
+    channelId: String(profile.channelId || fallback.channelId || ''),
+    channelTitle: String(profile.channelTitle || fallback.channelTitle || ''),
+    enabled,
+    warmupMode: String(profile.warmupMode || 'on-demand'),
+    segmentDurationSec,
+    segmentCount,
+    targetBufferSec: segmentDurationSec * segmentCount,
+    status,
+    statusNote: profile.statusNote || null,
+    lastWarmupAt: profile.lastWarmupAt || null,
+    lastReadyAt: profile.lastReadyAt || null,
+    lastError: profile.lastError || null,
+    updatedAt: profile.updatedAt || null,
+    createdAt: profile.createdAt || null,
+    shouldDelayPlayback: enabled && status === 'warming'
+  };
+}
+
+router.get('/api/livetv-buffer/:channelId/status', async (req, res) => {
+  try {
+    const parsed = liveTvBufferStatusSchema.safeParse(req.params);
+    if (!parsed.success) {
+      return res.status(400).json({ error: 'Parâmetros inválidos' });
+    }
+
+    const channelId = parsed.data.channelId;
+    const { LiveTvBufferProfile } = req.app.locals.models || {};
+
+    if (!LiveTvBufferProfile) {
+      return res.json({
+        ok: true,
+        data: formatLiveTvBufferStatus({ channelId, enabled: false, status: 'disabled' })
+      });
+    }
+
+    const profile = await LiveTvBufferProfile.findOne({ channelId }).lean();
+    return res.json({
+      ok: true,
+      data: formatLiveTvBufferStatus(profile || { channelId, enabled: false, status: 'disabled' })
+    });
+  } catch (error) {
+    logger.warn({ msg: 'erro ao consultar status do livetv buffer', error: error.message });
+    return res.status(500).json({ error: 'Falha ao consultar status' });
+  }
+});
 
 router.get('/relay-stream', async (req, res, next) => {
   try {
