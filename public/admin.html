@@ -259,6 +259,37 @@
             color: rgba(226,232,240,0.4);
         }
 
+        .mongo-shell {
+            min-height: calc(100vh - 180px);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mongo-card {
+            background: rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(79,172,254,0.12);
+            border-radius: 1rem;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mongo-list-scroll {
+            flex: 1 1 auto;
+            min-height: 0;
+            overflow-y: auto;
+            padding-right: 0.25rem;
+            scrollbar-gutter: stable;
+        }
+
+        .mongo-summary-grid {
+            position: sticky;
+            top: 0;
+            z-index: 5;
+            backdrop-filter: blur(12px);
+        }
+
         .builder-card {
             background: rgba(255,255,255,0.03);
             backdrop-filter: blur(12px);
@@ -734,8 +765,9 @@ Abra o bot e confira o que preparamos.</textarea>
                 </div>
 
                 <div id="mongoTab" class="tab-content hidden">
-                    <div class="glass rounded-2xl p-6 sm:p-8 border border-white/5">
-                        <div class="flex items-start justify-between gap-4 mb-6">
+                    <div class="mongo-shell">
+                    <div class="mongo-card p-6 sm:p-8 flex-1">
+                        <div class="flex items-start justify-between gap-4 mb-6 shrink-0">
                             <div>
                                 <h2 class="text-2xl font-black mb-2">Mongo / Conteúdos por usuário</h2>
                                 <p class="text-gray-400 text-sm max-w-2xl">Veja os conteúdos comprados separados por usuário, com opção de excluir cada item quando precisar.</p>
@@ -743,7 +775,7 @@ Abra o bot e confira o que preparamos.</textarea>
                             <i class="fa-solid fa-database text-5xl opacity-20"></i>
                         </div>
 
-                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-4 shrink-0">
                             <input id="mongoSearchInput" type="text" class="search-box md:col-span-2" placeholder="Buscar usuário, username ou ID...">
                             <button id="mongoSearchBtn" class="btn-primary">
                                 <i class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar
@@ -753,13 +785,13 @@ Abra o bot e confira o que preparamos.</textarea>
                             </button>
                         </div>
 
-                        <div id="mongoSummary" class="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6 text-sm"></div>
-                        <div id="mongoListContainer" class="space-y-4">
+                        <div id="mongoSummary" class="mongo-summary-grid grid grid-cols-2 md:grid-cols-4 gap-3 mb-4 text-sm shrink-0"></div>
+                        <div id="mongoListContainer" class="mongo-list-scroll space-y-4">
                             <div class="loading-skeleton h-28 rounded-xl"></div>
                             <div class="loading-skeleton h-28 rounded-xl"></div>
                             <div class="loading-skeleton h-28 rounded-xl"></div>
                         </div>
-                        <div class="flex justify-between items-center mt-6">
+                        <div class="flex justify-between items-center mt-4 shrink-0">
                             <button id="mongoPrevPageBtn" class="btn-secondary" disabled>
                                 <i class="fa-solid fa-chevron-left mr-2"></i>Anterior
                             </button>
@@ -768,6 +800,7 @@ Abra o bot e confira o que preparamos.</textarea>
                                 Proxima <i class="fa-solid fa-chevron-right ml-2"></i>
                             </button>
                         </div>
+                    </div>
                     </div>
                 </div>
                 
@@ -794,7 +827,7 @@ Abra o bot e confira o que preparamos.</textarea>
     </div>
     
     <div id="userModal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content max-w-6xl w-full max-h-[90vh] overflow-y-auto">
             <div class="flex justify-between items-start mb-6">
                 <h2 class="text-2xl font-black">Detalhes do Usuario</h2>
                 <button class="text-gray-400 hover:text-white text-2xl cursor-pointer" onclick="document.getElementById('userModal').classList.remove('open')">
