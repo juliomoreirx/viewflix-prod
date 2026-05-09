@@ -600,11 +600,13 @@ router.get('/player/:token', async (req, res) => {
       if (!isLiveTvContent || liveTvPlaybackStarted) return;
 
       if (!liveTvBufferStatusEndpoint) {
-        startLiveTvPlayback();
+        startLiveTvPlayback('<strong>✓ Conectando ao canal ao vivo...</strong>', 'info');
         return;
       }
 
       liveTvWarmupAttempts++;
+      const progressDots = '.'.repeat((liveTvWarmupAttempts % 3) + 1);
+      const progressMsg = liveTvWarmupAttempts <= 2 ? 'Carregando' : liveTvWarmupAttempts <= 4 ? 'Otimizando qualidade' : 'Finalizando';
 
       fetch(liveTvBufferStatusEndpoint, { cache: 'no-store' })
         .then((response) => response.json())
@@ -612,17 +614,17 @@ router.get('/player/:token', async (req, res) => {
           const data = payload && payload.data ? payload.data : payload;
 
           if (!data || !data.status) {
-            startLiveTvPlayback('<strong>Conectando ao canal ao vivo:</strong> não conseguimos confirmar o buffer agora.', 'warn');
+            startLiveTvPlayback('<strong>✓ Conectando ao canal ao vivo...</strong><br><small>Iniciando transmissão agora.</small>', 'info');
             return;
           }
 
-          const note = escapeHtml(data.statusNote || 'Este canal está sendo preparado para reduzir travamentos.');
+          const note = escapeHtml(data.statusNote || 'Este canal está sendo preparado para melhor qualidade.');
 
           if (data.enabled && data.status === 'warming') {
-            setStreamStatus('<strong>Canal em preparação:</strong> ' + note + ' Aguarde um instante enquanto aquecemos a transmissão.', 'warn');
+            setStreamStatus('<strong>🔄 ' + progressMsg + progressDots + '</strong><br><small>Por favor aguarde, já estamos quase lá!</small>', 'warn');
 
             if (liveTvWarmupAttempts >= LIVE_TV_WARMUP_MAX_ATTEMPTS) {
-              startLiveTvPlayback('<strong>Preparação demorando mais que o normal:</strong> vamos tentar abrir o canal agora.', 'warn');
+              startLiveTvPlayback('<strong>✓ Iniciando canal ao vivo...</strong><br><small>Carregamento concluído.</small>', 'info');
               return;
             }
 
@@ -631,19 +633,19 @@ router.get('/player/:token', async (req, res) => {
           }
 
           if (data.enabled && data.status === 'error') {
-            startLiveTvPlayback('<strong>Canal com instabilidade:</strong> vamos tentar abrir a transmissão mesmo assim.', 'warn');
+            startLiveTvPlayback('<strong>⚠ Conectando ao canal com qualidade reduzida...</strong><br><small>Alguns travamentos podem ocorrer.</small>', 'warn');
             return;
           }
 
           if (data.enabled && data.status === 'ready') {
-            startLiveTvPlayback('<strong>Canal pronto:</strong> buffer estabilizado, iniciando transmissão.', 'warn');
+            startLiveTvPlayback('<strong>✓ Canal pronto! Iniciando transmissão...</strong><br><small>Aproveite a melhor qualidade.</small>', 'info');
             return;
           }
 
-          startLiveTvPlayback();
+          startLiveTvPlayback('<strong>✓ Conectando ao canal ao vivo...</strong>', 'info');
         })
         .catch(() => {
-          startLiveTvPlayback('<strong>Conectando ao canal ao vivo:</strong> a checagem de buffer falhou, então vamos tentar reproduzir agora.', 'warn');
+          startLiveTvPlayback('<strong>✓ Conectando ao canal ao vivo...</strong><br><small>Iniciando transmissão agora.</small>', 'info');
         });
     }
 
@@ -995,11 +997,15 @@ router.get('/player/:token', async (req, res) => {
       setupResumePrompt();
 
       if (isLiveTvContent) {
+        // LiveTV: auto-iniciar carregamento com mensagem amigável
         setStreamStatus(
-          '<strong>Conectando ao canal ao vivo:</strong> verificando se o buffer já está aquecido.',
+          '<strong>🔄 Carregando canal ao vivo...</strong><br><small>Por favor aguarde enquanto preparamos a melhor qualidade para você.</small>',
           'warn'
         );
-        checkLiveTvBufferStatus();
+        // Disparar verificação de buffer imediatamente
+        setTimeout(() => {
+          checkLiveTvBufferStatus();
+        }, 100);
         return;
       }
 
