@@ -880,6 +880,11 @@ Abra o bot e confira o que preparamos.</textarea>
                 <button id="contentSearchBtn" class="btn-primary whitespace-nowrap">Buscar</button>
             </div>
 
+            <label class="flex items-center gap-3 text-sm text-gray-300 mb-4">
+                <input id="batchForceFullSeries" type="checkbox" checked class="rounded border-white/20 bg-transparent text-[#4facfe] focus:ring-[#4facfe]">
+                Ao adicionar série, incluir todos os episódios (série completa)
+            </label>
+
             <div id="contentSearchResults" class="space-y-3">
                 <div class="text-gray-500 text-sm text-center py-6">Digite para buscar conteúdo</div>
             </div>
@@ -969,13 +974,71 @@ Abra o bot e confira o que preparamos.</textarea>
                 const modal = document.getElementById('contentPickerModal');
                 const input = document.getElementById('contentSearchInput');
                 const results = document.getElementById('contentSearchResults');
+                const forceSeries = document.getElementById('batchForceFullSeries');
 
                 if (input) input.value = '';
+                if (forceSeries) forceSeries.checked = true;
                 if (results) {
                     results.innerHTML = '<div class="text-gray-500 text-sm text-center py-6">Digite para buscar conteúdo</div>';
                 }
                 modal.classList.add('open');
                 input?.focus();
+            },
+
+            async addItemsToBatch(batchId, items = []) {
+                const chunkSize = 50;
+                for (let offset = 0; offset < items.length; offset += chunkSize) {
+                    const chunk = items.slice(offset, offset + chunkSize);
+                    const res = await fetch(`/api/admin/batch/${batchId}/items`, {
+                        method: 'POST',
+                        headers: {
+                            'Authorization': `Bearer ${state.token}`,
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ items: chunk })
+                    });
+                    const data = await res.json().catch(() => ({}));
+                    if (!res.ok || !data.success) {
+                        throw new Error(data.error || 'Falha ao adicionar conteúdo ao lote');
+                    }
+                }
+            },
+
+            async buildSeriesBatchItems(seriesId, seriesTitle) {
+                const detailsRes = await fetch(`/api/admin/content/details?id=${encodeURIComponent(seriesId)}&type=series`, {
+                    headers: { 'Authorization': `Bearer ${state.token}` }
+                });
+                const detailsData = await detailsRes.json().catch(() => ({}));
+                if (!detailsRes.ok || !detailsData.success) {
+                    throw new Error(detailsData.error || 'Falha ao carregar detalhes da série');
+                }
+
+                const details = detailsData.data || {};
+                const seasonMap = details.seasons || {};
+                const seasons = Object.keys(seasonMap);
+                const expandedItems = [];
+
+                for (const season of seasons) {
+                    const episodes = Array.isArray(seasonMap[season]) ? seasonMap[season] : [];
+                    for (let index = 0; index < episodes.length; index += 1) {
+                        const episode = episodes[index];
+                        const episodeName = String(episode?.name || `Episódio ${index + 1}`);
+                        expandedItems.push({
+                            videoId: String(episode.id),
+                            title: String(seriesTitle || details.title || 'Série'),
+                            mediaType: 'series',
+                            season: String(season),
+                            episodeName,
+                            episodeIndex: index + 1
+                        });
+                    }
+                }
+
+                if (!expandedItems.length) {
+                    throw new Error('Nenhum episódio encontrado para esta série.');
+                }
+
+                return expandedItems;
             },
 
             async searchContent() {
@@ -1027,22 +1090,17 @@ Abra o bot e confira o que preparamos.</textarea>
             async addSearchResultToBatch(videoId, title, type) {
                 if (!this.currentBatchId) return;
                 try {
-                    const res = await fetch(`/api/admin/batch/${this.currentBatchId}/items`, {
-                        method: 'POST',
-                        headers: {
-                            'Authorization': `Bearer ${state.token}`,
-                            'Content-Type': 'application/json'
-                        },
-                        body: JSON.stringify({
-                            items: [{
-                                videoId,
-                                title,
-                                mediaType: type === 'series' ? 'series' : 'movie'
-                            }]
-                        })
-                    });
-                    const data = await res.json();
-                    if (!data.success) throw new Error(data.error || 'Falha ao adicionar conteúdo');
+                    const forceSeries = document.getElementById('batchForceFullSeries')?.checked;
+                    if (type === 'series' && forceSeries) {
+                        const seriesItems = await this.buildSeriesBatchItems(videoId, title);
+                        await this.addItemsToBatch(this.currentBatchId, seriesItems);
+                    } else {
+                        await this.addItemsToBatch(this.currentBatchId, [{
+                            videoId,
+                            title,
+                            mediaType: type === 'series' ? 'series' : 'movie'
+                        }]);
+                    }
 
                     await this.viewBatch(this.currentBatchId);
                     await this.loadBatches();
