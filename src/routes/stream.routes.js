@@ -114,7 +114,6 @@ async function getLiveSegmentPayload(absoluteUrl) {
     return { ...cached, source: 'cache' };
   }
   logger.debug({ msg: '[LiveTV Cache MISS]', url: absoluteUrl.substring(0, 80), cacheSize: liveSegmentCache.size });
-  }
 
   if (liveSegmentInFlight.has(cacheKey)) {
     return liveSegmentInFlight.get(cacheKey);
