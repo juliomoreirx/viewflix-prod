@@ -456,6 +456,9 @@
                     <button data-tab="mongo" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-database w-4 mr-3"></i>Mongo / Conteúdos
                     </button>
+                    <button data-tab="livetvBuffer" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
+                        <i class="fa-solid fa-satellite-dish w-4 mr-3"></i>LiveTV Buffer
+                    </button>
                     <button data-tab="downloads" class="tab-btn w-full text-left px-4 py-2.5 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-white/5 transition">
                         <i class="fa-solid fa-inbox-in w-4 mr-3"></i>Downloads
                     </button>
@@ -810,6 +813,57 @@ Abra o bot e confira o que preparamos.</textarea>
         </button>
     </div>
 </div>
+
+<div id="livetvBufferTab" class="tab-content hidden">
+    <div class="flex items-start justify-between gap-4 mb-6">
+        <div>
+            <h2 class="text-2xl font-black mb-2">LiveTV Buffer por Canal</h2>
+            <p class="text-gray-400 text-sm max-w-3xl">Ative o modo de estabilidade apenas nos canais com travamento, ajustando duração e quantidade de segmentos por canal.</p>
+        </div>
+        <i class="fa-solid fa-satellite-dish text-5xl opacity-20"></i>
+    </div>
+
+    <div class="glass rounded-2xl p-6 mb-6 border border-white/5">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+            <input id="livetvBufferSearchInput" type="text" class="search-box md:col-span-2" placeholder="Buscar por nome do canal ou ID...">
+            <select id="livetvBufferEnabledFilter" class="search-box">
+                <option value="all">Todos (ativado/desativado)</option>
+                <option value="true">Apenas ativados</option>
+                <option value="false">Apenas desativados</option>
+            </select>
+            <select id="livetvBufferStatusFilter" class="search-box">
+                <option value="all">Todos os status</option>
+                <option value="idle">Idle</option>
+                <option value="warming">Warming</option>
+                <option value="ready">Ready</option>
+                <option value="error">Error</option>
+                <option value="disabled">Disabled</option>
+            </select>
+            <div class="flex gap-2">
+                <button id="livetvBufferSearchBtn" class="btn-primary flex-1"><i class="fa-solid fa-magnifying-glass mr-2"></i>Pesquisar</button>
+                <button id="livetvBufferRefreshBtn" class="btn-secondary"><i class="fa-solid fa-rotate-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="livetvBufferSummary" class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6"></div>
+
+    <div id="livetvBufferListContainer" class="space-y-4">
+        <div class="loading-skeleton h-28 rounded-xl"></div>
+        <div class="loading-skeleton h-28 rounded-xl"></div>
+        <div class="loading-skeleton h-28 rounded-xl"></div>
+    </div>
+
+    <div class="flex justify-between items-center mt-6">
+        <button id="livetvBufferPrevPageBtn" class="btn-secondary" disabled>
+            <i class="fa-solid fa-chevron-left mr-2"></i>Anterior
+        </button>
+        <span id="livetvBufferPageInfo" class="text-gray-400 text-sm">Página -- de --</span>
+        <button id="livetvBufferNextPageBtn" class="btn-secondary" disabled>
+            Próxima <i class="fa-solid fa-chevron-right ml-2"></i>
+        </button>
+    </div>
+</div>
                 
                 <div id="downloadsTab" class="tab-content hidden">
                     <div class="flex justify-between items-center mb-8">
@@ -937,6 +991,10 @@ Abra o bot e confira o que preparamos.</textarea>
             mongoUsers: [],
             mongoTotalUsers: 0,
             mongoTotalPages: 0,
+            livetvBufferPage: 1,
+            livetvBufferTotalPages: 1,
+            livetvBufferRows: [],
+            livetvBufferSummary: {},
             bulkConfirmAction: null,
             filters: {
                 q: '',
@@ -986,6 +1044,16 @@ Abra o bot e confira o que preparamos.</textarea>
         const mongoPrevPageBtn = document.getElementById('mongoPrevPageBtn');
         const mongoNextPageBtn = document.getElementById('mongoNextPageBtn');
         const mongoPageInfo = document.getElementById('mongoPageInfo');
+        const livetvBufferSearchInput = document.getElementById('livetvBufferSearchInput');
+        const livetvBufferEnabledFilter = document.getElementById('livetvBufferEnabledFilter');
+        const livetvBufferStatusFilter = document.getElementById('livetvBufferStatusFilter');
+        const livetvBufferSearchBtn = document.getElementById('livetvBufferSearchBtn');
+        const livetvBufferRefreshBtn = document.getElementById('livetvBufferRefreshBtn');
+        const livetvBufferSummary = document.getElementById('livetvBufferSummary');
+        const livetvBufferListContainer = document.getElementById('livetvBufferListContainer');
+        const livetvBufferPrevPageBtn = document.getElementById('livetvBufferPrevPageBtn');
+        const livetvBufferNextPageBtn = document.getElementById('livetvBufferNextPageBtn');
+        const livetvBufferPageInfo = document.getElementById('livetvBufferPageInfo');
         const bulkConfirmModal = document.getElementById('bulkConfirmModal');
         const bulkConfirmSubtitle = document.getElementById('bulkConfirmSubtitle');
         const bulkConfirmTotal = document.getElementById('bulkConfirmTotal');
@@ -1725,6 +1793,9 @@ Abra o bot e confira o que preparamos.</textarea>
                 } else if (btn.dataset.tab === 'mongo') {
                     state.mongoPage = 1;
                     loadMongoContent();
+                } else if (btn.dataset.tab === 'livetvBuffer') {
+                    state.livetvBufferPage = 1;
+                    loadLiveTvBufferCatalog();
                 }
             });
         });
@@ -1740,6 +1811,11 @@ Abra o bot e confira o que preparamos.</textarea>
 
             if (activeTab === 'downloads') {
                 batchManager.loadBatches();
+                return;
+            }
+
+            if (activeTab === 'livetvBuffer') {
+                loadLiveTvBufferCatalog();
                 return;
             }
 
@@ -2787,6 +2863,65 @@ function renderMongoGroupedItems(items, emptyText, userId) {
             }
         });
 
+        livetvBufferSearchBtn.addEventListener('click', () => {
+            state.livetvBufferPage = 1;
+            loadLiveTvBufferCatalog();
+        });
+        livetvBufferSearchInput.addEventListener('keydown', (event) => {
+            if (event.key === 'Enter') {
+                state.livetvBufferPage = 1;
+                loadLiveTvBufferCatalog();
+            }
+        });
+        livetvBufferRefreshBtn.addEventListener('click', () => {
+            loadLiveTvBufferCatalog();
+        });
+        livetvBufferPrevPageBtn.addEventListener('click', () => {
+            if (state.livetvBufferPage > 1) {
+                state.livetvBufferPage -= 1;
+                loadLiveTvBufferCatalog();
+            }
+        });
+        livetvBufferNextPageBtn.addEventListener('click', () => {
+            if (state.livetvBufferPage < state.livetvBufferTotalPages) {
+                state.livetvBufferPage += 1;
+                loadLiveTvBufferCatalog();
+            }
+        });
+        livetvBufferListContainer.addEventListener('click', async (event) => {
+            const actionBtn = event.target.closest('[data-livetv-action]');
+            if (!actionBtn) return;
+
+            const card = actionBtn.closest('[data-livetv-card]');
+            if (!card) return;
+
+            const channelId = card.dataset.channelId;
+            if (!channelId) return;
+
+            if (actionBtn.dataset.livetvAction === 'save') {
+                const enabledEl = card.querySelector('[data-field="enabled"]');
+                const modeEl = card.querySelector('[data-field="warmupMode"]');
+                const durationEl = card.querySelector('[data-field="segmentDurationSec"]');
+                const countEl = card.querySelector('[data-field="segmentCount"]');
+                const titleEl = card.querySelector('[data-field="channelTitle"]');
+
+                const payload = {
+                    enabled: !!enabledEl?.checked,
+                    warmupMode: modeEl?.value || 'on-demand',
+                    segmentDurationSec: Math.max(2, Math.min(20, Number(durationEl?.value || 6))),
+                    segmentCount: Math.max(5, Math.min(180, Number(countEl?.value || 30))),
+                    channelTitle: String(titleEl?.value || '').trim()
+                };
+
+                await saveLiveTvBufferProfile(channelId, payload, actionBtn);
+                return;
+            }
+
+            if (actionBtn.dataset.livetvAction === 'warmup') {
+                await requestLiveTvWarmup(channelId, actionBtn);
+            }
+        });
+
         function setBroadcastStatus(type, html) {
             const box = document.getElementById('broadcastStatus');
             box.classList.remove('hidden', 'border-green-500/30', 'bg-green-500/5', 'text-green-300', 'border-red-500/30', 'bg-red-500/5', 'text-red-300', 'border-blue-500/30', 'bg-blue-500/5', 'text-blue-300');
@@ -2844,6 +2979,204 @@ function buildMongoSummary(summary = {}) {
             <i class="fa-solid fa-clock text-2xl opacity-20 text-orange-400"></i>
         </div>
     `;
+}
+
+function buildLiveTvBufferSummary(summary = {}) {
+    return `
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Canais</p>
+                <p class="text-2xl font-black gradient-text">${summary.totalChannels || 0}</p>
+            </div>
+            <i class="fa-solid fa-tv text-2xl opacity-20 text-[#4facfe]"></i>
+        </div>
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Ativados</p>
+                <p class="text-2xl font-black text-blue-400">${summary.enabledChannels || 0}</p>
+            </div>
+            <i class="fa-solid fa-toggle-on text-2xl opacity-20 text-blue-400"></i>
+        </div>
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Warming</p>
+                <p class="text-2xl font-black text-amber-400">${summary.warmingChannels || 0}</p>
+            </div>
+            <i class="fa-solid fa-fire text-2xl opacity-20 text-amber-400"></i>
+        </div>
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Ready</p>
+                <p class="text-2xl font-black text-green-400">${summary.readyChannels || 0}</p>
+            </div>
+            <i class="fa-solid fa-circle-check text-2xl opacity-20 text-green-400"></i>
+        </div>
+        <div class="glass p-4 rounded-xl border border-white/5 flex items-center justify-between">
+            <div>
+                <p class="text-xs text-gray-400 font-medium mb-1">Erros</p>
+                <p class="text-2xl font-black text-red-400">${summary.errorChannels || 0}</p>
+            </div>
+            <i class="fa-solid fa-triangle-exclamation text-2xl opacity-20 text-red-400"></i>
+        </div>
+    `;
+}
+
+function renderLiveTvBufferCatalog() {
+    const rows = state.livetvBufferRows || [];
+    const summary = state.livetvBufferSummary || {};
+    livetvBufferSummary.innerHTML = buildLiveTvBufferSummary(summary);
+
+    if (!rows.length) {
+        livetvBufferListContainer.innerHTML = '<div class="glass p-8 rounded-xl text-center text-gray-500 border border-white/5"><i class="fa-solid fa-satellite-dish text-4xl mb-3 opacity-50"></i><p>Nenhum canal encontrado</p></div>';
+        livetvBufferPageInfo.textContent = `Página ${state.livetvBufferPage} de ${state.livetvBufferTotalPages}`;
+        livetvBufferPrevPageBtn.disabled = true;
+        livetvBufferNextPageBtn.disabled = true;
+        return;
+    }
+
+    livetvBufferListContainer.innerHTML = rows.map((row) => {
+        const profile = row.profile || {};
+        const status = String(profile.status || 'disabled');
+        const statusColor = {
+            ready: 'text-green-400',
+            warming: 'text-amber-400',
+            error: 'text-red-400',
+            idle: 'text-blue-400',
+            disabled: 'text-gray-400'
+        }[status] || 'text-gray-400';
+
+        return `
+            <div class="glass rounded-xl p-5 border border-white/5" data-livetv-card="1" data-channel-id="${sanitize(row.channelId)}">
+                <div class="grid grid-cols-1 xl:grid-cols-12 gap-4 items-start">
+                    <div class="xl:col-span-4 min-w-0">
+                        <p class="font-bold text-lg truncate">${sanitize(row.channelTitle || row.channelId)}</p>
+                        <p class="text-xs text-gray-500 mt-1 break-all">ID: ${sanitize(row.channelId)}</p>
+                        <p class="text-xs mt-2 ${statusColor}">Status: ${sanitize(status.toUpperCase())}</p>
+                        ${profile.lastError ? `<p class="text-xs text-red-300 mt-1">Erro: ${sanitize(profile.lastError)}</p>` : ''}
+                    </div>
+
+                    <div class="xl:col-span-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
+                        <label class="glass p-3 rounded-lg border border-white/5 flex items-center gap-2 text-sm">
+                            <input type="checkbox" data-field="enabled" ${profile.enabled ? 'checked' : ''}>
+                            <span>Ativado</span>
+                        </label>
+
+                        <div>
+                            <p class="text-xs text-gray-500 mb-1">Modo</p>
+                            <select class="search-box" data-field="warmupMode">
+                                <option value="on-demand" ${profile.warmupMode === 'on-demand' ? 'selected' : ''}>On-demand</option>
+                                <option value="always-on" ${profile.warmupMode === 'always-on' ? 'selected' : ''}>Always-on</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <p class="text-xs text-gray-500 mb-1">Seg./segmento</p>
+                            <input class="search-box" type="number" min="2" max="20" data-field="segmentDurationSec" value="${Number(profile.segmentDurationSec || 6)}">
+                        </div>
+
+                        <div>
+                            <p class="text-xs text-gray-500 mb-1">Qtd. segmentos</p>
+                            <input class="search-box" type="number" min="5" max="180" data-field="segmentCount" value="${Number(profile.segmentCount || 30)}">
+                        </div>
+
+                        <div class="flex flex-col gap-2">
+                            <button class="btn-primary text-sm" data-livetv-action="save"><i class="fa-solid fa-floppy-disk mr-2"></i>Salvar</button>
+                            <button class="btn-secondary text-sm" data-livetv-action="warmup"><i class="fa-solid fa-fire mr-2"></i>Warmup</button>
+                        </div>
+                    </div>
+
+                    <input type="hidden" data-field="channelTitle" value="${sanitize(row.channelTitle || '')}">
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    livetvBufferPageInfo.textContent = `Página ${state.livetvBufferPage} de ${state.livetvBufferTotalPages}`;
+    livetvBufferPrevPageBtn.disabled = state.livetvBufferPage <= 1;
+    livetvBufferNextPageBtn.disabled = state.livetvBufferPage >= state.livetvBufferTotalPages;
+}
+
+async function loadLiveTvBufferCatalog() {
+    if (!state.token) return;
+
+    const params = new URLSearchParams({
+        q: (livetvBufferSearchInput?.value || '').trim(),
+        enabled: livetvBufferEnabledFilter?.value || 'all',
+        status: livetvBufferStatusFilter?.value || 'all',
+        page: String(state.livetvBufferPage || 1),
+        limit: '30'
+    });
+
+    try {
+        livetvBufferListContainer.innerHTML = '<div class="space-y-3">' + Array(3).fill().map(() => '<div class="loading-skeleton h-24 rounded-xl"></div>').join('') + '</div>';
+        const res = await fetch(`/api/admin/livetv-buffer/catalog?${params.toString()}`, {
+            headers: { 'Authorization': `Bearer ${state.token}` }
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.success) throw new Error(data.error || 'Falha ao carregar canais de LiveTV Buffer');
+
+        state.livetvBufferRows = data.data || [];
+        state.livetvBufferSummary = data.summary || {};
+        state.livetvBufferTotalPages = Math.max(1, Number(data.totalPages || 1));
+        state.livetvBufferPage = Math.max(1, Number(data.page || state.livetvBufferPage || 1));
+        renderLiveTvBufferCatalog();
+    } catch (err) {
+        livetvBufferListContainer.innerHTML = `<div class="glass p-6 rounded-xl text-center text-red-400"><i class="fa-solid fa-circle-exclamation mr-2"></i>${sanitize(err.message)}</div>`;
+    }
+}
+
+async function saveLiveTvBufferProfile(channelId, payload, btn) {
+    if (!state.token || !channelId) return;
+    const originalHtml = btn?.innerHTML;
+    if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Salvando...';
+    }
+    try {
+        const res = await fetch(`/api/admin/livetv-buffer/profiles/${encodeURIComponent(channelId)}`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${state.token}`,
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(payload)
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.success) throw new Error(data.error || 'Falha ao salvar perfil de buffering');
+        await loadLiveTvBufferCatalog();
+    } catch (err) {
+        alert(err.message);
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = originalHtml || '<i class="fa-solid fa-floppy-disk mr-2"></i>Salvar';
+        }
+    }
+}
+
+async function requestLiveTvWarmup(channelId, btn) {
+    if (!state.token || !channelId) return;
+    const originalHtml = btn?.innerHTML;
+    if (btn) {
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i>Solicitando...';
+    }
+    try {
+        const res = await fetch(`/api/admin/livetv-buffer/profiles/${encodeURIComponent(channelId)}/warmup`, {
+            method: 'POST',
+            headers: { 'Authorization': `Bearer ${state.token}` }
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.success) throw new Error(data.error || 'Falha ao solicitar warmup');
+        await loadLiveTvBufferCatalog();
+    } catch (err) {
+        alert(err.message);
+    } finally {
+        if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = originalHtml || '<i class="fa-solid fa-fire mr-2"></i>Warmup';
+        }
+    }
 }
 
 function renderMongoUsers() {

@@ -46,6 +46,27 @@ const contentLibrarySchema = z.object({
   type: z.enum(['all', 'movies', 'series', 'livetv']).optional().default('all')
 });
 
+const liveTvBufferCatalogSchema = z.object({
+  q: z.string().trim().optional(),
+  enabled: z.enum(['all', 'true', 'false']).optional().default('all'),
+  status: z.enum(['all', 'disabled', 'idle', 'warming', 'ready', 'error']).optional().default('all'),
+  page: z.coerce.number().int().min(1).optional().default(1),
+  limit: z.coerce.number().int().min(1).max(200).optional().default(50)
+});
+
+const liveTvBufferProfileSchema = z.object({
+  enabled: z.coerce.boolean().optional(),
+  channelTitle: z.string().trim().max(180).optional(),
+  segmentDurationSec: z.coerce.number().int().min(2).max(20).optional(),
+  segmentCount: z.coerce.number().int().min(5).max(180).optional(),
+  warmupMode: z.enum(['on-demand', 'always-on']).optional(),
+  statusNote: z.string().trim().max(300).optional()
+});
+
+const liveTvChannelParamSchema = z.object({
+  channelId: z.string().trim().min(1).max(200)
+});
+
 const createLinkSchema = z.object({
   userId: z.coerce.number().int().positive(),
   contentId: z.string().trim().min(1),
@@ -77,6 +98,32 @@ function formatSearchItem(item, sourceType) {
 
 function getContentSearchLabel(item) {
   return String(item?.name || item?.title || item?.originalTitle || item?.label || '').trim();
+}
+
+function getLiveTvChannelLabel(item) {
+  return String(item?.name || item?.title || item?.originalTitle || item?.label || item?.id || '').trim();
+}
+
+function formatLiveTvBufferProfile(profile = {}, fallback = {}) {
+  const segmentDurationSec = Number(profile.segmentDurationSec || 6);
+  const segmentCount = Number(profile.segmentCount || 30);
+  const status = String(profile.status || (profile.enabled ? 'idle' : 'disabled'));
+  return {
+    channelId: String(profile.channelId || fallback.channelId || ''),
+    channelTitle: String(profile.channelTitle || fallback.channelTitle || ''),
+    enabled: !!profile.enabled,
+    warmupMode: String(profile.warmupMode || 'on-demand'),
+    segmentDurationSec,
+    segmentCount,
+    targetBufferSec: segmentDurationSec * segmentCount,
+    status,
+    statusNote: profile.statusNote || null,
+    lastWarmupAt: profile.lastWarmupAt || null,
+    lastReadyAt: profile.lastReadyAt || null,
+    lastError: profile.lastError || null,
+    updatedAt: profile.updatedAt || null,
+    createdAt: profile.createdAt || null
+  };
 }
 
 function buildPurchaseQuery({ userId, includeBatch = true, activeOnly = false, expiredOnly = false } = {}) {
@@ -763,6 +810,182 @@ router.get('/api/admin/content/library', adminAuth, asyncHandler(async (req, res
     success: true,
     total: data.length,
     data
+  });
+}));
+
+router.get('/api/admin/livetv-buffer/catalog', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = liveTvBufferCatalogSchema.safeParse(req.query);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+  }
+
+  const { q = '', enabled = 'all', status = 'all', page = 1, limit = 50 } = parsed.data;
+  const term = String(q || '').toLowerCase().trim();
+  const { LiveTvBufferProfile } = req.app.locals.models;
+
+  if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
+    await atualizarCache(false);
+  }
+
+  if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
+    await atualizarCache(true);
+  }
+
+  const catalogChannels = (CACHE_CONTEUDO.livetv || []).map((item) => ({
+    channelId: String(item?.id || '').trim(),
+    channelTitle: getLiveTvChannelLabel(item),
+    cover: item?.img || item?.cover || null
+  })).filter((item) => item.channelId);
+
+  const profiles = await LiveTvBufferProfile.find({}).lean();
+  const profileByChannelId = new Map(profiles.map((profile) => [String(profile.channelId), profile]));
+  const catalogChannelIds = new Set(catalogChannels.map((row) => row.channelId));
+
+  const merged = catalogChannels.map((row) => {
+    const profile = profileByChannelId.get(row.channelId);
+    return {
+      channelId: row.channelId,
+      channelTitle: row.channelTitle,
+      cover: row.cover,
+      inCatalog: true,
+      profile: formatLiveTvBufferProfile(profile || { channelId: row.channelId, channelTitle: row.channelTitle, enabled: false })
+    };
+  });
+
+  for (const profile of profiles) {
+    const profileChannelId = String(profile.channelId || '');
+    if (!profileChannelId || catalogChannelIds.has(profileChannelId)) continue;
+    merged.push({
+      channelId: profileChannelId,
+      channelTitle: String(profile.channelTitle || profileChannelId),
+      cover: null,
+      inCatalog: false,
+      profile: formatLiveTvBufferProfile(profile)
+    });
+  }
+
+  const filtered = merged.filter((item) => {
+    if (enabled !== 'all') {
+      const isEnabled = !!item.profile.enabled;
+      if (enabled === 'true' && !isEnabled) return false;
+      if (enabled === 'false' && isEnabled) return false;
+    }
+
+    if (status !== 'all' && String(item.profile.status) !== status) return false;
+
+    if (!term) return true;
+    const haystack = `${String(item.channelTitle || '')} ${String(item.channelId || '')}`.toLowerCase();
+    return haystack.includes(term);
+  });
+
+  const total = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / limit));
+  const safePage = Math.min(page, totalPages);
+  const start = (safePage - 1) * limit;
+  const data = filtered.slice(start, start + limit);
+
+  const summary = {
+    totalChannels: merged.length,
+    enabledChannels: merged.filter((item) => item.profile.enabled).length,
+    warmingChannels: merged.filter((item) => item.profile.status === 'warming').length,
+    readyChannels: merged.filter((item) => item.profile.status === 'ready').length,
+    errorChannels: merged.filter((item) => item.profile.status === 'error').length
+  };
+
+  return res.json({
+    success: true,
+    page: safePage,
+    total,
+    totalPages,
+    limit,
+    summary,
+    data
+  });
+}));
+
+router.get('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = liveTvChannelParamSchema.safeParse(req.params);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+  }
+
+  const { LiveTvBufferProfile } = req.app.locals.models;
+  const profile = await LiveTvBufferProfile.findOne({ channelId: parsed.data.channelId }).lean();
+  if (!profile) {
+    return res.status(404).json({ error: 'Perfil de buffering não encontrado' });
+  }
+
+  return res.json({
+    success: true,
+    data: formatLiveTvBufferProfile(profile)
+  });
+}));
+
+router.put('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandler(async (req, res) => {
+  const parsedParams = liveTvChannelParamSchema.safeParse(req.params);
+  if (!parsedParams.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsedParams.error.flatten() });
+  }
+
+  const parsedBody = liveTvBufferProfileSchema.safeParse(req.body || {});
+  if (!parsedBody.success) {
+    return res.status(400).json({ error: 'Dados inválidos', details: parsedBody.error.flatten() });
+  }
+
+  const { channelId } = parsedParams.data;
+  const updates = parsedBody.data;
+  const { LiveTvBufferProfile } = req.app.locals.models;
+
+  const existing = await LiveTvBufferProfile.findOne({ channelId });
+  const nextEnabled = typeof updates.enabled === 'boolean' ? updates.enabled : !!existing?.enabled;
+
+  const payload = {
+    ...updates,
+    channelId,
+    status: nextEnabled
+      ? (existing?.status === 'disabled' || !existing?.status ? 'idle' : existing.status)
+      : 'disabled',
+    lastError: nextEnabled ? (existing?.lastError || null) : null
+  };
+
+  const profile = await LiveTvBufferProfile.findOneAndUpdate(
+    { channelId },
+    { $set: payload, $setOnInsert: { channelId } },
+    { upsert: true, new: true }
+  ).lean();
+
+  return res.json({
+    success: true,
+    data: formatLiveTvBufferProfile(profile)
+  });
+}));
+
+router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, asyncHandler(async (req, res) => {
+  const parsed = liveTvChannelParamSchema.safeParse(req.params);
+  if (!parsed.success) {
+    return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
+  }
+
+  const { LiveTvBufferProfile } = req.app.locals.models;
+  const profile = await LiveTvBufferProfile.findOne({ channelId: parsed.data.channelId });
+  if (!profile) {
+    return res.status(404).json({ error: 'Perfil de buffering não encontrado' });
+  }
+
+  if (!profile.enabled) {
+    return res.status(400).json({ error: 'Ative o buffering do canal antes de aquecer' });
+  }
+
+  profile.status = 'warming';
+  profile.lastWarmupAt = new Date();
+  profile.lastError = null;
+  profile.statusNote = profile.statusNote || 'Warmup solicitado manualmente pelo admin';
+  await profile.save();
+
+  return res.json({
+    success: true,
+    message: 'Warmup solicitado. Integração do worker será conectada no próximo passo.',
+    data: formatLiveTvBufferProfile(profile.toObject())
   });
 }));
 
