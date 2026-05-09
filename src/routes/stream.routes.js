@@ -227,6 +227,10 @@ function formatLiveTvBufferStatus(profile = {}, fallback = {}) {
   };
 }
 
+function getLiveTvBufferProfileModel(req) {
+  return req.app.locals.models?.LiveTvBufferProfile || require('../models/livetv-buffer-profile.model');
+}
+
 router.get('/api/livetv-buffer/:channelId/status', async (req, res) => {
   try {
     const parsed = liveTvBufferStatusSchema.safeParse(req.params);
@@ -235,7 +239,7 @@ router.get('/api/livetv-buffer/:channelId/status', async (req, res) => {
     }
 
     const channelId = parsed.data.channelId;
-    const { LiveTvBufferProfile } = req.app.locals.models || {};
+    const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
 
     if (!LiveTvBufferProfile) {
       return res.json({

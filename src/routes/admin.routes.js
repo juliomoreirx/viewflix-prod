@@ -126,6 +126,10 @@ function formatLiveTvBufferProfile(profile = {}, fallback = {}) {
   };
 }
 
+function getLiveTvBufferProfileModel(req) {
+  return req.app.locals.models?.LiveTvBufferProfile || require('../models/livetv-buffer-profile.model');
+}
+
 function buildPurchaseQuery({ userId, includeBatch = true, activeOnly = false, expiredOnly = false } = {}) {
   const query = {
     mediaType: { $in: ['movie', 'series', 'livetv'] }
@@ -821,7 +825,7 @@ router.get('/api/admin/livetv-buffer/catalog', adminAuth, asyncHandler(async (re
 
   const { q = '', enabled = 'all', status = 'all', page = 1, limit = 50 } = parsed.data;
   const term = String(q || '').toLowerCase().trim();
-  const { LiveTvBufferProfile } = req.app.locals.models;
+  const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
 
   if (!CACHE_CONTEUDO.movies.length && !CACHE_CONTEUDO.series.length && !(CACHE_CONTEUDO.livetv || []).length) {
     await atualizarCache(false);
@@ -909,7 +913,7 @@ router.get('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandl
     return res.status(400).json({ error: 'Parâmetros inválidos', details: parsed.error.flatten() });
   }
 
-  const { LiveTvBufferProfile } = req.app.locals.models;
+  const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
   const profile = await LiveTvBufferProfile.findOne({ channelId: parsed.data.channelId }).lean();
   if (!profile) {
     return res.status(404).json({ error: 'Perfil de buffering não encontrado' });
@@ -934,7 +938,7 @@ router.put('/api/admin/livetv-buffer/profiles/:channelId', adminAuth, asyncHandl
 
   const { channelId } = parsedParams.data;
   const updates = parsedBody.data;
-  const { LiveTvBufferProfile } = req.app.locals.models;
+  const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
 
   const existing = await LiveTvBufferProfile.findOne({ channelId });
   const nextEnabled = typeof updates.enabled === 'boolean' ? updates.enabled : !!existing?.enabled;
@@ -967,7 +971,7 @@ router.post('/api/admin/livetv-buffer/profiles/:channelId/warmup', adminAuth, as
   }
 
   const channelId = parsed.data.channelId;
-  const { LiveTvBufferProfile } = req.app.locals.models;
+  const LiveTvBufferProfile = getLiveTvBufferProfileModel(req);
   const catalogItem = (CACHE_CONTEUDO.livetv || []).find((item) => String(item?.id || '') === channelId);
   const fallbackTitle = getLiveTvChannelLabel(catalogItem || { id: channelId });
 
