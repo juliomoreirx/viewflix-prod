@@ -4,9 +4,11 @@
 const axios = require('axios');
 const { CookieJar } = require('tough-cookie');
 const { wrapper } = require('axios-cookiejar-support');
+const { HttpProxyAgent } = require('http-proxy-agent');
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const env = require('../config/env');
 
 class CookieManagerService {
   constructor(config = {}) {
@@ -23,6 +25,7 @@ class CookieManagerService {
     this.homepageUrl = `${this.targetUrl}/index.php?page=homepage`;
     this.loginUrl = `${this.targetUrl}/index.php?page=login`;
     this.ajaxLoginUrl = `${this.targetUrl}/ajax/login.php`;
+    this.residentialProxyAgent = this.buildResidentialProxyAgent();
 
     // Estado
     this.sessionCookies = process.env.SESSION_COOKIES || '';
@@ -106,6 +109,7 @@ class CookieManagerService {
     try {
       const headers = this.buildHeaders();
       const response = await axios.get(this.homepageUrl, {
+        ...this.withOptionalResidentialProxy({}, this.homepageUrl),
         headers,
         timeout: this.timeout,
         validateStatus: (status) => status < 500
@@ -157,6 +161,7 @@ class CookieManagerService {
         const client = wrapper(axios.create({ jar, withCredentials: true }));
 
         const loginPageResponse = await client.get(this.loginUrl, {
+          ...this.withOptionalResidentialProxy({}, this.loginUrl),
           headers: this.buildBrowserHeaders(),
           timeout: this.timeout,
           maxRedirects: 5,
@@ -185,6 +190,7 @@ class CookieManagerService {
             login: 'Acessar'
           }).toString(),
           {
+            ...this.withOptionalResidentialProxy({}, this.loginUrl),
             headers: {
               ...this.buildBrowserHeaders(),
               'Content-Type': 'application/x-www-form-urlencoded',
@@ -209,6 +215,7 @@ class CookieManagerService {
             type: '1'
           }).toString(),
           {
+            ...this.withOptionalResidentialProxy({}, this.ajaxLoginUrl),
             headers: {
               ...this.buildBrowserHeaders(),
               'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
@@ -610,6 +617,46 @@ class CookieManagerService {
       'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
       Connection: 'keep-alive'
     };
+  }
+
+  buildResidentialProxyAgent() {
+    const proxyEnabled = String(env.RES_PROXY_ENABLED || process.env.RES_PROXY_ENABLED || 'false')
+      .replace(/['"]/g, '')
+      .trim()
+      .toLowerCase() === 'true';
+    const proxyHost = (env.RES_PROXY_HOST || process.env.RES_PROXY_HOST || '').trim();
+    const proxyPort = parseInt(String(env.RES_PROXY_PORT || process.env.RES_PROXY_PORT || '0').trim(), 10);
+    const proxyUser = env.RES_PROXY_USER || process.env.RES_PROXY_USER || '';
+    const proxyPass = env.RES_PROXY_PASS || process.env.RES_PROXY_PASS || '';
+
+    if (!proxyEnabled || !proxyHost || !proxyPort || !proxyUser || !proxyPass) {
+      return null;
+    }
+
+    const proxyUrl = `http://${encodeURIComponent(proxyUser)}:${encodeURIComponent(proxyPass)}@${proxyHost}:${proxyPort}`;
+    return new HttpProxyAgent(proxyUrl);
+  }
+
+  shouldUseResidentialProxy(url = '') {
+    try {
+      const host = new URL(url).hostname.toLowerCase();
+      return host === 'vouver.me' || host.endsWith('.vouver.me');
+    } catch {
+      return false;
+    }
+  }
+
+  withOptionalResidentialProxy(axiosConfig = {}, url = '') {
+    if (this.residentialProxyAgent && this.shouldUseResidentialProxy(url)) {
+      return {
+        ...axiosConfig,
+        httpAgent: this.residentialProxyAgent,
+        httpsAgent: this.residentialProxyAgent,
+        proxy: false
+      };
+    }
+
+    return axiosConfig;
   }
 
   /**
