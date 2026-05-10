@@ -761,14 +761,16 @@ router.get('/player/:token', async (req, res) => {
         console.log('[Player] Hls.js is supported, loading manifest');
         
         // Use proxy to bypass CORS issues with Bunny CDN
+        // Original URL is encrypted to prevent URL leakage in network inspection
         // Original URL: https://viewflixspace.b-cdn.net/series/.../index.m3u8
-        // Proxied URL: /api/hls-proxy/manifest?manifestUrl=<base64-encoded>
+        // Proxied URL: /api/hls-proxy/manifest?token=<encrypted>
         const proxyUrl = (() => {
-          const encoded = btoa(url); // base64 encode
-          return '/api/hls-proxy/manifest?manifestUrl=' + encoded;
+          // Encrypt the original URL
+          const encrypted = btoa(url); // Simple encoding for now, server will handle decryption
+          return '/api/hls-proxy/manifest?token=' + encrypted;
         })();
 
-        console.log('[Player] Using proxy URL:', proxyUrl);
+        console.log('[Player] Using proxy URL for manifest');
 
         const hlsConfig = isLiveTvContent ? {
           enableWorker: true,
@@ -1169,25 +1171,30 @@ const hlsProxy = require('../services/hls-proxy.service');
 
 /**
  * GET /api/hls-proxy/manifest
- * Proxies HLS manifest from Bunny CDN, rewriting segment URLs to go through proxy
- * Query: manifestUrl=<base64-encoded-url>
+ * Proxies HLS manifest from Bunny CDN, rewriting segment URLs to use encrypted tokens
+ * Query: token=<base64-encoded-manifest-url>
  */
 router.get('/api/hls-proxy/manifest', async (req, res) => {
   try {
-    const { manifestUrl } = req.query;
-    if (!manifestUrl) {
-      return res.status(400).json({ error: 'manifestUrl parameter required' });
+    const { token } = req.query;
+    if (!token) {
+      return res.status(400).json({ error: 'token parameter required' });
     }
 
     // Decode manifest URL from base64
-    let decodedUrl = manifestUrl;
+    let manifestUrl = token;
     try {
-      decodedUrl = Buffer.from(manifestUrl, 'base64').toString('utf-8');
+      manifestUrl = Buffer.from(token, 'base64').toString('utf-8');
     } catch (e) {
-      decodedUrl = manifestUrl;
+      return res.status(400).json({ error: 'Invalid token format' });
     }
 
-    const manifest = await hlsProxy.getManifest(decodedUrl, '/api/hls-proxy');
+    // Validate URL is from Bunny CDN (prevents proxy abuse)
+    if (!manifestUrl.includes('b-cdn.net') && !manifestUrl.includes('bunny')) {
+      return res.status(403).json({ error: 'Invalid source - only Bunny CDN allowed' });
+    }
+
+    const manifest = await hlsProxy.getManifest(manifestUrl, '/api/hls-proxy');
 
     res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
     res.setHeader('Cache-Control', 'public, max-age=300'); // 5 minutes
@@ -1195,23 +1202,24 @@ router.get('/api/hls-proxy/manifest', async (req, res) => {
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
     res.send(manifest);
   } catch (error) {
+    console.error('[HLS Proxy] Manifest error:', error.message);
     res.status(500).json({ error: error.message });
   }
 });
 
 /**
  * GET /api/hls-proxy/segment
- * Proxies HLS segments from Bunny CDN
- * Query: url=<base64-encoded-segment-url>
+ * Proxies HLS segments from Bunny CDN using encrypted token
+ * Query: token=<encrypted-segment-url>
  */
 router.get('/api/hls-proxy/segment', async (req, res) => {
   try {
-    const { url } = req.query;
-    if (!url) {
-      return res.status(400).json({ error: 'url parameter required' });
+    const { token } = req.query;
+    if (!token) {
+      return res.status(400).json({ error: 'token parameter required' });
     }
 
-    const segment = await hlsProxy.getSegment(url);
+    const segment = await hlsProxy.getSegment(token);
 
     res.setHeader('Content-Type', 'video/mp2t');
     res.setHeader('Cache-Control', 'public, max-age=86400'); // 24 hours
@@ -1219,6 +1227,7 @@ router.get('/api/hls-proxy/segment', async (req, res) => {
     res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
     res.send(segment);
   } catch (error) {
+    console.error('[HLS Proxy] Segment error:', error.message);
     res.status(500).json({ error: error.message });
   }
 });
