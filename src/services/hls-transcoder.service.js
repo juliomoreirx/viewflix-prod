@@ -167,24 +167,35 @@ class HLSTranscoderService {
             const currentFrame = parseInt(frameMatch[1], 10);
             const now = Date.now();
             
-            // Log progress every 5 seconds
-            if ((now - lastProgressLog) > 5000) {
+            // Log progress every 2 seconds
+            if ((now - lastProgressLog) > 2000) {
               lastProgressLog = now;
               const elapsedSecs = Math.round((now - ffmpegStartTime) / 1000);
               const fpsMatch = stderr.match(/fps=\s*([0-9.]+)/);
-              const fps = fpsMatch ? fpsMatch[1] : 'N/A';
+              const fps = fpsMatch ? parseFloat(fpsMatch[1]) : 0;
+              const timeMatch = stderr.match(/time=(\d+):(\d+):([0-9.]+)/);
+              let currentTime = 'N/A';
+              if (timeMatch) {
+                const h = parseInt(timeMatch[1]);
+                const m = parseInt(timeMatch[2]);
+                const s = parseFloat(timeMatch[3]);
+                currentTime = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(Math.floor(s)).padStart(2, '0')}`;
+              }
               
-              logger.debug(
-                `[HLS Transcode] Progress [${elapsedSecs}s]: frame=${currentFrame} fps=${fps}`
+              const bitrate = stderr.match(/bitrate=\s*([0-9.]+kbits\/s)/) ? stderr.match(/bitrate=\s*([0-9.]+kbits\/s)/)[1] : 'N/A';
+              const speed = stderr.match(/speed=\s*([0-9.]+x)/) ? stderr.match(/speed=\s*([0-9.]+x)/)[1] : 'N/A';
+              
+              logger.info(
+                `[HLS Transcode] ⏱️ ${elapsedSecs}s | 📺 Frame: ${currentFrame} | ⚡ ${fps} fps | 🎬 Time: ${currentTime} | 📊 ${bitrate} | 🚀 ${speed}`
               );
 
               // Detect stall: if frame count didn't increase
               if (currentFrame === lastFrameCount && lastFrameCount > 0) {
                 stallCounter++;
-                logger.warn(`[HLS Transcode] Stall detected! Frame count stuck at ${currentFrame} (${stallCounter}x)`);
+                logger.warn(`[HLS Transcode] ⚠️ Stall detected! Frame stuck at ${currentFrame} (${stallCounter}/4)`);
                 
                 if (stallCounter >= 4) {
-                  logger.error(`[HLS Transcode] FFmpeg stalled for too long - killing`);
+                  logger.error(`[HLS Transcode] 💥 FFmpeg stalled for too long - killing process`);
                   ffmpeg.kill('SIGKILL');
                   clearTimeout(timeoutHandle);
                   reject(new Error(`FFmpeg stalled at frame ${currentFrame}`));
@@ -201,9 +212,10 @@ class HLSTranscoderService {
         ffmpeg.on('close', async (code) => {
           clearTimeout(timeoutHandle);
           const elapsedMs = Date.now() - ffmpegStartTime;
+          const elapsedSecs = Math.round(elapsedMs / 1000);
           
           if (code !== 0) {
-            logger.error(`[HLS Transcode] FFmpeg error (code ${code}, ${elapsedMs}ms):`, stderr.slice(-500));
+            logger.error(`[HLS Transcode] 💥 FFmpeg error (code ${code}, ${elapsedSecs}s):`, stderr.slice(-500));
             return reject(new Error(`FFmpeg transcode failed: ${stderr}`));
           }
 
@@ -217,8 +229,15 @@ class HLSTranscoderService {
               throw new Error('Transcode completed but output files missing');
             }
 
+            const totalSize = (await Promise.all(
+              tsFiles.map(f => fs.stat(path.join(outputDir, f)).then(s => s.size).catch(() => 0))
+            )).reduce((a, b) => a + b, 0);
+
+            const totalMB = (totalSize / 1024 / 1024).toFixed(2);
+            const avgBitrate = ((totalSize * 8) / elapsedMs / 1000).toFixed(2);
+
             logger.info(
-              `[HLS Transcode] Complete: ${tsFiles.length} segments in ${elapsedMs}ms (${Math.round(elapsedMs / 1000)}s)`
+              `[HLS Transcode] ✅ Complete in ${elapsedSecs}s | 📦 ${tsFiles.length} segments | 💾 ${totalMB}MB | 📊 ${avgBitrate}kbps avg`
             );
 
             resolve({
@@ -226,7 +245,9 @@ class HLSTranscoderService {
               outputDir,
               manifestPath,
               segmentCount: tsFiles.length,
-              totalDuration: this.segmentDuration * tsFiles.length
+              totalDuration: this.segmentDuration * tsFiles.length,
+              totalSize,
+              elapsedMs
             });
           } catch (err) {
             reject(err);
@@ -240,7 +261,7 @@ class HLSTranscoderService {
         });
 
         // Log start
-        logger.info(`[HLS Transcode] FFmpeg process started with preset=medium, resolution=${this.targetResolution}, bitrate=${this.targetBitrate}`);
+        logger.info(`[HLS Transcode] 🚀 FFmpeg process started | preset=medium | ${this.targetResolution} @ ${this.targetBitrate} | segments=${this.segmentDuration}s`);
       });
     } catch (error) {
       logger.error('[HLS Transcode] Error:', error);
