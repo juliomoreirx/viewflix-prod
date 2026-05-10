@@ -123,6 +123,7 @@ function parseCurlPercent(chunk) {
 }
 
 async function downloadWithCurl(url, outputFile, logDebug) {
+  let lastReportedPercent = -1;
   await new Promise((resolve, reject) => {
     const args = [
       '-L',
@@ -135,12 +136,12 @@ async function downloadWithCurl(url, outputFile, logDebug) {
     ];
 
     const child = spawn('curl', args, { stdio: ['ignore', 'ignore', 'pipe'] });
-    let lastPercent = -1;
 
     child.stderr.on('data', (data) => {
       const percent = parseCurlPercent(data);
-      if (percent !== null && percent !== lastPercent) {
-        lastPercent = percent;
+      // Only log every 25%
+      if (percent !== null && (percent === 0 || percent === 100 || percent % 25 === 0) && percent !== lastReportedPercent) {
+        lastReportedPercent = percent;
         logDebug({ stage: 'curl-download-progress', percent });
       }
     });
@@ -240,6 +241,9 @@ class BunnyCacheService {
     const storagePath = purchase.storagePath || buildStoragePath(purchase);
 
     logDebug({ stage: 'start', purchaseId: String(purchase._id), mediaType: purchase.mediaType, videoId: purchase.videoId, storagePath });
+    
+    // Log clean message to console for visibility
+    logger.info(`[Bunny Cache] Processing ${purchase.mediaType} - ${purchase.title || purchase.videoId}`);
 
     await purchase.updateOne({
       $set: {
@@ -463,6 +467,7 @@ class BunnyCacheService {
               if (contentLength && typeof onProgress === 'function') {
                 // Capeado em 95% durante download; os 5% finais ficam para o upload
                 const percent = Math.min(Math.round((downloadedBytes / contentLength) * 100), 95);
+                // Only report progress every 5%
                 if (percent >= lastDownloadPercent + 5) {
                   lastDownloadPercent = percent;
                   onProgress({
@@ -471,7 +476,10 @@ class BunnyCacheService {
                     totalBytes: contentLength,
                     stage: 'downloading'
                   });
-                  logDebug({ stage: 'download-progress', percent, downloadedBytes, contentLength });
+                  // Only log significant milestones to avoid spam
+                  if (percent === 0 || percent === 95 || percent % 25 === 0) {
+                    logDebug({ stage: 'download-progress', percent, downloadedBytes, contentLength });
+                  }
                 }
               }
             });
@@ -492,6 +500,10 @@ class BunnyCacheService {
         }
 
         logDebug({ stage: 'temp-download-complete', tempFile });
+
+        // Log human-friendly summary
+        const sizeGB = (localSize / 1024 / 1024 / 1024).toFixed(2);
+        logger.info(`[Bunny Cache] ✅ Downloaded: ${sizeGB}GB in ${Math.round((Date.now() - lastProgressAt) / 1000)}s`);
 
         // ============================================================
         // VERIFICAR TAMANHO LOCAL
@@ -588,6 +600,7 @@ class BunnyCacheService {
                 manifestUrl,
                 segmentCount: transcodeResult.segmentCount
               });
+              logger.info(`[Bunny Cache] ✅ Remuxed: ${transcodeResult.segmentCount} segments in ${Math.round(transcodeResult.elapsedMs / 1000)}s`);
             }
           } catch (transcodeError) {
             logDebug({ stage: 'transcode-error', videoId: purchase.videoId, error: transcodeError.message });
@@ -682,6 +695,7 @@ class BunnyCacheService {
 
         if (typeof onReady === 'function') onReady({ storagePath, manifestUrl });
         logDebug({ stage: 'ready', storagePath, manifestUrl });
+        logger.info(`[Bunny Cache] 🎬 Ready: ${purchase.mediaType} ${purchase.episodeName || purchase.title}`);
         return;
 
       } catch (error) {
