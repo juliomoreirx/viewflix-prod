@@ -1232,15 +1232,4 @@ router.get('/api/hls-proxy/segment', async (req, res) => {
   }
 });
 
-/**
- * OPTIONS /api/hls-proxy/*
- * Handle CORS preflight requests
- */
-router.options('/api/hls-proxy/*', (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
-  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-  res.sendStatus(200);
-});
-
 module.exports = router;
