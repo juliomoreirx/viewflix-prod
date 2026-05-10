@@ -22,11 +22,12 @@ class HLSBunnyUploadService {
   /**
    * Upload HLS files to Bunny
    * @param {string} hlsDir - Local directory with index.m3u8 + segments
-   * @param {string} contentId - Content ID for organizing in Bunny
+   * @param {string} contentId - Content ID (videoId for episode or movieId)
    * @param {string} contentType - 'movie' or 'series'
+   * @param {Object} seriesInfo - Optional: {season, episodeName} for series organization
    * @returns {Promise<{success: boolean, manifestUrl: string, uploadedFiles: number, error?: string}>}
    */
-  async uploadHLSToBundle(hlsDir, contentId, contentType = 'movie') {
+  async uploadHLSToBundle(hlsDir, contentId, contentType = 'movie', seriesInfo = null) {
     try {
       logger.info(`[HLS Bunny Upload] Starting: ${contentId} (${hlsDir})`);
 
@@ -35,8 +36,15 @@ class HLSBunnyUploadService {
         throw new Error('index.m3u8 not found in transcoded directory');
       }
 
-      // Bunny path structure: /content/{contentType}/{contentId}/
-      const bunnyPath = `content/${contentType}/${contentId}`;
+      // Bunny path structure:
+      // Movies: /content/movie/{movieId}/
+      // Series: /content/series/{season}/{episodeName}-{videoId}/
+      let bunnyPath;
+      if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
+        bunnyPath = `content/series/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+      } else {
+        bunnyPath = `content/${contentType}/${contentId}`;
+      }
 
       // Upload all files
       let uploadedCount = 0;
@@ -115,11 +123,18 @@ class HLSBunnyUploadService {
    * Delete HLS content from Bunny
    * @param {string} contentId - Content ID to delete
    * @param {string} contentType - 'movie' or 'series'
+   * @param {Object} seriesInfo - Optional: {season, episodeName} for series
    * @returns {Promise<boolean>}
    */
-  async deleteHLSFromBunny(contentId, contentType = 'movie') {
+  async deleteHLSFromBunny(contentId, contentType = 'movie', seriesInfo = null) {
     try {
-      const bunnyPath = `content/${contentType}/${contentId}`;
+      let bunnyPath;
+      if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
+        bunnyPath = `content/series/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+      } else {
+        bunnyPath = `content/${contentType}/${contentId}`;
+      }
+
       const deleteUrl = `${this.bunnyApiUrl}/${this.bunnyStorageName}/${bunnyPath}/`;
 
       const response = await axios.delete(deleteUrl, {
@@ -156,13 +171,33 @@ class HLSBunnyUploadService {
   }
 
   /**
+   * Slugify helper
+   * @private
+   */
+  _slugify(value = '') {
+    return String(value || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-zA-Z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .toLowerCase()
+      .slice(0, 120);
+  }
+
+  /**
    * Get manifest URL for content ID
    * @param {string} contentId - Content ID
    * @param {string} contentType - 'movie' or 'series'
+   * @param {Object} seriesInfo - Optional: {season, episodeName} for series
    * @returns {string} Manifest URL
    */
-  getManifestUrl(contentId, contentType = 'movie') {
-    const bunnyPath = `content/${contentType}/${contentId}`;
+  getManifestUrl(contentId, contentType = 'movie', seriesInfo = null) {
+    let bunnyPath;
+    if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
+      bunnyPath = `content/series/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+    } else {
+      bunnyPath = `content/${contentType}/${contentId}`;
+    }
     return this._constructManifestUrl(bunnyPath);
   }
 }

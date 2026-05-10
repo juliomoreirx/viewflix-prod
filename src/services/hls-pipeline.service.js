@@ -17,7 +17,7 @@ class HLSPipelineService {
 
   /**
    * Process VOD after MP4 upload to Bunny
-   * @param {Object} purchase - Purchase object with videoId, title, mediaType
+   * @param {Object} purchase - Purchase object with videoId, title, mediaType, season, episodeName
    * @param {string} mp4Path - Path to downloaded MP4 file
    * @returns {Promise<{success: boolean, manifestUrl: string, error?: string}>}
    */
@@ -50,10 +50,17 @@ class HLSPipelineService {
 
       // Step 2: Upload HLS to Bunny
       logger.info(`[HLS Pipeline] Uploading to Bunny: ${purchase.videoId}`);
+      
+      // For series, pass season and episodeName for better organization
+      const seriesInfo = purchase.mediaType === 'series' 
+        ? { season: purchase.season || '1', episodeName: purchase.episodeName || 'episodio' }
+        : null;
+
       const uploadResult = await hlsBunnyUpload.uploadHLSToBundle(
         transcodeDir,
         purchase.videoId,
-        purchase.mediaType
+        purchase.mediaType,
+        seriesInfo
       );
 
       if (!uploadResult.success) {
@@ -88,20 +95,22 @@ class HLSPipelineService {
    * Get manifest URL for existing VOD in Bunny
    * @param {string} contentId - Video ID
    * @param {string} contentType - 'movie' or 'series'
+   * @param {Object} seriesInfo - Optional: {season, episodeName} for series
    * @returns {string} Manifest URL
    */
-  getManifestUrl(contentId, contentType = 'movie') {
-    return hlsBunnyUpload.getManifestUrl(contentId, contentType);
+  getManifestUrl(contentId, contentType = 'movie', seriesInfo = null) {
+    return hlsBunnyUpload.getManifestUrl(contentId, contentType, seriesInfo);
   }
 
   /**
    * Delete HLS content from Bunny
    * @param {string} contentId - Video ID
    * @param {string} contentType - 'movie' or 'series'
+   * @param {Object} seriesInfo - Optional: {season, episodeName} for series
    * @returns {Promise<boolean>}
    */
-  async deleteVODFromBunny(contentId, contentType = 'movie') {
-    return hlsBunnyUpload.deleteHLSFromBunny(contentId, contentType);
+  async deleteVODFromBunny(contentId, contentType = 'movie', seriesInfo = null) {
+    return hlsBunnyUpload.deleteHLSFromBunny(contentId, contentType, seriesInfo);
   }
 }
 
