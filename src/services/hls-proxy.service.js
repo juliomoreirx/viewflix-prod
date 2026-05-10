@@ -16,6 +16,45 @@ class HLSProxyService {
     
     // Encryption key from environment or generate one
     this.encryptionKey = this._getEncryptionKey();
+    
+    // Bunny Pull Zone token key
+    this.bunnyPullZoneKey = process.env.BUNNY_PULL_ZONE_KEY || '';
+  }
+
+  /**
+   * Generate Bunny Pull Zone security token
+   * Token format: ?token=<base64>&expires=<timestamp>
+   * Signature is SHA256(path + expires + security key)
+   * @param {string} url - Full URL or path
+   * @returns {string} - Query string with token and expires
+   * @private
+   */
+  _generateBunnyToken(url) {
+    if (!this.bunnyPullZoneKey) {
+      // No token key configured, return empty string
+      return '';
+    }
+
+    try {
+      // Extract path from URL
+      const urlObj = new URL(url.startsWith('http') ? url : 'https://temp.com' + url);
+      const path = urlObj.pathname;
+
+      // Token expires in 24 hours
+      const expiresAt = Math.floor(Date.now() / 1000) + (24 * 3600);
+      
+      // Bunny uses: SHA256(path + expiresAt + securityKey)
+      const hashInput = path + expiresAt + this.bunnyPullZoneKey;
+      const signature = crypto
+        .createHash('sha256')
+        .update(hashInput)
+        .digest('hex');
+
+      return `?token=${signature}&expires=${expiresAt}`;
+    } catch (error) {
+      logger.warn('[HLS Proxy] Failed to generate Bunny token:', error.message);
+      return '';
+    }
   }
 
   /**
@@ -123,7 +162,11 @@ class HLSProxyService {
     try {
       logger.info(`[HLS Proxy] Fetching manifest: ${manifestUrl}`);
 
-      const response = await axios.get(manifestUrl, {
+      // Add Bunny security token if configured
+      const urlWithToken = manifestUrl + this._generateBunnyToken(manifestUrl);
+      logger.debug(`[HLS Proxy] Manifest URL with token: ${urlWithToken}`);
+
+      const response = await axios.get(urlWithToken, {
         timeout: 10000,
         responseType: 'text',
         headers: {
@@ -190,7 +233,10 @@ class HLSProxyService {
     try {
       logger.debug(`[HLS Proxy] Fetching segment (${encryptedToken.substring(0, 20)}...)`);
 
-      const response = await axios.get(segmentUrl, {
+      // Add Bunny security token if configured
+      const urlWithToken = segmentUrl + this._generateBunnyToken(segmentUrl);
+
+      const response = await axios.get(urlWithToken, {
         timeout: 30000,
         responseType: 'arraybuffer',
         headers: {
