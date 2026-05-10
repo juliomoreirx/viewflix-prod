@@ -236,16 +236,78 @@ class BunnyCacheService {
             logDebug({ stage: 'exists-but-small', storagePath, remoteSize, willRetry: true });
             // continua para re-download
           } else {
+            // ============================================================
+            // MP4 JÁ EXISTE - Verificar se precisa transcode
+            // ============================================================
+            const enableHLSTranscode = String(process.env.ENABLE_HLS_TRANSCODE || 'true').toLowerCase() === 'true';
+            let manifestUrl = null;
+
+            // Se HLS transcode habilitado E ainda não foi feito, fazer agora
+            if (enableHLSTranscode && !purchase.hlsManifestUrl) {
+              try {
+                logDebug({ stage: 'transcode-existing-mp4-start', videoId: purchase.videoId });
+
+                await purchase.updateOne({
+                  $set: {
+                    cacheStatus: 'transcoding',
+                    cacheProgress: 99,
+                    cacheUpdatedAt: new Date()
+                  }
+                });
+
+                if (typeof onProgress === 'function') {
+                  onProgress({ percent: 99, stage: 'transcoding' });
+                }
+
+                // Download MP4 temporarily to transcode
+                const tempTranscodeFile = path.join(env.BUNNY_TEMP_DIR || os.tmpdir(), `transcode-${purchase.videoId}-${Date.now()}.mp4`);
+                
+                const mp4Stream = await axios.get(storagePath, {
+                  responseType: 'stream',
+                  timeout: 0,
+                  headers: { 'AccessKey': bunnyStorage.bunnyStorageKey }
+                });
+
+                await new Promise((resolve, reject) => {
+                  const writeStream = fs.createWriteStream(tempTranscodeFile);
+                  mp4Stream.data.pipe(writeStream);
+                  writeStream.on('finish', resolve);
+                  writeStream.on('error', reject);
+                });
+
+                const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempTranscodeFile);
+                
+                if (transcodeResult.success) {
+                  manifestUrl = transcodeResult.manifestUrl;
+                  logDebug({
+                    stage: 'transcode-existing-mp4-complete',
+                    videoId: purchase.videoId,
+                    manifestUrl
+                  });
+                }
+
+                // Cleanup temp transcode file
+                try {
+                  await fsp.unlink(tempTranscodeFile).catch(() => {});
+                } catch (e) {}
+              } catch (transcodeError) {
+                logDebug({ stage: 'transcode-existing-mp4-error', error: transcodeError.message });
+                logger.warn(`[Bunny Cache] HLS transcode of existing MP4 failed: ${transcodeError.message}`);
+              }
+            }
+
             const readyAt = new Date();
             await purchase.updateOne({
               $set: {
                 cacheStatus: 'ready',
                 cacheProgress: 100,
                 cacheReadyAt: readyAt,
-                cacheUpdatedAt: readyAt
+                cacheUpdatedAt: readyAt,
+                storagePath,
+                hlsManifestUrl: manifestUrl  // Store if transcode was done
               }
             });
-            if (typeof onReady === 'function') onReady({ storagePath });
+            if (typeof onReady === 'function') onReady({ storagePath, manifestUrl });
             return;
           }
         }
@@ -550,6 +612,17 @@ class BunnyCacheService {
             logDebug({ stage: 'transcode-error', videoId: purchase.videoId, error: transcodeError.message });
             logger.warn(`[Bunny Cache] HLS transcode failed for ${purchase.videoId}: ${transcodeError.message}`);
             // Continue anyway - MP4 is already uploaded, just skip HLS
+          } finally {
+            // Clean up MP4 temp file after transcode (whether success or fail)
+            try {
+              if (typeof tempFile !== 'undefined' && tempFile) {
+                await fsp.unlink(tempFile).catch(() => {});
+                logDebug({ stage: 'temp-mp4-deleted', tempFile });
+                tempFile = undefined;
+              }
+            } catch (cleanupErr) {
+              logDebug({ stage: 'temp-mp4-delete-error', error: cleanupErr.message });
+            }
           }
         }
 
