@@ -484,6 +484,7 @@ router.get('/player/:token', async (req, res) => {
     const isLiveTvContent = ${JSON.stringify(String(purchase.mediaType || '') === 'livetv')};
     const liveTvChannelId = ${JSON.stringify(String(videoId || ''))};
     const liveTvBufferStatusEndpoint = isLiveTvContent ? '/api/livetv-buffer/' + encodeURIComponent(liveTvChannelId) + '/status' : '';
+    const isVodContent = !isLiveTvContent;
 
     const LIVE_DELAY_SECONDS = 8;
     const LIVE_DELAY_WARNING_THRESHOLD = 1;
@@ -559,6 +560,7 @@ router.get('/player/:token', async (req, res) => {
     let liveTvWarmupTimer = null;
     let liveTvWarmupAttempts = 0;
     let liveTvPlaybackStarted = false;
+    let vodUserSeeking = false;
     const audioTrackWrap = document.getElementById('audioTrackWrap');
     const audioTrackSelect = document.getElementById('audioTrackSelect');
     const qualityTrackWrap = document.getElementById('qualityTrackWrap');
@@ -747,14 +749,27 @@ router.get('/player/:token', async (req, res) => {
       }
 
       if (window.Hls && Hls.isSupported()) {
-        hls = new Hls({
+        const hlsConfig = isLiveTvContent ? {
           enableWorker: true,
           lowLatencyMode: false,
           backBufferLength: 120,
           liveSyncDuration: LIVE_DELAY_SECONDS,
           liveMaxLatencyDuration: LIVE_DELAY_SECONDS * 2,
           liveDurationInfinity: true
-        });
+        } : {
+          enableWorker: true,
+          lowLatencyMode: false,
+          backBufferLength: 180,
+          maxBufferLength: 120,
+          maxMaxBufferLength: 240,
+          maxBufferHole: 0.5,
+          startFragPrefetch: true,
+          fragLoadingTimeOut: 20000,
+          fragLoadingMaxRetry: 4,
+          manifestLoadingMaxRetry: 4
+        };
+
+        hls = new Hls(hlsConfig);
 
         hls.loadSource(url);
         hls.attachMedia(videoEl);
@@ -787,7 +802,7 @@ router.get('/player/:token', async (req, res) => {
             videoEl.currentTime = resumeAt;
           }
 
-          if (LIVE_DELAY_SECONDS > 0) {
+          if (isLiveTvContent && LIVE_DELAY_SECONDS > 0) {
             setStreamStatus('<strong>Modo estabilidade ativo:</strong> buffer de ' + LIVE_DELAY_SECONDS + 's ligado para reduzir travadas.');
           }
 
@@ -802,6 +817,19 @@ router.get('/player/:token', async (req, res) => {
               '<strong>O canal pode estar instável agora.</strong> Estamos segurando o buffer para você. Se demorar, tenha um pouco de paciência.',
               'warn'
             );
+          }
+
+          if (isVodContent && data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+            setStreamStatus(
+              '<strong>Carregando o trecho selecionado...</strong> Estamos tentando continuar sem reiniciar o vídeo.',
+              'warn'
+            );
+            try {
+              hls.startLoad(Math.max(0, Number(videoEl.currentTime || 0) - 0.5));
+            } catch (e) {
+              retryStream();
+            }
+            return;
           }
 
           if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
@@ -922,6 +950,20 @@ router.get('/player/:token', async (req, res) => {
     }
 
     function retryStream() {
+      if (isVodContent) {
+        const videoEl = document.getElementById('player');
+        if (videoEl && videoEl.seeking && hls) {
+          setStreamStatus(
+            '<strong>Carregando o ponto escolhido...</strong> Aguarde enquanto buscamos esse trecho.',
+            'warn'
+          );
+          try {
+            hls.startLoad(Math.max(0, Number(videoEl.currentTime || 0) - 0.5));
+          } catch (e) {}
+          return;
+        }
+      }
+
       if (retryCount >= 3) {
         setStreamStatus(
           '<strong>O canal parece instável no momento.</strong> Vamos tentar reconectar algumas vezes; se persistir, aguarde um pouco antes de tentar novamente.',
@@ -972,6 +1014,14 @@ router.get('/player/:token', async (req, res) => {
 
       videoEl.addEventListener('play', logPlayOnce);
       videoEl.addEventListener('error', retryStream);
+      videoEl.addEventListener('seeking', () => {
+        if (!isVodContent) return;
+        vodUserSeeking = true;
+        setStreamStatus('<strong>Carregando trecho escolhido...</strong> Aguarde um instante.', 'warn');
+      });
+      videoEl.addEventListener('seeked', () => {
+        vodUserSeeking = false;
+      });
       videoEl.addEventListener('pause', () => saveProgress(false));
       videoEl.addEventListener('ended', () => {
         saveProgress(true);
