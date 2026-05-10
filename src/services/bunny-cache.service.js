@@ -548,101 +548,6 @@ class BunnyCacheService {
         }
 
         // ============================================================
-        // UPLOAD PARA O BUNNY
-        // ============================================================
-        // Notifica que está iniciando o upload (96% = limiar entre download e upload)
-        if (typeof onProgress === 'function') {
-          onProgress({ percent: 96, stage: 'uploading' });
-        }
-
-        await purchase.updateOne({
-          $set: {
-            cacheStatus: 'uploading',
-            cacheProgress: 96,
-            cacheUpdatedAt: new Date()
-          }
-        });
-
-        let lastUploadPercent = 0;
-
-        await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
-          // Mapeia 0-100% do upload para 96-99% do progresso total
-          // (100% só é marcado após confirmar que o arquivo existe no Bunny)
-          const rawPercent = Math.max(0, Math.min(100, Math.round(progress.percent || 0)));
-          const mappedPercent = 96 + Math.round(rawPercent * 3 / 100); // 96..99
-
-          if (mappedPercent >= lastUploadPercent + 1) {
-            lastUploadPercent = mappedPercent;
-
-            await purchase.updateOne({
-              $set: {
-                cacheProgress: mappedPercent,
-                cacheUpdatedAt: new Date(),
-                cacheStatus: 'uploading'
-              }
-            });
-
-            if (typeof onProgress === 'function') {
-              onProgress({
-                percent: mappedPercent,
-                uploadedBytes: progress.uploadedBytes,
-                totalBytes: progress.totalBytes,
-                stage: 'uploading'
-              });
-            }
-
-            logDebug({ stage: 'upload-progress', rawPercent, mappedPercent });
-          }
-        });
-
-        // ============================================================
-        // CAPTURAR TAMANHO LOCAL ANTES DE REMOVER O ARQUIVO TEMPORÁRIO
-        // ============================================================
-        localSize = 0;
-        try {
-          const s = await fsp.stat(tempFile);
-          localSize = Number(s.size || 0);
-        } catch (e) {
-          localSize = 0;
-        }
-
-        // NÃO REMOVER AINDA - vamos usar para transcode!
-
-        // ============================================================
-        // CONFIRMAR QUE O ARQUIVO EXISTE NO BUNNY
-        // ============================================================
-        const uploadedExists = await bunnyStorage.exists(storagePath).catch(() => false);
-        if (!uploadedExists) {
-          await purchase.updateOne({
-            $set: {
-              cacheStatus: 'failed',
-              cacheError: 'upload_not_found_after_transfer',
-              cacheUpdatedAt: new Date()
-            }
-          });
-          if (typeof onError === 'function') onError(new Error('Uploaded file not found on Bunny storage'));
-          return;
-        }
-
-        // Verificar tamanho remoto vs local
-        try {
-          const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
-          if (remoteSize && localSize && Math.abs(remoteSize - localSize) > Math.max(100, Math.round(localSize * 0.05))) {
-            await purchase.updateOne({
-              $set: {
-                cacheStatus: 'failed',
-                cacheError: `size_mismatch remote=${remoteSize} local=${localSize}`,
-                cacheUpdatedAt: new Date()
-              }
-            });
-            if (typeof onError === 'function') onError(new Error('Uploaded file size mismatch'));
-            return;
-          }
-        } catch (e) {
-          logDebug({ stage: 'size-check-error', error: e.message });
-        }
-
-        // ============================================================
         // TRANSCODE MP4 TO HLS (Optional)
         // ============================================================
         const enableHLSTranscode = String(process.env.ENABLE_HLS_TRANSCODE || 'true').toLowerCase() === 'true';
@@ -653,13 +558,13 @@ class BunnyCacheService {
             await purchase.updateOne({
               $set: {
                 cacheStatus: 'transcoding',
-                cacheProgress: 99,
+                cacheProgress: 97,
                 cacheUpdatedAt: new Date()
               }
             });
 
             if (typeof onProgress === 'function') {
-              onProgress({ percent: 99, stage: 'transcoding' });
+              onProgress({ percent: 97, stage: 'transcoding' });
             }
 
             // Extract MP4 filename (without .mp4) for movie folder naming
@@ -687,9 +592,10 @@ class BunnyCacheService {
           } catch (transcodeError) {
             logDebug({ stage: 'transcode-error', videoId: purchase.videoId, error: transcodeError.message });
             logger.warn(`[Bunny Cache] HLS transcode failed for ${purchase.videoId}: ${transcodeError.message}`);
-            // Continue anyway - MP4 is already uploaded, just skip HLS
+            // Continue anyway - just skip HLS
           } finally {
             // Clean up MP4 temp file after transcode (whether success or fail)
+            // NOTE: We do NOT upload the MP4 to Bunny when HLS is enabled
             try {
               if (typeof tempFile !== 'undefined' && tempFile) {
                 await fsp.unlink(tempFile).catch(() => {});
@@ -701,7 +607,52 @@ class BunnyCacheService {
             }
           }
         } else {
-          // If transcode disabled, just remove temp file now
+          // If transcode disabled, upload the MP4 to Bunny
+          logDebug({ stage: 'uploading-mp4', storagePath });
+
+          if (typeof onProgress === 'function') {
+            onProgress({ percent: 96, stage: 'uploading' });
+          }
+
+          await purchase.updateOne({
+            $set: {
+              cacheStatus: 'uploading',
+              cacheProgress: 96,
+              cacheUpdatedAt: new Date()
+            }
+          });
+
+          let lastUploadPercent = 0;
+
+          await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
+            const rawPercent = Math.max(0, Math.min(100, Math.round(progress.percent || 0)));
+            const mappedPercent = 96 + Math.round(rawPercent * 3 / 100); // 96..99
+
+            if (mappedPercent >= lastUploadPercent + 1) {
+              lastUploadPercent = mappedPercent;
+
+              await purchase.updateOne({
+                $set: {
+                  cacheProgress: mappedPercent,
+                  cacheUpdatedAt: new Date(),
+                  cacheStatus: 'uploading'
+                }
+              });
+
+              if (typeof onProgress === 'function') {
+                onProgress({
+                  percent: mappedPercent,
+                  uploadedBytes: progress.uploadedBytes,
+                  totalBytes: progress.totalBytes,
+                  stage: 'uploading'
+                });
+              }
+
+              logDebug({ stage: 'upload-progress', rawPercent, mappedPercent });
+            }
+          });
+
+          // Clean up temp file
           try {
             if (typeof tempFile !== 'undefined' && tempFile) {
               await fsp.unlink(tempFile).catch(() => {});
