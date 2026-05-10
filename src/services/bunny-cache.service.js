@@ -337,7 +337,14 @@ class BunnyCacheService {
                   writeStream.on('error', reject);
                 });
 
-                const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempTranscodeFile);
+                // Extract MP4 filename (without .mp4) for movie folder naming
+                let mp4FileName = null;
+                if (purchase.mediaType === 'movie' && storagePath.includes('/')) {
+                  const filename = storagePath.split('/').pop();
+                  mp4FileName = filename.replace(/\.mp4$/i, '');
+                }
+
+                const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempTranscodeFile, mp4FileName);
                 
                 if (transcodeResult.success) {
                   manifestUrl = transcodeResult.manifestUrl;
@@ -655,9 +662,18 @@ class BunnyCacheService {
               onProgress({ percent: 99, stage: 'transcoding' });
             }
 
-            logDebug({ stage: 'transcode-start', videoId: purchase.videoId, tempFile });
+            // Extract MP4 filename (without .mp4) for movie folder naming
+            // storagePath is like: movies/a-abelha-maya-o-filme-2014-60003.mp4
+            // mp4FileName should be: a-abelha-maya-o-filme-2014-60003
+            let mp4FileName = null;
+            if (purchase.mediaType === 'movie' && storagePath.includes('/')) {
+              const filename = storagePath.split('/').pop(); // Get last part
+              mp4FileName = filename.replace(/\.mp4$/i, ''); // Remove .mp4 extension
+            }
 
-            const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempFile);
+            logDebug({ stage: 'transcode-start', videoId: purchase.videoId, tempFile, mp4FileName });
+
+            const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempFile, mp4FileName);
             
             if (transcodeResult.success) {
               manifestUrl = transcodeResult.manifestUrl;

@@ -25,9 +25,10 @@ class HLSBunnyUploadService {
    * @param {string} contentId - Content ID (videoId for episode or movieId)
    * @param {string} contentType - 'movie' or 'series'
    * @param {Object} seriesInfo - Optional: {season, episodeName} for series organization
+   * @param {string} mp4FileName - Optional: MP4 filename for movies (without .mp4)
    * @returns {Promise<{success: boolean, manifestUrl: string, uploadedFiles: number, error?: string}>}
    */
-  async uploadHLSToBundle(hlsDir, contentId, contentType = 'movie', seriesInfo = null) {
+  async uploadHLSToBundle(hlsDir, contentId, contentType = 'movie', seriesInfo = null, mp4FileName = null) {
     try {
       logger.info(`[HLS Bunny Upload] Starting: ${contentId} (${hlsDir})`);
 
@@ -37,11 +38,13 @@ class HLSBunnyUploadService {
       }
 
       // Bunny path structure:
-      // Movies: /content/movie/{movieId}/
+      // Movies: /{mp4FileName}/ (e.g., a-abelha-maya-o-filme-2014-60003/)
       // Series: /content/series/{season}/{episodeName}-{videoId}/
       let bunnyPath;
       if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
         bunnyPath = `content/series/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+      } else if (contentType === 'movie' && mp4FileName) {
+        bunnyPath = mp4FileName;
       } else {
         bunnyPath = `content/${contentType}/${contentId}`;
       }

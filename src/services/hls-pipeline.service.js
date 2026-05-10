@@ -19,9 +19,10 @@ class HLSPipelineService {
    * Process VOD after MP4 upload to Bunny
    * @param {Object} purchase - Purchase object with videoId, title, mediaType, season, episodeName
    * @param {string} mp4Path - Path to downloaded MP4 file
+   * @param {string} mp4FileName - Optional: MP4 filename (without extension) for movies
    * @returns {Promise<{success: boolean, manifestUrl: string, error?: string}>}
    */
-  async processVODToHLS(purchase, mp4Path) {
+  async processVODToHLS(purchase, mp4Path, mp4FileName = null) {
     let transcodeDir = null;
 
     try {
@@ -60,7 +61,8 @@ class HLSPipelineService {
         transcodeDir,
         purchase.videoId,
         purchase.mediaType,
-        seriesInfo
+        seriesInfo,
+        mp4FileName
       );
 
       if (!uploadResult.success) {
