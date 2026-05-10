@@ -54,7 +54,11 @@ class HLSPipelineService {
       
       // For series, pass season and episodeName for better organization
       const seriesInfo = purchase.mediaType === 'series' 
-        ? { season: purchase.season || '1', episodeName: purchase.episodeName || 'episodio' }
+        ? { 
+            season: purchase.season || '1', 
+            episodeName: purchase.episodeName || 'episodio',
+            seriesTitle: purchase.title || 'series'
+          }
         : null;
 
       const uploadResult = await hlsBunnyUpload.uploadHLSToBundle(

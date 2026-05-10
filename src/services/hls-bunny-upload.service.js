@@ -39,10 +39,11 @@ class HLSBunnyUploadService {
 
       // Bunny path structure:
       // Movies: /{mp4FileName}/ (e.g., a-abelha-maya-o-filme-2014-60003/)
-      // Series: /content/series/{season}/{episodeName}-{videoId}/
+      // Series: /{seriesName}/{season}/{episodeName}-{videoId}/
       let bunnyPath;
       if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
-        bunnyPath = `content/series/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+        const seriesName = this._slugify(seriesInfo.seriesTitle || 'series');
+        bunnyPath = `${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
       } else if (contentType === 'movie' && mp4FileName) {
         bunnyPath = mp4FileName;
       } else {
@@ -197,7 +198,8 @@ class HLSBunnyUploadService {
   getManifestUrl(contentId, contentType = 'movie', seriesInfo = null) {
     let bunnyPath;
     if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
-      bunnyPath = `content/series/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+      const seriesName = this._slugify(seriesInfo.seriesTitle || 'series');
+      bunnyPath = `${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
     } else {
       bunnyPath = `content/${contentType}/${contentId}`;
     }
