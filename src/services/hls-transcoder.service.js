@@ -102,6 +102,17 @@ class HLSTranscoderService {
 
       logger.info(`[HLS Transcode] Starting: ${inputPath}`);
 
+      // Verify input file exists and is readable
+      try {
+        const stats = await fs.stat(inputPath);
+        if (!stats.isFile()) {
+          throw new Error(`Input path is not a file: ${inputPath}`);
+        }
+        logger.info(`[HLS Transcode] ✅ Input file verified: ${(stats.size / 1024 / 1024).toFixed(2)}MB`);
+      } catch (err) {
+        throw new Error(`Cannot read input file: ${err.message}`);
+      }
+
       // Ensure output directory exists
       await fs.mkdir(outputDir, { recursive: true });
 
@@ -159,10 +170,16 @@ class HLSTranscoderService {
         });
 
         ffmpeg.stderr.on('data', (data) => {
-          stderr += data.toString();
+          const text = data.toString();
+          stderr += text;
+          
+          // Log FFmpeg errors immediately
+          if (text.includes('error') || text.includes('Error') || text.includes('ERROR')) {
+            logger.error(`[HLS Transcode] FFmpeg error output: ${text.trim()}`);
+          }
           
           // Extract frame count for stall detection
-          const frameMatch = stderr.match(/frame=\s*(\d+)/);
+          const frameMatch = text.match(/frame=\s*(\d+)/);
           if (frameMatch) {
             const currentFrame = parseInt(frameMatch[1], 10);
             const now = Date.now();
@@ -171,9 +188,9 @@ class HLSTranscoderService {
             if ((now - lastProgressLog) > 2000) {
               lastProgressLog = now;
               const elapsedSecs = Math.round((now - ffmpegStartTime) / 1000);
-              const fpsMatch = stderr.match(/fps=\s*([0-9.]+)/);
+              const fpsMatch = text.match(/fps=\s*([0-9.]+)/);
               const fps = fpsMatch ? parseFloat(fpsMatch[1]) : 0;
-              const timeMatch = stderr.match(/time=(\d+):(\d+):([0-9.]+)/);
+              const timeMatch = text.match(/time=(\d+):(\d+):([0-9.]+)/);
               let currentTime = 'N/A';
               if (timeMatch) {
                 const h = parseInt(timeMatch[1]);
@@ -182,8 +199,8 @@ class HLSTranscoderService {
                 currentTime = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(Math.floor(s)).padStart(2, '0')}`;
               }
               
-              const bitrate = stderr.match(/bitrate=\s*([0-9.]+kbits\/s)/) ? stderr.match(/bitrate=\s*([0-9.]+kbits\/s)/)[1] : 'N/A';
-              const speed = stderr.match(/speed=\s*([0-9.]+x)/) ? stderr.match(/speed=\s*([0-9.]+x)/)[1] : 'N/A';
+              const bitrate = text.match(/bitrate=\s*([0-9.]+kbits\/s)/) ? text.match(/bitrate=\s*([0-9.]+kbits\/s)/)[1] : 'N/A';
+              const speed = text.match(/speed=\s*([0-9.]+x)/) ? text.match(/speed=\s*([0-9.]+x)/)[1] : 'N/A';
               
               logger.info(
                 `[HLS Transcode] ⏱️ ${elapsedSecs}s | 📺 Frame: ${currentFrame} | ⚡ ${fps} fps | 🎬 Time: ${currentTime} | 📊 ${bitrate} | 🚀 ${speed}`
@@ -215,8 +232,37 @@ class HLSTranscoderService {
           const elapsedSecs = Math.round(elapsedMs / 1000);
           
           if (code !== 0) {
-            logger.error(`[HLS Transcode] 💥 FFmpeg error (code ${code}, ${elapsedSecs}s):`, stderr.slice(-500));
-            return reject(new Error(`FFmpeg transcode failed: ${stderr}`));
+            // Extract meaningful error from stderr
+            let errorMsg = 'Unknown error';
+            if (stderr) {
+              // Look for specific FFmpeg errors
+              const errorPatterns = [
+                /Unknown codec/i,
+                /Decoder .* not found/i,
+                /Input\/output error/i,
+                /Permission denied/i,
+                /No such file or directory/i,
+                /Invalid data found/i,
+                /not a valid/i
+              ];
+              
+              for (const pattern of errorPatterns) {
+                const match = stderr.match(pattern);
+                if (match) {
+                  errorMsg = match[0];
+                  break;
+                }
+              }
+              
+              // If no specific pattern, show last 500 chars
+              if (errorMsg === 'Unknown error' && stderr.length > 0) {
+                errorMsg = stderr.substring(Math.max(0, stderr.length - 500));
+              }
+            }
+            
+            logger.error(`[HLS Transcode] 💥 FFmpeg error (code ${code}, ${elapsedSecs}s)`);
+            logger.error(`[HLS Transcode] ❌ Error detail: ${errorMsg}`);
+            return reject(new Error(`FFmpeg transcode failed: ${errorMsg}`));
           }
 
           try {
