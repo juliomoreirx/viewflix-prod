@@ -133,7 +133,7 @@ class HLSTranscoderService {
       const ffmpegArgs = [
         '-i', inputPath,
         '-c:v', 'libx264',
-        '-preset', 'medium', // balance speed/quality
+        '-preset', 'fast', // faster encoding with excellent quality
         '-s', this.targetResolution,
         '-b:v', this.targetBitrate,
         '-maxrate', this.targetBitrate,
@@ -307,7 +307,7 @@ class HLSTranscoderService {
         });
 
         // Log start
-        logger.info(`[HLS Transcode] 🚀 FFmpeg process started | preset=medium | ${this.targetResolution} @ ${this.targetBitrate} | segments=${this.segmentDuration}s`);
+        logger.info(`[HLS Transcode] 🚀 FFmpeg process started | preset=fast | ${this.targetResolution} @ ${this.targetBitrate} | segments=${this.segmentDuration}s`);
       });
     } catch (error) {
       logger.error('[HLS Transcode] Error:', error);
