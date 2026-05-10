@@ -16,9 +16,6 @@ class HLSProxyService {
     
     // Encryption key from environment or generate one
     this.encryptionKey = this._getEncryptionKey();
-    
-    // Bunny CDN credentials
-    this.bunnyStorageKey = process.env.BUNNY_STORAGE_KEY || '';
   }
 
   /**
@@ -131,7 +128,9 @@ class HLSProxyService {
         responseType: 'text',
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-          'AccessKey': this.bunnyStorageKey
+          'Accept': '*/*',
+          'Accept-Language': 'pt-BR,pt;q=0.9',
+          'Referer': 'https://watch.viewflix.space/'
         }
       });
 
@@ -196,7 +195,8 @@ class HLSProxyService {
         responseType: 'arraybuffer',
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-          'AccessKey': this.bunnyStorageKey
+          'Accept': '*/*',
+          'Referer': 'https://watch.viewflix.space/'
         }
       });
 
