@@ -81,7 +81,13 @@ router.get('/player/:token', async (req, res) => {
     purchase.viewCount = (purchase.viewCount || 0) + 1;
     await purchase.save();
 
-    const streamPath = `/api/stream-secure/${req.params.token}/${purchase.sessionToken}`;
+    // Determine stream URL: use HLS manifest if available, otherwise use MP4
+    let streamPath = `/api/stream-secure/${req.params.token}/${purchase.sessionToken}`;
+    if (purchase.hlsManifestUrl) {
+      // If HLS manifest was generated during transcode, use it directly
+      streamPath = purchase.hlsManifestUrl;
+    }
+    
     const expirationTimestamp = purchase.expiresAt.getTime();
     let nextEpisode = null;
     let prevEpisode = null;

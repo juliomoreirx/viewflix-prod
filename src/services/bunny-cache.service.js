@@ -7,6 +7,7 @@ const os = require('os');
 const { HttpProxyAgent } = require('http-proxy-agent');
 const env = require('../config/env');
 const bunnyStorage = require('./bunny-storage.service');
+const hlsPipeline = require('./hls-pipeline.service');
 const logger = require('../lib/logger');
 
 const RES_PROXY_HOST = (env.RES_PROXY_HOST || '').trim();
@@ -513,6 +514,46 @@ class BunnyCacheService {
         }
 
         // ============================================================
+        // TRANSCODE MP4 TO HLS (Optional)
+        // ============================================================
+        const enableHLSTranscode = String(process.env.ENABLE_HLS_TRANSCODE || 'true').toLowerCase() === 'true';
+        let manifestUrl = null;
+
+        if (enableHLSTranscode) {
+          try {
+            await purchase.updateOne({
+              $set: {
+                cacheStatus: 'transcoding',
+                cacheProgress: 99,
+                cacheUpdatedAt: new Date()
+              }
+            });
+
+            if (typeof onProgress === 'function') {
+              onProgress({ percent: 99, stage: 'transcoding' });
+            }
+
+            logDebug({ stage: 'transcode-start', videoId: purchase.videoId, tempFile });
+
+            const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempFile);
+            
+            if (transcodeResult.success) {
+              manifestUrl = transcodeResult.manifestUrl;
+              logDebug({
+                stage: 'transcode-complete',
+                videoId: purchase.videoId,
+                manifestUrl,
+                segmentCount: transcodeResult.segmentCount
+              });
+            }
+          } catch (transcodeError) {
+            logDebug({ stage: 'transcode-error', videoId: purchase.videoId, error: transcodeError.message });
+            logger.warn(`[Bunny Cache] HLS transcode failed for ${purchase.videoId}: ${transcodeError.message}`);
+            // Continue anyway - MP4 is already uploaded, just skip HLS
+          }
+        }
+
+        // ============================================================
         // MARCAR COMO PRONTO — 100%
         // ============================================================
         const readyAt = new Date();
@@ -522,7 +563,8 @@ class BunnyCacheService {
             cacheProgress: 100,
             cacheReadyAt: readyAt,
             cacheUpdatedAt: readyAt,
-            storagePath
+            storagePath,
+            hlsManifestUrl: manifestUrl  // Store HLS manifest URL if available
           }
         });
 
@@ -530,8 +572,8 @@ class BunnyCacheService {
           onProgress({ percent: 100, stage: 'ready' });
         }
 
-        if (typeof onReady === 'function') onReady({ storagePath });
-        logDebug({ stage: 'ready', storagePath });
+        if (typeof onReady === 'function') onReady({ storagePath, manifestUrl });
+        logDebug({ stage: 'ready', storagePath, manifestUrl });
         return;
 
       } catch (error) {
