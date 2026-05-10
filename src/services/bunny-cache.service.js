@@ -44,6 +44,37 @@ function buildStoragePath(purchase) {
   return `movies/${titleSlug}-${videoId}.mp4`;
 }
 
+/**
+ * Build HLS path based on purchase info
+ * Supports both old format and Python script format:
+ * - Old: content/series/season-1/episodio-slug-videoId/
+ * - Python: series/titulo/season-1/s01e01-videoId/
+ */
+function buildHLSPath(purchase) {
+  const videoId = String(purchase.videoId || '').trim();
+
+  if (purchase.mediaType === 'series') {
+    const titleSlug = slugify(purchase.title || 'titulo');
+    const seasonNum = String(purchase.season || '1').padStart(2, '0');
+    const episodeNum = String(purchase.episodeIndex || 1).padStart(2, '0');
+    
+    // Python script format: series/titulo-slug/season-1/s01e01-videoId
+    return `series/${titleSlug}/season-${purchase.season || '1'}/s${seasonNum}e${episodeNum}-${videoId}`;
+  }
+
+  // Movie format: movies/titulo-slug-videoId
+  const titleSlug = slugify(purchase.title || 'titulo');
+  return `movies/${titleSlug}-${videoId}`;
+}
+
+/**
+ * Construct HLS manifest URL from path
+ */
+function constructHLSManifestUrl(hlsPath) {
+  const bunnyPullZoneUrl = process.env.BUNNY_PULL_ZONE_URL || '';
+  return `https://${bunnyPullZoneUrl}/${hlsPath}/index.m3u8`;
+}
+
 function getRelayRequestHeaders() {
   return {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
@@ -218,6 +249,37 @@ class BunnyCacheService {
         cacheUpdatedAt: new Date()
       }
     });
+
+    // ============================================================
+    // VERIFICAR SE JÁ EXISTE HLS PARA ESTE CONTEÚDO
+    // ============================================================
+    const hlsPath = buildHLSPath(purchase);
+    const hlsManifestPath = `${hlsPath}/index.m3u8`;
+
+    try {
+      const hlsExists = await bunnyStorage.exists(hlsManifestPath);
+      if (hlsExists) {
+        logDebug({ stage: 'hls-exists', hlsPath, hlsManifestPath });
+        const hlsManifestUrl = constructHLSManifestUrl(hlsPath);
+
+        await purchase.updateOne({
+          $set: {
+            cacheStatus: 'ready',
+            cacheProgress: 100,
+            cacheReadyAt: new Date(),
+            cacheUpdatedAt: new Date(),
+            hlsManifestUrl
+          }
+        });
+
+        if (typeof onReady === 'function') onReady({ storagePath, manifestUrl: hlsManifestUrl });
+        logger.info(`[Bunny Cache] HLS já existe: ${hlsManifestUrl}`);
+        return;
+      }
+    } catch (err) {
+      logDebug({ stage: 'hls-check-error', error: err.message });
+      // Continue se falhar a verificação
+    }
 
     let attempt = 0;
     let tempFile;

@@ -142,6 +142,17 @@ class HLSTranscoderService {
         let stderr = '';
         let stdout = '';
         let lastProgressLog = 0;
+        let lastFrameCount = 0;
+        let stallCounter = 0;
+        const ffmpegStartTime = Date.now();
+
+        // Timeout para FFmpeg travado (default 30 minutos)
+        const ffmpegTimeout = parseInt(process.env.FFMPEG_TIMEOUT_MS || '1800000', 10);
+        let timeoutHandle = setTimeout(() => {
+          logger.error(`[HLS Transcode] FFmpeg timeout after ${ffmpegTimeout}ms - killing process`);
+          ffmpeg.kill('SIGKILL');
+          reject(new Error(`FFmpeg transcode timeout after ${ffmpegTimeout}ms`));
+        }, ffmpegTimeout);
 
         ffmpeg.stdout.on('data', (data) => {
           stdout += data.toString();
@@ -149,19 +160,50 @@ class HLSTranscoderService {
 
         ffmpeg.stderr.on('data', (data) => {
           stderr += data.toString();
-          // Log progress every 5 seconds
-          const now = Date.now();
-          if (stderr.includes('frame=') && (now - lastProgressLog) > 5000) {
-            lastProgressLog = now;
-            const lines = stderr.split('\n');
-            const progressLine = lines[lines.length - 2] || lines[lines.length - 1] || '';
-            logger.debug(`[HLS Transcode] Progress: ${progressLine.trim()}`);
+          
+          // Extract frame count for stall detection
+          const frameMatch = stderr.match(/frame=\s*(\d+)/);
+          if (frameMatch) {
+            const currentFrame = parseInt(frameMatch[1], 10);
+            const now = Date.now();
+            
+            // Log progress every 5 seconds
+            if ((now - lastProgressLog) > 5000) {
+              lastProgressLog = now;
+              const elapsedSecs = Math.round((now - ffmpegStartTime) / 1000);
+              const fpsMatch = stderr.match(/fps=\s*([0-9.]+)/);
+              const fps = fpsMatch ? fpsMatch[1] : 'N/A';
+              
+              logger.debug(
+                `[HLS Transcode] Progress [${elapsedSecs}s]: frame=${currentFrame} fps=${fps}`
+              );
+
+              // Detect stall: if frame count didn't increase
+              if (currentFrame === lastFrameCount && lastFrameCount > 0) {
+                stallCounter++;
+                logger.warn(`[HLS Transcode] Stall detected! Frame count stuck at ${currentFrame} (${stallCounter}x)`);
+                
+                if (stallCounter >= 4) {
+                  logger.error(`[HLS Transcode] FFmpeg stalled for too long - killing`);
+                  ffmpeg.kill('SIGKILL');
+                  clearTimeout(timeoutHandle);
+                  reject(new Error(`FFmpeg stalled at frame ${currentFrame}`));
+                  return;
+                }
+              } else {
+                stallCounter = 0;
+                lastFrameCount = currentFrame;
+              }
+            }
           }
         });
 
         ffmpeg.on('close', async (code) => {
+          clearTimeout(timeoutHandle);
+          const elapsedMs = Date.now() - ffmpegStartTime;
+          
           if (code !== 0) {
-            logger.error(`[HLS Transcode] FFmpeg error (code ${code}):`, stderr);
+            logger.error(`[HLS Transcode] FFmpeg error (code ${code}, ${elapsedMs}ms):`, stderr.slice(-500));
             return reject(new Error(`FFmpeg transcode failed: ${stderr}`));
           }
 
@@ -176,7 +218,7 @@ class HLSTranscoderService {
             }
 
             logger.info(
-              `[HLS Transcode] Complete: ${tsFiles.length} segments in ${outputDir}`
+              `[HLS Transcode] Complete: ${tsFiles.length} segments in ${elapsedMs}ms (${Math.round(elapsedMs / 1000)}s)`
             );
 
             resolve({
@@ -192,6 +234,7 @@ class HLSTranscoderService {
         });
 
         ffmpeg.on('error', (err) => {
+          clearTimeout(timeoutHandle);
           logger.error('[HLS Transcode] Spawn error:', err);
           reject(err);
         });
