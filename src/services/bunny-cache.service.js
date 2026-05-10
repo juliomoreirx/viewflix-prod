@@ -537,9 +537,7 @@ class BunnyCacheService {
           localSize = 0;
         }
 
-        // Remover arquivo temporário
-        await fsp.unlink(tempFile).catch(() => {});
-        tempFile = undefined;
+        // NÃO REMOVER AINDA - vamos usar para transcode!
 
         // ============================================================
         // CONFIRMAR QUE O ARQUIVO EXISTE NO BUNNY
@@ -624,6 +622,14 @@ class BunnyCacheService {
               logDebug({ stage: 'temp-mp4-delete-error', error: cleanupErr.message });
             }
           }
+        } else {
+          // If transcode disabled, just remove temp file now
+          try {
+            if (typeof tempFile !== 'undefined' && tempFile) {
+              await fsp.unlink(tempFile).catch(() => {});
+              tempFile = undefined;
+            }
+          } catch (_) {}
         }
 
         // ============================================================

@@ -1,6 +1,7 @@
 const { spawn } = require('child_process');
 const path = require('path');
 const fs = require('fs').promises;
+const { execSync } = require('child_process');
 const logger = require('../lib/logger');
 
 /**
@@ -11,10 +12,76 @@ const logger = require('../lib/logger');
 
 class HLSTranscoderService {
   constructor() {
-    this.ffmpegPath = process.env.FFMPEG_PATH || 'ffmpeg';
+    this.ffmpegPath = this._detectFFmpegPath();
     this.targetResolution = '1920x1080';
     this.targetBitrate = '5000k';
     this.segmentDuration = 10; // seconds
+    
+    if (this.ffmpegPath) {
+      logger.info(`[HLS Transcode] FFmpeg found at: ${this.ffmpegPath}`);
+    } else {
+      logger.warn('[HLS Transcode] FFmpeg not found - HLS transcode will fail');
+    }
+  }
+
+  /**
+   * Detect FFmpeg path
+   * @private
+   */
+  _detectFFmpegPath() {
+    // Try environment variable first
+    const envPath = process.env.FFMPEG_PATH;
+    if (envPath && this._checkCommand(envPath)) {
+      return envPath;
+    }
+
+    // Try common Linux/Mac paths
+    const commonPaths = [
+      '/usr/bin/ffmpeg',
+      '/usr/local/bin/ffmpeg',
+      '/opt/homebrew/bin/ffmpeg',
+      '/usr/local/Cellar/ffmpeg/*/bin/ffmpeg'
+    ];
+
+    for (const p of commonPaths) {
+      if (this._checkCommand(p)) {
+        return p;
+      }
+    }
+
+    // Try 'ffmpeg' in PATH
+    try {
+      const result = execSync('which ffmpeg', { encoding: 'utf8' }).trim();
+      if (result) return result;
+    } catch (e) {}
+
+    // Try Windows paths
+    const winPaths = [
+      'C:\\ffmpeg\\bin\\ffmpeg.exe',
+      'C:\\Program Files\\ffmpeg\\bin\\ffmpeg.exe',
+      'ffmpeg.exe'
+    ];
+
+    for (const p of winPaths) {
+      if (this._checkCommand(p)) {
+        return p;
+      }
+    }
+
+    return null;
+  }
+
+  /**
+   * Check if command exists
+   * @private
+   */
+  _checkCommand(cmd) {
+    try {
+      execSync(`${cmd} -version`, { stdio: 'ignore' });
+      return true;
+    } catch (e) {
+      return false;
+    }
   }
 
   /**
@@ -25,6 +92,14 @@ class HLSTranscoderService {
    */
   async transcodeToHLS(inputPath, outputDir) {
     try {
+      if (!inputPath || inputPath === 'undefined') {
+        throw new Error('Invalid input path');
+      }
+
+      if (!this.ffmpegPath) {
+        throw new Error('FFmpeg not found - install FFmpeg or set FFMPEG_PATH environment variable');
+      }
+
       logger.info(`[HLS Transcode] Starting: ${inputPath}`);
 
       // Ensure output directory exists
