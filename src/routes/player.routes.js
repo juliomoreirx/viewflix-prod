@@ -471,9 +471,9 @@ router.get('/player/:token', async (req, res) => {
   <script>
     const expirationTime = ${expirationTimestamp};
     const countdownEl = document.getElementById('countdown');
-    const streamPath = '${streamPath}';
+    const streamPath = ${JSON.stringify(streamPath)};
     const streamStatusEl = document.getElementById('streamStatus');
-    const progressToken = '${req.params.token}';
+    const progressToken = ${JSON.stringify(req.params.token)};
     let resumeSeconds = ${Number(purchase.resumeSeconds || 0)};
     const nextEpisode = ${JSON.stringify(nextEpisode)};
     const prevEpisode = ${JSON.stringify(prevEpisode)};
@@ -727,6 +727,8 @@ router.get('/player/:token', async (req, res) => {
     }
 
     function loadSource(url, resumeAt = 0) {
+      console.log('[Player] Loading source:', { url, resumeAt, type: url?.endsWith('.m3u8') ? 'HLS' : url?.endsWith('.mp4') ? 'MP4' : 'unknown' });
+      
       const videoEl = document.getElementById('player');
       const normalizedUrl = String(url || '').split('?')[0].toLowerCase();
       const isMp4 = normalizedUrl.endsWith('.mp4');
@@ -745,6 +747,7 @@ router.get('/player/:token', async (req, res) => {
       // Estratégia: conteúdo não-HLS toca direto (MP4-first).
       // Hls.js só entra para manifest .m3u8 explícito.
       if (isMp4 || !isHlsManifest) {
+        console.log('[Player] Loading as non-HLS (MP4 or direct stream)');
         videoEl.src = url;
         videoEl.load();
         videoEl.addEventListener('loadedmetadata', () => {
@@ -755,13 +758,17 @@ router.get('/player/:token', async (req, res) => {
       }
 
       if (window.Hls && Hls.isSupported()) {
+        console.log('[Player] Hls.js is supported, loading manifest');
         const hlsConfig = isLiveTvContent ? {
           enableWorker: true,
           lowLatencyMode: false,
           backBufferLength: 120,
           liveSyncDuration: LIVE_DELAY_SECONDS,
           liveMaxLatencyDuration: LIVE_DELAY_SECONDS * 2,
-          liveDurationInfinity: true
+          liveDurationInfinity: true,
+          xhrSetup: (xhr, url) => {
+            xhr.withCredentials = false;
+          }
         } : {
           enableWorker: true,
           lowLatencyMode: false,
@@ -772,15 +779,20 @@ router.get('/player/:token', async (req, res) => {
           startFragPrefetch: true,
           fragLoadingTimeOut: 20000,
           fragLoadingMaxRetry: 4,
-          manifestLoadingMaxRetry: 4
+          manifestLoadingMaxRetry: 4,
+          xhrSetup: (xhr, url) => {
+            xhr.withCredentials = false;
+          }
         };
 
         hls = new Hls(hlsConfig);
 
         hls.loadSource(url);
         hls.attachMedia(videoEl);
+        videoEl.crossOrigin = 'anonymous';
 
         hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          console.log('[HLS] Manifest parsed successfully', { url, levels: hls.levels?.length });
           clearStreamStatus();
 
           const tracks = (hls.audioTracks || []).map((track, index) => ({
@@ -816,7 +828,11 @@ router.get('/player/:token', async (req, res) => {
         });
 
         hls.on(Hls.Events.ERROR, (_, data) => {
-          if (!data || !data.fatal) return;
+          console.error('[HLS] Error:', data);
+          if (!data || !data.fatal) {
+            console.warn('[HLS] Non-fatal error:', data);
+            return;
+          }
 
           if (retryCount >= LIVE_DELAY_WARNING_THRESHOLD) {
             setStreamStatus(
@@ -839,15 +855,18 @@ router.get('/player/:token', async (req, res) => {
           }
 
           if (data.type === Hls.ErrorTypes.NETWORK_ERROR) {
+            console.warn('[HLS] Network error, retrying...', data);
             retryStream();
             return;
           }
 
           if (data.type === Hls.ErrorTypes.MEDIA_ERROR) {
+            console.warn('[HLS] Media error, recovering...', data);
             try { hls.recoverMediaError(); } catch (e) { retryStream(); }
             return;
           }
 
+          console.error('[HLS] Fatal error, retrying stream...', data);
           retryStream();
         });
       } else if (isNativeHls) {
