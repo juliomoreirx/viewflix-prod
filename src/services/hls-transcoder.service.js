@@ -148,6 +148,23 @@ class HLSTranscoderService {
         manifestPath
       ];
 
+      // Calculate dynamic timeout based on video duration (ffprobe)
+      const envTimeout = parseInt(process.env.FFMPEG_TIMEOUT_MS || '1800000', 10);
+      const factorMsPerSec = parseInt(process.env.FFMPEG_TIMEOUT_FACTOR_MS_PER_SEC || '3000', 10); // ms per second of video
+      let computedTimeout = envTimeout;
+      try {
+        const durationSec = await this.getVideoDuration(inputPath);
+        if (durationSec && durationSec > 0) {
+          const byDuration = Math.ceil(durationSec * factorMsPerSec);
+          computedTimeout = Math.max(envTimeout, byDuration);
+          logger.info(`[HLS Transcode] Calculated FFmpeg timeout ${computedTimeout}ms based on duration ${Math.round(durationSec)}s and factor ${factorMsPerSec}ms/s`);
+        } else {
+          logger.info(`[HLS Transcode] Could not determine duration, using env timeout ${envTimeout}ms`);
+        }
+      } catch (err) {
+        logger.warn(`[HLS Transcode] ffprobe failed to get duration, using env timeout ${envTimeout}ms: ${err.message}`);
+      }
+
       return new Promise((resolve, reject) => {
         const ffmpeg = spawn(this.ffmpegPath, ffmpegArgs);
         let stderr = '';
@@ -157,11 +174,11 @@ class HLSTranscoderService {
         let stallCounter = 0;
         const ffmpegStartTime = Date.now();
 
-        // Timeout para FFmpeg travado (default 30 minutos)
-        const ffmpegTimeout = parseInt(process.env.FFMPEG_TIMEOUT_MS || '1800000', 10);
+        // Timeout para FFmpeg travado (dynamic)
+        const ffmpegTimeout = computedTimeout;
         let timeoutHandle = setTimeout(() => {
           logger.error(`[HLS Transcode] FFmpeg timeout after ${ffmpegTimeout}ms - killing process`);
-          ffmpeg.kill('SIGKILL');
+          try { ffmpeg.kill('SIGKILL'); } catch (e) {}
           reject(new Error(`FFmpeg transcode timeout after ${ffmpegTimeout}ms`));
         }, ffmpegTimeout);
 
