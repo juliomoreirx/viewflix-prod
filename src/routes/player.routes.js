@@ -759,6 +759,17 @@ router.get('/player/:token', async (req, res) => {
 
       if (window.Hls && Hls.isSupported()) {
         console.log('[Player] Hls.js is supported, loading manifest');
+        
+        // Use proxy to bypass CORS issues with Bunny CDN
+        // Original URL: https://viewflixspace.b-cdn.net/series/.../index.m3u8
+        // Proxied URL: /api/hls-proxy/manifest?manifestUrl=<base64-encoded>
+        const proxyUrl = (() => {
+          const encoded = btoa(url); // base64 encode
+          return '/api/hls-proxy/manifest?manifestUrl=' + encoded;
+        })();
+
+        console.log('[Player] Using proxy URL:', proxyUrl);
+
         const hlsConfig = isLiveTvContent ? {
           enableWorker: true,
           lowLatencyMode: false,
@@ -787,7 +798,7 @@ router.get('/player/:token', async (req, res) => {
 
         hls = new Hls(hlsConfig);
 
-        hls.loadSource(url);
+        hls.loadSource(proxyUrl);
         hls.attachMedia(videoEl);
         videoEl.crossOrigin = 'anonymous';
 
@@ -1151,6 +1162,76 @@ router.post('/api/log-view', async (req, res) => {
   } catch {
     res.sendStatus(500);
   }
+});
+
+// ===== HLS PROXY (Bypass CORS) =====
+const hlsProxy = require('../services/hls-proxy.service');
+
+/**
+ * GET /api/hls-proxy/manifest
+ * Proxies HLS manifest from Bunny CDN, rewriting segment URLs to go through proxy
+ * Query: manifestUrl=<base64-encoded-url>
+ */
+router.get('/api/hls-proxy/manifest', async (req, res) => {
+  try {
+    const { manifestUrl } = req.query;
+    if (!manifestUrl) {
+      return res.status(400).json({ error: 'manifestUrl parameter required' });
+    }
+
+    // Decode manifest URL from base64
+    let decodedUrl = manifestUrl;
+    try {
+      decodedUrl = Buffer.from(manifestUrl, 'base64').toString('utf-8');
+    } catch (e) {
+      decodedUrl = manifestUrl;
+    }
+
+    const manifest = await hlsProxy.getManifest(decodedUrl, '/api/hls-proxy');
+
+    res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
+    res.setHeader('Cache-Control', 'public, max-age=300'); // 5 minutes
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.send(manifest);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+/**
+ * GET /api/hls-proxy/segment
+ * Proxies HLS segments from Bunny CDN
+ * Query: url=<base64-encoded-segment-url>
+ */
+router.get('/api/hls-proxy/segment', async (req, res) => {
+  try {
+    const { url } = req.query;
+    if (!url) {
+      return res.status(400).json({ error: 'url parameter required' });
+    }
+
+    const segment = await hlsProxy.getSegment(url);
+
+    res.setHeader('Content-Type', 'video/mp2t');
+    res.setHeader('Cache-Control', 'public, max-age=86400'); // 24 hours
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+    res.send(segment);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+/**
+ * OPTIONS /api/hls-proxy/*
+ * Handle CORS preflight requests
+ */
+router.options('/api/hls-proxy/*', (req, res) => {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.sendStatus(200);
 });
 
 module.exports = router;
