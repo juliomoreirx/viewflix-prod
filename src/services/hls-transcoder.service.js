@@ -5,22 +5,21 @@ const { execSync } = require('child_process');
 const logger = require('../lib/logger');
 
 /**
- * HLS Transcoder Service
- * Converts MP4 files to HLS format (m3u8 + ts segments)
- * Full HD (1920x1080) @ 5000kbps, 10s segments
+ * HLS Remuxer Service
+ * Converts MP4 files to HLS format (m3u8 + ts segments) via remuxing (transmuxing)
+ * Copies video/audio streams as-is without re-encoding → preserves original quality + ~50-100x faster
+ * 10s segments, original bitrate/resolution maintained
  */
 
 class HLSTranscoderService {
   constructor() {
     this.ffmpegPath = this._detectFFmpegPath();
-    this.targetResolution = '1280x720';
-    this.targetBitrate = '2500k';
-    this.segmentDuration = 10; // seconds
+    this.segmentDuration = 10; // seconds (remuxing preserves original resolution/bitrate)
     
     if (this.ffmpegPath) {
-      logger.info(`[HLS Transcode] FFmpeg found at: ${this.ffmpegPath}`);
+      logger.info(`[HLS Remux] FFmpeg found at: ${this.ffmpegPath}`);
     } else {
-      logger.warn('[HLS Transcode] FFmpeg not found - HLS transcode will fail');
+      logger.warn('[HLS Remux] FFmpeg not found - HLS transcode will fail');
     }
   }
 
@@ -100,7 +99,7 @@ class HLSTranscoderService {
         throw new Error('FFmpeg not found - install FFmpeg or set FFMPEG_PATH environment variable');
       }
 
-      logger.info(`[HLS Transcode] Starting: ${inputPath}`);
+      logger.info(`[HLS Remux] Starting: ${inputPath}`);
 
       // Verify input file exists and is readable
       try {
@@ -108,7 +107,7 @@ class HLSTranscoderService {
         if (!stats.isFile()) {
           throw new Error(`Input path is not a file: ${inputPath}`);
         }
-        logger.info(`[HLS Transcode] ✅ Input file verified: ${(stats.size / 1024 / 1024).toFixed(2)}MB`);
+        logger.info(`[HLS Remux] ✅ Input file verified: ${(stats.size / 1024 / 1024).toFixed(2)}MB`);
       } catch (err) {
         throw new Error(`Cannot read input file: ${err.message}`);
       }
@@ -119,28 +118,22 @@ class HLSTranscoderService {
       const manifestPath = path.join(outputDir, 'index.m3u8');
       const segmentPattern = path.join(outputDir, '%04d.ts');
 
-      // FFmpeg command for HLS transcoding
+      // FFmpeg command for HLS remuxing (transmuxing)
+      // REMUXING MODE: copy streams without re-encoding
       // -i: input file
-      // -c:v libx264: H.264 video codec
-      // -s: scale to resolution
-      // -b:v: bitrate
-      // -c:a aac: AAC audio codec
-      // -b:a 128k: audio bitrate
+      // -c:v copy: copy video stream as-is (no re-encoding)
+      // -c:a copy: copy audio stream as-is (no re-encoding)
+      // -bsf:a aac_adtstoasc: convert AAC audio to HLS-compatible format
       // -f hls: HLS format
-      // -hls_time: segment duration
+      // -hls_time: segment duration (10 seconds)
       // -hls_list_size 0: keep all segments in manifest
       // -hls_segment_filename: output segment naming
+      // Benefits: ~50-100x faster than encoding, preserves original quality, saves CPU
       const ffmpegArgs = [
         '-i', inputPath,
-        '-c:v', 'libx264',
-        '-preset', 'faster', // faster encoding
-        '-s', this.targetResolution,
-        '-b:v', this.targetBitrate,
-        '-maxrate', this.targetBitrate,
-        '-bufsize', '10000k',
-        '-c:a', 'aac',
-        '-b:a', '128k',
-        '-ar', '48000',
+        '-c:v', 'copy',        // Copy video stream as-is
+        '-c:a', 'copy',        // Copy audio stream as-is
+        '-bsf:a', 'aac_adtstoasc',  // Convert AAC to HLS-compatible format
         '-f', 'hls',
         '-hls_time', this.segmentDuration.toString(),
         '-hls_list_size', '0',
@@ -157,12 +150,12 @@ class HLSTranscoderService {
         if (durationSec && durationSec > 0) {
           const byDuration = Math.ceil(durationSec * factorMsPerSec);
           computedTimeout = Math.max(envTimeout, byDuration);
-          logger.info(`[HLS Transcode] Calculated FFmpeg timeout ${computedTimeout}ms based on duration ${Math.round(durationSec)}s and factor ${factorMsPerSec}ms/s`);
+          logger.info(`[HLS Remux] Calculated FFmpeg timeout ${computedTimeout}ms based on duration ${Math.round(durationSec)}s and factor ${factorMsPerSec}ms/s`);
         } else {
-          logger.info(`[HLS Transcode] Could not determine duration, using env timeout ${envTimeout}ms`);
+          logger.info(`[HLS Remux] Could not determine duration, using env timeout ${envTimeout}ms`);
         }
       } catch (err) {
-        logger.warn(`[HLS Transcode] ffprobe failed to get duration, using env timeout ${envTimeout}ms: ${err.message}`);
+        logger.warn(`[HLS Remux] ffprobe failed to get duration, using env timeout ${envTimeout}ms: ${err.message}`);
       }
 
       return new Promise((resolve, reject) => {
@@ -177,7 +170,7 @@ class HLSTranscoderService {
         // Timeout para FFmpeg travado (dynamic)
         const ffmpegTimeout = computedTimeout;
         let timeoutHandle = setTimeout(() => {
-          logger.error(`[HLS Transcode] FFmpeg timeout after ${ffmpegTimeout}ms - killing process`);
+          logger.error(`[HLS Remux] FFmpeg timeout after ${ffmpegTimeout}ms - killing process`);
           try { ffmpeg.kill('SIGKILL'); } catch (e) {}
           reject(new Error(`FFmpeg transcode timeout after ${ffmpegTimeout}ms`));
         }, ffmpegTimeout);
@@ -192,7 +185,7 @@ class HLSTranscoderService {
           
           // Log FFmpeg errors immediately
           if (text.includes('error') || text.includes('Error') || text.includes('ERROR')) {
-            logger.error(`[HLS Transcode] FFmpeg error output: ${text.trim()}`);
+            logger.error(`[HLS Remux] FFmpeg error output: ${text.trim()}`);
           }
           
           // Extract frame count for stall detection
@@ -220,16 +213,16 @@ class HLSTranscoderService {
               const speed = text.match(/speed=\s*([0-9.]+x)/) ? text.match(/speed=\s*([0-9.]+x)/)[1] : 'N/A';
               
               logger.info(
-                `[HLS Transcode] ⏱️ ${elapsedSecs}s | 📺 Frame: ${currentFrame} | ⚡ ${fps} fps | 🎬 Time: ${currentTime} | 📊 ${bitrate} | 🚀 ${speed}`
+                `[HLS Remux] ⏱️ ${elapsedSecs}s | 📺 Frame: ${currentFrame} | ⚡ ${fps} fps | 🎬 Time: ${currentTime} | 📊 ${bitrate} | 🚀 ${speed}`
               );
 
               // Detect stall: if frame count didn't increase
               if (currentFrame === lastFrameCount && lastFrameCount > 0) {
                 stallCounter++;
-                logger.warn(`[HLS Transcode] ⚠️ Stall detected! Frame stuck at ${currentFrame} (${stallCounter}/4)`);
+                logger.warn(`[HLS Remux] ⚠️ Stall detected! Frame stuck at ${currentFrame} (${stallCounter}/4)`);
                 
                 if (stallCounter >= 4) {
-                  logger.error(`[HLS Transcode] 💥 FFmpeg stalled for too long - killing process`);
+                  logger.error(`[HLS Remux] 💥 FFmpeg stalled for too long - killing process`);
                   ffmpeg.kill('SIGKILL');
                   clearTimeout(timeoutHandle);
                   reject(new Error(`FFmpeg stalled at frame ${currentFrame}`));
@@ -277,8 +270,8 @@ class HLSTranscoderService {
               }
             }
             
-            logger.error(`[HLS Transcode] 💥 FFmpeg error (code ${code}, ${elapsedSecs}s)`);
-            logger.error(`[HLS Transcode] ❌ Error detail: ${errorMsg}`);
+            logger.error(`[HLS Remux] 💥 FFmpeg error (code ${code}, ${elapsedSecs}s)`);
+            logger.error(`[HLS Remux] ❌ Error detail: ${errorMsg}`);
             return reject(new Error(`FFmpeg transcode failed: ${errorMsg}`));
           }
 
@@ -300,7 +293,7 @@ class HLSTranscoderService {
             const avgBitrate = ((totalSize * 8) / elapsedMs / 1000).toFixed(2);
 
             logger.info(
-              `[HLS Transcode] ✅ Complete in ${elapsedSecs}s | 📦 ${tsFiles.length} segments | 💾 ${totalMB}MB | 📊 ${avgBitrate}kbps avg`
+              `[HLS Remux] ✅ Complete in ${elapsedSecs}s | 📦 ${tsFiles.length} segments | 💾 ${totalMB}MB | 📊 ${avgBitrate}kbps avg`
             );
 
             resolve({
@@ -319,15 +312,15 @@ class HLSTranscoderService {
 
         ffmpeg.on('error', (err) => {
           clearTimeout(timeoutHandle);
-          logger.error('[HLS Transcode] Spawn error:', err);
+          logger.error('[HLS Remux] Spawn error:', err);
           reject(err);
         });
 
         // Log start
-        logger.info(`[HLS Transcode] 🚀 FFmpeg process started | preset=faster | ${this.targetResolution} @ ${this.targetBitrate} | segments=${this.segmentDuration}s`);
+        logger.info(`[HLS Remux] 🚀 FFmpeg remuxing started | mode=copy (no re-encoding) | segments=${this.segmentDuration}s | ~50-100x faster`);
       });
     } catch (error) {
-      logger.error('[HLS Transcode] Error:', error);
+      logger.error('[HLS Remux] Error:', error);
       throw error;
     }
   }
@@ -422,9 +415,9 @@ class HLSTranscoderService {
         await fs.unlink(path.join(outputDir, file));
       }
       await fs.rmdir(outputDir);
-      logger.info(`[HLS Transcode] Cleaned up: ${outputDir}`);
+      logger.info(`[HLS Remux] Cleaned up: ${outputDir}`);
     } catch (error) {
-      logger.warn(`[HLS Transcode] Cleanup warning: ${error.message}`);
+      logger.warn(`[HLS Remux] Cleanup warning: ${error.message}`);
     }
   }
 }
