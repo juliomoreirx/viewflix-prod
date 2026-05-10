@@ -141,6 +141,7 @@ class HLSTranscoderService {
         const ffmpeg = spawn(this.ffmpegPath, ffmpegArgs);
         let stderr = '';
         let stdout = '';
+        let lastProgressLog = 0;
 
         ffmpeg.stdout.on('data', (data) => {
           stdout += data.toString();
@@ -148,9 +149,13 @@ class HLSTranscoderService {
 
         ffmpeg.stderr.on('data', (data) => {
           stderr += data.toString();
-          // Log progress
-          if (stderr.includes('frame=')) {
-            logger.debug(`[HLS Transcode] Progress: ${stderr.split('\n').slice(-2)[0]}`);
+          // Log progress every 5 seconds
+          const now = Date.now();
+          if (stderr.includes('frame=') && (now - lastProgressLog) > 5000) {
+            lastProgressLog = now;
+            const lines = stderr.split('\n');
+            const progressLine = lines[lines.length - 2] || lines[lines.length - 1] || '';
+            logger.debug(`[HLS Transcode] Progress: ${progressLine.trim()}`);
           }
         });
 
@@ -190,6 +195,9 @@ class HLSTranscoderService {
           logger.error('[HLS Transcode] Spawn error:', err);
           reject(err);
         });
+
+        // Log start
+        logger.info(`[HLS Transcode] FFmpeg process started with preset=medium, resolution=${this.targetResolution}, bitrate=${this.targetBitrate}`);
       });
     } catch (error) {
       logger.error('[HLS Transcode] Error:', error);
