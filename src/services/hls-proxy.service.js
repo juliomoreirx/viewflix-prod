@@ -16,6 +16,9 @@ class HLSProxyService {
     
     // Encryption key from environment or generate one
     this.encryptionKey = this._getEncryptionKey();
+    
+    // Bunny CDN credentials
+    this.bunnyStorageKey = process.env.BUNNY_STORAGE_KEY || '';
   }
 
   /**
@@ -127,7 +130,8 @@ class HLSProxyService {
         timeout: 10000,
         responseType: 'text',
         headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+          'AccessKey': this.bunnyStorageKey
         }
       });
 
@@ -191,7 +195,8 @@ class HLSProxyService {
         timeout: 30000,
         responseType: 'arraybuffer',
         headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+          'AccessKey': this.bunnyStorageKey
         }
       });
 
