@@ -56,6 +56,7 @@ class HLSPipelineService {
       const seriesInfo = purchase.mediaType === 'series' 
         ? { 
             season: purchase.season || '1', 
+            episodeIndex: purchase.episodeIndex || 1,
             episodeName: purchase.episodeName || 'episodio',
             seriesTitle: purchase.title || 'series'
           }

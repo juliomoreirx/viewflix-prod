@@ -38,14 +38,17 @@ class HLSBunnyUploadService {
       }
 
       // Bunny path structure:
-      // Movies: /{mp4FileName}/ (e.g., a-abelha-maya-o-filme-2014-60003/)
-      // Series: /{seriesName}/{season}/{episodeName}-{videoId}/
+      // Movies: /movies/{titleSlug}-{videoId}/ (e.g., a-abelha-maya-o-filme-2014-60003/)
+      // Series: /series/{titleSlug}/season-{N}/s##e##-{videoId}/ (e.g., series/os-cavaleiros-do-zodiaco-1986/season-1/s01e02-385659/)
       let bunnyPath;
       if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
         const seriesName = this._slugify(seriesInfo.seriesTitle || 'series');
-        bunnyPath = `${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+        const seasonNum = String(seriesInfo.season || '1').padStart(2, '0');
+        const episodeNum = String(seriesInfo.episodeIndex || 1).padStart(2, '0');
+        // Match buildHLSPath format: series/{titleSlug}/season-{N}/s##e##-{videoId}
+        bunnyPath = `series/${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
       } else if (contentType === 'movie' && mp4FileName) {
-        bunnyPath = mp4FileName;
+        bunnyPath = `movies/${mp4FileName}`;
       } else {
         bunnyPath = `content/${contentType}/${contentId}`;
       }
@@ -199,7 +202,8 @@ class HLSBunnyUploadService {
     let bunnyPath;
     if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
       const seriesName = this._slugify(seriesInfo.seriesTitle || 'series');
-      bunnyPath = `${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
+      // Match buildHLSPath format: series/{titleSlug}/season-{N}/{episodeName}-{videoId}
+      bunnyPath = `series/${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
     } else {
       bunnyPath = `content/${contentType}/${contentId}`;
     }
