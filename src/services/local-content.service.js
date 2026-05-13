@@ -1,4 +1,4 @@
-const fs = require('fs-extra');
+﻿const fs = require('fs-extra');
 const path = require('path');
 const logger = require('../lib/logger');
 
@@ -23,11 +23,30 @@ function sanitizeLocalMeta(raw = {}) {
   return rest;
 }
 
+function normalizeCoverRelativePath(type, capaLocal) {
+  const dirName = TYPE_DIRS[type];
+  if (!dirName || !capaLocal) return null;
+
+  let normalized = String(capaLocal).replace(/\\/g, '/').trim();
+  if (!normalized) return null;
+
+  normalized = normalized.replace(/^\/+/, '');
+  normalized = normalized.replace(/^output\//i, '');
+
+  if (normalized.toLowerCase().startsWith(`${dirName}/`)) {
+    normalized = normalized.slice(dirName.length + 1);
+  }
+
+  return normalized;
+}
+
 function buildCoverUrl(type, capaLocal) {
-  if (!capaLocal) return null;
   const dirName = TYPE_DIRS[type];
   if (!dirName) return null;
-  const normalized = String(capaLocal).replace(/\\/g, '/');
+
+  const normalized = normalizeCoverRelativePath(type, capaLocal);
+  if (!normalized) return null;
+
   return encodeURI(`/local-content/${dirName}/${normalized}`);
 }
 

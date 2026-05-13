@@ -1,4 +1,4 @@
-const express = require('express');
+﻿const express = require('express');
 const { z } = require('zod');
 const fs = require('fs');
 const path = require('path');
@@ -7,6 +7,7 @@ const asyncHandler = require('../middlewares/async-handler');
 const { CACHE_CONTEUDO, atualizarCache } = require('../services/content-cache.service');
 const { buscarDetalhes } = require('../services/content-details.service');
 const { getLocalContentByTitle } = require('../services/local-content.service');
+const logger = require('../lib/logger');
 
 const router = express.Router();
 
@@ -67,6 +68,33 @@ router.get('/api/list', asyncHandler(async (req, res) => {
     const fallbackImg = fs.existsSync(coverPath)
       ? `/covers/${folder}/${item.id}.jpg`
       : `https://via.placeholder.com/300x450?text=${encodeURIComponent(item.name)}`;
+
+    if (folder === 'movies' || folder === 'series') {
+      if (local?.coverUrl) {
+        logger.info({
+          msg: 'Catalog usando capa local',
+          id: item.id,
+          type: folder,
+          title: item.name,
+          coverUrl: local.coverUrl
+        });
+      } else if (local && !local.coverUrl) {
+        logger.warn({
+          msg: 'Catalog encontrou metadata local sem capa_local válida',
+          id: item.id,
+          type: folder,
+          title: item.name
+        });
+      } else {
+        logger.info({
+          msg: 'Catalog sem match local, usando fallback de capa',
+          id: item.id,
+          type: folder,
+          title: item.name,
+          fallback: fallbackImg.startsWith('/covers/') ? 'public-covers' : 'placeholder'
+        });
+      }
+    }
 
     return {
       id: item.id,
