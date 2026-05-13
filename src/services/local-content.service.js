@@ -102,9 +102,30 @@ async function getLocalContentByTitle(title, type) {
 
   const key = normalizeTitle(title);
   const map = cache[type] || new Map();
-  return map.get(key) || null;
+  const local = map.get(key) || null;
+
+  logger.info({
+    msg: 'Local content lookup',
+    type,
+    title,
+    key,
+    hit: Boolean(local),
+    coverUrl: local?.coverUrl || null
+  });
+
+  if (!local) {
+    logger.warn({
+      msg: 'Local content miss',
+      type,
+      title,
+      key
+    });
+  }
+
+  return local;
 }
 
 module.exports = {
   getLocalContentByTitle
 };
+

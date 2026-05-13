@@ -6,7 +6,7 @@ const logger = require('../lib/logger');
 const { getSessionCookiesRaw, CACHE_CONTEUDO } = require('./content-cache.service');
 const { getLocalContentByTitle } = require('./local-content.service');
 
-// Importa o nosso novo serviço de limpeza
+// Importa o nosso novo serviÃ§o de limpeza
 const { limparTexto } = require('./text-utils.service');
 
 const BASE_URL = env.BASE_URL || 'http://vouver.me';
@@ -17,7 +17,7 @@ function decodeHtml(buffer) {
   for (const enc of ['ISO-8859-1', 'Windows-1252', 'UTF-8', 'latin1']) {
     try {
       const decoded = iconv.decode(Buffer.from(buffer), enc);
-      if (!decoded.includes('â€') && !decoded.includes('?â€')) return decoded;
+      if (!decoded.includes('Ã¢â‚¬') && !decoded.includes('?Ã¢â‚¬')) return decoded;
     } catch {}
   }
   return corrigirCaracteresEspeciais(iconv.decode(Buffer.from(buffer), 'ISO-8859-1'));
@@ -130,7 +130,7 @@ async function buscarDetalhes(id, type) {
 
     let $ = cheerio.load(html, { decodeEntities: false });
 
-    // outro fallback: página carregou, mas sem episódios para série
+    // outro fallback: pÃ¡gina carregou, mas sem episÃ³dios para sÃ©rie
     if ($('.tab_episode').length === 0 && type !== 'movies') {
       const html2 = await fetchDetailHtml(`${BASE_URL}/index.php?page=moviedetail&id=${id}`);
       if (html2) $ = cheerio.load(html2, { decodeEntities: false });
@@ -159,7 +159,7 @@ async function buscarDetalhes(id, type) {
     }
 
     if (!data.title || data.title.length < 2) {
-      logger.warn({ msg: 'Detalhes sem título válido', id, type });
+      logger.warn({ msg: 'Detalhes sem tÃ­tulo vÃ¡lido', id, type });
       return null;
     }
 
