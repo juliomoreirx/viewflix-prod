@@ -3,7 +3,8 @@ const cheerio = require('cheerio');
 const iconv = require('iconv-lite');
 const env = require('../config/env');
 const logger = require('../lib/logger');
-const { getSessionCookiesRaw } = require('./content-cache.service');
+const { getSessionCookiesRaw, CACHE_CONTEUDO } = require('./content-cache.service');
+const { getLocalContentByTitle } = require('./local-content.service');
 
 // Importa o nosso novo serviço de limpeza
 const { limparTexto } = require('./text-utils.service');
@@ -31,6 +32,49 @@ function isBlockedPage(html = '') {
     (t.includes('cloudflare') && t.includes('ray id')) ||
     t.includes('access denied')
   );
+}
+
+function findTitleById(id, type) {
+  const list = type === 'movies' ? CACHE_CONTEUDO.movies : CACHE_CONTEUDO.series;
+  const match = (list || []).find((item) => String(item.id) === String(id));
+  return match?.name || null;
+}
+
+function buildLocalDetails(local, type, id) {
+  if (!local) return null;
+  const meta = local.meta || {};
+  const infoFields = ['sinopse', 'genero', 'ano', 'duracao', 'elenco', 'diretor', 'qualidade', 'total_episodios'];
+
+  const data = {
+    title: local.title || meta.titulo,
+    mediaType: type === 'movies' ? 'movie' : 'series',
+    info: {},
+    seasons: {},
+    coverUrl: local.coverUrl || null
+  };
+
+  for (const key of infoFields) {
+    if (meta[key]) data.info[key] = meta[key];
+  }
+
+  if (data.mediaType === 'series') {
+    if (Array.isArray(meta.temporadas)) {
+      meta.temporadas.forEach((season, idx) => {
+        const label = String(season.temporada || '').trim();
+        const match = label.match(/(\d+)/);
+        const seasonNum = match ? parseInt(match[1], 10) : idx + 1;
+        const episodes = (season.episodios || []).map((ep) => ({
+          name: ep.codigo || `E${String(ep.numero || '').padStart(2, '0')}`,
+          id: `${data.title || 'serie'}-s${seasonNum}-e${ep.numero || ''}`
+        }));
+        if (episodes.length > 0) data.seasons[seasonNum] = episodes;
+      });
+    }
+  } else {
+    data.seasons.Filme = [{ name: data.title || 'Filme Completo', id }];
+  }
+
+  return data;
 }
 
 async function fetchDetailHtml(detailUrl) {
@@ -67,6 +111,10 @@ async function buscarDetalhes(id, type) {
     const pageType = type === 'movies' ? 'moviedetail' : 'seriesdetail';
     const detailUrl = `${BASE_URL}/index.php?page=${pageType}&id=${id}`;
 
+    const titleHint = findTitleById(id, type);
+    const local = titleHint ? await getLocalContentByTitle(titleHint, type) : null;
+
+
     let html = await fetchDetailHtml(detailUrl);
 
     // fallback do legado: se seriesdetail vier vazio, tenta moviedetail
@@ -75,6 +123,7 @@ async function buscarDetalhes(id, type) {
     }
 
     if (!html) {
+      if (local) return buildLocalDetails(local, type, id);
       logger.warn({ msg: 'Detalhes bloqueado/sem html', id, type });
       return null;
     }
@@ -112,6 +161,19 @@ async function buscarDetalhes(id, type) {
     if (!data.title || data.title.length < 2) {
       logger.warn({ msg: 'Detalhes sem título válido', id, type });
       return null;
+    }
+
+    if (local) {
+      const localDetails = buildLocalDetails(local, type, id);
+      if (localDetails) {
+        data.title = localDetails.title || data.title;
+        data.info = { ...data.info, ...localDetails.info };
+        data.coverUrl = localDetails.coverUrl || null;
+
+        if (data.mediaType === 'series' && Object.keys(data.seasons || {}).length === 0) {
+          data.seasons = localDetails.seasons || {};
+        }
+      }
     }
 
     return data;

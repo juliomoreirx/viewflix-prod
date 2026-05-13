@@ -6,6 +6,7 @@ const path = require('path');
 const asyncHandler = require('../middlewares/async-handler');
 const { CACHE_CONTEUDO, atualizarCache } = require('../services/content-cache.service');
 const { buscarDetalhes } = require('../services/content-details.service');
+const { getLocalContentByTitle } = require('../services/local-content.service');
 
 const router = express.Router();
 
@@ -52,19 +53,29 @@ router.get('/api/list', asyncHandler(async (req, res) => {
   const total = lista.length;
   const items = lista.slice((pageNum - 1) * limit, pageNum * limit);
 
-  const data = items.map((item) => {
+  const data = await Promise.all(items.map(async (item) => {
     const folder =
       type === 'adult'
         ? (CACHE_CONTEUDO.movies.find((m) => m.id === item.id) ? 'movies' : 'series')
         : type;
 
+    const local = (folder === 'movies' || folder === 'series')
+      ? await getLocalContentByTitle(item.name, folder)
+      : null;
+
     const coverPath = path.join(process.cwd(), 'public', 'covers', folder, `${item.id}.jpg`);
-    const img = fs.existsSync(coverPath)
+    const fallbackImg = fs.existsSync(coverPath)
       ? `/covers/${folder}/${item.id}.jpg`
       : `https://via.placeholder.com/300x450?text=${encodeURIComponent(item.name)}`;
 
-    return { id: item.id, title: item.name, img, type: folder };
-  });
+    return {
+      id: item.id,
+      title: local?.title || item.name,
+      img: local?.coverUrl || fallbackImg,
+      type: folder,
+      meta: local?.meta || null
+    };
+  }));
 
   return res.json({
     data,

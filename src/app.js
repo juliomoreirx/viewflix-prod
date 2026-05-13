@@ -53,6 +53,9 @@ app.use(rateLimit({
 // (ex: /admin.html, assets, index, etc)
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
+// Serve capas e dados locais em output/filmes e output/series
+app.use('/local-content', express.static(path.join(__dirname, '..', 'output')));
+
 // Rota amigável sem extensão para o painel admin
 app.get('/admin', (req, res) => {
   res.sendFile(path.join(__dirname, '..', 'public', 'admin.html'));
