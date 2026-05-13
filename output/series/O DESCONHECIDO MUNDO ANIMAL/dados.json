@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MDM=",
+  "tipo": "serie",
+  "titulo": "O DESCONHECIDO MUNDO ANIMAL",
+  "capa_url": "https://lgfp.one/SLT",
+  "capa_local": "O DESCONHECIDO MUNDO ANIMAL/O DESCONHECIDO MUNDO ANIMAL.jpg",
+  "sinopse": "Bradley Trevor Greive, especialista em vida selvagem, se mete nas mais loucas aventuras mundo afora e compartilha curiosidades estranhas e inacreditáveis sobre a natureza.",
+  "genero": "Comédia, Animação",
+  "elenco": "Bradley Trevor Greive, Danice Cabanela, Josh Zuckerman",
+  "diretor": "Zack Bornstein, Mark Gravas",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:18:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:18:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:17:08"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:18:46"
+        }
+      ]
+    }
+  ],
+  "id": 2000
+}

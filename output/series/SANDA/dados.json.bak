@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NDI=",
+  "tipo": "serie",
+  "titulo": "SANDA",
+  "capa_url": "https://lgfp.one/QEH3",
+  "capa_local": "SANDA/SANDA.jpg",
+  "sinopse": "No Japão do futuro, com natalidade ultrabaixa, as crianças são valorizadas, mas monitoradas. O Papai Noel é visto como perigoso e banido. Em 25 de dezembro, Kazushige Sanda, descendente do Papai Noel, é atacado pela colega Fuyumura, que quer que ele ache sua amiga desaparecida, Ono. \"Papai Noel, encontre minha amiga!\" Para proteger as crianças, Sanda se torna Papai Noel e luta contra os adultos.",
+  "genero": "Animação, Action & Adventure, Mistério",
+  "elenco": "Ayumu Murase, Hiroki Touchi, 庄司宇芽香, Anna Nagase, Yuuki Shin",
+  "diretor": "霜山朋久",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:06"
+        }
+      ]
+    }
+  ],
+  "id": 8149
+}

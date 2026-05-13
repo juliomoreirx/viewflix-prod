@@ -1,0 +1,215 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMzg=",
+  "tipo": "serie",
+  "titulo": "MASTERCHEF EUA",
+  "capa_url": "https://lgfp.one/SJE1",
+  "capa_local": "MASTERCHEF EUA/MASTERCHEF EUA.jpg",
+  "sinopse": "Nesta divertida competição culinária, cozinheiros amadores testam suas habilidades em provas com diferentes níveis de dificuldade, como a Prova da Caixa Misteriosa, desafios em equipes e as temidas Provas da Pressão.",
+  "genero": "Reality",
+  "elenco": "Gordon Ramsay, Joe Bastianich, Tiffany Derry",
+  "diretor": "",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 13",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S13E01",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S13E02",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S13E03",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S13E04",
+          "duracao": "00:41:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S13E05",
+          "duracao": "00:41:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S13E06",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S13E07",
+          "duracao": "00:40:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S13E08",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S13E09",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S13E10",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S13E11",
+          "duracao": "00:41:15"
+        },
+        {
+          "numero": "12",
+          "codigo": "S13E12",
+          "duracao": "00:40:52"
+        },
+        {
+          "numero": "13",
+          "codigo": "S13E13",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "14",
+          "codigo": "S13E14",
+          "duracao": "00:40:35"
+        },
+        {
+          "numero": "15",
+          "codigo": "S13E15",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "16",
+          "codigo": "S13E16",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "17",
+          "codigo": "S13E17",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "18",
+          "codigo": "S13E18",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "19",
+          "codigo": "S13E19",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "20",
+          "codigo": "S13E20",
+          "duracao": "00:43:45"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 15",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S15E01",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S15E02",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S15E03",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S15E04",
+          "duracao": "00:40:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S15E05",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S15E06",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S15E07",
+          "duracao": "00:40:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S15E08",
+          "duracao": "00:40:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S15E09",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S15E10",
+          "duracao": "00:40:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S15E11",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "12",
+          "codigo": "S15E12",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "13",
+          "codigo": "S15E13",
+          "duracao": "00:40:37"
+        },
+        {
+          "numero": "14",
+          "codigo": "S15E14",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "15",
+          "codigo": "S15E15",
+          "duracao": "00:40:32"
+        },
+        {
+          "numero": "16",
+          "codigo": "S15E16",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "17",
+          "codigo": "S15E17",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "20",
+          "codigo": "S15E20",
+          "duracao": "00:42:32"
+        }
+      ]
+    }
+  ],
+  "id": 9179
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNjU=",
+  "tipo": "serie",
+  "titulo": "LEONARDO DA VINCI",
+  "capa_url": "https://lgfp.one/TEH",
+  "capa_local": "LEONARDO DA VINCI/LEONARDO DA VINCI.jpg",
+  "sinopse": "Leonardo da Vinci é um homem extraordinário. Obcecado pela perfeição, ele vive os anseios e as tormentas de um jovem pintor, enquanto enfrenta a acusação de assassinar sua musa inspiradora.",
+  "genero": "Drama, Crime",
+  "elenco": "Aidan Turner, Freddie Highmore, Matilda De Angelis",
+  "diretor": "Brendan Fitzgerald",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:56"
+        }
+      ]
+    }
+  ],
+  "id": 2503
+}

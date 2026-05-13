@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5OTY=",
+  "tipo": "serie",
+  "titulo": "JULIE E OS FANTASMAS",
+  "capa_url": "https://lgfp.one/RDY",
+  "capa_local": "JULIE E OS FANTASMAS/JULIE E OS FANTASMAS.jpg",
+  "sinopse": "Após uma tragédia familiar, Julie perdeu a paixão pela música. Até que ela conhece três garotos fantasmagóricos e eles decidem formar uma banda.",
+  "genero": "Família, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Madison Reyes, Charlie Gillespie, Owen Patrick Joyner, Jeremy Shada, Jadah Marie",
+  "diretor": "Marc Dworkin, Marc Dworkin, Kenny Ortega",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:45"
+        }
+      ]
+    }
+  ],
+  "id": 915
+}

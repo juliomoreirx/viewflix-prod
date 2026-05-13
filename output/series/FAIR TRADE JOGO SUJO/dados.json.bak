@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNDY=",
+  "tipo": "serie",
+  "titulo": "FAIR TRADE: JOGO SUJO",
+  "capa_url": "https://lgfp.one/TOH",
+  "capa_local": "FAIR TRADE JOGO SUJO/FAIR TRADE JOGO SUJO.jpg",
+  "sinopse": "﻿﻿Após dedicarem anos para criar uma carreira nobre e honrosa na polícia, Robin e Walter se envolvem em esquemas de corrupção. Porém, eles trazem grandes problemas para suas vidas.",
+  "genero": "Crime",
+  "elenco": "Ella-June Henrard, Kevin Janssens, Peter van den Begin, Axel Daeseleire, Ксенія Мішина",
+  "diretor": "Mark Punt, Karen Clemens, Els Verhaeghe",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:54"
+        }
+      ]
+    }
+  ],
+  "id": 2778
+}

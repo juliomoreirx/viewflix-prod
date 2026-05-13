@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MzE=",
+  "tipo": "serie",
+  "titulo": "ALPHONSE",
+  "capa_url": "https://lgfp.one/AQOV",
+  "capa_local": "ALPHONSE/ALPHONSE.jpg",
+  "sinopse": "Alphonse, um homem na casa dos 40 anos enfrentando uma crise profissional e no casamento, reconecta-se com um pai que mal conhecia e descobre uma vocação surpreendente. Ao longo do caminho, ele conhece uma constelação de mulheres, cada uma mais empolgante e peculiar do que a outra, lançando-o em uma jornada que é ao mesmo tempo perigosa e transgressora, mas repleta de bondade.",
+  "genero": "Comédia, Drama",
+  "elenco": "Jean Dujardin, Charlotte Gainsbourg, Pierre Arditi, Nicole Garcia, Laura Morante",
+  "diretor": "Nicolas Bedos, Aude Mancel, César Chabrol",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:18"
+        }
+      ]
+    }
+  ],
+  "id": 4199
+}

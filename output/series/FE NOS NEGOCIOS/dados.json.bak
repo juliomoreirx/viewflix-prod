@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMjU=",
+  "tipo": "serie",
+  "titulo": "FE NOS NEGOCIOS",
+  "capa_url": "https://lgfp.one/AQT2",
+  "capa_local": "FE NOS NEGOCIOS/FE NOS NEGOCIOS.jpg",
+  "sinopse": "Com uma startup atolada em dívidas e um empréstimo enorme prestes a vencer, três empresários decidem dar um golpe arriscado.",
+  "genero": "Drama, Crime",
+  "elenco": "Teeradon Supapunpinyo, Pachara Chirathivat, Achiraya Nitibhon",
+  "diretor": "Wattanapong Wongwan",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:48"
+        }
+      ]
+    }
+  ],
+  "id": 5204
+}

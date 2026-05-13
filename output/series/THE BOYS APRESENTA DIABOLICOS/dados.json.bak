@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMjE=",
+  "tipo": "serie",
+  "titulo": "THE BOYS APRESENTA: DIABÓLICOS",
+  "capa_url": "https://lgfp.one/SYW",
+  "capa_local": "THE BOYS APRESENTA DIABOLICOS/THE BOYS APRESENTA DIABOLICOS.jpg",
+  "sinopse": "Entre com tudo nos cantos nunca explorados do universo de \"The Boys\" com \"Diabólico\" – uma série antológica animada de oito episódios –, cada episódio recém-espremido de algumas das mentes mais desequilibradas, confusas e maníacas que ainda trabalham na indústria do entretenimento.",
+  "genero": "Animação / Action & Adventure",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "14",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:14:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:14:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:14:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:14:22"
+        }
+      ]
+    }
+  ],
+  "id": 2359
+}

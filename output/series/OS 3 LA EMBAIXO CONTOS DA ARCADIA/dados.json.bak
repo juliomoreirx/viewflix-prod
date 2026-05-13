@@ -1,0 +1,155 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNjM=",
+  "tipo": "serie",
+  "titulo": "OS 3 LÁ EMBAIXO: CONTOS DA ARCADIA",
+  "capa_url": "https://lgfp.one/JGQ",
+  "capa_local": "OS 3 LA EMBAIXO CONTOS DA ARCADIA/OS 3 LA EMBAIXO CONTOS DA ARCADIA.jpg",
+  "sinopse": "Ao chegarem à Terra, dois jovens alienígenas em fuga tentam se infiltrar entre humanos e escapar de caçadores de recompensa intergaláticos.",
+  "genero": "Animação, Família, Comédia",
+  "elenco": "Tatiana Maslany, Frank Welker, Cheryl Hines, Glenn Close, Diego Luna",
+  "diretor": "Johane Matte, Andrew L. Schmidt, Elaine Bogan",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:23:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:23:24"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:24:02"
+        }
+      ]
+    }
+  ],
+  "id": 565
+}

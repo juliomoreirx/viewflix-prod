@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NDU=",
+  "tipo": "serie",
+  "titulo": "A SAÍDA",
+  "capa_url": "https://lgfp.one/SED",
+  "capa_local": "A SAIDA/A SAIDA.jpg",
+  "sinopse": "Uma jovem que perde a memória em um trágico acidente é enviada a uma clínica para pacientes com amnésia. Mas há algo de errado com o tratamento.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Drama",
+  "elenco": "Maria Wawreniuk, Ignacy Liss, Marcin Czarnik, Wojciech Dolatowski, Zuzanna Galewicz",
+  "diretor": "Anna Jadowska, Adrian Panek",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:10"
+        }
+      ]
+    }
+  ],
+  "id": 1797
+}

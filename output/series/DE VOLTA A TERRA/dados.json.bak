@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Njg=",
+  "tipo": "serie",
+  "titulo": "DE VOLTA À TERRA",
+  "capa_url": "https://lgfp.one/TFV",
+  "capa_local": "DE VOLTA A TERRA/DE VOLTA A TERRA.jpg",
+  "sinopse": "Ao herdar a fazenda do pai, o consultor de negócios Michi Wyss precisa confrontar seu passado rural para garantir o futuro da família.",
+  "genero": "Drama",
+  "elenco": "Julian Koechlin, Sophie Hutter, Anouk Petri, Marlise Fischer, Rachel Braunschweig",
+  "diretor": "Sabine Boss, Pierre Monnard, Christian Johannes Koch, Andrea Staka, Bettina Oberli",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:50"
+        }
+      ]
+    }
+  ],
+  "id": 2544
+}

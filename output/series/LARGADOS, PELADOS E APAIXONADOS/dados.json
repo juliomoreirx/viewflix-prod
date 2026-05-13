@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NjQ=",
+  "tipo": "serie",
+  "titulo": "LARGADOS, PELADOS E APAIXONADOS",
+  "capa_url": "https://lgfp.one/TLS",
+  "capa_local": "LARGADOS, PELADOS E APAIXONADOS/LARGADOS, PELADOS E APAIXONADOS.jpg",
+  "sinopse": "A série acompanha as aventuras e desventuras de 16 jovens solteiros, todos eles dispostos a passar por uma experiência inédita: encarar a natureza de uma ilha deserta e isolada enquanto procuram o par perfeito.",
+  "genero": "Reality",
+  "elenco": "Candice Xiao Liang, Bennett Murphy, Lauren Bonner, Brittany Whitmire, Nelson Dashing Monroig",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:25:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:14:40"
+        }
+      ]
+    }
+  ],
+  "id": 2707
+}

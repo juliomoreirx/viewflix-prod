@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMTk=",
+  "tipo": "serie",
+  "titulo": "INFINITI",
+  "capa_url": "https://lgfp.one/TPC",
+  "capa_local": "INFINITI/INFINITI.jpg",
+  "sinopse": "Um cadáver é encontrado em um telhado no Cazaquistão: pertence a Anthony Kurz, um astronauta americano atualmente na ISS. Anna Zarathi, uma astronauta francesa, e Isaak Turgun, um policial cazaque, decidiram resolver esse misterioso paradoxo.",
+  "genero": "Sci-Fi & Fantasy / Mistério / Drama",
+  "elenco": "Céline Sallette, Daniyar Alshinov, Vlad Ivanov, Lex Shrapnel, Karina Arutyunyan, Ellora Torchia, Anatolii Panchenko, Jarreth J. Merz",
+  "diretor": "Stéphane Pannetier, Julien Vanlerenberghe",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:21"
+        }
+      ]
+    }
+  ],
+  "id": 2799
+}

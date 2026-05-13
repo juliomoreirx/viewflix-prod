@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2Mzg=",
+  "tipo": "serie",
+  "titulo": "JARED FOGLE O MONSTRO DO SUBWAY",
+  "capa_url": "https://lgfp.one/AXCC",
+  "capa_local": "JARED FOGLE O MONSTRO DO SUBWAY/JARED FOGLE O MONSTRO DO SUBWAY.jpg",
+  "sinopse": "Acompanhe os detalhes da investigação que derrubou Jared Fogle.",
+  "genero": "Crime, Documentário",
+  "elenco": "Rochelle Herman, Sean 'Ozzie' Osborne, Max Winitz, Steven Debrota, Jared Fogle",
+  "diretor": "Robert Davis, Alastair Cook, Sam Miller",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:43"
+        }
+      ]
+    }
+  ],
+  "id": 4736
+}

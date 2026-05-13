@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMjk=",
+  "tipo": "serie",
+  "titulo": "FC BAYERN – POR TRÁS DA LENDA",
+  "capa_url": "https://lgfp.one/SVK",
+  "capa_local": "FC BAYERN  POR TRAS DA LENDA/FC BAYERN  POR TRAS DA LENDA.jpg",
+  "sinopse": "Pela primeira vez na história, o FC Bayern permitiu que a Amazon filmasse a série \"Por trás da lenda\", em uma abordagem sem filtros do vestiário e dos bastidores de um clube de ponta. O documentário, dividido em 6 episódios, mostra a temporada turbulenta após o triunfo da Champions League de Lisboa, comemora os sucessos lendários do passado e os associa ao destino do clube com o time atual.",
+  "genero": "Documentário",
+  "elenco": "Karl-Heinz Rummenigge, Oliver Kahn, Uli Hoeneß, Herbert Hainer, Hasan Salihamidzic, Hansi Flick, Kathleen Krüger, Kingsley Coman",
+  "diretor": "Nepomuk V. Fischer, Simon Verhoeven",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:17"
+        }
+      ]
+    }
+  ],
+  "id": 2269
+}

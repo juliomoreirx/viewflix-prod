@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0ODY=",
+  "tipo": "serie",
+  "titulo": "COMPLEXO DO SALVADOR [L]",
+  "capa_url": "https://lgfp.one/ABDA",
+  "capa_local": "COMPLEXO DO SALVADOR [L]/COMPLEXO DO SALVADOR [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Jackie Jesko, Roger Ross Williams",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:56"
+        }
+      ]
+    }
+  ],
+  "id": 4138
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4ODk=",
+  "tipo": "serie",
+  "titulo": "UNDERCOVER HIGH SCHOOL [L]",
+  "capa_url": "https://lgfp.one/NCO0",
+  "capa_local": "UNDERCOVER HIGH SCHOOL [L]/UNDERCOVER HIGH SCHOOL [L].jpg",
+  "sinopse": "",
+  "genero": "Action & Adventure, Comédia, Drama",
+  "elenco": "서강준, 진기주, 김신록, 김민주, 윤가이",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:08:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:10:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:07:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:36"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:07:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:08:25"
+        }
+      ]
+    }
+  ],
+  "id": 6947
+}

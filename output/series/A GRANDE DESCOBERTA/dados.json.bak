@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMzg=",
+  "tipo": "serie",
+  "titulo": "A GRANDE DESCOBERTA",
+  "capa_url": "https://lgfp.one/KOX1",
+  "capa_local": "A GRANDE DESCOBERTA/A GRANDE DESCOBERTA.jpg",
+  "sinopse": "Com um duplo homicídio sem solução por 16 anos, um detetive e um genealogista decidem trabalhar juntos para pegar o assassino antes que o caso seja arquivado.",
+  "genero": "Drama, Crime",
+  "elenco": "Peter Eggers, Mattias Nordkvist, Jessica Liedberg, Karin de Frumerie, Julia Sporre",
+  "diretor": "Fredrik Edfeldt, Lisa Siwe",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:53"
+        }
+      ]
+    }
+  ],
+  "id": 6505
+}

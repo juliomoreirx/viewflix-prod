@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MDc=",
+  "tipo": "serie",
+  "titulo": "THE CHALLENGE: CAMPEONATO MUNDIAL",
+  "capa_url": "https://lgfp.one/YSV",
+  "capa_local": "THE CHALLENGE CAMPEONATO MUNDIAL/THE CHALLENGE CAMPEONATO MUNDIAL.jpg",
+  "sinopse": "TJ Lavin reúne as lendas do desafio mais condecoradas de todos os tempos e os MVPs globais mais ferozes da Argentina, Austrália, Reino Unido e EUA para uma nova competição inovadora e cansativa.",
+  "genero": "Reality",
+  "elenco": "T.J. Lavin",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:48:06"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:50:41"
+        }
+      ]
+    }
+  ],
+  "id": 3339
+}

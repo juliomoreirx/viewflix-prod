@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMzU=",
+  "tipo": "serie",
+  "titulo": "O PSIQUIATRA AO LADO",
+  "capa_url": "https://lgfp.one/SOA",
+  "capa_local": "O PSIQUIATRA AO LADO/O PSIQUIATRA AO LADO.jpg",
+  "sinopse": "Nesta série baseada em fatos reais, Marty só queria um terapeuta que o ensinasse a estabelecer limites. Ao longo de 30 anos, ele aprende tudo sobre eles, e também sobre o que acontece quando são ultrapassados.",
+  "genero": "Comédia / Drama",
+  "elenco": "Paul Rudd, Will Ferrell, Kathryn Hahn, Casey Wilson",
+  "diretor": "Georgia Pritchett",
+  "total_episodios": "39",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:15"
+        }
+      ]
+    }
+  ],
+  "id": 2061
+}

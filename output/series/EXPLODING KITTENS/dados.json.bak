@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNTM=",
+  "tipo": "serie",
+  "titulo": "EXPLODING KITTENS",
+  "capa_url": "https://lgfp.one/CYE2",
+  "capa_local": "EXPLODING KITTENS/EXPLODING KITTENS.jpg",
+  "sinopse": "O eterno conflito entre o bem e o mal atinge proporções épicas quando Deus e a filha de Satã são enviados à Terra, encarnados como gatos falantes.",
+  "genero": "Animação, Comédia",
+  "elenco": "Tom Ellis, Ally Maki, Mark Proksch, Sasheer Zamata, Suzy Nakamura",
+  "diretor": "Mike Judge, Brian Sheesley, Jesse Herb",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:57"
+        }
+      ]
+    }
+  ],
+  "id": 5687
+}

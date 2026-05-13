@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4ODA=",
+  "tipo": "serie",
+  "titulo": "AS MENINAS DE SURFSIDE",
+  "capa_url": "https://lgfp.one/TPU",
+  "capa_local": "AS MENINAS DE SURFSIDE/AS MENINAS DE SURFSIDE.jpg",
+  "sinopse": "O raciocínio rápido das melhores amigas de praia Sam e Jade as leva a descobertas ousadas enquanto investigam os mistérios sobrenaturais de sua pacata cidade natal, Surfside.",
+  "genero": "Família / Mistério",
+  "elenco": "Miya Cech, YaYa Gosselin, Spencer Hermes-Rebello",
+  "diretor": "Alex Diaz, May Chan, Julie Sagalowsky Diaz",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:04"
+        }
+      ]
+    }
+  ],
+  "id": 2817
+}

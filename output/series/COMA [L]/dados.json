@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NDg=",
+  "tipo": "serie",
+  "titulo": "COMA [L]",
+  "capa_url": "https://lgfp.one/QNO3",
+  "capa_local": "COMA [L]/COMA [L].jpg",
+  "sinopse": "O bairro de Simon torna-se vítima das travessuras de um grupo de adolescentes. Simon e sua esposa querem mudar a filha para uma área mais segura. Ele confronta o líder do grupo, e uma decisão tomada em uma fração de segundo muda tudo.",
+  "genero": "Drama, Crime",
+  "elenco": "Jason Watkins, Claire Skinner, David Bradley, Jonas Armstrong, Joe Barber",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:10"
+        }
+      ]
+    }
+  ],
+  "id": 360184
+}

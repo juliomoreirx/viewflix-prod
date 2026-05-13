@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MTQ=",
+  "tipo": "serie",
+  "titulo": "TIME [L]",
+  "capa_url": "https://lgfp.one/ASYC",
+  "capa_local": "TIME [L]/TIME [L].jpg",
+  "sinopse": "Um prisioneiro consumido pela culpa, um oficial com uma escolha impossível. O que é preciso para sobreviver? Uma história tensa de punição e princípios, estrelada por Sean Bean e Stephen Graham.",
+  "genero": "Drama",
+  "elenco": "Siobhan Finneran, Bella Ramsey, Jodie Whittaker, Tamara Lawrance",
+  "diretor": "",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:49"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:04:56"
+        }
+      ]
+    }
+  ],
+  "id": 5184
+}

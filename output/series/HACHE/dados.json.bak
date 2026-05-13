@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Mjg=",
+  "tipo": "serie",
+  "titulo": "HACHE",
+  "capa_url": "https://lgfp.one/RNE",
+  "capa_local": "HACHE/HACHE.jpg",
+  "sinopse": "Barcelona, anos 60. Helena conquista o amor e confiança de um perigoso traficante de heroína e aprende o que é preciso para ascender no cartel.",
+  "genero": "Drama, Crime",
+  "elenco": "Adriana Ugarte, Eduardo Noriega, Marc Martínez",
+  "diretor": "Jorge Torregrossa, Fernando Trullols",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:46"
+        }
+      ]
+    }
+  ],
+  "id": 1170
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MjU=",
+  "tipo": "serie",
+  "titulo": "AS IRMÃS CULPO",
+  "capa_url": "https://lgfp.one/ZXE",
+  "capa_local": "AS IRMAS CULPO/AS IRMAS CULPO.jpg",
+  "sinopse": "As irmãs Culpos dominaram Los Angeles. Com o chame de garota do interior, elas se destacam no mundo ultracompetitivo da criação de conteúdo enquanto lidam com amor, decepções e rivalidade entre irmãs.",
+  "genero": "Reality",
+  "elenco": "Olivia Culpo, Sophia Culpo, Aurora Culpo",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 3496
+}

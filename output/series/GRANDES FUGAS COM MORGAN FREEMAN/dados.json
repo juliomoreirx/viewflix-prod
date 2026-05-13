@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMjY=",
+  "tipo": "serie",
+  "titulo": "GRANDES FUGAS COM MORGAN FREEMAN",
+  "capa_url": "https://lgfp.one/THI",
+  "capa_local": "GRANDES FUGAS COM MORGAN FREEMAN/GRANDES FUGAS COM MORGAN FREEMAN.jpg",
+  "sinopse": "Confira algumas das fugas da cadeia mais ousadas da história, com detalhes verdadeiros sobre os meticulosos planos de fugas dos presos e a perseguição a eles que se segue.",
+  "genero": "Documentário",
+  "elenco": "Morgan Freeman",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:14"
+        }
+      ]
+    }
+  ],
+  "id": 2584
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NjY=",
+  "tipo": "serie",
+  "titulo": "THE DREAMER MEMORIAS DE UMA ESCRITORA",
+  "capa_url": "https://lgfp.one/QRM0",
+  "capa_local": "THE DREAMER MEMORIAS DE UMA ESCRITORA/THE DREAMER MEMORIAS DE UMA ESCRITORA.jpg",
+  "sinopse": "Após 17 anos no Quênia, Karen Blixen perdeu tudo. Agora, ela enfrenta uma vida completamente dependente de sua família. Em busca de liberdade, ela decide retomar os sonhos de escrita de sua juventude.",
+  "genero": "Drama",
+  "elenco": "Connie Nielsen, Hanne Uldal, Joachim Fjelstrup, Lene Maria Christensen, Lars Mikkelsen",
+  "diretor": "Jeanette Nordahl, Greta Varts",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:03"
+        }
+      ]
+    }
+  ],
+  "id": 8390
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MzM=",
+  "tipo": "serie",
+  "titulo": "OS REIS DO ESGOTO",
+  "capa_url": "https://lgfp.one/AACN",
+  "capa_local": "OS REIS DO ESGOTO/OS REIS DO ESGOTO.jpg",
+  "sinopse": "O sistema de esgoto dos Estados Unidos é muito antigo, e precisa de reparos constantes. O programa mostra os trabalhadores heróis que mantêm esse sistema funcionando para que o resto de nós possa ficar longe da sujeira.",
+  "genero": "Reality, Documentário",
+  "elenco": "Rider, Don Gann, Tyson Hand",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:26"
+        }
+      ]
+    }
+  ],
+  "id": 3468
+}

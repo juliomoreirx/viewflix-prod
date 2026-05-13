@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNzA=",
+  "tipo": "serie",
+  "titulo": "SEE YOU IN ANOTHER LIFE [L]",
+  "capa_url": "https://lgfp.one/KJK6",
+  "capa_local": "SEE YOU IN ANOTHER LIFE [L]/SEE YOU IN ANOTHER LIFE [L].jpg",
+  "sinopse": "Em 11 de março de 2004, ocorreram os atentados a bomba em Madrid. Um jovem de 16 anos chamado Baby e Emilio estiveram envolvidos no transporte de explosivos. O testemunho de Baby foi vital no julgamento de 2007 relacionado aos ataques.",
+  "genero": "Drama, Crime",
+  "elenco": "Roberto Gutiérrez, Quim Àvila Conde, Pol López, Tamara Casellas, Mourad Ouani",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:03"
+        }
+      ]
+    }
+  ],
+  "id": 6409
+}

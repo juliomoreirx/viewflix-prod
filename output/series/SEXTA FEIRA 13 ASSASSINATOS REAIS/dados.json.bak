@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NDg=",
+  "tipo": "serie",
+  "titulo": "SEXTA FEIRA 13 ASSASSINATOS REAIS",
+  "capa_url": "https://lgfp.one/QMY5",
+  "capa_local": "SEXTA FEIRA 13 ASSASSINATOS REAIS/SEXTA FEIRA 13 ASSASSINATOS REAIS.jpg",
+  "sinopse": "Através de relatos detalhados e insights de especialistas, os investigadores revisitam as tragédias ligadas à sexta-feira 13, revelando as verdades perturbadoras por trás da data mais temida do mundo.",
+  "genero": "Crime, Documentário",
+  "elenco": "",
+  "diretor": "Sam Evenson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 8276
+}

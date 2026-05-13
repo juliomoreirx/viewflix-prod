@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODk=",
+  "tipo": "serie",
+  "titulo": "NCIS ORIGINS",
+  "capa_url": "https://lgfp.one/PLW1",
+  "capa_local": "NCIS ORIGINS/NCIS ORIGINS.jpg",
+  "sinopse": "Em 1991, anos antes dos eventos de NCIS, Leroy Jethro Gibbs começa sua carreira como um agente especial recém-criado no incipiente escritório do NCIS Camp Pendleton, onde ele forja seu lugar em uma equipe corajosa e desorganizada liderada pela lenda do NCIS, Mike Franks.",
+  "genero": "Crime, Drama",
+  "elenco": "Austin Stowell, Kyle Schmid, Mariel Molino, Tyla Abercrumbie, Diany Rodriguez",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:43:19"
+        }
+      ]
+    }
+  ],
+  "id": 6230
+}

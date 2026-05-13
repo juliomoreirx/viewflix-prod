@@ -1,0 +1,225 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMzI=",
+  "tipo": "serie",
+  "titulo": "DUCK DODGERS (2003)",
+  "capa_url": "https://lgfp.one/SOE3",
+  "capa_local": "DUCK DODGERS (2003)/DUCK DODGERS (2003).jpg",
+  "sinopse": "Depois de ficar congelado por 351 anos e acordar no século 24 ½, Duck Dodgers torna-se o maior herói da Terra, sem fazer absolutamente nada para merecer isso. Duck Dodgers, sempre com seu fiel cadete espacial, é a última linha de defesa do planeta contra a invasão alienígena promovida pelo Comandante Marciano",
+  "genero": "Animação, Comédia, Sci-Fi & Fantasy, Kids",
+  "elenco": "Joe Alaskey, Bob Bergen, Richard McGonagle, Tia Carrere, Michael Dorn",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:22:24"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:23:02"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:22:24"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:23:01"
+        },
+        {
+          "numero": "22",
+          "codigo": "S01E22",
+          "duracao": "00:23:13"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:21:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:22:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:22:50"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:22:42"
+        },
+        {
+          "numero": "15",
+          "codigo": "S02E15",
+          "duracao": "00:20:39"
+        },
+        {
+          "numero": "17",
+          "codigo": "S02E17",
+          "duracao": "00:22:26"
+        },
+        {
+          "numero": "19",
+          "codigo": "S02E19",
+          "duracao": "00:22:57"
+        },
+        {
+          "numero": "21",
+          "codigo": "S02E21",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "22",
+          "codigo": "S02E22",
+          "duracao": "00:21:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:22:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:23:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:23:02"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "13",
+          "codigo": "S03E13",
+          "duracao": "00:23:05"
+        },
+        {
+          "numero": "15",
+          "codigo": "S03E15",
+          "duracao": "00:22:53"
+        },
+        {
+          "numero": "17",
+          "codigo": "S03E17",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "18",
+          "codigo": "S03E18",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "20",
+          "codigo": "S03E20",
+          "duracao": "00:22:50"
+        },
+        {
+          "numero": "22",
+          "codigo": "S03E22",
+          "duracao": "00:22:47"
+        }
+      ]
+    }
+  ],
+  "id": 360859
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjY=",
+  "tipo": "serie",
+  "titulo": "A CRIATURA",
+  "capa_url": "https://lgfp.one/ARDV",
+  "capa_local": "A CRIATURA/A CRIATURA.jpg",
+  "sinopse": "A tragédia se abate sobre um cientista da antiga Istambul, e um pupilo usa métodos não comprovados para terminar seu trabalho. Só que as consequências são devastadoras.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Taner Ölmez, Erkan Kolçak Köstendil, Şifanur Gül, Bülent Şakrak, Devrim Yakut",
+  "diretor": "Çağan Irmak, Çağan Irmak",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:55"
+        }
+      ]
+    }
+  ],
+  "id": 4260
+}

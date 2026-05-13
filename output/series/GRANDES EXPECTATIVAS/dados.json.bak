@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyOTI=",
+  "tipo": "serie",
+  "titulo": "GRANDES EXPECTATIVAS",
+  "capa_url": "https://lgfp.one/ZQZ",
+  "capa_local": "GRANDES EXPECTATIVAS/GRANDES EXPECTATIVAS.jpg",
+  "sinopse": "A história do amadurecimento de um órfão, Pip, que anseia por uma vida melhor até que uma reviravolta do destino mostra a ele um mundo sombrio de possibilidades. Ele é forçado a enfrentar o custo deste novo mundo para poder se tornar o homem que deseja ser.",
+  "genero": "Drama",
+  "elenco": "Olivia Colman, Fionn Whitehead, Ashley Thomas, Johnny Harris, Shalom Brune-Franklin",
+  "diretor": "Ridley Scott",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:55"
+        }
+      ]
+    }
+  ],
+  "id": 3464
+}

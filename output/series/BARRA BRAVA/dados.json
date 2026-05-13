@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NjM=",
+  "tipo": "serie",
+  "titulo": "BARRA BRAVA",
+  "capa_url": "https://lgfp.one/AAKD",
+  "capa_local": "BARRA BRAVA/BARRA BRAVA.jpg",
+  "sinopse": "Após um conflito interno violento, dois irmãos são expulsos da organizada do time de futebol para o qual torcem. Sozinhos, sem dinheiro nem proteção política, eles iniciam uma guerra que testa seus laços.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Gastón Pauls, Matías Mayer, Gustavo Garzón, Liz Solari, Pablo Alarcón",
+  "diretor": "Jesús Braceras, Gabriel Nicoli, Diego Ferrando Mazzotti",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:55"
+        }
+      ]
+    }
+  ],
+  "id": 3610
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NDc=",
+  "tipo": "serie",
+  "titulo": "A FRONTEIRA ORIENTAL [L]",
+  "capa_url": "https://lgfp.one/MYT2",
+  "capa_local": "A FRONTEIRA ORIENTAL [L]/A FRONTEIRA ORIENTAL [L].jpg",
+  "sinopse": "Em um ponto estratégico crítico para a Europa, uma espiã polonesa devastada tenta se afastar do mundo do serviço secreto.",
+  "genero": "War & Politics, Action & Adventure, Mistério",
+  "elenco": "Lena Góra, Andrzej Konopka, Karol Pocheć, Bartłomiej Topa, Alona Szostak",
+  "diretor": "Marcin Filipowicz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:23"
+        }
+      ]
+    }
+  ],
+  "id": 6864
+}

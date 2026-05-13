@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxODc=",
+  "tipo": "serie",
+  "titulo": "ERIC",
+  "capa_url": "https://lgfp.one/BDT4",
+  "capa_local": "ERIC/ERIC.jpg",
+  "sinopse": "Um pai desesperado e um policial obstinado lutam contra os próprios demônios na Nova York da década de 1980 em busca de um garoto desaparecido.",
+  "genero": "Drama, Mistério",
+  "elenco": "Benedict Cumberbatch, Gaby Hoffmann, McKinley Belcher III, Dan Fogler, Clarke Peters",
+  "diretor": "Lucy Forbes",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:51"
+        }
+      ]
+    }
+  ],
+  "id": 5511
+}

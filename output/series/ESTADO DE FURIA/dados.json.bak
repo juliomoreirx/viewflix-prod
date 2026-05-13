@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NTA=",
+  "tipo": "serie",
+  "titulo": "ESTADO DE FURIA",
+  "capa_url": "https://lgfp.one/PHC6",
+  "capa_local": "ESTADO DE FURIA/ESTADO DE FURIA.jpg",
+  "sinopse": "As histórias interligadas de cinco mulheres que, levadas ao limite, cometem um ato de vingança que provoca um efeito dominó devastador.",
+  "genero": "Drama, Comédia",
+  "elenco": "Candela Peña, Carmen Machi, Cecilia Roth, Nathalie Poza, Pilar Castro",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:22"
+        }
+      ]
+    }
+  ],
+  "id": 7632
+}

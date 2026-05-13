@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODU=",
+  "tipo": "serie",
+  "titulo": "SUITS LA",
+  "capa_url": "https://lgfp.one/QLT7",
+  "capa_local": "SUITS LA/SUITS LA.jpg",
+  "sinopse": "Ted Black, um ex-promotor federal de Nova York, se reinventou representando os clientes mais poderosos de Los Angeles. Mas sua empresa está em um ponto de crise e, para sobreviver, ele deve abraçar um papel que ocupou com desprezo durante toda a sua carreira.",
+  "genero": "Drama",
+  "elenco": "Stephen Amell, Lex Scott Davis, Josh McDermitt, Bryan Greenberg",
+  "diretor": "Doug Liman, Anton Cropper",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:35"
+        }
+      ]
+    }
+  ],
+  "id": 8248
+}

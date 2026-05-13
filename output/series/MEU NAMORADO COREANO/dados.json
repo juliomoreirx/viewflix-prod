@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4ODk=",
+  "tipo": "serie",
+  "titulo": "MEU NAMORADO COREANO",
+  "capa_url": "https://lgfp.one/RGD6",
+  "capa_local": "MEU NAMORADO COREANO/MEU NAMORADO COREANO.jpg",
+  "sinopse": "Cinco brasileiras, em diferentes níveis de relacionamento, desembarcam na agitada Seul para descobrir se as relações sobreviverão à distância, às diferenças culturais e à nova rotina.",
+  "genero": "Reality",
+  "elenco": "Camila Kim, Katy Dias, Luanny Vital, Mariana Tollendal, Morena Monaco",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:23"
+        }
+      ]
+    }
+  ],
+  "id": 8603
+}

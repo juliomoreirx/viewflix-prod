@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NTQ=",
+  "tipo": "serie",
+  "titulo": "DOIS VERÕES",
+  "capa_url": "https://lgfp.one/TIC",
+  "capa_local": "DOIS VEROES/DOIS VEROES.jpg",
+  "sinopse": "Um grupo de amigos se reencontra para uma viagem de férias luxuosa, décadas após um caso de abuso sexual acontecer entre eles.",
+  "genero": "Mistério, Drama",
+  "elenco": "An Miller, Marieke Anthoni, Tom Vermeir, Lukas Bulteel, Herwig Ilegems",
+  "diretor": "Tom Lenaerts, Brecht Vanhoenacker",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:18"
+        }
+      ]
+    }
+  ],
+  "id": 2605
+}

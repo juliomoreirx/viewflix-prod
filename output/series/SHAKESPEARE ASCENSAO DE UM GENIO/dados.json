@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwODI=",
+  "tipo": "serie",
+  "titulo": "SHAKESPEARE ASCENSAO DE UM GENIO",
+  "capa_url": "https://lgfp.one/DHE5",
+  "capa_local": "SHAKESPEARE ASCENSAO DE UM GENIO/SHAKESPEARE ASCENSAO DE UM GENIO.jpg",
+  "sinopse": "Como um jovem, nascido em uma cidade pacata sob as garras de ferro de uma epidemia, se torna o dramaturgo mais famoso que já existiu. Explora como o gênio criativo de Shakespeare foi nutrido por um mundo perigoso e emocionante.",
+  "genero": "Documentário, Drama",
+  "elenco": "Juliet Stevenson, Daniel Boyarsky, Dániel Baki, Mátyás Tóth, Gergõ Bárdi",
+  "diretor": "Julian Jones",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:21"
+        }
+      ]
+    }
+  ],
+  "id": 5837
+}

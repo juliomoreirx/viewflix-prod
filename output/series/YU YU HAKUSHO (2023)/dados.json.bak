@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNzg=",
+  "tipo": "serie",
+  "titulo": "YU YU HAKUSHO (2023)",
+  "capa_url": "https://lgfp.one/AVHL",
+  "capa_local": "YU YU HAKUSHO (2023)/YU YU HAKUSHO (2023).jpg",
+  "sinopse": "Depois de perder a vida em um ato de bondade, o delinquente juvenil Yusuke Urameshi é chamado para ser detetive espiritual e investigar casos de Yokais perigosos.",
+  "genero": "Drama, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Takumi Kitamura, 上杉柊平, 志尊淳, 本郷奏多, 町田啓太",
+  "diretor": "Sho Tsukikawa",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:04"
+        }
+      ]
+    }
+  ],
+  "id": 228481
+}

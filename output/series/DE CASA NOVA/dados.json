@@ -1,0 +1,200 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MTI=",
+  "tipo": "serie",
+  "titulo": "DE CASA NOVA",
+  "capa_url": "https://lgfp.one/DTB5",
+  "capa_local": "DE CASA NOVA/DE CASA NOVA.jpg",
+  "sinopse": "O casal Erin e Ben Napier traz sua pequena cidade natal no Mississippi de volta à vida, com reformas modernas e acessíveis para as históricas casas locais.",
+  "genero": "Reality",
+  "elenco": "Erin Napier, Ben Napier, Richard T. Jones",
+  "diretor": "Jim MacPherson, Kirk Durham, Jeff Uncapher, Patrick McMahill",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:01"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:42:40"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "13",
+          "codigo": "S03E13",
+          "duracao": "00:42:36"
+        }
+      ]
+    }
+  ],
+  "id": 6025
+}

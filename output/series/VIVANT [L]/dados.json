@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzNjI=",
+  "tipo": "serie",
+  "titulo": "VIVANT [L]",
+  "capa_url": "https://lgfp.one/AWHK",
+  "capa_local": "VIVANT [L]/VIVANT [L].jpg",
+  "sinopse": "Ao investigar uma enorme transferência bancária errada, um empresário acaba em uma aventura épica de proporções mundiais.",
+  "genero": "Drama",
+  "elenco": "Masato Sakai, Hiroshi Abe, Fumi Nikaido, Tori Matsuzaka, Kazunari Ninomiya",
+  "diretor": "Katsuo Fukuzawa, Katsuo Fukuzawa",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:30:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:06:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:07:34"
+        }
+      ]
+    }
+  ],
+  "id": 4653
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MTM=",
+  "tipo": "serie",
+  "titulo": "BELGRAVIA",
+  "capa_url": "https://lgfp.one/SDI",
+  "capa_local": "BELGRAVIA/BELGRAVIA.jpg",
+  "sinopse": "Na Londres do início do século XIX, a família Trenchard, que busca estar entre a elite, acaba no centro de uma teia de intrigas por conta de um traumático evento do passado.",
+  "genero": "Drama",
+  "elenco": "Tamsin Greig, Philip Glenister, Alice Eve, Ella Purnell, Jack Bardoe",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:15"
+        }
+      ]
+    }
+  ],
+  "id": 1775
+}

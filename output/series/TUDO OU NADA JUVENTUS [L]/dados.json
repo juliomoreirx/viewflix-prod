@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MDM=",
+  "tipo": "serie",
+  "titulo": "TUDO OU NADA: JUVENTUS [L]",
+  "capa_url": "https://lgfp.one/SQI",
+  "capa_local": "TUDO OU NADA JUVENTUS [L]/TUDO OU NADA JUVENTUS [L].jpg",
+  "sinopse": "Acompanhe o popular clube de futebol italiano na atual temporada 2020/21",
+  "genero": "Documentário",
+  "elenco": "Guido Vaciago, Andrea Pirlo, Leonardo Bonucci, Giorgio Chiellini, Gianluigi Buffon",
+  "diretor": "Beppe Tufarulo",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:26"
+        }
+      ]
+    }
+  ],
+  "id": 2126
+}

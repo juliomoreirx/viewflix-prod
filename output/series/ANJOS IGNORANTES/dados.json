@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MTE=",
+  "tipo": "serie",
+  "titulo": "ANJOS IGNORANTES",
+  "capa_url": "https://lgfp.one/TCR",
+  "capa_local": "ANJOS IGNORANTES/ANJOS IGNORANTES.jpg",
+  "sinopse": "Quando Massimo, marido de Antonia, é morto em um acidente, ela descobre que ele tinha um caso com um jovem, Michele. Antonia, arrasada com a notícia, se vê investigando a vida secreta do marido e constrói uma inesperada e profunda amizade com Michele e seu círculo de amigos excêntricos; praticamente a segunda família de seu falecido esposo. Graças a todos eles, ela mudará sua perspectiva sobre a vida, mas vai aprender a amar novamente?",
+  "genero": "Drama",
+  "elenco": "Cristiana Capotondi, Luca Argentero, Ambra Angiolini, Eduardo Scarpetta, Ed Hendrik, Filippo Scicchitano, Federico Mancini",
+  "diretor": "Ferzan Özpetek, Gianluca Mazzella",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:02"
+        }
+      ]
+    }
+  ],
+  "id": 2460
+}

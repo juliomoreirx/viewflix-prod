@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MDk=",
+  "tipo": "serie",
+  "titulo": "DESOBEDIENTES",
+  "capa_url": "https://lgfp.one/QBY3",
+  "capa_local": "DESOBEDIENTES/DESOBEDIENTES.jpg",
+  "sinopse": "Um policial de uma cidadezinha suspeita que a escola para adolescentes problemáticos (e sua fundadora carismática) pode esconder mais do que aparenta.",
+  "genero": "Drama, Mistério",
+  "elenco": "Mae Martin, Sarah Gadon, Alyvia Alyn Lind, Sydney Topliffe, Toni Collette",
+  "diretor": "Hannah Mackay, Euros Lyn",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:39"
+        }
+      ]
+    }
+  ],
+  "id": 8029
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNDQ=",
+  "tipo": "serie",
+  "titulo": "A ESTACAO DAS GAROTAS PERDIDAS",
+  "capa_url": "https://lgfp.one/QEG0",
+  "capa_local": "A ESTACAO DAS GAROTAS PERDIDAS/A ESTACAO DAS GAROTAS PERDIDAS.jpg",
+  "sinopse": "",
+  "genero": "Crime, Drama",
+  "elenco": "Hugo Becker, Patrick Timsit, Mélanie Doutey, Kévin Azaïs, Camille Razat",
+  "diretor": "Justinien Schricke, Arthur Tabuteau",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:47"
+        }
+      ]
+    }
+  ],
+  "id": 8136
+}

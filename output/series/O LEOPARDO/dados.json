@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5ODQ=",
+  "tipo": "serie",
+  "titulo": "O LEOPARDO",
+  "capa_url": "https://lgfp.one/NEF8",
+  "capa_local": "O LEOPARDO/O LEOPARDO.jpg",
+  "sinopse": "Em meio à unificação da Itália nos anos 1860, um príncipe siciliano enfrenta o conflito entre os antigos privilégios de sua família e as mudanças causadas pela revolução.",
+  "genero": "Drama",
+  "elenco": "Kim Rossi Stuart, Benedetta Porcaroli, Saul Nanni, Deva Cassel, Paolo Calabresi",
+  "diretor": "Tom Shankland, Giuseppe Capotondi, Laura Luchetti",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:46"
+        }
+      ]
+    }
+  ],
+  "id": 6988
+}

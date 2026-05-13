@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5NjY=",
+  "tipo": "serie",
+  "titulo": "911 NASHVILLE",
+  "capa_url": "https://lgfp.one/RAZ5",
+  "capa_local": "911 NASHVILLE/911 NASHVILLE.jpg",
+  "sinopse": "No Tennessee, equipes dedicadas de emergência equilibram suas carreiras de alto risco com o drama de uma poderosa dinastia local, onde vidas pessoais e deveres profissionais colidem.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Chris O'Donnell, Jessica Capshaw, Kimberly Williams-Paisley, LeAnn Rimes, Michael Provost",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:05"
+        }
+      ]
+    }
+  ],
+  "id": 8437
+}

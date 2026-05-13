@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MzQ=",
+  "tipo": "serie",
+  "titulo": "MASTERCHEF BRASIL JÚNIOR",
+  "capa_url": "https://lgfp.one/XGB",
+  "capa_local": "MASTERCHEF BRASIL JUNIOR/MASTERCHEF BRASIL JUNIOR.jpg",
+  "sinopse": "Neste reality show gastronômico, crianças entre 8 e 13 anos de idade mostram seus dotes culinários e disputam o título de melhor chef de cozinha mirim. Depois de passar por várias provas, o vencedor é escolhido por um grupo de jurados.",
+  "genero": "Reality / Kids",
+  "elenco": "Érick Jacquin, Ana Paula Padrão, Henrique Fogaça, Helena Rizzo",
+  "diretor": "Franc Roddam",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:55:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:48:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:50:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:46:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:36:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:37:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:29:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:36:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:35:52"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:38:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:46:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:29:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:28:13"
+        }
+      ]
+    }
+  ],
+  "id": 3163
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDk=",
+  "tipo": "serie",
+  "titulo": "AMOR RURAL",
+  "capa_url": "https://lgfp.one/VXK",
+  "capa_local": "AMOR RURAL/AMOR RURAL.jpg",
+  "sinopse": "Contra sua vontade, um veterinário da cidade grande se muda para o campo, onde conhece uma policial, uma informante da cidade com um segredo amigável.",
+  "genero": "Drama",
+  "elenco": "Park Soo-young, Choo Young-woo, Baek Sung-Chul",
+  "diretor": "Kwon Seok-jang",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:58"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:34:38"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:36:12"
+        }
+      ]
+    }
+  ],
+  "id": 2973
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MDE=",
+  "tipo": "serie",
+  "titulo": "A CAMINHO DO CÉU",
+  "capa_url": "https://lgfp.one/RSK",
+  "capa_local": "A CAMINHO DO CEU/A CAMINHO DO CEU.jpg",
+  "sinopse": "Existe vida nos pertences de quem já faleceu. Um jovem detalhista e seu tio descobrem e relatam essas histórias para aqueles que ficaram.",
+  "genero": "Drama",
+  "elenco": "Lee Je-hoon, Tang Jun-sang, Hong Seung-hee, Ji Jin-hee, Jeong Seok-yong",
+  "diretor": "Kim Sung-ho",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:38"
+        }
+      ]
+    }
+  ],
+  "id": 1312
+}

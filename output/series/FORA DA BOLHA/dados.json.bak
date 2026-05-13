@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNDk=",
+  "tipo": "serie",
+  "titulo": "FORA DA BOLHA",
+  "capa_url": "https://lgfp.one/AAZT",
+  "capa_local": "FORA DA BOLHA/FORA DA BOLHA.jpg",
+  "sinopse": "Buscando recuperar a popularidade depois de uma humilhação pública, uma aspirante a influencer se matricula na universidade de uma cidadezinha.",
+  "genero": "Comédia, Drama",
+  "elenco": "Buntu Petse, Lunga Shabalala, Prev Reddy, Micaela Jade Tucker, Mpho Sebeng",
+  "diretor": "Katleho Ramaphakela, Rethabile Ramaphakela",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:36"
+        }
+      ]
+    }
+  ],
+  "id": 4011
+}

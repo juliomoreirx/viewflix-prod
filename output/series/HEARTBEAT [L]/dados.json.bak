@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MTc=",
+  "tipo": "serie",
+  "titulo": "HEARTBEAT [L]",
+  "capa_url": "https://lgfp.one/AAPR",
+  "capa_local": "HEARTBEAT [L]/HEARTBEAT [L].jpg",
+  "sinopse": "Uma história de amor entre o meio-humano e meio-vampiro Seon Woo Hyul, que não conseguiu se tornar humano devido à diferença de um dia em mais de 100 anos, e Joo In Hae, uma mulher que não tem lado humano e encontra o verdadeiro calor.",
+  "genero": "Drama, Comédia, Mistério",
+  "elenco": "Ok Taec-yeon, Won Ji-an, Yoon So-hee, Park Kang-hyun, Yoon Byung-hee",
+  "diretor": "Lee Hyun-seok, Lee Min-soo",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:32"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:01:00"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:01:18"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:00:15"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:02:52"
+        }
+      ]
+    }
+  ],
+  "id": 3751
+}

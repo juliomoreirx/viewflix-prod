@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MjY=",
+  "tipo": "serie",
+  "titulo": "MEU ENCONTRO COM O MAL",
+  "capa_url": "https://lgfp.one/WGF",
+  "capa_local": "MEU ENCONTRO COM O MAL/MEU ENCONTRO COM O MAL.jpg",
+  "sinopse": "Vítimas relatam suas experiências com possessão demoníaca nesta série documental que conta com reconstituições e depoimentos.",
+  "genero": "Documentário, Reality",
+  "elenco": "David A. Castillo, Frank Gerrish, Olivia Cane",
+  "diretor": "Adrian Garcia Bogliano, Ramiro García Bogliano, Carlos Meléndez",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:17"
+        }
+      ]
+    }
+  ],
+  "id": 3081
+}

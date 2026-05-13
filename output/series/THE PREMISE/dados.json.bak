@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NjE=",
+  "tipo": "serie",
+  "titulo": "THE PREMISE",
+  "capa_url": "https://lgfp.one/SOH",
+  "capa_local": "THE PREMISE/THE PREMISE.jpg",
+  "sinopse": "Esta série antológica é sobre questões morais atemporais em tempos nunca antes vistos trata de conceitos provocadores e os discute em aberto, contando histórias tridimensionais, baseadas em personagens com humor e compaixão.",
+  "genero": "Comédia / Drama",
+  "elenco": "B.J. Novak",
+  "diretor": "B.J. Novak",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:04"
+        }
+      ]
+    }
+  ],
+  "id": 2068
+}

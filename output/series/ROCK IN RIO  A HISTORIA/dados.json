@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNTE=",
+  "tipo": "serie",
+  "titulo": "ROCK IN RIO – A HISTÓRIA",
+  "capa_url": "https://lgfp.one/TMY",
+  "capa_local": "ROCK IN RIO  A HISTORIA/ROCK IN RIO  A HISTORIA.jpg",
+  "sinopse": "Artistas que tiveram suas carreiras marcadas pelo Rock in Rio contam como um festival que parecia fadado ao ﻿fracasso se transformou no maior do mundo.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Patrícia Guimarães, Andrucha Waddington",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:45"
+        }
+      ]
+    }
+  ],
+  "id": 2740
+}

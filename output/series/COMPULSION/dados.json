@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMjU=",
+  "tipo": "serie",
+  "titulo": "COMPULSION",
+  "capa_url": "https://lgfp.one/TOR",
+  "capa_local": "COMPULSION/COMPULSION.jpg",
+  "sinopse": "Depois de sobreviver a uma tragédia, a paramédica Jenny Challoner luta contra o PTSD. Escondendo seu sofrimento do marido Chris, da amiga Alison e da filha Rosie, a vida de Jenny fica fora de controle.",
+  "genero": "Crime / Drama",
+  "elenco": "Anna Chancellor, Hayley Mills, Ben Tavassoli, Leanne Best, Bronwyn James, Yennis Cheung, Trudie Goodwin, Amerjit Deu",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:28"
+        }
+      ]
+    }
+  ],
+  "id": 2788
+}

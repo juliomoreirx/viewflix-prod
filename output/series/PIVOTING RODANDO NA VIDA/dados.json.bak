@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MzQ=",
+  "tipo": "serie",
+  "titulo": "PIVOTING: RODANDO NA VIDA",
+  "capa_url": "https://lgfp.one/TEK",
+  "capa_local": "PIVOTING RODANDO NA VIDA/PIVOTING RODANDO NA VIDA.jpg",
+  "sinopse": "Em Pivoting, após a morte de sua melhor amiga de infância, três mulheres precisam lidar com a realidade que a vida é curta. Desesperadas para achar a felicidade, elas fazem decisões impulsivas e autoindulgentes, fortalecendo sua relação, mas acabando com os outros pilares de suas vidas.",
+  "genero": "Comédia",
+  "elenco": "Ginnifer Goodwin, Eliza Coupe, Maggie Q, Tommy Dewey, JT Neal, Marcello Julian Reyes",
+  "diretor": "Liz Astrof",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:36"
+        }
+      ]
+    }
+  ],
+  "id": 2507
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxOTE=",
+  "tipo": "serie",
+  "titulo": "SNOOPY VAI ACAMPAR",
+  "capa_url": "https://lgfp.one/BHG1",
+  "capa_local": "SNOOPY VAI ACAMPAR/SNOOPY VAI ACAMPAR.jpg",
+  "sinopse": "Após descobrirem que a tropa corre o risco de ser desmantelada, Snoopy e os Escoteiros Beagles partem em busca das suas medalhas de mérito. Enquanto isso, Charlie Brown e seus amigos aproveitam verão no Acampamento Remoto.",
+  "genero": "Animação, Kids, Família",
+  "elenco": "Etienne Kellici, Terry McGurrin, Rob Tinkler, Caleb Bellavance, Molly Lewis",
+  "diretor": "Logan McPherson, Rob Boutilier, Rob Boutilier",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:25"
+        }
+      ]
+    }
+  ],
+  "id": 337561
+}

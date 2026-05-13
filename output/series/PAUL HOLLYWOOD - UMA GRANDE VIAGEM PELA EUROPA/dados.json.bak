@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMDM=",
+  "tipo": "serie",
+  "titulo": "PAUL HOLLYWOOD - UMA GRANDE VIAGEM PELA EUROPA",
+  "capa_url": "https://lgfp.one/DTC9",
+  "capa_local": "PAUL HOLLYWOOD - UMA GRANDE VIAGEM PELA EUROPA/PAUL HOLLYWOOD - UMA GRANDE VIAGEM PELA EUROPA.jpg",
+  "sinopse": "Acompanhe o famoso chef Paul Hollywood em uma alucinante viagem cultural e automobilística através da França, Itália e Alemanha.",
+  "genero": "Documentário",
+  "elenco": "Paul Hollywood",
+  "diretor": "Ewan Keil",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:20"
+        }
+      ]
+    }
+  ],
+  "id": 6039
+}

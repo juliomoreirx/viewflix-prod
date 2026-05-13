@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NTY=",
+  "tipo": "serie",
+  "titulo": "CONTROL Z",
+  "capa_url": "https://lgfp.one/SCI",
+  "capa_local": "CONTROL Z/CONTROL Z.jpg",
+  "sinopse": "Um hacker começa a divulgar os segredos dos alunos para toda a escola, e Sofia, uma menina observadora e solitária, quer descobrir quem está por trás disso.",
+  "genero": "Drama",
+  "elenco": "Ana Valeria Becerril, Michael Ronda, Yankel Stevan, Macarena García Romero, Fiona Palomo",
+  "diretor": "Alejandro Lozano, Bernardo De la Rosa Villarreal",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:12"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:39:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:38:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:36:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:36:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:39:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:39:30"
+        }
+      ]
+    }
+  ],
+  "id": 1749
+}

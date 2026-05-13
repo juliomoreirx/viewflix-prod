@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MjM=",
+  "tipo": "serie",
+  "titulo": "IRMÃS DE CELA: NEW ORLEANS",
+  "capa_url": "https://lgfp.one/SHV",
+  "capa_local": "IRMAS DE CELA NEW ORLEANS/IRMAS DE CELA NEW ORLEANS.jpg",
+  "sinopse": "Neste reality corajoso, rixas, flertes e confidências marcam o cotidiano das detentas no Centro de Justiça Orleans em Nova Orleans.",
+  "genero": "Documentário, Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:54"
+        }
+      ]
+    }
+  ],
+  "id": 1896
+}

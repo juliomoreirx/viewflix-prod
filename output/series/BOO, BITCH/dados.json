@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Mzg=",
+  "tipo": "serie",
+  "titulo": "BOO, BITCH",
+  "capa_url": "https://lgfp.one/TKD",
+  "capa_local": "BOO, BITCH/BOO, BITCH.jpg",
+  "sinopse": "É o último ano da escola, e duas amigas estão prontas para curtir a vida ao máximo! O único problema é que agora uma delas é um fantasma...",
+  "genero": "Comédia, Sci-Fi & Fantasy",
+  "elenco": "Lana Condor, Zoe Colletti, Mason Versaw, Aparna Brielle, Tenzing Norgay Trainor",
+  "diretor": "Susan A. Sullivan, Tim Schauer",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:22"
+        }
+      ]
+    }
+  ],
+  "id": 2662
+}

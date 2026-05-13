@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1ODM=",
+  "tipo": "serie",
+  "titulo": "GIRLS PLAY [L]",
+  "capa_url": "https://lgfp.one/QHP3",
+  "capa_local": "GIRLS PLAY [L]/GIRLS PLAY [L].jpg",
+  "sinopse": "A detetive YouTuber Layal embarca em uma viagem ao enigmático resort Vivarium com seus velhos amigos para uma despedida de solteira. No entanto, um assustador assassinato não resolvido do passado começa a lançar sua sombra sobre o reencontro deles e testemunhamos um novo assassinato. O que aconteceu? Quem fez isso?",
+  "genero": "Soap, Action & Adventure, Crime",
+  "elenco": "Stephanie Atala, Reem Nasr Aldeen, Reem Khoury, Mustafa Saad El Din, Mona AlRami",
+  "diretor": "Boudy Sfeir",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:23"
+        }
+      ]
+    }
+  ],
+  "id": 8197
+}

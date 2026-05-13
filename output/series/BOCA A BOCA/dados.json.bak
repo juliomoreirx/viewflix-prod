@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMjM=",
+  "tipo": "serie",
+  "titulo": "BOCA A BOCA",
+  "capa_url": "https://lgfp.one/JMY",
+  "capa_local": "BOCA A BOCA/BOCA A BOCA.jpg",
+  "sinopse": "O surto de uma doença infecciosa transmitida pelo beijo assusta os adolescentes de uma cidade do interior no Brasil.",
+  "genero": "Drama, Mistério",
+  "elenco": "Caio Horowicz, Iza Moreira, Michel Joelsas, Denise Fraga, Thomás Aquino",
+  "diretor": "Esmir Filho, Juliana Rojas, Thereza Menezes",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:36"
+        }
+      ]
+    }
+  ],
+  "id": 755
+}

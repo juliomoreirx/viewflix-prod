@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MDM=",
+  "tipo": "serie",
+  "titulo": "AS PORTAS DO TEMPO",
+  "capa_url": "https://lgfp.one/KJI9",
+  "capa_local": "AS PORTAS DO TEMPO/AS PORTAS DO TEMPO.jpg",
+  "sinopse": "As portas do passado se abrem uma a uma quando o caminho do gênio da computação Sinan, que vive uma vida antissocial sem se comunicar o máximo possível com as pessoas apesar das oportunidades que tem, cruza com Nevra, a atraente e bela filha de um dos empresários mais importantes da Turquia. Com os segredos revelados, Nevra também encontra sua própria realidade. Juntos, eles embarcam em uma tensa jornada em direção às suas raízes. O confronto e o amor apaixonado que eles experimentarão trarão muitos desastres e mortes",
+  "genero": "Drama",
+  "elenco": "Birkan Sokullu, Esra Bilgiç, Erkan Can, Cem Bender, İbrahim Selim",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:46"
+        }
+      ]
+    }
+  ],
+  "id": 6392
+}

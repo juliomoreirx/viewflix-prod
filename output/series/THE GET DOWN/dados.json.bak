@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NDU=",
+  "tipo": "serie",
+  "titulo": "THE GET DOWN",
+  "capa_url": "https://lgfp.one/RUY9",
+  "capa_local": "THE GET DOWN/THE GET DOWN.jpg",
+  "sinopse": "Na Nova York de 1977, a talentosa juventude do South Bronx persegue sonhos e uma nova forma de expressão que mudará a história da música.",
+  "genero": "Drama",
+  "elenco": "Justice Smith, Shameik Moore, Herizen F. Guardiola, Skylan Brooks, Jaden Smith",
+  "diretor": "Justin Bischoff",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:32:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:51"
+        }
+      ]
+    }
+  ],
+  "id": 8935
+}

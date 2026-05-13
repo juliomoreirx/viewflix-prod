@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NDA=",
+  "tipo": "serie",
+  "titulo": "ANITTA: MADE IN HONÓRIO",
+  "capa_url": "https://lgfp.one/RKK",
+  "capa_local": "ANITTA MADE IN HONORIO/ANITTA MADE IN HONORIO.jpg",
+  "sinopse": "De Honório Gurgel para o mundo. Anitta levou o funk para outro patamar e agora vai mostrar como chegou lá. Prepare-se, a temperatura vai subir!",
+  "genero": "Documentário",
+  "elenco": "Anitta, Miriam Macedo, Renan Macedo, Mauro Machado",
+  "diretor": "Andrucha Waddington",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:55"
+        }
+      ]
+    }
+  ],
+  "id": 1092
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NTg=",
+  "tipo": "serie",
+  "titulo": "CRÔNICAS DE SÃO FRANCISCO",
+  "capa_url": "https://lgfp.one/RGY",
+  "capa_local": "CRONICAS DE SAO FRANCISCO/CRONICAS DE SAO FRANCISCO.jpg",
+  "sinopse": "Depois de muito tempo, Mary Ann Singleton volta a San Francisco e se reúne à comunidade dos moradores de 28 Barbary Lane.",
+  "genero": "Drama",
+  "elenco": "Laura Linney, Ellen Page, Olympia Dukakis, Paul Gross, Murray Bartlett",
+  "diretor": "Alan Poul, Silas Howard",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:35"
+        }
+      ]
+    }
+  ],
+  "id": 999
+}

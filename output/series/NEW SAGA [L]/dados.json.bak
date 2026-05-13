@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2Njc=",
+  "tipo": "serie",
+  "titulo": "NEW SAGA [L]",
+  "capa_url": "https://lgfp.one/PFX9",
+  "capa_local": "NEW SAGA [L]/NEW SAGA [L].jpg",
+  "sinopse": "Depois de uma batalha árdua, o cavaleiro mágico Kyle finalmente derrota o lorde demônio... ou assim ele acredita. Ele acorda e se encontra na terra que foi destruída em sua vida passada. Ele se reencontra com a pessoa querida que ele pensava ter perdido para sempre. Para impedir que o mundo humano seja destruído novamente, junto com seus amigos, Kyle usa sua memória de sua vida anterior para mais uma vez salvar o mundo! Uma saga de fantasia sobre um valente cavaleiro!",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Yuma Uchida, Hiro Shimono, Fairouz Ai, Asami Seto, Minami Takahashi",
+  "diretor": "水沢直木",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 7696
+}

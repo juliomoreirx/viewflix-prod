@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NjI=",
+  "tipo": "serie",
+  "titulo": "CONTIGO, GUERRERO",
+  "capa_url": "https://lgfp.one/TTO",
+  "capa_local": "CONTIGO, GUERRERO/CONTIGO, GUERRERO.jpg",
+  "sinopse": "Meses antes da Copa do Mundo, o astro Paolo Guerrero entra em uma batalha jurídica após receber um resultado positivo para cocaína. Baseada em uma história real.",
+  "genero": "Drama",
+  "elenco": "Nikko Ponce, Irene Eyzaguirre, Alex Amato, Rodrigo Palacios, Toño Vega",
+  "diretor": "Javier Fuentes-León, Daniel Vega Vidal",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:12"
+        }
+      ]
+    }
+  ],
+  "id": 2921
+}

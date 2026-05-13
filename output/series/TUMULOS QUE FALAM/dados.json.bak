@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNDE=",
+  "tipo": "serie",
+  "titulo": "TUMULOS QUE FALAM",
+  "capa_url": "https://lgfp.one/ALL0",
+  "capa_local": "TUMULOS QUE FALAM/TUMULOS QUE FALAM.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Bettany Hughes",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:37"
+        }
+      ]
+    }
+  ],
+  "id": 5103
+}

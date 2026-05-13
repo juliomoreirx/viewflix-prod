@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNjI=",
+  "tipo": "serie",
+  "titulo": "COMO MUDAR SUA MENTE",
+  "capa_url": "https://lgfp.one/AZAQ",
+  "capa_local": "COMO MUDAR SUA MENTE/COMO MUDAR SUA MENTE.jpg",
+  "sinopse": "O autor Michael Pollan apresenta esta série documental que explora a história e o uso de psicodélicos como LSD, psilocibina, MDMA e mescalina.",
+  "genero": "Documentário, Mistério",
+  "elenco": "Michael Pollan, imothy Leary, Albert Hofmann",
+  "diretor": "Alex Gibney, Lucy Walker, Alison Ellwood",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:16"
+        }
+      ]
+    }
+  ],
+  "id": 4901
+}

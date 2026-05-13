@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5MDY=",
+  "tipo": "serie",
+  "titulo": "MAOS NA TERRA (2026) [L]",
+  "capa_url": "https://lgfp.one/TCE8",
+  "capa_local": "MAOS NA TERRA (2026) [L]/MAOS NA TERRA (2026) [L].jpg",
+  "sinopse": "Zach Galifianakis mergulha no universo da horticultura, entrevistando crianças curiosas e especialistas excêntricos nesta divertida celebração dos alimentos que comemos.",
+  "genero": "Comédia, Documentário, Reality",
+  "elenco": "Zach Galifianakis",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:16:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:16:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:16:52"
+        }
+      ]
+    }
+  ],
+  "id": 9526
+}

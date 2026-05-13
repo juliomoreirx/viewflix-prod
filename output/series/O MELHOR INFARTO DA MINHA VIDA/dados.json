@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMzc=",
+  "tipo": "serie",
+  "titulo": "O MELHOR INFARTO DA MINHA VIDA",
+  "capa_url": "https://lgfp.one/LNC6",
+  "capa_local": "O MELHOR INFARTO DA MINHA VIDA/O MELHOR INFARTO DA MINHA VIDA.jpg",
+  "sinopse": "Baseado em fatos reais. Ariel, um \"ghost writer\" com uma vida escandalosamente desordenada, entra em crise quando é abandonado por sua mulher. Fumante compulsivo, acima do peso e com um humor tão sombrio quanto suas roupas íntimas, ele sofre um infarto enquanto está em uma casa alugada em outro país, junto a uma garota que acaba de conhecer. Esse evento impactante não só dará um novo sentido à sua vida, mas também à de muitas pessoas ao seu redor.",
+  "genero": "Drama, Comédia",
+  "elenco": "Alan Sabbagh, Eleonora Wexler, Rita Cortese",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:45"
+        }
+      ]
+    }
+  ],
+  "id": 6801
+}

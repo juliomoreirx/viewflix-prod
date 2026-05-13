@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Mjk=",
+  "tipo": "serie",
+  "titulo": "AS 24 PERSONALIDADES DE BILLY MILLIGAN",
+  "capa_url": "https://lgfp.one/SGX",
+  "capa_local": "AS 24 PERSONALIDADES DE BILLY MILLIGAN/AS 24 PERSONALIDADES DE BILLY MILLIGAN.jpg",
+  "sinopse": "No final dos anos 1970, um homem acusado de estupros em série agita os EUA ao afirmar que várias personalidades ditam seu comportamento.",
+  "genero": "Documentário, Crime",
+  "elenco": "Kathy Preston, Jim Morrison, George Harding, Jim Murray, Sheila Porter",
+  "diretor": "Brice Lambert, Olivier Megaton, Olivier Megaton",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:30"
+        }
+      ]
+    }
+  ],
+  "id": 1872
+}

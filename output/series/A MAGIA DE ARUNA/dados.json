@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMzM=",
+  "tipo": "serie",
+  "titulo": "A MAGIA DE ARUNA",
+  "capa_url": "https://lgfp.one/AUTC",
+  "capa_local": "A MAGIA DE ARUNA/A MAGIA DE ARUNA.jpg",
+  "sinopse": "Em busca do seu lugar, Mima, uma adolescente com medo de assumir seu poder, desperta três bruxas do passado que a lançam em uma jornada para recuperar a Aruna, uma partícula capaz de reativar a magia e restabelecer o equilíbrio solar no mundo.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Jamilly Mariano, Erika Januza, Giovanna Ewbank, Cleo, Suzana Pires",
+  "diretor": "Eduardo Vaisman, Rodrigo Van Der Put",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:06"
+        }
+      ]
+    }
+  ],
+  "id": 4551
+}

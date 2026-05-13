@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NTg=",
+  "tipo": "serie",
+  "titulo": "I JACK WRIGHT [L]",
+  "capa_url": "https://lgfp.one/PFH5",
+  "capa_local": "I JACK WRIGHT [L]/I JACK WRIGHT [L].jpg",
+  "sinopse": "O testamento de Jack revela que sua fortuna excluiu sua terceira esposa e filhos, então os detetives Morgan e Jones suspeitam de um assassinato. A inimizade da família torna todos suspeitos.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "John Simm, Nikki Amuka-Bird, Daniel Rigby, Trevor Eve, Zoë Tapper",
+  "diretor": "Nickie Sault, Tom Vaughan",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:16"
+        }
+      ]
+    }
+  ],
+  "id": 7565
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MzU=",
+  "tipo": "serie",
+  "titulo": "A TERAPIA POR SEBASTIAN FITZEK",
+  "capa_url": "https://lgfp.one/ARVV",
+  "capa_local": "A TERAPIA POR SEBASTIAN FITZEK/A TERAPIA POR SEBASTIAN FITZEK.jpg",
+  "sinopse": "Um instigante thriller psicológico baseado no best-seller de Sebastian Fitzek. Sem testemunhas, sem cadáver e sem deixar vestígio algum, Josy, uma menina de 13 anos, filha do reconhecido psiquiatra Viktor Larenz, desapareceu em circunstâncias inexplicáveis. Dois anos depois, uma mulher misteriosa aparece.",
+  "genero": "Mistério, Drama",
+  "elenco": "Stephan Kampwirth, Trystan Pütter, Helena Zengel, Emma Bading, Andrea Osvárt",
+  "diretor": "Thor Freudenthal, Iván Sáinz-Pardo, Pierre-Yves Dalka",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:12"
+        }
+      ]
+    }
+  ],
+  "id": 4328
+}

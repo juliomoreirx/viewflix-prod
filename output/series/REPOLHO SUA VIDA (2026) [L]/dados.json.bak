@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3Nzc=",
+  "tipo": "serie",
+  "titulo": "REPOLHO SUA VIDA (2026) [L]",
+  "capa_url": "https://lgfp.one/SKK5",
+  "capa_local": "REPOLHO SUA VIDA (2026) [L]/REPOLHO SUA VIDA (2026) [L].jpg",
+  "sinopse": "Um drama rural sobre cura, que narra as histórias de famílias urbanas que foram realocadas à força da cidade para Yeon-ri, uma área limpa e fresca, em busca da verdadeira felicidade na natureza.",
+  "genero": "Comédia, Família, Drama",
+  "elenco": "박성웅, 이수경, 이진우, 최규리, 이서환",
+  "diretor": "Choi Yeon-su",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:36"
+        }
+      ]
+    }
+  ],
+  "id": 9193
+}

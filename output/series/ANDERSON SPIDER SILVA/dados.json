@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NzE=",
+  "tipo": "serie",
+  "titulo": "ANDERSON SPIDER SILVA",
+  "capa_url": "https://lgfp.one/ATLP",
+  "capa_local": "ANDERSON SPIDER SILVA/ANDERSON SPIDER SILVA.jpg",
+  "sinopse": "Quantas barreiras um campeão precisa superar para se tornar o ícone negro de sua geração? A trajetória de Anderson SPIDER Silva através das vitórias e derrotas, dentro e fora do ringue.",
+  "genero": "Drama",
+  "elenco": "William Nascimento, Seu Jorge, Jeniffer Dias, Tatiana Tiburcio, Bruno Vinicius",
+  "diretor": "Caito Ortiz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:48"
+        }
+      ]
+    }
+  ],
+  "id": 4458
+}

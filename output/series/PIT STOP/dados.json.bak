@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MjU=",
+  "tipo": "serie",
+  "titulo": "PIT STOP",
+  "capa_url": "https://lgfp.one/RNL",
+  "capa_local": "PIT STOP/PIT STOP.jpg",
+  "sinopse": "Kevin James interpreta o chefe de uma equipe de NASCAR em Pit Stop. Quando o dono da equipe se aposenta e passa a liderança para a filha, James precisa evitar que as modificações propostas por ela acabem prejudicando o grupo.",
+  "genero": "Comédia",
+  "elenco": "Kevin James, Jillian Mueller, Freddie Stroma, Gary Anthony Williams, Dan Ahdoot",
+  "diretor": "Andy Fickman",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:13"
+        }
+      ]
+    }
+  ],
+  "id": 1177
+}

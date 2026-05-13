@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2MTA=",
+  "tipo": "serie",
+  "titulo": "ZENSHU",
+  "capa_url": "https://lgfp.one/KOS2",
+  "capa_local": "ZENSHU/ZENSHU.jpg",
+  "sinopse": "Depois de se formar no ensino médio, Natsuko Hirose começa sua carreira como animadora. Seu talento logo se destaca e, em pouco tempo, ela faz sua estreia como diretora. Seu primeiro anime torna-se um sucesso estrondoso, provocando um fenômeno social e fazendo com que ela seja reconhecida como uma diretora prodígio em ascensão. Seu próximo projeto é um filme de comédia romântica centrado no tema do primeiro amor. No entanto, como nunca se apaixonou, Natsuko tem dificuldade em entender o conceito, o que a impede de criar o storyboard e interrompe completamente a produção do filme.",
+  "genero": "Animação, Drama, Action & Adventure",
+  "elenco": "Anna Nagase, Kazuki Ura, Rie Kugimiya, 鈴木みのり, 陶山章央",
+  "diretor": "山﨑みつえ",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:55"
+        }
+      ]
+    }
+  ],
+  "id": 6502
+}

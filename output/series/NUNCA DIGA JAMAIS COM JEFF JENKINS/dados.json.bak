@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTE=",
+  "tipo": "serie",
+  "titulo": "NUNCA DIGA JAMAIS COM JEFF JENKINS",
+  "capa_url": "https://lgfp.one/AQRK",
+  "capa_local": "NUNCA DIGA JAMAIS COM JEFF JENKINS/NUNCA DIGA JAMAIS COM JEFF JENKINS.jpg",
+  "sinopse": "Guiado por sua filosofia de que \"a vida verdadeiramente começa no fim da sua zona de conforto\", o jornalista de viagens Jeff Jenkins está buscando destinos e aventuras ao redor do mundo que matariam a maioria dos viajantes de susto. Pelo caminho, Jeff enfrentará desafios físicos e vivenciará experiências culturais fora do comum em todo o mundo... cruzando caminhos com nativos fora do comum... tudo isso para compartilhar cada aventura emocionante com seus seguidores durante o percurso.",
+  "genero": "Reality, Documentário",
+  "elenco": "Jeff Jenkins",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:07"
+        }
+      ]
+    }
+  ],
+  "id": 4226
+}

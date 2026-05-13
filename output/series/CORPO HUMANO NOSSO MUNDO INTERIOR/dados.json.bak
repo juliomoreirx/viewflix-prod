@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODQ=",
+  "tipo": "serie",
+  "titulo": "CORPO HUMANO: NOSSO MUNDO INTERIOR",
+  "capa_url": "https://lgfp.one/RUB",
+  "capa_local": "CORPO HUMANO NOSSO MUNDO INTERIOR/CORPO HUMANO NOSSO MUNDO INTERIOR.jpg",
+  "sinopse": "Nesta série documental que registra o funcionamento do corpo humano, os personagens principais são a ciência de ponta e algumas pessoas com relatos impressionantes.",
+  "genero": "Documentário",
+  "elenco": "Mandy Harvey, Jad Abumrad",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:47"
+        }
+      ]
+    }
+  ],
+  "id": 1361
+}

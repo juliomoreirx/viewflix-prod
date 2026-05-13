@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NTM=",
+  "tipo": "serie",
+  "titulo": "DUNA: A PROFECIA",
+  "capa_url": "https://lgfp.one/EHP7",
+  "capa_local": "DUNA A PROFECIA/DUNA A PROFECIA.jpg",
+  "sinopse": "Dez mil anos antes da ascensão de Paul Atreides, as irmãs Valya e Tula Harkonnen estabeleceram a lendária seita e ordem feminina que se tornaria conhecida como Bene Gesserit para controlar o futuro da humanidade.",
+  "genero": "Sci-Fi & Fantasy, Drama, Action & Adventure",
+  "elenco": "Emily Watson, Olivia Williams, Travis Fimmel, Jodhi May, Sarah-Sofie Boussnina",
+  "diretor": "Anna Foerster",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:20:51"
+        }
+      ]
+    }
+  ],
+  "id": 6256
+}

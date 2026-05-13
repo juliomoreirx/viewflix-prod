@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NjI=",
+  "tipo": "serie",
+  "titulo": "OS MEDICOS DA FACE",
+  "capa_url": "https://lgfp.one/DWO2",
+  "capa_local": "OS MEDICOS DA FACE/OS MEDICOS DA FACE.jpg",
+  "sinopse": "Acompanha pacientes que tiveram o rosto desfigurado por condições genéticas, traumas ou doenças devastadoras. Uma equipe especializada de cirurgiões e protéticos os ajudam a reconstruir suas vidas com tratamentos modernos e transformadores.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:20"
+        }
+      ]
+    }
+  ],
+  "id": 6111
+}

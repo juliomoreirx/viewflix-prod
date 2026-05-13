@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNDk=",
+  "tipo": "serie",
+  "titulo": "MAU COMPORTAMENTO",
+  "capa_url": "https://lgfp.one/ABAA",
+  "capa_local": "MAU COMPORTAMENTO/MAU COMPORTAMENTO.jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Erana James, Jana McKinnon, Markella Kavenagh, Yerin Ha, Melissa Kahraman",
+  "diretor": "Corrie Chen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:18"
+        }
+      ]
+    }
+  ],
+  "id": 4038
+}

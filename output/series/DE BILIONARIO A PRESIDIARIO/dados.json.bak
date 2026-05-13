@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTc=",
+  "tipo": "serie",
+  "titulo": "DE BILIONÁRIO A PRESIDIÁRIO",
+  "capa_url": "https://lgfp.one/QOY8",
+  "capa_local": "DE BILIONARIO A PRESIDIARIO/DE BILIONARIO A PRESIDIARIO.jpg",
+  "sinopse": "Uma das festas mais exclusivas de Milão sofre uma reviravolta quando uma mulher alega ter sofrido abuso sexual. Este documentário aborda a investigação após a denúncia.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:24"
+        }
+      ]
+    }
+  ],
+  "id": 8350
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NzA=",
+  "tipo": "serie",
+  "titulo": "ME SALVA DESSA",
+  "capa_url": "https://lgfp.one/BDU5",
+  "capa_local": "ME SALVA DESSA/ME SALVA DESSA.jpg",
+  "sinopse": "Dr. Ruby Rose revela o fascinante mundo da medicina de emergência em todo o Texas, como médicos e equipe de apoio tratam uma grande variedade de pacientes que sofrem de lesões excruciantes, infecções com risco de vida e doenças incomuns.",
+  "genero": "Documentário, Reality",
+  "elenco": "Ruby Rose",
+  "diretor": "",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:56"
+        }
+      ]
+    }
+  ],
+  "id": 5522
+}

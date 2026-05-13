@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NDA=",
+  "tipo": "serie",
+  "titulo": "CHEF'S TABLE LENDAS",
+  "capa_url": "https://lgfp.one/NSC9",
+  "capa_local": "CHEF'S TABLE LENDAS/CHEF'S TABLE LENDAS.jpg",
+  "sinopse": "Esta série indicada ao Emmy® celebra quatro gigantes da culinária: Jamie Oliver, José Andrés, Alice Waters e Thomas Keller, que mudaram o jeito de o mundo se alimentar.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "David Gelb, Brian McGinn, Danny O'Malley",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:17"
+        }
+      ]
+    }
+  ],
+  "id": 7238
+}

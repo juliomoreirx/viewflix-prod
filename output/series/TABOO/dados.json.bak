@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MDc=",
+  "tipo": "serie",
+  "titulo": "TABOO",
+  "capa_url": "https://lgfp.one/TBA",
+  "capa_local": "TABOO/TABOO.jpg",
+  "sinopse": "James Keziah Delaney volta para casa na Londres de 1814 após 10 anos na África para herdar o que resta do império de seu pai e reconstruir sua vida. Porém, legado de seu pai é um cálice envenenado com inimigos em cada canto que ele deve navegar.",
+  "genero": "Drama, Mistério",
+  "elenco": "Tom Hardy, David Hayman, Jonathan Pryce, Oona Chaplin, Richard Dixon",
+  "diretor": "Ridley Scott, Olly Robinson, Joe Payne",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:01"
+        }
+      ]
+    }
+  ],
+  "id": 2415
+}

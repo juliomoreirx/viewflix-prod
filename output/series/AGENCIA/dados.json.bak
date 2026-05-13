@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMTQ=",
+  "tipo": "serie",
+  "titulo": "AGÊNCIA",
+  "capa_url": "https://lgfp.one/TER",
+  "capa_local": "AGENCIA/AGENCIA.jpg",
+  "sinopse": "Depois que a tragédia se instaura na agência Nightingale Hart, as vidas pessoais e profissionais de seus agentes se tornam tumultuadas. Em cada episódio, um novo cliente famoso precisa ajudar um agente da Nightingale, incluindo problemas que vão de crises conjugais a métodos de atuação supercomprometidos e medo de palco.",
+  "genero": "Comédia",
+  "elenco": "Jack Davenport, Lydia Leonard, Maggie Steed, Prasanna Puwanarajah, Chelsey Crisp, Hiftu Quasem, Fola Evans-Akingbola, Rebecca Humphries",
+  "diretor": "M.J. Delaney, Sam Leifer, Jessica Swale",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:26"
+        }
+      ]
+    }
+  ],
+  "id": 2514
+}

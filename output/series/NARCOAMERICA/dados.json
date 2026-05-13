@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4Nzk=",
+  "tipo": "serie",
+  "titulo": "NARCOAMERICA",
+  "capa_url": "https://lgfp.one/CYE4",
+  "capa_local": "NARCOAMERICA/NARCOAMERICA.jpg",
+  "sinopse": "Conheça as origens da guerra às drogas nos Estados Unidos, que abrange cinco décadas, e seus efeitos inesperados sobre a cultura, as instituições e a política norte-americana.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:25:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:25:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:25:34"
+        }
+      ]
+    }
+  ],
+  "id": 5689
+}

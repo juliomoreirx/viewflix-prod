@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MzM=",
+  "tipo": "serie",
+  "titulo": "YELLOWSTONE ONE FIFTY",
+  "capa_url": "https://lgfp.one/BJL9",
+  "capa_local": "YELLOWSTONE ONE FIFTY/YELLOWSTONE ONE FIFTY.jpg",
+  "sinopse": "No 150º aniversário da sua fundação, Kevin Costner explora o Parque Nacional de Yellowstone para descobrir se ainda é tão selvagem e intocado como era no dia do seu nascimento, e recorda os acontecimentos que levaram à sua preservação.",
+  "genero": "Documentário",
+  "elenco": "Kevin Costner",
+  "diretor": "Patrick DeLuca",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:09"
+        }
+      ]
+    }
+  ],
+  "id": 5629
+}

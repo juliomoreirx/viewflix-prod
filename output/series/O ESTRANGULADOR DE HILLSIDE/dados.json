@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMzk=",
+  "tipo": "serie",
+  "titulo": "O ESTRANGULADOR DE HILLSIDE",
+  "capa_url": "https://lgfp.one/ALR5",
+  "capa_local": "O ESTRANGULADOR DE HILLSIDE/O ESTRANGULADOR DE HILLSIDE.jpg",
+  "sinopse": "Um olhar sobre a mente dos notórios primos e assassinos em série, que supostamente se faziam passar por policiais fora de serviço para atrair vítimas.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:57"
+        }
+      ]
+    }
+  ],
+  "id": 5109
+}

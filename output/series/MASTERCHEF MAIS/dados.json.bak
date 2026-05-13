@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MzE=",
+  "tipo": "serie",
+  "titulo": "MASTERCHEF MAIS",
+  "capa_url": "https://lgfp.one/WGD",
+  "capa_local": "MASTERCHEF MAIS/MASTERCHEF MAIS.jpg",
+  "sinopse": "Novo formato da principal competição culinária, o MasterChef+ é destinado a cozinheiros amadores acima de 60 anos.",
+  "genero": "Reality",
+  "elenco": "Ana Paula Padrão, Érick Jacquin, Henrique Fogaça, Helena Rizzo",
+  "diretor": "Marisa Mestiço",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:47:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:40:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:40:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:38:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:34:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:49:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:46:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:43:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:47:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:44:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:37:02"
+        }
+      ]
+    }
+  ],
+  "id": 3079
+}

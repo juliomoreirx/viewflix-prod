@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwOTc=",
+  "tipo": "serie",
+  "titulo": "NÃO FALE COM ESTRANHOS",
+  "capa_url": "https://lgfp.one/JCH",
+  "capa_local": "NAO FALE COM ESTRANHOS/NAO FALE COM ESTRANHOS.jpg",
+  "sinopse": "Quando uma mulher desconhecida faz uma declaração bombástica sobre sua esposa, Adam Price se envolve em uma rede de segredos nesta série de suspense.",
+  "genero": "Mistério, Crime",
+  "elenco": "Richard Armitage, Siobhan Finneran, Hannah John-Kamen, Jennifer Saunders, Dervla Kirwan",
+  "diretor": "Daniel O'Hara, Hannah Quinn",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:08"
+        }
+      ]
+    }
+  ],
+  "id": 438
+}

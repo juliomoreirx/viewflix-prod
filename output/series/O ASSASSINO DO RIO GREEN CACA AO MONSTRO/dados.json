@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyOTI=",
+  "tipo": "serie",
+  "titulo": "O ASSASSINO DO RIO GREEN CACA AO MONSTRO",
+  "capa_url": "https://lgfp.one/AUKD",
+  "capa_local": "O ASSASSINO DO RIO GREEN CACA AO MONSTRO/O ASSASSINO DO RIO GREEN CACA AO MONSTRO.jpg",
+  "sinopse": "Os investigadores contam suas experiências pessoais trabalhando no caso do Assassino do Rio Green e revelam como ele foi capturado.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:22"
+        }
+      ]
+    }
+  ],
+  "id": 4527
+}

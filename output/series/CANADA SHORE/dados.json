@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3ODM=",
+  "tipo": "serie",
+  "titulo": "CANADA SHORE",
+  "capa_url": "https://lgfp.one/RIB7",
+  "capa_local": "CANADA SHORE/CANADA SHORE.jpg",
+  "sinopse": "Dez jovens canadenses ousados invadem uma cidade de festas à beira de um lago na Colúmbia Britânica para seu primeiro verão de bebedeira, pegação e decisões ruins, enquanto obedecem à chefe icônica: a única e inigualável Snooki.",
+  "genero": "Reality",
+  "elenco": "Bauer Swystun, Christopher Brown, Emmett Watson, Emmy Sharpe, Ethan Maynard",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:48"
+        }
+      ]
+    }
+  ],
+  "id": 8722
+}

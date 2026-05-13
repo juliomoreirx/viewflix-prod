@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMTc=",
+  "tipo": "serie",
+  "titulo": "TORE",
+  "capa_url": "https://lgfp.one/ASIK",
+  "capa_local": "TORE/TORE.jpg",
+  "sinopse": "Após a morte de uma pessoa querida, um jovem imaturo e inconsequente mergulha em um mundo de sexo, drogas e autodescoberta.",
+  "genero": "Drama",
+  "elenco": "William Spetz, Peter Haber, Sanna Sundqvist, Hannes Fohlin, Karin Bertling",
+  "diretor": "Erika Calmeyer",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:28"
+        }
+      ]
+    }
+  ],
+  "id": 4364
+}

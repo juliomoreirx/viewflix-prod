@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4OTE=",
+  "tipo": "serie",
+  "titulo": "DO QUE RIEM?",
+  "capa_url": "https://lgfp.one/AALS",
+  "capa_local": "DO QUE RIEM/DO QUE RIEM.jpg",
+  "sinopse": "Dois humoristas se enfrentam em uma disputa de stand-ups, tendo a cada episódio uma plateia formada por um perfil específico de pessoas – como médicos, cabeleireiras, marombas, vovós, etc. Quem se sair melhor, na opinião do público, vence a batalha.",
+  "genero": "Comédia, Reality",
+  "elenco": "Maurício Meirelles, Jhordam Matheus, Babu Carreira",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:04"
+        }
+      ]
+    }
+  ],
+  "id": 3648
+}

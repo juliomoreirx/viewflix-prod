@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MDI=",
+  "tipo": "serie",
+  "titulo": "DO JEITO DELAS",
+  "capa_url": "https://lgfp.one/XDU",
+  "capa_local": "DO JEITO DELAS/DO JEITO DELAS.jpg",
+  "sinopse": "Na Polônia de 1976, três mulheres determinadas encaram mudanças políticas e sociais em busca de amor, liberdade e independência financeira. Magdalena Popławska, Wiktoria Filus e Matylda Giegżno lideram o elenco deste drama nostálgico.",
+  "genero": "Drama",
+  "elenco": "Magdalena Popławska, Wiktoria Filus, Matylda Giegżno, Bartłomiej Kotschedoff, Szymon Piotr Warszawski",
+  "diretor": "Karina Oliani, Nathali Oliani",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:33:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:04"
+        }
+      ]
+    }
+  ],
+  "id": 3135
+}

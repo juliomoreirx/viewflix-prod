@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NDE=",
+  "tipo": "serie",
+  "titulo": "A VERDADE DA MENTIRA: UMA NOVA MISSÃO",
+  "capa_url": "https://lgfp.one/ZLD",
+  "capa_local": "A VERDADE DA MENTIRA UMA NOVA MISSAO/A VERDADE DA MENTIRA UMA NOVA MISSAO.jpg",
+  "sinopse": "Inspirado no filme de sucesso de James Cameron \"True Lies\", a série acompanha Harry Tasker, um espião internacional de primeira classe da agência de inteligência americana Omega Sector, e sua esposa, Helen, uma professora de idiomas entediada com sua rotina do dia a dia, que descobre que seu marido aparentemente comum leva uma vida dupla extraordinária.",
+  "genero": "Action & Adventure",
+  "elenco": "Steve Howey, Ginger Gonzaga, Erica Hernandez, Omar Benson Miller, Mike O'Gorman, Annabella Didion, Lucas Jaye",
+  "diretor": "Matt Nix",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:40:58"
+        }
+      ]
+    }
+  ],
+  "id": 3436
+}

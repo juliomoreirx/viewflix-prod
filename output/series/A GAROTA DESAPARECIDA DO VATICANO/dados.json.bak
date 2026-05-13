@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTI=",
+  "tipo": "serie",
+  "titulo": "A GAROTA DESAPARECIDA DO VATICANO",
+  "capa_url": "https://lgfp.one/VWV",
+  "capa_local": "A GAROTA DESAPARECIDA DO VATICANO/A GAROTA DESAPARECIDA DO VATICANO.jpg",
+  "sinopse": "Roma, 1983. Depois de sair da aula de música, a jovem Emanuela Orlandi nunca mais foi vista. Seu desaparecimento envolve o Vaticano em um mistério até hoje insolúvel.",
+  "genero": "Documentário",
+  "elenco": "ndrea Purgatori, Natalina Orlandi, Emanuela Orlandi",
+  "diretor": "Chiara Messineo",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:44"
+        }
+      ]
+    }
+  ],
+  "id": 2958
+}

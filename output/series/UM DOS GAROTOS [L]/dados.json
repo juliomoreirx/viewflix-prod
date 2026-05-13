@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MDk=",
+  "tipo": "serie",
+  "titulo": "UM DOS GAROTOS [L]",
+  "capa_url": "https://lgfp.one/RNU7",
+  "capa_local": "UM DOS GAROTOS [L]/UM DOS GAROTOS [L].jpg",
+  "sinopse": "O socialmente desajeitado Lau vai ao tradicional Man Camp com os meninos da cidade provinciana para provar que é um \"homem de verdade\". Mas as coisas ficam complicadas quando ele desenvolve sentimentos por outro garoto na viagem.",
+  "genero": "Drama",
+  "elenco": "Jonathan Meinert Pedersen, Jacob Spang Olsen, Oliver Tikotzki, Mingus Hassing Hellemann, Morten Burian",
+  "diretor": "Teys Schucany, Teys Schucany",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:16:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:17:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:11"
+        }
+      ]
+    }
+  ],
+  "id": 8746
+}

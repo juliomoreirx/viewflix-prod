@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMDg=",
+  "tipo": "serie",
+  "titulo": "CASO JEAN CHARLES UM BRASILEIRO MORTO POR ENGANO",
+  "capa_url": "https://lgfp.one/NSC7",
+  "capa_local": "CASO JEAN CHARLES UM BRASILEIRO MORTO POR ENGANO/CASO JEAN CHARLES UM BRASILEIRO MORTO POR ENGANO.jpg",
+  "sinopse": "Em Londres, no mês de julho de 2005, a polícia persegue uma célula de terroristas. Uma série extraordinária de eventos durante uma operação de vigilância leva à identificação errônea de um jovem brasileiro inocente como suspeito, resultando em sua morte. Enquanto seus parentes lutam contra a desinformação, eles encontram apoio de uma fonte improvável, e a polícia entra em crise, forçada a confrontar duras verdades sobre o tiroteio.",
+  "genero": "Drama",
+  "elenco": "Edison Alcaide, Conleth Hill, Russell Tovey, Max Beesley, Emily Mortimer",
+  "diretor": "Paul Andrew Williams, Chloé Rosell",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:50"
+        }
+      ]
+    }
+  ],
+  "id": 7236
+}

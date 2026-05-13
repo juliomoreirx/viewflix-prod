@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMzU=",
+  "tipo": "serie",
+  "titulo": "A ACUSAÇÃO",
+  "capa_url": "https://lgfp.one/TSR",
+  "capa_local": "A ACUSACAO/A ACUSACAO.jpg",
+  "sinopse": "﻿﻿A vida perfeita de Claude vira de cabeça para baixo quando seu neto de 9 anos o acusa de estupro. 15 anos depois, a verdade é relevada, surpreendendo todos ao seu redor.",
+  "genero": "Drama, Crime",
+  "elenco": "Daniel Auteuil, Victor Meutelet, Benjamin Bellecour, Catherine Alric, Grégoire Bonnet",
+  "diretor": "Vincent Garenq",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:02"
+        }
+      ]
+    }
+  ],
+  "id": 2898
+}

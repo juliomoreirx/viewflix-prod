@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NzY=",
+  "tipo": "serie",
+  "titulo": "JIVA!",
+  "capa_url": "https://lgfp.one/RXL",
+  "capa_local": "JIVA!/JIVA!.jpg",
+  "sinopse": "Para realizar seus sonhos, uma talentosa dançarina sul-africana precisa enfrentar os próprios medos e a oposição da família.",
+  "genero": "Drama",
+  "elenco": "Noxolo Dlamini, Stella Dlangalala, Sne Mbatha, Candice Modiselle, Zazi Kunene",
+  "diretor": "Busisiwe Ntintili, Mandla Dube, Scottnes L. Smith",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:56"
+        }
+      ]
+    }
+  ],
+  "id": 1453
+}

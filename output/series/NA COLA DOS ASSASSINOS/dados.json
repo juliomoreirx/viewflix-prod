@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MjM=",
+  "tipo": "serie",
+  "titulo": "NA COLA DOS ASSASSINOS",
+  "capa_url": "https://lgfp.one/SLR",
+  "capa_local": "NA COLA DOS ASSASSINOS/NA COLA DOS ASSASSINOS.jpg",
+  "sinopse": "Acompanhe o trabalho das equipes de investigação que precisaram resolver casos horripilantes de assassinatos em série.",
+  "genero": "Documentário, Crime",
+  "elenco": "John Sosnovske, Taunja Bennett, Laverne Pavlinac",
+  "diretor": "Alex Emslie, Suemay Oram, Ben Reid, Simon Jacobs, Sonia Pavlovic, Ian Clarke",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:46"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:37:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:38:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:38:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:35:42"
+        }
+      ]
+    }
+  ],
+  "id": 1998
+}

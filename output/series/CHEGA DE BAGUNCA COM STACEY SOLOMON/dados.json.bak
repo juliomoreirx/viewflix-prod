@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNDI=",
+  "tipo": "serie",
+  "titulo": "CHEGA DE BAGUNCA COM STACEY SOLOMON",
+  "capa_url": "https://lgfp.one/BKO9",
+  "capa_local": "CHEGA DE BAGUNCA COM STACEY SOLOMON/CHEGA DE BAGUNCA COM STACEY SOLOMON.jpg",
+  "sinopse": "A casa de uma família comum contém milhares de itens desnecessários, e viver em meio a este acúmulo tem nos deixado deprimidos. E se cada um dos itens for mostrado para o dono decidir se quer mantê-lo ou não?",
+  "genero": "Seriados",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:11"
+        }
+      ]
+    }
+  ],
+  "id": 2559
+}

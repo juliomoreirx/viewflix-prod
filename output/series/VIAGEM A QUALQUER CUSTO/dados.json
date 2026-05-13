@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0Nzc=",
+  "tipo": "serie",
+  "titulo": "VIAGEM A QUALQUER CUSTO",
+  "capa_url": "https://lgfp.one/BKO2",
+  "capa_local": "VIAGEM A QUALQUER CUSTO/VIAGEM A QUALQUER CUSTO.jpg",
+  "sinopse": "Duas pessoas vivem experiências distintas: uma viaja com dinheiro mais que suficiente para gastar como bem entender, enquanto a outra precisa usar a criatividade para que o pouco recurso não inviabilize a diversão.",
+  "genero": "Reality Show, Aventura",
+  "elenco": "Fernanda Paes Leme, Luana Xavier",
+  "diretor": "Fernanda Paes , LemeLuana Xavier",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:42"
+        }
+      ]
+    }
+  ],
+  "id": 943
+}

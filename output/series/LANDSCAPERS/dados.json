@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyODc=",
+  "tipo": "serie",
+  "titulo": "LANDSCAPERS",
+  "capa_url": "https://lgfp.one/AAJR",
+  "capa_local": "LANDSCAPERS/LANDSCAPERS.jpg",
+  "sinopse": "Um casal aparentemente comum que se torna o foco de uma investigação quando dois corpos são descobertos no quintal de uma casa.",
+  "genero": "Comédia, Crime, Drama",
+  "elenco": "Olivia Colman, David Thewlis, Kate O'Flynn, Dipo Ola, Daniel Rigby",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:17"
+        }
+      ]
+    }
+  ],
+  "id": 3595
+}

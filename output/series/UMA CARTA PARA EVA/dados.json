@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NTM=",
+  "tipo": "serie",
+  "titulo": "UMA CARTA PARA EVA",
+  "capa_url": "https://lgfp.one/ZAC",
+  "capa_local": "UMA CARTA PARA EVA/UMA CARTA PARA EVA.jpg",
+  "sinopse": "Em 1947, Eva Péron fez sua primeira visita oficial à Espanha e foi recebida por Carmen Polo, esposa do ditador Francisco Franco. Durante sua visita, Eva teve a oportunidade de ajudar Juana Doña, uma mulher sentenciada à morte.",
+  "genero": "Drama",
+  "elenco": "Julieta Cardinali, Ana Torrent, Malena Alterio, Nora Navas, Jesús Castejón",
+  "diretor": "Agustí Villaronga, Agustí Villaronga",
+  "total_episodios": "174",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:44"
+        }
+      ]
+    }
+  ],
+  "id": 1138
+}

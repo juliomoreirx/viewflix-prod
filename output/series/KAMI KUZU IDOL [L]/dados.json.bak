@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyODA=",
+  "tipo": "serie",
+  "titulo": "KAMI KUZU IDOL [L]",
+  "capa_url": "https://lgfp.one/BACG",
+  "capa_local": "KAMI KUZU IDOL [L]/KAMI KUZU IDOL [L].jpg",
+  "sinopse": "Yuuya nunca se esforçou em suas apresentações e sempre agiu de forma preguiçosa em seus shows, deixando todo o trabalho para seu colega de grupo, o que acabou levando ao completo ódio das fãs.\n\nCerto dia ele conhece Asahi Mogami, uma Idol energética que sonha em viver nos palcos. O problema, no entanto, é que Asahi já está morta há mais de 1 anos.\n\nDevido a esse encontro inesperado, ambos descobrem uma nova oportunidade. Asahi pode se apresentar possuindo o corpo de Yuuya, enquanto ele pode melhorar suas performances e acalmar seus haters.",
+  "genero": "Animação, Comédia",
+  "elenco": "Fumiya Imai, Nao Toyama, Shun Horie, Eri Kitamura, Hitomi Ueda",
+  "diretor": "Daiki Fukuoka",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:44"
+        }
+      ]
+    }
+  ],
+  "id": 5031
+}

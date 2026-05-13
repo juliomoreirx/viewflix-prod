@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3OTI=",
+  "tipo": "serie",
+  "titulo": "BOOTS",
+  "capa_url": "https://lgfp.one/QEH9",
+  "capa_local": "BOOTS/BOOTS.jpg",
+  "sinopse": "Ao entrar para os fuzileiros navais por impulso, um adolescente vítima de bullying encontra um novo propósito na vida e uma irmandade inesperada com os colegas recrutas.",
+  "genero": "Comédia, Drama, War & Politics",
+  "elenco": "Miles Heizer, Max Parker, Vera Farmiga, Liam Oh, Cedrick Cooper",
+  "diretor": "Brittany Joyner, Terry McGrath",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:17"
+        }
+      ]
+    }
+  ],
+  "id": 8155
+}

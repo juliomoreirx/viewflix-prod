@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMDY=",
+  "tipo": "serie",
+  "titulo": "THE YEARBOOK [L]",
+  "capa_url": "https://lgfp.one/BAV5",
+  "capa_local": "THE YEARBOOK [L]/THE YEARBOOK [L].jpg",
+  "sinopse": "Uma série que o trará de volta ao início dos anos 2000 e à profunda conexão entre Phob e Nut, quando os dois prometeram seguir seus sonhos juntos. Infelizmente, um deles não cumpriu a promessa e isso trouxe desentendimentos. Restava apenas dor entre eles. Finalmente, eles se separaram. Quatro anos depois, o anuário traz aquele amigo de volta com algumas verdades. No final, a amizade, a intimidade e os sonhos voltarão novamente ou terão que enfrentar a realidade e deixar tudo como lembrança no Anuário?",
+  "genero": "Drama",
+  "elenco": "Supakrit Charoonmatha, Teshin Anusananan, Piamchon Damrongsunthornchai, Phiravich Attachitsataporn, Sarika Sathsilpsupa",
+  "diretor": "Phiravich Attachitsataporn",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:41"
+        }
+      ]
+    }
+  ],
+  "id": 5423
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NzM=",
+  "tipo": "serie",
+  "titulo": "O SOM DA MAGIA",
+  "capa_url": "https://lgfp.one/TFI",
+  "capa_local": "O SOM DA MAGIA/O SOM DA MAGIA.jpg",
+  "sinopse": "Um mágico misterioso que mora em um parque de diversões abandonado ensina sua arte para uma adolescente que enfrenta dificuldades na vida.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Choi Sung-eun, Hwang In-Youp, Ji Chang-wook",
+  "diretor": "Kim Seong-yoon",
+  "total_episodios": "69",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:09:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:13:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:17:53"
+        }
+      ]
+    }
+  ],
+  "id": 2531
+}

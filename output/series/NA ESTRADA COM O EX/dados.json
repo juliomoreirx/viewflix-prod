@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MTg=",
+  "tipo": "serie",
+  "titulo": "NA ESTRADA COM O EX",
+  "capa_url": "https://lgfp.one/NDK6",
+  "capa_local": "NA ESTRADA COM O EX/NA ESTRADA COM O EX.jpg",
+  "sinopse": "",
+  "genero": "Drama, Comédia",
+  "elenco": "Emma Appleton, Laurie Davidson, David Jonsson, Isabella Laughland, Angus Imrie",
+  "diretor": "Stella Corradi, Kingsley Hoskins",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:09"
+        }
+      ]
+    }
+  ],
+  "id": 6970
+}

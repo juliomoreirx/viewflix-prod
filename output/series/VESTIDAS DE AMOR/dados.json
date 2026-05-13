@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyODg=",
+  "tipo": "serie",
+  "titulo": "VESTIDAS DE AMOR",
+  "capa_url": "https://lgfp.one/ZXZ",
+  "capa_local": "VESTIDAS DE AMOR/VESTIDAS DE AMOR.jpg",
+  "sinopse": "Série documental em que o vestido de noiva é a janela para falar de casamento em diversos contextos Brasil afora. A cada episódio, Carlos Tufvesson apresenta uma nova história.",
+  "genero": "Reality / Documentário",
+  "elenco": "Carlos Tufvesson",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:19"
+        }
+      ]
+    }
+  ],
+  "id": 3518
+}

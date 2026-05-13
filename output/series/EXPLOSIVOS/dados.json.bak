@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTI=",
+  "tipo": "serie",
+  "titulo": "EXPLOSIVOS",
+  "capa_url": "https://lgfp.one/AUXO",
+  "capa_local": "EXPLOSIVOS/EXPLOSIVOS.jpg",
+  "sinopse": "Uma equipe de elite comemora para valer depois de impedir um atentado. Até que a verdadeira ameaça aparece, e aí eles precisam superar a bebedeira para salvar a cidade.",
+  "genero": "Comédia, Action & Adventure, Drama",
+  "elenco": "Shelley Hennig, Nick Zano, Terrence Terrell, Paola Lázaro, C. Thomas Howell",
+  "diretor": "Josh Heald, Jon Hurwitz, Joel Novoa, Hayden Schlossberg, Sherwin Shilati, America Young",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:35"
+        }
+      ]
+    }
+  ],
+  "id": 4555
+}

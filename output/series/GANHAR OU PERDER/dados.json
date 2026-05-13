@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2NjU=",
+  "tipo": "serie",
+  "titulo": "GANHAR OU PERDER",
+  "capa_url": "https://lgfp.one/NBS6",
+  "capa_local": "GANHAR OU PERDER/GANHAR OU PERDER.jpg",
+  "sinopse": "Enquanto o campeonato se aproxima, oito personagens lidam com as bolas-fora no jogo da vida.",
+  "genero": "Animação, Comédia, Família",
+  "elenco": "Will Forte, Rosanna Jean Foss, Josh Thomson, Milan Ray, Rosa Salazar",
+  "diretor": "Pete Docter",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:18:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:18:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:17"
+        }
+      ]
+    }
+  ],
+  "id": 6928
+}

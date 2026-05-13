@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3NzE=",
+  "tipo": "serie",
+  "titulo": "MEU PAPAI (AINDA) É NOEL",
+  "capa_url": "https://lgfp.one/WGG",
+  "capa_local": "MEU PAPAI (AINDA) E NOEL/MEU PAPAI (AINDA) E NOEL.jpg",
+  "sinopse": "Após quase três décadas como Papai Noel, a magia de Scott Calvin começa a enfraquecer. Ao se esforçar para lidar com as exigências do trabalho, Scott descobre uma nova cláusula que o faz questionar seu papel como pai e Papai Noel.",
+  "genero": "Comédia / Família",
+  "elenco": "Tim Allen, Elizabeth Mitchell, Kal Penn, Elizabeth Allen-Dick, Austin Kane, Rupali Redd, Devin Bright, Matilda Lawler",
+  "diretor": "Jack Burditt",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:36"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:33:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:32:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:29:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:34:53"
+        }
+      ]
+    }
+  ],
+  "id": 3082
+}

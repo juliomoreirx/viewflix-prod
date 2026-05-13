@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMzI=",
+  "tipo": "serie",
+  "titulo": "BLACK DYNAMITE",
+  "capa_url": "https://lgfp.one/OYK7",
+  "capa_local": "BLACK DYNAMITE/BLACK DYNAMITE.jpg",
+  "sinopse": "Um herói de ação com uma vibe bem anos 70, odiado por incontáveis vilões e amado por todas as mulheres, que luta contra os males históricos vividos pela comunidade negra.",
+  "genero": "Action & Adventure, Animação, Comédia",
+  "elenco": "Michael Jai White, Byron Minns, Kym Whitley, Tommy Davidson, Debra Wilson",
+  "diretor": "Lesean Thomas, Carl Jones, Won-Young Kang, Young Ki Yoon",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:27"
+        }
+      ]
+    }
+  ],
+  "id": 7513
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMDc=",
+  "tipo": "serie",
+  "titulo": "PÁTRIA EDUCADORA",
+  "capa_url": "https://lgfp.one/WAY",
+  "capa_local": "PATRIA EDUCADORA/PATRIA EDUCADORA.jpg",
+  "sinopse": "Para entendermos o motivo de chegarmos às últimas posições em todos os rankings educacionais internacionais, é necessário darmos um passo para trás. Nesta jornada pela educação, trazemos conceitos, análises e denúncias sobre as diferentes ideologias e personagens que pensaram o sistema de ensino brasileiro.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Brasil Paralelo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:20:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "02:04:22"
+        }
+      ]
+    }
+  ],
+  "id": 3063
+}

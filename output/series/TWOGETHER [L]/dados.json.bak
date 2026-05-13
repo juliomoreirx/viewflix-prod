@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NTY=",
+  "tipo": "serie",
+  "titulo": "TWOGETHER [L]",
+  "capa_url": "https://lgfp.one/RRA5",
+  "capa_local": "TWOGETHER [L]/TWOGETHER [L].jpg",
+  "sinopse": "Juntos em uma viagem inesquecível pela Ásia, Lee Seung-gi e Jasper Liu se tornam amigos, conhecem fãs e descobrem culturas diferentes.",
+  "genero": "Reality",
+  "elenco": "劉以豪, 이승기",
+  "diretor": "Jo Hyo-jin",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:23:35"
+        }
+      ]
+    }
+  ],
+  "id": 8847
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNDk=",
+  "tipo": "serie",
+  "titulo": "HOMEM FORMIGA CURTAS",
+  "capa_url": "https://lgfp.one/QCT5",
+  "capa_local": "HOMEM FORMIGA CURTAS/HOMEM FORMIGA CURTAS.jpg",
+  "sinopse": "Siga o Homem-Formiga enquanto ele supera tudo, desde supervilões a invasões alienígenas em miniatura. Junto com Vespa e Hank Pym, Homem-Formiga protege o mundo uma polegada de cada vez.",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "Josh Keaton, Melissa Rauch, Dee Bradley Baker, William Salyers, Laura Bailey",
+  "diretor": "Kevin Manach, Ugo Bienvenu",
+  "total_episodios": "2",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:01:30"
+        }
+      ]
+    }
+  ],
+  "id": 8099
+}

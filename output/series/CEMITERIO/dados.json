@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5OTM=",
+  "tipo": "serie",
+  "titulo": "CEMITERIO",
+  "capa_url": "https://lgfp.one/NDG6",
+  "capa_local": "CEMITERIO/CEMITERIO.jpg",
+  "sinopse": "A inspetora-chefe Önem lidera uma unidade de investigações especiais que resolve casos difíceis envolvendo violência contra a mulher.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Birce Akalay, Yerman Gur, Katie Anne Moy, Eylem Yıldız, Aybars Kuday",
+  "diretor": "Abdullah Oguz, Ömer Baykul",
+  "total_episodios": "105",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:47:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:40:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:44:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:56:54"
+        }
+      ]
+    }
+  ],
+  "id": 231968
+}

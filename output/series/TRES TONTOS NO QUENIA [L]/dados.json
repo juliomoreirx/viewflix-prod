@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NTA=",
+  "tipo": "serie",
+  "titulo": "TRES TONTOS NO QUENIA [L]",
+  "capa_url": "https://lgfp.one/RFA5",
+  "capa_local": "TRES TONTOS NO QUENIA [L]/TRES TONTOS NO QUENIA [L].jpg",
+  "sinopse": "O que era uma promessa virou realidade: três amigos finalmente pegam a estrada no Quênia. Prepare-se para aventuras, piadas e talvez até uma selfie com uma girafa.",
+  "genero": "Reality",
+  "elenco": "이수근, 은지원, Kyuhyun",
+  "diretor": "나영석, 김예슬",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:11:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:19:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:29:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:37:59"
+        }
+      ]
+    }
+  ],
+  "id": 8584
+}

@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1OTE=",
+  "tipo": "serie",
+  "titulo": "SLIME TAOSHITE 300-NEN, SHIRANAI UCHI NI LEVEL MAX NI NATTEMASHITA",
+  "capa_url": "https://lgfp.one/SFQ",
+  "capa_local": "SLIME TAOSHITE 300-NEN, SHIRANAI UCHI NI LEVEL MAX NI NATTEMASHITA/SLIME TAOSHITE 300-NEN, SHIRANAI UCHI NI LEVEL MAX NI NATTEMASHITA.jpg",
+  "sinopse": "Uma comédia caseira sobre uma garota poderosa que quer evitar a fadiga! Depois de morrer de estafa no mundo real, eu reencarnei como uma bruxa imortal, e passei 300 anos desfrutando a vida boa... Até que acabei batendo no nível 99! Tantos anos matando slimes pra pagar as contas me deram bastante XP... Mas os rumores se espalharam, e agora começam a surgir aventureiros curiosos, dragões afrontosos e até uma garota-monstro que me chama de mãe! Eu nunca parti numa aventura, mas agora sou a mais forte do mundo... O que será da minha vida tranquila?!",
+  "genero": "Sci-Fi & Fantasy, Animação, Comédia",
+  "elenco": "Aoi Yuki, Kaede Hondo, Sayaka Senbongi, Minami Tanaka, Sayaka Harada",
+  "diretor": "Nobukage Kimura",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:42"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 1838
+}

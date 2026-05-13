@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MDg=",
+  "tipo": "serie",
+  "titulo": "WISH YOU SUA MELODIA EM MEU CORACAO [L]",
+  "capa_url": "https://lgfp.one/ARKZ",
+  "capa_local": "WISH YOU SUA MELODIA EM MEU CORACAO [L]/WISH YOU SUA MELODIA EM MEU CORACAO [L].jpg",
+  "sinopse": "A vida de Kang In Soo, um cantor de espírito livre cujo amor pela música o leva a se apresentar nas ruas, gira completamente em torno da música. Apoiado por seus amigos, In Soo espera um dia transformar esse amor em uma carreira de tempo integral, mas não é fácil. Recusando-se a desistir de seus sonhos, ele continua se apresentando, dia após dia, enquanto seu melhor amigo, Choi Min Sung, faz gravações suas e as envia para o YouTube. Mal sabem eles que as apresentações de In Soo chamaram a atenção de alguém que pode mudar a vida do jovem músico para sempre.",
+  "genero": "Drama",
+  "elenco": "Kang In-soo, Lee Sang, Baek Seo-bin, Park Soo-bin",
+  "diretor": "Seong Do Jun, Seong Do Jun",
+  "total_episodios": "12",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:10:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:08:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:09:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:12:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:08:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:10:44"
+        }
+      ]
+    }
+  ],
+  "id": 4286
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NDU=",
+  "tipo": "serie",
+  "titulo": "OS GUARDIOES DA NACAO",
+  "capa_url": "https://lgfp.one/PSJ6",
+  "capa_local": "OS GUARDIOES DA NACAO/OS GUARDIOES DA NACAO.jpg",
+  "sinopse": "Para sabotar um programa nuclear, um espião indiano precisa derrotar seu rival paquistanês em uma disputa de inteligência e estratégia.",
+  "genero": "Drama",
+  "elenco": "Pratik Gandhi, Tillotama Shome, Sunny Hinduja, Rajat Kapoor, Hemant Kher",
+  "diretor": "आदित्य निंबाळकर, Shivam Shankar",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:24"
+        }
+      ]
+    }
+  ],
+  "id": 7786
+}

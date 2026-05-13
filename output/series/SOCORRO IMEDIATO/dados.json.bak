@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MDg=",
+  "tipo": "serie",
+  "titulo": "SOCORRO IMEDIATO",
+  "capa_url": "https://lgfp.one/AZAY",
+  "capa_local": "SOCORRO IMEDIATO/SOCORRO IMEDIATO.jpg",
+  "sinopse": "Série de realidade que acompanha a vida dos profissionais que trabalham em resgates, bombeiros e paramédicos.",
+  "genero": "Action & Adventure, Documentário, Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:47:14"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:46:49"
+        }
+      ]
+    }
+  ],
+  "id": 4909
+}

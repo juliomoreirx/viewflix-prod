@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NjY=",
+  "tipo": "serie",
+  "titulo": "A SABEDORIA DO TEMPO, COM PAPA FRANCISCO",
+  "capa_url": "https://lgfp.one/SRW",
+  "capa_local": "A SABEDORIA DO TEMPO, COM PAPA FRANCISCO/A SABEDORIA DO TEMPO, COM PAPA FRANCISCO.jpg",
+  "sinopse": "Homens e mulheres com mais de 70 anos narram histórias emocionantes e compartilham lições importantes de vida.",
+  "genero": "Documentário",
+  "elenco": "Pope Francis, Martin Scorsese, Elias Argentiere",
+  "diretor": "Martin Scorsese, Simona Ercolani",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:33"
+        }
+      ]
+    }
+  ],
+  "id": 2171
+}

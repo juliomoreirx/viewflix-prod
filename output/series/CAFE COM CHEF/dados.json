@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2Mjg=",
+  "tipo": "serie",
+  "titulo": "CAFE COM CHEF",
+  "capa_url": "https://lgfp.one/EKN4",
+  "capa_local": "CAFE COM CHEF/CAFE COM CHEF.jpg",
+  "sinopse": "Venha com Guilherme Temperani, Antonio Maiolica, Marcelo Marani e Raul Lemos explorar a gastronomia da cidade em um programa irresistível e cheio de sabor.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:17:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:56"
+        }
+      ]
+    }
+  ],
+  "id": 6299
+}

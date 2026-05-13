@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNDY=",
+  "tipo": "serie",
+  "titulo": "OS HASSUMS",
+  "capa_url": "https://lgfp.one/CYZ5",
+  "capa_local": "OS HASSUMS/OS HASSUMS.jpg",
+  "sinopse": "Acompanhe Leandro Hassum, a esposa, Kaka, e a 'cãopanheira' Belinha em uma viagem de motorhome pelos Estados Unidos cheia de ótimos programas e roubadas de todos os tipos.",
+  "genero": "Comédia",
+  "elenco": "Leandro Hassum, Karina Gomes",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:55"
+        }
+      ]
+    }
+  ],
+  "id": 5704
+}

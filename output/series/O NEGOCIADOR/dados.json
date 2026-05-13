@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NDU=",
+  "tipo": "serie",
+  "titulo": "O NEGOCIADOR",
+  "capa_url": "https://lgfp.one/AAWH",
+  "capa_local": "O NEGOCIADOR/O NEGOCIADOR.jpg",
+  "sinopse": "Kornan é um ex-soldado que invade um hospital e faz os pacientes, funcionários e o Ministro de Defesa de reféns.",
+  "genero": "Action & Adventure, Crime, Drama",
+  "elenco": "Ján Koleník, Ester Geislerová, Milan Bahul, Diana Mórová, Marko Igonda",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:07"
+        }
+      ]
+    }
+  ],
+  "id": 105431
+}

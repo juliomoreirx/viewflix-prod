@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTc=",
+  "tipo": "serie",
+  "titulo": "MINISTERIO DA VERDADE",
+  "capa_url": "https://lgfp.one/RPF8",
+  "capa_local": "MINISTERIO DA VERDADE/MINISTERIO DA VERDADE.jpg",
+  "sinopse": "Em um mundo autoritário dominado por narrativas e carente de jornalismo sério, um homem enfrenta o sistema para transmitir a verdade por trás das notícias. Com bom humor, e pitadas de sarcasmo, iremos mostrar o que a grande mídia esconde de você.",
+  "genero": "Talk",
+  "elenco": "Ricardo Ventura",
+  "diretor": "Renato Dias Pais",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:18:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:16:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:14:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:15:13"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:13:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:11:25"
+        }
+      ]
+    }
+  ],
+  "id": 8792
+}

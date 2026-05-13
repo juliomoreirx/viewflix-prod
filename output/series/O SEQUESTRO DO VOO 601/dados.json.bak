@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMTM=",
+  "tipo": "serie",
+  "titulo": "O SEQUESTRO DO VOO 601",
+  "capa_url": "https://lgfp.one/ASX9",
+  "capa_local": "O SEQUESTRO DO VOO 601/O SEQUESTRO DO VOO 601.jpg",
+  "sinopse": "Quando um avião é sequestrado, duas aeromoças tentam ludibriar os bandidos enquanto negociações conturbadas rolam dentro e fora da aeronave. Baseada em fatos reais.",
+  "genero": "Drama",
+  "elenco": "Mónica Lopera, Ángela Cano, Christian Tappán, Enrique Carriazo, Carlos-Manuel Vesga",
+  "diretor": "David Pombo, Miguel Ángel Fajardo, Andres Felipe Ferro Ruiz",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:03"
+        }
+      ]
+    }
+  ],
+  "id": 5256
+}

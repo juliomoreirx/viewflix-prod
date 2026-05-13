@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4OTM=",
+  "tipo": "serie",
+  "titulo": "RIO DA LUA [L]",
+  "capa_url": "https://lgfp.one/REZ4",
+  "capa_local": "RIO DA LUA [L]/RIO DA LUA [L].jpg",
+  "sinopse": "Conta a história da troca de almas entre um príncipe que perdeu o sorriso e uma comerciante que carregava selas e perdeu a memória. O príncipe herdeiro de Joseon, Yi Gang, que perdeu sua princesa herdeira, abdicou da própria felicidade e só pensava em vingança. Quando o plano de vingança de Yi Gang finalmente dá o primeiro passo, ele encontra a comerciante Park Dal I, que é idêntica à falecida princesa herdeira, e os dois trocam de corpos por razões desconhecidas, mergulhando em uma série de eventos caóticos.",
+  "genero": "Drama, Mistério, Comédia",
+  "elenco": "강태오, 김세정, 이신영, 홍수주, 진구",
+  "diretor": "이동현",
+  "total_episodios": "76",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:14:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:17:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:16:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:16:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:16:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:16:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:16:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:17:12"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:16:18"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:15:31"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:15:04"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:16:04"
+        }
+      ]
+    }
+  ],
+  "id": 8573
+}

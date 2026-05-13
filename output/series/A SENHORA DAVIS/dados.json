@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1ODU=",
+  "tipo": "serie",
+  "titulo": "A SENHORA DAVIS",
+  "capa_url": "https://lgfp.one/ASX2",
+  "capa_local": "A SENHORA DAVIS/A SENHORA DAVIS.jpg",
+  "sinopse": "Irmã Simone é expulsa de seu convento por causa de uma poderosa inteligência artificial conhecida como Sra. Davis. Para se vingar, ela se junta a seu ex-namorado que agora é o líder de um movimento de resistência clandestino dedicado a deter a IA.",
+  "genero": "Comédia, Drama, Sci-Fi & Fantasy",
+  "elenco": "Betty Gilpin, Jake McDorman, Andy McQueen",
+  "diretor": "Alethea Jones",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:03"
+        }
+      ]
+    }
+  ],
+  "id": 5249
+}

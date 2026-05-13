@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MjU=",
+  "tipo": "serie",
+  "titulo": "SANTUÁRIO DO SUMÔ",
+  "capa_url": "https://lgfp.one/ZTV",
+  "capa_local": "SANTUARIO DO SUMO/SANTUARIO DO SUMO.jpg",
+  "sinopse": "Um garoto começa a lutar sumô e cativa os fãs com sua atitude arrogante. O problema é que ele também vai irritar uma indústria que valoriza muito a tradição.",
+  "genero": "Drama",
+  "elenco": "Wataru Ichinose, 染谷将太, ピエール瀧, 小雪, 忽那汐里",
+  "diretor": "江口カン, Takeshi Amitani, Tsubasa Mukaida",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:05:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:18"
+        }
+      ]
+    }
+  ],
+  "id": 3487
+}

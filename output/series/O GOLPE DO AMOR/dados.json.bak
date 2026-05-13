@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NDM=",
+  "tipo": "serie",
+  "titulo": "O GOLPE DO AMOR",
+  "capa_url": "https://lgfp.one/RQG",
+  "capa_local": "O GOLPE DO AMOR/O GOLPE DO AMOR.jpg",
+  "sinopse": "Os segredos sobre o passado de Julia, uma mãe divorciada de sessenta anos, assim como o de sua família vêm à tona quando ela se apaixona por Benjamin, um rapaz bem mais novo.",
+  "genero": "Drama",
+  "elenco": "Julia Ormond, Ben Barnes, Sebastian Armesto, Jemima Rooper, Archie Renaux",
+  "diretor": "Vanessa Caswill, David Evans",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:14"
+        }
+      ]
+    }
+  ],
+  "id": 1253
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNTA=",
+  "tipo": "serie",
+  "titulo": "LITTLE AMERICA",
+  "capa_url": "https://lgfp.one/IOT",
+  "capa_local": "LITTLE AMERICA/LITTLE AMERICA.jpg",
+  "sinopse": "Dos mesmos criadores de Doentes de Amor e Master of None, Little America é uma série antológica com histórias engraçadas, românticas, inspiradoras e surpreendentes de imigrantes nos EUA.",
+  "genero": "Drama, Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:04"
+        }
+      ]
+    }
+  ],
+  "id": 51
+}

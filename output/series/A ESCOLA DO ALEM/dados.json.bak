@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0Mzk=",
+  "tipo": "serie",
+  "titulo": "A ESCOLA DO ALEM",
+  "capa_url": "https://lgfp.one/SKG",
+  "capa_local": "A ESCOLA DO ALEM/A ESCOLA DO ALEM.jpg",
+  "sinopse": "A série explora o sobrenatural e conta histórias surpreendentes e provocadoras de uma realidades além da que conhecemos. Cada episódio traz novos personagens que embarcam em uma viagem surpreendente de autoconhecimento em um mundo sobrenatural de bruxas, fantasmas e universos paralelos.",
+  "genero": "Família, Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:53"
+        }
+      ]
+    }
+  ],
+  "id": 1961
+}

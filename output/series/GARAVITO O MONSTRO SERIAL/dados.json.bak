@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NDI=",
+  "tipo": "serie",
+  "titulo": "GARAVITO O MONSTRO SERIAL",
+  "capa_url": "https://lgfp.one/DCD2",
+  "capa_local": "GARAVITO O MONSTRO SERIAL/GARAVITO O MONSTRO SERIAL.jpg",
+  "sinopse": "Os investigadores que participaram da captura e condenação do colombiano Luis Alfredo Garavito, o maior assassino e estuprador de crianças da história da humanidade, narram em primeira pessoa a mórbida crônica do Monstro de Génova.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Jose Angel Montiel Roig",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:53"
+        }
+      ]
+    }
+  ],
+  "id": 5735
+}

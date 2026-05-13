@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2OTE=",
+  "tipo": "serie",
+  "titulo": "TRACKERS [L]",
+  "capa_url": "https://lgfp.one/JMR",
+  "capa_local": "TRACKERS [L]/TRACKERS [L].jpg",
+  "sinopse": "Três histórias sobre a África do Sul se interligam, envolvendo crime organizado, tráfico de diamantes, segurança nacional e uma trama terrorista internacional.",
+  "genero": "Crime, Drama",
+  "elenco": "James Gracie, Rolanda Marais, Ed Stoppard, Sandi Schultz, Trix Vivier",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:21"
+        }
+      ]
+    }
+  ],
+  "id": 747
+}

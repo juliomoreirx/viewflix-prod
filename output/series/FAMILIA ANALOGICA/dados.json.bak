@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTE=",
+  "tipo": "serie",
+  "titulo": "FAMILIA ANALOGICA",
+  "capa_url": "https://lgfp.one/AUXE",
+  "capa_local": "FAMILIA ANALOGICA/FAMILIA ANALOGICA.jpg",
+  "sinopse": "Ao saber que o pai está doente, um homem de meia-idade cria uma família falsa para ter um último encontro com ele.",
+  "genero": "Drama",
+  "elenco": "นพชัย ชัยนาม, กุลณัฐ กุลปรียาวัฒน์, กฤษณภูมิ พิบูลสงคราม, วิพาวีร์ พัฒนศิริ, Surasee Ithikul",
+  "diretor": "นิธิวัฒน์ ธราธร, Nalina Chayasombat, นิธิวัฒน์ ธราธร",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:10:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:32"
+        }
+      ]
+    }
+  ],
+  "id": 4572
+}

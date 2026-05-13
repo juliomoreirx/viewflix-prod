@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5ODM=",
+  "tipo": "serie",
+  "titulo": "FAKES",
+  "capa_url": "https://lgfp.one/YMN",
+  "capa_local": "FAKES/FAKES.jpg",
+  "sinopse": "Sunny, um artista pobre e brilhante, se envolve no mundo arriscado da falsificação quando cria uma cédula de dinheiro falso perfeita, enquanto Michael, um impetuoso e pouco ortodoxo policial de uma força-tarefa quer livrar o país da ameaça da falsificação. Nessa emocionante corrida de gato e rato, perder não é uma opção!",
+  "genero": "Drama / Crime",
+  "elenco": "Shahid Kapoor, Vijay Sethupathi, Kay Kay Menon, Raashii Khanna, Bhuvan Arora, Chittaranjan Giri, Amol Palekar, Zakir Hussain",
+  "diretor": "Krishna D.K., Raj Nidimoru",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:06:59"
+        }
+      ]
+    }
+  ],
+  "id": 3279
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMzI=",
+  "tipo": "serie",
+  "titulo": "HISTORIAS DE ANIMAIS",
+  "capa_url": "https://lgfp.one/AQP5",
+  "capa_local": "HISTORIAS DE ANIMAIS/HISTORIAS DE ANIMAIS.jpg",
+  "sinopse": "O biólogo e cinegrafista João Paulo Krajewski viajará para filmar os animais mais incríveis da terra, para compreender a verdadeira essência da vida. Com a ajuda de cientistas, João Paulo fará uma jornada pelo mundo natural sob o olhar de um historiador.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:05"
+        }
+      ]
+    }
+  ],
+  "id": 5198
+}

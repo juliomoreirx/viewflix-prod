@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNzc=",
+  "tipo": "serie",
+  "titulo": "ALL THE WAY UP: CAMINHO PARA A FAMA",
+  "capa_url": "https://lgfp.one/SQK",
+  "capa_local": "ALL THE WAY UP CAMINHO PARA A FAMA/ALL THE WAY UP CAMINHO PARA A FAMA.jpg",
+  "sinopse": "Um talentoso jovem rapper, apoiado por seus dois amigos de infância, é reconhecido da noite para o dia por uma das maiores estrelas do rap da França. Mas essa \"aprovação\" logo se transforma em uma rivalidade perigosa.",
+  "genero": "Drama",
+  "elenco": "Laetitia Kerfa, Saïdou Camara, Brahim Bouhlel, Franck Gastambide, Sabrina Ouazani, Fatou Guinea Kaba, Youssef Hajdi, Rachid Guellaz",
+  "diretor": "Franck Gastambide, Xavier Lacaille, Giulio Callegari",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:31:01"
+        }
+      ]
+    }
+  ],
+  "id": 2128
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NzE=",
+  "tipo": "serie",
+  "titulo": "CACHORRINHOS DO OUTRO MUNDO",
+  "capa_url": "https://lgfp.one/TSX",
+  "capa_local": "CACHORRINHOS DO OUTRO MUNDO/CACHORRINHOS DO OUTRO MUNDO.jpg",
+  "sinopse": "Um menino e sua família se mudam para uma casa assombrada, onde ele conhece três adoráveis filhotes fantasmas e tenta ajudá-los a voltar a serem cachorros de verdade.",
+  "genero": "Família",
+  "elenco": "Jett Klyne, Thalia Campbell, Eva Brooke Baker, Evan Marsh, Kelli Ogmundson",
+  "diretor": "Anna McRoberts, Robert Vince",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:16"
+        }
+      ]
+    }
+  ],
+  "id": 2904
+}

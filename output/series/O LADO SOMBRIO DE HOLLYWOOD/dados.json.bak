@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNzQ=",
+  "tipo": "serie",
+  "titulo": "O LADO SOMBRIO DE HOLLYWOOD",
+  "capa_url": "https://lgfp.one/NKT7",
+  "capa_local": "O LADO SOMBRIO DE HOLLYWOOD/O LADO SOMBRIO DE HOLLYWOOD.jpg",
+  "sinopse": "Alguns atores alcançam a fama apenas para cair no esquecimento, enquanto outros revelam o lado mais trágico e sombrio da fama.",
+  "genero": "Documentário, Crime",
+  "elenco": "Drew Pinsky, Scaachi Koul, Kevin Von Erich",
+  "diretor": "Andrzej Mrotek, Derek Oishi",
+  "total_episodios": "83",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:28:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:27:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:28:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:28:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:28:17"
+        }
+      ]
+    }
+  ],
+  "id": 7085
+}

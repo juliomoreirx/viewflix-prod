@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NTI=",
+  "tipo": "serie",
+  "titulo": "THE OFFICE (2024)",
+  "capa_url": "https://lgfp.one/DWG8",
+  "capa_local": "THE OFFICE (2024)/THE OFFICE (2024).jpg",
+  "sinopse": "Hannah Howard é a diretora-executiva da empresa Flinley Craddick. Quando ela recebe a notícia da central de que seu escritório vai fechar e todos passarão a fazer trabalho remoto, ela ativa o modo sobrevivência e começa a fazer promessas que não pode cumprir a fim de manter a \"família do trabalho\" unida.",
+  "genero": "Comédia",
+  "elenco": "Felicity Ward, Edith Poor, Steen Raskopoulos, Shari Sebbens, Josh Thomson",
+  "diretor": "Jackie van Beek",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:40"
+        }
+      ]
+    }
+  ],
+  "id": 6105
+}

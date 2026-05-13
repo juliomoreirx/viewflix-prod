@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MDk=",
+  "tipo": "serie",
+  "titulo": "CHUHAI LIPS [L]",
+  "capa_url": "https://lgfp.one/PLV1",
+  "capa_local": "CHUHAI LIPS [L]/CHUHAI LIPS [L].jpg",
+  "sinopse": "",
+  "genero": "Animação, Comédia",
+  "elenco": "石井孝英, 河原木志穂, 朝日奈丸佳, Yuka Nukui, Riko Akechi",
+  "diretor": "桂馬一, 桂馬一",
+  "total_episodios": "5",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:04:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:04:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:04:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:04:42"
+        }
+      ]
+    }
+  ],
+  "id": 7684
+}

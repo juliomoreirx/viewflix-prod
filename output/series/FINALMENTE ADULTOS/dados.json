@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzODM=",
+  "tipo": "serie",
+  "titulo": "FINALMENTE ADULTOS",
+  "capa_url": "https://lgfp.one/AAOC",
+  "capa_local": "FINALMENTE ADULTOS/FINALMENTE ADULTOS.jpg",
+  "sinopse": "Um grupo de jovens chega aos 20 anos e dá adeus à adolescência. Nesse rito de passagem, eles passarão juntos por suas primeiras experiências adultas.",
+  "genero": "Reality",
+  "elenco": "Cho Kyu-hyun, Kim Ji-eun, Lee Soo-hyun, Jeong Se-woon, Kim Jung-hyuk",
+  "diretor": "Kim Jae-won, Kim Jung-hyun, Park Su-ji",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:10:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:08:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:11:19"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:53"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:23:58"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:27:21"
+        }
+      ]
+    }
+  ],
+  "id": 3710
+}

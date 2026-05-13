@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzOTY=",
+  "tipo": "serie",
+  "titulo": "ORANGE DAYS [L]",
+  "capa_url": "https://lgfp.one/AXAT",
+  "capa_local": "ORANGE DAYS [L]/ORANGE DAYS [L].jpg",
+  "sinopse": "Kai Yuuki, está em seu último ano na universidade estudando psicologia social. atualmente, ele está no meio da temporada de procura de trabalho, mas sem sucesso. Um dia, ele conhece uma garota que está a tocar violino no campus, ela é Sae Hagio. Em contraste com a sua aparência atraente, sua personalidade é algo muito impertinente e ainda por cima, ela se comunica através de linguagem gestual. Quatro anos atrás, ela perdeu a coisa mais importante para uma violinista, a audição, e como resultado Sae, se fechou em seu próprio mundo.",
+  "genero": "Drama",
+  "elenco": "Ko Shibasaki, Satoshi Tsumabuki, Hiroki Narimiya, Miho Shiraishi, Eita Nagayama",
+  "diretor": "Nobuhiro Doi, Natsuki Imai, Jirō Shōno",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:22"
+        }
+      ]
+    }
+  ],
+  "id": 4725
+}

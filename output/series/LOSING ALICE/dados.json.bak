@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNDI=",
+  "tipo": "serie",
+  "titulo": "LOSING ALICE",
+  "capa_url": "https://lgfp.one/SGK",
+  "capa_local": "LOSING ALICE/LOSING ALICE.jpg",
+  "sinopse": "Alice, uma cineasta de 48 anos que se sente irrelevante desde que começou a criar a sua família. Após um breve encontro no comboio, torna-se obcecada por uma argumentista de 24 anos, Sophie, e eventualmente cede a sua integridade moral a fim de alcançar poder, relevância e sucesso.",
+  "genero": "Drama",
+  "elenco": "Ayelet Zurer, Lihi Kornowski, Gal Toren, Yossi Marshek, Shai Avivi",
+  "diretor": "Sigal Avin",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:46"
+        }
+      ]
+    }
+  ],
+  "id": 1859
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMTU=",
+  "tipo": "serie",
+  "titulo": "O PRESIDENTE DA MINHA ESCOLA [L]",
+  "capa_url": "https://lgfp.one/BAU2",
+  "capa_local": "O PRESIDENTE DA MINHA ESCOLA [L]/O PRESIDENTE DA MINHA ESCOLA [L].jpg",
+  "sinopse": "Gun (Fourth Nattawat Jirochtikul) é o líder do clube de música do colégio e vocalista de uma banda chamada Chinzhilla. Ele frequenta a mesma escola que seu rival de longa data Tinn (Gemini Norawit Titicharoenrak), filho do diretor. O diretor quer dissolver alguns dos clubes extracurriculares “inúteis” da escola. No topo da lista está o clube de música, principalmente depois de um evento embaraçoso no passado que deu má fama à escola. Gun percebe que o diretor quer acabar com seu clube e tenta concorrer ao cargo de presidente do conselho estudantil.",
+  "genero": "Comédia",
+  "elenco": "Nattawat Jirochtikul, Norawit Titicharoenrak, Kittipop Sereevichayasawat, Thanawin Pholcharoenrat, Arun Asawasuebsakul",
+  "diretor": "Kornprom Niyomsil, Chidchanok Chumwan, Thipaphon Puangmaha",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:10:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:36"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:20:26"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:18:52"
+        }
+      ]
+    }
+  ],
+  "id": 5410
+}

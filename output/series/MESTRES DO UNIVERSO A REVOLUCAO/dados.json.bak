@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNTg=",
+  "tipo": "serie",
+  "titulo": "MESTRES DO UNIVERSO A REVOLUCAO",
+  "capa_url": "https://lgfp.one/AZLN",
+  "capa_local": "MESTRES DO UNIVERSO A REVOLUCAO/MESTRES DO UNIVERSO A REVOLUCAO.jpg",
+  "sinopse": "He-Man e seus amigos enfrentam as forças sombrias de Esqueleto em uma batalha épica pelo coração de Eternia.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Melissa Benoist, Liam Cunningham, Mark Hamill, Griffin Newman, William Shatner",
+  "diretor": "Kevin Smith, Kevin Smith, Yohann Abdelnour",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:07"
+        }
+      ]
+    }
+  ],
+  "id": 4915
+}

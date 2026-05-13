@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MjU=",
+  "tipo": "serie",
+  "titulo": "RITMO SELVAGEM",
+  "capa_url": "https://lgfp.one/SYU",
+  "capa_local": "RITMO SELVAGEM/RITMO SELVAGEM.jpg",
+  "sinopse": "Na Colômbia, as vidas de duas dançarinas de mundos opostos se cruzam dentro e fora das pistas na busca pelo sucesso.",
+  "genero": "Drama",
+  "elenco": "Paulina Dávila, Greeicy Rendón, Andrés Juan Hernández, Martina la Peligrosa, Sashua López",
+  "diretor": "Rafa Martínez, Andres Beltran",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:16"
+        }
+      ]
+    }
+  ],
+  "id": 2357
+}

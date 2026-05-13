@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzODg=",
+  "tipo": "serie",
+  "titulo": "PAIS POR ACIDENTE",
+  "capa_url": "https://lgfp.one/TPH",
+  "capa_local": "PAIS POR ACIDENTE/PAIS POR ACIDENTE.jpg",
+  "sinopse": "California recebe um presente inesperado: uma van enviada por sua mãe, Itzel, pedindo que ela viaje para Zacatecas para reencontrá-la depois de 9 anos de ausência. California convence seus três pais desconfiados. Ela sente que essa viagem os levará à felicidade. Sendo assim, California, Miguel, Diego e Morgan embarcarão em uma odisseia que mudará completamente suas vidas. O que eles não imaginam é que estão sendo seguidos por dois bandidos engraçados que também estão atrás da misteriosa mulher.",
+  "genero": "Drama / Comédia",
+  "elenco": "Jorge Blanco, Michael Ronda, Lalo Brito, Farah Justiniani, Valérie Camarena Ibarra, Fátima Molina, Hernán Mendoza, Santiago Torres",
+  "diretor": "Ana Sofía Clerici",
+  "total_episodios": "33",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:29:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:38"
+        }
+      ]
+    }
+  ],
+  "id": 2804
+}

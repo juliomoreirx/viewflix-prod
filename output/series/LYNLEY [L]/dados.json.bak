@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MzI=",
+  "tipo": "serie",
+  "titulo": "LYNLEY [L]",
+  "capa_url": "https://lgfp.one/QCL0",
+  "capa_local": "LYNLEY [L]/LYNLEY [L].jpg",
+  "sinopse": "O inspetor Thomas Lynley e a detetive Barbara Havers formam uma dupla improvável de detetives policiais. Suas origens contrastantes criam tensão, mas eles se unem para solucionar crimes, lidando com questões de classe e gênero.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Leo Suter, Sofia Barclay, Daniel Mays, Niamh Walsh, Michael Workeye",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:26:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:29:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:29:35"
+        }
+      ]
+    }
+  ],
+  "id": 8071
+}

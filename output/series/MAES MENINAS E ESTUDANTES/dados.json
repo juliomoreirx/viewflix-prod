@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNzQ=",
+  "tipo": "serie",
+  "titulo": "MAES MENINAS E ESTUDANTES",
+  "capa_url": "https://lgfp.one/DET8",
+  "capa_local": "MAES MENINAS E ESTUDANTES/MAES MENINAS E ESTUDANTES.jpg",
+  "sinopse": "Acompanhe um drama da vida real em um colégio do Colorado voltado exclusivamente a garotas grávidas e mães adolescentes que seguem seus estudos enquanto lidam com o desafio de cuidar de um bebê.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:48"
+        }
+      ]
+    }
+  ],
+  "id": 5775
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Mzg=",
+  "tipo": "serie",
+  "titulo": "DESEJO OBSESSIVO",
+  "capa_url": "https://lgfp.one/ZIS",
+  "capa_local": "DESEJO OBSESSIVO/DESEJO OBSESSIVO.jpg",
+  "sinopse": "Uma aventura proibida entre um respeitado cirurgião e a noiva do filho acaba virando uma obsessão que ameaça mudar suas vidas para sempre.",
+  "genero": "Drama, Mistério",
+  "elenco": "Richard Armitage, Charlie Murphy, Indira Varma, Rish Shah, Anil Goutam",
+  "diretor": "Lisa Barros D'Sa, Glenn Leyburn",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:09"
+        }
+      ]
+    }
+  ],
+  "id": 3427
+}

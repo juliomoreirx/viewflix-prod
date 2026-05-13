@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMTA=",
+  "tipo": "serie",
+  "titulo": "GRANDES ANIMAIS",
+  "capa_url": "https://lgfp.one/ZLH",
+  "capa_local": "GRANDES ANIMAIS/GRANDES ANIMAIS.jpg",
+  "sinopse": "Viaje dos polos congelantes às florestas tropicais para conhecer os gigantes mais cativantes da natureza que provam que ser grande traz enormes desafios.",
+  "genero": "Documentário",
+  "elenco": "Tom Hiddleston",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:29:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:29:51"
+        }
+      ]
+    }
+  ],
+  "id": 3440
+}

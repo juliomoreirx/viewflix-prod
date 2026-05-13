@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Njg=",
+  "tipo": "serie",
+  "titulo": "APOCALIPSE NEANDERTAL",
+  "capa_url": "https://lgfp.one/NLG9",
+  "capa_local": "APOCALIPSE NEANDERTAL/APOCALIPSE NEANDERTAL.jpg",
+  "sinopse": "Há 40.000 anos, os neandertais habitavam a Eurásia. Descobertas recentes mostram que eles eram tecnologicamente avançados e cultos, contrariando crenças anteriores. Agora, os cientistas têm uma explicação surpreendente para o desaparecimento deles.",
+  "genero": "Documentário",
+  "elenco": "Jamie McGuire, Demetri Goritsas, Eric Supensky",
+  "diretor": "Jason Levangie",
+  "total_episodios": "78",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:45"
+        }
+      ]
+    }
+  ],
+  "id": 7091
+}

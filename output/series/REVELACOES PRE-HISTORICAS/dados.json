@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MzI=",
+  "tipo": "serie",
+  "titulo": "REVELAÇÕES PRÉ-HISTÓRICAS",
+  "capa_url": "https://lgfp.one/WAZ",
+  "capa_local": "REVELACOES PRE-HISTORICAS/REVELACOES PRE-HISTORICAS.jpg",
+  "sinopse": "Graham Hancock já foi chamado de tudo: de pseudocientista a curioso. Agora, ele parte em uma missão para provar sua teoria sobre uma civilização perdida.",
+  "genero": "Documentário",
+  "elenco": "Graham Hancock, Joe Rogan, Keanu Reeves",
+  "diretor": "Marc Tiley",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:22"
+        }
+      ]
+    }
+  ],
+  "id": 3064
+}

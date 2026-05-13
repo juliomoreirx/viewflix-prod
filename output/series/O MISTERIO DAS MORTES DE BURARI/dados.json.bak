@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MTM=",
+  "tipo": "serie",
+  "titulo": "O MISTÉRIO DAS MORTES DE BURARI",
+  "capa_url": "https://lgfp.one/SIZ",
+  "capa_local": "O MISTERIO DAS MORTES DE BURARI/O MISTERIO DAS MORTES DE BURARI.jpg",
+  "sinopse": "Suicídio, assassinato... ou outra causa? Esta série documental examina teorias e verdades arrepiantes em torno das mortes de 11 pessoas de uma família indiana.",
+  "genero": "Documentário, Crime",
+  "elenco": "Priyanka Bhatia, Lalit Chundawat, Tina Chundawat",
+  "diretor": "Anubhav Chopra, Leena Yadav",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:36"
+        }
+      ]
+    }
+  ],
+  "id": 1927
+}

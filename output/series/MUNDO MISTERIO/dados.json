@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMTE=",
+  "tipo": "serie",
+  "titulo": "MUNDO MISTÉRIO",
+  "capa_url": "https://lgfp.one/JOG",
+  "capa_local": "MUNDO MISTERIO/MUNDO MISTERIO.jpg",
+  "sinopse": "Na série, o youtuber e apresentador Felipe Castanhari explora enigmas da história e da ciência.",
+  "genero": "Documentário, Comédia, Família",
+  "elenco": "Felipe Castanhari, Guilherme Briggs, Bruno Miranda, Lilian Regina",
+  "diretor": "Felipe Castanhari",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:27"
+        }
+      ]
+    }
+  ],
+  "id": 792
+}

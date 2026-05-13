@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3ODM=",
+  "tipo": "serie",
+  "titulo": "TOARU OSSAN NO VRMMO KATSUDOUKI [L]",
+  "capa_url": "https://lgfp.one/ARCV",
+  "capa_local": "TOARU OSSAN NO VRMMO KATSUDOUKI [L]/TOARU OSSAN NO VRMMO KATSUDOUKI [L].jpg",
+  "sinopse": "Tanaka Taichi é um japonês comum que acabou de criar um novo personagem, “Earth” em um novo game mundo aberto em realidade virtual do tipo VRMMO chamado “One More Free Life Online”, que promete liberdade quase ilimitada. Em um mundo onde os jogadores são livres para desafiar monstros com todas as forças ou partir em aventuras no seu próprio ritmo, Taichi escolhe dominar as mais inúteis habilidades que o jogo tem a oferecer! Algumas horas ele decide fazer poções complicadas demais, ou comidas que tem um gosto muito melhor do que deveriam. Outras horas ele vai caçar monstros com armas artesanais bem doidas…",
+  "genero": "Animação, Action & Adventure, Comédia",
+  "elenco": "Kaito Ishikawa, Daisuke Namikawa, Reina Ueda, Tasuku Hatanaka, Miho Okasaki",
+  "diretor": "Yuichi Nakazawa",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 4255
+}

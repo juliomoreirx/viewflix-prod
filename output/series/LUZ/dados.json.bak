@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3NTE=",
+  "tipo": "serie",
+  "titulo": "LUZ",
+  "capa_url": "https://lgfp.one/AZYE",
+  "capa_local": "LUZ/LUZ.jpg",
+  "sinopse": "Criada por uma família Kaingang, a estudante aventureira Luz embarca em uma jornada em busca de suas raízes ao lado do amigo vaga-lume.",
+  "genero": "Action & Adventure, Kids, Drama",
+  "elenco": "Marianna Santos, Daniel Rocha, Gabriela Moreyra, Dandara Albuquerque, Maurício Destri",
+  "diretor": "Thiago Teitelroit",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:33:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:31:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:32:46"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:33:06"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:32:51"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:32:35"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:33:45"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:32:26"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:37:19"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:39:55"
+        }
+      ]
+    }
+  ],
+  "id": 4969
+}

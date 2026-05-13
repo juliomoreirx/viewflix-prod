@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NzM=",
+  "tipo": "serie",
+  "titulo": "OS SUSTOS OCULTOS DE FRANKELDA",
+  "capa_url": "https://lgfp.one/QOZ3",
+  "capa_local": "OS SUSTOS OCULTOS DE FRANKELDA/OS SUSTOS OCULTOS DE FRANKELDA.jpg",
+  "sinopse": "Frankelda, uma misteriosa escritora fantasma, com a ajuda de seu rabugento livro encantado, conta histórias aterrorizantes, nas quais meninos e meninas têm encontros com monstros que os farão encarar seus maiores medos.",
+  "genero": "Animação",
+  "elenco": "Mireya Mendoza, Arturo Mercado Jr., Luis Leonardo Suarez",
+  "diretor": "",
+  "total_episodios": "14",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:14:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:14:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:00"
+        }
+      ]
+    }
+  ],
+  "id": 8355
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNjQ=",
+  "tipo": "serie",
+  "titulo": "SEM ESCAPATORIA",
+  "capa_url": "https://lgfp.one/ABBY",
+  "capa_local": "SEM ESCAPATORIA/SEM ESCAPATORIA.jpg",
+  "sinopse": "Buscando vida nova, as britânicas de 19 anos, Kitty e Lana encontram refúgio em um iate nas Filipinas chamado O Azul, mas acabam encontrando perigos piores dos que tentaram fugir.",
+  "genero": "Drama",
+  "elenco": "Abigail Lawrie, Rhianne Barreto, Sean Keenan, Jay Ryan, Colette Dalal Tchantcho",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:57"
+        }
+      ]
+    }
+  ],
+  "id": 4110
+}

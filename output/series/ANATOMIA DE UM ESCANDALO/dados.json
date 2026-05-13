@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODI=",
+  "tipo": "serie",
+  "titulo": "ANATOMIA DE UM ESCÂNDALO",
+  "capa_url": "https://lgfp.one/TCQ",
+  "capa_local": "ANATOMIA DE UM ESCANDALO/ANATOMIA DE UM ESCANDALO.jpg",
+  "sinopse": "A vida privilegiada de Sophie como esposa de um político poderoso começa a desmoronar depois que um escândalo vem à tona e ele é acusado de um crime chocante.",
+  "genero": "Drama",
+  "elenco": "Sienna Miller, Rupert Friend, Michelle Dockery, Naomi Scott, Josette Simon",
+  "diretor": "S.J. Clarkson, Richard Styles",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:42"
+        }
+      ]
+    }
+  ],
+  "id": 2459
+}

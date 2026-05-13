@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMjg=",
+  "tipo": "serie",
+  "titulo": "ASSASSINATO NO FIM DO MUNDO",
+  "capa_url": "https://lgfp.one/ATGK",
+  "capa_local": "ASSASSINATO NO FIM DO MUNDO/ASSASSINATO NO FIM DO MUNDO.jpg",
+  "sinopse": "A detetive amadora Darby Hart e mais oito pessoas são convidadas por um bilionário para um retiro em um local remoto e deslumbrante. Quando um dos convidados é encontrado morto, Darby deve usar todas as suas habilidades e solucionar o crime antes que o assassino tire outra vida.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Emma Corrin, Clive Owen, Harris Dickinson, Brit Marling, Alice Braga",
+  "diretor": "Alexander H. Gayner",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:14:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:28"
+        }
+      ]
+    }
+  ],
+  "id": 4445
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMjk=",
+  "tipo": "serie",
+  "titulo": "ILUMINADAS",
+  "capa_url": "https://lgfp.one/TEY",
+  "capa_local": "ILUMINADAS/ILUMINADAS.jpg",
+  "sinopse": "Anos depois de um ataque brutal que a deixou em uma realidade em constante mudança, Kirby Mazrachi descobre que um recente assassinato tem relação com o atentado que sofreu. Ela se junta ao veterano repórter Dan Velazquez para entender o seu presente continuamente mutável — e confrontar o seu passado.",
+  "genero": "Drama",
+  "elenco": "Elisabeth Moss, Wagner Moura, Phillipa Soo, Chris Chalk, Amy Brenneman, Jamie Bell",
+  "diretor": "Silka Luisa",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:55"
+        }
+      ]
+    }
+  ],
+  "id": 2521
+}

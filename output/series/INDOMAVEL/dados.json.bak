@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NzE=",
+  "tipo": "serie",
+  "titulo": "INDOMAVEL",
+  "capa_url": "https://lgfp.one/PJH5",
+  "capa_local": "INDOMAVEL/INDOMAVEL.jpg",
+  "sinopse": "No enorme Parque Nacional de Yosemite, a morte de uma mulher atrai um agente federal para uma terra sem lei, onde a natureza não segue as regras humanas.",
+  "genero": "Mistério, Drama",
+  "elenco": "Eric Bana, Sam Neill, Rosemarie DeWitt, Lily Santiago, Wilson Bethel",
+  "diretor": "Thomas Bezucha, Neasa Hardiman,  Nick Murphy",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:01"
+        }
+      ]
+    }
+  ],
+  "id": 7656
+}

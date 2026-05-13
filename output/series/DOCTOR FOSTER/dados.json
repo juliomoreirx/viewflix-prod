@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMDQ=",
+  "tipo": "serie",
+  "titulo": "DOCTOR FOSTER",
+  "capa_url": "https://lgfp.one/NWW0",
+  "capa_local": "DOCTOR FOSTER/DOCTOR FOSTER.jpg",
+  "sinopse": "A história acompanha a vida da Dra. Gemma Foster, uma mulher que parece ter sua vida e carreira sob controle. Até que ela começa a desconfiar que seu marido Simon a está traindo. Determinada a descobrir a verdade, ela inicia uma investigação que afeta sua vida, a de sua família e a de seus pacientes.",
+  "genero": "Drama",
+  "elenco": "Suranne Jones, Bertie Carvel, Clare-Hope Ashitey, Isabelle Estelle Corbusier, Thusitha Jayasundera",
+  "diretor": "",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:11"
+        }
+      ]
+    }
+  ],
+  "id": 7320
+}

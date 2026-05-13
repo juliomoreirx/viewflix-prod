@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNTM=",
+  "tipo": "serie",
+  "titulo": "﻿HAPPY END: POR TRÁS DA WEBCAM",
+  "capa_url": "https://lgfp.one/TKV",
+  "capa_local": "HAPPY END POR TRAS DA WEBCAM/HAPPY END POR TRAS DA WEBCAM.jpg",
+  "sinopse": "﻿﻿Unidos pelas circunstâncias, os jovens Lera e Vlad decidem viver às custas de uma atração sexual transmitida para o mundo todo através de uma webcam.",
+  "genero": "Drama, Comédia",
+  "elenco": "Елена Тронина, Денис Власенко, Александр Горчилин, Любовь Толкалина, Даниил Воробьёв",
+  "diretor": "Евгений Сангаджиев, Евгений Сангаджиев, Олег Евтеев",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:55"
+        }
+      ]
+    }
+  ],
+  "id": 2684
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NjM=",
+  "tipo": "serie",
+  "titulo": "KITZ",
+  "capa_url": "https://lgfp.one/SSH",
+  "capa_local": "KITZ/KITZ.jpg",
+  "sinopse": "Um ano após a trágica morte de seu irmão, Lisi entra no mundo decadente de uma camarilha de Munique em uma estação de esqui, mas logo dá início a uma avalanche que revela a verdade por trás da fachada cheia de glamour, dinheiro e hedonismo.",
+  "genero": "Drama, Mistério",
+  "elenco": "Felix Mayr, Valerie Huber, Zoran Pingel, Sofie Eifertinger, Bless Amada",
+  "diretor": "Lea Becker, Maurice Hübner",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 2182
+}

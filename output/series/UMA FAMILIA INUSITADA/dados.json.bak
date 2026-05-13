@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyOTE=",
+  "tipo": "serie",
+  "titulo": "UMA FAMILIA INUSITADA",
+  "capa_url": "https://lgfp.one/BBU3",
+  "capa_local": "UMA FAMILIA INUSITADA/UMA FAMILIA INUSITADA.jpg",
+  "sinopse": "Dotada de superpoderes únicos, uma família começa a perder as habilidades diante dos problemas do mundo moderno, mas uma mulher misteriosa aparece para mudar tudo.",
+  "genero": "Sci-Fi & Fantasy, Drama, Action & Adventure",
+  "elenco": "장기용, 천우희, 고두심, 수현, 박소이",
+  "diretor": "조현탁",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:15:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:15:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:10:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:05:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:13:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:09:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:10:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:16:20"
+        }
+      ]
+    }
+  ],
+  "id": 5491
+}

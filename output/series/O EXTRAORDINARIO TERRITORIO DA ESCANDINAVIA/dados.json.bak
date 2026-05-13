@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMTU=",
+  "tipo": "serie",
+  "titulo": "O EXTRAORDINARIO TERRITORIO DA ESCANDINAVIA",
+  "capa_url": "https://lgfp.one/NOH9",
+  "capa_local": "O EXTRAORDINARIO TERRITORIO DA ESCANDINAVIA/O EXTRAORDINARIO TERRITORIO DA ESCANDINAVIA.jpg",
+  "sinopse": "Como visto pelos deuses vikings, as lendárias regiões selvagens da Noruega, Finlândia e Suécia são reveladas do céu.",
+  "genero": "Documentário",
+  "elenco": "Stig Henrik Hoff",
+  "diretor": "Alex Sletten",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 7152
+}

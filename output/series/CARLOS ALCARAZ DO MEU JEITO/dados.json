@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NDc=",
+  "tipo": "serie",
+  "titulo": "CARLOS ALCARAZ DO MEU JEITO",
+  "capa_url": "https://lgfp.one/NRE7",
+  "capa_local": "CARLOS ALCARAZ DO MEU JEITO/CARLOS ALCARAZ DO MEU JEITO.jpg",
+  "sinopse": "Esta série documental acompanha Carlos Alcaraz buscando o equilíbrio entre a pressão de ser um fenômeno do tênis e a vontade de curtir a vida aos 20 e poucos anos.",
+  "genero": "Documentário",
+  "elenco": "Carlos Alcaraz",
+  "diretor": "Jorge Laplace",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:31"
+        }
+      ]
+    }
+  ],
+  "id": 7221
+}

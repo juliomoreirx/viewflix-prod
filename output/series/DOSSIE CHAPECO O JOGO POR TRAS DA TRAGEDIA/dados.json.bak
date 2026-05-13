@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzg=",
+  "tipo": "serie",
+  "titulo": "DOSSIÊ CHAPECÓ: O JOGO POR TRÁS DA TRAGÉDIA",
+  "capa_url": "https://lgfp.one/TGW",
+  "capa_local": "DOSSIE CHAPECO O JOGO POR TRAS DA TRAGEDIA/DOSSIE CHAPECO O JOGO POR TRAS DA TRAGEDIA.jpg",
+  "sinopse": "A minissérie busca respostas sobre o desastre aéreo que ficou conhecido como a ‘Tragédia da Chapecoense’. Cinco anos após o acidente, as famílias das 71 vítimas fatais e os 6 sobreviventes ainda convivem com as consequências da queda da aeronave que fazia o voo fretado LaMia 2933, a serviço da Associação Chapecoense de Futebol.",
+  "genero": "Documentário",
+  "elenco": "Alan Ruschel, Neto",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:21"
+        }
+      ]
+    }
+  ],
+  "id": 2572
+}

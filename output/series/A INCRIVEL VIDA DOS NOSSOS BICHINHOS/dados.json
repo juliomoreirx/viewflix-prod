@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0ODM=",
+  "tipo": "serie",
+  "titulo": "A INCRÍVEL VIDA DOS NOSSOS BICHINHOS",
+  "capa_url": "https://lgfp.one/XYX",
+  "capa_local": "A INCRIVEL VIDA DOS NOSSOS BICHINHOS/A INCRIVEL VIDA DOS NOSSOS BICHINHOS.jpg",
+  "sinopse": "Conheça bichinhos de estimação do mundo inteiro e fique por dentro das descobertas científicas mais recentes sobre esses incríveis companheiros.",
+  "genero": "Documentário",
+  "elenco": "Hugh Bonneville, Caitlyn Elizabeth, John Iversen",
+  "diretor": "Tom Peppiatt",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:02"
+        }
+      ]
+    }
+  ],
+  "id": 3231
+}

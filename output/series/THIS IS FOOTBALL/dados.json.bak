@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMDk=",
+  "tipo": "serie",
+  "titulo": "THIS IS FOOTBALL",
+  "capa_url": "https://lgfp.one/IZX",
+  "capa_local": "THIS IS FOOTBALL/THIS IS FOOTBALL.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Pierluigi Collina, Pep Guardiola, Lionel Messi, Juan Mata, Oliver Kahn",
+  "diretor": "Jesse Vile",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:09"
+        }
+      ]
+    }
+  ],
+  "id": 362
+}

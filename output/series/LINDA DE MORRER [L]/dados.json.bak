@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MjM=",
+  "tipo": "serie",
+  "titulo": "LINDA DE MORRER [L]",
+  "capa_url": "https://lgfp.one/AAYD",
+  "capa_local": "LINDA DE MORRER [L]/LINDA DE MORRER [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime",
+  "elenco": "Cristiana Capotondi, Lucrezia Lante della Rovere, Matteo Martari",
+  "diretor": "",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:36"
+        }
+      ]
+    }
+  ],
+  "id": 1231
+}

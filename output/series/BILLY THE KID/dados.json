@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxODA=",
+  "tipo": "serie",
+  "titulo": "BILLY THE KID",
+  "capa_url": "https://lgfp.one/XTX",
+  "capa_local": "BILLY THE KID/BILLY THE KID.jpg",
+  "sinopse": "A história segue Billy the Kid desde suas humildes raízes irlandesas até seus primeiros dias como cowboy e pistoleiro na fronteira americana até seu papel fundamental na Guerra do Condado de Lincoln. Um dia ele conhece Jesse Evans, outro famoso fora-da-lei e líder da quadrilha Seven Rivers. Quando eles se encontram, Jesse já abraçou uma vida de crime que consiste em roubar lojas e o gado de várias famílias.",
+  "genero": "Faroeste, Drama",
+  "elenco": "Tom Blyth, Daniel Webber, Alex Roe",
+  "diretor": "",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:07"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:48:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:46:39"
+        }
+      ]
+    }
+  ],
+  "id": 3206
+}

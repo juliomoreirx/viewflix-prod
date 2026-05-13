@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNDU=",
+  "tipo": "serie",
+  "titulo": "POLARIS CONSPIRACAO POLITICA",
+  "capa_url": "https://lgfp.one/PYV3",
+  "capa_local": "POLARIS CONSPIRACAO POLITICA/POLARIS CONSPIRACAO POLITICA.jpg",
+  "sinopse": "Quando um atentado é cometido contra um candidato à presidência, a ex-diplomata Seo Munju acaba descobrindo uma conspiração que ameaça a estabilidade da Península Coreana. Protegida por Sanho, um ex-soldado, será que Munju pode confiar nesse mercenário misterioso ou há algo mais por trás de tudo?",
+  "genero": "Drama, Mistério",
+  "elenco": "전지현, 이미숙, 박해준, Oh Jung Se, 이상희",
+  "diretor": "장영우",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:16:27"
+        }
+      ]
+    }
+  ],
+  "id": 7981
+}

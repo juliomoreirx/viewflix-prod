@@ -1,0 +1,190 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MjI=",
+  "tipo": "serie",
+  "titulo": "PERNILLE",
+  "capa_url": "https://lgfp.one/NVJ0",
+  "capa_local": "PERNILLE/PERNILLE.jpg",
+  "sinopse": "Pørni é o apelido de Pernilla, uma mulher trabalhadora, insone, cuidadosa, divertida e cheia de amor para dar, que tenta fazer o melhor por sua família e por si própria, às vezes colocando todos em primeiro lugar e esquecendo dela mesma.",
+  "genero": "Drama, Comédia",
+  "elenco": "Henriette Steenstrup, Jon Ranes, Ebba Jacobsen Öberg, Nils Ole Oftebro",
+  "diretor": "Hallvar Witzø, Charlotte Blom, Henriette Steenstrup, Mads Løken",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:28:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:33:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:30:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:30:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:31:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:30:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:30:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:28:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:27:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:27:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:29:26"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:29:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:27:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:29:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:29:15"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:27:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:31:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:28:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:28:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:29:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:31:18"
+        }
+      ]
+    }
+  ],
+  "id": 7294
+}

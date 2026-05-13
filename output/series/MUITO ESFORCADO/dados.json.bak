@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MDQ=",
+  "tipo": "serie",
+  "titulo": "MUITO ESFORCADO",
+  "capa_url": "https://lgfp.one/NVI7",
+  "capa_local": "MUITO ESFORCADO/MUITO ESFORCADO.jpg",
+  "sinopse": "A jornada caótica de Benny, um ex-jogador de futebol enrustido e rei da festa de boas-vindas, enquanto se torna amigo de Carmen, uma estranha com a missão de se adequar a qualquer custo. Muito engraçada e pessoal, a série explora até que ponto todos nós nos esforçamos muito enquanto descobrimos quem somos.",
+  "genero": "Comédia",
+  "elenco": "Benito Skinner, Wally Baram, Mary Beth Barone, Adam DiMarco, Rish Shah",
+  "diretor": "Michael Barnett, Michael Barnett",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:40"
+        }
+      ]
+    }
+  ],
+  "id": 7291
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNDk=",
+  "tipo": "serie",
+  "titulo": "MONSTERLAND",
+  "capa_url": "https://lgfp.one/TNC",
+  "capa_local": "MONSTERLAND/MONSTERLAND.jpg",
+  "sinopse": "Encontros com sereias, anjos caídos e outras criaturas estranhas levam pessoas frágeis a cometerem atos desesperados na tentativa de reparar suas vidas, mostrando que há uma linha frágil entre ser homem e ser monstro.",
+  "genero": "Sci-Fi & Fantasy, Drama, Mistério",
+  "elenco": "",
+  "diretor": "Babak Anvari",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:21"
+        }
+      ]
+    }
+  ],
+  "id": 2744
+}

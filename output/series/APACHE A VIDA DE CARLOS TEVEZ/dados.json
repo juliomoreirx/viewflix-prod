@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxODQ=",
+  "tipo": "serie",
+  "titulo": "APACHE: A VIDA DE CARLOS TEVEZ",
+  "capa_url": "https://lgfp.one/IPZ",
+  "capa_local": "APACHE A VIDA DE CARLOS TEVEZ/APACHE A VIDA DE CARLOS TEVEZ.jpg",
+  "sinopse": "Esta dramatização realista da vida do jogador Carlos Tevez mostra sua ascensão, da infância pobre em Fuerte Apache, Argentina, ao estrelato.",
+  "genero": "Drama",
+  "elenco": "Balthazar Murillo, Vanesa González, Alberto Ajaka, Sofía Gala Castiglione, Matías Recalt",
+  "diretor": "Adrián Caetano, Gisela Benenzon, Nicolás Goldar Parodi",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:22"
+        }
+      ]
+    }
+  ],
+  "id": 84
+}

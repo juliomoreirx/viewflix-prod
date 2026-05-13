@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTA=",
+  "tipo": "serie",
+  "titulo": "4 CUT HERO [L]",
+  "capa_url": "https://lgfp.one/ABAB",
+  "capa_local": "4 CUT HERO [L]/4 CUT HERO [L].jpg",
+  "sinopse": "O Herói derrotou o Rei Demônio, porém a Princesa que ele pretendia resgatar revelou-se ser um Príncipe. Agora, imerso na ociosidade voluntária, ele se entregou à cultura NEET, desfrutando de uma vida relaxante permeada por animes, o que se apresenta como um atrativo bastante agradável.\n\nContudo, sua tranquilidade é interrompida quando se envolve em lendas milenares, maldições e uma trama complexa que abrange diversos Reinos e muitos dragões. Em sua jornada, ele persistirá no caminho da fantasia, mesmo que isso signifique se aproximar de \"vilões\" e estabelecer laços com eles.",
+  "genero": "Animação",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "7",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:07:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:06:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:06:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:08:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:07:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:06:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:07:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:07:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:09:07"
+        }
+      ]
+    }
+  ],
+  "id": 4060
+}

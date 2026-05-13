@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NDg=",
+  "tipo": "serie",
+  "titulo": "BATTLE CAMP",
+  "capa_url": "https://lgfp.one/NRE6",
+  "capa_local": "BATTLE CAMP/BATTLE CAMP.jpg",
+  "sinopse": "As estrelas dos realities da Netflix se enfrentam em desafios físicos intensos, fazendo de tudo para evitar a eliminação e ganhar 250 mil dólares nesta competição ousada.",
+  "genero": "Reality",
+  "elenco": "Taylor Lewan",
+  "diretor": "Zach Posner",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:59:53"
+        }
+      ]
+    }
+  ],
+  "id": 7220
+}

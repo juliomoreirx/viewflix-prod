@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyODA=",
+  "tipo": "serie",
+  "titulo": "AH O NATAL",
+  "capa_url": "https://lgfp.one/AVNF",
+  "capa_local": "AH O NATAL/AH O NATAL.jpg",
+  "sinopse": "Solteira ainda aos 30 anos, Thando mente para a familia dizendo que tem um namorado. Agora ela tem 24 dias para encontrar um namorado até o natal.",
+  "genero": "Drama, Comédia",
+  "elenco": "Katlego Lebogang, Siya Sepotekele, Didie Makhubane",
+  "diretor": "Johnny Barbuzano, Tiffany Barbuzano",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:55"
+        }
+      ]
+    }
+  ],
+  "id": 4607
+}

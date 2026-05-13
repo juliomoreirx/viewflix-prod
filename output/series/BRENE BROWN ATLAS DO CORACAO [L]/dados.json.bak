@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5OTU=",
+  "tipo": "serie",
+  "titulo": "BRENE BROWN ATLAS DO CORACAO [L]",
+  "capa_url": "https://lgfp.one/MVD4",
+  "capa_local": "BRENE BROWN ATLAS DO CORACAO [L]/BRENE BROWN ATLAS DO CORACAO [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Brené Brown",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:15"
+        }
+      ]
+    }
+  ],
+  "id": 6826
+}

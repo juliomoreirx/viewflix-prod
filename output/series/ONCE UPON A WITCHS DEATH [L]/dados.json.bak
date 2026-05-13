@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MDE=",
+  "tipo": "serie",
+  "titulo": "ONCE UPON A WITCHS DEATH [L]",
+  "capa_url": "https://lgfp.one/NNK5",
+  "capa_local": "ONCE UPON A WITCHS DEATH [L]/ONCE UPON A WITCHS DEATH [L].jpg",
+  "sinopse": "No décimo sétimo aniversário de Meg, ela descobre que lhe resta apenas um ano de vida. Sua mentora, Faust, a Bruxa Eterna, explica que ela é amaldiçoada e que a única maneira de se salvar é cultivar uma semente de vida usando mil lágrimas de alegria. Claro, tais lágrimas não são fáceis de encontrar. Conforme Meg começa sua jornada, ela se vê atraída para as vidas de seus amigos e vizinhos de maneiras que ela nunca imaginou. Ao compartilhar seus fardos e usar sua magia para confortá-los, ela aprende o quão preciosos esses momentos de conexão podem ser, mesmo diante da morte.",
+  "genero": "Animação, Drama, Sci-Fi & Fantasy",
+  "elenco": "青山吉能, 榊原良子, Miharu Hanai, 鈴木愛奈, Rumi Okubo",
+  "diretor": "濁川敦",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 7136
+}

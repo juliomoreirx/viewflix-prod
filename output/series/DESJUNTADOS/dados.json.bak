@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNDI=",
+  "tipo": "serie",
+  "titulo": "DESJUNTADOS",
+  "capa_url": "https://lgfp.one/SIR",
+  "capa_local": "DESJUNTADOS/DESJUNTADOS.jpg",
+  "sinopse": "Um casal em um relacionamento sério com o divórcio. Camila e Caco já não se suportam mais e veem seu casamento chegar ao fim, mas durante o processo de separação eles são obrigados a continuarem dividindo o mesmo teto por causa de uma dívida.",
+  "genero": "",
+  "elenco": "Letícia Lima, Gabriel Godoy, Rômulo Arantes Neto, Daniele Toshiko Suzuki, Letícia Isnard",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:49"
+        }
+      ]
+    }
+  ],
+  "id": 1918
+}

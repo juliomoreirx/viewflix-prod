@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MzM=",
+  "tipo": "serie",
+  "titulo": "PHOENIX RISING: RENASCENDO DAS CINZAS",
+  "capa_url": "https://lgfp.one/TFA",
+  "capa_local": "PHOENIX RISING RENASCENDO DAS CINZAS/PHOENIX RISING RENASCENDO DAS CINZAS.jpg",
+  "sinopse": "Um documentário em que a atriz e ativista Evan Rachel Wood reflete sobre sua experiência de abuso doméstico.",
+  "genero": "Documentário",
+  "elenco": "Evan Rachel Wood, Sara Wood, Ira David Wood IV, Illma Gore, Ira David Wood III",
+  "diretor": "",
+  "total_episodios": "73",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:13:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:22:12"
+        }
+      ]
+    }
+  ],
+  "id": 2523
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNTM=",
+  "tipo": "serie",
+  "titulo": "O UNIVERSO MISTERIOS REVELADOS",
+  "capa_url": "https://lgfp.one/ATGT",
+  "capa_local": "O UNIVERSO MISTERIOS REVELADOS/O UNIVERSO MISTERIOS REVELADOS.jpg",
+  "sinopse": "A série tenta solucionar mistérios do universo do passado usando atual conhecimento científico. Como por exemplo, a possibilidade de o monumento pré-histórico Stonehenge ter sido usado como observatório astronômico.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:59"
+        }
+      ]
+    }
+  ],
+  "id": 4454
+}

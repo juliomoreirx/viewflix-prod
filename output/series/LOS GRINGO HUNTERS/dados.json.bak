@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4ODQ=",
+  "tipo": "serie",
+  "titulo": "LOS GRINGO HUNTERS",
+  "capa_url": "https://lgfp.one/PFI1",
+  "capa_local": "LOS GRINGO HUNTERS/LOS GRINGO HUNTERS.jpg",
+  "sinopse": "Nesta série inspirada em fatos reais, uma unidade policial de elite caça fugitivos americanos. O problema é que uma trama sombria toma conta da própria corporação.",
+  "genero": "Crime, Drama",
+  "elenco": "Manuel Masalva, Mayra Hermosillo, Héctor Kotsifakis, Sebastian Roché, Harold Torres",
+  "diretor": "Ron Howard, Adrian Grünberg",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:49:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:53:19"
+        }
+      ]
+    }
+  ],
+  "id": 7571
+}

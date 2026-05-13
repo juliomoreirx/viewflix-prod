@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2OTE=",
+  "tipo": "serie",
+  "titulo": "PISTOL",
+  "capa_url": "https://lgfp.one/TOL",
+  "capa_local": "PISTOL/PISTOL.jpg",
+  "sinopse": "A série conta a história de uma banda de garotos da classe trabalhadora instáveis, barulhentos e sem futuro, que sacudiram o sistema corrupto, ameaçaram derrubar o governo e mudaram a música e cultura para sempre.",
+  "genero": "Drama",
+  "elenco": "Toby Wallace, Anson Boon, Louis Partridge, Christian Lees, Sydney Chandler, Talulah Riley, Maisie Williams, Emma Appleton",
+  "diretor": "Craig Pearce",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:26"
+        }
+      ]
+    }
+  ],
+  "id": 2782
+}

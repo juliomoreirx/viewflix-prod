@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDA=",
+  "tipo": "serie",
+  "titulo": "ATÉ QUE O DESIGN NOS SEPARE",
+  "capa_url": "https://lgfp.one/EAZ9",
+  "capa_local": "ATE QUE O DESIGN NOS SEPARE/ATE QUE O DESIGN NOS SEPARE.jpg",
+  "sinopse": "O casal Ray e Eilyn busca impressionar os clientes em potencial com sua estética de design singular, sabendo que apenas um deles fechará o negócio e terá a chance de proporcionar uma transformação notável para o cliente.",
+  "genero": "Reality",
+  "elenco": "Ray Jimenez, Eilyn Jimenez, Ren Leach",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:39"
+        }
+      ]
+    }
+  ],
+  "id": 6163
+}

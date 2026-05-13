@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMTg=",
+  "tipo": "serie",
+  "titulo": "ORDINARY JOE",
+  "capa_url": "https://lgfp.one/TTW",
+  "capa_local": "ORDINARY JOE/ORDINARY JOE.jpg",
+  "sinopse": "A vida se trata das decisões que tomamos e, às vezes, um único momento pode mudar tudo. Este novo drama emocionante e otimista segue Joe Kimbreau, que enfrenta uma destas decisões após sua colação de grau.",
+  "genero": "Drama",
+  "elenco": "James Wolk, Natalie Martinez, Charlie Barnett, Elizabeth Lail",
+  "diretor": "Matt Reeves",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:05"
+        }
+      ]
+    }
+  ],
+  "id": 2929
+}

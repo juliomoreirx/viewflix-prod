@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMzM=",
+  "tipo": "serie",
+  "titulo": "SOMOS OS QUE TIVERAM SORTE [L]",
+  "capa_url": "https://lgfp.one/AUS0",
+  "capa_local": "SOMOS OS QUE TIVERAM SORTE [L]/SOMOS OS QUE TIVERAM SORTE [L].jpg",
+  "sinopse": "A história real de uma família judia separada no início da Segunda Guerra Mundial, determinada a sobreviver – e a se reunir.",
+  "genero": "Drama",
+  "elenco": "Joey King, Logan Lerman, Robin Weigert, Lior Ashkenazi, Amit Rahav",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:14"
+        }
+      ]
+    }
+  ],
+  "id": 5270
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxOTA=",
+  "tipo": "serie",
+  "titulo": "O REI DOS PNEUS",
+  "capa_url": "https://lgfp.one/BBU0",
+  "capa_local": "O REI DOS PNEUS/O REI DOS PNEUS.jpg",
+  "sinopse": "Um gerente meio deprê rala para melhorar o atendimento e aumentar os lucros da oficina do pai; e ainda tem que manter o primo sem noção na linha.",
+  "genero": "Comédia",
+  "elenco": "Steve Gerben, Shane Gillis, Chris O'Connor, Kilah Fox, Stavros Halkias",
+  "diretor": "McKeever, Christa Altamuro",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:23"
+        }
+      ]
+    }
+  ],
+  "id": 5488
+}

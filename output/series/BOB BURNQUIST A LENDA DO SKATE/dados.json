@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MDQ=",
+  "tipo": "serie",
+  "titulo": "BOB BURNQUIST: A LENDA DO SKATE",
+  "capa_url": "https://lgfp.one/NIZ9",
+  "capa_local": "BOB BURNQUIST A LENDA DO SKATE/BOB BURNQUIST A LENDA DO SKATE.jpg",
+  "sinopse": "Docusérie que explora os 30 anos de carreira do skatista brasileiro Bob Burnquist, destacando seu impacto global, sua incrível capacidade de se reerguer após cada queda e seu reconhecimento entre nomes como Tony Hawk e Ben Harper.",
+  "genero": "Documentário",
+  "elenco": "Bob Burnquist, Ben Harper, Tony Hawk, Christian Hosoi, Lincoln Ueda",
+  "diretor": "Daniel Baccaro, Ricardo Carelli, Daniel Baccaro",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:40"
+        }
+      ]
+    }
+  ],
+  "id": 7041
+}

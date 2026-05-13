@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNjA=",
+  "tipo": "serie",
+  "titulo": "DE UM JEITO OU DE OUTRO (2020) [L]",
+  "capa_url": "https://lgfp.one/SMB3",
+  "capa_local": "DE UM JEITO OU DE OUTRO (2020) [L]/DE UM JEITO OU DE OUTRO (2020) [L].jpg",
+  "sinopse": "Depois de não se verem durante anos, Hache e Belén se reencontram no bairro hipster de Madri, em Malasaña. Aqui é onde as duas amigas de Parla, uma cidade da periferia, tentam sobreviver em um mundo totalmente estranho para elas.",
+  "genero": "Comédia",
+  "elenco": "Marta Martín, Saida Benzal, Itziar Castro",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:33:08"
+        }
+      ]
+    }
+  ],
+  "id": 9216
+}

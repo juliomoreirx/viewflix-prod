@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMTE=",
+  "tipo": "serie",
+  "titulo": "O ASSASSINATO DO ATOR RAFAEL MIGUEL",
+  "capa_url": "https://lgfp.one/PON9",
+  "capa_local": "O ASSASSINATO DO ATOR RAFAEL MIGUEL/O ASSASSINATO DO ATOR RAFAEL MIGUEL.jpg",
+  "sinopse": "Docussérie sobre o crime brutal que chocou o Brasil em 2019: o assassinato do ator Rafael Miguel, de 22 anos, pelas mãos de seu sogro Paulo Cupertino, um ato motivado por ciúmes e obsessão, e a perseguição implacável que o caso desencadeou.",
+  "genero": "Documentário, Crime",
+  "elenco": "Gabriel Santana, Rafael Miguel",
+  "diretor": "Maurício Dias",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:20"
+        }
+      ]
+    }
+  ],
+  "id": 7724
+}

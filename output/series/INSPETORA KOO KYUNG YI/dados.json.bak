@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MzM=",
+  "tipo": "serie",
+  "titulo": "INSPETORA KOO KYUNG YI",
+  "capa_url": "https://lgfp.one/SYE",
+  "capa_local": "INSPETORA KOO KYUNG YI/INSPETORA KOO KYUNG YI.jpg",
+  "sinopse": "Uma ex-policial reclusa volta à ativa como inspetora de seguros, atrás de pistas em cenas de crime perfeitamente orquestradas por um serial killer.",
+  "genero": "Action & Adventure, Comédia, Drama",
+  "elenco": "Jeong Jong-joon, Lee Hong-nae, Baek Sung-Chul",
+  "diretor": "Lee Jung-heum",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:14:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:10:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:13:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:13:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:10"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:06:24"
+        }
+      ]
+    }
+  ],
+  "id": 2341
+}

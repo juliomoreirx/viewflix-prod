@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMzk=",
+  "tipo": "serie",
+  "titulo": "CRIMINAL - ESPANHA",
+  "capa_url": "https://lgfp.one/IWG",
+  "capa_local": "CRIMINAL - ESPANHA/CRIMINAL - ESPANHA.jpg",
+  "sinopse": "Não faltam jogos psicológicos entre investigadores e suspeitos em uma tensa sala de interrogatório, onde a busca por respostas pode cobrar um alto preço moral.",
+  "genero": "Crime, Drama",
+  "elenco": "Emma Suárez, Jorge Bosch, Álvaro Cervantes, María Morales, José Ángel Egido",
+  "diretor": "Mariano Barroso, Jim Field Smith",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:16"
+        }
+      ]
+    }
+  ],
+  "id": 342448
+}

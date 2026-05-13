@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMTU=",
+  "tipo": "serie",
+  "titulo": "QUERIDO EDWARD",
+  "capa_url": "https://lgfp.one/YGH",
+  "capa_local": "QUERIDO EDWARD/QUERIDO EDWARD.jpg",
+  "sinopse": "Um menino de 12 anos é o único sobrevivente de um acidente de avião. Enquanto ele e outras pessoas afetadas pela tragédia tentam entender o que a aconteceu, amizades, romances e ligações inesperadas são formadas.",
+  "genero": "Drama",
+  "elenco": "Connie Britton, Taylor Schilling, Colin O'Brien, Anna Uzele, Idris Debrand, Carter Hudson, Eva Ariel Binder, Amy Forsyth",
+  "diretor": "Jason Katims",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:16"
+        }
+      ]
+    }
+  ],
+  "id": 3254
+}

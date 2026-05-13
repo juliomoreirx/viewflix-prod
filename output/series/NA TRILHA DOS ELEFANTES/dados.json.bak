@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzODg=",
+  "tipo": "serie",
+  "titulo": "NA TRILHA DOS ELEFANTES",
+  "capa_url": "https://lgfp.one/NOH8",
+  "capa_local": "NA TRILHA DOS ELEFANTES/NA TRILHA DOS ELEFANTES.jpg",
+  "sinopse": "O autor e explorador Levison Wood – famoso por caminhar no Nilo, no Himalaia e na América Central – embarca em uma nova expedição: uma jornada épica de 1046 quilômetros a pé, seguindo a maior migração de elefantes do mundo.",
+  "genero": "Documentário",
+  "elenco": "Levison Wood, Kane Motswana",
+  "diretor": "Alexis Girardet",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:55"
+        }
+      ]
+    }
+  ],
+  "id": 7151
+}

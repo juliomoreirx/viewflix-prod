@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzOTg=",
+  "tipo": "serie",
+  "titulo": "VIGILANTE [L]",
+  "capa_url": "https://lgfp.one/ATFV",
+  "capa_local": "VIGILANTE [L]/VIGILANTE [L].jpg",
+  "sinopse": "Neste suspense com ação, Kim Jiyong leva uma vida dupla: é aluno da Academia de Polícia durante o dia e justiceiro durante à noite, punindo por conta própria criminosos que burlaram a lei. Ele está cercado de pessoas que têm interesses próprios a defender.",
+  "genero": "Crime, Action & Adventure, Drama",
+  "elenco": "Nam Joo-hyuk, Yoo Ji-tae, Kim So-jin, Lee Jun-hyuk, Kwon Hae-hyo",
+  "diretor": "Choi Jung-yol, Lee Min-seob, Choi Jung-yol",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:05"
+        }
+      ]
+    }
+  ],
+  "id": 4443
+}

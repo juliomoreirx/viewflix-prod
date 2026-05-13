@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3NTA=",
+  "tipo": "serie",
+  "titulo": "IWAJU",
+  "capa_url": "https://lgfp.one/AIW3",
+  "capa_local": "IWAJU/IWAJU.jpg",
+  "sinopse": "Dois amigos, em uma Nigéria futurística, descobrem os segredos e perigos de seus mundos.",
+  "genero": "Animação, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Simisola Gbadamosi, Dayo Okeniyi, Femi Branch, Siji Soetan, Weruche Opia",
+  "diretor": "Olufikayo Ziki Adeola",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:17:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:18:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:49"
+        }
+      ]
+    }
+  ],
+  "id": 5045
+}

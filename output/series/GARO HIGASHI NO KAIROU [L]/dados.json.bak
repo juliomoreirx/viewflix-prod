@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxOTE=",
+  "tipo": "serie",
+  "titulo": "GARO HIGASHI NO KAIROU [L]",
+  "capa_url": "https://lgfp.one/ROT7",
+  "capa_local": "GARO HIGASHI NO KAIROU [L]/GARO HIGASHI NO KAIROU [L].jpg",
+  "sinopse": "",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "栗山航, 南里美希, こだまたいち, 宮原華音",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "0",
+          "codigo": "S01E00",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 8777
+}

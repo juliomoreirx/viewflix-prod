@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTY=",
+  "tipo": "serie",
+  "titulo": "MARINES",
+  "capa_url": "https://lgfp.one/QOZ0",
+  "capa_local": "MARINES/MARINES.jpg",
+  "sinopse": "Esta série documental militar acompanha a 31ª Unidade Expedicionária de Fuzileiros Navais dos EUA em exercícios de combate de alto risco no Pacífico.",
+  "genero": "Documentário",
+  "elenco": "Sebastian Junger, Chris Niedziochoa, Jack Wasek",
+  "diretor": "Sebastian Junger",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 8352
+}

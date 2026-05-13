@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MjQ=",
+  "tipo": "serie",
+  "titulo": "LOVECRAFT COUNTRY",
+  "capa_url": "https://lgfp.one/RBT",
+  "capa_local": "LOVECRAFT COUNTRY/LOVECRAFT COUNTRY.jpg",
+  "sinopse": "Chicago, 1954. Atticus Turner é um veterano do exército que vê sua vida mudar quando seu pai desaparece misteriosamente. Decidido a encontrá-lo, o jovem embarca em uma viagem de carro ao lado do tio George e da amiga de infância Letitia, mas essa jornada não demora a se tornar muito mais perigosa do que eles esperavam.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Jonathan Majors, Jurnee Smollett, Wunmi Mosaku, Abbey Lee, Michael Kenneth Williams",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:59:41"
+        }
+      ]
+    }
+  ],
+  "id": 856
+}

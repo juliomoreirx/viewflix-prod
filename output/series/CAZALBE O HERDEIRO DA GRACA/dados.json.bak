@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMzE=",
+  "tipo": "serie",
+  "titulo": "CAZALBE O HERDEIRO DA GRACA",
+  "capa_url": "https://lgfp.one/DKZ5",
+  "capa_local": "CAZALBE O HERDEIRO DA GRACA/CAZALBE O HERDEIRO DA GRACA.jpg",
+  "sinopse": "Ao longo dos cinco episódios, conheceremos nosso herói a partir da história da família Nóbrega, o vínculo com Silvio Santos, sua relação com os filhos, netos e bisnetos; os personagens que marcaram o humorístico \"A Praça é Nossa\" e o relato de amigos destacando a importância do humorista e de seu programa em lançar talentos no humor brasileiro.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:52"
+        }
+      ]
+    }
+  ],
+  "id": 5917
+}

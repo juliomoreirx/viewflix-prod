@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMjE=",
+  "tipo": "serie",
+  "titulo": "2020 - JAPÃO SUBMERSO",
+  "capa_url": "https://lgfp.one/JNG",
+  "capa_local": "2020 - JAPAO SUBMERSO/2020 - JAPAO SUBMERSO.jpg",
+  "sinopse": "Uma série de terremotos assola o Japão colocando os laços de uma família à prova e lançando o país no caos.",
+  "genero": "Sci-Fi & Fantasy, Animação, Action & Adventure",
+  "elenco": "武田太一, Reina Ueda, 村中知, 佐々木優子, Masaki Terasoma",
+  "diretor": "최은영, 湯浅政明, 湯浅政明",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:31:36"
+        }
+      ]
+    }
+  ],
+  "id": 764
+}

@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3ODM=",
+  "tipo": "serie",
+  "titulo": "PENNYWORTH: A ORIGEM DE ALFRED",
+  "capa_url": "https://lgfp.one/JIU",
+  "capa_local": "PENNYWORTH A ORIGEM DE ALFRED/PENNYWORTH A ORIGEM DE ALFRED.jpg",
+  "sinopse": "A origem de Alfred, o famoso mordomo de Bruce Wayne, em uma época onde ele era apenas um soldado britânico de 22 anos do Serviço Aéreo Especial do Reino Unido. Na Londres de 1960, Alfred é contratado para trabalhar como segurança do bilionário Thomas Wayne, e os dois tornam-se amigos improváveis.",
+  "genero": "Drama, Crime",
+  "elenco": "Jack Bannon, Ben Aldridge, Emma Paetz, Ryan Fletcher, Dorothy Atkinson",
+  "diretor": "Hannah Boschi, Rob Bailey, Danny Cannon",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:11:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:00:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:01:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:53:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:57:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:56:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:57:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:54:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:51:24"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:43:14"
+        }
+      ]
+    }
+  ],
+  "id": 627
+}

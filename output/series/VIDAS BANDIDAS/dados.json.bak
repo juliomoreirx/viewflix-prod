@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNzY=",
+  "tipo": "serie",
+  "titulo": "VIDAS BANDIDAS",
+  "capa_url": "https://lgfp.one/DHF0",
+  "capa_local": "VIDAS BANDIDAS/VIDAS BANDIDAS.jpg",
+  "sinopse": "Serginho e Raimundo são parceiros no crime que trabalham para a quadrilha de Bruna assaltando turistas no Rio de Janeiro. Um assalto ambicioso que dá muito errado é o ponto de partida de muitos planos de vingança para vidas que não seguem plano nenhum.",
+  "genero": "Crime, Drama",
+  "elenco": "Rodrigo Simas, Thomás Aquino, Juliana Paes, Larissa Nunes, Maria Bopp",
+  "diretor": "Gustavo Bonafé",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:32"
+        }
+      ]
+    }
+  ],
+  "id": 5842
+}

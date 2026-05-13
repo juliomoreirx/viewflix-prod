@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI1OTA=",
+  "tipo": "serie",
+  "titulo": "RU",
+  "capa_url": "https://lgfp.one/KJL6",
+  "capa_local": "RU/RU.jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Meryem Uzerli, Burak Berkay Akgül, Hira Koyuncuoğlu, Gökay Türkmen, Zafer Algöz",
+  "diretor": "Bahadır Karataş",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:51"
+        }
+      ]
+    }
+  ],
+  "id": 6419
+}

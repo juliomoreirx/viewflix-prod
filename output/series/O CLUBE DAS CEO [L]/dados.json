@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNTQ=",
+  "tipo": "serie",
+  "titulo": "O CLUBE DAS CEO [L]",
+  "capa_url": "https://lgfp.one/RUW1",
+  "capa_local": "O CLUBE DAS CEO [L]/O CLUBE DAS CEO [L].jpg",
+  "sinopse": "Sete mulheres ambiciosas e extraordinárias abrem suas vidas e seus negócios para revelar o que realmente é preciso para construir impérios, conciliar a vida familiar e lidar com amizades num nível em que cada decisão é pessoal, poderosa e acompanhada de perto.",
+  "genero": "Documentário",
+  "elenco": "Serena Williams, Thalía, Dee Ocleppo Hilfiger, Loren Ridinger, Winnie Harlow",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:10"
+        }
+      ]
+    }
+  ],
+  "id": 8930
+}

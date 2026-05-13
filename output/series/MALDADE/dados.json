@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2Njk=",
+  "tipo": "serie",
+  "titulo": "MALDADE",
+  "capa_url": "https://lgfp.one/QQA2",
+  "capa_local": "MALDADE/MALDADE.jpg",
+  "sinopse": "Um rapaz enigmático passa a trabalhar para uma família rica. Eles descobrirão quem ele é antes que seus planos sombrios destruam tudo que eles amam?",
+  "genero": "Drama, Mistério",
+  "elenco": "David Duchovny, Jack Whitehall, Carice van Houten, Harry Gilby, Teddie Allen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:33"
+        }
+      ]
+    }
+  ],
+  "id": 8377
+}

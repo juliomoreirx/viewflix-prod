@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MjE=",
+  "tipo": "serie",
+  "titulo": "FRIENDS WITH BETTER LIVES",
+  "capa_url": "https://lgfp.one/RUP",
+  "capa_local": "FRIENDS WITH BETTER LIVES/FRIENDS WITH BETTER LIVES.jpg",
+  "sinopse": "Nesta comédia acompanhamos um grupo de seis amigos na faixa dos 30 anos. Cada um acredita que o outro possui uma vida melhor do que a sua. Will acabou de ficar solteiro e sente falta de sua ex-esposa; Jules e Lowell acabaram de ficar noivos; Kate é uma mulher de carreira bem-sucedida que não tem sorte no amor; e Andi e Bobby são um casal feliz, mas sentem falta dos dias mais divertidos de sua juventude.",
+  "genero": "Comédia",
+  "elenco": "Kevin Connolly, James Van Der Beek, Majandra Delfino, Rick Donald, Zoe Lister-Jones",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:47"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:20:17"
+        }
+      ]
+    }
+  ],
+  "id": 1377
+}

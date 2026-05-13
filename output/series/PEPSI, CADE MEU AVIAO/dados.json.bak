@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MjU=",
+  "tipo": "serie",
+  "titulo": "PEPSI, CADÊ MEU AVIÃO?",
+  "capa_url": "https://lgfp.one/WGJ",
+  "capa_local": "PEPSI, CADE MEU AVIAO/PEPSI, CADE MEU AVIAO.jpg",
+  "sinopse": "Em 1996, a Pepsi anunciou um caça militar como o grande prêmio de uma promoção e o universitário John Leonard bancou o desafio. Mas a Pepsi afirmou que era tudo brincadeira. Até hoje esta batalha legal fascina consumidores e acadêmicos do Direito.",
+  "genero": "Documentário",
+  "elenco": "John Leonard, Michael Patti, Todd Hoffman, Brian Swette, Linda Leonard",
+  "diretor": "Andrew Renzi",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:29"
+        }
+      ]
+    }
+  ],
+  "id": 3085
+}

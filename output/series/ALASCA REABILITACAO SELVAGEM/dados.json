@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMzY=",
+  "tipo": "serie",
+  "titulo": "ALASCA REABILITACAO SELVAGEM",
+  "capa_url": "https://lgfp.one/QLS7",
+  "capa_local": "ALASCA REABILITACAO SELVAGEM/ALASCA REABILITACAO SELVAGEM.jpg",
+  "sinopse": "Socorristas, veterinários e cuidadores de animais dedicados enfrentam terrenos perigosos e climas implacáveis para acorrer aos animais em necessidade.",
+  "genero": "Reality, Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:02"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 8238
+}

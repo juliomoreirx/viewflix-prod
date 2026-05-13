@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MDg=",
+  "tipo": "serie",
+  "titulo": "MASSACRE NA ESCOLA - A TRAGÉDIA DAS MENINAS DE REALENGO",
+  "capa_url": "https://lgfp.one/AANC",
+  "capa_local": "MASSACRE NA ESCOLA - A TRAGEDIA DAS MENINAS DE REALENGO/MASSACRE NA ESCOLA - A TRAGEDIA DAS MENINAS DE REALENGO.jpg",
+  "sinopse": "Esta série explora o pior atentado a uma escola no Brasil, levantando questões urgentes sobre o acesso a armas, ódio online, misoginia e outros fatores que podem levar a episódios violentos como o massacre de Realengo.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:58"
+        }
+      ]
+    }
+  ],
+  "id": 3685
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5ODg=",
+  "tipo": "serie",
+  "titulo": "OUR MOVIE [L]",
+  "capa_url": "https://lgfp.one/PFY6",
+  "capa_local": "OUR MOVIE [L]/OUR MOVIE [L].jpg",
+  "sinopse": "Lee Je Ha seguiu os passos do pai, considerado um mestre, e se tornou diretor de cinema. Recebeu atenção mundial por seu filme de estreia e foi considerado um gênio, mas ficou obcecado por uma possível azaração no segundo ano. Nos últimos 5 anos, não trabalhou em nada. Decidido a encerrar seu hiato de 5 anos, começa a trabalhar em seu segundo filme. O roteiro conta uma história de romance envolvendo alguém com uma vida limitada. Enquanto pesquisava para o filme, Lee Je Ha conhece Lee Da Eum. Ela é uma aspirante a atriz e sofre de uma doença rara e incurável; não sabe quanto tempo de vida lhe resta, mas é muito sociável e todos no hospital a conhecem. Lee Da Eum aconselha Lee Je Ha sobre seu filme e se interessa pelo roteiro; isso se torna um ponto de virada para ela como aspirante a atriz. Enquanto trabalham juntos no filme de romance, Lee Je Ha e Lee Da Eum, que têm suas próprias doenças, formam um relacionamento romântico.",
+  "genero": "Drama",
+  "elenco": "남궁민, 전여빈, 서현우, 이설, Seo Yi-seo",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:09:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:06:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:12:04"
+        }
+      ]
+    }
+  ],
+  "id": 7582
+}

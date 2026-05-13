@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MzA=",
+  "tipo": "serie",
+  "titulo": "DEPOIS DE CHERNOBYL",
+  "capa_url": "https://lgfp.one/OUO7",
+  "capa_local": "DEPOIS DE CHERNOBYL/DEPOIS DE CHERNOBYL.jpg",
+  "sinopse": "1986, Chernobyl. Lera viaja para o lugar mais promissor da URSS, onde a energia nuclear ilumina o futuro de uma nova sociedade. Ela está prestes a descobrir o amor, mas também o poder da destruição física e emocional.",
+  "genero": "Drama",
+  "elenco": "Rihards Lepers, Іванна Сахно, Олеся Власова, Влад Нікітюк, Виктор Сарайкин",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:45"
+        }
+      ]
+    }
+  ],
+  "id": 7478
+}

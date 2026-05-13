@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NzU=",
+  "tipo": "serie",
+  "titulo": "LARGADOS EM ALTO MAR",
+  "capa_url": "https://lgfp.one/AQA7",
+  "capa_local": "LARGADOS EM ALTO MAR/LARGADOS EM ALTO MAR.jpg",
+  "sinopse": "Nove norte-americanos com origens e crenças extremamente diversas participam de um experimento social. Em cada episódio, eles tentam deixar as diferenças de lado e trabalhar coletivamente para ganhar um prêmio em dinheiro que pode mudar suas vidas.",
+  "genero": "Reality",
+  "elenco": "Nate Boyer, Tara Colucci, Merissa Underwood",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:27:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:28"
+        }
+      ]
+    }
+  ],
+  "id": 5190
+}

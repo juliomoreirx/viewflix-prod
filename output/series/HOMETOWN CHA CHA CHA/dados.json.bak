@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0Nzc=",
+  "tipo": "serie",
+  "titulo": "HOMETOWN CHA CHA CHA",
+  "capa_url": "https://lgfp.one/SLI",
+  "capa_local": "HOMETOWN CHA CHA CHA/HOMETOWN CHA CHA CHA.jpg",
+  "sinopse": "Uma dentista da cidade grande abre um consultório em um vilarejo litorâneo e conhece um faz-tudo que é o extremo oposto dela. Agora tudo pode acontecer.",
+  "genero": "Comédia / Drama",
+  "elenco": "Shin Min-a, Kim Seon-ho, Lee Sang-yi, Gong Min-jeung, Kim Young-ok, Jo Han-chul, In Gyo-jin, Lee Bong-ryeon",
+  "diretor": "Yoo Je-won",
+  "total_episodios": "78",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:15:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:16:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:17:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:13:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:20:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:19:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:19:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:20:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:21:03"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:21:35"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:19:43"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:19:32"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:19:14"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:27:01"
+        }
+      ]
+    }
+  ],
+  "id": 1989
+}

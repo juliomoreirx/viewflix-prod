@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NTA=",
+  "tipo": "serie",
+  "titulo": "O CERCO DE WACO",
+  "capa_url": "https://lgfp.one/YXQ",
+  "capa_local": "O CERCO DE WACO/O CERCO DE WACO.jpg",
+  "sinopse": "Em 1993, agentes federais e um grupo religioso fortemente armado entraram em um impasse que durou 51 dias. Esta série documental traz materiais inéditos sobre o caso.",
+  "genero": "Documentário, Crime",
+  "elenco": "David Thibodeau, Chris Whitcomb, Lee Hancock, Bob Ricks, Kathy Schroeder",
+  "diretor": "Tiller Russell, Tiller Russell",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:59"
+        }
+      ]
+    }
+  ],
+  "id": 3376
+}

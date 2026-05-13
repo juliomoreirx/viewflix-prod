@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NTc=",
+  "tipo": "serie",
+  "titulo": "O JARDINEIRO",
+  "capa_url": "https://lgfp.one/NPB7",
+  "capa_local": "O JARDINEIRO/O JARDINEIRO.jpg",
+  "sinopse": "A mãe de Elmer usou a frieza dele para transformá-lo em assassino. Mas, quando ele se apaixona pela próxima vítima, seu disfarce como um pacato jardineiro corre perigo.",
+  "genero": "Crime, Drama",
+  "elenco": "Álvaro Rico, Cecilia Suárez, Catalina Sopelana, María Vázquez, Emma Suárez",
+  "diretor": "Rafa Montesinos, Mikel Rueda",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:28"
+        }
+      ]
+    }
+  ],
+  "id": 136928
+}

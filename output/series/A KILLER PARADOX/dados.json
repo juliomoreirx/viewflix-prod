@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNzU=",
+  "tipo": "serie",
+  "titulo": "A KILLER PARADOX",
+  "capa_url": "https://lgfp.one/AZYC",
+  "capa_local": "A KILLER PARADOX/A KILLER PARADOX.jpg",
+  "sinopse": "Quando uma morte acidental leva a outra, um homem comum se envolve em um jogo de gato e rato com um detetive obstinado.",
+  "genero": "Crime, Comédia, Mistério",
+  "elenco": "Choi Woo-shik, Son Suk-ku, Lee Hee-jun",
+  "diretor": "Lee Chang-hee, Kim Da-min, Lee Chang-hee",
+  "total_episodios": "425",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:46"
+        }
+      ]
+    }
+  ],
+  "id": 4967
+}

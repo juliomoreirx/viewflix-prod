@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3ODc=",
+  "tipo": "serie",
+  "titulo": "A PROMESSA DA ALMA [L]",
+  "capa_url": "https://lgfp.one/PSK7",
+  "capa_local": "A PROMESSA DA ALMA [L]/A PROMESSA DA ALMA [L].jpg",
+  "sinopse": "Depois que um acidente coloca sua alma no corpo do neto, um homem de 69 anos enfrenta a faculdade, um romance e o caos do primeiro amor — tudo de uma vez.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Martin Wong, Kenji Fan, Yaron Qiu, Hong Wei, Li Ting",
+  "diretor": "Kai-Hui Wu, Kai-Hui Wu, 蔡妃喬",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:30:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:29:59"
+        }
+      ]
+    }
+  ],
+  "id": 7811
+}

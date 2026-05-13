@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0ODM=",
+  "tipo": "serie",
+  "titulo": "A GUERRA ENTRE A TERRA E O MAR [L]",
+  "capa_url": "https://lgfp.one/REU4",
+  "capa_local": "A GUERRA ENTRE A TERRA E O MAR [L]/A GUERRA ENTRE A TERRA E O MAR [L].jpg",
+  "sinopse": "A Guerra Entre a Terra e o Mar é um spin-off de Doctor Who que acompanha o combate aos clássicos vilões da série, os Sea Devils. Na série derivada de Doctor Who, uma crise internacional e o pânico coletivo tomam conta da Terra com o ressurgimento dos Sea Devils, criaturas marítimas que colocam toda a população em risco. Para evitar que uma catástrofe ainda maior aconteça, a UNIT, UNified Intelligence Taskforce, é acionada.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Russell Tovey, Gugu Mbatha-Raw",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:41"
+        }
+      ]
+    }
+  ],
+  "id": 8523
+}

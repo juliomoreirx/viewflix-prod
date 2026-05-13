@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5NzI=",
+  "tipo": "serie",
+  "titulo": "MALCOLM A VIDA CONTINUA INJUSTA (2026)",
+  "capa_url": "https://lgfp.one/SPY9",
+  "capa_local": "MALCOLM A VIDA CONTINUA INJUSTA (2026)/MALCOLM A VIDA CONTINUA INJUSTA (2026).jpg",
+  "sinopse": "Vinte anos se passaram desde que vimos Malcolm e sua família — e depois de tanto tempo, eles não aprenderam absolutamente nada.",
+  "genero": "Comédia, Drama",
+  "elenco": "Bryan Cranston, Justin Berfield, Christopher Masterson, Keeley Karsten, Vaughan Murrae",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:17"
+        }
+      ]
+    }
+  ],
+  "id": 9296
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NjU=",
+  "tipo": "serie",
+  "titulo": "AMOR E OUTROS DRAMAS",
+  "capa_url": "https://lgfp.one/TLL",
+  "capa_local": "AMOR E OUTROS DRAMAS/AMOR E OUTROS DRAMAS.jpg",
+  "sinopse": "O amor é agridoce e a vida, cheia de altos e baixos. Estas são histórias de pessoas que vivem e trabalham na agitada ilha de Jeju.",
+  "genero": "Drama",
+  "elenco": "Lee Byung-hun, Shin Min-a, Cha Seung-won, Lee Jung-eun, Uhm Jung-hwa, Kim Woo-bin, Han Ji-min, Bae Hyun-sung",
+  "diretor": "Kim Kyu-tae",
+  "total_episodios": "66",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:16:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:09:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:37"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:06:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:05"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:59:55"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:13:38"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:12:24"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:01:23"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "01:04:58"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "01:04:04"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "01:01:01"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "01:31:55"
+        }
+      ]
+    }
+  ],
+  "id": 2700
+}

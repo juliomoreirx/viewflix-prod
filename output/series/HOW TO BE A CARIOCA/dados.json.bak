@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNDk=",
+  "tipo": "serie",
+  "titulo": "HOW TO BE A CARIOCA",
+  "capa_url": "https://lgfp.one/ARCO",
+  "capa_local": "HOW TO BE A CARIOCA/HOW TO BE A CARIOCA.jpg",
+  "sinopse": "Irene da Argentina, Matthias da Alemanha, Nabil da Síria, Laila de Israel e Karima de Angola visitam o Rio de Janeiro por diferentes motivos. Eles conhecem um sujeito especial que os ajuda a resolver os problemas de um jeitinho único: esse cara é Francisco, um carioca por excelência. Ao final de sua jornada, cada “gringo” aprende que abraçar o estilo brasileiro é a única maneira de se sair bem.",
+  "genero": "Comédia",
+  "elenco": "Seu Jorge, Malu Mader, Douglas Silva, Raquel Villar, Débora Nascimento",
+  "diretor": "Carlos Saldanha, Joana Mariani, René Sampaio",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:48"
+        }
+      ]
+    }
+  ],
+  "id": 4248
+}

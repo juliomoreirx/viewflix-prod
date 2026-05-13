@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjI=",
+  "tipo": "serie",
+  "titulo": "A VIDA NO NOSSO PLANETA",
+  "capa_url": "https://lgfp.one/ARSA",
+  "capa_local": "A VIDA NO NOSSO PLANETA/A VIDA NO NOSSO PLANETA.jpg",
+  "sinopse": "Esta série documental inovadora mostra a extraordinária jornada para vencer, se adaptar e sobreviver na Terra ao longo de bilhões de anos.",
+  "genero": "Documentário",
+  "elenco": "Morgan Freeman",
+  "diretor": "Alastair Fothergill, Alastair Fothergill, Steven Spielberg",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:20"
+        }
+      ]
+    }
+  ],
+  "id": 4300
+}

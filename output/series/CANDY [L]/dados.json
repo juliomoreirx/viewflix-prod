@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MzI=",
+  "tipo": "serie",
+  "titulo": "CANDY [L]",
+  "capa_url": "https://lgfp.one/SAK3",
+  "capa_local": "CANDY [L]/CANDY [L].jpg",
+  "sinopse": "A história acompanha uma mulher famosa que reencontra um amor do passado durante um reality show rural e uma estrela com sua gerente veterana, envolvidas em um intenso jogo de amor, poder e rivalidade dentro da indústria do entretenimento.",
+  "genero": "Drama",
+  "elenco": "路昕, 孙琰清, 珂欣, 张睿怡",
+  "diretor": "小泽",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:50"
+        }
+      ]
+    }
+  ],
+  "id": 8992
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMzQ=",
+  "tipo": "serie",
+  "titulo": "ENTRE PAREDES",
+  "capa_url": "https://lgfp.one/MXJ8",
+  "capa_local": "ENTRE PAREDES/ENTRE PAREDES.jpg",
+  "sinopse": "Marga, uma iogue e planejadora de eventos, combina no aplicativo com Martín, o editor da novela mais popular, sem saber que ele está prestes a se mudar para o apartamento ao lado do dela. A primeira a perceber isso é Marga, que inicialmente esconde de Martín, mas ele acaba descobrindo. Com a mentalidade de Marga de \"eu nunca sairia com uma vizinha\", o relacionamento termina antes de começar e ambas concordam em ser boas amigas; No entanto, com o passar dos dias, não será fácil para eles esconderem seus sentimentos atrás do muro que os separa.",
+  "genero": "Comédia",
+  "elenco": "Aislinn Derbez, Christian Vazquez, Marianna Burelli, Armando Hernández, Ana Layevska",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:57"
+        }
+      ]
+    }
+  ],
+  "id": 6858
+}

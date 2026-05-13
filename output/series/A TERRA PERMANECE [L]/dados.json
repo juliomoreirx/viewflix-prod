@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNjc=",
+  "tipo": "serie",
+  "titulo": "A TERRA PERMANECE [L]",
+  "capa_url": "https://lgfp.one/KLM4",
+  "capa_local": "A TERRA PERMANECE [L]/A TERRA PERMANECE [L].jpg",
+  "sinopse": "Quando uma praga de virulência sem precedentes varre o globo, a raça humana é praticamente exterminada. No rescaldo, enquanto a grande máquina da civilização lentamente e inexoravelmente quebra, apenas alguns sobreviventes destroçados permanecem para lutar contra o deslizamento para a extinção.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Alexander Ludwig, Jessica Frances Dukes",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:17"
+        }
+      ]
+    }
+  ],
+  "id": 6432
+}

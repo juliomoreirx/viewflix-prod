@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2OTY=",
+  "tipo": "serie",
+  "titulo": "OS 39",
+  "capa_url": "https://lgfp.one/QHO7",
+  "capa_local": "OS 39/OS 39.jpg",
+  "sinopse": "39 homens foram abandonados por Cristóvão Colombo na ilha de Hispaniola em 1492. Mergulhe em suas vidas, relacionamentos com tribos nativas de Taíno e lutas por poder, amor e sobrevivência nesse contexto histórico.",
+  "genero": "Drama",
+  "elenco": "Cristóbal Pinto, Andrés Requejo, Daniel Grao, Hugo Silva, Pablo Derqui",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:08"
+        }
+      ]
+    }
+  ],
+  "id": 8191
+}

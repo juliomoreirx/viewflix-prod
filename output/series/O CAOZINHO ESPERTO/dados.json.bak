@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NTk=",
+  "tipo": "serie",
+  "titulo": "O CAOZINHO ESPERTO",
+  "capa_url": "https://lgfp.one/RHU7",
+  "capa_local": "O CAOZINHO ESPERTO/O CAOZINHO ESPERTO.jpg",
+  "sinopse": "Com inveja da vida de seu mestre de oito anos, um cachorro falante se disfarça de menino humano para ir para a escola com ele e se torna o grande vira-lata do campus.",
+  "genero": "Animação, Comédia, Kids",
+  "elenco": "Nathan Lane, Cree Summer, David Ogden Stiers, Debra Jo Rupp, Jerry Stiller",
+  "diretor": "",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:27"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:22:30"
+        }
+      ]
+    }
+  ],
+  "id": 8710
+}

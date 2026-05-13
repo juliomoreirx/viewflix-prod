@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NjA=",
+  "tipo": "serie",
+  "titulo": "40M²",
+  "capa_url": "https://lgfp.one/RKO",
+  "capa_local": "40M2/40M2.jpg",
+  "sinopse": "Série faz um retrato da vida durante a pandemia feito por quem mora nos bairros mais pobres de São Paulo. Duzentos curtas metragem unidos para formar quatro episódios temáticos.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "Tatiana Lohmann, Jessica Queiroz",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:07"
+        }
+      ]
+    }
+  ],
+  "id": 1096
+}

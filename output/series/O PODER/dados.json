@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NzA=",
+  "tipo": "serie",
+  "titulo": "O PODER",
+  "capa_url": "https://lgfp.one/ZCP",
+  "capa_local": "O PODER/O PODER.jpg",
+  "sinopse": "O mundo de O PODER é o nosso mundo. Mas por uma reviravolta da natureza, as adolescentes subitamente desenvolvem o poder de eletrocutar pessoas. Narrando as histórias de personagens marcantes de Londres a Seattle, da Nigéria ao Leste Europeu, evoluindo até uma reversão completa do equilíbrio de poder no mundo.",
+  "genero": "Sci-Fi & Fantasy / Mistério / Drama",
+  "elenco": "Toni Collette, Halle Bush, Ria Zmitrowicz, Auli'i Cravalho, Toheeb Jimoh, John Leguizamo, Heather Agyepong, Nico Hiraga",
+  "diretor": "Naomi Alderman",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:58"
+        }
+      ]
+    }
+  ],
+  "id": 3395
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNDg=",
+  "tipo": "serie",
+  "titulo": "SEM LIMITES COM CHRIS HEMSWORTH",
+  "capa_url": "https://lgfp.one/WGL",
+  "capa_local": "SEM LIMITES COM CHRIS HEMSWORTH/SEM LIMITES COM CHRIS HEMSWORTH.jpg",
+  "sinopse": "Chris embarca em uma missão para descobrir como viver melhor por mais tempo. Com a ajuda de cientistas renomados, ele põe sua mente e seu corpo à prova em seis desafios épicos.",
+  "genero": "Documentário / Action & Adventure",
+  "elenco": "Chris Hemsworth",
+  "diretor": "Darren Aronofsky",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:15:09"
+        }
+      ]
+    }
+  ],
+  "id": 3087
+}

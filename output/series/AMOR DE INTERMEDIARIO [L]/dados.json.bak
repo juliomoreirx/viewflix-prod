@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNzk=",
+  "tipo": "serie",
+  "titulo": "AMOR DE INTERMEDIARIO [L]",
+  "capa_url": "https://lgfp.one/AVFL",
+  "capa_local": "AMOR DE INTERMEDIARIO [L]/AMOR DE INTERMEDIARIO [L].jpg",
+  "sinopse": "Jade trabalha como designer gráfico. Ele está sempre no meio: é o filho do meio, sempre tirava notas médias na escola, as pessoas ao seu redor -seja seus amigos ou irmãos- são tão bonitas que ele sempre foi ignorado ou é apenas usado como intermediário para as pessoas que querem se aproximar de seus amigos ou irmãos. Jade tem vivido nessa situação por anos e tem que aceitar isso relutantemente. Por conta disso, Jade acabou construindo uma grande parede em seu coração. Ele não espera viver um relacionamento romântico e feliz, pois já entendeu que qualquer um que se aproxime dele, só quer usá-lo para se aproximar daqueles ao seu redor.",
+  "genero": "Comédia, Drama",
+  "elenco": "Pharinyakorn Khansawa, Koraphat Lamnoi, Siraphop Manithikhun, Supamongkon Wongwisut, Peerapun Chungcharoenpanich",
+  "diretor": "Thanamin Wongskulphat, Kittipat Jampa",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:14:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:52"
+        }
+      ]
+    }
+  ],
+  "id": 4593
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NTM=",
+  "tipo": "serie",
+  "titulo": "MESTRES DA ENGANAÇÃO",
+  "capa_url": "https://lgfp.one/SUV",
+  "capa_local": "MESTRES DA ENGANACAO/MESTRES DA ENGANACAO.jpg",
+  "sinopse": "Nesta série documental angustiante, um golpista cruel se passa por espião britânico para manipular e roubar suas vítimas, deixando famílias arruinadas pelo caminho.",
+  "genero": "Documentário, Crime",
+  "elenco": "Stephen Corrall, Robert Hendy-Freegard, Sophie Clifton",
+  "diretor": "Sam Benstead, Gareth Johnson, Bart Layton",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:33"
+        }
+      ]
+    }
+  ],
+  "id": 2252
+}

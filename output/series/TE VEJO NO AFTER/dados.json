@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMjA=",
+  "tipo": "serie",
+  "titulo": "TE VEJO NO AFTER",
+  "capa_url": "https://lgfp.one/AUXL",
+  "capa_local": "TE VEJO NO AFTER/TE VEJO NO AFTER.jpg",
+  "sinopse": "Um programa em formato de festa, uma festa em formato de programa. Marcelo Serrado recebe convidados especiais em um after muito animado e com muita música.",
+  "genero": "Talk",
+  "elenco": "Marcelo Serrado",
+  "diretor": "Celso Bernini",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:54"
+        }
+      ]
+    }
+  ],
+  "id": 4580
+}

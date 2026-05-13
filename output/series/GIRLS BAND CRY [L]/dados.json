@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMTM=",
+  "tipo": "serie",
+  "titulo": "GIRLS BAND CRY [L]",
+  "capa_url": "https://lgfp.one/BDT7",
+  "capa_local": "GIRLS BAND CRY [L]/GIRLS BAND CRY [L].jpg",
+  "sinopse": "A personagem principal abandona o ensino médio em seu segundo ano e pretende entrar em uma universidade enquanto trabalha sozinha em Tóquio. Uma menina é traída por seus amigos e não sabe o que fazer. Outra menina é abandonada pelos pais e tenta sobreviver na cidade fazendo trabalhos de meio período. Esse mundo nos decepciona o tempo todo. Nada sai como planejado. Mas queremos algo de que possamos continuar a gostar. Acreditamos que há um lugar onde pertencemos. É por isso que cantamos.",
+  "genero": "Animação, Drama",
+  "elenco": "理名, 夕莉, 美怜, 凪都, 朱李",
+  "diretor": "酒井和男",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:51"
+        }
+      ]
+    }
+  ],
+  "id": 6222
+}

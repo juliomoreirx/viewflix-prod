@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3OTM=",
+  "tipo": "serie",
+  "titulo": "NA FAZENDA COM JEREMY CLARKSON",
+  "capa_url": "https://lgfp.one/OPS2",
+  "capa_local": "NA FAZENDA COM JEREMY CLARKSON/NA FAZENDA COM JEREMY CLARKSON.jpg",
+  "sinopse": "Siga Jeremy Clarkson enquanto ele tenta administrar uma fazenda no interior.",
+  "genero": "Reality, Comédia",
+  "elenco": "Jeremy Clarkson, Kaleb Cooper, Charlie Ireland",
+  "diretor": "Gavin Whitehead",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:51:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:00:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:39:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:48:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:48:31"
+        }
+      ]
+    }
+  ],
+  "id": 7386
+}

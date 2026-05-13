@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NjM=",
+  "tipo": "serie",
+  "titulo": "GATILHO",
+  "capa_url": "https://lgfp.one/PLV8",
+  "capa_local": "GATILHO/GATILHO.jpg",
+  "sinopse": "Depois que as armas ilegais se espalham pela Coreia do Sul, um policial determinado une forças com um misterioso parceiro para evitar que o caos domine o país.",
+  "genero": "Action & Adventure, Drama, Crime",
+  "elenco": "Park Yoon-ho, Kim Nam-gil, Kim Young-kwang, 문성현, 박훈",
+  "diretor": "Oh-Seung Kwon",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:37:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:54"
+        }
+      ]
+    }
+  ],
+  "id": 7692
+}

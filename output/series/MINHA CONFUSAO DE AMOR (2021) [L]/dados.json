@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNjA=",
+  "tipo": "serie",
+  "titulo": "MINHA CONFUSAO DE AMOR (2021) [L]",
+  "capa_url": "https://lgfp.one/DJR2",
+  "capa_local": "MINHA CONFUSAO DE AMOR (2021) [L]/MINHA CONFUSAO DE AMOR (2021) [L].jpg",
+  "sinopse": "Aoki tem uma queda por Hashimoto, a garota sentada ao lado dele na classe. Mas ele se desespera quando pega a borracha dela emprestada e vê que ela escreveu o nome de outro garoto - Ida - nela. Para tornar as coisas mais confusas, Ida vê Aoki segurando aquela mesma borracha e pensa que Aoki tem uma queda por ele!",
+  "genero": "Drama, Comédia",
+  "elenco": "Shunsuke Michieda, Ren Meguro, 福本莉子, Jin Suzuki, 田辺誠一",
+  "diretor": "Tadaaki Horai, Shôgo Kusano",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:16"
+        }
+      ]
+    }
+  ],
+  "id": 5872
+}

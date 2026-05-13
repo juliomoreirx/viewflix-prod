@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMjM=",
+  "tipo": "serie",
+  "titulo": "ANGELICA 50 E UNS",
+  "capa_url": "https://lgfp.one/EFM7",
+  "capa_local": "ANGELICA 50 E UNS/ANGELICA 50 E UNS.jpg",
+  "sinopse": "Angélica abre sua casa para receber alguns dos homens mais interessantes do Brasil em “Angélica: 50 & Uns”, e falar sobre temas como Sexo, Corpo, Família, Poder e Vida.",
+  "genero": "Documentário",
+  "elenco": "Angélica",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:48"
+        }
+      ]
+    }
+  ],
+  "id": 6216
+}

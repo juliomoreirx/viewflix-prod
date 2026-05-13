@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMDg=",
+  "tipo": "serie",
+  "titulo": "SOU CORINTHIANS",
+  "capa_url": "https://lgfp.one/XSA",
+  "capa_local": "SOU CORINTHIANS/SOU CORINTHIANS.jpg",
+  "sinopse": "Conheça todos os detalhes da história do Sport Club Corinthians Paulista. Craques do Timão relembram os anos de derrotas e desesperança do time, a Democracia Corintiana, a conquista do Mundial Interclubes em 2000 e a invasão alvinegra no Japão.",
+  "genero": "Documentário",
+  "elenco": "Dan Stulbach, Marcelinho Moreira, Neto, Dinei, Rivelino, Walter Casagrande Júnior, Basílio",
+  "diretor": "Edgar Alencar, Victor Pozella",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:22"
+        }
+      ]
+    }
+  ],
+  "id": 3195
+}

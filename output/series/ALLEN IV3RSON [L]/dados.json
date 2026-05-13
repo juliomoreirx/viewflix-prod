@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NzY=",
+  "tipo": "serie",
+  "titulo": "ALLEN IV3RSON [L]",
+  "capa_url": "https://lgfp.one/QNN2",
+  "capa_local": "ALLEN IV3RSON [L]/ALLEN IV3RSON [L].jpg",
+  "sinopse": "ALLEN IV3RSON mostra uma visão inédita da história da lenda da NBA. Esta série documental corajosa usa gravações nunca antes vistas e entrevistas exclusivas para revelar sua ascensão impressionante, da infância na pobreza ao ícone cultural. Uma crônica do sacrifício, resiliência e lealdade inabalável à família e à comunidade, mostrando como ele redefiniu o jogo e deu força a futuras gerações.",
+  "genero": "Documentário",
+  "elenco": "Allen Iverson",
+  "diretor": "One9",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:52"
+        }
+      ]
+    }
+  ],
+  "id": 8288
+}

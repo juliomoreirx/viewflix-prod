@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNTU=",
+  "tipo": "serie",
+  "titulo": "CASOS CHOCANTES DA HISTORIA",
+  "capa_url": "https://lgfp.one/PRN0",
+  "capa_local": "CASOS CHOCANTES DA HISTORIA/CASOS CHOCANTES DA HISTORIA.jpg",
+  "sinopse": "\"Casos Chocantes da História\" é uma série que revisita eventos extremos capturados por câmeras, de desastres naturais a acidentes impressionantes, analisando o que deu errado e o que podemos aprender com isso. Com depoimentos de sobreviventes e análises de especialistas, a série revela lições valiosas por trás de momentos que mudaram vidas em segundos.",
+  "genero": "Reality, Documentário",
+  "elenco": "Tony Harris",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:16"
+        }
+      ]
+    }
+  ],
+  "id": 7774
+}

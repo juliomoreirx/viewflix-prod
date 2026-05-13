@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MzY=",
+  "tipo": "serie",
+  "titulo": "THE NEW POPE",
+  "capa_url": "https://lgfp.one/JFF",
+  "capa_local": "THE NEW POPE/THE NEW POPE.jpg",
+  "sinopse": "Nem só de pão vive o homem e o mundo do papado moderno é um exemplo disto. Entre os benefícios e as responsabilidades, o papa se torna um exemplo para muitas pessoas, mas ser o líder mundial da Igreja Católica tem o seu preço.",
+  "genero": "Drama",
+  "elenco": "Jude Law, John Malkovich, Silvio Orlando, Cécile de France, Javier Cámara",
+  "diretor": "",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:04:01"
+        }
+      ]
+    }
+  ],
+  "id": 523
+}

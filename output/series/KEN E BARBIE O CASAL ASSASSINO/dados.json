@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4Mjc=",
+  "tipo": "serie",
+  "titulo": "KEN E BARBIE: O CASAL ASSASSINO",
+  "capa_url": "https://lgfp.one/THJ",
+  "capa_local": "KEN E BARBIE O CASAL ASSASSINO/KEN E BARBIE O CASAL ASSASSINO.jpg",
+  "sinopse": "Paul Bernardo e Karla Homolka se apaixonam e se casam pouco depois. Depois de sequestrar e matar três adolescentes, eles se tornam os mais famosos assassinos do Canadá, mas Homolka escapa da justiça firmando “um pacto com o Diabo”.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:30"
+        }
+      ]
+    }
+  ],
+  "id": 2585
+}

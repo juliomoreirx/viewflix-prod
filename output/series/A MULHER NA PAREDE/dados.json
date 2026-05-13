@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NDY=",
+  "tipo": "serie",
+  "titulo": "A MULHER NA PAREDE",
+  "capa_url": "https://lgfp.one/AYUT",
+  "capa_local": "A MULHER NA PAREDE/A MULHER NA PAREDE.jpg",
+  "sinopse": "Lorna Brady acorda uma manhã e encontra um cadáver em sua casa. Brady não tem ideia de quem é a mulher morta ou se ela mesma pode ser responsável pelo aparente assassinato, porque ela sofre há muito tempo de crises extremas de sonambulismo.",
+  "genero": "Crime, Mistério",
+  "elenco": "Ruth Wilson, Daryl McCormack, Abby Fitz, Mark Huberman, Hilda Fay",
+  "diretor": "Harry Wootliff",
+  "total_episodios": "342",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:39"
+        }
+      ]
+    }
+  ],
+  "id": 4876
+}

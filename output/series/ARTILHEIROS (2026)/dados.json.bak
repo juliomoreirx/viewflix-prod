@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwMzI=",
+  "tipo": "serie",
+  "titulo": "ARTILHEIROS (2026)",
+  "capa_url": "https://lgfp.one/SQS3",
+  "capa_local": "ARTILHEIROS (2026)/ARTILHEIROS (2026).jpg",
+  "sinopse": "Série documental revisita a trajetória dos maiores artilheiros do Brasileirão, como Zico, Romário e Roberto Dinamite, e mostra como seus gols moldaram o futebol nacional.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Gustavo Fernandes",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:41"
+        }
+      ]
+    }
+  ],
+  "id": 9349
+}

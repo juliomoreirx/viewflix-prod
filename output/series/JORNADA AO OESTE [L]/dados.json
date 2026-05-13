@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5ODE=",
+  "tipo": "serie",
+  "titulo": "JORNADA AO OESTE [L]",
+  "capa_url": "https://lgfp.one/MYU2",
+  "capa_local": "JORNADA AO OESTE [L]/JORNADA AO OESTE [L].jpg",
+  "sinopse": "Um monge parte para a Índia em busca de escrituras sagradas budistas, acompanhado do Rei Macaco, um monstro do rio e um porco. Baseado em um clássico do século XVI.",
+  "genero": "Drama, Comédia",
+  "elenco": "香取愼吾",
+  "diretor": "",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:10:01"
+        }
+      ]
+    }
+  ],
+  "id": 6874
+}

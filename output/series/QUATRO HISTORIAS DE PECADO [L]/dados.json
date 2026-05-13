@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0Mzg=",
+  "tipo": "serie",
+  "titulo": "QUATRO HISTORIAS DE PECADO [L]",
+  "capa_url": "https://lgfp.one/RGF3",
+  "capa_local": "QUATRO HISTORIAS DE PECADO [L]/QUATRO HISTORIAS DE PECADO [L].jpg",
+  "sinopse": "Às vezes sombrios, às vezes perturbadores. Quatro curtas metragens exploram histórias de quem ousa sonhar e desejar e daqueles que estão determinados a ficar em seu caminho.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "Aakash Baskaran",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:17"
+        }
+      ]
+    }
+  ],
+  "id": 8620
+}

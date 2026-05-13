@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MDM=",
+  "tipo": "serie",
+  "titulo": "COZINHA EM CONTA",
+  "capa_url": "https://lgfp.one/XDT",
+  "capa_local": "COZINHA EM CONTA/COZINHA EM CONTA.jpg",
+  "sinopse": "Nesta competição culinária, cozinheiros amadores precisam impressionar um júri de celebridades gastando pouco para levar para casa uma bolada em dinheiro.",
+  "genero": "Reality",
+  "elenco": "Susan Keating, Esther Choi, Minhthy Vu Steimle",
+  "diretor": "",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:58"
+        }
+      ]
+    }
+  ],
+  "id": 3134
+}

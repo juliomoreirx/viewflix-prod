@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMjc=",
+  "tipo": "serie",
+  "titulo": "FRANKLIN [L]",
+  "capa_url": "https://lgfp.one/AVI6",
+  "capa_local": "FRANKLIN [L]/FRANKLIN [L].jpg",
+  "sinopse": "Em dezembro de 1776, Benjamin Franklin já era mundialmente famoso por seus experimentos com eletricidade. Mas sua paixão e seu poder são postos à prova quando ele embarca para a França em uma missão secreta, com o destino da independência americana em jogo.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Michael Douglas, Noah Jupe, Daniel Mays, Ludivine Sagnier, Thibault de Montalembert",
+  "diretor": "Tim Van Patten, Elizabeth Tremblay, Felix Baudouin",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:12"
+        }
+      ]
+    }
+  ],
+  "id": 7287
+}

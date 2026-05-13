@@ -1,0 +1,130 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMzM=",
+  "tipo": "serie",
+  "titulo": "FÚRIA NO TRÂNSITO",
+  "capa_url": "https://lgfp.one/BBT9",
+  "capa_local": "FURIA NO TRANSITO/FURIA NO TRANSITO.jpg",
+  "sinopse": "Motoristas enfurecidos são flagrados por câmeras enquanto enfrentam outros motoristas em alguns dos atos de violência no trânsito.",
+  "genero": "Reality",
+  "elenco": "Shawn Stevens",
+  "diretor": "Shawn Stevens",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:57"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:22:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:21:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:21:52"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:21:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:22:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:22:03"
+        }
+      ]
+    }
+  ],
+  "id": 5487
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0Mzg=",
+  "tipo": "serie",
+  "titulo": "CORRIDA AO REDOR DA TERRA",
+  "capa_url": "https://lgfp.one/SKI",
+  "capa_local": "CORRIDA AO REDOR DA TERRA/CORRIDA AO REDOR DA TERRA.jpg",
+  "sinopse": "Uma série de competição de aventura radical: quatro equipes, partindo de quatro locais diferentes, enfrentam quatro percursos incrivelmente lindos, únicos e extenuantes. A primeira equipe a alcançar a linha de chegada leva para casa um milhão de dólares. Um teste incrível dos limites humanos. Uma mostra épica de um planeta inspirador.",
+  "genero": "Reality",
+  "elenco": "Chris Payne Gilbert",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:28:18"
+        }
+      ]
+    }
+  ],
+  "id": 1963
+}

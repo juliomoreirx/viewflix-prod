@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMjk=",
+  "tipo": "serie",
+  "titulo": "O PROBLEMA DOS 3 CORPOS",
+  "capa_url": "https://lgfp.one/AOI8",
+  "capa_local": "O PROBLEMA DOS 3 CORPOS/O PROBLEMA DOS 3 CORPOS.jpg",
+  "sinopse": "Um grupo de cientistas faz descobertas revolucionárias ao longo das décadas. Ao mesmo tempo, as leis da ciência começam a cair por terra.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Drama",
+  "elenco": "Jovan Adepo, Rosalind Chao, Liam Cunningham, Eiza González, Jess Hong",
+  "diretor": "Rian Johnson, Olly Robinson, Sean Coleman",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:42"
+        }
+      ]
+    }
+  ],
+  "id": 5168
+}

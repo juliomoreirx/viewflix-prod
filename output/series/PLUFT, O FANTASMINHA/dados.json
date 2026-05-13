@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyOTg=",
+  "tipo": "serie",
+  "titulo": "PLUFT, O FANTASMINHA",
+  "capa_url": "https://lgfp.one/YAK",
+  "capa_local": "PLUFT, O FANTASMINHA/PLUFT, O FANTASMINHA.jpg",
+  "sinopse": "Vivendo em uma ilha, Pluft é um fantasma que morre de medo de pessoas. Quando uma menina é sequestrada por um pirata, os dois criam um laço e lutam contra o vilão.",
+  "genero": "Kids / Action & Adventure",
+  "elenco": "Juliano Cazarré, Lola Belli, Arthur Aguiar",
+  "diretor": "Rosane Svartman",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 132916
+}

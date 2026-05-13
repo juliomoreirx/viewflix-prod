@@ -1,0 +1,115 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4Njg=",
+  "tipo": "serie",
+  "titulo": "DEEPA E ANOOP",
+  "capa_url": "https://lgfp.one/VZF",
+  "capa_local": "DEEPA E ANOOP/DEEPA E ANOOP.jpg",
+  "sinopse": "Ao lado do seu elefante que muda de cor, uma feliz menininha indiana cria música, alegria e confusão no hotel Mansão Manga.",
+  "genero": "Kids, Animação",
+  "elenco": "Pavan Bharaj, Sebastian Billingsley-Rodriguez, Adam Nurada, Zac Siewert",
+  "diretor": "Darin McGowan",
+  "total_episodios": "12",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:06"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:24:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 3017
+}

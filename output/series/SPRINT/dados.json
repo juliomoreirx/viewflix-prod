@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNjU=",
+  "tipo": "serie",
+  "titulo": "SPRINT",
+  "capa_url": "https://lgfp.one/CRG1",
+  "capa_local": "SPRINT/SPRINT.jpg",
+  "sinopse": "Velocistas de elite encaram os treinamentos, a cobertura da mídia e a concorrência nesta série esportiva que acompanha a corrida para ser os mais rápidos do mundo.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:29"
+        }
+      ]
+    }
+  ],
+  "id": 5643
+}

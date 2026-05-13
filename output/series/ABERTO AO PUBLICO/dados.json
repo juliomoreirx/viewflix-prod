@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwODk=",
+  "tipo": "serie",
+  "titulo": "ABERTO AO PUBLICO",
+  "capa_url": "https://lgfp.one/PGG7",
+  "capa_local": "ABERTO AO PUBLICO/ABERTO AO PUBLICO.jpg",
+  "sinopse": "Maurício Meirelles, Bruna Louise, Murilo Couto e Thiago Ventura recebem um comediante convidado e uma celebridade. A missão é conduzir quadros que promovam interações entre anônimos e elenco, em busca de experiência única, divertida e imprevisível.",
+  "genero": "Comédia, Reality, Talk",
+  "elenco": "Maurício Meirelles, Bruna Louise, Murilo Couto, Thiago Ventura",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:29"
+        }
+      ]
+    }
+  ],
+  "id": 7610
+}

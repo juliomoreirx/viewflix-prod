@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Mjg=",
+  "tipo": "serie",
+  "titulo": "MENTIRAS",
+  "capa_url": "https://lgfp.one/SYK",
+  "capa_local": "MENTIRAS/MENTIRAS.jpg",
+  "sinopse": "Uma professora de literatura suspeita ter sido violentada por um cirurgião, que nega veementemente os relatos dela sobre o encontro.",
+  "genero": "Mistério",
+  "elenco": "Ricardo Martín, Ana Gamberi, Ángela Cremonte, Manuela Velasco, Sofía Oria",
+  "diretor": "Norberto López Amado, Curro Novallas",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:46"
+        }
+      ]
+    }
+  ],
+  "id": 2347
+}

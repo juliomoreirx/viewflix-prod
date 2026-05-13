@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NjY=",
+  "tipo": "serie",
+  "titulo": "MATCH VIP",
+  "capa_url": "https://lgfp.one/TKY",
+  "capa_local": "MATCH VIP/MATCH VIP.jpg",
+  "sinopse": "Homens e mulheres ambiciosos querem entrar para a alta sociedade. Uma agência especializada em encontros com pretendentes cobiçados vai ajudá-los. Será que vai dar match?",
+  "genero": "Drama",
+  "elenco": "Kim Hee-seon, Lee Hyun-wook, Jung Yoo-jin, Park Hoon, Cha Ji-yeon, Lee Soo-hyuk, Kim Sa-Kwon, Kim Yoon-seo",
+  "diretor": "Kim Jung-min",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:11:33"
+        }
+      ]
+    }
+  ],
+  "id": 2687
+}

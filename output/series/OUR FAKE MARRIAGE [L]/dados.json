@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MjU=",
+  "tipo": "serie",
+  "titulo": "OUR FAKE MARRIAGE [L]",
+  "capa_url": "https://lgfp.one/QCM2",
+  "capa_local": "OUR FAKE MARRIAGE [L]/OUR FAKE MARRIAGE [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "菊池風磨, 長濱ねる, 渡辺翔太, トリンドル玲奈, 黒羽麻璃央",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:29"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:39"
+        }
+      ]
+    }
+  ],
+  "id": 8083
+}

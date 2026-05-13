@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjg=",
+  "tipo": "serie",
+  "titulo": "THE EDDY",
+  "capa_url": "https://lgfp.one/ARCT",
+  "capa_local": "THE EDDY/THE EDDY.jpg",
+  "sinopse": "O dono de um clube de jazz parisiense acaba envolvido com perigosos criminosos ao lutar para proteger seu negócio, sua banda e sua filha.",
+  "genero": "Drama",
+  "elenco": "André Holland, Joanna Kulig, Leïla Bekhti, Adil Dehbi, Randy Kerber",
+  "diretor": "Alan Poul, Damien Chazelle, Olivier Bibas",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:30"
+        }
+      ]
+    }
+  ],
+  "id": 4253
+}

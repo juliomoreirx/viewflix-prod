@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyOTQ=",
+  "tipo": "serie",
+  "titulo": "LAMBERT VS. LAMBERT: SÓ POR CIMA DE SEU CADÁVER",
+  "capa_url": "https://lgfp.one/ZXM",
+  "capa_local": "LAMBERT VS. LAMBERT SO POR CIMA DE SEU CADAVER/LAMBERT VS. LAMBERT SO POR CIMA DE SEU CADAVER.jpg",
+  "sinopse": "​Em 11 de julho de 2019, Vincent Lambert faleceu no Hospital de Reims. Esta é a parte final de mais de uma década de uma saga familiar, médica, jurídica, política e midiática que durou até a véspera de sua morte. Como será que os problemas enfrentados por este jovem mudaram tão drasticamente a forma como a sociedade enxerga a vida e a morte?",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Vincent Trisolini",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:14"
+        }
+      ]
+    }
+  ],
+  "id": 3505
+}

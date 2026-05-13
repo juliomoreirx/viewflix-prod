@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0OTc=",
+  "tipo": "serie",
+  "titulo": "THE VIRTUES [L]",
+  "capa_url": "https://lgfp.one/ABCH",
+  "capa_local": "THE VIRTUES [L]/THE VIRTUES [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Stephen Graham, Niamh Algar, Helen Behan, Frank Laverty, Mark O'Halloran",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:14:19"
+        }
+      ]
+    }
+  ],
+  "id": 4119
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODA=",
+  "tipo": "serie",
+  "titulo": "COMETERRA",
+  "capa_url": "https://lgfp.one/QMW8",
+  "capa_local": "COMETERRA/COMETERRA.jpg",
+  "sinopse": "Aylín, uma adolescente de um bairro operário, descobre suas habilidades sobrenaturais. Ao comer terra, ela tem visões que a ajudam a encontrar pessoas desaparecidas. Ao lado do irmão e dos amigos, ela aprende a dominar esse novo poder. À medida que suas habilidades se fortalecem, ela se transforma em uma heroína que luta contra a violência e a injustiça que assolam sua comunidade.",
+  "genero": "Mistério, Drama",
+  "elenco": "Lilith Curiel, Gerardo Taracena, Harold Torres, Erica Lynn Cunanan, Lizeth Selene",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:06"
+        }
+      ]
+    }
+  ],
+  "id": 8259
+}

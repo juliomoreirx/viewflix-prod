@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5MjM=",
+  "tipo": "serie",
+  "titulo": "A SURDA ABSURDA",
+  "capa_url": "https://lgfp.one/STC",
+  "capa_local": "A SURDA ABSURDA/A SURDA ABSURDA.jpg",
+  "sinopse": "Ir à escola e fazer novos amigos pode ser bem difícil. Agora ter que fazer os dois enquanto usa um aparelho auditivo enorme no peito? Só com superpoderes! Com uma pequena ajuda de sua alter ego super-heroína, Surda Absurda, Cece aprende a abraçar suas diferenças.",
+  "genero": "Animação, Kids",
+  "elenco": "Cece Bell, Lexi Finigan, Abigail Catalano, Pamela Adlon, Clancy Brown",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:25"
+        }
+      ]
+    }
+  ],
+  "id": 2204
+}

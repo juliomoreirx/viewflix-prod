@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwOTc=",
+  "tipo": "serie",
+  "titulo": "MUITO VELHO PARA MORRER JOVEM",
+  "capa_url": "https://lgfp.one/JID",
+  "capa_local": "MUITO VELHO PARA MORRER JOVEM/MUITO VELHO PARA MORRER JOVEM.jpg",
+  "sinopse": "Numa noite trágica, a vida do assistente do Xerife do Condado de Los Angeles, Martin Jones sofre uma reviravolta e ele é forçado a entrar no submundo mortal de soldados de cartel, assassinos da Yakuza, e vigilantes misteriosos.",
+  "genero": "Drama, Crime",
+  "elenco": "Miles Teller",
+  "diretor": "",
+  "total_episodios": "76",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:33:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:37:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:16:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:16:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:31:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:28:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:09:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:30:35"
+        }
+      ]
+    }
+  ],
+  "id": 608
+}

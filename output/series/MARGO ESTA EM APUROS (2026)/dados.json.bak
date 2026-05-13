@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NDI=",
+  "tipo": "serie",
+  "titulo": "MARGO ESTA EM APUROS (2026)",
+  "capa_url": "https://lgfp.one/SSB3",
+  "capa_local": "MARGO ESTA EM APUROS (2026)/MARGO ESTA EM APUROS (2026).jpg",
+  "sinopse": "Filha de uma ex-garçonete do Hooters e de um ex-lutador profissional, Margo abandonou a faculdade há pouco tempo e aspira a ser escritora. Com um bebê recém-nascido, uma pilha crescente de contas e cada vez menos recursos para pagá-las, Margo precisa encontrar um caminho a seguir.",
+  "genero": "Drama, Comédia",
+  "elenco": "Elle Fanning, Nick Offerman, Greg Kinnear, Thaddea Graham, Michael Angarano",
+  "diretor": "Dearbhla Walsh, Mary Anne Seward, Sutton Dewey",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:01"
+        }
+      ]
+    }
+  ],
+  "id": 9372
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzOTI=",
+  "tipo": "serie",
+  "titulo": "BATEAU MOUCHE: O NAUFRÁGIO DA JUSTIÇA",
+  "capa_url": "https://lgfp.one/NJB7",
+  "capa_local": "BATEAU MOUCHE O NAUFRAGIO DA JUSTICA/BATEAU MOUCHE O NAUFRAGIO DA JUSTICA.jpg",
+  "sinopse": "Série documental sobre o naufrágio do navio turístico Bateau Mouche IV, um desastre marcado pela ganância, negligência e impunidade.",
+  "genero": "Documentário, Crime",
+  "elenco": "Malu Mader, Fátima Bernardes",
+  "diretor": "Tatiana Issa, Tatiana Issa, Guto Barra",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:53"
+        }
+      ]
+    }
+  ],
+  "id": 7044
+}

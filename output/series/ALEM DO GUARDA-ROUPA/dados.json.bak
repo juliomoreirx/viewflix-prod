@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2OTY=",
+  "tipo": "serie",
+  "titulo": "ALÉM DO GUARDA-ROUPA",
+  "capa_url": "https://lgfp.one/AANZ",
+  "capa_local": "ALEM DO GUARDA-ROUPA/ALEM DO GUARDA-ROUPA.jpg",
+  "sinopse": "Na trama, seguimos Carol, uma adolescente coreana-brasileira que, após ser abandonada pelo pai coreano, quer distância de tudo que vem do país. O problema é quando a garota encontra um portal mágico para o dormitório do ACT, o maior grupo de k-pop do mundo.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Sharon Cho, Kim Woojin, Lee Min Wook, Jae chan, 진권",
+  "diretor": "Sabrina Greve, Paula Un Mi Kim, Marcelo Trotta",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:17"
+        }
+      ]
+    }
+  ],
+  "id": 3707
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTk=",
+  "tipo": "serie",
+  "titulo": "WEAK HERO CLASS 1 [L]",
+  "capa_url": "https://lgfp.one/AAYR",
+  "capa_local": "WEAK HERO CLASS 1 [L]/WEAK HERO CLASS 1 [L].jpg",
+  "sinopse": "Yeon Shi Eun é um estudante modelo, o melhor da sua escola. Fisicamente, Yeon Shi Eun aparenta ser frágil mas, usando a sua inteligência, ferramentas e psicologia, ele luta contra a violência que se acontece dentro e fora da sua escola.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Park Ji-hoon, Choi Hyun-wook, Hong Kyung, Lee Yeon, Shin Seung-ho",
+  "diretor": "You Su-min, You Su-min, Han Jun-hee",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:21"
+        }
+      ]
+    }
+  ],
+  "id": 3983
+}

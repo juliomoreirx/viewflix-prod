@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDE=",
+  "tipo": "serie",
+  "titulo": "SETE MUNDOS UM PLANETA",
+  "capa_url": "https://lgfp.one/OSH9",
+  "capa_local": "SETE MUNDOS UM PLANETA/SETE MUNDOS UM PLANETA.jpg",
+  "sinopse": "Essa série celebrará a diversidade da vida em cada um dos mais fascinantes continentes. Mas também explora os perigos e desafios da especie animal no complexo mundo animal.",
+  "genero": "Documentário, Família",
+  "elenco": "David Attenborough, Peter Drost, Goetz Bielefeldt",
+  "diretor": "Scott Alexander, Jane Atkins, Giles Badger",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:47"
+        }
+      ]
+    }
+  ],
+  "id": 7431
+}

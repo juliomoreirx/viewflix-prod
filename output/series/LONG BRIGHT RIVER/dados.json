@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNjY=",
+  "tipo": "serie",
+  "titulo": "LONG BRIGHT RIVER",
+  "capa_url": "https://lgfp.one/NTQ7",
+  "capa_local": "LONG BRIGHT RIVER/LONG BRIGHT RIVER.jpg",
+  "sinopse": "Numa Filadélfia devastada pelas drogas, uma policial investiga uma série de assassinatos enquanto procura por sua irmã desaparecida, uma viciada cujo desaparecimento pode estar ligado ao caso e a segredos do passado de sua família.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Amanda Seyfried, Nicholas Pinnock, Ashleigh Cummings, Callum Vinson, John Doman",
+  "diretor": "Hagar Ben-Asher, Gwyneth Horder-Payton, Mona Fastvold, Meera Menon, Nikki Toscano, Jessica Yu",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:42"
+        }
+      ]
+    }
+  ],
+  "id": 7263
+}

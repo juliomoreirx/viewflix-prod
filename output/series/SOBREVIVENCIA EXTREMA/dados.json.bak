@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NDE=",
+  "tipo": "serie",
+  "titulo": "SOBREVIVÊNCIA EXTREMA",
+  "capa_url": "https://lgfp.one/DCF3",
+  "capa_local": "SOBREVIVENCIA EXTREMA/SOBREVIVENCIA EXTREMA.jpg",
+  "sinopse": "Neste reality show, os participantes vão testar os limites humanos de uma forma nunca vista antes no Brasil. Luciano Tigre e Taís Teixeira, os apresentadores, vão encarar a morte de perto ao recriar situações reais em que humanos desafiaram a natureza para continuarem vivos.",
+  "genero": "Reality",
+  "elenco": "Luciano Tigre",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:02"
+        }
+      ]
+    }
+  ],
+  "id": 5756
+}

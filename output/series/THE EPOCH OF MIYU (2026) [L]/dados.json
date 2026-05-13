@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3Nzg=",
+  "tipo": "serie",
+  "titulo": "THE EPOCH OF MIYU (2026) [L]",
+  "capa_url": "https://lgfp.one/SUK7",
+  "capa_local": "THE EPOCH OF MIYU (2026) [L]/THE EPOCH OF MIYU (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Família",
+  "elenco": "鍾漢良, 朱珠, 李梦, Jing Chao, 任彬",
+  "diretor": "王迎",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:54"
+        }
+      ]
+    }
+  ],
+  "id": 9407
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1OTk=",
+  "tipo": "serie",
+  "titulo": "O PREDADOR DE SEVILHA (2026)",
+  "capa_url": "https://lgfp.one/SLX4",
+  "capa_local": "O PREDADOR DE SEVILHA (2026)/O PREDADOR DE SEVILHA (2026).jpg",
+  "sinopse": "A agressão sexual cometida por um guia turístico espanhol influencia várias estudantes americanas a fazerem denúncias. Este documentário acompanha sua luta por justiça.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Alejandro Olvera",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:40"
+        }
+      ]
+    }
+  ],
+  "id": 9203
+}

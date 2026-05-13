@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMjU=",
+  "tipo": "serie",
+  "titulo": "COLISEU",
+  "capa_url": "https://lgfp.one/ZRQ",
+  "capa_local": "COLISEU/COLISEU.jpg",
+  "sinopse": "Mostra a ascensão e queda do Império Romano através do Coliseu, uma das arenas mais emocionantes e brutais da história da humanidade.",
+  "genero": "Action & Adventure / Drama / Documentário",
+  "elenco": "Odimegwu Okoye, Archie Rowell, Carlotta De Gregori, Tamsin, Soufiane El Khalidy, Vinny Moli, Said El Hamdi, Nadia Benzakour",
+  "diretor": "Jim Greayer",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:40"
+        }
+      ]
+    }
+  ],
+  "id": 3473
+}

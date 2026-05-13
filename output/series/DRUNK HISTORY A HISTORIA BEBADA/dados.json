@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NTA=",
+  "tipo": "serie",
+  "titulo": "DRUNK HISTORY A HISTORIA BEBADA",
+  "capa_url": "https://lgfp.one/AZOT",
+  "capa_local": "DRUNK HISTORY A HISTORIA BEBADA/DRUNK HISTORY A HISTORIA BEBADA.jpg",
+  "sinopse": "Em cada episódio de Drunk History, um narrador embriagado luta para manter a sua compostura e seriedade enquanto relata um importante acontecimento da história.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:18"
+        }
+      ]
+    }
+  ],
+  "id": 4925
+}

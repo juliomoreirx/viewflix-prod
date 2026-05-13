@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Njg=",
+  "tipo": "serie",
+  "titulo": "ESCÂNDALOS E ASSASSINATOS NA FAMÍLIA MURDAUGH",
+  "capa_url": "https://lgfp.one/YNG",
+  "capa_local": "ESCANDALOS E ASSASSINATOS NA FAMILIA MURDAUGH/ESCANDALOS E ASSASSINATOS NA FAMILIA MURDAUGH.jpg",
+  "sinopse": "Tragédias chocam uma pequena comunidade da Carolina do Sul e expõem segredos arrepiantes de uma poderosa família local.",
+  "genero": "Documentário, Crime",
+  "elenco": "Morgan Doughty, Maggie Murdaugh, Buster Murdaugh",
+  "diretor": "Julia Willoughby Nason",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:25"
+        }
+      ]
+    }
+  ],
+  "id": 3293
+}

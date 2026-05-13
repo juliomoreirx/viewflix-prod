@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MjM=",
+  "tipo": "serie",
+  "titulo": "GENIAL DANEBEN – DAS QUIZ",
+  "capa_url": "https://lgfp.one/AANV",
+  "capa_local": "GENIAL DANEBEN  DAS QUIZ/GENIAL DANEBEN  DAS QUIZ.jpg",
+  "sinopse": "",
+  "genero": "Talk, Comédia",
+  "elenco": "Hugo Egon Balder, Hella von Sinnen, Bernhard Hoëcker",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:11"
+        }
+      ]
+    }
+  ],
+  "id": 1416
+}

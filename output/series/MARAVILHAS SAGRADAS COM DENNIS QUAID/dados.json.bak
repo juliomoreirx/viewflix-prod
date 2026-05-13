@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMDg=",
+  "tipo": "serie",
+  "titulo": "MARAVILHAS SAGRADAS COM DENNIS QUAID",
+  "capa_url": "https://lgfp.one/KNC7",
+  "capa_local": "MARAVILHAS SAGRADAS COM DENNIS QUAID/MARAVILHAS SAGRADAS COM DENNIS QUAID.jpg",
+  "sinopse": "História, mistérios e as jornadas lendárias por trás de algumas das relíquias mais sagradas e santas do mundo, incluindo objetos de imortalidade, riquezas sagradas e monumentos reverenciados.",
+  "genero": "Documentário",
+  "elenco": "Dennis Quaid",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:22"
+        }
+      ]
+    }
+  ],
+  "id": 6466
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MjE=",
+  "tipo": "serie",
+  "titulo": "A AGENCIA (2024)",
+  "capa_url": "https://lgfp.one/KOY3",
+  "capa_local": "A AGENCIA (2024)/A AGENCIA (2024).jpg",
+  "sinopse": "Martian é um agente da CIA forçado a abandonar sua vida secreta e voltar para Londres. Lá, ele precisa lidar com um antigo amor que reaparece, reacendendo sentimentos e dilemas.",
+  "genero": "Drama, Mistério",
+  "elenco": "Michael Fassbender, Jeffrey Wright, Jodie Turner-Smith, Richard Gere, Katherine Waterston",
+  "diretor": "Eric Rochant, Joe Wright",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:35"
+        }
+      ]
+    }
+  ],
+  "id": 7275
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNTE=",
+  "tipo": "serie",
+  "titulo": "CASOS ARQUIVADOS: MORTES NO VELHO OESTE",
+  "capa_url": "https://lgfp.one/QBY1",
+  "capa_local": "CASOS ARQUIVADOS MORTES NO VELHO OESTE/CASOS ARQUIVADOS MORTES NO VELHO OESTE.jpg",
+  "sinopse": "No cruel oeste norte-americano, a morte é sempre uma sombra à espreita. Os arquivos empoeirados encontrados nos gabinetes dos xerifes de todo o país são examinados com atenção, destacando casos que antes eram considerados insolúveis.",
+  "genero": "Crime, Documentário",
+  "elenco": "Dude Walker",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:51"
+        }
+      ]
+    }
+  ],
+  "id": 8112
+}

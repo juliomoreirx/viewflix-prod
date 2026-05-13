@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MTk=",
+  "tipo": "serie",
+  "titulo": "HORÓSCOPO DO AMOR",
+  "capa_url": "https://lgfp.one/AAKP",
+  "capa_local": "HOROSCOPO DO AMOR/HOROSCOPO DO AMOR.jpg",
+  "sinopse": "Especialistas em astrologia analisarão os mapas astrais de 12 solteiros desesperados para encontrar um amor. Na Grécia, berço da astrologia e casa de Vênus, a deusa do amor, os novos casais irão a encontros determinados pelos astrólogos.",
+  "genero": "Reality",
+  "elenco": "Clara Amfo, Colin Bedell, Michele Knight, Francesca Oddie",
+  "diretor": "Danny Tate, Katie-Marie Bailey, Ivan Ogilvie",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:24"
+        }
+      ]
+    }
+  ],
+  "id": 3622
+}

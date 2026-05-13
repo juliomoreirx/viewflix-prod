@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2Nzk=",
+  "tipo": "serie",
+  "titulo": "VANDA",
+  "capa_url": "https://lgfp.one/ZXX",
+  "capa_local": "VANDA/VANDA.jpg",
+  "sinopse": "A história verídica da cabeleireira angustiada que, inesperadamente, enveredou por uma vida de crime, Dulce Caroço.",
+  "genero": "Drama",
+  "elenco": "Gabriela Barros, João Baptista, Pedro Casablanc, Raúl Prieto, Pedro Barbeitos, Joana de Verona, Ricardo Barceló, Iñigo Galiano",
+  "diretor": "Simão Cayatte",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:23"
+        }
+      ]
+    }
+  ],
+  "id": 3516
+}

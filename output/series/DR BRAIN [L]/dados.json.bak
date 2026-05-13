@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNTQ=",
+  "tipo": "serie",
+  "titulo": "DR BRAIN [L]",
+  "capa_url": "https://lgfp.one/AUP9",
+  "capa_local": "DR BRAIN [L]/DR BRAIN [L].jpg",
+  "sinopse": "Sewon, um brilhante cientista com um cérebro único, sofre uma terrível tragédia pessoal. Desesperado para descobrir o que aconteceu com sua família, ele realiza “sincronizações cerebrais” com os mortos para acessar suas memórias em busca de pistas.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Drama",
+  "elenco": "Lee Sun-kyun, Park Hee-soon, Seo Ji-hye, Lee You-young, Lee Jae-won",
+  "diretor": "Kim Jee-woon, Kim Jee-woon, Kim Jee-woon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:47"
+        }
+      ]
+    }
+  ],
+  "id": 5284
+}

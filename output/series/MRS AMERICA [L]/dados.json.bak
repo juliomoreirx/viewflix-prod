@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NTM=",
+  "tipo": "serie",
+  "titulo": "MRS AMERICA [L]",
+  "capa_url": "https://lgfp.one/RLK",
+  "capa_local": "MRS AMERICA [L]/MRS AMERICA [L].jpg",
+  "sinopse": "Década de 1970. Phyllis Schlafly (Cate Blanchett) é uma advogada e ativista conservadora, conhecida nacionalmente por suas ideias anti-feministas. Os embates entre o grupo liderado por ela e as oponentes feministas são responsáveis por mudar o cenário político-cultural dos Estados Unidos completamente.",
+  "genero": "Drama",
+  "elenco": "Cate Blanchett, Rose Byrne, Uzo Aduba, Elizabeth Banks, Kayli Carter",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:43"
+        }
+      ]
+    }
+  ],
+  "id": 1678
+}

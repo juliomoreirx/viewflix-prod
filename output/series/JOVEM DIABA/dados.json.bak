@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NDQ=",
+  "tipo": "serie",
+  "titulo": "JOVEM DIABA",
+  "capa_url": "https://lgfp.one/XQE",
+  "capa_local": "JOVEM DIABA/JOVEM DIABA.jpg",
+  "sinopse": "Treze anos após ser engravidada por Satanás, uma mãe e sua filha Anticristo tentam viver uma vida normal em Delaware. As duas são constantemente contrariadas por forças monstruosas, e por Satanás, que anseia pela custódia da alma de sua filha.",
+  "genero": "Animação / Comédia",
+  "elenco": "Danny DeVito, Lucy DeVito, Aubrey Plaza, Eugene Cordero",
+  "diretor": "Darcy Fowler, Seth Kirschner, Kieran Valla",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:18"
+        }
+      ]
+    }
+  ],
+  "id": 3176
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMzc=",
+  "tipo": "serie",
+  "titulo": "O DIAGNÓSTICO",
+  "capa_url": "https://lgfp.one/TSF",
+  "capa_local": "O DIAGNOSTICO/O DIAGNOSTICO.jpg",
+  "sinopse": "Eran, recém-diagnosticado com câncer, conhece Michal, uma mulher forte que convive com a doença há muito tempo. Juntos, os dois começam uma jornada repleta de humor, medo, amor e otimismo.",
+  "genero": "Comédia, Drama",
+  "elenco": "ליהי קורנובסקי, Ori Atia, Kuti Sabag, Meshi Kleinstein, אורלי זילברשץ",
+  "diretor": "Yogev Yefet, Elad Cohen",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:03"
+        }
+      ]
+    }
+  ],
+  "id": 2885
+}

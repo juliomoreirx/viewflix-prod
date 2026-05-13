@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNjU=",
+  "tipo": "serie",
+  "titulo": "DEAD LIKE ME A MORTE LHE CAI BEM",
+  "capa_url": "https://lgfp.one/NJA0",
+  "capa_local": "DEAD LIKE ME A MORTE LHE CAI BEM/DEAD LIKE ME A MORTE LHE CAI BEM.jpg",
+  "sinopse": "Dead Like Me segue um grupo de ceifadores mortos-vivos encarregados de pastorear os recém-falecidos após a morte.",
+  "genero": "Sci-Fi & Fantasy, Drama, Comédia",
+  "elenco": "Ellen Muth, Mandy Patinkin, Callum Blue, Jasmine Guy, Cynthia Stevenson",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:13:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:41:01"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:40:52"
+        }
+      ]
+    }
+  ],
+  "id": 7042
+}

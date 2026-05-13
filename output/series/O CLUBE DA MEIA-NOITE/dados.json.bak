@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NjA=",
+  "tipo": "serie",
+  "titulo": "O CLUBE DA MEIA-NOITE",
+  "capa_url": "https://lgfp.one/TTT",
+  "capa_local": "O CLUBE DA MEIA-NOITE/O CLUBE DA MEIA-NOITE.jpg",
+  "sinopse": "Em uma clínica para adolescentes em estado terminal, integrantes de um clube secreto fazem um pacto sinistro: quem morrer primeiro terá que mandar um sinal do além.",
+  "genero": "Mistério, Drama",
+  "elenco": "Iman Benson, Igby Rigney, Ruth Codd, Annarah Cymone, Sauriyan Sapkota",
+  "diretor": "Morgan Beggs, Mike Flanagan",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:54"
+        }
+      ]
+    }
+  ],
+  "id": 2926
+}

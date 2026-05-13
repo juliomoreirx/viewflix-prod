@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5Mzk=",
+  "tipo": "serie",
+  "titulo": "MEU NOME É",
+  "capa_url": "https://lgfp.one/JAW",
+  "capa_local": "MEU NOME E/MEU NOME E.jpg",
+  "sinopse": "Três mulheres em diferentes jornadas de autoconhecimento. Em histórias independentes, cada uma delas encara dificuldades, experiências intensas e momentos emocionantes.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:23"
+        }
+      ]
+    }
+  ],
+  "id": 392
+}

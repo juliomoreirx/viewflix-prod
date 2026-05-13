@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMjM=",
+  "tipo": "serie",
+  "titulo": "HOOLIGAN",
+  "capa_url": "https://lgfp.one/LNN7",
+  "capa_local": "HOOLIGAN/HOOLIGAN.jpg",
+  "sinopse": "Para o jovem Kuba, de 17 anos, é difícil não seguir os passos do pai, um hooligan que acabou de sair da cadeia. Afinal, futebol é família.",
+  "genero": "Drama, Crime",
+  "elenco": "Grzegorz Palkowski, Mila Jankowska, Karol Pocheć, Marta Żmuda-Trzebiatowska, Wojciech Zieliński",
+  "diretor": "Sylwia Wojdecka",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:14"
+        }
+      ]
+    }
+  ],
+  "id": 6808
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwOTk=",
+  "tipo": "serie",
+  "titulo": "BANCROFT",
+  "capa_url": "https://lgfp.one/RGG",
+  "capa_local": "BANCROFT/BANCROFT.jpg",
+  "sinopse": "Elizabeth Bancroft (Sarah Parish) é uma respeitada detetive, tentando derrubar uma gangue de criminosos enquanto um caso arquivado é reaberto pela jovem detetive Katherine Stevens (Faye Marsay).",
+  "genero": "Crime, Drama",
+  "elenco": "Sarah Parish, Adam Long, Charles Babalola, Charlotte Hope, Lee Boardman",
+  "diretor": "Lawrence Gough",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:01:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:02:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:29"
+        }
+      ]
+    }
+  ],
+  "id": 981
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNjY=",
+  "tipo": "serie",
+  "titulo": "AMOR ATE O FIM",
+  "capa_url": "https://lgfp.one/MVK5",
+  "capa_local": "AMOR ATE O FIM/AMOR ATE O FIM.jpg",
+  "sinopse": "O mundo de Raul se desfaz. Marta está grávida. Depois de se encontrarem num velório, eles tropeçam no caos da vida.",
+  "genero": "Comédia, Drama",
+  "elenco": "Verónica Echegui, Joan Amargós Rubert, Cristian Valencia, Paula Malia, Claudia Melo",
+  "diretor": "Oriol Pérez Alcaraz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:12"
+        }
+      ]
+    }
+  ],
+  "id": 6834
+}

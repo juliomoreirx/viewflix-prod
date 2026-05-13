@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MTA=",
+  "tipo": "serie",
+  "titulo": "TITÃ SIMBIÔNICO",
+  "capa_url": "https://lgfp.one/AAMO",
+  "capa_local": "TITA SIMBIONICO/TITA SIMBIONICO.jpg",
+  "sinopse": "A série, criada por Genndy Tartakovsky (o criador de o Laboratório de Dexter e Samurai Jack), conta a história de Ilana, Lance e Octus que chegaram acidentalmente à Terra após fugir de um comandante que estava destruindo seu planeta. Ilana é a princesa da família rela, Lance é um soldado e Octus um robô biocibernético.\n\nAgora eles tem que se adaptar à vida como terráqueos como estudantes do colegial em Illinois. Quando estão em batalhas, eles criam armaduras individuais especiais e quando unem coração, corpo, e mente se transformam em um só, o Robo Simbiônico.",
+  "genero": "Action & Adventure, Animação",
+  "elenco": "Brian Posehn, Tara Strong",
+  "diretor": "Genndy Tartakovsky",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:18"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:22:26"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:22:16"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:22:18"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:22:22"
+        }
+      ]
+    }
+  ],
+  "id": 3692
+}

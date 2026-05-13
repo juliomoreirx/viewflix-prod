@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNTc=",
+  "tipo": "serie",
+  "titulo": "REGISTRO DE CRIATURAS FANTASTICAS [L]",
+  "capa_url": "https://lgfp.one/DCE9",
+  "capa_local": "REGISTRO DE CRIATURAS FANTASTICAS [L]/REGISTRO DE CRIATURAS FANTASTICAS [L].jpg",
+  "sinopse": "Yoshihito é um jovem comum que tenta ganhar a vida alugando os quartos de sua casa. Um dia, ele conhece sua primeira inquilina, Lili, mas depois descobre que ela é um licantropo. Na mesma noite, eles são atacados por uma vampira, Vivian.",
+  "genero": "Animação, Sci-Fi & Fantasy, Comédia",
+  "elenco": "Jo Mikami, 洲崎綾, 夏吉ゆうこ, 檜山修之, 本多真梨子",
+  "diretor": "西本由紀夫",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:25:15"
+        }
+      ]
+    }
+  ],
+  "id": 5752
+}

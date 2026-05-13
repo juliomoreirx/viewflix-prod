@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMDI=",
+  "tipo": "serie",
+  "titulo": "WORLD ON A WIRE [L]",
+  "capa_url": "https://lgfp.one/AYFS",
+  "capa_local": "WORLD ON A WIRE [L]/WORLD ON A WIRE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Sci-Fi & Fantasy, Mistério",
+  "elenco": "Klaus Löwitsch, Mascha Rabben, Karl-Heinz Vosgerau, Adrian Hoven, Ivan Desny",
+  "diretor": "Rainer Werner Fassbinder",
+  "total_episodios": "102",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:45:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:47:39"
+        }
+      ]
+    }
+  ],
+  "id": 4787
+}

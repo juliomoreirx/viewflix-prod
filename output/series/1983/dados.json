@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MDA=",
+  "tipo": "serie",
+  "titulo": "1983",
+  "capa_url": "https://lgfp.one/RTH",
+  "capa_local": "1983/1983.jpg",
+  "sinopse": "Neste suspense sombrio de história alternativa, um estudante de direito ingênuo e um policial veterano descobrem uma conspiração que tiranizou a Polônia por décadas.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Robert Więckiewicz, Maciej Musiał, Michalina Olszańska, Andrzej Chyra, Zofia Wichłacz",
+  "diretor": "Agnieszka Holland",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:54"
+        }
+      ]
+    }
+  ],
+  "id": 1336
+}

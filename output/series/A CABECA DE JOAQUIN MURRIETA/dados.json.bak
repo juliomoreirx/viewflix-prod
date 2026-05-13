@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5ODQ=",
+  "tipo": "serie",
+  "titulo": "A CABEÇA DE JOAQUÍN MURRIETA",
+  "capa_url": "https://lgfp.one/YMH",
+  "capa_local": "A CABECA DE JOAQUIN MURRIETA/A CABECA DE JOAQUIN MURRIETA.jpg",
+  "sinopse": "A ganância tomou conta da Califórnia por causa da corrida do ouro, tornando as pessoas sedentas por riqueza e terras. Na recém-traçada fronteira entre o México e os EUA, uma guerra sem lei pelo controle, alimentada pela raiva e xenofobia da guerra passada, é liderada por um grupo de imigrantes que unem forças para criar o mito do Robin Hood latino: Joaquín Murrieta.",
+  "genero": "Drama / Faroeste / Action & Adventure",
+  "elenco": "Juan Manuel Bernal, Steve Wilcox, Alejandro Speitzer, Becky Zhu Wu, Gus Carr, Yoshira Escárrega, Emiliano Zurita, Andrew Leland Rogers",
+  "diretor": "Mauricio Leiva-Cock, Diego Ramírez Schrempp",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:18"
+        }
+      ]
+    }
+  ],
+  "id": 3273
+}

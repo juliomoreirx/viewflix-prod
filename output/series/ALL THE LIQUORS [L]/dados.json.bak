@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMzE=",
+  "tipo": "serie",
+  "titulo": "ALL THE LIQUORS [L]",
+  "capa_url": "https://lgfp.one/BAS1",
+  "capa_local": "ALL THE LIQUORS [L]/ALL THE LIQUORS [L].jpg",
+  "sinopse": "Han Ji Yu é um empregado de marketing de uma empresa de bebidas que ama sua vida social agitada e gastronômica. Quando sua equipe precisa encontrar um chef talentoso para promover a empresa, eles escolhem Park Ki Hoon, o renomado chef de um popular restaurante. Contudo, Ki Hoon detesta álcool. Para contornar isso, Ji Yu decide trabalhar meio período no restaurante na esperança de mudar a opinião de Ki Hoon.",
+  "genero": "Drama",
+  "elenco": "Kim Jun-hyung, Won Do-hyun, Jeong Ho-gyoon, Roshin, Han Da-sol",
+  "diretor": "Kim Jin-yeol",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:18:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:18:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:16:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:16:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:16:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:36"
+        }
+      ]
+    }
+  ],
+  "id": 5389
+}

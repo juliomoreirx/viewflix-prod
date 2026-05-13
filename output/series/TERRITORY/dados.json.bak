@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwODg=",
+  "tipo": "serie",
+  "titulo": "TERRITORY",
+  "capa_url": "https://lgfp.one/EAZ4",
+  "capa_local": "TERRITORY/TERRITORY.jpg",
+  "sinopse": "Quando a maior fazenda de gado do mundo fica sem uma liderança definida, facções rivais tentam tomar o controle, e uma luta entre gerações ameaça o futuro dessa terra.",
+  "genero": "Faroeste, Drama, Action & Adventure",
+  "elenco": "Anna Torv, Robert Taylor, Michael Dorman, Sam Corlett, Philippa Northeast",
+  "diretor": "Greg McLean",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:34"
+        }
+      ]
+    }
+  ],
+  "id": 6158
+}

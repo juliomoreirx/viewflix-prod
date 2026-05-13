@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NjE=",
+  "tipo": "serie",
+  "titulo": "RUN COYOTE RUN",
+  "capa_url": "https://lgfp.one/SAA",
+  "capa_local": "RUN COYOTE RUN/RUN COYOTE RUN.jpg",
+  "sinopse": "Run Coyote Run é uma série de televisão mexicana de ação, comédia e aventura, apresenta a história de Gama e Morris, dois amigos que se juntam para montar uma \"agência de viagens\" especializada em migração ilegal para os Estados Unidos, que é capaz de libertar qualquer agente de imigração. Neste novo lançamento, enfrentaremos novos riscos, dentre os quais destacamos a sagacidade máxima para fazer com que o negócio continue a prosperar.",
+  "genero": "Action & Adventure, Comédia",
+  "elenco": "Harold Torres, Jean Roland Dufresne",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:35"
+        }
+      ]
+    }
+  ],
+  "id": 1683
+}

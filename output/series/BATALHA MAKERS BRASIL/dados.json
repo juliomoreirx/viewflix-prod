@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MjA=",
+  "tipo": "serie",
+  "titulo": "BATALHA MAKERS BRASIL",
+  "capa_url": "https://lgfp.one/YBL",
+  "capa_local": "BATALHA MAKERS BRASIL/BATALHA MAKERS BRASIL.jpg",
+  "sinopse": "Os participantes são testados em várias competições e precisam usar o conhecimento e as habilidades criativas para solucionar os problemas propostos.",
+  "genero": "Reality",
+  "elenco": "Ricardo Cavallini, Rita Wu, Edgar Andrade, Marcelo Tas",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:37"
+        }
+      ]
+    }
+  ],
+  "id": 227480
+}

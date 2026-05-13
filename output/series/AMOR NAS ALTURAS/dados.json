@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMTE=",
+  "tipo": "serie",
+  "titulo": "AMOR NAS ALTURAS",
+  "capa_url": "https://lgfp.one/YXD",
+  "capa_local": "AMOR NAS ALTURAS/AMOR NAS ALTURAS.jpg",
+  "sinopse": "Uma comédia romântica musical ambientada na cidade de Nova York em 1999, seguindo a história extraordinária de um casal comum, quando eles se apaixonam e encontram um mundo de memórias, obsessões, medos e fantasias que vivem dentro de suas cabeças. Isso os leva a descobrir que o maior obstáculo para encontrar a felicidade juntos pode ser eles mesmos.",
+  "genero": "Comédia",
+  "elenco": "Mae Whitman, Carlos Valdes, Katie Finneran, John Hodgman, Andrea Burns, Sophia Hammons, Emilia Suárez, Rehanshi Mirza",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:33"
+        }
+      ]
+    }
+  ],
+  "id": 73425
+}

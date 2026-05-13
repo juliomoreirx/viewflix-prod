@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1OTU=",
+  "tipo": "serie",
+  "titulo": "DESAFIO DOS CORRETORES",
+  "capa_url": "https://lgfp.one/AMN9",
+  "capa_local": "DESAFIO DOS CORRETORES/DESAFIO DOS CORRETORES.jpg",
+  "sinopse": "Dois casais começam com um orçamento de mil dólares e tentam usá-lo para trocar de casa e ganhar um milhão de dólares em seis meses.",
+  "genero": "Reality",
+  "elenco": "Jonathan Wrobel, Danielle Wrobel, EJ Williams",
+  "diretor": "Michael Cimpher",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:31"
+        }
+      ]
+    }
+  ],
+  "id": 5137
+}

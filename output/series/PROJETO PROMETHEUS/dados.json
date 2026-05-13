@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2Mjk=",
+  "tipo": "serie",
+  "titulo": "PROJETO PROMETHEUS",
+  "capa_url": "https://lgfp.one/REH8",
+  "capa_local": "PROJETO PROMETHEUS/PROJETO PROMETHEUS.jpg",
+  "sinopse": "O ex-piloto militar Shaposhnikov está investigando o caso do desaparecimento de um avião de passageiros em 1998. O caso se desenvolve de forma inesperada no presente, quando um dos passageiros do voo desaparecido consegue entrar em contato com sua família. Anna, uma jornalista que conhece essa história misteriosa em primeira mão, se envolve na investigação.",
+  "genero": "Mistério, Sci-Fi & Fantasy",
+  "elenco": "Филипп Янковский, Любовь Аксёнова, Дмитрий Чеботарёв, Елена Ербакова, Александр Алябьев",
+  "diretor": "Максим Свешников, Максим Свешников",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:29"
+        }
+      ]
+    }
+  ],
+  "id": 8511
+}

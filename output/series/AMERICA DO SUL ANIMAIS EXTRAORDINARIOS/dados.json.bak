@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMTI=",
+  "tipo": "serie",
+  "titulo": "AMERICA DO SUL ANIMAIS EXTRAORDINARIOS",
+  "capa_url": "https://lgfp.one/RGW7",
+  "capa_local": "AMERICA DO SUL ANIMAIS EXTRAORDINARIOS/AMERICA DO SUL ANIMAIS EXTRAORDINARIOS.jpg",
+  "sinopse": "A América do Sul é uma terra de extremos. A sobrevivência é um desafio enorme, mas milênios de evolução estranha fizeram desta extensão gigantesca um território de criaturas elusivas, presas abundantes e poderosos predadores.",
+  "genero": "Documentário",
+  "elenco": "Mark Cameron",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:03"
+        }
+      ]
+    }
+  ],
+  "id": 8631
+}

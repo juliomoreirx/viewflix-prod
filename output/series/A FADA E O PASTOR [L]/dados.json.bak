@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5ODc=",
+  "tipo": "serie",
+  "titulo": "A FADA E O PASTOR [L]",
+  "capa_url": "https://lgfp.one/PFF3",
+  "capa_local": "A FADA E O PASTOR [L]/A FADA E O PASTOR [L].jpg",
+  "sinopse": "Seong-A é estudante de dia e xamã à noite. Ela é desprezada pelos outros por ver e interagir com fantasmas, mas sorri e segue em frente, acostumada a ser diferente. Gyeon-U é bonito, frágil, mas forte, um garoto a quem só acontecem fatalidades. Seong-A promete protegê-lo quando ele entra no templo dela desafiando a morte.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "조이현, 추영우, 차강윤, 추자현",
+  "diretor": "Yang Ji-hoon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:10"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:02:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:04:50"
+        }
+      ]
+    }
+  ],
+  "id": 7672
+}

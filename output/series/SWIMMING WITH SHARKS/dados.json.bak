@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NjE=",
+  "tipo": "serie",
+  "titulo": "SWIMMING WITH SHARKS",
+  "capa_url": "https://lgfp.one/AALB",
+  "capa_local": "SWIMMING WITH SHARKS/SWIMMING WITH SHARKS.jpg",
+  "sinopse": "Quando Lou Simms(Kiernan Shipka) começa seu estágio na Fountain Pictures, ela parece uma ingênua recém-chegada a Hollywood, impressionada com a notória CEO do estúdio, Joyce Holt(Diane Kruger). Lou logo se mostra indispensável para Joyce, que não está apenas tentando manobrar seu chefe antiquado e nacionalista(Donald Sutherland), mas também ter um bebê depois de anos de tentativas. Na verdade, Lou fez uma extensa pesquisa sobre Joyce e conseguir este estágio não foi uma feliz coincidência. À medida que a obsessão de Lou cresce, ela fará de tudo para se aproximar de seu ídolo, até mesmo matar.",
+  "genero": "Drama",
+  "elenco": "Kiernan Shipka, Diane Kruger, Donald Sutherland, Thomas Dekker, Finn Jones",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:10"
+        }
+      ]
+    }
+  ],
+  "id": 3632
+}

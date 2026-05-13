@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTY=",
+  "tipo": "serie",
+  "titulo": "COMPRO LIKES",
+  "capa_url": "https://lgfp.one/ABBA",
+  "capa_local": "COMPRO LIKES/COMPRO LIKES.jpg",
+  "sinopse": "Wagner é um ator fracassado, que faz de tudo para aparecer, mas não consegue passar em nenhum teste. Ele é induzido por seu guru, Johnny, a comprar seguidores, com o intuito de obter likes falsos para parecer um artista popular.",
+  "genero": "Comédia",
+  "elenco": "Fábio Lago, Ana Carolina Machado, Lúcio Mauro Filho, Thiago Fragoso, Milhem Cortaz",
+  "diretor": "André Moraes, André Brandt",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:46"
+        }
+      ]
+    }
+  ],
+  "id": 4087
+}

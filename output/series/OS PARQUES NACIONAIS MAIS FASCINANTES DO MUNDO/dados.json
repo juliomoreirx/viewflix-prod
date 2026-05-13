@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODQ=",
+  "tipo": "serie",
+  "titulo": "OS PARQUES NACIONAIS MAIS FASCINANTES DO MUNDO",
+  "capa_url": "https://lgfp.one/TDJ",
+  "capa_local": "OS PARQUES NACIONAIS MAIS FASCINANTES DO MUNDO/OS PARQUES NACIONAIS MAIS FASCINANTES DO MUNDO.jpg",
+  "sinopse": "Narrada pelo ex-presidente Barack Obama, esta série documental destaca alguns dos parques nacionais mais espetaculares do planeta.",
+  "genero": "Documentário",
+  "elenco": "Barack Obama",
+  "diretor": "Sophie Todd",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:20"
+        }
+      ]
+    }
+  ],
+  "id": 2478
+}

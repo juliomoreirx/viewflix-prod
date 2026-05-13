@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4OTY=",
+  "tipo": "serie",
+  "titulo": "OS IRREGULARES DE BAKER STREET",
+  "capa_url": "https://lgfp.one/RVX",
+  "capa_local": "OS IRREGULARES DE BAKER STREET/OS IRREGULARES DE BAKER STREET.jpg",
+  "sinopse": "Na Londres do século 19, um grupo de jovens se dedica a solucionar crimes sobrenaturais a pedido do Dr. Watson e de seu parceiro Sherlock Holmes.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Henry Lloyd-Hughes, Royce Pierreson, McKell David, Thaddea Graham, Jojo Macari",
+  "diretor": "Joss Agnew, Johnny Allan, Weronika Tofilska",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:06"
+        }
+      ]
+    }
+  ],
+  "id": 1411
+}

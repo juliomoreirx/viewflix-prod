@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyOTc=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS DOS ELEFANTES",
+  "capa_url": "https://lgfp.one/ZQO",
+  "capa_local": "SEGREDOS DOS ELEFANTES/SEGREDOS DOS ELEFANTES.jpg",
+  "sinopse": "Conheça diferentes famílias de elefantes ao redor do mundo. Cada uma tem o seu próprio conjunto de comportamentos culturais particulares que elas adaptaram para se adequar ao ambiente em que vivem.",
+  "genero": "Documentário",
+  "elenco": "Natalie Portman, Paula Kahumbu",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:05"
+        }
+      ]
+    }
+  ],
+  "id": 3454
+}

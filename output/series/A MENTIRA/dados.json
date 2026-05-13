@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNzg=",
+  "tipo": "serie",
+  "titulo": "A MENTIRA",
+  "capa_url": "https://lgfp.one/SXU",
+  "capa_local": "A MENTIRA/A MENTIRA.jpg",
+  "sinopse": "Ophelia se apaixona pelo seu professor de literatura, que é casado. Quando ele misteriosamente desaparece, ela o procura e descobre segredos inimagináveis sobre sua vida.",
+  "genero": "Drama",
+  "elenco": "Emily Reid, Emmett Scanlan, Paul Mescal, Catherine Walker, Eleanor Methven",
+  "diretor": "Chloë Thomas, Adam Philpott, Tanya Rosen",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:57"
+        }
+      ]
+    }
+  ],
+  "id": 377128
+}

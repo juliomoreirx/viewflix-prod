@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzM=",
+  "tipo": "serie",
+  "titulo": "ENTRE LOBOS",
+  "capa_url": "https://lgfp.one/YCE",
+  "capa_local": "ENTRE LOBOS/ENTRE LOBOS.jpg",
+  "sinopse": "A segurança pública do Brasil está em frangalhos. O prejuízo é imenso, contabilizado em milhões de dólares e milhares de vidas perdidas para sempre” Documentário Brasil Paralelo 2022.",
+  "genero": "Documentário / Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "1",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:18:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:27:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:34:02"
+        }
+      ]
+    }
+  ],
+  "id": 2649
+}

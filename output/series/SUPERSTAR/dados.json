@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4Njk=",
+  "tipo": "serie",
+  "titulo": "SUPERSTAR",
+  "capa_url": "https://lgfp.one/PJJ0",
+  "capa_local": "SUPERSTAR/SUPERSTAR.jpg",
+  "sinopse": "Ambientada no caos do início dos anos 2000, esta série reinventa a vida da cantora pop Tamara (e sua transformação em Yurena) de um jeito bem peculiar.",
+  "genero": "Drama, Comédia",
+  "elenco": "Ingrid García Jonsson, Rocío Ibáñez, Secun de la Rosa, Carlos Areces, Pepón Nieto",
+  "diretor": "Claudia Costafreda, Nacho Vigalondo",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:01"
+        }
+      ]
+    }
+  ],
+  "id": 7659
+}

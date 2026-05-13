@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NjM=",
+  "tipo": "serie",
+  "titulo": "EM NOME DA FÉ: UMA TRAIÇÃO SAGRADA",
+  "capa_url": "https://lgfp.one/YSB",
+  "capa_local": "EM NOME DA FE UMA TRAICAO SAGRADA/EM NOME DA FE UMA TRAICAO SAGRADA.jpg",
+  "sinopse": "Esta série documental conta a história real de quatro líderes coreanos que alegavam ser profetas e expõe o lado sombrio do fanatismo religioso.",
+  "genero": "Documentário, Crime",
+  "elenco": "Andrew Lee, Keisuke Hoashi, June Yoon",
+  "diretor": "Jo Sung-hyun, Kim Jin-man, Kim Bo-seul",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:05"
+        }
+      ]
+    }
+  ],
+  "id": 3319
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDg=",
+  "tipo": "serie",
+  "titulo": "RECOMEÇO",
+  "capa_url": "https://lgfp.one/VXP",
+  "capa_local": "RECOMECO/RECOMECO.jpg",
+  "sinopse": "Uma americana se apaixona por um siciliano que conheceu na Itália, mas ele acaba morrendo de câncer. Agora, ela encontra refúgio onde menos esperava.",
+  "genero": "Drama",
+  "elenco": "Zoe Saldaña, Eugenio Mastrandrea, Danielle Deadwyler, Judith Scott, Kellita Smith",
+  "diretor": "Nzingha Stewart, Amy Wang",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:58"
+        }
+      ]
+    }
+  ],
+  "id": 2978
+}

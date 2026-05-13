@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMjg=",
+  "tipo": "serie",
+  "titulo": "FLACK",
+  "capa_url": "https://lgfp.one/SVX",
+  "capa_local": "FLACK/FLACK.jpg",
+  "sinopse": "Robyn é uma profissional de relações públicas. Ela impulsiona, faz publicidade e protege os clientes. Seu trabalho é esse, consertar a vida de outras pessoas, apesar de ser incapaz de corrigir a sua própria.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "Oliver Lansley",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:24"
+        }
+      ]
+    }
+  ],
+  "id": 2282
+}

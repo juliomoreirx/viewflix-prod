@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0ODg=",
+  "tipo": "serie",
+  "titulo": "OS ELEITOS",
+  "capa_url": "https://lgfp.one/RHK",
+  "capa_local": "OS ELEITOS/OS ELEITOS.jpg",
+  "sinopse": "A incrível história dos primórdios do programa espacial dos EUA, baseada no icônico best-seller de Tom Wolfe. No auge da Guerra Fria, a recém-criada NASA seleciona sete dos melhores pilotos de teste militares para se tornarem astronautas. Competindo para serem os primeiros no espaço, esses homens alcançam o extraordinário, inspirando o mundo a se voltar para um novo horizonte de ambição e esperança.",
+  "genero": "Drama",
+  "elenco": "Jake McDorman, Patrick J. Adams, Colin O'Donoghue, Eloise Mumford, James Lafferty",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:55"
+        }
+      ]
+    }
+  ],
+  "id": 1011
+}

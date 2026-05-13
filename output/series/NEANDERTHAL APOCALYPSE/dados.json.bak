@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Nzc=",
+  "tipo": "serie",
+  "titulo": "NEANDERTHAL APOCALYPSE",
+  "capa_url": "https://lgfp.one/NJU6",
+  "capa_local": "NEANDERTHAL APOCALYPSE/NEANDERTHAL APOCALYPSE.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Jamie McGuire, Demetri Goritsas, Eric Supensky",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:45"
+        }
+      ]
+    }
+  ],
+  "id": 7063
+}

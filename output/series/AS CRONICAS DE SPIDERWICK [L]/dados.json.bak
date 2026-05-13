@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNzA=",
+  "tipo": "serie",
+  "titulo": "AS CRONICAS DE SPIDERWICK [L]",
+  "capa_url": "https://lgfp.one/BGS0",
+  "capa_local": "AS CRONICAS DE SPIDERWICK [L]/AS CRONICAS DE SPIDERWICK [L].jpg",
+  "sinopse": "Acompanha a família Grace – os gêmeos Jared e Simon, a irmã Mallory e a mãe Helen – que se mudam para a casa de seus ancestrais e começam a desvendar um sombrio mistério sobre seu tio-bisavô que uma vez descobriu o mundo secreto e talvez presunçoso das fadas que existem paralelamente ao seu.",
+  "genero": "Action & Adventure, Família",
+  "elenco": "Joy Bryant, Noah Cottrell, Lyon Daniels, Mychala Lee, Jack Dylan Grazer",
+  "diretor": "Kat Coiro, Jasmyne Peck",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:36"
+        }
+      ]
+    }
+  ],
+  "id": 387690
+}

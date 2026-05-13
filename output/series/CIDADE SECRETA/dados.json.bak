@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MDM=",
+  "tipo": "serie",
+  "titulo": "CIDADE SECRETA",
+  "capa_url": "https://lgfp.one/RDZ0",
+  "capa_local": "CIDADE SECRETA/CIDADE SECRETA.jpg",
+  "sinopse": "Sob a plácida fachada de Canberra, em meio à crescente tensão entre China e América, a jornalista política sênior Harriet Dunkley descobre uma cidade secreta de conspirações entrelaçadas, colocando vidas inocentes em perigo, inclusive a dela.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Anna Torv, Andrew McFarlane, Benedict Hardie, Robert Rabiah, Don Hany",
+  "diretor": "Emma Freeman, Tony Krawitz, Daniel Nettheim",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:15"
+        }
+      ]
+    }
+  ],
+  "id": 8494
+}

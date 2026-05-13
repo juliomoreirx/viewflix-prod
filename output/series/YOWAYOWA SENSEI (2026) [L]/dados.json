@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMDc=",
+  "tipo": "serie",
+  "titulo": "YOWAYOWA SENSEI (2026) [L]",
+  "capa_url": "https://lgfp.one/SUK9",
+  "capa_local": "YOWAYOWA SENSEI (2026) [L]/YOWAYOWA SENSEI (2026) [L].jpg",
+  "sinopse": "A história segue Akihito Abikura, um estudante do segundo ano do ensino médio que fica intimidado ao descobrir que foi designado para a classe de Hiyori Hiwarimura, uma professora notoriamente assustadora. No entanto, Akihito logo descobre que Hiyori não é realmente assustadora, ela é extremamente tímida.",
+  "genero": "Animação, Comédia",
+  "elenco": "Marika Kono, Kakeru Hatano",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 9409
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MjE=",
+  "tipo": "serie",
+  "titulo": "LOVE ME",
+  "capa_url": "https://lgfp.one/WAE",
+  "capa_local": "LOVE ME/LOVE ME.jpg",
+  "sinopse": "Explora o amor moderno na forma como é experimentado por diferentes membros da família em diferentes estágios da vida.",
+  "genero": "Drama",
+  "elenco": "Bojana Novaković, Hugo Weaving, William Lodder, Bob Morley, Heather Mitchell, Shalom Brune-Franklin",
+  "diretor": "Emma Freeman",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:58"
+        }
+      ]
+    }
+  ],
+  "id": 8549
+}

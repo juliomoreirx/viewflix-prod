@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMTc=",
+  "tipo": "serie",
+  "titulo": "A PRACINHA",
+  "capa_url": "https://lgfp.one/DUL9",
+  "capa_local": "A PRACINHA/A PRACINHA.jpg",
+  "sinopse": "A Pracinha é a versão infantil do clássico programa \"A Praça é Nossa\". Trazendo um elenco composto majoritariamente por crianças, o programa une tradição, criatividade e inovação, com personagens originais e releituras de figuras já amadas pelo público, provando que o banco mais querido do Brasil agora também é das crianças.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:29:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:24:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:21:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:20:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:29:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:30:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:27:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:29:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:28:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:35:05"
+        }
+      ]
+    }
+  ],
+  "id": 6070
+}

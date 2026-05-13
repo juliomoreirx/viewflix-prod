@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNTY=",
+  "tipo": "serie",
+  "titulo": "BEHIND CUT [L]",
+  "capa_url": "https://lgfp.one/AUP5",
+  "capa_local": "BEHIND CUT [L]/BEHIND CUT [L].jpg",
+  "sinopse": "Ki Jin é um estudante iniciante de design de moda que sonha alto: ele quer se tornar um designer de roupas mundialmente famoso. Mas a jornada até o topo da árvore da moda da Coreia do Sul não é fácil, e ele está lutando para encontrar o caminho certo. Um dia, na rua, ele esbarra em Yeong Woo, um trabalhador de entrega em meio período sempre otimista. Mesmo que pareça que todos que ele conhece formularam um grande plano sobre como seu futuro se desenrolará, Yeong Woo não tem um sonho. Enquanto todos os outros estão com pressa para chegar a algum lugar na vida, parece que sua própria vida está presa na primeira marcha.",
+  "genero": "Drama",
+  "elenco": "Bum Jun, Eom Se-ung, Choo Suk-Young",
+  "diretor": "Han Woo-rim",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:14:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:14:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:14:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:14:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:14:23"
+        }
+      ]
+    }
+  ],
+  "id": 5280
+}

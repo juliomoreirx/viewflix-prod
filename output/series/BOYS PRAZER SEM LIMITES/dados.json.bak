@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3Nzc=",
+  "tipo": "serie",
+  "titulo": "BOYS PRAZER SEM LIMITES",
+  "capa_url": "https://lgfp.one/PGW8",
+  "capa_local": "BOYS PRAZER SEM LIMITES/BOYS PRAZER SEM LIMITES.jpg",
+  "sinopse": "Dez jovens dinamarqueses se reúnem todo domingo para cantar no coral da igreja e se entregam aos prazeres da vida adulta nos outros dias da semana. Mas a união e a lealdade do grupo serão colocadas à prova após um dos garotos morrer misteriosamente.",
+  "genero": "Drama, Crime",
+  "elenco": "Sylvester Byder, Viktor Hjelmsø, Dar Salim, Karoline Hamm, Julie Christiansen",
+  "diretor": "Sofie Siboni, Jonas Risvig",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:18:25"
+        }
+      ]
+    }
+  ],
+  "id": 7615
+}

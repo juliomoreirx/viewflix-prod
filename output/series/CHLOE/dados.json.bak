@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMDY=",
+  "tipo": "serie",
+  "titulo": "CHLOE",
+  "capa_url": "https://lgfp.one/TJQ",
+  "capa_local": "CHLOE/CHLOE.jpg",
+  "sinopse": "A vida de Becky é diferente da vida de Chloe. Foram amigas na adolescência, mas hoje Becky só acompanha a vida de Chloe pelas redes sociais. Com a morte de Chloe, Becky assume uma nova identidade e se infiltra na vida dos amigos de Chloe para descobrir o que houve. Como Sasha, descobre as faces conflituosas de Chloe, mas se perde em suas mentiras. Descobrirá a verdade antes de se perder?",
+  "genero": "Mistério / Drama",
+  "elenco": "Erin Doherty, Poppy Gilbert, Scott Rose-Marsh, Billy Howle, Jack Farthing, Pippa Bennett-Warner, Brandon Michael Hall, Lisa Palfrey",
+  "diretor": "Alice Seabright",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:24"
+        }
+      ]
+    }
+  ],
+  "id": 2647
+}

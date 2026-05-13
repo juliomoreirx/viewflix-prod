@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyODk=",
+  "tipo": "serie",
+  "titulo": "HIV 40 ANOS: AIDS E SUAS HISTÓRIAS",
+  "capa_url": "https://lgfp.one/ZYA",
+  "capa_local": "HIV 40 ANOS AIDS E SUAS HISTORIAS/HIV 40 ANOS AIDS E SUAS HISTORIAS.jpg",
+  "sinopse": "A série traz histórias de diferentes gerações e sua convivência com o HIV: há quem recebeu o diagnóstico há menos de dez anos e também quem vive com o HIV há pelo menos 30.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Aline Sasahara, Roseli Tardelli",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:05"
+        }
+      ]
+    }
+  ],
+  "id": 3504
+}

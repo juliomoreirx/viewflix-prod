@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNDY=",
+  "tipo": "serie",
+  "titulo": "LEGACY: A VERDADEIRA HISTÓRIA DOS LAKERS",
+  "capa_url": "https://lgfp.one/WAH",
+  "capa_local": "LEGACY A VERDADEIRA HISTORIA DOS LAKERS/LEGACY A VERDADEIRA HISTORIA DOS LAKERS.jpg",
+  "sinopse": "Esta série documental captura a ascensão notável e o sucesso sem precedentes de uma das franquias mais dominantes e icônicas do esporte profissional. Com acesso exclusivo à Família Buss e sondagem, revelando entrevistas com jogadores, treinadores e executivos de front office, esta série narra esta história extraordinária de dentro - contada apenas pelas pessoas que a viveram.",
+  "genero": "Documentário",
+  "elenco": "Jeanie Buss, Magic Johnson, Jerry West, Mitch Kupchak, Michael Cooper, Kareem Abdul-Jabbar, Gary Vitti, Pat Riley",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:20"
+        }
+      ]
+    }
+  ],
+  "id": 3046
+}

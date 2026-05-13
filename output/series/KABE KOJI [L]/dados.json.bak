@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNjQ=",
+  "tipo": "serie",
+  "titulo": "KABE KOJI [L]",
+  "capa_url": "https://lgfp.one/DJQ8",
+  "capa_local": "KABE KOJI [L]/KABE KOJI [L].jpg",
+  "sinopse": "Para Mamoru Nekoyashiki, um artista dōjinshi, a única coisa que satisfaz sua necessidade de aprovação é vender seu mangá BL original na popular seção Kabesa (uma seção para círculos populares de dōjinshi na parede lateral do local) e ser reconhecido pelos leitores em o evento. Mas então, um dia, algo acontece com ele!\n\nEle conhece Issei Kazama, um amigo de infância por quem ele já teve uma queda e que agora é um ídolo popular em ascensão. Suas vidas em mundos distantes nunca deveriam ter se cruzado, mas você não consegue tirar os olhos desta história de dois jovens crescendo na presença um do outro!",
+  "genero": "Comédia, Drama",
+  "elenco": "Koudai Matsuoka, Masaki Nakao, Toshiki Tateishi, Rui Kihara, Konishi Eito",
+  "diretor": "Kentaro Harada",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:03"
+        }
+      ]
+    }
+  ],
+  "id": 5868
+}

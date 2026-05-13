@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MzM=",
+  "tipo": "serie",
+  "titulo": "ROMANTICOS ANONIMOS",
+  "capa_url": "https://lgfp.one/QIR4",
+  "capa_local": "ROMANTICOS ANONIMOS/ROMANTICOS ANONIMOS.jpg",
+  "sinopse": "Uma chocolatier brilhante com medo de fazer contato visual conhece um herdeiro incapaz de tocar em outras pessoas. Mas, de alguma forma, os dois se aproximam.",
+  "genero": "Comédia, Drama",
+  "elenco": "Shun Oguri, 한효주, 中村ゆり, 成田凌, 伊藤歩",
+  "diretor": "Jean-Pierre Améris, 박소연",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:17"
+        }
+      ]
+    }
+  ],
+  "id": 8211
+}

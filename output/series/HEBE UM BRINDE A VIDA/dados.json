@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNDE=",
+  "tipo": "serie",
+  "titulo": "HEBE: UM BRINDE À VIDA",
+  "capa_url": "https://lgfp.one/TQP",
+  "capa_local": "HEBE UM BRINDE A VIDA/HEBE UM BRINDE A VIDA.jpg",
+  "sinopse": "Em 4 episódios, a produção traz mais de 40 depoimentos, a Hebe que virou referência de apresentadora de TV e sua história pessoal, com seus amores, decepções, aspirações e posições políticas.",
+  "genero": "Documentário",
+  "elenco": "Hebe Camargo",
+  "diretor": "Clara Leonel Ramos, Carolina Kotscho",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:54"
+        }
+      ]
+    }
+  ],
+  "id": 2839
+}

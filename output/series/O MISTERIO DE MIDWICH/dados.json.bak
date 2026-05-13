@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNDQ=",
+  "tipo": "serie",
+  "titulo": "O MISTERIO DE MIDWICH",
+  "capa_url": "https://lgfp.one/DHE0",
+  "capa_local": "O MISTERIO DE MIDWICH/O MISTERIO DE MIDWICH.jpg",
+  "sinopse": "Os moradores de uma cidade ficam inconscientes após um blackout. Ao acordar, todas as mulheres em idade fértil estão grávidas. Seus filhos, porém, apresentam habilidades incomuns.",
+  "genero": "Drama, Sci-Fi & Fantasy, Mistério",
+  "elenco": "Keeley Hawes, Max Beesley, Aisling Loftus, Ukweli Roach, Lara Rossi",
+  "diretor": "Alice Troughton, Declan Bambrick, Michael Searle",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:21"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:53"
+        }
+      ]
+    }
+  ],
+  "id": 5832
+}

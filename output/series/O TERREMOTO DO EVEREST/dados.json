@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTk=",
+  "tipo": "serie",
+  "titulo": "O TERREMOTO DO EVEREST",
+  "capa_url": "https://lgfp.one/TTV",
+  "capa_local": "O TERREMOTO DO EVEREST/O TERREMOTO DO EVEREST.jpg",
+  "sinopse": "Depois de um terremoto terrível no Nepal, moradores e turistas unem forças para enfrentar a destruição nesta série documental emocionante.",
+  "genero": "Documentário",
+  "elenco": "Sara Safari, Shahar Zakai, Arjun Bhandari",
+  "diretor": "Olly Lambert",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:27"
+        }
+      ]
+    }
+  ],
+  "id": 2928
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NjQ=",
+  "tipo": "serie",
+  "titulo": "NARCISO NEGRO",
+  "capa_url": "https://lgfp.one/RTS",
+  "capa_local": "NARCISO NEGRO/NARCISO NEGRO.jpg",
+  "sinopse": "1934. Em um remoto palácio no topo do Himalaias conhecido como a Casa das Mulheres, vive a irmã Clodagh junto de outras noviças. Descobrindo-se incontrolavelmente atraída pelo problemático agente de terras Sr. Dean, a crescente paixão da irmã Clodagh espelha o trágico destino do amor condenado que uma vez se desenrolou para a princesa nepalesa, há muito falecida, Srimati.",
+  "genero": "Drama",
+  "elenco": "Gemma Arterton, Alessandro Nivola, Aisling Franciosi, Diana Rigg, Jim Broadbent",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:21"
+        }
+      ]
+    }
+  ],
+  "id": 1352
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Nzc=",
+  "tipo": "serie",
+  "titulo": "MARE OF EASTTOWN",
+  "capa_url": "https://lgfp.one/RQE",
+  "capa_local": "MARE OF EASTTOWN/MARE OF EASTTOWN.jpg",
+  "sinopse": "Mare Sheehan é uma detetive de uma pequena cidade na Pensilvânia que deve investigar um violento assassinato local. Conforme o lado sombrio da pequena comunidade vem à luz, a vida de Mare desmorona e relacionamentos familiares e tragédias do passado ressurgem para definir o presente.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Kate Winslet, Jean Smart, Julianne Nicholson, Angourie Rice, Evan Peters",
+  "diretor": "Gavin O'Connor, Craig Zobel",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:16:05"
+        }
+      ]
+    }
+  ],
+  "id": 1251
+}

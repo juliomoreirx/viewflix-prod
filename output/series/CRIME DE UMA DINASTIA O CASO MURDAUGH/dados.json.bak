@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMjQ=",
+  "tipo": "serie",
+  "titulo": "CRIME DE UMA DINASTIA O CASO MURDAUGH",
+  "capa_url": "https://lgfp.one/QKZ6",
+  "capa_local": "CRIME DE UMA DINASTIA O CASO MURDAUGH/CRIME DE UMA DINASTIA O CASO MURDAUGH.jpg",
+  "sinopse": "Um jovem é acusado de homicídio, e seu pai processado pelos pais da vítima, que ameaçam expor todas as atividades criminosas de Alex e levá-lo à falência. Essa situação faz com que o patriarca tome medidas desesperadas em uma tentativa de preservar sua reputação e o nome da família.",
+  "genero": "Drama, Crime",
+  "elenco": "Patricia Arquette, Jason Clarke, J. Smith-Cameron, Will Harrison, Johnny Berchtold",
+  "diretor": "Erin Lee Carr",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:41"
+        }
+      ]
+    }
+  ],
+  "id": 8224
+}

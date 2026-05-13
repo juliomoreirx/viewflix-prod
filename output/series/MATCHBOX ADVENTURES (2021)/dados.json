@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5Mjg=",
+  "tipo": "serie",
+  "titulo": "MATCHBOX ADVENTURES (2021)",
+  "capa_url": "https://lgfp.one/TCL3",
+  "capa_local": "MATCHBOX ADVENTURES (2021)/MATCHBOX ADVENTURES (2021).jpg",
+  "sinopse": "O Mason James precisa salvar o dia.",
+  "genero": "Animação",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "3",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:02:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:03:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:03:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:03:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:03:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:03:15"
+        }
+      ]
+    }
+  ],
+  "id": 9544
+}

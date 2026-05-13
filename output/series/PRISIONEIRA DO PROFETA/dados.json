@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NjI=",
+  "tipo": "serie",
+  "titulo": "PRISIONEIRA DO PROFETA",
+  "capa_url": "https://lgfp.one/YKG",
+  "capa_local": "PRISIONEIRA DO PROFETA/PRISIONEIRA DO PROFETA.jpg",
+  "sinopse": "Briell, a 65ª esposa do profeta Warren Jeffs, detalha seu tempo vivendo – e sobrevivendo – na Igreja FLDS. De ser presa a testemunhar o abuso de jovens noivas, a história de Briell expõe os segredos mais sombrios do culto polígamo.",
+  "genero": "Documentário",
+  "elenco": "Rocío de la Grana, Meg Schimelpfenig, Briell Decker",
+  "diretor": "Pat McGee",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:22"
+        }
+      ]
+    }
+  ],
+  "id": 3267
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxODg=",
+  "tipo": "serie",
+  "titulo": "A VIDA QUE VOCE QUERIA",
+  "capa_url": "https://lgfp.one/BDS5",
+  "capa_local": "A VIDA QUE VOCE QUERIA/A VIDA QUE VOCE QUERIA.jpg",
+  "sinopse": "Gloria se sente feliz pela primeira vez desde a transição. Mas seu mundo vira de pernas para o ar depois que uma amiga do passado reaparece com uma notícia bombástica.",
+  "genero": "Drama",
+  "elenco": "Vittoria Schisano, Giuseppe Zeno, Pina Turco, Alessio Lapice, Michele De Virgilio",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:58"
+        }
+      ]
+    }
+  ],
+  "id": 5502
+}

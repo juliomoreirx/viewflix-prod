@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNTk=",
+  "tipo": "serie",
+  "titulo": "GAMERA: O RENASCIMENTO",
+  "capa_url": "https://lgfp.one/AAXW",
+  "capa_local": "GAMERA O RENASCIMENTO/GAMERA O RENASCIMENTO.jpg",
+  "sinopse": "Tóquio, 1989. Quatro garotos acompanham o surgimento da destemida tartaruga kaiju Gamera, que enfrenta monstros gigantes devoradores de humanos.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Hisako Kanemoto, 木村昴, Yoshitsugu Matsuoka, Aki Toyosaki, Mamoru Miyano",
+  "diretor": "瀬下寛之, 瀬下寛之, Keisuke Ide",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:15"
+        }
+      ]
+    }
+  ],
+  "id": 3962
+}

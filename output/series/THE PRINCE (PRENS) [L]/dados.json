@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MjE=",
+  "tipo": "serie",
+  "titulo": "THE PRINCE (PRENS) [L]",
+  "capa_url": "https://lgfp.one/QCN2",
+  "capa_local": "THE PRINCE (PRENS) [L]/THE PRINCE (PRENS) [L].jpg",
+  "sinopse": "Após a morte de seu pai, o herdeiro real mais jovem e menos amado, conhecido simplesmente como “Príncipe”, assume o trono do Reino de Bongomia.",
+  "genero": "Comédia",
+  "elenco": "Giray Altınok, Ceyda Düvenci, Serdar Orçin, Çağdaş Onur Öztürk, Onur Özaydın",
+  "diretor": "Bülent İşbilen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:17"
+        }
+      ]
+    }
+  ],
+  "id": 8093
+}

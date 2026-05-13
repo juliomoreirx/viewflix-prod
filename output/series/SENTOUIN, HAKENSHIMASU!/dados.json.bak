@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NDA=",
+  "tipo": "serie",
+  "titulo": "SENTOUIN, HAKENSHIMASU!",
+  "capa_url": "https://lgfp.one/SAR",
+  "capa_local": "SENTOUIN, HAKENSHIMASU!/SENTOUIN, HAKENSHIMASU!.jpg",
+  "sinopse": "A história acompanha um homem conhecido com Número 6, que faz parte de uma organização maligna chamada Kisaragi Secret Society. Em um certo dia, ele é enviado para fazer o reconhecimento de um mundo distante, ao lado de sua nova parceira, uma androide chamada Alice. Entretanto, ao chegar no novo mundo, que ele supostamente deveria invadir e dominar, Número 6 acaba por perceber que o lugar é o completo clichê de mundo de fantasias, com várias criaturas e pessoas do tipo. Agora, ele precisa encontrar uma forma de superar a diferença cultural do lugar antes de completar a sua temida dominação.",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "Yusuke Shirai, Miyu Tomita, Sayaka Kikuchi, Natsumi Murakami, Minami Takahashi",
+  "diretor": "Hiroaki Akagi, Yukie Sugawara",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:41"
+        }
+      ]
+    }
+  ],
+  "id": 1701
+}

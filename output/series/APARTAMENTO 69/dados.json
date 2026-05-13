@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNjM=",
+  "tipo": "serie",
+  "titulo": "APARTAMENTO 6/9",
+  "capa_url": "https://lgfp.one/AAXP",
+  "capa_local": "APARTAMENTO 69/APARTAMENTO 69.jpg",
+  "sinopse": "Depois de perder o emprego, uma mulher encontra um misterioso pacote na porta do apartamento. E a vida dela muda para pior.",
+  "genero": "Comédia, Crime, Mistério",
+  "elenco": "Davika Hoorne, Apivich Rinthapoln, Thanaporn Rattanasasiwimon, Trisanu Soranun, Pruet Nakprad",
+  "diretor": "Pen-Ek Ratanaruang, Pen-Ek Ratanaruang",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:54"
+        }
+      ]
+    }
+  ],
+  "id": 3955
+}

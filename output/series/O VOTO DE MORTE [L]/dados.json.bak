@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MTA=",
+  "tipo": "serie",
+  "titulo": "O VOTO DE MORTE [L]",
+  "capa_url": "https://lgfp.one/AUDK",
+  "capa_local": "O VOTO DE MORTE [L]/O VOTO DE MORTE [L].jpg",
+  "sinopse": "As pessoas estão ocupadas olhando para a tela. \"Gaetal\", a pessoa usando uma máscara misteriosa, aparece, e o Voto de Morte começa.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Park Hae-jin, Lim Ji-yeon, Park Sung-woong, Kim Yu-mi, Shin Jung-geun",
+  "diretor": "Park Shin-woo",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:11:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:11:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:12:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:13:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:12:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:15:08"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:15:20"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:15:30"
+        }
+      ]
+    }
+  ],
+  "id": 4507
+}

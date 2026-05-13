@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2MjE=",
+  "tipo": "serie",
+  "titulo": "PERDIDO NAS ESTRELAS",
+  "capa_url": "https://lgfp.one/PQQ3",
+  "capa_local": "PERDIDO NAS ESTRELAS/PERDIDO NAS ESTRELAS.jpg",
+  "sinopse": "Perdido nas Estrelas, estrelado por Macaulay Culkin,  é uma série animada de televisão que foi ao ar originalmente nas manhãs de sábado de 14 de setembro de 1991 a julho de 1992 na NBC.\n\nA série em 13 episódios conta as aventuras de Nicholas McClary e sua luva mágica.\n\nNo Brasil o protagonista recebeu a voz do dublador oficial do ator mirim Macaulay Culkin, Peterson Adriano, que já o tinha feito na série para cinema Esqueceram de Mim.\n\nO desenho foi exibido no Brasil no início dos anos 90 no programa Xou da Xuxa e TV Colosso.",
+  "genero": "Sci-Fi & Fantasy, Animação, Família",
+  "elenco": "Tara Strong, Macaulay Culkin, Andrew Sabiston, Quinn Culkin, Harvey Atkin",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:13"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:22:20"
+        }
+      ]
+    }
+  ],
+  "id": 7762
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MDg=",
+  "tipo": "serie",
+  "titulo": "EU SEI QUE ISSO É VERDADE",
+  "capa_url": "https://lgfp.one/RJI",
+  "capa_local": "EU SEI QUE ISSO E VERDADE/EU SEI QUE ISSO E VERDADE.jpg",
+  "sinopse": "Dominick vive um relação extremamente complicada com seu irmão gêmeo, Thomas Birdsey. Sofrendo de esquizofrenia, Thomas está disposto a tudo para sair do asilo em que se encontra, e conta com a ajuda de Dominick para alcançar seu objetivo.",
+  "genero": "Drama",
+  "elenco": "Mark Ruffalo, Melissa Leo, Rosie O'Donnell, Archie Panjabi, Kathryn Hahn",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:19:00"
+        }
+      ]
+    }
+  ],
+  "id": 1063
+}

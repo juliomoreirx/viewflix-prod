@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyNDU=",
+  "tipo": "serie",
+  "titulo": "THE WALKING DEAD THE ONES WHO LIVE [L]",
+  "capa_url": "https://lgfp.one/AJR3",
+  "capa_local": "THE WALKING DEAD THE ONES WHO LIVE [L]/THE WALKING DEAD THE ONES WHO LIVE [L].jpg",
+  "sinopse": "A história de amor entre Rick e Michonne, transformada por um mundo que está em constante mudança, eles se encontrarão em uma guerra contra os vivos ou descobrirão que também são The Walking Dead.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Andrew Lincoln, Danai Gurira, Pollyanna McIntosh",
+  "diretor": "Bert, Bertie",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:51"
+        }
+      ]
+    }
+  ],
+  "id": 5310
+}

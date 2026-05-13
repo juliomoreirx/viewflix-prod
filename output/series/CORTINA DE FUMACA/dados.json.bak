@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNTM=",
+  "tipo": "serie",
+  "titulo": "CORTINA DE FUMACA",
+  "capa_url": "https://lgfp.one/OYJ2",
+  "capa_local": "CORTINA DE FUMACA/CORTINA DE FUMACA.jpg",
+  "sinopse": "Quando um investigador de incêndios se une, contra a vontade, com uma detetive, a corrida para deter dois incendiários dá início a um jogo perverso de segredos e suspeitas.",
+  "genero": "Drama, Crime",
+  "elenco": "Taron Egerton, Jurnee Smollett, John Leguizamo, Rafe Spall, Greg Kinnear",
+  "diretor": "Kari Skogland, Joe Chappelle",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:22"
+        }
+      ]
+    }
+  ],
+  "id": 7508
+}

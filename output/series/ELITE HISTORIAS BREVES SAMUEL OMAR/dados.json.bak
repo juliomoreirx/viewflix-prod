@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODY=",
+  "tipo": "serie",
+  "titulo": "ÉLITE HISTORIAS BREVES: SAMUEL OMAR",
+  "capa_url": "https://lgfp.one/TDD",
+  "capa_local": "ELITE HISTORIAS BREVES SAMUEL OMAR/ELITE HISTORIAS BREVES SAMUEL OMAR.jpg",
+  "sinopse": "Agora que está em remissão, Ander quer passar o verão ajudando seu parceiro de quimioterapia, Alexis, a enfrentar o tratamento.",
+  "genero": "Mistério, Comédia",
+  "elenco": "Itzan Escamilla, Omar Ayuso, Claudia Salas",
+  "diretor": "Lucía Alemany",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:12:02"
+        }
+      ]
+    }
+  ],
+  "id": 2472
+}

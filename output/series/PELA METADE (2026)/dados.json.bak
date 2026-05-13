@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1Mzg=",
+  "tipo": "serie",
+  "titulo": "PELA METADE (2026)",
+  "capa_url": "https://lgfp.one/SVV0",
+  "capa_local": "PELA METADE (2026)/PELA METADE (2026).jpg",
+  "sinopse": "A trama mostra o repentino aparecimento de Ruben (Gadd) no casamento de Niall (Jamie Bell), irmão com quem não falava há anos. A partir daí, a produção vai examinar os altos e baixos da turbulenta relação entre eles, o que envolve violência.",
+  "genero": "Drama, Mistério",
+  "elenco": "Jamie Bell, Richard Gadd, Mitchell Robertson, Stuart Campbell",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:55"
+        }
+      ]
+    }
+  ],
+  "id": 9429
+}

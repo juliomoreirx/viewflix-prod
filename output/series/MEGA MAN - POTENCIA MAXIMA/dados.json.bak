@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwMTE=",
+  "tipo": "serie",
+  "titulo": "MEGA MAN - POTÊNCIA MÁXIMA",
+  "capa_url": "https://lgfp.one/JAT",
+  "capa_local": "MEGA MAN - POTENCIA MAXIMA/MEGA MAN - POTENCIA MAXIMA.jpg",
+  "sinopse": "Aki-light é um jovem robô do mundo de Silicon City, mas quando o vilão Sgt. Night ameaça a segurança da cidade, ele descobre em sua programação interna os superpoderes que o transformam em Mega Man!",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:27"
+        }
+      ]
+    }
+  ],
+  "id": 360867
+}

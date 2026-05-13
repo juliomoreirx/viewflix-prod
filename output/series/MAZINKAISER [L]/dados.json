@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMDg=",
+  "tipo": "serie",
+  "titulo": "MAZINKAISER [L]",
+  "capa_url": "https://lgfp.one/AXKD",
+  "capa_local": "MAZINKAISER [L]/MAZINKAISER [L].jpg",
+  "sinopse": "",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Aida Sayaka, Hiroya Ishimaru, Ai Uchikawa, Hidekatsu Shibata, Fumihiko Tachiki",
+  "diretor": "Keiichi Sato, Koji Morimoto, Masahiko Murata",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:37"
+        }
+      ]
+    }
+  ],
+  "id": 4747
+}

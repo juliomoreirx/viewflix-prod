@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MDY=",
+  "tipo": "serie",
+  "titulo": "OS FILHOS DE SAM: LOUCURA E CONSPIRAÇÃO",
+  "capa_url": "https://lgfp.one/RRF",
+  "capa_local": "OS FILHOS DE SAM LOUCURA E CONSPIRACAO/OS FILHOS DE SAM LOUCURA E CONSPIRACAO.jpg",
+  "sinopse": "O caso Filho de Sam se tornou uma obsessão para o jornalista Maury Terry, para quem os assassinatos estavam associados a uma seita satânica.",
+  "genero": "Documentário, Crime",
+  "elenco": "Maury Terry, Paul Giamatti, David Berkowitz",
+  "diretor": "Joshua Zeman",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:42"
+        }
+      ]
+    }
+  ],
+  "id": 1279
+}

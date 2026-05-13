@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NDA=",
+  "tipo": "serie",
+  "titulo": "BOSTON BLUE (2025)",
+  "capa_url": "https://lgfp.one/SYA2",
+  "capa_local": "BOSTON BLUE (2025)/BOSTON BLUE (2025).jpg",
+  "sinopse": "Danny Reagan se junta à Polícia de Boston vindo da Polícia de Nova York e faz parceria com a detetive Lena Peters, a filha mais velha de uma notável família policial de Boston.",
+  "genero": "Crime, Drama",
+  "elenco": "Donnie Wahlberg, Sonequa Martin-Green, Ernie Hudson, Maggie Lawson, Gloria Reuben",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:51"
+        }
+      ]
+    }
+  ],
+  "id": 9469
+}

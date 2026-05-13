@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMDI=",
+  "tipo": "serie",
+  "titulo": "O VILÃO",
+  "capa_url": "https://lgfp.one/XDY",
+  "capa_local": "O VILAO/O VILAO.jpg",
+  "sinopse": "Depois de não conseguir prender Suro e da humilhação pública, a vida de Nino Scotellaro chega ao fim. A Máfia tira sua dignidade, amor e liberdade, mas o destino lhe dá uma segunda chance. Nino volta à Sicília disfarçado de Balduccio Remora, um primo sul-americano, para vingar o que lhe foi roubado.",
+  "genero": "Crime / Drama / Comédia",
+  "elenco": "Luigi Lo Cascio, Claudia Pandolfi, Vincenzo Pirrotta, Selene Caramazza, Giulia Maenza, Antonio Catania, Fabrizio Ferracane",
+  "diretor": "Ludovica Rampoldi, Giuseppe Stasi, Davide Serino",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:24"
+        }
+      ]
+    }
+  ],
+  "id": 3139
+}

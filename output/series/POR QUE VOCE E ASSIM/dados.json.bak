@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MTM=",
+  "tipo": "serie",
+  "titulo": "POR QUE VOCÊ É ASSIM?",
+  "capa_url": "https://lgfp.one/RQK",
+  "capa_local": "POR QUE VOCE E ASSIM/POR QUE VOCE E ASSIM.jpg",
+  "sinopse": "Três amigos tentam equilibrar trabalho, diversão, identidade, encontros e noitadas nesta sátira sobre a vida de jovens australianos.",
+  "genero": "Comédia",
+  "elenco": "Naomi Higgins, Olivia Junkeer, Wil King",
+  "diretor": "Adam Murfet, Jessie Oldfield",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 1257
+}

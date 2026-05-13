@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0ODI=",
+  "tipo": "serie",
+  "titulo": "TRABALHO SUJO",
+  "capa_url": "https://lgfp.one/EBC5",
+  "capa_local": "TRABALHO SUJO/TRABALHO SUJO.jpg",
+  "sinopse": "Conheça os empregos mais inusitados do mundo e os homens e mulheres que se dispõem a fazê-los. O apresentador Mike Rowe acompanha o trabalho de inseminadores de vacas, criadores de porcos, limpadores de fossas, entre outros.",
+  "genero": "Reality, Comédia",
+  "elenco": "Mike Rowe, David M. Barsky, Doug Glover",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 8",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S08E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S08E02",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S08E03",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S08E04",
+          "duracao": "00:43:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 9",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S09E01",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S09E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S09E03",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S09E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S09E05",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S09E06",
+          "duracao": "00:43:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 10",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S10E01",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S10E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S10E03",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S10E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S10E05",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S10E06",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S10E07",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S10E08",
+          "duracao": "00:43:55"
+        }
+      ]
+    }
+  ],
+  "id": 359324
+}

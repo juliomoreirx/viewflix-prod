@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNDk=",
+  "tipo": "serie",
+  "titulo": "PONIES [L]",
+  "capa_url": "https://lgfp.one/RMY9",
+  "capa_local": "PONIES [L]/PONIES [L].jpg",
+  "sinopse": "Em Moscou, em 1977, duas \"PONIES\" (\"pessoas sem interesse\") tornam-se agentes da CIA e descobrem uma conspiração da Guerra Fria pela qual seus maridos foram mortos.",
+  "genero": "Drama, Mistério",
+  "elenco": "Emilia Clarke, Haley Lu Richardson, Adrian Lester, Artjom Gilz, Vic Michaelis",
+  "diretor": "Susanna Fogel",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:33"
+        }
+      ]
+    }
+  ],
+  "id": 8737
+}

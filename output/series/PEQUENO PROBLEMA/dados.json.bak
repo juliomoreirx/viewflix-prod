@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzY=",
+  "tipo": "serie",
+  "titulo": "PEQUENO PROBLEMA",
+  "capa_url": "https://lgfp.one/XFV",
+  "capa_local": "PEQUENO PROBLEMA/PEQUENO PROBLEMA.jpg",
+  "sinopse": "Liu Lang é um advogado esperto e ganancioso. Uma dia, sua vida vira de cabeça para baixo quando um garotinho chamado Liang-liang aparece em sua porta e o chama de \"papai\". Para piorar mais a situação, Lin Xiao-yan, a advogada novata, o faz ser demitido do escritório de advocacia. Tentando encontrar o caminho de volta ao topo, Liu Lang vai se aproximando de Liang-liang aos poucos enquanto seus próprios valores mudam.",
+  "genero": "Drama / Comédia",
+  "elenco": "Chen Bolin, Puff Kuo, Haijah Lin, Yan Sheng-Yu, Yu-Pin Lin, Vera Chen, William Liao, Jason Tsou",
+  "diretor": "Fu-Hsiang Hsu",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:35"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:38:50"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:38:19"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:38:24"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:36:43"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:38:27"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:38:39"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:37:12"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:37:16"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:37:08"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:38:05"
+        },
+        {
+          "numero": "21",
+          "codigo": "S01E21",
+          "duracao": "00:38:00"
+        },
+        {
+          "numero": "22",
+          "codigo": "S01E22",
+          "duracao": "00:37:19"
+        },
+        {
+          "numero": "23",
+          "codigo": "S01E23",
+          "duracao": "00:37:26"
+        },
+        {
+          "numero": "24",
+          "codigo": "S01E24",
+          "duracao": "00:37:39"
+        },
+        {
+          "numero": "25",
+          "codigo": "S01E25",
+          "duracao": "00:38:21"
+        },
+        {
+          "numero": "26",
+          "codigo": "S01E26",
+          "duracao": "00:41:50"
+        }
+      ]
+    }
+  ],
+  "id": 3156
+}

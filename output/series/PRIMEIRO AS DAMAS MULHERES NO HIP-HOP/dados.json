@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNzk=",
+  "tipo": "serie",
+  "titulo": "PRIMEIRO AS DAMAS: MULHERES NO HIP-HOP",
+  "capa_url": "https://lgfp.one/AASU",
+  "capa_local": "PRIMEIRO AS DAMAS MULHERES NO HIP-HOP/PRIMEIRO AS DAMAS MULHERES NO HIP-HOP.jpg",
+  "sinopse": "Nesta série documental, rappers, compositoras e especialistas falam sobre a influência das mulheres na música e na cultura do hip-hop.",
+  "genero": "Documentário",
+  "elenco": "Queen Latifah, Rah Digga, Latto, MC Lyte, Saweetie",
+  "diretor": "dream hampton, Raeshem Nijhon",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:41"
+        }
+      ]
+    }
+  ],
+  "id": 3833
+}

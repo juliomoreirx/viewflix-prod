@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNjk=",
+  "tipo": "serie",
+  "titulo": "CENA DO CRIME ASSASSINATOS NA ALEMANHA [L]",
+  "capa_url": "https://lgfp.one/RSO7",
+  "capa_local": "CENA DO CRIME ASSASSINATOS NA ALEMANHA [L]/CENA DO CRIME ASSASSINATOS NA ALEMANHA [L].jpg",
+  "sinopse": "Em 2012, uma sequência de assassinatos terríveis abalou a vida noturna de Berlim, e ninguém sabia quem estava cometendo os crimes. Até que uma das vítimas sobreviveu.",
+  "genero": "Crime, Documentário",
+  "elenco": "Miroslaw Wawak, Debbie Pollack, Lucia Lu, Patrik Berg, Rick Hübner",
+  "diretor": "Friederike Thiesen, Joe Berlinger, Jan Zabeil",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:15"
+        }
+      ]
+    }
+  ],
+  "id": 8874
+}

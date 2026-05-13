@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NTQ=",
+  "tipo": "serie",
+  "titulo": "O SENHOR DOS ANÉIS: OS ANÉIS DE PODER",
+  "capa_url": "https://lgfp.one/TPM",
+  "capa_local": "O SENHOR DOS ANEIS OS ANEIS DE PODER/O SENHOR DOS ANEIS OS ANEIS DE PODER.jpg",
+  "sinopse": "Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrenta o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa, esses reinos e personagens criarão legados que permanecerão vivos muito além de suas partidas.",
+  "genero": "Sci-Fi & Fantasy / Action & Adventure / Drama",
+  "elenco": "Markella Kavenagh, Joseph Mawle, Morfydd Clark, Tyroe Muhafidin, Ian Blackburn, Anthony Crum, Maxine Cunliffe, Will Fletcher",
+  "diretor": "John D. Payne, Patrick McKay",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:09:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:12:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:27"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:16:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:02:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:06:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:05:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:01:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:12:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:13:51"
+        }
+      ]
+    }
+  ],
+  "id": 2809
+}

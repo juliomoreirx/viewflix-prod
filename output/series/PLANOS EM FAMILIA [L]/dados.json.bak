@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNDk=",
+  "tipo": "serie",
+  "titulo": "PLANOS EM FAMILIA [L]",
+  "capa_url": "https://lgfp.one/NPK3",
+  "capa_local": "PLANOS EM FAMILIA [L]/PLANOS EM FAMILIA [L].jpg",
+  "sinopse": "Uma história sobre um grupo de pessoas com habilidades especiais que se disfarçam de membros da família para sobreviver e usam métodos únicos para superar os criminosos cruéis que os ameaçam.",
+  "genero": "Drama, Crime, Comédia",
+  "elenco": "배두나, 류승범, 백윤식, 로몬, 이수현",
+  "diretor": "Kim Sun, Kim Gok",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:55"
+        }
+      ]
+    }
+  ],
+  "id": 7182
+}

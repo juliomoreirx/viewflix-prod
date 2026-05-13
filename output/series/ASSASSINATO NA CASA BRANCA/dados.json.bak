@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Nzg=",
+  "tipo": "serie",
+  "titulo": "ASSASSINATO NA CASA BRANCA",
+  "capa_url": "https://lgfp.one/NJU4",
+  "capa_local": "ASSASSINATO NA CASA BRANCA/ASSASSINATO NA CASA BRANCA.jpg",
+  "sinopse": "Uma detetive brilhante e excêntrica precisa desvendar um assassinato na Casa Branca. O desafio: todos os funcionários e convidados são suspeitos.",
+  "genero": "Comédia",
+  "elenco": "Uzo Aduba, Giancarlo Esposito, Molly Griggs, Ken Marino, Randall Park",
+  "diretor": "Linda Brachman",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:27:55"
+        }
+      ]
+    }
+  ],
+  "id": 7061
+}

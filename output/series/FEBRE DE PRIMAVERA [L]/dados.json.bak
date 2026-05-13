@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMDk=",
+  "tipo": "serie",
+  "titulo": "FEBRE DE PRIMAVERA [L]",
+  "capa_url": "https://lgfp.one/SRN4",
+  "capa_local": "FEBRE DE PRIMAVERA [L]/FEBRE DE PRIMAVERA [L].jpg",
+  "sinopse": "Febre de Primavera: o cansaço que muita gente sente na primavera. A professora Yoon Bom, de coração duro, chega a uma pequena escola rural e, aos poucos, volta a sentir alegria graças ao jeito acolhedor de Sun Jae-gyu.",
+  "genero": "Comédia, Drama",
+  "elenco": "이주빈, 안보현, 차서원, Cho Jun Young, Lee Jae In",
+  "diretor": "박원국",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:01:18"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:03:15"
+        }
+      ]
+    }
+  ],
+  "id": 9366
+}

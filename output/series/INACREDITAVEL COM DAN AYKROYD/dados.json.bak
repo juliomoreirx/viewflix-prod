@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMTg=",
+  "tipo": "serie",
+  "titulo": "INACREDITAVEL COM DAN AYKROYD",
+  "capa_url": "https://lgfp.one/AVQ4",
+  "capa_local": "INACREDITAVEL COM DAN AYKROYD/INACREDITAVEL COM DAN AYKROYD.jpg",
+  "sinopse": "O apresentador Dan Aykroyd revela algumas das invenções, criaturas, pessoas e coisas mais misteriosas e bizarras ao longo da história, usando recursos visuais dinâmicos, imagens de arquivo e entrevistas com especialistas.",
+  "genero": "Documentário, Drama, Reality",
+  "elenco": "Dan Aykroyd",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:55"
+        }
+      ]
+    }
+  ],
+  "id": 5339
+}

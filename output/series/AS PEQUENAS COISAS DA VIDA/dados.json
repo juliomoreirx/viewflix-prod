@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMDQ=",
+  "tipo": "serie",
+  "titulo": "AS PEQUENAS COISAS DA VIDA",
+  "capa_url": "https://lgfp.one/ZGE",
+  "capa_local": "AS PEQUENAS COISAS DA VIDA/AS PEQUENAS COISAS DA VIDA.jpg",
+  "sinopse": "A história de Clare, uma mulher cujo casamento está em crise, cuja filha mal fala com ela e cuja carreira de escritora nunca decolou. Quando um amigo sugere que ela assuma uma coluna de conselhos, Clare acha que ela é a pior pessoa para isso... quando, na verdade, ela pode ser completamente qualificada.",
+  "genero": "Comédia / Drama",
+  "elenco": "Kathryn Hahn, Sarah Pidgeon, Quentin Plair, Tanzyn Crawford",
+  "diretor": "Liz Tigelaar",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:21"
+        }
+      ]
+    }
+  ],
+  "id": 3401
+}

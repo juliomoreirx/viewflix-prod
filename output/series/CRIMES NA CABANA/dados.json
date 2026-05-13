@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNzI=",
+  "tipo": "serie",
+  "titulo": "CRIMES NA CABANA",
+  "capa_url": "https://lgfp.one/NSD0",
+  "capa_local": "CRIMES NA CABANA/CRIMES NA CABANA.jpg",
+  "sinopse": "Nesta série instigante relata crimes reais que parecem saídos de um filme de terror. Os eventos acontecem em chalés remotos, onde indivíduos com intenções malignas cometem atos brutais sem serem vistos.",
+  "genero": "Documentário, Crime",
+  "elenco": "James M. Reilly, Katie Raulerson, Jamie Lapierre",
+  "diretor": "Scott Stewart",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:49"
+        }
+      ]
+    }
+  ],
+  "id": 7239
+}

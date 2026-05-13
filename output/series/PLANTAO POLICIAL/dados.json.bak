@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MzM=",
+  "tipo": "serie",
+  "titulo": "PLANTAO POLICIAL",
+  "capa_url": "https://lgfp.one/KPL0",
+  "capa_local": "PLANTAO POLICIAL/PLANTAO POLICIAL.jpg",
+  "sinopse": "Repleta de adrenalina, esta série nos coloca em um carro de patrulha da Polícia de Long Beach. Junto ao policial de treinamento Traci Harmon e o novato Alex Diaz, esta série examina como as complexidades do trabalho afetam a condição humana. Harmon será iluminado por um menino das ruas enquanto Diaz aprenderá que o trabalho de policial não é branco ou negro, mas envolve tons de cinza.",
+  "genero": "Crime, Drama",
+  "elenco": "Troian Bellisario, Brandon Larracuente, Lori Loughlin, Eriq La Salle, Mathew Trent Hunnicutt",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:52"
+        }
+      ]
+    }
+  ],
+  "id": 6520
+}

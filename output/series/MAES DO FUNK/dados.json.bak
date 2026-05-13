@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NTY=",
+  "tipo": "serie",
+  "titulo": "MAES DO FUNK",
+  "capa_url": "https://lgfp.one/AYFE",
+  "capa_local": "MAES DO FUNK/MAES DO FUNK.jpg",
+  "sinopse": "A série apresenta as mães-empresárias dos MCs Kevin, Don Juan, MV, Pedrinho, 7 Belo e Brinquedo, e a sua importância na vida de cada. Há a produção do Baile do Esquece, a estreia de Suevilyyn, irmã de Kevin, no palco, e a Feijoada das Mães do Funk.",
+  "genero": "",
+  "elenco": "Shirlley Andrea, Lidiane Lopes, Ana Lee Maia, Cláudia Moura, Valquíria Nascimento",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:47"
+        }
+      ]
+    }
+  ],
+  "id": 4773
+}

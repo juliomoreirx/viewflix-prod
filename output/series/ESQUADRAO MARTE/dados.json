@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NjE=",
+  "tipo": "serie",
+  "titulo": "ESQUADRÃO MARTE",
+  "capa_url": "https://lgfp.one/RHS3",
+  "capa_local": "ESQUADRAO MARTE/ESQUADRAO MARTE.jpg",
+  "sinopse": "A série segue três ratos antropomórficos motociclistas que escapam de uma guerra em seu planeta natal Marte antes de chegar para defender a Terra do mal que destruiu sua terra natal e um dia retornar a Marte.",
+  "genero": "Kids, Animação, Action & Adventure",
+  "elenco": "Rob Paulsen, Dorian Harewood, Brad Garrett, Susan Silo, William Morgan Sheppard",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:24:18"
+        }
+      ]
+    }
+  ],
+  "id": 8698
+}

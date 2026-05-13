@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MjA=",
+  "tipo": "serie",
+  "titulo": "CLUBE DA AVENTURA",
+  "capa_url": "https://lgfp.one/AAHD",
+  "capa_local": "CLUBE DA AVENTURA/CLUBE DA AVENTURA.jpg",
+  "sinopse": "No mundialmente famoso Clube dos Exploradores, Josh Gates, membro do clube, reconta as maiores aventuras de todos os tempos. Vasculhando o arquivo do clube, ele mostra as expedições que ultrapassaram os limites da capacidade humana.",
+  "genero": "Documentário, Reality",
+  "elenco": "Josh Gates, Lacey Flint, Joe Rohde",
+  "diretor": "Lee Farber",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:24"
+        }
+      ]
+    }
+  ],
+  "id": 3535
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwNjI=",
+  "tipo": "serie",
+  "titulo": "CHOQUE DE CULTURA A SERIE",
+  "capa_url": "https://lgfp.one/RCG1",
+  "capa_local": "CHOQUE DE CULTURA A SERIE/CHOQUE DE CULTURA A SERIE.jpg",
+  "sinopse": "Em Choque de Cultura: A Série, Rogerinho do Ingá (Caito Mainier), Maurílio (Raul Chequer), Julinho da Van (Leandro Ramos) e Renan (Daniel Furlan), os maiores nomes do transporte alternativo do país, estão de volta para novas aventuras. Com seu estilo único e divertido, eles comentam sobre filmes de uma forma ainda mais especial.",
+  "genero": "Comédia",
+  "elenco": "Caito Mainier, Daniel Furlan, Leandro Ramos, Raul Chequer",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:10"
+        }
+      ]
+    }
+  ],
+  "id": 8467
+}

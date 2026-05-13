@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NTU=",
+  "tipo": "serie",
+  "titulo": "CASAR COM UM ASSASSINO (2026)",
+  "capa_url": "https://lgfp.one/SXJ4",
+  "capa_local": "CASAR COM UM ASSASSINO (2026)/CASAR COM UM ASSASSINO (2026).jpg",
+  "sinopse": "Nesta série documental, uma mulher revela como continuou noiva de um homem acusado de assassinato enquanto reunia provas contra ele.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:47"
+        }
+      ]
+    }
+  ],
+  "id": 9459
+}

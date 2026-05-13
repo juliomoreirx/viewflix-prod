@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MjM=",
+  "tipo": "serie",
+  "titulo": "THE LONG SHADOW [L]",
+  "capa_url": "https://lgfp.one/ARCU",
+  "capa_local": "THE LONG SHADOW [L]/THE LONG SHADOW [L].jpg",
+  "sinopse": "A Long Shadow é uma série de sete partes. É a caçada desesperada de cinco anos pelo assassino em série Peter Sutcliffe, focando nas vidas das vítimas e dos policiais na investigação.",
+  "genero": "Crime, Drama",
+  "elenco": "Michael McElhatton, Jack Deam, Chloe Harris, Steven Waddington, Toby Jones",
+  "diretor": "Lewis Arnold",
+  "total_episodios": "315",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:56"
+        }
+      ]
+    }
+  ],
+  "id": 4254
+}

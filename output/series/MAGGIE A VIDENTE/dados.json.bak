@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTQ=",
+  "tipo": "serie",
+  "titulo": "MAGGIE: A VIDENTE",
+  "capa_url": "https://lgfp.one/VXE",
+  "capa_local": "MAGGIE A VIDENTE/MAGGIE A VIDENTE.jpg",
+  "sinopse": "O dom de Maggie permite que ela veja o futuro de seus amigos, pais, clientes e pessoas aleatórias na rua. Mas quando ela começa a ter visões de seu próprio destino depois de conhecer um estranho, sua vida amorosa vira de pernas pro ar.",
+  "genero": "Comédia / Sci-Fi & Fantasy",
+  "elenco": "Rebecca Rittenhouse, David Del Rio, Nichole Sakura, Angelique Cabral, Leonardo Nam, Ray Ford, Chloe Bridges, Kerri Kenney",
+  "diretor": "Justin Adler, Maggie Mull",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:24"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:47"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:26:25"
+        }
+      ]
+    }
+  ],
+  "id": 2967
+}

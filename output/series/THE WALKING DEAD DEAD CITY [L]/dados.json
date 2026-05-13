@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODM=",
+  "tipo": "serie",
+  "titulo": "THE WALKING DEAD: DEAD CITY [L]",
+  "capa_url": "https://lgfp.one/AAKM",
+  "capa_local": "THE WALKING DEAD DEAD CITY [L]/THE WALKING DEAD DEAD CITY [L].jpg",
+  "sinopse": "Maggie e Negan viajam para uma Manhattan pós-apocalíptica, há muito tempo isolada do continente. A cidade em ruínas está cheia de mortos e habitantes que fizeram de Nova York seu próprio mundo cheio de anarquia, perigo, beleza e terror.",
+  "genero": "Drama, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Lauren Cohan, Jeffrey Dean Morgan, Gaius Charles, Zeljko Ivanek, Mahina Napoleon",
+  "diretor": "Loren Yaconelli",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:15"
+        }
+      ]
+    }
+  ],
+  "id": 5117
+}

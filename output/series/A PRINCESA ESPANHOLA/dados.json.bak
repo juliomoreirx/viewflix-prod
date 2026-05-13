@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MDY=",
+  "tipo": "serie",
+  "titulo": "A PRINCESA ESPANHOLA",
+  "capa_url": "https://lgfp.one/RGS",
+  "capa_local": "A PRINCESA ESPANHOLA/A PRINCESA ESPANHOLA.jpg",
+  "sinopse": "Catarina de Aragão, a princesa da Espanha, chega à Inglaterra ao lado de sua dama-de-companhia Lina, a fim de se casar com o príncipe Artur, com quem está prometida em casamento desde pequena. No entanto, a morte inesperada de seu marido a coloca em uma acirrada disputa pelo trono. Mas para que seus poderes estejam garantidos, ela agora precisa se casar com o Príncipe Harry, que um dia governará como o Rei Henrique VIII. Série baseada nos romances \"A Princesa Leal\" e \"A Maldição do Rei\", de Philippa Gregory.",
+  "genero": "Drama",
+  "elenco": "Charlotte Hope, Ruairí O'Connor, Laura Carmichael, Philip Cumbus, Georgie Henley",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:06"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:58:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:57:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:56:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:00:09"
+        }
+      ]
+    }
+  ],
+  "id": 993
+}

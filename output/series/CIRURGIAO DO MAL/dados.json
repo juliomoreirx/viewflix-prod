@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTM=",
+  "tipo": "serie",
+  "titulo": "CIRURGIAO DO MAL",
+  "capa_url": "https://lgfp.one/AUTF",
+  "capa_local": "CIRURGIAO DO MAL/CIRURGIAO DO MAL.jpg",
+  "sinopse": "O Dr. Paolo Macchiarini é famoso no mundo todo por seus transplantes de traqueia com infusão de células-tronco. Só tem um problema: os pacientes sempre acabam morrendo.",
+  "genero": "Documentário",
+  "elenco": "Paolo Macchiarini, Paolo Macchiarini, Karl-Henrik Grinnemo",
+  "diretor": "Ben Steele",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:11"
+        }
+      ]
+    }
+  ],
+  "id": 4554
+}

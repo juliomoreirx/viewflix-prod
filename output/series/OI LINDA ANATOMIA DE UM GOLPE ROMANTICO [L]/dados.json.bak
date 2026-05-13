@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NDA=",
+  "tipo": "serie",
+  "titulo": "OI LINDA ANATOMIA DE UM GOLPE ROMANTICO [L]",
+  "capa_url": "https://lgfp.one/PMZ5",
+  "capa_local": "OI LINDA ANATOMIA DE UM GOLPE ROMANTICO [L]/OI LINDA ANATOMIA DE UM GOLPE ROMANTICO [L].jpg",
+  "sinopse": "Mulheres de várias partes do mundo se apaixonam pelo mesmo homem charmoso, mas o namorado virtual não é quem aparenta ser e isso pode lhes custar tudo.",
+  "genero": "Documentário",
+  "elenco": "Brian Haugen, Annette Viau, Roxy Grant",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:53"
+        }
+      ]
+    }
+  ],
+  "id": 7710
+}

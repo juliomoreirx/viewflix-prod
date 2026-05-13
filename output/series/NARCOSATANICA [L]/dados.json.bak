@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2OTA=",
+  "tipo": "serie",
+  "titulo": "NARCOSATANICA [L]",
+  "capa_url": "https://lgfp.one/PXG6",
+  "capa_local": "NARCOSATANICA [L]/NARCOSATANICA [L].jpg",
+  "sinopse": "Sara Aldrete, \"A Narcosatânica\", narra diretamente da prisão, em primeira pessoa e com detalhes reveladores, esta história repleta de ritos sangrentos, delírios de grandeza, perseguições, capturas, tiroteios e lendas urbanas.",
+  "genero": "Documentário, Crime, Drama",
+  "elenco": "Sara Aldrete",
+  "diretor": "Pat Martínez",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:54"
+        }
+      ]
+    }
+  ],
+  "id": 7931
+}

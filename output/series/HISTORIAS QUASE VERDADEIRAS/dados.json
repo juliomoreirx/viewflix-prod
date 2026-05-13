@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMDc=",
+  "tipo": "serie",
+  "titulo": "HISTÓRIAS QUASE VERDADEIRAS",
+  "capa_url": "https://lgfp.one/XQC",
+  "capa_local": "HISTORIAS QUASE VERDADEIRAS/HISTORIAS QUASE VERDADEIRAS.jpg",
+  "sinopse": "Quatro pequenas esquetes cujo tema central é a mentira, suas motivações e consequências. As histórias são baseadas nos causos contados por Ariano Suassuna em suas aulas mestras.",
+  "genero": "Comédia / Drama",
+  "elenco": "Leandro Hassum, Rocco Pitanga, Nanda Costa, Renato Góes, Cássia Kis, Jackson Antunes, Chris Mason, Serjão Loroza",
+  "diretor": "José Eduardo Belmonte",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:38"
+        }
+      ]
+    }
+  ],
+  "id": 3174
+}

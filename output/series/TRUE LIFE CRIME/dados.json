@@ -1,0 +1,115 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NDQ=",
+  "tipo": "serie",
+  "titulo": "TRUE LIFE CRIME",
+  "capa_url": "https://lgfp.one/SMH",
+  "capa_local": "TRUE LIFE CRIME/TRUE LIFE CRIME.jpg",
+  "sinopse": "A nova série \"True Life: Crime\" investiga os mistérios dos crimes mais angustiantes, agitando as manchetes e os feeds das redes sociais. Essas vítimas eram jovens, os crimes contra elas foram chocantes, e as questões assustadoras permanecem.",
+  "genero": "Documentário / Crime",
+  "elenco": "Dometi Pongo",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:57"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:41:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:41:40"
+        }
+      ]
+    }
+  ],
+  "id": 2202
+}

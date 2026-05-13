@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1MTE=",
+  "tipo": "serie",
+  "titulo": "DAEMONS DO REINO DAS SOMBRAS (2026)",
+  "capa_url": "https://lgfp.one/SOO5",
+  "capa_local": "DAEMONS DO REINO DAS SOMBRAS (2026)/DAEMONS DO REINO DAS SOMBRAS (2026).jpg",
+  "sinopse": "Num mundo onde alguns humanos controlam poderosas duplas sobrenaturais chamadas Daemons, cabe aos “filhos que separam o dia e a noite”, os gêmeos Yuru e Asa, o direito de governar essas criaturas lendárias. Separados desde a infância e sem conhecer a verdade sobre sua origem, os irmãos precisam enfrentar muitos desafios para se reencontrar, reivindicar seu destino e salvar o mundo.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Kensho Ono, Yume Miyamoto, Yuichi Nakamura, Misaki Kuno, 本田貴子",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 9269
+}

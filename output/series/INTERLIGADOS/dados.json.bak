@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMjI=",
+  "tipo": "serie",
+  "titulo": "INTERLIGADOS",
+  "capa_url": "https://lgfp.one/WLV",
+  "capa_local": "INTERLIGADOS/INTERLIGADOS.jpg",
+  "sinopse": "Dongsoo leva uma vida solitária, passando seu tempo postando músicas na internet. Sua vida pacata é interrompida quando ele é sequestrado por um caçador de órgãos, que remove um de seus olhos. Pouco tempo depois, Dongsoo percebe que está compartilhando a mesma visão com a pessoa que recebeu seu olho. Através desta conexão, ele percebe que quem recebeu seu olho é um serial killer, e começa a ir atrás deste assassino para pegar seu olho de volta.",
+  "genero": "Mistério",
+  "elenco": "Jung Hae-in, Go Kyung-pyo, Kim Hye-jun, Kim Roi-ha, Yang Dong-geun, Jo Bok-rae, Jang Gwang, Sung Hyuk",
+  "diretor": "Takashi Miike",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:51"
+        }
+      ]
+    }
+  ],
+  "id": 3124
+}

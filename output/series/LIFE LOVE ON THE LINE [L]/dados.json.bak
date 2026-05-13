@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNjM=",
+  "tipo": "serie",
+  "titulo": "LIFE LOVE ON THE LINE [L]",
+  "capa_url": "https://lgfp.one/DJQ9",
+  "capa_local": "LIFE LOVE ON THE LINE [L]/LIFE LOVE ON THE LINE [L].jpg",
+  "sinopse": "O aluno do ensino médio Ito (Shirasu Jin) é um estudante de 17 anos sério e esforçado. Mas também está entediado e se sente insatisfeito. No caminho da escola para casa, Ito costuma fazer uma espécie de jogo, desafiando-se a andar ao longo de uma grande linha branca na estrada. Um dia, enquanto joga seu jogo solitário, depara-se com outro aluno do ensino médio, o ingênuo porém amigável Nishi (Raiku). Ito se apaixona instantaneamente pelos encantos descomplicados de Nishi.  A dupla se encontra novamente, mas parece que eles só passam tempo juntos quando estão voltando da escola. Em um ataque de paixão, Ito beija Nishi repentinamente – e fica cheio de alegria ao descobrir que Nishi também tem sentimentos por ele. A história segue os dois garotos enquanto eles passam do final da infância para a vida adulta – e são forçados a enfrentar novos desafios que testam seu amor a cada momento.",
+  "genero": "Drama",
+  "elenco": "白洲迅, Raiku, 小島藤子, Shiori Doi, Nao Osada",
+  "diretor": "二宮崇",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:58"
+        }
+      ]
+    }
+  ],
+  "id": 5869
+}

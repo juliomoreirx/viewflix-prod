@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4NTQ=",
+  "tipo": "serie",
+  "titulo": "O QUE VEM DEPOIS DO AMOR [L]",
+  "capa_url": "https://lgfp.one/NVY2",
+  "capa_local": "O QUE VEM DEPOIS DO AMOR [L]/O QUE VEM DEPOIS DO AMOR [L].jpg",
+  "sinopse": "Hong, enquanto estudava no Japão, conhece Jungo e eles vivenciam um amor de partir o coração e uma separação. 5 anos depois, eles se reencontram na Coreia...",
+  "genero": "Drama",
+  "elenco": "이세영, 坂口健太郎, Hong Jong Hyun, 中村アン",
+  "diretor": "Moon Hyun-sung, Moon Hyun-sung, Jung Hae-sim",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:36"
+        }
+      ]
+    }
+  ],
+  "id": 7308
+}

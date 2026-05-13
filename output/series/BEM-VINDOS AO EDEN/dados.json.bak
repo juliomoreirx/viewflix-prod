@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MzI=",
+  "tipo": "serie",
+  "titulo": "BEM-VINDOS AO ÉDEN",
+  "capa_url": "https://lgfp.one/TFD",
+  "capa_local": "BEM-VINDOS AO EDEN/BEM-VINDOS AO EDEN.jpg",
+  "sinopse": "Um grupo de jovens vai a uma festa em uma ilha paradisíaca, mas acaba vivendo um inferno cheio de segredos, perigos e armadilhas.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Drama",
+  "elenco": "Amaia Salamanca, Amaia Aberasturi, Belinda, Lola Rodríguez, Begoña Vargas",
+  "diretor": "Daniel Benmayor, Menna Fité, Denis Rovira van BoekholtDenis Rovira van Boekholt, Juanma R. Pachón",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:41:30"
+        }
+      ]
+    }
+  ],
+  "id": 375582
+}

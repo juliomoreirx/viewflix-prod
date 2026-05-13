@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NDY=",
+  "tipo": "serie",
+  "titulo": "TODO MUNDO AINDA ODEIA O CHRIS [L]",
+  "capa_url": "https://lgfp.one/NIC6",
+  "capa_local": "TODO MUNDO AINDA ODEIA O CHRIS [L]/TODO MUNDO AINDA ODEIA O CHRIS [L].jpg",
+  "sinopse": "Uma versão animada reinventada da adorada comédia familiar autobiográfica de Chris Rock, Todo Mundo Odeia o Chris.",
+  "genero": "Comédia, Animação",
+  "elenco": "Chris Rock, Terry Crews, Tichina Arnold, Ozioma Akagha, Tim Johnson Jr.",
+  "diretor": "Meredith Dawson",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:39"
+        }
+      ]
+    }
+  ],
+  "id": 8150
+}

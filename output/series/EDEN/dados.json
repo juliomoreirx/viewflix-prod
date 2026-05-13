@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NDE=",
+  "tipo": "serie",
+  "titulo": "EDEN",
+  "capa_url": "https://lgfp.one/RUJ",
+  "capa_local": "EDEN/EDEN.jpg",
+  "sinopse": "Em uma cidade paradisíaca, uma jovem desaparece, trazendo à tona os segredos de quem esteve com ela na noite em que tudo aconteceu.",
+  "genero": "Drama",
+  "elenco": "BeBe Bettencourt, Sophie Wilde, Cody Fern, Christopher James Baker, Alexandria Steffensen",
+  "diretor": "John Curran, Mirrah Foulkes, Peter Andrikidis",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:32"
+        }
+      ]
+    }
+  ],
+  "id": 339786
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNjI=",
+  "tipo": "serie",
+  "titulo": "DIABOLIK LOVERS",
+  "capa_url": "https://lgfp.one/SEQ0",
+  "capa_local": "DIABOLIK LOVERS/DIABOLIK LOVERS.jpg",
+  "sinopse": "Komori Yui é uma garota de pensamento positivo que, está preocupada por ver espíritos e experimentar fenômenos paranormais. Em seu segundo ano na escola ela transfere-se para uma nova escola para artistas e celebridades, devido ao trabalho de seu pai. Há rumores de que vampiros existem entre o corpo discente, e Yui acaba vivendo com os seis sádicos irmãos vampiros Sakamaki.",
+  "genero": "Animação, Drama, Mistério",
+  "elenco": "末柄里恵, 牛田裕子, 笹本優子, 近藤隆, 笹島かほる",
+  "diretor": "",
+  "total_episodios": "14",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:14:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:14:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:14:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:13:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:14:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:13:28"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:14:36"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:09:40"
+        }
+      ]
+    }
+  ],
+  "id": 9078
+}

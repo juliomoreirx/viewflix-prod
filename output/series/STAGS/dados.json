@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MTQ=",
+  "tipo": "serie",
+  "titulo": "STAGS",
+  "capa_url": "https://lgfp.one/NPC5",
+  "capa_local": "STAGS/STAGS.jpg",
+  "sinopse": "",
+  "genero": "Drama, Comédia",
+  "elenco": "Nico Mirallegro, Corin Silva, Sophie Lenglinger, Jojo Macari, Paul Forman",
+  "diretor": "David Kerr",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 7170
+}

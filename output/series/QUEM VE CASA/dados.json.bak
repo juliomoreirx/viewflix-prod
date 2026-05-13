@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNDg=",
+  "tipo": "serie",
+  "titulo": "QUEM VE CASA",
+  "capa_url": "https://lgfp.one/KGW1",
+  "capa_local": "QUEM VE CASA/QUEM VE CASA.jpg",
+  "sinopse": "Com a casa à venda, Paul e Lydia precisam encarar segredos de família muito dolorosos; além de conseguir escondê-los de olhares curiosos e compradores implacáveis.",
+  "genero": "Drama, Comédia",
+  "elenco": "Ray Romano, Lisa Kudrow, Linda Cardellini, Abbi Jacobson, Luke Wilson",
+  "diretor": "Silver Tree",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:44"
+        }
+      ]
+    }
+  ],
+  "id": 6382
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4OTk=",
+  "tipo": "serie",
+  "titulo": "NEGOCIADOR",
+  "capa_url": "https://lgfp.one/AAOK",
+  "capa_local": "NEGOCIADOR/NEGOCIADOR.jpg",
+  "sinopse": "O capitão Gabriel Menck é um negociador da polícia e integrante do Grupo de Ações Táticas Especiais, que frequentemente é acionado para resolver situações de crise complexas que acontecem nas ruas e são transmitidas ao vivo na TV, sob os olhares de um país inteiro. A produção acompanha o trabalho intenso do capitão em casos imprevisíveis e repletos de dramas humanos e escolhas difíceis onde só existem dois resultados possíveis: a vida ou a morte.",
+  "genero": "Drama",
+  "elenco": "Malvino Salvador, Barbara Reis, César Mello, Emílio de Mello, Rodrigo dos Santos",
+  "diretor": "Bel Valiante, Gustavo Mello",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:19"
+        }
+      ]
+    }
+  ],
+  "id": 3718
+}

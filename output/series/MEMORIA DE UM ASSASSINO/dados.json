@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1Mzk=",
+  "tipo": "serie",
+  "titulo": "MEMORIA DE UM ASSASSINO",
+  "capa_url": "https://lgfp.one/RSN7",
+  "capa_local": "MEMORIA DE UM ASSASSINO/MEMORIA DE UM ASSASSINO.jpg",
+  "sinopse": "Angelo vive uma vida dupla como assassino e pai de família, que funcionou bem até que ele sofreu de início precoce da doença de Alzheimer. Agora seus mundos colidem, colocando sua família em perigo.",
+  "genero": "Crime, Drama",
+  "elenco": "Patrick Dempsey, Richard Harmon, Odeya Rush, Peter Gadiot, Daniel David Stewart",
+  "diretor": "Martin Campbell, Erik Van Looy",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:49"
+        }
+      ]
+    }
+  ],
+  "id": 8868
+}

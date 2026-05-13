@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4ODg=",
+  "tipo": "serie",
+  "titulo": "PINÓQUIO E SEUS AMIGOS",
+  "capa_url": "https://lgfp.one/YCG",
+  "capa_local": "PINOQUIO E SEUS AMIGOS/PINOQUIO E SEUS AMIGOS.jpg",
+  "sinopse": "A Loja de Maravilhas do Papa Gepeto é absolutamente mágica. É o lar de Pinóquio, o fantoche teimoso, e seus amigos, o pirata ragdoll Freeda e o mal-humorado Talking Cricket, um trio que está sempre pronto para a ação!",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Francesca Rinaldi, Monica Volpe, Andrea Lavagnino, Pierluigi Astore, Perla Liberatori",
+  "diretor": "",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:11:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:11:34"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:10:43"
+        }
+      ]
+    }
+  ],
+  "id": 2737
+}

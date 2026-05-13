@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4OTU=",
+  "tipo": "serie",
+  "titulo": "POSSESSIONS",
+  "capa_url": "https://lgfp.one/RZD",
+  "capa_local": "POSSESSIONS/POSSESSIONS.jpg",
+  "sinopse": "Uma jovem francesa que mora em Israel é acusada do assassinato de seu marido no dia de seu casamento. Enquanto a noiva luta para provar sua inocência, acontecimentos misteriosos a cercam. Ela é culpada ou poderia ser a vítima?",
+  "genero": "Action & Adventure, Crime",
+  "elenco": "Nadia Tereszkiewicz, Reda Kateb, Ariane Ascaride, Judith Chemla, Tchéky Karyo",
+  "diretor": "Thomas Vincent",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:08"
+        }
+      ]
+    }
+  ],
+  "id": 200015
+}

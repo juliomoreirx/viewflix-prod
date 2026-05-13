@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMjU=",
+  "tipo": "serie",
+  "titulo": "A PRINCESA ASSASSINA [L]",
+  "capa_url": "https://lgfp.one/DJO9",
+  "capa_local": "A PRINCESA ASSASSINA [L]/A PRINCESA ASSASSINA [L].jpg",
+  "sinopse": "No ano 672 da era Chandena, no quarto dia do mês da lua de jade, o Reino de Forland sofre um golpe de estado orquestrado pelo Dr. Akamashi e seus andróides Ana e Yuna, forçando a Princesa Alita a fugir. Durante sua fuga para a floresta, os cavaleiros de sua escolta são mortos e ela é perseguida por uma criatura. Em desespero, ela encontra o infame Falis, o mais forte caçador de recompensas da história. No entanto, em uma reviravolta inesperada do destino, os dois caem de um penhasco e trocam almas devido ao acidente. Agora, Falis, no corpo de Alita, assume a responsabilidade de salvar a nação. Assim nasce a princesa mais forte e mais feroz da história, a \"Princesa Assassina\".",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "朴璐美, 小清水亜美, 土田大, 豊口めぐみ, 矢尾一樹",
+  "diretor": "黒川智之",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:24"
+        }
+      ]
+    }
+  ],
+  "id": 5849
+}

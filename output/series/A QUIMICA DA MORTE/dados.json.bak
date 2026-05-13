@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNjk=",
+  "tipo": "serie",
+  "titulo": "A QUÍMICA DA MORTE",
+  "capa_url": "https://lgfp.one/AARB",
+  "capa_local": "A QUIMICA DA MORTE/A QUIMICA DA MORTE.jpg",
+  "sinopse": "Quando corpos começam a aparecer no tranquilo campo inglês que ele recentemente transformou em lar, um antropólogo forense ajuda a polícia local em uma corrida contra o tempo.",
+  "genero": "Crime",
+  "elenco": "Harry Treadaway, Samuel Anderson, Jefferson Hall, Jeanne Goursaud, Lucian Msamati",
+  "diretor": "Matt Carver",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:12"
+        }
+      ]
+    }
+  ],
+  "id": 3787
+}

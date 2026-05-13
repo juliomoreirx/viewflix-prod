@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NDg=",
+  "tipo": "serie",
+  "titulo": "FERIA: SEGREDOS OBSCUROS",
+  "capa_url": "https://lgfp.one/SVL",
+  "capa_local": "FERIA SEGREDOS OBSCUROS/FERIA SEGREDOS OBSCUROS.jpg",
+  "sinopse": "Duas irmãs descobrem que os pais participaram de um ritual com um desfecho fatal. Agora, elas têm que enfrentar uma nova realidade — e o sobrenatural.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Marta Nieto, Carla Campra, Ana Tomeno, Isak Férriz, Ángela Cremonte",
+  "diretor": "Jorge Dorado, Carles Torrens",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:06"
+        }
+      ]
+    }
+  ],
+  "id": 2270
+}

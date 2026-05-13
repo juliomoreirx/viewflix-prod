@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMDE=",
+  "tipo": "serie",
+  "titulo": "60 DIAS INFILTRADOS NA PRISÃO",
+  "capa_url": "https://lgfp.one/INN",
+  "capa_local": "60 DIAS INFILTRADOS NA PRISAO/60 DIAS INFILTRADOS NA PRISAO.jpg",
+  "sinopse": "O xerife Jamey Noel busca acabar com o crime e a corrupção dentro da cadeia do condado de Clark, em Indiana. Para isso, ele recruta sete civis que, disfarçados, infiltram-se na prisão.",
+  "genero": "Reality",
+  "elenco": "Mike Smith",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:36:18"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:41:24"
+        }
+      ]
+    }
+  ],
+  "id": 17
+}

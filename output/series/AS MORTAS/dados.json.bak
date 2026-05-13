@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MjI=",
+  "tipo": "serie",
+  "titulo": "AS MORTAS",
+  "capa_url": "https://lgfp.one/PYU5",
+  "capa_local": "AS MORTAS/AS MORTAS.jpg",
+  "sinopse": "Baseada no livro de Jorge Ibargüengoitia, esta série mostra como as irmãs Baladro construíram um império de bordéis e se tornaram assassinas impiedosas no México de 1960.",
+  "genero": "Drama, Crime",
+  "elenco": "Arcelia Ramírez, Paulina Gaitán, Joaquín Cosío, Mauricio Isaac, Alfonso Herrera",
+  "diretor": "Luis Estrada",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:12:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:19:56"
+        }
+      ]
+    }
+  ],
+  "id": 7973
+}

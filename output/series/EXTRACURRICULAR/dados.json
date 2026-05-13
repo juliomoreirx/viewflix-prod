@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMTM=",
+  "tipo": "serie",
+  "titulo": "EXTRACURRICULAR",
+  "capa_url": "https://lgfp.one/JNZ",
+  "capa_local": "EXTRACURRICULAR/EXTRACURRICULAR.jpg",
+  "sinopse": "Um aluno exemplar leva uma vida dupla entre a escola e o mundo do crime, mas uma colega de classe pode colocar tudo a perder. Assista o quanto quiser",
+  "genero": "Crime, Drama",
+  "elenco": "김동희, 박주현, 정다빈, 남윤수, 김여진",
+  "diretor": "Kim Jin-min",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:11:31"
+        }
+      ]
+    }
+  ],
+  "id": 785
+}

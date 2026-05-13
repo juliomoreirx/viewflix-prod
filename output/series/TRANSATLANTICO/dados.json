@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NDE=",
+  "tipo": "serie",
+  "titulo": "TRANSATLÂNTICO",
+  "capa_url": "https://lgfp.one/ZGQ",
+  "capa_local": "TRANSATLANTICO/TRANSATLANTICO.jpg",
+  "sinopse": "Durante a Segunda Guerra, dois americanos e seus aliados montam uma operação em Marselha para ajudar refugiados, artistas e escritores a fugir da Europa.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Gillian Jacobs, Cory Michael Smith, Lucas Englander, Corey Stoll, Ralph Amoussou",
+  "diretor": "Paul Vallespi, Florianne Abelé, Stéphanie Chuat",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:00"
+        }
+      ]
+    }
+  ],
+  "id": 3414
+}

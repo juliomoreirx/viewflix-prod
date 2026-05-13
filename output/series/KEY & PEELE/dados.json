@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3ODk=",
+  "tipo": "serie",
+  "titulo": "KEY & PEELE",
+  "capa_url": "https://lgfp.one/RQD7",
+  "capa_local": "KEY & PEELE/KEY & PEELE.jpg",
+  "sinopse": "As cenas incluem um estranho aprendizado sobre a anatomia feminina; os meninos se enfrentando com seus novos bonés, e conhecer os dois últimos homens na Terra.",
+  "genero": "Comédia",
+  "elenco": "Keegan-Michael Key, Jordan Peele",
+  "diretor": "",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:22"
+        }
+      ]
+    }
+  ],
+  "id": 8811
+}

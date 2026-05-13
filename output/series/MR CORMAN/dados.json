@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMzg=",
+  "tipo": "serie",
+  "titulo": "MR CORMAN",
+  "capa_url": "https://lgfp.one/SDC",
+  "capa_local": "MR CORMAN/MR CORMAN.jpg",
+  "sinopse": "Josh Corman é um artista de coração, mas não de profissão. A vida não aconteceu como ele gostaria: a sonhada carreira de músico não deu certo, ele precisa dar aulas para o quinto ano na escola do Vale de San Fernando, sua ex-noiva Megan saiu de casa e agora ele mora com um amigo do ensino médio. Mesmo que ainda tenha inúmeras razões para agradecer, Josh sofre de ansiedade, solidão e incertezas pessoais.",
+  "genero": "Comédia, Drama",
+  "elenco": "Joseph Gordon-Levitt, Arturo Castro, Juno Temple, Debra Winger, Logic",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:00"
+        }
+      ]
+    }
+  ],
+  "id": 1769
+}

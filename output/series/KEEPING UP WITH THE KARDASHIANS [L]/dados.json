@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MDA=",
+  "tipo": "serie",
+  "titulo": "KEEPING UP WITH THE KARDASHIANS [L]",
+  "capa_url": "https://lgfp.one/SSQ",
+  "capa_local": "KEEPING UP WITH THE KARDASHIANS [L]/KEEPING UP WITH THE KARDASHIANS [L].jpg",
+  "sinopse": "A princesa dos tablóides Kim Kardashian e sua família que inclui seu padrasto Bruce Jenner, são objetos dessa série que narra o dia a dia caótico de suas vidas.",
+  "genero": "Reality",
+  "elenco": "Kim Kardashian West, Khloé Kardashian, Kourtney Kardashian, Kris Jenner, Kendall Jenner, Kylie Jenner, Scott Disick, Tristan Thompson",
+  "diretor": "Ryan Seacrest, Eliot Goldberg",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:58"
+        }
+      ]
+    }
+  ],
+  "id": 2191
+}

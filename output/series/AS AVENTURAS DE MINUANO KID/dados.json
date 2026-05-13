@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3Mzc=",
+  "tipo": "serie",
+  "titulo": "AS AVENTURAS DE MINUANO KID",
+  "capa_url": "https://lgfp.one/KCW0",
+  "capa_local": "AS AVENTURAS DE MINUANO KID/AS AVENTURAS DE MINUANO KID.jpg",
+  "sinopse": "Juninho é um garoto que possui um amigo imaginário chamado Minuano Kid, um super-herói com medo do escuro.",
+  "genero": "Kids, Comédia, Action & Adventure",
+  "elenco": "Alexandre Cardoso, Giovana Conter, Lucca Araujo, Vinicius de Costa, Marcela Cipriani",
+  "diretor": "Edison Rodrigues, Pedro Antoniutti",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:13"
+        }
+      ]
+    }
+  ],
+  "id": 6344
+}

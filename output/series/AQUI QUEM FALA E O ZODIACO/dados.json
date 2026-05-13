@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwODk=",
+  "tipo": "serie",
+  "titulo": "AQUI QUEM FALA É O ZODÍACO",
+  "capa_url": "https://lgfp.one/EAY7",
+  "capa_local": "AQUI QUEM FALA E O ZODIACO/AQUI QUEM FALA E O ZODIACO.jpg",
+  "sinopse": "Nesta série documental, uma família em busca de respostas divulga pistas e depoimentos reveladores sobre o principal suspeito dos assassinatos do Zodíaco.",
+  "genero": "Documentário, Crime",
+  "elenco": "Arthur Leigh Allen, Robert Graysmith, Paul Avery, David Fincher, Paul Avery",
+  "diretor": "Phil Lott, Ari Mark",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:03"
+        }
+      ]
+    }
+  ],
+  "id": 6151
+}

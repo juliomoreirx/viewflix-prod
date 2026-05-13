@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3Mzk=",
+  "tipo": "serie",
+  "titulo": "DESPEDACADO",
+  "capa_url": "https://lgfp.one/DMY9",
+  "capa_local": "DESPEDACADO/DESPEDACADO.jpg",
+  "sinopse": "O padre Michael Kerrigan é um padre católico moderno e ousado. Enquanto enfrenta seus próprios fantasmas, ele ajuda sua pequena comunidade no norte da Inglaterra, muito afetada pela crise econômica.",
+  "genero": "Drama",
+  "elenco": "Sean Bean, Anna Friel, Paula Malcomson, Adrian Dunbar, Muna Otaru",
+  "diretor": "Noreen Kershaw",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:30"
+        }
+      ]
+    }
+  ],
+  "id": 5955
+}

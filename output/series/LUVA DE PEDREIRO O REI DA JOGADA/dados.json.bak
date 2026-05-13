@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0ODE=",
+  "tipo": "serie",
+  "titulo": "LUVA DE PEDREIRO O REI DA JOGADA",
+  "capa_url": "https://lgfp.one/EFA8",
+  "capa_local": "LUVA DE PEDREIRO O REI DA JOGADA/LUVA DE PEDREIRO O REI DA JOGADA.jpg",
+  "sinopse": "Esta reveladora docussérie em três partes retrata a história do influencer e fenômeno brasileiro das redes sociais \"Luva de Pedreiro\".",
+  "genero": "Documentário",
+  "elenco": "Iran Ferreira, Gessica Kayane, Falcão Alessandro Rosa Vieira",
+  "diretor": "Sebastián Gadea",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:38"
+        }
+      ]
+    }
+  ],
+  "id": 6200
+}

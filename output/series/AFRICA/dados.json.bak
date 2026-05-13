@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDc=",
+  "tipo": "serie",
+  "titulo": "AFRICA",
+  "capa_url": "https://lgfp.one/OPR0",
+  "capa_local": "AFRICA/AFRICA.jpg",
+  "sinopse": "África é uma série de televisão britânica 2013 criado pela Unidade de História Natural da BBC. Centra-se sobre a vida selvagem e habitats selvagens na África, e tem sido quatro anos na tomada. É constituída por seis episódios de uma hora de duração e seis featurettes 10 minutos de duração.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough, Simon Blakeney, Justine Evans",
+  "diretor": "Katrina Bartlam, Ben Aviss, Nick Easton, Felicity Egerton, Javotte Flatman, Felicity Lanchester",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 7372
+}

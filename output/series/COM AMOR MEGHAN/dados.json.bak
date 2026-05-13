@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5ODY=",
+  "tipo": "serie",
+  "titulo": "COM AMOR MEGHAN",
+  "capa_url": "https://lgfp.one/NEF2",
+  "capa_local": "COM AMOR MEGHAN/COM AMOR MEGHAN.jpg",
+  "sinopse": "Meghan, Duquesa de Sussex, convida amigos e celebridades para uma bela propriedade na Califórnia, onde compartilha dicas de culinária, jardinagem e a arte de receber bem.",
+  "genero": "Reality",
+  "elenco": "Meghan, Duquesa de Sussex",
+  "diretor": "Michael Steed",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:01"
+        }
+      ]
+    }
+  ],
+  "id": 6982
+}

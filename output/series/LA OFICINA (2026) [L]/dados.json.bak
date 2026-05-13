@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMjA=",
+  "tipo": "serie",
+  "titulo": "LA OFICINA (2026) [L]",
+  "capa_url": "https://lgfp.one/SFK3",
+  "capa_local": "LA OFICINA (2026) [L]/LA OFICINA (2026) [L].jpg",
+  "sinopse": "Jerónimo Ponce III, gerente regional da Olimpo Soaps, é o terror dos funcionários, que precisam aguentar seus surtos politicamente incorretos só pra sobreviver ao expediente.",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:28"
+        }
+      ]
+    }
+  ],
+  "id": 9098
+}

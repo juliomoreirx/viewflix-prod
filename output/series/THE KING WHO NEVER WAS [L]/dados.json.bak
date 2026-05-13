@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NTg=",
+  "tipo": "serie",
+  "titulo": "THE KING WHO NEVER WAS [L]",
+  "capa_url": "https://lgfp.one/AASA",
+  "capa_local": "THE KING WHO NEVER WAS [L]/THE KING WHO NEVER WAS [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário, Crime",
+  "elenco": "Emanuele Filiberto di Savoia, Vittorio Emanuele di Savoia",
+  "diretor": "Beatrice Borromeo, Donato Sansone",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:00"
+        }
+      ]
+    }
+  ],
+  "id": 3812
+}

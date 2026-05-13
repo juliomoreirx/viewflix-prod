@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwODk=",
+  "tipo": "serie",
+  "titulo": "O REINO DO LOBO BRANCO",
+  "capa_url": "https://lgfp.one/OUO8",
+  "capa_local": "O REINO DO LOBO BRANCO/O REINO DO LOBO BRANCO.jpg",
+  "sinopse": "Ronan Donovan, pesquisador da National Geographic, viaja para o Ártico para estudar lobos. O pesquisador desvenda a fascinante vida do lobo branco, que possui duas camadas de proteção que o mantém quente em condições frias e seguro à prova d'água.",
+  "genero": "Documentário",
+  "elenco": "Ronan Donovan",
+  "diretor": "Tony Gerber, Tony Gerber",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 7580
+}

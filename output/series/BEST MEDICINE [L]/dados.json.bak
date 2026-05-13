@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNTg=",
+  "tipo": "serie",
+  "titulo": "BEST MEDICINE [L]",
+  "capa_url": "https://lgfp.one/RHC0",
+  "capa_local": "BEST MEDICINE [L]/BEST MEDICINE [L].jpg",
+  "sinopse": "Martin Best, um renomado cirurgião que abandona repentinamente sua prestigiada carreira em Boston para assumir o posto de clínico geral em uma pitoresca vila de pescadores na costa leste dos EUA, local onde passou os verões de sua infância.  No entanto, seu comportamento direto e por vezes rude acaba afastando os excêntricos e carentes moradores, apesar de ele ser a única opção médica disponível.",
+  "genero": "Comédia, Drama",
+  "elenco": "Josh Charles, Abigail Spencer, Josh Segarra, Cree Cicchino, Annie Potts",
+  "diretor": "Jamie Babbit, Jay Karas",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:29"
+        }
+      ]
+    }
+  ],
+  "id": 8645
+}

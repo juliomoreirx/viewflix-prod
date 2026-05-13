@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzOTE=",
+  "tipo": "serie",
+  "titulo": "A REINVENCAO DA CHINA [L]",
+  "capa_url": "https://lgfp.one/AZKX",
+  "capa_local": "A REINVENCAO DA CHINA [L]/A REINVENCAO DA CHINA [L].jpg",
+  "sinopse": "Durante o século XIX, o Ocidente, então em plena expansão colonial, enfrentou uma China que, até então, se julgava todo-poderosa. Este meio século foi de constantes convulsões de uma nação à beira do colapso, que buscava inventar uma forma de sobreviver, sem perder a alma e ao mesmo tempo se aprimorando.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Karim Miské, Ilana Navaro",
+  "total_episodios": "150",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:57"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:00:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:21"
+        }
+      ]
+    }
+  ],
+  "id": 5015
+}

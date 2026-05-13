@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTc=",
+  "tipo": "serie",
+  "titulo": "MY DAEMON",
+  "capa_url": "https://lgfp.one/AUJI",
+  "capa_local": "MY DAEMON/MY DAEMON.jpg",
+  "sinopse": "Para salvar a mãe, um garoto bondoso embarca em uma jornada pelo Japão pós-apocalíptico, acompanhado por seu pequeno demônio de estimação.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Miyuri Shimabukuro, 菊池こころ, 中田譲治, Ayane Sakura, 奥村翔",
+  "diretor": "ณัฐ ยศวัฒนานนท์",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:02"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:25:41"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:29:54"
+        }
+      ]
+    }
+  ],
+  "id": 4524
+}

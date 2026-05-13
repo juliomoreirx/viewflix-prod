@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNDM=",
+  "tipo": "serie",
+  "titulo": "WORLD DICE TOUR [L]",
+  "capa_url": "https://lgfp.one/DLA8",
+  "capa_local": "WORLD DICE TOUR [L]/WORLD DICE TOUR [L].jpg",
+  "sinopse": "O imprevisível programa de viagem com rolagem de dados Volta ao Mundo com Dados 2 está de volta. O trio de grandes criadores de conteúdo, Pani Bottle, KWAKTUBE e Woji de Dia da Wonji embarcam numa aventura cheia de surpresas, que transcende temporadas. Quanto mais eles rolam os dados, mais a jornada fica divertida! Pani Bottle é especialista em viver em condições difíceis e despertou completamente as necessidades dos telespectadores. Wonji, a especialista em animais, fica cheia de emoções e consegue se comunicar com eles só durante as viagens.",
+  "genero": "Reality, Documentário",
+  "elenco": "빠니보틀, Kwak Joon-bin, Lee Won-ji, 노홍철, 주우재",
+  "diretor": "Kim Hoon-beom, Moon Tae-joo, 김태호",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:11:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:13:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:24:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:24:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:37:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:36:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:26:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:29:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:27:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:38:08"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:24:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:23:33"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:29:00"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:23:51"
+        }
+      ]
+    }
+  ],
+  "id": 5930
+}

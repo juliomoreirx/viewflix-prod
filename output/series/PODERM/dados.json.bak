@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMTQ=",
+  "tipo": "serie",
+  "titulo": "PODERM",
+  "capa_url": "https://lgfp.one/YSS",
+  "capa_local": "PODERM/PODERM.jpg",
+  "sinopse": "De Carol Danvers e Wanda Maximoff às mulheres de Wakanda e as Guardiãs da Galáxia, esta série desvenda as jornadas de personagens desde seu nascimento nos quadrinhos da Marvel até o MCU e além. Gravações de bastidores, animações criativas e entrevistas emocionantes são reunidas aqui para mostrar como essas personagens e as mulheres por trás desse sucesso causam impacto em fãs ao redor do mundo inteiro.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:52"
+        }
+      ]
+    }
+  ],
+  "id": 3336
+}

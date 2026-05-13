@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNDI=",
+  "tipo": "serie",
+  "titulo": "A RAINHA SERPENTE",
+  "capa_url": "https://lgfp.one/VRJ",
+  "capa_local": "A RAINHA SERPENTE/A RAINHA SERPENTE.jpg",
+  "sinopse": "Conta a história de Catarina de Médici, que, apesar de todas as dificuldades, se tornou uma das regentes mais poderosas e longevas da história da França. A história de Catarina é contada por meio de retrospectos, enquanto ela defende suas ações e compartilha as lições que aprendeu com sua nova criada, Rahima.",
+  "genero": "Drama",
+  "elenco": "Samantha Morton, Amrita Acharia, Enzo Cilenti, Barry Atsma, Nicholas Burns, Danny Kirrane, Liv Hill, Naomi Battrick",
+  "diretor": "Justin Haythe",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:39"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:49:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:53:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:57:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:09:01"
+        }
+      ]
+    }
+  ],
+  "id": 2936
+}

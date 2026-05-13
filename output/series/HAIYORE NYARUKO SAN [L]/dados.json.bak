@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMDk=",
+  "tipo": "serie",
+  "titulo": "HAIYORE NYARUKO SAN [L]",
+  "capa_url": "https://lgfp.one/AXKA",
+  "capa_local": "HAIYORE NYARUKO SAN [L]/HAIYORE NYARUKO SAN [L].jpg",
+  "sinopse": "O protagonista da história é Nyaruko-san, uma divindade sem forma chamada Cthulhu, que pode assumir qualquer forma desejada. Apesar do nome, Nyaruko não parece muito assustador, de fato, entre as muitas formas disponíveis para ele, os deuses parecem preferir a aparência de uma garota normal, bonita, com cabelos de prata. Assim Nyaruko encontrará Mahiro Yasaka, um estudante perseguido por alienígenas, ajudando-o em sua fuga desesperada.",
+  "genero": "Animação, Comédia",
+  "elenco": "Eri Kitamura, Wataru Hatano, Satomi Arai, Ryoka Yuzuki, Aya Hisakawa",
+  "diretor": "Tsuyoshi Nagasawa",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:21"
+        }
+      ]
+    }
+  ],
+  "id": 4744
+}

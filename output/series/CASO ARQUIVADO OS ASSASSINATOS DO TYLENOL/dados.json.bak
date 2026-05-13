@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MTM=",
+  "tipo": "serie",
+  "titulo": "CASO ARQUIVADO: OS ASSASSINATOS DO TYLENOL",
+  "capa_url": "https://lgfp.one/NYV6",
+  "capa_local": "CASO ARQUIVADO OS ASSASSINATOS DO TYLENOL/CASO ARQUIVADO OS ASSASSINATOS DO TYLENOL.jpg",
+  "sinopse": "Quem colocou cianeto no Tylenol? Esta série sobre crimes reais investiga teorias alarmantes por trás de assassinatos sem solução e corre atrás de uma pessoa suspeita.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jeff Flock, JAMES LEWIS, Michelle Rosen, Tyrone Fahner",
+  "diretor": "Joe Berlinger",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:27"
+        }
+      ]
+    }
+  ],
+  "id": 7343
+}

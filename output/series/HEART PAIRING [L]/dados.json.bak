@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNjI=",
+  "tipo": "serie",
+  "titulo": "HEART PAIRING [L]",
+  "capa_url": "https://lgfp.one/NKJ9",
+  "capa_local": "HEART PAIRING [L]/HEART PAIRING [L].jpg",
+  "sinopse": "",
+  "genero": "Reality",
+  "elenco": "윤종신, 이청아, 최시원, 金美贤",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:40:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:51:23"
+        }
+      ]
+    }
+  ],
+  "id": 7074
+}

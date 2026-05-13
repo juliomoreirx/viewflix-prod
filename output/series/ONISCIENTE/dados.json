@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNjY=",
+  "tipo": "serie",
+  "titulo": "ONISCIENTE",
+  "capa_url": "https://lgfp.one/JGF",
+  "capa_local": "ONISCIENTE/ONISCIENTE.jpg",
+  "sinopse": "Numa cidade onde os cidadãos são monitorados 24 horas por dia, uma mulher precisa enganar seu drone de vigilância para investigar um assassinato.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Carla Salle, Jonathan Haagensen, Guilherme Prates, Sandra Corveloni, Luana Tanaka",
+  "diretor": "Bruna Grulke, Sofia Beer",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:24"
+        }
+      ]
+    }
+  ],
+  "id": 553
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzODM=",
+  "tipo": "serie",
+  "titulo": "O CANTO LIVRE DE NARA LEÃO",
+  "capa_url": "https://lgfp.one/STI",
+  "capa_local": "O CANTO LIVRE DE NARA LEAO/O CANTO LIVRE DE NARA LEAO.jpg",
+  "sinopse": "Nara Leão revolucionou a música brasileira, rompeu preconceitos, confrontou a ditadura militar, abriu caminhos para as mulheres. Tudo isso sem alterar o tom de voz.",
+  "genero": "Documentário",
+  "elenco": "Nara Leão",
+  "diretor": "Renato Terra",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:50"
+        }
+      ]
+    }
+  ],
+  "id": 2210
+}

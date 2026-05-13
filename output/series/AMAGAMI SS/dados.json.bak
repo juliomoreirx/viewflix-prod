@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NjI=",
+  "tipo": "serie",
+  "titulo": "AMAGAMI SS",
+  "capa_url": "https://lgfp.one/RBX",
+  "capa_local": "AMAGAMI SS/AMAGAMI SS.jpg",
+  "sinopse": "Dois anos atrás, Junichi Tachibana tem seu coração partido por uma menina que faltou ao encontro com ele na véspera de Natal. Agora, um estudante do segundo ano do ensino médio, Junichi está desconfiado de amor por causa de seu passado e não gosta de comemorar o Natal. No entanto, este Natal, o encontro com uma das seis meninas de sua escola, Haruka Morishima, Kaoru Tanamachi, Sae Nakata, Ai Nanasaki, Rihoko Sakurai, ou Ayatsuji Tsukasa vai finalmente abrir seu coração para amar novamente.",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "Yukana, Tomoaki Maeno, Hiromi Konno, Ryoko Shintani, Rina Sato",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:25"
+        }
+      ]
+    }
+  ],
+  "id": 861
+}

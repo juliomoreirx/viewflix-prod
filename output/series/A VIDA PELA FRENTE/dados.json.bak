@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNzU=",
+  "tipo": "serie",
+  "titulo": "A VIDA PELA FRENTE",
+  "capa_url": "https://lgfp.one/AAKC",
+  "capa_local": "A VIDA PELA FRENTE/A VIDA PELA FRENTE.jpg",
+  "sinopse": "O ano é 1999. A noite da festa à fantasia que celebra a formatura de um grupo de amigos é interrompida por uma terrível notícia: a morte de Beta, aos 17 anos. Enquanto são desvendados os motivos da morte, o grupo de amigos entra em conflito.",
+  "genero": "Drama",
+  "elenco": "Nina Tomsic, Jaffar Bambirra, Rodrigo Pandolfo, Ângela Leal, Flora Camolese",
+  "diretor": "Leandra Leal, Bruno Safadi, Rita Toledo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:05"
+        }
+      ]
+    }
+  ],
+  "id": 3609
+}

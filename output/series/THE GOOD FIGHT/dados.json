@@ -1,0 +1,195 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5ODg=",
+  "tipo": "serie",
+  "titulo": "THE GOOD FIGHT",
+  "capa_url": "https://lgfp.one/JLN",
+  "capa_local": "THE GOOD FIGHT/THE GOOD FIGHT.jpg",
+  "sinopse": "Um golpe econômico joga o nome de uma jovem advogada na lama e acaba com as economias de Diane Lockhart, sua mentora. Depois de serem mandadas para o olho da rua, as duas entram para uma das firmas mais promissoras de Chicago, onde irão trabalhar ao lado de Lucas Quinn.",
+  "genero": "Drama",
+  "elenco": "Christine Baranski, Audra McDonald, Sarah Steele, Nyambi Nyambi",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:32"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:50:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:53:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:51:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:52:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:51:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:38:56"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:54:44"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:55:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:51:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:52:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:53:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:55:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:55:31"
+        }
+      ]
+    }
+  ],
+  "id": 710
+}

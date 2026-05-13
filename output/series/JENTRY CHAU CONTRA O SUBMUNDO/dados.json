@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2OTI=",
+  "tipo": "serie",
+  "titulo": "JENTRY CHAU CONTRA O SUBMUNDO",
+  "capa_url": "https://lgfp.one/KCX4",
+  "capa_local": "JENTRY CHAU CONTRA O SUBMUNDO/JENTRY CHAU CONTRA O SUBMUNDO.jpg",
+  "sinopse": "Prestes a fazer 16 anos, uma garota nada comum redescobre os poderes que tanto tentou evitar e é obrigada a encarar seus demônios... literalmente.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Ali Wong, Lori Tan Chinn, Bowen Yang",
+  "diretor": "Ben Kalina, Echo Wu, Natasha Wicke",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:31:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:32:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:28:49"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:30:36"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:29:43"
+        }
+      ]
+    }
+  ],
+  "id": 6358
+}

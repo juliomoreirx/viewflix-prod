@@ -1,0 +1,165 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0NzU=",
+  "tipo": "serie",
+  "titulo": "JERICHO [L]",
+  "capa_url": "https://lgfp.one/ACKL",
+  "capa_local": "JERICHO [L]/JERICHO [L].jpg",
+  "sinopse": "Uma nuvem em forma de cogumelo aparece no horizonte e, para os habitantes da pequena cidade de Jericho, no Kansas, isso pode significar que são os únicos americanos ainda vivos. Agora, eles precisam lidar com uma nova realidade.",
+  "genero": "Action & Adventure, Drama, Mistério",
+  "elenco": "Skeet Ulrich, Lennie James, Ashley Scott, Kenneth Mitchell, Brad Beyer",
+  "diretor": "Jon Turteltaub",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "21",
+          "codigo": "S01E21",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "22",
+          "codigo": "S01E22",
+          "duracao": "00:44:02"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:44:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:40:36"
+        }
+      ]
+    }
+  ],
+  "id": 4158
+}

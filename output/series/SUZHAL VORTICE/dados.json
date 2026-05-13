@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMDc=",
+  "tipo": "serie",
+  "titulo": "SUZHAL: VÓRTICE",
+  "capa_url": "https://lgfp.one/TJH",
+  "capa_local": "SUZHAL VORTICE/SUZHAL VORTICE.jpg",
+  "sinopse": "Um thriller criminal que vai além da investigação de rotina e ameaça abalar o tecido social cultural quando um crime é cometido em uma pequena cidade na Índia. Passado como plano de fundo de um pequeno festival singular, antigos mitos colidem com o perturbador presente enquanto somos levados para o olho do furacão.",
+  "genero": "Crime / Mistério",
+  "elenco": "Kathir, Aishwarya Rajesh, R. Parthiban, Sriya Reddy, Nivedhithaa Sathish, Harish Uthaman, Prem, Gopika Ramesh",
+  "diretor": "Bramma G, Anucharan",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:52"
+        }
+      ]
+    }
+  ],
+  "id": 5490
+}

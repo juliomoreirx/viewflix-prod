@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MzQ=",
+  "tipo": "serie",
+  "titulo": "PLAYERS",
+  "capa_url": "https://lgfp.one/TNW",
+  "capa_local": "PLAYERS/PLAYERS.jpg",
+  "sinopse": "Segue uma equipe fictícia de e-sports profissionais de League of Legends em busca de vencer seu primeiro campeonato, depois de anos passando por situações difíceis. Mas para ganhar eles precisarão que seu prodígio, um novato de 17 anos, e o veterano, de 27 anos, coloquem seus egos de lado e trabalhem juntos.",
+  "genero": "Comédia",
+  "elenco": "Misha Brooks, Da'Jour Jones, Ely Henry, Holly Chou, Alexa Mansour, Stephen Schneider, Youngbin Chung, Luke Tennie",
+  "diretor": "Tony Yacenda, Dan Perrault",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:35"
+        }
+      ]
+    }
+  ],
+  "id": 2765
+}

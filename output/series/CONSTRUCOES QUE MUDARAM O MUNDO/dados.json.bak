@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMjA=",
+  "tipo": "serie",
+  "titulo": "CONSTRUCOES QUE MUDARAM O MUNDO",
+  "capa_url": "https://lgfp.one/ARU5",
+  "capa_local": "CONSTRUCOES QUE MUDARAM O MUNDO/CONSTRUCOES QUE MUDARAM O MUNDO.jpg",
+  "sinopse": "Confira as histórias dos visionários por trás das construções mais épicas dos últimos dois séculos, os contos desconhecidos de rivalidades, egos, e as brilhantes inovações por trás dos feitos icônicos da engenharia que tornaram o futuro possível.",
+  "genero": "Documentário",
+  "elenco": "Ian Karr",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:53"
+        }
+      ]
+    }
+  ],
+  "id": 5219
+}

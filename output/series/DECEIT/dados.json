@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3ODk=",
+  "tipo": "serie",
+  "titulo": "DECEIT",
+  "capa_url": "https://lgfp.one/VZE",
+  "capa_local": "DECEIT/DECEIT.jpg",
+  "sinopse": "Uma policial disfarçada, de codinome \"Lizzie James\", é encarregada de liderar uma armadilha contra Colin Stagg, o principal suspeito do assassinato de uma jovem em 1992.\n\nO impacto que a Operação Edzell teve sobre Lizzie será explorado em quatro partes, no novo drama que é contado do ponto de vista de Lizzie.",
+  "genero": "Drama, Crime",
+  "elenco": "Niamh Algar, Sion Daniel Young, Harry Treadaway, Eddie Marsan, Rochenda Sandall",
+  "diretor": "Niall MacCormick",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:57"
+        }
+      ]
+    }
+  ],
+  "id": 3016
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNDg=",
+  "tipo": "serie",
+  "titulo": "TRAICAO E REDENCAO",
+  "capa_url": "https://lgfp.one/NJR5",
+  "capa_local": "TRAICAO E REDENCAO/TRAICAO E REDENCAO.jpg",
+  "sinopse": "Seok, uma neurocirurgiã ambiciosa e genial, reencontra Deokhee, o professor que arruinou sua vida há muito tempo. Antes, os dois cirurgiões se gostavam mais do que tudo. Mas, agora que só resta ódio entre eles, Seok fica furiosa de tê-lo de volta em sua vida e jura se vingar.",
+  "genero": "Drama, Crime",
+  "elenco": "박은빈, 설경구, 박병은, 윤찬영",
+  "diretor": "Kim Jung-hyun",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:18"
+        }
+      ]
+    }
+  ],
+  "id": 7059
+}

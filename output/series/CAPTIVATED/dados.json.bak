@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMzc=",
+  "tipo": "serie",
+  "titulo": "CAPTIVATED",
+  "capa_url": "https://lgfp.one/EIM6",
+  "capa_local": "CAPTIVATED/CAPTIVATED.jpg",
+  "sinopse": "Rachel, uma mãe solteira e faxineira, recebe uma oferta de emprego melhor de um rico empresário. Ela aceita, mas começa a desconfiar de seus motivos à medida que se envolve mais em seus negócios.",
+  "genero": "Drama",
+  "elenco": "Kara Tointon, Allen Leech, Charlie Hodson-Prior, Taj Atwal, Sara Powell",
+  "diretor": "Megan K. Fox",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:17"
+        }
+      ]
+    }
+  ],
+  "id": 6260
+}

@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MTQ=",
+  "tipo": "serie",
+  "titulo": "THE OTHER TWO",
+  "capa_url": "https://lgfp.one/JZS1",
+  "capa_local": "THE OTHER TWO/THE OTHER TWO.jpg",
+  "sinopse": "Um aspirante a ator e sua irmã Brooke, uma ex-dançarina profissional, tentam encontrar seu lugar no mundo enquanto enfrentam seus sentimentos sobre a fama repentina de Chase, seu irmão de 13 anos, na internet.",
+  "genero": "Comédia",
+  "elenco": "Heléne Yorke, Drew Tarver, Case Walker, Ken Marino, Molly Shannon",
+  "diretor": "Charlie Gruet",
+  "total_episodios": "21",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:49"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:25:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:25:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:26:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:26:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:27:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:27:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:27:03"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:32:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:34:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:33:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:34:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:35:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:34:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:37:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:33:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:44:03"
+        }
+      ]
+    }
+  ],
+  "id": 3673
+}

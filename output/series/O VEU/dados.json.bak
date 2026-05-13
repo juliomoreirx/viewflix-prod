@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExODQ=",
+  "tipo": "serie",
+  "titulo": "O VEU",
+  "capa_url": "https://lgfp.one/AYT7",
+  "capa_local": "O VEU/O VEU.jpg",
+  "sinopse": "Duas mulheres jogam um jogo mortal de verdades e mentiras numa viagem de Istambul a Paris e Londres.",
+  "genero": "Drama",
+  "elenco": "Elisabeth Moss, Yumna Marwan, Dali Benssalah, Thibault de Montalembert, Josh Charles",
+  "diretor": "Daina Reid",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:22"
+        }
+      ]
+    }
+  ],
+  "id": 5377
+}

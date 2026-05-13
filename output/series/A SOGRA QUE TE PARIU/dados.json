@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Mzk=",
+  "tipo": "serie",
+  "titulo": "A SOGRA QUE TE PARIU",
+  "capa_url": "https://lgfp.one/TCO",
+  "capa_local": "A SOGRA QUE TE PARIU/A SOGRA QUE TE PARIU.jpg",
+  "sinopse": "Isadir é o tipo de sogra que ninguém quer em casa. O que era pra ser uma estadia rápida na casa do filho no início da pandemia, virou um pandemônio na rotina da família. Agora o filho que lute pra decidir: a mãe ou a mozão?",
+  "genero": "Comédia",
+  "elenco": "Pedro Ottoni, Rodrigo Sant'anna, Rafael Zulu",
+  "diretor": "Alex Cabral",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:33"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:24:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:24:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:25:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:25:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:25:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:25:53"
+        }
+      ]
+    }
+  ],
+  "id": 2457
+}

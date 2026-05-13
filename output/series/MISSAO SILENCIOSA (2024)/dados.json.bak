@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NzU=",
+  "tipo": "serie",
+  "titulo": "MISSAO SILENCIOSA (2024)",
+  "capa_url": "https://lgfp.one/SGW1",
+  "capa_local": "MISSAO SILENCIOSA (2024)/MISSAO SILENCIOSA (2024).jpg",
+  "sinopse": "Um submarino MSDF colide com um submarino nuclear dos EUA, esmagando todas as 76 pessoas a bordo, incluindo o seu comandante, Shiro Kaieda. No entanto, a tripulação sobrevive. O acidente é uma desculpa para levar a tripulação do submarino MSDF a bordo do Seabat, um submarino nuclear construído secretamente pelos governos japonês e norte-americano. No entanto, Kaieda carrega o Seabat com mísseis nucleares e de repente se amotina e foge.",
+  "genero": "Drama, War & Politics",
+  "elenco": "大沢たかお, 玉木宏, Aya Ueto, 中山裕介, Tomoya Nakamura",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:53"
+        }
+      ]
+    }
+  ],
+  "id": 9143
+}

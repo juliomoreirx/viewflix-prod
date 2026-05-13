@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MjQ=",
+  "tipo": "serie",
+  "titulo": "BLACK KNIGHT",
+  "capa_url": "https://lgfp.one/ZXF",
+  "capa_local": "BLACK KNIGHT/BLACK KNIGHT.jpg",
+  "sinopse": "Em um 2071 distópico, quando o mundo está devastado pela poluição, um refugiado luta para ser entregador, conseguir comida e sobreviver.",
+  "genero": "Drama, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Kim Woo-bin, Kang You Seok, 이솜, 송승헌, 김의성",
+  "diretor": "조의석, 조의석",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:57"
+        }
+      ]
+    }
+  ],
+  "id": 3497
+}

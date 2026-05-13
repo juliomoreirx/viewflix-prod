@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Mjk=",
+  "tipo": "serie",
+  "titulo": "50M²",
+  "capa_url": "https://lgfp.one/RMZ",
+  "capa_local": "50M2/50M2.jpg",
+  "sinopse": "Em busca da verdade sobre seu passado, um homem comete uma traição e assume uma nova identidade em um bairro de Istambul.",
+  "genero": "Crime, Mistério",
+  "elenco": "Engin Öztürk, Aybüke Pusat, Cengiz Bozkurt, Tolga Tekin, Tuğçe Karabacak",
+  "diretor": "Burak Aksak, Selçuk Aydemir",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:14"
+        }
+      ]
+    }
+  ],
+  "id": 1165
+}

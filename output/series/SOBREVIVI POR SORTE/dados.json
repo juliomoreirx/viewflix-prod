@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyOTA=",
+  "tipo": "serie",
+  "titulo": "SOBREVIVI POR SORTE",
+  "capa_url": "https://lgfp.one/AXKI",
+  "capa_local": "SOBREVIVI POR SORTE/SOBREVIVI POR SORTE.jpg",
+  "sinopse": "Nesse mundo de câmeras de celular, todos os dias elas gravam cenas que desafiam a morte. Assistindo a esses vídeos o expectador se pergunta: \"Como eles sobreviveram?\" Nessa nova série nós respondemos essa questão cientificamente.",
+  "genero": "Documentário, Action & Adventure, Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:19"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:20:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:20:19"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:20:19"
+        }
+      ]
+    }
+  ],
+  "id": 4752
+}

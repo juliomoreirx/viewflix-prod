@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwOTY=",
+  "tipo": "serie",
+  "titulo": "NÃO PROVOQUE",
+  "capa_url": "https://lgfp.one/JCI",
+  "capa_local": "NAO PROVOQUE/NAO PROVOQUE.jpg",
+  "sinopse": "Beth e a melhor amiga, Addy, dão as cartas na equipe de cheerleaders do colégio. Mas o jogo vira com a chegada da nova treinadora.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Marlo Kelly, Herizen F. Guardiola, Willa Fitzgerald, Rob Heaps, Zach Roerig",
+  "diretor": "Peter Berg, Josephine Decker",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:01"
+        }
+      ]
+    }
+  ],
+  "id": 439
+}

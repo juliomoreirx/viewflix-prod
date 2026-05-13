@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTQ=",
+  "tipo": "serie",
+  "titulo": "RAIO X GUERRA DO IRA (2026)",
+  "capa_url": "https://lgfp.one/SMB0",
+  "capa_local": "RAIO X GUERRA DO IRA (2026)/RAIO X GUERRA DO IRA (2026).jpg",
+  "sinopse": "A guerra no Irã está no noticiário todo dia, mas o que levou até ela? O Raio-X: Guerra do Irã reconstrói 2.500 anos de história para responder essa pergunta.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Dr Mordechai Kedar, Dror Balazada, Eliyahu Yosian, Michael Oren, Major Rafael Rozenszajn",
+  "diretor": "Lucas Ferrugem",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:37"
+        }
+      ]
+    }
+  ],
+  "id": 9213
+}

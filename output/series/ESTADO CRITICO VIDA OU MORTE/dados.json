@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NjQ=",
+  "tipo": "serie",
+  "titulo": "ESTADO CRÍTICO VIDA OU MORTE",
+  "capa_url": "https://lgfp.one/PLV7",
+  "capa_local": "ESTADO CRITICO VIDA OU MORTE/ESTADO CRITICO VIDA OU MORTE.jpg",
+  "sinopse": "De uma emergência crítica até a sala de cirurgia, esta série documental acompanha as equipes médicas de Londres durante o atendimento a pessoas com traumas graves.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Jermaine Blake",
+  "total_episodios": "278",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:08"
+        }
+      ]
+    }
+  ],
+  "id": 7691
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MTQ=",
+  "tipo": "serie",
+  "titulo": "HYSTERIA!",
+  "capa_url": "https://lgfp.one/KPY1",
+  "capa_local": "HYSTERIA!/HYSTERIA!.jpg",
+  "sinopse": "Uma banda de rock do ensino médio decide tocar heavy metal satânico para aproveitar o repentino interesse de sua cidade pelo ocultismo. Mas uma série de eventos incomuns desencadeia uma caça às bruxas que leva diretamente a eles.",
+  "genero": "Drama, Mistério",
+  "elenco": "Julie Bowen, Anna Camp, Emjay Anthony, Chiara Aurelia, Kezii Curtis",
+  "diretor": "Jordan Vogt-Roberts",
+  "total_episodios": "400",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:49"
+        }
+      ]
+    }
+  ],
+  "id": 6529
+}

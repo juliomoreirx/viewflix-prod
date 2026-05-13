@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NDc=",
+  "tipo": "serie",
+  "titulo": "ORGULHO E PRECONCEITO",
+  "capa_url": "https://lgfp.one/RBA8",
+  "capa_local": "ORGULHO E PRECONCEITO/ORGULHO E PRECONCEITO.jpg",
+  "sinopse": "Ambientada na Inglaterra no início do século XIX, conta a história das irmãs Bennet, após o rico Mr. Bingley e seu amigo Mr. Darcy se instalarem nas vizinhanças. Enquanto Bingley imediatamente se interessa pela mais velha, Darcy tem dificuldades em se adaptar à sociedade local e entra em discórdia com a segunda das irmãs.",
+  "genero": "Drama",
+  "elenco": "Jennifer Ehle, Colin Firth, Susannah Harker, Crispin Bonham-Carter, Benjamin Whitrow",
+  "diretor": "Melanie Panario, Amanda Neal, Pip Short",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:16"
+        }
+      ]
+    }
+  ],
+  "id": 342281
+}

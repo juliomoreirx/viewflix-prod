@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3Njg=",
+  "tipo": "serie",
+  "titulo": "MÁ INFLUENCER",
+  "capa_url": "https://lgfp.one/QMX5",
+  "capa_local": "MA INFLUENCER/MA INFLUENCER.jpg",
+  "sinopse": "Uma mãe que falsifica bolsas de grife une forças com uma influenciadora narcisista para vender suas peças e pagar as dívidas.",
+  "genero": "Drama, Crime",
+  "elenco": "Cindy Mahlangu, Jo-anne Reyneke, Julia Anastasopoulos, Emmanuel Castis",
+  "diretor": "Ari Kruger, Keitumetse Qhali",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:14"
+        }
+      ]
+    }
+  ],
+  "id": 8266
+}

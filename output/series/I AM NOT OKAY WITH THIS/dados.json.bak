@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNzE=",
+  "tipo": "serie",
+  "titulo": "I AM NOT OKAY WITH THIS",
+  "capa_url": "https://lgfp.one/IRY",
+  "capa_local": "I AM NOT OKAY WITH THIS/I AM NOT OKAY WITH THIS.jpg",
+  "sinopse": "Syd lida com as turbulências do ensino médio, um drama familiar e um crush não correspondido pela sua melhor amiga enquanto tenta controlar seus crescentes superpoderes.",
+  "genero": "Drama, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Sophia Lillis, Wyatt Oleff, Sofia Bryant, Kathleen Rose Perkins",
+  "diretor": "Jonathan Entwistle, Jonathan Entwistle, Michael S. Chandler",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:19:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:46"
+        }
+      ]
+    }
+  ],
+  "id": 137
+}

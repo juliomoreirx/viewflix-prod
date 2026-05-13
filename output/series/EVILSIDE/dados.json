@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNzQ=",
+  "tipo": "serie",
+  "titulo": "EVILSIDE",
+  "capa_url": "https://lgfp.one/NIO2",
+  "capa_local": "EVILSIDE/EVILSIDE.jpg",
+  "sinopse": "Após um garoto ser encontrado morto, uma de suas amigas se torna a principal suspeita do assassinato. Mas a detetive Ulla Penttinen parece acreditar na sua inocência.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "Jakob Öhrman, Jarmo Mäkinen, Olivia Ainali, Kris Gummerus, Matti Onnismaa",
+  "diretor": "Jussi Hiltunen",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:32"
+        }
+      ]
+    }
+  ],
+  "id": 7034
+}

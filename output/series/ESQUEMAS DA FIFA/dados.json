@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MzM=",
+  "tipo": "serie",
+  "titulo": "ESQUEMAS DA FIFA",
+  "capa_url": "https://lgfp.one/WAR",
+  "capa_local": "ESQUEMAS DA FIFA/ESQUEMAS DA FIFA.jpg",
+  "sinopse": "Das disputas de poder à política internacional: esta minissérie documental revela a controversa história da FIFA e o que é preciso para sediar uma Copa do Mundo.",
+  "genero": "Documentário, Crime",
+  "elenco": "Sepp Blatter, Michel Platini, Gianni Infantino, Juca Kfouri, Jérôme Valcke",
+  "diretor": "Daniel Gordon, Daniel Gordon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:22"
+        }
+      ]
+    }
+  ],
+  "id": 3056
+}

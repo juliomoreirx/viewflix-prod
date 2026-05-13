@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MjU=",
+  "tipo": "serie",
+  "titulo": "O FUTURO",
+  "capa_url": "https://lgfp.one/RBF7",
+  "capa_local": "O FUTURO/O FUTURO.jpg",
+  "sinopse": "Com a ajuda de especialistas, esta série documental inovadora analisa novas tendências tecnológicas e suas possibilidades revolucionárias.",
+  "genero": "Documentário",
+  "elenco": "Jurnee Smollett",
+  "diretor": "Shawn Levy",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:19:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:19:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:18:30"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:18:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:18:51"
+        }
+      ]
+    }
+  ],
+  "id": 8456
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NjQ=",
+  "tipo": "serie",
+  "titulo": "MOVE [L]",
+  "capa_url": "https://lgfp.one/RHX",
+  "capa_local": "MOVE [L]/MOVE [L].jpg",
+  "sinopse": "Esta série documental mostra o brilho e o talento dos dançarinos e coreógrafos que estão moldando a arte do movimento ao redor do mundo.",
+  "genero": "Documentário",
+  "elenco": "Jon Boogz, Kimiko Versatile, Lil Buck, Israel Galván, Akram Khan",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:54"
+        }
+      ]
+    }
+  ],
+  "id": 1025
+}

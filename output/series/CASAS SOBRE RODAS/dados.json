@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2NjY=",
+  "tipo": "serie",
+  "titulo": "CASAS SOBRE RODAS",
+  "capa_url": "https://lgfp.one/ATLS",
+  "capa_local": "CASAS SOBRE RODAS/CASAS SOBRE RODAS.jpg",
+  "sinopse": "Brett Lewis, proprietário da Chewy Design Co., transforma vans em pequenas casas ambulantes. Ele encara muitos desafios ao criar soluções criativas e inovadoras cada veículo, de acordo com o estilo e vida de seus clientes.",
+  "genero": "Reality",
+  "elenco": "Brett Lewis, Kasey Givens",
+  "diretor": "C. Bailey Werner",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:08"
+        }
+      ]
+    }
+  ],
+  "id": 4461
+}

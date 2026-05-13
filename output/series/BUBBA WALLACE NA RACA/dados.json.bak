@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MzU=",
+  "tipo": "serie",
+  "titulo": "BUBBA WALLACE: NA RAÇA",
+  "capa_url": "https://lgfp.one/SXX",
+  "capa_local": "BUBBA WALLACE NA RACA/BUBBA WALLACE NA RACA.jpg",
+  "sinopse": "Esta série documental mostra como Bubba Wallace, o único piloto negro da NASCAR Cup Series, usa sua voz e talento para mudar o esporte.",
+  "genero": "Documentário",
+  "elenco": "Darrell Wallace, Jr.",
+  "diretor": "Erik Parker",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:31"
+        }
+      ]
+    }
+  ],
+  "id": 2334
+}

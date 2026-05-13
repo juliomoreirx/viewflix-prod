@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNDU=",
+  "tipo": "serie",
+  "titulo": "O RELOGIO DA AVENTURA",
+  "capa_url": "https://lgfp.one/ACKJ",
+  "capa_local": "O RELOGIO DA AVENTURA/O RELOGIO DA AVENTURA.jpg",
+  "sinopse": "Um relógio permite que o menino João seja transportado de sua casa, em uma cidade do Brasil de hoje, para a Roma antiga.",
+  "genero": "Kids, Família, Comédia",
+  "elenco": "Marcos Caruso, Nívea Maria, Miguel Arraes, Matheus Costa, Igor Rudolf",
+  "diretor": "Márcio Trigo, Daniel Leite, Paola Pol Balloussier",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:53"
+        }
+      ]
+    }
+  ],
+  "id": 4156
+}

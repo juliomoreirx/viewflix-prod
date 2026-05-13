@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0OTk=",
+  "tipo": "serie",
+  "titulo": "O COLETOR DE CORPOS [L]",
+  "capa_url": "https://lgfp.one/ABCD",
+  "capa_local": "O COLETOR DE CORPOS [L]/O COLETOR DE CORPOS [L].jpg",
+  "sinopse": "A história da luta do jornalista holandês Hans Knoop na década de 1970 para descobrir a verdade sobre o criminoso da Segunda Guerra Mundial, Pieter Menten.",
+  "genero": "Drama",
+  "elenco": "Carine Crutzen, Noortje Herlaar, Guy Clemens, Aus Greidanus",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:39"
+        }
+      ]
+    }
+  ],
+  "id": 4115
+}

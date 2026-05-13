@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MDk=",
+  "tipo": "serie",
+  "titulo": "A VIDA EM CORES COM DAVID ATTENBOROUGH",
+  "capa_url": "https://lgfp.one/RPR",
+  "capa_local": "A VIDA EM CORES COM DAVID ATTENBOROUGH/A VIDA EM CORES COM DAVID ATTENBOROUGH.jpg",
+  "sinopse": "Usando tecnologia inovadora, esta série documental explora a natureza de uma nova perspectiva, enquanto os animais usam a cor para sobreviver e prosperar na natureza.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough",
+  "diretor": "Stephen Dunleavy, Adam Geiger",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:14"
+        }
+      ]
+    }
+  ],
+  "id": 1235
+}

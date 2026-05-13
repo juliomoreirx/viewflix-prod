@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNzg=",
+  "tipo": "serie",
+  "titulo": "O CASO ASUNTA",
+  "capa_url": "https://lgfp.one/BHF4",
+  "capa_local": "O CASO ASUNTA/O CASO ASUNTA.jpg",
+  "sinopse": "Depois que um casal comunica o desaparecimento da filha Asunta, de 12 anos, a investigação logo se volta contra os dois.",
+  "genero": "Crime, Drama",
+  "elenco": "Candela Peña, Tristán Ulloa, Carlos Blanco, María León, Francesc Orella",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:15"
+        }
+      ]
+    }
+  ],
+  "id": 5586
+}

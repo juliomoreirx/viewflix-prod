@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMjY=",
+  "tipo": "serie",
+  "titulo": "DESEJO DE VINGANÇA",
+  "capa_url": "https://lgfp.one/XYY",
+  "capa_local": "DESEJO DE VINGANCA/DESEJO DE VINGANCA.jpg",
+  "sinopse": "A vida de Fuat Akinci, um advogado bem-sucedido e respeitado, muda quando sua filha sofre um acontecimento infeliz. Querendo vingança, Fuat responde mensagens misteriosas enviadas para seu celular que vão virar sua vida do avesso e fazê-lo enfrentar o passado em meio à escuridão e à luz.",
+  "genero": "Drama / Crime / Mistério",
+  "elenco": "Timuçin Esen, Ebru Özkan, Alican Yücesoy, Ilayda Akdoğan, Buçe Buse Kahraman, Onur Bilge, Selin Kahraman",
+  "diretor": "Durul Taylan, Yağmur Taylan",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:42"
+        }
+      ]
+    }
+  ],
+  "id": 3232
+}

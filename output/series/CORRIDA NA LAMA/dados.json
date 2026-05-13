@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NTY=",
+  "tipo": "serie",
+  "titulo": "CORRIDA NA LAMA",
+  "capa_url": "https://lgfp.one/KBD0",
+  "capa_local": "CORRIDA NA LAMA/CORRIDA NA LAMA.jpg",
+  "sinopse": "Pilotos se preparam para o circuito de outono no mundo fascinante das corridas automotivas na lama. Com muito dinheiro em jogo, a competição é acirrada e as rivalidades são intensas.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:52"
+        }
+      ]
+    }
+  ],
+  "id": 6323
+}

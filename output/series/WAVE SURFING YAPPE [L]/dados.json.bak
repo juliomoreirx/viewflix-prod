@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MTg=",
+  "tipo": "serie",
+  "titulo": "WAVE SURFING YAPPE [L]",
+  "capa_url": "https://lgfp.one/RHU2",
+  "capa_local": "WAVE SURFING YAPPE [L]/WAVE SURFING YAPPE [L].jpg",
+  "sinopse": "A história acompanha um jovem que acaba de descobrir o Surf, um esporte que vai mudar para sempre sua vida.",
+  "genero": "Animação",
+  "elenco": "Tomoaki Maeno, Yoshiki Nakajima, Takuya Sato, 白井悠介, Shunichi Toki",
+  "diretor": "尾崎隆晴",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:54"
+        }
+      ]
+    }
+  ],
+  "id": 8705
+}

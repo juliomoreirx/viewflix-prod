@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2OTY=",
+  "tipo": "serie",
+  "titulo": "MEN IN KILTS: A ROADTRIP WITH SAM AND GRAHAM",
+  "capa_url": "https://lgfp.one/TAT",
+  "capa_local": "MEN IN KILTS A ROADTRIP WITH SAM AND GRAHAM/MEN IN KILTS A ROADTRIP WITH SAM AND GRAHAM.jpg",
+  "sinopse": "As estrelas de \"Outlander\" Sam Heughan e Graham McTavish levam os espectadores em uma viagem dentro de seu país natal. Eles compartilham a rica e complexa herança da Escócia por meio de visitas a locais históricos e culturais, se encontrando com artesãos e especialistas locais que compartilham da admiração e fascinação por este país especial.",
+  "genero": "Documentário",
+  "elenco": "Sam Heughan, Graham McTavish",
+  "diretor": "Graham McTavish, Sam Heughan, Alex Norouzi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:28"
+        }
+      ]
+    }
+  ],
+  "id": 2408
+}

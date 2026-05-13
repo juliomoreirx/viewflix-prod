@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MTk=",
+  "tipo": "serie",
+  "titulo": "O MAIOR ROUBO DE ARTE DE TODOS OS TEMPOS",
+  "capa_url": "https://lgfp.one/ROV",
+  "capa_local": "O MAIOR ROUBO DE ARTE DE TODOS OS TEMPOS/O MAIOR ROUBO DE ARTE DE TODOS OS TEMPOS.jpg",
+  "sinopse": "Foi o maior roubo de arte da história: no Dia de São Patrício em 1990, obras lendárias de Rembrandt, Vermeer e outros, que hoje valeriam mais de meio bilhão de dólares, foram roubadas do Museu Isabella Stewart Gardner em Boston. Com direção de Colin Barnicle, esta série documental em quatro partes conta como foi a investigação desse mistério, que até hoje não foi resolvido.",
+  "genero": "Documentário, Crime",
+  "elenco": "Shelley Murphy, Anne Hawley, Dick Ellis, Martin Leppo, Tron Brekke",
+  "diretor": "Colin Barnicle, Colin Barnicle, Nick Barnicle",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:15"
+        }
+      ]
+    }
+  ],
+  "id": 1213
+}

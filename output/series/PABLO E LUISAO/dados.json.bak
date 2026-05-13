@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMDA=",
+  "tipo": "serie",
+  "titulo": "PABLO E LUISAO",
+  "capa_url": "https://lgfp.one/NYJ5",
+  "capa_local": "PABLO E LUISAO/PABLO E LUISAO.jpg",
+  "sinopse": "As aventuras de Pablo e Luisão, contadas pelo humorista na rede social, virarão a nova série de comédia do Globoplay em parceria com a TV Globo. A produção vai levar para as telinhas as histórias hilárias do pai do artista e seu melhor amigo na tentativa frustrada de abrir negócios próprios, a relação de amor e ódio dos dois com a família e as furadas em que se metiam.",
+  "genero": "Comédia, Família",
+  "elenco": "Aílton Graça, Otávio Müller, Dira Paes, Yves Miguel, João Pedro Martins",
+  "diretor": "Luís Felipe Sá, Nathália Cruz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:23:17"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:25:47"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:31:09"
+        }
+      ]
+    }
+  ],
+  "id": 7335
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMzM=",
+  "tipo": "serie",
+  "titulo": "CIDADE DAS ESMERALDAS",
+  "capa_url": "https://lgfp.one/KNC6",
+  "capa_local": "CIDADE DAS ESMERALDAS/CIDADE DAS ESMERALDAS.jpg",
+  "sinopse": "Dorothy Gale (Adria Arjona) nunca poderia imaginar que a vinda de tornado mudaria sua vida dessa forma. Moradora de Lucas, no Kansas, essa jovem de apenas 20 anos de idade é transportada para a incrível Terra de Oz, onde viverá uma jornada com direito a guerreiros, reinos concorrentes e um infame mágico.",
+  "genero": "Sci-Fi & Fantasy, Drama, Action & Adventure",
+  "elenco": "Adria Arjona, Oliver Jackson-Cohen, Vincent D'Onofrio, Joely Richardson, Ana Ularu",
+  "diretor": "Tarsem Singh",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:09"
+        }
+      ]
+    }
+  ],
+  "id": 6465
+}

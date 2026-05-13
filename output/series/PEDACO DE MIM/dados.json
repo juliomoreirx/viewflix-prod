@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNjE=",
+  "tipo": "serie",
+  "titulo": "PEDACO DE MIM",
+  "capa_url": "https://lgfp.one/CTC4",
+  "capa_local": "PEDACO DE MIM/PEDACO DE MIM.jpg",
+  "sinopse": "Um fenômeno raro faz com que uma mulher fique grávida de gêmeos de dois pais diferentes. Agora, ela luta para esconder segredos e manter a família unida.",
+  "genero": "Drama",
+  "elenco": "Juliana Paes, Vladimir Brichta, Felipe Abib, Palomma Duarte, João Vitti",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:51:15"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:59:39"
+        }
+      ]
+    }
+  ],
+  "id": 5659
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NTU=",
+  "tipo": "serie",
+  "titulo": "MINHA AMIGA NOKOTAN E UM CERVO",
+  "capa_url": "https://lgfp.one/DFT6",
+  "capa_local": "MINHA AMIGA NOKOTAN E UM CERVO/MINHA AMIGA NOKOTAN E UM CERVO.jpg",
+  "sinopse": "Torako Koshi é uma aluna exemplar do ensino médio que encontra uma garota da sua idade presa nos postes de energia por causa de seus... Chifres? A vida dessa ex-delinquente vira de cabeça pra baixo agora que sua amiga-cervo, Shikanoko, chegou para ficar.",
+  "genero": "Animação, Comédia",
+  "elenco": "Megumi Han, 藤田咲, 田辺留依, 和泉風花, 鳥海浩輔",
+  "diretor": "太田雅彦",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:41"
+        }
+      ]
+    }
+  ],
+  "id": 5804
+}

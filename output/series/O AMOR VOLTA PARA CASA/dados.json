@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNDA=",
+  "tipo": "serie",
+  "titulo": "O AMOR VOLTA PARA CASA",
+  "capa_url": "https://lgfp.one/DGC4",
+  "capa_local": "O AMOR VOLTA PARA CASA/O AMOR VOLTA PARA CASA.jpg",
+  "sinopse": "Depois de falir, um homem desaparece sem deixar vestígios. Anos depois, ele dá as caras como um bilionário, provocando um reencontro conturbado.",
+  "genero": "Família",
+  "elenco": "지진희, 김지수, 손나은, 민호, Yoon San-ha",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:11:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:08:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:06"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:09:02"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:06:43"
+        }
+      ]
+    }
+  ],
+  "id": 5816
+}

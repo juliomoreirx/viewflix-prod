@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MDM=",
+  "tipo": "serie",
+  "titulo": "EXPATRIADAS",
+  "capa_url": "https://lgfp.one/AZLL",
+  "capa_local": "EXPATRIADAS/EXPATRIADAS.jpg",
+  "sinopse": "Tendo como pano de fundo a complexidade dos moradores de Hong Kong, EXPATRIADAS retrata um grupo multifacetado de mulheres depois que um único encontro, desencadeia uma cadeia de eventos que alteram vidas, deixando todos navegando no intrincado equilíbrio entre culpa e responsabilidade.",
+  "genero": "Drama",
+  "elenco": "Nicole Kidman, Sarayu Blue, Ji-young Yoo, Brian Tee, Tiana Gowen",
+  "diretor": "Lulu Wang",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:40:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:40"
+        }
+      ]
+    }
+  ],
+  "id": 4913
+}

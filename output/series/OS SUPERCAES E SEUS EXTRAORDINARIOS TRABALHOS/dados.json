@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MzY=",
+  "tipo": "serie",
+  "titulo": "OS SUPERCAES E SEUS EXTRAORDINARIOS TRABALHOS",
+  "capa_url": "https://lgfp.one/ARST",
+  "capa_local": "OS SUPERCAES E SEUS EXTRAORDINARIOS TRABALHOS/OS SUPERCAES E SEUS EXTRAORDINARIOS TRABALHOS.jpg",
+  "sinopse": "Os cães são equipados com habilidades que ajudam a salvar vidas, prevenir desastres e proteger espécies inteiras. De caninos pulando de helicópteros a um laboratório negro que mantém as colmeias livres de doenças fatais, veja um lado de cães que você nunca imaginou.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:53"
+        }
+      ]
+    }
+  ],
+  "id": 4319
+}

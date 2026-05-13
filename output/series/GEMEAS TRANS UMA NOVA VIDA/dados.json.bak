@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Mjc=",
+  "tipo": "serie",
+  "titulo": "GÊMEAS TRANS: UMA NOVA VIDA",
+  "capa_url": "https://lgfp.one/AAIO",
+  "capa_local": "GEMEAS TRANS UMA NOVA VIDA/GEMEAS TRANS UMA NOVA VIDA.jpg",
+  "sinopse": "A série acompanha a vida das gêmeas Sofia e Mayla, no período das férias da faculdade, ao voltarem para o interior de Minas Gerais para rever os familiares e amigos e lidar com os desdobramentos do pós-cirurgia de redesignação sexual.",
+  "genero": "Documentário, Reality",
+  "elenco": "Mayla Phoebe, Sofia Albuquerck",
+  "diretor": "Rico Perez, Adriana Cechetti",
+  "total_episodios": "6",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:36"
+        }
+      ]
+    }
+  ],
+  "id": 3571
+}

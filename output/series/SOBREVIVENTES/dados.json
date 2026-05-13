@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MDU=",
+  "tipo": "serie",
+  "titulo": "SOBREVIVENTES",
+  "capa_url": "https://lgfp.one/ORO9",
+  "capa_local": "SOBREVIVENTES/SOBREVIVENTES.jpg",
+  "sinopse": "Há quinze anos, uma tragédia envolvendo três jovens abalou uma pacata cidade. Agora, a morte misteriosa de uma mulher relembra um passado que todos preferiam esquecer.",
+  "genero": "Drama, Mistério",
+  "elenco": "Yerin Ha, Miriama Smith, Charlie Vickers, Robyn Malcolm, Catherine McClements",
+  "diretor": "Cherie Nowlan, Ben C. Lucas, Cherie Nowlan",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:22"
+        }
+      ]
+    }
+  ],
+  "id": 309524
+}

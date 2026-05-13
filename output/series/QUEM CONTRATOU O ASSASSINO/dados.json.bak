@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1OTk=",
+  "tipo": "serie",
+  "titulo": "QUEM CONTRATOU O ASSASSINO",
+  "capa_url": "https://lgfp.one/RQR0",
+  "capa_local": "QUEM CONTRATOU O ASSASSINO/QUEM CONTRATOU O ASSASSINO.jpg",
+  "sinopse": "Esta série documental investiga crimes onde detetives sabem quem atirou, mas tentam descobrir quem \"puxou as cordas\" (o mandante). A trama envolve histórias de figuras misteriosas contratando assassinos, incluindo casos com tramas complexas de vingança e segredos.",
+  "genero": "Crime, Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:27"
+        }
+      ]
+    }
+  ],
+  "id": 8827
+}

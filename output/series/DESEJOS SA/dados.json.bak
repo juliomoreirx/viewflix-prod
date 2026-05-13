@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMDU=",
+  "tipo": "serie",
+  "titulo": "DESEJOS SA",
+  "capa_url": "https://lgfp.one/AQA5",
+  "capa_local": "DESEJOS SA/DESEJOS SA.jpg",
+  "sinopse": "A série conta histórias de clientes que contratam os serviços de uma misteriosa empresa para terem suas vontades mais secretas e proibidas rapidamente atendidas.",
+  "genero": "Drama, Comédia",
+  "elenco": "Carol Castro, Silvero Pereira, Marcos Pasquim, Daniel Rocha, Diogo Nogueira",
+  "diretor": "Gastón Duprat, Mariano Cohn, José Alvarenga Jr.",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:07"
+        }
+      ]
+    }
+  ],
+  "id": 5188
+}

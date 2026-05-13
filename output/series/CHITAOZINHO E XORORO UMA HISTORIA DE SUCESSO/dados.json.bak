@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMjU=",
+  "tipo": "serie",
+  "titulo": "CHITAOZINHO E XORORO UMA HISTORIA DE SUCESSO",
+  "capa_url": "https://lgfp.one/EAY9",
+  "capa_local": "CHITAOZINHO E XORORO UMA HISTORIA DE SUCESSO/CHITAOZINHO E XORORO UMA HISTORIA DE SUCESSO.jpg",
+  "sinopse": "A história de dois meninos do interior que viraram ídolos pop, sendo a dupla sertaneja mais famosa e mais importante surgida nos últimos 50 anos.",
+  "genero": "Documentário",
+  "elenco": "Chitãozinho, Xororó",
+  "diretor": "Emília Silveira, Marcus Fernando",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:40"
+        }
+      ]
+    }
+  ],
+  "id": 6153
+}

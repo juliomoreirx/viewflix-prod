@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1MjM=",
+  "tipo": "serie",
+  "titulo": "NORAGAMI (2014)",
+  "capa_url": "https://lgfp.one/SQY3",
+  "capa_local": "NORAGAMI (2014)/NORAGAMI (2014).jpg",
+  "sinopse": "Yato é um deus menor que sonha em ter milhões de seguidores. Infelizmente, seu sonho está longe de se tornar realidade, visto que sequer tem um santuário dedicado ao seu nome e não possui nenhum Instrumento Divino, desde que o último se demitiu, após três meses de parceria. Nesse cenário, Yato conhece Hiyori, uma garota que secretamente é fã de artes marciais. No primeiro encontro entre eles, Yato é salvo por Hiyori, que o impede de ser atropelado por um ônibus, mas acaba sendo atingida em seu lugar. A partir desse momento, Hiyori se vê dividida entre dois mundos. O que acontecerá?",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Hiroshi Kamiya, Maaya Uchida, Yuki Kaji, Aki Toyosaki",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:58"
+        }
+      ]
+    }
+  ],
+  "id": 9356
+}

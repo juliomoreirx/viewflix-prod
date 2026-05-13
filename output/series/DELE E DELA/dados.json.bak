@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2OTg=",
+  "tipo": "serie",
+  "titulo": "DELE E DELA",
+  "capa_url": "https://lgfp.one/RGD3",
+  "capa_local": "DELE E DELA/DELE E DELA.jpg",
+  "sinopse": "Um detetive e uma repórter, que já foram um casal, disputam para solucionar um assassinato em que os dois são os principais suspeitos.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "Tessa Thompson, Jon Bernthal, Pablo Schreiber, Crystal R. Fox, Sunita Mani",
+  "diretor": "William Oldroyd, Tamara Hansen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:30"
+        }
+      ]
+    }
+  ],
+  "id": 8600
+}

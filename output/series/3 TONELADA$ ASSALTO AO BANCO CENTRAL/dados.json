@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MTQ=",
+  "tipo": "serie",
+  "titulo": "3 TONELADA$: ASSALTO AO BANCO CENTRAL",
+  "capa_url": "https://lgfp.one/SZV",
+  "capa_local": "3 TONELADA$ ASSALTO AO BANCO CENTRAL/3 TONELADA$ ASSALTO AO BANCO CENTRAL.jpg",
+  "sinopse": "Em 2005, ladrões cavaram um túnel até o Banco Central do Brasil em Fortaleza, levando mais de 160 milhões de reais. Esta série documental relata o roubo histórico.",
+  "genero": "Documentário",
+  "elenco": "Mark Lewis",
+  "diretor": "Daniel Billio, Rodrigo Astiz, Rodrigo Astiz",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:12"
+        }
+      ]
+    }
+  ],
+  "id": 2384
+}

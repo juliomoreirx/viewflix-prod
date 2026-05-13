@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4OTk=",
+  "tipo": "serie",
+  "titulo": "LOVE TRACK [L]",
+  "capa_url": "https://lgfp.one/REX1",
+  "capa_local": "LOVE TRACK [L]/LOVE TRACK [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:38:15"
+        }
+      ]
+    }
+  ],
+  "id": 8550
+}

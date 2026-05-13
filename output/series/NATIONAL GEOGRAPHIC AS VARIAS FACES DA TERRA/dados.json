@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwODQ=",
+  "tipo": "serie",
+  "titulo": "NATIONAL GEOGRAPHIC AS VARIAS FACES DA TERRA",
+  "capa_url": "https://lgfp.one/OYJ4",
+  "capa_local": "NATIONAL GEOGRAPHIC AS VARIAS FACES DA TERRA/NATIONAL GEOGRAPHIC AS VARIAS FACES DA TERRA.jpg",
+  "sinopse": "Fuja da rotina com As Várias Faces da Terra. Relaxe e restaure suas energias numa jornada por geleiras azuis, dunas rodopiantes, cidades vibrantes e exuberantes florestas tropicais.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "31",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:33"
+        }
+      ]
+    }
+  ],
+  "id": 7510
+}

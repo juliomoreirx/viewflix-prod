@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwMzk=",
+  "tipo": "serie",
+  "titulo": "THE HEART KILLERS [L]",
+  "capa_url": "https://lgfp.one/NNL2",
+  "capa_local": "THE HEART KILLERS [L]/THE HEART KILLERS [L].jpg",
+  "sinopse": "O tatuador Kant é incumbido pela polícia de investigar assassinatos misteriosos de empresários e políticos. Kant começa a seguir dois irmãos assassinos, Fadel e Bison, que também administram um restaurante. A situação se complica quando Kant começa a se apaixonar por Bison. Enquanto isso, Fadel se envolve com um mecânico de carros chamado Style.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "คณพันธ์ ปุ้ยตระกูล, ธนวัฒน์ รัตนกิจไพศาล, อาเชน ไอย์ดึน, ณัฎฐ์ฐชัย บุญประเสริฐ, Kanthee Limpitkranon",
+  "diretor": "ทิชากร ภูเขาทอง, ทิชากร ภูเขาทอง, Noppharnach Chaiwimol",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:15:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:49"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:12:39"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:20:21"
+        }
+      ]
+    }
+  ],
+  "id": 7143
+}

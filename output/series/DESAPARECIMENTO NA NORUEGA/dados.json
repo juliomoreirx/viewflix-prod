@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1ODY=",
+  "tipo": "serie",
+  "titulo": "DESAPARECIMENTO NA NORUEGA",
+  "capa_url": "https://lgfp.one/TRH",
+  "capa_local": "DESAPARECIMENTO NA NORUEGA/DESAPARECIMENTO NA NORUEGA.jpg",
+  "sinopse": "Em busca da verdade sobre o desaparecimento da esposa de um bilionário, a polícia norueguesa enfrenta a imprensa e muitas informações falsas. Baseada em fatos reais.",
+  "genero": "Crime, Drama",
+  "elenco": "Yngvild Støen Grotmol, Christian Rubeck, Henrik Rafaelsen",
+  "diretor": "Silje Dahl",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:54"
+        }
+      ]
+    }
+  ],
+  "id": 2860
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNTM=",
+  "tipo": "serie",
+  "titulo": "TIDELANDS",
+  "capa_url": "https://lgfp.one/JHV",
+  "capa_local": "TIDELANDS/TIDELANDS.jpg",
+  "sinopse": "A ex-presidiária Cal McTeer volta para Orphelin Bay, berço de uma conspiração de gerações envolvendo assassinato, drogas e sereias.",
+  "genero": "Drama, Crime, Sci-Fi & Fantasy",
+  "elenco": "Charlotte Best, Marco Pigossi, Elsa Pataky",
+  "diretor": "Toa Fraser, Emma Freeman, Catriona McKenzie, Daniel Nettheim",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:48"
+        }
+      ]
+    }
+  ],
+  "id": 600
+}

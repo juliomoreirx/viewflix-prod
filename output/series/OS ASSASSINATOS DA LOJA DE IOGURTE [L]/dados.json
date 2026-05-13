@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MDM=",
+  "tipo": "serie",
+  "titulo": "OS ASSASSINATOS DA LOJA DE IOGURTE [L]",
+  "capa_url": "https://lgfp.one/PSM3",
+  "capa_local": "OS ASSASSINATOS DA LOJA DE IOGURTE [L]/OS ASSASSINATOS DA LOJA DE IOGURTE [L].jpg",
+  "sinopse": "Docussérie que investiga os assassinatos de quatro garotas em uma loja de frozen iogurte no Texas, em 1991, revelando o profundo trauma vivido por suas famílias, as falsas confissões que confundiram o caso e as décadas de luta por justiça.",
+  "genero": "Documentário, Crime",
+  "elenco": "Claire Huie, John Jones, Mike Huckabay, Reese Price, Sonora Thomas",
+  "diretor": "Margaret Brown, Avi Belkin",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:27"
+        }
+      ]
+    }
+  ],
+  "id": 7827
+}

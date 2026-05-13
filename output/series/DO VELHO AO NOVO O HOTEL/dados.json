@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MzE=",
+  "tipo": "serie",
+  "titulo": "DO VELHO AO NOVO O HOTEL",
+  "capa_url": "https://lgfp.one/DFW0",
+  "capa_local": "DO VELHO AO NOVO O HOTEL/DO VELHO AO NOVO O HOTEL.jpg",
+  "sinopse": "Chip e Joanna Gaines têm grandes ideias para transformar um antigo prédio de tijolos em um hotel boutique no centro de Waco. Antes da demolição, eles devem tomar decisões difíceis para os quartos, preservando elementos arquitetônicos históricos.",
+  "genero": "Reality",
+  "elenco": "Joanna Gaines, Chip Gaines",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:16"
+        }
+      ]
+    }
+  ],
+  "id": 5811
+}

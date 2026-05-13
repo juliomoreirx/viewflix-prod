@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MzU=",
+  "tipo": "serie",
+  "titulo": "DIARIO DE UM JOVEM MEDICO [L]",
+  "capa_url": "https://lgfp.one/ASOP",
+  "capa_local": "DIARIO DE UM JOVEM MEDICO [L]/DIARIO DE UM JOVEM MEDICO [L].jpg",
+  "sinopse": "No início do Século XX, um jovem médico chega a uma pequena vila durante a Revolução Russa para trabalhar em um hospital local.",
+  "genero": "Comédia, Drama",
+  "elenco": "Jon Hamm, Daniel Radcliffe, Adam Godley, Vicki Pepperdine, Rosie Cavaliero",
+  "diretor": "Robert McKillop",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:15"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:22:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:34"
+        }
+      ]
+    }
+  ],
+  "id": 4388
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5NTM=",
+  "tipo": "serie",
+  "titulo": "STAR WARS MAUL LORDE DAS SOMBRAS (2026)",
+  "capa_url": "https://lgfp.one/SOP0",
+  "capa_local": "STAR WARS MAUL LORDE DAS SOMBRAS (2026)/STAR WARS MAUL LORDE DAS SOMBRAS (2026).jpg",
+  "sinopse": "A história acompanha Maul, que planeja reconstruir seu sindicato do crime em um planeta intocado pelo Império. Lá, ele cruza o caminho de uma jovem Padawan Jedi desiludida, que pode ser a aprendiz que ele procura para ajudá-lo em sua implacável busca por vingança.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Sam Witwer, Gideon Adlon, Wagner Moura, Richard Ayoade",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:02"
+        }
+      ]
+    }
+  ],
+  "id": 9274
+}

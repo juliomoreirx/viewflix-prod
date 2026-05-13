@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MTY=",
+  "tipo": "serie",
+  "titulo": "ANYWAY IM FALLING IN LOVE WITH YOU [L]",
+  "capa_url": "https://lgfp.one/KXQ0",
+  "capa_local": "ANYWAY IM FALLING IN LOVE WITH YOU [L]/ANYWAY IM FALLING IN LOVE WITH YOU [L].jpg",
+  "sinopse": "É 1º de julho de 2020. Mizuha, no segundo ano do Ensino Médio, tem o pior aniversário de dezessete anos da história. Ela perde a chance de se aproximar do estudante mais velho que ela admira, e seus pais nem lembram do aniversário dela. O pior de tudo, tem uma nova e desconhecida doença infecciosa, então todos os torneios do clube dela e todas as viagens escolares foram canceladas. Ela está convencida que nunca vai ter a juventude deslumbrande que sempre sonhou... Mas então, seu amigo de infância, Mizuki, de repente se declara para ela como um candidato a ser seu namorado. Esta é a história juvenil sobre quatro amigos de infância que cresceram como uma família, uma sendo a protagonista, Nishino Mizuha, e os quatro garotos com quem ela cresceu e quem veem ela como uma família.",
+  "genero": "Animação, Drama",
+  "elenco": "Sakura Shinfuku, Kazuki Ura, Sion Yoshitaka, Shoya Chiba, Satoshi Inomata",
+  "diretor": "山元隼一",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:24:15"
+        }
+      ]
+    }
+  ],
+  "id": 6556
+}

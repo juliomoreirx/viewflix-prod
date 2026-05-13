@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3OTM=",
+  "tipo": "serie",
+  "titulo": "MAEBASHI WITCHES [L]",
+  "capa_url": "https://lgfp.one/NPJ9",
+  "capa_local": "MAEBASHI WITCHES [L]/MAEBASHI WITCHES [L].jpg",
+  "sinopse": "Yuina Akagi tinha uma vida sem muitos acontecimentos em Maebashi, na província de Gunma, até o dia que, de repente, um sapo misterioso chamado Keroppe diz que ela deveria se tornar uma bruxa! Assim começa a jornada de Yuina em uma floricultura cheia de magia, música e desejos!",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "Sakura Kasuga, 咲川ひなの, 本村玲奈, 南波遥海, Honami Momose",
+  "diretor": "山元隼一, 児玉徹郎, 児玉徹郎",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:01"
+        }
+      ]
+    }
+  ],
+  "id": 7178
+}

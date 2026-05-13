@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MTQ=",
+  "tipo": "serie",
+  "titulo": "CRIME EM TEMPO REAL",
+  "capa_url": "https://lgfp.one/ANX1",
+  "capa_local": "CRIME EM TEMPO REAL/CRIME EM TEMPO REAL.jpg",
+  "sinopse": "Com a tecnologia moderna ao alcance de todos, a possibilidade de resolver os casos aumentou e este show provará exatamente o porquê. Apresentando histórias verdadeiras de alta octanagem com riscos de vida e morte, cada episódio inclui imagens de CCTV e entrevistas com a polícia resolvendo os crimes, testemunhas e as famílias das vítimas.",
+  "genero": "Crime, Documentário",
+  "elenco": "Pat Rogers, Derick Chaney, Ryan MacKinnon",
+  "diretor": "Steve Baker",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 5153
+}

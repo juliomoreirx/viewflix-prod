@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMDc=",
+  "tipo": "serie",
+  "titulo": "DESERTO SELVAGEM",
+  "capa_url": "https://lgfp.one/AAFV",
+  "capa_local": "DESERTO SELVAGEM/DESERTO SELVAGEM.jpg",
+  "sinopse": "Peggy Newman, uma mulher com um passado duvidoso, toma a decisão transformadora de se tornar uma detetive particular após a morte de sua querida mãe, que vivia com ela na pequena cidade desértica, Yucca Valley, Califórnia.",
+  "genero": "Comédia",
+  "elenco": "Patricia Arquette, Matt Dillon, Brad Garrett, Weruche Opia, Bernadette Peters, Rupert Friend, Jayden Gomez, Christine Taylor",
+  "diretor": "Katie Ford, Nancy Fichman, Jennifer Hoppe",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:47"
+        }
+      ]
+    }
+  ],
+  "id": 3525
+}

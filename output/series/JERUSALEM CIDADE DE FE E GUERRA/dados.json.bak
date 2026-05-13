@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MDA=",
+  "tipo": "serie",
+  "titulo": "JERUSALEM CIDADE DE FE E GUERRA",
+  "capa_url": "https://lgfp.one/KAM5",
+  "capa_local": "JERUSALEM CIDADE DE FE E GUERRA/JERUSALEM CIDADE DE FE E GUERRA.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Ewan McGregor",
+  "diretor": "Richard Lopez, Shan Nicholson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:34"
+        }
+      ]
+    }
+  ],
+  "id": 6321
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5Mjk=",
+  "tipo": "serie",
+  "titulo": "A BARBARA E O TROLL",
+  "capa_url": "https://lgfp.one/TTL",
+  "capa_local": "A BARBARA E O TROLL/A BARBARA E O TROLL.jpg",
+  "sinopse": "Brendar, expulsa da Ordem Real das Princesas Guerreiras, é uma bárbara temida e reverenciada; Troll Evan é um aspirante a músico que destrói seu próprio caminho e convence Brendar a acompanhá-lo.",
+  "genero": "Família / Comédia",
+  "elenco": "Nicolette Santino, Spencer Grammer, Drew Massey, Colleen Smith, Allan Trautman, James Murray",
+  "diretor": "Paul Fox, Melanie Orr, Craig David Wallace",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:22:38"
+        }
+      ]
+    }
+  ],
+  "id": 2918
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4MTI=",
+  "tipo": "serie",
+  "titulo": "O BICHO VAI PEGAR O CHAMADO DA NATUREZA",
+  "capa_url": "https://lgfp.one/ACJX",
+  "capa_local": "O BICHO VAI PEGAR O CHAMADO DA NATUREZA/O BICHO VAI PEGAR O CHAMADO DA NATUREZA.jpg",
+  "sinopse": "Acompanhe os melhores amigos Boog, um urso pardo adorável e avesso ao risco, e Elliot, um cervo de fala rápida. Quando a dupla descobre um acampamento de verão abandonado no meio do nada, eles embarcam em uma aventura corajosa e hilária para criar um novo lugar para viver, onde os animais possam abraçar sua vida selvagem interior.",
+  "genero": "Animação, Kids",
+  "elenco": "Jonathan Langdon, Joshua Graham, Jonathan Sconza, Josette Jorge, Trevor White",
+  "diretor": "Steve Moore, Jill Culton, Anthony Stacchi",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:47"
+        }
+      ]
+    }
+  ],
+  "id": 4144
+}

@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzOTA=",
+  "tipo": "serie",
+  "titulo": "TENPURU [L]",
+  "capa_url": "https://lgfp.one/AAUZ",
+  "capa_local": "TENPURU [L]/TENPURU [L].jpg",
+  "sinopse": "Akemitsu Akegami sempre ouviu de seu pai que ‘ninguém pode viver sozinho’… mas ele é muito determinado. Afinal, seu pai com certeza não quis dizer isso com a melhor das intenções, e Akemitsu não deseja se tornar como aquele canalha. Mas quando um encontro casual com uma jovem o deixa com pensamentos muito impuros, ele decide fazer o que deve: tornar-se um monge budista e renunciar aos costumes mundanos. Mas o templo ao qual ele decide se dedicar… está cheio de mulheres? E essa mesma jovem também está lá? O que um homem pode fazer?",
+  "genero": "Animação, Comédia",
+  "elenco": "Masayuki Akasaka, Aimi, Yu Serizawa, Nanami Yamashita, Madoka Asahina",
+  "diretor": "Kazuomi Koga",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:12:16"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:14:39"
+        }
+      ]
+    }
+  ],
+  "id": 3890
+}

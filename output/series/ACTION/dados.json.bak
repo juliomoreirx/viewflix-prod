@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3ODE=",
+  "tipo": "serie",
+  "titulo": "ACTION",
+  "capa_url": "https://lgfp.one/PDY4",
+  "capa_local": "ACTION/ACTION.jpg",
+  "sinopse": "Série documental cheia de adrenalina que coloca a equipe de dublês da 87North sob o holofote, revelando histórias cativantes de pessoas comuns que foram atraídas para o mundo eletrizante de esportes radicais, artes marciais, motocross e muito mais.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Josh Oreck, David Leitch",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:07"
+        }
+      ]
+    }
+  ],
+  "id": 7526
+}

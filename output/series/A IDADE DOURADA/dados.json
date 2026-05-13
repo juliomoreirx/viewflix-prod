@@ -1,0 +1,155 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMTU=",
+  "tipo": "serie",
+  "titulo": "A IDADE DOURADA",
+  "capa_url": "https://lgfp.one/SVS",
+  "capa_local": "A IDADE DOURADA/A IDADE DOURADA.jpg",
+  "sinopse": "Após a morte do pai, a jovem Marian Brook se muda para a Nova York de 1882 - uma cidade à beira da modernidade, onde velho e novo se chocam.",
+  "genero": "Drama",
+  "elenco": "Carrie Coon, Morgan Spector, Louisa Jacobson, Denée Benton, Taissa Farmiga",
+  "diretor": "Michael Engler, Salli Richardson-Whitfield, Deborah Kampmeier, Crystle Roberson Dorsey",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:20:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:59:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:54:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:52:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:58:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:56:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:58:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:52:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:58:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:59:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:54:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "01:00:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:58:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:08:19"
+        }
+      ]
+    }
+  ],
+  "id": 2277
+}

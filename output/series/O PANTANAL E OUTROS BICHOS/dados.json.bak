@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3Mzg=",
+  "tipo": "serie",
+  "titulo": "O PANTANAL E OUTROS BICHOS",
+  "capa_url": "https://lgfp.one/RZX",
+  "capa_local": "O PANTANAL E OUTROS BICHOS/O PANTANAL E OUTROS BICHOS.jpg",
+  "sinopse": "João e Isis (dois pré adolescentes urbanos) não conseguem desligar um só minuto os seus smartphones, fato que vem preocupando os pais. Para tentar amenizar essa obsessão pela tecnologia, os pais decidem passar as férias das crianças na fazenda dos avós no Pantanal, certos de que lá a natureza falará mais alto e eles poderão ter bons dias de convívio saudável com a família.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:56"
+        }
+      ]
+    }
+  ],
+  "id": 1680
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NjA=",
+  "tipo": "serie",
+  "titulo": "THIS IS GOING TO HURT",
+  "capa_url": "https://lgfp.one/TCM",
+  "capa_local": "THIS IS GOING TO HURT/THIS IS GOING TO HURT.jpg",
+  "sinopse": "",
+  "genero": "Comédia / Drama",
+  "elenco": "Ben Whishaw, Ambika Mod, Alex Jennings, Michele Austin, Rory Fleck-Byrne, Tom Durant-Pritchard, Harriet Walter, Kadiff Kirwan",
+  "diretor": "Dr Adam Kay",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:32"
+        }
+      ]
+    }
+  ],
+  "id": 2455
+}

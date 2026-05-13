@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3Njc=",
+  "tipo": "serie",
+  "titulo": "O VERÃO EM QUE HIKARU MORREU",
+  "capa_url": "https://lgfp.one/QMX8",
+  "capa_local": "O VERAO EM QUE HIKARU MORREU/O VERAO EM QUE HIKARU MORREU.jpg",
+  "sinopse": "Há seis meses, Hikaru desapareceu por uma semana. Agora, desconfiado de que algo esteja errado, Yoshiki, seu melhor amigo, o confronta e descobre a verdade atormentadora.",
+  "genero": "Animação, Mistério, Drama",
+  "elenco": "Chiaki Kobayashi, Shuichiro Umeda, Chikahiro Kobayashi, Wakana Kowaka, Yumiri Hanamori",
+  "diretor": "竹下良平, 竹下良平, 平岡政展",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:04"
+        }
+      ]
+    }
+  ],
+  "id": 8269
+}

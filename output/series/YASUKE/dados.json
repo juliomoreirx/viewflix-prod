@@ -1,0 +1,49 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5NzQ=",
+  "tipo": "serie",
+  "titulo": "YASUKE",
+  "capa_url": "https://lgfp.one/TDJ6",
+  "capa_local": "YASUKE/YASUKE.jpg",
+  "sinopse": "Para proteger uma menininha que tem poderes misteriosos, o Samurai Negro, hoje um pacífico barqueiro, acaba se envolvendo em novas batalhas.",
+  "genero": "Animação, Drama, Action & Adventure",
+  "elenco": "LaKeith Stanfield, Maya Tanida, Takehiro Hira, Julie Marcus, Ming-Na Wen",
+  "diretor": "小池健, 佐藤威, 佐藤威",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:18"
+        }
+      ]
+    }
+  ]
+}

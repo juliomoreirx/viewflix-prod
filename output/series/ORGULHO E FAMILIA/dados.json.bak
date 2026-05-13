@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMjQ=",
+  "tipo": "serie",
+  "titulo": "ORGULHO E FAMÍLIA",
+  "capa_url": "https://lgfp.one/AUOR",
+  "capa_local": "ORGULHO E FAMILIA/ORGULHO E FAMILIA.jpg",
+  "sinopse": "Nanda Costa e Lorelay Fox recebem personalidades LGBTI+ e seus aliados para um bate-papo recheado de afeto sobre acolhimento e o convívio em família.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:03"
+        }
+      ]
+    }
+  ],
+  "id": 4547
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyODM=",
+  "tipo": "serie",
+  "titulo": "O CASO ESCOLA BASE",
+  "capa_url": "https://lgfp.one/AAIQ",
+  "capa_local": "O CASO ESCOLA BASE/O CASO ESCOLA BASE.jpg",
+  "sinopse": "Uma denúncia de abuso sexual de crianças em São Paulo, promove um “linchamento” de inocentes, motivado pelo sensacionalismo da mídia e pelos erros nas investigações policiais.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Paulo Henrique Fontenelle, Paulo Henrique Fontenelle",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:48"
+        }
+      ]
+    }
+  ],
+  "id": 3573
+}

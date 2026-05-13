@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NjY=",
+  "tipo": "serie",
+  "titulo": "BLOOD MACHINES",
+  "capa_url": "https://lgfp.one/JLR",
+  "capa_local": "BLOOD MACHINES/BLOOD MACHINES.jpg",
+  "sinopse": "",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Anders Heinrichsen, Elisa Lasowski, Joëlle Berckmans, Christian Erickson, Noémie Stevens",
+  "diretor": "",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:30"
+        }
+      ]
+    }
+  ],
+  "id": 716
+}

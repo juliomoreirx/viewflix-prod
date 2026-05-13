@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MTU=",
+  "tipo": "serie",
+  "titulo": "UNIVERSOS PARALELOS",
+  "capa_url": "https://lgfp.one/TBD",
+  "capa_local": "UNIVERSOS PARALELOS/UNIVERSOS PARALELOS.jpg",
+  "sinopse": "As vidas dos quatro amigos de infância, Bilal, Romane, Sam e Victor, são afetadas quando um misterioso evento os separa, enviando-os para dimensões paralelas. Eles tentam entender o que aconteceu e se esforçam para retroceder o tempo, a fim de retornar ao seu mundo anterior.",
+  "genero": "Action & Adventure / Sci-Fi & Fantasy",
+  "elenco": "Timoté Rigault, Thomas Chomel, Omar Mebrouk, Jules Houplain, Jade Pedri, Naidra Ayadi, Guillaume Labbé, Gil Alma",
+  "diretor": "Quoc Dang Tran",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:22"
+        }
+      ]
+    }
+  ],
+  "id": 2418
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NTM=",
+  "tipo": "serie",
+  "titulo": "LA RÉVOLUTION",
+  "capa_url": "https://lgfp.one/RHI",
+  "capa_local": "LA REVOLUTION/LA REVOLUTION.jpg",
+  "sinopse": "Nesta releitura fictícia da Revolução Francesa, uma misteriosa doença assola a França, levando a um conflito brutal entre rebeldes e aristocratas.",
+  "genero": "Drama",
+  "elenco": "Amir el Kacem, Marilou Aussilloux, Lionel Erdogan, Isabel Aimé González Sola, Julien Frison",
+  "diretor": "Jérémie Rozan, Edouard Salier, Julien Trousselier",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:42"
+        }
+      ]
+    }
+  ],
+  "id": 1009
+}

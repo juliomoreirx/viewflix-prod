@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0ODk=",
+  "tipo": "serie",
+  "titulo": "911 NASHVILLE [L]",
+  "capa_url": "https://lgfp.one/QNN1",
+  "capa_local": "911 NASHVILLE [L]/911 NASHVILLE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Chris O'Donnell, Jessica Capshaw, Kimberly Williams-Paisley, LeAnn Rimes, Michael Provost",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:00:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:00:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:00:00"
+        }
+      ]
+    }
+  ],
+  "id": 8437
+}

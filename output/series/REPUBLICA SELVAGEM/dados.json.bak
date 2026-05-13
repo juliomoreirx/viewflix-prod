@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNjI=",
+  "tipo": "serie",
+  "titulo": "REPÚBLICA SELVAGEM",
+  "capa_url": "https://lgfp.one/VYN",
+  "capa_local": "REPUBLICA SELVAGEM/REPUBLICA SELVAGEM.jpg",
+  "sinopse": "Em meio a uma paisagem intransponível ao pé dos Alpes, um grupo de jovens infratores está passando por um programa educacional experimental com o objetivo de reabilitá-los. De repente, um membro do programa morre de forma violenta. Ninguém sabe exatamente o que aconteceu, e os jovens enfrentam uma difícil decisão. Devem esperar que as autoridades recuperem o corpo e investiguem o crime? Ou fugir e tomar o destino deles nas próprias mãos? O grupo não tem muito em comum um com o outro, embora uma coisa os una; todos eles tiveram experiências muito ruins com as autoridades e não esperam ser tratados com justiça. Como não sabem quem é o autor do crime, eles têm apenas uma opção: fugir. Subir as montanhas, subir os picos mais altos dos Alpes. Parece impossível até que eles tropecem em um complexo sistema de cavernas onde podem encontrar abrigo do vento, do clima e de seus perseguidores.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Verena Altenberger, Emma Nova, Merlin Rose, Maria Dragus, Béla Gabor Lenz",
+  "diretor": "Markus Goller",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:15"
+        }
+      ]
+    }
+  ],
+  "id": 3002
+}

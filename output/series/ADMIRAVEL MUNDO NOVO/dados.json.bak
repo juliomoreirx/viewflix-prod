@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MzY=",
+  "tipo": "serie",
+  "titulo": "ADMIRÁVEL MUNDO NOVO",
+  "capa_url": "https://lgfp.one/RTD",
+  "capa_local": "ADMIRAVEL MUNDO NOVO/ADMIRAVEL MUNDO NOVO.jpg",
+  "sinopse": "Em um futuro distópico, uma sociedade alcança a paz e o desenvolvimento ideal após a proibição das liberdades individuais, do dinheiro e da estrutura familiar.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Alden Ehrenreich, Jessica Brown Findlay, Harry Lloyd, Kylie Bunbury, Hannah John-Kamen",
+  "diretor": "Owen Harris",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:33"
+        }
+      ]
+    }
+  ],
+  "id": 1332
+}

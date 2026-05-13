@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMzY=",
+  "tipo": "serie",
+  "titulo": "JOAN",
+  "capa_url": "https://lgfp.one/KBD6",
+  "capa_local": "JOAN/JOAN.jpg",
+  "sinopse": "Um drama de seis partes do canal ITV, inspirado na história real de Joan Hannington, a ladra de joias mais famosa do Reino Unido, estrelado por Sophie Turner. Fugindo de um relacionamento catastrófico com o criminoso Gary Darvil, a jornada de Joan da miséria para uma ladra de diamantes habilidosa se desenrola no cenário de uma Londres vibrante e aspiracional dos anos 1980.",
+  "genero": "Drama, Crime",
+  "elenco": "Sophie Turner, Frank Dillane, Kirsty J. Curtis, Gershwyn Eustache Jr., Tomi May",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:17"
+        }
+      ]
+    }
+  ],
+  "id": 6329
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNTk=",
+  "tipo": "serie",
+  "titulo": "AS CANALHAS",
+  "capa_url": "https://lgfp.one/SHV2",
+  "capa_local": "AS CANALHAS/AS CANALHAS.jpg",
+  "sinopse": "A série teve 13 mulheres, uma para cada episódio, contando suas maldades contra a filha, o marido, a amiga da época do colégio, o amigo do trabalho, o idoso debilitado, a colega do time de vôlei, entre outras vítimas. A série mostra que os homens podem ser mais canalhas em quantidade, mas que as mulheres sabem ser com muito mais qualidade. Elas vieram ao mundo para se divertir e fazer todas as maldades que a maioria não tem coragem de fazer",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "Vicente Amorim, Anne Pinheiro Guimarães, Pedro Freire",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:41"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:22:33"
+        }
+      ]
+    }
+  ],
+  "id": 9152
+}

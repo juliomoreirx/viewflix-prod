@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4Njc=",
+  "tipo": "serie",
+  "titulo": "BRINCANDO COM FOGO: ITÁLIA",
+  "capa_url": "https://lgfp.one/PKL6",
+  "capa_local": "BRINCANDO COM FOGO ITALIA/BRINCANDO COM FOGO ITALIA.jpg",
+  "sinopse": "Um grupo de italianos e italianas atraentes chega ao paraíso, já prontos para festa. Só que, para ganhar o grande prêmio, terão que abrir mão do que mais gostam: o sexo.",
+  "genero": "Reality",
+  "elenco": "Federico Palana",
+  "diretor": "Giampaolo Marconato",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:44"
+        }
+      ]
+    }
+  ],
+  "id": 8944
+}

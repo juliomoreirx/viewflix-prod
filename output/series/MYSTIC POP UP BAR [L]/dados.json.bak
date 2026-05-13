@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0ODc=",
+  "tipo": "serie",
+  "titulo": "MYSTIC POP UP BAR [L]",
+  "capa_url": "https://lgfp.one/RRA",
+  "capa_local": "MYSTIC POP UP BAR [L]/MYSTIC POP UP BAR [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Sci-Fi & Fantasy, Comédia",
+  "elenco": "Hwang Jung-eum, Yook Sung-jae, Choi Won-young, Kim Yong-geon, Kim Mi-kyeong",
+  "diretor": "Jeon Chang-Geun",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:08:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:08:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:35"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:07:22"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:06:51"
+        }
+      ]
+    }
+  ],
+  "id": 1274
+}

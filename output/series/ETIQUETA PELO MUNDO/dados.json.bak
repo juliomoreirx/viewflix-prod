@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1Mjg=",
+  "tipo": "serie",
+  "titulo": "ETIQUETA PELO MUNDO",
+  "capa_url": "https://lgfp.one/WFZ",
+  "capa_local": "ETIQUETA PELO MUNDO/ETIQUETA PELO MUNDO.jpg",
+  "sinopse": "Neste reality de transformação, a professora de etiqueta internacional Sara Jane Ho ajuda as pessoas a se aperfeiçoarem por meio das boas maneiras, do autocuidado e de ferramentas como Tai Chi, Feng shui e a medicina tradicional chinesa.",
+  "genero": "Reality",
+  "elenco": "Sara Jane Ho",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:58"
+        }
+      ]
+    }
+  ],
+  "id": 3075
+}

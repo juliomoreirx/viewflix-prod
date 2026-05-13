@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNzY=",
+  "tipo": "serie",
+  "titulo": "RETRATOS DA JUVENTUDE [L]",
+  "capa_url": "https://lgfp.one/LAV8",
+  "capa_local": "RETRATOS DA JUVENTUDE [L]/RETRATOS DA JUVENTUDE [L].jpg",
+  "sinopse": "O estudante de pós-graduação em artes Yu Xing (Muji Hsu) é forçado a lecionar em uma escola rural do ensino médio por um mês por um de seus professores, que espera que essa mudança de cenário o inspire a melhorar seu projeto de graduação que foi inicialmente rejeitado. Ao chegar na escola, Yu Xing conhece Xu Lu Hui (Andrew Chien), um aluno apaixonado por pintura que não tem muitas oportunidades de praticar essa arte. Embora as interações iniciais dos dois não sejam as melhores, eles acabam fazendo um acordo: se Lu Hui levar Yu Xing para lugares com paisagens bonitas para desenhar e pintar, Yu Xing dará aulas particulares de arte fora do horário letivo a ele. À medida que ambos começam a passar mais tempo juntos e o laço entre eles se aprofunda, Lu Hui passa a desenvolver sentimentos pelo professor substituto, dando início a um romance proibido.",
+  "genero": "Drama",
+  "elenco": "簡楨庭, 徐謀俊, 文威登, 朱宇謀, 林靖軒",
+  "diretor": "郝心翔",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:08:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:29:05"
+        }
+      ]
+    }
+  ],
+  "id": 6667
+}

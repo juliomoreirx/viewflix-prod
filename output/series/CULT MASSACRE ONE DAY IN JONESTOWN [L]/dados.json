@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNzU=",
+  "tipo": "serie",
+  "titulo": "CULT MASSACRE ONE DAY IN JONESTOWN [L]",
+  "capa_url": "https://lgfp.one/CRV1",
+  "capa_local": "CULT MASSACRE ONE DAY IN JONESTOWN [L]/CULT MASSACRE ONE DAY IN JONESTOWN [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário, Crime",
+  "elenco": "Jim Jones",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:15"
+        }
+      ]
+    }
+  ],
+  "id": 5646
+}

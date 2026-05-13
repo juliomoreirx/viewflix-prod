@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMTk=",
+  "tipo": "serie",
+  "titulo": "MARIA E O CANGACO",
+  "capa_url": "https://lgfp.one/NNJ6",
+  "capa_local": "MARIA E O CANGACO/MARIA E O CANGACO.jpg",
+  "sinopse": "Maria de Déa, companheira de Lampião e a primeira mulher cangaceira, é uma jovem destemida que ousa ter voz num grupo de foras-da-lei. Numa vida de fugas e conflitos armados, Maria é surpreendida por uma gravidez e submetida à mais dura lei do cangaço: entregar o bebê para ser criado por outra pessoa. Passa a viver dividida entre a vida no grupo e o desejo impossível de criar a filha.",
+  "genero": "Drama, Faroeste",
+  "elenco": "Isis Valverde, Júlio Andrade, Rômulo Braga, Mohana Uchôa, Clébia Sousa",
+  "diretor": "Sérgio Machado, Thalita Rubio, Pedro Sgarbi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:50"
+        }
+      ]
+    }
+  ],
+  "id": 7127
+}

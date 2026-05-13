@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMjg=",
+  "tipo": "serie",
+  "titulo": "CONFISSOES DE UM SERIAL KILLER",
+  "capa_url": "https://lgfp.one/NEF3",
+  "capa_local": "CONFISSOES DE UM SERIAL KILLER/CONFISSOES DE UM SERIAL KILLER.jpg",
+  "sinopse": "Trancadas em cofres da sede da polícia em todo o mundo estão confissões gravadas de alguns dos mais notórios assassinos em série da história. Nesta série de dez episódios, atores e tecnologia de sincronização labial de última geração dão vida às gravações de áudio reais de serial killers confessando. Apresentado pelo criminologista Professor David Wilson e pelo Professor Michael Brookes OBE, um dos principais psicólogos forenses do Reino Unido.",
+  "genero": "Documentário, Crime",
+  "elenco": "Katherine Ramsland",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:14"
+        }
+      ]
+    }
+  ],
+  "id": 6983
+}

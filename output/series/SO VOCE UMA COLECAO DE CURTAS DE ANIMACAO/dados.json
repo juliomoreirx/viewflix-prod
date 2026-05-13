@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MDE=",
+  "tipo": "serie",
+  "titulo": "SÓ VOCÊ: UMA COLEÇÃO DE CURTAS DE ANIMAÇÃO",
+  "capa_url": "https://lgfp.one/AAQU",
+  "capa_local": "SO VOCE UMA COLECAO DE CURTAS DE ANIMACAO/SO VOCE UMA COLECAO DE CURTAS DE ANIMACAO.jpg",
+  "sinopse": "O que é uma história que apenas você pode contar? Inspirados por essa frase, um grupo diverso de artistas traz suas próprias histórias à vida em uma gama espetacular de estilos de animação e gêneros, incluindo terror, comédia e fantasia.",
+  "genero": "Animação, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Stefan Singh, Gabe Vadas, Corey Feldman",
+  "diretor": "Tank Standing Buffalo",
+  "total_episodios": "7",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:07:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:07:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:07:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:06:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:06:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:06:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:05:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:06:46"
+        }
+      ]
+    }
+  ],
+  "id": 3780
+}

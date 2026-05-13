@@ -1,0 +1,25 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4ODI=",
+  "tipo": "serie",
+  "titulo": "LAETITIA",
+  "capa_url": "https://lgfp.one/SEZ",
+  "capa_local": "LAETITIA/LAETITIA.jpg",
+  "sinopse": "Acompanhe a investigação sobre o desaparecimento da jovem Laëtitia, de 18 anos.",
+  "genero": "Crime, Drama",
+  "elenco": "Denis Duval, Grégory Ghezzi, Kévin Azaïs, Sam Karmann, Alix Poisson",
+  "diretor": "Jean-Xavier de Lestrade",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:32"
+        }
+      ]
+    }
+  ],
+  "id": 1821
+}

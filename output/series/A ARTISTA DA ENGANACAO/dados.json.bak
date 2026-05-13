@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1ODA=",
+  "tipo": "serie",
+  "titulo": "A ARTISTA DA ENGANAÇÃO",
+  "capa_url": "https://lgfp.one/TRT",
+  "capa_local": "A ARTISTA DA ENGANACAO/A ARTISTA DA ENGANACAO.jpg",
+  "sinopse": "Do sucesso na TV aos golpes e à prisão, conheça a história de Wanna Marchi e Stefania Nobile, vendedoras de cremes de emagrecimento que viraram vigaristas.",
+  "genero": "Documentário",
+  "elenco": "Wanna Marchi, Stefania Nobile, Stefano Zurlo, Roberto Da Crema, Joe Denti",
+  "diretor": "Nicola Prosatore",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:06"
+        }
+      ]
+    }
+  ],
+  "id": 2873
+}

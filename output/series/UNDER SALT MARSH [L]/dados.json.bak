@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNDI=",
+  "tipo": "serie",
+  "titulo": "UNDER SALT MARSH [L]",
+  "capa_url": "https://lgfp.one/ROI1",
+  "capa_local": "UNDER SALT MARSH [L]/UNDER SALT MARSH [L].jpg",
+  "sinopse": "Uma ex-detetive que virou professora deve resolver um crime local com seu ex-parceiro antes que uma tempestade destrua as evidências.",
+  "genero": "Crime, Mistério",
+  "elenco": "Kelly Reilly, Rafe Spall, Jonathan Pryce, Naomi Yang, Harry Lawtey",
+  "diretor": "Claire Oakley, Claire Oakley",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:26"
+        }
+      ]
+    }
+  ],
+  "id": 8767
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MDQ=",
+  "tipo": "serie",
+  "titulo": "O ASSASSINO DA CAPA DE CHUVA: CAÇA AO SERIAL KILLER COREANO",
+  "capa_url": "https://lgfp.one/SLS",
+  "capa_local": "O ASSASSINO DA CAPA DE CHUVA CACA AO SERIAL KILLER COREANO/O ASSASSINO DA CAPA DE CHUVA CACA AO SERIAL KILLER COREANO.jpg",
+  "sinopse": "No começo dos anos 2000, Yoo Young-Chul matava suas vítimas com um martelo, espalhando terror em Seul. Esta série documental reconta os crimes deste assassino em série.",
+  "genero": "Documentário",
+  "elenco": "Kim Hee Sook, Park Myung Sun, Kwon Il-Yong",
+  "diretor": "Rob Sixsmith, John Choi",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:04"
+        }
+      ]
+    }
+  ],
+  "id": 1999
+}

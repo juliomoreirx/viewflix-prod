@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MjM=",
+  "tipo": "serie",
+  "titulo": "RITMO + FLOW POLONIA [L]",
+  "capa_url": "https://lgfp.one/NVY5",
+  "capa_local": "RITMO + FLOW POLONIA [L]/RITMO + FLOW POLONIA [L].jpg",
+  "sinopse": "Rappers da Polônia se enfrentam em batalhas de rima para impressionar os jurados Bedoes 2115, DZIARMA e Sokół. Quem vai levar o grande prêmio para casa?",
+  "genero": "Reality",
+  "elenco": "Agata Dziarmagowska, Bedoes 2115, Sokół",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:35"
+        }
+      ]
+    }
+  ],
+  "id": 7312
+}

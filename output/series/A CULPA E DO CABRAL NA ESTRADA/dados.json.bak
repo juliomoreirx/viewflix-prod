@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NTk=",
+  "tipo": "serie",
+  "titulo": "A CULPA É DO CABRAL NA ESTRADA",
+  "capa_url": "https://lgfp.one/SJQ",
+  "capa_local": "A CULPA E DO CABRAL NA ESTRADA/A CULPA E DO CABRAL NA ESTRADA.jpg",
+  "sinopse": "Cinco grandes nomes do stand up brasileiro, de diferentes regiões do país, se reúnem para compartilhar assuntos do cotidiano e características particulares dos brasileiros de uma maneira cômica, ácida e divertida.",
+  "genero": "Comédia",
+  "elenco": "Nando Viana, Thiago Ventura, Fabiano Cambota, Rodrigo Marques, Rafael Portugal",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:46:38"
+        }
+      ]
+    }
+  ],
+  "id": 227383
+}

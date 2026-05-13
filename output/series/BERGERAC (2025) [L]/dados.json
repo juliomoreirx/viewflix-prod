@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxNDg=",
+  "tipo": "serie",
+  "titulo": "BERGERAC (2025) [L]",
+  "capa_url": "https://lgfp.one/SYA6",
+  "capa_local": "BERGERAC (2025) [L]/BERGERAC (2025) [L].jpg",
+  "sinopse": "O ex-policial Jim Bergerac é forçado a enfrentar um caso passado perturbador quando uma mulher rica é assassinada, forçando-o a superar seus demônios pessoais e investigar para superar as tensões familiares.",
+  "genero": "Crime",
+  "elenco": "Damien Molony, Robert Gilbert, Sasha Behar, Chloe Sweetlove, Celine Arden",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:05"
+        }
+      ]
+    }
+  ],
+  "id": 9473
+}

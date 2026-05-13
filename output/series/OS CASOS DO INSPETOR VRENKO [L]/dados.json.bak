@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0Mzk=",
+  "tipo": "serie",
+  "titulo": "OS CASOS DO INSPETOR VRENKO [L]",
+  "capa_url": "https://lgfp.one/RGF1",
+  "capa_local": "OS CASOS DO INSPETOR VRENKO [L]/OS CASOS DO INSPETOR VRENKO [L].jpg",
+  "sinopse": "Uma série de histórias sobre o inspetor-chefe Martin Vrenko, que enfrenta vários casos incomuns, personagens interessantes, enredos inteligentes e reviravoltas surpreendentes.",
+  "genero": "Crime, Drama",
+  "elenco": "Dario Varga, Lotos Šparovec, Katarina Čas, Janez Hočevar",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:32"
+        }
+      ]
+    }
+  ],
+  "id": 8618
+}

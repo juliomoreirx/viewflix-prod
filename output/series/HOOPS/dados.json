@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5OTk=",
+  "tipo": "serie",
+  "titulo": "HOOPS",
+  "capa_url": "https://lgfp.one/RBR",
+  "capa_local": "HOOPS/HOOPS.jpg",
+  "sinopse": "Um treinador de basquete mal-humorado faz de tudo para colocar seu time na linha e chegar às divisões principais. Não vai ser fácil virar esse jogo!",
+  "genero": "Comédia, Animação",
+  "elenco": "Jake Johnson, Rob Riggle, Natasha Leggero, Cleo King, Ron Funches",
+  "diretor": "Jack Perkins, Ronald Rubio, Pablo Solis, Mollie Helms, James Kim",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:30"
+        }
+      ]
+    }
+  ],
+  "id": 854
+}

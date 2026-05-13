@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MTY=",
+  "tipo": "serie",
+  "titulo": "THE HUNTING PARTY",
+  "capa_url": "https://lgfp.one/QBZ1",
+  "capa_local": "THE HUNTING PARTY/THE HUNTING PARTY.jpg",
+  "sinopse": "Segue uma pequena equipe de investigadores que são reunidos para rastrear e capturar os assassinos mais perigosos, todos os quais acabaram de escapar de uma prisão secreta que supostamente não existe.",
+  "genero": "Drama, Crime",
+  "elenco": "Melissa Roxburgh, Nick Wechsler, Patrick Sabongui, Josh McKenzie, Sara Alicia Garcia",
+  "diretor": "Jeff Rafner, Thor Freudenthal, Jeff Rafner",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:36"
+        }
+      ]
+    }
+  ],
+  "id": 6773
+}

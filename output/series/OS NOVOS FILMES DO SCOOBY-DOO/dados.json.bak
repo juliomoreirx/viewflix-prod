@@ -1,0 +1,145 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4Njc=",
+  "tipo": "serie",
+  "titulo": "OS NOVOS FILMES DO SCOOBY-DOO",
+  "capa_url": "https://lgfp.one/WGI",
+  "capa_local": "OS NOVOS FILMES DO SCOOBY-DOO/OS NOVOS FILMES DO SCOOBY-DOO.jpg",
+  "sinopse": "Além dos personagens da turma do Scooby-Doo, em cada um dos episódios desta série aparecia convidados especiais, celebridades da TV ou do Cinema da época (anos 60 e 70) e os quais ajudavam a resolver o mistério da semana.  Alguns destes convidados eram dublados por eles mesmos (Don Knotts, Jonathan Winters, Sandy Duncan, Tim Conway e a dupla Sonny & Cher, entre outros).  Outros que já haviam falecido ou estavam indisponíveis, tiveram a dublagem feita através de imitações das vozes originais (Os três patetas e O Gordo e o Magro).  Muitos dos convidados eram futuras personagens de desenhos a serem produzidos pela dupla Hanna-Barbera: Harlem Globetrotters, Josie e as Gatinhas, Jeannie, Speed Buggy, A Família Addams (The Addams Family de 1973) e Batman e Robin (Super Amigos).",
+  "genero": "Animação, Mistério, Comédia",
+  "elenco": "Don Messick, Casey Kasem, Frank Welker, Nicole Jaffe, Heather North",
+  "diretor": "Joseph Barbera, William Hanna",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:43:37"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:43:28"
+        }
+      ]
+    }
+  ],
+  "id": 3084
+}

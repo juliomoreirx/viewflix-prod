@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NTU=",
+  "tipo": "serie",
+  "titulo": "PLANETA AZUL",
+  "capa_url": "https://lgfp.one/OSH7",
+  "capa_local": "PLANETA AZUL/PLANETA AZUL.jpg",
+  "sinopse": "O documentário mostra a história dos oceanos do mundo. Cada um dos episódios examina um aspecto diferente da vida marinha.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough",
+  "diretor": "Alastair Fothergill, Alastair Fothergill",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:12"
+        }
+      ]
+    }
+  ],
+  "id": 7429
+}

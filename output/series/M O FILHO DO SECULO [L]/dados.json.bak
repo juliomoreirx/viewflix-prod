@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2OTM=",
+  "tipo": "serie",
+  "titulo": "M O FILHO DO SECULO [L]",
+  "capa_url": "https://lgfp.one/PXF8",
+  "capa_local": "M O FILHO DO SECULO [L]/M O FILHO DO SECULO [L].jpg",
+  "sinopse": "M. Il figlio del secolo é uma série biográfica sobre a história de Benito Mussolini e a ascensão do regime fascista italiano",
+  "genero": "Drama, War & Politics",
+  "elenco": "Luca Marinelli, Francesco Russo, Barbara Chichiarelli, Benedetta Cimatti, Federico Majorana",
+  "diretor": "Joe Wright, Paolo Sorrentino, Pablo Larraín",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:08"
+        }
+      ]
+    }
+  ],
+  "id": 7923
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MjE=",
+  "tipo": "serie",
+  "titulo": "PROCURADOS - EUA: OSAMA BIN LADEN",
+  "capa_url": "https://lgfp.one/NVJ1",
+  "capa_local": "PROCURADOS - EUA OSAMA BIN LADEN/PROCURADOS - EUA OSAMA BIN LADEN.jpg",
+  "sinopse": "Com imagens raras e entrevistas com informantes da CIA, este documentário eletrizante acompanha a caçada épica a Osama bin Laden.",
+  "genero": "Documentário",
+  "elenco": "Tracy Walder, Cindy Storer, Michael Morell",
+  "diretor": "Floyd Russ, Tiller Russell, Omar Al Dakheel",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:21:06"
+        }
+      ]
+    }
+  ],
+  "id": 7295
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MDA=",
+  "tipo": "serie",
+  "titulo": "MOCRO MAFFIA [L]",
+  "capa_url": "https://lgfp.one/ABCC",
+  "capa_local": "MOCRO MAFFIA [L]/MOCRO MAFFIA [L].jpg",
+  "sinopse": "",
+  "genero": "Crime, Action & Adventure",
+  "elenco": "Mandela Wee Wee, Nasrdin Dchar, Robert de Hoog, Achmed Akkabi",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:14"
+        }
+      ]
+    }
+  ],
+  "id": 4114
+}

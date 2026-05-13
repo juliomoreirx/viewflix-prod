@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NDM=",
+  "tipo": "serie",
+  "titulo": "O GRITO DAS MARIPOSAS",
+  "capa_url": "https://lgfp.one/YSO",
+  "capa_local": "O GRITO DAS MARIPOSAS/O GRITO DAS MARIPOSAS.jpg",
+  "sinopse": "A história narra a vida de Minerva Mirabal, a advogada e ativista dominicana assassinada junto com suas irmãs, por ordem do ditador Rafael Leónidas Trujillo em 25 de novembro de 1960. Suas mortes foram consideradas como crimes de violência de gênero, feminicídios, em todo o mundo e as Nações Unidas agora comemoram esse dia trágico como o Dia Internacional para a Eliminação da Violência Contra as Mulheres.",
+  "genero": "Drama",
+  "elenco": "Sandy Hernández, Luis Alberto García, Susana Abaitua, Belén Rueda, Guillermo Toledo, Mercedes Sampietro, Héctor Noas, Maridalia Hernández",
+  "diretor": "Juan Pablo Buscarini",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:39:37"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:56:45"
+        }
+      ]
+    }
+  ],
+  "id": 3332
+}

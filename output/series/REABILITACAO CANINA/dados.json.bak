@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMjU=",
+  "tipo": "serie",
+  "titulo": "REABILITACAO CANINA",
+  "capa_url": "https://lgfp.one/QPS4",
+  "capa_local": "REABILITACAO CANINA/REABILITACAO CANINA.jpg",
+  "sinopse": "O especialista em comportamento canino Matt Beisner e sua equipe ajudam os proprietários a aprender como lidar com seus animais agressivos e incompreendidos e resgatar e reabilitar cães de abrigos locais que foram rejeitados por outras instalações.",
+  "genero": "Documentário, Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:31"
+        }
+      ]
+    }
+  ],
+  "id": 8366
+}

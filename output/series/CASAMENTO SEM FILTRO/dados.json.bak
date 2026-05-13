@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODM=",
+  "tipo": "serie",
+  "titulo": "CASAMENTO SEM FILTRO",
+  "capa_url": "https://lgfp.one/RTX",
+  "capa_local": "CASAMENTO SEM FILTRO/CASAMENTO SEM FILTRO.jpg",
+  "sinopse": "A comediante Jamie Lee usa sua experiência para ajudar casais apaixonados, dando dicas úteis e irreverentes de como organizar um casamento.",
+  "genero": "Reality, Comédia",
+  "elenco": "Jamie Lee, Fortune Feimster, Jon Gabrus",
+  "diretor": "",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:02"
+        }
+      ]
+    }
+  ],
+  "id": 1357
+}

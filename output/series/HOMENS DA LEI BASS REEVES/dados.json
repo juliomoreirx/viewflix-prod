@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NTg=",
+  "tipo": "serie",
+  "titulo": "HOMENS DA LEI BASS REEVES",
+  "capa_url": "https://lgfp.one/ASSN",
+  "capa_local": "HOMENS DA LEI BASS REEVES/HOMENS DA LEI BASS REEVES.jpg",
+  "sinopse": "A história de Bass Reeves, o lendário homem da lei do Velho Oeste, ganha vida. Reeves trabalhou na era pós-Reconstrução como oficial de paz federal no Território Indiano, capturando mais de 3.000 dos criminosos mais perigosos sem nunca ter sido ferido – e acredita-se que seja a inspiração para The Lone Ranger.",
+  "genero": "Drama",
+  "elenco": "David Oyelowo, Lauren E. Banks, Demi Singleton, Forrest Goodluck, Barry Pepper",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:36"
+        }
+      ]
+    }
+  ],
+  "id": 4401
+}

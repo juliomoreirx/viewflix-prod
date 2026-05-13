@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNzY=",
+  "tipo": "serie",
+  "titulo": "DAY OF THE DEAD",
+  "capa_url": "https://lgfp.one/AALR",
+  "capa_local": "DAY OF THE DEAD/DAY OF THE DEAD.jpg",
+  "sinopse": "Um grupo de seis estranhos vai-se unir para tentar sobreviver às primeiras 24 horas desta invasão assustadora de zombies",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Keenan Tracey, Daniel Doheny, Natalie Malaika, Kristy Dawn Dinsmore, Morgan Holmstrom",
+  "diretor": "Jacquie Gould",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:07"
+        }
+      ]
+    }
+  ],
+  "id": 3647
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNzU=",
+  "tipo": "serie",
+  "titulo": "LA CASA DE PAPEL BERLIM",
+  "capa_url": "https://lgfp.one/AWLQ",
+  "capa_local": "LA CASA DE PAPEL BERLIM/LA CASA DE PAPEL BERLIM.jpg",
+  "sinopse": "Berlim se encontra com um grupo em Paris para planejar uma de suas missões mais ambiciosas: roubar 44 milhões de euros em joias em uma noite.",
+  "genero": "Drama, Action & Adventure, Crime",
+  "elenco": "Pedro Alonso, Samantha Siqueiros, Tristán Ulloa, Michelle Jenner, Joel Sánchez",
+  "diretor": "Albert Pintó",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:43"
+        }
+      ]
+    }
+  ],
+  "id": 4672
+}

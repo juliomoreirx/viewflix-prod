@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NDE=",
+  "tipo": "serie",
+  "titulo": "OS RUNAROUNDS MUSICA E SONHOS",
+  "capa_url": "https://lgfp.one/PVU8",
+  "capa_local": "OS RUNAROUNDS MUSICA E SONHOS/OS RUNAROUNDS MUSICA E SONHOS.jpg",
+  "sinopse": "Um grupo de recém-formados do ensino médio monta uma banda para fugir da futura vida comum que os aguarda. Durante o verão, a banda corre atrás do sonho quase impossível de fazer sucesso, se apaixona e arruma encrenca.",
+  "genero": "Drama",
+  "elenco": "William Lipton, Axel Ellis, Jeremy Yun, Zendé Murdock, Jesse Golliher",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:40"
+        }
+      ]
+    }
+  ],
+  "id": 7885
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MjI=",
+  "tipo": "serie",
+  "titulo": "GIGOLÔ AMERICANO",
+  "capa_url": "https://lgfp.one/VYD",
+  "capa_local": "GIGOLO AMERICANO/GIGOLO AMERICANO.jpg",
+  "sinopse": "Libertado após quinze anos de prisão por um assassinato que não cometeu, o ex-gigolô Julian Kaye enfrenta o desafio de se reerguer enquanto o detetive que o colocou atrás das grades tenta desvendar o mistério que o levou à prisão.",
+  "genero": "Drama",
+  "elenco": "Jon Bernthal, Gretchen Mol, Lizzie Brocheré, Gabriel LaBelle, Leland Orser, Rosie O'Donnell, Wayne Brady, Alex Fernandez",
+  "diretor": "David Hollander",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:29"
+        }
+      ]
+    }
+  ],
+  "id": 2992
+}

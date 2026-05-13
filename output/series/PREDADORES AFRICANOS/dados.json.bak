@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNzY=",
+  "tipo": "serie",
+  "titulo": "PREDADORES AFRICANOS",
+  "capa_url": "https://lgfp.one/AALV",
+  "capa_local": "PREDADORES AFRICANOS/PREDADORES AFRICANOS.jpg",
+  "sinopse": "A evolução é uma corrida mortal, onde determinadas espécies tornam-se ainda mais mortíferas. Imagens surpreendentes das criaturas mais perigosas do continente em ação.",
+  "genero": "Documentário",
+  "elenco": "Jason Alan Carvell",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 7",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S07E01",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S07E02",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S07E03",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 3651
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NjI=",
+  "tipo": "serie",
+  "titulo": "DEVIL MAY CRY",
+  "capa_url": "https://lgfp.one/NNC4",
+  "capa_local": "DEVIL MAY CRY/DEVIL MAY CRY.jpg",
+  "sinopse": "Um vilão misterioso ameaça abrir os portões do inferno. Agora, as esperanças de salvação caíram todas na mão de um caçador de demônios bonito feito o diabo.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Johnny Yong Bosch, Scout Taylor-Compton, Hoon Lee",
+  "diretor": "Seung Woo Han, So Young Park, Mathieu Corbin, Hong Ji-Young, Sun-Min Kim",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:15"
+        }
+      ]
+    }
+  ],
+  "id": 7123
+}

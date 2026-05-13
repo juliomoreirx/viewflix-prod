@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNDc=",
+  "tipo": "serie",
+  "titulo": "O FANTASMA ESCRITOR",
+  "capa_url": "https://lgfp.one/RME",
+  "capa_local": "O FANTASMA ESCRITOR/O FANTASMA ESCRITOR.jpg",
+  "sinopse": "Conta a história de um grupo de adolescentes que resolve crimes e mistérios em nova York como detetives e possuem a ajuda de um amigo secreto, intitulado: Ghostwriter! Esse amigo não pode ouvir, falar, cheirar ou sentir. Ele só pode ler e escrever. Enquanto resolvem os mistérios que rondam a cidade, os jovens tentam descobrir a identidade de Ghostwriter.",
+  "genero": "Mistério, Kids, Sci-Fi & Fantasy",
+  "elenco": "Marcella Lowery, William Hernandez, Blaze Berdahl, Todd Alexander Cohen, Melissa Gonzalez",
+  "diretor": "",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:52"
+        }
+      ]
+    }
+  ],
+  "id": 1144
+}

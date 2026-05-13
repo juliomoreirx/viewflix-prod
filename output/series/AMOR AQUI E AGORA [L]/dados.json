@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MDI=",
+  "tipo": "serie",
+  "titulo": "AMOR AQUI E AGORA [L]",
+  "capa_url": "https://lgfp.one/ATFJ",
+  "capa_local": "AMOR AQUI E AGORA [L]/AMOR AQUI E AGORA [L].jpg",
+  "sinopse": "Esta série antológica acompanha 10 histórias de amor, paixão e desilusão durante a pandemia.",
+  "genero": "Drama",
+  "elenco": "Gingle Wang, Berant Zhu, Vivian Sung, Austin Lin, JC Lin",
+  "diretor": "Lien Yi-Chi, Ray Wu, Pin-Chuan Kao",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:47"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:53:18"
+        }
+      ]
+    }
+  ],
+  "id": 4431
+}

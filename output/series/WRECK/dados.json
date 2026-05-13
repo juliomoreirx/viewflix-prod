@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyODU=",
+  "tipo": "serie",
+  "titulo": "WRECK",
+  "capa_url": "https://lgfp.one/ZHF",
+  "capa_local": "WRECK/WRECK.jpg",
+  "sinopse": "O recruta Jamie recebe um curso intensivo sobre a vida em um cruzeiro enquanto procura por sua irmã.",
+  "genero": "Comédia / Mistério",
+  "elenco": "Warren James Dunning, James Phoon, Ned Costello, Oscar Kennedy, Louis Boyer, Jodie Tyack, Thaddea Graham, Alice Nokes",
+  "diretor": "Ryan J. Brown",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:59"
+        }
+      ]
+    }
+  ],
+  "id": 3422
+}

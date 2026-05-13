@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NTU=",
+  "tipo": "serie",
+  "titulo": "A CASA HARPER",
+  "capa_url": "https://lgfp.one/SOQ",
+  "capa_local": "A CASA HARPER/A CASA HARPER.jpg",
+  "sinopse": "A casa Harper segue uma chefa de família superconfiante que acabou de perder seu emprego e se mudou para o lado pobre de uma cidade de Arkansas, enquanto ela luta para recuperar um status mais elevado para si mesma e sua estranha família",
+  "genero": "Animação / Comédia",
+  "elenco": "",
+  "diretor": "Brad Neely",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:36"
+        }
+      ]
+    }
+  ],
+  "id": 2077
+}

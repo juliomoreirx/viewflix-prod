@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5NDQ=",
+  "tipo": "serie",
+  "titulo": "A VIDA DE DUG",
+  "capa_url": "https://lgfp.one/SIK",
+  "capa_local": "A VIDA DE DUG/A VIDA DE DUG.jpg",
+  "sinopse": "Segue as engraçadas desventuras de Dug, o adorável cachorro de \"Up: Altas Aventuras\". Cada curta mostra um pouco do cotidiano de Dug em seu quintal, tudo através do olhar animado (e levemente distorcido) de nosso cão falante preferido.",
+  "genero": "Animação, Comédia, Família",
+  "elenco": "Bob Peterson, Ed Asner",
+  "diretor": "",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:09:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:06:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:07:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:08:19"
+        }
+      ]
+    }
+  ],
+  "id": 1911
+}

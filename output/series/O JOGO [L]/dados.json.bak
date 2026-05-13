@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1OTY=",
+  "tipo": "serie",
+  "titulo": "O JOGO [L]",
+  "capa_url": "https://lgfp.one/QDB8",
+  "capa_local": "O JOGO [L]/O JOGO [L].jpg",
+  "sinopse": "Uma desenvolvedora de jogos focada na carreira acaba se tornando o alvo de ataques misóginos brutais, tanto online como na vida real.",
+  "genero": "Crime, Mistério",
+  "elenco": "Shraddha Srinath, Santhosh Prathap, Viviya Santh, Syama Harini, Hema",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:44"
+        }
+      ]
+    }
+  ],
+  "id": 8123
+}

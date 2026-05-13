@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjU=",
+  "tipo": "serie",
+  "titulo": "DOONA!",
+  "capa_url": "https://lgfp.one/ARDW",
+  "capa_local": "DOONA!/DOONA!.jpg",
+  "sinopse": "Enquanto lida com os altos e baixos da vida universitária, um jovem precisa se acostumar com a nova colega de república: uma linda ex-estrela do K-pop.",
+  "genero": "Drama",
+  "elenco": "수지, 양세종, 하영, 박세완, Kim Do Wan",
+  "diretor": "Lee Jung-hyo",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:51"
+        }
+      ]
+    }
+  ],
+  "id": 4261
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjE=",
+  "tipo": "serie",
+  "titulo": "NOVA YORK CONTRA JOHN GOTTI",
+  "capa_url": "https://lgfp.one/ARSQ",
+  "capa_local": "NOVA YORK CONTRA JOHN GOTTI/NOVA YORK CONTRA JOHN GOTTI.jpg",
+  "sinopse": "Esta série documental dos criadores de Nova York Contra a Máfia mostra os dois lados da batalha do FBI para derrubar o mafioso John Gotti.",
+  "genero": "Documentário, Crime",
+  "elenco": "Anthony Ruggiano Jr., George Gabriel, Eric Shawn",
+  "diretor": "Lauren Cowley, Paul Carere",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:32"
+        }
+      ]
+    }
+  ],
+  "id": 4316
+}

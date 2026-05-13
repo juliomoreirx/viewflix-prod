@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NjU=",
+  "tipo": "serie",
+  "titulo": "BANKSTERS",
+  "capa_url": "https://lgfp.one/RSV3",
+  "capa_local": "BANKSTERS/BANKSTERS.jpg",
+  "sinopse": "Quando o jovem Yusuf é preso por uma série de assaltos a bancos, sua irmã tenta devolver o dinheiro e descobrir quem o traiu.",
+  "genero": "Crime, Drama",
+  "elenco": "Eren M. Güvercin, Merlin Von Garnier, Michelangelo Fortuzzi, Maria Dragus, Zoe Fürmann",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": ""
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:14"
+        }
+      ]
+    }
+  ],
+  "id": 8888
+}

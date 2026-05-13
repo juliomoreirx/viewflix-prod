@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MDQ=",
+  "tipo": "serie",
+  "titulo": "IRMA VEP",
+  "capa_url": "https://lgfp.one/TIP",
+  "capa_local": "IRMA VEP/IRMA VEP.jpg",
+  "sinopse": "Mira, uma estrela de cinema que está desiludida com sua carreira e acaba de passar por um término, vai para a França estrelar \"Irma Vep\", um remake de \"Les Vampires\", um clássico do cinema mudo francês.",
+  "genero": "Comédia, Drama",
+  "elenco": "Alicia Vikander, Vincent Macaigne, Lars Eidinger, Devon Ross, Nora Hamzawi",
+  "diretor": "Olivier Assayas, Sam Levinson, Andrew Litvack",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:14"
+        }
+      ]
+    }
+  ],
+  "id": 2620
+}

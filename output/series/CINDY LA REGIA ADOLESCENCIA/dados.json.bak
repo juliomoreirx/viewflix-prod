@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNzc=",
+  "tipo": "serie",
+  "titulo": "CINDY LA REGIA ADOLESCENCIA",
+  "capa_url": "https://lgfp.one/AVYY",
+  "capa_local": "CINDY LA REGIA ADOLESCENCIA/CINDY LA REGIA ADOLESCENCIA.jpg",
+  "sinopse": "Cindy tem um sonho ambicioso: conquistar o mundo. Mas antes ela precisa sobreviver ao ensino médio e à alta sociedade na conservadora cidade mexicana onde vive.",
+  "genero": "Comédia, Drama",
+  "elenco": "Michelle Pellicer, Vincent Michael Webb, Nahuel Escobar, Carola Cuarón, Luciana Vale",
+  "diretor": "Catalina Aguilar Mastretta, Eric Rodríguez Carrillo",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:10"
+        }
+      ]
+    }
+  ],
+  "id": 4627
+}

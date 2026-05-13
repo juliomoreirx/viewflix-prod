@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5OTI=",
+  "tipo": "serie",
+  "titulo": "LUDWIG [L]",
+  "capa_url": "https://lgfp.one/KCX7",
+  "capa_local": "LUDWIG [L]/LUDWIG [L].jpg",
+  "sinopse": "Em uma tentativa de desvendar o mistério do desaparecimento de seu irmão gêmeo, o recluso designer de quebra-cabeças John \"Ludwig\" Taylor assume a identidade de seu irmão gêmeo James como DCI do Cambridge Serious Crime Squad.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "David Mitchell, Anna Maxwell Martin, Dipo Ola, Gerran Howell, Izuka Hoyle",
+  "diretor": "",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:34"
+        }
+      ]
+    }
+  ],
+  "id": 6361
+}

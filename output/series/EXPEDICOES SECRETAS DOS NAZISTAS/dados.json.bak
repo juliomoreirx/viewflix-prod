@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNzc=",
+  "tipo": "serie",
+  "titulo": "EXPEDICOES SECRETAS DOS NAZISTAS",
+  "capa_url": "https://lgfp.one/CYZ1",
+  "capa_local": "EXPEDICOES SECRETAS DOS NAZISTAS/EXPEDICOES SECRETAS DOS NAZISTAS.jpg",
+  "sinopse": "Conheça fatos e descobertas que foram usados para alimentar a máquina de propaganda de Hitler.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:38"
+        }
+      ]
+    }
+  ],
+  "id": 5700
+}

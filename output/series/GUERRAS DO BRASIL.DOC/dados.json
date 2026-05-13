@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMTM=",
+  "tipo": "serie",
+  "titulo": "GUERRAS DO BRASIL.DOC",
+  "capa_url": "https://lgfp.one/JAF",
+  "capa_local": "GUERRAS DO BRASIL.DOC/GUERRAS DO BRASIL.DOC.jpg",
+  "sinopse": "Esta série documental detalha como o Brasil foi formado por séculos de conflito armado, desde os primeiros conquistadores até a violência nos dias de hoje.",
+  "genero": "Documentário",
+  "elenco": "Ailton Krenak",
+  "diretor": "",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:35"
+        }
+      ]
+    }
+  ],
+  "id": 371
+}

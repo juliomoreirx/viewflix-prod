@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NTY=",
+  "tipo": "serie",
+  "titulo": "LARGADOS PELADOS E ILHADOS",
+  "capa_url": "https://lgfp.one/AYW7",
+  "capa_local": "LARGADOS PELADOS E ILHADOS/LARGADOS PELADOS E ILHADOS.jpg",
+  "sinopse": "Agora os vencedores de outras temporadas estarão em um novo desafio em ilhas remotas e cheias de perigos.",
+  "genero": "Reality, Action & Adventure",
+  "elenco": "Kerra Bennett, Patrick French, Justin Governale, Bulent Kemal Gurcen, Na'im Mckee",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:41"
+        }
+      ]
+    }
+  ],
+  "id": 5384
+}

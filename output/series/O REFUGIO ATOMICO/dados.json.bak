@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MTI=",
+  "tipo": "serie",
+  "titulo": "O REFÚGIO ATÔMICO",
+  "capa_url": "https://lgfp.one/QAR0",
+  "capa_local": "O REFUGIO ATOMICO/O REFUGIO ATOMICO.jpg",
+  "sinopse": "Quando um grupo de bilionários se abriga em um bunker de luxo, uma antiga rixa entre duas famílias ressurge em meio a um conflito global sem precedentes.",
+  "genero": "Sci-Fi & Fantasy, Drama, Mistério",
+  "elenco": "Miren Ibarguren, Joaquín Furriel, Natalia Verbeke, Carlos Santos, Montse Guallar",
+  "diretor": "Jesús Colmenar, David Barrocal,  José Manuel Cravioto",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:10:56"
+        }
+      ]
+    }
+  ],
+  "id": 8013
+}

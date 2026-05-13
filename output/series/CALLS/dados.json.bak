@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNDU=",
+  "tipo": "serie",
+  "titulo": "CALLS",
+  "capa_url": "https://lgfp.one/RTV",
+  "capa_local": "CALLS/CALLS.jpg",
+  "sinopse": "Narrada por meio de conversas telefônicas interconectadas, essa série inovadora conta a misteriosa história de um grupo de estranhos, cujas vidas dão uma reviravolta durante o que parece ser o início de um evento apocalíptico.",
+  "genero": "Mistério, Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "17",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:18:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:14:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:19:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:16:31"
+        }
+      ]
+    }
+  ],
+  "id": 1355
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NTE=",
+  "tipo": "serie",
+  "titulo": "COLD COURAGE",
+  "capa_url": "https://lgfp.one/RGJ",
+  "capa_local": "COLD COURAGE/COLD COURAGE.jpg",
+  "sinopse": "",
+  "genero": "Crime, Drama",
+  "elenco": "Pihla Viitala, Sofia Pekkari, John Simm, Antti Reini, Arsher Ali",
+  "diretor": "",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:35"
+        }
+      ]
+    }
+  ],
+  "id": 984
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzODE=",
+  "tipo": "serie",
+  "titulo": "MISTERIO DE UM MILHAO DE SEGUIDORES [L]",
+  "capa_url": "https://lgfp.one/RQY1",
+  "capa_local": "MISTERIO DE UM MILHAO DE SEGUIDORES [L]/MISTERIO DE UM MILHAO DE SEGUIDORES [L].jpg",
+  "sinopse": "Neste suspense policial, o oficial Chen Chia-jen tenta desmascarar a Bruxa Baba, uma taróloga famosa que prevê a morte de influenciadores.",
+  "genero": "Mistério, Crime",
+  "elenco": "鄭伊健, 婁峻碩, 李霈瑜, 王柏傑, 李李仁",
+  "diretor": "Shaun Su",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:34"
+        }
+      ]
+    }
+  ],
+  "id": 8837
+}

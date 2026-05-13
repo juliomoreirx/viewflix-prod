@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMjA=",
+  "tipo": "serie",
+  "titulo": "KINGDOM",
+  "capa_url": "https://lgfp.one/IQI",
+  "capa_local": "KINGDOM/KINGDOM.jpg",
+  "sinopse": "Alvey (Frank Grillo) e Lisa (Kiele Sanchez) lutam para manter a academia Navy Street funcionando. A maior esperança que eles têm é Nate (Nick Jonas), filho de Alvey, aspirante a lutador.",
+  "genero": "Drama",
+  "elenco": "Frank Grillo, Jonathan Tucker, Nick Jonas, Matt Lauria, Kiele Sanchez",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:49"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:39:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:52:28"
+        }
+      ]
+    }
+  ],
+  "id": 330722
+}

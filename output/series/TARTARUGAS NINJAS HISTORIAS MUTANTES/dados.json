@@ -1,0 +1,145 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NzM=",
+  "tipo": "serie",
+  "titulo": "TARTARUGAS NINJAS HISTORIAS MUTANTES",
+  "capa_url": "https://lgfp.one/DFU1",
+  "capa_local": "TARTARUGAS NINJAS HISTORIAS MUTANTES/TARTARUGAS NINJAS HISTORIAS MUTANTES.jpg",
+  "sinopse": "A nova animação original do Paramount+ acompanha as clássicas aventuras do quarteto formato por Leonardo, Raphael, Donatello e Michelangelo, que vivem nos esgotos de Nova York e enfrentam diversos inimigos do submundo ninja.",
+  "genero": "Animação, Família",
+  "elenco": "Micah Abbey, Shamon Brown Jr., Nicolas Cantu, Brady Noon, Ayo Edebiri",
+  "diretor": "Alan Wan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:43"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:03"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:23:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:22:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:23:30"
+        }
+      ]
+    }
+  ],
+  "id": 5809
+}

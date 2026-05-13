@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0ODY=",
+  "tipo": "serie",
+  "titulo": "MEXICANICOS CELEBRIDADES",
+  "capa_url": "https://lgfp.one/EBC2",
+  "capa_local": "MEXICANICOS CELEBRIDADES/MEXICANICOS CELEBRIDADES.jpg",
+  "sinopse": "Um restaurador e mecânico reconhecido enfrenta o reto de criação de veículos únicos e surpreendentes em sua cidade de Guadalajara, México. Enquanto houver pneus e um motor, nenhum veículo estará fora dos limites.",
+  "genero": "Reality",
+  "elenco": "Martin Vaca",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 6187
+}

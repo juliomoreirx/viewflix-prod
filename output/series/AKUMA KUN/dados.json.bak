@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDY=",
+  "tipo": "serie",
+  "titulo": "AKUMA KUN",
+  "capa_url": "https://lgfp.one/ASZF",
+  "capa_local": "AKUMA KUN/AKUMA KUN.jpg",
+  "sinopse": "Akuma-kun, um garoto criado por um demônio, e seu parceiro Mefistófeles Terceiro, metade humano, resolvem mistérios e assassinatos ligados a fenômenos paranormais.",
+  "genero": "Animação, Sci-Fi & Fantasy, Mistério",
+  "elenco": "Yuki Kaji, 古川登志夫, Ryoko Shiraishi, Yumiri Hanamori, Fairouz Ai",
+  "diretor": "追崎史敏, 佐藤順一, 追崎史敏",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:43"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:28:04"
+        }
+      ]
+    }
+  ],
+  "id": 4424
+}

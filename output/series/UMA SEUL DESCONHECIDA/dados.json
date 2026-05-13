@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwMDU=",
+  "tipo": "serie",
+  "titulo": "UMA SEUL DESCONHECIDA",
+  "capa_url": "https://lgfp.one/NYV9",
+  "capa_local": "UMA SEUL DESCONHECIDA/UMA SEUL DESCONHECIDA.jpg",
+  "sinopse": "Parecidas só no visual, duas gêmeas trocam de lugar em meio a dificuldades pessoais, embarcando em uma jornada de redescoberta do amor e da vida.",
+  "genero": "Comédia, Drama",
+  "elenco": "Park Bo-young, Park Jin Young, Ryu Kyung Soo, Jang Young Nam, Kim Sun-young",
+  "diretor": "",
+  "total_episodios": "79",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:20:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:18:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:19:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:15:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:18:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:21:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:21:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:20:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:20:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:09:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:23:37"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:22:08"
+        }
+      ]
+    }
+  ],
+  "id": 7346
+}

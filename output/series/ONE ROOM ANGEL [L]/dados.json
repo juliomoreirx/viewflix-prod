@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNTQ=",
+  "tipo": "serie",
+  "titulo": "ONE ROOM ANGEL [L]",
+  "capa_url": "https://lgfp.one/DJR8",
+  "capa_local": "ONE ROOM ANGEL [L]/ONE ROOM ANGEL [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Shuhei Uesugi, Takuya Nishimura",
+  "diretor": "枝優花",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:45"
+        }
+      ]
+    }
+  ],
+  "id": 5878
+}

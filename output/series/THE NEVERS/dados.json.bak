@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MjQ=",
+  "tipo": "serie",
+  "titulo": "THE NEVERS",
+  "capa_url": "https://lgfp.one/RPL",
+  "capa_local": "THE NEVERS/THE NEVERS.jpg",
+  "sinopse": "Nos últimos anos do reinado de Vitória, Londres é sacudida por um grupo de pessoas, na maioria mulheres, com habilidades especiais.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Laura Donnelly, Ann Skelly, Olivia Williams, James Norton, Tom Riley",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:11:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:15:41"
+        }
+      ]
+    }
+  ],
+  "id": 1229
+}

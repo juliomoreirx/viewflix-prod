@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMDk=",
+  "tipo": "serie",
+  "titulo": "NOVA YORK CONTRA A MÁFIA",
+  "capa_url": "https://lgfp.one/JON",
+  "capa_local": "NOVA YORK CONTRA A MAFIA/NOVA YORK CONTRA A MAFIA.jpg",
+  "sinopse": "Cinco famílias mafiosas controlavam Nova York com mão de ferro nos anos 1970 e 80. Até que um grupo de agentes federais tentou o que parecia impossível: acabar com elas.",
+  "genero": "Documentário, Crime",
+  "elenco": "G. Robert Blakey, Johnny Alite, Michael Franzese, Lin Devecchio, Jim Kossler",
+  "diretor": "Celia Aniskovich",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:42"
+        }
+      ]
+    }
+  ],
+  "id": 799
+}

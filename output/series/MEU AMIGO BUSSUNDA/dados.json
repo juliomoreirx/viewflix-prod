@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MjU=",
+  "tipo": "serie",
+  "titulo": "MEU AMIGO BUSSUNDA",
+  "capa_url": "https://lgfp.one/RXQ",
+  "capa_local": "MEU AMIGO BUSSUNDA/MEU AMIGO BUSSUNDA.jpg",
+  "sinopse": "Cláudio Manoel, parceiro inseparável de Bussunda, ouve amigos e familiares, e lembra a história desse grande nome do humor nacional, da infância até sua morte precoce, aos 43 anos.",
+  "genero": "Documentário",
+  "elenco": "Bussunda, Cláudio Manoel, Júlia Besserman, Deborah Colker",
+  "diretor": "Micael Langer, Cláudio Manoel, Micael Langer",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:11"
+        }
+      ]
+    }
+  ],
+  "id": 1458
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMjQ=",
+  "tipo": "serie",
+  "titulo": "SUPERMACHOS",
+  "capa_url": "https://lgfp.one/LMB0",
+  "capa_local": "SUPERMACHOS/SUPERMACHOS.jpg",
+  "sinopse": "Quatro amigos de meia-idade encaram crises no amor, na vida e na carreira em Paris. Quando ficou tão difícil ser homem?",
+  "genero": "Comédia",
+  "elenco": "Manu Payet, Guillaume Labbé, Vincent Heneine, Antoine Gouy, Mélanie Bernier",
+  "diretor": "Noémie Saglio, Yannick Fauchier, Diane Capo",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:30"
+        }
+      ]
+    }
+  ],
+  "id": 6793
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMTM=",
+  "tipo": "serie",
+  "titulo": "BETINHO: NO FIO DA NAVALHA",
+  "capa_url": "https://lgfp.one/AUTY",
+  "capa_local": "BETINHO NO FIO DA NAVALHA/BETINHO NO FIO DA NAVALHA.jpg",
+  "sinopse": "A inspiradora biografia do sociólogo Herbert de Souza, o saudoso Betinho, nos relembra sua luta no combate à fome e acesso da população pobre à justiça social.",
+  "genero": "Drama",
+  "elenco": "Júlio Andrade, Julia Shimura, Filipe Bragança, Humberto Carrão, Ravel Andrade",
+  "diretor": "André Felipe Binder, Júlio Andrade, Alex Medeiros",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:58"
+        }
+      ]
+    }
+  ],
+  "id": 4559
+}

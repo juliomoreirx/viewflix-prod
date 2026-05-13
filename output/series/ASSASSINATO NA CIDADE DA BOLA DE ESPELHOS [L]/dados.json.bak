@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNjE=",
+  "tipo": "serie",
+  "titulo": "ASSASSINATO NA CIDADE DA BOLA DE ESPELHOS [L]",
+  "capa_url": "https://lgfp.one/RSV2",
+  "capa_local": "ASSASSINATO NA CIDADE DA BOLA DE ESPELHOS [L]/ASSASSINATO NA CIDADE DA BOLA DE ESPELHOS [L].jpg",
+  "sinopse": "Documentário da HBO que examina os detalhes por trás do assassinato de um artista drag em uma velha mansão de Louisville, Kentucky.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Fenton Bailey, Randy Barbato",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:20:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:16"
+        }
+      ]
+    }
+  ],
+  "id": 8887
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNzA=",
+  "tipo": "serie",
+  "titulo": "FÉ NA VIDA",
+  "capa_url": "https://lgfp.one/SSD",
+  "capa_local": "FE NA VIDA/FE NA VIDA.jpg",
+  "sinopse": "Acompanhe a viagem a 10 estados de todas as regiões do Brasil para conhecer histórias inspiradoras.",
+  "genero": "Reality / Documentário / News",
+  "elenco": "Murilo Salviano, Tábata Poline",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:12"
+        }
+      ]
+    }
+  ],
+  "id": 2178
+}

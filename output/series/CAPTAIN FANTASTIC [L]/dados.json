@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNzA=",
+  "tipo": "serie",
+  "titulo": "CAPTAIN FANTASTIC [L]",
+  "capa_url": "https://lgfp.one/RSO6",
+  "capa_local": "CAPTAIN FANTASTIC [L]/CAPTAIN FANTASTIC [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Sunil Chhetri",
+  "diretor": "Misha Kumar",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:49"
+        }
+      ]
+    }
+  ],
+  "id": 8873
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5MzU=",
+  "tipo": "serie",
+  "titulo": "OPERATION SABRE [L]",
+  "capa_url": "https://lgfp.one/LBC3",
+  "capa_local": "OPERATION SABRE [L]/OPERATION SABRE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Dragan Mićanović, Milica Gojković, Ljubomir Bandović, Lazar Tasić, Marko Marković",
+  "diretor": "Goran Stanković, Vladimir Tagić, Marko Novaković",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:46"
+        }
+      ]
+    }
+  ],
+  "id": 6676
+}

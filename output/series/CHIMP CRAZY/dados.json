@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MTc=",
+  "tipo": "serie",
+  "titulo": "CHIMP CRAZY",
+  "capa_url": "https://lgfp.one/DMY6",
+  "capa_local": "CHIMP CRAZY/CHIMP CRAZY.jpg",
+  "sinopse": "Série documental da HBO que investiga o mundo secreto do negócio de chimpanzés em cativeiro e as histórias daqueles que os amam.",
+  "genero": "Documentário",
+  "elenco": "Tonia Haddix, Alan Cumming, Eric Goode, Pamela Rosaire-Zoppe, Dwayne Cunningham",
+  "diretor": "Eric Goode",
+  "total_episodios": "225",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:21"
+        }
+      ]
+    }
+  ],
+  "id": 5952
+}

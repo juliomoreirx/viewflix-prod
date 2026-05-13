@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTE=",
+  "tipo": "serie",
+  "titulo": "O CUCO DE CRISTAL",
+  "capa_url": "https://lgfp.one/QQA3",
+  "capa_local": "O CUCO DE CRISTAL/O CUCO DE CRISTAL.jpg",
+  "sinopse": "Em busca de informações sobre o doador do coração que recebeu, uma jovem médica chega a uma cidadezinha na montanha assolada por décadas de tragédias misteriosas.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Catalina Sopelana, Itziar Ituño, Álex García, Ivan Massagué, Tomás del Estal",
+  "diretor": "Laura Alvea, Juan Miguel del Castillo",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:39"
+        }
+      ]
+    }
+  ],
+  "id": 8378
+}

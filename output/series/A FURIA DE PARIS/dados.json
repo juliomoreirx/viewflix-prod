@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNDY=",
+  "tipo": "serie",
+  "titulo": "A FÚRIA DE PARIS",
+  "capa_url": "https://lgfp.one/AKD1",
+  "capa_local": "A FURIA DE PARIS/A FURIA DE PARIS.jpg",
+  "sinopse": "Buscando vingar a morte do pai, uma jovem se envolve com Fúria, a justiceira do submundo do crime em Paris.",
+  "genero": "Action & Adventure, Crime",
+  "elenco": "Mathieu Kassovitz, Fatima Adoum, Marina Foïs, Lina El Arabi, Steve Tientcheu",
+  "diretor": "Cedric Nicolas-Troyan, Steve Berron, Raphaël Levy-cariès",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:23"
+        }
+      ]
+    }
+  ],
+  "id": 5070
+}

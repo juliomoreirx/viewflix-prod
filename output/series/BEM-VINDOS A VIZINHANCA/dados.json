@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTg=",
+  "tipo": "serie",
+  "titulo": "BEM-VINDOS À VIZINHANÇA",
+  "capa_url": "https://lgfp.one/VRL",
+  "capa_local": "BEM-VINDOS A VIZINHANCA/BEM-VINDOS A VIZINHANCA.jpg",
+  "sinopse": "Cartas sinistras. Vizinhos estranhos. Ameaças obscuras. Uma família se muda para a casa dos sonhos, mas logo descobre que herdou um pesadelo.",
+  "genero": "Drama, Mistério",
+  "elenco": "Naomi Watts, Bobby Cannavale, Isabel Gravitt, Luke David Blumm, Jennifer Coolidge",
+  "diretor": "Henry Joost, Ariel Schulman, Scott Robertson",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:18"
+        }
+      ]
+    }
+  ],
+  "id": 375582
+}

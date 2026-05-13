@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNjg=",
+  "tipo": "serie",
+  "titulo": "FEBRE DO OURO: AMÉRICA DO SUL",
+  "capa_url": "https://lgfp.one/RDF7",
+  "capa_local": "FEBRE DO OURO AMERICA DO SUL/FEBRE DO OURO AMERICA DO SUL.jpg",
+  "sinopse": "Todd Hoffman, Fred \"Dakota\" Hurt e Parker Schnabel vão em busca de ouro na América do Sul.",
+  "genero": "Reality",
+  "elenco": "Todd Hoffman, Freddy Dodge, Parker Schnabel",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:24"
+        }
+      ]
+    }
+  ],
+  "id": 8484
+}

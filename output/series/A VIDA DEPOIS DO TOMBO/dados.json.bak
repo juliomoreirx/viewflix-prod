@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NDE=",
+  "tipo": "serie",
+  "titulo": "A VIDA DEPOIS DO TOMBO",
+  "capa_url": "https://lgfp.one/RPQ",
+  "capa_local": "A VIDA DEPOIS DO TOMBO/A VIDA DEPOIS DO TOMBO.jpg",
+  "sinopse": "A retomada da carreira após a saída com a maior rejeição da história do BBB em todo o mundo. De onde vêm suas atitudes intrigantes? O que fez o público amar odiar Karol ConKá?",
+  "genero": "Documentário",
+  "elenco": "Karol Conká, Lumena Aleluia, Lucas Penteado, KondZilla, Eliane Dias",
+  "diretor": "Patricia Cupello, Patricia Carvalho",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:52"
+        }
+      ]
+    }
+  ],
+  "id": 1234
+}

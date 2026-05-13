@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4OTg=",
+  "tipo": "serie",
+  "titulo": "TALES OF THE WALKING DEAD",
+  "capa_url": "https://lgfp.one/ALV2",
+  "capa_local": "TALES OF THE WALKING DEAD/TALES OF THE WALKING DEAD.jpg",
+  "sinopse": "Série Antológica composta de episódios independentes focados em personagens novos e já apresentados do universo The walking dead",
+  "genero": "Drama, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:04"
+        }
+      ]
+    }
+  ],
+  "id": 5116
+}

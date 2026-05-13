@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNTk=",
+  "tipo": "serie",
+  "titulo": "PLANETA TUBARAO",
+  "capa_url": "https://lgfp.one/ARKT",
+  "capa_local": "PLANETA TUBARAO/PLANETA TUBARAO.jpg",
+  "sinopse": "Mergulhe no deslumbrante mundo subaquático dos tubarões e examine o que torna esses predadores tão bem-sucedidos e mortais. Conheça uma fascinante variedade de espécies de tubarões, incluindo um que brilha no escuro e outro que vive por até 400 anos.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:04"
+        }
+      ]
+    }
+  ],
+  "id": 4280
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMTQ=",
+  "tipo": "serie",
+  "titulo": "NOITE DE VERAO",
+  "capa_url": "https://lgfp.one/ASX7",
+  "capa_local": "NOITE DE VERAO/NOITE DE VERAO.jpg",
+  "sinopse": "Carina reúne a família para um tradicional solstício de verão sueco, mas as coisas se complicam quando antigos segredos vêm à tona.",
+  "genero": "Drama",
+  "elenco": "Pernilla August, Dennis Storhøi, Yngvild Støen Grotmol, Amalia Holm Bjelke, Axel Bøyum",
+  "diretor": "Per-Olav Sørensen",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:50"
+        }
+      ]
+    }
+  ],
+  "id": 5254
+}

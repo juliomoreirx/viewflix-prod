@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MTM=",
+  "tipo": "serie",
+  "titulo": "OS MISTÉRIOS DA CIVILIZAÇÃO MAIA",
+  "capa_url": "https://lgfp.one/JAC",
+  "capa_local": "OS MISTERIOS DA CIVILIZACAO MAIA/OS MISTERIOS DA CIVILIZACAO MAIA.jpg",
+  "sinopse": "O explorador da National Geographic Albert Lin se aventura na selva guatemalteca para explorar como um novo mapa do tesouro de alta tecnologia está revelando dezenas de milhares de ruínas antigas. Dezenas de arqueólogos partem em uma viagem de descoberta, explorando as ruínas perdidas pela primeira vez em 1.500 anos. O que eles estão tentando é reescrever a história de uma das civilizações antigas mais misteriosas do mundo: os Maias.",
+  "genero": "",
+  "elenco": "Albert Yu-Min Lin",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:58"
+        }
+      ]
+    }
+  ],
+  "id": 367
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMDM=",
+  "tipo": "serie",
+  "titulo": "CROSSOVER",
+  "capa_url": "https://lgfp.one/ZGF",
+  "capa_local": "CROSSOVER/CROSSOVER.jpg",
+  "sinopse": "Os gêmeos fenômenos do basquete do ensino fundamental Jordan \"JB” e Josh \"Filthy\" Bell lutam para crescer, aprenderem a se afastar e aplicar as regras de seu pai, treinador de basquete, dentro e fora da quadra.",
+  "genero": "Drama",
+  "elenco": "Derek Luke, Jalyn Hall, Amir O'Neil, Sabrina Revelle, Deja Monique Cruz, Trevor Raine Bush, Daveed Diggs, Skyla I'Lece",
+  "diretor": "Kwame Alexander",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:18"
+        }
+      ]
+    }
+  ],
+  "id": 3403
+}

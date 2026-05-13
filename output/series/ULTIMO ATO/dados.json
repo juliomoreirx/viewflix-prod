@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxOTM=",
+  "tipo": "serie",
+  "titulo": "ULTIMO ATO",
+  "capa_url": "https://lgfp.one/ANY3",
+  "capa_local": "ULTIMO ATO/ULTIMO ATO.jpg",
+  "sinopse": "Um thriller de conspiração sobre um dos crimes mais conhecidos, mas menos compreendidos da história. Esta é a surpreendente história da caçada a John Wilkes Booth após o assassinato de Abraham Lincoln— enquanto o destino do país está em jogo.",
+  "genero": "Drama, Crime",
+  "elenco": "Tobias Menzies, Anthony Boyle, Lovie Simone, Lili Taylor, Hamish Linklater",
+  "diretor": "Carl Franklin, Jan Oxenberg, Julianna Meagher",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:49"
+        }
+      ]
+    }
+  ],
+  "id": 5165
+}

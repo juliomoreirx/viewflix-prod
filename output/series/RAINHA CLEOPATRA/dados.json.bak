@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MjE=",
+  "tipo": "serie",
+  "titulo": "RAINHA CLEÓPATRA",
+  "capa_url": "https://lgfp.one/ZXT",
+  "capa_local": "RAINHA CLEOPATRA/RAINHA CLEOPATRA.jpg",
+  "sinopse": "Por meio de reconstituições e entrevistas, esta série documental mostra como Cleópatra, a última faraó do Egito, lutou para proteger seu trono, família e legado.",
+  "genero": "Documentário, Drama",
+  "elenco": "Jada Pinkett Smith, Adele James, Craig Russell, John Partridge, Andira Crichlow",
+  "diretor": "Tina Gharavi",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:02"
+        }
+      ]
+    }
+  ],
+  "id": 3512
+}

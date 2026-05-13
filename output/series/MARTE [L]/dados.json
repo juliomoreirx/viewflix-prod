@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNjQ=",
+  "tipo": "serie",
+  "titulo": "MARTE [L]",
+  "capa_url": "https://lgfp.one/BACH",
+  "capa_local": "MARTE [L]/MARTE [L].jpg",
+  "sinopse": "Uma escola de ensino médio japonesa é abalada com a chegada de um aluno transferido enigmático, carismático e muito misterioso chamado Mishima Zero (Michieda Shunsuke). O jovem de cabelos brancos e 19 anos começa a dizer aos colegas de classe que deseja derrubar a atual ordem mundial – criada e governada pelos adultos – e construir um novo futuro. Mishima pede aos colegas que se juntem à sua causa e ajudem a acabar com o mundo como o conhecem.",
+  "genero": "Drama, Mistério",
+  "elenco": "Shunsuke Michieda, Rihito Itagaki, Yoshikawa Ai, Yuki Inoue, Mayuu Yokota",
+  "diretor": "Yuichiro Hirakawa, Osamu Katayama",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:55"
+        }
+      ]
+    }
+  ],
+  "id": 9389
+}

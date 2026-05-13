@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1Njc=",
+  "tipo": "serie",
+  "titulo": "FEBRE DO OURO O INVERNO ESTA AQUI",
+  "capa_url": "https://lgfp.one/BDT5",
+  "capa_local": "FEBRE DO OURO O INVERNO ESTA AQUI/FEBRE DO OURO O INVERNO ESTA AQUI.jpg",
+  "sinopse": "Os mineiros fazem grandes movimentos nos meses brutais de inverno: caçando ouro, lutando pelos melhores pontos e superdimensionando suas operações.",
+  "genero": "Reality, Drama",
+  "elenco": "Rick Ness, Tony Beets, Fred Lewis, Dave Turin, Juan Ibarra",
+  "diretor": "Jeremy Weiss, Neil Macdonald",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:44"
+        }
+      ]
+    }
+  ],
+  "id": 5512
+}

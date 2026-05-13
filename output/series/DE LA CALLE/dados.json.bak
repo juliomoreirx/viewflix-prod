@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NzI=",
+  "tipo": "serie",
+  "titulo": "DE LA CALLE",
+  "capa_url": "https://lgfp.one/ASZH",
+  "capa_local": "DE LA CALLE/DE LA CALLE.jpg",
+  "sinopse": "Uma jornada pela diáspora latina para explorar e mapear a evolução da música urbana e as culturas que incendiaram a revolução musical do Hip Hop, Rap, Reggaeton, Bachata, Trap Latino, Cumbia e mais.",
+  "genero": "Documentário",
+  "elenco": "Nick Barili",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:19"
+        }
+      ]
+    }
+  ],
+  "id": 4426
+}

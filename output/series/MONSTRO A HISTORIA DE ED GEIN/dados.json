@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3OTc=",
+  "tipo": "serie",
+  "titulo": "MONSTRO: A HISTÓRIA DE ED GEIN",
+  "capa_url": "https://lgfp.one/QDO6",
+  "capa_local": "MONSTRO A HISTORIA DE ED GEIN/MONSTRO A HISTORIA DE ED GEIN.jpg",
+  "sinopse": "A chocante história real de Ed Gein, o infame assassino e ladrão de túmulos que inspirou alguns dos assassinos mais icônicos do cinema de Hollywood.",
+  "genero": "Drama, Crime",
+  "elenco": "Charlie Hunnam, Suzanna Son, Vicky Krieps, Laurie Metcalf",
+  "diretor": "Max Winkler, Scott Robertson, Carl Franklin",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:37"
+        }
+      ]
+    }
+  ],
+  "id": 8134
+}

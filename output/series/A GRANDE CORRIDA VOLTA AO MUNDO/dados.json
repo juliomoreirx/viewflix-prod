@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczODk=",
+  "tipo": "serie",
+  "titulo": "A GRANDE CORRIDA: VOLTA AO MUNDO",
+  "capa_url": "https://lgfp.one/SNQ",
+  "capa_local": "A GRANDE CORRIDA VOLTA AO MUNDO/A GRANDE CORRIDA VOLTA AO MUNDO.jpg",
+  "sinopse": "Como você viajaria pelo mundo se não pudesse voar nem tivesse telefone celular? Neste programa, cinco duplas competem para chegar mais rápido de um ponto a outro, sem usar avião.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:34"
+        }
+      ]
+    }
+  ],
+  "id": 2049
+}

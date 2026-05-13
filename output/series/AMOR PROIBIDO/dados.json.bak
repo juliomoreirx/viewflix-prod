@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MjQ=",
+  "tipo": "serie",
+  "titulo": "AMOR PROIBIDO",
+  "capa_url": "https://lgfp.one/MXJ5",
+  "capa_local": "AMOR PROIBIDO/AMOR PROIBIDO.jpg",
+  "sinopse": "Casais apaixonados enfrentam o dilema de mudar de religião para ficar juntos. Esse sacrifício os unirá ou os separará?",
+  "genero": "Reality",
+  "elenco": "Lindsey Miller, Ashley Qasem, Laurie Palermo",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:42"
+        }
+      ]
+    }
+  ],
+  "id": 126028
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5NTI=",
+  "tipo": "serie",
+  "titulo": "MONSTROS NO TRABALHO",
+  "capa_url": "https://lgfp.one/SCD",
+  "capa_local": "MONSTROS NO TRABALHO/MONSTROS NO TRABALHO.jpg",
+  "sinopse": "Tylor Tuskmon é o primeiro da turma na Universidade Monstros e chega à Monstros S.A. para começar seu trabalho dos sonhos como um Assustador... ou não. No dia em que ele está pronto para começar, ele descobre que não querem Assustadores... querem Cômicos! Tylor é temporariamente transferido para a equipe de instaladores da Monstros S.A. Essa mudança destrói o plano de Tylor, mas ele tem um novo objetivo: se tornar um Cômico.",
+  "genero": "Família, Comédia, Animação",
+  "elenco": "Ben Feldman, Mindy Kaling, Henry Winkler, Lucas Neff, Alanna Ubach",
+  "diretor": "",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:53"
+        }
+      ]
+    }
+  ],
+  "id": 337553
+}

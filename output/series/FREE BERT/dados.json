@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2ODE=",
+  "tipo": "serie",
+  "titulo": "FREE BERT",
+  "capa_url": "https://lgfp.one/RHY9",
+  "capa_local": "FREE BERT/FREE BERT.jpg",
+  "sinopse": "Tentando se misturar às famílias esnobes da escola das filhas, um pai caótico e sua família igualmente sem filtros acabam causando grandes confusões.",
+  "genero": "Comédia",
+  "elenco": "Bert Kreischer, Arden Myrin, Ava Ryan, Lilou Lang",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:07"
+        }
+      ]
+    }
+  ],
+  "id": 8714
+}

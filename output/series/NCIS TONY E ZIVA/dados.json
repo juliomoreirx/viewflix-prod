@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODE=",
+  "tipo": "serie",
+  "titulo": "NCIS TONY E ZIVA",
+  "capa_url": "https://lgfp.one/PWF9",
+  "capa_local": "NCIS TONY E ZIVA/NCIS TONY E ZIVA.jpg",
+  "sinopse": "Os ex-agentes Tony e Ziva estão criando sua filha em Paris. Quando a empresa de segurança de Tony é atacada, eles devem fugir pela Europa para descobrir quem está atrás deles - e talvez conseguir confiar um no outro novamente.",
+  "genero": "Action & Adventure, Drama, Crime",
+  "elenco": "Michael Weatherly, Cote de Pablo, Isla Gie, Amita Suman, Maximilian Osinski",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:59"
+        }
+      ]
+    }
+  ],
+  "id": 7897
+}

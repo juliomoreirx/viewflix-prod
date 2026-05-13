@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNzE=",
+  "tipo": "serie",
+  "titulo": "O DIA DEPOIS DA ELEIÇÃO",
+  "capa_url": "https://lgfp.one/AAND",
+  "capa_local": "O DIA DEPOIS DA ELEICAO/O DIA DEPOIS DA ELEICAO.jpg",
+  "sinopse": "Poucas pessoas possuem a capacidade de antever os riscos e aproveitar as oportunidades que os movimentos políticos causam na economia. Nestes 5 episódios, aprenda como.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:36"
+        }
+      ]
+    }
+  ],
+  "id": 3686
+}

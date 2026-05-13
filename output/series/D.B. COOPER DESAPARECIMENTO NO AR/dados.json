@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MzQ=",
+  "tipo": "serie",
+  "titulo": "D.B. COOPER: DESAPARECIMENTO NO AR",
+  "capa_url": "https://lgfp.one/TKS",
+  "capa_local": "D.B. COOPER DESAPARECIMENTO NO AR/D.B. COOPER DESAPARECIMENTO NO AR.jpg",
+  "sinopse": "Em 1971, um homem sequestrou um avião, saltou de paraquedas com todo o dinheiro roubado e saiu impune. Décadas depois, sua identidade continua sendo um mistério.",
+  "genero": "Documentário, Crime",
+  "elenco": "Eric Ulis, Tom Colbert, Jonna Mendez",
+  "diretor": "Marina Zenovich",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:43"
+        }
+      ]
+    }
+  ],
+  "id": 2681
+}

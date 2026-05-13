@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNjM=",
+  "tipo": "serie",
+  "titulo": "A MELHOR PIOR FUNCIONARIA [L]",
+  "capa_url": "https://lgfp.one/KLM3",
+  "capa_local": "A MELHOR PIOR FUNCIONARIA [L]/A MELHOR PIOR FUNCIONARIA [L].jpg",
+  "sinopse": "A trama segue Tsumeko Takano (Nanao), uma profissional que aparenta ser impecável, mas cuja incompetência é tão evidente quanto cômica. Takano não sabe usar um computador nem uma copiadora, mas compensa suas falhas com uma confiança inabalável e um charme que conquista clientes e colegas.",
+  "genero": "Drama, Comédia",
+  "elenco": "菜々緒, 塩野瑛久, 井浦新, 工藤阿須加, ほな・いこか",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:47"
+        }
+      ]
+    }
+  ],
+  "id": 6431
+}

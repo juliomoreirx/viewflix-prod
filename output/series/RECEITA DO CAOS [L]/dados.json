@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMDA=",
+  "tipo": "serie",
+  "titulo": "RECEITA DO CAOS [L]",
+  "capa_url": "https://lgfp.one/AYJF",
+  "capa_local": "RECEITA DO CAOS [L]/RECEITA DO CAOS [L].jpg",
+  "sinopse": "Swathi sonha em ter seu próprio restaurante. Quando um assassinato acaba com seus planos, ela decide colocar o amante no lugar do marido.",
+  "genero": "Comédia, Crime",
+  "elenco": "Konkona Sen Sharma, Manoj Bajpayee, Nassar, Sayaji Shinde, Lal",
+  "diretor": "Abhishek Chaubey, Harshad Nalawade, Chetana Kowshik",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:42"
+        }
+      ]
+    }
+  ],
+  "id": 4812
+}

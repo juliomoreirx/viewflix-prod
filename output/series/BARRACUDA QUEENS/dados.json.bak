@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MTA=",
+  "tipo": "serie",
+  "titulo": "BARRACUDA QUEENS",
+  "capa_url": "https://lgfp.one/AAIJ",
+  "capa_local": "BARRACUDA QUEENS/BARRACUDA QUEENS.jpg",
+  "sinopse": "Ao se afundar em uma dívida gigantesca, um grupo de garotas de um bairro rico de Estocolmo passa a roubar as casas vizinhas. Inspirada em uma história real.",
+  "genero": "Drama, Crime",
+  "elenco": "Alva Bratt, Tea Stjärne, Tindra Monsen",
+  "diretor": "Amanda Adolfsson",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:18"
+        }
+      ]
+    }
+  ],
+  "id": 3566
+}

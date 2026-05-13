@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NTM=",
+  "tipo": "serie",
+  "titulo": "ATÉ O CÉU: A SÉRIE",
+  "capa_url": "https://lgfp.one/YXE",
+  "capa_local": "ATE O CEU A SERIE/ATE O CEU A SERIE.jpg",
+  "sinopse": "Depois de se apaixonar por Estrela, o mecânico Ángel sai do subúrbio de Madri para um mundo de roubos e vira alvo de um detetive implacável.",
+  "genero": "Action & Adventure, Drama, Crime",
+  "elenco": "Asia Ortega, Luis Tosar, Álvaro Rico, Richard Holmes, Patricia Vico",
+  "diretor": "Daniel Calparsoro",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:40"
+        }
+      ]
+    }
+  ],
+  "id": 3364
+}

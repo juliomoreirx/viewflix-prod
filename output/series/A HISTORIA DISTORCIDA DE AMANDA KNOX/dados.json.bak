@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNDY=",
+  "tipo": "serie",
+  "titulo": "A HISTORIA DISTORCIDA DE AMANDA KNOX",
+  "capa_url": "https://lgfp.one/PUE2",
+  "capa_local": "A HISTORIA DISTORCIDA DE AMANDA KNOX/A HISTORIA DISTORCIDA DE AMANDA KNOX.jpg",
+  "sinopse": "A história de como Amanda Knox foi condenada injustamente pelo trágico assassinato de sua colega de quarto, Meredith Kercher, e sua jornada de 16 anos para provar sua inocência.",
+  "genero": "Drama, Comédia",
+  "elenco": "Grace Van Patten, Sharon Horgan, Giuseppe De Domenico, John Hoogenakker, Roberta Mattei",
+  "diretor": "Michael Uppendahl",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:51"
+        }
+      ]
+    }
+  ],
+  "id": 7852
+}

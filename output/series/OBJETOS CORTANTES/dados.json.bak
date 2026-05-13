@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MTQ=",
+  "tipo": "serie",
+  "titulo": "OBJETOS CORTANTES",
+  "capa_url": "https://lgfp.one/RJK",
+  "capa_local": "OBJETOS CORTANTES/OBJETOS CORTANTES.jpg",
+  "sinopse": "Camille, uma repórter criminalística recém-saída de um hospital psicológico devido a anos de violência auto-infligida, que retorna à sua cidade natal para investigar os assassinatos de duas meninas pequenas.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Amy Adams, Patricia Clarkson, Eliza Scanlen, Chris Messina, Matt Craven",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:57"
+        }
+      ]
+    }
+  ],
+  "id": 1065
+}

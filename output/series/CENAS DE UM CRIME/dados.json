@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NzQ=",
+  "tipo": "serie",
+  "titulo": "CENAS DE UM CRIME",
+  "capa_url": "https://lgfp.one/QIR1",
+  "capa_local": "CENAS DE UM CRIME/CENAS DE UM CRIME.jpg",
+  "sinopse": "\"Cenas de um Crime\" gira em torno de uma investigação policial sobre um assassinato brutal, que traz à tona vários segredos de uma das mais poderosas sociedades ocultas do Brasil.",
+  "genero": "Drama, Crime",
+  "elenco": "Débora Nascimento, Fabrício Boliveira, Bruna Mascarenhas, Augusto Madeira, Daniel Dantas",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:52"
+        }
+      ]
+    }
+  ],
+  "id": 8208
+}

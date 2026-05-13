@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMTE=",
+  "tipo": "serie",
+  "titulo": "CONTAGEM REGRESSIVA (2018)",
+  "capa_url": "https://lgfp.one/IWA",
+  "capa_local": "CONTAGEM REGRESSIVA (2018)/CONTAGEM REGRESSIVA (2018).jpg",
+  "sinopse": "A série pré-apocalíptica, ambientada na Londres contemporânea, consiste de 6 episódios e mostrará os detetives Robert Hicks e Elaine Renko tentando exercer a lei e proteger seus entes queridos em um mundo que caminha a cada dia para a destruição. Contudo, qual o sentido da justiça diante do apocalipse?",
+  "genero": "Crime, Drama",
+  "elenco": "Jim Sturgess, Agyness Deyn, Nikki Amuka-Bird, Derek Riddell, Aisling Bea",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:11"
+        }
+      ]
+    }
+  ],
+  "id": 384915
+}

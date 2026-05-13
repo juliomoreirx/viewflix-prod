@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3OTQ=",
+  "tipo": "serie",
+  "titulo": "MEDO REAL",
+  "capa_url": "https://lgfp.one/QEG8",
+  "capa_local": "MEDO REAL/MEDO REAL.jpg",
+  "sinopse": "Com reconstituições imersivas e entrevistas recentes, esta série assustadora mostra encontros paranormais do ponto de vista de quem os viveu.",
+  "genero": "Documentário, Mistério",
+  "elenco": "",
+  "diretor": "James Wan, Scott Stewart",
+  "total_episodios": "34",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:36"
+        }
+      ]
+    }
+  ],
+  "id": 8144
+}

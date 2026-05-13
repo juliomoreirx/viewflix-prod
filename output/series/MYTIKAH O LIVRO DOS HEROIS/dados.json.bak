@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NzI=",
+  "tipo": "serie",
+  "titulo": "MYTIKAH O LIVRO DOS HEROIS",
+  "capa_url": "https://lgfp.one/RCL6",
+  "capa_local": "MYTIKAH O LIVRO DOS HEROIS/MYTIKAH O LIVRO DOS HEROIS.jpg",
+  "sinopse": "Os irmãos Manga e Leco se divertem com o livro MYTIKAH, que conta histórias de heróis da vida real. Quando o livro aparece, eles entram na história para conhecer os personagens e o mundo deles. Os irmãos aprendem sobre o contexto histórico e vida destes heróis. Assim, só ajudando-os a realizar suas missões, eles podem voltar para casa.",
+  "genero": "Animação, Action & Adventure, Kids",
+  "elenco": "Ana Luísa Kovacs Peronti, Miguel Lallo",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:07:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:07:01"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:07:01"
+        }
+      ]
+    }
+  ],
+  "id": 8470
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4ODM=",
+  "tipo": "serie",
+  "titulo": "PERSONAS (2026)",
+  "capa_url": "https://lgfp.one/TBZ6",
+  "capa_local": "PERSONAS (2026)/PERSONAS (2026).jpg",
+  "sinopse": "Reino Unido, década de 1990. Nas ruas inundadas de drogas, um grupo de funcionários públicos se infiltra em gangues para acabar com elas.",
+  "genero": "Action & Adventure, Crime, Drama",
+  "elenco": "Tom Burke, Steve Coogan, Tom Hughes, Charlotte Ritchie, Hayley Squires",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:14:33"
+        }
+      ]
+    }
+  ],
+  "id": 9513
+}

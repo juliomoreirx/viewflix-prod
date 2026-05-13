@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1OTM=",
+  "tipo": "serie",
+  "titulo": "CHEWING GUM [L]",
+  "capa_url": "https://lgfp.one/TCS",
+  "capa_local": "CHEWING GUM [L]/CHEWING GUM [L].jpg",
+  "sinopse": "Série de comédia que segue Tracey Gordon, uma garota de 24 anos virgem, religiosa e obcecada pela Beyoncé que está rapidamente descobrindo que quanto mais ela aprende sobre o mundo menos ela o entende.",
+  "genero": "Comédia",
+  "elenco": "Michaela Coel, Danielle Walters, Robert Lonsdale, Susan Wokoma, Shola Adewusi, Kadiff Kirwan, Maggie Steed, Olisa Odele",
+  "diretor": "Tom Marshall",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:24:26"
+        }
+      ]
+    }
+  ],
+  "id": 2461
+}

@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMDU=",
+  "tipo": "serie",
+  "titulo": "HOSPITAL MARGINAL [L]",
+  "capa_url": "https://lgfp.one/DXN8",
+  "capa_local": "HOSPITAL MARGINAL [L]/HOSPITAL MARGINAL [L].jpg",
+  "sinopse": "A ex-médica militar Yoko Nishi Freeman começa a trabalhar em uma clínica antiga em um beco de Tóquio, ajudando os moradores diversos do bairro do neon.",
+  "genero": "Drama, Comédia",
+  "elenco": "小池栄子, 仲野太賀, 橋本愛, 濱田岳, 生瀬勝久",
+  "diretor": "Yusuke Noda",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:02"
+        }
+      ]
+    }
+  ],
+  "id": 6129
+}

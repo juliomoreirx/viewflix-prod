@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2Nzg=",
+  "tipo": "serie",
+  "titulo": "BIG DOGS [L]",
+  "capa_url": "https://lgfp.one/RBJ",
+  "capa_local": "BIG DOGS [L]/BIG DOGS [L].jpg",
+  "sinopse": "Em uma realidade alternativa e violenta da cidade de Nova York sitiada por tumultos raciais, colapso financeiro e uma onda crescente de crimes, uma economia subterrânea de boates ilegais está prosperando. O detetive Santiago está encarregado de reprimir esses clubes. Quando ele conhece seu novo parceiro, Everett More, Santiago descobre que existem inúmeras agências governamentais e organizações criminosas circulando Nova York e disputando o controle.",
+  "genero": "Crime, Mistério",
+  "elenco": "Louis Carbonneau, Brett Cullen, Dennis Flanagan, Manny Pérez, Michael Rabe",
+  "diretor": "David Platt",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:45"
+        }
+      ]
+    }
+  ],
+  "id": 846
+}

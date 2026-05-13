@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMzk=",
+  "tipo": "serie",
+  "titulo": "A ULTIMA FRONTEIRA",
+  "capa_url": "https://lgfp.one/QHO1",
+  "capa_local": "A ULTIMA FRONTEIRA/A ULTIMA FRONTEIRA.jpg",
+  "sinopse": "Dezenas de prisioneiros violentos são libertados após o avião que os transportava cair numa remota região do Alasca. O único representante da lei no local deve proteger a cidade que ele jurou manter em segurança.",
+  "genero": "Drama",
+  "elenco": "Jason Clarke, Dominic Cooper, Haley Bennett, Simone Kessell, Dallas Goldtooth",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:33"
+        }
+      ]
+    }
+  ],
+  "id": 8185
+}

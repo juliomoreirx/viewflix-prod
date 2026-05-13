@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NjU=",
+  "tipo": "serie",
+  "titulo": "SANTITA (2026)",
+  "capa_url": "https://lgfp.one/SUT6",
+  "capa_local": "SANTITA (2026)/SANTITA (2026).jpg",
+  "sinopse": "Depois de um acidente que a deixa na cadeira de rodas, Santita abandona o amor de sua vida no altar. Vinte anos depois, ele volta com um pedido que muda tudo.",
+  "genero": "Drama",
+  "elenco": "Paulina Dávila, Gael García Bernal, Ilse Salas, Erik Hayser",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 9417
+}

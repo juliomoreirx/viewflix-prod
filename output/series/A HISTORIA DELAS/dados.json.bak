@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMzE=",
+  "tipo": "serie",
+  "titulo": "A HISTORIA DELAS",
+  "capa_url": "https://lgfp.one/AUXB",
+  "capa_local": "A HISTORIA DELAS/A HISTORIA DELAS.jpg",
+  "sinopse": "Isabel descobre que era usada como laranja pelo marido em um esquema de corrupção e acaba tendo que cumprir prisão domiciliar junto com a filha na casa de sua ex-funcionária doméstica, Marta. Esta agora é dona de um pequeno delivery. Sua filha, Ana Jasmim, ajuda na empresa e sonha em estudar moda. A chegada de Isabel com a filha Ana Rosa na casa de Marta gera desconforto nas relações e remexe questões mal resolvidas do passado. A convivência forçada faz com que mães e filhas repensem suas relações e encontrem novos papéis. Enquanto isso, a casa vive sob a constante ameaça de um agiota.",
+  "genero": "Drama",
+  "elenco": "Cris Vianna, Letícia Spiller, Bia Arantes, Emma Araujo, Johnnas Oliva",
+  "diretor": "Maria Farkas, Luciana Baptista, Pablo Uranga",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:56"
+        }
+      ]
+    }
+  ],
+  "id": 4569
+}

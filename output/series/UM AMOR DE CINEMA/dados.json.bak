@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwOTg=",
+  "tipo": "serie",
+  "titulo": "UM AMOR DE CINEMA",
+  "capa_url": "https://lgfp.one/MZG5",
+  "capa_local": "UM AMOR DE CINEMA/UM AMOR DE CINEMA.jpg",
+  "sinopse": "Um cinéfilo e uma diretora novata vivem um romance intenso, porém breve. Agora que a trama da vida os aproximou novamente, será que a história terá um novo fim?",
+  "genero": "Comédia, Drama",
+  "elenco": "Woo-sik Choi, Park Bo-young, 이준영, 전소니, 김재욱",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:14:24"
+        }
+      ]
+    }
+  ],
+  "id": 6889
+}

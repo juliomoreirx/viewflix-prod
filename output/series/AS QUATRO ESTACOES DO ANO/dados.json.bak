@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NDE=",
+  "tipo": "serie",
+  "titulo": "AS QUATRO ESTACOES DO ANO",
+  "capa_url": "https://lgfp.one/NSC4",
+  "capa_local": "AS QUATRO ESTACOES DO ANO/AS QUATRO ESTACOES DO ANO.jpg",
+  "sinopse": "A amizade de décadas entre três casais é testada por um divórcio, que acaba atrapalhando a tradição de viajarem juntos.",
+  "genero": "Comédia",
+  "elenco": "Tina Fey, Steve Carell, Colman Domingo, Erika Henningsen, Kerri Kenney",
+  "diretor": "Shari Springer Berman,  Lang Fisher",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:57"
+        }
+      ]
+    }
+  ],
+  "id": 7233
+}

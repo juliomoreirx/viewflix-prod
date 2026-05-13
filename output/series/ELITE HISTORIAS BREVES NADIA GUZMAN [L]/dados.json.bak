@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1OTE=",
+  "tipo": "serie",
+  "titulo": "ELITE HISTÓRIAS BREVES: NADIA GUZMÁN [L]",
+  "capa_url": "https://lgfp.one/TCZ",
+  "capa_local": "ELITE HISTORIAS BREVES NADIA GUZMAN [L]/ELITE HISTORIAS BREVES NADIA GUZMAN [L].jpg",
+  "sinopse": "Nadia não sabe ao certo se quer ver Guzmán, com quem namora à distância, quando voltar à Espanha para o casamento da irmã.",
+  "genero": "Drama",
+  "elenco": "Mina El Hammani, Miguel Bernardeau",
+  "diretor": "Dani de la Orden",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:09:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:38"
+        }
+      ]
+    }
+  ],
+  "id": 2468
+}

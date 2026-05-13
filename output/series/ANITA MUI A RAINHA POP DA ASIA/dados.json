@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzODU=",
+  "tipo": "serie",
+  "titulo": "ANITA MUI: A RAINHA POP DA ÁSIA",
+  "capa_url": "https://lgfp.one/TPS",
+  "capa_local": "ANITA MUI A RAINHA POP DA ASIA/ANITA MUI A RAINHA POP DA ASIA.jpg",
+  "sinopse": "A vida da icônica cantora de Hong Kong Anita Mui, cuja carreira deslumbrante remonta à infância. Não menos cativante do que sua presença de palco é sua devoção inabalável à família, amigos, entes queridos e pelo bem maior da comunidade. Sua vida intensa deixou um legado único na história da música e lhe rendeu o inegável título de \"Filha de Hong Kong\".",
+  "genero": "Drama",
+  "elenco": "Terrance Lau, Fish Liew, Lam Ka-tung, Miriam Yeung Chin-Wah, Tony Yang",
+  "diretor": "Leung Lok-man",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:42"
+        }
+      ]
+    }
+  ],
+  "id": 2815
+}

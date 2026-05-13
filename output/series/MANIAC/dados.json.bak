@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMjM=",
+  "tipo": "serie",
+  "titulo": "MANIAC",
+  "capa_url": "https://lgfp.one/IZH",
+  "capa_local": "MANIAC/MANIAC.jpg",
+  "sinopse": "Owen (Jonah Hill) é um jovem rico e esquizofrênico. Annie (Emma Stone) tem uma vida conturbada por sérios problemas familiares. Dois estranhos, eles se inscrevem numa bizarra experiência para compreender a mente humana, com o objetivo de terminar qualquer tipo de dor humana, misturando fantasia e realidade",
+  "genero": "Comédia, Drama, Sci-Fi & Fantasy",
+  "elenco": "Emma Stone, Jonah Hill, Sonoya Mizuno, Justin Theroux, Sally Field",
+  "diretor": "Jon Mallard, Cary Joji Fukunaga, Rebecca Breckel",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:28"
+        }
+      ]
+    }
+  ],
+  "id": 343
+}

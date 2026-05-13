@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NzI=",
+  "tipo": "serie",
+  "titulo": "TENHO QUE MORRER TODAS AS NOITES",
+  "capa_url": "https://lgfp.one/DHE7",
+  "capa_local": "TENHO QUE MORRER TODAS AS NOITES/TENHO QUE MORRER TODAS AS NOITES.jpg",
+  "sinopse": "Guillermo é um jovem inteligente e ambicioso, tem a vida pela frente e quer conquistar o mundo. Mas é homossexual e vive em Cuautla, uma origem e um lugar que pouco pode oferecer a alguém como ele.",
+  "genero": "Drama",
+  "elenco": "José Antonio Toledano, David Montalvo, Manuel Masalva, Silvia Navarro, Cristina Rodlo",
+  "diretor": "Fanie Soto, Ernesto Contreras, Alejandro Ricaño",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:59"
+        }
+      ]
+    }
+  ],
+  "id": 5839
+}

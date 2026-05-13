@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNTQ=",
+  "tipo": "serie",
+  "titulo": "DR4G0N",
+  "capa_url": "https://lgfp.one/CZE5",
+  "capa_local": "DR4G0N/DR4G0N.jpg",
+  "sinopse": "Uma família decreta falência e seu sustento passa a depender da equipe de E-Sports dos filhos. O time é administrado pela irmã mais velha, e tem como principal jogador o mais jovem, Daniel; gênio incontestável do game, mas sem talento algum para as relações pessoais.",
+  "genero": "Comédia",
+  "elenco": "Caio Cabral, Fernanda Marques, Cauã Martins, Lenita Oliver, Luigi Montez",
+  "diretor": "Ana Luíza Azevedo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:22"
+        }
+      ]
+    }
+  ],
+  "id": 5713
+}

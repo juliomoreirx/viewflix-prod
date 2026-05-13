@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NTg=",
+  "tipo": "serie",
+  "titulo": "AGENTE BUTTERFLY",
+  "capa_url": "https://lgfp.one/PSJ1",
+  "capa_local": "AGENTE BUTTERFLY/AGENTE BUTTERFLY.jpg",
+  "sinopse": "David Jung, um misterioso ex-agente de inteligência dos EUA que vive escondido na Coreia do Sul, tem a vida virada do avesso quando as consequências de uma decisão impossível do passado voltam para assombrá-lo, e ele se vê caçado por Rebecca, uma jovem assassina mortal, e pela Caddis, a sinistra organização de espionagem para a qual ela trabalha.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Daniel Dae Kim, Reina Hardesty, Piper Perabo, Louis Landau",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:40"
+        }
+      ]
+    }
+  ],
+  "id": 7781
+}

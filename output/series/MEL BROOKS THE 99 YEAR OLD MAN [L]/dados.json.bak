@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MTA=",
+  "tipo": "serie",
+  "titulo": "MEL BROOKS THE 99 YEAR OLD MAN [L]",
+  "capa_url": "https://lgfp.one/RNU6",
+  "capa_local": "MEL BROOKS THE 99 YEAR OLD MAN [L]/MEL BROOKS THE 99 YEAR OLD MAN [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário, Comédia",
+  "elenco": "Mel Brooks, Judd Apatow, Michael Bonfiglio, Jerry Seinfeld, Conan O'Brien",
+  "diretor": "Judd Apatow, Michael Bonfiglio, Judd Apatow",
+  "total_episodios": "108",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:46:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:49:25"
+        }
+      ]
+    }
+  ],
+  "id": 8745
+}

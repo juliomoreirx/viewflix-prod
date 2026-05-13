@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyODM=",
+  "tipo": "serie",
+  "titulo": "OS REIS DA SELVA",
+  "capa_url": "https://lgfp.one/APQ3",
+  "capa_local": "OS REIS DA SELVA/OS REIS DA SELVA.jpg",
+  "sinopse": "Acompanhe a vida dos leões, leopardos e guepardos do Masai Mara, o maior parque do Quênia. Os apresentadores Jonathan e Angela Scott, ao lado do guia Jackson Ole Looseyia, mostram a rotina destes animais graças a sua experiência de campo inigualável. Acompanhe a jornada de várias famílias de felinos, incluindo a leoa Charm, o leopardo Bahati e o guepardo Malaika, que inclui a maternidade, a luta p",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:36"
+        }
+      ]
+    }
+  ],
+  "id": 5180
+}

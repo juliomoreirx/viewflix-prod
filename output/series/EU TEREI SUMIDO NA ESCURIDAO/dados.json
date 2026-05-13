@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NzM=",
+  "tipo": "serie",
+  "titulo": "EU TEREI SUMIDO NA ESCURIDÃO",
+  "capa_url": "https://lgfp.one/SLD",
+  "capa_local": "EU TEREI SUMIDO NA ESCURIDAO/EU TEREI SUMIDO NA ESCURIDAO.jpg",
+  "sinopse": "Após uma década de terror, o Golden State Killer desapareceu. Mas uma mulher se recusa a deixá-lo desaparecer e, nesse documentário, segue investigando os crimes que aterrorizaram a Califórnia entre os anos 70 e 80.",
+  "genero": "Documentário / Crime",
+  "elenco": "Amy Ryan",
+  "diretor": "Liz Garbus",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:03"
+        }
+      ]
+    }
+  ],
+  "id": 1984
+}

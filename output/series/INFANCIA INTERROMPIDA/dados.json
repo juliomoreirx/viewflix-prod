@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMDY=",
+  "tipo": "serie",
+  "titulo": "INFANCIA INTERROMPIDA",
+  "capa_url": "https://lgfp.one/AVI1",
+  "capa_local": "INFANCIA INTERROMPIDA/INFANCIA INTERROMPIDA.jpg",
+  "sinopse": "Recrutados por uma gangue local, os amigos Billy e Doug enfrentam um mundo violento e percebem que são jovens demais para se proteger.",
+  "genero": "Drama, Mistério",
+  "elenco": "Jhullian Carlsson, Ane Dahl Torp, Henrik Norlén, Ardalan Esmaili, Mahmut Suvakci",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:42"
+        }
+      ]
+    }
+  ],
+  "id": 5327
+}

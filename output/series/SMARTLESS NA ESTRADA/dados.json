@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MzE=",
+  "tipo": "serie",
+  "titulo": "SMARTLESS: NA ESTRADA",
+  "capa_url": "https://lgfp.one/AAIC",
+  "capa_local": "SMARTLESS NA ESTRADA/SMARTLESS NA ESTRADA.jpg",
+  "sinopse": "Caia na estrada com Will Arnett, Jason Bateman e Sean Hayes para acompanhar de perto a turnê ao vivo do podcast \"SmartLess\". Viajando de cidade em cidade, o trio recebe convidados muito especiais como Conan O'Brien, Will Ferrell e outros.",
+  "genero": "Documentário",
+  "elenco": "Jason Bateman, Will Arnett, Sean Hayes",
+  "diretor": "Sam Jones",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:32"
+        }
+      ]
+    }
+  ],
+  "id": 3559
+}

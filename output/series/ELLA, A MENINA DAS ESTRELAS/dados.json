@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4NTU=",
+  "tipo": "serie",
+  "titulo": "ELLA, A MENINA DAS ESTRELAS",
+  "capa_url": "https://lgfp.one/YVT",
+  "capa_local": "ELLA, A MENINA DAS ESTRELAS/ELLA, A MENINA DAS ESTRELAS.jpg",
+  "sinopse": "No ano de 3021, numa estação espacial entre Marte e Júpiter, na Via Láctea, Ella Ryder, de oito anos, parte com seus amigos numa aventura emocionante, cheia de descobertas.",
+  "genero": "Animação",
+  "elenco": "Ava Augustin, Jack Molloy-Legault, Eleanor Noble",
+  "diretor": "Tom Van Gestel, Freek Quartier",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:11:04"
+        }
+      ]
+    }
+  ],
+  "id": 3354
+}

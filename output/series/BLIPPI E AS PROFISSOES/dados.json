@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2MTE=",
+  "tipo": "serie",
+  "titulo": "BLIPPI E AS PROFISSÕES",
+  "capa_url": "https://lgfp.one/PWF5",
+  "capa_local": "BLIPPI E AS PROFISSOES/BLIPPI E AS PROFISSOES.jpg",
+  "sinopse": "Blippi e Meekah estão na missão de aprender sobre todas as profissões. De pilotar um carro monstro a fazer pizzas, seja o que for, eles dão conta do recado!",
+  "genero": "Família, Kids",
+  "elenco": "",
+  "diretor": "Shannon Flynn, Benjamin Lehmann",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:18:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:18:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:19:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:06"
+        }
+      ]
+    }
+  ],
+  "id": 7893
+}

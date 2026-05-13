@@ -1,0 +1,195 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNTQ=",
+  "tipo": "serie",
+  "titulo": "BALTHAZAR",
+  "capa_url": "https://lgfp.one/SQW",
+  "capa_local": "BALTHAZAR/BALTHAZAR.jpg",
+  "sinopse": "Com o poder de falar com os mortos, Raphael Balthazar trabalha como médico forense junto à polícia de Paris e consegue desvendar os crimes mais complexos da cidade.",
+  "genero": "Crime",
+  "elenco": "Tomer Sisley, Philypa Phoenix, Yannig Samot, Côme Levin, Pauline Cheviller",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:34"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:46:42"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:50:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:52:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:52:01"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:51:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:56:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:51:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:52:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:53:00"
+        }
+      ]
+    }
+  ],
+  "id": 2143
+}

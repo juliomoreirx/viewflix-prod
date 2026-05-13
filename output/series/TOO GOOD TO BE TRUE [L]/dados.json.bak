@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMzU=",
+  "tipo": "serie",
+  "titulo": "TOO GOOD TO BE TRUE [L]",
+  "capa_url": "https://lgfp.one/DJT0",
+  "capa_local": "TOO GOOD TO BE TRUE [L]/TOO GOOD TO BE TRUE [L].jpg",
+  "sinopse": "Rachel, uma mãe solteira e faxineira, recebe uma oferta de emprego melhor de um rico empresário. Ela aceita, mas começa a desconfiar de seus motivos à medida que se envolve mais em seus negócios.",
+  "genero": "Drama",
+  "elenco": "Kara Tointon, Allen Leech, Charlie Hodson-Prior, Taj Atwal, Sara Powell",
+  "diretor": "Megan K. Fox",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:29"
+        }
+      ]
+    }
+  ],
+  "id": 5890
+}

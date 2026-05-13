@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMjA=",
+  "tipo": "serie",
+  "titulo": "FILMES QUE MARCAM ÉPOCA",
+  "capa_url": "https://lgfp.one/IZL",
+  "capa_local": "FILMES QUE MARCAM EPOCA/FILMES QUE MARCAM EPOCA.jpg",
+  "sinopse": "Esses blockbusters uniram e divertiram gerações. Conheça os atores, diretores e outros profissionais do cinema que tornaram tudo possível.",
+  "genero": "Documentário",
+  "elenco": "Danny Wallace, Jennifer Julian, Donald Ian Black",
+  "diretor": "Brian Volk-Weiss",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:33"
+        }
+      ]
+    }
+  ],
+  "id": 347
+}

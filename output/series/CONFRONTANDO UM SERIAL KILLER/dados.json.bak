@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0Mzc=",
+  "tipo": "serie",
+  "titulo": "CONFRONTANDO UM SERIAL KILLER",
+  "capa_url": "https://lgfp.one/RSQ",
+  "capa_local": "CONFRONTANDO UM SERIAL KILLER/CONFRONTANDO UM SERIAL KILLER.jpg",
+  "sinopse": "“Confrontando Um Serial Killer” mostra o relato nunca visto antes da relação entre a aclamada escritora, Jillian Lauren, e o maior serial killer da história norte-americana, Sam Little.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jillian Lauren",
+  "diretor": "Joe Berlinger, Po Kutchins",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:38"
+        }
+      ]
+    }
+  ],
+  "id": 1318
+}

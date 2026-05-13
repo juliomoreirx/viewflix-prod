@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MzQ=",
+  "tipo": "serie",
+  "titulo": "QUER BRINCAR DE GRACIE DARLING?",
+  "capa_url": "https://lgfp.one/QUD1",
+  "capa_local": "QUER BRINCAR DE GRACIE DARLING/QUER BRINCAR DE GRACIE DARLING.jpg",
+  "sinopse": "Décadas depois de perder a melhor amiga em uma sessão espírita que deu errado, uma psicóloga precisa encarar os fantasmas do passado quando outra garota desaparece.",
+  "genero": "Drama, Mistério",
+  "elenco": "Morgana O'Reilly, Rudi Dharmalingam, Annie Maynard, Anne Tenney, Dominic Ona-Ariki",
+  "diretor": "Laura Nagy",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:20"
+        }
+      ]
+    }
+  ],
+  "id": 8422
+}

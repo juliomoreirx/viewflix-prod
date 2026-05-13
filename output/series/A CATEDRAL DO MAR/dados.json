@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODE=",
+  "tipo": "serie",
+  "titulo": "A CATEDRAL DO MAR",
+  "capa_url": "https://lgfp.one/RWY",
+  "capa_local": "A CATEDRAL DO MAR/A CATEDRAL DO MAR.jpg",
+  "sinopse": "Na Barcelona do século XIV, um servo está determinado a conquistar riqueza e liberdade. Na busca da ascensão, vai enfrentar o desprezo da nobreza e o cerco da inquisição.",
+  "genero": "Drama",
+  "elenco": "Aitor Luna, Pablo Derqui, Michelle Jenner, Daniel Grao, Andrea Duro",
+  "diretor": "Jordi Frades",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:16"
+        }
+      ]
+    }
+  ],
+  "id": 1439
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMzU=",
+  "tipo": "serie",
+  "titulo": "DESSERVIÇO AO CONSUMIDOR",
+  "capa_url": "https://lgfp.one/IWZ",
+  "capa_local": "DESSERVICO AO CONSUMIDOR/DESSERVICO AO CONSUMIDOR.jpg",
+  "sinopse": "Esta série documental mostra que a propaganda enganosa e a negligência na produção de produtos populares podem ter consequências gravíssimas.",
+  "genero": "Documentário",
+  "elenco": "Jenise Morgan, Bella Carroll, Lexy Lebsack",
+  "diretor": "Sarah Holm Johansen, Steve Rivo",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:40"
+        }
+      ]
+    }
+  ],
+  "id": 278
+}

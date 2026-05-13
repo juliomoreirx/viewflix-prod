@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5ODE=",
+  "tipo": "serie",
+  "titulo": "BEM-VINDOS À FAMILIA",
+  "capa_url": "https://lgfp.one/NHE3",
+  "capa_local": "BEM-VINDOS A FAMILIA/BEM-VINDOS A FAMILIA.jpg",
+  "sinopse": "Uma mãe solo reúne sua família excêntrica para enganar um chefão da máfia e escapar de uma dívida.",
+  "genero": "Comédia, Drama",
+  "elenco": "Marimar Vega, Erika Buenfil, Ana Layevska, Erick Elías, Jezzini",
+  "diretor": "Mark Alazraki, Jorge Macaya, Germán Pérez-Duarte",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:44"
+        }
+      ]
+    }
+  ],
+  "id": 375582
+}

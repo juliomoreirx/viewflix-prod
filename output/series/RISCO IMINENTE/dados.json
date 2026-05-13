@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MTY=",
+  "tipo": "serie",
+  "titulo": "RISCO IMINENTE",
+  "capa_url": "https://lgfp.one/TJX",
+  "capa_local": "RISCO IMINENTE/RISCO IMINENTE.jpg",
+  "sinopse": "Quando uma série de ataques terroristas ameaça Londres durante o verão, o esquadrão antibombas, liderado por Lana Washington, lidera os esforços para descobrir quem está por trás dos bombardeios antes que a situação se agrave ainda mais.",
+  "genero": "Crime / Drama",
+  "elenco": "Vicky McClure, Adrian Lester, Tom Stokes, Cal Macaninch, Gwynfor Jones, Mark Stanley, Manjinder Virk, Gavin Sibson",
+  "diretor": "Gilles Bannier",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:41"
+        }
+      ]
+    }
+  ],
+  "id": 2656
+}

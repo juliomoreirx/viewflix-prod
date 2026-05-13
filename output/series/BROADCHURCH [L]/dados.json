@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NTg=",
+  "tipo": "serie",
+  "titulo": "BROADCHURCH [L]",
+  "capa_url": "https://lgfp.one/RKW",
+  "capa_local": "BROADCHURCH [L]/BROADCHURCH [L].jpg",
+  "sinopse": "O assassinato de um jovem rapaz em uma pequena cidade litorânea traz um agitação da mídia, o que ameaça destruir a comunidade.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "David Tennant, Olivia Colman, Julie Hesmondhalgh, Mark Bazeley, Lenny Henry",
+  "diretor": "Euros Lyn",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:46:46"
+        }
+      ]
+    }
+  ],
+  "id": 1106
+}

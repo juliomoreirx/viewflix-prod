@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODY=",
+  "tipo": "serie",
+  "titulo": "ENFERMEIRA EXORCISTA",
+  "capa_url": "https://lgfp.one/RUK",
+  "capa_local": "ENFERMEIRA EXORCISTA/ENFERMEIRA EXORCISTA.jpg",
+  "sinopse": "Com poderes sobrenaturais e uma espada iluminada, uma enfermeira protege os alunos de uma escola contra monstros que só ela consegue enxergar.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Jung Yu-mi, Nam Joo-hyuk, Hyun Woo-seok, Park Hye-eun, Kwon Young-chan",
+  "diretor": "Lee Kyoung-mi, Gwon Hui-cheol",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:52"
+        }
+      ]
+    }
+  ],
+  "id": 1371
+}

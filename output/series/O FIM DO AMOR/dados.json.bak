@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5OTE=",
+  "tipo": "serie",
+  "titulo": "O FIM DO AMOR",
+  "capa_url": "https://lgfp.one/VZP",
+  "capa_local": "O FIM DO AMOR/O FIM DO AMOR.jpg",
+  "sinopse": "Depois de um reencontro com seu passado, Tamara - uma ex-judia ortodoxa que se tornou feminista roqueira - se separa do companheiro, rebelando-se contra o amor romântico e a monogamia para começar uma jornada de exploração em busca de seu próprio desejo.",
+  "genero": "Drama",
+  "elenco": "Lali Espósito, Mike Amigorena, Verónica Llinás, Vera Spinetta, Julieta Zapiola",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:04"
+        }
+      ]
+    }
+  ],
+  "id": 3027
+}

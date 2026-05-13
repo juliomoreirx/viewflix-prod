@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NzA=",
+  "tipo": "serie",
+  "titulo": "QUERIDA MAMÃE [L]",
+  "capa_url": "https://lgfp.one/AAQD",
+  "capa_local": "QUERIDA MAMAE [L]/QUERIDA MAMAE [L].jpg",
+  "sinopse": "Uma série em cinco partes profundamente pessoal que desafia as convenções da narrativa documental tradicional para compartilhar uma saga elucidativa da relação entre Tupac Shakur e sua mãe Afeni.",
+  "genero": "Documentário",
+  "elenco": "Tupac Shakur, Afeni Shakur, Gloria Cox",
+  "diretor": "Allen Hughes, Allen Hughes, Nelson George",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:19"
+        }
+      ]
+    }
+  ],
+  "id": 2572
+}

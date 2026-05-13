@@ -1,0 +1,160 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMDg=",
+  "tipo": "serie",
+  "titulo": "C. B. STRIKE",
+  "capa_url": "https://lgfp.one/KOV4",
+  "capa_local": "C. B. STRIKE/C. B. STRIKE.jpg",
+  "sinopse": "O veterano de guerra Cormoran Strike retorna da guerra no Afeganistão e abre uma firma de investigação particular operando em Londres.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Tom Burke, Holliday Grainger, Jack Greenlees, Ruth Sheen, Emma Fielding",
+  "diretor": "Susan Tully, Michael Keillor, Kieron Hawkes, Charles Sturridge",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:38"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:00:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:59:45"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:01:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "01:00:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:59:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:00:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:57:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:56:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:57:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:57:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:57:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:56:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:57:40"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 6",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S06E01",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S06E02",
+          "duracao": "00:57:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S06E03",
+          "duracao": "00:56:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S06E04",
+          "duracao": "00:55:46"
+        }
+      ]
+    }
+  ],
+  "id": 6503
+}

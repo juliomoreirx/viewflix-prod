@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwODU=",
+  "tipo": "serie",
+  "titulo": "BICAMPEAS",
+  "capa_url": "https://lgfp.one/CYY9",
+  "capa_local": "BICAMPEAS/BICAMPEAS.jpg",
+  "sinopse": "A história das seis bicampeãs históricas do Vôlei Brasileiro: Fabi Claudino, Fabizinha, Thaísa, Jaqueline, Paula Pequeno e Sheila nas edições de Pequim 2008 e Londres 2012.",
+  "genero": "",
+  "elenco": "Fabi Claudino, Fabiana Claudino, Jaqueline Carvalho, Sheilla Castro, Fabi Alvim",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:48"
+        }
+      ]
+    }
+  ],
+  "id": 5698
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMDE=",
+  "tipo": "serie",
+  "titulo": "HATFIELDS & MCCOYS",
+  "capa_url": "https://lgfp.one/JOB",
+  "capa_local": "HATFIELDS & MCCOYS/HATFIELDS & MCCOYS.jpg",
+  "sinopse": "A saga começa com \"Devil\" Anse Hatfield e Randall McCoy. Amigos íntimos  até o fim da Guerra Civil, eles retornam às suas vizinhanças: Hatfield  na West Virginia, McCoy na fronteira de Tug River, no Kentucky. O embate  começa quando um Hatfield assassina um McCoy, e a filha de Randall  inicia um tempestuoso romance com o filho de \"Devil\". Aumentam as  tensões, desentendidos e ressentimentos que logo explodem em uma guerra  entre as famílias. Enquanto as hostilidades crescem, amigos e a  vizinhança unem forças aos conflitos, colocando os dois estados à beira  de outra Guerra Civil.",
+  "genero": "Drama, Faroeste",
+  "elenco": "Kevin Costner, Bill Paxton, Matt Barr, Tom Berenger, Powers Boothe",
+  "diretor": "Kevin Reynolds",
+  "total_episodios": "100",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:42:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:38:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:57"
+        }
+      ]
+    }
+  ],
+  "id": 787
+}

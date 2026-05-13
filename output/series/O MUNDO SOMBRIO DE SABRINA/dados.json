@@ -1,0 +1,210 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Mzc=",
+  "tipo": "serie",
+  "titulo": "O MUNDO SOMBRIO DE SABRINA",
+  "capa_url": "https://lgfp.one/JFT",
+  "capa_local": "O MUNDO SOMBRIO DE SABRINA/O MUNDO SOMBRIO DE SABRINA.jpg",
+  "sinopse": "Bruxa e também mortal, a jovem Sabrina Spellman fica dividida entre a vida normal de adolescente e o legado de sua família feiticeira.",
+  "genero": "Mistério, Sci-Fi & Fantasy, Drama",
+  "elenco": "Kiernan Shipka, Ross Lynch, Lucy Davis, Miranda Otto, Chance Perdomo",
+  "diretor": "Cory Faulkner",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:42"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:56:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:01:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:03:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:54:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "01:02:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:00:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:56:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:58:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:57:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:00:54"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "01:00:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:59:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:58:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "01:01:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:58:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "01:04:06"
+        }
+      ]
+    }
+  ],
+  "id": 539
+}

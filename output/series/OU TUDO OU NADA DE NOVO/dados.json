@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyODY=",
+  "tipo": "serie",
+  "titulo": "OU TUDO OU NADA DE NOVO",
+  "capa_url": "https://lgfp.one/AAJS",
+  "capa_local": "OU TUDO OU NADA DE NOVO/OU TUDO OU NADA DE NOVO.jpg",
+  "sinopse": "Gaz, Dave e o seu grupo estão de volta depois de 25 anos, trocando as suas fantasias de palco por sequestro canino, pombos de corrida e uma situação não muito convencional de refém. Gaz pode ser o mais velho, mas não é o mais esperto. E seu melhor amigo, Dave, se recusa a ser arrastado para mais uma de suas confusões. Mas, quando uma tragédia acontece, todo o grupo deve se juntar para um propósito em comum: honrar um velho amigo.",
+  "genero": "Comédia, Drama",
+  "elenco": "Robert Carlyle, Mark Addy, Hugo Speer, Lesley Sharp, Paul Barber",
+  "diretor": "Andrew Chaplin, Catherine Morshead",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:51"
+        }
+      ]
+    }
+  ],
+  "id": 3596
+}

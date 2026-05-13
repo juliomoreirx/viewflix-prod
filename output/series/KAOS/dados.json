@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMjM=",
+  "tipo": "serie",
+  "titulo": "KAOS",
+  "capa_url": "https://lgfp.one/DKG3",
+  "capa_local": "KAOS/KAOS.jpg",
+  "sinopse": "Com a discórdia reinando no Monte Olimpo e o poderoso Zeus à beira da paranoia, três mortais estão destinados a mudar o futuro da humanidade.",
+  "genero": "Comédia, Sci-Fi & Fantasy, Drama",
+  "elenco": "Jeff Goldblum",
+  "diretor": "Georgi Banks-Davies",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:06"
+        }
+      ]
+    }
+  ],
+  "id": 5907
+}

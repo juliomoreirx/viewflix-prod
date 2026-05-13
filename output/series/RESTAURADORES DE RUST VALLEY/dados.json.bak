@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxODE=",
+  "tipo": "serie",
+  "titulo": "RESTAURADORES DE RUST VALLEY",
+  "capa_url": "https://lgfp.one/IQL",
+  "capa_local": "RESTAURADORES DE RUST VALLEY/RESTAURADORES DE RUST VALLEY.jpg",
+  "sinopse": "O colecionador de carros antigos Mike Hall, seu amigo Avery Shoaf e seu filho Connor se dedicam à restauração de carros retrô. Se tudo der certo, eles ganharão uma grana.",
+  "genero": "Documentário, Reality",
+  "elenco": "Mike Hall, Avery Shoaf, Connor Hall",
+  "diretor": "Adam Naugler, Matthew Shewchuk, Tyson Hepburn, Jereme Watt, Michael Bodnarchuk",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:21"
+        }
+      ]
+    }
+  ],
+  "id": 96
+}

@@ -1,0 +1,225 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MjU=",
+  "tipo": "serie",
+  "titulo": "MARVEL - JESSICA JONES",
+  "capa_url": "https://lgfp.one/IPG",
+  "capa_local": "MARVEL - JESSICA JONES/MARVEL - JESSICA JONES.jpg",
+  "sinopse": "Assombrada pelos traumas do passado, Jessica Jones usa seus poderes como detetive particular para encontrar e deter o perverso Kilgrave.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Krysten Ritter, Rachael Taylor, Eka Darville, Benjamin Walker, Sarita Choudhury",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:49:59"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:51:53"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:56:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:52:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:53:03"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:55:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:53:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:53:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:48:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:49:09"
+        },
+        {
+          "numero": "13",
+          "codigo": "S03E13",
+          "duracao": "00:51:25"
+        }
+      ]
+    }
+  ],
+  "id": 669
+}

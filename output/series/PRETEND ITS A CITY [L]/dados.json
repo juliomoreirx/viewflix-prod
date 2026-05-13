@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NTQ=",
+  "tipo": "serie",
+  "titulo": "PRETEND ITS A CITY [L]",
+  "capa_url": "https://lgfp.one/RLN",
+  "capa_local": "PRETEND ITS A CITY [L]/PRETEND ITS A CITY [L].jpg",
+  "sinopse": "Passeie por Nova York e conheça a mente a fascinante da escritora e humorista Fran Lebowitz, em uma conversa com Martin Scorsese.",
+  "genero": "Documentário",
+  "elenco": "Fran Lebowitz, Martin Scorsese, Spike Lee, Alec Baldwin",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:54"
+        }
+      ]
+    }
+  ],
+  "id": 1125
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1OTY=",
+  "tipo": "serie",
+  "titulo": "AS AVENTURAS DE HORTON",
+  "capa_url": "https://lgfp.one/QEG2",
+  "capa_local": "AS AVENTURAS DE HORTON/AS AVENTURAS DE HORTON.jpg",
+  "sinopse": "Acompanha as aventuras fantásticas e cheias de imaginação do jovem Horton e seu melhor amigo Sérgio enquanto ajudam os moradores da Selva de Nool.",
+  "genero": "Animação, Kids",
+  "elenco": "Ethan Monaghan, Max Mittelman, Kitana Turnbull",
+  "diretor": "Shane Collins",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:38"
+        }
+      ]
+    }
+  ],
+  "id": 8138
+}

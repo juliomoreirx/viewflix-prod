@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0NzM=",
+  "tipo": "serie",
+  "titulo": "OS CARAS DO TELEMARKETING [L]",
+  "capa_url": "https://lgfp.one/ACKO",
+  "capa_local": "OS CARAS DO TELEMARKETING [L]/OS CARAS DO TELEMARKETING [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Sam Lipman-Stern, Pat Pespas",
+  "diretor": "Benny Safdie, Josh Safdie, David Gordon Green",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:45"
+        }
+      ]
+    }
+  ],
+  "id": 4161
+}

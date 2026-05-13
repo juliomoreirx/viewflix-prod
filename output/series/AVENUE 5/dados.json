@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3ODA=",
+  "tipo": "serie",
+  "titulo": "AVENUE 5",
+  "capa_url": "https://lgfp.one/ITB",
+  "capa_local": "AVENUE 5/AVENUE 5.jpg",
+  "sinopse": "Em um futuro onde o sistema solar se tornou destino de férias, Ryan Clark é responsável pelo exclusivo cruzeiro espacial Avenue 5 onde absolutamente tudo parece dar errado desde o início.",
+  "genero": "Comédia, Sci-Fi & Fantasy",
+  "elenco": "Hugh Laurie, Josh Gad, Lenora Crichlow, Zach Woods, Nikki Amuka-Bird",
+  "diretor": "Annie Griffin, David Schneider, William Stefan Smith, Natalie Bailey, Armando Iannucci",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:27"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:28:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:28:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:27:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:28:43"
+        }
+      ]
+    }
+  ],
+  "id": 169
+}

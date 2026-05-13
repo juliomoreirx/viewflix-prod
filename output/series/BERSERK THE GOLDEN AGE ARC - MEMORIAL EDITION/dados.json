@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1NDM=",
+  "tipo": "serie",
+  "titulo": "BERSERK: THE GOLDEN AGE ARC - MEMORIAL EDITION",
+  "capa_url": "https://lgfp.one/SEP5",
+  "capa_local": "BERSERK THE GOLDEN AGE ARC - MEMORIAL EDITION/BERSERK THE GOLDEN AGE ARC - MEMORIAL EDITION.jpg",
+  "sinopse": "Ele só confia em sua espada. Ele não tem um lar. Guts é um mercenário solitário em uma terra arrasada por uma guerra de cem anos. Viajando pelos campos de batalha, seu talento e ferocidade acabam atraindo a atenção de Griffith e é recrutado para seu grupo de mercenários, o \"Bando do Falcão\". À medida que lutam e vencem juntos, os laços entre Griffith e Guts se estreitam, e o Bando do Falcão torna-se um exército reconhecido pelo Reino de Midland. Mas seu sucesso em batalha faz Guts se questionar se ainda quer lutar pelos sonhos de outrem, abrindo caminho para um destino monstruoso para ambos.",
+  "genero": "Action & Adventure, Drama, Animação",
+  "elenco": "岩永洋昭, Takahiro Sakurai, Toa Yukinari, ケンドーコバヤシ, Minako Kotobuki",
+  "diretor": "窪岡俊之, 佐野雄太, 窪岡俊之",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:12:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:25:18"
+        }
+      ]
+    }
+  ],
+  "id": 9073
+}

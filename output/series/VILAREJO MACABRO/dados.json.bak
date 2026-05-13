@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MjQ=",
+  "tipo": "serie",
+  "titulo": "VILAREJO MACABRO",
+  "capa_url": "https://lgfp.one/AUKH",
+  "capa_local": "VILAREJO MACABRO/VILAREJO MACABRO.jpg",
+  "sinopse": "Na floresta de Tamil Nadu, um morador da cidade busca a ajuda de três residentes locais para encontrar sua família desaparecida, acreditando ter sido sequestrada por seres nefastos de um vilarejo macabro. Enquanto isso, um herdeiro maníaco de um império farmacêutico envia um grupo de mercenários para recuperar algo há muito tempo esquecido. Eles sairão vivos desta noite aterrorizante?",
+  "genero": "Mistério, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Arya, John Kokken, Adukalam Naren, Muthukumar, Divya Pillai",
+  "diretor": "Milind Rau",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:47"
+        }
+      ]
+    }
+  ],
+  "id": 4531
+}

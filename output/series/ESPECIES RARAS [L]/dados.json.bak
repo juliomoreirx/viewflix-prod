@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3Mzc=",
+  "tipo": "serie",
+  "titulo": "ESPECIES RARAS [L]",
+  "capa_url": "https://lgfp.one/PPZ0",
+  "capa_local": "ESPECIES RARAS [L]/ESPECIES RARAS [L].jpg",
+  "sinopse": "Como podemos ajudar os animais ameaçados de extinção? Acompanhe uma equipe de cineastas especializados em vida selvagem enquanto eles viajam para os cantos mais remotos do mundo para gravar as espécies selvagens mais esquivas utilizando tecnologia de ponta.",
+  "genero": "Documentário, Action & Adventure",
+  "elenco": "Declan Burley, Vianet Djenguet, Aldo Kane",
+  "diretor": "Alex Ranken",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:31"
+        }
+      ]
+    }
+  ],
+  "id": 7736
+}

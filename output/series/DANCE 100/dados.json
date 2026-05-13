@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NTU=",
+  "tipo": "serie",
+  "titulo": "DANCE 100",
+  "capa_url": "https://lgfp.one/YVS",
+  "capa_local": "DANCE 100/DANCE 100.jpg",
+  "sinopse": "Para ganhar 100 mil dólares, oito profissionais devem criar coreografias cada vez mais complexas para um grupo de dançarinos de elite — que também são o júri.",
+  "genero": "Reality",
+  "elenco": "Miranda Chambers, Liam Lunniss, Erica Stubbs, Ally Love",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:18"
+        }
+      ]
+    }
+  ],
+  "id": 3353
+}

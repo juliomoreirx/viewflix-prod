@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNzM=",
+  "tipo": "serie",
+  "titulo": "QUEM É ERIN CARTER?",
+  "capa_url": "https://lgfp.one/AAWI",
+  "capa_local": "QUEM E ERIN CARTER/QUEM E ERIN CARTER.jpg",
+  "sinopse": "A vida tranquila de uma mulher britânica em Barcelona fica fora de controle quando um assalto à mão armada em um supermercado expõe seu passado secreto... e violento.",
+  "genero": "Action & Adventure, Crime",
+  "elenco": "Evin Ahmad, Sean Teale, Douglas Henshall, Susannah Fielding, Charlotte Vega",
+  "diretor": "Ashley Way, Claire Chang, Danielle Lethbridge",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:54"
+        }
+      ]
+    }
+  ],
+  "id": 3924
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODA=",
+  "tipo": "serie",
+  "titulo": "O ESPIÃO",
+  "capa_url": "https://lgfp.one/JDU",
+  "capa_local": "O ESPIAO/O ESPIAO.jpg",
+  "sinopse": "Funcionário de uma loja de departamento, Eli Cohen é recrutado pela Mossad para uma arriscada missão de espionagem na Síria nos anos 60.",
+  "genero": "Drama",
+  "elenco": "Sacha Baron Cohen, Noah Emmerich, Hadar Ratzon Rotem, Alexander Siddig, Waleed Zuaiter",
+  "diretor": "Gideon Raff",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:32"
+        }
+      ]
+    }
+  ],
+  "id": 484
+}

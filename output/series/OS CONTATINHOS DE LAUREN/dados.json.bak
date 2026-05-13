@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTY=",
+  "tipo": "serie",
+  "titulo": "OS CONTATINHOS DE LAUREN",
+  "capa_url": "https://lgfp.one/XFU",
+  "capa_local": "OS CONTATINHOS DE LAUREN/OS CONTATINHOS DE LAUREN.jpg",
+  "sinopse": "Lauren é uma advogada divorciada e mãe de dois filhos em busca de sexo sem compromisso. Com a ajuda de sua melhor amiga, ela decide criar uma planilha que funciona como banco de dados de possíveis encontros.",
+  "genero": "Comédia, Drama",
+  "elenco": "Katherine Parkinson, Katrina Milosevic, Robbie Magasiva, Rowan Witt, Zahra Newman",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:00"
+        }
+      ]
+    }
+  ],
+  "id": 3155
+}

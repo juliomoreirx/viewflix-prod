@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5OTM=",
+  "tipo": "serie",
+  "titulo": "MEU TIO",
+  "capa_url": "https://lgfp.one/VRS",
+  "capa_local": "MEU TIO/MEU TIO.jpg",
+  "sinopse": "Um músico amador sem maturidade emocional nega-se a cuidar do seu pequeno sobrinho. Apesar de Andy resistir, outras emoções começam a surgir. Porém, isso poderia ser uma mudança positiva para Andy; ele poderia melhorar, tornar-se uma pessoa mais completa.",
+  "genero": "Comédia / Drama",
+  "elenco": "",
+  "diretor": "Javier Colinas",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:30"
+        }
+      ]
+    }
+  ],
+  "id": 2945
+}

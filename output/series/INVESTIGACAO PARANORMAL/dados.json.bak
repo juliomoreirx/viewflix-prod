@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNzk=",
+  "tipo": "serie",
+  "titulo": "INVESTIGACAO PARANORMAL",
+  "capa_url": "https://lgfp.one/QUC1",
+  "capa_local": "INVESTIGACAO PARANORMAL/INVESTIGACAO PARANORMAL.jpg",
+  "sinopse": "O expert em eventos paranormais Nick Groff e a caçadora de fantasmas Katrina Weidman passam três dias em diversos lugares mal-assombrados dos Estados Unidos.",
+  "genero": "Reality, Documentário",
+  "elenco": "Nick Groff, Katrina Weidman",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:27:45"
+        }
+      ]
+    }
+  ],
+  "id": 8412
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMTE=",
+  "tipo": "serie",
+  "titulo": "TRUE DETECTIVE [L]",
+  "capa_url": "https://lgfp.one/SRC3",
+  "capa_local": "TRUE DETECTIVE [L]/TRUE DETECTIVE [L].jpg",
+  "sinopse": "Mostrando diferentes perspectivas tanto no passado como no presente, a narrativa se foca na investigação dos crimes supostamente cometidos por um serial killer no ano de 1995 feita pelos detetives Rust Cohle e Martin Hart. Nos dias atuais, o caso é aberto novamente e ambos são questionados pelos atuais detetives, já que a polícia tenta novamente prender o mesmo assassino. A série mostrará ao público o que acontece atualmente, ao mesmo tempo em que revela flashbacks da investigação nos anos 90.",
+  "genero": "Drama, Mistério",
+  "elenco": "Jodie Foster, Kali Reis, Fiona Shaw, Finn Bennett, Isabella Star LaBlanc",
+  "diretor": "Barry Jenkins, Cary Joji Fukunaga",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:55"
+        }
+      ]
+    }
+  ],
+  "id": 9361
+}

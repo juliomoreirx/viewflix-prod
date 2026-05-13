@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MDA=",
+  "tipo": "serie",
+  "titulo": "O JOGO DA MORTE",
+  "capa_url": "https://lgfp.one/ALK8",
+  "capa_local": "O JOGO DA MORTE/O JOGO DA MORTE.jpg",
+  "sinopse": "Prestes a ir para o inferno, Yee-jae precisa passar por doze vidas e doze mortes diferentes neste drama sobre reencarnação.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Seo In-guk, Park So-dam, Kim Mi-kyeong, Kim Ji-hun, Nam Kyung-eup",
+  "diretor": "Ha Byung-hoon, Ha Byung-hoon",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:37"
+        }
+      ]
+    }
+  ],
+  "id": 199601
+}

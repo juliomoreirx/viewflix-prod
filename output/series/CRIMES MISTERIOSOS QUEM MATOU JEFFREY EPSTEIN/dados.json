@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzOTg=",
+  "tipo": "serie",
+  "titulo": "CRIMES MISTERIOSOS: QUEM MATOU JEFFREY EPSTEIN?",
+  "capa_url": "https://lgfp.one/NKB6",
+  "capa_local": "CRIMES MISTERIOSOS QUEM MATOU JEFFREY EPSTEIN/CRIMES MISTERIOSOS QUEM MATOU JEFFREY EPSTEIN.jpg",
+  "sinopse": "Acusado de tráfico sexual, Jeffrey foi encontrado morto em sua cela.",
+  "genero": "Documentário, Crime",
+  "elenco": "Rick D. Wasserman, Jeffrey Epstein, John Connolly",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 7072
+}

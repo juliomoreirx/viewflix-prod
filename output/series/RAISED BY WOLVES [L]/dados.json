@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NjY=",
+  "tipo": "serie",
+  "titulo": "RAISED BY WOLVES [L]",
+  "capa_url": "https://lgfp.one/RHN",
+  "capa_local": "RAISED BY WOLVES [L]/RAISED BY WOLVES [L].jpg",
+  "sinopse": "Dois androides tem como missão de cuidar de crianças em um misterioso planeta. Enquanto a colônia dos humanos se divide por questões religiosas, esses androides aprendem de uma maneira difícil como lidar e controlar as pessoas.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Amanda Collin, Abubakar Salim, Winta McGrath, Niamh Algar, Travis Fimmel",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:30"
+        }
+      ]
+    }
+  ],
+  "id": 1482
+}

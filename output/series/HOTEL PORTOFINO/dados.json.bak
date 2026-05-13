@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTE=",
+  "tipo": "serie",
+  "titulo": "HOTEL PORTOFINO",
+  "capa_url": "https://lgfp.one/XQD",
+  "capa_local": "HOTEL PORTOFINO/HOTEL PORTOFINO.jpg",
+  "sinopse": "Na década de 1920 da Riviera Italiana, Bella Ainsworth gerencia o Hotel Portofino e precisa lidar com os desafios da ascensão do fascismo.",
+  "genero": "Drama",
+  "elenco": "Natascha McElhone, Anna Chancellor, Mark Umbers, Louisa Binder, Oliver Dench, Imogen King, Olivia Morris, Assad Zaman",
+  "diretor": "Adam Wimpenny",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:01"
+        }
+      ]
+    }
+  ],
+  "id": 3175
+}

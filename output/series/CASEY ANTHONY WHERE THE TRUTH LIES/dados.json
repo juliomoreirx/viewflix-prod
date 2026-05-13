@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NDA=",
+  "tipo": "serie",
+  "titulo": "CASEY ANTHONY WHERE THE TRUTH LIES",
+  "capa_url": "https://lgfp.one/RDE9",
+  "capa_local": "CASEY ANTHONY WHERE THE TRUTH LIES/CASEY ANTHONY WHERE THE TRUTH LIES.jpg",
+  "sinopse": "Casey Anthony conta sua história com suas próprias palavras, oferecendo uma nova perspectiva sobre o caso infame envolvendo a morte prematura de sua filha de 2 anos, Caylee.",
+  "genero": "Documentário, Crime",
+  "elenco": "Casey Anthony",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:13:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:19:11"
+        }
+      ]
+    }
+  ],
+  "id": 8476
+}

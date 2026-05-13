@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MDA=",
+  "tipo": "serie",
+  "titulo": "ENTRE DOIS MUNDOS",
+  "capa_url": "https://lgfp.one/IYS",
+  "capa_local": "ENTRE DOIS MUNDOS/ENTRE DOIS MUNDOS.jpg",
+  "sinopse": "Uma pequena vila de pescadores nos Estados Unidos se sente ameaçada pela chegada de um grupo de refugiados, que alega estar vindo de um futuro distante de guerra e destruição.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Steve Zahn, Natalie Martinez, Sandrine Holt, Georgina Haig, Tommy Bastow",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:02"
+        }
+      ]
+    }
+  ],
+  "id": 327
+}

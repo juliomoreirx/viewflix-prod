@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NDU=",
+  "tipo": "serie",
+  "titulo": "À TONA",
+  "capa_url": "https://lgfp.one/SVT",
+  "capa_local": "A TONA/A TONA.jpg",
+  "sinopse": "Durante uma viagem na Europa, uma mãe solteira é forçada a revisitar seu passado de espiã russa quando um assassino começa a matar pessoas com as mesmas habilidades que ela tinha.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Margarita Levieva, Cillian O'Sullivan, Lydia Fleming, Charles Brice, Алёна Хмельницкая",
+  "diretor": "Paco Cabezas, Daniel Calparsoro, Ami Canaan Mann, Birgitte Stærmose",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:08"
+        }
+      ]
+    }
+  ],
+  "id": 2278
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMzE=",
+  "tipo": "serie",
+  "titulo": "OS CANIBAIS DE BATON ROUGE",
+  "capa_url": "https://lgfp.one/NCN7",
+  "capa_local": "OS CANIBAIS DE BATON ROUGE/OS CANIBAIS DE BATON ROUGE.jpg",
+  "sinopse": "Dois assassinos em série, operando separadamente um do outro, aterrorizam Baton Rouge, Louisiana, e sua área circundante ao longo de uma década.",
+  "genero": "Documentário, Crime",
+  "elenco": "Tom Clayton",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:45"
+        }
+      ]
+    }
+  ],
+  "id": 6944
+}

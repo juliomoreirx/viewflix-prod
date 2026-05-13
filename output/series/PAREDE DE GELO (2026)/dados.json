@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NDg=",
+  "tipo": "serie",
+  "titulo": "PAREDE DE GELO (2026)",
+  "capa_url": "https://lgfp.one/SNO1",
+  "capa_local": "PAREDE DE GELO (2026)/PAREDE DE GELO (2026).jpg",
+  "sinopse": "Koyuki não consegue se conectar com as pessoas e curte ficar sozinha na escola. Até que Minato aparece e faz de tudo para quebrar o gelo.",
+  "genero": "Animação, Drama, Comédia",
+  "elenco": "Anna Nagase, Shoya Chiba, 和泉風花, Satoshi Inomata, Chiaki Kobayashi",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:30"
+        }
+      ]
+    }
+  ],
+  "id": 9244
+}

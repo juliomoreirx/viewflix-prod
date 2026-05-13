@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNTI=",
+  "tipo": "serie",
+  "titulo": "CACA TEMPESTADES",
+  "capa_url": "https://lgfp.one/QOY6",
+  "capa_local": "CACA TEMPESTADES/CACA TEMPESTADES.jpg",
+  "sinopse": "A premiada cineasta Iara Cardoso, o renomado cientista Osmar Pinto Junior e o consagrado jornalista Ernesto Paglia se unem para a primeira Caçada a Tempestades no Brasil. No país campeão mundial de raios, os segredos das tempestades na Amazônia são revelados pela primeira vez a partir de uma equipe incansável de caçadores de tempestades. A série mostra os desafios dos que perseguem as tormentas e dos povos que têm a cultura moldada por elas.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:29"
+        }
+      ]
+    }
+  ],
+  "id": 8348
+}

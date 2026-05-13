@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTI=",
+  "tipo": "serie",
+  "titulo": "COMO GANHAR NA LOTERIA",
+  "capa_url": "https://lgfp.one/QQA1",
+  "capa_local": "COMO GANHAR NA LOTERIA/COMO GANHAR NA LOTERIA.jpg",
+  "sinopse": "Um homem comum e desesperado por dinheiro reúne um grupo de perdedores para roubar o prêmio da loteria ao vivo.",
+  "genero": "Drama, Comédia",
+  "elenco": "Alberto Guerra, Ana Brenda Contreras, Andrés Almeida, Christian Tappán, Aldo Escalante",
+  "diretor": "Rodrigo Santos, Federico Veiroj",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:48"
+        }
+      ]
+    }
+  ],
+  "id": 8376
+}

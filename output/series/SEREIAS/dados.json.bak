@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MTU=",
+  "tipo": "serie",
+  "titulo": "SEREIAS",
+  "capa_url": "https://lgfp.one/NYJ7",
+  "capa_local": "SEREIAS/SEREIAS.jpg",
+  "sinopse": "Preocupada com o relacionamento excessivamente próximo da irmã com a chefe bilionária, uma mulher procura respostas em uma luxuosa propriedade à beira-mar.",
+  "genero": "Drama, Comédia",
+  "elenco": "Julianne Moore, Meghann Fahy, Milly Alcock, Kevin Bacon, Glenn Howerton",
+  "diretor": "Nicole Kassell",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:56"
+        }
+      ]
+    }
+  ],
+  "id": 2784
+}

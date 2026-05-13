@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NDc=",
+  "tipo": "serie",
+  "titulo": "POSSO EXPLICAR",
+  "capa_url": "https://lgfp.one/SIB",
+  "capa_local": "POSSO EXPLICAR/POSSO EXPLICAR.jpg",
+  "sinopse": "O programa apresenta temas diversos do universo da ciência. A cada episódio, as celebridades brasileiras participam de entrevistas e quadros variados, como esquetes humorísticas e experimentos científico-tecnológicos.",
+  "genero": "Talk",
+  "elenco": "Miá Mello, Allan Rodrigues, João Brasil",
+  "diretor": "Gui Conti",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:19:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:20:22"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:19:18"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:20:46"
+        }
+      ]
+    }
+  ],
+  "id": 1902
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5ODM=",
+  "tipo": "serie",
+  "titulo": "POLOS OPOSTOS",
+  "capa_url": "https://lgfp.one/RWA",
+  "capa_local": "POLOS OPOSTOS/POLOS OPOSTOS.jpg",
+  "sinopse": "A talentosa patinadora Kayla é obrigada a abrir mão de tudo quando seu irmão gêmeo consegue uma vaga numa prestigiada academia de hóquei.",
+  "genero": "Drama, Comédia, Família",
+  "elenco": "Grace Beedie, Dakota Taylor, Jeremias Amoore, Anastázie Chocholatá, Leonardo Fontes",
+  "diretor": "Angelo Abela, Tessa Hoffe",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:32"
+        }
+      ]
+    }
+  ],
+  "id": 1414
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNjA=",
+  "tipo": "serie",
+  "titulo": "ASAF",
+  "capa_url": "https://lgfp.one/KAE5",
+  "capa_local": "ASAF/ASAF.jpg",
+  "sinopse": "Em meio a um processo de divórcio, um homem se envolve com o mundo do crime organizado. Agora, com a vida do filho em risco, o que será que ele vai fazer?",
+  "genero": "Drama, Crime",
+  "elenco": "Cihangir Ceyhan, Ahmet Rıfat Şungar, Burçin Terzioğlu, Saadet Işıl Aksoy, Fatih Al",
+  "diretor": "Deni Jordan, Ozgur Onurme",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:17"
+        }
+      ]
+    }
+  ],
+  "id": 6307
+}

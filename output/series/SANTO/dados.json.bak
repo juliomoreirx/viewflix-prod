@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1ODM=",
+  "tipo": "serie",
+  "titulo": "SANTO",
+  "capa_url": "https://lgfp.one/TRP",
+  "capa_local": "SANTO/SANTO.jpg",
+  "sinopse": "Dois policiais em diferentes continentes se unem em uma perseguição desenfreada para capturar um traficante de drogas internacional, cujo rosto ninguém conhece.",
+  "genero": "Crime, Drama",
+  "elenco": "Raúl Arévalo, Bruno Gagliasso, Victoria Guerra, Greta Fernández, Thomás Aquino",
+  "diretor": "João Londres, Marina Watson-Wood",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:50"
+        }
+      ]
+    }
+  ],
+  "id": 2869
+}

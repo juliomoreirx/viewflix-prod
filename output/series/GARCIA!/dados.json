@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3ODQ=",
+  "tipo": "serie",
+  "titulo": "GARCÍA!",
+  "capa_url": "https://lgfp.one/VYC",
+  "capa_local": "GARCIA!/GARCIA!.jpg",
+  "sinopse": "García é um soldado perfeito programado para obedecer que Antonia acorda depois de estar congelado por seis décadas.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Drama",
+  "elenco": "Francisco Ortiz, Veki Velilla, Emilio Gutiérrez Caba, Francisco Reyes, Daniel Freire",
+  "diretor": "Angie Paúl Risque",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:00"
+        }
+      ]
+    }
+  ],
+  "id": 2991
+}

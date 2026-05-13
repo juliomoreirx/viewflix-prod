@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwMjY=",
+  "tipo": "serie",
+  "titulo": "ALGO NAO ESTA CERTO [L]",
+  "capa_url": "https://lgfp.one/NQT1",
+  "capa_local": "ALGO NAO ESTA CERTO [L]/ALGO NAO ESTA CERTO [L].jpg",
+  "sinopse": "Bau e Hoon são amigos de infância, e Bau sempre escondeu os sentimentos que nutria pelo amigo. Um dia, ele tenta cortar contato com Hoon, que fica confuso de início, mas continua agindo como se nada tivesse acontecido. Então, em uma última tentativa desesperada que mudar sua situação, Bau segue o conselho que ouviu de outra pessoa e pede a Hoon para namorar com ele por uma semana, e ele aceita. No entanto, enquanto Bau lida com emoções complexas, Hoon fica preocupado com o fato de Bau estar sendo perseguido por Ha Min e decide usar seu atual status de namorado para afastar o stalker. Agora, apesar de o fim definitivo do relacionamento deles estar próximo, Bau ainda terá mais uma chance de conquistar o coração de Hoon.",
+  "genero": "Drama",
+  "elenco": "Choi Min-ho, Jeong Je-hyeon, Ji Min-seo, 박수형, 배승혁",
+  "diretor": "성유환, 성유환, 성유환",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:40"
+        }
+      ]
+    }
+  ],
+  "id": 7203
+}

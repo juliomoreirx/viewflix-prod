@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMDg=",
+  "tipo": "serie",
+  "titulo": "HOMICIDIO NOS EUA LACI PETERSON",
+  "capa_url": "https://lgfp.one/DQQ0",
+  "capa_local": "HOMICIDIO NOS EUA LACI PETERSON/HOMICIDIO NOS EUA LACI PETERSON.jpg",
+  "sinopse": "Laci Peterson estava grávida de oito meses quando desapareceu, iniciando uma busca que terminou em tragédia. Esta série documental aborda o assassinato ocorrido em 2002.",
+  "genero": "Documentário, Crime",
+  "elenco": "Allen Brocchini",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:25"
+        }
+      ]
+    }
+  ],
+  "id": 6013
+}

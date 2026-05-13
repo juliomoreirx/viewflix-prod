@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMDM=",
+  "tipo": "serie",
+  "titulo": "PAPER GIRLS",
+  "capa_url": "https://lgfp.one/TMO",
+  "capa_local": "PAPER GIRLS/PAPER GIRLS.jpg",
+  "sinopse": "É o dia depois do Halloween de 1988. Quatro jovens amigas acidentalmente se veem em uma batalha intergaláctica e são inexplicavelmente transportadas para o ano de 2019. Quando elas se encontram cara a cara com suas versões adultas, cada garota descobre sua própria força e, juntas, tentam encontrar uma forma de voltar ao passado e, ao mesmo tempo, salvar o mundo do futuro.",
+  "genero": "Drama / Mistério / Sci-Fi & Fantasy",
+  "elenco": "Camryn Jones, Riley Lai Nelet, Sofia Rosinsky, Fina Strazza, Ali Wong, Nate Corddry, Adina Porter",
+  "diretor": "Stephany Folsom",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:50"
+        }
+      ]
+    }
+  ],
+  "id": 2729
+}

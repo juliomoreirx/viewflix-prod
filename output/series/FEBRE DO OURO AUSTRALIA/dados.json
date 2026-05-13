@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNTc=",
+  "tipo": "serie",
+  "titulo": "FEBRE DO OURO: AUSTRÁLIA",
+  "capa_url": "https://lgfp.one/QUC8",
+  "capa_local": "FEBRE DO OURO AUSTRALIA/FEBRE DO OURO AUSTRALIA.jpg",
+  "sinopse": "Febre do Ouro: Austrália, segue equipes de garimpeiros determinados nas regiões mais remotas da Austrália Ocidental, Victoria e Queensland, lutando para alcançar suas metas anuais de ouro antes que a temporada acabe. Com detectores de metal, máquinas pesadas e muita persistência, eles enfrentam desertos escaldantes, equipamentos que quebram e o risco constante de voltar de mãos abanando.",
+  "genero": "Reality, Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        }
+      ]
+    }
+  ],
+  "id": 8419
+}

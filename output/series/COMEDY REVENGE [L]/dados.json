@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMDc=",
+  "tipo": "serie",
+  "titulo": "COMEDY REVENGE [L]",
+  "capa_url": "https://lgfp.one/DXN0",
+  "capa_local": "COMEDY REVENGE [L]/COMEDY REVENGE [L].jpg",
+  "sinopse": "Vários astros da comédia se enfrentam em uma batalha de humor. As gargalhadas estão garantidas! A apresentação fica a cargo do lendário comediante Lee Kyeong-kyu.",
+  "genero": "Reality, Comédia",
+  "elenco": "Lee Kyung-kyu, 문세윤, 박나래, 이용진, 이진호",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:59"
+        }
+      ]
+    }
+  ],
+  "id": 6121
+}

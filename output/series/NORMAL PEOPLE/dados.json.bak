@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MDc=",
+  "tipo": "serie",
+  "titulo": "NORMAL PEOPLE",
+  "capa_url": "https://lgfp.one/JOL",
+  "capa_local": "NORMAL PEOPLE/NORMAL PEOPLE.jpg",
+  "sinopse": "Normal People acompanha Connell e Marianne em seus encontros e desencontros, um pela vida do outro, em um programa que explora como o amor de juventude pode ser complicado.",
+  "genero": "Drama",
+  "elenco": "Daisy Edgar-Jones, Paul Mescal",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:17"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:27:47"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:53"
+        }
+      ]
+    }
+  ],
+  "id": 797
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyOTk=",
+  "tipo": "serie",
+  "titulo": "TÁ TUDO CERTO",
+  "capa_url": "https://lgfp.one/ZIX",
+  "capa_local": "TA TUDO CERTO/TA TUDO CERTO.jpg",
+  "sinopse": "Esta é a história de Pedro, um jovem estudante de direito que sonha em ser uma estrela da música e que, por acaso, conhece Ana. Com ela, o caminho do sucesso parece possível, mas logo ele se encontra com o dilema de perseguir seu sonho de sucesso ou ter uma vida cheia de música e boas vibrações ao lado de Ana.",
+  "genero": "Comédia",
+  "elenco": "Pedro Calais, Ana Caetano, Vitão, Clara Buarque, Toni Garrido, Gita Delavy, Julia Mestre, Rubel",
+  "diretor": "Felipe Simas",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:10"
+        }
+      ]
+    }
+  ],
+  "id": 3432
+}

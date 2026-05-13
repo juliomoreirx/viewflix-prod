@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2Mjc=",
+  "tipo": "serie",
+  "titulo": "FORMULA DREAMS",
+  "capa_url": "https://lgfp.one/AZPT",
+  "capa_local": "FORMULA DREAMS/FORMULA DREAMS.jpg",
+  "sinopse": "Série documental, que estreia dia 5 de janeiro na HBO Max e tem produção independente da Story Productions, acompanhou a trajetória inicial de cinco jovens pilotos de kart",
+  "genero": "Documentário, Família, Esportes",
+  "elenco": "Barrett Leddy, Sarah Smithton",
+  "diretor": "Nick Story",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:03"
+        }
+      ]
+    }
+  ],
+  "id": 4930
+}

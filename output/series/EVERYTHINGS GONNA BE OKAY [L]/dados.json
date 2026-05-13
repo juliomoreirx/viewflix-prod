@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NTc=",
+  "tipo": "serie",
+  "titulo": "EVERYTHINGS GONNA BE OKAY [L]",
+  "capa_url": "https://lgfp.one/RKY",
+  "capa_local": "EVERYTHINGS GONNA BE OKAY [L]/EVERYTHINGS GONNA BE OKAY [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "Kayla Cromer, Maeve Press, Josh Thomas, Adam Faison",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:23"
+        }
+      ]
+    }
+  ],
+  "id": 1108
+}

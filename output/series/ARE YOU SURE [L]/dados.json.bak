@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NDk=",
+  "tipo": "serie",
+  "titulo": "ARE YOU SURE [L]",
+  "capa_url": "https://lgfp.one/QNN6",
+  "capa_local": "ARE YOU SURE [L]/ARE YOU SURE [L].jpg",
+  "sinopse": "Sempre que Jimin e Jung Kook do BTS se encontram, o caos e a emoção são certos! No verão de 2023, eles embarcam em uma viagem inesquecível antes do alistamento militar. Sua aventura imprevisível é cheia de surpresas. Jimin e Jung Kook completarão sua jornada em segurança?",
+  "genero": "Reality, Documentário",
+  "elenco": "지민, 정국",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:10:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:13:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:19:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:20:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:26:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:28:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:31:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:32:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:54:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:46:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:45:34"
+        }
+      ]
+    }
+  ],
+  "id": 8292
+}

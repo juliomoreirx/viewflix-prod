@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwODc=",
+  "tipo": "serie",
+  "titulo": "THE VINEYARD MAN [L]",
+  "capa_url": "https://lgfp.one/MZW7",
+  "capa_local": "THE VINEYARD MAN [L]/THE VINEYARD MAN [L].jpg",
+  "sinopse": "Ji Hyun é uma jovem ambiciosa que sonha em trabalhar no mundo da moda, mas sua vida dá uma reviravolta quando sua avó a desafia a administrar um vinhedo por um ano para herdar uma fortuna. Lá, ela conhece Jang Taek Gi, um homem simples e trabalhador que cuida da fazenda com paixão. No início, Ji Hyun despreza a vida rural e entra em conflito com Taek Gi, mas, com o tempo, começa a descobrir o verdadeiro valor do trabalho duro e do amor genuíno. Entre colheitas, desafios e momentos cômicos, eles desenvolvem uma relação inesperada que pode mudar seus destinos.",
+  "genero": "Comédia, Drama",
+  "elenco": "윤은혜, 오만석, 김지석, 김창완, 이화선",
+  "diretor": "Kim Young-jo, Park Man Young",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:09:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:07:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:05:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:06:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:03:00"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:04:38"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:05:37"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:10:04"
+        }
+      ]
+    }
+  ],
+  "id": 6901
+}

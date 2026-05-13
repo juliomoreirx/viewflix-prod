@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1OTc=",
+  "tipo": "serie",
+  "titulo": "QUANDO AS LUZES SE APAGAM",
+  "capa_url": "https://lgfp.one/ARU9",
+  "capa_local": "QUANDO AS LUZES SE APAGAM/QUANDO AS LUZES SE APAGAM.jpg",
+  "sinopse": "Quando dormimos, ficamos mais vulneráveis. Às vezes, os crimes ocorrem quando alguns ou mesmo todos os personagens principais estão dormindo profundamente. Estas histórias exploram o medo primordial, presente desde a infância, do que acontece quando fechamos os olhos.",
+  "genero": "Crime, Documentário",
+  "elenco": "Teresa Palmer, Gabriel Bateman, Maria Bello",
+  "diretor": "David F. Sandberg",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:26"
+        }
+      ]
+    }
+  ],
+  "id": 2996
+}

@@ -1,0 +1,145 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NzA=",
+  "tipo": "serie",
+  "titulo": "STAN AGAINST EVIL",
+  "capa_url": "https://lgfp.one/IYP",
+  "capa_local": "STAN AGAINST EVIL/STAN AGAINST EVIL.jpg",
+  "sinopse": "A pequena cidade de New Hampshire guarda um passado sangrento. Local onde bruxas eram queimadas antigamente, ela agora é assolada por demônios. Diante disso, o ex-xerife Stanley Miller (John C. McGinley) conta com a ajuda da atual xerife da cidade, Evie (Janet Varney), para combater esse mal.",
+  "genero": "Comédia, Sci-Fi & Fantasy",
+  "elenco": "John C. McGinley, Janet Varney, Nate Mooney, Deborah Baker Jr.",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:34"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:21:35"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:21:34"
+        }
+      ]
+    }
+  ],
+  "id": 324
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MzA=",
+  "tipo": "serie",
+  "titulo": "GYPSY",
+  "capa_url": "https://lgfp.one/SBA7",
+  "capa_local": "GYPSY/GYPSY.jpg",
+  "sinopse": "A série segue a vida da terapeuta Jean Holloway (Naomi Watts), uma mulher que, no papel, tem a vida perfeita: uma carreira notável, uma casa espaçosa nos subúrbios de Connecticut, um marido advogado bem-sucedido (Billy Crudup) e uma criança brilhante. O que lhe falta, entretanto, é a contenção. A insaciável curiosidade de Jean acaba por vê-la contornando as linhas éticas e borrando as fronteiras da realidade profissional e da fantasia pessoal, juntando os fragmentos das admissões de seus pacientes e furtivamente forjando relações proibidas – algumas mais físicas do que outras – com as pessoas em suas vidas.",
+  "genero": "Drama",
+  "elenco": "Naomi Watts, Billy Crudup, Sophie Cookson, Karl Glusman, Lucy Boynton",
+  "diretor": "",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:51"
+        }
+      ]
+    }
+  ],
+  "id": 9004
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4OTU=",
+  "tipo": "serie",
+  "titulo": "O PÍER (2025)",
+  "capa_url": "https://lgfp.one/OUV9",
+  "capa_local": "O PIER (2025)/O PIER (2025).jpg",
+  "sinopse": "Uma família lança mão de artimanhas perigosas para que seu decadente império pesqueiro na Carolina do Norte não afunde de vez.",
+  "genero": "Drama, Crime",
+  "elenco": "Holt McCallany, Melissa Benoist, Jake Weary, Rafael L. Silva, Humberly González",
+  "diretor": "Marcos Siega",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:43"
+        }
+      ]
+    }
+  ],
+  "id": 7487
+}

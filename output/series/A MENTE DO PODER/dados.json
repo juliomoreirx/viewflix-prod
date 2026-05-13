@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Njk=",
+  "tipo": "serie",
+  "titulo": "A MENTE DO PODER",
+  "capa_url": "https://lgfp.one/EKP3",
+  "capa_local": "A MENTE DO PODER/A MENTE DO PODER.jpg",
+  "sinopse": "Quando Víctor Noriega se torna o presidente da Argentina, seu psicólogo, Marcos Dorrego, recebe uma ameaça que coloca em risco sua vida e a de sua filha. Preso em um perigoso jogo de poder, Marcos deve manipular Víctor para fazê-lo renunciar.",
+  "genero": "Drama, Mistério",
+  "elenco": "Mike Amigorena, Diego Velázquez, Elena Roger, Eleonora Wexler, Rita Cortese",
+  "diretor": "Nicolás Mellino, Pablo Flores, Mariano Hueter",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:11"
+        }
+      ]
+    }
+  ],
+  "id": 6305
+}

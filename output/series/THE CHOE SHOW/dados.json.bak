@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MjM=",
+  "tipo": "serie",
+  "titulo": "THE CHOE SHOW",
+  "capa_url": "https://lgfp.one/SSO",
+  "capa_local": "THE CHOE SHOW/THE CHOE SHOW.jpg",
+  "sinopse": "O artista internacional renomado David Choe transforma sua visão do mundo excêntrica, compassiva e perturbadora em uma lente para o público provar sentir empatia por outras pessoas. Através da arte e brincadeira, David Choe leva seus convidados em uma jornada emocional.",
+  "genero": "Documentário",
+  "elenco": "David Choe",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:59"
+        }
+      ]
+    }
+  ],
+  "id": 2189
+}

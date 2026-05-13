@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NDg=",
+  "tipo": "serie",
+  "titulo": "TUDO POR UM LIKE",
+  "capa_url": "https://lgfp.one/AAZV",
+  "capa_local": "TUDO POR UM LIKE/TUDO POR UM LIKE.jpg",
+  "sinopse": "Amanda, uma youtuber de conteúdo infantil em declínio, acaba de completar 30 anos, se tornando uma anciã da internet. Percebendo que não sabe fazer mais nada e que a atenção da mídia é a coisa mais próxima ao amor que ela tem, ela fará de tudo para recuperar a sua relevância nas mídias sociais, não importa o custo ou quem ela tiver que derrubar pelo caminho.",
+  "genero": "Comédia",
+  "elenco": "Paulina Gaitán, Azul Guaita, Hernán Mendoza, Jesús Zavala, Bárbara Torres",
+  "diretor": "Jorge Ulloa",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:18"
+        }
+      ]
+    }
+  ],
+  "id": 4013
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNjI=",
+  "tipo": "serie",
+  "titulo": "MELISSA ETHERIDGE IM NOT BROKEN [L]",
+  "capa_url": "https://lgfp.one/DCD7",
+  "capa_local": "MELISSA ETHERIDGE IM NOT BROKEN [L]/MELISSA ETHERIDGE IM NOT BROKEN [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Melissa Etheridge",
+  "diretor": "Matt Thiesen, Brian Morrow, Amy Scott",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:15"
+        }
+      ]
+    }
+  ],
+  "id": 5740
+}

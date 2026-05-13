@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNDc=",
+  "tipo": "serie",
+  "titulo": "ÍNTIMA TRAIÇÃO",
+  "capa_url": "https://lgfp.one/EFI9",
+  "capa_local": "INTIMA TRAICAO/INTIMA TRAICAO.jpg",
+  "sinopse": "Um suspense psicológico familiar sobre o dilema que o melhor criador de perfis da Coreia enfrenta quando descobre o segredo de sua filha relacionado ao crime de assassinato que ele está investigando.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "한석규, 채원빈, 한예리, 오연수, 노재원",
+  "diretor": "Yeon-hwa Soon",
+  "total_episodios": "71",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:13:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:14:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:11:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:10:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:10:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:09:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:15:40"
+        }
+      ]
+    }
+  ],
+  "id": 6211
+}

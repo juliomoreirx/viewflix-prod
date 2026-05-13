@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NTk=",
+  "tipo": "serie",
+  "titulo": "PAI SOLO [L]",
+  "capa_url": "https://lgfp.one/REY8",
+  "capa_local": "PAI SOLO [L]/PAI SOLO [L].jpg",
+  "sinopse": "Após um bebê aparecer dentro do seu carro, Gaurav precisa desafiar a própria família, a agência de adoção e as normas da sociedade para se tornar pai solo.",
+  "genero": "Comédia, Drama",
+  "elenco": "Kunal Khemu, Neha Dhupia, मनोज पाहवा, प्राजक्ता कोली, Ayesha Raza Mishra",
+  "diretor": "Shashank Khaitan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:49"
+        }
+      ]
+    }
+  ],
+  "id": 8567
+}

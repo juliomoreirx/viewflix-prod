@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3Mjc=",
+  "tipo": "serie",
+  "titulo": "HOMEM X BEBE",
+  "capa_url": "https://lgfp.one/RBF4",
+  "capa_local": "HOMEM X BEBE/HOMEM X BEBE.jpg",
+  "sinopse": "Perto do Natal, um caseiro atrapalhado precisa tomar conta de uma cobertura chique e ainda lidar com um problema inesperado: um bebê perdido.",
+  "genero": "Comédia, Família",
+  "elenco": "Rowan Atkinson, Alanah Bloor",
+  "diretor": "David Kerr",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:42"
+        }
+      ]
+    }
+  ],
+  "id": 8453
+}

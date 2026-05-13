@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1MjA=",
+  "tipo": "serie",
+  "titulo": "RUA DO SOBE E DESCE, NÚMERO QUE DESAPARECE",
+  "capa_url": "https://lgfp.one/JNM",
+  "capa_local": "RUA DO SOBE E DESCE, NUMERO QUE DESAPARECE/RUA DO SOBE E DESCE, NUMERO QUE DESAPARECE.jpg",
+  "sinopse": "Uma aeromoça e um diretor de teatro são amigos que, juntos, buscam felicidade no amor e no trabalho.",
+  "genero": "COMEDIA",
+  "elenco": "Fernanda Vasconcellos .André Arteche, Paula Burlamaqui",
+  "diretor": "Luiz Carlos Lacerda, Oswaldo Lioi,",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:31"
+        }
+      ]
+    }
+  ],
+  "id": 771
+}

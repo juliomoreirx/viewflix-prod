@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTM=",
+  "tipo": "serie",
+  "titulo": "AHSOKA",
+  "capa_url": "https://lgfp.one/AAVV",
+  "capa_local": "AHSOKA/AHSOKA.jpg",
+  "sinopse": "Situada após a queda do Império, a série segue a ex-cavaleira Jedi Ahsoka Tano enquanto ela investiga uma ameaça emergente a uma galáxia vulnerável.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Rosario Dawson, Natasha Liu Bordizzo, Mary Elizabeth Winstead, Ray Stevenson, Ivanna Sakhno",
+  "diretor": "George Lucas, Kim Richards, Heather Wagner-Wang",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:44"
+        }
+      ]
+    }
+  ],
+  "id": 3911
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Mjc=",
+  "tipo": "serie",
+  "titulo": "CENA DO CRIME: MISTÉRIO E MORTE NO HOTEL CECIL",
+  "capa_url": "https://lgfp.one/RNB",
+  "capa_local": "CENA DO CRIME MISTERIO E MORTE NO HOTEL CECIL/CENA DO CRIME MISTERIO E MORTE NO HOTEL CECIL.jpg",
+  "sinopse": "A fama do Cecil Hotel piora ainda mais quando a hóspede Elisa Lam desaparece. Uma série documental do criador de \"Conversando Com Um Serial Killer: Ted Bundy\".",
+  "genero": "Documentário, Crime, Mistério",
+  "elenco": "Artemis Snow, Viveca Chow, Pablo C. Vergara, Tom Scorzone, Josh Dean",
+  "diretor": "Ron Howard, Joe Berlinger",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:10"
+        }
+      ]
+    }
+  ],
+  "id": 1167
+}

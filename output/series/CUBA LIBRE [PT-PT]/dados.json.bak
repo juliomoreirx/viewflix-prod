@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyOTQ=",
+  "tipo": "serie",
+  "titulo": "CUBA LIBRE [PT-PT]",
+  "capa_url": "https://lgfp.one/ZCF",
+  "capa_local": "CUBA LIBRE [PT-PT]/CUBA LIBRE [PT-PT].jpg",
+  "sinopse": "A atribulada luta de Annie Silva Pais, filha única do último diretor da polícia política de Salazar, apaixonada por Che Guevara e pela Cuba de Fidel Castro.Baseado numa história real, a extraordinária história de vida da portuguesa Annie Silva Pais, filha única do último diretor da polícia política de Salazar, dona de uma notável beleza e sensualidade, mas também de um enorme espírito rebelde. Depois de aos 22 anos, em 1958, ter sido eleita miss Piscina Praia Figueira da Foz, mais tarde, em 1965, casada com um diplomata suíço e a viver em Havana, abandona o marido e a família para se entregar à revolução cubana, secretamente apaixonada por Che Guevara.",
+  "genero": "",
+  "elenco": "José Guedes, Álvaro Aragonez, Sofia Grilo, Heitor Lourenço, Rui Neto, Adriano Luz, Beatriz Godinho, Margarida Marinho",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:14"
+        }
+      ]
+    }
+  ],
+  "id": 3385
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Mjg=",
+  "tipo": "serie",
+  "titulo": "BANGKOK NO LIMITE",
+  "capa_url": "https://lgfp.one/SGZ",
+  "capa_local": "BANGKOK NO LIMITE/BANGKOK NO LIMITE.jpg",
+  "sinopse": "Tentando ganhar a vida em Bangkok, um homem se junta a uma equipe de socorristas e descobre uma grande conspiração na cidade.",
+  "genero": "Crime",
+  "elenco": "ศุกลวัฒน์ คณารศ, Sushar Manaying, สหจักร บุญธนกิจ, ปวริศร์ มงคลพิสิฐ, Suda Chuenban",
+  "diretor": "ก้องเกียรติ โขมศิริ, Thitipong Chaisati, พุฒิพงศ์ สายศรีแก้ว",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:50"
+        }
+      ]
+    }
+  ],
+  "id": 1874
+}

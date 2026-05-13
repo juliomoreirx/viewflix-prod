@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0ODU=",
+  "tipo": "serie",
+  "titulo": "GIGANTES DOS MOTORES",
+  "capa_url": "https://lgfp.one/RKB",
+  "capa_local": "GIGANTES DOS MOTORES/GIGANTES DOS MOTORES.jpg",
+  "sinopse": "Conheça a história dos titãs visionários que foram pioneiros na indústria automobilística nos EUA e transformaram o país.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "85",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:26:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:26:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:26:02"
+        }
+      ]
+    }
+  ],
+  "id": 1083
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NzU=",
+  "tipo": "serie",
+  "titulo": "AMOR E SORTE",
+  "capa_url": "https://lgfp.one/REL",
+  "capa_local": "AMOR E SORTE/AMOR E SORTE.jpg",
+  "sinopse": "‘Amor e Sorte’ é uma série em quatro episódios independentes, que reúne histórias sobre relacionamentos e transformação em tempos de isolamento social.",
+  "genero": "Comédia, Família",
+  "elenco": "Fernanda Montenegro, Fernanda Torres, Lázaro Ramos, Taís Araújo, Luisa Arraes",
+  "diretor": "Lázaro Ramos, Caio Blat, Andrucha Waddington",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:10"
+        }
+      ]
+    }
+  ],
+  "id": 930
+}

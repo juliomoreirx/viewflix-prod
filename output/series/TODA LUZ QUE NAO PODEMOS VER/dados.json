@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMTM=",
+  "tipo": "serie",
+  "titulo": "TODA LUZ QUE NÃO PODEMOS VER",
+  "capa_url": "https://lgfp.one/ASMH",
+  "capa_local": "TODA LUZ QUE NAO PODEMOS VER/TODA LUZ QUE NAO PODEMOS VER.jpg",
+  "sinopse": "Nos últimos dias da Segunda Guerra, os caminhos de uma garota francesa cega e um soldado alemão se cruzam. Na ocupação nazista em Paris, pai e filha fogem para a cidade de Saint-Malo e levam consigo o que talvez seja o mais valioso tesouro do museu. Em uma região de minas na Alemanha, o órfão Werner cresce com a irmã mais nova, encantado pelo rádio que certo dia encontram em uma pilha de lixo.",
+  "genero": "Drama",
+  "elenco": "Aria Mia Loberti, Louis Hofmann, Lars Eidinger, Hugh Laurie, Mark Ruffalo",
+  "diretor": "Shawn Levy, Josh McLaglen, Michael Pontvert",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:57"
+        }
+      ]
+    }
+  ],
+  "id": 4383
+}

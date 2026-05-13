@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNDI=",
+  "tipo": "serie",
+  "titulo": "DR. DEATH THE UNDOCTORED STORY",
+  "capa_url": "https://lgfp.one/DGM3",
+  "capa_local": "DR. DEATH THE UNDOCTORED STORY/DR. DEATH THE UNDOCTORED STORY.jpg",
+  "sinopse": "Conheça a história do cirurgião Dr. Christopher Duntsch, que deixou 30 pacientes mutilados e dois mortos. Apresentando novas entrevistas e filmagens nunca antes vistas, veja sua história, infância, seus crimes, o julgamento e suas consequências.",
+  "genero": "Documentário, Crime, Drama",
+  "elenco": "Randall Kirby, Martin Lazar, Michelle Shughart, Kay Van Wey, Natalie Polisson",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:15"
+        }
+      ]
+    }
+  ],
+  "id": 5820
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMjc=",
+  "tipo": "serie",
+  "titulo": "BLANCA",
+  "capa_url": "https://lgfp.one/VXX",
+  "capa_local": "BLANCA/BLANCA.jpg",
+  "sinopse": "Blanca é uma detetive cega que volta para sua cidade natal na Itália. Um caso complicado traz à tona seu misterioso passado, e ela precisa encará-lo e enfrentá-lo.",
+  "genero": "Drama, Crime",
+  "elenco": "",
+  "diretor": "Patrizia Rinaldi",
+  "total_episodios": "100",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:58"
+        }
+      ]
+    }
+  ],
+  "id": 2986
+}

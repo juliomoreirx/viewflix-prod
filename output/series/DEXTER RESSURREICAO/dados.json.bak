@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MzY=",
+  "tipo": "serie",
+  "titulo": "DEXTER RESSURREICAO",
+  "capa_url": "https://lgfp.one/PHC4",
+  "capa_local": "DEXTER RESSURREICAO/DEXTER RESSURREICAO.jpg",
+  "sinopse": "Depois de ser baleado por seu filho Harrison, Dexter acorda do coma e descobre que ele está desaparecido. Ele o procura em Nova York para se reconciliar, mas Batista chega com perguntas do passado.",
+  "genero": "Crime, Drama",
+  "elenco": "Michael C. Hall, Jack Alcott, James Remar, David Zayas, Uma Thurman",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:31"
+        }
+      ]
+    }
+  ],
+  "id": 7630
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5MDU=",
+  "tipo": "serie",
+  "titulo": "DE FERIAS COM TRAVIS JAPAN (2026) [L]",
+  "capa_url": "https://lgfp.one/TCE4",
+  "capa_local": "DE FERIAS COM TRAVIS JAPAN (2026) [L]/DE FERIAS COM TRAVIS JAPAN (2026) [L].jpg",
+  "sinopse": "O Travis Japan embarca numa viagem de carro pelas Montanhas Rochosas na América do Norte. Divididos em grupos, um deles viaja de trailer e o outro mergulha na cultura local. Com novas experiências e conexões sinceras, essa viagem promete ser única.",
+  "genero": "Documentário, Reality",
+  "elenco": "七五三掛龍也, 松田元太, 松倉海斗, 中村嘉惟人, Yoshizawa Shizuya",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:32"
+        }
+      ]
+    }
+  ],
+  "id": 9522
+}

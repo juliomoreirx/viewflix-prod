@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNDk=",
+  "tipo": "serie",
+  "titulo": "BEFOREIGNERS: OS VISITANTES",
+  "capa_url": "https://lgfp.one/RLF",
+  "capa_local": "BEFOREIGNERS OS VISITANTES/BEFOREIGNERS OS VISITANTES.jpg",
+  "sinopse": "O mundo muda quando luzes intensas aparecem sobre o oceano e as pessoas de três épocas diferentes do passado retornam: a idade da pedra, a era Viking e o final do século XIX. Aqueles que serão chamados visitantes não sabem como chegaram lá. Dois anos depois, uma equipe é criada na força policial com um programa de integração composto por Alfhildr, chegado da era Viking, e pelo agente Lars Haaland. O assassinato de uma mulher abrirá uma caixa de pandora de eventos inesperados.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Nicolai Cleve Broch, Krista Kosonen, Ágústa Eva Erlendsdóttir, Stig R. Amdam, Ragnhild Gudbrandsen",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:58"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:50:42"
+        }
+      ]
+    }
+  ],
+  "id": 1115
+}

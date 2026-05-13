@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NjM=",
+  "tipo": "serie",
+  "titulo": "O SHOW DO SABADO",
+  "capa_url": "https://lgfp.one/NMU6",
+  "capa_local": "O SHOW DO SABADO/O SHOW DO SABADO.jpg",
+  "sinopse": "Sinta a nostalgia nesta série de animação para adultos que mistura comédia com um toque constrangedor e um pouco perturbador dos desenhos dos anos 80 e 90.",
+  "genero": "Comédia, Animação",
+  "elenco": "Kyle Mooney, Beck Bennett, Maurice LaMarche, Eric Bauza, Cree Summer",
+  "diretor": "Ben Jones, Ben Jones, Ben Jones",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:19:40"
+        }
+      ]
+    }
+  ],
+  "id": 7121
+}

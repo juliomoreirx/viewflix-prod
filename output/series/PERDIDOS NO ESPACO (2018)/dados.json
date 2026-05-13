@@ -1,0 +1,170 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNTE=",
+  "tipo": "serie",
+  "titulo": "PERDIDOS NO ESPAÇO (2018)",
+  "capa_url": "https://lgfp.one/CYI2",
+  "capa_local": "PERDIDOS NO ESPACO (2018)/PERDIDOS NO ESPACO (2018).jpg",
+  "sinopse": "Após um pouso forçado em um planeta desconhecido, a família Robinson tenta sobreviver aos perigos que encontra neste novo mundo.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+  "elenco": "Toby Stephens, Molly Parker, Maxwell Jenkins, Taylor Russell, Mina Sundwall",
+  "diretor": "",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:51:23"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:50:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:39:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:47:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:54:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:54:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:49:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:39:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:38:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:40:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:58:20"
+        }
+      ]
+    }
+  ],
+  "id": 95065
+}

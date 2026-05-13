@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NjI=",
+  "tipo": "serie",
+  "titulo": "GENTE ANSIOSA",
+  "capa_url": "https://lgfp.one/SSF",
+  "capa_local": "GENTE ANSIOSA/GENTE ANSIOSA.jpg",
+  "sinopse": "Um ladrão de banco faz reféns em um apartamento à venda e depois desaparece, deixando os policiais perplexos e, para piorar, suspeitando de tudo e de todos.",
+  "genero": "Comédia, Drama, Mistério",
+  "elenco": "Alfred Svensson, Dan Ekborg, Leif Andrée, Per Andersson, Carla Sehn",
+  "diretor": "Felix Herngren",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:20"
+        }
+      ]
+    }
+  ],
+  "id": 2180
+}

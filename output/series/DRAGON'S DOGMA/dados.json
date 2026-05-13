@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5ODA=",
+  "tipo": "serie",
+  "titulo": "DRAGON'S DOGMA",
+  "capa_url": "https://lgfp.one/REN",
+  "capa_local": "DRAGON'S DOGMA/DRAGON'S DOGMA.jpg",
+  "sinopse": "Ethan parte em uma jornada para aniquilar o Dragão que destruiu sua vida. Mas, a cada nova batalha, ele fica mais distante de sua humanidade.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Yuichi Nakamura, Nana Mizuki, Miyuki Sawashiro, 三瓶由布子, 三森すずこ",
+  "diretor": "須貝真也",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:14"
+        }
+      ]
+    }
+  ],
+  "id": 932
+}

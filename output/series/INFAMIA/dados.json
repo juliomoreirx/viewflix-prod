@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNTc=",
+  "tipo": "serie",
+  "titulo": "INFÂMIA",
+  "capa_url": "https://lgfp.one/AAXZ",
+  "capa_local": "INFAMIA/INFAMIA.jpg",
+  "sinopse": "Entre as raízes ciganas, a pressão dos amigos e as regras estritas dos pais, uma garota de 17 anos sonha em fazer sucesso no hip-hop.",
+  "genero": "Drama",
+  "elenco": "Zofia Jastrzębska, Sebastian Łach, Magdalena Czerwińska, Kamil Piotrowski, Artur Dziurman",
+  "diretor": "Anna Maliszewska, Gniewko Falana",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:13"
+        }
+      ]
+    }
+  ],
+  "id": 3965
+}

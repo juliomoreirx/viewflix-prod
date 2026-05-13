@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMDM=",
+  "tipo": "serie",
+  "titulo": "MEXICO SELVAGEM",
+  "capa_url": "https://lgfp.one/OSH6",
+  "capa_local": "MEXICO SELVAGEM/MEXICO SELVAGEM.jpg",
+  "sinopse": "Os diversos povos, vida selvagem, paisagem e cultura do México são explorados com foco em três mundos distintos, grandes cadeias de montanhas, florestas tropicais e desertos escaldantes.",
+  "genero": "Documentário",
+  "elenco": "Eliud Gabriel Porras",
+  "diretor": "Evania Wright, Stuart Walker, Victoria Bromley",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:57"
+        }
+      ]
+    }
+  ],
+  "id": 7428
+}

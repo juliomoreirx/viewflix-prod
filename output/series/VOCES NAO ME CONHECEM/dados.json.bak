@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NDI=",
+  "tipo": "serie",
+  "titulo": "VOCÊS NÃO ME CONHECEM",
+  "capa_url": "https://lgfp.one/TJJ",
+  "capa_local": "VOCES NAO ME CONHECEM/VOCES NAO ME CONHECEM.jpg",
+  "sinopse": "Durante um julgamento em que todas as provas apontam para ele, o réu decide usar as alegações finais para relatar seu envolvimento com uma mulher misteriosa.",
+  "genero": "Drama",
+  "elenco": "Samuel Adewunmi, Sophie Wilde, Bukky Bakray, Roger Jean Nsengiyumva, Yetunde Oduwole",
+  "diretor": "Sarmad Masud",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:18"
+        }
+      ]
+    }
+  ],
+  "id": 2640
+}

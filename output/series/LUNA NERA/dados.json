@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxOTE=",
+  "tipo": "serie",
+  "titulo": "LUNA NERA",
+  "capa_url": "https://lgfp.one/IPH",
+  "capa_local": "LUNA NERA/LUNA NERA.jpg",
+  "sinopse": "Na Itália do século 17, uma adolescente descobre o seu destino em uma família de bruxas, mas o pai do seu namorado planeja capturá-la por bruxaria.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Antonia Fotaras, Manuela Mandracchia, Federica Fracassi, Lucrezia Guidone, Nathan Macchioni",
+  "diretor": "Francesca Comencini, Susanna Nicchiarelli, Paola Randi",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:02"
+        }
+      ]
+    }
+  ],
+  "id": 66
+}

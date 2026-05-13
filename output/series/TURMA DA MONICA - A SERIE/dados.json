@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4OTE=",
+  "tipo": "serie",
+  "titulo": "TURMA DA MÔNICA - A SÉRIE",
+  "capa_url": "https://lgfp.one/TMA",
+  "capa_local": "TURMA DA MONICA - A SERIE/TURMA DA MONICA - A SERIE.jpg",
+  "sinopse": "Quando a festa da popular Carminha Frufru é misteriosamente sabotada, Mônica e seus amigos se tornam os principais suspeitos, e vão precisar superar suas inseguranças e revelar seus segredos para decifrar o mistério.",
+  "genero": "Família, Kids, Drama",
+  "elenco": "Giulia Benite, Kevin Vechiatto, Laura Rauseo, Gabriel Moreira, Emilly Nayara",
+  "diretor": "Marcela Lordy, Daniel Rezende, Luciana Baptista",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:27"
+        }
+      ]
+    }
+  ],
+  "id": 228429
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0ODM=",
+  "tipo": "serie",
+  "titulo": "JAPÃO DE NORTE A SUL",
+  "capa_url": "https://lgfp.one/RKT",
+  "capa_local": "JAPAO DE NORTE A SUL/JAPAO DE NORTE A SUL.jpg",
+  "sinopse": "O Japão, a Terra do Sol Nascente, com seus panoramas emoldurados por vulcões e tradições, é uma poderosa potência econômica internacional.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Eric Beaufils",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 1101
+}

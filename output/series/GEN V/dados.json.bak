@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODI=",
+  "tipo": "serie",
+  "titulo": "GEN V",
+  "capa_url": "https://lgfp.one/ABCO",
+  "capa_local": "GEN V/GEN V.jpg",
+  "sinopse": "Alunos talentosos põem os limites morais à prova, competindo pelo melhor lugar no ranking da universidade e uma chance de se juntar aos Sete, a equipe de elite da Vought. Quando os segredos obscuros da universidade vêm à tona, eles devem decidir que tipo de heróis querem ser.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+  "elenco": "Jaz Sinclair, Chance Perdomo, Lizze Broadway, Maddie Phillips, London Thor",
+  "diretor": "Jett Garrison",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:49"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:54:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:46:51"
+        }
+      ]
+    }
+  ],
+  "id": 8771
+}

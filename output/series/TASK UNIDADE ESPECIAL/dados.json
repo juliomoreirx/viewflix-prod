@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyODU=",
+  "tipo": "serie",
+  "titulo": "TASK: UNIDADE ESPECIAL",
+  "capa_url": "https://lgfp.one/PXM0",
+  "capa_local": "TASK UNIDADE ESPECIAL/TASK UNIDADE ESPECIAL.jpg",
+  "sinopse": "Um agente do FBI lidera uma força-tarefa para pôr fim a uma série de assaltos a pontos de venda de drogas liderados por um chefe de família desavisado nos subúrbios da classe trabalhadora nos arredores da Filadélfia.",
+  "genero": "Crime, Drama",
+  "elenco": "Mark Ruffalo, Tom Pelphrey, Emilia Jones, Fabien Frankel, Thuso Mbedu",
+  "diretor": "Jeremiah Zagar",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:22"
+        }
+      ]
+    }
+  ],
+  "id": 7960
+}

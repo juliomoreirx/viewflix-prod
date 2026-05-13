@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMTE=",
+  "tipo": "serie",
+  "titulo": "SAMURAI DE OLHOS AZUIS",
+  "capa_url": "https://lgfp.one/ASPJ",
+  "capa_local": "SAMURAI DE OLHOS AZUIS/SAMURAI DE OLHOS AZUIS.jpg",
+  "sinopse": "Movida pelo sonho de vingança contra as pessoas que a transformaram em excluída no Japão do período Edo, uma jovem guerreira decide trilhar um caminho sangrento.",
+  "genero": "Action & Adventure, Animação, Drama",
+  "elenco": "Maya Erskine, George Takei, Masi Oka, Randall Park, Cary-Hiroyuki Tagawa",
+  "diretor": "Brian Kesinger",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:19"
+        }
+      ]
+    }
+  ],
+  "id": 4395
+}

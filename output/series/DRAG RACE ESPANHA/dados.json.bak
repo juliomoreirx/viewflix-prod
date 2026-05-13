@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NTU=",
+  "tipo": "serie",
+  "titulo": "DRAG RACE ESPANHA",
+  "capa_url": "https://lgfp.one/AAKW",
+  "capa_local": "DRAG RACE ESPANHA/DRAG RACE ESPANHA.jpg",
+  "sinopse": "As queens conhecem o primeiro desafio: montar um touro mecânico enquanto posam para um fotógrafo.",
+  "genero": "Reality",
+  "elenco": "Supremme de Luxe, Ana Locking, Javier Ambrossi, Javier Calvo, The Macarena",
+  "diretor": "",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:12:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:48"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:17:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:12:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:16:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:14:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:17:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:10:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:12:14"
+        }
+      ]
+    }
+  ],
+  "id": 3627
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MjE=",
+  "tipo": "serie",
+  "titulo": "SUPLICIUM",
+  "capa_url": "https://lgfp.one/QBH8",
+  "capa_local": "SUPLICIUM/SUPLICIUM.jpg",
+  "sinopse": "Um decadente escritor de histórias fantásticas reúne velhos amigos para uma noite de contação de histórias. Com a promessa de dividir os lucros da venda do livro com essas histórias, em segredo pretende roubar as narrativas dos amigos.",
+  "genero": "Sci-Fi & Fantasy, Mistério",
+  "elenco": "Pedro Wagner, Bruno Goya, Nataly Rocha, Evandro Lira, Marcello Trigo",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 8021
+}

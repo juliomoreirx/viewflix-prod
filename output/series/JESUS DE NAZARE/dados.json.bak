@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMTA=",
+  "tipo": "serie",
+  "titulo": "JESUS DE NAZARE",
+  "capa_url": "https://lgfp.one/NLH5",
+  "capa_local": "JESUS DE NAZARE/JESUS DE NAZARE.jpg",
+  "sinopse": "O comovente retrato da vida e a morte de Jesus de Nazaré, é aqui apresentado desde o seu nascimento, passando pelas suas peregrinações ainda enquanto criança e o seu batismo por João Batista. Relatando inúmeros milagres durante o seu percurso, a mini-série culmina com a crucificação e ressurreição, num dos mais fiéis e impressionantes relatos da vida de Cristo.",
+  "genero": "Drama",
+  "elenco": "Robert Powell, Olivia Hussey, Yorgo Voyagis, Anne Bancroft, Christopher Plummer",
+  "diretor": "Abdellatif Ben Ammar, Abdelaziz Ramdani, Mohamed Abbazi",
+  "total_episodios": "97",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:36:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:38:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:37:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:47:33"
+        }
+      ]
+    }
+  ],
+  "id": 7097
+}

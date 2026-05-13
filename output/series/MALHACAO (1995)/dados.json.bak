@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NzM=",
+  "tipo": "serie",
+  "titulo": "MALHAÇÃO (1995)",
+  "capa_url": "https://lgfp.one/RFX",
+  "capa_local": "MALHACAO (1995)/MALHACAO (1995).jpg",
+  "sinopse": "A missão da série é falar sobre questões delicadas pertinentes ao universo jovem, como o relacionamento com os pais e os amigos, as dúvidas em relação ao futuro profissional, crenças e o início da vida sexual. Com diferentes assuntos em ênfase a cada temporada, jovens vivem uma rotina de descoberta e crescimento, explorando um mundo desconhecido.",
+  "genero": "Soap, Comédia, Drama",
+  "elenco": "Alanis Guillen, Pedro Novaes, Palomma Duarte, Joaquim Lopes, Roger Gobeth",
+  "diretor": "Alice Gomes, Adriano Melo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:27:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:30:56"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:29:39"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:30:19"
+        }
+      ]
+    }
+  ],
+  "id": 8972
+}

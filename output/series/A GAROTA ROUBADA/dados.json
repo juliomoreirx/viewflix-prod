@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMTQ=",
+  "tipo": "serie",
+  "titulo": "A GAROTA ROUBADA",
+  "capa_url": "https://lgfp.one/NPR6",
+  "capa_local": "A GAROTA ROUBADA/A GAROTA ROUBADA.jpg",
+  "sinopse": "Mãe de duas crianças, Elisa, deixa sua filha, Lucia, ir dormir na casa de sua nova melhor amiga, Josephine, de última hora depois de conhecer a mãe de Josephine, Rebecca, e sua linda casa. Mas quando Elisa vai buscar Lucia no dia seguinte, era apenas uma casa de luxo de aluguel e Lucia foi sequestrada.",
+  "genero": "Drama",
+  "elenco": "Denise Gough, Ambika Mod, Holliday Grainger, Jim Sturgess, Bronagh Waugh",
+  "diretor": "Eva Husson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:53"
+        }
+      ]
+    }
+  ],
+  "id": 7196
+}

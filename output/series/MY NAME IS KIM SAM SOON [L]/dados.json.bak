@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MjI=",
+  "tipo": "serie",
+  "titulo": "MY NAME IS KIM SAM SOON [L]",
+  "capa_url": "https://lgfp.one/AAZI",
+  "capa_local": "MY NAME IS KIM SAM SOON [L]/MY NAME IS KIM SAM SOON [L].jpg",
+  "sinopse": "Kim Sam Soon é um padeiro que tem talento para fazer doces e bolos. Na véspera de Natal, ela pegou o namorado, Min Hyun Woo, traindo-a e terminando. Na mesma noite, ela acidentalmente foi ao banheiro masculino e conheceu Hyun Jin Hun. Por pura coincidência, Jin Hun precisa de um padeiro para seu restaurante Bon Appetit e Sam Soon está desempregado. Sam Soon é contratado como o padeiro-chefe do restaurante e os dois brigam como gato e cachorro.",
+  "genero": "Comédia, Drama",
+  "elenco": "Kim Sun-a, Hyun Bin, Jung Ryeo-won, Daniel Henney, Kim Ja-ok",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:58:12"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:00:14"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:58:42"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:06:31"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:02:05"
+        }
+      ]
+    }
+  ],
+  "id": 4000
+}

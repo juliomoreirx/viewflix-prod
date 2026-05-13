@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NjQ=",
+  "tipo": "serie",
+  "titulo": "FIQUE COMIGO",
+  "capa_url": "https://lgfp.one/SSE",
+  "capa_local": "FIQUE COMIGO/FIQUE COMIGO.jpg",
+  "sinopse": "O desaparecimento de Carlton Flynn, que acontece 17 anos depois do desaparecimento de Stewart Green, provoca uma reação em cadeia nas vidas das pessoas ligadas a eles.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Cush Jumbo, James Nesbitt, Richard Armitage, Sarah Parish, Daniel Francis",
+  "diretor": "Daniel O'Hara, Lindy Heymann",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:18"
+        }
+      ]
+    }
+  ],
+  "id": 2179
+}

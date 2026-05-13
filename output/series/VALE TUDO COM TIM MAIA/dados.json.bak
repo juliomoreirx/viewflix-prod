@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMzQ=",
+  "tipo": "serie",
+  "titulo": "VALE TUDO COM TIM MAIA",
+  "capa_url": "https://lgfp.one/TTI",
+  "capa_local": "VALE TUDO COM TIM MAIA/VALE TUDO COM TIM MAIA.jpg",
+  "sinopse": "A série traz o próprio Tim Maia narrando sua história, a partir de entrevistas raras, muitas delas inéditas, shows exclusivos e filmagens caseiras.",
+  "genero": "Documentário",
+  "elenco": "Tim Maia",
+  "diretor": "Renato Terra, Nelson Motta",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:20"
+        }
+      ]
+    }
+  ],
+  "id": 2915
+}

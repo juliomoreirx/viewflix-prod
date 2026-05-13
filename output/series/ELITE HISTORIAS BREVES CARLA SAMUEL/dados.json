@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2OTA=",
+  "tipo": "serie",
+  "titulo": "ELITE HISTÓRIAS BREVES: CARLA SAMUEL",
+  "capa_url": "https://lgfp.one/TCX",
+  "capa_local": "ELITE HISTORIAS BREVES CARLA SAMUEL/ELITE HISTORIAS BREVES CARLA SAMUEL.jpg",
+  "sinopse": "Com um gesto romântico, Samuel tenta convencer Carla a não embarcar no voo para Londres.",
+  "genero": "Drama",
+  "elenco": "Itzan Escamilla, Ester Expósito",
+  "diretor": "Jorge Torregrossa, Pablo Ramos",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:36"
+        }
+      ]
+    }
+  ],
+  "id": 2466
+}

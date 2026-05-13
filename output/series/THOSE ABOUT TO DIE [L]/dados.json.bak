@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1ODA=",
+  "tipo": "serie",
+  "titulo": "THOSE ABOUT TO DIE [L]",
+  "capa_url": "https://lgfp.one/DCF7",
+  "capa_local": "THOSE ABOUT TO DIE [L]/THOSE ABOUT TO DIE [L].jpg",
+  "sinopse": "Roma, 79 d.C. A população, aborrecida, inquieta e cada vez mais violenta, é controlada com duas coisas: comida gratuita e entretenimento espetacular. À medida que o povo procura um entretenimento mais excessivo e sanguinário, é necessário um estádio criado para o combate de gladiadores, o Coliseu. Por baixo dele vivem e trabalham milhares de pessoas, incluindo milhares que morrerão pelos jogos.",
+  "genero": "Drama",
+  "elenco": "Anthony Hopkins, Tom Hughes, Sara Martins, Jojo Macari, Gabriella Pession",
+  "diretor": "Roland Emmerich, Marco Kreuzpaintner, Giorgio Lattanzi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:24"
+        }
+      ]
+    }
+  ],
+  "id": 5760
+}

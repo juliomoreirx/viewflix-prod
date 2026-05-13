@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NTM=",
+  "tipo": "serie",
+  "titulo": "O MISTERIOSO CASO DO HOMEM SEM CORACAO [L]",
+  "capa_url": "https://lgfp.one/PFY3",
+  "capa_local": "O MISTERIOSO CASO DO HOMEM SEM CORACAO [L]/O MISTERIOSO CASO DO HOMEM SEM CORACAO [L].jpg",
+  "sinopse": "O irmão de Blanca Martínez é encontrado boiando em um fiorde sueco, o corpo em avançado estado de decomposição. O que se segue é uma série de quebra-cabeças: é mesmo Miguel Ángel? Como ele morreu? E o que aconteceu com o coração dele?",
+  "genero": "Documentário, Crime",
+  "elenco": "Jorge Valcarcel, Blanca Martínez",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:38"
+        }
+      ]
+    }
+  ],
+  "id": 7579
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NjY=",
+  "tipo": "serie",
+  "titulo": "THE TRAITORS (2022)",
+  "capa_url": "https://lgfp.one/SLX5",
+  "capa_local": "THE TRAITORS (2022)/THE TRAITORS (2022).jpg",
+  "sinopse": "",
+  "genero": "Reality",
+  "elenco": "Rodger Corser",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:22:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:05:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:12:19"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:05:02"
+        }
+      ]
+    }
+  ],
+  "id": 9492
+}

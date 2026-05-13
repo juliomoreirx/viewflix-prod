@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNTc=",
+  "tipo": "serie",
+  "titulo": "ABEL O GRANDE",
+  "capa_url": "https://lgfp.one/PZN5",
+  "capa_local": "ABEL O GRANDE/ABEL O GRANDE.jpg",
+  "sinopse": "Esta série documental é sobre a vida e carreira marcantes de Abel Braga, técnico de futebol campeão do Mundial de Clubes em 2006 com o Internacional. O documentário joga luz sobre o lado humano do treinador e conta como Abel superou sua pior partida, a trágica perda de seu filho João Pedro em 2017.",
+  "genero": "Documentário",
+  "elenco": "Abel Braga",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:48"
+        }
+      ]
+    }
+  ],
+  "id": 7987
+}

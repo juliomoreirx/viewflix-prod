@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMjc=",
+  "tipo": "serie",
+  "titulo": "HISTORICO CRIMINAL",
+  "capa_url": "https://lgfp.one/AYGI",
+  "capa_local": "HISTORICO CRIMINAL/HISTORICO CRIMINAL.jpg",
+  "sinopse": "No coração de Londres, uma ligação anônima faz dois detetives brilhantes – uma jovem no início da carreira e um homem muito bem relacionado e determinado a proteger seu legado – entrarem numa luta para que um antigo erro da justiça seja corrigido.",
+  "genero": "Crime, Drama",
+  "elenco": "Peter Capaldi, Cush Jumbo, Shaun Dooley, Zoë Wanamaker, Charlie Creed-Miles",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:00"
+        }
+      ]
+    }
+  ],
+  "id": 4793
+}

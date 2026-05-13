@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODk=",
+  "tipo": "serie",
+  "titulo": "HEADSPACE - GUIA PARA DORMIR MELHOR",
+  "capa_url": "https://lgfp.one/RUT",
+  "capa_local": "HEADSPACE - GUIA PARA DORMIR MELHOR/HEADSPACE - GUIA PARA DORMIR MELHOR.jpg",
+  "sinopse": "Está difícil dormir? Nós ajudamos. Em Headspace - Guia para Dormir Melhor, você vai encontrar fatos e dicas sobre o sono, tudo com base na ciência. Vamos responder a perguntas como: usar o celular na cama é realmente ruim? Nós precisamos mesmo de 8 horas completas de sono? Remédios ajudam? Por meio da atenção plena e meditação, esta série vai oferecer as ferramentas que você precisa para ter uma boa noite de sono e enfrentar o dia com energia.",
+  "genero": "Documentário, Animação",
+  "elenco": "Evelyn Lewis Prieto",
+  "diretor": "Chris Grosso",
+  "total_episodios": "18",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:18:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:03"
+        }
+      ]
+    }
+  ],
+  "id": 1381
+}

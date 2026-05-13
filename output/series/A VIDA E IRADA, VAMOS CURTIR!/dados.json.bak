@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTI=",
+  "tipo": "serie",
+  "titulo": "A VIDA É IRADA, VAMOS CURTIR!",
+  "capa_url": "https://lgfp.one/XPV",
+  "capa_local": "A VIDA E IRADA, VAMOS CURTIR!/A VIDA E IRADA, VAMOS CURTIR!.jpg",
+  "sinopse": "Conheça a história de vida do Pedro Scooby, o surfista profissional de ondas grandes que se tornou sensação após três meses de participação no Big Brother Brasil. Acompanhe sua agenda pós-BBB, a origem em Curicica e sua carreira nada convencional.",
+  "genero": "Documentário",
+  "elenco": "Pedro Scooby",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:15"
+        }
+      ]
+    }
+  ],
+  "id": 3167
+}

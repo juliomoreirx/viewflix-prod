@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNDE=",
+  "tipo": "serie",
+  "titulo": "THE NEW EMPLOYEE [L]",
+  "capa_url": "https://lgfp.one/AUS3",
+  "capa_local": "THE NEW EMPLOYEE [L]/THE NEW EMPLOYEE [L].jpg",
+  "sinopse": "Depois de passar seus 20 anos superando uma paixão, Seunghyun jurou nunca mais entregar seu coração a alguém do mesmo ramo. Entra Jongchan, o novo chefe durão de Seung Hyun com um lado suave surpreendente. O primeiro emprego e o primeiro relacionamento de Seung Hyun serão um sucesso?",
+  "genero": "Drama",
+  "elenco": "Kwon Hyuk, Moon Ji-yong, Choi Si-hun, Nam Kyu-hee, Baek Ji-hye",
+  "diretor": "Kim-Jho Kwang-soo, Kim-Jho Kwang-soo",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:22"
+        }
+      ]
+    }
+  ],
+  "id": 5308
+}

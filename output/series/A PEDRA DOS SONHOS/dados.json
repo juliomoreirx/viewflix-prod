@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2MjU=",
+  "tipo": "serie",
+  "titulo": "A PEDRA DOS SONHOS",
+  "capa_url": "https://lgfp.one/PQP9",
+  "capa_local": "A PEDRA DOS SONHOS/A PEDRA DOS SONHOS.jpg",
+  "sinopse": "A história acontece na Terra dos Sonhos que fica em um Universo paralelo, e é focada na luta entre o mago Senhor dos Sonhos e o vilão Zordrak, o Senhor dos Pesadelos. Para preparar os sonhos, o Senhor dos Sonhos tem como ajudante o pequeno Rufus, da raça dos Noops. E em cada episódio, Zordrak instrui seu exército de capangas, os Trolhas, a roubar a Pedra dos Sonhos que ele planeja destruir para que a praga dos pesadelos domine o mundo.",
+  "genero": "Família, Animação",
+  "elenco": "Stuart Lock, Nancy Hendry, John Franklyn-Robbins, Gary Martin, Melvyn Hayes",
+  "diretor": "Martin Gates, Martin Gates",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:57"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:51"
+        }
+      ]
+    }
+  ],
+  "id": 7758
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4Mzc=",
+  "tipo": "serie",
+  "titulo": "QUEEN STARS BRASIL",
+  "capa_url": "https://lgfp.one/TDM",
+  "capa_local": "QUEEN STARS BRASIL/QUEEN STARS BRASIL.jpg",
+  "sinopse": "Pabllo Vittar e Luísa Sonza comandam este reality que mostrará drag queens encarando desafios em busca da 'coroa do pop'.",
+  "genero": "Reality",
+  "elenco": "Pabllo Vittar, Luísa Sonza, Tiago Abravanel, Vanessa da Mata, Diego Timbó",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:34"
+        }
+      ]
+    }
+  ],
+  "id": 2481
+}

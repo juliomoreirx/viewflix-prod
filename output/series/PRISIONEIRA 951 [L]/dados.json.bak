@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NDU=",
+  "tipo": "serie",
+  "titulo": "PRISIONEIRA 951 [L]",
+  "capa_url": "https://lgfp.one/REZ1",
+  "capa_local": "PRISIONEIRA 951 [L]/PRISIONEIRA 951 [L].jpg",
+  "sinopse": "Baseada em uma comovente história real, a minissérie acompanha o pesadelo de uma mãe britânico-iraniana que, durante uma visita à família no Irã, é detida sob falsas acusações de espionagem e separada de sua filha pequena. Enquanto ela luta para sobreviver às duras condições da Prisão de Evin, seu marido em Londres enfrenta a indiferença do governo e inicia uma incansável campanha internacional, descobrindo que a liberdade de sua esposa depende de uma antiga dívida política entre as duas nações",
+  "genero": "Drama",
+  "elenco": "Narges Rashidi, Joseph Fiennes, Shaun McKee, Armin Karima, Elham Karimpour",
+  "diretor": "Philippa Lowthorpe",
+  "total_episodios": "260",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:35"
+        }
+      ]
+    }
+  ],
+  "id": 8570
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5NjM=",
+  "tipo": "serie",
+  "titulo": "TRANSFORMERS: WAR FOR CYBERTRON: O NASCER DA TERRA",
+  "capa_url": "https://lgfp.one/SBD",
+  "capa_local": "TRANSFORMERS WAR FOR CYBERTRON O NASCER DA TERRA/TRANSFORMERS WAR FOR CYBERTRON O NASCER DA TERRA.jpg",
+  "sinopse": "Megatron toma medidas drásticas para salvar os Decepticons, e os Autobots lutam por Cybertron.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Jason Marnocha, Jake Foushee, Joe Zieja, Frank Todaro, Kaiser Johnson",
+  "diretor": "Vincent Talenti",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:38"
+        }
+      ]
+    }
+  ],
+  "id": 228417
+}

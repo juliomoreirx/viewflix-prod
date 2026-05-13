@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NjQ=",
+  "tipo": "serie",
+  "titulo": "MATCHES",
+  "capa_url": "https://lgfp.one/OPS1",
+  "capa_local": "MATCHES/MATCHES.jpg",
+  "sinopse": "Em busca de novas experiências, os amigos Lara, Ricardo, Mila e Escovão contam com o aplicativo \"Matches\". Eles lidam com as aventuras amorosas e os encontros e desencontros que só os novos modelos de paquera podem proporcionar.",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:22:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:22:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:21:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:21:59"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:20:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:23:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:20:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:23:47"
+        }
+      ]
+    }
+  ],
+  "id": 7385
+}

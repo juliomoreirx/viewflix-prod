@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMjI=",
+  "tipo": "serie",
+  "titulo": "MAO (2026) [L]",
+  "capa_url": "https://lgfp.one/SQQ6",
+  "capa_local": "MAO (2026) [L]/MAO (2026) [L].jpg",
+  "sinopse": "Nanoka é a única sobrevivente de um acidente em que perdeu sua família quando tinha apenas sete anos de idade. Oito anos depois, quando ela retorna à cena, ela se vê atirada de volta no tempo à era Taisho! Lá, ela conhece Mao, um jovem que luta contra demônios em busca da criatura que o amaldiçoou. Um destino extraordinário parece comandar estes encontros, na encruzilhada de dois mundos…",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Yuki Kaji, Natsumi Kawaida, Hiro Shimono, Toshiyuki Toyonaga, 寺澤百花",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:29"
+        }
+      ]
+    }
+  ],
+  "id": 9332
+}

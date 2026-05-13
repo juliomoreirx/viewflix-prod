@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzOTM=",
+  "tipo": "serie",
+  "titulo": "SANTA EVITA",
+  "capa_url": "https://lgfp.one/TMG",
+  "capa_local": "SANTA EVITA/SANTA EVITA.jpg",
+  "sinopse": "A história de Eva Perón após sua morte. Evita morreu, mas seu corpo ficou três anos esperando a construção de um monumento que nunca foi construído. Em 1955, os militares derrubaram o presidente Perón e esconderam o corpo por 19 anos. Figura política fundamental, seu cadáver influenciou todo um país por mais de duas décadas, tornando-se parte da mitologia argentina.",
+  "genero": "Drama",
+  "elenco": "Natalia Oreiro, Ernesto Alterio, Diego Velázquez, Francesc Orella, Darío Grandinetti, Diego Cremonesi, Diego Alonso, Luis Machín",
+  "diretor": "Rodrigo García",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:20"
+        }
+      ]
+    }
+  ],
+  "id": 2721
+}

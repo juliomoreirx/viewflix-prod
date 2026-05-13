@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NDE=",
+  "tipo": "serie",
+  "titulo": "LIES HIDDEN IN MY GARDEN [L]",
+  "capa_url": "https://lgfp.one/AAPU",
+  "capa_local": "LIES HIDDEN IN MY GARDEN [L]/LIES HIDDEN IN MY GARDEN [L].jpg",
+  "sinopse": "Joo Ran (Kim Tae Hee) é uma mulher que parece viver uma vida encantadora. Ela tem um marido aparentemente perfeito e um filho bem-comportado e academicamente talentoso. Ela está muito contente com sua vida e pensa que não precisa de mais nada. Mas tudo começa a mudar para ela — para pior — quando percebe um fedor estranho vindo de seu quintal. Com o tempo, ela começa a temer que o cheiro possa vir de um corpo morto em decomposição…\n\nSeu caminho se cruza com o de Sang Eun (Lim Ji Yeon), uma mulher cuja vida foi repleta de luta e violência. Ela é vítima de violência doméstica e anseia por fugir de sua sobrevivência diária miserável. Com o tempo, as mulheres começam a descobrir que seus destinos estão ligados entre si. Será que elas descobrirão a verdade sobre o cheiro no jardim de Joo Ran? E será que elas conseguirão trabalhar juntas para descobrir a verdade sobre a vida familiar aparentemente perfeita de Joo Ran?",
+  "genero": "Crime, Mistério",
+  "elenco": "Kim Tae-hee, Lim Ji-yeon, Kim Sung-oh, Choi Jae-rim, Cha Sung-je",
+  "diretor": "Jung Jee-hyun",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:06"
+        }
+      ]
+    }
+  ],
+  "id": 3754
+}

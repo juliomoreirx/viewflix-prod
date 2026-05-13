@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NDI=",
+  "tipo": "serie",
+  "titulo": "SUTURA A VIDA POR UM FIO",
+  "capa_url": "https://lgfp.one/EKD6",
+  "capa_local": "SUTURA A VIDA POR UM FIO/SUTURA A VIDA POR UM FIO.jpg",
+  "sinopse": "A trama conta a história de Ícaro, um incorruptível jovem da periferia de São Paulo, recém-formado em Medicina, que não pode fazer a sua residência médica por conta de uma dívida contraída durante a faculdade. Do outro lado está a Dra. Mancini, uma cirurgiã de elite recém-saída de um trauma, atormentada por tremores nas mãos, que quer voltar a operar. A única solução que encontram para resolverem seus problemas é atuar como médicos do crime, dando início a uma perigosa vida dupla onde escapar pode se provar impossível.",
+  "genero": "Drama",
+  "elenco": "Cláudia Abreu, Humberto Morais, Juliana Paiva, Gabriel Braga Nunes, Danilo Mesquita",
+  "diretor": "Victor Rodrigues, Fabio Montanari, Diego Martins",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:58"
+        }
+      ]
+    }
+  ],
+  "id": 6295
+}

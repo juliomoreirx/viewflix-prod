@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NDM=",
+  "tipo": "serie",
+  "titulo": "MORTE NO VALE DO SILÍCIO",
+  "capa_url": "https://lgfp.one/ZHE",
+  "capa_local": "MORTE NO VALE DO SILICIO/MORTE NO VALE DO SILICIO.jpg",
+  "sinopse": "Sandra Brown, uma investigadora aposentada de Palo Alto, faz descobertas surpreendentes ao retorna à cena do crime e decide provar que Vladimir Pokhilko não matou a sua família e depois se suicidou.",
+  "genero": "Documentário, Crime",
+  "elenco": "Noam Levey, Sandra Brown, Joe Serio, Brandon Tyler Moore, Rebecca Ray, Paul Franchak",
+  "diretor": "Misty Showalter",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:53"
+        }
+      ]
+    }
+  ],
+  "id": 3421
+}

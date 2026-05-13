@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMDY=",
+  "tipo": "serie",
+  "titulo": "UM TREM PARA O QATAR",
+  "capa_url": "https://lgfp.one/WGP",
+  "capa_local": "UM TREM PARA O QATAR/UM TREM PARA O QATAR.jpg",
+  "sinopse": "Enquanto exista um trem que nos leve ao destino, nossa viagem através dos eventos mais importantes do esporte internacional continua. Retorna a série que nos apresentará a próxima grande estação do mundo do futebol: Qatar 2022. Nesta série documental conheceremos a cultura e os preparativos do país que sediará a próxima Copa do Mundo.",
+  "genero": "Documentário",
+  "elenco": "Martín Ainstein",
+  "diretor": "",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:16"
+        }
+      ]
+    }
+  ],
+  "id": 3091
+}

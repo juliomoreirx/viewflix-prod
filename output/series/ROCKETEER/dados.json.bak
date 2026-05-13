@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwMTc=",
+  "tipo": "serie",
+  "titulo": "ROCKETEER",
+  "capa_url": "https://lgfp.one/IQX",
+  "capa_local": "ROCKETEER/ROCKETEER.jpg",
+  "sinopse": "Kit Secord, uma jovem garota que recebe um pacote surpresa em seu aniversário, revelando que é a próxima na fila para se tornar a Rocketeer, uma super-heroína lendária que tem a capacidade de voar com a ajuda de um jet pack movido a foguete. Armada com seu novo equipamento e identidade secreta, Kit está pronta para voar e salvar o dia com seu melhor amiga, Tesh, e seu tio mecânico de aviões, Ambrose, que se juntam a ela em aventuras épicas.",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "Kitana Turnbull, Frank Welker, Maria Bamford, Billy Campbell, Kathy Najimy",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:01"
+        }
+      ]
+    }
+  ],
+  "id": 227995
+}

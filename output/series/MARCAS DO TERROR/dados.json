@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MTA=",
+  "tipo": "serie",
+  "titulo": "MARCAS DO TERROR",
+  "capa_url": "https://lgfp.one/APQ5",
+  "capa_local": "MARCAS DO TERROR/MARCAS DO TERROR.jpg",
+  "sinopse": "Conheça histórias de pessoas devastadas pelo assassinato de um ente querido. O impacto deixado naqueles que ficaram para trás por meio de depoimentos íntimos e pessoais.",
+  "genero": "Documentário, Crime, Drama",
+  "elenco": "Yassine Mkhichen, Danny Steele, Jack Tyler Fisher",
+  "diretor": "Marcus P Liversedge",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:26"
+        }
+      ]
+    }
+  ],
+  "id": 5182
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MzY=",
+  "tipo": "serie",
+  "titulo": "CLUBE DE MERGULHO",
+  "capa_url": "https://lgfp.one/SFK",
+  "capa_local": "CLUBE DE MERGULHO/CLUBE DE MERGULHO.jpg",
+  "sinopse": "Às margens de Cape Mercy, um grupo de jovens mergulhadoras investiga uma série de segredos depois que uma delas desaparece misteriosamente.",
+  "genero": "Drama",
+  "elenco": "Georgia-May Davis, Mercy Cornwall, Aubri Ibrag, Sana'a Shaik, Miah Madden",
+  "diretor": "Rhiannon Bannenberg, Christine Luby, Hayley MacFarlane",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:27:05"
+        }
+      ]
+    }
+  ],
+  "id": 1832
+}

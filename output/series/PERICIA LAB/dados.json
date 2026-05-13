@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MDM=",
+  "tipo": "serie",
+  "titulo": "PERÍCIA LAB",
+  "capa_url": "https://lgfp.one/WLB",
+  "capa_local": "PERICIA LAB/PERICIA LAB.jpg",
+  "sinopse": "Com a contribuição do perito criminal Ricardo Salada e da fotógrafa pericial Telma Rocha, o espectador vai poder acompanhar a recriação de casos antigos e, assim, entender o processo investigativo a partir da perspectiva do perito. Para isso, foi criado um laboratório cenográfico onde os especialistas puderam realizar experiências de ciência forense e explicar técnicas essenciais para solucionar os casos.",
+  "genero": "Documentário / Crime",
+  "elenco": "André Ramiro, Ricardo Salada, Telma Rocha",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:42"
+        }
+      ]
+    }
+  ],
+  "id": 3104
+}

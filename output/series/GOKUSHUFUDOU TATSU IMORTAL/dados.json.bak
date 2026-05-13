@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MTU=",
+  "tipo": "serie",
+  "titulo": "GOKUSHUFUDOU: TATSU IMORTAL",
+  "capa_url": "https://lgfp.one/SIS",
+  "capa_local": "GOKUSHUFUDOU TATSU IMORTAL/GOKUSHUFUDOU TATSU IMORTAL.jpg",
+  "sinopse": "Tatsu o “imortal” é um ex-yakuza que abandonou a vida na violência para se tornar um dono de casa e apoiar sua esposa assalariada Miku, mas mesmo assim ele consegue se meter em problemas, entretanto ao invés de serem brigas em becos escuros, são discussões por descontos no mercado.",
+  "genero": "Animação, Comédia",
+  "elenco": "Kenjiro Tsuda, Shizuka Ito, Kazuyuki Okitsu",
+  "diretor": "Chiaki Kon",
+  "total_episodios": "16",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:17:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:16:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:18:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:19:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:18:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:19:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:17:27"
+        }
+      ]
+    }
+  ],
+  "id": 1919
+}

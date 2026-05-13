@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MDM=",
+  "tipo": "serie",
+  "titulo": "COMEDY ROYALE [L]",
+  "capa_url": "https://lgfp.one/AUUB",
+  "capa_local": "COMEDY ROYALE [L]/COMEDY ROYALE [L].jpg",
+  "sinopse": "Vinte comediantes coreanos competem pela chance de apresentar um especial da Netflix, em uma batalha que vai fazer você rolar de rir.",
+  "genero": "Comédia, Reality",
+  "elenco": "Lee Kyung-kyu, Tak Jae-hoon, Moon Se-yoon, Lee Yong-jin, Chung Yeong-joon",
+  "diretor": "Gwon Hae-bom, Park Hyun-seok",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:17"
+        }
+      ]
+    }
+  ],
+  "id": 4562
+}

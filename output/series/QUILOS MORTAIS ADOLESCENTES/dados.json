@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNjU=",
+  "tipo": "serie",
+  "titulo": "QUILOS MORTAIS ADOLESCENTES",
+  "capa_url": "https://lgfp.one/NTR1",
+  "capa_local": "QUILOS MORTAIS ADOLESCENTES/QUILOS MORTAIS ADOLESCENTES.jpg",
+  "sinopse": "Adolescentes com obesidade mórbida enfrentam desafios intensos ao lado de familiares e médicos em uma luta crucial por saúde e qualidade de vida.",
+  "genero": "Reality, Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:28:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:28:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:27:58"
+        }
+      ]
+    }
+  ],
+  "id": 7267
+}

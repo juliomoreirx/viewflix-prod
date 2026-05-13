@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MjQ=",
+  "tipo": "serie",
+  "titulo": "COMPRAMOS, VENDEMOS E TROCAMOS",
+  "capa_url": "https://lgfp.one/SNF",
+  "capa_local": "COMPRAMOS, VENDEMOS E TROCAMOS/COMPRAMOS, VENDEMOS E TROCAMOS.jpg",
+  "sinopse": "Os anúncios do programa de rádio \"Compramos, Vendemos e Trocamos\" causam furor entre pessoas que colecionam carros, histórias em quadrinhos e outros objetos inusitados.",
+  "genero": "Reality",
+  "elenco": "Jen, Doug, J.D, Bobby, Sammy",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:08"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:29:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:31:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:26:15"
+        }
+      ]
+    }
+  ],
+  "id": 2038
+}

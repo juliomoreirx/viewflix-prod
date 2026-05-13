@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MzE=",
+  "tipo": "serie",
+  "titulo": "SOCO NO ESTÔMAGO",
+  "capa_url": "https://lgfp.one/TLD",
+  "capa_local": "SOCO NO ESTOMAGO/SOCO NO ESTOMAGO.jpg",
+  "sinopse": "Inspirada em eventos reais, esta série documental mostra os crimes e a corrupção do conturbado submundo do muay thai.",
+  "genero": "Drama, Documentário",
+  "elenco": "ณัฏฐ์ กิจจริต, ธเนศ วรากุลนุเคราะห์, วิทยา ปานศรีงาม, นพชัย ชัยนาม, ศุภกรณ์ กิจสุวรรณ",
+  "diretor": "Kittichai Wanprasert, Siwat Decharat, Apisada Witthayasingh",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:58"
+        }
+      ]
+    }
+  ],
+  "id": 2692
+}

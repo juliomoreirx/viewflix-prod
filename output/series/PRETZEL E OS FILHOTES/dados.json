@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5MTA=",
+  "tipo": "serie",
+  "titulo": "PRETZEL E OS FILHOTES",
+  "capa_url": "https://lgfp.one/SWZ",
+  "capa_local": "PRETZEL E OS FILHOTES/PRETZEL E OS FILHOTES.jpg",
+  "sinopse": "Conheça Pretzel, o dachshund mais longo do mundo, um pai brincalhão e acolhedor para cinco cachorrinhos. Junto com sua esposa, Greta, eles encorajam seus filhotes a levantar suas patas para resolver problemas e \"deixar sua marca\" no mundo.",
+  "genero": "Kids / Animação",
+  "elenco": "Mark Duplass, Nasim Pedrad",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:50"
+        }
+      ]
+    }
+  ],
+  "id": 2310
+}

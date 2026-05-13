@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Njc=",
+  "tipo": "serie",
+  "titulo": "RESIDENT EVIL: NO ESCURO ABSOLUTO",
+  "capa_url": "https://lgfp.one/RZE",
+  "capa_local": "RESIDENT EVIL NO ESCURO ABSOLUTO/RESIDENT EVIL NO ESCURO ABSOLUTO.jpg",
+  "sinopse": "Anos depois dos horrores de Raccoon City, Claire e Leon se envolvem em uma conspiração sombria depois que um ataque viral assola a Casa Branca.",
+  "genero": "Animação, Drama, Action & Adventure",
+  "elenco": "Nick Apostolides, Stephanie Panisello, Jona Xiao, Ray Chase, Brad Venable",
+  "diretor": "高橋丈夫",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:42"
+        }
+      ]
+    }
+  ],
+  "id": 1657
+}

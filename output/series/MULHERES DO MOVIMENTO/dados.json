@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMjQ=",
+  "tipo": "serie",
+  "titulo": "MULHERES DO MOVIMENTO",
+  "capa_url": "https://lgfp.one/WAW",
+  "capa_local": "MULHERES DO MOVIMENTO/MULHERES DO MOVIMENTO.jpg",
+  "sinopse": "Depois do assassinato brutal de seu filho, Mamie Till-Mobley arriscou sua vida para encontrar justiça e foi uma das percussoras do Movimento dos Direitos Civis dos Negros.",
+  "genero": "Drama",
+  "elenco": "Adrienne Warren, Tonya Pinkins, Cedric Joe, Julia McDermott, Carter Jenkins, Chris Coy, Ray Fisher, Glynn Turman",
+  "diretor": "Marissa Jo Cerar",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:29"
+        }
+      ]
+    }
+  ],
+  "id": 3061
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNTM=",
+  "tipo": "serie",
+  "titulo": "FIRST LOVE AGAIN [L]",
+  "capa_url": "https://lgfp.one/AUQ2",
+  "capa_local": "FIRST LOVE AGAIN [L]/FIRST LOVE AGAIN [L].jpg",
+  "sinopse": "O popular romancista da web Yeon Seok tem um grande segredo. Ele vive há 300 anos para alcançar seu primeiro amor. Ele está procurando por seu primeiro amor, Ha Yeon, que de repente aparece na frente dele como um homem de 25 anos. Yeon Seok, que nunca pensou que seu primeiro amor renasceria como um homem, afasta Ha Yeon a princípio. No entanto, como Ha Yeon é o editor de Yeon Seok nos livros Sin Bi, Yeon Seok não pode escapar de Ha Yeon e eles naturalmente se aproximam ao longo do tempo.",
+  "genero": "Drama",
+  "elenco": "Song Han-hee, Kim Jeong-seok, Jung Hyun-ji, Jin Gun, Jeon Chang Ha",
+  "diretor": "Kang Ho-jung",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:46"
+        }
+      ]
+    }
+  ],
+  "id": 5287
+}

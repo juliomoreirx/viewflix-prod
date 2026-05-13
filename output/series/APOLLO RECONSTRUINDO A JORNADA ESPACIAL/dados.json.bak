@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MjI=",
+  "tipo": "serie",
+  "titulo": "APOLLO: RECONSTRUINDO A JORNADA ESPACIAL",
+  "capa_url": "https://lgfp.one/IQD",
+  "capa_local": "APOLLO RECONSTRUINDO A JORNADA ESPACIAL/APOLLO RECONSTRUINDO A JORNADA ESPACIAL.jpg",
+  "sinopse": "Este documentário narra a aventura épica detalhando a jornada dos homens (e ocasionalmente mulheres) que foram parte ou auxiliaram na missão Apollo.",
+  "genero": "Documentário",
+  "elenco": "Jay Barbree, Jack Clemons, Philippe Henarejos, Homer Reihm, Bill Anders",
+  "diretor": "François Pomès",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:45"
+        }
+      ]
+    }
+  ],
+  "id": 88
+}

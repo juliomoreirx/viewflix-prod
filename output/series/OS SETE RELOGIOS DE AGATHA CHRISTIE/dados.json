@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2ODc=",
+  "tipo": "serie",
+  "titulo": "OS SETE RELOGIOS DE AGATHA CHRISTIE",
+  "capa_url": "https://lgfp.one/RHD6",
+  "capa_local": "OS SETE RELOGIOS DE AGATHA CHRISTIE/OS SETE RELOGIOS DE AGATHA CHRISTIE.jpg",
+  "sinopse": "Inglaterra, 1925. Uma brincadeira em uma festa de arromba teve um final trágico. Caberá à investigadora mais improvável de todas desvendar um mistério que mudará sua vida.",
+  "genero": "Drama, Mistério",
+  "elenco": "Mia McKenna-Bruce, Helena Bonham Carter, Martin Freeman, Corey Mylchreest, Edward Bluemel",
+  "diretor": "Chris Sweeney, Joanna Crow",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:10"
+        }
+      ]
+    }
+  ],
+  "id": 8661
+}

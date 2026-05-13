@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3Mzc=",
+  "tipo": "serie",
+  "titulo": "A VIDA DOS SONHOS DO SR. KIM",
+  "capa_url": "https://lgfp.one/QLS6",
+  "capa_local": "A VIDA DOS SONHOS DO SR. KIM/A VIDA DOS SONHOS DO SR. KIM.jpg",
+  "sinopse": "Plenamente realizado por sua carreira profissional, um homem de meia-idade embarca numa jornada de autodescoberta que muda sua perspectiva sobre a felicidade.",
+  "genero": "Comédia, Drama",
+  "elenco": "류승룡, 명세빈, 차강윤, 유승목, 이신기",
+  "diretor": "조현탁",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:05:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:47"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:10:10"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:14:33"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:09:49"
+        }
+      ]
+    }
+  ],
+  "id": 8237
+}

@@ -1,0 +1,205 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3Mjk=",
+  "tipo": "serie",
+  "titulo": "ROOKIE BLUE",
+  "capa_url": "https://lgfp.one/PMK8",
+  "capa_local": "ROOKIE BLUE/ROOKIE BLUE.jpg",
+  "sinopse": "Andy McNally e seus amigos recém-saídos da academia devem se adaptar à vida desafiadora de um policial da 15ª Divisão em Toronto.",
+  "genero": "Drama, Crime",
+  "elenco": "Missy Peregrym, Ben Bass, Gregory Smith, Enuka Okuma, Travis Milne",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S05E07",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S05E08",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S05E09",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S05E10",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S05E11",
+          "duracao": "00:42:51"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 6",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S06E01",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S06E02",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S06E03",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S06E04",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S06E05",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S06E06",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S06E07",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S06E08",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S06E09",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S06E10",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S06E11",
+          "duracao": "00:43:04"
+        }
+      ]
+    }
+  ],
+  "id": 7703
+}

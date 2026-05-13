@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDM=",
+  "tipo": "serie",
+  "titulo": "O CASO SHERRI PAPINI",
+  "capa_url": "https://lgfp.one/ORL6",
+  "capa_local": "O CASO SHERRI PAPINI/O CASO SHERRI PAPINI.jpg",
+  "sinopse": "Sherri Papini fica famosa por mentir para o FBI, mas a percepção do público sobre ela se baseia em uma narrativa unilateral. Papini se declara culpada e é presa por mentir sobre seu sequestro. Nesta série, ela revela seu lado da história.",
+  "genero": "Documentário, Crime",
+  "elenco": "Sherri Papini, Richard Graeff, Loretta Graeff",
+  "diretor": "Nicole Rittenmeyer",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:31"
+        }
+      ]
+    }
+  ],
+  "id": 7417
+}

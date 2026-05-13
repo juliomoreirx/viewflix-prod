@@ -1,0 +1,200 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMzg=",
+  "tipo": "serie",
+  "titulo": "TOP BOY SUMMERHOUSE",
+  "capa_url": "https://lgfp.one/ACKZ",
+  "capa_local": "TOP BOY SUMMERHOUSE/TOP BOY SUMMERHOUSE.jpg",
+  "sinopse": "Nesta série realista do mundo urbano de Londres, dois traficantes tocam os negócios num conjunto habitacional da cidade.",
+  "genero": "Drama",
+  "elenco": "Ashley Walters, Sharon Duncan-Brewster, Kane Robinson",
+  "diretor": "Yann Demange",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:56"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:47:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:49:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:54:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:55:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "01:06:16"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "01:06:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:58:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:53:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "01:00:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "01:02:07"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:49:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:56:38"
+        }
+      ]
+    }
+  ],
+  "id": 4172
+}

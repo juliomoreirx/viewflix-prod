@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMzU=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS DAS MUMIAS [L]",
+  "capa_url": "https://lgfp.one/LNS9",
+  "capa_local": "SEGREDOS DAS MUMIAS [L]/SEGREDOS DAS MUMIAS [L].jpg",
+  "sinopse": "Uma equipe de arqueólogos liderada pelo Dr. Ramadan Hussein faz a descoberta de uma vida.",
+  "genero": "Documentário",
+  "elenco": "Ramadan Hussein, Salima Ikram",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:10"
+        }
+      ]
+    }
+  ],
+  "id": 6818
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNzk=",
+  "tipo": "serie",
+  "titulo": "FREEKS",
+  "capa_url": "https://lgfp.one/AAKY",
+  "capa_local": "FREEKS/FREEKS.jpg",
+  "sinopse": "Gaspar deve deixar a banda que ele mesmo criou quando Ludovico, Coco, Juani e Ulises o acusam de ter roubado o dinheiro arrecadado nos shows. A acusação viraliza, gerando uma condenação nas redes sociais, enquanto a banda \"FreeKs\" faz sucesso sem ele. Gaspar tentará descobrir quem armou essa emboscada e presenciará a manipulação que seus ex-colegas de banda sofrem da indústria musical. Gaspar deverá provar sua inocência para recuperar seu lugar na banda.",
+  "genero": "Drama, Mistério",
+  "elenco": "Guido Pennelli, Julián Cerati, Alan Madanes, Pablo Turturiello, Gastón Vietto",
+  "diretor": "Martín Deus, Maximiliano Gutiérrez",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:33:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:38:18"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:30:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:30:54"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:41:44"
+        }
+      ]
+    }
+  ],
+  "id": 3629
+}

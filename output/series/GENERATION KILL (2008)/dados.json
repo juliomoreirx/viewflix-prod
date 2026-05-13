@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMzE=",
+  "tipo": "serie",
+  "titulo": "GENERATION KILL (2008)",
+  "capa_url": "https://lgfp.one/SPA8",
+  "capa_local": "GENERATION KILL (2008)/GENERATION KILL (2008).jpg",
+  "sinopse": "Minisérie baseada no livro de Evan Wright sobre suas experiências como um repórter que integrou o Primeiro Batalhão de Reconhecimento da Marinha dos Estados Unidos durante a primeira fase da invasão do Iraque, em 2003.",
+  "genero": "War & Politics, Drama, Action & Adventure",
+  "elenco": "Alexander Skarsgård, James Ransone, Lee Tergesen, Jon Huertas, Stark Sands",
+  "diretor": "",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:56"
+        }
+      ]
+    }
+  ],
+  "id": 9280
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2ODY=",
+  "tipo": "serie",
+  "titulo": "LIGAÇÕES PERIGOSAS",
+  "capa_url": "https://lgfp.one/VZL",
+  "capa_local": "LIGACOES PERIGOSAS/LIGACOES PERIGOSAS.jpg",
+  "sinopse": "Um ousado prelúdio para o romance clássico de Laclos, do século 18, que revela a história de como seus personagens clássicos, a Marquesa de Merteuil e o Visconde de Valmont, se conheceram como jovens amantes, em Paris, às vésperas da revolução.",
+  "genero": "Drama",
+  "elenco": "Alice Englert, Nicholas Denton, Carice van Houten, Michael McElhatton, Lesley Manville",
+  "diretor": "",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:42"
+        }
+      ]
+    }
+  ],
+  "id": 344423
+}

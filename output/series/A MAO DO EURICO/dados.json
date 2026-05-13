@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMzE=",
+  "tipo": "serie",
+  "titulo": "A MÃO DO EURICO",
+  "capa_url": "https://lgfp.one/ATFW",
+  "capa_local": "A MAO DO EURICO/A MAO DO EURICO.jpg",
+  "sinopse": "Nenhum cartola foi mais amado e odiado do que ele. Eurico Miranda colecionou títulos, muitas críticas e se tornou o dirigente mais polêmico da história do futebol brasileiro.",
+  "genero": "Documentário",
+  "elenco": "Eurico Miranda",
+  "diretor": "Rafael Pirrho, Rafael Pirrho, Gustavo Gomes",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:46"
+        }
+      ]
+    }
+  ],
+  "id": 4444
+}

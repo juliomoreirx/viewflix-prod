@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NDQ=",
+  "tipo": "serie",
+  "titulo": "SEXY BEAST",
+  "capa_url": "https://lgfp.one/AZAX",
+  "capa_local": "SEXY BEAST/SEXY BEAST.jpg",
+  "sinopse": "Gal e Don, criminosos em ascensão, são recrutados para um trabalho de alto risco que mudará suas vidas para sempre.",
+  "genero": "Drama",
+  "elenco": "James McArdle, Emun Elliott, Sarah Greene, Stephen Moyer, Tamsin Greig",
+  "diretor": "Daniel O'Hara",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:59"
+        }
+      ]
+    }
+  ],
+  "id": 4908
+}

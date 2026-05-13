@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMDk=",
+  "tipo": "serie",
+  "titulo": "UMA FAMILIA PERFEITA",
+  "capa_url": "https://lgfp.one/NJR6",
+  "capa_local": "UMA FAMILIA PERFEITA/UMA FAMILIA PERFEITA.jpg",
+  "sinopse": "Narrado em diferentes pontos de vista para explorar questões de perspectiva, preconceito e trauma, esse cativante drama é inspirado na perturbadora história de um casal do centro-oeste americano que adota uma menina com uma forma rara de nanismo. Porém, à medida que a criam com seus três filhos biológicos, surgem mistérios em torno de sua idade e de seu passado, e o casal, aos poucos, começa a suspeitar que ela pode não ser quem afirma ser. Enquanto, eles defendem a família da filha que eles passaram a acreditar ser uma ameaça, a menina trava sua própria batalha para confrontar seu passado e o que seu futuro lhe reserva, em um confronto que vai parar nos tabloides e no tribunal.",
+  "genero": "Drama",
+  "elenco": "Ellen Pompeo, Mark Duplass, Imogen Faith Reid",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:40"
+        }
+      ]
+    }
+  ],
+  "id": 7060
+}

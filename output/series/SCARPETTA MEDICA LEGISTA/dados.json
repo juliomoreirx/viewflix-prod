@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NzQ=",
+  "tipo": "serie",
+  "titulo": "SCARPETTA: MÉDICA LEGISTA",
+  "capa_url": "https://lgfp.one/SHF6",
+  "capa_local": "SCARPETTA MEDICA LEGISTA/SCARPETTA MEDICA LEGISTA.jpg",
+  "sinopse": "A renomada patologista forense Dra. Kay Scarpetta retorna ao seu antigo cargo como Chefe do Instituto Médico Legal da Virgínia, onde investiga um assassinato perturbador com lembranças sinistras de seu primeiro grande caso de décadas atrás. Em 1998, Scarpetta trabalha ao lado do investigador Pete Marino e do Agente do FBI Benton Wesley na investigação de uma série de estrangulamentos brutais.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Nicole Kidman, Jamie Lee Curtis, Bobby Cannavale, Simon Baker, Rosy McEwen",
+  "diretor": "David Gordon Green, Sam Evoy, Russell Goldman",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:27"
+        }
+      ]
+    }
+  ],
+  "id": 9379
+}

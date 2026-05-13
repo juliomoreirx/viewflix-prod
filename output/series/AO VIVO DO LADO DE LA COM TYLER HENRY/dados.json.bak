@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNzk=",
+  "tipo": "serie",
+  "titulo": "AO VIVO DO LADO DE LA COM TYLER HENRY",
+  "capa_url": "https://lgfp.one/DTH3",
+  "capa_local": "AO VIVO DO LADO DE LA COM TYLER HENRY/AO VIVO DO LADO DE LA COM TYLER HENRY.jpg",
+  "sinopse": "O famoso médium Tyler Henry faz atendimentos emocionantes a celebridades em busca de cura, respostas e esperança.",
+  "genero": "Reality",
+  "elenco": "Tyler Henry, Amanda Kloots",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:49"
+        }
+      ]
+    }
+  ],
+  "id": 6057
+}

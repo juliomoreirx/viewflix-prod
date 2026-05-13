@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMzQ=",
+  "tipo": "serie",
+  "titulo": "VOCE FARIA O MESMO",
+  "capa_url": "https://lgfp.one/EBB7",
+  "capa_local": "VOCE FARIA O MESMO/VOCE FARIA O MESMO.jpg",
+  "sinopse": "Um ônibus é sequestrado por três ladrões—que acabam mortos antes de conseguirem fugir. A história de cada passageiro é a mesma: um homem encapuzado salvou o dia. Conforme o caso se desenrola, a linha entre herói e criminoso começa a se confundir.",
+  "genero": "Crime, Mistério",
+  "elenco": "Pablo Molinero, Ana Polvorosa, Michelle Jenner, José Manuel Poga, Paco Tous",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:47"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:42"
+        }
+      ]
+    }
+  ],
+  "id": 6182
+}

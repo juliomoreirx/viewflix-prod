@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MzU=",
+  "tipo": "serie",
+  "titulo": "ISSO É UM BOLO? VAMOS CELEBRAR!",
+  "capa_url": "https://lgfp.one/QUC9",
+  "capa_local": "ISSO E UM BOLO VAMOS CELEBRAR!/ISSO E UM BOLO VAMOS CELEBRAR!.jpg",
+  "sinopse": "Pasteleiros das temporadas passadas regressam para prepararem réplicas deliciosas de patins no gelo, quebra-nozes e muito mais, nesta versão natalícia do célebre concurso.",
+  "genero": "Reality",
+  "elenco": "Mikey Day, Elizabeth Rowe, Jujhar Mann",
+  "diretor": "Rich Kim",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:16"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:39:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:40:29"
+        }
+      ]
+    }
+  ],
+  "id": 8420
+}

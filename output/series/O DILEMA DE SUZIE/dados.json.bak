@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMTA=",
+  "tipo": "serie",
+  "titulo": "O DILEMA DE SUZIE",
+  "capa_url": "https://lgfp.one/SGP",
+  "capa_local": "O DILEMA DE SUZIE/O DILEMA DE SUZIE.jpg",
+  "sinopse": "Estrela em declínio, Suzie Pickles tem a vida virada de ponta-cabeça após o vazamento de fotos comprometedoras. Do choque à aceitação, a celebridade tenta superar o trauma.",
+  "genero": "Comédia, Drama",
+  "elenco": "Billie Piper, Leila Farzad, Daniel Ings",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:11"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:50:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:49:57"
+        }
+      ]
+    }
+  ],
+  "id": 1864
+}

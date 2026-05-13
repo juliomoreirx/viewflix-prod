@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMzc=",
+  "tipo": "serie",
+  "titulo": "AMOR MORTAL AMOR",
+  "capa_url": "https://lgfp.one/OVX7",
+  "capa_local": "AMOR MORTAL AMOR/AMOR MORTAL AMOR.jpg",
+  "sinopse": "Amor, Mortal Amor é uma série de histórias de amor arruinadas pela raiva, paixão interrompida pela obsessão e pela felicidade destruída pela paranóia. Casos de amantes cujos relacionamentos terminariam em homicídio serão conhecidos.",
+  "genero": "Crime, Documentário",
+  "elenco": "Ronan Summers",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:27"
+        }
+      ]
+    }
+  ],
+  "id": 7491
+}

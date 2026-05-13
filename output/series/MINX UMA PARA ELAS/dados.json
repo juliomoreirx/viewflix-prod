@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2OTU=",
+  "tipo": "serie",
+  "titulo": "MINX: UMA PARA ELAS",
+  "capa_url": "https://lgfp.one/TDF",
+  "capa_local": "MINX UMA PARA ELAS/MINX UMA PARA ELAS.jpg",
+  "sinopse": "Nos anos 1970, Joyce é uma jovem feminista de Los Angeles que cria um laço improvável com o editor de revistas Doug quando os dois criam a primeira publicação erótica feita para mulheres.",
+  "genero": "Comédia",
+  "elenco": "Ophelia Lovibond, Michael Angarano, Jessica Lowe, Oscar Montoya, Lennon Parham, Idara Victor, Jake Johnson",
+  "diretor": "Ellen Rapoport",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:29:38"
+        }
+      ]
+    }
+  ],
+  "id": 2474
+}

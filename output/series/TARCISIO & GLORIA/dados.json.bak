@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MTA=",
+  "tipo": "serie",
+  "titulo": "TARCÍSIO & GLÓRIA",
+  "capa_url": "https://lgfp.one/YBP",
+  "capa_local": "TARCISIO & GLORIA/TARCISIO & GLORIA.jpg",
+  "sinopse": "Ava Becker é uma cientista do planeta Aurora, onde só existem mulheres. Elas se reproduzem usando sêmen congelado. Especialista em genética, Ava chega à Terra para avaliar a possibilidade de usar homens na perpetuação de sua espécie. Bruno Lazzarini é um empresário simpático e inescrupuloso. Conquistador incorrigível, é amante de Carmem, mulher de um amigo de trapaças. Um disco voador deixa Ava em frente ao carro de Bruno, que voltava de uma farra. Ele a acolhe em sua casa. A situação piora (ou melhora) quando Bruno se entrega aos encantos de Ava.",
+  "genero": "Drama",
+  "elenco": "Tarcísio Meira, Glória Menezes, Zilka Salaberry, Ricardo Blat, Lutero Luiz",
+  "diretor": "Roberto Talma, José Carlos Pieri",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:38:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:39:45"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:45:13"
+        }
+      ]
+    }
+  ],
+  "id": 1791
+}

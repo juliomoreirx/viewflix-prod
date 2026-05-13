@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODc=",
+  "tipo": "serie",
+  "titulo": "ELITE HISTÓRIAS BREVES: PHILLIPE CAYE FELIPE",
+  "capa_url": "https://lgfp.one/TDC",
+  "capa_local": "ELITE HISTORIAS BREVES PHILLIPE CAYE FELIPE/ELITE HISTORIAS BREVES PHILLIPE CAYE FELIPE.jpg",
+  "sinopse": "Com a ajuda de Felipe, Cayetana estava pronta para superar o ex. Até ele decidir reaparecer na vida dela.",
+  "genero": "Mistério, Comédia",
+  "elenco": "Àlex Monner, Georgina Amorós, Pol Granch, Celia Sastre, Josito Pena",
+  "diretor": "Lucía Alemany",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:09:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:32"
+        }
+      ]
+    }
+  ],
+  "id": 2471
+}

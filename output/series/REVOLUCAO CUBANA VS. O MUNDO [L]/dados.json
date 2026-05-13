@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0NDg=",
+  "tipo": "serie",
+  "titulo": "REVOLUCAO CUBANA VS. O MUNDO [L]",
+  "capa_url": "https://lgfp.one/ARWD",
+  "capa_local": "REVOLUCAO CUBANA VS. O MUNDO [L]/REVOLUCAO CUBANA VS. O MUNDO [L].jpg",
+  "sinopse": "Cuba se recusa a ser um mero peão no xadrez político e toma frente ao lado de movimentos de libertação ao redor do mundo, construindo seu próprio caminho na cena internacional",
+  "genero": "Documentário",
+  "elenco": "Fidel Castro",
+  "diretor": "Mick Gold, Delphine Jaudeau",
+  "total_episodios": "116",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:50"
+        }
+      ]
+    }
+  ],
+  "id": 4336
+}

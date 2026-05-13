@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MzU=",
+  "tipo": "serie",
+  "titulo": "HIP HOP UNCOVERED",
+  "capa_url": "https://lgfp.one/SMT",
+  "capa_local": "HIP HOP UNCOVERED/HIP HOP UNCOVERED.jpg",
+  "sinopse": "Conheça a história não contada de como as ruas dos Estados Unidos ajudaram a transformar a cultura hip hop, de uma expressão de sobrevivência e desafio, no gênero musical mais dominante.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:42"
+        }
+      ]
+    }
+  ],
+  "id": 2026
+}

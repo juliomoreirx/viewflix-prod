@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNTA=",
+  "tipo": "serie",
+  "titulo": "CAÇADORES DE NAUFRÁGIOS AUSTRÁLIA",
+  "capa_url": "https://lgfp.one/WFW",
+  "capa_local": "CACADORES DE NAUFRAGIOS AUSTRALIA/CACADORES DE NAUFRAGIOS AUSTRALIA.jpg",
+  "sinopse": "Uma equipe singular de audaciosos mergulhadores e cinegrafistas subaquáticos se junta a arqueólogos marítimos experientes, em busca de segredos de naufrágios há muito perdidos na vasta costa da Austrália Ocidental. Liderados por um capitão pirata obcecado, as missões combinam novas evidências e pesquisa de acervo em uma aventura completa pelo misterioso passado, em um dos lugares mais impressionantes da Terra.",
+  "genero": "Documentário",
+  "elenco": "Johnny Debnam, Ryan Chatfield, Andre Rerekura, Nush Freedman, Ash Sutton",
+  "diretor": "Brendan Hutchens",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:50"
+        }
+      ]
+    }
+  ],
+  "id": 3072
+}

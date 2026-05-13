@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NDU=",
+  "tipo": "serie",
+  "titulo": "CONSUMIDAS PELO FOGO",
+  "capa_url": "https://lgfp.one/AAMR",
+  "capa_local": "CONSUMIDAS PELO FOGO/CONSUMIDAS PELO FOGO.jpg",
+  "sinopse": "Treze anos atrás, a mãe assumiu a culpa por um trágico incêndio. Agora, a filha usa outro nome, trabalha para a madrasta e tem sede de vingança.",
+  "genero": "Drama, Mistério",
+  "elenco": "Mei Nagano, Kyoka Suzuki, Yuri Tsunematsu, Taishi Nakagawa, Michiko Kichise",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:28"
+        }
+      ]
+    }
+  ],
+  "id": 3700
+}

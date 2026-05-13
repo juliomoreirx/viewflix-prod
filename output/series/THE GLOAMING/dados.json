@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MjI=",
+  "tipo": "serie",
+  "titulo": "THE GLOAMING",
+  "capa_url": "https://lgfp.one/SVC",
+  "capa_local": "THE GLOAMING/THE GLOAMING.jpg",
+  "sinopse": "Quando uma mulher é encontrada brutalmente assassinada, as pistas envolvendo sua morte conectam-se com assassinatos do passado e do presente. Logo, corrupção e negócios escusos se entrelaçam com crimes sinistros e práticas de ocultismo.",
+  "genero": "Crime / Drama",
+  "elenco": "Emma Booth, Ewen Leslie, Aaron Pedersen, Rena Owen, Anthony Phelan, Nicole Chamoun, Ditch Davey, Max Brown",
+  "diretor": "Victoria Madden",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:04"
+        }
+      ]
+    }
+  ],
+  "id": 2259
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzODI=",
+  "tipo": "serie",
+  "titulo": "ANGELA BLACK",
+  "capa_url": "https://lgfp.one/SVW",
+  "capa_local": "ANGELA BLACK/ANGELA BLACK.jpg",
+  "sinopse": "Presa em um relacionamento no qual não consegue escapar, Angela é inesperadamente abordada por Ed, e descobre os segredos mais obscuros de seu marido.﻿",
+  "genero": "Drama",
+  "elenco": "Joanne Froggatt, Michiel Huisman, Samuel Adewunmi",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:29"
+        }
+      ]
+    }
+  ],
+  "id": 2281
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Njc=",
+  "tipo": "serie",
+  "titulo": "A INGLESA",
+  "capa_url": "https://lgfp.one/XTT",
+  "capa_local": "A INGLESA/A INGLESA.jpg",
+  "sinopse": "Uma aristocrática inglesa, Lady Cornelia Locke, chega à nova e selvagem paisagem do Ocidente para se vingar do homem que ela considera responsável pela morte de seu filho.",
+  "genero": "Drama, Faroeste",
+  "elenco": "Emily Blunt, Chaske Spencer, Stephen Rea",
+  "diretor": "Hugo Blick",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:51"
+        }
+      ]
+    }
+  ],
+  "id": 3202
+}

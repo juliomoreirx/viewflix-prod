@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MTc=",
+  "tipo": "serie",
+  "titulo": "APOSTANDO ALTO",
+  "capa_url": "https://lgfp.one/RPB",
+  "capa_local": "APOSTANDO ALTO/APOSTANDO ALTO.jpg",
+  "sinopse": "Empenhados em transformar sonhos virtuais em realidade, jovens empreendedores competem por sucesso e amor no implacável mundo da alta tecnologia coreana.",
+  "genero": "Drama, Comédia",
+  "elenco": "Bae Suzy, Nam Joo-hyuk, Kim Seon-ho, Kang Han-na, Kim Hae-sook",
+  "diretor": "Oh Choong-hwan",
+  "total_episodios": "72",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:23:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:23:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:20:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:22:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:21:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:17:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:21:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:21:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:24:31"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:17:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:26:17"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:13:08"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:21:23"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:18:13"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:21:19"
+        }
+      ]
+    }
+  ],
+  "id": 86372
+}

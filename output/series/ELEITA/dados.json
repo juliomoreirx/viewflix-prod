@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5OTU=",
+  "tipo": "serie",
+  "titulo": "ELEITA",
+  "capa_url": "https://lgfp.one/TTR",
+  "capa_local": "ELEITA/ELEITA.jpg",
+  "sinopse": "Em um futuro distópico não muito distante, no qual o estado do Rio de Janeiro está literalmente caindo aos pedaços. O caixa do Estado não tem um tostão furado e o resto do país também não está muito melhor: não existem mais livros, professores, editoras ou imprensa profissional. Para piorar, a política virou um circo tão esquisito que dá saudade da época em que o Macaco Tião quase foi eleito como prefeito do Rio.",
+  "genero": "Comédia",
+  "elenco": "Clarice Falcão, Diogo Vilela, Luciana Paes, Polly Marinho, Rafael Delgado, Bella Camero, Felipe Veloso, Pablo Pêgas",
+  "diretor": "Carolina Jabor, Rodrigo Van Der Put",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:08"
+        }
+      ]
+    }
+  ],
+  "id": 2924
+}

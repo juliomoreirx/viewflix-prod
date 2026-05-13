@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI1NDI=",
+  "tipo": "serie",
+  "titulo": "PARA ALEM DE VOCE",
+  "capa_url": "https://lgfp.one/NLI0",
+  "capa_local": "PARA ALEM DE VOCE/PARA ALEM DE VOCE.jpg",
+  "sinopse": "Amy, uma policial, usa seu recém-descoberto dom de se comunicar com os mortos para ajudar David, um influente político, a resolver crimes. Quando David intervém para ajudá-la com um problema legal, Amy o auxilia a se conectar com sua esposa recém-falecida.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Ariadne Díaz, Sebastián Rulli, Patricia Reyes Spíndola, Dominika Paleta, Nacho Tahhan",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:25"
+        }
+      ]
+    }
+  ],
+  "id": 7102
+}

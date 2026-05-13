@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMjM=",
+  "tipo": "serie",
+  "titulo": "A NOVA VIDA DE TOBY",
+  "capa_url": "https://lgfp.one/XYU",
+  "capa_local": "A NOVA VIDA DE TOBY/A NOVA VIDA DE TOBY.jpg",
+  "sinopse": "Recentemente divorciado, Toby Fleishman, de 41 anos, mergulha no mundo dos aplicativos de namoro com um sucesso que nunca teve em sua juventude. Logo depois, sua ex-mulher desaparece, deixando-o com seus dois filhos pequenos e nenhuma pista de onde ela está ou se planeja voltar.",
+  "genero": "Drama",
+  "elenco": "Jesse Eisenberg, Claire Danes, Lizzy Caplan, Adam Brody, Meara Mahoney Gross, Maxim Swinton",
+  "diretor": "Taffy Brodesser-Akner",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:54"
+        }
+      ]
+    }
+  ],
+  "id": 3228
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODU=",
+  "tipo": "serie",
+  "titulo": "DA ÁFRICA AOS EUA: UMA JORNADA GASTRONÔMICA",
+  "capa_url": "https://lgfp.one/RUD",
+  "capa_local": "DA AFRICA AOS EUA UMA JORNADA GASTRONOMICA/DA AFRICA AOS EUA UMA JORNADA GASTRONOMICA.jpg",
+  "sinopse": "Comida africana é comida americana. Nesta série documental, o chef e escritor Stephen Satterfield mostra pratos saborosos viajando da África ao Texas.",
+  "genero": "Documentário",
+  "elenco": "Stephen Satterfield, Jessica B. Harris, Adrian Miller",
+  "diretor": "Roger Ross Williams, Erik Parker, Jonathan Clasberry, Yoruba Richen",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:59"
+        }
+      ]
+    }
+  ],
+  "id": 1363
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4Mjg=",
+  "tipo": "serie",
+  "titulo": "SONHANDO COM UM MALDITO CONTO DE FADAS",
+  "capa_url": "https://lgfp.one/DTD6",
+  "capa_local": "SONHANDO COM UM MALDITO CONTO DE FADAS/SONHANDO COM UM MALDITO CONTO DE FADAS.jpg",
+  "sinopse": "Sejamos honestos e falemos sobre o que está no fundo de nossos corações. O Complexo da Cinderela! Esta é a história de uma mulher cujo sonho é se tornar Cinderela por causa de sua dura realidade. Ela conhece o Príncipe Encantado, que não acredita no amor, e através dos conflitos que enfrentam, ela amadurece e se torna a própria Princesa Encantada. É uma produção que às vezes parece uma história infantil, mas às vezes também uma história de amor adulta.",
+  "genero": "Comédia",
+  "elenco": "표예진, 이준영, Kim Hyun-jin, Song Ji-woo, Kim Chae-eun",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 6046
+}

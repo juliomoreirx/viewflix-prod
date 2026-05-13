@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NzM=",
+  "tipo": "serie",
+  "titulo": "WILD ISLES",
+  "capa_url": "https://lgfp.one/ZLK",
+  "capa_local": "WILD ISLES/WILD ISLES.jpg",
+  "sinopse": "Nesta série de cinco episódios, David Attenborough revela a vida selvagem e espetáculos naturais tão exóticos e espetaculares como todos os que ele já viu pelo mundo. De baleias assassinas e grandes revoadas de aves limícolas à vida íntima da borboleta-azul, narrativas valiosas de história natural revelam a importância da vida selvagem britânica, mas também reconhecem o desafio de protegê-las.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:59"
+        }
+      ]
+    }
+  ],
+  "id": 3443
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNjk=",
+  "tipo": "serie",
+  "titulo": "JORNADA ASTRAL",
+  "capa_url": "https://lgfp.one/SSG",
+  "capa_local": "JORNADA ASTRAL/JORNADA ASTRAL.jpg",
+  "sinopse": "Duas celebridades com o mesmo signo do zodíaco embarcam numa jornada astral pelo passado, presente e futuro na companhia de Angélica e dos astrólogos Paula Pires e Vítor diCastro.",
+  "genero": "Reality",
+  "elenco": "Angélica, Paula Pires, Vítor diCastro",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:36:26"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:38:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:40:32"
+        }
+      ]
+    }
+  ],
+  "id": 2181
+}

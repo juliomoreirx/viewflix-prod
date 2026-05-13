@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMDI=",
+  "tipo": "serie",
+  "titulo": "A PARTITURA SECRETA",
+  "capa_url": "https://lgfp.one/ATG4",
+  "capa_local": "A PARTITURA SECRETA/A PARTITURA SECRETA.jpg",
+  "sinopse": "Maya e seus amigos encontram uma partitura que lhes concede poderes mágicos. Juntos, eles tentarão manter isso em segredo, sem saber que outra pessoa está procurando por ela com intenções sombrias. Eles viverão aventuras e conhecerão profundamente os outros e a si mesmos. No final, terão diante de si a pergunta: o mundo está pronto para a magia?",
+  "genero": "Action & Adventure, Mistério",
+  "elenco": "Val Dorantes, Juanma Piano, José Peralta, Daniel Ábrego, Mónica Plehn",
+  "diretor": "Juan Carlos de Llaca",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:58"
+        }
+      ]
+    }
+  ],
+  "id": 5266
+}

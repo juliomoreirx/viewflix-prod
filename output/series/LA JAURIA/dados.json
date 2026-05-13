@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNzI=",
+  "tipo": "serie",
+  "titulo": "LA JAURÍA",
+  "capa_url": "https://lgfp.one/RMW",
+  "capa_local": "LA JAURIA/LA JAURIA.jpg",
+  "sinopse": "Um esquadrão policial especializado em crimes de gênero enfrentará forças desconhecidas e o status quo da elite econômica para desmontar uma rede de poder misógina que opera a partir da Deep Web com um único objetivo: atingir e prejudicar mulheres.",
+  "genero": "Drama, Crime",
+  "elenco": "Antonia Zegers, María Gracia Omegna, Daniela Vega, Mariana Di Girolamo, Alberto Guerra",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:38"
+        }
+      ]
+    }
+  ],
+  "id": 1162
+}

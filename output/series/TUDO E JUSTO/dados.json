@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5OTM=",
+  "tipo": "serie",
+  "titulo": "TUDO E JUSTO",
+  "capa_url": "https://lgfp.one/QUC2",
+  "capa_local": "TUDO E JUSTO/TUDO E JUSTO.jpg",
+  "sinopse": "Advogadas de divórcio abandonam um escritório dominado por homens e abrem seu próprio negócio. Brilhantes, complexas e sem papas na língua, elas lidam com separações milionárias, segredos escandalosos e lealdades volúveis, dentro e fora dos tribunais. Em um mundo onde dinheiro fala e amor é campo de batalha, elas não só jogam o jogo, como mudam as regras.",
+  "genero": "Drama, Comédia",
+  "elenco": "Kim Kardashian, Naomi Watts, Niecy Nash-Betts, Teyana Taylor, Matthew Noszka",
+  "diretor": "Scott Robertson, Anthony Hemingway",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:35"
+        }
+      ]
+    }
+  ],
+  "id": 8413
+}

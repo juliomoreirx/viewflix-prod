@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5ODk=",
+  "tipo": "serie",
+  "titulo": "STREET FOOD: ÁSIA",
+  "capa_url": "https://lgfp.one/REE",
+  "capa_local": "STREET FOOD ASIA/STREET FOOD ASIA.jpg",
+  "sinopse": "Embarque em uma jornada cultural global pela comida de rua e desvende a história por trás dos inventores de pratos cheios de sabor e memórias.",
+  "genero": "Documentário",
+  "elenco": "Philip Hersh, Caitlyn Elizabeth, Chawadee Nualkhair",
+  "diretor": "David Gelb, Brian McGinn",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:48"
+        }
+      ]
+    }
+  ],
+  "id": 922
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMTI=",
+  "tipo": "serie",
+  "titulo": "EXTRAPOLATIONS - UM FUTURO INQUIETANTE",
+  "capa_url": "https://lgfp.one/YVV",
+  "capa_local": "EXTRAPOLATIONS - UM FUTURO INQUIETANTE/EXTRAPOLATIONS - UM FUTURO INQUIETANTE.jpg",
+  "sinopse": "Oito histórias interconectadas contadas ao longo de 33 anos. Elas exploram como as mudanças climáticas do nosso planeta afetarão a família, o trabalho, a fé e a sobrevivência.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "Scott Z. Burns",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:36"
+        }
+      ]
+    }
+  ],
+  "id": 3356
+}

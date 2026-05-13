@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMTk=",
+  "tipo": "serie",
+  "titulo": "ZEROZEROZERO",
+  "capa_url": "https://lgfp.one/IQQ",
+  "capa_local": "ZEROZEROZERO/ZEROZEROZERO.jpg",
+  "sinopse": "Baseado no livro de mesmo nome, do autor de best-sellers Roberto Saviano, Zero Zero Zero é uma exploração inesquecível do funcionamento interno do comércio global de cocaína.",
+  "genero": "Crime, Drama",
+  "elenco": "Andrea Riseborough, Dane DeHaan, Giuseppe De Domenico, Harold Torres, Erick Israel Consuelo",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:26"
+        }
+      ]
+    }
+  ],
+  "id": 101
+}

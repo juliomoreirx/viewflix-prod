@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MTQ=",
+  "tipo": "serie",
+  "titulo": "EU MATEI MEU PAI",
+  "capa_url": "https://lgfp.one/TOG",
+  "capa_local": "EU MATEI MEU PAI/EU MATEI MEU PAI.jpg",
+  "sinopse": "Anthony Templet assassinou o próprio pai e nunca negou isso. Mas o motivo é uma questão complexa, com implicações profundas que vão muito além da família.",
+  "genero": "Documentário",
+  "elenco": "Anthony Templet, Teresa Thompson, Susan Templet, Jarrett Ambeau, Peyton Mannino",
+  "diretor": "Skye Borgman",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:19"
+        }
+      ]
+    }
+  ],
+  "id": 2776
+}

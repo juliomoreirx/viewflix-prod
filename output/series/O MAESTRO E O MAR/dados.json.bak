@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMzk=",
+  "tipo": "serie",
+  "titulo": "O MAESTRO E O MAR",
+  "capa_url": "https://lgfp.one/YVW",
+  "capa_local": "O MAESTRO E O MAR/O MAESTRO E O MAR.jpg",
+  "sinopse": "Um músico vai para uma ilha pitoresca com a tarefa de comandar um festival de música e acaba se envolvendo com a vida e os problemas dos moradores do local.",
+  "genero": "Drama, Crime",
+  "elenco": "Χριστόφορος Παπακαλιάτης, Κλέλια Ανδριολάτου, Ορέστης Χαλκιάς, Φάνης Μουρατίδης, Μαρίσσα Τριανταφυλλίδου",
+  "diretor": "Christopher Papakaliatis, Akis Polizos",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:14:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:12:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:06:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:10:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:58:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:06:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:05:13"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:06:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "01:02:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "01:06:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:19:29"
+        }
+      ]
+    }
+  ],
+  "id": 3357
+}

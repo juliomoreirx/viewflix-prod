@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NDY=",
+  "tipo": "serie",
+  "titulo": "SE VIRA COM POUCO - A BATALHA",
+  "capa_url": "https://lgfp.one/YXW",
+  "capa_local": "SE VIRA COM POUCO - A BATALHA/SE VIRA COM POUCO - A BATALHA.jpg",
+  "sinopse": "Ree Drummond convida três cozinheiros domésticos preocupados com o orçamento para fazer compras no Flavortown Market antes de desafiá-los a criar refeições saborosas e econômicas. O poupador mais esperto levará para casa o troféu e um ano de mantimentos!",
+  "genero": "Reality",
+  "elenco": "Ree Drummond",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 3382
+}

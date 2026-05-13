@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxODY=",
+  "tipo": "serie",
+  "titulo": "OS CHOROES",
+  "capa_url": "https://lgfp.one/QIC2",
+  "capa_local": "OS CHOROES/OS CHOROES.jpg",
+  "sinopse": "Uma websérie sobre um grupo de personagens que choram por tudo: corrupção na política, falta de educação, manias e vícios. E por qualquer pessoa. Inclusive você.",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:04:17"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:04:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:03:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:03:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:03:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:03:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:04:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:04:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:02:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:02:20"
+        }
+      ]
+    }
+  ],
+  "id": 8204
+}

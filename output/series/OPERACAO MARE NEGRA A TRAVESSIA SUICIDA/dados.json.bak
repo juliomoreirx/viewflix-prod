@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMjI=",
+  "tipo": "serie",
+  "titulo": "OPERAÇÃO MARÉ NEGRA: A TRAVESSIA SUICIDA",
+  "capa_url": "https://lgfp.one/SYP",
+  "capa_local": "OPERACAO MARE NEGRA A TRAVESSIA SUICIDA/OPERACAO MARE NEGRA A TRAVESSIA SUICIDA.jpg",
+  "sinopse": "A série se passa em novembro de 2019, quando um submarino artesanal atravessa o Oceano Atlântico com três toneladas de cocaína. Lá dentro, três homens sobrevivem a tormentas, correntes, avarias, fome, discussões e a uma constante pressão policial. Ao comando está Nando, um jovem marinheiro e campeão de boxe amador sem recursos financeiros que se vê obrigado a procurar outros meios para ganhar a vida.",
+  "genero": "Crime / Drama",
+  "elenco": "Álex González, Bruno Gagliasso, Nerea Barros, Nuno Lopes, Miquel Insúa, Luis Zahera, José Barato, Carles Francino",
+  "diretor": "Patxi Amézcua, Natxo López",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:13"
+        }
+      ]
+    }
+  ],
+  "id": 2352
+}

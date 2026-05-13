@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MzY=",
+  "tipo": "serie",
+  "titulo": "BRING BACK ALICE",
+  "capa_url": "https://lgfp.one/ZRR",
+  "capa_local": "BRING BACK ALICE/BRING BACK ALICE.jpg",
+  "sinopse": "Há um ano, duas meninas desapareceram. Quando uma delas retorna sem lembranças do ano que passou, o irmão da outra garota tenta provar que os casos estão conectados e descobrir a verdade sobre sua irmã desaparecida.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Helena Englert, Sebastian Dela, Bartłomiej Deklewa, Katarzyna Gałązka, Vitalik Havryla",
+  "diretor": "Dawid Nowak, Lena Tytman, Filip Głodowski",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:47"
+        }
+      ]
+    }
+  ],
+  "id": 3474
+}

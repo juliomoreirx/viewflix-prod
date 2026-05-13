@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMjE=",
+  "tipo": "serie",
+  "titulo": "JO",
+  "capa_url": "https://lgfp.one/IPJ",
+  "capa_local": "JO/JO.jpg",
+  "sinopse": "Um brilhante policial parisiense investiga o submundo da cidade e tenta derrotar qualquer assassino em série que entre em seu caminho.",
+  "genero": "Action & Adventure, Crime",
+  "elenco": "Jean Reno, Jill Hennessy, Tom Austen, Orla Brady, Heida Reed",
+  "diretor": "Kristoffer Nyholm, Stefan Schwartz, Charlotte Sieling, Olivier Bibas, Sheree Folkson",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:14"
+        }
+      ]
+    }
+  ],
+  "id": 68
+}

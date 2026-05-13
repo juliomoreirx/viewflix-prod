@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MzI=",
+  "tipo": "serie",
+  "titulo": "O PRÓXIMO GRANDE CHEF",
+  "capa_url": "https://lgfp.one/AYRZ",
+  "capa_local": "O PROXIMO GRANDE CHEF/O PROXIMO GRANDE CHEF.jpg",
+  "sinopse": "A estrela do Food Network, aclamado chef e dono de restaurante Geoffrey Zakarian pretende investir US$ 250.000 de seus recursos para a próxima estrela em ascensão no mundo dos restaurantes. Geoffrey apresenta a oito chefs talentosos a oportunidade de darem o próximo passo na sua carreira culinária com desafios para determinar quem tem o que é preciso para gerir o seu primeiro restaurante. Quando se trata de desenvolver e operar um restaurante de sucesso, não há ninguém com mais conhecimento do que Geoffrey, e ele está colocando sua reputação em risco para formar uma nova geração de chefs que competem para tornar realidade sua visão de restaurante.",
+  "genero": "Reality",
+  "elenco": "Geoffrey Zakarian, Margaret Zakarian, Eric Kim Haugen",
+  "diretor": "Michael Pearlman",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 4859
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1OTQ=",
+  "tipo": "serie",
+  "titulo": "MASSACRE OF THE MORMONS",
+  "capa_url": "https://lgfp.one/ASX5",
+  "capa_local": "MASSACRE OF THE MORMONS/MASSACRE OF THE MORMONS.jpg",
+  "sinopse": "Em uma colina gelada no México, tiros ecoaram na manhã de 4 de novembro de 2019, ceifando a vida de três mulheres e seis crianças. Quem realmente executou o massacre e por quê?",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Angus Macqueen, Steven Grandison",
+  "total_episodios": "156",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:46"
+        }
+      ]
+    }
+  ],
+  "id": 5252
+}

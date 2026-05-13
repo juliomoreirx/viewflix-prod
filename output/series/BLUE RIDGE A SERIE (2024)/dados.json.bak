@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4ODA=",
+  "tipo": "serie",
+  "titulo": "BLUE RIDGE A SERIE (2024)",
+  "capa_url": "https://lgfp.one/TBY5",
+  "capa_local": "BLUE RIDGE A SERIE (2024)/BLUE RIDGE A SERIE (2024).jpg",
+  "sinopse": "O xerife Justin Wise luta para proteger a pequena cidade apalaquiana de Blue Ridge de forças criminosas tentando destruí-la.",
+  "genero": "Drama, Crime",
+  "elenco": "Johnathon Schaech, Sarah Lancaster, Taegen Burns, Alyshia Ochse, Grayson Russell",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:34"
+        }
+      ]
+    }
+  ],
+  "id": 9502
+}

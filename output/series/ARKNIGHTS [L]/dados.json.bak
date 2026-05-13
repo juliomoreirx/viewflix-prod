@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NDM=",
+  "tipo": "serie",
+  "titulo": "ARKNIGHTS [L]",
+  "capa_url": "https://lgfp.one/PLU7",
+  "capa_local": "ARKNIGHTS [L]/ARKNIGHTS [L].jpg",
+  "sinopse": "Na terra da Terra, desastres naturais de causas desconhecidas vêm ocorrendo de forma irregular em muitas áreas. Portanto, a maioria das pessoas, para escapar desses desastres naturais, passou a viver em cidades móveis desenvolvidas ao longo dos anos. O Originium deixado para trás no local de tais Catástrofes, levou ao rápido progresso da civilização devido à sua imensa energia. Mas também trouxe algo mais – uma doença incurável chamada Oripatia. Como os corpos das pessoas com Oripatia gradualmente se cristalizam e se tornam uma nova fonte de infecção no momento da morte, em muitos países, os infectados estão sujeitos a perseguição sob regimes de segregação e trabalho forçado. Aqueles que foram oprimidos pelos governos estão começando a se rebelar. Rhodes Island, uma empresa farmacêutica que pesquisa a cura para a Oripatia, pega em armas e inicia uma conquista tentando salvar todas as pessoas da doença.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Tomoyo Kurosawa, 甲斐田ゆき, Shizuka Ishigami",
+  "diretor": "西川将貴, 渡邉祐記",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:32"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:23:30"
+        }
+      ]
+    }
+  ],
+  "id": 7680
+}

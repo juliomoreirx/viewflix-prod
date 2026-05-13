@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5Mjg=",
+  "tipo": "serie",
+  "titulo": "THE WINDSORS [L]",
+  "capa_url": "https://lgfp.one/NJM1",
+  "capa_local": "THE WINDSORS [L]/THE WINDSORS [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia, Soap",
+  "elenco": "Harry Enfield, Haydn Gwynne, Hugh Skinner, Morgana Robinson, Katy Wix",
+  "diretor": "Adam Miller",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:43"
+        }
+      ]
+    }
+  ],
+  "id": 7052
+}

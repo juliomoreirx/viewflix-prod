@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MDE=",
+  "tipo": "serie",
+  "titulo": "APOLLOS SONG [L]",
+  "capa_url": "https://lgfp.one/REV0",
+  "capa_local": "APOLLOS SONG [L]/APOLLOS SONG [L].jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "佐藤勝利, 髙石あかり, Sho Nishigaki, 森田想, 河井青葉",
+  "diretor": "二宮健",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:45"
+        }
+      ]
+    }
+  ],
+  "id": 8529
+}

@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NzQ=",
+  "tipo": "serie",
+  "titulo": "O CURIOSO CASO DE NATALIA GRACE",
+  "capa_url": "https://lgfp.one/ARZ6",
+  "capa_local": "O CURIOSO CASO DE NATALIA GRACE/O CURIOSO CASO DE NATALIA GRACE.jpg",
+  "sinopse": "Esta série mais estranha que a ficção explora a questão de saber se Natalia Barnett é uma criança ucraniana explorada com nanismo ou um adulto perigoso disfarçado de criança. Apresentando entrevistas bombásticas exclusivas com membros da família adotiva de Natalia, parentes, amigos, especialistas jurídicos e vizinhos, esta série de documentos oferece um vislumbre nunca antes visto da família Barnett, a identidade de Natalia, o julgamento de Michael Barnett em outubro de 2022, bem como insights importantes em novas teorias e evidências.",
+  "genero": "Documentário, Crime",
+  "elenco": "Cody Daniel, Beth Karas, Michael Barnett (III), Natalia Barnett, Kristine Barnett, Caitlin McEachran, Ava Schlegel",
+  "diretor": "Jackson Conway, Christian Conway",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:06"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:43:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:41:24"
+        }
+      ]
+    }
+  ],
+  "id": 5228
+}

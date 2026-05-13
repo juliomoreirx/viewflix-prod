@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyODU=",
+  "tipo": "serie",
+  "titulo": "BOOM BOX MUSICA E TRAICAO (2026) [L]",
+  "capa_url": "../res/img/movie.png",
+  "capa_local": "",
+  "sinopse": "Nesta envolvente série de crimes reais, um estúdio de gravação londrino atrai aspirantes a rappers e os envolve numa teia de compra e venda de armas. Lealdades mudam e verdades vêm à tona tarde demais, levando a consequências devastadoras.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:10"
+        }
+      ]
+    }
+  ],
+  "id": 9195
+}

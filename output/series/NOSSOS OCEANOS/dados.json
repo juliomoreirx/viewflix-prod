@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNjk=",
+  "tipo": "serie",
+  "titulo": "NOSSOS OCEANOS",
+  "capa_url": "https://lgfp.one/EIN1",
+  "capa_local": "NOSSOS OCEANOS/NOSSOS OCEANOS.jpg",
+  "sinopse": "Descubra as histórias abaixo da superfície oceânica nesta série documental espetacular sobre a natureza, que explora cada um dos cinco oceanos da Terra.",
+  "genero": "Documentário",
+  "elenco": "Barack Obama, Raja Sevak",
+  "diretor": "James Honeyborne",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:42"
+        }
+      ]
+    }
+  ],
+  "id": 6265
+}

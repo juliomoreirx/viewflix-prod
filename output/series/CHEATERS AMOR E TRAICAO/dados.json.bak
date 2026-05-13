@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMjM=",
+  "tipo": "serie",
+  "titulo": "CHEATERS: AMOR E TRAIÇÃO",
+  "capa_url": "https://lgfp.one/WFX",
+  "capa_local": "CHEATERS AMOR E TRAICAO/CHEATERS AMOR E TRAICAO.jpg",
+  "sinopse": "﻿﻿Em uma viagem, Josh e Fola traem seus respectivos parceiros. Porém, ao chegar em casa, descobrem que serão vizinhos e precisam lidar com a culpa e o medo de serem descobertos.",
+  "genero": "Comédia, Drama",
+  "elenco": "Callie Cooke, Jack Fox, Joshua McGuire, Susan Wokoma, Shiloh Coke",
+  "diretor": "Elliot Hegarty",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:22"
+        }
+      ]
+    }
+  ],
+  "id": 3073
+}

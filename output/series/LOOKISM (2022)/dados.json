@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1Njc=",
+  "tipo": "serie",
+  "titulo": "LOOKISM (2022)",
+  "capa_url": "https://lgfp.one/SUK0",
+  "capa_local": "LOOKISM (2022)/LOOKISM (2022).jpg",
+  "sinopse": "Em uma sociedade que favorece a beleza, um estudante leva uma vida dupla, alternando entre dois corpos de aparências totalmente opostas.",
+  "genero": "Comédia, Drama, Animação",
+  "elenco": "심규혁, Han Shin, 류승곤, 정재헌, 남도형",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:07"
+        }
+      ]
+    }
+  ],
+  "id": 9400
+}

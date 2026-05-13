@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyOTc=",
+  "tipo": "serie",
+  "titulo": "OH MY GOD...YES! UMA SÉRIE DE MOMENTOS QUE FAZEM TODO SENTIDO",
+  "capa_url": "https://lgfp.one/QAN0",
+  "capa_local": "OH MY GOD...YES! UMA SERIE DE MOMENTOS QUE FAZEM TODO SENTIDO/OH MY GOD...YES! UMA SERIE DE MOMENTOS QUE FAZEM TODO SENTIDO.jpg",
+  "sinopse": "Ambientado em Los Angeles por volta de 2102, acompanha as desventuras de três amigas enquanto elas exploram a feminilidade em um mundo imprevisível e movido pela tecnologia.",
+  "genero": "Comédia, Animação",
+  "elenco": "Adele Williams, DomiNque Perry, Xosha Roquemore",
+  "diretor": "Greg Franklin, Bryan Newton, Samuel Chou",
+  "total_episodios": "12",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:20"
+        }
+      ]
+    }
+  ],
+  "id": 8008
+}

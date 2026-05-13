@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4OTM=",
+  "tipo": "serie",
+  "titulo": "FANTASMAS DE BEIRUTE",
+  "capa_url": "https://lgfp.one/AAOZ",
+  "capa_local": "FANTASMAS DE BEIRUTE/FANTASMAS DE BEIRUTE.jpg",
+  "sinopse": "A série conta a história de origem de Mughniyeh, de 21 anos, um indescritível terrorista libanês que escapou da captura da CIA e do Mossad por duas décadas. Ele foi responsável por mais mortes americanas do que qualquer outro indivíduo antes do 11 de setembro.",
+  "genero": "Drama",
+  "elenco": "Amir Khoury, Hiba Bennani, Dina Shihabi, Ned Bellamy, David Ignatius",
+  "diretor": "Greg Barker",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:45"
+        }
+      ]
+    }
+  ],
+  "id": 3733
+}

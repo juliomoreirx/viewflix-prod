@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMzA=",
+  "tipo": "serie",
+  "titulo": "IN YOUR HEART [L]",
+  "capa_url": "https://lgfp.one/DTB8",
+  "capa_local": "IN YOUR HEART [L]/IN YOUR HEART [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "胡博文, Cyrus Huang, Meng Yue Chen, Hu Shiwen, Yu Lexin",
+  "diretor": "Li Yun Ming, Li Yun Ming",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:19:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:49"
+        }
+      ]
+    }
+  ],
+  "id": 6028
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MDI=",
+  "tipo": "serie",
+  "titulo": "AZIZE",
+  "capa_url": "https://lgfp.one/KJJ0",
+  "capa_local": "AZIZE/AZIZE.jpg",
+  "sinopse": "Azize é uma história de amor sobre uma enfermeira cuja família foi destruída e o filho de uma família criminosa; ela ficará dividida entre o amor que sentirá por ele e a vingança por sua família.",
+  "genero": "Drama",
+  "elenco": "Buğra Gülsoy, Hande Erçel, Duygu Sarışın, Mustafa Avkıran, Selen Öztürk",
+  "diretor": "Volkan Kocatürk",
+  "total_episodios": "135",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "02:25:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "02:12:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "02:05:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "02:19:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "02:11:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "02:04:40"
+        }
+      ]
+    }
+  ],
+  "id": 6393
+}

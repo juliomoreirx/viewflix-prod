@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNzg=",
+  "tipo": "serie",
+  "titulo": "MISTÉRIO NA NEVE: O CASO KAREN READ",
+  "capa_url": "https://lgfp.one/NQT7",
+  "capa_local": "MISTERIO NA NEVE O CASO KAREN READ/MISTERIO NA NEVE O CASO KAREN READ.jpg",
+  "sinopse": "A série investiga o julgamento de Karen Read, acusada de matar o namorado, o policial John O'Keefe. Ela alega ser vítima de uma conspiração.",
+  "genero": "Documentário, Crime",
+  "elenco": "John O'Keefe, Karen Read, Alan Jackson",
+  "diretor": "Terry Dunn Meurer",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:35"
+        }
+      ]
+    }
+  ],
+  "id": 7209
+}

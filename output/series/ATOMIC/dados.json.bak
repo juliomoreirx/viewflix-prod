@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MjQ=",
+  "tipo": "serie",
+  "titulo": "ATOMIC",
+  "capa_url": "https://lgfp.one/PVS0",
+  "capa_local": "ATOMIC/ATOMIC.jpg",
+  "sinopse": "Quando o traficante Max e o ex-jihadista JJ se encontram no deserto do Norte da África, um acaso vira uma jornada violenta e espiritual. Agora, eles enfrentam a missão mais importante de suas vidas.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Alfie Allen, Shazad Latif, Samira Wiley, Avital Lvova",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:47"
+        }
+      ]
+    }
+  ],
+  "id": 7877
+}

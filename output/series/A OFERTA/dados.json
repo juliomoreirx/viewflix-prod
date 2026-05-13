@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5Mzc=",
+  "tipo": "serie",
+  "titulo": "A OFERTA",
+  "capa_url": "https://lgfp.one/TEP",
+  "capa_local": "A OFERTA/A OFERTA.jpg",
+  "sinopse": "Incomodado pela exposição da trama sobre a família Corleone, Joe Colombo, um dos chefes da máfia de Nova Iorque, tenta dar fim à produção, ameaçando os produtores. Mesmo correndo riscos, Albert se nega a interromper o grande projeto de sua vida.",
+  "genero": "Drama",
+  "elenco": "Miles Teller, Matthew Goode, Juno Temple, Giovanni Ribisi, Dan Fogler, Burn Gorman, Colin Hanks, Patrick Gallo",
+  "diretor": "Colin Bucksey",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:04:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:47"
+        }
+      ]
+    }
+  ],
+  "id": 2512
+}

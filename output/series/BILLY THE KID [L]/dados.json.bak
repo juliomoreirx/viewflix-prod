@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MTQ=",
+  "tipo": "serie",
+  "titulo": "BILLY THE KID [L]",
+  "capa_url": "https://lgfp.one/AQZA",
+  "capa_local": "BILLY THE KID [L]/BILLY THE KID [L].jpg",
+  "sinopse": "A história segue Billy the Kid desde suas humildes raízes irlandesas até seus primeiros dias como cowboy e pistoleiro na fronteira americana até seu papel fundamental na Guerra do Condado de Lincoln. Um dia ele conhece Jesse Evans, outro famoso fora-da-lei e líder da quadrilha Seven Rivers. Quando eles se encontram, Jesse já abraçou uma vida de crime que consiste em roubar lojas e o gado de várias famílias.",
+  "genero": "Faroeste, Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:45:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:45:40"
+        }
+      ]
+    }
+  ],
+  "id": 3206
+}

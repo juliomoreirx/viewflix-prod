@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MzE=",
+  "tipo": "serie",
+  "titulo": "PRIVILEGIOS (2026)",
+  "capa_url": "https://lgfp.one/SOO8",
+  "capa_local": "PRIVILEGIOS (2026)/PRIVILEGIOS (2026).jpg",
+  "sinopse": "A detenta Adèle Charki aceita um emprego em um hotel de Paris em troca de liberdade condicional. Mas, em seu primeiro turno, ela se vê envolvida em uma teia de manipulação entre funcionários e hóspedes, que coloca sua liberdade em risco.",
+  "genero": "Drama, Mistério",
+  "elenco": "Manon Bresch, Melvil Poupaud, Nina Zem, Anne Azoulay, زر امیرابراهیمی",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:00:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:27"
+        }
+      ]
+    }
+  ],
+  "id": 9272
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTE=",
+  "tipo": "serie",
+  "titulo": "NA MIRA DO FOGO",
+  "capa_url": "https://lgfp.one/TQS",
+  "capa_local": "NA MIRA DO FOGO/NA MIRA DO FOGO.jpg",
+  "sinopse": "No Quartel East Bank, uma equipe de bombeiros muito unida precisa lidar com o trabalho estressante e perigoso em meio a outros desafios pessoais e profissionais.",
+  "genero": "Drama",
+  "elenco": "Louis Talpe, Ismail L'Hamiti, Lien De Graeve, Wouter Bruneel, Vincent Van Sande",
+  "diretor": "Joost Wynant, Joost Wynant",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:36"
+        }
+      ]
+    }
+  ],
+  "id": 2842
+}

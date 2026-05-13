@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMTk=",
+  "tipo": "serie",
+  "titulo": "UNIDOS MANCHESTER CITY TRICAMPEAO",
+  "capa_url": "https://lgfp.one/ARV1",
+  "capa_local": "UNIDOS MANCHESTER CITY TRICAMPEAO/UNIDOS MANCHESTER CITY TRICAMPEAO.jpg",
+  "sinopse": "Esta série documental revive a temporada 2022-23 do Manchester City FC, quando o time conseguiu uma vitória sem precedentes: a Tríplice Coroa.",
+  "genero": "Documentário",
+  "elenco": "Pep Guardiola, Erling Haaland, Jack Grealish, Riyad Mahrez, Kevin de Bruyne",
+  "diretor": "John De Caux",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:29"
+        }
+      ]
+    }
+  ],
+  "id": 5225
+}

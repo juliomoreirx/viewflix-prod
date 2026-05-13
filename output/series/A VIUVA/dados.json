@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NzA=",
+  "tipo": "serie",
+  "titulo": "A VIUVA",
+  "capa_url": "https://lgfp.one/DKF3",
+  "capa_local": "A VIUVA/A VIUVA.jpg",
+  "sinopse": "A busca de uma mulher para descobrir o desaparecimento misterioso do marido a leva para o Congo, onde ela é forçada a procurar a verdade sobre o que aconteceu com o homem que amava.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Kate Beckinsale, Matthew Le Nevez, Alex Kingston, Charles Dance, Bart Fouche",
+  "diretor": "Olly Blackburn, Sam Donovan",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:22"
+        }
+      ]
+    }
+  ],
+  "id": 167777
+}

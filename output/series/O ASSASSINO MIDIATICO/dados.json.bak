@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NDY=",
+  "tipo": "serie",
+  "titulo": "O ASSASSINO MIDIÁTICO",
+  "capa_url": "https://lgfp.one/ZCN",
+  "capa_local": "O ASSASSINO MIDIATICO/O ASSASSINO MIDIATICO.jpg",
+  "sinopse": "Em meio a uma onda de assassinatos, um promotor obstinado faz de tudo para encontrar quem cometeu esses crimes terríveis.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "吳慷仁, 柯佳嬿, 姚淳耀, 江宜蓉, 范少勳",
+  "diretor": "Chang Jung-Chi, Henri Chang, 洪昰顥",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:10:40"
+        }
+      ]
+    }
+  ],
+  "id": 3393
+}

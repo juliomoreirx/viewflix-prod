@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MjU=",
+  "tipo": "serie",
+  "titulo": "VLADIMIR (2026)",
+  "capa_url": "https://lgfp.one/SCU1",
+  "capa_local": "VLADIMIR (2026)/VLADIMIR (2026).jpg",
+  "sinopse": "Uma professora de inglês fica obcecada pelo novo colega bonitão. O resultado? O casamento e a carreira, que já estavam meio complicados, ficam mergulhados no caos.",
+  "genero": "Drama, Comédia",
+  "elenco": "Rachel Weisz, Leo Woodall, John Slattery, Ellen Robertson, Jessica Henwick",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:43"
+        }
+      ]
+    }
+  ],
+  "id": 9033
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MDY=",
+  "tipo": "serie",
+  "titulo": "JUSTIÇA POR MALIK OUSSEKINE",
+  "capa_url": "https://lgfp.one/TFX",
+  "capa_local": "JUSTICA POR MALIK OUSSEKINE/JUSTICA POR MALIK OUSSEKINE.jpg",
+  "sinopse": "Na noite de 5 de dezembro de 1986, Malik Oussekine, de 22 anos, é espancado até a morte pela polícia. Essa minissérie acompanha a luta da família Oussekine por justiça, recontando os acontecimentos, mostrando suas esperanças e desilusões e retratando um país em conflito.",
+  "genero": "Drama",
+  "elenco": "Kad Merad, Sayyid El Alami, Hiam Abbass, Olivier Gourmet, Laurent Stocker, Tewfik Jallab, Slimane Dazi, Malek Lamraoui",
+  "diretor": "Antoine Chevrollier",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:40"
+        }
+      ]
+    }
+  ],
+  "id": 2546
+}

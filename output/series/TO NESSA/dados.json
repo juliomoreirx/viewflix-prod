@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMjI=",
+  "tipo": "serie",
+  "titulo": "TO NESSA",
+  "capa_url": "https://lgfp.one/DWG9",
+  "capa_local": "TO NESSA/TO NESSA.jpg",
+  "sinopse": "Mirinda se aventura em diferentes trabalhos para manter os boletos em dia. Com humor e afeto, ela envolve as três filhas e a neta na tentativa de fazer o negócio dar certo.",
+  "genero": "Comédia",
+  "elenco": "Regina Casé, Luana Martau, Heslaine Vieira, Valentina Bandeira, Heleninha Repertório",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:34"
+        }
+      ]
+    }
+  ],
+  "id": 6106
+}

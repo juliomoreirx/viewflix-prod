@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Nzk=",
+  "tipo": "serie",
+  "titulo": "A MAIS PURA VERDADE",
+  "capa_url": "https://lgfp.one/SPF",
+  "capa_local": "A MAIS PURA VERDADE/A MAIS PURA VERDADE.jpg",
+  "sinopse": "Após uma noite desastrosa com o irmão, um comediante famoso vê sua vida virar de cabeça para baixo, correndo o risco de perder tudo o que conquistou.",
+  "genero": "Drama, Crime",
+  "elenco": "Kevin Hart, Wesley Snipes, Paul Adelstein, William Catlett, Tawny Newsome",
+  "diretor": "Hanelle M. Culpepper, Stephen Williams",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:43"
+        }
+      ]
+    }
+  ],
+  "id": 2093
+}

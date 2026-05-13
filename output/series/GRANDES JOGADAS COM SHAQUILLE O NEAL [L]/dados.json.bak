@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MTQ=",
+  "tipo": "serie",
+  "titulo": "GRANDES JOGADAS COM SHAQUILLE O NEAL [L]",
+  "capa_url": "https://lgfp.one/OTM0",
+  "capa_local": "GRANDES JOGADAS COM SHAQUILLE O NEAL [L]/GRANDES JOGADAS COM SHAQUILLE O NEAL [L].jpg",
+  "sinopse": "Nesta série documental, as lendas da NBA Shaquille O'Neal e Allen Iverson tentam reviver o legado da Reebok e encontrar uma estrela em ascensão para representar a marca.",
+  "genero": "Documentário",
+  "elenco": "Shaquille O'Neal, Allen Iverson",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:10"
+        }
+      ]
+    }
+  ],
+  "id": 7448
+}

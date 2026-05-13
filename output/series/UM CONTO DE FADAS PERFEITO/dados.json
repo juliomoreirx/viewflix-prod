@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzODc=",
+  "tipo": "serie",
+  "titulo": "UM CONTO DE FADAS PERFEITO",
+  "capa_url": "https://lgfp.one/AAQX",
+  "capa_local": "UM CONTO DE FADAS PERFEITO/UM CONTO DE FADAS PERFEITO.jpg",
+  "sinopse": "Quando foge do próprio casamento, Margot se sente perdida. Mal sabe ela que David e seu caos encantador podem ajudá-la a se reencontrar.",
+  "genero": "Comédia",
+  "elenco": "Anna Castillo, Álvaro Mel, Mario Ermito",
+  "diretor": "Chloé Wallace",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:39"
+        }
+      ]
+    }
+  ],
+  "id": 3783
+}

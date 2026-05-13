@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NTI=",
+  "tipo": "serie",
+  "titulo": "AITANA METAMORFOSE [L]",
+  "capa_url": "https://lgfp.one/NDR4",
+  "capa_local": "AITANA METAMORFOSE [L]/AITANA METAMORFOSE [L].jpg",
+  "sinopse": "Nesta série documental, Aitana revela sua intimidade e reflete como foi a jornada de adolescente comum a estrela pop internacional.",
+  "genero": "Documentário",
+  "elenco": "Aitana",
+  "diretor": "Chloé Wallace, Rafael Martínez Calle",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:23"
+        }
+      ]
+    }
+  ],
+  "id": 6975
+}

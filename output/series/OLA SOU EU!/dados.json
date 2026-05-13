@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3OTg=",
+  "tipo": "serie",
+  "titulo": "OLÁ? SOU EU!",
+  "capa_url": "https://lgfp.one/SMW",
+  "capa_local": "OLA SOU EU!/OLA SOU EU!.jpg",
+  "sinopse": "Fracassada e infeliz, uma mulher sente que perdeu a vontade de viver. Até que um dia, uma versão mais jovem dela mesma aparece exigindo mudanças.",
+  "genero": "Drama / Sci-Fi & Fantasy / Comédia",
+  "elenco": "Choi Kang-hee, Kim Young-kwang, Lee Re, Eum Moon-suk, Kim Yu-mi, Ji Seung-hyun, Yoon Joo-sang, Baek Hyun-joo",
+  "diretor": "Lee Hyun-seok",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:49"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:01:51"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:02:01"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:13"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:01:45"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:02:07"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:02:53"
+        }
+      ]
+    }
+  ],
+  "id": 2029
+}

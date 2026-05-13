@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNzI=",
+  "tipo": "serie",
+  "titulo": "A FANTASTICA FÁBRICA DA SANIDADE",
+  "capa_url": "https://lgfp.one/AAMW",
+  "capa_local": "A FANTASTICA FABRICA DA SANIDADE/A FANTASTICA FABRICA DA SANIDADE.jpg",
+  "sinopse": "Há quem durma desejando nunca mais acordar. Há quem já acorde querendo voltar a dormir. Neste novo documentário da Brasil Paralelo, você acompanha a história e os relatos de quem lida,  pessoal ou profissionalmente, com essa questão. Mente, corpo e alma serão perscrutados, para nos ajudar a compreender como as sociedades vêm adoecendo. Assista agora à maior investigação documental sobre psicologia e psiquiatria já feita no Brasil.",
+  "genero": "Documentário",
+  "elenco": "Leandro Souza, Laura Valadão, Euler Santi, Ana Lúcia Soares, Eduardo Gonçalves",
+  "diretor": "Lucas Araújo, Lucas Araújo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:56"
+        }
+      ]
+    }
+  ],
+  "id": 3678
+}

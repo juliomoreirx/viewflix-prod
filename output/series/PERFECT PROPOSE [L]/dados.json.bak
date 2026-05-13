@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNTE=",
+  "tipo": "serie",
+  "titulo": "PERFECT PROPOSE [L]",
+  "capa_url": "https://lgfp.one/DJS1",
+  "capa_local": "PERFECT PROPOSE [L]/PERFECT PROPOSE [L].jpg",
+  "sinopse": "Hiro está tão estressado no trabalho que mal consegue fazer refeições adequadas ou conseguir um sono merecido. Quando desmaia na calçada após mais um dia estressante, um rosto desconhecido o chama - aparentemente, eles uma vez prometeram se casar? Qual é a história de Kai Fukaya e por que ele está tão insistente em assumir o papel de noivo de Hiro?",
+  "genero": "Drama",
+  "elenco": "金子隼也, 野村康太, Jingi Irie, Ayane Kinoshita, Rio Takahashi",
+  "diretor": "Tadaaki Horai",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:09"
+        }
+      ]
+    }
+  ],
+  "id": 5881
+}

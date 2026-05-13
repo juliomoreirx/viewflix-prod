@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwMjM=",
+  "tipo": "serie",
+  "titulo": "A COLINA DO CAO [L]",
+  "capa_url": "https://lgfp.one/KXW0",
+  "capa_local": "A COLINA DO CAO [L]/A COLINA DO CAO [L].jpg",
+  "sinopse": "Um escritor famoso e consagrado, atormentado por traumas e por um chantagista misterioso, retorna à cidade natal para resolver pendências do passado.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "Jaśmina Polak, Mateusz Kościukiewicz, Robert Więckiewicz, Wojciech Zieliński, Kamila Urzędowska",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:28"
+        }
+      ]
+    }
+  ],
+  "id": 6616
+}

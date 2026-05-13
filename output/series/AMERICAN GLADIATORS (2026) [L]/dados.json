@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5MTI=",
+  "tipo": "serie",
+  "titulo": "AMERICAN GLADIATORS (2026) [L]",
+  "capa_url": "https://lgfp.one/TCE2",
+  "capa_local": "AMERICAN GLADIATORS (2026) [L]/AMERICAN GLADIATORS (2026) [L].jpg",
+  "sinopse": "24 competidores enfrentam 16 gladiadores em desafios físicos clássicos (Justa, Powerball, Aguente Firme, a Parede), além de provas inéditas (o Ringue e Colisão). Cada episódio termina com uma prova eliminatória, onde os competidores disputam uma vaga na final, na qual um homem e uma mulher ganharão 100 mil dólares cada!",
+  "genero": "Reality",
+  "elenco": "Mike Mizanin, Eric Bugenhagen, Jessie Godderz, Michael Wardlow",
+  "diretor": "Ramy Romany",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:43"
+        }
+      ]
+    }
+  ],
+  "id": 9520
+}

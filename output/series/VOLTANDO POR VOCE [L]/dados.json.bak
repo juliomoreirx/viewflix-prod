@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxODI=",
+  "tipo": "serie",
+  "titulo": "VOLTANDO POR VOCE [L]",
+  "capa_url": "https://lgfp.one/DXP6",
+  "capa_local": "VOLTANDO POR VOCE [L]/VOLTANDO POR VOCE [L].jpg",
+  "sinopse": "Duas irmãs, uma que prevê o futuro e a outra que controla o tempo, voltam ao passado e tentam mudar o destino para salvar um amor condenado à tragédia.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Methakarn Anektanasuwan, Gulasatree Michalsky, Natnicha Polsombat, Thitinan Rattanathitinan, Moniejaya Tanaryan",
+  "diretor": "Vathanyu Ingkawiwat, Kulp Kaljareuk",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:57"
+        }
+      ]
+    }
+  ],
+  "id": 6147
+}

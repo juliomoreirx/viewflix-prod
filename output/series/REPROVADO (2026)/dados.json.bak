@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NjM=",
+  "tipo": "serie",
+  "titulo": "REPROVADO (2026)",
+  "capa_url": "https://lgfp.one/SVI2",
+  "capa_local": "REPROVADO (2026)/REPROVADO (2026).jpg",
+  "sinopse": "Eddy é um vigarista e gênio da matemática que trabalha disfarçado como professor para evitar a cadeia. Agora, ele tem uma missão: encontrar um grande criminoso.",
+  "genero": "Comédia, Crime",
+  "elenco": "Alexandre Kominek, Laurence Arné, Leslie Medina, Joséphine de Meaux, Yannik Landrein",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:34"
+        }
+      ]
+    }
+  ],
+  "id": 9419
+}

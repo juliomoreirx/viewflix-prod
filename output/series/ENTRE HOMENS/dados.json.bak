@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MDE=",
+  "tipo": "serie",
+  "titulo": "ENTRE HOMENS",
+  "capa_url": "https://lgfp.one/SHT",
+  "capa_local": "ENTRE HOMENS/ENTRE HOMENS.jpg",
+  "sinopse": "A trama gira em torno de uma festa cheia de sexo e drogas na qual acontece um crime que compromete todos os convidados. No caminho para apagar todos os vestígios de evidência, os protagonistas serão confrontados ​​com vingança, sangue e ilegalidade.",
+  "genero": "Drama, Crime",
+  "elenco": "Nicolás Furtado, Diego Cremonesi, Gabriel Goity, Claudio Rissi, Diego Velázquez",
+  "diretor": "Pablo Fendrik",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:28"
+        }
+      ]
+    }
+  ],
+  "id": 1894
+}

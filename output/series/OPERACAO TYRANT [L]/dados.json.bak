@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MDg=",
+  "tipo": "serie",
+  "titulo": "OPERACAO TYRANT [L]",
+  "capa_url": "https://lgfp.one/OTN2",
+  "capa_local": "OPERACAO TYRANT [L]/OPERACAO TYRANT [L].jpg",
+  "sinopse": "Um projeto secreto da Coreia do Sul é revelado para os EUA. O projeto é cancelado, e a amostra seria entregue, mas ocorre um acidente na entrega. O diretor Choe tenta escondê-la, Paul tenta encontrá-la, mas ambos acabam no mesmo lugar que a Jagyeong e o Lim Sang. Quem ficará com a amostra no final?",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "차승원, 김선호, 김강우, 조윤수, 무진성",
+  "diretor": "박훈정",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:36"
+        }
+      ]
+    }
+  ],
+  "id": 7460
+}

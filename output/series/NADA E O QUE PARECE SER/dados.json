@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NDY=",
+  "tipo": "serie",
+  "titulo": "NADA É O QUE PARECE SER",
+  "capa_url": "https://lgfp.one/SVO",
+  "capa_local": "NADA E O QUE PARECE SER/NADA E O QUE PARECE SER.jpg",
+  "sinopse": "O mundo de uma jovem de 17 anos vira de pernas para o ar depois que ela e os amigos descobrem a verdade perturbadora sobre sua pacata cidade dinamarquesa.",
+  "genero": "Sci-Fi & Fantasy, Drama, Mistério",
+  "elenco": "Malaika Berenth Mosendane, Andrea Heick Gadeberg, Andreas Dittmer, Albert Rudbeck Lindhardt, Mohamed Djeziri",
+  "diretor": "Kaspar Munk",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:38"
+        }
+      ]
+    }
+  ],
+  "id": 2273
+}

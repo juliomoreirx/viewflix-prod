@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNjE=",
+  "tipo": "serie",
+  "titulo": "GRISELDA",
+  "capa_url": "https://lgfp.one/AZAR",
+  "capa_local": "GRISELDA/GRISELDA.jpg",
+  "sinopse": "Inspirado em eventos reais, este drama fictício retrata a jornada de Griselda Blanco desde Medelín até se tornar a \"Madrinha\" do império do tráfico de drogas de Miami.",
+  "genero": "Drama, Crime",
+  "elenco": "Sofía Vergara, Alberto Guerra, Christian Tappán, Martín Rodríguez, Juliana Aidén Martinez",
+  "diretor": "Andrés Baiz",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:54"
+        }
+      ]
+    }
+  ],
+  "id": 4902
+}

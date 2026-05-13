@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzOTk=",
+  "tipo": "serie",
+  "titulo": "É OURO! O BRILHO DO BRASIL EM TÓQUIO",
+  "capa_url": "https://lgfp.one/SNI",
+  "capa_local": "E OURO! O BRILHO DO BRASIL EM TOQUIO/E OURO! O BRILHO DO BRASIL EM TOQUIO.jpg",
+  "sinopse": "Por 17 dias, voltamos a experimentar a sensação do abraço da vitória e o orgulho de torcer juntos. É ouro conta a história dos campeões olímpicos brasileiros em Tóquio e uma surpresa extra.",
+  "genero": "Documentário",
+  "elenco": "Ítalo Ferreira, Rebeca Andrade, Isaquias Queiroz, Martine Grael, Kahena Kunze",
+  "diretor": "Daniel Falcão, Rafael Pirrho",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:41"
+        }
+      ]
+    }
+  ],
+  "id": 2041
+}

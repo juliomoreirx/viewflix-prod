@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1Njc=",
+  "tipo": "serie",
+  "titulo": "DINOTOPIA A TERRA DOS DINOSSAUROS",
+  "capa_url": "https://lgfp.one/RFZ9",
+  "capa_local": "DINOTOPIA A TERRA DOS DINOSSAUROS/DINOTOPIA A TERRA DOS DINOSSAUROS.jpg",
+  "sinopse": "Dois irmãos sobrevivem após um acidente aéreo e vão parar em uma ilha que irá transformar suas vidas. Uma terra sem tempo exato e um mundo além do real, onde dinossauros e pessoas convivem em harmonia andando, conversando e até se divertindo juntos.",
+  "genero": "Action & Adventure, Família, Sci-Fi & Fantasy",
+  "elenco": "David Thewlis, Katie Carr, Jim Carter, Alice Krige, Wentworth Miller",
+  "diretor": "Fraser Fennell-Ball",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:22:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:22:04"
+        }
+      ]
+    }
+  ],
+  "id": 8591
+}

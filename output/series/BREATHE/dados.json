@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NjA=",
+  "tipo": "serie",
+  "titulo": "BREATHE",
+  "capa_url": "https://lgfp.one/DMY4",
+  "capa_local": "BREATHE/BREATHE.jpg",
+  "sinopse": "Breathe é um drama indiano que explora a vida de pessoas comuns diante de circunstâncias inesperadas. Kabir, um brilhante, mas não convencional policial do setor de crimes, tenta juntar as peças de mortes aparentemente sem conexão de doadores de órgãos que levam a um suspeito inusitado – o amável Danny. Kabir não vai desistir até solucionar o caso e fazer justiça.",
+  "genero": "Crime, Drama",
+  "elenco": "R. Madhavan, Amit Sadh, Sapna Pabbi, Atharva Vishwakarma, Shriswara",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:21"
+        }
+      ]
+    }
+  ],
+  "id": 5950
+}

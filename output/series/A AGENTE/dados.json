@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NzE=",
+  "tipo": "serie",
+  "titulo": "A AGENTE",
+  "capa_url": "https://lgfp.one/QMW6",
+  "capa_local": "A AGENTE/A AGENTE.jpg",
+  "sinopse": "Uma jovem policial se infiltra para fazer amizade com a esposa de um traficante de drogas. Mas, quanto mais se aproxima dela, mais a missão se complica.",
+  "genero": "Drama, Crime",
+  "elenco": "Clara Dessau, Maria Cordsen, Afshin Firouzi, Nicolas Bro",
+  "diretor": "Samanou Acheche Sahlstrøm,  Kasper Barfoed",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:15"
+        }
+      ]
+    }
+  ],
+  "id": 8257
+}

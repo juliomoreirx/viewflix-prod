@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2MzY=",
+  "tipo": "serie",
+  "titulo": "OS 7 URSOS",
+  "capa_url": "https://lgfp.one/PGG9",
+  "capa_local": "OS 7 URSOS/OS 7 URSOS.jpg",
+  "sinopse": "Esqueça os sete anões, porque os sete ursos estão chegando! Esses bichinhos fofos vão revolucionar os contos de fadas que todo mundo conhece.",
+  "genero": "Animação, Kids",
+  "elenco": "Tiffany Hofstetter, Eric Meyers, Penelope Rawlins, Mia Sinclair Jenness, John Macmillan",
+  "diretor": "Guillaume Rio",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:51"
+        }
+      ]
+    }
+  ],
+  "id": 7612
+}

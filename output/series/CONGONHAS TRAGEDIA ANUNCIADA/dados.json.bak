@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NDY=",
+  "tipo": "serie",
+  "titulo": "CONGONHAS TRAGÉDIA ANUNCIADA",
+  "capa_url": "https://lgfp.one/NRE8",
+  "capa_local": "CONGONHAS TRAGEDIA ANUNCIADA/CONGONHAS TRAGEDIA ANUNCIADA.jpg",
+  "sinopse": "As histórias inéditas e a tragédia humana por trás do desastre aéreo mais fatal da América Latina são investigadas nesta série documental em três partes.",
+  "genero": "Documentário",
+  "elenco": "Christophe Haddad, Roberto Gomes, Dario Scott",
+  "diretor": "Fábio Leal",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:53"
+        }
+      ]
+    }
+  ],
+  "id": 7222
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MTk=",
+  "tipo": "serie",
+  "titulo": "BRASIL IMPERIAL",
+  "capa_url": "https://lgfp.one/RXD",
+  "capa_local": "BRASIL IMPERIAL/BRASIL IMPERIAL.jpg",
+  "sinopse": "As consequências da chegada da Corte Portuguesa ao Brasil, em 1808, que favoreceu diversas transformações culturais e pouco tempo depois resultou na Independência do país, em 7 de setembro de 1822, e e o retorno de D. Pedro I a Portugal, em 1831, serão tema da série “Brasil Imperial”",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:46"
+        }
+      ]
+    }
+  ],
+  "id": 1445
+}

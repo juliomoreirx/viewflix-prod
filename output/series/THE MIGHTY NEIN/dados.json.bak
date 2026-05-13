@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MzQ=",
+  "tipo": "serie",
+  "titulo": "THE MIGHTY NEIN",
+  "capa_url": "https://lgfp.one/QRY4",
+  "capa_local": "THE MIGHTY NEIN/THE MIGHTY NEIN.jpg",
+  "sinopse": "Um grupo de excluídos, criminosos e desajustados acaba salvando o continente quando uma relíquia arcana capaz de remodelar a realidade cai nas mãos erradas.",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "Laura Bailey, Marisha Ray, Liam O'Brien, Ashley Johnson, Taliesin Jaffe",
+  "diretor": "Ben Kalina",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:28"
+        }
+      ]
+    }
+  ],
+  "id": 8404
+}

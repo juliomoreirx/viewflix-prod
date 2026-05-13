@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NDU=",
+  "tipo": "serie",
+  "titulo": "MARIACHIS",
+  "capa_url": "https://lgfp.one/ZGN",
+  "capa_local": "MARIACHIS/MARIACHIS.jpg",
+  "sinopse": "O patriarca Rosendo Cuevas sofre com o início repentino e agressivo do mal de Alzheimer, sua esposa, Lucía, e seus dois filhos, Jorge e Pedro, formam uma banda mariachi para ajudá-lo a lembrar do passado e para retardar o processo da doença. Mas tudo isso traz à tona questões que talvez não devessem ser revividas.",
+  "genero": "Comédia, Drama",
+  "elenco": "Pedro Fernández, Consuelo Duval, Vadhir Derbez, Antonio Mauri, Alberto Estrella",
+  "diretor": "Hammudi Al-Rahmoun Font",
+  "total_episodios": "8",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:13"
+        }
+      ]
+    }
+  ],
+  "id": 3411
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Nzg=",
+  "tipo": "serie",
+  "titulo": "EUA: A LUTA PELA LIBERDADE",
+  "capa_url": "https://lgfp.one/RXH",
+  "capa_local": "EUA A LUTA PELA LIBERDADE/EUA A LUTA PELA LIBERDADE.jpg",
+  "sinopse": "Will Smith apresenta esta série documental sobre a incansável e muitas vezes mortal luta por direitos iguais nos EUA com base na 14ª Emenda à Constituição do país.",
+  "genero": "Documentário, News, War & Politics",
+  "elenco": "Will Smith, Mahershala Ali, Samira Wiley, Courtney B. Vance, Samuel L. Jackson",
+  "diretor": "Kenny Leon, Reinaldo Marcus Green",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:32"
+        }
+      ]
+    }
+  ],
+  "id": 1449
+}

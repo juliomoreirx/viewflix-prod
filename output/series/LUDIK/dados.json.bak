@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MTA=",
+  "tipo": "serie",
+  "titulo": "LUDIK",
+  "capa_url": "https://lgfp.one/TPD",
+  "capa_local": "LUDIK/LUDIK.jpg",
+  "sinopse": "Para salvar um parente sequestrado, um magnata do ramo de móveis precisa usar sua operação de contrabando de diamantes para transportar armas.",
+  "genero": "Crime, Drama",
+  "elenco": "Arnold Vosloo, Lea Vivier, Sean Cameron Michael, Rob van Vuuren, Jandre le Roux",
+  "diretor": "Ian Gabriel",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:02"
+        }
+      ]
+    }
+  ],
+  "id": 2800
+}

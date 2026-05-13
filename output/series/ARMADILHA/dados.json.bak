@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MDY=",
+  "tipo": "serie",
+  "titulo": "ARMADILHA",
+  "capa_url": "https://lgfp.one/KBP3",
+  "capa_local": "ARMADILHA/ARMADILHA.jpg",
+  "sinopse": "Tuzak, conta a história de vingança de três irmãos Umut, Mahir e Umay, que tiveram sua infância tirada deles. Em um mundo onde é difícil dizer quem é bom e quem é mau, o que é real e o que é falso, esses três irmãos, unidos por um objetivo comum, descobrirão que não estão tão conectados quanto pensavam.",
+  "genero": "Drama",
+  "elenco": "Akın Akınözü, Bensu Soral, Talat Bulut, Rıza Kocaoğlu, Yağız Can Konyalı",
+  "diretor": "Aytaç Çiçek",
+  "total_episodios": "150",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "02:28:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "02:22:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "02:29:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "02:24:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "02:37:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "02:22:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "02:01:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "02:00:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "02:01:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "02:07:51"
+        }
+      ]
+    }
+  ],
+  "id": 312465
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5MjI=",
+  "tipo": "serie",
+  "titulo": "PEQUENA ELLEN",
+  "capa_url": "https://lgfp.one/STM",
+  "capa_local": "PEQUENA ELLEN/PEQUENA ELLEN.jpg",
+  "sinopse": "A hilária e imaginativa Ellen DeGeneres, aos sete anos, encontra diversão e aventura em Nova Orleans com sua sábia e excêntrica Gramsy, seu melhor amigo músico Freckle, sua prima fashion Becky e o inteligente gato Charlie.",
+  "genero": "Animação",
+  "elenco": "",
+  "diretor": "Ellen DeGeneres",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:11:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:43"
+        }
+      ]
+    }
+  ],
+  "id": 2214
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDQ=",
+  "tipo": "serie",
+  "titulo": "O FILHO BASTARDO DO DIABO",
+  "capa_url": "https://lgfp.one/VYG",
+  "capa_local": "O FILHO BASTARDO DO DIABO/O FILHO BASTARDO DO DIABO.jpg",
+  "sinopse": "Em meio a uma guerra entre clãs, o filho do bruxo responsável pelo massacre mais cruel de todos os tempos tenta encontrar seus poderes e seu lugar no mundo.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Mistério",
+  "elenco": "Jay Lycurgo, Nadia Parkes, Paul Ready, Isobel Jesper Jones, Karen Connell",
+  "diretor": "Colm McCarthy",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:16"
+        }
+      ]
+    }
+  ],
+  "id": 2995
+}

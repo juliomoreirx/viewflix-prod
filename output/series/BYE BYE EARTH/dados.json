@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2MDE=",
+  "tipo": "serie",
+  "titulo": "BYE BYE EARTH",
+  "capa_url": "https://lgfp.one/OYI8",
+  "capa_local": "BYE BYE EARTH/BYE BYE EARTH.jpg",
+  "sinopse": "Belle Lablac não se encaixa como a única humana em um mundo cheio de animais antropomórficos. Sem presas, sem pelo, sem escamas e sem garras. Sozinha e cheia de vontade de descobrir de onde ela veio, Belle parte em uma jornada para encontrar respostas para as perguntas do seu coração. Carregando nada, a não ser sua espada gigante, Runding, ela encara um mundo de possibilidades e armadilhas na esperança de descobrir a verdade.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Fairouz Ai, Miyuki Sawashiro, Ami Koshimizu, Kenjiro Tsuda, Junya Enoki",
+  "diretor": "Yasuto Nishikata",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "15",
+          "codigo": "S02E15",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "16",
+          "codigo": "S02E16",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "17",
+          "codigo": "S02E17",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "18",
+          "codigo": "S02E18",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "19",
+          "codigo": "S02E19",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 7504
+}

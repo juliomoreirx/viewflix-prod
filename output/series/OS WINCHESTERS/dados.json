@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NTE=",
+  "tipo": "serie",
+  "titulo": "OS WINCHESTERS",
+  "capa_url": "https://lgfp.one/VYJ",
+  "capa_local": "OS WINCHESTERS/OS WINCHESTERS.jpg",
+  "sinopse": "Antes de Sam e Dean, havia John e Mary. Contada a partir da perspectiva do narrador Dean Winchester, esta é a história de amor épica e não contada de como John conheceu Mary e como eles colocaram tudo em risco não apenas para salvar seu amor, mas o mundo inteiro.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Drama",
+  "elenco": "Meg Donnelly, Drake Rodger, Nida Khurshid, Jojo Fleites, Demetria McKinney",
+  "diretor": "Lisa Soper, John F. Showalter...",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:19"
+        }
+      ]
+    }
+  ],
+  "id": 2998
+}

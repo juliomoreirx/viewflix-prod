@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MDc=",
+  "tipo": "serie",
+  "titulo": "CIDADE DE DEUS A LUTA NAO PARA",
+  "capa_url": "https://lgfp.one/DHD7",
+  "capa_local": "CIDADE DE DEUS A LUTA NAO PARA/CIDADE DE DEUS A LUTA NAO PARA.jpg",
+  "sinopse": "A trama se desenrola no início dos anos 2000, quando a saída de um jovem traficante da prisão coloca a Cidade de Deus novamente em disputa. Os moradores se veem presos entre traficantes, milícias e autoridades públicas, mas a necessidade de escapar desse ciclo faz com que a comunidade se una para enfrentar o opressor.",
+  "genero": "Drama, Crime",
+  "elenco": "Alexandre Rodrigues, Roberta Rodrigues, Andréia Horta, Sabrina Rosa, Dhonata Augusto",
+  "diretor": "Aly Muritiba, Fernando Meirelles",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:46"
+        }
+      ]
+    }
+  ],
+  "id": 5829
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NzA=",
+  "tipo": "serie",
+  "titulo": "CAÇADORES",
+  "capa_url": "https://lgfp.one/XRQ",
+  "capa_local": "CACADORES/CACADORES.jpg",
+  "sinopse": "No fim do anos 70, em Nova York, um grupo diversificado de caçadores de nazistas descobrem que centenas de oficiais nazistas de alto escalão estão vivendo entre nós e conspirando para criar um Quarto Reich nos EUA. A eclética equipe de Caçadores iniciará uma sangrenta busca para levar os nazistas à justiça e frustrar seus novos planos genocidas.",
+  "genero": "Crime, Drama",
+  "elenco": "Logan Lerman, Al Pacino, Lena Olin, Jerrika Hinton, Josh Radnor",
+  "diretor": "Phil Abraham, Nelson McCormick",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:39:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:58:49"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:50:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:06:51"
+        }
+      ]
+    }
+  ],
+  "id": 185743
+}

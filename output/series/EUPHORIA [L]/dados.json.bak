@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMDM=",
+  "tipo": "serie",
+  "titulo": "EUPHORIA [L]",
+  "capa_url": "https://lgfp.one/SRZ5",
+  "capa_local": "EUPHORIA [L]/EUPHORIA [L].jpg",
+  "sinopse": "Um grupo de estudantes do ensino médio lida com diferentes situações típicas da idade como drogas, sexo, busca pela identidade, traumas, comportamento nas redes sociais e amizade.",
+  "genero": "Drama",
+  "elenco": "Zendaya, Hunter Schafer, Sydney Sweeney, Jacob Elordi, Alexa Demie",
+  "diretor": "Amy Schmidt, Amy Schmidt, Shannon Kenny",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:44"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:01:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:00:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:02:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:00:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:01:52"
+        }
+      ]
+    }
+  ],
+  "id": 333
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NzA=",
+  "tipo": "serie",
+  "titulo": "DRAG RACE BRASIL",
+  "capa_url": "https://lgfp.one/AAXK",
+  "capa_local": "DRAG RACE BRASIL/DRAG RACE BRASIL.jpg",
+  "sinopse": "O Brasil entra na competição de drag queens mais cobiçada do mundo. As queens precisam mostrar muito carisma, personalidade, ousadia e talento para permanecer na disputa pelo desejado título de Drag Superstar Brasileira.",
+  "genero": "Reality",
+  "elenco": "Grag Queen, Bruna Braga, Dudu Bertholini, Aquarela, Betina Polaroid",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:05:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:28"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:35"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:04:55"
+        }
+      ]
+    }
+  ],
+  "id": 3952
+}

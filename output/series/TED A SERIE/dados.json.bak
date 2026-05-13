@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNDc=",
+  "tipo": "serie",
+  "titulo": "TED A SERIE",
+  "capa_url": "https://lgfp.one/DFU2",
+  "capa_local": "TED A SERIE/TED A SERIE.jpg",
+  "sinopse": "Depois que sua fama passa, o ursinho boca-suja Ted é obrigado a ir para a escola com seu melhor amigo adolescente, John. Juntos eles experimentam os altos e baixos da juventude.",
+  "genero": "Comédia",
+  "elenco": "Seth MacFarlane, Max Burkholder, Alanna Ubach, Scott Grimes, Giorgia Whigham",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:42"
+        }
+      ]
+    }
+  ],
+  "id": 5810
+}

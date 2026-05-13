@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MjY=",
+  "tipo": "serie",
+  "titulo": "AQUELES PRESTES A MORRER",
+  "capa_url": "https://lgfp.one/QKZ1",
+  "capa_local": "AQUELES PRESTES A MORRER/AQUELES PRESTES A MORRER.jpg",
+  "sinopse": "Roma, 79 d.C. A população, aborrecida, inquieta e cada vez mais violenta, é controlada com duas coisas: comida gratuita e entretenimento espetacular. À medida que o povo procura um entretenimento mais excessivo e sanguinário, é necessário um estádio criado para o combate de gladiadores, o Coliseu. Por baixo dele vivem e trabalham milhares de pessoas, incluindo milhares que morrerão pelos jogos.",
+  "genero": "Drama",
+  "elenco": "Anthony Hopkins, Tom Hughes, Jojo Macari, Iwan Rheon, Gabriella Pession",
+  "diretor": "Roland Emmerich, Marco Kreuzpaintner, Giorgio Lattanzi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:36"
+        }
+      ]
+    }
+  ],
+  "id": 8219
+}

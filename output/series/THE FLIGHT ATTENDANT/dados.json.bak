@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MjY=",
+  "tipo": "serie",
+  "titulo": "THE FLIGHT ATTENDANT",
+  "capa_url": "https://lgfp.one/RYE",
+  "capa_local": "THE FLIGHT ATTENDANT/THE FLIGHT ATTENDANT.jpg",
+  "sinopse": "Cassandra Bowen é uma comissária de bordo que acorda de ressaca em um hotel em Dubai ao lado de um cadáver. Ao invés de ligar para a polícia, ela foge e parte com seus colegas em um voo para Nova York. Mas a situação se complica quando ela é abordada por agentes do FBI, que têm algumas perguntas para ela em pleno voo.",
+  "genero": "Drama, Mistério, Comédia",
+  "elenco": "Kaley Cuoco, Michiel Huisman, Zosia Mamet, T.R. Knight, Michelle Gomez",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:11"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:40:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:46:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:37:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:45:50"
+        }
+      ]
+    }
+  ],
+  "id": 1473
+}

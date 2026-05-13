@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMjA=",
+  "tipo": "serie",
+  "titulo": "SHARDLAKE [L]",
+  "capa_url": "https://lgfp.one/BAU9",
+  "capa_local": "SHARDLAKE [L]/SHARDLAKE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Mistério",
+  "elenco": "Arthur Hughes, Anthony Boyle, Sean Bean, Babou Ceesay, Paul Kaye",
+  "diretor": "Justin Chadwick",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:32"
+        }
+      ]
+    }
+  ],
+  "id": 5417
+}

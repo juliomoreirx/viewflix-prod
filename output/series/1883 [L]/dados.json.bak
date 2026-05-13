@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MTk=",
+  "tipo": "serie",
+  "titulo": "1883 [L]",
+  "capa_url": "https://lgfp.one/ATOG",
+  "capa_local": "1883 [L]/1883 [L].jpg",
+  "sinopse": "Uma prequela de \"Yellowstone\", \"1883\" segue a família Dutton enquanto eles fogem da pobreza no Texas e embarcam em uma jornada pelas Grandes Planícies em busca de um futuro melhor em Montana.",
+  "genero": "Drama, Faroeste",
+  "elenco": "Sam Elliott, Tim McGraw, Faith Hill, Isabel May, LaMonica Garrett",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:24"
+        }
+      ]
+    }
+  ],
+  "id": 4477
+}

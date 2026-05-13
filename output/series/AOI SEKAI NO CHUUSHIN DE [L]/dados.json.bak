@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwMDM=",
+  "tipo": "serie",
+  "titulo": "AOI SEKAI NO CHUUSHIN DE [L]",
+  "capa_url": "https://lgfp.one/LLV7",
+  "capa_local": "AOI SEKAI NO CHUUSHIN DE [L]/AOI SEKAI NO CHUUSHIN DE [L].jpg",
+  "sinopse": "O Império de Ninteldo e Segua estão presos em uma guerra pelo continente de Consume por anos. O poderoso Império de Ninteldo sob a liderança de Marcus, com grandes guerreiros com habilidades incomparáveis, domina a maioria dos países de Consume, assim como as nações que o cercam. O Reino de Segua não tem outra opção a não ser lutar defensivamente. Até que tudo isso muda com a chegada de Gear.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Animação",
+  "elenco": "Nobuhiko Okamoto, 三森すずこ, 斧アツシ, Takehito Koyasu, 門田幸子",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:24"
+        }
+      ]
+    }
+  ],
+  "id": 6749
+}

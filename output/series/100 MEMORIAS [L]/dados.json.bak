@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MjA=",
+  "tipo": "serie",
+  "titulo": "100 MEMORIAS [L]",
+  "capa_url": "https://lgfp.one/QCI2",
+  "capa_local": "100 MEMORIAS [L]/100 MEMORIAS [L].jpg",
+  "sinopse": "Na Coreia do Sul dos anos 80, a motorista de ônibus Yeong Rye enfrenta os desafios do trabalho e da vida familiar quando cria uma amizade inesperada com a extrovertida Jong Hui. Mas a chegada de Jae Pil, um jovem boxeador de família rica, desperta sentimentos conflitantes e coloca à prova o valor da amizade entre as duas.",
+  "genero": "Drama",
+  "elenco": "Kim Da Mi, 신예은, 허남준, Lee Won-jeong, 전성우",
+  "diretor": "Kim Sang-ho",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:19:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:16:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:16:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:18:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:17:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:17:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:14:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:16:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:17:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:18:58"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:17:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:19:17"
+        }
+      ]
+    }
+  ],
+  "id": 8043
+}

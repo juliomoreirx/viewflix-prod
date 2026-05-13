@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNzM=",
+  "tipo": "serie",
+  "titulo": "WASHINGTON BLACK",
+  "capa_url": "https://lgfp.one/PLW6",
+  "capa_local": "WASHINGTON BLACK/WASHINGTON BLACK.jpg",
+  "sinopse": "Uma história épica que acompanha o artista e cientista George \"Wash\" Black em uma aventura ao redor do mundo com a ajuda de uma estranha máquina voadora. Sua jornada o leva pela América, pelos mares gélidos do Artico, pelas torres góticas da velha Europa e pelos desertos do Norte da África, sempre um passo à frente de um caçador de recompensas mortal.",
+  "genero": "Drama",
+  "elenco": "Ernest Kingsley Jr., Sterling K. Brown, Iola Evans, Edward Bluemel, Sharon Duncan-Brewster",
+  "diretor": "Anthony Hemingway",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:50"
+        }
+      ]
+    }
+  ],
+  "id": 7700
+}

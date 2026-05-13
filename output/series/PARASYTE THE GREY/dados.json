@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMjE=",
+  "tipo": "serie",
+  "titulo": "PARASYTE THE GREY",
+  "capa_url": "https://lgfp.one/ARL1",
+  "capa_local": "PARASYTE THE GREY/PARASYTE THE GREY.jpg",
+  "sinopse": "Parasitas não identificados dominam os corpos humanos de forma violenta e ganham cada vez mais poder. Agora, a humanidade precisa combater essa crescente ameaça.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+  "elenco": "전소니, 구교환, 이정현, 권해효, 김인권",
+  "diretor": "연상호, 연상호, 윤영우",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:24"
+        }
+      ]
+    }
+  ],
+  "id": 5215
+}

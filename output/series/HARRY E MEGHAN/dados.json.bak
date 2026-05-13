@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0OTk=",
+  "tipo": "serie",
+  "titulo": "HARRY E MEGHAN",
+  "capa_url": "https://lgfp.one/XEF",
+  "capa_local": "HARRY E MEGHAN/HARRY E MEGHAN.jpg",
+  "sinopse": "Nesta série documental, Harry e Meghan contam a complicada jornada do casal, do início do namoro ao afastamento da família real.",
+  "genero": "Documentário",
+  "elenco": "Prince Harry, Duke of Sussex, Meghan, Duquesa de Sussex",
+  "diretor": "Liz Garbus",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:46"
+        }
+      ]
+    }
+  ],
+  "id": 3146
+}

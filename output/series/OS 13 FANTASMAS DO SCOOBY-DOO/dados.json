@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NDU=",
+  "tipo": "serie",
+  "titulo": "OS 13 FANTASMAS DO SCOOBY-DOO",
+  "capa_url": "https://lgfp.one/RVD5",
+  "capa_local": "OS 13 FANTASMAS DO SCOOBY-DOO/OS 13 FANTASMAS DO SCOOBY-DOO.jpg",
+  "sinopse": "Salsicha, Scooby e seus amigos devem devolver 13 fantasmas a um baú mágico que eles inadvertidamente liberaram.",
+  "genero": "Animação, Mistério, Comédia",
+  "elenco": "Don Messick, Casey Kasem, Heather North, Susan Blu, Arte Johnson",
+  "diretor": "Don Lusk, Rudy Zamora, Alan Zaslove",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:48"
+        }
+      ]
+    }
+  ],
+  "id": 8938
+}

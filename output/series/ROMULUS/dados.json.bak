@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NjA=",
+  "tipo": "serie",
+  "titulo": "ROMULUS",
+  "capa_url": "https://lgfp.one/SRU",
+  "capa_local": "ROMULUS/ROMULUS.jpg",
+  "sinopse": "A história de Rômulo e seu irmão gêmeo Remo, no século VIII a.C. visto pelos olhos de três pessoas marcadas pela morte, solidão e violência.",
+  "genero": "Drama / Action & Adventure",
+  "elenco": "Andrea Arcangeli, Francesco Di Napoli, Marianna Fontana, Giovanni Buselli, Sergio Romano, Massimiliano Rossi, Vanessa Scalera, Ivana Lotito",
+  "diretor": "Matteo Rovere",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:04"
+        }
+      ]
+    }
+  ],
+  "id": 2169
+}

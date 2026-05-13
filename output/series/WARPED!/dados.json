@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MjY=",
+  "tipo": "serie",
+  "titulo": "WARPED!",
+  "capa_url": "https://lgfp.one/TUC",
+  "capa_local": "WARPED!/WARPED!.jpg",
+  "sinopse": "Milo, o querido líder geek de uma popular loja de quadrinhos, vê seu mundo virar de cabeça para baixo quando seu chefe contrata uma nova funcionária: a esquisita e animada Ruby.",
+  "genero": "Kids / Comédia / Família",
+  "elenco": "Kate Godfrey, Anton Starkman, Christopher Martinez, Ariana Molkara",
+  "diretor": "Heath Seifert, Kevin Kopelow",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:22:34"
+        }
+      ]
+    }
+  ],
+  "id": 2935
+}

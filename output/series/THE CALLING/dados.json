@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNDM=",
+  "tipo": "serie",
+  "titulo": "THE CALLING",
+  "capa_url": "https://lgfp.one/AYNR",
+  "capa_local": "THE CALLING/THE CALLING.jpg",
+  "sinopse": "Guiado por um profundo senso de espiritualidade e princípios religiosos, o detetive da NYPD Avraham Avraham questiona sua própria humanidade quando uma investigação de rotina vira de cabeça para baixo.",
+  "genero": "Drama, Crime",
+  "elenco": "Jeff Wilbusch, Juliana Canfield, Karen Robinson, Michael Mosley",
+  "diretor": "Barry Levinson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:44"
+        }
+      ]
+    }
+  ],
+  "id": 4834
+}

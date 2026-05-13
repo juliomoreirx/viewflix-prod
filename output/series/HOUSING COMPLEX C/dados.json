@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3ODY=",
+  "tipo": "serie",
+  "titulo": "HOUSING COMPLEX C",
+  "capa_url": "https://lgfp.one/WGB",
+  "capa_local": "HOUSING COMPLEX C/HOUSING COMPLEX C.jpg",
+  "sinopse": "Kimi mora em um pequeno complexo habitacional numa cidade litorânea, onde os problemas parecem segui-la por onde quer que ela vá, e incidentes horríveis começam a acontecer. Será que um espírito maligno persegue os moradores do complexo?",
+  "genero": "Animação, Mistério",
+  "elenco": "Ayahi Takagaki, Haruka Tomatsu, Wataru Hatano, Sayaka Ohara, Kazuhiro Yamaji",
+  "diretor": "石倉礼, 佐々木達也",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:17"
+        }
+      ]
+    }
+  ],
+  "id": 3077
+}

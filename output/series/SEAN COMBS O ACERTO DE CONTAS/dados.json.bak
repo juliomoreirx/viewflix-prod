@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MTI=",
+  "tipo": "serie",
+  "titulo": "SEAN COMBS O ACERTO DE CONTAS",
+  "capa_url": "https://lgfp.one/RDF5",
+  "capa_local": "SEAN COMBS O ACERTO DE CONTAS/SEAN COMBS O ACERTO DE CONTAS.jpg",
+  "sinopse": "Esta série documental analisa as acusações chocantes contra Sean Combs e o império da Bad Boy, abrangendo décadas da vida e carreira do rapper.",
+  "genero": "Documentário, Crime",
+  "elenco": "Sean Combs",
+  "diretor": "Alex Stapleton, C.T. Robert",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:07"
+        }
+      ]
+    }
+  ],
+  "id": 8473
+}

@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MTk=",
+  "tipo": "serie",
+  "titulo": "DEPOIS DO ACIDENTE",
+  "capa_url": "https://lgfp.one/DHD8",
+  "capa_local": "DEPOIS DO ACIDENTE/DEPOIS DO ACIDENTE.jpg",
+  "sinopse": "Uma festa de aniversário acaba em tragédia, para o desespero de uma comunidade rica e unida. O resultado? Famílias, amizades e corações destruídos.",
+  "genero": "Drama",
+  "elenco": "Alberto Guerra, Sebastian Martinez, Erik Hayser, Macarena García, Ana Claudia Talancón",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:48:42"
+        }
+      ]
+    }
+  ],
+  "id": 5830
+}

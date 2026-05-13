@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NDU=",
+  "tipo": "serie",
+  "titulo": "A GUERRA DOS REINOS",
+  "capa_url": "https://lgfp.one/RCF9",
+  "capa_local": "A GUERRA DOS REINOS/A GUERRA DOS REINOS.jpg",
+  "sinopse": "História medieval, relacionada à saga dos Nibelungos, mas vista de uma perspectiva diferente",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Drama",
+  "elenco": "Gijs Naber, Jannis Niewöhner, Dominic Marcus Singer, Lilja van der Zwaag, Rosalinde Mynster",
+  "diretor": "Cyrill Boss",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:19"
+        }
+      ]
+    }
+  ],
+  "id": 8465
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NDA=",
+  "tipo": "serie",
+  "titulo": "MINHA HABILIDADE ÚNICA ME DEIXA INVENCÍVEL NO NÍVEL 1 [L]",
+  "capa_url": "https://lgfp.one/AAWE",
+  "capa_local": "MINHA HABILIDADE UNICA ME DEIXA INVENCIVEL NO NIVEL 1 [L]/MINHA HABILIDADE UNICA ME DEIXA INVENCIVEL NO NIVEL 1 [L].jpg",
+  "sinopse": "Ryota Sato, um assalariado que trabalha para uma empresa exploradora, vai parar de repente em uma masmorra estranha, num mundo onde monstros derrotados soltam loots de todos os tipos. Com a ajuda de uma jovem chamada Emily, ele lê seus próprios atributos, e descobre que todos os seus atributos físicos e mágicos são nota F (a pior!). Pra piorar, seu nível está travado no 1 (o mais baixo!). Quando Ryota cai em desespero, ele percebe que ele tem uma \"Habilidade de Drop: S Geral\", a habilidade mais poderosa que existe! Será que Ryota vai conseguir sobreviver neste mundo bizarro?",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "Kaito Ishikawa, Rin Kusumi, Marika Kouno, Saori Onishi, Kanon Takao",
+  "diretor": "Yuuji Yanase",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 3870
+}

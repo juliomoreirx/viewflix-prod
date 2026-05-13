@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Mjk=",
+  "tipo": "serie",
+  "titulo": "A QUEDA DE P DIDDY",
+  "capa_url": "https://lgfp.one/MUT2",
+  "capa_local": "A QUEDA DE P DIDDY/A QUEDA DE P DIDDY.jpg",
+  "sinopse": "Os bastidores do escândalo de Sean Combs, com anos de acusações de abuso, revelam segredos que redefinem o ícone da música e empresário.",
+  "genero": "Documentário, Crime",
+  "elenco": "Sean Combs, MrBeast, Mara Schiavocampo",
+  "diretor": "Yoruba Richen, Emma Schwartz",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:34"
+        }
+      ]
+    }
+  ],
+  "id": 6823
+}

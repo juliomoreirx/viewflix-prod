@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyOTM=",
+  "tipo": "serie",
+  "titulo": "MUPPETS E O CAOS ELÉTRICO",
+  "capa_url": "https://lgfp.one/ZXP",
+  "capa_local": "MUPPETS E O CAOS ELETRICO/MUPPETS E O CAOS ELETRICO.jpg",
+  "sinopse": "Após 45 anos de rock and roll, a Desordem Elétrica embarca em uma jornada musical épica para finalmente gravar seu primeiro disco de estúdio. Com a ajuda de uma jovem e motivada produtora, a icônica e maneiríssima banda de rock dos Muppets – com Dr. Dentuço, Sgt. Floyd Pepper, Janice, Lips, Zoot e Animal – deve se preparar para encarar a louca cena musical contemporânea em sua busca para finalmente chegar ao disco de platina.",
+  "genero": "Comédia / Família",
+  "elenco": "Lilly Singh, Bill Barretta, Eric Jacobson, Matt Vogel, David Rudman, Dave Goelz, Peter Linz, Tahj Mowry",
+  "diretor": "Adam F. Goldberg, Bill Barretta, Jeff Yorkes",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:51"
+        }
+      ]
+    }
+  ],
+  "id": 3508
+}

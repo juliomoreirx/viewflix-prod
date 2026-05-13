@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzOTY=",
+  "tipo": "serie",
+  "titulo": "O PLANO É ESSE",
+  "capa_url": "https://lgfp.one/SPN",
+  "capa_local": "O PLANO E ESSE/O PLANO E ESSE.jpg",
+  "sinopse": "Conduzidos por Dani Suzuki e aconselhados por mentores, 5 pequenos empreendedores terão, ao longo de uma jornada de 10 dias, a oportunidade de desenvolver seus negócios.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "Andrea Cassola",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:00"
+        }
+      ]
+    }
+  ],
+  "id": 2101
+}

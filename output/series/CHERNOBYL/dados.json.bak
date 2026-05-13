@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5NDU=",
+  "tipo": "serie",
+  "titulo": "CHERNOBYL",
+  "capa_url": "https://lgfp.one/IVM",
+  "capa_local": "CHERNOBYL/CHERNOBYL.jpg",
+  "sinopse": "Aqui é contada a história da explosão que aconteceu na Usina Nuclear de Chernobyl. Em 1986, na Ucrânia, o acidente dizimou dezenas de pessoas e acabou por se tornar o maior desastre nuclear da história. Enquanto o mundo lamentava o ocorrido, o cientista Valery Legasov (Jared Harris), a física Ulana Khomyuk (Emily Watson) e o vice-presidente do Conselho de Ministros Boris Shcherbina (Stellan Skarsgård) tentam descobrir as causas do acidente.",
+  "genero": "Drama",
+  "elenco": "Jared Harris, Stellan Skarsgård, Emily Watson, Paul Ritter, Jessie Buckley",
+  "diretor": "Francesc Prat Duten, Lukas Kudapcenka, Chris Roufs, Måns Månsson, David Meanti",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:26"
+        }
+      ]
+    }
+  ],
+  "id": 9080
+}

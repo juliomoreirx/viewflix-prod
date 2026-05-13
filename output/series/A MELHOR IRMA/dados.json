@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3OTg=",
+  "tipo": "serie",
+  "titulo": "A MELHOR IRMA",
+  "capa_url": "https://lgfp.one/OPR2",
+  "capa_local": "A MELHOR IRMA/A MELHOR IRMA.jpg",
+  "sinopse": "Chloe se muda para os círculos de elite de Nova York com seu marido, o advogado Adam, e seu filho adolescente Ethan, enquanto sua irmã Nicky, da qual se distanciou, tenta sobreviver e se manter sóbria. Quando Adam é brutalmente assassinado, a investigação abala a família e deixa à mostra segredos há muito tempo escondidos.",
+  "genero": "Drama, Mistério",
+  "elenco": "Jessica Biel, Elizabeth Banks, Corey Stoll, Kim Dickens, Maxwell Acee Donovan",
+  "diretor": "Craig Gillespie",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:05"
+        }
+      ]
+    }
+  ],
+  "id": 7374
+}

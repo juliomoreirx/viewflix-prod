@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwODk=",
+  "tipo": "serie",
+  "titulo": "TRAFICANTES INVISÍVEIS",
+  "capa_url": "https://lgfp.one/RCA",
+  "capa_local": "TRAFICANTES INVISIVEIS/TRAFICANTES INVISIVEIS.jpg",
+  "sinopse": "A história real por trás do surgimento de uma nova geração de \"chefões\" da cocaína e dos esforços desesperados para derrubá-los.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:51"
+        }
+      ]
+    }
+  ],
+  "id": 864
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczOTU=",
+  "tipo": "serie",
+  "titulo": "MIL COLMILHOS",
+  "capa_url": "https://lgfp.one/SLO",
+  "capa_local": "MIL COLMILHOS/MIL COLMILHOS.jpg",
+  "sinopse": "Durante uma missão, um batalhão militar é aterrorizado por forças sobrenaturais. Pra dar mais medo: eles estão no meio da Floresta Amazônica.",
+  "genero": "Drama / Action & Adventure",
+  "elenco": "Claudio Cataño, Alejandro Buitrago, Hector Sánchez, Andrea Olaya, Jaisson Jeack, Carolina Ribón, Adriano Marquez, Andres Londono",
+  "diretor": "Jaime Osorio Marquez, Guillermo Escalona",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:21"
+        }
+      ]
+    }
+  ],
+  "id": 1995
+}

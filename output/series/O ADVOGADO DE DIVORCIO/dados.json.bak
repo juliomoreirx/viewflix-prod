@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MjA=",
+  "tipo": "serie",
+  "titulo": "O ADVOGADO DE DIVÓRCIO",
+  "capa_url": "https://lgfp.one/ZGO",
+  "capa_local": "O ADVOGADO DE DIVORCIO/O ADVOGADO DE DIVORCIO.jpg",
+  "sinopse": "Após uma tragédia na família, um ex-pianista se torna advogado e mergulha de cabeça no complexo mundo dos divórcios, fazendo de tudo por seus clientes.",
+  "genero": "Drama",
+  "elenco": "조승우, 한혜진, Kim Sung Kyun, 정문성, Lee Eun-jae",
+  "diretor": "Lee Jae-hoon",
+  "total_episodios": "66",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:10:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:08:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:24:33"
+        }
+      ]
+    }
+  ],
+  "id": 3412
+}

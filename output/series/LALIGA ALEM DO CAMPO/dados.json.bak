@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNTI=",
+  "tipo": "serie",
+  "titulo": "LALIGA ALEM DO CAMPO",
+  "capa_url": "https://lgfp.one/CYE3",
+  "capa_local": "LALIGA ALEM DO CAMPO/LALIGA ALEM DO CAMPO.jpg",
+  "sinopse": "Acompanhe os bastidores do futebol espanhol nesta envolvente série documental sobre a LaLiga e veja de tudo, desde vitórias épicas até derrotas devastadoras.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:04"
+        }
+      ]
+    }
+  ],
+  "id": 5688
+}

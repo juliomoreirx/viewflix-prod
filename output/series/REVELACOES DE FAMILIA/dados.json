@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTg=",
+  "tipo": "serie",
+  "titulo": "REVELAÇÕES DE FAMÍLIA",
+  "capa_url": "https://lgfp.one/TQC",
+  "capa_local": "REVELACOES DE FAMILIA/REVELACOES DE FAMILIA.jpg",
+  "sinopse": "Um casal de noivos descobre uma teia de segredos e mentiras que une suas famílias, e o dia do casamento tem tudo para virar um dia de desastre.",
+  "genero": "Comédia, Drama",
+  "elenco": "Eliza Rycembel, Izabela Kuna, Małgorzata Mikołajczak, Piotr Pacek, Bartosz Gelner",
+  "diretor": "Kamajli Nguyen, Adrianna Stalewska, Karolina Puss",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:22"
+        }
+      ]
+    }
+  ],
+  "id": 2825
+}

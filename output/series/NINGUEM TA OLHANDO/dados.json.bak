@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwOTE=",
+  "tipo": "serie",
+  "titulo": "NINGUÉM TÁ OLHANDO",
+  "capa_url": "https://lgfp.one/JCZ",
+  "capa_local": "NINGUEM TA OLHANDO/NINGUEM TA OLHANDO.jpg",
+  "sinopse": "Úli é o mais novo anjo da guarda no 5511º Distrito. Tutelado pelos veteranos Greta e Chun e sob os olhares atentos do inspetor Fred, ele aprenderá as regras do Sistema Angelus e as punições por desobedecê-las. Incapaz de aceitar as ordens arbitrárias do chefe, Úli decide por conta própria ajudar os humanos, quebrando todas as regras em poucas horas. Para sua surpresa, Úli não sofre qualquer punição. O chefe está realmente olhando?",
+  "genero": "Comédia",
+  "elenco": "Victor Lamoglia, Júlia Rabello, Danilo de Moura, Kéfera Buchmann, Leandro Ramos",
+  "diretor": "Daniel Rezende, Marcus Baldini, Fernando Fraiha",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:57"
+        }
+      ]
+    }
+  ],
+  "id": 461
+}

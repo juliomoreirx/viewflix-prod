@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNDM=",
+  "tipo": "serie",
+  "titulo": "INHERITANCE DETECTIVE [L]",
+  "capa_url": "https://lgfp.one/MWV5",
+  "capa_local": "INHERITANCE DETECTIVE [L]/INHERITANCE DETECTIVE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Mistério",
+  "elenco": "赤楚衛二, 桜田ひより, 矢本悠馬, 落合モトキ, 渋川清彦",
+  "diretor": "菅原伸太郎, Makoto Naganuma, 石井満梨奈",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:26"
+        }
+      ]
+    }
+  ],
+  "id": 6853
+}

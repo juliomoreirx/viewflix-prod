@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNjI=",
+  "tipo": "serie",
+  "titulo": "SOBREPOSTAS",
+  "capa_url": "https://lgfp.one/SWD",
+  "capa_local": "SOBREPOSTAS/SOBREPOSTAS.jpg",
+  "sinopse": "Ana Cañas recebe convidadas em uma casa para conversarem sobre sexualidade. As trocas têm o intuito de naturalizar o assunto e estimular a confiança para nos revelarmos",
+  "genero": "",
+  "elenco": "Ana Cañas",
+  "diretor": "",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:14:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:15:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:14:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:14:54"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:14:21"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:15:07"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:15:15"
+        }
+      ]
+    }
+  ],
+  "id": 2288
+}

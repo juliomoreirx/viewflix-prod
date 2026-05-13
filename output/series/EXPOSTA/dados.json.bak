@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMjA=",
+  "tipo": "serie",
+  "titulo": "EXPOSTA",
+  "capa_url": "https://lgfp.one/TSA",
+  "capa_local": "EXPOSTA/EXPOSTA.jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Thea Næss, Happy Jankell, Sjur Vatne Brean, Sofia Tjelta, Amalia Holm Bjelke, Rikke Jacobsdatter, Aksel Heider Almaas, Valentin Hammel Baden",
+  "diretor": "Marie Kleivdal Kristiansen",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:26"
+        }
+      ]
+    }
+  ],
+  "id": 2880
+}

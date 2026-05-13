@@ -1,0 +1,190 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NDI=",
+  "tipo": "serie",
+  "titulo": "DESEJO SOMBRIO",
+  "capa_url": "https://lgfp.one/JMI",
+  "capa_local": "DESEJO SOMBRIO/DESEJO SOMBRIO.jpg",
+  "sinopse": "Casada, Alma passa um fim de semana fora de casa. A experiência desperta uma paixão, mas acaba em tragédia e a faz questionar a verdade sobre as pessoas próximas.",
+  "genero": "Mistério, Drama",
+  "elenco": "Maite Perroni, Erik Hayser, Alejandro Speitzer",
+  "diretor": "Kenya Marquez, Pitipol Ybarra",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:33:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:30:03"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:30:45"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:34:02"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:33:12"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:33:46"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:30:43"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:38:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:39:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:31:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:32:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:35:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:32:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:33:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:34:36"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:35:34"
+        },
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:32:32"
+        },
+        {
+          "numero": "15",
+          "codigo": "S02E15",
+          "duracao": "00:39:56"
+        }
+      ]
+    }
+  ],
+  "id": 735
+}

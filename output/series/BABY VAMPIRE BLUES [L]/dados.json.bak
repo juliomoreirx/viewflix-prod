@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzODc=",
+  "tipo": "serie",
+  "titulo": "BABY VAMPIRE BLUES [L]",
+  "capa_url": "https://lgfp.one/AVNG",
+  "capa_local": "BABY VAMPIRE BLUES [L]/BABY VAMPIRE BLUES [L].jpg",
+  "sinopse": "Sou e Aoi de \"Aoki (= imaturo) Vampiro\" administram uma cafeteria que abre apenas à noite. Devido à influência da nova coroa, a distribuição mensal de sangue da sede da Associação de Vampiros na Roménia foi interrompida.\n\n“Vampiros podem atacar humanos e se tornarem maduros”, diz ele, mas não é fácil para os dois novos vampiros azuis, que nunca sugaram sangue por conta própria... Será que Sou e Aoi sobreviverão aos destroços da corona?",
+  "genero": "Comédia",
+  "elenco": "Renn Kiriyama, Yutaro, Taniguchi Megu, Tateto Serizawa, Kuu Izima",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:34"
+        }
+      ]
+    }
+  ],
+  "id": 4608
+}

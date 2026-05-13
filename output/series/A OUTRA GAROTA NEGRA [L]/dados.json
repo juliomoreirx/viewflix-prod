@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MDk=",
+  "tipo": "serie",
+  "titulo": "A OUTRA GAROTA NEGRA [L]",
+  "capa_url": "https://lgfp.one/ABAC",
+  "capa_local": "A OUTRA GAROTA NEGRA [L]/A OUTRA GAROTA NEGRA [L].jpg",
+  "sinopse": "Nella, uma editora assistente, está cansada de ser a única garota negra em sua empresa. Então, quando Hazel é contratada, ela fica muito animada. Mas quando Hazel começa a se destacar, Nella entra em crise e descobre que algo estranho está acontecendo na empresa.",
+  "genero": "Drama, Comédia",
+  "elenco": "Sinclair Daniel, Ashleigh Murray, Brittany Adebumola, Hunter Parrish, Bellamy Young",
+  "diretor": "",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:31:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:30:03"
+        }
+      ]
+    }
+  ],
+  "id": 4061
+}

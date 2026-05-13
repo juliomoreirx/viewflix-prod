@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Mjg=",
+  "tipo": "serie",
+  "titulo": "ANTES QUE MATEM DE NOVO",
+  "capa_url": "https://lgfp.one/MVO3",
+  "capa_local": "ANTES QUE MATEM DE NOVO/ANTES QUE MATEM DE NOVO.jpg",
+  "sinopse": "Às vezes, a única forma de deter um psicopata antes que ele mate novamente é entrar em sua mente e pensar como ele.",
+  "genero": "Crime, Documentário",
+  "elenco": "Lawrence Shagawat, Gregory G. Allen, Louie J. Savarese",
+  "diretor": "Justin Lee Stanley",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 6835
+}

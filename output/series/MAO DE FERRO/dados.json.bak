@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMzM=",
+  "tipo": "serie",
+  "titulo": "MAO DE FERRO",
+  "capa_url": "https://lgfp.one/ANX5",
+  "capa_local": "MAO DE FERRO/MAO DE FERRO.jpg",
+  "sinopse": "No porto de Barcelona, Joaquín Manchado comanda seu império do tráfico de drogas com mão de ferro. Até que um novo carregamento abala os negócios e a família.",
+  "genero": "Crime, Drama",
+  "elenco": "Chino Darín, Jaime Lorente, Natalia de Molina, Raúl Briones, Giannina Fruttero",
+  "diretor": "Lluís Quílez",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:11:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:12:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:40"
+        }
+      ]
+    }
+  ],
+  "id": 5157
+}

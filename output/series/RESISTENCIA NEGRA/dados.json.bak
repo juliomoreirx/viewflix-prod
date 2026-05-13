@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMjY=",
+  "tipo": "serie",
+  "titulo": "RESISTÊNCIA NEGRA",
+  "capa_url": "https://lgfp.one/AUDM",
+  "capa_local": "RESISTENCIA NEGRA/RESISTENCIA NEGRA.jpg",
+  "sinopse": "Um mergulho na história da resistência negra e do movimento negro brasileiro desde a chegada dos primeiros negros sequestrados de África até os dias atuais.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:13"
+        }
+      ]
+    }
+  ],
+  "id": 4509
+}

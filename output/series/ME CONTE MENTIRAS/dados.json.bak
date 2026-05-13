@@ -1,0 +1,160 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5OTk=",
+  "tipo": "serie",
+  "titulo": "ME CONTE MENTIRAS",
+  "capa_url": "https://lgfp.one/VZN",
+  "capa_local": "ME CONTE MENTIRAS/ME CONTE MENTIRAS.jpg",
+  "sinopse": "A série acompanha um relacionamento tumultuado, mas inebriante, ao longo de oito anos. Quando Lucy Albright e Stephen DeMarco se conhecem na faculdade, eles estão naquela idade em que escolhas aparentemente mundanas levam a consequências irreversíveis. Eles rapidamente caem em um emaranhado viciante que alterará permanentemente não apenas suas vidas, mas a vida de todos ao seu redor.",
+  "genero": "Drama",
+  "elenco": "Grace Van Patten, Jackson White, Catherine Missal, Spencer House, Sonia Mena, Branden Cook, Benjamin Wadsworth, Alicia Crowder",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:45"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:51:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:57:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:05:03"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:57:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:54:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "01:01:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:07:42"
+        }
+      ]
+    }
+  ],
+  "id": 3025
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NzQ=",
+  "tipo": "serie",
+  "titulo": "QUILOS MORTAIS BRASIL",
+  "capa_url": "https://lgfp.one/AWL4",
+  "capa_local": "QUILOS MORTAIS BRASIL/QUILOS MORTAIS BRASIL.jpg",
+  "sinopse": "Acompanha a vida de homens e mulheres que têm suas vidas severamente afetadas por causa de seu peso. Para eles, a cirurgia bariátrica é a única solução.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:15"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:29"
+        }
+      ]
+    }
+  ],
+  "id": 5356
+}

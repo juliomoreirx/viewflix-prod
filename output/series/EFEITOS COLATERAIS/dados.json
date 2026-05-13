@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzOTA=",
+  "tipo": "serie",
+  "titulo": "EFEITOS COLATERAIS",
+  "capa_url": "https://lgfp.one/MVD6",
+  "capa_local": "EFEITOS COLATERAIS/EFEITOS COLATERAIS.jpg",
+  "sinopse": "Marshall e Frances, dois ex-colegas que compartilham um segredo: eles descobriram o melhor remédio do mundo, um cogumelo que cura quase tudo.",
+  "genero": "Animação, Drama, Comédia",
+  "elenco": "Dave King, Emily Pendergast, Mike Judge, Martha Kelly, Joseph Lee Anderson",
+  "diretor": "Vincent Tsui, Magali Dunyach, Matthieu Daures",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:54"
+        }
+      ]
+    }
+  ],
+  "id": 6828
+}

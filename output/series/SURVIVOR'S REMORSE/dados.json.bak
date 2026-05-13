@@ -1,0 +1,215 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2Nzg=",
+  "tipo": "serie",
+  "titulo": "SURVIVOR'S REMORSE",
+  "capa_url": "https://lgfp.one/AASX",
+  "capa_local": "SURVIVOR'S REMORSE/SURVIVOR'S REMORSE.jpg",
+  "sinopse": "Um jogador de basquete de vinte e poucos anos lida com as pressões da repentina fama.",
+  "genero": "Drama",
+  "elenco": "Jessie T. Usher, RonReaco Lee, Teyonah Parris, Mike Epps, Erica Ash",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:26:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:26:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:27:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:28:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:27:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:28:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:28:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:26:16"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:31:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:28:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:28:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:28:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:27:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:28:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:28:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:28:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:30:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:28:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:28:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:27:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:28:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:26:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:26:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S04E09",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S04E10",
+          "duracao": "00:28:31"
+        }
+      ]
+    }
+  ],
+  "id": 3836
+}

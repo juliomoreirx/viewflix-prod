@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NzQ=",
+  "tipo": "serie",
+  "titulo": "BILL RUSSELL: LENDA DA NBA",
+  "capa_url": "https://lgfp.one/YJW",
+  "capa_local": "BILL RUSSELL LENDA DA NBA/BILL RUSSELL LENDA DA NBA.jpg",
+  "sinopse": "Este documentário biográfico examina o legado do campeão Bill Russell tanto na NBA quanto na luta pelos direitos civis.",
+  "genero": "Documentário",
+  "elenco": "Corey Stoll, Bill Russell, Oscar Robertson, Stephen Curry, Bob Ryan",
+  "diretor": "Sam Pollard, Kara Bartek, Skye Fitzgerald",
+  "total_episodios": "92",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:33:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:46:45"
+        }
+      ]
+    }
+  ],
+  "id": 3257
+}

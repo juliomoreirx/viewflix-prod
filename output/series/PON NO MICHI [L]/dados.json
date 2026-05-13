@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MzE=",
+  "tipo": "serie",
+  "titulo": "PON NO MICHI [L]",
+  "capa_url": "https://lgfp.one/PQA3",
+  "capa_local": "PON NO MICHI [L]/PON NO MICHI [L].jpg",
+  "sinopse": "A história acompanha Nashiko Jippensha, uma garota do ensino médio que foi expulsa de casa. Sem um lugar para encontrar suas amigas, ela decide ir até a sala vazia do clube de mahjong que seu pai administrava. Transformando o lugar em sua nova casa, Nashiko decide aproveitar sua liberdade ao lado de suas amigas, seja passando o tempo cozinha, se divertindo e, quem sabe, às vezes jogando mahjong.",
+  "genero": "Animação, Comédia",
+  "elenco": "Kaori Maeda, Iori Saeki, Shion Wakayama, 近藤唯, Akio Otsuka",
+  "diretor": "南川達馬, 南川達馬",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:09"
+        }
+      ]
+    }
+  ],
+  "id": 7749
+}

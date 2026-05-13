@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNjg=",
+  "tipo": "serie",
+  "titulo": "FORCA NEGRA A LENDA DA ASSOCIACAO AMERICANA DE BASQUETE [L]",
+  "capa_url": "https://lgfp.one/RSO8",
+  "capa_local": "FORCA NEGRA A LENDA DA ASSOCIACAO AMERICANA DE BASQUETE [L]/FORCA NEGRA A LENDA DA ASSOCIACAO AMERICANA DE BASQUETE [L].jpg",
+  "sinopse": "Viva a rivalidade de nove anos entre a ABA e a NBA que mudou o basquete para sempre. Do arremesso de três pontos ao Concurso de Enterradas, as inovações da ABA viraram padrão do esporte. A história é contada por \"Dr. J\" Erving, Larry Brown, Bob Costas e outros membros do Hall da Fama.",
+  "genero": "Documentário",
+  "elenco": "Common, Julius Erving, Bob Costas, Bob Ryan, Larry Brown",
+  "diretor": "",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:40"
+        }
+      ]
+    }
+  ],
+  "id": 8875
+}

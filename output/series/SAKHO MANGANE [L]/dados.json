@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NTU=",
+  "tipo": "serie",
+  "titulo": "SAKHO MANGANE [L]",
+  "capa_url": "https://lgfp.one/RLP",
+  "capa_local": "SAKHO MANGANE [L]/SAKHO MANGANE [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia, Crime",
+  "elenco": "Fatou-Elise Ba, Issaka Sawadogo, Yann Gael, Christiane Dumont, Ricky Tribord",
+  "diretor": "Maty Ndiaye",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:14"
+        }
+      ]
+    }
+  ],
+  "id": 1128
+}

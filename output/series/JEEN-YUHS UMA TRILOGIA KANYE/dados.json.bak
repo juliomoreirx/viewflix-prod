@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MzQ=",
+  "tipo": "serie",
+  "titulo": "JEEN-YUHS: UMA TRILOGIA KANYE",
+  "capa_url": "https://lgfp.one/SYF",
+  "capa_local": "JEEN-YUHS UMA TRILOGIA KANYE/JEEN-YUHS UMA TRILOGIA KANYE.jpg",
+  "sinopse": "Um astro em ascensão e um cineasta. Duas vidas que se cruzam nesta série documental intensa e intimista que mostra a carreira de Kanye West, filmada durante duas décadas.",
+  "genero": "Documentário",
+  "elenco": "Ye, Jay-Z, Coodie Simmons",
+  "diretor": "J.M. Harper, Coodie Simmons, Coodie Simmons",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:29:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:33:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:37:28"
+        }
+      ]
+    }
+  ],
+  "id": 2342
+}

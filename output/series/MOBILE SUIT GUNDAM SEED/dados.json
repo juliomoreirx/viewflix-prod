@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NDg=",
+  "tipo": "serie",
+  "titulo": "MOBILE SUIT GUNDAM SEED",
+  "capa_url": "https://lgfp.one/ISI",
+  "capa_local": "MOBILE SUIT GUNDAM SEED/MOBILE SUIT GUNDAM SEED.jpg",
+  "sinopse": "A série se passa na \"Cosmic Era\" (Era Cósmica) e inicia a saga nesta era do universo Gundam. Tudo começa com a guerra de Bloody Valentine entre a Terra e as colônias. De um lado estava a Aliança Terrestre e do outro ZAFT representando, respectivamente, Terra e PLANT (colônias). Nesta era, a humanidade está dividida entre Naturais, humanos sem qualquer manipulação genética e os Coordinators, humanos alterados geneticamente para alcançar patamares mais altos de desempenho. O ódio entre alguns representantes de ambas as nações é enorme e, assim, uma nova guerra acontece.",
+  "genero": "Action & Adventure, Animação, Drama",
+  "elenco": "Akira Ishida, Rie Tanaka, Kotono Mitsuishi, Takehito Koyasu, Toshihiko Seki",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:06:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:32"
+        }
+      ]
+    }
+  ],
+  "id": 149
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4OTc=",
+  "tipo": "serie",
+  "titulo": "MARCELO, MARMELO, MARTELO",
+  "capa_url": "https://lgfp.one/AAMJ",
+  "capa_local": "MARCELO, MARMELO, MARTELO/MARCELO, MARMELO, MARTELO.jpg",
+  "sinopse": "Marcelo adora inventar palavras e regras, sempre questionando e arrumando confusão no seu bairro. Ele e sua turma descobrem uma misteriosa máquina escondida, que juram proteger de dois trambiqueiros.",
+  "genero": "Família",
+  "elenco": "Enzo Rosetti, Davi Martins, Rhianna Barbosa, Lara Capuzzo",
+  "diretor": "Alice Gomes, Maria Farkas, Tom Hamburger",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:31:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:34:28"
+        }
+      ]
+    }
+  ],
+  "id": 3683
+}

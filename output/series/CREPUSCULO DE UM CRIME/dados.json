@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMjA=",
+  "tipo": "serie",
+  "titulo": "CREPÚSCULO DE UM CRIME",
+  "capa_url": "https://lgfp.one/PMK7",
+  "capa_local": "CREPUSCULO DE UM CRIME/CREPUSCULO DE UM CRIME.jpg",
+  "sinopse": "Série acompanha um famoso advogado criminal australiano que perde tudo graças a seu vício em cocaína. Quando é condenado a cinco anos de cadeia, precisa refletir sobre sua vida e tentar recuperar sua credibilidade.",
+  "genero": "Crime",
+  "elenco": "Mocean Melvin, Grace Kelly Quigley, Angus Benfield, Becki Hayes",
+  "diretor": "Clint Lealos",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 7702
+}

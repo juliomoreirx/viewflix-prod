@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MDk=",
+  "tipo": "serie",
+  "titulo": "MONSTROS DA CRACÓVIA",
+  "capa_url": "https://lgfp.one/TAG",
+  "capa_local": "MONSTROS DA CRACOVIA/MONSTROS DA CRACOVIA.jpg",
+  "sinopse": "Uma jovem assombrada pelo passado se une a um misterioso professor e seus alunos para investigar atividades paranormais – e enfrentar demônios.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Barbara Liberek, Andrzej Chyra, Stanisław Linowski, Mateusz Górski, Kaja Chan",
+  "diretor": "Kasia Adamik, Danyło Jaryj, Justyna Pelc",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:10"
+        }
+      ]
+    }
+  ],
+  "id": 2395
+}

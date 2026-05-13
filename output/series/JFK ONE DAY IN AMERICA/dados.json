@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNDc=",
+  "tipo": "serie",
+  "titulo": "JFK ONE DAY IN AMERICA",
+  "capa_url": "https://lgfp.one/ASWQ",
+  "capa_local": "JFK ONE DAY IN AMERICA/JFK ONE DAY IN AMERICA.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "John F. Kennedy",
+  "diretor": "T.J. Martin, Daniel Lindsay",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:59"
+        }
+      ]
+    }
+  ],
+  "id": 4407
+}

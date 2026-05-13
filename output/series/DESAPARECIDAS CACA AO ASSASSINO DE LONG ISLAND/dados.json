@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NjY=",
+  "tipo": "serie",
+  "titulo": "DESAPARECIDAS CACA AO ASSASSINO DE LONG ISLAND",
+  "capa_url": "https://lgfp.one/NMK8",
+  "capa_local": "DESAPARECIDAS CACA AO ASSASSINO DE LONG ISLAND/DESAPARECIDAS CACA AO ASSASSINO DE LONG ISLAND.jpg",
+  "sinopse": "Baseada em um crime real, esta série tensa examina a caça ao serial killer de Long Island pelo ponto de vista das vítimas, de seus entes queridos e da polícia.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Liz Garbus",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:01"
+        }
+      ]
+    }
+  ],
+  "id": 7115
+}

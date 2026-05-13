@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2NDc=",
+  "tipo": "serie",
+  "titulo": "BRAVE 10",
+  "capa_url": "https://lgfp.one/AMB1",
+  "capa_local": "BRAVE 10/BRAVE 10.jpg",
+  "sinopse": "Depois de quase um ano da batalha de Sekigahara, conhecemos Kirigakure Saizou, um ninja do clã Iga que busca a verdade sobre sua vida. Um dia Saizou encontra Isanami, uma garota do santuário de Izumo, sendo atacada por assassinos. Depois de algumas lutas básicas, ele descobre que ela está viajando ao lado de Sanada Yukimura em busca do santuário em Shinshuu, logo após Izumo ter sido destruído por um ataque. Yukimura também está em busca de 10 guerreiros que possam usar suas forças para ajudá-lo a alterar o rumo da história e da guerra que se prepara. E Isanami é uma das que fará a diferença com seu poder no decorrer desse trajeto…",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Rina Sato, Daisuke Ono, Toshiyuki Morikawa, Tetsuya Kakihara, Hiroshi Kamiya",
+  "diretor": "Kiyoko Sayama",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:36"
+        }
+      ]
+    }
+  ],
+  "id": 5120
+}

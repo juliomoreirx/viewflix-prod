@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NzY=",
+  "tipo": "serie",
+  "titulo": "TALK QUEENS [L]",
+  "capa_url": "https://lgfp.one/MZW4",
+  "capa_local": "TALK QUEENS [L]/TALK QUEENS [L].jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "指原莉乃, Asako Ito",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:16:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:29:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:29:56"
+        }
+      ]
+    }
+  ],
+  "id": 6898
+}

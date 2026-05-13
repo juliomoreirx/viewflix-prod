@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Mzk=",
+  "tipo": "serie",
+  "titulo": "BRINQUEDOS QUE MARCAM ÉPOCA",
+  "capa_url": "https://lgfp.one/SWO",
+  "capa_local": "BRINQUEDOS QUE MARCAM EPOCA/BRINQUEDOS QUE MARCAM EPOCA.jpg",
+  "sinopse": "As mentes por trás das franquias de brinquedos mais icônicas da história discutem a ascensão - e às vezes queda - de suas criações de bilhões de dólares.",
+  "genero": "Documentário",
+  "elenco": "Donald Ian Black, Kirk Bozigian, David Vonner",
+  "diretor": "Brian Volk-Weiss, Tom Stern, Tom Stern",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:53"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:19"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:44:19"
+        }
+      ]
+    }
+  ],
+  "id": 2299
+}

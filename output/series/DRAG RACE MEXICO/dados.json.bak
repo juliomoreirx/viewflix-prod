@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4ODU=",
+  "tipo": "serie",
+  "titulo": "DRAG RACE MEXICO",
+  "capa_url": "https://lgfp.one/ABBO",
+  "capa_local": "DRAG RACE MEXICO/DRAG RACE MEXICO.jpg",
+  "sinopse": "Versão mexicana da franquia originada de RuPaul's Drag Race",
+  "genero": "Reality",
+  "elenco": "Lolita Banana, Valentina, Óscar Madrazo, Matraka Traka, Regina Voce",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:01:20"
+        }
+      ]
+    }
+  ],
+  "id": 4100
+}

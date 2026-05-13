@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MTE=",
+  "tipo": "serie",
+  "titulo": "LABIRINTO DO MEDO",
+  "capa_url": "https://lgfp.one/RQT",
+  "capa_local": "LABIRINTO DO MEDO/LABIRINTO DO MEDO.jpg",
+  "sinopse": "Um autor assombrado pela morte da irmã na infância volta à sua terra natal para investigar casos sobrenaturais e escrever seu novo livro.",
+  "genero": "Mistério, Drama",
+  "elenco": "Zondwa Mditshwa, Altovise Lawrence, Shamilla Miller, Anthony Oseyemi, Rea Rangaka",
+  "diretor": "Gareth Crocker, Fred Wolmarans",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:10"
+        }
+      ]
+    }
+  ],
+  "id": 1266
+}

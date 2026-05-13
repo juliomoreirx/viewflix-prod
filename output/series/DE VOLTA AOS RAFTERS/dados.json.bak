@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNDc=",
+  "tipo": "serie",
+  "titulo": "DE VOLTA AOS RAFTERS",
+  "capa_url": "https://lgfp.one/SGB",
+  "capa_local": "DE VOLTA AOS RAFTERS/DE VOLTA AOS RAFTERS.jpg",
+  "sinopse": "De Volta aos Rafters é situada seis anos após nossa última visita à família Rafter. Dave e Julie têm uma vida nova no campo com a filha mais nova, Ruby, enquanto seus filhos mais velhos enfrentam novos desafios, e o vovô Ted vem se sentindo cada vez mais confuso. Dave gosta de sua nova liberdade, mas Julie deve reavaliar suas responsabilidades para com a família.",
+  "genero": "Comédia, Drama, Família",
+  "elenco": "Erik Thomson, Rebecca Gibney, Hugh Sheridan, Willow Speers, Haiha Le",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:36"
+        }
+      ]
+    }
+  ],
+  "id": 1850
+}

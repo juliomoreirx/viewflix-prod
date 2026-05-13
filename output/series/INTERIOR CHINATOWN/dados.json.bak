@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNjE=",
+  "tipo": "serie",
+  "titulo": "INTERIOR CHINATOWN",
+  "capa_url": "https://lgfp.one/EIM7",
+  "capa_local": "INTERIOR CHINATOWN/INTERIOR CHINATOWN.jpg",
+  "sinopse": "Acompanha a história de Willis Wu, um figurante preso em um programa policial que sonha em ser o protagonista. Em sua busca pelos holofotes, ele descobre segredos sobre o estranho mundo em que habita e desvenda a história de sua família.",
+  "genero": "Drama, Crime, Comédia",
+  "elenco": "Jimmy O. Yang, Ronny Chieng, Chloe Bennet, Sullivan Jones, Lisa Gilroy",
+  "diretor": "Taika Waititi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:39"
+        }
+      ]
+    }
+  ],
+  "id": 6261
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTM=",
+  "tipo": "serie",
+  "titulo": "TRAIÇÃO: O MARIDO PERFEITO [L]",
+  "capa_url": "https://lgfp.one/AAZP",
+  "capa_local": "TRAICAO O MARIDO PERFEITO [L]/TRAICAO O MARIDO PERFEITO [L].jpg",
+  "sinopse": "Uma mulher descobre a vida dupla de seu marido quando ele é preso por agredir sexualmente uma de suas alunas adolescentes.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:56"
+        }
+      ]
+    }
+  ],
+  "id": 5786
+}

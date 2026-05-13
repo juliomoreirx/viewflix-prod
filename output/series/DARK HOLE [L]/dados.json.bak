@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMjc=",
+  "tipo": "serie",
+  "titulo": "DARK HOLE [L]",
+  "capa_url": "https://lgfp.one/AWUK",
+  "capa_local": "DARK HOLE [L]/DARK HOLE [L].jpg",
+  "sinopse": "Um grupo de sobreviventes lutam por suas vidas contra mutantes que são criados quando humanos respiram uma misteriosa fumaça negra vinda de um buraco.",
+  "genero": "Action & Adventure, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Kim Ok-vin, Lee Jun-hyuk, Yoon Jung-hoon, Park Keun-rok, Jang Sung-won",
+  "diretor": "Kim Bong-joo",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:59:21"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:59:03"
+        }
+      ]
+    }
+  ],
+  "id": 4690
+}

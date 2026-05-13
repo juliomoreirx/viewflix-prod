@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNzA=",
+  "tipo": "serie",
+  "titulo": "GHOST DOCTOR [L]",
+  "capa_url": "https://lgfp.one/ALD7",
+  "capa_local": "GHOST DOCTOR [L]/GHOST DOCTOR [L].jpg",
+  "sinopse": "São cerca de dois médicos que não poderiam ser mais diferentes em habilidades e personalidades, mas acabam combinando espíritos e corpos em uma posse confusa.",
+  "genero": "Comédia, Drama, Sci-Fi & Fantasy",
+  "elenco": "Rain, Kim Bum, Uie, Son Na-eun, Kim Jae-yong",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:06:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:05:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:04:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:06:38"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:06:40"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:05:17"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:07:19"
+        }
+      ]
+    }
+  ],
+  "id": 5091
+}

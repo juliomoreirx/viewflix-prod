@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTU=",
+  "tipo": "serie",
+  "titulo": "CONGRESSO BITCOIN (2026)",
+  "capa_url": "https://lgfp.one/SCI8",
+  "capa_local": "CONGRESSO BITCOIN (2026)/CONGRESSO BITCOIN (2026).jpg",
+  "sinopse": "Uma análise sobre a evolução do dinheiro, as mudanças no sistema financeiro e o papel do Bitcoin nesse cenário.",
+  "genero": "Documentário",
+  "elenco": "Rual Sena, Felipe Sant'Anna, Eduardo Feldberg (Primo Pobre), Josiane Haesen, Rafael Castaneda",
+  "diretor": "André Bellini",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:35"
+        }
+      ]
+    }
+  ],
+  "id": 9024
+}

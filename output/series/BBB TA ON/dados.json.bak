@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyOTM=",
+  "tipo": "serie",
+  "titulo": "BBB TÁ ON",
+  "capa_url": "https://lgfp.one/YXF",
+  "capa_local": "BBB TA ON/BBB TA ON.jpg",
+  "sinopse": "O programa, com Jeska Grecco e Patrícia Ramos, repercute as dinâmicas do BBB 23, entrevista ex-participantes e recebe influenciadores e estrelas fãs do BBB.",
+  "genero": "Talk / Reality",
+  "elenco": "Jeska Grecco, Patrícia Ramos",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:15:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:26:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:12:28"
+        }
+      ]
+    }
+  ],
+  "id": 3365
+}

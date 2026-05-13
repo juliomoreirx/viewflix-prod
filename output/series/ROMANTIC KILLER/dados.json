@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDI=",
+  "tipo": "serie",
+  "titulo": "ROMANTIC KILLER",
+  "capa_url": "https://lgfp.one/VYO",
+  "capa_local": "ROMANTIC KILLER/ROMANTIC KILLER.jpg",
+  "sinopse": "Anzu está curtindo tanto a vida de solteira que nem pensa em romance. Até que uma criatura mágica transforma a vida desta jovem em uma comédia romântica bem clichê.",
+  "genero": "Animação, Comédia",
+  "elenco": "Rie Takahashi, Mikako Komatsu, Yuichiro Umehara, Gakuto Kajiwara, Natsuki Hanae",
+  "diretor": "Kazuya Ichikawa",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:30:20"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:30:00"
+        }
+      ]
+    }
+  ],
+  "id": 3003
+}

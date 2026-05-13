@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Mzk=",
+  "tipo": "serie",
+  "titulo": "CIDADE DOS CAMPEÕES",
+  "capa_url": "https://lgfp.one/SEU",
+  "capa_local": "CIDADE DOS CAMPEOES/CIDADE DOS CAMPEOES.jpg",
+  "sinopse": "Em uma cidade da Geórgia que respira futebol americano, um time de estudantes luta por um título e enfrenta problemas dentro e fora do campo.",
+  "genero": "Reality",
+  "elenco": "Jake Garcia, Lenley Gross, Kendall Haden, Amari Jones, Samuel Brown",
+  "diretor": "Jason Sciavicco",
+  "total_episodios": "34",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:38"
+        }
+      ]
+    }
+  ],
+  "id": 1816
+}

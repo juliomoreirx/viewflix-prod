@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzNTE=",
+  "tipo": "serie",
+  "titulo": "OS REINOS DA RUINA [L]",
+  "capa_url": "https://lgfp.one/ARCQ",
+  "capa_local": "OS REINOS DA RUINA [L]/OS REINOS DA RUINA [L].jpg",
+  "sinopse": "As bruxas, num passado distante, abençoaram a raça humana com sabedoria e paz... Porém, a Expansão de Engrenagens do Império Redia trouxe consigo uma cultura científica que superou em muito a magia, e as bruxas passaram a ser vistas como inimigas que impediam o progresso da civilização... Assim começaram as caças às bruxas. Um humano chamado Adonis, que foi criado por uma bruxa chamada Chloe, jura vingança contra a raça humana que tirou sua amada mentora! Que salvação pode ser encontrada no fim de um banho de sangue alimentado por completo desespero?",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Kaito Ishikawa, Azumi Waki, Ryoko Shiraishi, Satoshi Hino, Hikaru Tohno",
+  "diretor": "Keitaro Motonaga",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:12"
+        }
+      ]
+    }
+  ],
+  "id": 4250
+}

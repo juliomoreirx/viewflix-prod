@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMzk=",
+  "tipo": "serie",
+  "titulo": "DESVENTURAS DE AMOR EM PARIS",
+  "capa_url": "https://lgfp.one/TRI",
+  "capa_local": "DESVENTURAS DE AMOR EM PARIS/DESVENTURAS DE AMOR EM PARIS.jpg",
+  "sinopse": "Ao ser demitida e terminar um relacionamento, Jul vive uma crise interna. Ela se envolve em muitas loucuras em Paris, tentando fazer um homem desconhecido se apaixonar por ela.",
+  "genero": "Comédia",
+  "elenco": "Maud Baecker, Nadia Roz, Isabelle Vitari, Tom Leeb, Marthe Villalonga",
+  "diretor": "Pascale Pouzadoux",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:21"
+        }
+      ]
+    }
+  ],
+  "id": 2861
+}

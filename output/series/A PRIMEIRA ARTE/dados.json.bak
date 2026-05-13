@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMTI=",
+  "tipo": "serie",
+  "titulo": "A PRIMEIRA ARTE",
+  "capa_url": "https://lgfp.one/VYY",
+  "capa_local": "A PRIMEIRA ARTE/A PRIMEIRA ARTE.jpg",
+  "sinopse": "Para produzir este documentário, muitos especialistas foram entrevistados, como:  Juntos eles abordam aspectos da história da música, dos efeitos da música no cérebro, incluindo os efeitos da música em bebês na barriga da mãe ou em recém nascidos e do envolvimento da música na construção da personalidade humana em geral.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Brasil Paralelo",
+  "total_episodios": "100",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:15:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:17:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:44:09"
+        }
+      ]
+    }
+  ],
+  "id": 3010
+}

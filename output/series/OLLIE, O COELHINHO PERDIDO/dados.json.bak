@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MDk=",
+  "tipo": "serie",
+  "titulo": "OLLIE, O COELHINHO PERDIDO",
+  "capa_url": "https://lgfp.one/TPF",
+  "capa_local": "OLLIE, O COELHINHO PERDIDO/OLLIE, O COELHINHO PERDIDO.jpg",
+  "sinopse": "Um brinquedo perdido sai em busca do dono nesta série para toda a família, inspirada no livro de William Joyce.",
+  "genero": "Animação, Família, Drama",
+  "elenco": "Jonathan Groff, Mary J. Blige, Tim Blake Nelson, Jake Johnson, Gina Rodriguez",
+  "diretor": "Shannon Tindle, Brandon Oldenburg, Brandon Oldenburg",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:31"
+        }
+      ]
+    }
+  ],
+  "id": 2802
+}

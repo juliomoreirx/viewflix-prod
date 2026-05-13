@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MTM=",
+  "tipo": "serie",
+  "titulo": "TAKE THAT [L]",
+  "capa_url": "https://lgfp.one/RMZ0",
+  "capa_local": "TAKE THAT [L]/TAKE THAT [L].jpg",
+  "sinopse": "Com imagens inéditas de acervo, este documentário retrata a ascensão, a queda e o retorno triunfal de uma das boy bands mais icônicas do Reino Unido.",
+  "genero": "Documentário",
+  "elenco": "Gary Barlow, Howard Donald, Mark Owen, Jason Orange, Robbie Williams",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:18"
+        }
+      ]
+    }
+  ],
+  "id": 8738
+}

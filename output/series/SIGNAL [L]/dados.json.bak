@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzOTU=",
+  "tipo": "serie",
+  "titulo": "SIGNAL [L]",
+  "capa_url": "https://lgfp.one/AXAV",
+  "capa_local": "SIGNAL [L]/SIGNAL [L].jpg",
+  "sinopse": "Detetives do presente e um detetive do passado se comunicam através de walkie-talkie para resolver um caso não solucionado há muito tempo.",
+  "genero": "Crime, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Lee Je-hoon, Kim Hye-soo, Cho Jin-woong, Jang Hyun-sung, Jung Hae-kyun",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:16:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:07:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:13:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:13:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:11:43"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:17:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:17:42"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:13:21"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:13:43"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:11:46"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:28:35"
+        }
+      ]
+    }
+  ],
+  "id": 4727
+}

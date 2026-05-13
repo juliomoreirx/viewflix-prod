@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4NTY=",
+  "tipo": "serie",
+  "titulo": "BAD THOUGHTS [L]",
+  "capa_url": "https://lgfp.one/NVX5",
+  "capa_local": "BAD THOUGHTS [L]/BAD THOUGHTS [L].jpg",
+  "sinopse": "Uma coletânea de histórias perturbadoramente hilárias que desafiam os limites da compostura, de um jeito que só Tom Segura poderia imaginar.",
+  "genero": "Comédia",
+  "elenco": "Tom Segura",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:17:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:17:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:42"
+        }
+      ]
+    }
+  ],
+  "id": 7301
+}

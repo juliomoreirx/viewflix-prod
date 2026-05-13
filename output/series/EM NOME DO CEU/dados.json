@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzOTQ=",
+  "tipo": "serie",
+  "titulo": "EM NOME DO CÉU",
+  "capa_url": "https://lgfp.one/TME",
+  "capa_local": "EM NOME DO CEU/EM NOME DO CEU.jpg",
+  "sinopse": "A fé de um detetive devoto é testada enquanto ele investiga um assassinato brutal que parece estar conectado à espiral de uma estimada família de Utah no fundamentalismo SUD e sua desconfiança no governo.",
+  "genero": "Crime / Drama / Mistério",
+  "elenco": "Andrew Garfield, Daisy Edgar-Jones, Sam Worthington, Denise Gough, Wyatt Russell, Billy Howle, Gil Birmingham, Adelaide Clemens",
+  "diretor": "Dustin Lance Black",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:28:52"
+        }
+      ]
+    }
+  ],
+  "id": 2719
+}

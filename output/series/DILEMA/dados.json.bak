@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMzM=",
+  "tipo": "serie",
+  "titulo": "DILEMA",
+  "capa_url": "https://lgfp.one/IXF",
+  "capa_local": "DILEMA/DILEMA.jpg",
+  "sinopse": "Desesperada para conseguir fundos para sua startup médica, uma cientista idealista faz um acordo infame com uma investidora misteriosa.",
+  "genero": "Drama",
+  "elenco": "Renée Zellweger, Jane Levy, Blake Jenner, Keith Powers, Samantha Marie Ware",
+  "diretor": "Robert Zemeckis",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:07"
+        }
+      ]
+    }
+  ],
+  "id": 284
+}

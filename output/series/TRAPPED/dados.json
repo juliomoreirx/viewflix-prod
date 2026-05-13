@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTQ=",
+  "tipo": "serie",
+  "titulo": "TRAPPED",
+  "capa_url": "https://lgfp.one/AANT",
+  "capa_local": "TRAPPED/TRAPPED.jpg",
+  "sinopse": "Um ferry boat com cerca de trezentos passageiros deixa a Dinamarca em direção a uma pequena cidade da Islândia. Ao chegar no local, uma nevasca impede que a embarcação retorne. Neste meio tempo, o corpo mutilado de um desconhecido é encontrado na água. O chefe de polícia da cidade, Andri Olafsson, tenta manter a calma entre os moradores e passageiros enquanto inicia uma investigação, na qual todos são suspeitos. Além do crime, Andri também precisa lidar com seus problemas pessoais. Mesmo tendo sido abandonado pela esposa, ele ainda vive com os sogros enquanto cuida de suas duas filhas.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Ólafur Darri Ólafsson, Ilmur Kristjánsdóttir, Björn Hlynur Haraldsson, Kara Ingudóttir",
+  "diretor": "Baltasar Kormákur",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:00"
+        }
+      ]
+    }
+  ],
+  "id": 2836
+}

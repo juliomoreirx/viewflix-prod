@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MzM=",
+  "tipo": "serie",
+  "titulo": "OS ASSASSINATOS DA MANDALA [L]",
+  "capa_url": "https://lgfp.one/PPZ8",
+  "capa_local": "OS ASSASSINATOS DA MANDALA [L]/OS ASSASSINATOS DA MANDALA [L].jpg",
+  "sinopse": "Com uma série de assassinatos ritualísticos abalando uma cidadezinha, uma dupla de policiais precisa investigar um mistério ligado ao passado deles.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Vaani Kapoor, Vaibhav Raj Gupta, Surveen Chawla",
+  "diretor": "Gopi Puthran, Manan Rawat, Goswami Anurag",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:24"
+        }
+      ]
+    }
+  ],
+  "id": 7744
+}

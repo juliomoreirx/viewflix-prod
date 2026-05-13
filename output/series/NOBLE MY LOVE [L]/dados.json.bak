@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMjI=",
+  "tipo": "serie",
+  "titulo": "NOBLE MY LOVE [L]",
+  "capa_url": "https://lgfp.one/AWUS",
+  "capa_local": "NOBLE MY LOVE [L]/NOBLE MY LOVE [L].jpg",
+  "sinopse": "O romance entre Lee Kang-hoon, o CEO de uma grande empresa, e Cha Yoon-seo, uma atraente, inocente e adorável veterinária. Um dia, Kang-hoon é sequestrado e escapa dramaticamente dos bandidos, mas seu sangramento abundante o faz desmaiar na frente de uma clínica veterinária. Yoon-seo o encontra e o trata até a recuperação.",
+  "genero": "Comédia",
+  "elenco": "Sung Hoon, Kim Jae-kyung, Kim Dong-seok, Park Eun-seok, Lee Do-Kyung",
+  "diretor": "Kim Yang-hee",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:31"
+        }
+      ]
+    }
+  ],
+  "id": 4698
+}

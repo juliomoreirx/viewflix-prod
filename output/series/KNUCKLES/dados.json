@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NDE=",
+  "tipo": "serie",
+  "titulo": "KNUCKLES",
+  "capa_url": "https://lgfp.one/AVI2",
+  "capa_local": "KNUCKLES/KNUCKLES.jpg",
+  "sinopse": "Knuckles embarca em uma jornada hilária e cheia de ação de autodescoberta ao concordar em treinar Wade como seu protegido e ensiná-lo os caminhos do guerreiro equidna.",
+  "genero": "Action & Adventure, Família, Comédia",
+  "elenco": "Idris Elba, Adam Pally",
+  "diretor": "Jeff Fowler",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:51"
+        }
+      ]
+    }
+  ],
+  "id": 5328
+}

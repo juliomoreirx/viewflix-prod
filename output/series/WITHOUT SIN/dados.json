@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwODk=",
+  "tipo": "serie",
+  "titulo": "WITHOUT SIN",
+  "capa_url": "https://lgfp.one/ZTS",
+  "capa_local": "WITHOUT SIN/WITHOUT SIN.jpg",
+  "sinopse": "Explora o relacionamento que se desenvolve entre uma mãe enlutada e o homem que ela acredita ter assassinado sua filha.",
+  "genero": "Drama / Crime",
+  "elenco": "Vicky McClure, Johnny Harris, Dorothy Atkinson, Ezra Faroque Khan, Michael Kavanagh, Stacey Devonport, Grant Crookes, Con O'Neill",
+  "diretor": "Frances Poletti",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:33"
+        }
+      ]
+    }
+  ],
+  "id": 3484
+}

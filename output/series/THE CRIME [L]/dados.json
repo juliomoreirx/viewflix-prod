@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNzk=",
+  "tipo": "serie",
+  "titulo": "THE CRIME [L]",
+  "capa_url": "https://lgfp.one/EKD4",
+  "capa_local": "THE CRIME [L]/THE CRIME [L].jpg",
+  "sinopse": "Uma série de crimes macabros abala a vida tranquila dos moradores de uma cidade litorânea paradisíaca.",
+  "genero": "Action & Adventure, Crime",
+  "elenco": "Wojciech Zieliński, Magdalena Boczarska, Dorota Kolak, Joanna Kulig, Radosław Pazura",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:25"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:17"
+        }
+      ]
+    }
+  ],
+  "id": 6293
+}

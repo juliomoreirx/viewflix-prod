@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwOTc=",
+  "tipo": "serie",
+  "titulo": "O CASTELO DE TAKESHI JAPAO [L]",
+  "capa_url": "https://lgfp.one/DXO4",
+  "capa_local": "O CASTELO DE TAKESHI JAPAO [L]/O CASTELO DE TAKESHI JAPAO [L].jpg",
+  "sinopse": "A sensação mundial O Castelo de Takeshi volta após 34 anos! Desafios populares são revividos numa escala mais grandiosa, e novos e aterrorizantes obstáculos surgem um após o outro. O senhor do castelo, Beat Takeshi, confia sua proteção ao Homem Banana. Subaru Kimura é o novo líder das forças invasoras. A elite se reúne para invadir o Castelo de Takeshi. A maior batalha da história vai começar!",
+  "genero": "Reality",
+  "elenco": "Takeshi Kitano, 谷隼人, Kuro-chan, Hollywood Zakoshisyoh",
+  "diretor": "Tsuyoshi Katayama, Masato Inui",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:52"
+        }
+      ]
+    }
+  ],
+  "id": 6135
+}

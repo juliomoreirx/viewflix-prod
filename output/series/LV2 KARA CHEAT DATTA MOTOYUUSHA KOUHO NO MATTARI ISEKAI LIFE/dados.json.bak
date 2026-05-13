@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2NDQ=",
+  "tipo": "serie",
+  "titulo": "LV2 KARA CHEAT DATTA MOTOYUUSHA KOUHO NO MATTARI ISEKAI LIFE",
+  "capa_url": "https://lgfp.one/BBL8",
+  "capa_local": "LV2 KARA CHEAT DATTA MOTOYUUSHA KOUHO NO MATTARI ISEKAI LIFE/LV2 KARA CHEAT DATTA MOTOYUUSHA KOUHO NO MATTARI ISEKAI LIFE.jpg",
+  "sinopse": "O Reino Mágico de Klyrode convoca centenas de heróis de outros mundos todos os anos para lutar na guerra contra a Escuridão e seu exército de demônios poderosos. Banaza é um desses heróis, convocado da Royal Capital Paluma, mas algo não está certo – Banaza é apenas um comerciante comum. Ele não tem magia, não tem habilidade de luta e seus pontos de habilidade são péssimos. Pior ainda, um acidente o deixa impossibilitado de voltar para casa! Rejeitado como herói e preso em outro mundo, abandonado nos confins do reino por um rei cruel que só quer que ele vá embora, o destino de Banaza parece bastante sombrio. Mas o que acontecerá quando o candidato a herói fracassado passar a ter superpoderes de trapaça ao atingir o nível dois?",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Satoshi Hino, 釘宮理恵, 山根綺, 日野まり, 広瀬ゆうき",
+  "diretor": "岩崎良明",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        }
+      ]
+    }
+  ],
+  "id": 5481
+}

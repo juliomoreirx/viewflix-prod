@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MzA=",
+  "tipo": "serie",
+  "titulo": "MARC MARQUEZ ALL IN [L]",
+  "capa_url": "https://lgfp.one/QCL2",
+  "capa_local": "MARC MARQUEZ ALL IN [L]/MARC MARQUEZ ALL IN [L].jpg",
+  "sinopse": "Marc Márquez encara a decisão mais difícil de sua carreira. Ele precisará adotar medidas drásticas para tentar vencer de novo. A série retrata de forma direta e em primeira pessoa um ano decisivo na vida e na carreira de Marc. O medo, os riscos, o sofrimento, a emoção das corridas e a ambição infinita de um homem determinado a ser campeão novamente.",
+  "genero": "Documentário",
+  "elenco": "Marc Márquez, Dani Pedrosa, Jorge Lorenzo, Aleix Espargaró, Carlos Sainz Jr.",
+  "diretor": "Chema Castillo",
+  "total_episodios": "34",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:36"
+        }
+      ]
+    }
+  ],
+  "id": 8073
+}

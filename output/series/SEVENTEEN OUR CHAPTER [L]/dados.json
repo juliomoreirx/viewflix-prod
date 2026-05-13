@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4OTE=",
+  "tipo": "serie",
+  "titulo": "SEVENTEEN OUR CHAPTER [L]",
+  "capa_url": "https://lgfp.one/REZ6",
+  "capa_local": "SEVENTEEN OUR CHAPTER [L]/SEVENTEEN OUR CHAPTER [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "에스쿱스, 정한, 조슈아, 文俊辉, 원우",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:47"
+        }
+      ]
+    }
+  ],
+  "id": 8575
+}

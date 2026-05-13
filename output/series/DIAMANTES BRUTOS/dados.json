@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MzQ=",
+  "tipo": "serie",
+  "titulo": "DIAMANTES BRUTOS",
+  "capa_url": "https://lgfp.one/ZLE",
+  "capa_local": "DIAMANTES BRUTOS/DIAMANTES BRUTOS.jpg",
+  "sinopse": "Um homem volta à Antuérpia para tentar salvar o império de diamantes da família, afundado em dívidas pelo irmão.",
+  "genero": "Drama / Crime",
+  "elenco": "Kevin Janssens, Marie Vinck, Casper Knopf, Soroush Helali, Els Dottermans, Robbie Cleiren, Yona Elian, Janne Desmet",
+  "diretor": "Rotem Shamir, Jan Theys, Yuval Yefet",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:28"
+        }
+      ]
+    }
+  ],
+  "id": 3437
+}

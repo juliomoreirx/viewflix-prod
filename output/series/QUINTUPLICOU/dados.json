@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Mzg=",
+  "tipo": "serie",
+  "titulo": "QUINTUPLICOU",
+  "capa_url": "https://lgfp.one/ZXS",
+  "capa_local": "QUINTUPLICOU/QUINTUPLICOU.jpg",
+  "sinopse": "Quando a advogada Mariana e o empresário Jayme decidiram ter um filho, não imaginavam que viriam cinco ao mesmo tempo! Após tratamento em clínica de reprodução assistida, Mariana engravidou de cinco bebês. Os quíntuplos já estão com quase dois anos e, desde o nascimento, o casal da cidade de Guarapari – ES vive uma rotina intensa em um lar cheio e movimentado, onde buscam equilibrar as demandas da vida profissional e as dos filhos.",
+  "genero": "Reality",
+  "elenco": "Mariana Mazzelli, Jayme Reisen, Beatriz Reisen, Lais Reisen",
+  "diretor": "Adriana Cechetti, Marília Portella",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:11"
+        }
+      ]
+    }
+  ],
+  "id": 3511
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODM=",
+  "tipo": "serie",
+  "titulo": "O DIRETOR NU",
+  "capa_url": "https://lgfp.one/JDN",
+  "capa_local": "O DIRETOR NU/O DIRETOR NU.jpg",
+  "sinopse": "Nos anos 80, um japonês muito determinado transforma obstáculos em oportunidades e revoluciona toda uma indústria. Seu nome? Toru Muranishi.",
+  "genero": "Comédia, Drama",
+  "elenco": "山田孝之, 満島真之介, Misato Morita, 玉山鉄二, 柄本時生",
+  "diretor": "Masaharu Take, Hayato Kawai, Kôtarô Gotô, Eiji Uchida",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:34"
+        }
+      ]
+    }
+  ],
+  "id": 476
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MTk=",
+  "tipo": "serie",
+  "titulo": "SELECAO ARTIFICIAL",
+  "capa_url": "https://lgfp.one/RCL7",
+  "capa_local": "SELECAO ARTIFICIAL/SELECAO ARTIFICIAL.jpg",
+  "sinopse": "Da erradicação de doenças à escolha das características do bebê, a edição genética permite alterar a biologia humana. Saiba quem são os cientistas por trás de tudo isso.",
+  "genero": "Documentário",
+  "elenco": "Kevin Esvelt, Aaron Traywick, David Ishee, Jeffrey Kahn, Tristan Roberts",
+  "diretor": "Shaul Schwarz, Leeor Kaufman, Christina Clusiau",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:20"
+        }
+      ]
+    }
+  ],
+  "id": 8471
+}

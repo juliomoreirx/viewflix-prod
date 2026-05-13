@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1Mjk=",
+  "tipo": "serie",
+  "titulo": "1899",
+  "capa_url": "https://lgfp.one/WFU",
+  "capa_local": "1899/1899.jpg",
+  "sinopse": "Em um navio a vapor migrante rumo ao oeste para deixar o velho continente de Londres para Nova York, os passageiros, uma mistura de origens europeias, estão unidos por suas esperanças e sonhos para o novo século e seu futuro no exterior. Quando eles descobrem outro navio migrante à deriva em mar aberto, sua jornada toma um rumo inesperado. O que eles encontrarem a bordo transformará sua passagem para a terra prometida em um pesadelo horrível.",
+  "genero": "Mistério / Drama",
+  "elenco": "Emily Beecham, Andreas Pietschmann, Aneurin Barnard, Isabella Wei, Maciej Musiał, Yann Gael, Miguel Bernardeau, Clara Rosager",
+  "diretor": "Baran bo Odar, Jantje Friese",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:24"
+        }
+      ]
+    }
+  ],
+  "id": 3070
+}

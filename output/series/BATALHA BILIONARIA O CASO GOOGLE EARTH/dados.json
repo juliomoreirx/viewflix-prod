@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MTc=",
+  "tipo": "serie",
+  "titulo": "BATALHA BILIONÁRIA: O CASO GOOGLE EARTH",
+  "capa_url": "https://lgfp.one/SIN",
+  "capa_local": "BATALHA BILIONARIA O CASO GOOGLE EARTH/BATALHA BILIONARIA O CASO GOOGLE EARTH.jpg",
+  "sinopse": "Na Berlim dos anos 90, um artista e um hacker inventam uma nova maneira de enxergar o mundo. Anos depois, eles se reúnem para processar o Google por quebra de patente.",
+  "genero": "Drama",
+  "elenco": "Leonard Scheicher, Marius Ahrendt, Mark Waschke, Mišel Matičević, Lavinia Wilson",
+  "diretor": "Robert Thalheim",
+  "total_episodios": "66",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:17:26"
+        }
+      ]
+    }
+  ],
+  "id": 1914
+}

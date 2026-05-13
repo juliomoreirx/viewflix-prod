@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwODY=",
+  "tipo": "serie",
+  "titulo": "TERCEIRA METADE",
+  "capa_url": "https://lgfp.one/PJJ1",
+  "capa_local": "TERCEIRA METADE/TERCEIRA METADE.jpg",
+  "sinopse": "Quatro casais poliamoristas viajam para Bahia em busca do seu terço da laranja. Após dates, dinâmicas e convivência, os novos trisais testam a afinidade, morando sob o mesmo teto.",
+  "genero": "Reality",
+  "elenco": "Deborah Secco",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:14:56"
+        }
+      ]
+    }
+  ],
+  "id": 7660
+}

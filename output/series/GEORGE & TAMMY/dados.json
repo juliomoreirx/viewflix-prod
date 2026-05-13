@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MTU=",
+  "tipo": "serie",
+  "titulo": "GEORGE & TAMMY",
+  "capa_url": "https://lgfp.one/YQZ",
+  "capa_local": "GEORGE & TAMMY/GEORGE & TAMMY.jpg",
+  "sinopse": "George and Tammy é uma minissérie biográfica baseada no livro de Georgette Jones, filha de um casal super popular da música country americana. As superestrelas Tammy Wynette (Jessica Chastain) e George Jones (Michael Shannon) tiveram uma longa e complicada relação que resultou em diversos hits de sucesso. Tammy é lembrada como a “Primeira Dama da Música Country” com uma das músicas mais vendidas no meio, Stand by Your Man. Por sua vez, George era reconhecido por sua voz única e o hino He Stopped Loving Her Today, lembrada como a melhor música country de todos os tempos. A trama explora os bastidores da carreira musical do casal e seus conflitos pessoais em família que foram parar na televisão e nas páginas de jornais e revistas.",
+  "genero": "Drama",
+  "elenco": "Jessica Chastain, Michael Shannon, Steve Zahn, David Wilson Barnes, Walton Goggins",
+  "diretor": "Abe Sylvia",
+  "total_episodios": "288",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:02"
+        }
+      ]
+    }
+  ],
+  "id": 3306
+}

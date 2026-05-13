@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNTU=",
+  "tipo": "serie",
+  "titulo": "ECOS DE UM PESADELO",
+  "capa_url": "https://lgfp.one/KBD5",
+  "capa_local": "ECOS DE UM PESADELO/ECOS DE UM PESADELO.jpg",
+  "sinopse": "Acusado de matar a irmã, Yehia está determinado a se vingar e encontrar o verdadeiro criminoso.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "آسر ياسين, Mahmoud Hemida, شريف سلامة, Saba Mubarak, Rakeen Saad",
+  "diretor": "سدير مسعود",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:20"
+        }
+      ]
+    }
+  ],
+  "id": 6328
+}

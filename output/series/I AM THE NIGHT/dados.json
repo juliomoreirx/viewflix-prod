@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MTQ=",
+  "tipo": "serie",
+  "titulo": "I AM THE NIGHT",
+  "capa_url": "https://lgfp.one/IRX",
+  "capa_local": "I AM THE NIGHT/I AM THE NIGHT.jpg",
+  "sinopse": "Fauna Hodel foi dada para adoção por sua mãe biológica. Ela então decide investigar os segredos de seu passado, seguindo uma trilha sinistra que se aproxima cada vez mais de um infame ginecologista ligado ao lendário assassinato de Dália Negra.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Chris Pine, India Eisley, Jefferson Mays, Leland Orser, Yul Vazquez",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:14"
+        }
+      ]
+    }
+  ],
+  "id": 136
+}

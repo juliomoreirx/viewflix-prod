@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNzM=",
+  "tipo": "serie",
+  "titulo": "THE GOOP LAB",
+  "capa_url": "https://lgfp.one/JEV",
+  "capa_local": "THE GOOP LAB/THE GOOP LAB.jpg",
+  "sinopse": "Gwyneth Paltrow e a equipe do goop exploram drogas psicodélicas, manipulação de energias, mediunidade e outras terapias alternativas (e polêmicas).",
+  "genero": "Documentário, Talk",
+  "elenco": "Gwyneth Paltrow, Elise Loehnen, Ana Hito",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:54"
+        }
+      ]
+    }
+  ],
+  "id": 511
+}

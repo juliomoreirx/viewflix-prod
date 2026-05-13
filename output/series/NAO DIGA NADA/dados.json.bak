@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMzk=",
+  "tipo": "serie",
+  "titulo": "NAO DIGA NADA",
+  "capa_url": "https://lgfp.one/EHD6",
+  "capa_local": "NAO DIGA NADA/NAO DIGA NADA.jpg",
+  "sinopse": "Uma história de assassinato e lembranças que se passa durante o conflito na Irlanda do Norte que abrange quatro décadas, começando com o desaparecimento chocante de Jean McConville, uma mãe solteira de dez filhos que foi sequestrada de sua casa em 1972 e nunca mais foi vista viva.",
+  "genero": "Drama, Crime",
+  "elenco": "Lola Petticrew, Hazel Doupe, Anthony Boyle, Josh Finan, Maxine Peake",
+  "diretor": "Michael Lennox",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:28"
+        }
+      ]
+    }
+  ],
+  "id": 6247
+}

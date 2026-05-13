@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NDE=",
+  "tipo": "serie",
+  "titulo": "AS SEGUIDORAS",
+  "capa_url": "https://lgfp.one/SZH",
+  "capa_local": "AS SEGUIDORAS/AS SEGUIDORAS.jpg",
+  "sinopse": "A série acompanha a história de Liv, uma influenciadora digital que leva sua obsessão por ganhar seguidores às últimas consequências, transformando-se em uma serial killer no processo. Contudo, o que ela não conta é que está sendo seguida pela dona de um podcast criminal, Antonia, que pode acabar colocando a jovem atrás das grades.",
+  "genero": "Comédia",
+  "elenco": "Maria Bopp, Domenica Dias, Gabz, Rayssa Chaddad, Tatiana Tiburcio, Nátaly Nery, Victor Lamoglia, Tatsu Carvalho",
+  "diretor": "Mariana Bastos, Mariana Youssef",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:27"
+        }
+      ]
+    }
+  ],
+  "id": 2370
+}

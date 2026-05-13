@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4Nzc=",
+  "tipo": "serie",
+  "titulo": "O ILUMINADO (1997)",
+  "capa_url": "https://lgfp.one/TCG0",
+  "capa_local": "O ILUMINADO (1997)/O ILUMINADO (1997).jpg",
+  "sinopse": "Um alcoólatra em recuperação deve lutar com os demônios dentro e fora quando ele e sua família se mudam para um hotel assombrado como cuidadores.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Rebecca De Mornay, Steven Weber, Wil Horneff, Courtland Mead, Cynthia Garris",
+  "diretor": "",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:30:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:30:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:31:09"
+        }
+      ]
+    }
+  ],
+  "id": 306144
+}

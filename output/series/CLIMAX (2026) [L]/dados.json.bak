@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMjY=",
+  "tipo": "serie",
+  "titulo": "CLIMAX (2026) [L]",
+  "capa_url": "https://lgfp.one/SGG1",
+  "capa_local": "CLIMAX (2026) [L]/CLIMAX (2026) [L].jpg",
+  "sinopse": "Um promotor ambicioso sobe na elite da Coreia ao se casar com uma atriz famosa, mas acaba sendo arrastado para um cartel de poder implacável, onde informantes ocultos, herdeiros corporativos e jogadores políticos colidem em uma luta brutal pela sobrevivência e pelo controle.",
+  "genero": "Mistério, Drama",
+  "elenco": "주지훈, 하지원, 나나, 차주영, Oh Jung Se",
+  "diretor": "이지원",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:02"
+        }
+      ]
+    }
+  ],
+  "id": 9129
+}

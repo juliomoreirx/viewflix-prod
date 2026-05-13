@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNjM=",
+  "tipo": "serie",
+  "titulo": "A HERDEIRA",
+  "capa_url": "https://lgfp.one/AYUO",
+  "capa_local": "A HERDEIRA/A HERDEIRA.jpg",
+  "sinopse": "Após a morte de um tio desconhecido, uma mulher herda um cemitério e se vê no centro de vários assassinatos e segredos sombrios.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "김현주, 박희순, Park Byung Eun, Ryu Kyung Soo, Joo Suk-In",
+  "diretor": "연상호, Seo Dong-jin, Min Hong-nam",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:11"
+        }
+      ]
+    }
+  ],
+  "id": 58315
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MDE=",
+  "tipo": "serie",
+  "titulo": "DIGMAN!",
+  "capa_url": "https://lgfp.one/ZQJ",
+  "capa_local": "DIGMAN!/DIGMAN!.jpg",
+  "sinopse": "O arqueólogo em decadência Rip Digman, tentando sair da escuridão e se redimir, recruta um ajudante para ajudá-lo a encontrar o chapéu perdido de Hammurabi, um antigo rei da Babilônia.",
+  "genero": "Comédia / Animação",
+  "elenco": "Andy Samberg, Tim Robinson, Mitra Jouhari, Dale Soules, Guz Khan, Melissa Fumero, Tim Meadows",
+  "diretor": "Andy Samberg, Neil Campbell",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:04"
+        }
+      ]
+    }
+  ],
+  "id": 3449
+}

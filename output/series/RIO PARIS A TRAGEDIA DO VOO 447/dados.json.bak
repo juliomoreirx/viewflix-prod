@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNzQ=",
+  "tipo": "serie",
+  "titulo": "RIO PARIS A TRAGEDIA DO VOO 447",
+  "capa_url": "https://lgfp.one/BFA2",
+  "capa_local": "RIO PARIS A TRAGEDIA DO VOO 447/RIO PARIS A TRAGEDIA DO VOO 447.jpg",
+  "sinopse": "Um avião some dos radares durante um voo Rio-Paris. Familiares, investigadores e especialistas recontam, 15 anos depois, uma das maiores tragédias da história da aviação.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:17"
+        }
+      ]
+    }
+  ],
+  "id": 5547
+}

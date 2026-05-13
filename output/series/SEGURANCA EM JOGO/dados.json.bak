@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2Mjc=",
+  "tipo": "serie",
+  "titulo": "SEGURANÇA EM JOGO",
+  "capa_url": "https://lgfp.one/SBS1",
+  "capa_local": "SEGURANCA EM JOGO/SEGURANCA EM JOGO.jpg",
+  "sinopse": "Após ajudar a evitar um ataque terrorista, um veterano de guerra recebe a missão de proteger a ministra que foi uma das responsáveis pelo conflito em que ele lutou.",
+  "genero": "Crime, Drama, War & Politics",
+  "elenco": "Richard Madden, Keeley Hawes, Sophie Rundle, Gina McKee, Pippa Haywood",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:15:48"
+        }
+      ]
+    }
+  ],
+  "id": 9010
+}

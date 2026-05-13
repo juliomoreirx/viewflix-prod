@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NTI=",
+  "tipo": "serie",
+  "titulo": "EU GORDON RAMSAY",
+  "capa_url": "https://lgfp.one/RSN5",
+  "capa_local": "EU GORDON RAMSAY/EU GORDON RAMSAY.jpg",
+  "sinopse": "Acompanhe o renomado chef Gordon Ramsay nos bastidores enquanto ele lida com a vida familiar, um império global e seu maior lançamento até agora neste documentário apetitoso.",
+  "genero": "Documentário",
+  "elenco": "Gordon Ramsay",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:17"
+        }
+      ]
+    }
+  ],
+  "id": 8866
+}

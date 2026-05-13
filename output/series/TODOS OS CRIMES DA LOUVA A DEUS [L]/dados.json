@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5NDA=",
+  "tipo": "serie",
+  "titulo": "TODOS OS CRIMES DA LOUVA A DEUS [L]",
+  "capa_url": "https://lgfp.one/PXI5",
+  "capa_local": "TODOS OS CRIMES DA LOUVA A DEUS [L]/TODOS OS CRIMES DA LOUVA A DEUS [L].jpg",
+  "sinopse": "Para impedir os crimes de uma pessoa que imita uma serial killer, um policial precisa da ajuda da assassina que originou tudo: a própria mãe.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "고현정, 장동윤, 조성하, 이엘, 김보라",
+  "diretor": "변영주",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:41"
+        }
+      ]
+    }
+  ],
+  "id": 7950
+}

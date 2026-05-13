@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MTM=",
+  "tipo": "serie",
+  "titulo": "ANCIENT EMPIRES [L]",
+  "capa_url": "https://lgfp.one/AUDF",
+  "capa_local": "ANCIENT EMPIRES [L]/ANCIENT EMPIRES [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Scott Cohen, Simone Collins, Patrick Wyman, Aaron Irvin, Simon Sebag-Montefiore",
+  "diretor": "Roel Reiné",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:47:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:47:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:26:41"
+        }
+      ]
+    }
+  ],
+  "id": 4502
+}

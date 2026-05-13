@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3ODU=",
+  "tipo": "serie",
+  "titulo": "ZATSUTABI THATS JOURNEY [L]",
+  "capa_url": "https://lgfp.one/NPL4",
+  "capa_local": "ZATSUTABI THATS JOURNEY [L]/ZATSUTABI THATS JOURNEY [L].jpg",
+  "sinopse": "A história acompanha a jornada e o crescimento de Chika Suzugamori, uma estudante universitária que sonha em se tornar uma artista de mangá. Chika já conquistou um prêmio de estreante no mundo dos mangás, mas seu coração está prestes a se partir quando todos os três rascunhos de suas novas obras são rejeitados pela editora. Para descontrair, ela decide fazer uma enquete nas redes sociais sobre o destino de uma possível viagem e recebe um retorno surpreendente. Sem conseguir retroceder, ela embarca em uma jornada improvisada, guiada pelos resultados da enquete.",
+  "genero": "Animação, Comédia",
+  "elenco": "月城日花, Sayumi Suzushiro, 平塚紗依, Satomi Sato, Yoko Hikasa",
+  "diretor": "渡邊政治, 宮城大翔",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:39"
+        }
+      ]
+    }
+  ],
+  "id": 7193
+}

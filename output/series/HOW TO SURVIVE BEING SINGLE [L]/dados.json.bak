@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2ODg=",
+  "tipo": "serie",
+  "titulo": "HOW TO SURVIVE BEING SINGLE [L]",
+  "capa_url": "https://lgfp.one/JNE",
+  "capa_local": "HOW TO SURVIVE BEING SINGLE [L]/HOW TO SURVIVE BEING SINGLE [L].jpg",
+  "sinopse": "Sebastian, um promissor ator mexicano, parece ter tudo até ser jogado de volta ao mundo tortuoso do namoro, apenas para perceber que não tem \"jogo\" de namoro. Forçado nos braços de sua tripulação dos melhores bros restantes, ele descobre que não é o único milenar infeliz lutando para encontrar o amor.",
+  "genero": "Comédia, Drama",
+  "elenco": "Lucía Gómez-Robledo, Octavio Hinojosa Martínez, Sebastián Zurita, Roberto Flores, Pamela Almanza",
+  "diretor": "",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:29:10"
+        }
+      ]
+    }
+  ],
+  "id": 762
+}

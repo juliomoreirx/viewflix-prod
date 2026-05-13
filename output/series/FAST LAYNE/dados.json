@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2ODA=",
+  "tipo": "serie",
+  "titulo": "FAST LAYNE",
+  "capa_url": "https://lgfp.one/KPH2",
+  "capa_local": "FAST LAYNE/FAST LAYNE.jpg",
+  "sinopse": "Layne, de 12 anos, encontra sua vida em ordem quando ela descobre um sofisticado carro falante chamado \"V.I.N.\" escondido em um galpão abandonado.",
+  "genero": "Comédia, Família, Action & Adventure",
+  "elenco": "Sophie Pollono, Sofia Rosinsky, Brandon Rossel, Winslow Fegley, Enid-Raye Adams",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:54"
+        }
+      ]
+    }
+  ],
+  "id": 6514
+}

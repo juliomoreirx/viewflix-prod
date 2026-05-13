@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNjc=",
+  "tipo": "serie",
+  "titulo": "FORA DE CONTROLE",
+  "capa_url": "https://lgfp.one/RSI1",
+  "capa_local": "FORA DE CONTROLE/FORA DE CONTROLE.jpg",
+  "sinopse": "O instigante universo das investigações policiais na cidade do Rio de Janeiro. Em cada episódio, um crime é investigado e resolvido, mostrando como o funcionamento da cidade interliga todos os tipos de moradores e visitantes.",
+  "genero": "Crime, Mistério",
+  "elenco": "Milhem Cortaz, Rafaela Mandelli, Cláudio Gabriel, Alice Assef, José Dumont",
+  "diretor": "Daniel Rezende, Johnny Araújo",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:43"
+        }
+      ]
+    }
+  ],
+  "id": 374354
+}

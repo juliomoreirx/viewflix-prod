@@ -1,0 +1,49 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzOTE=",
+  "tipo": "serie",
+  "titulo": "LIGHT & MAGIC",
+  "capa_url": "https://lgfp.one/TMK",
+  "capa_local": "LIGHT & MAGIC/LIGHT & MAGIC.jpg",
+  "sinopse": "Quando George Lucas decidiu fazer Star Wars, mal sabia ele que acabaria revolucionando uma indústria. Esta série mostra a evolução da Industrial Light & Magic, a empresa responsável pelos efeitos visuais icônicos de Star Wars, E.T., Exterminador 2, Jurassic Park e tantos outros filmes. Esta é a história de uma equipe de gênios criativos que colocam a magia nos filmes que amamos.",
+  "genero": "Documentário",
+  "elenco": "Justin Wilkes, Kathleen Kennedy, Lawrence Kasdan, Brian Grazer, Ron Howard, Lawrence Kasdan, Emily Topper, Nicola Marsh",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:02"
+        }
+      ]
+    }
+  ]
+}

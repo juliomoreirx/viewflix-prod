@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyNzE=",
+  "tipo": "serie",
+  "titulo": "DETETIVE MEENA [L]",
+  "capa_url": "https://lgfp.one/ALD5",
+  "capa_local": "DETETIVE MEENA [L]/DETETIVE MEENA [L].jpg",
+  "sinopse": "Uma jovem detetive particular testemunha um acidente. Um jovem é atropelado por um caminhão em alta velocidade. Acontece o tempo todo. Ou não? Uma ligação com seu passado conturbado e com a mãe do morto levam Meenakshi a investigar o acidente. O mundo tenta varrer o caso para debaixo do tapete, mas quando surge a possibilidade de uma incrível trama de bioterrorismo, a jovem detetive deve lutar.",
+  "genero": "Crime, Mistério",
+  "elenco": "Tanya Maniktala, Jisshu Sengupta, Parambrata Chatterjee, Vinay Pathak, Zarina Wahab",
+  "diretor": "Debaloy Bhattacharya",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:52"
+        }
+      ]
+    }
+  ],
+  "id": 5089
+}

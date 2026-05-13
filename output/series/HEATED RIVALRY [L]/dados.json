@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NzE=",
+  "tipo": "serie",
+  "titulo": "HEATED RIVALRY [L]",
+  "capa_url": "https://lgfp.one/REW3",
+  "capa_local": "HEATED RIVALRY [L]/HEATED RIVALRY [L].jpg",
+  "sinopse": "Duas estrelas rivais do hóquei, no auge de suas carreiras, enfrentam um desafio inesperado quando desenvolvem sentimentos um pelo outro, o que complica suas trajetórias e as expectativas no esporte.",
+  "genero": "Drama",
+  "elenco": "Connor Storrie, Hudson Williams, François Arnaud, Robbie Graham-Kuntz, Christina Chang",
+  "diretor": "Jacob Tierney, Adam Benish, Rob Cotterill",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:44"
+        }
+      ]
+    }
+  ],
+  "id": 8542
+}

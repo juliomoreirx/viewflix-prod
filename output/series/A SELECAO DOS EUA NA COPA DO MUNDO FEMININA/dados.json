@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyODc=",
+  "tipo": "serie",
+  "titulo": "A SELECAO DOS EUA NA COPA DO MUNDO FEMININA",
+  "capa_url": "https://lgfp.one/AUYJ",
+  "capa_local": "A SELECAO DOS EUA NA COPA DO MUNDO FEMININA/A SELECAO DOS EUA NA COPA DO MUNDO FEMININA.jpg",
+  "sinopse": "Nesta série documental, a seleção feminina de futebol dos EUA busca seu terceiro título consecutivo em meio a desafios e vitórias na Copa do Mundo FIFA de 2023.",
+  "genero": "Documentário",
+  "elenco": "Alex Morgan, Lindsey Horan, Alyssa Thompson, Savannah DeMelo, Lynn Williams",
+  "diretor": "",
+  "total_episodios": "174",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:10"
+        }
+      ]
+    }
+  ],
+  "id": 4584
+}

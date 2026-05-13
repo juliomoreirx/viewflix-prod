@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MDc=",
+  "tipo": "serie",
+  "titulo": "A ZONA",
+  "capa_url": "https://lgfp.one/ITR",
+  "capa_local": "A ZONA/A ZONA.jpg",
+  "sinopse": "Três anos após uma catástrofe nuclear no Norte de Espanha, o detective Héctor Uría deve investigar um estranho e brutal assassinato na zona de exclusão, onde uma nova forma de vida e ordem social começam a abrir caminho.",
+  "genero": "Action & Adventure, Crime, Drama",
+  "elenco": "Eduard Fernández, Álvaro Cervantes, Alexandra Jiménez, Alba Galocha, Emma Suárez",
+  "diretor": "Jorge Sánchez-Cabezudo",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "22",
+          "codigo": "S01E22",
+          "duracao": "00:53:16"
+        }
+      ]
+    }
+  ],
+  "id": 187
+}

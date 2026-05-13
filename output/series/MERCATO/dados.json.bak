@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NDI=",
+  "tipo": "serie",
+  "titulo": "MERCATO",
+  "capa_url": "https://lgfp.one/PVS6",
+  "capa_local": "MERCATO/MERCATO.jpg",
+  "sinopse": "Thomas Chevalier, um policial com um histórico exemplar na carreira, se vê forçado a neutralizar um homem prestes a atacar o novo astro do clube de futebol Olympique de Marseille. Mas ele acidentalmente fere o jogador, pondo fim ao seu sonho em Marselha antes mesmo de começar.",
+  "genero": "Crime, Comédia",
+  "elenco": "Arnaud Ducret, Manon Azem, Iliès Kadri, Foued Nabba, Pierre-François Martin-Laval",
+  "diretor": "David Hourrègue",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:53"
+        }
+      ]
+    }
+  ],
+  "id": 7883
+}

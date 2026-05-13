@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNjk=",
+  "tipo": "serie",
+  "titulo": "REBUS [L]",
+  "capa_url": "https://lgfp.one/CXT0",
+  "capa_local": "REBUS [L]/REBUS [L].jpg",
+  "sinopse": "",
+  "genero": "Crime, Drama",
+  "elenco": "Richard Rankin, Brian Ferguson, Lucie Shorthouse, Amy Manson, Stuart Bowman",
+  "diretor": "Tomas Axelsson, Niall MacCormick",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:11"
+        }
+      ]
+    }
+  ],
+  "id": 5678
+}

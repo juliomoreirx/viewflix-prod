@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MDI=",
+  "tipo": "serie",
+  "titulo": "SINGLE PARENTS",
+  "capa_url": "https://lgfp.one/IXS",
+  "capa_local": "SINGLE PARENTS/SINGLE PARENTS.jpg",
+  "sinopse": "Um grupo de pais solteiros formam o seu próprio sistema de apoio à medida que criam os seus filhos e tentam iniciar novos relacionamentos.",
+  "genero": "Comédia",
+  "elenco": "Taran Killam, Leighton Meester, Kimrie Lewis, Jake Choi, Brad Garrett",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:35"
+        }
+      ]
+    }
+  ],
+  "id": 298
+}

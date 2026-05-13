@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MzQ=",
+  "tipo": "serie",
+  "titulo": "AS TRÊS IRMÃS",
+  "capa_url": "https://lgfp.one/VYT",
+  "capa_local": "AS TRES IRMAS/AS TRES IRMAS.jpg",
+  "sinopse": "Três irmãs que cresceram sozinhas e na pobreza se envolvem em uma conspiração com pessoas ricas e poderosas.",
+  "genero": "Drama, Mistério, Action & Adventure",
+  "elenco": "김고은, 남지현, Park Ji Hu, Wi Ha-jun, Uhm Ji Won",
+  "diretor": "김희원",
+  "total_episodios": "75",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:17:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:16:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:14:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:12:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:15:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:19:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:11:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:12:06"
+        }
+      ]
+    }
+  ],
+  "id": 3008
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MDI=",
+  "tipo": "serie",
+  "titulo": "DE FÉRIAS COM O EX: A RESSACA",
+  "capa_url": "https://lgfp.one/AAFU",
+  "capa_local": "DE FERIAS COM O EX A RESSACA/DE FERIAS COM O EX A RESSACA.jpg",
+  "sinopse": "O reality show irá mostrar os participantes do De Férias Com o Ex Caribe: Salseiro VIP na vida cotidiana, após viverem as tão sonhadas férias inesquecíveis.",
+  "genero": "Reality",
+  "elenco": "Mirella, Marina Gregory, Gabriel Rocha, Willian Guimarães, Jhenyfer Dulz, Maria Venture, Luana Targino, Felipe Ribeiro",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:38"
+        }
+      ]
+    }
+  ],
+  "id": 3524
+}

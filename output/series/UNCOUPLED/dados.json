@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MjI=",
+  "tipo": "serie",
+  "titulo": "UNCOUPLED",
+  "capa_url": "https://lgfp.one/TMU",
+  "capa_local": "UNCOUPLED/UNCOUPLED.jpg",
+  "sinopse": "Atordoado depois do rompimento com o namorado de longa data, um corretor de imóveis de Nova York enfrenta as expectativas do recomeço — e dos encontros — depois dos 40.",
+  "genero": "Comédia",
+  "elenco": "Neil Patrick Harris, Tisha Campbell, Emerson Brooks, Brooks Ashmanskas, Elizabeth Piper S.",
+  "diretor": "Andrew Fleming, Zoe R. Cassavetes, Peter Lauer",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:26"
+        }
+      ]
+    }
+  ],
+  "id": 2735
+}

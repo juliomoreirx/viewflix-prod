@@ -1,0 +1,275 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3NDM=",
+  "tipo": "serie",
+  "titulo": "DRAGÕES: OS NOVE REINOS",
+  "capa_url": "https://lgfp.one/THG",
+  "capa_local": "DRAGOES OS NOVE REINOS/DRAGOES OS NOVE REINOS.jpg",
+  "sinopse": "Nossa história se passa 1300 anos após os eventos de Como Treinar o Seu Dragão: O Mundo Escondido, no mundo moderno dos dias atuais, onde a existência de dragões é tratada como fantasia, mito e lenda.",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Jeremy Shada, Aimee Garcia, Ashley Liao, Marcus Scribner, Vincent Tong",
+  "diretor": "Grace Deppe Waldschmidt",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:08"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:23:08"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:23:08"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:23:15"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 6",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S06E01",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S06E02",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S06E03",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S06E04",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S06E05",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S06E06",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S06E07",
+          "duracao": "00:23:08"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 7",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S07E01",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S07E02",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S07E03",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S07E04",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S07E05",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S07E06",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S07E07",
+          "duracao": "00:23:09"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 8",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S08E01",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S08E02",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S08E03",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S08E04",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S08E05",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S08E06",
+          "duracao": "00:23:09"
+        }
+      ]
+    }
+  ],
+  "id": 2582
+}

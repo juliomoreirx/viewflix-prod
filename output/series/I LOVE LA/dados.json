@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NDM=",
+  "tipo": "serie",
+  "titulo": "I LOVE LA",
+  "capa_url": "https://lgfp.one/QMZ0",
+  "capa_local": "I LOVE LA/I LOVE LA.jpg",
+  "sinopse": "Um grupo de amigos muito unidos se reúne após anos separados, navegando pelas complexidades da ambição, das relações e de como o tempo mudou.",
+  "genero": "Comédia",
+  "elenco": "Rachel Sennott, Odessa A'zion, Jordan Firstman, True Whitaker, Josh Hutcherson",
+  "diretor": "Aida Rodgers",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:01"
+        }
+      ]
+    }
+  ],
+  "id": 8281
+}

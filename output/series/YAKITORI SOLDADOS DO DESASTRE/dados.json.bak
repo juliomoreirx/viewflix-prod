@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MTY=",
+  "tipo": "serie",
+  "titulo": "YAKITORI: SOLDADOS DO DESASTRE",
+  "capa_url": "https://lgfp.one/AAGD",
+  "capa_local": "YAKITORI SOLDADOS DO DESASTRE/YAKITORI SOLDADOS DO DESASTRE.jpg",
+  "sinopse": "A Terra foi colonizada por uma civilização alienígena mais avançada. Para Akira, a única chance de ter um futuro melhor é se alistar como soldado Yakitori.",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "Taito Ban, Asami Seto, Shunsuke Takeuchi, Kengo Kawanishi, Akari Kito",
+  "diretor": "Hideki Anbo, Hideki Anbo, Masaru Owaku",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:48"
+        }
+      ]
+    }
+  ],
+  "id": 3534
+}

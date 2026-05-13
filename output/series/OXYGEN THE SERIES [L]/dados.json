@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMTQ=",
+  "tipo": "serie",
+  "titulo": "OXYGEN THE SERIES [L]",
+  "capa_url": "https://lgfp.one/BAU5",
+  "capa_local": "OXYGEN THE SERIES [L]/OXYGEN THE SERIES [L].jpg",
+  "sinopse": "Órfão desde muito jovem, Gui, um estudante de engenharia do quarto ano, teve que trabalhar duro e ganhar para si desde que se lembra. Mesmo assim, com o passar do tempo, ele ainda tem um comportamento suave e um sorriso no rosto. Solo, um calouro na Faculdade de Música, pode conseguir o que quiser com um movimento do pulso. Dinheiro, fama, boa aparência, o menino tem tudo, menos o sorriso. Quando a mãe de Solo faleceu, ela levou consigo seu sorriso. Nada poderia preencher esse buraco que faltava nele ... isto é - até um dia quando ele viu um menino sorridente trabalhando em um café...",
+  "genero": "Drama",
+  "elenco": "Nut Supanut Lourhaphanich, Chanapoom Thenwong, Thanabat Ngamkamolchai, Phubeth Tharathonchanakul, Kunchanuj Kengkarnka",
+  "diretor": "Jane Kitt Botta",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:40:21"
+        }
+      ]
+    }
+  ],
+  "id": 5413
+}

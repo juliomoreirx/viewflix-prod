@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMzA=",
+  "tipo": "serie",
+  "titulo": "AGUAS IMPURAS",
+  "capa_url": "https://lgfp.one/ARCJ",
+  "capa_local": "AGUAS IMPURAS/AGUAS IMPURAS.jpg",
+  "sinopse": "Uma misteriosa doença assola as Ilhas Andaman e Nicobar, dando início a uma luta pela sobrevivência que entra em conflito com a corrida para encontrar a cura.",
+  "genero": "Drama",
+  "elenco": "Ashutosh Gowariker, Sukant Goel, Amey Wagh, Vikas Kumar, Arushi Sharma",
+  "diretor": "Amit Golani, Sameer Saxena, Ishan Arora",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:45"
+        }
+      ]
+    }
+  ],
+  "id": 4241
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMzc=",
+  "tipo": "serie",
+  "titulo": "JERRY SPRINGER BRIGAS, CAMERA, AÇAO",
+  "capa_url": "https://lgfp.one/KOX2",
+  "capa_local": "JERRY SPRINGER BRIGAS, CAMERA, ACAO/JERRY SPRINGER BRIGAS, CAMERA, ACAO.jpg",
+  "sinopse": "Esta série documental chocante mostra os bastidores do talk show mais polêmico dos EUA, expondo seus maiores escândalos na frente e por trás das câmeras.",
+  "genero": "Documentário",
+  "elenco": "Jerry Springer, Richard Dominick",
+  "diretor": "Luke Sewell, Alicia Kerr",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:13"
+        }
+      ]
+    }
+  ],
+  "id": 6506
+}

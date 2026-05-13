@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNzg=",
+  "tipo": "serie",
+  "titulo": "XOU DA XUXA - EDIÇÃO ESPECIAL",
+  "capa_url": "https://lgfp.one/YSF",
+  "capa_local": "XOU DA XUXA - EDICAO ESPECIAL/XOU DA XUXA - EDICAO ESPECIAL.jpg",
+  "sinopse": "Com brincadeiras e atrações musicais, o Xou da Xuxa foi um marco na televisão brasileira, consagrando a apresentadora Xuxa como a eterna rainha dos baixinhos.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:14:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:15:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:18:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:57:55"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:41"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:31:20"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:15:22"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:14:59"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "02:00:57"
+        }
+      ]
+    }
+  ],
+  "id": 3323
+}

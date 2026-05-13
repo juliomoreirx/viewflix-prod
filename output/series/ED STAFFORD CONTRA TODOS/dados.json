@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MTc=",
+  "tipo": "serie",
+  "titulo": "ED STAFFORD CONTRA TODOS",
+  "capa_url": "https://lgfp.one/RIQ",
+  "capa_local": "ED STAFFORD CONTRA TODOS/ED STAFFORD CONTRA TODOS.jpg",
+  "sinopse": "Espere sangue, lágrimas e ação de coração na boca, enquanto o explorador Ed Stafford enfrenta os melhores exploradores do mundo em uma batalha nas telas do Discovery para ser o First Man Out - um programa em que a sobrevivência é apenas metade da batalha.",
+  "genero": "Reality",
+  "elenco": "Ed Stafford",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 1044
+}

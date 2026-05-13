@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2OTU=",
+  "tipo": "serie",
+  "titulo": "TERRA DE PECADOS",
+  "capa_url": "https://lgfp.one/RGX2",
+  "capa_local": "TERRA DE PECADOS/TERRA DE PECADOS.jpg",
+  "sinopse": "Depois que um adolescente desaparece, uma policial com vínculos pessoais ao caso embarca em uma investigação tensa, que revela alianças e antigos conflitos familiares.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Krista Kosonen, Mohammed Nour Oklah, Peter Gantman, Lisa Lindgren, Ceasar Matijasevic",
+  "diretor": "Peter Grönlund",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:16"
+        }
+      ]
+    }
+  ],
+  "id": 8636
+}

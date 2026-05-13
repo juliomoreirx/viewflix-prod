@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMDQ=",
+  "tipo": "serie",
+  "titulo": "SILÊNCIO NA FLORESTA",
+  "capa_url": "https://lgfp.one/RAX",
+  "capa_local": "SILENCIO NA FLORESTA/SILENCIO NA FLORESTA.jpg",
+  "sinopse": "Um promotor renova as esperanças de que sua irmã, desaparecida há 25 anos, possa estar viva depois que encontram evidências em uma vítima de homicídio.",
+  "genero": "Drama, Mistério",
+  "elenco": "Grzegorz Damięcki, Hubert Miłkowski, Agnieszka Grochowska, Wiktoria Filus, Adam Wietrzyński",
+  "diretor": "Barbara Burska, Pat Howl, Pat Howl",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:16"
+        }
+      ]
+    }
+  ],
+  "id": 834
+}

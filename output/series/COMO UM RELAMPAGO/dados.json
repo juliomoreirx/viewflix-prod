@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTg=",
+  "tipo": "serie",
+  "titulo": "COMO UM RELÂMPAGO",
+  "capa_url": "https://lgfp.one/QOY7",
+  "capa_local": "COMO UM RELAMPAGO/COMO UM RELAMPAGO.jpg",
+  "sinopse": "A história de James Garfield, que saiu do anonimato e se tornou o 20º presidente dos EUA, e de Charles Guiteau, o homem que se tornaria seu assassino.",
+  "genero": "Drama, Crime",
+  "elenco": "Michael Shannon, Matthew Macfadyen, Nick Offerman, Shea Whigham, Bradley Whitford",
+  "diretor": "Matt Ross",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:58"
+        }
+      ]
+    }
+  ],
+  "id": 8349
+}

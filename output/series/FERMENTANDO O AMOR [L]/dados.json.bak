@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNjI=",
+  "tipo": "serie",
+  "titulo": "FERMENTANDO O AMOR [L]",
+  "capa_url": "https://lgfp.one/KLM7",
+  "capa_local": "FERMENTANDO O AMOR [L]/FERMENTANDO O AMOR [L].jpg",
+  "sinopse": "Uma história de amor de tirar o fôlego entre Chae Yong-ju, uma vendedora superapaixonada de uma empresa de bebidas que esconde suas emoções, e Yun Min-ju, uma dona de cervejaria supersensível que é especialista em captar as emoções das pessoas.",
+  "genero": "Comédia, Drama",
+  "elenco": "김세정, Lee Jong-won, Shin Do-hyun, 백성철, Ryu Won-woo",
+  "diretor": "박선호",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:11"
+        }
+      ]
+    }
+  ],
+  "id": 6435
+}

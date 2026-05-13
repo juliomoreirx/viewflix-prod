@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNjQ=",
+  "tipo": "serie",
+  "titulo": "UNIVERSAL BASIC GUYS",
+  "capa_url": "https://lgfp.one/NTR5",
+  "capa_local": "UNIVERSAL BASIC GUYS/UNIVERSAL BASIC GUYS.jpg",
+  "sinopse": "Dois homens perdem seus empregos para as máquinas e começam a receber $3 mil por mês em um novo programa de renda básica universal.",
+  "genero": "Comédia, Animação",
+  "elenco": "Adam Malamut, Craig Malamut, Talia Genevieve, Fred Armisen",
+  "diretor": "Andrew Bowler, Casey Crowe",
+  "total_episodios": "21",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:31"
+        }
+      ]
+    }
+  ],
+  "id": 7271
+}

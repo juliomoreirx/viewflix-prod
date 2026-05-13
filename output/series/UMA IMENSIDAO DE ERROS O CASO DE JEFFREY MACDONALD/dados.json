@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NjI=",
+  "tipo": "serie",
+  "titulo": "UMA IMENSIDÃO DE ERROS: O CASO DE JEFFREY MACDONALD",
+  "capa_url": "https://lgfp.one/SNC",
+  "capa_local": "UMA IMENSIDAO DE ERROS O CASO DE JEFFREY MACDONALD/UMA IMENSIDAO DE ERROS O CASO DE JEFFREY MACDONALD.jpg",
+  "sinopse": "Quando o cirurgião do exército Jeffrey MacDonald é enviado para a prisão por matar sua família, uma tempestade de narrativas desafia a própria capacidade de encontrar a verdade enquanto ofusca uma possibilidade assustadora: MacDonald pode ser inocente.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:49"
+        }
+      ]
+    }
+  ],
+  "id": 2035
+}

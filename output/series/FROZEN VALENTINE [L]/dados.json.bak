@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MDQ=",
+  "tipo": "serie",
+  "titulo": "FROZEN VALENTINE [L]",
+  "capa_url": "https://lgfp.one/RZG2",
+  "capa_local": "FROZEN VALENTINE [L]/FROZEN VALENTINE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "ณฐมน จันทราวิภาต, Purichaya Saranark, In Inthira Sae-sieo, Nichapat Sujipinyo, พีรดา นามวงค์",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:26"
+        }
+      ]
+    }
+  ],
+  "id": 8976
+}

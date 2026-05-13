@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwMzk=",
+  "tipo": "serie",
+  "titulo": "ANDAR NA PEDRA A HISTORIA DO RAIMUNDOS (2026)",
+  "capa_url": "https://lgfp.one/SKC6",
+  "capa_local": "ANDAR NA PEDRA A HISTORIA DO RAIMUNDOS (2026)/ANDAR NA PEDRA A HISTORIA DO RAIMUNDOS (2026).jpg",
+  "sinopse": "A história da banda contada pelos próprios envolvidos, lembrando toda a carreira e escolhas pessoais ao longo de mais de 30 anos. Uma história de reconexão, vitória e aprendizado.",
+  "genero": "Documentário",
+  "elenco": "Digão, Rodolfo, Canisso, Fred Castro, Rodrigo Aguiar Madeira Campos, Rodolfo Gonçalves Leite de Abrantes, José Henrique Campos Pereira, Frederico Mello de Castro",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:29"
+        }
+      ]
+    }
+  ],
+  "id": 9183
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNTA=",
+  "tipo": "serie",
+  "titulo": "HOUSE OF NINJAS",
+  "capa_url": "https://lgfp.one/AZYO",
+  "capa_local": "HOUSE OF NINJAS/HOUSE OF NINJAS.jpg",
+  "sinopse": "Anos depois de se aposentar da incrível vida ninja, uma família problemática precisa voltar à ativa para combater uma série de ameaças.",
+  "genero": "Action & Adventure",
+  "elenco": "Kento Kaku, Yosuke Eguchi, Tae Kimura, Kengo Kora, Aju Makita",
+  "diretor": "Murao Yoshiaki",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:29"
+        }
+      ]
+    }
+  ],
+  "id": 4971
+}

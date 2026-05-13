@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyODY=",
+  "tipo": "serie",
+  "titulo": "CORPOS EXTRAORDINARIOS",
+  "capa_url": "https://lgfp.one/AMJ3",
+  "capa_local": "CORPOS EXTRAORDINARIOS/CORPOS EXTRAORDINARIOS.jpg",
+  "sinopse": "Esta série ultrapassa a computação gráfica tradicional mostrando imagens móveis e retratos digitais internos de seres humanos reais.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:33"
+        }
+      ]
+    }
+  ],
+  "id": 5136
+}

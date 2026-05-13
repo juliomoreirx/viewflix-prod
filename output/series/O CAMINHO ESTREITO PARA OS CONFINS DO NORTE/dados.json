@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNzI=",
+  "tipo": "serie",
+  "titulo": "O CAMINHO ESTREITO PARA OS CONFINS DO NORTE",
+  "capa_url": "https://lgfp.one/NQT8",
+  "capa_local": "O CAMINHO ESTREITO PARA OS CONFINS DO NORTE/O CAMINHO ESTREITO PARA OS CONFINS DO NORTE.jpg",
+  "sinopse": "A história acompanha Dorrigo Evans, um cirurgião do exército australiano, cuja vida é marcada por um amor proibido com Amy, a esposa de seu tio, e pelos horrores que enfrenta como prisioneiro de guerra durante a Segunda Guerra Mundial. Capturado pelos japoneses, Evans é forçado a trabalhar na construção da Ferrovia da Morte, entre a Tailândia e a Birmânia, um dos episódios mais brutais da guerra.",
+  "genero": "Drama",
+  "elenco": "Jacob Elordi, Ciarán Hinds, Odessa Young, Olivia DeJonge, Heather Mitchell",
+  "diretor": "Justin Kurzel, Rachael Alford, Karen-Marie Farnsworth",
+  "total_episodios": "215",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:16"
+        }
+      ]
+    }
+  ],
+  "id": 7210
+}

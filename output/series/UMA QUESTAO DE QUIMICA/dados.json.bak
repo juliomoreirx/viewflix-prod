@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxOTk=",
+  "tipo": "serie",
+  "titulo": "UMA QUESTAO DE QUIMICA",
+  "capa_url": "https://lgfp.one/AQPI",
+  "capa_local": "UMA QUESTAO DE QUIMICA/UMA QUESTAO DE QUIMICA.jpg",
+  "sinopse": "Na década de 1950, o sonho de Elizabeth Zott de ser uma cientista é desafiado por uma sociedade que diz que as mulheres pertencem apenas à esfera doméstica. Ela aceita um emprego em um programa de culinária na TV e se propõe a ensinar a uma nação de donas de casa subestimadas muito mais do que receitas.",
+  "genero": "Drama",
+  "elenco": "Brie Larson, Lewis Pullman, Aja Naomi King, Stephanie Koenig, Patrick R. Walker",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:51"
+        }
+      ]
+    }
+  ],
+  "id": 4221
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MDc=",
+  "tipo": "serie",
+  "titulo": "CONSCIENCIA",
+  "capa_url": "https://lgfp.one/AZOS",
+  "capa_local": "CONSCIENCIA/CONSCIENCIA.jpg",
+  "sinopse": "A série investiga o fenômeno da consciência. A investigação terá as seguintes abordagens: 1) neurológica: a consciência enquanto fenômeno bioquímico funcional do cérebro humano; 2) psicológica: a consciência enquanto fenômeno psíquico-existencial; 3) filosófica: a ciência da consciência. Em cada episódio, três renomados estudiosos tratarão de temas específicos ligados à consciência.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:52"
+        }
+      ]
+    }
+  ],
+  "id": 4924
+}

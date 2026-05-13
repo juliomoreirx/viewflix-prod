@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MTg=",
+  "tipo": "serie",
+  "titulo": "LIFELINE",
+  "capa_url": "https://lgfp.one/IOS",
+  "capa_local": "LIFELINE/LIFELINE.jpg",
+  "sinopse": "A Lifeline, ambientada em um futuro não muito distante, é uma série de meia hora sobre uma companhia de seguros de vida pouco conhecida que envia seus agentes adiante 33 dias no tempo para evitar a morte acidental de seus clientes. O melhor agente da empresa, Conner Hooks (Gilford), nunca perdeu uma defesa - até que ele assuma o caso mais pessoal de sua vida. Quando Norah (Park), de dezesseis anos, fica órfã em seu turno, Conner promete protegê-la, mesmo que isso signifique pôr em risco sua carreira na Lifeline - ou sua própria vida -.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Zach Gilford, Ali Yuman, Sydney Park, Usman Ally",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:55"
+        }
+      ]
+    }
+  ],
+  "id": 50
+}

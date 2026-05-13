@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MTM=",
+  "tipo": "serie",
+  "titulo": "CENA DO CRIME: O CAMPO DA MORTE NO TEXAS",
+  "capa_url": "https://lgfp.one/WLG",
+  "capa_local": "CENA DO CRIME O CAMPO DA MORTE NO TEXAS/CENA DO CRIME O CAMPO DA MORTE NO TEXAS.jpg",
+  "sinopse": "A docussérie trará o mistério por trás dos 30 corpos encontrados numa área grande que ficou conhecida como “killing fields”, em League City no Texas.",
+  "genero": "Documentário, Crime",
+  "elenco": "Tim Miller, Gay Smither, Nina Edwards, Lise Olsen, Richard Rennison",
+  "diretor": "Joe Berlinger, Ron Howard, Jessica Dimmock",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:29"
+        }
+      ]
+    }
+  ],
+  "id": 3109
+}

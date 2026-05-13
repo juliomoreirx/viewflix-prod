@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwOTM=",
+  "tipo": "serie",
+  "titulo": "UZUMAKI [L]",
+  "capa_url": "https://lgfp.one/DXP5",
+  "capa_local": "UZUMAKI [L]/UZUMAKI [L].jpg",
+  "sinopse": "Na tentativa de escapar da maldição das espirais, Kirie, uma estudante do ensino médio, decide deixar sua cidade natal. Será que ela conseguirá?",
+  "genero": "Animação, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Uki Satake, Shin-ichiro Miki, Mariya Ise, 羽多野渉, 古川登志夫",
+  "diretor": "長濱博史",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:39"
+        }
+      ]
+    }
+  ],
+  "id": 6146
+}

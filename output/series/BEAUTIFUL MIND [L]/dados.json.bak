@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMjg=",
+  "tipo": "serie",
+  "titulo": "BEAUTIFUL MIND [L]",
+  "capa_url": "https://lgfp.one/AWUH",
+  "capa_local": "BEAUTIFUL MIND [L]/BEAUTIFUL MIND [L].jpg",
+  "sinopse": "Lee Young-O é um excelente neurocirurgião com simpatia zero. Um dia, ele se envolve em mortes bizarras de pacientes. Ele também se apaixona e recupera sua humanidade.",
+  "genero": "Drama, Mistério",
+  "elenco": "Jang Hyuk, Park So-dam, Yoon Hyun-min, Park Se-young, Heo Joon-ho",
+  "diretor": "Mo Wan-il",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:31"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:03:26"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:03:14"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:03:18"
+        }
+      ]
+    }
+  ],
+  "id": 4687
+}

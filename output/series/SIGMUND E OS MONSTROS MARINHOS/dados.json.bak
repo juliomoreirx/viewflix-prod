@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwMTQ=",
+  "tipo": "serie",
+  "titulo": "SIGMUND E OS MONSTROS MARINHOS",
+  "capa_url": "https://lgfp.one/IUP",
+  "capa_local": "SIGMUND E OS MONSTROS MARINHOS/SIGMUND E OS MONSTROS MARINHOS.jpg",
+  "sinopse": "Os irmãos Johnny e Scotty e sua prima Robyn tornam-se melhores amigos de um adorável e jovem monstro marinho que encontram na praia, chamado Sigmund. As três crianças ensinam ao Sigmund sobre o mundo humano e ajudam a esconder ele e sua família do Capitão Barnabé, um caçador de monstros marinhos determinado a provar que as criaturas existem.",
+  "genero": "Kids, Comédia",
+  "elenco": "Rebecca Bloom, David Arquette, Solomon Stewart, Johnny Whitaker",
+  "diretor": "Jonathan Judge, Adam Tait",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:56"
+        }
+      ]
+    }
+  ],
+  "id": 212
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NzY=",
+  "tipo": "serie",
+  "titulo": "WONDLA A TRILOGIA",
+  "capa_url": "https://lgfp.one/BKV5",
+  "capa_local": "WONDLA A TRILOGIA/WONDLA A TRILOGIA.jpg",
+  "sinopse": "Forçada a fugir de seu santuário subterrâneo para a superfície da Terra, Eva descobre um mundo diferente de tudo que ela esperava. Enquanto viaja por terrenos perigosos e civilizações desconhecidas, Eva busca responder à pergunta crucial: seria ela a última humana?",
+  "genero": "Sci-Fi & Fantasy, Animação, Família",
+  "elenco": "Jeanine Mason, Teri Hatcher, D. C. Douglas",
+  "diretor": "Lauren Montgomery, Vincent Salvano",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:25:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:21:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:24:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:58"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:23:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:21:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:22:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:26:04"
+        }
+      ]
+    }
+  ],
+  "id": 337562
+}

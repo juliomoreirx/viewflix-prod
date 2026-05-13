@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMjI=",
+  "tipo": "serie",
+  "titulo": "A RAINHA DA TRAPACA DE HOLLYWOOD [L]",
+  "capa_url": "https://lgfp.one/BAS0",
+  "capa_local": "A RAINHA DA TRAPACA DE HOLLYWOOD [L]/A RAINHA DA TRAPACA DE HOLLYWOOD [L].jpg",
+  "sinopse": "Uma figura misteriosa, conhecida como a Rainha Golpista, está se passando por executivas poderosas de Hollywood e atraindo vítimas com promessas de oportunidades de carreira que mudam a vida. Um jornalista e uma investigadora particular decidem descobrir quem está por trás do golpe.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Chris Smith",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:38"
+        }
+      ]
+    }
+  ],
+  "id": 5388
+}

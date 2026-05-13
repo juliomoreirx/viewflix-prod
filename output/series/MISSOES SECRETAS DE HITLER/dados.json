@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MTE=",
+  "tipo": "serie",
+  "titulo": "MISSOES SECRETAS DE HITLER",
+  "capa_url": "https://lgfp.one/NLH6",
+  "capa_local": "MISSOES SECRETAS DE HITLER/MISSOES SECRETAS DE HITLER.jpg",
+  "sinopse": "Missões Secretas de Hitler é uma série documental envolvente que explora seis das operações secretas mais ousadas e politicamente sensíveis de Adolf Hitler. Planejadas e ordenadas pessoalmente por ele, essas missões—de alto risco e meticulosamente organizadas—foram executadas por seus principais comandantes, resultando em desfechos variados: duas bem-sucedidas, uma abandonada e três fracassadas.\n\nCada episódio recria essas operações militares extraordinárias, revelando suas estratégias audaciosas, execuções implacáveis e o papel crucial que desempenharam na incansável busca de Hitler para dominar a Europa e influenciar o desfecho da Segunda Guerra Mundial. De sucessos surpreendentes a fracassos desastrosos, Missões Secretas de Hitler revela histórias pouco conhecidas por trás dessas operações complexas, oferecendo uma nova perspectiva sobre as tentativas mais ambiciosas e sigilosas do regime nazista de mudar o curso da história.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:49"
+        }
+      ]
+    }
+  ],
+  "id": 7098
+}

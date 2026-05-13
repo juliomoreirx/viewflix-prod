@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzc=",
+  "tipo": "serie",
+  "titulo": "EM BUSCA DE VINGANÇA",
+  "capa_url": "https://lgfp.one/WAQ",
+  "capa_local": "EM BUSCA DE VINGANCA/EM BUSCA DE VINGANCA.jpg",
+  "sinopse": "Um menino cai para sua morte na escola, mas Ok Chanmi não acredita que seu irmão gêmeo, Park Wonseok, cometeu suicídio. Chanmi se transfere para a escola de seu irmão, Yongtan High, e conhece Ji Sooheon, que testemunhou a morte de seu irmão. Um \"herói\", que vinga estudantes intimidados, aparece na Yongtan High. Chanmi especula que pode estar ligado ao irmão e começa a procurar esse herói.",
+  "genero": "Drama",
+  "elenco": "Shin Ye-eun, Lomon, Seo Ji-hoon, Chae Sang-woo, Lee Soo-min, Chung Su-bin, Kim Joo-ryoung, Woo Yeon",
+  "diretor": "Kim Yoo-jin",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:36"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:03:55"
+        }
+      ]
+    }
+  ],
+  "id": 3670
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MzA=",
+  "tipo": "serie",
+  "titulo": "CATS EYES",
+  "capa_url": "https://lgfp.one/MVX8",
+  "capa_local": "CATS EYES/CATS EYES.jpg",
+  "sinopse": "Em 2023, na Cidade Luz, Alexia, Tatá e Sylia se reencontram após anos de separação. Ao mesmo tempo, uma pintura que pertenceu ao seu pai, que desapareceu há mais de dez anos em um misterioso incêndio em sua galeria de arte, ressurgiu durante uma prestigiosa exposição na Torre Eiffel. Determinadas a descobrir a verdade sobre o destino do pai, elas assumem todos os riscos para recuperar as pinturas.",
+  "genero": "Action & Adventure, Comédia",
+  "elenco": "Constance Labbé, Camille Lou, Claire Romain, MB14, Cindy Bruna",
+  "diretor": "Adrien Laurent, Vinciane Colas, Maronui Taimana",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:21"
+        }
+      ]
+    }
+  ],
+  "id": 6844
+}

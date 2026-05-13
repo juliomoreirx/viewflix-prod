@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NTY=",
+  "tipo": "serie",
+  "titulo": "REVANCHE [L]",
+  "capa_url": "https://lgfp.one/REZ3",
+  "capa_local": "REVANCHE [L]/REVANCHE [L].jpg",
+  "sinopse": "A série é descrita como um thriller psicológico histórico e detalha o confronto de Kasparov contra o Deep Blue em 1997, a primeira vez que um campeão mundial perdeu uma partida de xadrez para um computador.",
+  "genero": "Drama",
+  "elenco": "Christian Cooke, Orion Lee, Sarah Bolger, Trine Dyrholm, Aidan Quinn",
+  "diretor": "Yan England",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:49"
+        }
+      ]
+    }
+  ],
+  "id": 8572
+}

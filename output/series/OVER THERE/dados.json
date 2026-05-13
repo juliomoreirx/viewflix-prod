@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMDA=",
+  "tipo": "serie",
+  "titulo": "OVER THERE",
+  "capa_url": "https://lgfp.one/PML0",
+  "capa_local": "OVER THERE/OVER THERE.jpg",
+  "sinopse": "A pouco tempo de chegar ao Iraque, o sargento Scream (Erik Palladino) lidera a unidade do exército americano em uma violenta batalha que vai despertar muito mais do que o instinto de sobrevivência. Entre a coragem de reagir às ameaças e o medo paralisante, estes soldados aprendem sobre a importância da solidariedade e da união.",
+  "genero": "War & Politics, Drama, Action & Adventure",
+  "elenco": "Josh Henderson, Luke Macfarlane, Erik Palladino, Keith D. Robinson, Omid Abtahi",
+  "diretor": "Nelson McCormick",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:46:05"
+        }
+      ]
+    }
+  ],
+  "id": 7705
+}

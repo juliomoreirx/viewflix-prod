@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MzI=",
+  "tipo": "serie",
+  "titulo": "RESIDENT EVIL: A SÉRIE",
+  "capa_url": "https://lgfp.one/TLB",
+  "capa_local": "RESIDENT EVIL A SERIE/RESIDENT EVIL A SERIE.jpg",
+  "sinopse": "Quase três décadas após a descoberta de um vírus mortal, um surto revela os segredos obscuros da Umbrella Corporation. Baseado na franquia de terror.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Ella Balinska, Tamara Smart, Siena Agudong, Adeline Rudolph, Paola Nuñez",
+  "diretor": "Rachel Goldberg, Bronwen Hughes, Rob Seidenglanz, Batan Silva",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:32"
+        }
+      ]
+    }
+  ],
+  "id": 2690
+}

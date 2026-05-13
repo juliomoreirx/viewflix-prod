@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MDY=",
+  "tipo": "serie",
+  "titulo": "DUELO DE RESTAURANTES: IRVINE VS. TAFFER",
+  "capa_url": "https://lgfp.one/YCF",
+  "capa_local": "DUELO DE RESTAURANTES IRVINE VS. TAFFER/DUELO DE RESTAURANTES IRVINE VS. TAFFER.jpg",
+  "sinopse": "Dois titãs dos restaurantes, o chef Robert Irvine e o empresário Jon Taffer, se enfrentam em um épico duelo de jantar. Eles colocam suas habilidades únicas em jogo para descobrir qual deles é o verdadeiro campeão e ganha direitos épicos de se gabar.",
+  "genero": "Reality",
+  "elenco": "Jon Taffer, Robert Irvine",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:08"
+        }
+      ]
+    }
+  ],
+  "id": 2677
+}

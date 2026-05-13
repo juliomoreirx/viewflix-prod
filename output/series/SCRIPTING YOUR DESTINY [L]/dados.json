@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NTQ=",
+  "tipo": "serie",
+  "titulo": "SCRIPTING YOUR DESTINY [L]",
+  "capa_url": "https://lgfp.one/RSP3",
+  "capa_local": "SCRIPTING YOUR DESTINY [L]/SCRIPTING YOUR DESTINY [L].jpg",
+  "sinopse": "Shin Ho Yoon é um deus poderoso encarregado de determinar o destino humano. Seu trabalho no mundo celestial é escrever o destino dos mortais. Mas quando ele é acusado de escrever um destino romântico, ele decide roubar idéias que lê em notas para um futuro roteiro de autoria da roteirista Go Chae Kyung.",
+  "genero": "Drama, Sci-Fi & Fantasy, Comédia",
+  "elenco": "기도훈, 전소니, 김우석, 박상남, 갈소원",
+  "diretor": "Kim Byung-soo",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:31:05"
+        }
+      ]
+    }
+  ],
+  "id": 8880
+}

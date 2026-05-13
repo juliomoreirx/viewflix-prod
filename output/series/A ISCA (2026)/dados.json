@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NzA=",
+  "tipo": "serie",
+  "titulo": "A ISCA (2026)",
+  "capa_url": "https://lgfp.one/SKJ7",
+  "capa_local": "A ISCA (2026)/A ISCA (2026).jpg",
+  "sinopse": "Uma comédia sobre Shah Latif, um ator em busca do sucesso. Sua última chance de alcançar o estrelato surge na forma de um teste decisivo. Acompanhamos sua trajetória ao longo de quatro dias frenéticos, enquanto sua vida sai do controle e sua família, ex-namorada e o mundo inteiro tentam decidir se ele é o homem certo para o papel.",
+  "genero": "Comédia",
+  "elenco": "Riz Ahmed",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:13"
+        }
+      ]
+    }
+  ],
+  "id": 386244
+}

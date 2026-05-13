@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMDk=",
+  "tipo": "serie",
+  "titulo": "THE WATCH",
+  "capa_url": "https://lgfp.one/SBU",
+  "capa_local": "THE WATCH/THE WATCH.jpg",
+  "sinopse": "Carrot (Adam Hugill) foi criado como um anão, mas acabou se transformando em uma criança humana órfã. Ele se junta ao grupo que ajuda a aplicar leis nesse universo de fantasia. -Série original BBC America, descrita como uma série “punk rock thriller”. Inspirado no subconjunto “City Watch”, dos romances do Discworld, escrito por Terry Pratchett.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Lara Rossi, Adam Hugill, Richard Dormer, Marama Corlett, Jo Eaton-Kent",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:13"
+        }
+      ]
+    }
+  ],
+  "id": 1733
+}

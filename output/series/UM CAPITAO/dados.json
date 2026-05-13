@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNjE=",
+  "tipo": "serie",
+  "titulo": "UM CAPITÃO",
+  "capa_url": "https://lgfp.one/SWG",
+  "capa_local": "UM CAPITAO/UM CAPITAO.jpg",
+  "sinopse": "A irônica e comovedora história dos últimos 18 meses de Francesco Totti como jogador de futebol, sua luta contra o tempo e contra o seu treinador, culminando na despedida mais comovente da história do futebol.",
+  "genero": "Comédia / Drama",
+  "elenco": "Pietro Castellitto, Greta Scarano, Gianmarco Tognazzi, Monica Guerritore, Giorgio Colangeli, Massimo De Santis, Marco Rossetti, Gabriel Montesi",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:58"
+        }
+      ]
+    }
+  ],
+  "id": 2291
+}

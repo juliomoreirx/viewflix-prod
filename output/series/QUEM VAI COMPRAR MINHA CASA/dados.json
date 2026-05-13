@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTk=",
+  "tipo": "serie",
+  "titulo": "QUEM VAI COMPRAR MINHA CASA?",
+  "capa_url": "https://lgfp.one/TQB",
+  "capa_local": "QUEM VAI COMPRAR MINHA CASA/QUEM VAI COMPRAR MINHA CASA.jpg",
+  "sinopse": "Pessoas de todos os cantos dos Estados Unidos tentam vender suas casas para quatro investidores imobiliários de renome. O objetivo? Fechar ali mesmo um bom acordo.",
+  "genero": "Reality",
+  "elenco": "Nina Parker, Glenn Kelman, Pamela Liebman, Brandon Copeland, Danisha Wrighster",
+  "diretor": "Carrie Havel",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:39"
+        }
+      ]
+    }
+  ],
+  "id": 2824
+}

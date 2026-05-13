@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMDc=",
+  "tipo": "serie",
+  "titulo": "DOUTOR ADVOGADO",
+  "capa_url": "https://lgfp.one/YXM",
+  "capa_local": "DOUTOR ADVOGADO/DOUTOR ADVOGADO.jpg",
+  "sinopse": "A história comovente de um cirurgião genial que se torna um advogado especializado em crimes médicos depois de perder um paciente por negligência cirúrgica. Catártico e cheio de suspense, este drama médico e jurídico pinta o tribunal como uma sala de cirurgia, onde uma vida pode terminar ou recomeçar.",
+  "genero": "Crime / Drama",
+  "elenco": "So Ji-sub, Shin Sung-rok, Im Soo-hyang, Lee Joo-been, Lee Kyung-young, Lee Dong-ha, Woo Hyun-ju, Kim Ho-jung",
+  "diretor": "Lee Yong-seok",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:01:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:59:59"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:01:14"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:02:49"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:01:14"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:08:56"
+        }
+      ]
+    }
+  ],
+  "id": 3372
+}

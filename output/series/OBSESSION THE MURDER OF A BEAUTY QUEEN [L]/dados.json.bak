@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NjM=",
+  "tipo": "serie",
+  "titulo": "OBSESSION THE MURDER OF A BEAUTY QUEEN [L]",
+  "capa_url": "https://lgfp.one/REY4",
+  "capa_local": "OBSESSION THE MURDER OF A BEAUTY QUEEN [L]/OBSESSION THE MURDER OF A BEAUTY QUEEN [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:06"
+        }
+      ]
+    }
+  ],
+  "id": 8563
+}

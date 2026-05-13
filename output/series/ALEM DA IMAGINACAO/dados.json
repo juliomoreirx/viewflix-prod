@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MjI=",
+  "tipo": "serie",
+  "titulo": "ALÉM DA IMAGINAÇÃO",
+  "capa_url": "https://lgfp.one/IOE",
+  "capa_local": "ALEM DA IMAGINACAO/ALEM DA IMAGINACAO.jpg",
+  "sinopse": "Cada semana apresenta um episódio sobre alguma situação incomum que acaba por ser ainda mais incomum do que inicialmente se suspeitava. Não importa se a história é de terror, suspense ou humor, sempre há uma virada surpreendente no final.",
+  "genero": "Sci-Fi & Fantasy, Mistério",
+  "elenco": "Forest Whitaker",
+  "diretor": "",
+  "total_episodios": "21",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:33"
+        }
+      ]
+    }
+  ],
+  "id": 35
+}

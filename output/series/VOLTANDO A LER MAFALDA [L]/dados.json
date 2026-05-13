@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0ODg=",
+  "tipo": "serie",
+  "titulo": "VOLTANDO A LER MAFALDA [L]",
+  "capa_url": "https://lgfp.one/ABCY",
+  "capa_local": "VOLTANDO A LER MAFALDA [L]/VOLTANDO A LER MAFALDA [L].jpg",
+  "sinopse": "Um olhar aprofundado sobre a famosa personagem em quadrinhos de Quino que contará, entre outras coisas, como após tantos anos Mafalda segue tão atual e tão querida em todo o mundo.",
+  "genero": "Documentário, Reality",
+  "elenco": "",
+  "diretor": "Lorena Muñoz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:40"
+        }
+      ]
+    }
+  ],
+  "id": 4136
+}

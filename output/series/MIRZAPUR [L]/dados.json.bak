@@ -1,0 +1,175 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMjc=",
+  "tipo": "serie",
+  "titulo": "MIRZAPUR [L]",
+  "capa_url": "https://lgfp.one/DKZ7",
+  "capa_local": "MIRZAPUR [L]/MIRZAPUR [L].jpg",
+  "sinopse": "O tirânico Akhandanand Tripathi é um exportador de carpetes milionário e chefão da máfia de Mirzapur. Seu filho, Munna, é um herdeiro indigno e capaz de tudo para ter o legado do pai. Um incidente em um casamento o obriga a cruzar o caminho de Ramakant Pandit, um advogado íntegro, e de seus filhos, Guddu e Bablu. Isso se transforma em um jogo de ambição, poder e ganância nesta cidade sem lei.",
+  "genero": "Crime, Action & Adventure, Drama",
+  "elenco": "Ali Fazal, Pankaj Tripathi, Shweta Tripathi Sharma, Rasika Dugal, Harshita Gaur",
+  "diretor": "Gurmmeet Singh, Anand Iyer, Manohar Verma",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:57"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:00:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:39:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:58:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:53:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:55:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:05:44"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:57:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:54:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:54:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:40:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:53:40"
+        }
+      ]
+    }
+  ],
+  "id": 5919
+}

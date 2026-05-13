@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMjQ=",
+  "tipo": "serie",
+  "titulo": "O AMOR E MELHOR NA SEGUNDA VEZ",
+  "capa_url": "https://lgfp.one/DGM5",
+  "capa_local": "O AMOR E MELHOR NA SEGUNDA VEZ/O AMOR E MELHOR NA SEGUNDA VEZ.jpg",
+  "sinopse": "Miyata, um editor de revista de negócios que acaba de entrar no décimo ano de sua carreira, recebe uma proposta para uma nova coluna de um popular professor universitário chamado Iwanaga, que por acaso foi seu primeiro amor. Miyata prometeu fugir com Iwanaga durante os anos do ensino médio, mas foi zombado por isso, levando ao término eventual deles. Com o reencontro profissional, um relacionamento tanto antigo quanto novo começa.",
+  "genero": "Drama",
+  "elenco": "Makoto Hasegawa, 古屋呂敏, Aloha Takamatsu, Nose Rin, Haruki Mochizuki",
+  "diretor": "Yuka Yasukawa, Yuka Yasukawa, Nao Nomura",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:45"
+        }
+      ]
+    }
+  ],
+  "id": 5822
+}

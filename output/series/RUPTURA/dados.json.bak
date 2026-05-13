@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNjQ=",
+  "tipo": "serie",
+  "titulo": "RUPTURA",
+  "capa_url": "https://lgfp.one/SZB",
+  "capa_local": "RUPTURA/RUPTURA.jpg",
+  "sinopse": "Mark lidera uma equipe de funcionários de escritório cujas memórias foram divididas cirurgicamente entre a vida no trabalho e a vida pessoal. Quando um colega de trabalho misterioso aparece fora do escritório, ele começa uma jornada para descobrir a verdade sobre seu trabalho.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Adam Scott, Zach Cherry, Britt Lower, Tramell Tillman, Patricia Arquette, John Turturro, Dichen Lachman, Jen Tullock",
+  "diretor": "Dan Erickson",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:16"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:50:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:37:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:15:51"
+        }
+      ]
+    }
+  ],
+  "id": 7993
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NjA=",
+  "tipo": "serie",
+  "titulo": "CATHERINE THE GREAT",
+  "capa_url": "https://lgfp.one/SAJ",
+  "capa_local": "CATHERINE THE GREAT/CATHERINE THE GREAT.jpg",
+  "sinopse": "Por entre escândalos, intriga e muito conflito, a imperatriz russa Catarina, a Grande, desenvolve uma relação fervorosa e singular com Grigory Potemkin enquanto ambos vencem adversários e agem como os arquitetos da Rússia moderna.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Helen Mirren, Jason Clarke, Gina McKee, Kevin McNally, Joseph Quinn",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:18"
+        }
+      ]
+    }
+  ],
+  "id": 1692
+}

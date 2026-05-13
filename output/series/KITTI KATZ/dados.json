@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4NDc=",
+  "tipo": "serie",
+  "titulo": "KITTI KATZ",
+  "capa_url": "https://lgfp.one/AAFY",
+  "capa_local": "KITTI KATZ/KITTI KATZ.jpg",
+  "sinopse": "Três garotas se transformam em super-heroínas felinas para salvar o mundo de uma deusa egípcia do mal. Será que vai dar tempo de ir para o treino de futebol também?",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Briana Price, Shvorne Marks, Ami Okumura Jones, Larissa Murray, Kosha Engler",
+  "diretor": "Kristin Jarret",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:25"
+        }
+      ]
+    }
+  ],
+  "id": 3528
+}

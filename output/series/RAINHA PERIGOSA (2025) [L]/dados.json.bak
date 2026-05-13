@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MjE=",
+  "tipo": "serie",
+  "titulo": "RAINHA PERIGOSA (2025) [L]",
+  "capa_url": "https://lgfp.one/SFG4",
+  "capa_local": "RAINHA PERIGOSA (2025) [L]/RAINHA PERIGOSA (2025) [L].jpg",
+  "sinopse": "A história gira em torno de Keeraphat, apelidada de \"Rainha\", uma mulher que, apesar do sucesso profissional, enfrenta uma série de desafios pessoais que a levam a questionar suas decisões e relacionamentos.  A trama explora seus relacionamentos e a complexidade de seus sentimentos, oferecendo um olhar introspectivo sobre o amor e a identidade.",
+  "genero": "Drama",
+  "elenco": "ดิสรยา เตชะไพบูลย์, พิญญาเนศวร์ อั้งสุวรรณ, Akrabhaj Bunnag, Tan Buranrat Hombut, อริศรา วงษ์ชาลี",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:17"
+        }
+      ]
+    }
+  ],
+  "id": 9091
+}

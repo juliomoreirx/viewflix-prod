@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNjk=",
+  "tipo": "serie",
+  "titulo": "COMO VIVER ATÉ OS 100: OS SEGREDOS DAS ZONAS AZUIS",
+  "capa_url": "https://lgfp.one/AAWV",
+  "capa_local": "COMO VIVER ATE OS 100 OS SEGREDOS DAS ZONAS AZUIS/COMO VIVER ATE OS 100 OS SEGREDOS DAS ZONAS AZUIS.jpg",
+  "sinopse": "Viaje pelo mundo com o escritor Dan Buettner e descubra cinco comunidades únicas, onde as pessoas têm vidas muito longas e felizes.",
+  "genero": "Documentário, Mistério",
+  "elenco": "Dan Buettner",
+  "diretor": "Clay Jeter, Clay Jeter",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:06"
+        }
+      ]
+    }
+  ],
+  "id": 3937
+}

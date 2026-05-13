@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MTg=",
+  "tipo": "serie",
+  "titulo": "RUN THE WORLD",
+  "capa_url": "https://lgfp.one/RWC",
+  "capa_local": "RUN THE WORLD/RUN THE WORLD.jpg",
+  "sinopse": "“Run the World” é uma série de oito episódios de meia hora, que conta a história de um grupo de mulheres negras - vibrantes, ferrenhas e leais melhores amigas - que trabalham, moram e se divertem no Harlem, enquanto se esforçam para dominar o mundo. Essencialmente, é uma série assumidamente feminina sobre uma amizade invejável e sobre não apenas sobreviver, mas prosperar juntas.",
+  "genero": "Comédia, Drama",
+  "elenco": "Amber Stevens West, Bresha Webb, Corbin Reid, Tosin Morohunfola, Stephen Bishop",
+  "diretor": "",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:56"
+        }
+      ]
+    }
+  ],
+  "id": 1417
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4OTg=",
+  "tipo": "serie",
+  "titulo": "A THIN LINE",
+  "capa_url": "https://lgfp.one/JZQ1",
+  "capa_local": "A THIN LINE/A THIN LINE.jpg",
+  "sinopse": "Quando as irmãs gêmeas e ativistas digitais Anna e Benni são expostas após um ataque hacker ao governo, elas logo se veem em lados opostos: enquanto Benni fica cada vez mais radicalizada, Anna trabalha com a BKA.",
+  "genero": "Drama",
+  "elenco": "Saskia Rosendahl, Hanna Hilsdorf, Peter Kurth, Sebastian Hülk, Hadewych Minis",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:18"
+        }
+      ]
+    }
+  ],
+  "id": 3653
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2ODk=",
+  "tipo": "serie",
+  "titulo": "ZOUK A BRUXINHA",
+  "capa_url": "https://lgfp.one/KCZ0",
+  "capa_local": "ZOUK A BRUXINHA/ZOUK A BRUXINHA.jpg",
+  "sinopse": "Zouk pode parecer como qualquer outra garotinha, mas ela é bem peculiar. Ela faz zigue-zague entre os prédios na sua vassoura voadora, usa gosma de sapo para escovar os dentes, e lança feitiços para tranformar seus amigos.",
+  "genero": "Animação, Kids",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:10:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:11:00"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:11:00"
+        }
+      ]
+    }
+  ],
+  "id": 337563
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MjU=",
+  "tipo": "serie",
+  "titulo": "PANHANDLE",
+  "capa_url": "https://lgfp.one/NEO8",
+  "capa_local": "PANHANDLE/PANHANDLE.jpg",
+  "sinopse": "Panhandle é uma série criminal sobre comunidade, conexão e, sim, personagens únicos na Flórida. Panhandle une um detetive de poltrona excêntrico, loquaz e agorafóbico (Luke Kirby) que teve uma tragédia pessoal há cinco quando sua mulher Vida (Lorenza Izzo) morreu, com uma guarda de trânsito relutante (Tiana Okoye). Juntos, Bell Prescott e Cammie Lorde lutam com demônios pessoais, reviravoltas chocantes e alguns jacarés em sua jornada para curar a si mesmos e sua cidade.",
+  "genero": "Comédia, Drama",
+  "elenco": "Luke Kirby, Lorenza Izzo, Tiana Okoye, Glenn Morshower, Landon Chase Dubois",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:02"
+        }
+      ]
+    }
+  ],
+  "id": 6995
+}

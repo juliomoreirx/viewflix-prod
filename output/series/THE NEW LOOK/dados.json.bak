@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxOTU=",
+  "tipo": "serie",
+  "titulo": "THE NEW LOOK",
+  "capa_url": "https://lgfp.one/AZYP",
+  "capa_local": "THE NEW LOOK/THE NEW LOOK.jpg",
+  "sinopse": "Esta série emocionante mostra a história chocante de como o ícone da moda, Christian Dior, e seus contemporâneos, como Coco Chanel, Pierre Balmain, e Cristóbal Balenciaga, navegaram pelos horrores da Segunda Guerra Mundial e deram início à moda moderna.",
+  "genero": "Drama",
+  "elenco": "Ben Mendelsohn, Juliette Binoche, Maisie Williams, John Malkovich, Emily Mortimer",
+  "diretor": "Ethan Wellin, Laura Petoin, Kelly Cook",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:53:01"
+        }
+      ]
+    }
+  ],
+  "id": 4972
+}

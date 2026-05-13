@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NDk=",
+  "tipo": "serie",
+  "titulo": "BLACK SPACE",
+  "capa_url": "https://lgfp.one/SDJ",
+  "capa_local": "BLACK SPACE/BLACK SPACE.jpg",
+  "sinopse": "Após um tiroteio em uma escola, que à primeira vista parece ser um ataque terrorista, o detetive heterodoxo Rami Davidi desafia seus superiores quando faz dos próprios alunos seus principais suspeitos.",
+  "genero": "Drama, Crime",
+  "elenco": "Guri Alfi, Reut Alush, Moris Cohen, Naya Bienshtock, Omer Nudelman",
+  "diretor": "Ofir Lobel",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:01"
+        }
+      ]
+    }
+  ],
+  "id": 1776
+}

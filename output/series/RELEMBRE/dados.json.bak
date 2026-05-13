@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDM=",
+  "tipo": "serie",
+  "titulo": "RELEMBRE",
+  "capa_url": "https://lgfp.one/ATLZ",
+  "capa_local": "RELEMBRE/RELEMBRE.jpg",
+  "sinopse": "Entre crises familiares e problemas de memória por causa das drogas, um ex-astro do rock embarca em uma busca frenética pelo filho desaparecido.",
+  "genero": "Drama, Crime",
+  "elenco": "Arkadiusz Jakubik, Jakub Sierenberg, Dominika Bednarczyk, Nel Kaczmarek, Juliusz Chrząstowski",
+  "diretor": "Justyna Pelc, Dawid Nowak, Maciej Jankowski",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:36"
+        }
+      ]
+    }
+  ],
+  "id": 4468
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0ODk=",
+  "tipo": "serie",
+  "titulo": "HOLO, MEU AMOR",
+  "capa_url": "https://lgfp.one/RQY",
+  "capa_local": "HOLO, MEU AMOR/HOLO, MEU AMOR.jpg",
+  "sinopse": "Uma mulher solitária encontra um amor inesperado ao estabelecer uma ligação com um holograma em forma humana que tem aparência igual à do seu criador.",
+  "genero": "Drama, Drama, Sci-Fi & Fantasy",
+  "elenco": "Yoon Hyun-min, Ko Sung-hee, Choi Yeo-jin, Hwang Chan-sung, Lee Jung-eun",
+  "diretor": "Lee Sang-yeob",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:53:54"
+        }
+      ]
+    }
+  ],
+  "id": 1272
+}

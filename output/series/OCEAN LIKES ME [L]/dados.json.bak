@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNDc=",
+  "tipo": "serie",
+  "titulo": "OCEAN LIKES ME [L]",
+  "capa_url": "https://lgfp.one/AUR0",
+  "capa_local": "OCEAN LIKES ME [L]/OCEAN LIKES ME [L].jpg",
+  "sinopse": "Um romance sobre Han Bada, um jovem empresário, e Tommy, um músico fracassado, que embarcam em uma jornada em direção aos seus sonhos.",
+  "genero": "Drama",
+  "elenco": "Han Gi-chan, Go Tae-seob, Han Seo-wool, Song Tae-yoon",
+  "diretor": "Lee Su-ji",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:15:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:15:09"
+        }
+      ]
+    }
+  ],
+  "id": 5295
+}

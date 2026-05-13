@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMjA=",
+  "tipo": "serie",
+  "titulo": "O CLUBE DOS GRAVES",
+  "capa_url": "https://lgfp.one/YNJ",
+  "capa_local": "O CLUBE DOS GRAVES/O CLUBE DOS GRAVES.jpg",
+  "sinopse": "Amaranto Molina é um excêntrico professor de música que, com seus métodos pouco convencionais, chega para embarcar em uma jornada repleta de experiências únicas, que ajudarão seus alunos não apenas a expressar seus verdadeiros talentos musicais, mas também a curar suas feridas.",
+  "genero": "Comédia / Drama",
+  "elenco": "Carlos Vives, Kevin Bury, Catalina Polo, María Fernanda Marín, Manuela Duque, Salomé Camargo, Elena Vives, Brainer Gamboa",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:05"
+        }
+      ]
+    }
+  ],
+  "id": 3296
+}

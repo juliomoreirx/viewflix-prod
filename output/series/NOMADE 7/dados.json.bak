@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwOTA=",
+  "tipo": "serie",
+  "titulo": "NOMADE 7",
+  "capa_url": "https://lgfp.one/JOK",
+  "capa_local": "NOMADE 7/NOMADE 7.jpg",
+  "sinopse": "Daniel é o personagem principal… Ele morre de forma trágica e, misteriosamente, volta à vida. Sem entender o porquê, achando que tudo não passa de um pesadelo, Daniel começa a ouvir vozes e pensa estar louco. Todos os nossos hábitos e crenças são colocador em xeque pela voz, identificada como Nômade. De personalidade fria, ela desconhece qualquer tipo de emoção e sentimento.",
+  "genero": "Crime, Mistério, Sci-Fi & Fantasy",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:12:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:12:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:14:21"
+        }
+      ]
+    }
+  ],
+  "id": 796
+}

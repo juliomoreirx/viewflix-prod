@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNjg=",
+  "tipo": "serie",
+  "titulo": "GOLDIE",
+  "capa_url": "https://lgfp.one/MZG2",
+  "capa_local": "GOLDIE/GOLDIE.jpg",
+  "sinopse": "Siga Goldie em grandes aventuras enquanto ela agita sua adorada cidade de Boysenberg com suas melhores amigas. Juntas, aprendem que ser diferente é algo a celebrar–e é muito divertido.",
+  "genero": "Animação, Kids",
+  "elenco": "Jessica McKenna, Dee Bradley Baker, Amari McCoy, Vedanten Naidoo, Grey DeLisle",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:44"
+        }
+      ]
+    }
+  ],
+  "id": 6886
+}

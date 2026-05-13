@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1Nzg=",
+  "tipo": "serie",
+  "titulo": "SEIS NAO E DEMAIS",
+  "capa_url": "https://lgfp.one/AWD8",
+  "capa_local": "SEIS NAO E DEMAIS/SEIS NAO E DEMAIS.jpg",
+  "sinopse": "Um romântico incurável precisa repensar todos seus preconceitos sobre relacionamentos quando descobre que a garota dos seus sonhos é poliamorosa.",
+  "genero": "Comédia",
+  "elenco": "Nicolás Furtado, Delfina Chaves, Federico Salles, Malena Sánchez, Juan Sorini",
+  "diretor": "Diego Kaplan",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:49"
+        }
+      ]
+    }
+  ],
+  "id": 5349
+}

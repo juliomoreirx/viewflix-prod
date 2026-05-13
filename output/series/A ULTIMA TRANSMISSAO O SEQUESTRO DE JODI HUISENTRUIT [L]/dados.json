@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MDE=",
+  "tipo": "serie",
+  "titulo": "A ULTIMA TRANSMISSAO O SEQUESTRO DE JODI HUISENTRUIT [L]",
+  "capa_url": "https://lgfp.one/PXD8",
+  "capa_local": "A ULTIMA TRANSMISSAO O SEQUESTRO DE JODI HUISENTRUIT [L]/A ULTIMA TRANSMISSAO O SEQUESTRO DE JODI HUISENTRUIT [L].jpg",
+  "sinopse": "A âncora de um programa de TV desaparece em 1995 em circunstâncias misteriosas, mas pistas encontradas recentemente podem finalmente ajudar a solucionar este caso arquivado assustador.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:04"
+        }
+      ]
+    }
+  ],
+  "id": 7903
+}

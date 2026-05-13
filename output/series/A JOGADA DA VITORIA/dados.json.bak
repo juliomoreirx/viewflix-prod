@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4Mjg=",
+  "tipo": "serie",
+  "titulo": "A JOGADA DA VITÓRIA",
+  "capa_url": "https://lgfp.one/PLU4",
+  "capa_local": "A JOGADA DA VITORIA/A JOGADA DA VITORIA.jpg",
+  "sinopse": "“Depois de ver a carreira ir por água abaixo, um astro do rúgbi desacreditado encontra seu propósito treinando o time de sua antiga escola. Como técnico, ele também iniciará uma jornada de superação e redenção”",
+  "genero": "Drama, Comédia",
+  "elenco": "윤계상, 임세미, 김요한, 길해연, 김민상",
+  "diretor": "장영석",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:08:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:02:02"
+        }
+      ]
+    }
+  ],
+  "id": 185731
+}

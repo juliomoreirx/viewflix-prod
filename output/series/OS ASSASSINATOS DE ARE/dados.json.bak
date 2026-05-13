@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMTA=",
+  "tipo": "serie",
+  "titulo": "OS ASSASSINATOS DE ÅRE",
+  "capa_url": "https://lgfp.one/MVV5",
+  "capa_local": "OS ASSASSINATOS DE ARE/OS ASSASSINATOS DE ARE.jpg",
+  "sinopse": "Alvo de uma investigação interna, uma policial de Estocolmo decide descansar numa região conhecida pelo esqui. Até que o desaparecimento de uma garota acaba com essa paz.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Carla Sehn, Kardo Razzazi, Charlie Gustafsson, Francisco Sobrado, Pia Johansson",
+  "diretor": "Alain Darborg",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:41"
+        }
+      ]
+    }
+  ],
+  "id": 6842
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1Njk=",
+  "tipo": "serie",
+  "titulo": "O LADO SOMBRIO DA TV INFANTIL",
+  "capa_url": "https://lgfp.one/ASW7",
+  "capa_local": "O LADO SOMBRIO DA TV INFANTIL/O LADO SOMBRIO DA TV INFANTIL.jpg",
+  "sinopse": "História das práticas tóxicas e abusivas nos bastidores dos programas de TV infantis dos anos 90.",
+  "genero": "Documentário, Crime",
+  "elenco": "Drake Bell, Amanda Bynes, Dan Schneider",
+  "diretor": "Mary Robertson, Emma Schwartz",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:52"
+        }
+      ]
+    }
+  ],
+  "id": 5244
+}

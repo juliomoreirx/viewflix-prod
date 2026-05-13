@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MTc=",
+  "tipo": "serie",
+  "titulo": "TRIGONOMETRY",
+  "capa_url": "https://lgfp.one/RZH",
+  "capa_local": "TRIGONOMETRY/TRIGONOMETRY.jpg",
+  "sinopse": "Na Londres lotada e cara, o casal Gemma e Kieran, sem dinheiro, abre seu pequeno apartamento para uma terceira pessoa. De alguma forma, sua nova adição, Ray, faz o apartamento parecer maior, não menor. Gradualmente, muitas coisas se tornam mais fáceis, agradáveis e melhores com um par extra de mãos.",
+  "genero": "Drama, Comédia",
+  "elenco": "Ariane Labed, Thalissa Teixeira, Gary Carr, Isabella Laughland, Ambreen Razia",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:47"
+        }
+      ]
+    }
+  ],
+  "id": 1660
+}

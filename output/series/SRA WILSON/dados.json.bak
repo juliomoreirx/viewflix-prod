@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MDE=",
+  "tipo": "serie",
+  "titulo": "SRA WILSON",
+  "capa_url": "https://lgfp.one/IYO",
+  "capa_local": "SRA WILSON/SRA WILSON.jpg",
+  "sinopse": "Alison Wilson vive um casamento feliz, mas a morte de seu marido traz à tona um mundo de mentiras e segredos, incluindo outra mulher que diz ser a Senhora Wilson.",
+  "genero": "Drama",
+  "elenco": "Ruth Wilson, Iain Glen, Fiona Shaw, Anupam Kher, Otto Farrant",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:30"
+        }
+      ]
+    }
+  ],
+  "id": 323
+}

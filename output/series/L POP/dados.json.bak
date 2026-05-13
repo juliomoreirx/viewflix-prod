@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTU=",
+  "tipo": "serie",
+  "titulo": "L POP",
+  "capa_url": "https://lgfp.one/ABBS",
+  "capa_local": "L POP/L POP.jpg",
+  "sinopse": "Andrea, fã de K-pop, forma seu próprio grupo de dança cover após ser expulsa do seu grupo anterior. Ela então deve decidir entre ser dentista ou seguir seu verdadeiro sonho: preparar-se para ser cantora profissional no mesmo lugar que todos os seus ídolos fizeram - na Coreia. Tudo isso sob o olhar atento de sua irmã Pau, que dirige um documentário sobre suas aventuras.",
+  "genero": "Comédia, Drama",
+  "elenco": "Andrea de Alba, Isan Beomhyun Lee, Ji Moon, Alicia Jaziz Zapién, Arantza Ruíz",
+  "diretor": "Andres Lizarazo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:05"
+        }
+      ]
+    }
+  ],
+  "id": 4104
+}

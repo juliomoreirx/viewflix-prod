@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyOTA=",
+  "tipo": "serie",
+  "titulo": "HISTÓRIAS (IM)POSSÍVEIS",
+  "capa_url": "https://lgfp.one/YSK",
+  "capa_local": "HISTORIAS (IM)POSSIVEIS/HISTORIAS (IM)POSSIVEIS.jpg",
+  "sinopse": "Acompanhe as tramas ficcionais com questões com diferentes perspectivas da vivência de mulheres.",
+  "genero": "Drama / Mistério",
+  "elenco": "",
+  "diretor": "Grace Passô, Jaqueline Souza, Renata Martins",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:56"
+        }
+      ]
+    }
+  ],
+  "id": 3328
+}

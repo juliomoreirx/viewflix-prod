@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNzY=",
+  "tipo": "serie",
+  "titulo": "INSÂNIA",
+  "capa_url": "https://lgfp.one/SQP",
+  "capa_local": "INSANIA/INSANIA.jpg",
+  "sinopse": "Após uma tragédia familiar, Paula, uma policial científica, é internada em um hospital psiquiátrico. Lá, sua mente vagará por caminhos sombrios e duvidosos, enquanto ela investiga o real motivo de sua internação, desvendando com isso uma conspiração aterrorizante.",
+  "genero": "Drama",
+  "elenco": "Carol Castro, Rafaela Mandelli, Rafael Losso, Thomas Aquino, Eucir de Souza, Bella Camero, Ravel Cabral, Samuel de Assis",
+  "diretor": "Gustavo Bonafé",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:52"
+        }
+      ]
+    }
+  ],
+  "id": 2133
+}

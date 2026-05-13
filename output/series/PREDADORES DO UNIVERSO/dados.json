@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MTc=",
+  "tipo": "serie",
+  "titulo": "PREDADORES DO UNIVERSO",
+  "capa_url": "https://lgfp.one/AMC0",
+  "capa_local": "PREDADORES DO UNIVERSO/PREDADORES DO UNIVERSO.jpg",
+  "sinopse": "Esta série fascinante revela os fenômenos violentos que ocorrem no espaço sideral. Cada episódio nos ajuda a entender as maravilhas e perigos que rondam o universo conhecido, de asteroides a raios cósmicos mortais.",
+  "genero": "Documentário",
+  "elenco": "Aidan Gillen, Sarah Winter, Douglas Vakoch",
+  "diretor": "Ben Scott, Ruaridh Connellan, Will Francome, Katie Green",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:46"
+        }
+      ]
+    }
+  ],
+  "id": 5129
+}

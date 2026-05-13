@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NzQ=",
+  "tipo": "serie",
+  "titulo": "NO ESCAPE [L]",
+  "capa_url": "https://lgfp.one/AAPW",
+  "capa_local": "NO ESCAPE [L]/NO ESCAPE [L].jpg",
+  "sinopse": "As melhores amigas Lana e Kitty estão fugindo da polícia do Reino Unido. Eles encontram refúgio em um navio chamado The Blue, que promete uma vida despreocupada cheia de gente bonita, festas e praias sem fim, mas esse paraíso logo se transforma em pesadelo e as duas se veem longe de casa e em perigo mortal.",
+  "genero": "Drama",
+  "elenco": "Abigail Lawrie, Rhianne Barreto, Sean Keenan, Jay Ryan, Colette Dalal Tchantcho",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:55"
+        }
+      ]
+    }
+  ],
+  "id": 49163
+}

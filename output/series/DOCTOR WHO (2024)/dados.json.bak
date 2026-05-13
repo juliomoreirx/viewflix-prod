@@ -1,0 +1,115 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwOTk=",
+  "tipo": "serie",
+  "titulo": "DOCTOR WHO (2024)",
+  "capa_url": "https://lgfp.one/AWL0",
+  "capa_local": "DOCTOR WHO (2024)/DOCTOR WHO (2024).jpg",
+  "sinopse": "O Doutor e sua companheira Ruby Sunday viajam através do espaço e tempo vivendo aventuras da Era da Regência na Inglaterra a mundos futuristas destruídos por guerras. Ao longo de suas aventuras na TARDIS - uma máquina de viagem no tempo com a forma de uma cabine telefônica policial - eles encontram amigos incríveis e inimigos perigosos, inclusive um bicho-papão terrível e o inimigo mais poderoso que o Doutor já enfrentou.",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "Ncuti Gatwa, Millie Gibson",
+  "diretor": "",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "0",
+          "codigo": "S01E00",
+          "duracao": "00:55:20"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:12"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "0",
+          "codigo": "S02E00",
+          "duracao": "00:55:00"
+        },
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:06:47"
+        }
+      ]
+    }
+  ],
+  "id": 5352
+}

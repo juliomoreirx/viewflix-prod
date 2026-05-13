@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2NDI=",
+  "tipo": "serie",
+  "titulo": "RE MONSTER",
+  "capa_url": "https://lgfp.one/AQP7",
+  "capa_local": "RE MONSTER/RE MONSTER.jpg",
+  "sinopse": "Após uma morte prematura, Tomokui Kanata reencarna como um humilde goblin, mas ele acabou desenvolvendo um apetite monstruoso. Graças à sua nova habilidade que o deixa mais forte quanto mais se alimenta, seu estado frágil muda rapidamente, e ele cresce na hierarquia e se torna o líder dos goblins. Com uma mistura de suas memórias passadas, um novo corpo e um estômago forte, ele está explorando intensamente este novo e fantástico mundo, uma mordidinha de cada vez!",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Takuya Sato",
+  "diretor": "Takayuki Inagaki",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 5200
+}

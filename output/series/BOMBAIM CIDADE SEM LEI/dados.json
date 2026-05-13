@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NDQ=",
+  "tipo": "serie",
+  "titulo": "BOMBAIM CIDADE SEM LEI",
+  "capa_url": "https://lgfp.one/ABAZ",
+  "capa_local": "BOMBAIM CIDADE SEM LEI/BOMBAIM CIDADE SEM LEI.jpg",
+  "sinopse": "A vida do gângster Dara Kadri pelos olhos de seu pai, Ismael Kadri, um ex-policial. Nessa temporada, vemos como Dara coloca tudo em risco, incluindo sua família. Ele caminha para se tornar um gângster de sangue frio e destemido que usa sua astúcia nos negócios para lutar não apenas contra a polícia e seus rivais, mas também contra seus próprios demônios no caminho.",
+  "genero": "Crime, Drama",
+  "elenco": "Avinash Tiwary, Kay Kay Menon, Amyra Dastur, Kritika Kamra, Nawab Shah",
+  "diretor": "Shujaat Saudagar, Chaitanya Chopra",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:41"
+        }
+      ]
+    }
+  ],
+  "id": 4085
+}

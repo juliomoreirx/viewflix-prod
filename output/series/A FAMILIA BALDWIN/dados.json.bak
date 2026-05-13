@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNzM=",
+  "tipo": "serie",
+  "titulo": "A FAMÍLIA BALDWIN",
+  "capa_url": "https://lgfp.one/NPB3",
+  "capa_local": "A FAMILIA BALDWIN/A FAMILIA BALDWIN.jpg",
+  "sinopse": "Um olhar íntimo e dos bastidores sobre a vida de Alec e Hilaria Baldwin e seus sete filhos, misturando os altos e baixos da vida em família com os desafios e o humor que surgem ao criar uma família numerosa sob os holofotes.",
+  "genero": "Reality, Documentário",
+  "elenco": "Alec Baldwin, Hilaria Baldwin, Caroline Rhea",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:42"
+        }
+      ]
+    }
+  ],
+  "id": 7158
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NTk=",
+  "tipo": "serie",
+  "titulo": "ANGI: CRIME E MENTIRA",
+  "capa_url": "https://lgfp.one/PMZ1",
+  "capa_local": "ANGI CRIME E MENTIRA/ANGI CRIME E MENTIRA.jpg",
+  "sinopse": "Angi foi condenada por assassinar e se passar por uma amiga. Este documentário traz novas perspectivas sobre o caso e sobre a morte do marido dela vários anos antes.",
+  "genero": "Documentário",
+  "elenco": "María Ángeles Molina Fernández, Trinidad Pulido, Félix Ríos",
+  "diretor": "Carlos Agulló",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:17"
+        }
+      ]
+    }
+  ],
+  "id": 7706
+}

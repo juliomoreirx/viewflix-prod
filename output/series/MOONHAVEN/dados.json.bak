@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MTQ=",
+  "tipo": "serie",
+  "titulo": "MOONHAVEN",
+  "capa_url": "https://lgfp.one/RDF3",
+  "capa_local": "MOONHAVEN/MOONHAVEN.jpg",
+  "sinopse": "Cem anos no futuro, o enredo do thriller de suspense Moonhaven é sobre uma colônia na Lua que pode conter a chave para preservar a vida na Terra. A trama aborda uma comunidade situada em um “Jardim do Éden” de 1.300 quilômetros quadrados construído na lua em busca de soluções para os problemas que em breve acabarão com a civilização na Terra. A série foi criada, escrita e produzida por Peter Ocko (responsável por The Office e The Leftovers).",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Emma McDonald, Dominic Monaghan, Joe Manganiello, Ayelet Zurer, Kadeem Hardison",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:46"
+        }
+      ]
+    }
+  ],
+  "id": 8480
+}

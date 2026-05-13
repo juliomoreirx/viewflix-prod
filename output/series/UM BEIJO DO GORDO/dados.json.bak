@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNTA=",
+  "tipo": "serie",
+  "titulo": "UM BEIJO DO GORDO",
+  "capa_url": "https://lgfp.one/DEV0",
+  "capa_local": "UM BEIJO DO GORDO/UM BEIJO DO GORDO.jpg",
+  "sinopse": "Com imagens inéditas, histórias nunca contadas e um acesso único à intimidade de Jô, a série traz um passeio emocionante e hilário por seus programas de humor, peças e talk shows.",
+  "genero": "Documentário",
+  "elenco": "Jô Soares",
+  "diretor": "Renato Terra",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:57"
+        }
+      ]
+    }
+  ],
+  "id": 5787
+}

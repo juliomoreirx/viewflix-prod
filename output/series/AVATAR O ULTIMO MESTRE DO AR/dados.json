@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNDg=",
+  "tipo": "serie",
+  "titulo": "AVATAR O ULTIMO MESTRE DO AR",
+  "capa_url": "https://lgfp.one/AZKZ",
+  "capa_local": "AVATAR O ULTIMO MESTRE DO AR/AVATAR O ULTIMO MESTRE DO AR.jpg",
+  "sinopse": "Água. Terra. Fogo. Ar. As quatro nações viviam em harmonia, com o Avatar, mestre de todos os elementos, mantendo a paz entre eles. Mas tudo mudou quando a Nação do Fogo atacou e exterminou os Nômades do Ar, o primeiro passo dos mestres do fogo para conquistarem o mundo. Com a próxima encarnação do Avatar ainda por vir, o mundo perdeu a esperança. Mas como uma luz na escuridão, a esperança floresce quando Aang, um jovem Nômade do Ar — e o último de seu grupo — desperta para tomar seu lugar por direito como o próximo Avatar. Junto com seus novos amigos Sokka e Katara, irmãos e membros da Tribo da Água do Sul, Aang embarca em uma busca fantástica e cheia de ação para salvar o mundo e lutar contra o terrível ataque do Senhor do Fogo Ozai. Mas com o Príncipe Zuko determinado a capturá-los, não será uma tarefa fácil. Eles vão precisar da ajuda de muitos aliados e personagens coloridos que encontrarem ao longo do caminho.",
+  "genero": "Action & Adventure, Drama, Família",
+  "elenco": "Gordon Cormier, Kiawentiio, Ian Ousley, Dallas Liu, Ken Leung",
+  "diretor": "Roseanne Liang",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:47"
+        }
+      ]
+    }
+  ],
+  "id": 8429
+}

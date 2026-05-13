@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMjI=",
+  "tipo": "serie",
+  "titulo": "PROCURADOS EUA O.J. SIMPSON",
+  "capa_url": "https://lgfp.one/LNN8",
+  "capa_local": "PROCURADOS EUA O.J. SIMPSON/PROCURADOS EUA O.J. SIMPSON.jpg",
+  "sinopse": "O carro branco, as luvas, o julgamento do século. Esta série documental investiga o caso de assassinato chocante que virou fenômeno cultural.",
+  "genero": "Documentário, Crime",
+  "elenco": "O. J. Simpson, Tom Lange, Mark Fuhrman, Kato Kaelin, Christopher Darden",
+  "diretor": "Floyd Russ, Tiller Russell",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:13:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:32:00"
+        }
+      ]
+    }
+  ],
+  "id": 6809
+}

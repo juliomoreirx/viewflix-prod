@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwMjk=",
+  "tipo": "serie",
+  "titulo": "ACESSO TOTAL PALMEIRAS (2025)",
+  "capa_url": "https://lgfp.one/STA2",
+  "capa_local": "ACESSO TOTAL PALMEIRAS (2025)/ACESSO TOTAL PALMEIRAS (2025).jpg",
+  "sinopse": "Um mergulho nos bastidores do Palmeiras, um dos clubes brasileiros mais vencedores e fechados à imprensa. Com Abel Ferreira, a série mostra o dia a dia em busca dos títulos de 2025.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:09"
+        }
+      ]
+    }
+  ],
+  "id": 9383
+}

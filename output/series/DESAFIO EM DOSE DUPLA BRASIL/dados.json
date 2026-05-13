@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3OTE=",
+  "tipo": "serie",
+  "titulo": "DESAFIO EM DOSE DUPLA BRASIL",
+  "capa_url": "https://lgfp.one/TRZ",
+  "capa_local": "DESAFIO EM DOSE DUPLA BRASIL/DESAFIO EM DOSE DUPLA BRASIL.jpg",
+  "sinopse": "Veja uma situações em que duas pessoas de personalidades distintas tomam decisões juntas para sobreviver e conviver em áreas desoladas do mundo.",
+  "genero": "Documentário, Reality, Action & Adventure",
+  "elenco": "Fernão Lacerda, Luciano Tigre, Rene Murad",
+  "diretor": "Rodrigo Astiz",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:25"
+        }
+      ]
+    }
+  ],
+  "id": 2879
+}

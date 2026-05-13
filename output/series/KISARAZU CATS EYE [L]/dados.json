@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNDc=",
+  "tipo": "serie",
+  "titulo": "KISARAZU CATS EYE [L]",
+  "capa_url": "https://lgfp.one/KON2",
+  "capa_local": "KISARAZU CATS EYE [L]/KISARAZU CATS EYE [L].jpg",
+  "sinopse": "Ao descobrir que tem apenas seis meses de vida, Kohei, de 21 anos, reúne seus amigos e forma uma gangue de gatunos para roubar em prol da comunidade.",
+  "genero": "Drama",
+  "elenco": "Junichi Okada, 櫻井翔, 佐藤隆太, 岡田義徳, 塚本高史",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:58"
+        }
+      ]
+    }
+  ],
+  "id": 6489
+}

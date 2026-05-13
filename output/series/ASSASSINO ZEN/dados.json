@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwODM=",
+  "tipo": "serie",
+  "titulo": "ASSASSINO ZEN",
+  "capa_url": "https://lgfp.one/EBA7",
+  "capa_local": "ASSASSINO ZEN/ASSASSINO ZEN.jpg",
+  "sinopse": "Buscando o equilíbrio, um advogado da máfia faz um curso de atenção plena e descobre estratégias surpreendentes para lidar com o estresse, inclusive o assassinato.",
+  "genero": "Comédia, Crime, Drama",
+  "elenco": "Tom Schilling, Emily Cox, Britta Hammelstein, Murathan Muslu, Pamuk Pilavci",
+  "diretor": "Lucia Mostowicz, Constanze Westhoven, Tatjana Kleut",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:15"
+        }
+      ]
+    }
+  ],
+  "id": 6171
+}

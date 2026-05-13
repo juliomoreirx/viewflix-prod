@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NTM=",
+  "tipo": "serie",
+  "titulo": "INTENSIVÃO DE AMOR",
+  "capa_url": "https://lgfp.one/YKJ",
+  "capa_local": "INTENSIVAO DE AMOR/INTENSIVAO DE AMOR.jpg",
+  "sinopse": "Uma mãe generosa enfrenta uma competição acirrada, porque vale tudo para ajudar a filha a estudar com um famoso professor particular de matemática.",
+  "genero": "Drama / Comédia",
+  "elenco": "Jeon Do-yeon, Jung Kyung-ho, Lee Bong-ryeon, Oh Eui-sik, Shin Jae-ha, Roh Yoon-seo, Jang Young-nam, Kim Sun-young",
+  "diretor": "Yu Je-won",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:15:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:14:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:12:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:15:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:16:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:10:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:11:58"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:14:26"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:16:22"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:14:12"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:13:20"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:15:58"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:17:04"
+        }
+      ]
+    }
+  ],
+  "id": 3270
+}

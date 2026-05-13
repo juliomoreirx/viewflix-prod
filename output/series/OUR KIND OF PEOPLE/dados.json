@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNTE=",
+  "tipo": "serie",
+  "titulo": "OUR KIND OF PEOPLE",
+  "capa_url": "https://lgfp.one/TCG",
+  "capa_local": "OUR KIND OF PEOPLE/OUR KIND OF PEOPLE.jpg",
+  "sinopse": "A série é ambientada no mundo de Oak Bluffs em Martha's Vineyard. A mãe solteira Angela Vaughn quer reivindicar o nome da família e causar um impacto com sua linha de tratamento para cabelos que destaca a beleza natural das mulheres negras. Porém, ela logo descobre um segredo sobre o passado de sua mãe que vai virar seu mundo de cabeça para baixo e sacudir esta comunidade para sempre.",
+  "genero": "Drama",
+  "elenco": "Yaya DaCosta, Morris Chestnut, Alana Bright, Nadine Ellis, Rhyon Nicole Brown, Joe Morton, Kyle Bary, Lance Gross",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:59"
+        }
+      ]
+    }
+  ],
+  "id": 2448
+}

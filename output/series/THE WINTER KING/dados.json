@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NDQ=",
+  "tipo": "serie",
+  "titulo": "THE WINTER KING",
+  "capa_url": "https://lgfp.one/EFM5",
+  "capa_local": "THE WINTER KING/THE WINTER KING.jpg",
+  "sinopse": "No século V, muito antes da Grã-Bretanha ser unida, numa terra brutal de facções e tribos em guerra, onde as vidas eram muitas vezes passageiras, Arthur Pendragon evoluiu de pária para guerreiro e líder lendário.",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "Iain De Caestecker, Stuart Campbell, Ellie James, Steven Elder, Valene Kane",
+  "diretor": "Otto Bathurst, Simon Morris",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:49"
+        }
+      ]
+    }
+  ],
+  "id": 3982
+}

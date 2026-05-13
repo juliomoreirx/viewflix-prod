@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNTE=",
+  "tipo": "serie",
+  "titulo": "FUNKBOL",
+  "capa_url": "https://lgfp.one/VRP",
+  "capa_local": "FUNKBOL/FUNKBOL.jpg",
+  "sinopse": "A série explora as conexões entre o funk e o futebol, revelando a determinação, a garra e o talento de jovens profissionais que levam para o mundo a identidade cultural da quebrada. Nossos ícones do esporte e da música falam sobre suas trajetórias de lutas e vitórias, em histórias emocionantes e inspiradoras.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Fred Ouro Preto",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:43"
+        }
+      ]
+    }
+  ],
+  "id": 2942
+}

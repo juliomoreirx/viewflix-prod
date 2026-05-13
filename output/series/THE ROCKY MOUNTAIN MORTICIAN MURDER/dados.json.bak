@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NTE=",
+  "tipo": "serie",
+  "titulo": "THE ROCKY MOUNTAIN MORTICIAN MURDER",
+  "capa_url": "https://lgfp.one/QUD3",
+  "capa_local": "THE ROCKY MOUNTAIN MORTICIAN MURDER/THE ROCKY MOUNTAIN MORTICIAN MURDER.jpg",
+  "sinopse": "",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Jonah Bekhor, Yoav Attias",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 8424
+}

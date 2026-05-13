@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NTc=",
+  "tipo": "serie",
+  "titulo": "LUCKY HANK",
+  "capa_url": "https://lgfp.one/ANX4",
+  "capa_local": "LUCKY HANK/LUCKY HANK.jpg",
+  "sinopse": "O presidente do departamento de inglês em uma faculdade com problemas financeiros da Pensilvânia está vivendo a crise de meia-idade.",
+  "genero": "Drama",
+  "elenco": "Bob Odenkirk, Mireille Enos, Cedric Yarbrough, Diedrich Bader, Olivia Scott Welch",
+  "diretor": "Peter Farrelly, Luke Bradshaw, Daniel F. Pérez",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:57"
+        }
+      ]
+    }
+  ],
+  "id": 5156
+}

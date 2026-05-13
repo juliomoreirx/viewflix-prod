@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0Mjc=",
+  "tipo": "serie",
+  "titulo": "A BELA E O PADEIRO",
+  "capa_url": "https://lgfp.one/RTM",
+  "capa_local": "A BELA E O PADEIRO/A BELA E O PADEIRO.jpg",
+  "sinopse": "Após uma noite agitada com a celebridade da moda Noa Hamilton, Daniel, um padeiro de Miami, precisa conviver com o holofote da mídia em sua vida.",
+  "genero": "Comédia, Drama",
+  "elenco": "Victor Rasuk, Nathalie Kelley, Dan Bucatinsky, David Del Rio, Michelle Veintimilla",
+  "diretor": "David Frankel",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:50"
+        }
+      ]
+    }
+  ],
+  "id": 1344
+}

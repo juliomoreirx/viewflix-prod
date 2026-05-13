@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MTk=",
+  "tipo": "serie",
+  "titulo": "DERRETENDO POUCO A POUCO",
+  "capa_url": "https://lgfp.one/QBH9",
+  "capa_local": "DERRETENDO POUCO A POUCO/DERRETENDO POUCO A POUCO.jpg",
+  "sinopse": "Após um longo experimento em que foram congelados, duas pessoas acordam e descobrem que estão em um mundo completamente diferente.",
+  "genero": "Mistério, Comédia, Sci-Fi & Fantasy",
+  "elenco": "지창욱, 원진아, 윤세아, 임원희, 김원해",
+  "diretor": "Shin Woo-chul",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:05:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:01:06"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:01:08"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:00:14"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:04:38"
+        }
+      ]
+    }
+  ],
+  "id": 8022
+}

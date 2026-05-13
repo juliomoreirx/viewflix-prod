@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1OTI=",
+  "tipo": "serie",
+  "titulo": "56 DIAS",
+  "capa_url": "https://lgfp.one/RSN4",
+  "capa_local": "56 DIAS/56 DIAS.jpg",
+  "sinopse": "Quando um corpo não identificado é encontrado num luxuoso apartamento ligado a Oliver Kennedy e sua namorada, Ciara Wyse, os detetives Lee Reardon e Karl Connolly reconstroem o romance mortal do casal ao longo dos últimos 56 dias.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Dove Cameron, Avan Jogia, Dorian Missick, Karla Souza",
+  "diretor": "James Wan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:57"
+        }
+      ]
+    }
+  ],
+  "id": 8865
+}

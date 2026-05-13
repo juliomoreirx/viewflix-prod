@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNzU=",
+  "tipo": "serie",
+  "titulo": "AS GINASTAS",
+  "capa_url": "https://lgfp.one/AAHR",
+  "capa_local": "AS GINASTAS/AS GINASTAS.jpg",
+  "sinopse": "Um thriller ambientado no mundo da ginástica feminina, em uma história de competição feroz, amizade e segredos.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Filippo Nigro, Antonia Truppo, Alessia de Falco, Giada Savi, Federica Cuomo",
+  "diretor": "Cosima Spender, Valerio Bonelli",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:30"
+        }
+      ]
+    }
+  ],
+  "id": 3548
+}

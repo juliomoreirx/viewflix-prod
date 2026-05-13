@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5Mzc=",
+  "tipo": "serie",
+  "titulo": "AQUAMAN: KING OF ATLANTIS",
+  "capa_url": "https://lgfp.one/SKT",
+  "capa_local": "AQUAMAN KING OF ATLANTIS/AQUAMAN KING OF ATLANTIS.jpg",
+  "sinopse": "Entre lidar com habitantes sem escrúpulos da superfície, males antigos e seu próprio meio-irmão, Aquaman terá que enfrentar os desafios e provar para seus súditos, e para si mesmo, que ele é o homem certo para o tridente.",
+  "genero": "Animação",
+  "elenco": "Cooper Andrews, Gillian Jacobs, Thomas Lennon, Dana Snyder",
+  "diretor": "Marly Halpern-Graser, Victor Courtright",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:41"
+        }
+      ]
+    }
+  ],
+  "id": 1974
+}

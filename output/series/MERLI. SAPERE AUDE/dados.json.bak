@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NTQ=",
+  "tipo": "serie",
+  "titulo": "MERLÍ. SAPERE AUDE",
+  "capa_url": "https://lgfp.one/SUU",
+  "capa_local": "MERLI. SAPERE AUDE/MERLI. SAPERE AUDE.jpg",
+  "sinopse": "Algumas semanas após a morte de Merlí, Pol, o discípulo do professor, não sabe o que fazer com seu futuro. Seu pai e Bruno o incentivam a fazer faculdade e seguir seu caminho, mas o curso de filosofia é mais difícil do que o esperado.",
+  "genero": "Comédia, Drama",
+  "elenco": "Carlos Cuevas, María Pujalte, Pablo Capuz, Claudia Vega, Pere Vallribera",
+  "diretor": "Menna Fité",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:45"
+        }
+      ]
+    }
+  ],
+  "id": 2251
+}

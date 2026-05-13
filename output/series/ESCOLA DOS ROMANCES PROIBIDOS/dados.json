@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNDU=",
+  "tipo": "serie",
+  "titulo": "ESCOLA DOS ROMANCES PROIBIDOS",
+  "capa_url": "https://lgfp.one/DKF9",
+  "capa_local": "ESCOLA DOS ROMANCES PROIBIDOS/ESCOLA DOS ROMANCES PROIBIDOS.jpg",
+  "sinopse": "Quando uma escola da alta elite aplica uma regra \"Nada de romances\" e expulsa quem a violar, uma aluna ajuda em segredo os colegas em troca de dinheiro.",
+  "genero": "Drama",
+  "elenco": "Ai Mikami, Ryubi Miyase, Rintaro Mizusawa, Yudai Toyoda, Shiori Akita",
+  "diretor": "Yuka Yasukawa, Soushi Matsumoto, Ryō Ōta",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:24"
+        }
+      ]
+    }
+  ],
+  "id": 5903
+}

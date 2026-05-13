@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NzU=",
+  "tipo": "serie",
+  "titulo": "KIZAZI MOTO: GERAÇÃO FOGO [L]",
+  "capa_url": "https://lgfp.one/AAPT",
+  "capa_local": "KIZAZI MOTO GERACAO FOGO [L]/KIZAZI MOTO GERACAO FOGO [L].jpg",
+  "sinopse": "Esta antologia de animação de ficção científica repleta de ação apresenta dez visões futuristas da África inspiradas nas diversas histórias e culturas do continente. Com produção executiva do diretor vencedor do Oscar, Peter Ramsey, esses dez curtas-metragens feitos por uma nova geração de criadores de animação se baseiam em perspectivas únicas africanas para imaginar mundos novos e corajosos de tecnologia avançada, alienígenas, espíritos e monstros.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Florence Kasumba, Pearl Thusi, Kehinde Bankole, Sheila Munyiva, Hakeem Kae-Kazim",
+  "diretor": "",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:12:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:12:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:13:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:11:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:30"
+        }
+      ]
+    }
+  ],
+  "id": 3753
+}

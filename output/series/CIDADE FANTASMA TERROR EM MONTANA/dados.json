@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NzM=",
+  "tipo": "serie",
+  "titulo": "CIDADE FANTASMA: TERROR EM MONTANA",
+  "capa_url": "https://lgfp.one/XPZ",
+  "capa_local": "CIDADE FANTASMA TERROR EM MONTANA/CIDADE FANTASMA TERROR EM MONTANA.jpg",
+  "sinopse": "Quando uma família de Seattle se muda para uma cidade fantasma em Montana, eles rapidamente percebem que não estão sozinhos. Com medo de que a atividade paranormal atrapalhe os planos de operar um rancho de hóspedes, eles chamam Tim e Sapphire.",
+  "genero": "Mistério, Documentário, Reality",
+  "elenco": "Sapphire Sandalo, Tim Wood, Sarah Lemos, Scott Di Lalla",
+  "diretor": "Neil Fernández",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:45"
+        }
+      ]
+    }
+  ],
+  "id": 3171
+}

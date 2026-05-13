@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NzQ=",
+  "tipo": "serie",
+  "titulo": "A DANÇA DA MORTE",
+  "capa_url": "https://lgfp.one/RSL",
+  "capa_local": "A DANCA DA MORTE/A DANCA DA MORTE.jpg",
+  "sinopse": "Depois que um laboratório administrado pelo governo acidentalmente libera um vírus mortal, a população do planeta é dizimada. Os sobreviventes se dividem em dois grupos com o objetivo de atravessar os Estados Unidos e tomar uma decisão que afetará o destino do mundo: aceitar a oferta de paz e segurança de Mãe Abigail em Nebraska ou a promessa de salvação do demoníaco Randall Flagg em Las Vegas.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Gary Sinise, Rob Lowe, Bill Fagerbakke, Shawnee Smith, Peter Van Norden",
+  "diretor": "",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:28:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:29:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:32:29"
+        }
+      ]
+    }
+  ],
+  "id": 1313
+}

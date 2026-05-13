@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxODU=",
+  "tipo": "serie",
+  "titulo": "SON OF ZORN",
+  "capa_url": "https://lgfp.one/QLA8",
+  "capa_local": "SON OF ZORN/SON OF ZORN.jpg",
+  "sinopse": "Uma comédia sobre um guerreiro de uma ilha distante no oceano pacífico, Zephyria, onde tudo e todos são desenhos animados. Zorn retorna a Orange County, na Califórnia, para tentar reconquistar sua ex-esposa e se aproximar do filho, ambos humanos de carne e osso.",
+  "genero": "Comédia, Animação",
+  "elenco": "Tim Meadows, Jason Sudeikis, Cheryl Hines, Johnny Pemberton, Artemis Pebdani",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:38"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:38"
+        }
+      ]
+    }
+  ],
+  "id": 8236
+}

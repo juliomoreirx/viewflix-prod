@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNjk=",
+  "tipo": "serie",
+  "titulo": "HARLEY DAVIDSON A SERIE",
+  "capa_url": "https://lgfp.one/RQI6",
+  "capa_local": "HARLEY DAVIDSON A SERIE/HARLEY DAVIDSON A SERIE.jpg",
+  "sinopse": "O nascimento da popular marca de motocicletas do Milwaukee.",
+  "genero": "Drama",
+  "elenco": "Bug Hall, Annie Read, Tommy Bastow, Hera Hilmar, Mitchell Mullen",
+  "diretor": "Ciarán Donnelly",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:22:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:21:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:15:40"
+        }
+      ]
+    }
+  ],
+  "id": 8818
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NTY=",
+  "tipo": "serie",
+  "titulo": "AS LEIS DA SELVA",
+  "capa_url": "https://lgfp.one/YVP",
+  "capa_local": "AS LEIS DA SELVA/AS LEIS DA SELVA.jpg",
+  "sinopse": "Doze pessoas largadas na selva precisam trabalhar em equipe ou sabotar umas às outras se quiserem ganhar o prêmio. Afinal, dizem por aí que todo mundo tem seu preço.",
+  "genero": "Reality",
+  "elenco": "Yolanda Andrade, Diego Alfaro, Adrián Andrés, Bruce Santillan, Georgina Torres",
+  "diretor": "Sergio Zaraza",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:23"
+        }
+      ]
+    }
+  ],
+  "id": 3350
+}

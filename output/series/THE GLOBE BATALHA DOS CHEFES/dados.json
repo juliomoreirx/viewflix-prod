@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NDk=",
+  "tipo": "serie",
+  "titulo": "THE GLOBE: BATALHA DOS CHEFES",
+  "capa_url": "https://lgfp.one/SWF",
+  "capa_local": "THE GLOBE BATALHA DOS CHEFES/THE GLOBE BATALHA DOS CHEFES.jpg",
+  "sinopse": "Esta nova competição culinária reúne chefs competidores que se enfrentam em três etapas inspiradas na gastronomia internacional – em cada uma delas, eles fazem viagens pelos sabores e aromas de diversas partes do mundo com a ajuda de um cenário temático que os transportará para a localidade-tema do desafio. Eles terão de demonstrar habilidade para evocar traços marcantes das culinárias locais, utilizando ingredientes exóticos e muita técnica no preparo de suas criações.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:31"
+        }
+      ]
+    }
+  ],
+  "id": 2290
+}

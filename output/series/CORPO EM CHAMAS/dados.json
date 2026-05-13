@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNjE=",
+  "tipo": "serie",
+  "titulo": "CORPO EM CHAMAS",
+  "capa_url": "https://lgfp.one/AAXU",
+  "capa_local": "CORPO EM CHAMAS/CORPO EM CHAMAS.jpg",
+  "sinopse": "Um policial é assassinado e queimado. Os principais suspeitos são a namorada dele e o amante dela. Inspirada em uma história real.",
+  "genero": "Drama, Mistério",
+  "elenco": "Úrsula Corberó, Quim Gutiérrez, José Manuel Poga, Isak Férriz, Eva Llorach",
+  "diretor": "Jorge Torregrossa, Sonia M. Pardo, Asier Ramos",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:04"
+        }
+      ]
+    }
+  ],
+  "id": 3960
+}

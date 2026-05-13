@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1OTQ=",
+  "tipo": "serie",
+  "titulo": "PUTIN: A RUSSIAN SPY STORY [L]",
+  "capa_url": "https://lgfp.one/TAB",
+  "capa_local": "PUTIN A RUSSIAN SPY STORY [L]/PUTIN A RUSSIAN SPY STORY [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:05"
+        }
+      ]
+    }
+  ],
+  "id": 2390
+}

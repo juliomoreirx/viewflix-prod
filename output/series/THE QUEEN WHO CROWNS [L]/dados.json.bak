@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5ODg=",
+  "tipo": "serie",
+  "titulo": "THE QUEEN WHO CROWNS [L]",
+  "capa_url": "https://lgfp.one/KXV2",
+  "capa_local": "THE QUEEN WHO CROWNS [L]/THE QUEEN WHO CROWNS [L].jpg",
+  "sinopse": "Uma mulher de uma família de prestígio ajuda seu marido a se tornar rei, mas o relacionamento deles se deteriora quando ele toma muitas concubinas. As tensões aumentam quando o rei busca controlar ela e sua família.",
+  "genero": "Drama",
+  "elenco": "차주영, 이현욱, 이성민, 이이담, 이시아",
+  "diretor": "Kim Sang-ho",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:56:52"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:41:15"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:58:51"
+        }
+      ]
+    }
+  ],
+  "id": 6608
+}

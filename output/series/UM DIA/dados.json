@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNTI=",
+  "tipo": "serie",
+  "titulo": "UM DIA",
+  "capa_url": "https://lgfp.one/AZXI",
+  "capa_local": "UM DIA/UM DIA.jpg",
+  "sinopse": "Após passarem a noite de formatura juntos, Emma e Dexter seguem caminhos diferentes, mas suas vidas continuam interligadas.",
+  "genero": "Drama",
+  "elenco": "Ambika Mod, Leo Woodall",
+  "diretor": "Nige Watson",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:32:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:19:06"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:36:25"
+        }
+      ]
+    }
+  ],
+  "id": 382631
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NzI=",
+  "tipo": "serie",
+  "titulo": "CILADA (2025)",
+  "capa_url": "https://lgfp.one/NKT4",
+  "capa_local": "CILADA (2025)/CILADA (2025).jpg",
+  "sinopse": "Famosa por desmascarar criminosos, a jornalista Ema Garay enfrenta um dilema ao descobrir que o suspeito do desaparecimento de uma adolescente é uma pessoa bem próxima.",
+  "genero": "Drama, Crime",
+  "elenco": "Soledad Villamil, Juan Minujín, Alberto Ammann, Matías Recalt, Fernán Mirás",
+  "diretor": "Miguel Cohan, Hernán Goldfrid",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:49"
+        }
+      ]
+    }
+  ],
+  "id": 7082
+}

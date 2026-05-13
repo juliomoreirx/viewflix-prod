@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NzE=",
+  "tipo": "serie",
+  "titulo": "SALVADOR",
+  "capa_url": "https://lgfp.one/RPF9",
+  "capa_local": "SALVADOR/SALVADOR.jpg",
+  "sinopse": "Em uma noite de confrontos violentos entre torcidas, um motorista de ambulância descobre que a filha está envolvida. A situação foge do controle, e ele busca respostas.",
+  "genero": "Drama, Mistério",
+  "elenco": "Luis Tosar, Candela Arestegui, Claudia Salas, Juan Carlos Vellido",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:09"
+        }
+      ]
+    }
+  ],
+  "id": 90408
+}

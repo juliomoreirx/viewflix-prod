@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NDU=",
+  "tipo": "serie",
+  "titulo": "FLESH AND BLOOD: UM CRIME NA VIZINHANÇA",
+  "capa_url": "https://lgfp.one/RPD",
+  "capa_local": "FLESH AND BLOOD UM CRIME NA VIZINHANCA/FLESH AND BLOOD UM CRIME NA VIZINHANCA.jpg",
+  "sinopse": "Três irmãos são pegos de surpresa quando a mãe recém-viúva apresenta o novo namorado. Tudo inicia uma série de segredos e desconfianças que resultará em um crime na família.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Imelda Staunton, Francesca Annis, Claudie Blakley, Russell Tovey, Lydia Leonard",
+  "diretor": "Louise Hooper",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:47"
+        }
+      ]
+    }
+  ],
+  "id": 1221
+}

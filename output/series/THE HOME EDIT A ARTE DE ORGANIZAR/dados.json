@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MDI=",
+  "tipo": "serie",
+  "titulo": "THE HOME EDIT: A ARTE DE ORGANIZAR",
+  "capa_url": "https://lgfp.one/TBX",
+  "capa_local": "THE HOME EDIT A ARTE DE ORGANIZAR/THE HOME EDIT A ARTE DE ORGANIZAR.jpg",
+  "sinopse": "As especialistas em organização Clea e Joanna ajudam celebridades e pessoas comuns a dar um jeito na bagunça e criar espaços incríveis.",
+  "genero": "Reality",
+  "elenco": "Clea Shearer, Joanna Teplin, Bobby Browning",
+  "diretor": "Amy Hall",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:58"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:40:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:40:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:41:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:43:19"
+        }
+      ]
+    }
+  ],
+  "id": 2439
+}

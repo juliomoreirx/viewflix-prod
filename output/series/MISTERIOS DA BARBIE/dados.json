@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3MTE=",
+  "tipo": "serie",
+  "titulo": "MISTERIOS DA BARBIE",
+  "capa_url": "https://lgfp.one/EBC7",
+  "capa_local": "MISTERIOS DA BARBIE/MISTERIOS DA BARBIE.jpg",
+  "sinopse": "As amigas Brooklyn e Malibu transformam seu podcast de viagem em um de mistério, contando suas aventuras ao resolver mistérios no mundo todo.",
+  "genero": "Animação, Kids",
+  "elenco": "Abby Trott, Diamond White",
+  "diretor": "Seth Kearsley, Amber Tornquist Hollinger, Monica Davila",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:19"
+        }
+      ]
+    }
+  ],
+  "id": 6192
+}

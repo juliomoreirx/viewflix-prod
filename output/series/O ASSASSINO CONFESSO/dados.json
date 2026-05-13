@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwOTA=",
+  "tipo": "serie",
+  "titulo": "O ASSASSINO CONFESSO",
+  "capa_url": "https://lgfp.one/JDB",
+  "capa_local": "O ASSASSINO CONFESSO/O ASSASSINO CONFESSO.jpg",
+  "sinopse": "Henry Lee Lucas ficou famoso depois de confessar centenas de assassinatos. Esta série documental mostra a verdade e suas terríveis consequências.",
+  "genero": "Documentário, Crime",
+  "elenco": "Bob Prince, Henry Lee Lucas",
+  "diretor": "Robert Kenner, Taki Oldham, Robert Kenner",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:21"
+        }
+      ]
+    }
+  ],
+  "id": 463
+}

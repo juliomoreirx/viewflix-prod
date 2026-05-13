@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMzY=",
+  "tipo": "serie",
+  "titulo": "MIRACLE WORKERS [L]",
+  "capa_url": "https://lgfp.one/SYG3",
+  "capa_local": "MIRACLE WORKERS [L]/MIRACLE WORKERS [L].jpg",
+  "sinopse": "Depois de tanto dedicar sua existência para cuidar da Terra, Deus decide focar nos seus próprios interesses. Com isso, os anjos responsáveis por ouvir as orações das pessoas precisam realizar um milagre a fim de evitar a destruição da humanidade.",
+  "genero": "Comédia, Drama",
+  "elenco": "Daniel Radcliffe, Geraldine Viswanathan, Karan Soni, Jon Bass, Steve Buscemi",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:26"
+        }
+      ]
+    }
+  ],
+  "id": 9475
+}

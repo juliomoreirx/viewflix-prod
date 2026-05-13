@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2ODQ=",
+  "tipo": "serie",
+  "titulo": "SURVIVE [L]",
+  "capa_url": "https://lgfp.one/JNO",
+  "capa_local": "SURVIVE [L]/SURVIVE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Sophie Turner, Corey Hawkins",
+  "diretor": "Mark Pellington",
+  "total_episodios": "8",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:08:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:09:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:07:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:08:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:07:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:06:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:08:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:08:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:09:33"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:08:28"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:09:41"
+        }
+      ]
+    }
+  ],
+  "id": 301547
+}

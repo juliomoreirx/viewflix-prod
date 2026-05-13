@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1MTU=",
+  "tipo": "serie",
+  "titulo": "HEROI OU QUASE ISSO [L]",
+  "capa_url": "https://lgfp.one/QNP3",
+  "capa_local": "HEROI OU QUASE ISSO [L]/HEROI OU QUASE ISSO [L].jpg",
+  "sinopse": "Demitido, divorciado e com a conta bancária zerada, Bunta (Oizumi Yo), um homem de meia-idade, vê sua vida em frangalhos. Um dia, ele faz uma entrevista para uma empresa misteriosa e descobre que terá que se tornar alguém com poderes sobrenaturais para salvar o mundo. Ele é designado para o dormitório dos funcionários, mas de repente se vê vivendo com uma estranha (Miyazaki Aoi) como um \"casal\". Mais bizarro ainda, a designação vem com uma condição ridícula: \"Você está proibido de se apaixonar por qualquer pessoa\". Assim, Bunta é forçado a assumir o destino do mundo, embarcando em uma comédia romântica de fantasia absurda, porém comovente.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "大泉洋, 宮﨑あおい, ディーン・フジオカ, Takumi Kitamura, 高畑淳子",
+  "diretor": "村尾嘉昭",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:14"
+        }
+      ]
+    }
+  ],
+  "id": 8309
+}

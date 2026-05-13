@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODc=",
+  "tipo": "serie",
+  "titulo": "HARLAN COBEN LAZARO",
+  "capa_url": "https://lgfp.one/QLT0",
+  "capa_local": "HARLAN COBEN LAZARO/HARLAN COBEN LAZARO.jpg",
+  "sinopse": "O psiquiatra forense Dr. Joel \"Laz\" Lazarus é obrigado a enfrentar demônios há muito enterrados após seu pai, Dr. L, morrer em circunstâncias suspeitas. Convencido de que se tratava de suicídio, Laz logo é arrastado para um mundo de conspirações mortais – e para uma corrida contra o tempo para encontrar o assassino – ao começar a ter estranhas visões de pessoas que ele sabe que estão mortas.",
+  "genero": "Mistério",
+  "elenco": "Sam Claflin, Bill Nighy, Alexandra Roach, David Fynn, Karla Crome",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:57"
+        }
+      ]
+    }
+  ],
+  "id": 8241
+}

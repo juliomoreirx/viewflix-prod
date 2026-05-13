@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxMjE=",
+  "tipo": "serie",
+  "titulo": "AMANDO O INIMIGO [L]",
+  "capa_url": "https://lgfp.one/LLV6",
+  "capa_local": "AMANDO O INIMIGO [L]/AMANDO O INIMIGO [L].jpg",
+  "sinopse": "As vidas de Seok Ji Won (Ju Ji Hoon) e Yun Ji Won (Jung Yu Mi) sempre estiveram conectadas: as famílias deles são rivais há gerações, tiveram filhos no mesmo dia e deram a ambos o nome de “Ji Won”. Enquanto cresciam, eles pareciam desafiar a história de suas famílias ao se apaixonarem no ensino médio, mas o relacionamento não terminou bem quando Seok Ji Won teve que se mudar. Agora, já adultos e na casa dos 30 anos, eles se reencontraram ao acaso na escola que frequentaram, já que Seok Ji Won se tornou o novo diretor e Yun Ji Won trabalha como professora de Educação Física. Esse reencontro faz com que toda a raiva, ressentimento e emoções enterradas voltem à tona, e os dois são forçados a confrontar um ao outro e seu passado não resolvido.",
+  "genero": "Drama",
+  "elenco": "주지훈, 정유미, 이시우, 김예원, Kim Kap-soo",
+  "diretor": "박준화",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "Amando o Inimigo [L] - S01E01 - Episódio 1",
+          "duracao": "01:05:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "Amando o Inimigo [L] - S01E02 - Episódio 2",
+          "duracao": "01:04:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "Amando o Inimigo [L] - S01E03 - Episódio 3",
+          "duracao": "01:09:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "Amando o Inimigo [L] - S01E04 - Episódio 4",
+          "duracao": "01:09:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "Amando o Inimigo [L] - S01E05 - Episódio 5",
+          "duracao": "01:09:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "Amando o Inimigo [L] - S01E06 - Episódio 6",
+          "duracao": "01:04:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "Amando o Inimigo [L] - S01E07 - Episódio 7",
+          "duracao": "01:14:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "Amando o Inimigo [L] - S01E08 - Episódio 8",
+          "duracao": "01:07:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "Amando o Inimigo [L] - S01E09 - Episódio 9",
+          "duracao": "01:02:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "Amando o Inimigo [L] - S01E10 - Episódio 10",
+          "duracao": "01:03:11"
+        },
+        {
+          "numero": "11",
+          "codigo": "Amando o Inimigo [L] - S01E11 - Episódio 11",
+          "duracao": "01:11:33"
+        },
+        {
+          "numero": "12",
+          "codigo": "Amando o Inimigo [L] - S01E12 - Episódio 12",
+          "duracao": "01:07:03"
+        }
+      ]
+    }
+  ],
+  "id": 6748
+}

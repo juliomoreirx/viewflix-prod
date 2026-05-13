@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NTQ=",
+  "tipo": "serie",
+  "titulo": "ESTAÇÃO ONZE",
+  "capa_url": "https://lgfp.one/STW",
+  "capa_local": "ESTACAO ONZE/ESTACAO ONZE.jpg",
+  "sinopse": "Uma saga pós-apocalíptica que abrange várias linhas do tempo, contando as histórias de sobreviventes de uma gripe devastadora enquanto tentam reconstruir e reimaginar o mundo de novo, mantendo o melhor do que foi perdido.",
+  "genero": "Drama / Sci-Fi & Fantasy",
+  "elenco": "Mackenzie Davis, Himesh Patel, Daniel Zovatto, David Wilmot, Matilda Lawler, Philippine Velge, Nabhaan Rizwan, Lori Petty",
+  "diretor": "Patrick Somerville",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:24"
+        }
+      ]
+    }
+  ],
+  "id": 2225
+}

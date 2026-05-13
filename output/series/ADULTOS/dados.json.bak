@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwODg=",
+  "tipo": "serie",
+  "titulo": "ADULTOS",
+  "capa_url": "https://lgfp.one/OUV3",
+  "capa_local": "ADULTOS/ADULTOS.jpg",
+  "sinopse": "Um grupo de jovens de vinte e poucos anos moram juntos em Nova York e tentam ser pessoas boas, apesar de ainda estarem bem longe disso.",
+  "genero": "Comédia",
+  "elenco": "Malik Elassal, Lucy Freyer, Jack Innanen, Amita Rao, Owen Thiele",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:23"
+        }
+      ]
+    }
+  ],
+  "id": 7481
+}

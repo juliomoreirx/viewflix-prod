@@ -1,0 +1,830 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI0MjI=",
+  "tipo": "serie",
+  "titulo": "ALTA ESTAÇÃO",
+  "capa_url": "https://lgfp.one/LLV2",
+  "capa_local": "ALTA ESTACAO/ALTA ESTACAO.jpg",
+  "sinopse": "Seis amigos universitários: Bárbara, Eduardo, Renata, Ricardo, Flávia e Caio. Tudo começa quando Bárbara sai de sua cidade natal rumo ao Rio de Janeiro atrás de seu grande amor. Ao chegar na Cidade Maravilhosa, Bárbara tem uma grande decepção, mas insiste em ficar no Rio e começa a trabalhar no Jony's Bar. A partir daí, Bárbara e seus amigos enfrentarão juntos os desafios com a chegada da maturidade e as responsabilidades de serem jovens adultos.",
+  "genero": "Comédia, Drama, Família",
+  "elenco": "Ariela Massotti, Daniel Aguiar, Vergniaud Mendes, Andréia Horta, Guilherme Boury",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "Alta Estação - S01E01 - Capítulo 1",
+          "duracao": "00:39:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "Alta Estação - S01E02 - Capítulo 2",
+          "duracao": "00:35:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "Alta Estação - S01E03 - Capítulo 3",
+          "duracao": "00:35:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "Alta Estação - S01E04 - Capítulo 4",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "Alta Estação - S01E05 - Capítulo 5",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "Alta Estação - S01E06 - Capítulo 6",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "Alta Estação - S01E07 - Capítulo 7",
+          "duracao": "00:28:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "Alta Estação - S01E08 - Capítulo 8",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "Alta Estação - S01E09 - Capítulo 9",
+          "duracao": "00:30:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "Alta Estação - S01E10 - Capítulo 10",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "Alta Estação - S01E11 - Capítulo 11",
+          "duracao": "00:27:25"
+        },
+        {
+          "numero": "12",
+          "codigo": "Alta Estação - S01E12 - Capítulo 12",
+          "duracao": "00:31:01"
+        },
+        {
+          "numero": "13",
+          "codigo": "Alta Estação - S01E13 - Capítulo 13",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "14",
+          "codigo": "Alta Estação - S01E14 - Capítulo 14",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "15",
+          "codigo": "Alta Estação - S01E15 - Capítulo 15",
+          "duracao": "00:27:49"
+        },
+        {
+          "numero": "16",
+          "codigo": "Alta Estação - S01E16 - Capítulo 16",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "17",
+          "codigo": "Alta Estação - S01E17 - Capítulo 17",
+          "duracao": "00:31:35"
+        },
+        {
+          "numero": "18",
+          "codigo": "Alta Estação - S01E18 - Capítulo 18",
+          "duracao": "00:27:55"
+        },
+        {
+          "numero": "19",
+          "codigo": "Alta Estação - S01E19 - Capítulo 19",
+          "duracao": "00:29:23"
+        },
+        {
+          "numero": "20",
+          "codigo": "Alta Estação - S01E20 - Capítulo 20",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "21",
+          "codigo": "Alta Estação - S01E21 - Capítulo 21",
+          "duracao": "00:28:04"
+        },
+        {
+          "numero": "22",
+          "codigo": "Alta Estação - S01E22 - Capítulo 22",
+          "duracao": "00:29:11"
+        },
+        {
+          "numero": "23",
+          "codigo": "Alta Estação - S01E23 - Capítulo 23",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "24",
+          "codigo": "Alta Estação - S01E24 - Capítulo 24",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "25",
+          "codigo": "Alta Estação - S01E25 - Capítulo 25",
+          "duracao": "00:30:48"
+        },
+        {
+          "numero": "26",
+          "codigo": "Alta Estação - S01E26 - Capítulo 26",
+          "duracao": "00:32:16"
+        },
+        {
+          "numero": "27",
+          "codigo": "Alta Estação - S01E27 - Capítulo 27",
+          "duracao": "00:35:07"
+        },
+        {
+          "numero": "28",
+          "codigo": "Alta Estação - S01E28 - Capítulo 28",
+          "duracao": "00:37:05"
+        },
+        {
+          "numero": "29",
+          "codigo": "Alta Estação - S01E29 - Capítulo 29",
+          "duracao": "00:33:25"
+        },
+        {
+          "numero": "30",
+          "codigo": "Alta Estação - S01E30 - Capítulo 30",
+          "duracao": "00:33:48"
+        },
+        {
+          "numero": "31",
+          "codigo": "Alta Estação - S01E31 - Capítulo 31",
+          "duracao": "00:35:47"
+        },
+        {
+          "numero": "32",
+          "codigo": "Alta Estação - S01E32 - Capítulo 32",
+          "duracao": "00:36:30"
+        },
+        {
+          "numero": "33",
+          "codigo": "Alta Estação - S01E33 - Capítulo 33",
+          "duracao": "00:34:49"
+        },
+        {
+          "numero": "34",
+          "codigo": "Alta Estação - S01E34 - Capítulo 34",
+          "duracao": "00:34:51"
+        },
+        {
+          "numero": "35",
+          "codigo": "Alta Estação - S01E35 - Capítulo 35",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "36",
+          "codigo": "Alta Estação - S01E36 - Capítulo 36",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "37",
+          "codigo": "Alta Estação - S01E37 - Capítulo 37",
+          "duracao": "00:34:52"
+        },
+        {
+          "numero": "38",
+          "codigo": "Alta Estação - S01E38 - Capítulo 38",
+          "duracao": "00:35:25"
+        },
+        {
+          "numero": "39",
+          "codigo": "Alta Estação - S01E39 - Capítulo 39",
+          "duracao": "00:36:12"
+        },
+        {
+          "numero": "40",
+          "codigo": "Alta Estação - S01E40 - Capítulo 40",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "41",
+          "codigo": "Alta Estação - S01E41 - Capítulo 41",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "42",
+          "codigo": "Alta Estação - S01E42 - Capítulo 42",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "43",
+          "codigo": "Alta Estação - S01E43 - Capítulo 43",
+          "duracao": "00:26:52"
+        },
+        {
+          "numero": "44",
+          "codigo": "Alta Estação - S01E44 - Capítulo 44",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "45",
+          "codigo": "Alta Estação - S01E45 - Capítulo 45",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "46",
+          "codigo": "Alta Estação - S01E46 - Capítulo 46",
+          "duracao": "00:25:50"
+        },
+        {
+          "numero": "47",
+          "codigo": "Alta Estação - S01E47 - Capítulo 47",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "48",
+          "codigo": "Alta Estação - S01E48 - Capítulo 48",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "49",
+          "codigo": "Alta Estação - S01E49 - Capítulo 49",
+          "duracao": "00:24:48"
+        },
+        {
+          "numero": "50",
+          "codigo": "Alta Estação - S01E50 - Capítulo 50",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "51",
+          "codigo": "Alta Estação - S01E51 - Capítulo 51",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "52",
+          "codigo": "Alta Estação - S01E52 - Capítulo 52",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "53",
+          "codigo": "Alta Estação - S01E53 - Capítulo 53",
+          "duracao": "00:27:39"
+        },
+        {
+          "numero": "54",
+          "codigo": "Alta Estação - S01E54 - Capítulo 54",
+          "duracao": "00:27:23"
+        },
+        {
+          "numero": "55",
+          "codigo": "Alta Estação - S01E55 - Capítulo 55",
+          "duracao": "00:28:24"
+        },
+        {
+          "numero": "56",
+          "codigo": "Alta Estação - S01E56 - Capítulo 56",
+          "duracao": "00:27:25"
+        },
+        {
+          "numero": "57",
+          "codigo": "Alta Estação - S01E57 - Capítulo 57",
+          "duracao": "00:28:45"
+        },
+        {
+          "numero": "58",
+          "codigo": "Alta Estação - S01E58 - Capítulo 58",
+          "duracao": "00:27:57"
+        },
+        {
+          "numero": "59",
+          "codigo": "Alta Estação - S01E59 - Capítulo 59",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "60",
+          "codigo": "Alta Estação - S01E60 - Capítulo 60",
+          "duracao": "00:27:29"
+        },
+        {
+          "numero": "61",
+          "codigo": "Alta Estação - S01E61 - Capítulo 61",
+          "duracao": "00:27:59"
+        },
+        {
+          "numero": "62",
+          "codigo": "Alta Estação - S01E62 - Capítulo 62",
+          "duracao": "00:28:29"
+        },
+        {
+          "numero": "63",
+          "codigo": "Alta Estação - S01E63 - Capítulo 63",
+          "duracao": "00:28:01"
+        },
+        {
+          "numero": "64",
+          "codigo": "Alta Estação - S01E64 - Capítulo 64",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "65",
+          "codigo": "Alta Estação - S01E65 - Capítulo 65",
+          "duracao": "00:18:23"
+        },
+        {
+          "numero": "66",
+          "codigo": "Alta Estação - S01E66 - Capítulo 66",
+          "duracao": "00:28:26"
+        },
+        {
+          "numero": "67",
+          "codigo": "Alta Estação - S01E67 - Capítulo 67",
+          "duracao": "00:20:27"
+        },
+        {
+          "numero": "68",
+          "codigo": "Alta Estação - S01E68 - Capítulo 68",
+          "duracao": "00:20:20"
+        },
+        {
+          "numero": "69",
+          "codigo": "Alta Estação - S01E69 - Capítulo 69",
+          "duracao": "00:20:01"
+        },
+        {
+          "numero": "70",
+          "codigo": "Alta Estação - S01E70 - Capítulo 70",
+          "duracao": "00:21:23"
+        },
+        {
+          "numero": "71",
+          "codigo": "Alta Estação - S01E71 - Capítulo 71",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "72",
+          "codigo": "Alta Estação - S01E72 - Capítulo 72",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "73",
+          "codigo": "Alta Estação - S01E73 - Capítulo 73",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "74",
+          "codigo": "Alta Estação - S01E74 - Capítulo 74",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "75",
+          "codigo": "Alta Estação - S01E75 - Capítulo 75",
+          "duracao": "00:21:06"
+        },
+        {
+          "numero": "76",
+          "codigo": "Alta Estação - S01E76 - Capítulo 76",
+          "duracao": "00:22:47"
+        },
+        {
+          "numero": "77",
+          "codigo": "Alta Estação - S01E77 - Capítulo 77",
+          "duracao": "00:21:21"
+        },
+        {
+          "numero": "78",
+          "codigo": "Alta Estação - S01E78 - Capítulo 78",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "79",
+          "codigo": "Alta Estação - S01E79 - Capítulo 79",
+          "duracao": "00:21:47"
+        },
+        {
+          "numero": "80",
+          "codigo": "Alta Estação - S01E80 - Capítulo 80",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "81",
+          "codigo": "Alta Estação - S01E81 - Capítulo 81",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "82",
+          "codigo": "Alta Estação - S01E82 - Capítulo 82",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "83",
+          "codigo": "Alta Estação - S01E83 - Capítulo 83",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "84",
+          "codigo": "Alta Estação - S01E84 - Capítulo 84",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "85",
+          "codigo": "Alta Estação - S01E85 - Capítulo 85",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "86",
+          "codigo": "Alta Estação - S01E86 - Capítulo 86",
+          "duracao": "00:26:09"
+        },
+        {
+          "numero": "87",
+          "codigo": "Alta Estação - S01E87 - Capítulo 87",
+          "duracao": "00:32:19"
+        },
+        {
+          "numero": "88",
+          "codigo": "Alta Estação - S01E88 - Capítulo 88",
+          "duracao": "00:31:49"
+        },
+        {
+          "numero": "89",
+          "codigo": "Alta Estação - S01E89 - Capítulo 89",
+          "duracao": "00:32:18"
+        },
+        {
+          "numero": "90",
+          "codigo": "Alta Estação - S01E90 - Capítulo 90",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "91",
+          "codigo": "Alta Estação - S01E91 - Capítulo 91",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "92",
+          "codigo": "Alta Estação - S01E92 - Capítulo 92",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "93",
+          "codigo": "Alta Estação - S01E93 - Capítulo 93",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "94",
+          "codigo": "Alta Estação - S01E94 - Capítulo 94",
+          "duracao": "00:29:52"
+        },
+        {
+          "numero": "95",
+          "codigo": "Alta Estação - S01E95 - Capítulo 95",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "96",
+          "codigo": "Alta Estação - S01E96 - Capítulo 96",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "97",
+          "codigo": "Alta Estação - S01E97 - Capítulo 97",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "98",
+          "codigo": "Alta Estação - S01E98 - Capítulo 98",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "99",
+          "codigo": "Alta Estação - S01E99 - Capítulo 99",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "100",
+          "codigo": "Alta Estação - S01E100 - Capítulo 100",
+          "duracao": "00:29:47"
+        },
+        {
+          "numero": "101",
+          "codigo": "Alta Estação - S01E101 - Capítulo 101",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "102",
+          "codigo": "Alta Estação - S01E102 - Capítulo 102",
+          "duracao": "00:29:55"
+        },
+        {
+          "numero": "103",
+          "codigo": "Alta Estação - S01E103 - Capítulo 103",
+          "duracao": "00:30:14"
+        },
+        {
+          "numero": "104",
+          "codigo": "Alta Estação - S01E104 - Capítulo 104",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "105",
+          "codigo": "Alta Estação - S01E105 - Capítulo 105",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "106",
+          "codigo": "Alta Estação - S01E106 - Capítulo 106",
+          "duracao": "00:30:05"
+        },
+        {
+          "numero": "107",
+          "codigo": "Alta Estação - S01E107 - Capítulo 107",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "108",
+          "codigo": "Alta Estação - S01E108 - Capítulo 108",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "109",
+          "codigo": "Alta Estação - S01E109 - Capítulo 109",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "110",
+          "codigo": "Alta Estação - S01E110 - Capítulo 110",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "111",
+          "codigo": "Alta Estação - S01E111 - Capítulo 111",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "112",
+          "codigo": "Alta Estação - S01E112 - Capítulo 112",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "113",
+          "codigo": "Alta Estação - S01E113 - Capítulo 113",
+          "duracao": "00:23:30"
+        },
+        {
+          "numero": "114",
+          "codigo": "Alta Estação - S01E114 - Capítulo 114",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "115",
+          "codigo": "Alta Estação - S01E115 - Capítulo 115",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "116",
+          "codigo": "Alta Estação - S01E116 - Capítulo 116",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "117",
+          "codigo": "Alta Estação - S01E117 - Capítulo 117",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "118",
+          "codigo": "Alta Estação - S01E118 - Capítulo 118",
+          "duracao": "00:25:34"
+        },
+        {
+          "numero": "119",
+          "codigo": "Alta Estação - S01E119 - Capítulo 119",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "120",
+          "codigo": "Alta Estação - S01E120 - Capítulo 120",
+          "duracao": "00:24:52"
+        },
+        {
+          "numero": "121",
+          "codigo": "Alta Estação - S01E121 - Capítulo 121",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "122",
+          "codigo": "Alta Estação - S01E122 - Capítulo 122",
+          "duracao": "00:24:51"
+        },
+        {
+          "numero": "123",
+          "codigo": "Alta Estação - S01E123 - Capítulo 123",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "124",
+          "codigo": "Alta Estação - S01E124 - Capítulo 124",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "125",
+          "codigo": "Alta Estação - S01E125 - Capítulo 125",
+          "duracao": "00:25:21"
+        },
+        {
+          "numero": "126",
+          "codigo": "Alta Estação - S01E126 - Capítulo 126",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "127",
+          "codigo": "Alta Estação - S01E127 - Capítulo 127",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "128",
+          "codigo": "Alta Estação - S01E128 - Capítulo 128",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "129",
+          "codigo": "Alta Estação - S01E129 - Capítulo 129",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "130",
+          "codigo": "Alta Estação - S01E130 - Capítulo 130",
+          "duracao": "00:25:21"
+        },
+        {
+          "numero": "131",
+          "codigo": "Alta Estação - S01E131 - Capítulo 131",
+          "duracao": "00:24:50"
+        },
+        {
+          "numero": "132",
+          "codigo": "Alta Estação - S01E132 - Capítulo 132",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "133",
+          "codigo": "Alta Estação - S01E133 - Capítulo 133",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "134",
+          "codigo": "Alta Estação - S01E134 - Capítulo 134",
+          "duracao": "00:24:44"
+        },
+        {
+          "numero": "135",
+          "codigo": "Alta Estação - S01E135 - Capítulo 135",
+          "duracao": "00:25:01"
+        },
+        {
+          "numero": "136",
+          "codigo": "Alta Estação - S01E136 - Capítulo 136",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "137",
+          "codigo": "Alta Estação - S01E137 - Capítulo 137",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "138",
+          "codigo": "Alta Estação - S01E138 - Capítulo 138",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "139",
+          "codigo": "Alta Estação - S01E139 - Capítulo 139",
+          "duracao": "00:24:37"
+        },
+        {
+          "numero": "140",
+          "codigo": "Alta Estação - S01E140 - Capítulo 140",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "141",
+          "codigo": "Alta Estação - S01E141 - Capítulo 141",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "142",
+          "codigo": "Alta Estação - S01E142 - Capítulo 142",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "143",
+          "codigo": "Alta Estação - S01E143 - Capítulo 143",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "144",
+          "codigo": "Alta Estação - S01E144 - Capítulo 144",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "145",
+          "codigo": "Alta Estação - S01E145 - Capítulo 145",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "146",
+          "codigo": "Alta Estação - S01E146 - Capítulo 146",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "147",
+          "codigo": "Alta Estação - S01E147 - Capítulo 147",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "148",
+          "codigo": "Alta Estação - S01E148 - Capítulo 148",
+          "duracao": "00:24:17"
+        },
+        {
+          "numero": "149",
+          "codigo": "Alta Estação - S01E149 - Capítulo 149",
+          "duracao": "00:24:25"
+        },
+        {
+          "numero": "150",
+          "codigo": "Alta Estação - S01E150 - Capítulo 150",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "151",
+          "codigo": "Alta Estação - S01E151 - Capítulo 151",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "152",
+          "codigo": "Alta Estação - S01E152 - Capítulo 152",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "153",
+          "codigo": "Alta Estação - S01E153 - Capítulo 153",
+          "duracao": "00:25:42"
+        },
+        {
+          "numero": "154",
+          "codigo": "Alta Estação - S01E154 - Capítulo 154",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "155",
+          "codigo": "Alta Estação - S01E155 - Capítulo 155",
+          "duracao": "00:25:16"
+        },
+        {
+          "numero": "156",
+          "codigo": "Alta Estação - S01E156 - Capítulo 156",
+          "duracao": "00:22:07"
+        },
+        {
+          "numero": "157",
+          "codigo": "Alta Estação - S01E157 - Capítulo 157",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "158",
+          "codigo": "Alta Estação - S01E158 - Capítulo 158",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "159",
+          "codigo": "Alta Estação - S01E159 - Capítulo 159",
+          "duracao": "00:24:25"
+        },
+        {
+          "numero": "160",
+          "codigo": "Alta Estação - S01E160 - Capítulo 160",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "161",
+          "codigo": "Alta Estação - S01E161 - Capítulo 161",
+          "duracao": "00:25:48"
+        },
+        {
+          "numero": "162",
+          "codigo": "Alta Estação - S01E162 - Capítulo 162",
+          "duracao": "00:34:55"
+        }
+      ]
+    }
+  ],
+  "id": 6744
+}

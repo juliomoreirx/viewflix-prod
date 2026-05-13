@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNzQ=",
+  "tipo": "serie",
+  "titulo": "O CORO: SUCESSO AQUI VOU EU!",
+  "capa_url": "https://lgfp.one/TTG",
+  "capa_local": "O CORO SUCESSO AQUI VOU EU!/O CORO SUCESSO AQUI VOU EU!.jpg",
+  "sinopse": "ez jovens chegam à fase final de seleção de elenco para integrar a Companhia de Teatro Estável, onde cada um será avaliado pelo seu talento, confrontando com seus sonhos, paixões, medos e incertezas do passado, que poderão definir o futuro.",
+  "genero": "Drama",
+  "elenco": "Miguel Falabella, Karin Hils, Gabriella Di Grecco, Sara Sarres, Rhener Freitas, Micaela Díaz, Daniel Rangel, Carolina Amaral",
+  "diretor": "Miguel Falabella, Cininha de Paula",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:36:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:12"
+        }
+      ]
+    }
+  ],
+  "id": 2913
+}

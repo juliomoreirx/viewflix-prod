@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NjY=",
+  "tipo": "serie",
+  "titulo": "DOPE GIRLS",
+  "capa_url": "https://lgfp.one/PON4",
+  "capa_local": "DOPE GIRLS/DOPE GIRLS.jpg",
+  "sinopse": "Após a Primeira Guerra Mundial, Kate Galloway (Julianne Nicholson), uma viúva conservadora, abre uma casa noturna e constrói um império clandestino para proteger a única coisa que lhe resta: sua família.",
+  "genero": "Crime, Drama",
+  "elenco": "Julianne Nicholson, Eliza Scanlen, Umi Myers, Eilidh Fisher, Geraldine James",
+  "diretor": "Shannon Murphy",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:18"
+        }
+      ]
+    }
+  ],
+  "id": 7719
+}

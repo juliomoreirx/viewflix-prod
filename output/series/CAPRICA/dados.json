@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMTI=",
+  "tipo": "serie",
+  "titulo": "CAPRICA",
+  "capa_url": "https://lgfp.one/NJL6",
+  "capa_local": "CAPRICA/CAPRICA.jpg",
+  "sinopse": "Situada 58 anos antes de Battlestar Galactica, Caprica segue duas famílias rivais - os Graystones e os Adamas - à medida que crescem, competem e prosperam no mundo vibrante das pacíficas 12 colônias, vivendo em uma sociedade próxima da nossa. Emaranhados na crescente tecnologia da inteligência artificial e da robótica que eventualmente levará à criação dos Cylons, as duas casas vão de igual para igual, combinando ação com conspiração corporativa e política sexual.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Eric Stoltz, Esai Morales, Paula Malcomson, Alessandra Torresani, Magda Apanowicz",
+  "diretor": "Jonas Pate",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:41:09"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:40:54"
+        }
+      ]
+    }
+  ],
+  "id": 7047
+}

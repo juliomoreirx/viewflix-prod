@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMzA=",
+  "tipo": "serie",
+  "titulo": "ROTA 66: A POLÍCIA QUE MATA",
+  "capa_url": "https://lgfp.one/TUA",
+  "capa_local": "ROTA 66 A POLICIA QUE MATA/ROTA 66 A POLICIA QUE MATA.jpg",
+  "sinopse": "Durante suas apurações, um repórter descobre cada vez mais vítimas inocentes da polícia na periferia de São Paulo. Longe dos holofotes, a violência excessiva é cometida contra jovens negros e pobres.",
+  "genero": "Drama, Crime",
+  "elenco": "Humberto Carrão, Lara Tremouroux, Adriano Garib, Aílton Graça, Naruna Costa",
+  "diretor": "Diego Martins, Philippe Barcinski, Déo Cardoso",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:32"
+        }
+      ]
+    }
+  ],
+  "id": 2933
+}

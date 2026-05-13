@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNTU=",
+  "tipo": "serie",
+  "titulo": "TO MY BELOVED THIEF [L]",
+  "capa_url": "https://lgfp.one/RHE6",
+  "capa_local": "TO MY BELOVED THIEF [L]/TO MY BELOVED THIEF [L].jpg",
+  "sinopse": "",
+  "genero": "Sci-Fi & Fantasy, Comédia",
+  "elenco": "남지현, 문상민, Hong Min Ki, Han So-eun, 김석훈",
+  "diretor": "함영걸",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:44"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:01:00"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:01:15"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:00:32"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:01:15"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:01:20"
+        }
+      ]
+    }
+  ],
+  "id": 8671
+}

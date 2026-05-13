@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNzI=",
+  "tipo": "serie",
+  "titulo": "ABANDONO DE EVENTO [L]",
+  "capa_url": "https://lgfp.one/DJP0",
+  "capa_local": "ABANDONO DE EVENTO [L]/ABANDONO DE EVENTO [L].jpg",
+  "sinopse": "A alegre e adorável Song Yi, que é franca sobre os seus sentimentos, acreditou nas palavras de sua mãe de que as plantas nunca traem, ao contrário das pessoas, e se tornou uma curadora de jardim botânico. No entanto, como o seu namorado Do Kyum, que era tudo para ela, a abandona, ela não consegue mais viver com orgulho e se torna letárgica. Do Kyum, que é agressivo e possui amor próprio, é vocalista de uma banda de música independente. Como a sua turma estava conquistando reputação, ele repentinamente anuncia o rompimento e pede a Song Yi que aceite a separação. Quando Song Yi tenta continuamente reconquistar o coração de Do Kyum, mas continua falhando, ela ganha uma passagem para a Ilha de Jeju por uma taxa competitiva de 500:1 e decide levar Do Kyum com ela. Essa viagem fará alguma diferença para os dois?",
+  "genero": "Drama",
+  "elenco": "방민아, 권화운, 안우연, Nam Kyu-hee, 이주명",
+  "diretor": "Kim Ji-hoon, Lee Han-jun",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:37"
+        }
+      ]
+    }
+  ],
+  "id": 5850
+}

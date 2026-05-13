@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MTI=",
+  "tipo": "serie",
+  "titulo": "FORCA POLICIAL INDIANA",
+  "capa_url": "https://lgfp.one/AYUV",
+  "capa_local": "FORCA POLICIAL INDIANA/FORCA POLICIAL INDIANA.jpg",
+  "sinopse": "Uma série cheia de ação que acompanha a jornada angustiante do policial de Delhi, Kabir Malik, enquanto ele luta contra um adversário insidioso, Zarar, que escolheu o caminho do terrorismo. Esse drama policial revela uma emocionante perseguição, capturando a busca incansável pela justiça e os sacrifícios feitos no cumprimento do dever.",
+  "genero": "Action & Adventure, Crime",
+  "elenco": "Sidharth Malhotra, Shilpa Shetty Kundra, Vivek Oberoi, Isha Talwar, Mukesh Rishi",
+  "diretor": "Sushwanth Prakash, Rohit Shetty, Sanchit Bedre",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:29"
+        }
+      ]
+    }
+  ],
+  "id": 4878
+}

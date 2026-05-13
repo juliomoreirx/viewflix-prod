@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MjM=",
+  "tipo": "serie",
+  "titulo": "RESPIRE!",
+  "capa_url": "https://lgfp.one/TMR",
+  "capa_local": "RESPIRE!/RESPIRE!.jpg",
+  "sinopse": "Uma jovem sobrevive à queda de um avião no meio da selva canadense. Para se manter viva, ela precisa aprender a lidar com a natureza e com seus próprios demônios.",
+  "genero": "Action & Adventure",
+  "elenco": "Melissa Barrera, Jeff Wilbusch, Florencia Lozano",
+  "diretor": "Rebecca Rodriguez, Maggie Kiley, Maggie Kiley",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:23"
+        }
+      ]
+    }
+  ],
+  "id": 272950
+}

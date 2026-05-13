@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MTU=",
+  "tipo": "serie",
+  "titulo": "INSTINTO",
+  "capa_url": "https://lgfp.one/IRL",
+  "capa_local": "INSTINTO/INSTINTO.jpg",
+  "sinopse": "Marco trabalha com o amigo Diego e com a esposa de Diego, Bárbara. Eva, uma engenheira jovem e ambiciosa, junta-se à equipe. Ela vai atrapalhar o equilíbrio no trabalho, tanto emocional quanto profissionalmente.",
+  "genero": "Mistério, Drama",
+  "elenco": "Mario Casas, Ingrid García-Jonsson, Lola Dueñas, Silvia Alonso, Óscar Casas",
+  "diretor": "Carlos Sedes, Roger Gual",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:44"
+        }
+      ]
+    }
+  ],
+  "id": 61168
+}

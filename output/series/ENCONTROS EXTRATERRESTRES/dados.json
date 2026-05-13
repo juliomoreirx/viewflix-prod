@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNDQ=",
+  "tipo": "serie",
+  "titulo": "ENCONTROS EXTRATERRESTRES",
+  "capa_url": "https://lgfp.one/ABBP",
+  "capa_local": "ENCONTROS EXTRATERRESTRES/ENCONTROS EXTRATERRESTRES.jpg",
+  "sinopse": "Esta série documental investiga misteriosas aparições de OVNIs nos últimos 50 anos, com testemunhos, entrevistas com especialistas e novas evidências.",
+  "genero": "Documentário",
+  "elenco": "Kevin Knuth, Ralph Blumenthal, Matthew Roberts",
+  "diretor": "Yon Motskin",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:12"
+        }
+      ]
+    }
+  ],
+  "id": 4101
+}

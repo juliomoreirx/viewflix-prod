@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwODY=",
+  "tipo": "serie",
+  "titulo": "FEUD [L]",
+  "capa_url": "https://lgfp.one/BACD",
+  "capa_local": "FEUD [L]/FEUD [L].jpg",
+  "sinopse": "Série antológica original do premiado criador Ryan Murphy que irá explorar as lutas e golpes de conflitos épicos.",
+  "genero": "Drama",
+  "elenco": "Tom Hollander, Naomi Watts, Diane Lane, Chloë Sevigny, Calista Flockhart",
+  "diretor": "Gus Van Sant, Scott Robertson",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:26"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:00:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:55:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:54:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:54:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:49:54"
+        }
+      ]
+    }
+  ],
+  "id": 5028
+}

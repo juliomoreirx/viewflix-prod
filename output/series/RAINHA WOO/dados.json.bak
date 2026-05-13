@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNTE=",
+  "tipo": "serie",
+  "titulo": "RAINHA WOO",
+  "capa_url": "https://lgfp.one/KMV5",
+  "capa_local": "RAINHA WOO/RAINHA WOO.jpg",
+  "sinopse": "Após o anúncio da morte do rei em Goguryeo, uma batalha feroz acontece entre as tribos. A Rainha Woo, que imediatamente se torna o alvo de príncipes e cinco tribos que disputam o trono, luta para coroar um novo rei em 24 horas. A Rainha Woo será capaz de transcender as restrições de gênero e era para esculpir seu próprio destino?",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "전종서, 김무열, 지창욱, 정유미, 이수혁",
+  "diretor": "Jung Se-kyo",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:33"
+        }
+      ]
+    }
+  ],
+  "id": 6462
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNDg=",
+  "tipo": "serie",
+  "titulo": "MESMO ASSIM AS FORMAS DO AMOR [L]",
+  "capa_url": "https://lgfp.one/KCX8",
+  "capa_local": "MESMO ASSIM AS FORMAS DO AMOR [L]/MESMO ASSIM AS FORMAS DO AMOR [L].jpg",
+  "sinopse": "Depois de um término sofrido, Miu decide se dedicar à arte e evitar o amor. Só que um encontro com um artista reservado e charmoso vai despertar sentimentos inesperados.",
+  "genero": "Drama",
+  "elenco": "横浜流星, 南沙良, 佐野玲於, 鳴海唯, 福地桃子",
+  "diretor": "Michihito Fujii",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:44"
+        }
+      ]
+    }
+  ],
+  "id": 6362
+}

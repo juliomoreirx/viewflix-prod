@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NTg=",
+  "tipo": "serie",
+  "titulo": "AO NORTE DO NORTE",
+  "capa_url": "https://lgfp.one/NPB5",
+  "capa_local": "AO NORTE DO NORTE/AO NORTE DO NORTE.jpg",
+  "sinopse": "Uma jovem otimista tenta se reinventar em uma cidadezinha do Ártico onde todo mundo se conhece.",
+  "genero": "Comédia",
+  "elenco": "Anna Lambe, Maika Harper, Braeden Clarke, Zorga Qaunaq, Bailey Poching",
+  "diretor": "Alethea Arnaquq-Baril, Anya Adams",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:02"
+        }
+      ]
+    }
+  ],
+  "id": 7160
+}

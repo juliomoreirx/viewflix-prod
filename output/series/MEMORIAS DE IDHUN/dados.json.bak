@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5OTc=",
+  "tipo": "serie",
+  "titulo": "MEMÓRIAS DE IDHÚN",
+  "capa_url": "https://lgfp.one/REA",
+  "capa_local": "MEMORIAS DE IDHUN/MEMORIAS DE IDHUN.jpg",
+  "sinopse": "O mundo mágico de Idhún foi tomado por um bruxo e seus habitantes se refugiaram na Terra, onde dois jovens lutam para protegê-los de um assassino.",
+  "genero": "Sci-Fi & Fantasy, Animação, Action & Adventure",
+  "elenco": "Itzan Escamilla, Michelle Jenner, Nico Romero, Carlos Cuevas, Sergio Mur",
+  "diretor": "Maite Ruiz de Austri",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:40"
+        }
+      ]
+    }
+  ],
+  "id": 917
+}

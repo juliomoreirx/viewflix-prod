@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NTA=",
+  "tipo": "serie",
+  "titulo": "SANTOS DUMONT",
+  "capa_url": "https://lgfp.one/IRI",
+  "capa_local": "SANTOS DUMONT/SANTOS DUMONT.jpg",
+  "sinopse": "A história do visionário criador que deu ao antigo sonho de voar forma e realidade. A vida, a ambição, a consagração e a melancolia de um gênio da mecânica com alma de poeta: Santos Dumont.",
+  "genero": "Drama",
+  "elenco": "João Pedro Zappa, Bruna Scavuzzi, Joana de Verona, Miguel Pinheiro",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:47"
+        }
+      ]
+    }
+  ],
+  "id": 121
+}

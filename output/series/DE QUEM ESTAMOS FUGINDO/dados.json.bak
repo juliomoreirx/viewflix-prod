@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NTI=",
+  "tipo": "serie",
+  "titulo": "DE QUEM ESTAMOS FUGINDO?",
+  "capa_url": "https://lgfp.one/YXI",
+  "capa_local": "DE QUEM ESTAMOS FUGINDO/DE QUEM ESTAMOS FUGINDO.jpg",
+  "sinopse": "Escondendo um passado misterioso, mãe e filha vivem como fugitivas, morando em hotéis e vendo cada pessoa que encontram como uma possível ameaça.",
+  "genero": "Crime / Mistério / Drama",
+  "elenco": "Melisa Sözen, Eylül Tumbar, Musa Uzunlar",
+  "diretor": "Umut Aral, Gökçen Usta",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:24"
+        }
+      ]
+    }
+  ],
+  "id": 3368
+}

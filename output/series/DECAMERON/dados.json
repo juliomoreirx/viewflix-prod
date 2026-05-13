@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNDE=",
+  "tipo": "serie",
+  "titulo": "DECAMERON",
+  "capa_url": "https://lgfp.one/DCC8",
+  "capa_local": "DECAMERON/DECAMERON.jpg",
+  "sinopse": "Para fugir da peste bubônica que assola a Itália, um grupo de nobres se hospeda em uma mansão com seus servos. Mas essa escapada luxuosa acaba virando um caos.",
+  "genero": "Comédia, Drama",
+  "elenco": "Amar Chadha-Patel, Leila Farzad, Lou Gala, Karan Gill, Tony Hale",
+  "diretor": "Michael Uppendahl, James Rogers III, Spencer Jarvis",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:58"
+        }
+      ]
+    }
+  ],
+  "id": 5731
+}

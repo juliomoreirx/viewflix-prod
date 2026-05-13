@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTk=",
+  "tipo": "serie",
+  "titulo": "CHICO XAVIER: A SÉRIE",
+  "capa_url": "https://lgfp.one/AAXT",
+  "capa_local": "CHICO XAVIER A SERIE/CHICO XAVIER A SERIE.jpg",
+  "sinopse": "A partir de depoimentos inéditos, a série traça um painel das diversas vertentes que acompanharam Chico Xavier em sua vida, como a mediunidade que impactou o Brasil desde os seus 17 anos e as crises com a fama, além de abordar temas polêmicos, como a questão das vidas passadas do médium mais importante do país.",
+  "genero": "Documentário",
+  "elenco": "Chico Xavier",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:01"
+        }
+      ]
+    }
+  ],
+  "id": 3959
+}

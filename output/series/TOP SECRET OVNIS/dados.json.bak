@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NjM=",
+  "tipo": "serie",
+  "titulo": "TOP SECRET: OVNIS",
+  "capa_url": "https://lgfp.one/SBV",
+  "capa_local": "TOP SECRET OVNIS/TOP SECRET OVNIS.jpg",
+  "sinopse": "Há muitos anos, as alegações de contatos extraterrestres são desmentidas. Porém, muitos acreditam que a existência de OVNIs não só é provável, como real.",
+  "genero": "Documentário",
+  "elenco": "Robert Polo,  Richard Dolan, Stephen Bassett, Michael Salla",
+  "diretor": "Vojtech Filcev, Caroline Cory, Petr Vachler",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:02"
+        }
+      ]
+    }
+  ],
+  "id": 1734
+}

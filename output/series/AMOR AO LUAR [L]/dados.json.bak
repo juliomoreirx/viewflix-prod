@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MzA=",
+  "tipo": "serie",
+  "titulo": "AMOR AO LUAR [L]",
+  "capa_url": "https://lgfp.one/QCJ0",
+  "capa_local": "AMOR AO LUAR [L]/AMOR AO LUAR [L].jpg",
+  "sinopse": "Em Bangkok, em 1995, um príncipe enviado para um casamento arranjado acaba tendo seu coração atraído pelo irmão de sua noiva, sendo forçado a escolher entre o amor e o dever.",
+  "genero": "Drama",
+  "elenco": "ภีมพล พาณิชย์ธำรง, เพิร์ล ศัจกร ฉลาด, เพิร์ธ วีริณฐ์ศรา ตั้งกิจสุวานิช, วิลลี่ แมคอินทอช, ฉัตรชัย เปล่งพานิช",
+  "diretor": "Paoon Jansiri",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:49:16"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:40:44"
+        }
+      ]
+    }
+  ],
+  "id": 8051
+}

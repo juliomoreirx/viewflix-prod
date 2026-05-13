@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Mzk=",
+  "tipo": "serie",
+  "titulo": "FIRED ON MARS",
+  "capa_url": "https://lgfp.one/ZXL",
+  "capa_local": "FIRED ON MARS/FIRED ON MARS.jpg",
+  "sinopse": "Depois de fazer uma viagem só de ida ao Planeta Vermelho, o designer gráfico Jeff Cooper se vê à deriva quando seus chefes eliminam sem cerimônia seu papel.",
+  "genero": "Animação, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Luke Wilson, Sean Wing, Tim Heidecker",
+  "diretor": "Nick Vokey, Nate Sherman, Bernardo Britto",
+  "total_episodios": "8",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:50"
+        }
+      ]
+    }
+  ],
+  "id": 3503
+}

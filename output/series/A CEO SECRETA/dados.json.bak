@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MDU=",
+  "tipo": "serie",
+  "titulo": "A CEO SECRETA",
+  "capa_url": "https://lgfp.one/KJI7",
+  "capa_local": "A CEO SECRETA/A CEO SECRETA.jpg",
+  "sinopse": "\"A CEO Secreta\" é um dorama envolvente que narra a história de uma mulher que, ao assumir secretamente o papel de CEO de uma grande empresa, enfrenta desafios inesperados e complexos. A trama mistura romance, drama e intrigas empresariais, enquanto a protagonista luta para manter sua identidade oculta, equilibrando sua vida pessoal e profissional.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:09:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:09:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:47"
+        }
+      ]
+    }
+  ],
+  "id": 6390
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxOTk=",
+  "tipo": "serie",
+  "titulo": "FRAGIL [L]",
+  "capa_url": "https://lgfp.one/DQO5",
+  "capa_local": "FRAGIL [L]/FRAGIL [L].jpg",
+  "sinopse": "Captura as preocupações realistas e a vida cotidiana de adolescentes \"frágeis\" sem qualquer hesitação. Mostra os tabus que os adolescentes enfrentam durante seus últimos anos de adolescência antes de se tornarem adultos, como o amor perigoso com um amigo do sexo oposto e desvios arriscados que eles desfrutam enquanto evitam os olhos dos adultos.",
+  "genero": "Drama",
+  "elenco": "Kim So Hee, Kim Eo-jin, Cha Ji-hyuk, Kim Joo-hee, Kim Yae Lim",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:13"
+        }
+      ]
+    }
+  ],
+  "id": 5998
+}

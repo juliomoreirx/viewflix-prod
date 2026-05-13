@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MTI=",
+  "tipo": "serie",
+  "titulo": "PEQUENAS EMPRESAS, GRANDES SONHOS",
+  "capa_url": "https://lgfp.one/TKH",
+  "capa_local": "PEQUENAS EMPRESAS, GRANDES SONHOS/PEQUENAS EMPRESAS, GRANDES SONHOS.jpg",
+  "sinopse": "O empresário Jonathan Morris viaja pelos Estados Unidos para compartilhar histórias inspiradoras e os desafios assumidos por pequenos empresários na criação de seus negócios.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "17",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:16:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:16:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:16:32"
+        }
+      ]
+    }
+  ],
+  "id": 2666
+}

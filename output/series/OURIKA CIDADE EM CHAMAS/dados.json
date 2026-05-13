@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4OTA=",
+  "tipo": "serie",
+  "titulo": "OURIKA CIDADE EM CHAMAS",
+  "capa_url": "https://lgfp.one/AQG3",
+  "capa_local": "OURIKA CIDADE EM CHAMAS/OURIKA CIDADE EM CHAMAS.jpg",
+  "sinopse": "Em 2005, num subúrbio francês, uma apreensão de drogas desmantela a rede de uma família de traficantes. Driss, um estudante brilhante, é forçado a assumir os negócios da família, se envolvendo cada vez mais. Diante dele está William, um jovem policial ambicioso e idealista que vai fazer de tudo ao seu alcance para detê-lo. A sua luta incansável irá levá-los dos subúrbios até o vale de Ourika.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Booba, Adam Bessa, Noham Edje, Max Gomis, Salim Kéchiouche",
+  "diretor": "Clément Godart, Marcela Said, Julien Despaux",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:45"
+        }
+      ]
+    }
+  ],
+  "id": 5196
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMjk=",
+  "tipo": "serie",
+  "titulo": "GUGU, TONINHO E AUGUSTO",
+  "capa_url": "https://lgfp.one/NBS3",
+  "capa_local": "GUGU, TONINHO E AUGUSTO/GUGU, TONINHO E AUGUSTO.jpg",
+  "sinopse": "Esta série documental acompanha a vida e carreira do menino que ousou sonhar, se tornou apresentador e foi considerado o sucessor de Silvio Santos. Vamos mergulhar nas memórias daqueles que acompanharam de perto a ascensão meteórica desse fenômeno da tv, além de relembrar quadros marcantes, histórias inesquecíveis e artistas lançados a partir do brilho de Gugu Liberato.",
+  "genero": "Documentário",
+  "elenco": "Gugu Liberato, Renato Aragão, Dedé Santana, Marcos Mion, Renata Ceribelli",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:37"
+        }
+      ]
+    }
+  ],
+  "id": 6286
+}

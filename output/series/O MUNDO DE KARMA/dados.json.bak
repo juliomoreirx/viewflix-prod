@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5Mzg=",
+  "tipo": "serie",
+  "titulo": "O MUNDO DE KARMA",
+  "capa_url": "https://lgfp.one/SLU",
+  "capa_local": "O MUNDO DE KARMA/O MUNDO DE KARMA.jpg",
+  "sinopse": "Karma é uma menina talentosa que concilia o sonho de fazer rap com as rimas perfeitas e usa sua ambição e coragem para resolver qualquer problema.",
+  "genero": "Animação, Comédia, Família",
+  "elenco": "Asia Bryant, Ludacris, Danielle Brooks, Ramone Hamilton",
+  "diretor": "Bronagh O'Hanlon, Pete McEvoy",
+  "total_episodios": "13",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:13:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:13:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:13:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:13:13"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:13:08"
+        }
+      ]
+    }
+  ],
+  "id": 2001
+}

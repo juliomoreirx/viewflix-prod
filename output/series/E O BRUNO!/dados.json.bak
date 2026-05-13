@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMjY=",
+  "tipo": "serie",
+  "titulo": "É O BRUNO!",
+  "capa_url": "https://lgfp.one/IYT",
+  "capa_local": "E O BRUNO!/E O BRUNO!.jpg",
+  "sinopse": "Um morador do Brooklyn dedica seus dias a cuidar do adorável cão Bruno e garantir que a vizinhança do bairro trate seu fiel escudeiro com o devido respeito.",
+  "genero": "Comédia",
+  "elenco": "Solvan Naim, Rob Morgan, Shakira Barrera, Donnell Rawlings, Jade Eshete",
+  "diretor": "Solvan Naim, Solvan Naim, Solvan Naim",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:14:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:55"
+        }
+      ]
+    }
+  ],
+  "id": 328
+}

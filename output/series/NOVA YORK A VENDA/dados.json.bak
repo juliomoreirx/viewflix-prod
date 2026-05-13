@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NDE=",
+  "tipo": "serie",
+  "titulo": "NOVA YORK À VENDA",
+  "capa_url": "https://lgfp.one/RVN3",
+  "capa_local": "NOVA YORK A VENDA/NOVA YORK A VENDA.jpg",
+  "sinopse": "Uma equipe de corretores estilosos de Nova York luta para vender imóveis multimilionários enquanto vive dramas neste reality que parece novela.",
+  "genero": "Reality",
+  "elenco": "Eleonora Srugo, Jade Chan, Taylor Middleton, Jordyn Taylor Braff, Abigail Godfrey",
+  "diretor": "Skyler Wakil",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:04"
+        }
+      ]
+    }
+  ],
+  "id": 8943
+}

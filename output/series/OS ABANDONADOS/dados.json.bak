@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MzA=",
+  "tipo": "serie",
+  "titulo": "OS ABANDONADOS",
+  "capa_url": "https://lgfp.one/QWI4",
+  "capa_local": "OS ABANDONADOS/OS ABANDONADOS.jpg",
+  "sinopse": "Na Washington da década de 1850, duas famílias lideradas por matriarcas poderosas, uma rica e outra pobre, lutam pela supremacia em uma fronteira sem lei.",
+  "genero": "Drama, Faroeste",
+  "elenco": "Lena Headey, Gillian Anderson, Nick Robinson, Diana Silvers, Lucas Till",
+  "diretor": "Otto Bathurst, Stephen Surjik",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:13"
+        }
+      ]
+    }
+  ],
+  "id": 8432
+}

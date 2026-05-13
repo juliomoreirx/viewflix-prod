@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMjk=",
+  "tipo": "serie",
+  "titulo": "AMANTES ANONIMOS",
+  "capa_url": "https://lgfp.one/KTV0",
+  "capa_local": "AMANTES ANONIMOS/AMANTES ANONIMOS.jpg",
+  "sinopse": "Mesmo traumatizado por uma infância que acabou com sua esperança no amor, Cem tem uma clínica de recuperação amorosa. Até que a romântica Hazal surge em sua vida.",
+  "genero": "Drama, Comédia",
+  "elenco": "Halit Ergenç, Funda Eryiğit",
+  "diretor": "Umur Turagay",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "Amantes Anonimos - S01E01 - Episódio 1",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "Amantes Anonimos - S01E02 - Episódio 2",
+          "duracao": "00:50:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "Amantes Anonimos - S01E03 - Episódio 3",
+          "duracao": "00:54:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:21"
+        }
+      ]
+    }
+  ],
+  "id": 6544
+}

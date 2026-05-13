@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNDA=",
+  "tipo": "serie",
+  "titulo": "APOCALIPSE V",
+  "capa_url": "https://lgfp.one/JJR",
+  "capa_local": "APOCALIPSE V/APOCALIPSE V.jpg",
+  "sinopse": "Uma misteriosa doença transforma suas vítimas em criaturas sanguinárias e põe dois amigos em lados opostos da disputa que definirá o futuro da humanidade.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Ian Somerhalder, Adrian Holmes, Jacky Lai, Kimberly-Sue Murray, Kyle Breitkopf",
+  "diretor": "Brad Turner",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:22"
+        }
+      ]
+    }
+  ],
+  "id": 655
+}

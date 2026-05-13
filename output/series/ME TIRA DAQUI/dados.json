@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NzQ=",
+  "tipo": "serie",
+  "titulo": "ME TIRA DAQUI",
+  "capa_url": "https://lgfp.one/RXP",
+  "capa_local": "ME TIRA DAQUI/ME TIRA DAQUI.jpg",
+  "sinopse": "Novas amizades, amores e experiências se misturam em um dormitório de uma universidade coreana que recebe alunos de todo o mundo.",
+  "genero": "Drama, Comédia",
+  "elenco": "Park Se-wan, Shin Hyeon-seung, Choi Young-jae, Minnie, Han Hyun-min",
+  "diretor": "Kwon Ik-jun, Kim Jung-sik",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:31:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:31:16"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:34:58"
+        }
+      ]
+    }
+  ],
+  "id": 1457
+}

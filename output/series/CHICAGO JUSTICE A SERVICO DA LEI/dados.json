@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNzM=",
+  "tipo": "serie",
+  "titulo": "CHICAGO JUSTICE A SERVICO DA LEI",
+  "capa_url": "https://lgfp.one/RHU3",
+  "capa_local": "CHICAGO JUSTICE A SERVICO DA LEI/CHICAGO JUSTICE A SERVICO DA LEI.jpg",
+  "sinopse": "Mark Jefferies lidera uma equipe de promotores que trabalha incansavelmente em casos complexos na busca por justiça. Para isso, terão que lidar com investigações desafiadoras.",
+  "genero": "Crime, Drama",
+  "elenco": "Philip Winchester, Jon Seda, Joelle Carter, Monica Barbaro, Carl Weathers",
+  "diretor": "Fred Berner",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:17"
+        }
+      ]
+    }
+  ],
+  "id": 8706
+}

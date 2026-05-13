@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMDg=",
+  "tipo": "serie",
+  "titulo": "CHAMPIGNON WITCH [L]",
+  "capa_url": "https://lgfp.one/RHC2",
+  "capa_local": "CHAMPIGNON WITCH [L]/CHAMPIGNON WITCH [L].jpg",
+  "sinopse": "Luna é uma bruxa que vive na Floresta Negra que é bastante temida pelas pessoas devido ao seu estranho poder, que faz com que cogumelos venenosos surjam por onde ela passa. Devido a isso, as pessoas da cidade a chamam de Bruxa do Champignon e se afastam o máximo que podem. No entanto, as coisas podem começar a mudar quando Luna, que nunca sentiu o calor humano, se apaixona pela primeira vez.",
+  "genero": "Animação, Drama, Sci-Fi & Fantasy",
+  "elenco": "Haruka Shiraishi, Yuki Sakakihara, Jun Fukushima, 加藤英美里, 岡咲美保",
+  "diretor": "Yosuke Kubo",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:54"
+        }
+      ]
+    }
+  ],
+  "id": 8647
+}

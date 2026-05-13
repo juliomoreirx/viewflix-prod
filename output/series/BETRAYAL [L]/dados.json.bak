@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMTY=",
+  "tipo": "serie",
+  "titulo": "BETRAYAL [L]",
+  "capa_url": "https://lgfp.one/RUH3",
+  "capa_local": "BETRAYAL [L]/BETRAYAL [L].jpg",
+  "sinopse": "John Hughes, veterano do MI5, enfrenta uma conspiração após um assassinato.\n\nAo procurar a verdade, ele deve proteger sua carreira, casamento e a Grã-Bretanha.",
+  "genero": "Crime, Mistério",
+  "elenco": "Shaun Evans, Romola Garai",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:56"
+        }
+      ]
+    }
+  ],
+  "id": 8917
+}

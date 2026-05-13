@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNjI=",
+  "tipo": "serie",
+  "titulo": "A AUSTRALIA MORTAL",
+  "capa_url": "https://lgfp.one/ARKF",
+  "capa_local": "A AUSTRALIA MORTAL/A AUSTRALIA MORTAL.jpg",
+  "sinopse": "A Austrália Mortal dá uma olhada de perto e pessoal nas vidas secretas dos mais notórios - e às vezes pouco conhecidos - assassinos da Austrália, incluindo as Cobras mais venenosas do mundo, Águas-vivas mortais, Crocodilos monstruosos e Aranhas carregadas de veneno.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:05"
+        }
+      ]
+    }
+  ],
+  "id": 4264
+}

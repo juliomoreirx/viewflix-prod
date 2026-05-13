@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMzA=",
+  "tipo": "serie",
+  "titulo": "DOCE MISTERIO",
+  "capa_url": "https://lgfp.one/ASLZ",
+  "capa_local": "DOCE MISTERIO/DOCE MISTERIO.jpg",
+  "sinopse": "Bride Covey desaparece na costa, sob circunstâncias ou razões desconhecidas. Um pen drive mudará a vida de Eleanor Bennet, anos depois.",
+  "genero": "Drama",
+  "elenco": "Chipo Chung, Rupert Evans, Ashley Thomas, Adrienne Warren, Rebecca Calder",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:43"
+        }
+      ]
+    }
+  ],
+  "id": 4375
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NzI=",
+  "tipo": "serie",
+  "titulo": "CATÁLOGO",
+  "capa_url": "https://lgfp.one/PJH4",
+  "capa_local": "CATALOGO/CATALOGO.jpg",
+  "sinopse": "Um viúvo viciado em trabalho tenta criar os filhos seguindo as dicas que a falecida esposa deixou na internet. Será que ele vai passar nessa prova de fogo da paternidade?",
+  "genero": "Drama, Comédia",
+  "elenco": "Mohamed Farag, Aly El-Bialy, Retal Abdelaziz, Reham Abdelghafour, Tara Emad",
+  "diretor": "Walid El Halafawi",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:15"
+        }
+      ]
+    }
+  ],
+  "id": 7655
+}

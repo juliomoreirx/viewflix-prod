@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNDg=",
+  "tipo": "serie",
+  "titulo": "MY SWEET DEAR [L]",
+  "capa_url": "https://lgfp.one/AUQ8",
+  "capa_local": "MY SWEET DEAR [L]/MY SWEET DEAR [L].jpg",
+  "sinopse": "Yoon Do Gun é um chefe de cozinha muito talentoso e o gênio criativo da culinária por trás de Laura Dining, um restaurante renomado e aclamado pela crítica. Mas, embora o trabalho árduo de Yoon Do Gun tenha levado Laura Dining ao topo da cena gastronômica sul-coreana, a dona do restaurante homônimo e Yoon Do Gun estão começando a seguir em direções muito diferentes. Embora ela queira assegurar que o menu esteja sempre repleto de pratos que agradem ao público, Yoon Do Gun deseja desafiar os clientes com preparos criativos e mais atuais.",
+  "genero": "Drama",
+  "elenco": "Jang Eui-soo, Lee Chan-hyung, Jang Do-yun, Cho Seo-hoo, Oh Seung-jun",
+  "diretor": "So Joon-moon",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:13:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:06"
+        }
+      ]
+    }
+  ],
+  "id": 5293
+}

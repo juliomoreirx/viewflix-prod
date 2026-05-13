@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4ODM=",
+  "tipo": "serie",
+  "titulo": "SOB A ESCURIDÃO DO SOL",
+  "capa_url": "https://lgfp.one/PFZ8",
+  "capa_local": "SOB A ESCURIDAO DO SOL/SOB A ESCURIDAO DO SOL.jpg",
+  "sinopse": "Fugindo de seu passado difícil, uma jovem mãe é acusada de matar o novo chefe em uma fazenda de rosas. Para piorar, ela acabou de descobrir que ele é seu pai verdadeiro.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "Isabelle Adjani, Ava Baya, Louise Coldefy, Guillaume Gouix, Thibault de Montalembert",
+  "diretor": "Marie Jardillier, Edouard Salier",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:37"
+        }
+      ]
+    }
+  ],
+  "id": 7594
+}

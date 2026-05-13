@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNzY=",
+  "tipo": "serie",
+  "titulo": "DISCLAIMER",
+  "capa_url": "https://lgfp.one/DVB3",
+  "capa_local": "DISCLAIMER/DISCLAIMER.jpg",
+  "sinopse": "Quando um estranho livro aparece ao lado da cama de uma jornalista cuja carreira foi construída revelando delitos, ela se apavora ao se dar conta de que é uma das personagens centrais de uma história enterrada há tempos e que expõe seu segredo mais sombrio.",
+  "genero": "Drama, Mistério",
+  "elenco": "Cate Blanchett, Kevin Kline, Sacha Baron Cohen, Lesley Manville, Kodi Smit-McPhee",
+  "diretor": "Alfonso Cuarón, San Davey",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:12"
+        }
+      ]
+    }
+  ],
+  "id": 6081
+}

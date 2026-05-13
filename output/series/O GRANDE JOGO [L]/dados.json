@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NDA=",
+  "tipo": "serie",
+  "titulo": "O GRANDE JOGO [L]",
+  "capa_url": "https://lgfp.one/RGF0",
+  "capa_local": "O GRANDE JOGO [L]/O GRANDE JOGO [L].jpg",
+  "sinopse": "Kim, Jong-kook, HAHA, Ji, Suk-Jin, Song, Ji-hyo e Yang, Se-chan se uniram! Da primeira fase da história à formação de dupla, até o convidado superexpress!",
+  "genero": "Reality, Comédia",
+  "elenco": "Kim Jong Kook, Haha, Song Ji Hyo, Ji Suk Jin, Yang Se Chan",
+  "diretor": "Lim Hyung-taek",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:09:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:55:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:45:26"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:50:55"
+        }
+      ]
+    }
+  ],
+  "id": 8617
+}

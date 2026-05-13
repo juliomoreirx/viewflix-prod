@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODc=",
+  "tipo": "serie",
+  "titulo": "GUERRA FANTASMA",
+  "capa_url": "https://lgfp.one/JDH",
+  "capa_local": "GUERRA FANTASMA/GUERRA FANTASMA.jpg",
+  "sinopse": "A história é ambientada em uma cidade remota do Alasca que foi invadida por forças paranormais. Um rapaz local, Roman Mercer (Avan Jogia) precisa superar o preconceito das pessoas contra os seus demônios pessoais para salvar a todos da ameaça que pode destruir a todos.",
+  "genero": "Mistério, Sci-Fi & Fantasy, Drama",
+  "elenco": "Avan Jogia, Kim Coates, Luvia Petersen",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:22"
+        }
+      ]
+    }
+  ],
+  "id": 469
+}

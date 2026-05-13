@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzQ=",
+  "tipo": "serie",
+  "titulo": "OS FRANCESES",
+  "capa_url": "https://lgfp.one/VXM",
+  "capa_local": "OS FRANCESES/OS FRANCESES.jpg",
+  "sinopse": "Depois de um mal-entendido, Vincent Piquet e Alban Burne, dois fracassados, veem a monotonia da vidinha que levam acabar quando revelam uma conspiração e se veem envolvidos com o mundo do crime organizado. É o início de uma jornada louca e caótica cheia de perigos e intrigas. No entanto, mesmo enquanto fazem de tudo para salvar sua pele, os dois nunca deixam de bater boca.",
+  "genero": "Comédia / Action & Adventure",
+  "elenco": "François Damiens, Vincent Dedienne, Fanny Sidney, Anne Benoît, Peter van den Begin, Alexandre Trocki",
+  "diretor": "Fred Scotlande",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:44"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:40:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:32:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:33:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:30:40"
+        }
+      ]
+    }
+  ],
+  "id": 2975
+}

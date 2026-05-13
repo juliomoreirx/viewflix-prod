@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MTI=",
+  "tipo": "serie",
+  "titulo": "GLADIADORES DA NATUREZA",
+  "capa_url": "https://lgfp.one/RHO0",
+  "capa_local": "GLADIADORES DA NATUREZA/GLADIADORES DA NATUREZA.jpg",
+  "sinopse": "Armados com armas naturais, astúcia e táticas impressionantes, os gladiadores da natureza estão prontos para a batalha. Alguns lutam por território, outros por comida ou por um parceiro, mas todos têm o mesmo objetivo: sobreviver.",
+  "genero": "Documentário",
+  "elenco": "Sean Bean",
+  "diretor": "Martin Williams, Will Benson, Ruth Roberts",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:27"
+        }
+      ]
+    }
+  ],
+  "id": 376582
+}

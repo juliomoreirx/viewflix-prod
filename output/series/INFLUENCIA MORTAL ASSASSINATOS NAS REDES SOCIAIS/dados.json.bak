@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Nzk=",
+  "tipo": "serie",
+  "titulo": "INFLUENCIA MORTAL ASSASSINATOS NAS REDES SOCIAIS",
+  "capa_url": "https://lgfp.one/EBC6",
+  "capa_local": "INFLUENCIA MORTAL ASSASSINATOS NAS REDES SOCIAIS/INFLUENCIA MORTAL ASSASSINATOS NAS REDES SOCIAIS.jpg",
+  "sinopse": "Histórias de crimes reais revelam o lado sombrio da fama e mostram que os sonhos vendidos na internet podem rapidamente se transformar em pesadelos.",
+  "genero": "Crime, Documentário",
+  "elenco": "Ash Armand, Anil Joseph, Dayna Tidwell",
+  "diretor": "Lewis Albrow, Adrian Murray",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:21"
+        }
+      ]
+    }
+  ],
+  "id": 6191
+}

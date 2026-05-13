@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NTg=",
+  "tipo": "serie",
+  "titulo": "DE ATOR A CANTOR",
+  "capa_url": "https://lgfp.one/RQX8",
+  "capa_local": "DE ATOR A CANTOR/DE ATOR A CANTOR.jpg",
+  "sinopse": "Com 20 anos de carreira, o ator Cho Jung-seok assume o desafio de estrear como cantor em apenas 100 dias, mobilizando toda a sua rede de apoio!",
+  "genero": "Reality",
+  "elenco": "조정석",
+  "diretor": "양정우, Lee Jung-won",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:21:02"
+        }
+      ]
+    }
+  ],
+  "id": 8834
+}

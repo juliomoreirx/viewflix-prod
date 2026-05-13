@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMjc=",
+  "tipo": "serie",
+  "titulo": "SPIN OUT",
+  "capa_url": "https://lgfp.one/IYN",
+  "capa_local": "SPIN OUT/SPIN OUT.jpg",
+  "sinopse": "Uma patinadora artística luta para equilibrar amor, família e saúde mental quando seu sonho de vencer as Olimpíadas toma um rumo inesperado.",
+  "genero": "Drama",
+  "elenco": "Kaya Scodelario, January Jones, Willow Shields, Evan Roderick, Sarah Wright",
+  "diretor": "Matthew Hastings, Jon Amiel, Norma Bailey, Elizabeth Allen Rosenbaum",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:56:12"
+        }
+      ]
+    }
+  ],
+  "id": 322
+}

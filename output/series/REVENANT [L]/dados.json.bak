@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1MTg=",
+  "tipo": "serie",
+  "titulo": "REVENANT [L]",
+  "capa_url": "https://lgfp.one/AAQE",
+  "capa_local": "REVENANT [L]/REVENANT [L].jpg",
+  "sinopse": "Uma mulher possuída por um espírito maligno e um homem que pode ver espíritos malignos descobrem os segredos de mortes misteriosas envolvendo cinco espíritos.",
+  "genero": "Mistério, Drama",
+  "elenco": "Kim Tae-ri, Oh Jung-se, Hong Kyung, Jin Sun-kyu, Yang Hye-ji",
+  "diretor": "Lee Jeong-lim, Kim Jae-hong",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:17:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:06:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:12:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:12:22"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:14:06"
+        }
+      ]
+    }
+  ],
+  "id": 3764
+}

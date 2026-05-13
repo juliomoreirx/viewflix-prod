@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDU=",
+  "tipo": "serie",
+  "titulo": "PLANETA TERRA II",
+  "capa_url": "https://lgfp.one/OQH2",
+  "capa_local": "PLANETA TERRA II/PLANETA TERRA II.jpg",
+  "sinopse": "David Attenborough apresenta uma série documental que explora como os animais enfrentam os desafios de sobreviver nos habitats mais emblemáticos da Terra.",
+  "genero": "Documentário, Família",
+  "elenco": "David Attenborough, Gordon Buchanan, Chadden Hunter",
+  "diretor": "Alastair Fothergill",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:27"
+        }
+      ]
+    }
+  ],
+  "id": 7392
+}

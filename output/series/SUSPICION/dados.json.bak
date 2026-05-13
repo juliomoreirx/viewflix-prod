@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMzI=",
+  "tipo": "serie",
+  "titulo": "SUSPICION",
+  "capa_url": "https://lgfp.one/SZC",
+  "capa_local": "SUSPICION/SUSPICION.jpg",
+  "sinopse": "Quatro ingleses são acusados de sequestrar o filho de uma importante magnata da mídia dos EUA. Eles embarcam em uma corrida desesperada contra o tempo para provar sua inocência, mas será que alguém acreditará neles – e será que eles estão dizendo a verdade?",
+  "genero": "Drama / Crime",
+  "elenco": "Uma Thurman, Kunal Nayyar, Georgina Campbell, Elyes Gabel, Elizabeth Henstridge, Tom Rhys Harries, Noah Emmerich, Angel Coulby",
+  "diretor": "Rob Williams",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:59"
+        }
+      ]
+    }
+  ],
+  "id": 2365
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMzI=",
+  "tipo": "serie",
+  "titulo": "O CASO OUTREAU UM PESADELO FRANCES",
+  "capa_url": "https://lgfp.one/ANX6",
+  "capa_local": "O CASO OUTREAU UM PESADELO FRANCES/O CASO OUTREAU UM PESADELO FRANCES.jpg",
+  "sinopse": "Esta série documental revisita o caso Outreau, uma tragédia envolvendo abuso infantil e erro judicial que resultou em um dos maiores escândalos na história da França.",
+  "genero": "Documentário, Crime",
+  "elenco": "Myriam Badaoui-Delay, Robert Badinter, Fabrice Burgaud",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:28"
+        }
+      ]
+    }
+  ],
+  "id": 5158
+}

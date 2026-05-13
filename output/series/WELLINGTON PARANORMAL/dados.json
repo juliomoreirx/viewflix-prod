@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MTk=",
+  "tipo": "serie",
+  "titulo": "WELLINGTON PARANORMAL",
+  "capa_url": "https://lgfp.one/RIW",
+  "capa_local": "WELLINGTON PARANORMAL/WELLINGTON PARANORMAL.jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "Karen O'Leary, Mike Minogue, Maaka Pohatu, Thomas Sainsbury",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:56"
+        }
+      ]
+    }
+  ],
+  "id": 1050
+}

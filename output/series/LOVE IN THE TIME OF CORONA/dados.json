@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNDk=",
+  "tipo": "serie",
+  "titulo": "LOVE IN THE TIME OF CORONA",
+  "capa_url": "https://lgfp.one/SDS",
+  "capa_local": "LOVE IN THE TIME OF CORONA/LOVE IN THE TIME OF CORONA.jpg",
+  "sinopse": "Um olhar divertido e esperançoso sobre a busca de amor, sexo e conexão em quatro histórias interligadas durante esse tempo de distanciamento social.",
+  "genero": "Comédia",
+  "elenco": "Leslie Odom Jr., Nicolette Robinson, Tommy Dorfman, Rainey Qualley, Gil Bellows",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:56"
+        }
+      ]
+    }
+  ],
+  "id": 1785
+}

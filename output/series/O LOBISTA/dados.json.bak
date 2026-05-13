@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5Mzc=",
+  "tipo": "serie",
+  "titulo": "O LOBISTA",
+  "capa_url": "https://lgfp.one/JEL",
+  "capa_local": "O LOBISTA/O LOBISTA.jpg",
+  "sinopse": "Por causa de seu faro apurado para oportunidades e garantia de sucesso no trabalho que desempenha, Matías Franco (Rodrigo de la Serna) é considerado o melhor lobista do setor. Ele é uma espécie de “gestor de interesse”, que deve influenciar e pressionar vários contatos diferentes a fim de fechar negócios muito lucrativos para seus clientes. Ambicioso como poucos, não haverá nada ou ninguém que impedirá Franco de fazer o que precisa para continuar se destacando na profissão.",
+  "genero": "Drama",
+  "elenco": "Rodrigo de la Serna, Darío Grandinetti, Leticia Brédice, Julieta Nair Calvo",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:04"
+        }
+      ]
+    }
+  ],
+  "id": 501
+}

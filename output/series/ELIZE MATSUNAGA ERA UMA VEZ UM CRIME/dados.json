@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Njg=",
+  "tipo": "serie",
+  "titulo": "ELIZE MATSUNAGA: ERA UMA VEZ UM CRIME",
+  "capa_url": "https://lgfp.one/RYY",
+  "capa_local": "ELIZE MATSUNAGA ERA UMA VEZ UM CRIME/ELIZE MATSUNAGA ERA UMA VEZ UM CRIME.jpg",
+  "sinopse": "Em um crime que chocou o Brasil, Elize Matsunaga mata e esquarteja o marido. Agora, ela dá sua primeira entrevista nesta série documental que explora o caso.",
+  "genero": "Documentário, Crime",
+  "elenco": "Elize Matsunaga, Thaís Nunes, Juliana Santoro, Luciano Santoro, Luiz Flávio D'Urso",
+  "diretor": "Eliza Capai",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:49"
+        }
+      ]
+    }
+  ],
+  "id": 1651
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NzA=",
+  "tipo": "serie",
+  "titulo": "O SEGREDO DAS BALEIAS",
+  "capa_url": "https://lgfp.one/RQJ",
+  "capa_local": "O SEGREDO DAS BALEIAS/O SEGREDO DAS BALEIAS.jpg",
+  "sinopse": "O Segredo das Baleias faz os espectadores mergulharem profundamente no epicentro da cultura das baleias, para observarem as habilidades extraordinárias de comunicação e estruturas sociais intrincadas de cinco diferentes espécies de baleias. Filmado ao longo de 3 anos em 24 locais diferentes, ao longo dessa jornada épica, nós aprendemos que as baleias são muito mais complexas e parecidas conosco do que jamais imaginamos.",
+  "genero": "Documentário",
+  "elenco": "Sigourney Weaver",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:37"
+        }
+      ]
+    }
+  ],
+  "id": 1256
+}

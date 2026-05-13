@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MjI=",
+  "tipo": "serie",
+  "titulo": "BUSCA IMEDIATA: PESSOAS DESAPARECIDAS",
+  "capa_url": "https://lgfp.one/ZXN",
+  "capa_local": "BUSCA IMEDIATA PESSOAS DESAPARECIDAS/BUSCA IMEDIATA PESSOAS DESAPARECIDAS.jpg",
+  "sinopse": "Acompanhe o trabalho da polícia da Carolina do Sul, nos Estados Unidos, em busca de pessoas que desapareceram em circunstâncias estranhas.",
+  "genero": "Crime, Documentário",
+  "elenco": "Vicki Rains, Heidi Jackson, J.P. Smith",
+  "diretor": "Stuart Froude",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:53"
+        }
+      ]
+    }
+  ],
+  "id": 3506
+}

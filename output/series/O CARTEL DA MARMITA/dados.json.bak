@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5OTA=",
+  "tipo": "serie",
+  "titulo": "O CARTEL DA MARMITA",
+  "capa_url": "https://lgfp.one/NDP2",
+  "capa_local": "O CARTEL DA MARMITA/O CARTEL DA MARMITA.jpg",
+  "sinopse": "Quando uma investigação da Vigilância Sanitária atinge uma companhia farmacêutica, cinco mulheres lançam um serviço de marmitas com um ingrediente muito especial.",
+  "genero": "Crime, Drama",
+  "elenco": "Shabana Azmi, Sai Tamhankar, Jyothika, Nimisha Sajayan, Shalini Pandey",
+  "diretor": "Yash Nagarkoti, Akshay Dinesh Vaishnav, Hitesh Bhatia",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:35"
+        }
+      ]
+    }
+  ],
+  "id": 6972
+}

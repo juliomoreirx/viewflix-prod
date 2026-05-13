@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxOTI=",
+  "tipo": "serie",
+  "titulo": "BLUE ARCHIVE THE ANIMATION [L]",
+  "capa_url": "https://lgfp.one/BDT1",
+  "capa_local": "BLUE ARCHIVE THE ANIMATION [L]/BLUE ARCHIVE THE ANIMATION [L].jpg",
+  "sinopse": "As academias da cidade estão divididas nos seus próprios distritos e são consideradas na sua maioria independentes. O Conselho Estudantil Geral atua como conselho de administração para administrar as academias como um todo. No entanto, a capacidade de governo do grupo parou desde o misterioso desaparecimento do presidente do Conselho Geral de Estudantes. Inúmeros problemas começaram a surgir em Kivotos na ausência da liderança do presidente. Para evitar o desastre, o Conselho Estudantil Geral solicita a assistência do Clube de Investigação Federal, também conhecido como Schale. Aliás, o Schale é o mais novo clube da cidade e o último a ser homologado antes do desaparecimento do presidente. Para cumprir a sua tarefa, o Schale conta com a orientação de um Sensei que pode ajudá-los a resolver os incidentes à volta de Kivotos.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "小倉唯, 花守ゆみり, 大橋彩香, 三浦千幸, 原田彩楓",
+  "diretor": "Daigo Yamagishi, Daigo Yamagishi, Shunji Maki",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:41"
+        }
+      ]
+    }
+  ],
+  "id": 5508
+}

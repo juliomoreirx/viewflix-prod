@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MDA=",
+  "tipo": "serie",
+  "titulo": "O REGIME",
+  "capa_url": "https://lgfp.one/ALE2",
+  "capa_local": "O REGIME/O REGIME.jpg",
+  "sinopse": "Kate Winslet estrela esta minissérie da HBO que retrata um ano no palácio da chanceler de um moderno regime autoritário europeu prestes a ruir.",
+  "genero": "Drama, Comédia",
+  "elenco": "Kate Winslet, Matthias Schoenaerts, Guillaume Gallienne, Andrea Riseborough, Danny Webb",
+  "diretor": "Stephen Frears, Jessica Hobbs",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:20"
+        }
+      ]
+    }
+  ],
+  "id": 5096
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0OTY=",
+  "tipo": "serie",
+  "titulo": "TORN [L]",
+  "capa_url": "https://lgfp.one/ABCI",
+  "capa_local": "TORN [L]/TORN [L].jpg",
+  "sinopse": "Victoire se muda para uma pequena vila com sua família e conhece Florent, seu amor de infância. Muito em breve, eles cederão à sua paixão. Mas quando eles estão prestes a deixar seus respectivos parceiros, a esposa de Florent desaparece repentinamente.",
+  "genero": "Drama",
+  "elenco": "Julie Gayet, Bruno Debrandt, Thomas Jouannet, Marie Dompnier, Joyce Bibring",
+  "diretor": "Lionel Bailliu",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:56"
+        }
+      ]
+    }
+  ],
+  "id": 109655
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NjQ=",
+  "tipo": "serie",
+  "titulo": "POR UM RESPIRO",
+  "capa_url": "https://lgfp.one/RIX",
+  "capa_local": "POR UM RESPIRO/POR UM RESPIRO.jpg",
+  "sinopse": "As histórias reais de um time de médicos na luta contra a pandemia de Covid-19. Eles abriram mão da vida pessoal e assumiram risco de vida para combater um inimigo pouco conhecido.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "Susanna Lira, Jorge Pestana",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:18"
+        }
+      ]
+    }
+  ],
+  "id": 1051
+}

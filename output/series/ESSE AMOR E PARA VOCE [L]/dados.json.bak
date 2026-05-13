@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NzY=",
+  "tipo": "serie",
+  "titulo": "ESSE AMOR E PARA VOCE [L]",
+  "capa_url": "https://lgfp.one/RHC6",
+  "capa_local": "ESSE AMOR E PARA VOCE [L]/ESSE AMOR E PARA VOCE [L].jpg",
+  "sinopse": "Consultor imobiliário azarado no amor, Heng vê sua vida virar de cabeça para baixo ao se envolver em um caótico triângulo amoroso. Seu chefe, Kongdech, e seu colega de trabalho e colega de casa, Mo, começam a demonstrar interesse por ele, mergulhando sua rotina em um turbilhão. Para complicar ainda mais, sua amiga de infância, Chicha, inesperadamente confessa estar apaixonada por ele.\n\nEm meio a esse redemoinho de emoções e relações confusas, quem será que conquistará o coração de Heng?",
+  "genero": "Drama",
+  "elenco": "พิรพัฒน์ วัฒนเศรษสิริ, สหภาพ วงศ์ราษฎร์",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:08:43"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:55:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:03:17"
+        }
+      ]
+    }
+  ],
+  "id": 8651
+}

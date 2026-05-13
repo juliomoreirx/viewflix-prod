@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNzY=",
+  "tipo": "serie",
+  "titulo": "O RENOVADOR",
+  "capa_url": "https://lgfp.one/AAHZ",
+  "capa_local": "O RENOVADOR/O RENOVADOR.jpg",
+  "sinopse": "Durante anos, Marcus Lemonis ajudou empresas e agora está ajudando o negócio mais importante de todos: o lar. Usando design para mudar a vida das pessoas, ele reformará casas, transformará famílias e gerará patrimônio.",
+  "genero": "Reality",
+  "elenco": "Marcus Lemonis",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 3556
+}

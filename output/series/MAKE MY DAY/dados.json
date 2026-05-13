@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NzU=",
+  "tipo": "serie",
+  "titulo": "MAKE MY DAY",
+  "capa_url": "https://lgfp.one/YGE",
+  "capa_local": "MAKE MY DAY/MAKE MY DAY.jpg",
+  "sinopse": "Em um planeta distante e gelado, prisioneiros forçados a escavar uma rara fonte de energia fazem uma descoberta terrível.",
+  "genero": "Animação, Sci-Fi & Fantasy, Drama",
+  "elenco": "山橋正臣, Ayahi Takagaki, Kazuhiro Yamaji, Akio Otsuka, 塩田朋子",
+  "diretor": "押山清高, 河森正治, 本多真",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:06"
+        }
+      ]
+    }
+  ],
+  "id": 3251
+}

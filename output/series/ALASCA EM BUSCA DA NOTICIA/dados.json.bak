@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3NTI=",
+  "tipo": "serie",
+  "titulo": "ALASCA: EM BUSCA DA NOTÍCIA",
+  "capa_url": "https://lgfp.one/WLO",
+  "capa_local": "ALASCA EM BUSCA DA NOTICIA/ALASCA EM BUSCA DA NOTICIA.jpg",
+  "sinopse": "Eileen Fitzgerald é uma jornalista investigativa talentosa e premiada que deixa para trás sua vida de alto padrão em Nova York, após cair em desgraça, para se juntar a um jornal diário em Anchorage em uma jornada para encontrar redenção pessoal e profissional.",
+  "genero": "Drama",
+  "elenco": "Hilary Swank, Jeff Perry, Matt Malloy, Meredith Holzman, Grace Dove, Pablo Castelblanco, Ami Park, Craig Frank",
+  "diretor": "Tom McCarthy",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:52"
+        }
+      ]
+    }
+  ],
+  "id": 3117
+}

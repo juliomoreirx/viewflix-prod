@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNzc=",
+  "tipo": "serie",
+  "titulo": "SAFE",
+  "capa_url": "https://lgfp.one/IRA",
+  "capa_local": "SAFE/SAFE.jpg",
+  "sinopse": "Após o desaparecimento de sua filha mais velha, um cirurgião viúvo faz descobertas terríveis sobre pessoas bem próximas.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Michael C. Hall, Amy James-Kelly, Amanda Abbington, Freddie Thorp, Marc Warren",
+  "diretor": "Julia Ford, Daniel Nettheim",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:20"
+        }
+      ]
+    }
+  ],
+  "id": 113
+}

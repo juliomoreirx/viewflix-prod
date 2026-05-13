@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNjg=",
+  "tipo": "serie",
+  "titulo": "MONTANHA DA MORTE: O INCIDENTE NA PASSAGEM DYATLOV",
+  "capa_url": "https://lgfp.one/SSR",
+  "capa_local": "MONTANHA DA MORTE O INCIDENTE NA PASSAGEM DYATLOV/MONTANHA DA MORTE O INCIDENTE NA PASSAGEM DYATLOV.jpg",
+  "sinopse": "Dead Mountain baseia-se em um acontecimento que resultou na morte de nove estudantes que esquiavam ao norte dos montes Urais, na antiga União Soviética, na noite de 2 de fevereiro de 1959. O incidente aconteceu na costa leste da montanha Kholat Syakhl, cujo nome em mansi significa “Montanha dos Mortos”. Desde então, a passagem ligando a cadeia de montanhas onde o incidente ocorreu, é chamado de Passo Dyatlov, baseado no nome do líder do grupo, Igor Dyatlov.",
+  "genero": "Mistério / Action & Adventure",
+  "elenco": "Ivan Mulin, Pyotr Fyodorov, Mariya Lugovaya, Andrey Dobrovolsky, Aleksey Kirsanov, Egor Beroev, Alexandr Metelkin, Maria Matsel",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:46"
+        }
+      ]
+    }
+  ],
+  "id": 2192
+}

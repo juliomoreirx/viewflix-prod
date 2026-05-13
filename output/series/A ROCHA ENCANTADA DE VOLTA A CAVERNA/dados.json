@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5MTk=",
+  "tipo": "serie",
+  "titulo": "A ROCHA ENCANTADA: DE VOLTA À CAVERNA",
+  "capa_url": "https://lgfp.one/SUM",
+  "capa_local": "A ROCHA ENCANTADA DE VOLTA A CAVERNA/A ROCHA ENCANTADA DE VOLTA A CAVERNA.jpg",
+  "sinopse": "Os divertidos, adoráveis e musicais Fraggles de Jim Henson estão de volta! Junte-se ao Gobo, Red, Wembley, Mokey, Boober e aos novos amigos Fraggles em aventuras hilárias e épicas sobre a magia que acontece quando celebramos e nos importamos com nosso mundo interconectado.",
+  "genero": "Kids / Animação",
+  "elenco": "Lilli Cooper, John Tartaglia, Dave Goelz, Karen Prell, Donna Kimball, Jordan Lockhart, Kenan Thompson, Ed Helms",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:38"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:26:16"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:27:37"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:27:52"
+        }
+      ]
+    }
+  ],
+  "id": 2243
+}

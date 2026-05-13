@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMjU=",
+  "tipo": "serie",
+  "titulo": "EN OF LOVE [L]",
+  "capa_url": "https://lgfp.one/BAT2",
+  "capa_local": "EN OF LOVE [L]/EN OF LOVE [L].jpg",
+  "sinopse": "Tossara: Gun Tossakan é um estudante de medicina muito brilhante e alto que está apaixonado pelo popular estudante de engenharia do terceiro ano e chefe do hazer Bar Sarawat desde que ele estava no ensino médio.  O mundo é pequeno e uma universidade é menor.  Ser estudantes populares na mesma universidade leva Gun e Bar a se encontrarem até que Gun consiga cortejar Bar.  Ou talvez Bar também tenha uma confissão a fazer?\n\nLove Mechanics: Uma história de amor que começa uma noite em um clube, entre um engenheiro sênior Mark, que está absolutamente bêbado e arrastando com o fardo doloroso de seu amor unilateral e Wee com quem ele conhece e confunde como objeto de sua afeição.\n\nThis is Love Story: Uma história de amor sobre como o playboy residente da faculdade de engenharia Neur se apaixona secretamente por Praram, um estudante do ensino médio e irmão mais novo de Gun Tossakan, e como ele conquista o menino e seu irmão.",
+  "genero": "Drama",
+  "elenco": "Benz Atthanin Thaninphanuwiwat, Win Achawin Michaels, Folk Thitiphat Chankaew, Wanarat Ratsameerat, Yin Anan Wong",
+  "diretor": "Ko Nantalit Tampacha, Niink Karnpicha Sinlertpattana, Niink Karnpicha Sinlertpattana",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:16"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:30:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:27:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:22:42"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:27:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:39:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:39:16"
+        }
+      ]
+    }
+  ],
+  "id": 5400
+}

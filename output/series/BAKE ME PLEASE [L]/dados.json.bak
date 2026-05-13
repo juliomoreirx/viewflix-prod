@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMDg=",
+  "tipo": "serie",
+  "titulo": "BAKE ME PLEASE [L]",
+  "capa_url": "https://lgfp.one/DXM8",
+  "capa_local": "BAKE ME PLEASE [L]/BAKE ME PLEASE [L].jpg",
+  "sinopse": "O entusiasmado chef de sobremesas Shin cuida de uma padaria e trabalha duro para atingir seu objetivo. Um dia, um garoto chamado Peach se junta ao time.",
+  "genero": "Drama",
+  "elenco": "Thitiwat Ritprasert, Guide Kantapon Chompupan, Prame Nopanut Thanatintrakul, Atom Nathaphop Kanjanteak, Phuripan Sapsangsawat",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:52"
+        }
+      ]
+    }
+  ],
+  "id": 6119
+}

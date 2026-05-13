@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MjY=",
+  "tipo": "serie",
+  "titulo": "CASAIS EM TERAPIA (2026)",
+  "capa_url": "https://lgfp.one/SCS9",
+  "capa_local": "CASAIS EM TERAPIA (2026)/CASAIS EM TERAPIA (2026).jpg",
+  "sinopse": "A série acompanha sete casais do Reino Unido que saem de suas zonas de conforto e se submetem a uma terapia intensiva para tentar salvar seus relacionamentos.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:55"
+        }
+      ]
+    }
+  ],
+  "id": 9031
+}

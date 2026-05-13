@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2Mzk=",
+  "tipo": "serie",
+  "titulo": "HOKUTO NO KEN LEGENDS OF THE DARK KING",
+  "capa_url": "https://lgfp.one/AQY1",
+  "capa_local": "HOKUTO NO KEN LEGENDS OF THE DARK KING/HOKUTO NO KEN LEGENDS OF THE DARK KING.jpg",
+  "sinopse": "Esta é a história do mundo anterior ao Punho da Estrela do Norte, e de como um homem tomou o futuro de um mundo selvagem em suas mãos mortais e remodelou seu destino. Não como um herói, mas como um conquistador. Porque na mente do homem chamado Raoh, a única forma de salvar a Humanidade é esmagando-a sob seu gigantesco calcanhar.",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Akiko Kimura, Mai Nakahara, Takashi Ukaji, Masaya Matsukaze",
+  "diretor": "Masashi Abe",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:50"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:24:52"
+        }
+      ]
+    }
+  ],
+  "id": 5208
+}

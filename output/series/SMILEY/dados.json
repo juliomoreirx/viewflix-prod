@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MDY=",
+  "tipo": "serie",
+  "titulo": "SMILEY",
+  "capa_url": "https://lgfp.one/WMA",
+  "capa_local": "SMILEY/SMILEY.jpg",
+  "sinopse": "Em Barcelona, dois homens e seu grupo de amigos enfrentam medos, inseguranças e oportunidades perdidas em busca do tão sonhado amor verdadeiro.",
+  "genero": "Comédia",
+  "elenco": "Carlos Cuevas, Miki Esparbé, Pepón Nieto, Meritxell Calvo, Cedrick Mugisha",
+  "diretor": "David Martín Porras, Marta Pahissa",
+  "total_episodios": "285",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:42"
+        }
+      ]
+    }
+  ],
+  "id": 3129
+}

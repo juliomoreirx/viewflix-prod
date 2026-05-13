@@ -1,0 +1,185 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMzc=",
+  "tipo": "serie",
+  "titulo": "THIS IS US [L]",
+  "capa_url": "https://lgfp.one/SWF9",
+  "capa_local": "THIS IS US [L]/THIS IS US [L].jpg",
+  "sinopse": "A série acompanha um grupo de pessoas cujos caminhos se cruzam, fazendo com que as suas histórias se entrelacem de maneira muito peculiar.",
+  "genero": "Drama",
+  "elenco": "Milo Ventimiglia, Mandy Moore, Sterling K. Brown, Chrissy Metz, Justin Hartley",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:44"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:41:48"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:42:15"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:46:02"
+        }
+      ]
+    }
+  ],
+  "id": 9439
+}

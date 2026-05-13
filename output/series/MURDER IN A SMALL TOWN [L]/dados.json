@@ -1,0 +1,115 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1Mjc=",
+  "tipo": "serie",
+  "titulo": "MURDER IN A SMALL TOWN [L]",
+  "capa_url": "https://lgfp.one/EGG0",
+  "capa_local": "MURDER IN A SMALL TOWN [L]/MURDER IN A SMALL TOWN [L].jpg",
+  "sinopse": "O detetive Karl Alberg e sua parceira Edwina Yen lidam com uma surpreendente série de assassinatos em uma comunidade normalmente tranquila de Sunshine Coast.",
+  "genero": "Drama, Crime",
+  "elenco": "Rossif Sutherland, Kristin Kreuk, Mya Lowe, Aaron Douglas, Savonna Spracklin",
+  "diretor": "Milan Cheylov, Rhonda Taylor, Ruby J. Munro",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:42:59"
+        }
+      ]
+    }
+  ],
+  "id": 6229
+}

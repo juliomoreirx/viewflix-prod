@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMzk=",
+  "tipo": "serie",
+  "titulo": "TINTED WITH YOU [L]",
+  "capa_url": "https://lgfp.one/AUS6",
+  "capa_local": "TINTED WITH YOU [L]/TINTED WITH YOU [L].jpg",
+  "sinopse": "No passado feudal da Coréia, o príncipe herdeiro deposto Lee Heon foi forçado a um exílio solitário por seu cruel irmão mais velho, que usurpou o trono. Lee Heon teme por sua vida a cada momento, já que seu irmão planeja garantir seu lugar no assento real matando-o. Assassinos e outros esquemas são uma ameaça constante para Lee Heon, cujo único verdadeiro aliado é seu fiel e bondoso guarda-costas Geum. Enquanto isso, nos tempos modernos, um estudante do ensino médio chamado Eun Ho adora pinturas. Na verdade, a arte é o seu mundo inteiro. E quando ele é encarregado de completar uma pintura misteriosa, ele é inesperadamente atraído de volta para o passado distante, onde conhece Lee Heon. A dupla começa a formar um vínculo próximo, romântico e terno. Mas à medida que o rei interino fica inquieto, na esperança de matar o príncipe herdeiro exilado o mais rápido possível, Eun Ho começa a entender que ele pode ser a melhor - ou talvez única - chance de sobrevivência de Lee Heon...",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Yoo Hyun Woo, Park Jun-hee, Kim Tae-jeong, Yoon Ye-hee",
+  "diretor": "La Ha-na",
+  "total_episodios": "12",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:12:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:10:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:10:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:14:24"
+        }
+      ]
+    }
+  ],
+  "id": 5311
+}

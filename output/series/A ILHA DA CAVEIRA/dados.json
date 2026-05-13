@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MDA=",
+  "tipo": "serie",
+  "titulo": "A ILHA DA CAVEIRA",
+  "capa_url": "https://lgfp.one/AAKB",
+  "capa_local": "A ILHA DA CAVEIRA/A ILHA DA CAVEIRA.jpg",
+  "sinopse": "Após naufragar em uma ilha, um grupo de exploradores encontra inúmeras criaturas aterrorizantes, incluindo o gorila gigante Kong.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Mae Whitman, Nicolas Cantu, Darren Barnet, Benjamin Bratt, Betty Gilpin",
+  "diretor": "Willis Bulliner, Daniel Araya, Amanda Sitareh B., Julie Olson",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:46"
+        }
+      ]
+    }
+  ],
+  "id": 3608
+}

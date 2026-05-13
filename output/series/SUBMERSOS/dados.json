@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMDM=",
+  "tipo": "serie",
+  "titulo": "SUBMERSOS",
+  "capa_url": "https://lgfp.one/JBR",
+  "capa_local": "SUBMERSOS/SUBMERSOS.jpg",
+  "sinopse": "“Submerso” apresenta Nando Oliveira (Cassio Nascimento), um ex-campeão mundial de surf, filho bastardo de um aristocrata de uma tradicional família catarinense. Nando é uma figura muito conhecida, um ícone e uma celebridade no esporte, mas, por outro lado, sempre teve uma vida desregrada, diferente do que se imagina como comportamento de um atleta de ponta, envolvendo-se em confusões, brigas, sempre presente nas baladas mais famosas do país.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Lucas Heymanns, Valentina Calvimonte, Clei Grött, Liz Solari, Zé Carlos Machado",
+  "diretor": "Marcia Paraiso, Pablo Brusa, Cláudio Rosa",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:51"
+        }
+      ]
+    }
+  ],
+  "id": 34108
+}

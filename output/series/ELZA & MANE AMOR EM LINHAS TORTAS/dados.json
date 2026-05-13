@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNzc=",
+  "tipo": "serie",
+  "titulo": "ELZA & MANÉ: AMOR EM LINHAS TORTAS",
+  "capa_url": "https://lgfp.one/SYC",
+  "capa_local": "ELZA & MANE AMOR EM LINHAS TORTAS/ELZA & MANE AMOR EM LINHAS TORTAS.jpg",
+  "sinopse": "Dois gênios brasileiros, Elza e Mané formaram um dos casais mais famosos do país. Uma relação que combateu preconceitos e foi marcada pelo amor, pelo alcoolismo e pela violência.",
+  "genero": "Documentário",
+  "elenco": "Elza Soares, Garrincha",
+  "diretor": "Rafael Pirrho, Caroline Zilberman, Caroline Zilberman",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:22"
+        }
+      ]
+    }
+  ],
+  "id": 2339
+}

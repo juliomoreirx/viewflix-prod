@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1ODg=",
+  "tipo": "serie",
+  "titulo": "O MISTERIO DA ROTA 20",
+  "capa_url": "https://lgfp.one/RYB9",
+  "capa_local": "O MISTERIO DA ROTA 20/O MISTERIO DA ROTA 20.jpg",
+  "sinopse": "Quando uma jornalista local descobre um documento judicial selado, ela descobre um rastro de mulheres desaparecidas e assassinadas no deserto de Oregon e um assassino que usou um trecho desolado da estrada para esconder segredos obscuros.",
+  "genero": "Documentário, Crime",
+  "elenco": "Octavia Spencer",
+  "diretor": "Arianna LaPenne",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:52"
+        }
+      ]
+    }
+  ],
+  "id": 8967
+}

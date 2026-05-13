@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NTQ=",
+  "tipo": "serie",
+  "titulo": "SELVAGENS POR NATUREZA [L]",
+  "capa_url": "https://lgfp.one/REZ8",
+  "capa_local": "SELVAGENS POR NATUREZA [L]/SELVAGENS POR NATUREZA [L].jpg",
+  "sinopse": "Dos primeiros passos às primeiras caçadas, acompanhe seis bebês animais raros enquanto aprendem a sobreviver e trazem esperança para o futuro de suas espécies na natureza.",
+  "genero": "Documentário",
+  "elenco": "Hugh Bonneville",
+  "diretor": "Lucy van Beek",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:00"
+        }
+      ]
+    }
+  ],
+  "id": 8577
+}

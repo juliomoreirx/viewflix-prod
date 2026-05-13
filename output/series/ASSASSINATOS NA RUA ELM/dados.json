@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNzY=",
+  "tipo": "serie",
+  "titulo": "ASSASSINATOS NA RUA ELM",
+  "capa_url": "https://lgfp.one/EAZ5",
+  "capa_local": "ASSASSINATOS NA RUA ELM/ASSASSINATOS NA RUA ELM.jpg",
+  "sinopse": "A série explora pequenas cidades suburbanas em toda a América que foram destruídas por assassinatos. Ele pergunta como, em uma única noite, essas ruas residenciais passam da paz e da tranquilidade ao horror, à morte sem sentido e à tragédia. Cada episódio examinará uma investigação de assassinato que ocorreu em uma das muitas Elm Streets da América.",
+  "genero": "Crime, Documentário",
+  "elenco": "Adam Chisnall, Nancy Grace, Gary Ridgway",
+  "diretor": "Chad Cunningham, Shelaney Campbell, Donnie Eichar",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:52"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 6159
+}

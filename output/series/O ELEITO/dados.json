@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNzc=",
+  "tipo": "serie",
+  "titulo": "O ELEITO",
+  "capa_url": "https://lgfp.one/AAUL",
+  "capa_local": "O ELEITO/O ELEITO.jpg",
+  "sinopse": "Jodie, um garoto de doze anos que mora no México, descobre que tem poderes parecidos com os de Jesus. Agora, cabe a ele aceitar ou não esse chamado.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Bobby Luhnow, Dianna Agron, Lilith Curiel, Juanito Anguamea, Jorge Javier Arballo",
+  "diretor": "Everardo Gout",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:09"
+        }
+      ]
+    }
+  ],
+  "id": 3876
+}

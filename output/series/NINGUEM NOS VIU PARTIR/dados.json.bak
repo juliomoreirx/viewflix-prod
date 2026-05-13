@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3ODQ=",
+  "tipo": "serie",
+  "titulo": "NINGUÉM NOS VIU PARTIR",
+  "capa_url": "https://lgfp.one/QIR3",
+  "capa_local": "NINGUEM NOS VIU PARTIR/NINGUEM NOS VIU PARTIR.jpg",
+  "sinopse": "Uma mãe enfrenta o estigma e uma separação dolorosa quando o marido leva os filhos para o exterior e muda sua vida para sempre. Baseada em uma história real.",
+  "genero": "Drama",
+  "elenco": "Tessa Ía, Natasha Dupeyrón, Emiliano Zurita, Juan Manuel Bernal, Flavio Medina",
+  "diretor": "Samuel Kishi, Lucía Puenzo,  Nicolás Puenzo",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:34"
+        }
+      ]
+    }
+  ],
+  "id": 8210
+}

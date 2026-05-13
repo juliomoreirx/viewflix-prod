@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MjY=",
+  "tipo": "serie",
+  "titulo": "LEXA: MOSTRA ESSE PODER",
+  "capa_url": "https://lgfp.one/RXN",
+  "capa_local": "LEXA MOSTRA ESSE PODER/LEXA MOSTRA ESSE PODER.jpg",
+  "sinopse": "Acompanhe a intimidade da Lexa com o marido, MC Guimê, família e amigos. A cantora mostra o processo criativo, os desafios da carreira, as origens do funk e sua história de vida.",
+  "genero": "Documentário",
+  "elenco": "Lexa",
+  "diretor": "Tico Fernandes",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:18"
+        }
+      ]
+    }
+  ],
+  "id": 1455
+}

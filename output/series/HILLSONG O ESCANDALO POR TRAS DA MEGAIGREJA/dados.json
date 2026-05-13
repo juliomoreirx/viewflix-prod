@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NjY=",
+  "tipo": "serie",
+  "titulo": "HILLSONG: O ESCÂNDALO POR TRÁS DA MEGAIGREJA",
+  "capa_url": "https://lgfp.one/XUE",
+  "capa_local": "HILLSONG O ESCANDALO POR TRAS DA MEGAIGREJA/HILLSONG O ESCANDALO POR TRAS DA MEGAIGREJA.jpg",
+  "sinopse": "Mergulhe na suposta exploração, abuso e encobrimento no centro da mega-igreja Hillsong repleta de famosos. Entrevistas explosivas de membros da Hillsong, especialistas em megaigrejas e uma mulher cujo caso com o pastor sênior Carl Lentz levou à sua queda.",
+  "genero": "Documentário, Crime",
+  "elenco": "Carl Lentz, Brian Houston, Troy Dillinger, Devin Halliwell, Marie Finch",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:54"
+        }
+      ]
+    }
+  ],
+  "id": 3213
+}

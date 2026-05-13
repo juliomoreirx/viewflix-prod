@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MTE=",
+  "tipo": "serie",
+  "titulo": "SECTION ZÉRO",
+  "capa_url": "https://lgfp.one/ISH",
+  "capa_local": "SECTION ZERO/SECTION ZERO.jpg",
+  "sinopse": "No futuro, as empresas multinacionais são líderes na Europa. Uma das mais poderosas, a Prometheus, quer garantir o domínio, substituindo a força policial por sua milícia privada, o Esquadrão Negro.",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "Juliette Dol, Michaël Erpelding, Stefan Ivanov, Ola Rapace, Hilde De Baerdemaeker",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:49"
+        }
+      ]
+    }
+  ],
+  "id": 148
+}

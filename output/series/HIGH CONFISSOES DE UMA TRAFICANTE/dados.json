@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Mjg=",
+  "tipo": "serie",
+  "titulo": "HIGH: CONFISSÕES DE UMA TRAFICANTE",
+  "capa_url": "https://lgfp.one/TLP",
+  "capa_local": "HIGH CONFISSOES DE UMA TRAFICANTE/HIGH CONFISSOES DE UMA TRAFICANTE.jpg",
+  "sinopse": "Conheça a história de Michaella McCollum, jovem irlandesa que foi presa contrabandeando o equivalente a 1 milhão e meio de euros em cocaína através do aeroporto de Lima.",
+  "genero": "Documentário",
+  "elenco": "Tatiana Penfold, Sade Giliberti, Michaella McCollum, Alexandra Constantinidi",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:23"
+        }
+      ]
+    }
+  ],
+  "id": 2704
+}

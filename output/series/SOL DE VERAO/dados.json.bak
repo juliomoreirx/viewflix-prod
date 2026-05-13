@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI1MTY=",
+  "tipo": "serie",
+  "titulo": "SOL DE VERÃO",
+  "capa_url": "https://lgfp.one/AUR9",
+  "capa_local": "SOL DE VERAO/SOL DE VERAO.jpg",
+  "sinopse": "Rachel decide se separar do marido e mudar sua vida.",
+  "genero": "Drama",
+  "elenco": "Jardel Filho, Irene Ravache, Cecil Thiré, Tony Ramos, Débora Bloch",
+  "diretor": "Roberto Talma, Jorge Fernando, Guel Arraes",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:11:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:05"
+        }
+      ]
+    }
+  ],
+  "id": 5304
+}

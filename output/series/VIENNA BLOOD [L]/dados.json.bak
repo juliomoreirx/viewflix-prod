@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMjY=",
+  "tipo": "serie",
+  "titulo": "VIENNA BLOOD [L]",
+  "capa_url": "https://lgfp.one/DLA6",
+  "capa_local": "VIENNA BLOOD [L]/VIENNA BLOOD [L].jpg",
+  "sinopse": "Max Liebermann, aluno de Sigmund Freud, ajuda o detetive Rheinhardt na investigação de uma série de assassinatos perturbadores em torno dos grandes cafés e óperas da Viena de 1900.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Matthew Beard, Juergen Maurer, Charlene McKenna, Conleth Hill, Amelia Bullmore",
+  "diretor": "Umut Dağ",
+  "total_episodios": "89",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:29:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:29:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:29:09"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:29:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:29:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:29:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:29:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "01:29:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "01:28:49"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "01:29:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "01:28:16"
+        }
+      ]
+    }
+  ],
+  "id": 5928
+}

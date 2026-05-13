@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTg=",
+  "tipo": "serie",
+  "titulo": "THE THING ABOUT PAM",
+  "capa_url": "https://lgfp.one/THQ",
+  "capa_local": "THE THING ABOUT PAM/THE THING ABOUT PAM.jpg",
+  "sinopse": "Baseado no assassinato de Betsy Faria, a série narra as reviravoltas inacreditáveis de um caso de homicídio aparentemente simples que acabaria por revelar uma trama mortal ligada a uma mulher chamada Pam Hupp.",
+  "genero": "Crime / Drama",
+  "elenco": "Renée Zellweger, Josh Duhamel, Judy Greer, Gideon Adlon, Sean Bridgers, Suanne Spoke, Mac Brandt, Katy Mixon",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:10"
+        }
+      ]
+    }
+  ],
+  "id": 2592
+}

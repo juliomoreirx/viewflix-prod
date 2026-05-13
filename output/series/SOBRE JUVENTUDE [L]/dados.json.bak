@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MzU=",
+  "tipo": "serie",
+  "titulo": "SOBRE JUVENTUDE [L]",
+  "capa_url": "https://lgfp.one/AAXF",
+  "capa_local": "SOBRE JUVENTUDE [L]/SOBRE JUVENTUDE [L].jpg",
+  "sinopse": "Com uma combinação quase injusta de boas notas e aparência ainda melhor, Ye Guang é facilmente o cara mais popular de sua escola. Constantemente chamando a atenção de todos ao seu redor, não foi surpresa quando ele anunciou que estava concorrendo à presidência do corpo estudantil. O que foi uma surpresa foi quem foi anunciado para concorrer contra ele.\n\nUm estudante quieto e quase completamente imperceptível que passava grande parte do tempo trabalhando na barraca de macarrão de sua família, Xu Qi Zhang não era a primeira escolha de ninguém para presidente do corpo estudantil.",
+  "genero": "Drama",
+  "elenco": "Jyun Shen, Zhen Hao Li, Tim Hsu, Andy Huang",
+  "diretor": "Mi-Chieh Tsai",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:59"
+        }
+      ]
+    }
+  ],
+  "id": 3947
+}

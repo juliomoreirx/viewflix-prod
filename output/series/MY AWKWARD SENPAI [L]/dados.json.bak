@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1MDY=",
+  "tipo": "serie",
+  "titulo": "MY AWKWARD SENPAI [L]",
+  "capa_url": "https://lgfp.one/QDB7",
+  "capa_local": "MY AWKWARD SENPAI [L]/MY AWKWARD SENPAI [L].jpg",
+  "sinopse": "Kannawa-senpai pode ser considerada várias coisas, mas boa de conversa definitivamente não é uma delas. Pelo menos até ela conhecer Kamegawa, novato na empresa. Ele é fofo, um pouco nerd e fácil de conversar. Como essa senpai sem jeito vai conseguir lidar com esses novos sentimentos!?",
+  "genero": "Animação, Comédia",
+  "elenco": "Lynn, Shogo Sakata, Ami Maeshima, 斎賀みつき",
+  "diretor": "小竹歩",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 8122
+}

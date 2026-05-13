@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczOTQ=",
+  "tipo": "serie",
+  "titulo": "WELCOME TO UTMARK",
+  "capa_url": "https://lgfp.one/SML",
+  "capa_local": "WELCOME TO UTMARK/WELCOME TO UTMARK.jpg",
+  "sinopse": "Moram em uma pequena e remota cidade norueguesa: um xerife corrupto, um pastor alcoólatra, um contrabandista que ama a natureza, um pastor que odeia a Deus e um cafetão enlutado.",
+  "genero": "Comédia / Drama",
+  "elenco": "Rozafa Celaj, May-Linda Kosumovic, Marie Blokhus, Alma Günther, Stig Henrik Hoff, Tobias Santelmann, Niklas Gundersen",
+  "diretor": "Dagur Kári",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:55"
+        }
+      ]
+    }
+  ],
+  "id": 2018
+}

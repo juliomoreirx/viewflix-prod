@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMTY=",
+  "tipo": "serie",
+  "titulo": "INSTINTOS DA VIDA SELVAGEM",
+  "capa_url": "https://lgfp.one/PQZ2",
+  "capa_local": "INSTINTOS DA VIDA SELVAGEM/INSTINTOS DA VIDA SELVAGEM.jpg",
+  "sinopse": "Histórias incríveis de dedicação, engenhosidade e sacrifício enquanto o mundo animal embarca no maior de todos os desafios: a paternidade.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough",
+  "diretor": "Hugh Wilson, Joe Fereday, Jeff Wilson",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:26"
+        }
+      ]
+    }
+  ],
+  "id": 7766
+}

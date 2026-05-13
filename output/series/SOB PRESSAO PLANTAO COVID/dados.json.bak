@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0Njc=",
+  "tipo": "serie",
+  "titulo": "SOB PRESSAO PLANTAO COVID",
+  "capa_url": "https://lgfp.one/RFZ",
+  "capa_local": "SOB PRESSAO PLANTAO COVID/SOB PRESSAO PLANTAO COVID.jpg",
+  "sinopse": "Acompanhe a rotina de entrega, esforço e muita pressão pela qual os médicos de um hospital público passam todos os dias. Em comum, o desejo de salvar vidas.",
+  "genero": "Drama",
+  "elenco": "Júlio Andrade, Marjorie Estiano, Stepan Nercessian",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:58"
+        }
+      ]
+    }
+  ],
+  "id": 974
+}

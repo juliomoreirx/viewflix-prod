@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMTI=",
+  "tipo": "serie",
+  "titulo": "VINAGRE DE MAÇÃ",
+  "capa_url": "https://lgfp.one/MVV6",
+  "capa_local": "VINAGRE DE MACA/VINAGRE DE MACA.jpg",
+  "sinopse": "Duas mulheres promovem fórmulas de bem-estar para curar doenças letais, enganando, intencionalmente ou não, o mundo todo e virando suas vidas de cabeça para baixo.",
+  "genero": "Drama, Crime",
+  "elenco": "Kaitlyn Dever, Alycia Debnam-Carey, Aisha Dee, Mark Coles Smith, Tilda Cobham-Hervey",
+  "diretor": "Jeffrey Walker",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:32"
+        }
+      ]
+    }
+  ],
+  "id": 6843
+}

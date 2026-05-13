@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MTE=",
+  "tipo": "serie",
+  "titulo": "RAGDOLL",
+  "capa_url": "https://lgfp.one/TKJ",
+  "capa_local": "RAGDOLL/RAGDOLL.jpg",
+  "sinopse": "Com 6 episódios para seu primeiro ano, o drama vai acompanhar um grupo de detetives que perseguem um serial killer batizado de Assassino Ragdoll. Na trama, 6 pessoas foram assassinadas e tiverem seus membros cortados em diversas partes para formar um grotesco boneco apelidado de Ragdoll.",
+  "genero": "Mistério / Crime",
+  "elenco": "Lucy Hale, Ali Cook, Henry Lloyd-Hughes, Thalissa Teixeira, Michael Smiley, Lee Byford, Perry Jaques",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:01"
+        }
+      ]
+    }
+  ],
+  "id": 2668
+}

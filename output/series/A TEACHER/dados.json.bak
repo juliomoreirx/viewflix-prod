@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NTM=",
+  "tipo": "serie",
+  "titulo": "A TEACHER",
+  "capa_url": "https://lgfp.one/SFV",
+  "capa_local": "A TEACHER/A TEACHER.jpg",
+  "sinopse": "Todas as complexidades e consequências envolvendo a história por trás de uma foto íntima de Claire, uma professora do ensino médio que mantinha um relacionamento amoroso com Eric, um de seus alunos adolescentes.",
+  "genero": "Drama",
+  "elenco": "Kate Mara, Nick Robinson",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:29:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:35"
+        }
+      ]
+    }
+  ],
+  "id": 1844
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MjY=",
+  "tipo": "serie",
+  "titulo": "MASTERCHEF CREATORS",
+  "capa_url": "https://lgfp.one/NVI6",
+  "capa_local": "MASTERCHEF CREATORS/MASTERCHEF CREATORS.jpg",
+  "sinopse": "O novo spin-off digital da famosa competição culinária reúne influenciadores em disputas gastronômicas cheias de criatividade. Mistura entretenimento e sabor, com R$ 200 mil em jogo e a autenticidade dos criadores como tempero principal.",
+  "genero": "Reality",
+  "elenco": "Eduardo Camargo, Filipe Oliveira, Érick Jacquin, Helena Rizzo, Henrique Fogaça",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:33"
+        }
+      ]
+    }
+  ],
+  "id": 7290
+}

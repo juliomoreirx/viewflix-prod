@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2ODQ=",
+  "tipo": "serie",
+  "titulo": "NÃO CONTE A NINGUÉM",
+  "capa_url": "https://lgfp.one/AAYW",
+  "capa_local": "NAO CONTE A NINGUEM/NAO CONTE A NINGUEM.jpg",
+  "sinopse": "Quando uma família brasileira é encontrada morta num povoado espanhol, um grupo de jovens no Brasil enfrenta a incerteza de falar o que sabe, enquanto se pergunta: é possível ser cúmplice de um crime a 6 mil quilômetros de distância?",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Marvin Henriques Correia, Wilton Diniz Américo, Patrick Nogueira",
+  "diretor": "Marcos Nine, Luz Aldama, Juan Carlos Arroyo",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:44"
+        }
+      ]
+    }
+  ],
+  "id": 3988
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI1MzY=",
+  "tipo": "serie",
+  "titulo": "A BÍBLIA",
+  "capa_url": "https://lgfp.one/INS",
+  "capa_local": "A BIBLIA/A BIBLIA.jpg",
+  "sinopse": "Misturando contos bíblicos e parábolas, esta minissérie recria para um público moderno a visão da Bíblia sobre a humanidade e o divino.",
+  "genero": "Drama",
+  "elenco": "Diogo Morgado, Keith David, Roma Downey, Sebastian Knapp, Adrian Schiller",
+  "diretor": "Tony Mitchell, Christopher Spencer, Crispin Reece",
+  "total_episodios": "120",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:30"
+        }
+      ]
+    }
+  ],
+  "id": 7714
+}

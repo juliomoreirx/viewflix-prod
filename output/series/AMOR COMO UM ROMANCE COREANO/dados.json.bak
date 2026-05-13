@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNzY=",
+  "tipo": "serie",
+  "titulo": "AMOR COMO UM ROMANCE COREANO",
+  "capa_url": "https://lgfp.one/AUXC",
+  "capa_local": "AMOR COMO UM ROMANCE COREANO/AMOR COMO UM ROMANCE COREANO.jpg",
+  "sinopse": "Quatro atrizes do Japão vão à Coreia do Sul para fazer testes e atuar com atores coreanos em uma série de histórias de amor. Será que a ficção pode virar realidade?",
+  "genero": "Reality",
+  "elenco": "笛木優子, 近藤春菜, 西脇綾香, 福徳秀介, 小森隼",
+  "diretor": "Osamu Suzuki",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:59"
+        }
+      ]
+    }
+  ],
+  "id": 4570
+}

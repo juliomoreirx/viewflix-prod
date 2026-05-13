@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNDE=",
+  "tipo": "serie",
+  "titulo": "MIRAGE",
+  "capa_url": "https://lgfp.one/SIY",
+  "capa_local": "MIRAGE/MIRAGE.jpg",
+  "sinopse": "Claire está recomeçando em Abu Dhabi com seu filho Zack e seu marido Lukas. Mas sua nova vida de expatriada é ofuscada quando ela descobre que seu falecido marido ainda está vivo. Enquanto passado e presente colidem, Claire embarca em uma missão de vida ou morte que inclui chantagem, sabotagem nuclear e enganar as pessoas que ela mais ama.",
+  "genero": "Crime, Drama",
+  "elenco": "Shawn Doyle, Marie-Josée Croze, Clive Standen, Hannes Jaenicke, Jeanette Hain",
+  "diretor": "Louis Choquette",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:47"
+        }
+      ]
+    }
+  ],
+  "id": 1926
+}

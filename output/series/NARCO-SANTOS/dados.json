@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTA=",
+  "tipo": "serie",
+  "titulo": "NARCO-SANTOS",
+  "capa_url": "https://lgfp.one/TQY",
+  "capa_local": "NARCO-SANTOS/NARCO-SANTOS.jpg",
+  "sinopse": "Um empresário participa de uma missão secreta do governo para prender um traficante coreano que opera na América do Sul. Série baseada em fatos reais.",
+  "genero": "Crime",
+  "elenco": "Chidi Ajufo, Marcel Jeannin, Ko Gun-Han",
+  "diretor": "Yoon Jong-bin, Yoon Jong-bin, Yoon Jong-bin",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:08:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:10:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:36"
+        }
+      ]
+    }
+  ],
+  "id": 2850
+}

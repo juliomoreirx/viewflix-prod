@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MDM=",
+  "tipo": "serie",
+  "titulo": "PACTO BRUTAL: O ASSASSINATO DE DANIELLA PEREZ",
+  "capa_url": "https://lgfp.one/TLW",
+  "capa_local": "PACTO BRUTAL O ASSASSINATO DE DANIELLA PEREZ/PACTO BRUTAL O ASSASSINATO DE DANIELLA PEREZ.jpg",
+  "sinopse": "Nos anos 90, Daniella Perez, uma das estrelas da novela de maior sucesso do Brasil é assassinada por seu companheiro de cena. Sua mãe se transformou em uma investigadora incansável e hoje compartilha os detalhes da sua saga pela justiça.",
+  "genero": "Documentário, Crime",
+  "elenco": "Daniella Perez, Glória Perez, Raul Gazolla, Cláudia Raia, Fábio Assunção",
+  "diretor": "Guto Barra, Tatiana Issa, Guto Barra",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:07:34"
+        }
+      ]
+    }
+  ],
+  "id": 2711
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5ODY=",
+  "tipo": "serie",
+  "titulo": "JAMES MAY - O MESTRE-CUECA!",
+  "capa_url": "https://lgfp.one/YKA",
+  "capa_local": "JAMES MAY - O MESTRE-CUECA!/JAMES MAY - O MESTRE-CUECA!.jpg",
+  "sinopse": "James May não é um chef, mas essa é a questão: não precisa ser um grande chef para fazer comida deliciosa. Ele nos levará até o Extremo Oriente, o Mediterrâneo e o pub da esquina, tudo no conforto da cozinha de uma economista doméstica. Ele vai criar receitas deliciosas que você pode fazer sozinho, com ingredientes faceis de achar. E tudo sem os truques normais de um programa de culinária de TV.",
+  "genero": "Documentário",
+  "elenco": "Nikki Morgan, James May",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:46"
+        }
+      ]
+    }
+  ],
+  "id": 3261
+}

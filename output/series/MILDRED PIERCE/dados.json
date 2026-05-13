@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MTU=",
+  "tipo": "serie",
+  "titulo": "MILDRED PIERCE",
+  "capa_url": "https://lgfp.one/RJJ",
+  "capa_local": "MILDRED PIERCE/MILDRED PIERCE.jpg",
+  "sinopse": "Glendale, Califórnia, 1931: Mildred Pierce (Kate Winslet), uma jovem mãe incrivelmente talentosa na cozinha, precisa cuidar da vida sozinha após expulsar seu marido, Bert (Brían F. O’Byrne), de casa. Forçada a procurar um trabalho para sustentar suas duas filhas, Veda , 11, e Ray, 7, Mildred procura uma agência de empregos, só para encontrar trabalhos que estão abaixo de suas qualidades. Em meio a dicas falhas de relacionamento de sua amiga Lucy Gessler (Melissa Leo) e empregos mal-sucedidos, ela acaba indo parar em um restaurante local, Cristofor’s Café, onde o destino e uma garçonete chamada Ida (Mare Winningham) irão desempenhar papéis importantíssimos para o seu futuro.",
+  "genero": "Drama",
+  "elenco": "Kate Winslet, Guy Pearce, Brían F. O'Byrne, Melissa Leo, James Le Gros",
+  "diretor": "",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:20:45"
+        }
+      ]
+    }
+  ],
+  "id": 1064
+}

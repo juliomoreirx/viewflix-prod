@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNzc=",
+  "tipo": "serie",
+  "titulo": "ONDE ESTÁ TIM LOPES?",
+  "capa_url": "https://lgfp.one/AALM",
+  "capa_local": "ONDE ESTA TIM LOPES/ONDE ESTA TIM LOPES.jpg",
+  "sinopse": "Amigos e colegas apresentam o estilo único de Tim Lopes fazer jornalismo. Por meio das matérias de jornal e TV, o jornalista conquistou o público leitor e telespectador.",
+  "genero": "Documentário",
+  "elenco": "Tim Lopes",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:24"
+        }
+      ]
+    }
+  ],
+  "id": 3643
+}

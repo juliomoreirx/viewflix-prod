@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MjE=",
+  "tipo": "serie",
+  "titulo": "GENTLEMAN JACK",
+  "capa_url": "https://lgfp.one/TIN",
+  "capa_local": "GENTLEMAN JACK/GENTLEMAN JACK.jpg",
+  "sinopse": "Baseada na apaixonante vida real da Anne Lister, uma revolucionária proprietária de terras determinada a dirigir seu próprio lar e se casar com uma mulher no meio do século XIX.",
+  "genero": "Drama",
+  "elenco": "Suranne Jones, Sophie Rundle, Gemma Whelan, Gemma Jones, Timothy West, Rosie Cavaliero, Joe Armstrong, Amelia Bullmore",
+  "diretor": "Sally Wainwright",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:57"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:56:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:56:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:56:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:56:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:56:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:56:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:56:18"
+        }
+      ]
+    }
+  ],
+  "id": 2618
+}

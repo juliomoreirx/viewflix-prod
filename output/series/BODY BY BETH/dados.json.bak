@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Njg=",
+  "tipo": "serie",
+  "titulo": "BODY BY BETH",
+  "capa_url": "https://lgfp.one/EKP4",
+  "capa_local": "BODY BY BETH/BODY BY BETH.jpg",
+  "sinopse": "A academia de Beth Aguiar, musa fitness dos anos 80, está em ruínas, mas ela e sua família parecem não se importar. Até que a chegada de uma nova e moderna academia na mesma rua os obriga a trabalharem juntos para salvar o negócio.",
+  "genero": "Comédia",
+  "elenco": "Marisa Orth, Diogo Vilela, Guilherme Weber, Verônica Debom, Ana Hikari",
+  "diretor": "Gigi Soares, Alice Demier",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:48"
+        }
+      ]
+    }
+  ],
+  "id": 6306
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMzk=",
+  "tipo": "serie",
+  "titulo": "PESADELO AMERICANO",
+  "capa_url": "https://lgfp.one/OUH6",
+  "capa_local": "PESADELO AMERICANO/PESADELO AMERICANO.jpg",
+  "sinopse": "Esta série combina vídeos de cenas de crimes e registros caseiros para criar um retrato perturbador de intrigantes casos de homicídio. Em alguns casos, as pistas encontradas em fotos e vídeos ajudam a solucionar o mistério.",
+  "genero": "Crime, Documentário, Reality",
+  "elenco": "Craig Lee Thomas,Kevin Wayne Walker, Heather Cazes",
+  "diretor": "Lauren J. Przybyszewski",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 177449
+}

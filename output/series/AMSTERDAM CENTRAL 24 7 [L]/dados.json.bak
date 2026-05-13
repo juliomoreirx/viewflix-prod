@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1ODg=",
+  "tipo": "serie",
+  "titulo": "AMSTERDAM CENTRAL 24 7 [L]",
+  "capa_url": "https://lgfp.one/QEH8",
+  "capa_local": "AMSTERDAM CENTRAL 24 7 [L]/AMSTERDAM CENTRAL 24 7 [L].jpg",
+  "sinopse": "900 homens e mulheres dedicados fazem o máximo todos os dias para manter tudo funcionando perfeitamente.",
+  "genero": "Documentário",
+  "elenco": "Eva Damen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:26"
+        }
+      ]
+    }
+  ],
+  "id": 8154
+}

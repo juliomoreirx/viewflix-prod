@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzU=",
+  "tipo": "serie",
+  "titulo": "AMOR NA SELVA",
+  "capa_url": "https://lgfp.one/TJP",
+  "capa_local": "AMOR NA SELVA/AMOR NA SELVA.jpg",
+  "sinopse": "Quatorze solteiros, todos eles pessoas que não tiveram muita sorte nos relacionamentos, participam de rituais de acasalamento inspirados no reino animal – as interações com os parceiros em potencial acontecem com pouca ou nenhuma comunicação verbal. Para os participantes, essa é a chance de deixar aflorar o lado animal e aprimorar seus instintos na busca pelo amor verdadeiro.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:18"
+        }
+      ]
+    }
+  ],
+  "id": 2646
+}

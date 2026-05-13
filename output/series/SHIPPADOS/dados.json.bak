@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1MzU=",
+  "tipo": "serie",
+  "titulo": "SHIPPADOS",
+  "capa_url": "https://lgfp.one/IUO",
+  "capa_local": "SHIPPADOS/SHIPPADOS.jpg",
+  "sinopse": "'Shippados' é uma série sobre jovens adultos neuróticos navegando o complexo mundo dos relacionamentos modernos, onde tudo é mediado por redes sociais e aplicativos.",
+  "genero": "Comédia",
+  "elenco": "Tatá Werneck, Eduardo Sterblitch, Luís Lobianco, Clarice Falcão, Júlia Rabello",
+  "diretor": "Patricia Pedrosa",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:30:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:30:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:36:47"
+        }
+      ]
+    }
+  ],
+  "id": 211
+}

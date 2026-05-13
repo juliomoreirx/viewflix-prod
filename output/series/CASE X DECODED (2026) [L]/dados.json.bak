@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxOTg=",
+  "tipo": "serie",
+  "titulo": "CASE X DECODED (2026) [L]",
+  "capa_url": "https://lgfp.one/SUK2",
+  "capa_local": "CASE X DECODED (2026) [L]/CASE X DECODED (2026) [L].jpg",
+  "sinopse": "Arquivos empoeirados são abertos, e uma sensação de tensão enche o ar. Quando os mistérios da vida real de Hong Kong se tornarem o enredo, será que esses casos frios podem finalmente ser resolvidos? Enquanto perseguem pistas, os investigadores podem romper o impasse e trazer a verdade à tona?",
+  "genero": "Crime, Drama",
+  "elenco": "苗僑偉, 岑麗香, 周家怡, 陶大宇, 朱晨麗",
+  "diretor": "蔡晶盛",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:12:30"
+        }
+      ]
+    }
+  ],
+  "id": 9402
+}

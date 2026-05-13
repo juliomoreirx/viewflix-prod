@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTU=",
+  "tipo": "serie",
+  "titulo": "ATELIER RYZA: EVER DARKNESS & THE SECRET HIDEOUT THE ANIMATION [L]",
+  "capa_url": "https://lgfp.one/AATR",
+  "capa_local": "ATELIER RYZA EVER DARKNESS & THE SECRET HIDEOUT THE ANIMATION [L]/ATELIER RYZA EVER DARKNESS & THE SECRET HIDEOUT THE ANIMATION [L].jpg",
+  "sinopse": "O jogo segue a história de Resalin Stout, uma garota que mora na Ilha Kurken em busca de aventura. Em um dia de verão, ela encontra um barco a remo abandonado e se aventura no continente com seus amigos Lent Marslink e Tao Mongarten. Ao longo do caminho, ela salva a filha de um comerciante viajante e conhece o alquimista Empel Vollmer com sua parceira Lila Decyrus, que inicia Ryza no caminho do aprendizado da alquimia e suas aventuras interline e logo descobre a verdadeira verdade sobre seu lar.",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "Yuri Noguchi, Hitomi Ohwada, Takuma Terashima, Yui Kondo, Hirofumi Nojima",
+  "diretor": "Ema Yuzuriha",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:00"
+        }
+      ]
+    }
+  ],
+  "id": 3856
+}

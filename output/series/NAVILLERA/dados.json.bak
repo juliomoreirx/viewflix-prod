@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3ODE=",
+  "tipo": "serie",
+  "titulo": "NAVILLERA",
+  "capa_url": "https://lgfp.one/SOZ",
+  "capa_local": "NAVILLERA/NAVILLERA.jpg",
+  "sinopse": "Shim Deok Chul é um carteiro aposentado de 70 anos que decide perseguir seu sonho de aprender balé, o que não agrada sua família. Na academia de dança, ele conhece Lee Chae Rok, uma dançarina de 23 anos que se interessou por balé depois de experimentar diversos esportes. Sua mãe era dançarina de balé antes de morrer de uma doença quando ele era jovem. Ele está lutando financeiramente e pensando em desistir do balé quando conhecer Deok Chul.",
+  "genero": "Drama",
+  "elenco": "Shin Eun-jung, Kim Tae-hoon, Jung Hae-kyun",
+  "diretor": "Han Dong-hwa",
+  "total_episodios": "63",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:10:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:18"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:48"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:07:52"
+        }
+      ]
+    }
+  ],
+  "id": 2087
+}

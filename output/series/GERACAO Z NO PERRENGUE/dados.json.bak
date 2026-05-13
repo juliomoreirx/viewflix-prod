@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Mzk=",
+  "tipo": "serie",
+  "titulo": "GERAÇÃO Z NO PERRENGUE",
+  "capa_url": "https://lgfp.one/TJS",
+  "capa_local": "GERACAO Z NO PERRENGUE/GERACAO Z NO PERRENGUE.jpg",
+  "sinopse": "Neste reality, dez jovens adultos saem de baixo das asas dos pais para enfrentar a natureza selvagem. Será que esse grupo de mimados vai finalmente crescer?",
+  "genero": "Reality",
+  "elenco": "Joel Graves, Matt Tate, Devon Smith",
+  "diretor": "Caroline O'Shaughnessy, Gareth Birkett",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:42"
+        }
+      ]
+    }
+  ],
+  "id": 2650
+}

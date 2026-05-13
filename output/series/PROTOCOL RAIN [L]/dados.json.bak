@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzNTA=",
+  "tipo": "serie",
+  "titulo": "PROTOCOL RAIN [L]",
+  "capa_url": "https://lgfp.one/AQPE",
+  "capa_local": "PROTOCOL RAIN [L]/PROTOCOL RAIN [L].jpg",
+  "sinopse": "Shun Tokinoya está no segundo ano do Ensino Médio e trabalha na FOX ONE, um cybercafé de e-sports. Ele desiste da sua paixão por games ao perder o pai em uma acidente. Ao descobrir que o café tem dívidas, Shun deixa sua culpa de lada e reúne um time para competir no Campeonato Xaxxerion. Juntos eles encaram uma dura competição para ganhar o prêmio em dinheiro. Assista Shun e seus amigos se unirem em batalhas épicas!",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "Kensho Ono, Sora Amamiya, Inori Minase, Momo Asakura, Ryohei Kimura",
+  "diretor": "Yasutaka Yamamoto, Daishi Kato, Yasutaka Yamamoto",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:57"
+        }
+      ]
+    }
+  ],
+  "id": 4217
+}

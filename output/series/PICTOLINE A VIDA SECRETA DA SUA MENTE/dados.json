@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3OTY=",
+  "tipo": "serie",
+  "titulo": "PICTOLINE A VIDA SECRETA DA SUA MENTE",
+  "capa_url": "https://lgfp.one/ATFQ",
+  "capa_local": "PICTOLINE A VIDA SECRETA DA SUA MENTE/PICTOLINE A VIDA SECRETA DA SUA MENTE.jpg",
+  "sinopse": "Está confuso sobre por que pensa ou age da maneira que faz? Relaxa, a mente pode ser um lugar... complicado. Então, prepare-se para explorar com a Ceri os segredos e desvendar o maior mistério do universo: por que você é como é.",
+  "genero": "Animação, Comédia, Família",
+  "elenco": "Tessa Ía",
+  "diretor": "Pablo Orta, Madelein Treviño, Pablo Orta",
+  "total_episodios": "9",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:09:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:08:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:09:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:09:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:09:32"
+        }
+      ]
+    }
+  ],
+  "id": 4438
+}

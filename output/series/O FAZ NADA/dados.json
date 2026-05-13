@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTI=",
+  "tipo": "serie",
+  "titulo": "O FAZ NADA",
+  "capa_url": "https://lgfp.one/AQKW",
+  "capa_local": "O FAZ NADA/O FAZ NADA.jpg",
+  "sinopse": "Manuel é um sofisticado crítico gastronômico de Buenos Aires, provocador e amante da arte, que, apesar de ser uma figura emblemática da cultura portenha, ficou sem dinheiro graças a uma vida de desperdício para manter seu estilo confortável.",
+  "genero": "Comédia, Drama",
+  "elenco": "Robert De Niro, Luis Brandoni, Silvia Kutika, Enrique Piñeyro, Gastón Cocchiarale",
+  "diretor": "Mariano Cohn, Gastón Duprat, Mariano Cohn",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:48"
+        }
+      ]
+    }
+  ],
+  "id": 4192
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzOTA=",
+  "tipo": "serie",
+  "titulo": "GIL NA CALIFÓRNIA",
+  "capa_url": "https://lgfp.one/SQZ",
+  "capa_local": "GIL NA CALIFORNIA/GIL NA CALIFORNIA.jpg",
+  "sinopse": "A trajetória de Gil do Vigor, como é mais conhecido, desde as dificuldades da sua infância no Recife até a mudança para os Estados Unidos, onde ele cursa atualmente o doutorado.",
+  "genero": "Documentário",
+  "elenco": "Gil do Vigor",
+  "diretor": "",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:24"
+        }
+      ]
+    }
+  ],
+  "id": 2146
+}

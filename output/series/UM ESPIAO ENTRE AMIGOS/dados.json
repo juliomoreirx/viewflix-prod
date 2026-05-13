@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NTQ=",
+  "tipo": "serie",
+  "titulo": "UM ESPIAO ENTRE AMIGOS",
+  "capa_url": "https://lgfp.one/PSP0",
+  "capa_local": "UM ESPIAO ENTRE AMIGOS/UM ESPIAO ENTRE AMIGOS.jpg",
+  "sinopse": "Nicholas Elliot (Damian Lewis) trabalha como um oficial que coleta informações para o MI6, agência de inteligência do governo inglês. Em 1963, ele descobre que seu amigo Kim Philby é um agente duplo trabalhando como espião para a KGB. Baseado na obra de Ben Macintyre, a série explora as tensões entre o ocidente e oriente durante a Guerra Fria.",
+  "genero": "War & Politics, Drama",
+  "elenco": "Guy Pearce, Damian Lewis, Anna Maxwell Martin, Stephen Kunken, Adrian Edmondson",
+  "diretor": "Nick Murphy",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:30"
+        }
+      ]
+    }
+  ],
+  "id": 7837
+}

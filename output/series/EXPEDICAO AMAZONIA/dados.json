@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MDE=",
+  "tipo": "serie",
+  "titulo": "EXPEDIÇÃO AMAZÔNIA",
+  "capa_url": "https://lgfp.one/NJR1",
+  "capa_local": "EXPEDICAO AMAZONIA/EXPEDICAO AMAZONIA.jpg",
+  "sinopse": "O ex-especialista militar em demolição Mickey Grosman lidera um grupo de aspirantes a sobreviventes em uma jornada quase impossível de 8.000 quilômetros pelo coração de um dos cantos mais selvagens da América do Sul.",
+  "genero": "Documentário, Action & Adventure",
+  "elenco": "Laura Anderson, Anna Derryberry",
+  "diretor": "Vanessa Vega Rivera",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:46"
+        }
+      ]
+    }
+  ],
+  "id": 244068
+}

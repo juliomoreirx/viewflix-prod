@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNDc=",
+  "tipo": "serie",
+  "titulo": "DEIXANDO NEVERLAND (2019)",
+  "capa_url": "https://lgfp.one/SZB4",
+  "capa_local": "DEIXANDO NEVERLAND (2019)/DEIXANDO NEVERLAND (2019).jpg",
+  "sinopse": "O documentário traz a história de dois garotos, de 7 e 10 anos, hoje homens, que na época em que eram crianças, alegaram que foram abusados sexualmente por Michael Jackson.",
+  "genero": "Documentário",
+  "elenco": "James Safechuck, Wade Robson, Michael Jackson, Shane Robson, Stephanie Safechuck",
+  "diretor": "",
+  "total_episodios": "118",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:56:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:56:48"
+        }
+      ]
+    }
+  ],
+  "id": 9483
+}

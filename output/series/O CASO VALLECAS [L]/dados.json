@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NjU=",
+  "tipo": "serie",
+  "titulo": "O CASO VALLECAS [L]",
+  "capa_url": "https://lgfp.one/REY1",
+  "capa_local": "O CASO VALLECAS [L]/O CASO VALLECAS [L].jpg",
+  "sinopse": "Docussérie que explora a morte de uma garota de 17 anos em 1991, que se tornou o caso paranormal mais infame da Espanha.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:08"
+        }
+      ]
+    }
+  ],
+  "id": 8560
+}

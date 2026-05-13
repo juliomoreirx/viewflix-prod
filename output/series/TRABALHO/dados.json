@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MTc=",
+  "tipo": "serie",
+  "titulo": "TRABALHO",
+  "capa_url": "https://lgfp.one/AAGB",
+  "capa_local": "TRABALHO/TRABALHO.jpg",
+  "sinopse": "Para alguns, é só dinheiro. Para outros, uma vocação. Esta série documental analisa como os norte-americanos enxergam o trabalho neste período vertiginoso em que vivemos.",
+  "genero": "Documentário",
+  "elenco": "Barack Obama",
+  "diretor": "Davis Guggenheim, Caroline Suh",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:15"
+        }
+      ]
+    }
+  ],
+  "id": 3532
+}

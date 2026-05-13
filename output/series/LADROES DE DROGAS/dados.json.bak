@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNjA=",
+  "tipo": "serie",
+  "titulo": "LADROES DE DROGAS",
+  "capa_url": "https://lgfp.one/NIO4",
+  "capa_local": "LADROES DE DROGAS/LADROES DE DROGAS.jpg",
+  "sinopse": "Dois amigos de longa data da Filadélfia se disfarçam de policiais para roubar traficantes. Um esquema perfeito até que abordam o lugar errado e se tornam alvos de uma organização do narcotráfico.",
+  "genero": "Crime, Drama",
+  "elenco": "Brian Tyree Henry, Wagner Moura, Marin Ireland, Amir Arison, Nesta Cooper",
+  "diretor": "Ridley Scott, Raymond Kirk, Tanya Hamilton",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:38"
+        }
+      ]
+    }
+  ],
+  "id": 7036
+}

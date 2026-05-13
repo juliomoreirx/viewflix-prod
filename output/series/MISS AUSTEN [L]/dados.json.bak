@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NDU=",
+  "tipo": "serie",
+  "titulo": "MISS AUSTEN [L]",
+  "capa_url": "https://lgfp.one/NDJ0",
+  "capa_local": "MISS AUSTEN [L]/MISS AUSTEN [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Keeley Hawes, Rose Leslie, Patsy Ferran, Jessica Hynes, Mirren Mack",
+  "diretor": "Aisling Walsh",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:36"
+        }
+      ]
+    }
+  ],
+  "id": 6968
+}

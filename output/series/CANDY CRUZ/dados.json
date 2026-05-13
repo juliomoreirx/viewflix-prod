@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2Njc=",
+  "tipo": "serie",
+  "titulo": "CANDY CRUZ",
+  "capa_url": "https://lgfp.one/ATGM",
+  "capa_local": "CANDY CRUZ/CANDY CRUZ.jpg",
+  "sinopse": "Candy adora cozinhar para quem ama, mas quando entra na maior competição culinária da TV, ela descobre que suas receitas podem transformar vidas.",
+  "genero": "Comédia",
+  "elenco": "Cassandra Sánchez Navarro, Meteora Fontana, Fabrizio Santini, Paola Fernández",
+  "diretor": "John Castro Macías, Juancho Cardona, Miguel Necoechea Jr., Miguel Necoechea, David Ruiz",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:32:56"
+        }
+      ]
+    }
+  ],
+  "id": 4447
+}

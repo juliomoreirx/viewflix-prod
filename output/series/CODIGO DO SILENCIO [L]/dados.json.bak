@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1Mjg=",
+  "tipo": "serie",
+  "titulo": "CODIGO DO SILENCIO [L]",
+  "capa_url": "https://lgfp.one/QNO2",
+  "capa_local": "CODIGO DO SILENCIO [L]/CODIGO DO SILENCIO [L].jpg",
+  "sinopse": "Alison Woods, uma cozinheira surda, trabalha para sustentar sua mãe e a si mesma. A polícia pede a Alison que faça a leitura labial de conversas com criminosos perigosos.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Rose Ayling-Ellis, Kieron Moore, Charlotte Ritchie, Andrew Buchan, Nathan Armarkwei-Laryea",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:21"
+        }
+      ]
+    }
+  ],
+  "id": 8298
+}

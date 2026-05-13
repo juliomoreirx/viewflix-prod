@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MjM=",
+  "tipo": "serie",
+  "titulo": "MY SAFE ZONE [L]",
+  "capa_url": "https://lgfp.one/QNP9",
+  "capa_local": "MY SAFE ZONE [L]/MY SAFE ZONE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Lorena Schuett, หมิว ณัชชา เตชะมวคลาภิวัฒน์, Ying Anada Prakobkit, ปารีณา บุศยศิริ, พีระกฤตย์ พชรบุณยเกียรติ",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:29"
+        }
+      ]
+    }
+  ],
+  "id": 8315
+}

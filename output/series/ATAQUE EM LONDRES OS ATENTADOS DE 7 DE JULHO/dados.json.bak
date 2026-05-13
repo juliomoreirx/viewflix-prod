@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4OTA=",
+  "tipo": "serie",
+  "titulo": "ATAQUE EM LONDRES OS ATENTADOS DE 7 DE JULHO",
+  "capa_url": "https://lgfp.one/PCU3",
+  "capa_local": "ATAQUE EM LONDRES OS ATENTADOS DE 7 DE JULHO/ATAQUE EM LONDRES OS ATENTADOS DE 7 DE JULHO.jpg",
+  "sinopse": "Detalhes reveladores e imagens inéditas contam a história dos atentados de 7 de julho de 2005 à rede de transporte de Londres e suas consequências devastadoras.",
+  "genero": "Documentário, Crime",
+  "elenco": "Doug McKenna, Tony Blair, Peter Clarke, Eliza Manningham-Buller, Dan Biddle",
+  "diretor": "Liza Williams",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:08"
+        }
+      ]
+    }
+  ],
+  "id": 7516
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNjI=",
+  "tipo": "serie",
+  "titulo": "MINHA FAMÍLIA EM JOGO",
+  "capa_url": "https://lgfp.one/VYF",
+  "capa_local": "MINHA FAMILIA EM JOGO/MINHA FAMILIA EM JOGO.jpg",
+  "sinopse": "Ele tem uma casa, uma esposa e uma filha pequena. No entanto, uma tragédia recai sobre este homem aparentemente feliz quando sua filha é sequestrada. Agora, o homem que pensava que tinha tudo enfrenta inúmeras provações e tribulações, e navega na complexa teia da natureza humana. A única maneira de salvar sua amada filha é eliminando a polícia e juntando-se a sua esposa para encontrar os sequestradores.",
+  "genero": "Drama / Crime",
+  "elenco": "Kazunari Ninomiya, Mikako Tabe, Miyū Ōshima, Kento Kaku, Gaku Hamada, Kunito Watanabe, Sawako Fujima, Hiroshi Tamaki",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:26"
+        }
+      ]
+    }
+  ],
+  "id": 2994
+}

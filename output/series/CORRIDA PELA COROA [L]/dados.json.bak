@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4Njk=",
+  "tipo": "serie",
+  "titulo": "CORRIDA PELA COROA [L]",
+  "capa_url": "https://lgfp.one/NRH8",
+  "capa_local": "CORRIDA PELA COROA [L]/CORRIDA PELA COROA [L].jpg",
+  "sinopse": "Esta série documental acompanha jóqueis, treinadores e donos de cavalos em busca de vitórias e do triunfo da Tríplice Coroa, importante título no mundo do hipismo.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:22"
+        }
+      ]
+    }
+  ],
+  "id": 7228
+}

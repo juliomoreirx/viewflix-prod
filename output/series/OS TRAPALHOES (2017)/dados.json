@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNjg=",
+  "tipo": "serie",
+  "titulo": "OS TRAPALHOES (2017)",
+  "capa_url": "https://lgfp.one/BHX8",
+  "capa_local": "OS TRAPALHOES (2017)/OS TRAPALHOES (2017).jpg",
+  "sinopse": "Nessa releitura, que mantém o formato de um programa de esquetes independentes, os personagens Didi e Dedé retornam para ensinar aos novatos Didico, Dedeco, Mussa e Zaca o que significa ter o verdadeiro espírito trapalhão.",
+  "genero": "Comédia",
+  "elenco": "Lucas Veloso, Bruno Gissoni, Guilherme Santana, Mumuzinho, Renato Aragão",
+  "diretor": "Fred Mayrink",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:06"
+        }
+      ]
+    }
+  ],
+  "id": 380637
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MzQ=",
+  "tipo": "serie",
+  "titulo": "PSSICA",
+  "capa_url": "https://lgfp.one/PUF1",
+  "capa_local": "PSSICA/PSSICA.jpg",
+  "sinopse": "Quando uma adolescente é vítima de tráfico sexual, um pirata fluvial e uma mãe corajosa embarcam em jornadas paralelas para encontrá-la, até que seus caminhos se cruzam.",
+  "genero": "Action & Adventure, Drama, Crime",
+  "elenco": "Domithila Catete, Lucas Galvino, Marleyda Soto, Bruno Goya, Claudio Jaborandy",
+  "diretor": "Fernando Meirelles, Quico Meirelles, Fernando Meirelles",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:28"
+        }
+      ]
+    }
+  ],
+  "id": 7861
+}

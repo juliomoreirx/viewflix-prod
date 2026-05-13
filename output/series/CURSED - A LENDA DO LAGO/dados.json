@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMjI=",
+  "tipo": "serie",
+  "titulo": "CURSED - A LENDA DO LAGO",
+  "capa_url": "https://lgfp.one/JNA",
+  "capa_local": "CURSED - A LENDA DO LAGO/CURSED - A LENDA DO LAGO.jpg",
+  "sinopse": "Com poderes misteriosos e uma espada lendária, Nimue embarca na missão de salvar seu povo na companhia do mercenário Arthur.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Katherine Langford, Devon Terrell, Gustaf Skarsgård, Daniel Sharman, Sebastian Armesto",
+  "diretor": "Jon East, Daniel Nettheim, Zetna Fuentes, Sarah O'Gorman",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:59:56"
+        }
+      ]
+    }
+  ],
+  "id": 757
+}

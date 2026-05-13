@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDU=",
+  "tipo": "serie",
+  "titulo": "COMO SE TORNAR UM CHEFE DO CRIME",
+  "capa_url": "https://lgfp.one/ATGN",
+  "capa_local": "COMO SE TORNAR UM CHEFE DO CRIME/COMO SE TORNAR UM CHEFE DO CRIME.jpg",
+  "sinopse": "Este guia satírico e sombrio mostra a ascensão e queda dos líderes criminosos mais famosos da história e as táticas que usaram para ter sucesso.",
+  "genero": "Documentário",
+  "elenco": "Peter Dinklage, George Anastasia, Michael Franzese",
+  "diretor": "Ron Myrick, Jonah Bekhor, Rebecca Halpern",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:47"
+        }
+      ]
+    }
+  ],
+  "id": 4448
+}

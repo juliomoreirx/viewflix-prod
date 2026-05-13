@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTk=",
+  "tipo": "serie",
+  "titulo": "A VIDA DOS SANTOS",
+  "capa_url": "https://lgfp.one/ROH2",
+  "capa_local": "A VIDA DOS SANTOS/A VIDA DOS SANTOS.jpg",
+  "sinopse": "Mais do que figuras históricas, os santos oferecem um roteiro para a virtude. Conhecer suas biografias é essencial para quem busca luz sobre as incertezas da vida atual. \"A Vida dos Santos\" apresenta relatos de pessoas comuns que, em meio a provações e contextos diversos, escolheram viver com fé e humildade, servindo como exemplos atemporais de superação.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Lucas Ferrugem",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:04"
+        }
+      ]
+    }
+  ],
+  "id": 8758
+}

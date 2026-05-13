@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NjY=",
+  "tipo": "serie",
+  "titulo": "POLOWANIE NA CMY [L]",
+  "capa_url": "https://lgfp.one/QNQ7",
+  "capa_local": "POLOWANIE NA CMY [L]/POLOWANIE NA CMY [L].jpg",
+  "sinopse": "A história da Polónia e dos polacos sob partição russa, especialmente o destino de duas mulheres extraordinárias que, à luz dos estados de espírito revolucionários e dos acontecimentos turbulentos, querem mudar as suas vidas.",
+  "genero": "Drama",
+  "elenco": "Monika Krzywkowska, Sonia Mietielica, Daria Polunina, Przemysław Stippa, Piotr Siwek",
+  "diretor": "Michał Rogalski, Jakub Gryżewski, Klaudia Bielecka",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:50"
+        }
+      ]
+    }
+  ],
+  "id": 8323
+}

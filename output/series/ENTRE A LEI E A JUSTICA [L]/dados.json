@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4ODc=",
+  "tipo": "serie",
+  "titulo": "ENTRE A LEI E A JUSTICA [L]",
+  "capa_url": "https://lgfp.one/RGE3",
+  "capa_local": "ENTRE A LEI E A JUSTICA [L]/ENTRE A LEI E A JUSTICA [L].jpg",
+  "sinopse": "Michio Iruma, um ex-advogado que agora atua como juiz na Primeira Vara Criminal do Tribunal Distrital de Tóquio, é conhecido por seu jeito nada convencional. Para evitar julgamentos injustos, ele faz questão de investigar os casos pessoalmente, indo até os locais dos crimes em busca da verdade.",
+  "genero": "Drama, Comédia, Mistério",
+  "elenco": "Yutaka Takenouchi, 黒木華, 新田真剣佑, 小日向文世, 中村梅雀",
+  "diretor": "森脇智延, 星野和成, 並木道子",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:09:12"
+        }
+      ]
+    }
+  ],
+  "id": 8610
+}

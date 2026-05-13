@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMDg=",
+  "tipo": "serie",
+  "titulo": "SOBREVIVENDO À QUEDA DOS BLACK HAWKS",
+  "capa_url": "https://lgfp.one/MXK2",
+  "capa_local": "SOBREVIVENDO A QUEDA DOS BLACK HAWKS/SOBREVIVENDO A QUEDA DOS BLACK HAWKS.jpg",
+  "sinopse": "Com detalhes incríveis, soldados norte-americanos e guerreiros da Somália relembram a Batalha de Mogadíscio e a famosa queda de três helicópteros Black Hawk em 1993.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Alex Brockdorff, Tom Satterly, Reggie McHale",
+  "diretor": "Salem Daldoul",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:15"
+        }
+      ]
+    }
+  ],
+  "id": 6862
+}

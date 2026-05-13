@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NjE=",
+  "tipo": "serie",
+  "titulo": "A ARTE DO CRIME",
+  "capa_url": "https://lgfp.one/RBF",
+  "capa_local": "A ARTE DO CRIME/A ARTE DO CRIME.jpg",
+  "sinopse": "A realidade dos crimes e a intriga por trás da fachada glamurosa das grandes casas de leilões de Nova York.",
+  "genero": "Crime, Drama",
+  "elenco": "Christian Cooke, Kate Bosworth, Cary Elwes, Dennis Quaid, Patrick Sabongui",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:15"
+        }
+      ]
+    }
+  ],
+  "id": 842
+}

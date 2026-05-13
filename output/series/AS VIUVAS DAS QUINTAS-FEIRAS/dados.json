@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNTA=",
+  "tipo": "serie",
+  "titulo": "AS VIUVAS DAS QUINTAS-FEIRAS",
+  "capa_url": "https://lgfp.one/AAZB",
+  "capa_local": "AS VIUVAS DAS QUINTAS-FEIRAS/AS VIUVAS DAS QUINTAS-FEIRAS.jpg",
+  "sinopse": "Teresa encontra o marido e os dois melhores amigos dele mortos no condomínio de luxo onde moram. A busca pela verdade revela segredos sombrios.",
+  "genero": "Drama, Crime",
+  "elenco": "Omar Chaparro, Cassandra Ciangherotti, Irene Azuela, Juan Pablo Medina, Zuria Vega",
+  "diretor": "Humberto Hinojosa, Ozcariz",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:23"
+        }
+      ]
+    }
+  ],
+  "id": 3993
+}

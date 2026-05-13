@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyODc=",
+  "tipo": "serie",
+  "titulo": "A VIRADA",
+  "capa_url": "https://lgfp.one/AAFR",
+  "capa_local": "A VIRADA/A VIRADA.jpg",
+  "sinopse": "Acompanhe os bastidores do Cruzeiro, dentro e fora de campo, durante a temporada que terminou com a glória do acesso após Ronaldo Nazário assumir o controle do clube.",
+  "genero": "Documentário",
+  "elenco": "Ronaldo, Rodrigo Capelo, Samuel Rosa, Thairo Arruda, Lênin Franco, Juca Kfouri",
+  "diretor": "Marcelo Pizzi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:22"
+        }
+      ]
+    }
+  ],
+  "id": 322116
+}

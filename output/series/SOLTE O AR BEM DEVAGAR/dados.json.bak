@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTc=",
+  "tipo": "serie",
+  "titulo": "SOLTE O AR BEM DEVAGAR",
+  "capa_url": "https://lgfp.one/TQV",
+  "capa_local": "SOLTE O AR BEM DEVAGAR/SOLTE O AR BEM DEVAGAR.jpg",
+  "sinopse": "Ambientado no universo do basquete universitário feminino de alto risco, a série segue J.C. Abernathy, uma treinadora bem-sucedida de um time de basquete universitário feminino que se encontra no meio de um escândalo de abuso sexual potencialmente destruidor de carreira.",
+  "genero": "Drama",
+  "elenco": "Rose Rollins, Josh Lucas, Lyriq Bent, Ian Harding, Shalini Bathina",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:47:47"
+        }
+      ]
+    }
+  ],
+  "id": 2845
+}

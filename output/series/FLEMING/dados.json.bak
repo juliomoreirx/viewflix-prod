@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MDM=",
+  "tipo": "serie",
+  "titulo": "FLEMING",
+  "capa_url": "https://lgfp.one/ROT",
+  "capa_local": "FLEMING/FLEMING.jpg",
+  "sinopse": "Um drama cheio de ação baseado na história de vida de Ian Fleming, o criador de James Bond.",
+  "genero": "Drama",
+  "elenco": "Dominic Cooper, Lara Pulver, Samuel West, Anna Chancellor, Rupert Evans",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:12"
+        }
+      ]
+    }
+  ],
+  "id": 1211
+}

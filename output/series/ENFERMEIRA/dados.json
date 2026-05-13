@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MzA=",
+  "tipo": "serie",
+  "titulo": "ENFERMEIRA",
+  "capa_url": "https://lgfp.one/ZQK",
+  "capa_local": "ENFERMEIRA/ENFERMEIRA.jpg",
+  "sinopse": "Recém-chegada ao hospital, uma enfermeira desconfia que o desejo da colega por atenção pode estar ligado a várias mortes de pacientes.",
+  "genero": "Crime, Drama",
+  "elenco": "Josephine Park, Fanny Louise Bernth, Peter Zandersen, Dick Kaysø, Selma Kjær Kuscu",
+  "diretor": "Kasper Barfoed",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 3450
+}

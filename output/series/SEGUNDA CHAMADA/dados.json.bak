@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1Mzg=",
+  "tipo": "serie",
+  "titulo": "SEGUNDA CHAMADA",
+  "capa_url": "https://lgfp.one/ISL",
+  "capa_local": "SEGUNDA CHAMADA/SEGUNDA CHAMADA.jpg",
+  "sinopse": "No ensino noturno para jovens e adultos da EE Carolina Maria de Jesus, Jaci, Lúcia, Eliete, Marco André e Sônia trabalham em prol do poder de transformação social da Educação.",
+  "genero": "Drama",
+  "elenco": "Débora Bloch, Thalita Carauta, Paulo Gorgulho, Hermila Guedes, Sílvio Guindane",
+  "diretor": "Carla Faour",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:36:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:45"
+        }
+      ]
+    }
+  ],
+  "id": 152
+}

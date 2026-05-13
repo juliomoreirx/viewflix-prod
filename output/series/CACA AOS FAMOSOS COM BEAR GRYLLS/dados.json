@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMTQ=",
+  "tipo": "serie",
+  "titulo": "CAÇA AOS FAMOSOS COM BEAR GRYLLS",
+  "capa_url": "https://lgfp.one/MVV3",
+  "capa_local": "CACA AOS FAMOSOS COM BEAR GRYLLS/CACA AOS FAMOSOS COM BEAR GRYLLS.jpg",
+  "sinopse": "Holly Willoughby apresenta este reality ambientado na selva costarriquenha, onde 12 celebridades se tornam alvo do famoso especialista em sobrevivência Bear Grylls.",
+  "genero": "Reality",
+  "elenco": "Bear Grylls, Holly Willoughby",
+  "diretor": "James Tyndall",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:26"
+        }
+      ]
+    }
+  ],
+  "id": 6840
+}

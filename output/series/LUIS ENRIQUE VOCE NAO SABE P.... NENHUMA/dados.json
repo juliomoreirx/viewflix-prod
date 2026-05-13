@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0ODA=",
+  "tipo": "serie",
+  "titulo": "LUIS ENRIQUE: VOCÊ NÃO SABE P.... NENHUMA",
+  "capa_url": "https://lgfp.one/EFE8",
+  "capa_local": "LUIS ENRIQUE VOCE NAO SABE P.... NENHUMA/LUIS ENRIQUE VOCE NAO SABE P.... NENHUMA.jpg",
+  "sinopse": "Conheça o lado íntimo do técnico Luis Enrique enquanto ele enfrenta seu maior desafio até agora: ganhar a primeira Champions League para o PSG.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:31"
+        }
+      ]
+    }
+  ],
+  "id": 6206
+}

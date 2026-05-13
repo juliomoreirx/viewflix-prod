@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMzc=",
+  "tipo": "serie",
+  "titulo": "LEO BATISTA A VOZ MARCANTE",
+  "capa_url": "https://lgfp.one/DQC7",
+  "capa_local": "LEO BATISTA A VOZ MARCANTE/LEO BATISTA A VOZ MARCANTE.jpg",
+  "sinopse": "Um tributo a um dos jornalistas mais importantes da história do Brasil: Léo Batista.",
+  "genero": "Documentário",
+  "elenco": "Léo Batista",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:28"
+        }
+      ]
+    }
+  ],
+  "id": 5991
+}

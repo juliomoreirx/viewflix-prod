@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNjg=",
+  "tipo": "serie",
+  "titulo": "BARÃO 40",
+  "capa_url": "https://lgfp.one/AAOA",
+  "capa_local": "BARAO 40/BARAO 40.jpg",
+  "sinopse": "Quarenta anos após seu início, os fundadores do Barão Vermelho revisitam o repertório e sua história, em um doc-concerto em quatro episódios: hits, blues, clássicos e acústico.",
+  "genero": "",
+  "elenco": "Rodrigo Suricato, Fernando Magalhães, Maurício Barros, Guto Goffi",
+  "diretor": "",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:23"
+        }
+      ]
+    }
+  ],
+  "id": 3708
+}

@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5Mzc=",
+  "tipo": "serie",
+  "titulo": "PINK UM AMOR DE VERAO",
+  "capa_url": "https://lgfp.one/ARKS",
+  "capa_local": "PINK UM AMOR DE VERAO/PINK UM AMOR DE VERAO.jpg",
+  "sinopse": "A história começa quando a surfista Pink, larga as competições e passa a dar aulas numa escolinha de surf que funciona no K8, famoso pico de surfistas e kitesurfistas na praia da Barra da Tijuca no Rio de Janeiro. Na escolinha Pink conhece Cris e as duas acabam se envolvendo. Só que tem a Dedé, ex namorada da Pink, que ao perceber a presença de Cris resolve querer voltar com a antiga crush.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "5",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:37"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:28:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:20:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:17:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:15:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:24:35"
+        }
+      ]
+    }
+  ],
+  "id": 4279
+}

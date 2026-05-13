@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2NTQ=",
+  "tipo": "serie",
+  "titulo": "HOT WHEELS A BATALHA DA CUSTOMIZACAO",
+  "capa_url": "https://lgfp.one/ATPA",
+  "capa_local": "HOT WHEELS A BATALHA DA CUSTOMIZACAO/HOT WHEELS A BATALHA DA CUSTOMIZACAO.jpg",
+  "sinopse": "A cada episódio, dois candidatos competem, usando suas histórias pessoais e elementos da cultura pop para transformar seus carros em Hot Wheels.",
+  "genero": "Reality",
+  "elenco": "Rutledge Wood, Joel McHale, Terry Crews",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:00"
+        }
+      ]
+    }
+  ],
+  "id": 228550
+}

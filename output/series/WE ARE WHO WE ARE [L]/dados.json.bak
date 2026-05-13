@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MzA=",
+  "tipo": "serie",
+  "titulo": "WE ARE WHO WE ARE [L]",
+  "capa_url": "https://lgfp.one/RYH",
+  "capa_local": "WE ARE WHO WE ARE [L]/WE ARE WHO WE ARE [L].jpg",
+  "sinopse": "Dois adolescentes americanos crescem enquanto vivem em uma base militar dos Estado Unidos na Itália.",
+  "genero": "Drama",
+  "elenco": "Jack Dylan Grazer, Jordan Kristine Seamón, Kid Cudi, Francesca Scorsese",
+  "diretor": "",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:16:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:23"
+        }
+      ]
+    }
+  ],
+  "id": 2261
+}

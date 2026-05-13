@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NjA=",
+  "tipo": "serie",
+  "titulo": "BLUFF CITY LAW",
+  "capa_url": "https://lgfp.one/RCX",
+  "capa_local": "BLUFF CITY LAW/BLUFF CITY LAW.jpg",
+  "sinopse": "Após a morte da mãe, a brilhante advogada Sidney Strait aceita trabalhar com o pai no renomado escritório da família, buscando justiça em casos controversos.",
+  "genero": "Drama",
+  "elenco": "Jimmy Smits, Caitlin McGee, Barry Sloane, Michael Luwoye, Maameyaa Boafo",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:06"
+        }
+      ]
+    }
+  ],
+  "id": 887
+}

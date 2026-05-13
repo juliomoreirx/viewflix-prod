@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MDA=",
+  "tipo": "serie",
+  "titulo": "VERIFIED STAND UP [L]",
+  "capa_url": "https://lgfp.one/AUUZ",
+  "capa_local": "VERIFIED STAND UP [L]/VERIFIED STAND UP [L].jpg",
+  "sinopse": "Dez comediantes, dez apresentações dinâmicas e dois episódios para rir até dizer chega. Seu novo stand-up preferido é este aqui, no palco do Webster Hall em Nova York.",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:35"
+        }
+      ]
+    }
+  ],
+  "id": 4567
+}

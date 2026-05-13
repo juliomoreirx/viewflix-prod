@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3OTU=",
+  "tipo": "serie",
+  "titulo": "ILHAS TROPICAIS",
+  "capa_url": "https://lgfp.one/ORL4",
+  "capa_local": "ILHAS TROPICAIS/ILHAS TROPICAIS.jpg",
+  "sinopse": "Conheça os encantos e mistérios de Madagascar, a mais antiga ilha da Terra. Ao longo de milênios, ela deu lugar a mais plantas e animais excepcionais que qualquer outra ilha do planeta, de lêmures a camaleões.",
+  "genero": "Documentário",
+  "elenco": "David Harewood",
+  "diretor": "Mark Brownlow, Kathryn Jeffs",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:12"
+        }
+      ]
+    }
+  ],
+  "id": 7415
+}

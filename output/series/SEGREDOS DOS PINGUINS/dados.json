@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMTE=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS DOS PINGUINS",
+  "capa_url": "https://lgfp.one/NRF2",
+  "capa_local": "SEGREDOS DOS PINGUINS/SEGREDOS DOS PINGUINS.jpg",
+  "sinopse": "Durante dois anos extraordinários, Bertie Gregory, explorador da National Geographic, descobriu tradições secretas nunca filmadas e atos de inteligência surpreendentes nas sociedades muito unidas dos pinguins. Esta série impressionante revela que eles são mais parecidos conosco do que pensamos, começando pela amizade poderosa e chegando aos aventureiros corajosos que recorrem à engenhosidade e à inovação num dos lugares mais extremos do mundo.",
+  "genero": "Documentário",
+  "elenco": "Blake Lively, Bertie Gregory",
+  "diretor": "James Cameron, Heather Cruickshank, Ruth Peacey",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:13"
+        }
+      ]
+    }
+  ],
+  "id": 7226
+}

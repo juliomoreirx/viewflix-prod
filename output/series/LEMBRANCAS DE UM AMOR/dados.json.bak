@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNjE=",
+  "tipo": "serie",
+  "titulo": "LEMBRANCAS DE UM AMOR",
+  "capa_url": "https://lgfp.one/PVI6",
+  "capa_local": "LEMBRANCAS DE UM AMOR/LEMBRANCAS DE UM AMOR.jpg",
+  "sinopse": "",
+  "genero": "Drama, Comédia",
+  "elenco": "Hande Erçel, Barış Arduç, Begüm Akkaya, Başak Gümülcinelioğlu, Feyyaz Şerifoğlu",
+  "diretor": "Özgür Önurme",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:30"
+        }
+      ]
+    }
+  ],
+  "id": 7921
+}

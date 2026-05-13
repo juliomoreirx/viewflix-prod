@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NTE=",
+  "tipo": "serie",
+  "titulo": "NEYMAR: O CAOS PERFEITO",
+  "capa_url": "https://lgfp.one/SVF",
+  "capa_local": "NEYMAR O CAOS PERFEITO/NEYMAR O CAOS PERFEITO.jpg",
+  "sinopse": "Aclamado e criticado no mundo todo, Neymar compartilha os altos e baixos de sua vida pessoal e da brilhante carreira no futebol.",
+  "genero": "Documentário",
+  "elenco": "Neymar, Lionel Messi, Kylian Mbappé, Thiago Silva, Dani Alves",
+  "diretor": "David Charles Rodrigues",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:03"
+        }
+      ]
+    }
+  ],
+  "id": 2262
+}

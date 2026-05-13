@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0Mjg=",
+  "tipo": "serie",
+  "titulo": "JUN E JUN [L]",
+  "capa_url": "https://lgfp.one/AAYA",
+  "capa_local": "JUN E JUN [L]/JUN E JUN [L].jpg",
+  "sinopse": "Ex-cantor, Lee Jun, vê seu mundo de escritório virar de cabeça para baixo com a chegada de seu antigo amor, Choi Jun, como chefe de departamento. Uma história de amor reacende no ambiente corporativo. Quem fará o primeiro movimento: o estagiário ou o atraente chefe de departamento?",
+  "genero": "Drama",
+  "elenco": "Ki Hyun-woo, Yang Jun-mo, Jo Chan-hyun, Park Hyeong-seop, Yeoreum",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:27"
+        }
+      ]
+    }
+  ],
+  "id": 3966
+}

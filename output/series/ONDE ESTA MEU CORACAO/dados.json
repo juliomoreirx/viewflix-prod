@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0Mzk=",
+  "tipo": "serie",
+  "titulo": "ONDE ESTÁ MEU CORAÇÃO",
+  "capa_url": "https://lgfp.one/RRC",
+  "capa_local": "ONDE ESTA MEU CORACAO/ONDE ESTA MEU CORACAO.jpg",
+  "sinopse": "Amanda enfrenta sua própria guerra particular, diante da relação íntima e destrutiva com as drogas, de uma pressão familiar constante e da fragilidade de seu casamento com Miguel.",
+  "genero": "Drama",
+  "elenco": "Letícia Colin, Mariana Lima, Fábio Assunção, Daniel de Oliveira, Manu Morelli",
+  "diretor": "Noa Bressane, Luisa Lima",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:05"
+        }
+      ]
+    }
+  ],
+  "id": 1276
+}

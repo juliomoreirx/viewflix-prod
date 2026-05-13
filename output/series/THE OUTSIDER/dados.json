@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MzQ=",
+  "tipo": "serie",
+  "titulo": "THE OUTSIDER",
+  "capa_url": "https://lgfp.one/JFL",
+  "capa_local": "THE OUTSIDER/THE OUTSIDER.jpg",
+  "sinopse": "Baseado no romance de Stephen King, este thriller psicológico segue um detetive e uma investigadora particular que investigam o caso do macabro assassinato de um menino e a sinistra força sobrenatural que o ronda.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Ben Mendelsohn, Cynthia Erivo, Bill Camp, Mare Winningham, Paddy Considine",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:55"
+        }
+      ]
+    }
+  ],
+  "id": 35057
+}

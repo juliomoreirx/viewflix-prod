@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MTA=",
+  "tipo": "serie",
+  "titulo": "INDÚSTRIA",
+  "capa_url": "https://lgfp.one/RJT",
+  "capa_local": "INDUSTRIA/INDUSTRIA.jpg",
+  "sinopse": "Um grupo de jovens recém-formados compete por um número limitado de vagas de emprego num dos principais bancos de investimento de Londres.",
+  "genero": "Drama",
+  "elenco": "Myha'la Herrold, Marisa Abela, Harry Lawtey, David Jonsson, Nabhaan Rizwan",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:04"
+        }
+      ]
+    }
+  ],
+  "id": 1075
+}

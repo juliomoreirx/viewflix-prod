@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2ODk=",
+  "tipo": "serie",
+  "titulo": "EL PRESIDENTE [L]",
+  "capa_url": "https://lgfp.one/JNB",
+  "capa_local": "EL PRESIDENTE [L]/EL PRESIDENTE [L].jpg",
+  "sinopse": "Os detalhes sobre o escândalo esportivo que abalou o mundo e ficou conhecido como \"FIFA Gate\". em 2015, Jadue, presidente de um pequeno time de futebol chileno, se tornou um dos principais envolvidos em um esquema de corrupção do presidente da associação de futebol argentino, Julio Grondona.",
+  "genero": "Drama",
+  "elenco": "Karla Souza, Andrés Parra, Paulina Gaitán, Luis Gnecco, Luis Margani",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:26"
+        }
+      ]
+    }
+  ],
+  "id": 2247
+}

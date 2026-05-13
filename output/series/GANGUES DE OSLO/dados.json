@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNTg=",
+  "tipo": "serie",
+  "titulo": "GANGUES DE OSLO",
+  "capa_url": "https://lgfp.one/AAXX",
+  "capa_local": "GANGUES DE OSLO/GANGUES DE OSLO.jpg",
+  "sinopse": "O policial Moaz Ibrahim é forçado a viver uma vida dupla perigosa com a gangue criminosa Enemiez como uma tentativa de manter seu passado sombrio escondido do mundo exterior",
+  "genero": "Crime, Drama",
+  "elenco": "Emir Zamwa, Mohammed Youssef, Ishak Kaya, Christopher Rygh, Heidi Toini",
+  "diretor": "Ole Endresen",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:40"
+        }
+      ]
+    }
+  ],
+  "id": 3963
+}

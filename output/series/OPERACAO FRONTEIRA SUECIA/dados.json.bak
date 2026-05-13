@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NTU=",
+  "tipo": "serie",
+  "titulo": "OPERACAO FRONTEIRA SUECIA",
+  "capa_url": "https://lgfp.one/DLA0",
+  "capa_local": "OPERACAO FRONTEIRA SUECIA/OPERACAO FRONTEIRA SUECIA.jpg",
+  "sinopse": "Os serviços de segurança e alfândega na fronteira da Suécia estão em constante vigilância para impedir a entrada de artigos ilegais no país. É seu trabalho detectar crimes.",
+  "genero": "Crime, Documentário, Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:38:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:40:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:40:14"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:39:44"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:40:17"
+        }
+      ]
+    }
+  ],
+  "id": 5922
+}

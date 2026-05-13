@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNTQ=",
+  "tipo": "serie",
+  "titulo": "THUNDARR O BARBARO (1980)",
+  "capa_url": "https://lgfp.one/SOE7",
+  "capa_local": "THUNDARR O BARBARO (1980)/THUNDARR O BARBARO (1980).jpg",
+  "sinopse": "Thundarr the Barbarian (No Brasil: Thundarr, o bárbaro[1] ou Os Bárbaros)[2] foi um desenho animado de fantasia científica produzido pela empresa Ruby Spears no começo dos anos 80. Conta a história do bárbaro chamado Thundarr em um cenário apocalíptico e as suas aventuras. Thundarr era ajudado pela feiticeira Ariel e por Ookla.\n\nO design de personagens foi feito por duas lendas: Alex Toth e Jack Kirby, além dos roteiristas Martin Pasko e Steve Gerber.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Robert Ridgely, Henry Corden, Nellie Bellflower, Dick Tufeld",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:33"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:33"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:20:35"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:20:34"
+        }
+      ]
+    }
+  ],
+  "id": 9260
+}

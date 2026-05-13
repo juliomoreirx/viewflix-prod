@@ -1,0 +1,135 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MTM=",
+  "tipo": "serie",
+  "titulo": "LARGADOS E PELADOS BRASIL",
+  "capa_url": "https://lgfp.one/SOY",
+  "capa_local": "LARGADOS E PELADOS BRASIL/LARGADOS E PELADOS BRASIL.jpg",
+  "sinopse": "Em um novo formato de desafio de sobrevivência: os episódios viajam o mundo e vão a selvas, desertos e montanhas cobertas de neve para documentar o confronto dos participantes com as vulnerabilidades de nossa espécie enquanto eles se propõem a passar os dias na natureza selvagem, sem roupas e munidos apenas de um mapa e de utensílios elementares.",
+  "genero": "Reality",
+  "elenco": "Fernando Monezzi, Gisleine Cruz, Léti Moupa",
+  "diretor": "",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:44"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:06:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:53:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:53:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:02:36"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:54:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:51:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "01:02:45"
+        }
+      ]
+    }
+  ],
+  "id": 228523
+}

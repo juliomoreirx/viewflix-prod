@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1Njg=",
+  "tipo": "serie",
+  "titulo": "A CÚMPLICE DO MAL: MONIQUE OLIVIER [L]",
+  "capa_url": "https://lgfp.one/AAPF",
+  "capa_local": "A CUMPLICE DO MAL MONIQUE OLIVIER [L]/A CUMPLICE DO MAL MONIQUE OLIVIER [L].jpg",
+  "sinopse": "Entre 1987 e 2003, Michel Fourniret ficou conhecido como o maior assassino da França. Mas a esposa dele era um enigma: será que ela era vítima… ou cúmplice?",
+  "genero": "Documentário, Crime",
+  "elenco": "Francis Nachbar, Gérard Chemla, Richard Delgenes, Cédric Visart De Bogarmé, Jean-Luc Ployé",
+  "diretor": "Christophe Astruc, Michelle Fines",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:22"
+        }
+      ]
+    }
+  ],
+  "id": 3739
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MTI=",
+  "tipo": "serie",
+  "titulo": "DETETIVE BELASCOARAN",
+  "capa_url": "https://lgfp.one/NZG9",
+  "capa_local": "DETETIVE BELASCOARAN/DETETIVE BELASCOARAN.jpg",
+  "sinopse": "Héctor Belascoarán larga o emprego e o casamento monótono para virar detetive independente e investigar casos criminosos chocantes na Cidade do México da década de 1970.",
+  "genero": "Crime, Drama",
+  "elenco": "Luis Gerardo Méndez, Paulina Gaitán, Irene Azuela, Silverio Palacios, Enrique Arreola",
+  "diretor": "Gonzalo Amat, Ernesto Contreras, Hiromi Kamata",
+  "total_episodios": "75",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:21:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:17:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:11:20"
+        }
+      ]
+    }
+  ],
+  "id": 7347
+}

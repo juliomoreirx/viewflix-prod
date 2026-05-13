@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyOTg=",
+  "tipo": "serie",
+  "titulo": "À PROVA DE RISCO",
+  "capa_url": "https://lgfp.one/TBK",
+  "capa_local": "A PROVA DE RISCO/A PROVA DE RISCO.jpg",
+  "sinopse": "Tim Kennedy explora as habilidades necessárias para se tornar um piloto de testes.",
+  "genero": "Reality",
+  "elenco": "Tim Kennedy",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 2426
+}

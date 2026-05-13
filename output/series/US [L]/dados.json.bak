@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNjY=",
+  "tipo": "serie",
+  "titulo": "US [L]",
+  "capa_url": "https://lgfp.one/LNT1",
+  "capa_local": "US [L]/US [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "ภัทราภัสร์ โบรัชตะสุวรรณ์, ทสร กลิ่นเนียม, Harit Cheewagaroon, เบญญาภา จีนประสม, รัตนวดี วงศ์ทอง",
+  "diretor": "Kanittha Kwanyu",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:10:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:24"
+        }
+      ]
+    }
+  ],
+  "id": 6820
+}

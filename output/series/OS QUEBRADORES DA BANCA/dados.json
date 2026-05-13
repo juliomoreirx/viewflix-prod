@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MjA=",
+  "tipo": "serie",
+  "titulo": "OS QUEBRADORES DA BANCA",
+  "capa_url": "https://lgfp.one/DFE1",
+  "capa_local": "OS QUEBRADORES DA BANCA/OS QUEBRADORES DA BANCA.jpg",
+  "sinopse": "Esta série conta histórias surpreendentes de pessoas que arriscam tudo para faturar alto em jogos de azar. Cada episódio é apavorante, divertido, inesquecível e repleto de perspectivas únicas.",
+  "genero": "Documentário, Reality, Crime",
+  "elenco": "Michael J. Gwynn, Matthew Tarutis, Nate Terani",
+  "diretor": "Daniel Zagayer, Seth Goolnik",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:28"
+        }
+      ]
+    }
+  ],
+  "id": 5798
+}

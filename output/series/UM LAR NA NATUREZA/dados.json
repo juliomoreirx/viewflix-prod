@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyODM=",
+  "tipo": "serie",
+  "titulo": "UM LAR NA NATUREZA",
+  "capa_url": "https://lgfp.one/AAKN",
+  "capa_local": "UM LAR NA NATUREZA/UM LAR NA NATUREZA.jpg",
+  "sinopse": "",
+  "genero": "Documentário, Reality",
+  "elenco": "Jim Baird, Tori Baird",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:03"
+        }
+      ]
+    }
+  ],
+  "id": 3620
+}

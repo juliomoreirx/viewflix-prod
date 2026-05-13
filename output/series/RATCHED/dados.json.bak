@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Nzk=",
+  "tipo": "serie",
+  "titulo": "RATCHED",
+  "capa_url": "https://lgfp.one/RES",
+  "capa_local": "RATCHED/RATCHED.jpg",
+  "sinopse": "Em 1947, Mildred Ratched começa a trabalhar como enfermeira em um hospital psiquiátrico, mas por trás da aparência impecável, cresce uma alma sombria.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Sarah Paulson, Finn Wittrock, Jon Jon Briones, Judy Davis, Cynthia Nixon",
+  "diretor": "Ryan Murphy, Michael Uppendahl",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:06"
+        }
+      ]
+    }
+  ],
+  "id": 938
+}

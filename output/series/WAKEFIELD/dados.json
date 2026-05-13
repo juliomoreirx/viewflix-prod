@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNzE=",
+  "tipo": "serie",
+  "titulo": "WAKEFIELD",
+  "capa_url": "https://lgfp.one/SRZ",
+  "capa_local": "WAKEFIELD/WAKEFIELD.jpg",
+  "sinopse": "Nik Katira é um enfermeiro psiquiátrico muito talentoso que trabalha no hospital Wakefield. À medida que seus pacientes melhoram, a sanidade de Nik é ameaçada por um trauma reprimido de seu passado que começa a vir à tona.",
+  "genero": "Mistério / Drama",
+  "elenco": "Rudi Dharmalingam, Geraldine Hakewill, Harry Greenwood, Bessie Holland, Mandy McElhinney, Felicity Ward",
+  "diretor": "Kristen Dunphy",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:53"
+        }
+      ]
+    }
+  ],
+  "id": 2174
+}

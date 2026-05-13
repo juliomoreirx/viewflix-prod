@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxODA=",
+  "tipo": "serie",
+  "titulo": "RESTAURANTES EM RISCO",
+  "capa_url": "https://lgfp.one/IQN",
+  "capa_local": "RESTAURANTES EM RISCO/RESTAURANTES EM RISCO.jpg",
+  "sinopse": "Três especialistas em culinária e design viajam pelo mundo transformando restaurantes decadentes em lugares dignos da cultura local e das paisagens maravilhosas ao redor.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:01"
+        }
+      ]
+    }
+  ],
+  "id": 98
+}

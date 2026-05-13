@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1OTQ=",
+  "tipo": "serie",
+  "titulo": "VANISHED",
+  "capa_url": "https://lgfp.one/ROI2",
+  "capa_local": "VANISHED/VANISHED.jpg",
+  "sinopse": "As férias românticas de Alice Monroe na França se tornam um mistério perigoso quando seu namorado Tom Parker desaparece de um trem para Arles, forçando-a a descobrir verdades ocultas sobre seu passado.",
+  "genero": "Drama, Mistério",
+  "elenco": "Kaley Cuoco, Sam Claflin, Karin Viard, Matthias Schweighöfer, Simon Abkarian",
+  "diretor": "Laura Petoin",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:37"
+        }
+      ]
+    }
+  ],
+  "id": 8768
+}

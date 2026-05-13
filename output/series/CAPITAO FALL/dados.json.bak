@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzODk=",
+  "tipo": "serie",
+  "titulo": "CAPITÃO FALL",
+  "capa_url": "https://lgfp.one/AAQJ",
+  "capa_local": "CAPITAO FALL/CAPITAO FALL.jpg",
+  "sinopse": "Um capitão ingênuo é contratado para assumir o leme de um navio de cruzeiro de luxo, mas acaba virando o bode expiatório perfeito de uma operação de contrabando.",
+  "genero": "Comédia, Animação",
+  "elenco": "Jason Ritter, Christopher Meloni, Anthony Carrigan, Alejandro Edda, Adam Devine",
+  "diretor": "Joel Trussell, Johanna Ramm, Adam Parton",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:30"
+        }
+      ]
+    }
+  ],
+  "id": 3769
+}

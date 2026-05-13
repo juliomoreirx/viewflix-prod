@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNTA=",
+  "tipo": "serie",
+  "titulo": "INFERNO EM LA PALMA",
+  "capa_url": "https://lgfp.one/KGV7",
+  "capa_local": "INFERNO EM LA PALMA/INFERNO EM LA PALMA.jpg",
+  "sinopse": "Uma família norueguesa de férias em La Palma enfrenta um desastre quando uma jovem pesquisadora descobre sinais alarmantes de uma erupção vulcânica iminente.",
+  "genero": "Drama",
+  "elenco": "Anders Baasmo Christiansen, Ingrid Bolsø Berdal, Alma Günther, Bernard Storm Lager, Jenny Evensen",
+  "diretor": "Kasper Barfoed",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:38"
+        }
+      ]
+    }
+  ],
+  "id": 6378
+}

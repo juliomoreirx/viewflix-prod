@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NTI=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS DO ARSENAL DE ESPIONAGEM",
+  "capa_url": "https://lgfp.one/DKH0",
+  "capa_local": "SEGREDOS DO ARSENAL DE ESPIONAGEM/SEGREDOS DO ARSENAL DE ESPIONAGEM.jpg",
+  "sinopse": "Esta série levará você para o mundo das armas mortais, grande parte dele um universo à parte que foi mantido em segredo – até agora! Em cada episódio, apresentamos o passado, o presente e o futuro das armas mais destrutivas, mais precisas e mais eficazes já criadas, assim como aquelas que ainda estão em desenvolvimento – desde as primeiras pedras, paus ou até ossos usados no alvorecer da humanidade, até os modernos campos de batalha inteligentes, de balões de ar quente a drones letais e precisos, sem esquecer as Armas de Destruição em Massa, algumas delas tão cruéis que foram oficialmente banidas!",
+  "genero": "Documentário",
+  "elenco": "Hamlet Yousef, Gary Harrington",
+  "diretor": "Paul Dean",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:22"
+        }
+      ]
+    }
+  ],
+  "id": 5914
+}

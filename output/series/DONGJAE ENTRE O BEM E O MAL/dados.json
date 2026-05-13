@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNjE=",
+  "tipo": "serie",
+  "titulo": "DONGJAE ENTRE O BEM E O MAL",
+  "capa_url": "https://lgfp.one/NLH3",
+  "capa_local": "DONGJAE ENTRE O BEM E O MAL/DONGJAE ENTRE O BEM E O MAL.jpg",
+  "sinopse": "Seo Dong-jae, enfrentando um futuro sombrio devido à sua reputação manchada como um promotor corrupto, é designado para um novo caso de alto perfil. Esta nova tarefa o empurra a navegar em um equilíbrio perigoso entre seus instintos de promotor e inclinações oportunistas.",
+  "genero": "Mistério, Drama",
+  "elenco": "이준혁, 박성웅, 현봉식, 이항나, Jung Woon-sun",
+  "diretor": "Park Gun-ho",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:36"
+        }
+      ]
+    }
+  ],
+  "id": 7095
+}

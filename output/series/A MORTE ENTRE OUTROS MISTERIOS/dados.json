@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMTU=",
+  "tipo": "serie",
+  "titulo": "A MORTE ENTRE OUTROS MISTERIOS",
+  "capa_url": "https://lgfp.one/AYPM",
+  "capa_local": "A MORTE ENTRE OUTROS MISTERIOS/A MORTE ENTRE OUTROS MISTERIOS.jpg",
+  "sinopse": "Como você resolve um assassinato em um mundo pós-fato? Especialmente ao navegar pelo Mediterrâneo em um transatlântico cheio de ricos e poderosos. Todos a bordo estão escondendo alguma coisa... mas um deles é um assassino? É isso que o maior detetive do mundo, Rufus Cotesworth, e seu protegido pretendem descobrir. A verdade a todo custo.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Violett Beane, Mandy Patinkin, Lauren Patten, Hugo Diego Garcia, Angela Zhou",
+  "diretor": "David Petrarca, Marc Webb",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:23"
+        }
+      ]
+    }
+  ],
+  "id": 4843
+}

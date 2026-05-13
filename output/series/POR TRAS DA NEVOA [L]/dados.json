@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNzY=",
+  "tipo": "serie",
+  "titulo": "POR TRÁS DA NÉVOA [L]",
+  "capa_url": "https://lgfp.one/AAQC",
+  "capa_local": "POR TRAS DA NEVOA [L]/POR TRAS DA NEVOA [L].jpg",
+  "sinopse": "Quando um noivo NRI é encontrado morto dias antes de seu casamento no interior de Punjab, dois policiais devem desvendar o caso preocupante enquanto a turbulência se desenrola em suas próprias vidas.",
+  "genero": "Crime, Drama",
+  "elenco": "Suvinder Vicky, Barun Sobti, Manish Chaudhary, Varun Badola, Harleen Sethi",
+  "diretor": "Randeep Jha, Ankit Malik",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:24"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:48:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:55:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:00:23"
+        }
+      ]
+    }
+  ],
+  "id": 3762
+}

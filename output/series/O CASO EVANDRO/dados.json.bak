@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MTk=",
+  "tipo": "serie",
+  "titulo": "O CASO EVANDRO",
+  "capa_url": "https://lgfp.one/RST",
+  "capa_local": "O CASO EVANDRO/O CASO EVANDRO.jpg",
+  "sinopse": "A série conta a história real de Evandro Ramos Caetano, uma criança de 6 anos de idade que desapareceu em abril de 1992, no litoral do Paraná. O corpo do garoto foi encontrado pouco tempo depois sem as mãos, cabelos e vísceras e um grupo confirmou que usou a criança em um ritual macabro. O caso na época ficou conhecido como “As Bruxas de Guaratuba”. Dois episódios semanais toda quinta-feira.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Michelle Chevrand, Aly Muritiba, Angelo Defanti",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:25"
+        }
+      ]
+    }
+  ],
+  "id": 1322
+}

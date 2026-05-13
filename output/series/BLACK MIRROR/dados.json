@@ -1,0 +1,215 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NTY=",
+  "tipo": "serie",
+  "titulo": "BLACK MIRROR",
+  "capa_url": "https://lgfp.one/IUG",
+  "capa_local": "BLACK MIRROR/BLACK MIRROR.jpg",
+  "sinopse": "As histórias bizarras não têm limite nesta série antológica que revela o pior da humanidade, suas maiores invenções e muito mais.",
+  "genero": "Sci-Fi & Fantasy, Drama, Mistério",
+  "elenco": "Anjana Vasan, Cristin Milioti, Jimmi Simpson",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:14:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:03:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:57:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:01:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "01:00:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "01:29:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "01:16:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:59:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "01:09:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "01:10:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "01:07:12"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 6",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S06E01",
+          "duracao": "00:58:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S06E02",
+          "duracao": "00:56:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S06E03",
+          "duracao": "01:20:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S06E04",
+          "duracao": "00:42:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S06E05",
+          "duracao": "01:14:39"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 7",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S07E01",
+          "duracao": "00:57:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S07E02",
+          "duracao": "00:50:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S07E03",
+          "duracao": "01:17:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S07E04",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S07E05",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S07E06",
+          "duracao": "01:30:26"
+        }
+      ]
+    }
+  ],
+  "id": 203
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MjU=",
+  "tipo": "serie",
+  "titulo": "MENU SELVAGEM",
+  "capa_url": "https://lgfp.one/RGC",
+  "capa_local": "MENU SELVAGEM/MENU SELVAGEM.jpg",
+  "sinopse": "Josh James é o típico caçador – o neozelandês exerce sua função de procurar e trazer a presa sem o menor requinte; já Matt Tebbutt é um chef britânico que aprecia o sabor e a elegância de pratos bem preparados. Os dois formam uma dupla improvável nessa série do Discovery MENU SELVAGEM (Kings of The Wild) e aceitam o desafio da produção: provar que podem preparar banquetes dignos da realeza em alguns dos lugares mais remotos da Terra, sem equipamentos ou regalias.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:50"
+        }
+      ]
+    }
+  ],
+  "id": 977
+}

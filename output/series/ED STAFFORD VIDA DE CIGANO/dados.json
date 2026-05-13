@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMjI=",
+  "tipo": "serie",
+  "titulo": "ED STAFFORD VIDA DE CIGANO",
+  "capa_url": "https://lgfp.one/EAZ0",
+  "capa_local": "ED STAFFORD VIDA DE CIGANO/ED STAFFORD VIDA DE CIGANO.jpg",
+  "sinopse": "O explorador Ed Stafford passa dois meses com comunidades ciganas e viajantes, mergulha além dos estereótipos e revela os desafios de morar na Grã-Bretanha moderna.",
+  "genero": "Documentário",
+  "elenco": "Ed Stafford",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:35"
+        }
+      ]
+    }
+  ],
+  "id": 6154
+}

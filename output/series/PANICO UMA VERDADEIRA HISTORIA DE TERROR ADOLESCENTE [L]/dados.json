@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzODA=",
+  "tipo": "serie",
+  "titulo": "PANICO UMA VERDADEIRA HISTORIA DE TERROR ADOLESCENTE [L]",
+  "capa_url": "https://lgfp.one/RQY3",
+  "capa_local": "PANICO UMA VERDADEIRA HISTORIA DE TERROR ADOLESCENTE [L]/PANICO UMA VERDADEIRA HISTORIA DE TERROR ADOLESCENTE [L].jpg",
+  "sinopse": "Pânico é um terror adolescente sobre um assassinato brutal e uma fita reveladora",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:38"
+        }
+      ]
+    }
+  ],
+  "id": 8839
+}

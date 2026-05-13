@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NTM=",
+  "tipo": "serie",
+  "titulo": "CITADEL DIANA",
+  "capa_url": "https://lgfp.one/DVJ2",
+  "capa_local": "CITADEL DIANA/CITADEL DIANA.jpg",
+  "sinopse": "Milão, 2030: Diana Cavalieri é uma agente dupla do grupo secreto Citadel, infiltrada na Mantícora, a agência rival que destruiu a Citadel há oito anos. Presa no fronte inimigo, Diana tem a chance de deixar a agência para sempre, mas precisa decidir se confia em um aliado surpreendente: o herdeiro da Mantícora Itália, Edo Zani.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Matilda De Angelis, Lorenzo Cervasio, Maurizio Lombardi, Julia Piaton, Thekla Reuten",
+  "diretor": "Anthony Russo, Joe Russo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:26"
+        }
+      ]
+    }
+  ],
+  "id": 6088
+}

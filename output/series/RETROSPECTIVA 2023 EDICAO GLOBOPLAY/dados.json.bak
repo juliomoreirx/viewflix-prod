@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMTE=",
+  "tipo": "serie",
+  "titulo": "RETROSPECTIVA 2023: EDIÇÃO GLOBOPLAY",
+  "capa_url": "https://lgfp.one/AWNK",
+  "capa_local": "RETROSPECTIVA 2023 EDICAO GLOBOPLAY/RETROSPECTIVA 2023 EDICAO GLOBOPLAY.jpg",
+  "sinopse": "Série de quatro episódios com resumo do ano de extremos: ataques à democracia e guerras, calor recorde e tempestades, o retrocesso dos preconceitos e os avanços da ciência.",
+  "genero": "Documentário, News",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:26"
+        }
+      ]
+    }
+  ],
+  "id": 4680
+}

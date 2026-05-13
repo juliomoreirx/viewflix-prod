@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDM=",
+  "tipo": "serie",
+  "titulo": "O GABINETE DE CURIOSIDADES DE GUILLERMO DEL TORO",
+  "capa_url": "https://lgfp.one/VYI",
+  "capa_local": "O GABINETE DE CURIOSIDADES DE GUILLERMO DEL TORO/O GABINETE DE CURIOSIDADES DE GUILLERMO DEL TORO.jpg",
+  "sinopse": "Macabra e deslumbrante, esta coleção de terror conta com oito histórias arrepiantes e cheias de pesadelos grotescos que foram selecionadas por Guillermo del Toro.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Lize Johnston, Kevin Keppy, Rupert Grint",
+  "diretor": "Guillermo del Toro, Jeff J.J. Authors, Dug Rotstein",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:28"
+        }
+      ]
+    }
+  ],
+  "id": 2997
+}

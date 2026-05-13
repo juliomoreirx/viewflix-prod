@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Mjc=",
+  "tipo": "serie",
+  "titulo": "NINGUÉM PODE SABER",
+  "capa_url": "https://lgfp.one/SYN",
+  "capa_local": "NINGUEM PODE SABER/NINGUEM PODE SABER.jpg",
+  "sinopse": "Uma mulher descobre o passado sombrio da mãe depois que um ataque violento na cidadezinha onde vivem traz à tona ameaças ocultas e segredos mortais.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "Toni Collette, Bella Heathcote",
+  "diretor": "Minkie Spiro, Lesli Linka Glatter, David James",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:00"
+        }
+      ]
+    }
+  ],
+  "id": 2350
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMTQ=",
+  "tipo": "serie",
+  "titulo": "ANGEL DI MARIA QUEBRANDO A BARREIRA",
+  "capa_url": "https://lgfp.one/DOT4",
+  "capa_local": "ANGEL DI MARIA QUEBRANDO A BARREIRA/ANGEL DI MARIA QUEBRANDO A BARREIRA.jpg",
+  "sinopse": "Das origens humildes ao título de campeão do mundo, esta série documental narra a vida e a carreira do consagrado jogador de futebol argentino.",
+  "genero": "Documentário",
+  "elenco": "Ángel Di María, Lionel Messi, Emiliano Martínez, Neymar Jr, Lionel Scaloni",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:42"
+        }
+      ]
+    }
+  ],
+  "id": 5963
+}

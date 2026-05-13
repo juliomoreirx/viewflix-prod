@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTg=",
+  "tipo": "serie",
+  "titulo": "A TORRE [L]",
+  "capa_url": "https://lgfp.one/STR",
+  "capa_local": "A TORRE [L]/A TORRE [L].jpg",
+  "sinopse": "Um policial veterano e uma adolescente caem para a morte de um prédio no sudeste de Londres, deixando um menino de cinco anos e uma policial novata Lizzie Griffiths no telhado, apenas para eles desaparecerem. A detetive sargento Sarah Collins é convocada para investigar, trabalhando para encontrar Lizzie antes que ela sofra um acidente grave, mas também para descobrir a verdade por trás das terríveis mortes no bloco de torres.",
+  "genero": "Drama",
+  "elenco": "Gemma Whelan, Jim English, Emmett Scanlan, Tahirah Sharif, Karl Davies, Harriet Webb, Jimmy Akingbola",
+  "diretor": "",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:45:09"
+        }
+      ]
+    }
+  ],
+  "id": 236994
+}

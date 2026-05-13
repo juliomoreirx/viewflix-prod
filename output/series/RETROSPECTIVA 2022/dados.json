@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTU=",
+  "tipo": "serie",
+  "titulo": "RETROSPECTIVA 2022",
+  "capa_url": "https://lgfp.one/XFW",
+  "capa_local": "RETROSPECTIVA 2022/RETROSPECTIVA 2022.jpg",
+  "sinopse": "Uma série documental que resume os acontecimentos do ano em três episódios. A série aborda temáticas como política, economia, meio ambiente e saúde no Brasil, além de outros acontecimentos internacionais e seu impacto no mundo.",
+  "genero": "News / Documentário",
+  "elenco": "Sônia Bridi, Estevan Muniz, Rodrigo Carvalho",
+  "diretor": "Mônica Maria Barbosa",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:44"
+        }
+      ]
+    }
+  ],
+  "id": 3157
+}

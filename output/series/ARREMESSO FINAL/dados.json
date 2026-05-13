@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODI=",
+  "tipo": "serie",
+  "titulo": "ARREMESSO FINAL",
+  "capa_url": "https://lgfp.one/RTO",
+  "capa_local": "ARREMESSO FINAL/ARREMESSO FINAL.jpg",
+  "sinopse": "Esse relato definitivo sobre a carreira de Michael Jordan e o time do Chicago Bulls nos anos 90 traz imagens inéditas da temporada de 1997–1998.",
+  "genero": "Documentário",
+  "elenco": "Michael Jordan, Scottie Pippen, Dennis Rodman, Phil Jackson, Steve Kerr",
+  "diretor": "Michael Tollin, Erin Leyden, Marquis Daisy",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:51:15"
+        }
+      ]
+    }
+  ],
+  "id": 1347
+}

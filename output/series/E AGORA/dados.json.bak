@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3ODk=",
+  "tipo": "serie",
+  "titulo": "E AGORA",
+  "capa_url": "https://lgfp.one/OUV4",
+  "capa_local": "E AGORA/E AGORA.jpg",
+  "sinopse": "Cansados ​​de relacionamentos cheios de desilusões amorosas, Deniz e Sarp buscam uma solução definitiva em livros de conselhos sobre amor. Toda vez que tentam se conhecer melhor, eles riem, vivem momentos emocionantes ou acabam envolvidos em situações esquisitas. Apesar de poderem ser um casal adorável quando são espontâneos, as dicas que seguem acabam sabotando cada encontro. Será que essa dupla, que transforma cada date em confusão com as 'regras' que insistem em seguir, conseguirá finalmente virar um casal de verdade?",
+  "genero": "Comédia",
+  "elenco": "Deniz Işın, Sarp Bozkurt, Başak Gümülcinelioğlu, Alper Baytekin, Fatih Özkan",
+  "diretor": "",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:17:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:12:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:13:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:16:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:17:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:14:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:13:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:12:04"
+        }
+      ]
+    }
+  ],
+  "id": 7482
+}

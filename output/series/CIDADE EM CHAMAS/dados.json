@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMDg=",
+  "tipo": "serie",
+  "titulo": "CIDADE EM CHAMAS",
+  "capa_url": "https://lgfp.one/ZXH",
+  "capa_local": "CIDADE EM CHAMAS/CIDADE EM CHAMAS.jpg",
+  "sinopse": "Uma estudante universitária é baleada no Central Park no dia 4 de julho de 2003. A investigação conecta uma série de incêndios misteriosos, a cena musical do centro da cidade e uma família rica do ramo imobiliário desgastada pelos muitos segredos que guarda.",
+  "genero": "Drama / Mistério",
+  "elenco": "Jemima Kirke, Wyatt Oleff, Chase Sui Wonders, Nico Tortorella, Ashley Zukerman, Xavier Clyde, Max Milner, Alexandra Doke",
+  "diretor": "Josh Schwartz, Stephanie Savage",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:52"
+        }
+      ]
+    }
+  ],
+  "id": 3499
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4ODQ=",
+  "tipo": "serie",
+  "titulo": "HULK HOGAN O LUTADOR (2026)",
+  "capa_url": "https://lgfp.one/TBZ2",
+  "capa_local": "HULK HOGAN O LUTADOR (2026)/HULK HOGAN O LUTADOR (2026).jpg",
+  "sinopse": "Antes de ser Hulk Hogan, ele era Terry Bollea. Descubra o homem por trás da lenda neste documentário sem filtros, que traz a última entrevista dele.",
+  "genero": "Documentário",
+  "elenco": "Hulk Hogan, James Ray Hart, Linda Hogan, Bret Hart, Nick Hogan",
+  "diretor": "Bryan Storkel",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:07:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:19:47"
+        }
+      ]
+    }
+  ],
+  "id": 9509
+}

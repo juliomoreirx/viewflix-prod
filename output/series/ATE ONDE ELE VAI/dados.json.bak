@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2OTc=",
+  "tipo": "serie",
+  "titulo": "ATE ONDE ELE VAI",
+  "capa_url": "https://lgfp.one/NOH5",
+  "capa_local": "ATE ONDE ELE VAI/ATE ONDE ELE VAI.jpg",
+  "sinopse": "Na trama, Michael é descrito como jovem, marrento e temperado com o charme carioca, além de morador de uma comunidade no Rio de Janeiro, onde o ataque surpresa de uma facção rival será o gatilho que vai dispará-lo em direção a um caminho que esconde grandes reviravoltas.",
+  "genero": "Drama",
+  "elenco": "Caio Vegatti, Juhlia Ficer",
+  "diretor": "Adolpho Knauth",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:07:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:10:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:29:06"
+        }
+      ]
+    }
+  ],
+  "id": 7148
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMTg=",
+  "tipo": "serie",
+  "titulo": "AMNESIA [L]",
+  "capa_url": "https://lgfp.one/AWVY",
+  "capa_local": "AMNESIA [L]/AMNESIA [L].jpg",
+  "sinopse": "Na manhã do dia primeiro de agosto, nossa heroína acorda e descobre que não tem nenhuma memória do passado. É aí que um garoto aparece para ela e se apresenta como o espírito Orion, confiando nele, e contando com a sua ajuda, ela começa uma jornada para recuperar sua memória. Mas em seu caminho aparecem contratempos e peças do seu 'quebra-cabeça perdido', como: ligações que ela não consegue reconhecer o nome de quem estava ligando e se encontrar com aquele que parece ser seu \"namorado\", apesar de não reconhece-lo.",
+  "genero": "Animação, Drama, Sci-Fi & Fantasy",
+  "elenco": "Kaori Nazuka, Kisho Taniyama, Kouki Miyata, Akira Ishida, Satoshi Hino",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:46"
+        }
+      ]
+    }
+  ],
+  "id": 343074
+}

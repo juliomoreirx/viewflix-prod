@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNDE=",
+  "tipo": "serie",
+  "titulo": "WOLF",
+  "capa_url": "https://lgfp.one/DGM9",
+  "capa_local": "WOLF/WOLF.jpg",
+  "sinopse": "DI Jack Caffery é um jovem em busca de si mesmo. Obcecado pelo vizinho que ele acredita ter assassinado seu irmão de 10 anos nos anos 90, Jack se vê tentando corrigir os erros dos outros – mas a que custo? Em uma casa isolada em Monmouthshire, a rica família Anchor-Ferrers se vê vítima dos jogos cruéis de um psicopata, presos e aterrorizados. Quando as duas narrativas colidem, é uma emocionante e profundamente perturbadora corrida contra o tempo.",
+  "genero": "Crime",
+  "elenco": "Ukweli Roach, Iwan Rheon, Sacha Dhawan, Juliet Stevenson, Owen Teale",
+  "diretor": "Natalia Alexeeva",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:05"
+        }
+      ]
+    }
+  ],
+  "id": 124128
+}

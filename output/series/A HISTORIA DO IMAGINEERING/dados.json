@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MjY=",
+  "tipo": "serie",
+  "titulo": "A HISTÓRIA DO IMAGINEERING",
+  "capa_url": "https://lgfp.one/IOA",
+  "capa_local": "A HISTORIA DO IMAGINEERING/A HISTORIA DO IMAGINEERING.jpg",
+  "sinopse": "Explore o passado, presente e futuro da Walt Disney Imagineering com a notável cineasta, Leslie Iwerks. Iwerks vem de uma família com profunda história da Disney - seu avô era um dos primeiros animadores da Disney e seu pai era um ex-Imagineer - e seu trabalho anterior inclui perfis da Pixar Animation Studios e da casa de efeitos visuais Industrial Light & Magic.",
+  "genero": "Documentário",
+  "elenco": "Angela Bassett, Kurt Russell, Walt Disney",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:22"
+        }
+      ]
+    }
+  ],
+  "id": 31
+}

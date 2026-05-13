@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMDY=",
+  "tipo": "serie",
+  "titulo": "STAR WARS HISTORIAS DO SUBMUNDO",
+  "capa_url": "https://lgfp.one/NSS5",
+  "capa_local": "STAR WARS HISTORIAS DO SUBMUNDO/STAR WARS HISTORIAS DO SUBMUNDO.jpg",
+  "sinopse": "Dois bandidos devem passar pelo submundo perigoso da galáxia enquanto planejam seus destinos.",
+  "genero": "Animação, Sci-Fi & Fantasy, Crime",
+  "elenco": "",
+  "diretor": "Dave Filoni, George Lucas, George Lucas",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:14:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:14:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:12:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:21"
+        }
+      ]
+    }
+  ],
+  "id": 7253
+}

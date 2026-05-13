@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNDA=",
+  "tipo": "serie",
+  "titulo": "A MISTERIOSA SOCIEDADE BENEDICT",
+  "capa_url": "https://lgfp.one/SCR",
+  "capa_local": "A MISTERIOSA SOCIEDADE BENEDICT/A MISTERIOSA SOCIEDADE BENEDICT.jpg",
+  "sinopse": "Após vencerem uma competição por uma bolsa de estudos, quatro órfãos talentosos são recrutados pelo Sr. Benedict para uma missão perigosa para salvar o mundo de uma crise global conhecida como Emergência. O Reynie, o Sticky, a Kate e a Constance precisam se infiltrar na Academia-Ouro da Vivência Vocacional para descobrir a verdade. Quando o diretor, Dr. Curtain, parece estar por trás desse pânico mundial, as crianças da Misteriosa Sociedade Benedict precisam criar um plano para derrotá-lo.",
+  "genero": "Família, Action & Adventure",
+  "elenco": "Tony Hale, Kristen Schaal, Mystic Inscho, Seth Carr, Marta Timofeeva",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:35:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:33:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:34:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:33:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:30:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:37:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:36:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:32:51"
+        }
+      ]
+    }
+  ],
+  "id": 1758
+}

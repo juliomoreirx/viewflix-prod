@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MjM=",
+  "tipo": "serie",
+  "titulo": "OS DINOSSAUROS (2026)",
+  "capa_url": "https://lgfp.one/SDO6",
+  "capa_local": "OS DINOSSAUROS (2026)/OS DINOSSAUROS (2026).jpg",
+  "sinopse": "Dos primeiros aos últimos dinossauros, esta série documental fascinante explora seu reinado de 165 milhões de anos na Terra e as forças que moldaram essa evolução.",
+  "genero": "Documentário",
+  "elenco": "Morgan Freeman",
+  "diretor": "Nick Shoolingin-Jordan",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:32"
+        }
+      ]
+    }
+  ],
+  "id": 9048
+}

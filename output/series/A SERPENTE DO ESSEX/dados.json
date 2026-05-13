@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMjg=",
+  "tipo": "serie",
+  "titulo": "A SERPENTE DO ESSEX",
+  "capa_url": "https://lgfp.one/TFS",
+  "capa_local": "A SERPENTE DO ESSEX/A SERPENTE DO ESSEX.jpg",
+  "sinopse": "A viúva londrina, Cora Seaborne, se muda para Essex para investigar os relatos de uma serpente mítica. Ela cria uma intimidade improvável com o vigário da aldeia, mas quando uma tragédia acontece, os moradores acusam a mulher de atrair a criatura.",
+  "genero": "Drama",
+  "elenco": "Claire Danes, Tom Hiddleston, Frank Dillane, Clémence Poésy, Hayley Squires",
+  "diretor": "Anna Symon",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:55"
+        }
+      ]
+    }
+  ],
+  "id": 2541
+}

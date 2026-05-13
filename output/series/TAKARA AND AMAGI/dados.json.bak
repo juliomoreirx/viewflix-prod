@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMjM=",
+  "tipo": "serie",
+  "titulo": "TAKARA AND AMAGI",
+  "capa_url": "https://lgfp.one/DGM7",
+  "capa_local": "TAKARA AND AMAGI/TAKARA AND AMAGI.jpg",
+  "sinopse": "Takara Shun, um estudante do ensino médio que pertence a um grupo popular da classe, e Taichi Amagi, um garoto puro que não é do tipo chamativo, mas é querido pelas pessoas, percebem seu amor um pelo outro. Mesmo que eles comecem a namorar em segredo, é difícil para eles serem honestos.",
+  "genero": "Drama, Comédia",
+  "elenco": "Arata Sato, Oriyama Nao, Rio Komiya, Kosuke Suzuki, Nasu Taito",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:45"
+        }
+      ]
+    }
+  ],
+  "id": 5824
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNzE=",
+  "tipo": "serie",
+  "titulo": "RUMO AO MARAVILHOSO",
+  "capa_url": "https://lgfp.one/RHZ0",
+  "capa_local": "RUMO AO MARAVILHOSO/RUMO AO MARAVILHOSO.jpg",
+  "sinopse": "Li Wenxiu, uma jovem Han de Altai, sonha em se tornar escritora em uma grande cidade. Ela enfrenta desafios e retorna para casa, trabalhando na loja de sua mãe. Ao conhecer o rapaz cazaque Batay, ela descobre a beleza local.",
+  "genero": "Drama, Família",
+  "elenco": "马伊琍, 周依然, 于适, 蒋奇明, 闫佩伦",
+  "diretor": "Teng Congcong, Teng Congcong",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:39"
+        }
+      ]
+    }
+  ],
+  "id": 8715
+}

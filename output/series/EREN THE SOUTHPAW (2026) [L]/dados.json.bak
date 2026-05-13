@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxNTc=",
+  "tipo": "serie",
+  "titulo": "EREN THE SOUTHPAW (2026) [L]",
+  "capa_url": "https://lgfp.one/SQP9",
+  "capa_local": "EREN THE SOUTHPAW (2026) [L]/EREN THE SOUTHPAW (2026) [L].jpg",
+  "sinopse": "A história gira em torno de Koichi Asakura, um designer de uma agência de publicidade que trabalha duro, mas não recebe reconhecimento. Depois de ser dispensado de um projeto, ele decide visitar um lugar do seu passado, onde conheceu Eren Yamagishi. Eren, por sua vez, é reconhecida como uma talentosa grafiteira canhota em Nova York, enquanto enfrenta as dificuldades que surgem ao longo de seu caminho.",
+  "genero": "Animação, Drama",
+  "elenco": "Shoya Chiba, Yumi Uchiyama, Yui Ishikawa, 関根明良, Kazuyuki Okitsu",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:50"
+        }
+      ]
+    }
+  ],
+  "id": 9325
+}

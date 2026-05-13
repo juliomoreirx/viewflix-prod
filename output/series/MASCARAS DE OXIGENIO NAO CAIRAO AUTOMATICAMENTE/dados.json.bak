@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MDg=",
+  "tipo": "serie",
+  "titulo": "MASCARAS DE OXIGENIO NAO CAIRAO AUTOMATICAMENTE",
+  "capa_url": "https://lgfp.one/PVU7",
+  "capa_local": "MASCARAS DE OXIGENIO NAO CAIRAO AUTOMATICAMENTE/MASCARAS DE OXIGENIO NAO CAIRAO AUTOMATICAMENTE.jpg",
+  "sinopse": "O primeiro caso de HIV no Brasil foi registrado na cidade de São Paulo, no Hospital Emílio Ribas, em 1980, e afetou a vida de centenas de pessoas de diferentes classes sociais. De um lado, a redemocratização do país fazia emergir uma rica cena cultural e mais liberdade em relação à expressão e orientação sexual. De outro, os contagiados pela doença não tinham acesso a medicamentos para lutar pela vida.",
+  "genero": "Drama",
+  "elenco": "Johnny Massaro, Bruna Linzmeyer, Ícaro Silva, Eli Ferreira, Kika Sena",
+  "diretor": "Marcelo Gomes, Carol Minêm",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:40"
+        }
+      ]
+    }
+  ],
+  "id": 7884
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NjI=",
+  "tipo": "serie",
+  "titulo": "A COREIA EM UM PRATO [L]",
+  "capa_url": "https://lgfp.one/PFF0",
+  "capa_local": "A COREIA EM UM PRATO [L]/A COREIA EM UM PRATO [L].jpg",
+  "sinopse": "Uma declaração de amor ao prato favorito dos coreanos de todas as idades: a barriga de porco.",
+  "genero": "Documentário",
+  "elenco": "백종원",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:23"
+        }
+      ]
+    }
+  ],
+  "id": 7540
+}

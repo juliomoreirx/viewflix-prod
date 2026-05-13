@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNTY=",
+  "tipo": "serie",
+  "titulo": "O JOGO QUE MUDOU A HISTÓRIA",
+  "capa_url": "https://lgfp.one/BHF5",
+  "capa_local": "O JOGO QUE MUDOU A HISTORIA/O JOGO QUE MUDOU A HISTORIA.jpg",
+  "sinopse": "Inspirada em fatos reais, a série retrata o surgimento das facções do narcotráfico no Rio de Janeiro nos anos 70 e a trajetória dos seus personagens.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Pedro Wagner, Jonathan Azevedo, Fabrício Assis, Lúcio Mauro Filho, Babu Santana",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:20"
+        }
+      ]
+    }
+  ],
+  "id": 5587
+}

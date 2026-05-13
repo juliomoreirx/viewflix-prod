@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NDM=",
+  "tipo": "serie",
+  "titulo": "RUMO AO DESCONHECIDO: ESPECIAL DE VOLTA PARA O FUTURO",
+  "capa_url": "https://lgfp.one/TAY",
+  "capa_local": "RUMO AO DESCONHECIDO ESPECIAL DE VOLTA PARA O FUTURO/RUMO AO DESCONHECIDO ESPECIAL DE VOLTA PARA O FUTURO.jpg",
+  "sinopse": "35 anos após a estreia de 'De Volta para o Futuro', Christopher Lloyd, o expedicionário Josh Gates e um elenco de estrelas da Discovery partem em uma missão de busca por representantes únicos do icônico DeLorean.",
+  "genero": "Comédia / Documentário",
+  "elenco": "Christopher Lloyd, Josh Gates",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 2413
+}

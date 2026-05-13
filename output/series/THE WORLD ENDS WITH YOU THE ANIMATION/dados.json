@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1NTc=",
+  "tipo": "serie",
+  "titulo": "THE WORLD ENDS WITH YOU THE ANIMATION",
+  "capa_url": "https://lgfp.one/ROU2",
+  "capa_local": "THE WORLD ENDS WITH YOU THE ANIMATION/THE WORLD ENDS WITH YOU THE ANIMATION.jpg",
+  "sinopse": "Baseado no jogo de sucesso da Square Enix, Neku morreu, mas não se lembra do que aconteceu. Ele entra no Jogo dos Shinigamis no Underground, uma competição para que os mortos sejam ressuscitados... e os perdedores serão apagados da existência.",
+  "genero": "Animação, Drama, Mistério",
+  "elenco": "Koki Uchiyama, 鉢嶺杏奈, Ayana Taketatsu, 木村昴, Ryohei Kimura",
+  "diretor": "野村哲也, 市川量也",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 8782
+}

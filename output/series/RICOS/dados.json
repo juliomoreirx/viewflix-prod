@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwOTA=",
+  "tipo": "serie",
+  "titulo": "RICOS",
+  "capa_url": "https://lgfp.one/PJF7",
+  "capa_local": "RICOS/RICOS.jpg",
+  "sinopse": "A morte de um magnata do ramo de cosméticos coloca sua família em disputa pela herança. Seus filhos do primeiro casamento e sua segunda esposa brigam pelo controle de seu império.",
+  "genero": "Drama",
+  "elenco": "Deborah Ayorinde, Hugh Quarshie, Sarah Niles, Brendan Coyle, Hermione Norris",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:19"
+        }
+      ]
+    }
+  ],
+  "id": 7651
+}

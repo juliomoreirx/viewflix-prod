@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNzg=",
+  "tipo": "serie",
+  "titulo": "BANCO CENTRAL SOB ATAQUE",
+  "capa_url": "https://lgfp.one/EFE4",
+  "capa_local": "BANCO CENTRAL SOB ATAQUE/BANCO CENTRAL SOB ATAQUE.jpg",
+  "sinopse": "Espanha, 1981: homens armados assaltam um banco, fazendo centenas de reféns. Uma jornalista tenta descobrir a verdadeira motivação do assalto, indo contra as autoridades.",
+  "genero": "Crime, Drama, Action & Adventure",
+  "elenco": "Miguel Herrán, María Pedraza, Hovik Keuchkerian, Tomy Aguilera, Isak Férriz",
+  "diretor": "Daniel Calparsoro",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:05"
+        }
+      ]
+    }
+  ],
+  "id": 6202
+}

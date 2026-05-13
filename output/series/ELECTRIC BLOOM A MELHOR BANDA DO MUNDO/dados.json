@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMjg=",
+  "tipo": "serie",
+  "titulo": "ELECTRIC BLOOM A MELHOR BANDA DO MUNDO",
+  "capa_url": "https://lgfp.one/QAM6",
+  "capa_local": "ELECTRIC BLOOM A MELHOR BANDA DO MUNDO/ELECTRIC BLOOM A MELHOR BANDA DO MUNDO.jpg",
+  "sinopse": "",
+  "genero": "Comédia, Família, Drama",
+  "elenco": "Lumi Pollack, Carmen Sánchez, Ruby Marino, Nathaniel Buescher, Luke Busey",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:25:34"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:26:13"
+        }
+      ]
+    }
+  ],
+  "id": 8004
+}

@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMTg=",
+  "tipo": "serie",
+  "titulo": "RECRUTA",
+  "capa_url": "https://lgfp.one/XEB",
+  "capa_local": "RECRUTA/RECRUTA.jpg",
+  "sinopse": "Um jovem advogado recém-formado é contratado pela CIA e entra, despreparado, no perigoso mundo da espionagem internacional.",
+  "genero": "Drama, Crime, Action & Adventure",
+  "elenco": "Noah Centineo, Colton Dunn, Aarti Mann, Fivel Stewart, Kristian Bruun",
+  "diretor": "Julian Holmes",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:40"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:54:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:51:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:02:14"
+        }
+      ]
+    }
+  ],
+  "id": 3142
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMjE=",
+  "tipo": "serie",
+  "titulo": "MUTINY O HOTEL DA COCAINA",
+  "capa_url": "https://lgfp.one/DQG6",
+  "capa_local": "MUTINY O HOTEL DA COCAINA/MUTINY O HOTEL DA COCAINA.jpg",
+  "sinopse": "A história de Roman Compte, um expatriado cubano que lutou contra Fidel Castro na invasão da Baía dos Porcos e refez sua vida em Miami, e agora é gerente geral do Mutiny Hotel, o glamouroso epicentro da cena da cocaína em Miami nos últimos tempos. Anos 70 e início dos anos 80.",
+  "genero": "Crime",
+  "elenco": "Danny Pino, Michael Chiklis, Yul Vazquez, Mark Feuerstein, Laura Gordon",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:07"
+        }
+      ]
+    }
+  ],
+  "id": 5992
+}

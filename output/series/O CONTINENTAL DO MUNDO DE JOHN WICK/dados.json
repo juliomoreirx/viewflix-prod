@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NDE=",
+  "tipo": "serie",
+  "titulo": "O CONTINENTAL DO MUNDO DE JOHN WICK",
+  "capa_url": "https://lgfp.one/ABBF",
+  "capa_local": "O CONTINENTAL DO MUNDO DE JOHN WICK/O CONTINENTAL DO MUNDO DE JOHN WICK.jpg",
+  "sinopse": "O jovem Winston Scott é arrastado para o cenário infernal da Nova York dos anos 70 para enfrentar um passado que ele pensava ter deixado para trás. Winston traça um caminho mortal através do misterioso submundo do hotel em uma tentativa angustiante de tomá-lo e finalmente assumir seu trono.",
+  "genero": "Crime, Action & Adventure",
+  "elenco": "Mel Gibson, Colin Woodell, Mishel Prada, Ben Robson, Hubert Point-Du Jour",
+  "diretor": "Chad Stahelski, David Leitch, Albert Hughes",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:27:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:20:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:38:11"
+        }
+      ]
+    }
+  ],
+  "id": 4091
+}

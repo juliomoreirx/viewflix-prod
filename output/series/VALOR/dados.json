@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MDY=",
+  "tipo": "serie",
+  "titulo": "VALOR",
+  "capa_url": "https://lgfp.one/PSS4",
+  "capa_local": "VALOR/VALOR.jpg",
+  "sinopse": "Os limites entre a disciplina militar e o desejo humano são testados em uma base do Exército dos EUA que abriga uma unidade de elite de pilotos de helicóptero treinados para realizar missões clandestinas dentro e fora do país. O drama se desenrola no presente, bem como em flashbacks de uma missão fracassada envolvendo uma das primeiras mulheres da unidade, revelando segredos pessoais e militares, e levando a um plano para resgatar um grupo de soldados desaparecidos.",
+  "genero": "Drama",
+  "elenco": "Christina Ochoa, Matt Barr, W. Tré Davis, Melissa Roxburgh, Nigel Thatch",
+  "diretor": "Steve Robin",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:40:33"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:37"
+        }
+      ]
+    }
+  ],
+  "id": 7841
+}

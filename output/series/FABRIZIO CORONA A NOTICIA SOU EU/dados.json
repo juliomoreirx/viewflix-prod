@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2OTY=",
+  "tipo": "serie",
+  "titulo": "FABRIZIO CORONA A NOTICIA SOU EU",
+  "capa_url": "https://lgfp.one/RGW9",
+  "capa_local": "FABRIZIO CORONA A NOTICIA SOU EU/FABRIZIO CORONA A NOTICIA SOU EU.jpg",
+  "sinopse": "Esta série documental explora a vida e a carreira do rei dos paparazzi Fabrizio Corona, e a história recente da Itália, marcada por escândalos e mudanças sociais.",
+  "genero": "Documentário",
+  "elenco": "Fabrizio Corona",
+  "diretor": "Massimo Cappello, Massimo Cappello",
+  "total_episodios": "270",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:58"
+        }
+      ]
+    }
+  ],
+  "id": 8633
+}

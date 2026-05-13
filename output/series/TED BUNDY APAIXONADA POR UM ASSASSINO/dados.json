@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMDg=",
+  "tipo": "serie",
+  "titulo": "TED BUNDY: APAIXONADA POR UM ASSASSINO",
+  "capa_url": "https://lgfp.one/JCN",
+  "capa_local": "TED BUNDY APAIXONADA POR UM ASSASSINO/TED BUNDY APAIXONADA POR UM ASSASSINO.jpg",
+  "sinopse": "Após anos de silêncio, a namorada de Ted Bundy, Elizabeth Kendall, sua filha Molly e outras sobreviventes falam pela primeira vez em uma série documental que revê os crimes de Bundy sob uma perspectiva feminina. A série revela como o ódio patológico de Bundy por mulheres se chocou com as guerras culturais e o movimento feminista dos anos 70 em um dos casos criminais mais chocantes de nossa época.",
+  "genero": "Documentário, Crime",
+  "elenco": "Ted Bundy, Elizabeth Kendall, Molly Kendall",
+  "diretor": "Trish Wood",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:26"
+        }
+      ]
+    }
+  ],
+  "id": 444
+}

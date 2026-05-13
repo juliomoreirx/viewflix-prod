@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5OTk=",
+  "tipo": "serie",
+  "titulo": "UM ASSUNTO PRIVADO",
+  "capa_url": "https://lgfp.one/TRS",
+  "capa_local": "UM ASSUNTO PRIVADO/UM ASSUNTO PRIVADO.jpg",
+  "sinopse": "Anos 1940, em Galicia. Marina Quirogana, uma menina corajosa de classe alta com a alma de detetive, decide, com a ajuda de Héctor, seu mordomo leal, encontrar o assassino que está aterrorizando a cidade.",
+  "genero": "Comédia / Mistério / Drama",
+  "elenco": "Aura Garrido, Jean Reno, Nerea Portela, Ángela Molina, Álex García, Gorka Otxoa, Tito Valverde, Pablo Molinero",
+  "diretor": "Ramón Campos, Gema R. Neira, Teresa Fernández Valdés",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:31"
+        }
+      ]
+    }
+  ],
+  "id": 2872
+}

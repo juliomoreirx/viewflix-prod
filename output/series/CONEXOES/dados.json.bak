@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNDA=",
+  "tipo": "serie",
+  "titulo": "CONEXÕES",
+  "capa_url": "https://lgfp.one/YNQ",
+  "capa_local": "CONEXOES/CONEXOES.jpg",
+  "sinopse": "Este thriller contemporâneo explora como os erros do passado têm o potencial de destruir o futuro. Ele mistura ação com um enredo imprevisível no qual espionagem e intriga política se desenrolam diante da história de um amor arrebatador e duradouro.",
+  "genero": "Crime / Drama",
+  "elenco": "Vincent Cassel, Eva Green, Peter Mullan, Gérard Lanvin, Daniel Francis, Stanislas Merhar, Irène Jacob, Laëtitia Eïdo",
+  "diretor": "Virginie Brac",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:51"
+        }
+      ]
+    }
+  ],
+  "id": 3303
+}

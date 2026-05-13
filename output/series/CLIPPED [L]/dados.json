@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNzE=",
+  "tipo": "serie",
+  "titulo": "CLIPPED [L]",
+  "capa_url": "https://lgfp.one/BGS2",
+  "capa_local": "CLIPPED [L]/CLIPPED [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Laurence Fishburne, Ed O'Neill, Jacki Weaver, Cleopatra Coleman, Kelly AuCoin",
+  "diretor": "Kevin Bray",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:10"
+        }
+      ]
+    }
+  ],
+  "id": 5566
+}

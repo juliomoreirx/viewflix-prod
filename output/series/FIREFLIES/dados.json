@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NjA=",
+  "tipo": "serie",
+  "titulo": "FIREFLIES",
+  "capa_url": "https://lgfp.one/QRY0",
+  "capa_local": "FIREFLIES/FIREFLIES.jpg",
+  "sinopse": "Uma instrutora de desminagem investiga misteriosas combustões espontâneas em uma cidade desértica, suspeitando que estejam ligadas a um fenômeno desencadeado pela solidão em seu passado, e não a minas terrestres.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Dana Ivgy, נינט טייב, אמיר ח'ורי, עלא דקה",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:21"
+        }
+      ]
+    }
+  ],
+  "id": 8400
+}

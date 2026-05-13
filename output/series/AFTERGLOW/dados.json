@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MDU=",
+  "tipo": "serie",
+  "titulo": "AFTERGLOW",
+  "capa_url": "https://lgfp.one/QDE7",
+  "capa_local": "AFTERGLOW/AFTERGLOW.jpg",
+  "sinopse": "Quando Ester descobre que está gravemente doente, ela e seus amigos decidem aproveitar a vida ao máximo, porque ela pode acabar a qualquer momento.",
+  "genero": "Drama",
+  "elenco": "Nina Ellen Ødegård, Hermann Sabado, Sara Khorami, Per Kjerstad, Elena Pokotylyuk",
+  "diretor": "Atle Knudsen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:09"
+        }
+      ]
+    }
+  ],
+  "id": 8131
+}

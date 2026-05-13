@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Mjc=",
+  "tipo": "serie",
+  "titulo": "ENCONTROS COM EXTRATERRESTRES: FATO OU FICÇÃO?",
+  "capa_url": "https://lgfp.one/MVO6",
+  "capa_local": "ENCONTROS COM EXTRATERRESTRES FATO OU FICCAO/ENCONTROS COM EXTRATERRESTRES FATO OU FICCAO.jpg",
+  "sinopse": "Nesta série, pessoas buscam respostas para seus estranhos e inexplicáveis encontros com OVNIs em Roswell, Novo México.",
+  "genero": "Documentário",
+  "elenco": "Mitch Horowitz, Chrissy Newton, Tim Seanor",
+  "diretor": "Mark Marinaccio",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:17"
+        }
+      ]
+    }
+  ],
+  "id": 6838
+}

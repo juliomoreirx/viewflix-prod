@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMjQ=",
+  "tipo": "serie",
+  "titulo": "O CASO ROBINHO",
+  "capa_url": "https://lgfp.one/EBB3",
+  "capa_local": "O CASO ROBINHO/O CASO ROBINHO.jpg",
+  "sinopse": "Em sua primeira entrevista, a vítima dá sua versão sobre o estupro envolvendo Robinho e cinco amigos. Um caso que chocou o Brasil, desvendado a partir de grampos da polícia italiana.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Rafael Pirrho, Caroline Zilberman",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:08"
+        }
+      ]
+    }
+  ],
+  "id": 6178
+}

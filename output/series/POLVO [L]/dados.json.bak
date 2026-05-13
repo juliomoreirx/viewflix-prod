@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MjQ=",
+  "tipo": "serie",
+  "titulo": "POLVO [L]",
+  "capa_url": "https://lgfp.one/QCM3",
+  "capa_local": "POLVO [L]/POLVO [L].jpg",
+  "sinopse": "Este é um documentário sobre ser assassinado pelo parceiro, se perder no México, encontrar um unicórnio, uma bordadeira competitiva, Tracy Morgan e explorar nossa conexão com um possível alienígena. Em outras palavras, é um documentário sobre polvos.",
+  "genero": "Documentário",
+  "elenco": "Phoebe Waller-Bridge, Tracy Morgan",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:07"
+        }
+      ]
+    }
+  ],
+  "id": 8084
+}

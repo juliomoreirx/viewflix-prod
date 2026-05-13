@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NTA=",
+  "tipo": "serie",
+  "titulo": "DOUTOR CASTOR",
+  "capa_url": "https://lgfp.one/RNK",
+  "capa_local": "DOUTOR CASTOR/DOUTOR CASTOR.jpg",
+  "sinopse": "Poderoso chefão do jogo do bicho, Castor de Andrade usou o futebol e o carnaval para legitimar sua imagem. Sedutor, carismático e violento, ele construiu um império de crimes no RJ.",
+  "genero": "Documentário",
+  "elenco": "Castor de Andrade, Dé Aranha",
+  "diretor": "Marco Antonio Araujo",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:27"
+        }
+      ]
+    }
+  ],
+  "id": 1176
+}

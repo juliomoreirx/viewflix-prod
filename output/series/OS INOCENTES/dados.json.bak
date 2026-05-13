@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNjA=",
+  "tipo": "serie",
+  "titulo": "OS INOCENTES",
+  "capa_url": "https://lgfp.one/JGV",
+  "capa_local": "OS INOCENTES/OS INOCENTES.jpg",
+  "sinopse": "Os namorados June e Harry fogem de casa e são arrastados para um mundo confuso e perigoso quando ela começa a demonstrar habilidades misteriosas.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Percelle Ascott, Sorcha Groundsell, Guy Pearce, Laura Birn, Jóhannes Haukur Jóhannesson",
+  "diretor": "Farren Blackburn",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:52"
+        }
+      ]
+    }
+  ],
+  "id": 570
+}

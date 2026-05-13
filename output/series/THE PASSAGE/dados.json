@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0ODk=",
+  "tipo": "serie",
+  "titulo": "THE PASSAGE",
+  "capa_url": "https://lgfp.one/JFN",
+  "capa_local": "THE PASSAGE/THE PASSAGE.jpg",
+  "sinopse": "Baseado na trilogia de Justin Cronin, “The Passage” é um thriller épico sobre o projeto secreto NOAH, uma experiência com um vírus que pode levar à cura de todas as doenças — mas que também tem o potencial de acabar com a humanidade.",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "Mark-Paul Gosselaar, Saniyya Sidney, Caroline Chikezie, Vincent Piazza, Jamie McShane",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:38"
+        }
+      ]
+    }
+  ],
+  "id": 531
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3ODA=",
+  "tipo": "serie",
+  "titulo": "BALLARD CRIMES SEM RESPOSTA",
+  "capa_url": "https://lgfp.one/PFG2",
+  "capa_local": "BALLARD CRIMES SEM RESPOSTA/BALLARD CRIMES SEM RESPOSTA.jpg",
+  "sinopse": "A detetive Renée Ballard mergulha em uma rede de assassinatos e corrupção enquanto procura um serial killer e descobre uma conspiração policial sinistra que ameaça tudo aquilo em que ela acredita. Atormentada pelos próprios demônios, Ballard terá que ser mais esperta do que criminosos e colegas para finalmente conseguir justiça pelas vítimas e suas famílias.",
+  "genero": "Crime, Drama",
+  "elenco": "Maggie Q, Courtney Taylor, John Carroll Lynch, Michael Mosley, Rebecca Field",
+  "diretor": "Trey Batchelor",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:47"
+        }
+      ]
+    }
+  ],
+  "id": 7552
+}

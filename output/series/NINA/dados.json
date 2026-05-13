@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzNzk=",
+  "tipo": "serie",
+  "titulo": "NINA",
+  "capa_url": "https://lgfp.one/RHU8",
+  "capa_local": "NINA/NINA.jpg",
+  "sinopse": "Nina, uma jovem professora do interior, emprega-se em um dos mais tradicionais colégio de São Paulo, onde a moral da década de 1920 está instalada em todos os seus conceitos. Ao saber que a escola havia rejeitado a matrícula da menina Isadora porque ela é filha de artistas, a professora manifesta-se contra a decisão.",
+  "genero": "Soap, Drama, Mistério",
+  "elenco": "Regina Duarte, Antônio Fagundes, Rosamaria Murtinho, Mário Lago, Maria Fernanda",
+  "diretor": "Walter Avancini, Fábio Sabag, Klaus Vianna",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:53"
+        }
+      ]
+    }
+  ],
+  "id": 384932
+}

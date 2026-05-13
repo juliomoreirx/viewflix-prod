@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODg=",
+  "tipo": "serie",
+  "titulo": "FAMÍLIA EM CONCERTO",
+  "capa_url": "https://lgfp.one/RUN",
+  "capa_local": "FAMILIA EM CONCERTO/FAMILIA EM CONCERTO.jpg",
+  "sinopse": "Depois de fracassar na carreira, uma aspirante a cantora country encontra uma vida nova como babá dos cinco filhos adoráveis de um viúvo bonitão.",
+  "genero": "Comédia, Drama, Família",
+  "elenco": "Katharine McPhee, Eddie Cibrian, Ricardo Hurtado, Jamie Martin Mann, Griffin McIntyre",
+  "diretor": "Kelly Park, David Kendall, Leslie Kolins Small",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:30"
+        }
+      ]
+    }
+  ],
+  "id": 1374
+}

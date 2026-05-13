@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMDg=",
+  "tipo": "serie",
+  "titulo": "NA ROTA DO OURO",
+  "capa_url": "https://lgfp.one/AUV7",
+  "capa_local": "NA ROTA DO OURO/NA ROTA DO OURO.jpg",
+  "sinopse": "Em uma Itália do século 19 dominada por bandidos, Filomena abandona uma vida confortável e sem graça para liderar uma caça ao tesouro cheia de perigos.",
+  "genero": "Drama",
+  "elenco": "Michela De Rossi, Matilda Lutz, Lorenzo de Moor, Nando Paone, Marlon Joubert",
+  "diretor": "Antonio Le Fosse, Steve Saint Leger, Nicola Sorcinelli",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:39"
+        }
+      ]
+    }
+  ],
+  "id": 5322
+}

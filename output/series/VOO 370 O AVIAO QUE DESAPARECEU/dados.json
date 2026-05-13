@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NTk=",
+  "tipo": "serie",
+  "titulo": "VOO 370: O AVIÃO QUE DESAPARECEU",
+  "capa_url": "https://lgfp.one/YSX",
+  "capa_local": "VOO 370 O AVIAO QUE DESAPARECEU/VOO 370 O AVIAO QUE DESAPARECEU.jpg",
+  "sinopse": "Em 2014, um avião com 239 pessoas a bordo desapareceu do radar. Esta série documental investiga o impressionante mistério do voo MH370.",
+  "genero": "Documentário",
+  "elenco": "Intan Othman, Jeff Wise, Ghislain Wattrelos, Peter Foley",
+  "diretor": "Harry Hewland, Mor Loushy",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:06"
+        }
+      ]
+    }
+  ],
+  "id": 3341
+}

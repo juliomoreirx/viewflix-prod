@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NTA=",
+  "tipo": "serie",
+  "titulo": "DESTILADORES: CLÁSSICOS AMERICANOS",
+  "capa_url": "https://lgfp.one/YXK",
+  "capa_local": "DESTILADORES CLASSICOS AMERICANOS/DESTILADORES CLASSICOS AMERICANOS.jpg",
+  "sinopse": "Tim, Tickle e Howard se aventuram em uma busca divertida pelas bebidas perdidas dos Estados Unidos. Eles reconstroem alambiques antigos e recriam receitas em uma tentativa de saborear o passado.",
+  "genero": "Reality, Crime, Documentário",
+  "elenco": "Jeremy Schwartz, Tim Smith, Art",
+  "diretor": "",
+  "total_episodios": "5",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 3370
+}

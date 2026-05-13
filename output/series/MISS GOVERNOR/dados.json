@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MTQ=",
+  "tipo": "serie",
+  "titulo": "MISS GOVERNOR",
+  "capa_url": "https://lgfp.one/NYJ8",
+  "capa_local": "MISS GOVERNOR/MISS GOVERNOR.jpg",
+  "sinopse": "Na tentativa de brilhar na política, a primeira vice-governadora negra do Mississipi precisa controlar sua família caótica e lidar com um chefe apegado ao passado.",
+  "genero": "Comédia, War & Politics",
+  "elenco": "Terri J. Vaughn, Jade Novah, Drew Olivia Tillman, Dyon Brooks, Jo Marie Payton",
+  "diretor": "Tina Gordon, Tyler Perry, Terri J. Vaughn",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:47"
+        }
+      ]
+    }
+  ],
+  "id": 7338
+}

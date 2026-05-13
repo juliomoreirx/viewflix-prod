@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MjI=",
+  "tipo": "serie",
+  "titulo": "LIBERE A MALDICAO DO TAEKWONDO [L]",
+  "capa_url": "https://lgfp.one/QNP5",
+  "capa_local": "LIBERE A MALDICAO DO TAEKWONDO [L]/LIBERE A MALDICAO DO TAEKWONDO [L].jpg",
+  "sinopse": "O estudante Do Hoe da aulas de Taekwondo no interior. Um dia, Ju Yeong, que sonha em entrar na faculdade com especialização em Taekwondo, vem de Seul, preenchendo a vida sombria de Do Hoe. No entanto, o comportamento opressivo de seu pai muda o relacionamentos dos dois e os força a se separar, se reencontrando 10 anos depois.",
+  "genero": "Drama",
+  "elenco": "김누림, 이선, Jang Yeon-woo, 유하복, 김경룡",
+  "diretor": "Hwang Da-seul, Hwang Da-seul",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:58"
+        }
+      ]
+    }
+  ],
+  "id": 8311
+}

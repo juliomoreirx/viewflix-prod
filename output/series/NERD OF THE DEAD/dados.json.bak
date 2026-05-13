@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxOTM=",
+  "tipo": "serie",
+  "titulo": "NERD OF THE DEAD",
+  "capa_url": "https://lgfp.one/QBI0",
+  "capa_local": "NERD OF THE DEAD/NERD OF THE DEAD.jpg",
+  "sinopse": "Dois nerds se preparam há muito tempo para um apocalipse zumbi. Quando isso acontece, o sonho deles se torna realidade e eles partem para a aventura de suas vidas.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:17:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:44"
+        }
+      ]
+    }
+  ],
+  "id": 8023
+}

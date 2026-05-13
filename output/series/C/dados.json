@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NzQ=",
+  "tipo": "serie",
+  "titulo": "C",
+  "capa_url": "https://lgfp.one/NJX9",
+  "capa_local": "C/C.jpg",
+  "sinopse": "Um jovem corredor tem uma segunda chance ao ganhar uma bolsa de atletismo. Mas será que ele vai realizar seus sonhos sem derrapar nas próprias mentiras?",
+  "genero": "Drama",
+  "elenco": "Thandolwethu Zondi, Wonder Ndlovu, Shalate Sekhabi, Wiseman Mncube, Brendon Daniels",
+  "diretor": "Tristan Holmes",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:52"
+        }
+      ]
+    }
+  ],
+  "id": 7071
+}

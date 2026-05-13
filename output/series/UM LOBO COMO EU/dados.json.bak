@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMTk=",
+  "tipo": "serie",
+  "titulo": "UM LOBO COMO EU",
+  "capa_url": "https://lgfp.one/TBC",
+  "capa_local": "UM LOBO COMO EU/UM LOBO COMO EU.jpg",
+  "sinopse": "Todo mundo carrega seu próprio passado ao entrar em um novo relacionamento, e com Gary e Mary não é diferente. Quando o universo de Mary se choca de repente com o de Gary e sua filha Emma, de 11 anos, todos os sinais mostram que eles foram feitos para estarem juntos. Mas conforme o relacionamento avança, Mary e Gary ficam cada vez mais apavorados de que o passado de cada um possa destruí-los.",
+  "genero": "Comédia / Sci-Fi & Fantasy",
+  "elenco": "Isla Fisher, Josh Gad, Emma Lung, Ariel Joy Donoghue, Madeleine Wilson, Anthony Taufa",
+  "diretor": "Abe Forsythe",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:07"
+        }
+      ]
+    }
+  ],
+  "id": 5894
+}

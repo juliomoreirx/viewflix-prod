@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMTM=",
+  "tipo": "serie",
+  "titulo": "VENUS PROJECT CLIMAX (2015) [L]",
+  "capa_url": "https://lgfp.one/SGM3",
+  "capa_local": "VENUS PROJECT CLIMAX (2015) [L]/VENUS PROJECT CLIMAX (2015) [L].jpg",
+  "sinopse": "",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "秦佐和子, 飯田里穂, 早瀬莉花, 高橋理恵子, Takehito Koyasu",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:46"
+        }
+      ]
+    }
+  ],
+  "id": 9132
+}

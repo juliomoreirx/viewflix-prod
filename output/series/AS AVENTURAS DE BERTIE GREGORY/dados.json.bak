@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzODQ=",
+  "tipo": "serie",
+  "titulo": "AS AVENTURAS DE BERTIE GREGORY",
+  "capa_url": "https://lgfp.one/TQG",
+  "capa_local": "AS AVENTURAS DE BERTIE GREGORY/AS AVENTURAS DE BERTIE GREGORY.jpg",
+  "sinopse": "Parte vida selvagem, parte aventura. Acompanhe as viagens do jovem explorador da National Geographic, Bertie Gregory, enquanto ele percorre o mundo capturando imagens extraordinárias de animais selvagens. Com uma combinação de maestria técnica, camuflagens secretas e extrema perseverança, ele e sua equipe tentam superar desafios e perigos para chegar o mais perto possível da vida selvagem seguindo as regras dela.",
+  "genero": "Documentário",
+  "elenco": "Bertie Gregory",
+  "diretor": "James Brickell",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:18"
+        }
+      ]
+    }
+  ],
+  "id": 2829
+}

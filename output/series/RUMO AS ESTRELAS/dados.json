@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NDI=",
+  "tipo": "serie",
+  "titulo": "RUMO ÀS ESTRELAS",
+  "capa_url": "https://lgfp.one/SJF",
+  "capa_local": "RUMO AS ESTRELAS/RUMO AS ESTRELAS.jpg",
+  "sinopse": "A série segue Chris e toda a equipe que assume missões que arriscam a vida, membros e reputação pelo bem maior da humanidade. Junte-se a eles à medida que suas missões se desenvolvem.",
+  "genero": "Documentário",
+  "elenco": "Chris Cassidy, Samuel Ting",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:50"
+        }
+      ]
+    }
+  ],
+  "id": 1933
+}

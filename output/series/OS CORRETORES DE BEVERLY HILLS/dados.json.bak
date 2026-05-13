@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MzY=",
+  "tipo": "serie",
+  "titulo": "OS CORRETORES DE BEVERLY HILLS",
+  "capa_url": "https://lgfp.one/VZR",
+  "capa_local": "OS CORRETORES DE BEVERLY HILLS/OS CORRETORES DE BEVERLY HILLS.jpg",
+  "sinopse": "Administrada pela família de Mauricio Umansky, a Agency é uma imobiliária que trabalha com propriedades luxuosas de Beverly Hills. E por aqui, é um drama a cada esquina.",
+  "genero": "Reality",
+  "elenco": "Mauricio Umansky, Alexia Umansky, Farrah Aldjufrie, Ben Belack, Joey Ben-Zvi",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:21"
+        }
+      ]
+    }
+  ],
+  "id": 3029
+}

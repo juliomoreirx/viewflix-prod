@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNDU=",
+  "tipo": "serie",
+  "titulo": "CARTA AO REI",
+  "capa_url": "https://lgfp.one/IVF",
+  "capa_local": "CARTA AO REI/CARTA AO REI.jpg",
+  "sinopse": "Um jovem aprendiz de cavaleiro encara profecias antigas, poderes mágicos e colegas volúveis em sua épica jornada para salvar o reino.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Família",
+  "elenco": "Amir Wilson, Ruby Ashbourne Serkis, Thaddea Graham, Islam Bouakkaz, Jonah Lees",
+  "diretor": "Felix Thompson, Alex Holmes, Charles Martin",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:16"
+        }
+      ]
+    }
+  ],
+  "id": 228
+}

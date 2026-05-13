@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NjY=",
+  "tipo": "serie",
+  "titulo": "HAPPYS PLACE [L]",
+  "capa_url": "https://lgfp.one/KXR9",
+  "capa_local": "HAPPYS PLACE [L]/HAPPYS PLACE [L].jpg",
+  "sinopse": "Happy's Place é uma série de comédia americana criada por Kevin Abbott. Na trama, Bobbie (Reba McEntire) herda o restaurante de seu falecido pai e, para sua surpresa, descobre que terá que dividi-lo com sua meia-irmã mais jovem, Isabella (Belissa Escobedo), com quem nunca havia tido contato",
+  "genero": "Comédia",
+  "elenco": "Reba McEntire, Belissa Escobedo, Melissa Peterman, Rex Linn, Pablo Castelblanco",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:37"
+        }
+      ]
+    }
+  ],
+  "id": 6575
+}

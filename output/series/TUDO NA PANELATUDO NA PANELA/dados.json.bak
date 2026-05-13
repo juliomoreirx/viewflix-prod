@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMzY=",
+  "tipo": "serie",
+  "titulo": "TUDO NA PANELATUDO NA PANELA",
+  "capa_url": "https://lgfp.one/AMC2",
+  "capa_local": "TUDO NA PANELATUDO NA PANELA/TUDO NA PANELATUDO NA PANELA.jpg",
+  "sinopse": "Carol Fiorentino abre sua cozinha para ensinar receitas fáceis e saborosas usando os alimentos por inteiro. Cascas, talos, ramas e sementes também são aproveitados em episódios deliciosos, cheios de sabor e sem desperdício.",
+  "genero": "Reality",
+  "elenco": "Carol Fiorentino",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:33"
+        }
+      ]
+    }
+  ],
+  "id": 5131
+}

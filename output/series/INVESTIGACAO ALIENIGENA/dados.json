@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNzc=",
+  "tipo": "serie",
+  "titulo": "INVESTIGACAO ALIENIGENA",
+  "capa_url": "https://lgfp.one/EFE7",
+  "capa_local": "INVESTIGACAO ALIENIGENA/INVESTIGACAO ALIENIGENA.jpg",
+  "sinopse": "Nesta série documental, o jornalista George Knapp viaja pelo mundo em busca de evidências de alienígenas, investigando a presença deles na Terra.",
+  "genero": "Documentário",
+  "elenco": "George Knapp",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:18"
+        }
+      ]
+    }
+  ],
+  "id": 6205
+}

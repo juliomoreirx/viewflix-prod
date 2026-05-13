@@ -1,0 +1,195 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NzM=",
+  "tipo": "serie",
+  "titulo": "THE WITCHER",
+  "capa_url": "https://lgfp.one/JHT",
+  "capa_local": "THE WITCHER/THE WITCHER.jpg",
+  "sinopse": "O mutante Geralt de Rívia é um caçador de monstros que luta para encontrar seu lugar num mundo onde as pessoas muitas vezes são mais perversas que as criaturas selvagens.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Liam Hemsworth, Anya Chalotra, Freya Allan, Joey Batey, Eamon Farren",
+  "diretor": "Алик Сахаров, Tomek Bagiński",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:07:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:38"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:59:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:56:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:54:52"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:03:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:57:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "01:01:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:55:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:52:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:05:29"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:58:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "01:00:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:54:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:51:12"
+        }
+      ]
+    }
+  ],
+  "id": 8386
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3Njk=",
+  "tipo": "serie",
+  "titulo": "JUAN GABRIEL: DEVO, POSSO E QUERO",
+  "capa_url": "https://lgfp.one/QMX4",
+  "capa_local": "JUAN GABRIEL DEVO, POSSO E QUERO/JUAN GABRIEL DEVO, POSSO E QUERO.jpg",
+  "sinopse": "Vídeos raros e entrevistas exclusivas revelam a genialidade, os sacrifícios e a dualidade entre as vidas pública e privada do icônico cantor e compositor Juan Gabriel.",
+  "genero": "Documentário",
+  "elenco": "Juan Gabriel",
+  "diretor": "Maria Jose Cuevas",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:55"
+        }
+      ]
+    }
+  ],
+  "id": 8265
+}

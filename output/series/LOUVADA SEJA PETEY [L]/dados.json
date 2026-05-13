@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MjU=",
+  "tipo": "serie",
+  "titulo": "LOUVADA SEJA PETEY [L]",
+  "capa_url": "https://lgfp.one/AASP",
+  "capa_local": "LOUVADA SEJA PETEY [L]/LOUVADA SEJA PETEY [L].jpg",
+  "sinopse": "Petey, uma \"it girl\" de Nova York, tem tudo que alguém poderia querer, até o dia em que sua vida desmorona ao seu redor. Entretanto, ela ganha uma chance de recomeçar quando resolve modernizar o culto de seu pai em uma pequena cidade.",
+  "genero": "Animação, Comédia",
+  "elenco": "Annie Murphy, John Cho, Kiersey Clemons, Christine Baranski, Amy Hill",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:54"
+        }
+      ]
+    }
+  ],
+  "id": 3828
+}

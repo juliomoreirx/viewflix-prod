@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNDA=",
+  "tipo": "serie",
+  "titulo": "DESTRANCADOS UM EXPERIMENTO NA PRISAO",
+  "capa_url": "https://lgfp.one/DCC9",
+  "capa_local": "DESTRANCADOS UM EXPERIMENTO NA PRISAO/DESTRANCADOS UM EXPERIMENTO NA PRISAO.jpg",
+  "sinopse": "Neste reality, o delegado de um centro de detenção em Arkansas implementa um experimento social que oferece mais liberdade aos detentos.",
+  "genero": "Reality",
+  "elenco": "Eric Higgins",
+  "diretor": "Isaac Holub",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:43"
+        }
+      ]
+    }
+  ],
+  "id": 5732
+}

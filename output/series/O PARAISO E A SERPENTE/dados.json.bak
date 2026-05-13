@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MTg=",
+  "tipo": "serie",
+  "titulo": "O PARAÍSO E A SERPENTE",
+  "capa_url": "https://lgfp.one/ROW",
+  "capa_local": "O PARAISO E A SERPENTE/O PARAISO E A SERPENTE.jpg",
+  "sinopse": "Charles Sobrhaj (Tahar Rahim) é um dos criminosos mais detestáveis do século XX. Ele foi o principal suspeito dos assassinatos não resolvidos de até 20 jovens viajantes na Índia, Tailândia e 'Hippie Trail' do Nepal em 1975 e 1976. Psicopata, vigarista, ladrão e mestre do disfarce, tendo escapado repetidamente do alcance das autoridades em todo o mundo. Em 1976, o serial killer Sobhraj era o homem mais procurado da Interpol e tinha mandados de prisão em três continentes diferentes. - Série original Netflix de oito episódios.",
+  "genero": "Drama, Crime",
+  "elenco": "Tahar Rahim, Jenna Coleman, Billy Howle, Ellie Bamber, Mathilde Warnier",
+  "diretor": "Hans Herbots, Tom Shankland",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:42"
+        }
+      ]
+    }
+  ],
+  "id": 1214
+}

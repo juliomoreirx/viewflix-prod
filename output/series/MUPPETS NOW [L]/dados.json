@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NzQ=",
+  "tipo": "serie",
+  "titulo": "MUPPETS NOW [L]",
+  "capa_url": "https://lgfp.one/JOH",
+  "capa_local": "MUPPETS NOW [L]/MUPPETS NOW [L].jpg",
+  "sinopse": "Esta série curta e sem roteiro apresenta personagens icônicos de Muppet ao lado de celebridades convidadas em um fórum que inspira uma tolice surpreendente e uma diversão sincera.",
+  "genero": "Comédia, Família",
+  "elenco": "Bill Barretta, Dave Goelz, Eric Jacobson, Peter Linz, David Rudman",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:31"
+        }
+      ]
+    }
+  ],
+  "id": 793
+}

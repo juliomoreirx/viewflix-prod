@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNjc=",
+  "tipo": "serie",
+  "titulo": "SOCIEDADE DO CANSAÇO",
+  "capa_url": "https://lgfp.one/TDR",
+  "capa_local": "SOCIEDADE DO CANSACO/SOCIEDADE DO CANSACO.jpg",
+  "sinopse": "\"Sociedade do Cansaço” é uma série documental que investiga como nossa sociedade atual, movida pelo desempenho e produtividade constantes, vem a engatilhar desamparos mentais e físicos na população.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:56"
+        }
+      ]
+    }
+  ],
+  "id": 2486
+}

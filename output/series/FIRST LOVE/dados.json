@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MTc=",
+  "tipo": "serie",
+  "titulo": "FIRST LOVE",
+  "capa_url": "https://lgfp.one/WKW",
+  "capa_local": "FIRST LOVE/FIRST LOVE.jpg",
+  "sinopse": "Dos picos nevados de Hokkaido aos campos abertos de Nagoya, Yae e Harumichi já foram um dia inseparáveis. Décadas se passaram e, por mais próximos que estejam, uma enorme distância os separa. Será que o destino vai unir esses dois caminhos de novo?",
+  "genero": "Drama",
+  "elenco": "Ell, Anthony Ma, Arthur Keng",
+  "diretor": "Yuri Kanchiku",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:30"
+        }
+      ]
+    }
+  ],
+  "id": 3099
+}

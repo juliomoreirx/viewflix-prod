@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMDM=",
+  "tipo": "serie",
+  "titulo": "ONLY BOO [L]",
+  "capa_url": "https://lgfp.one/DXO5",
+  "capa_local": "ONLY BOO [L]/ONLY BOO [L].jpg",
+  "sinopse": "Khao Kang vende curry com arroz em uma escola de meninos. Moo é um aluno do último ano que sonha em se tornar um ídol. Ele divide seu tempo entre flertar com Kang e treinar. Ele simultaneamente deseja amor e realizar seu sonho, mas parece que não pode tê-lo, já que estrear vem com a ressalva de que relacionamentos são proibidos.",
+  "genero": "Comédia",
+  "elenco": "สุวิจักรขณ์ ปิยะนพโรจน์, Sea Dechchart Tasilp, ณภัทร พัชรชวลิต, พีระกานต์ เตียวสุวรรณ, พรรษา วอสเบียน",
+  "diretor": "Sakon Wongsinwises",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:59:59"
+        }
+      ]
+    }
+  ],
+  "id": 6136
+}

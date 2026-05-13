@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNzE=",
+  "tipo": "serie",
+  "titulo": "MULHER-HULK: DEFENSORA DE HERÓIS",
+  "capa_url": "https://lgfp.one/TOT",
+  "capa_local": "MULHER-HULK DEFENSORA DE HEROIS/MULHER-HULK DEFENSORA DE HEROIS.jpg",
+  "sinopse": "Jennifer Walters — uma advogada especializada em casos envolvendo super-humanos — deve lidar com a complicada vida de uma mulher solteira de trinta e poucos anos que, por acaso, é uma hulk superpoderosa de 2 metros.",
+  "genero": "Comédia / Action & Adventure / Sci-Fi & Fantasy",
+  "elenco": "Tatiana Maslany, Ginger Gonzaga, Jameela Jamil, Tim Roth, Josh Segarra, Benedict Wong, Charlie Cox, Jon Bass",
+  "diretor": "Jessica Gao",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:04"
+        }
+      ]
+    }
+  ],
+  "id": 340737
+}

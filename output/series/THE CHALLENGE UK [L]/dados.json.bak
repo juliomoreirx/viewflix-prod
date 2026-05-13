@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMTA=",
+  "tipo": "serie",
+  "titulo": "THE CHALLENGE UK [L]",
+  "capa_url": "https://lgfp.one/DTD7",
+  "capa_local": "THE CHALLENGE UK [L]/THE CHALLENGE UK [L].jpg",
+  "sinopse": "Dezesseis estrelas do Reino Unido competem na versão britânica do \"The Challenge.\" Quem tem o que é preciso para sobreviver aos desafios e eliminações exaustivas para ganhar os cem mil euros?",
+  "genero": "Reality",
+  "elenco": "Mark Wright",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:04"
+        }
+      ]
+    }
+  ],
+  "id": 6047
+}

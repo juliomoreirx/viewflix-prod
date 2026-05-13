@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNTk=",
+  "tipo": "serie",
+  "titulo": "CASO ARQUIVADO QUEM MATOU JONBENÉT RAMSEY?",
+  "capa_url": "https://lgfp.one/KAE7",
+  "capa_local": "CASO ARQUIVADO QUEM MATOU JONBENET RAMSEY/CASO ARQUIVADO QUEM MATOU JONBENET RAMSEY.jpg",
+  "sinopse": "Erros da polícia e um circo midiático prejudicaram o caso do assassinato de JonBenét Ramsey. Esta série acompanha a incansável busca por justiça, que dura décadas.",
+  "genero": "Documentário, Mistério, Crime",
+  "elenco": "JonBenét Ramsey, John Bennett Ramsey, John Andrew Ramsey, Patsy Ramsey, Burke Ramsey",
+  "diretor": "Joe Berlinger",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:26"
+        }
+      ]
+    }
+  ],
+  "id": 6309
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNzY=",
+  "tipo": "serie",
+  "titulo": "BRIARPATCH",
+  "capa_url": "https://lgfp.one/AYZD",
+  "capa_local": "BRIARPATCH/BRIARPATCH.jpg",
+  "sinopse": "A obstinada investigadora Allegra Dill retorna para sua casa na cidade fronteiriça do Texas depois que sua irmã é assassinada. O que começa como uma busca por um assassino se transforma em uma luta exaustiva para colocar sua cidade natal corrupta de joelhos.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Rosario Dawson, Edi Gathegi, Kim Dickens, Jay R. Ferguson, Brian Geraghty",
+  "diretor": "Sam Esmail, Ana Lily Amirpour",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:54"
+        }
+      ]
+    }
+  ],
+  "id": 4892
+}

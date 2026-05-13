@@ -1,0 +1,135 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMzk=",
+  "tipo": "serie",
+  "titulo": "THE DEVIL BETWEEN US [L]",
+  "capa_url": "https://lgfp.one/RZG7",
+  "capa_local": "THE DEVIL BETWEEN US [L]/THE DEVIL BETWEEN US [L].jpg",
+  "sinopse": "Em uma pacata cidade costeira, um saco de drogas desaparecido desencadeia uma série de acontecimentos caóticos, envolvendo um detetive, um pai desesperado, uma jovem ambiciosa e dois irmãos viciados em drogas. À medida que suas vidas se cruzam, uma arriscada missão de resgate se inicia — uma missão que mudará para sempre a vida de todos os envolvidos.",
+  "genero": "Crime, Mistério",
+  "elenco": "任素汐, 王骁, 蔡文靜, 李泽锋, 王宥鈞",
+  "diretor": "Teng Huatao",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 0",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S00E01",
+          "duracao": "00:01:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S00E02",
+          "duracao": "00:01:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S00E03",
+          "duracao": "00:01:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S00E04",
+          "duracao": "00:00:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S00E05",
+          "duracao": "00:00:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S00E06",
+          "duracao": "00:00:53"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:36:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:42:30"
+        }
+      ]
+    }
+  ],
+  "id": 8981
+}

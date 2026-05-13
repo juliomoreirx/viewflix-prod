@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MDM=",
+  "tipo": "serie",
+  "titulo": "BOTCHED PESADELO NA BARIATRICA",
+  "capa_url": "https://lgfp.one/DTH4",
+  "capa_local": "BOTCHED PESADELO NA BARIATRICA/BOTCHED PESADELO NA BARIATRICA.jpg",
+  "sinopse": "Muitos pacientes tiveram seus mundos virados de cabeça para baixo após uma cirurgia bariátrica malsucedida. Médicos os ajudam a recuperarem as suas vidas.",
+  "genero": "Documentário, Reality",
+  "elenco": "Charlotte Hodges, Neilendu Kundu, Yasir Khan",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:01"
+        }
+      ]
+    }
+  ],
+  "id": 6058
+}

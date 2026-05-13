@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Nzc=",
+  "tipo": "serie",
+  "titulo": "SCHOOL OF CHOCOLATE",
+  "capa_url": "https://lgfp.one/SPQ",
+  "capa_local": "SCHOOL OF CHOCOLATE/SCHOOL OF CHOCOLATE.jpg",
+  "sinopse": "Oito profissionais estudam a arte do chocolate com um famoso chocolateiro. Mas só uma pessoa será a melhor da classe e ganhará uma chance imperdível.",
+  "genero": "Reality",
+  "elenco": "Juan Gutierrez, Daniel Joseph Corpuz, Amaury Guichon",
+  "diretor": "Tom Djokaj",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:59"
+        }
+      ]
+    }
+  ],
+  "id": 2104
+}

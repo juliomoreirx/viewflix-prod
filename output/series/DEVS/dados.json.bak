@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NTU=",
+  "tipo": "serie",
+  "titulo": "DEVS",
+  "capa_url": "https://lgfp.one/SFJ",
+  "capa_local": "DEVS/DEVS.jpg",
+  "sinopse": "A jovem engenheira de software Lily Chan investiga a divisão secreta de desenvolvimento de seu empregador, uma empresa de tecnologia de ponta com sede no Vale do Silício, que ela acredita estar por trás do assassinato de seu namorado.",
+  "genero": "Sci-Fi & Fantasy, Drama, Mistério",
+  "elenco": "Sonoya Mizuno, Nick Offerman, Alison Pill, Jin Ha, Zach Grenier",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:24"
+        }
+      ]
+    }
+  ],
+  "id": 1831
+}

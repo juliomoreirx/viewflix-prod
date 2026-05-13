@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNzM=",
+  "tipo": "serie",
+  "titulo": "GANGUES DA GALICIA",
+  "capa_url": "https://lgfp.one/BIN4",
+  "capa_local": "GANGUES DA GALICIA/GANGUES DA GALICIA.jpg",
+  "sinopse": "Uma advogada busca vingança pelo assassinato do pai e se infiltra em um cartel da Galícia. O objetivo dela é e se aproximar do poderoso líder.",
+  "genero": "Drama, Crime",
+  "elenco": "Clara Lago, Tamar Novas, Xosé A. Touriñán, Chechu Salgado, Melania Cruz",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:45"
+        }
+      ]
+    }
+  ],
+  "id": 5612
+}

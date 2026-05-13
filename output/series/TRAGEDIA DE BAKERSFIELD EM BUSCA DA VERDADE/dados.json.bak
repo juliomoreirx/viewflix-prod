@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNTA=",
+  "tipo": "serie",
+  "titulo": "TRAGEDIA DE BAKERSFIELD EM BUSCA DA VERDADE",
+  "capa_url": "https://lgfp.one/NYV7",
+  "capa_local": "TRAGEDIA DE BAKERSFIELD EM BUSCA DA VERDADE/TRAGEDIA DE BAKERSFIELD EM BUSCA DA VERDADE.jpg",
+  "sinopse": "Uma série de crimes horríveis une três mães na tentativa de descobrir o que aconteceu com seus filhos. Elas logo descobrem verdades perturbadoras sobre os rapazes e a cidade, o que coloca à prova sua amizade.",
+  "genero": "Mistério, Crime, Documentário",
+  "elenco": "Olivia LaVoice, Di Byrne, Jane Parrent",
+  "diretor": "Jennifer Anderson",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:29"
+        }
+      ]
+    }
+  ],
+  "id": 7344
+}

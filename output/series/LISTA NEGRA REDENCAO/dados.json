@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MDY=",
+  "tipo": "serie",
+  "titulo": "LISTA NEGRA: REDENÇÃO",
+  "capa_url": "https://lgfp.one/SGJ",
+  "capa_local": "LISTA NEGRA REDENCAO/LISTA NEGRA REDENCAO.jpg",
+  "sinopse": "A Grey Matters é uma organização mercenária que cuida de assuntos fora do controle do governo, liderada por Susan “Scottie” Hargrave (Famke Janssen). Quando o agente secreto Tom Keene se une á organização para participar da caçada aos atacantes de Liz (Megan Boon), sua esposa, ele descobre que Scottie pode ser sua mãe biológica, o que o faz entrar na própria missão secreta com o objetivo de descobrir mais sobre o próprio passado.",
+  "genero": "Crime, Drama",
+  "elenco": "Ryan Eggold, Famke Janssen, Edi Gathegi, Tawny Cypress, Adrian Martinez",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:08"
+        }
+      ]
+    }
+  ],
+  "id": 1858
+}

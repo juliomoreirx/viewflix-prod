@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNzU=",
+  "tipo": "serie",
+  "titulo": "CANDY: UMA HISTÓRIA DE PAIXÃO E CRIME",
+  "capa_url": "https://lgfp.one/TSZ",
+  "capa_local": "CANDY UMA HISTORIA DE PAIXAO E CRIME/CANDY UMA HISTORIA DE PAIXAO E CRIME.jpg",
+  "sinopse": "Candy Montgomery é uma mãe e dona de casa dos anos 80 que fez tudo certo: ela tem um bom marido, dois filhos, uma casa bonita, até mesmo suas transgressões foram cuidadosamente planejadas e executadas. Mas quando a pressão para se manter dentro dos padrões cresce dentro dela, suas ações gritam por um pouco de liberdade. Até que alguém a manda se calar. Com resultados mortais.",
+  "genero": "Crime",
+  "elenco": "Jessica Biel, Melanie Lynskey, Pablo Schreiber, Timothy Simons, Raúl Esparza, Jessie Mueller, Coley Campany, Sharon Conley",
+  "diretor": "Nick Antosca, Robin Veith",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:42"
+        }
+      ]
+    }
+  ],
+  "id": 2906
+}

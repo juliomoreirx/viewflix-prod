@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NDE=",
+  "tipo": "serie",
+  "titulo": "HUNTING ATLANTIS",
+  "capa_url": "https://lgfp.one/TBM",
+  "capa_local": "HUNTING ATLANTIS/HUNTING ATLANTIS.jpg",
+  "sinopse": "Stel Pavlou e Jess Phoenix investigam evidências, cidades submersas, artefatos antigos e catástrofes geológicas em uma jornada para desvendar o maior mistério arqueológico de todos os tempos: a redescoberta de Atlântida.",
+  "genero": "Sci-Fi & Fantasy / Reality",
+  "elenco": "Jess Phoenix, Stel Pavlou",
+  "diretor": "",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 2428
+}

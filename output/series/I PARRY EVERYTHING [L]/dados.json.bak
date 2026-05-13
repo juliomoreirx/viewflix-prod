@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2ODA=",
+  "tipo": "serie",
+  "titulo": "I PARRY EVERYTHING [L]",
+  "capa_url": "https://lgfp.one/PXX3",
+  "capa_local": "I PARRY EVERYTHING [L]/I PARRY EVERYTHING [L].jpg",
+  "sinopse": "O Reino de Clays enfrenta uma crise terrível: uma tentativa de assassinato acaba de ser feita contra a sua própria princesa, Lady Lynneburg, e os seus países vizinhos olham para as consequências como abutres famintos, planejando a queda do Reino. O conflito que se seguirá moldará a face do continente nos próximos séculos... mas Noor não tem a menor ideia sobre nada disso! Tendo chegado recentemente à capital real depois de mais de uma década de treinamento rigoroso e isolado em sua casa na montanha, ele está decidido a realizar seu sonho de infância de se tornar um aventureiro, mesmo que as únicas habilidades que possua sejam inúteis. Claro, ele pode usar \"Parry\" em mil espadas em uma única respiração, mas todo mundo sabe que você precisa de mais do que isso se quiser ser um aventureiro! O caminho do nosso herói para realizar seu sonho será longo (?) e árduo (?), mas se há uma coisa de que Noor não tem medo, é do bom e velho trabalho duro!",
+  "genero": "Action & Adventure, Animação",
+  "elenco": "Daiki Hamano, 前川涼子, 森なな子, 山野井仁, 寺島惇太",
+  "diretor": "福山大",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 7964
+}

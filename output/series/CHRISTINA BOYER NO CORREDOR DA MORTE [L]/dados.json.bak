@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0NjM=",
+  "tipo": "serie",
+  "titulo": "CHRISTINA BOYER NO CORREDOR DA MORTE [L]",
+  "capa_url": "https://lgfp.one/AQOX",
+  "capa_local": "CHRISTINA BOYER NO CORREDOR DA MORTE [L]/CHRISTINA BOYER NO CORREDOR DA MORTE [L].jpg",
+  "sinopse": "A história extraordinária de Christina Boyer, também conhecida como \"Garota Poltergeist\", condenada pelo assassinato de sua filha de três anos, e dos detetives amadores que estão obcecados com seu caso e determinados a libertá-la.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:57"
+        }
+      ]
+    }
+  ],
+  "id": 4201
+}

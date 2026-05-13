@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1ODE=",
+  "tipo": "serie",
+  "titulo": "CANCOES DE HALLOWEEN DO MICKEY E DA MINNIE",
+  "capa_url": "https://lgfp.one/QQA0",
+  "capa_local": "CANCOES DE HALLOWEEN DO MICKEY E DA MINNIE/CANCOES DE HALLOWEEN DO MICKEY E DA MINNIE.jpg",
+  "sinopse": "",
+  "genero": "Kids",
+  "elenco": "Bret Iwan, Kaitlyn Robrock, Bill Farmer, Tony Anselmo, Debra Wilson",
+  "diretor": "David H. Brooks",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:02:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:02:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:02:01"
+        }
+      ]
+    }
+  ],
+  "id": 8375
+}

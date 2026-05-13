@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MTE=",
+  "tipo": "serie",
+  "titulo": "TERRA À VENDA",
+  "capa_url": "https://lgfp.one/TAC",
+  "capa_local": "TERRA A VENDA/TERRA A VENDA.jpg",
+  "sinopse": "Para renovar os negócios da família, um jovem empresário tem um plano ousado, mas arriscado: importar solo do Marrocos para enterrar os mortos da comunidade.",
+  "genero": "Drama, Comédia",
+  "elenco": "Yassine Ouaich, Ward Kerremans, Ahlaam Teghadouini, Saïd Boumazoughe, Ben Hamidou",
+  "diretor": "Bilall Fallah, Adil El Arbi, Mathieu Mortelmans",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:48"
+        }
+      ]
+    }
+  ],
+  "id": 2391
+}

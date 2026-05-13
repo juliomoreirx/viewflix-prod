@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMDQ=",
+  "tipo": "serie",
+  "titulo": "EUPHORIA",
+  "capa_url": "https://lgfp.one/IYY",
+  "capa_local": "EUPHORIA/EUPHORIA.jpg",
+  "sinopse": "Um grupo de estudantes do ensino médio lida com diferentes situações típicas da idade como drogas, sexo, busca pela identidade, traumas, comportamento nas redes sociais e amizade.",
+  "genero": "Drama",
+  "elenco": "Zendaya, Hunter Schafer, Sydney Sweeney, Jacob Elordi, Alexa Demie",
+  "diretor": "Sam Levinson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "0",
+          "codigo": "S01E00",
+          "duracao": "00:57:06"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:01:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:00:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:02:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:00:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:01:52"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:01:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:59:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:59:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:01:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "01:00:37"
+        }
+      ]
+    }
+  ],
+  "id": 333
+}

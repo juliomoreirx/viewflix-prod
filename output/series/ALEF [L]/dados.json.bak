@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NDY=",
+  "tipo": "serie",
+  "titulo": "ALEF [L]",
+  "capa_url": "https://lgfp.one/ROK",
+  "capa_local": "ALEF [L]/ALEF [L].jpg",
+  "sinopse": "",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Melisa Sözen, Kenan İmirzalıoğlu, Ahmet Mümtaz Taylan",
+  "diretor": "Emin Alper",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:30"
+        }
+      ]
+    }
+  ],
+  "id": 1202
+}

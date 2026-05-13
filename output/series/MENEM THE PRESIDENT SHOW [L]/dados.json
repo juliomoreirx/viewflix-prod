@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MzQ=",
+  "tipo": "serie",
+  "titulo": "MENEM THE PRESIDENT SHOW [L]",
+  "capa_url": "https://lgfp.one/PPZ4",
+  "capa_local": "MENEM THE PRESIDENT SHOW [L]/MENEM THE PRESIDENT SHOW [L].jpg",
+  "sinopse": "Menem, um político carismático e extravagante, se torna presidente de uma nação problemática. Seu mandato, marcado pela privatização de empresas públicas, dolarização da economia e consultas com videntes, é ofuscado por ataques terroristas e pela morte de seu filho. O fotógrafo Olegario Salas vê sua vida mudar junto com a sociedade argentina em meio à recuperação econômica e à corrupção.",
+  "genero": "Drama",
+  "elenco": "Leonardo Sbaraglia, Sergio Gabriel D'Angelo, Juan Minujín, Griselda Siciliani, Jorgelina Aruzzi",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:51"
+        }
+      ]
+    }
+  ],
+  "id": 7740
+}

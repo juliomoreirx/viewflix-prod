@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyOTM=",
+  "tipo": "serie",
+  "titulo": "ZONA DE SOBREVIVÊNCIA",
+  "capa_url": "https://lgfp.one/PMZ4",
+  "capa_local": "ZONA DE SOBREVIVENCIA/ZONA DE SOBREVIVENCIA.jpg",
+  "sinopse": "Os competidores enfrentam condições extremas na natureza enquanto suas famílias assistem por meio de uma transmissão ao vivo e podem decidir seu destino negociando o envio de suprimentos essenciais ou pressionando o botão \"Extrair\".",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:21:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:07"
+        }
+      ]
+    }
+  ],
+  "id": 7709
+}

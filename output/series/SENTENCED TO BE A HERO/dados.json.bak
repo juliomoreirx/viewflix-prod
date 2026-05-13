@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1MTg=",
+  "tipo": "serie",
+  "titulo": "SENTENCED TO BE A HERO",
+  "capa_url": "https://lgfp.one/REH9",
+  "capa_local": "SENTENCED TO BE A HERO/SENTENCED TO BE A HERO.jpg",
+  "sinopse": "Em um mundo onde o heroísmo é uma punição, Xylo Forbartz, um assassino de deusas condenado, luta contra hordas intermináveis de abominações monstruosas como parte da Unidade Penal de Heróis 9004. A morte não tem escapatória, apenas um ciclo de ressurreição e combate sem trégua. Mas quando Xylo encontra uma nova e misteriosa deusa, sua improvável aliança desencadeia uma rebelião que pode quebrar as correntes da punição eterna.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Yohei Azakami, Mayu Iizuka, Shizuka Ishigami, Shun Horie, Shunichi Toki",
+  "diretor": "中小路佳毅, 高嶋宏之",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:29:30"
+        }
+      ]
+    }
+  ],
+  "id": 8512
+}

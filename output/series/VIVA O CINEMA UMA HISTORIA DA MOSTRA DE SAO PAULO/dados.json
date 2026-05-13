@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0ODk=",
+  "tipo": "serie",
+  "titulo": "VIVA O CINEMA UMA HISTORIA DA MOSTRA DE SAO PAULO",
+  "capa_url": "https://lgfp.one/EBB6",
+  "capa_local": "VIVA O CINEMA UMA HISTORIA DA MOSTRA DE SAO PAULO/VIVA O CINEMA UMA HISTORIA DA MOSTRA DE SAO PAULO.jpg",
+  "sinopse": "A história de resiliência de um dos eventos culturais mais tradicionais da América Latina: a Mostra Internacional de Cinema em São Paulo.",
+  "genero": "Documentário",
+  "elenco": "Renata de Almeida, Marina Person, Gustavo Rosa de Moura, André Bomfim, Larissa Kurata",
+  "diretor": "Marina Person, Gustavo Rosa de Moura",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:16"
+        }
+      ]
+    }
+  ],
+  "id": 6181
+}

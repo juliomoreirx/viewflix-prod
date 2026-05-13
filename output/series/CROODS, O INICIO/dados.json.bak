@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NDY=",
+  "tipo": "serie",
+  "titulo": "CROODS, O INÍCIO",
+  "capa_url": "https://lgfp.one/RUM5",
+  "capa_local": "CROODS, O INICIO/CROODS, O INICIO.jpg",
+  "sinopse": "A série se passa no tempo em que Eep e sua família viviam antes de conhecerem Guy, quando moravam no Vale de Aaaahhh! tendo uma ótima vida. Até que um dia, a mãe de Ugga, Vó, foi carregada por um Corujurso até o vale, e quando conseguem resgatá-la, Ugga decide que sua mãe iria morar com eles, mas Grug não aceita muito bem, já que ele e Vó não se dão bem, mas ela se muda permanentemente na casa deles e acabam tendo inúmeros problemas. E os Boors, os \"chefes\" do vale, se mudam para a caverna vizinha à dos Croods, mas Grug possui uma grande rivalidade com Nareba(dos Boors), que vive se achando superior aos outros, e as conversas pacíficas que Ugga faz ( ou tenta fazer) para que façam as pazes sempre acabam em brigas criadas por Grug. E os Croods vivem grandes aventuras e confusões.",
+  "genero": "Animação, Família, Kids",
+  "elenco": "Dan Milano, Cree Summer, Stephanie Lemelin, A.J. LoCascio, Laraine Newman",
+  "diretor": "Jeff D'Elia",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:13:39"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:14"
+        }
+      ]
+    }
+  ],
+  "id": 8925
+}

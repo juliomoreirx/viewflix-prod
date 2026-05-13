@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNzI=",
+  "tipo": "serie",
+  "titulo": "VIDA DOS SURICATOS",
+  "capa_url": "https://lgfp.one/SRX",
+  "capa_local": "VIDA DOS SURICATOS/VIDA DOS SURICATOS.jpg",
+  "sinopse": "Esta é a história de uma família de suricatos muito especiais. Resgatados do comércio clandestino de animais silvestres, eles serão devolvidos à sua verdadeira casa, o Kalahari.",
+  "genero": "Documentário",
+  "elenco": "Rob Delaney",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 2172
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxODY=",
+  "tipo": "serie",
+  "titulo": "EU",
+  "capa_url": "https://lgfp.one/CYE1",
+  "capa_local": "EU/EU.jpg",
+  "sinopse": "Escola nova. Família nova. Superpoder novo. É uma temporada de mudanças para o Ben Vasani, um garoto de doze anos, quando ele descobre que pode se transformar em qualquer um que encontra. Como um metamorfo, Ben deve descobrir quem ele é e quem quer ser.",
+  "genero": "Sci-Fi & Fantasy, Família",
+  "elenco": "Lucian-River Chauhan, Abigail Pniowsky, Dilshad Vadsaria, Amanda Reid, Jessy Yates",
+  "diretor": "Michael Dowse",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:29"
+        }
+      ]
+    }
+  ],
+  "id": 189189
+}

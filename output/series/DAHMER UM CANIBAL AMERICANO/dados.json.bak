@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1Nzc=",
+  "tipo": "serie",
+  "titulo": "DAHMER: UM CANIBAL AMERICANO",
+  "capa_url": "https://lgfp.one/TRX",
+  "capa_local": "DAHMER UM CANIBAL AMERICANO/DAHMER UM CANIBAL AMERICANO.jpg",
+  "sinopse": "Jeffrey Dahmer drogou, estuprou e matou 17 rapazes, além de devorar parte dos cadáveres. Conheça seu modus operandi e veja entrevistas com seu pai e com sobreviventes dos crimes.",
+  "genero": "Drama, Crime",
+  "elenco": "Evan Peters, Richard Jenkins, Molly Ringwald, Michael Learned, Niecy Nash-Betts",
+  "diretor": "Scott Robertson",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:58"
+        }
+      ]
+    }
+  ],
+  "id": 2877
+}

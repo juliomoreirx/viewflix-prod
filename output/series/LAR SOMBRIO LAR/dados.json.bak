@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MTA=",
+  "tipo": "serie",
+  "titulo": "LAR SOMBRIO LAR",
+  "capa_url": "https://lgfp.one/NEF6",
+  "capa_local": "LAR SOMBRIO LAR/LAR SOMBRIO LAR.jpg",
+  "sinopse": "Esta série relata casos de homicídio em que os assassinos conheciam a rotina de seu alvo e cada detalhe de sua residência. Munidos dessas informações, eles conseguiram planejar o crime quase perfeito.",
+  "genero": "Crime, Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:46"
+        }
+      ]
+    }
+  ],
+  "id": 6986
+}

@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMTk=",
+  "tipo": "serie",
+  "titulo": "MARLON",
+  "capa_url": "https://lgfp.one/IZQ",
+  "capa_local": "MARLON/MARLON.jpg",
+  "sinopse": "A nova série de comédia é produzida, inspirada e protagoniza pelo ator Marlon Wayans (Todo Mundo em Pânico). A série vai tentar “atualizar o conceito clássico de família”, através de um pai, amável porém muito imaturo, criando seus dois filhos, de quem cuida com a ex-esposa, Angie (Essence Atkins), uma decoradora que tem um temperamento controlador, totalmente oposto ao dele.",
+  "genero": "Comédia, Drama",
+  "elenco": "Marlon Wayans, Essence Atkins, Diallo Riddle, Notlim Taylor, Amir O'Neil",
+  "diretor": "Robbie Countryman",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:35"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:21:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:21:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:21:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:22:01"
+        }
+      ]
+    }
+  ],
+  "id": 353
+}

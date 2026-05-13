@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxOTk=",
+  "tipo": "serie",
+  "titulo": "KAKEGURUI TWIN",
+  "capa_url": "https://lgfp.one/AXA6",
+  "capa_local": "KAKEGURUI TWIN/KAKEGURUI TWIN.jpg",
+  "sinopse": "A história se passa 1 ano antes do eventos de Kakegurui e mostra os primeiros passos de Mary Saotome no mundo das apostas da escola Hyakkou Private Academy, mostrando seu progresso em deixar de ser uma garota comum para se tornar uma das mais respeitadas apostadoras.",
+  "genero": "Animação, Drama, Mistério",
+  "elenco": "田中美海, 本泉莉奈, 大地葉, 甲斐田裕子, 古賀葵",
+  "diretor": "Kaori Makita, Yasuhiro Geshi, Yuichiro Hayashi",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:20"
+        }
+      ]
+    }
+  ],
+  "id": 5361
+}

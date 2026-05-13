@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5Nzc=",
+  "tipo": "serie",
+  "titulo": "CIDADE DE FANTASMAS",
+  "capa_url": "https://lgfp.one/RTY",
+  "capa_local": "CIDADE DE FANTASMAS/CIDADE DE FANTASMAS.jpg",
+  "sinopse": "O Chef Jo está abrindo um restaurante em Boyle Heights, mas coisas estranhas não param de acontecer. Zelda descobre o passado do local e ajuda a esclarecer o mistério.",
+  "genero": "Kids, Animação",
+  "elenco": "Blue Chapman, Michael Ren, Honor Calderon, Kirikou S'hai Muldrow, August Nuñez",
+  "diretor": "Joanne Shen, Elizabeth Ito",
+  "total_episodios": "18",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:18:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:18:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:18:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:18:55"
+        }
+      ]
+    }
+  ],
+  "id": 1358
+}

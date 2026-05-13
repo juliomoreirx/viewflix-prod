@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MDE=",
+  "tipo": "serie",
+  "titulo": "DETOX",
+  "capa_url": "https://lgfp.one/TPW",
+  "capa_local": "DETOX/DETOX.jpg",
+  "sinopse": "Depois de perceber que têm uma relação tóxica com a internet, as amigas Léa e Manon tomam uma decisão difícil: abolir todos os aparelhos por 30 dias.",
+  "genero": "Comédia",
+  "elenco": "Tiphaine Daviot, Manon Azem, Oussama Kheddam, Charlotte de Turckheim, Zinedine Soualem",
+  "diretor": "Marie Jardillier",
+  "total_episodios": "31",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:46"
+        }
+      ]
+    }
+  ],
+  "id": 2819
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3Njk=",
+  "tipo": "serie",
+  "titulo": "THE SON",
+  "capa_url": "https://lgfp.one/JGC",
+  "capa_local": "THE SON/THE SON.jpg",
+  "sinopse": "No meio do século XIX, quando Eli é apenas um adolescente, sua família é  atacada pelos índios, que decidem levar o jovem como prêmio. 50 anos depois, Eli é um homem frio e calculista que terá dúvidas em fazer tudo o que estiver ao seu alcance para proteger a sua família e seu negócio.",
+  "genero": "Drama",
+  "elenco": "Pierce Brosnan, Jacob Lofland, Zahn McClarnon, Carlos Bardem, James Parks",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:42:59"
+        }
+      ]
+    }
+  ],
+  "id": 550
+}

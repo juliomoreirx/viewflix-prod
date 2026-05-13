@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MzQ=",
+  "tipo": "serie",
+  "titulo": "A NAMORADA IDEAL",
+  "capa_url": "https://lgfp.one/PYU1",
+  "capa_local": "A NAMORADA IDEAL/A NAMORADA IDEAL.jpg",
+  "sinopse": "A Laura tem tudo: uma carreira brilhante, um marido amoroso e um filho precioso, o Daniel. Mas a vida perfeita desmorona quando o Daniel apresenta a Cherry, uma namorada que muda tudo. Após um começo tenso, a Laura fica convencida de que a Cherry esconde algo. Será que ela é uma manipuladora ambiciosa, ou a Laura está paranoica? A verdade é uma questão de perspectiva.",
+  "genero": "Drama, Mistério",
+  "elenco": "Robin Wright, Olivia Cooke, Laurie Davidson, Waleed Zuaiter, Tanya Moodie",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:29"
+        }
+      ]
+    }
+  ],
+  "id": 7969
+}

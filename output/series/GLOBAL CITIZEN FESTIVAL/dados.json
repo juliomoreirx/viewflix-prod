@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNjU=",
+  "tipo": "serie",
+  "titulo": "GLOBAL CITIZEN FESTIVAL",
+  "capa_url": "https://lgfp.one/ABBK",
+  "capa_local": "GLOBAL CITIZEN FESTIVAL/GLOBAL CITIZEN FESTIVAL.jpg",
+  "sinopse": "Versão transmitida pelo canal TNT, shows de Anitta, Conan Gray, D-Nice, Jungkook, Laurin Hill, Sofia Carson, Stray Kids e Red Hot Chilli Peppers",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:14:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:37"
+        }
+      ]
+    }
+  ],
+  "id": 4096
+}

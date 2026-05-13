@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1MzY=",
+  "tipo": "serie",
+  "titulo": "GANG WAR PUSHER STREET [L]",
+  "capa_url": "https://lgfp.one/QNP1",
+  "capa_local": "GANG WAR PUSHER STREET [L]/GANG WAR PUSHER STREET [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Carsten Norton, Jesper Vestergaard Larsen, Bjarne Christensen, Tonny Kluck, Karl Bille",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:38"
+        }
+      ]
+    }
+  ],
+  "id": 8307
+}

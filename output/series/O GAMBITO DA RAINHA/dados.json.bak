@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NTA=",
+  "tipo": "serie",
+  "titulo": "O GAMBITO DA RAINHA",
+  "capa_url": "https://lgfp.one/RIA",
+  "capa_local": "O GAMBITO DA RAINHA/O GAMBITO DA RAINHA.jpg",
+  "sinopse": "Durante a Guerra Fria, em um orfanato do Kentucky, uma garota prodígio do xadrez luta contra o vício para se tornar a número um do mundo.",
+  "genero": "Drama",
+  "elenco": "Anya Taylor-Joy, Chloe Pirrie, Bill Camp",
+  "diretor": "Aldric La'Auli Porter, Carlos Fidel, Sharron Reynolds-Enriquez",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:52"
+        }
+      ]
+    }
+  ],
+  "id": 1028
+}

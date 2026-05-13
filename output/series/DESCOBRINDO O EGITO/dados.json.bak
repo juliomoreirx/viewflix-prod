@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MDU=",
+  "tipo": "serie",
+  "titulo": "DESCOBRINDO O EGITO",
+  "capa_url": "https://lgfp.one/TGK",
+  "capa_local": "DESCOBRINDO O EGITO/DESCOBRINDO O EGITO.jpg",
+  "sinopse": "Uma espetacular viagem aérea pelo Egito revela como o Rio Nilo foi a chave dos império antigos e por que ainda é importante hoje.",
+  "genero": "Documentário",
+  "elenco": "Julian Barratt",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:19"
+        }
+      ]
+    }
+  ],
+  "id": 2560
+}

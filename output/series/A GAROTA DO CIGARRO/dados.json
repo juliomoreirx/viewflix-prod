@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MDY=",
+  "tipo": "serie",
+  "titulo": "A GAROTA DO CIGARRO",
+  "capa_url": "https://lgfp.one/ASLT",
+  "capa_local": "A GAROTA DO CIGARRO/A GAROTA DO CIGARRO.jpg",
+  "sinopse": "Ao desafiar a tradicional indústria dos cigarros de cravo na Indonésia dos anos 1960, uma talentosa artesã vive uma jornada de amor e autodescoberta.",
+  "genero": "Drama",
+  "elenco": "Dian Sastrowardoyo, Ario Bayu, Putri Marino, Arya Saloka, Tissa Biani Azzahra",
+  "diretor": "Kamila Andini, Ifa Isfansyah",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:10:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:14:01"
+        }
+      ]
+    }
+  ],
+  "id": 4369
+}

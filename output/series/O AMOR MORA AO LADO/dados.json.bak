@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMDE=",
+  "tipo": "serie",
+  "titulo": "O AMOR MORA AO LADO",
+  "capa_url": "https://lgfp.one/DKZ8",
+  "capa_local": "O AMOR MORA AO LADO/O AMOR MORA AO LADO.jpg",
+  "sinopse": "Na tentativa de recomeçar a vida, uma mulher retorna à Coreia e se envolve com alguém do passado. O problema é que existe uma história complicada entre os dois.",
+  "genero": "Drama, Comédia",
+  "elenco": "Jung Hae-in, 정소민, 김지은, Yoon Ji On, 박지영",
+  "diretor": "",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:15:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:16:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:17:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:18:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:22:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:17:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:20:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:26:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:30:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:29:44"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:23:45"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:23:24"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:20:21"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:17:33"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:13:21"
+        }
+      ]
+    }
+  ],
+  "id": 5920
+}

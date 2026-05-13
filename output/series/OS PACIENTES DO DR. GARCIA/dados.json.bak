@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Mjk=",
+  "tipo": "serie",
+  "titulo": "OS PACIENTES DO DR. GARCÍA",
+  "capa_url": "https://lgfp.one/ZQM",
+  "capa_local": "OS PACIENTES DO DR. GARCIA/OS PACIENTES DO DR. GARCIA.jpg",
+  "sinopse": "Em Madrid, em 1936, a vida de um médico idealista muda para sempre quando ele abriga um espião ferido e se junta a uma luta de décadas contra a propagação do fascismo.",
+  "genero": "Drama",
+  "elenco": "Javier Rey, Tamar Novas, Verónica Echegui, Eva Llorach, Raúl Jiménez",
+  "diretor": "Joan Noguera, Salvador García Ruiz, María Togores",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:38"
+        }
+      ]
+    }
+  ],
+  "id": 3452
+}

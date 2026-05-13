@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5ODI=",
+  "tipo": "serie",
+  "titulo": "A PENÚLTIMA PALAVRA",
+  "capa_url": "https://lgfp.one/REK",
+  "capa_local": "A PENULTIMA PALAVRA/A PENULTIMA PALAVRA.jpg",
+  "sinopse": "Após a morte do marido, uma mulher reencontra a paixão pela vida quando começa a trabalhar em funerais e viver de perto a experiência da perda, do luto e do amor.",
+  "genero": "Comédia, Drama",
+  "elenco": "Anke Engelke, Thorsten Merten, Nina Gummich, Aaron Hilmer, Johannes Zeiler",
+  "diretor": "Jan Bernotat, Julia Strobel, Leon Algrim",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:52"
+        }
+      ]
+    }
+  ],
+  "id": 929
+}

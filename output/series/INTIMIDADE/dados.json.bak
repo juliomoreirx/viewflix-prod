@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NTA=",
+  "tipo": "serie",
+  "titulo": "INTIMIDADE",
+  "capa_url": "https://lgfp.one/TIO",
+  "capa_local": "INTIMIDADE/INTIMIDADE.jpg",
+  "sinopse": "Um vídeo de sexo gravado em segredo ameaça a carreira de uma política em ascensão.",
+  "genero": "Drama, Mistério",
+  "elenco": "Itziar Ituño, Patricia López Arnaiz, Daniel Cabrera, Verónica Echegui, Ana Wagener",
+  "diretor": "Jorge Torregrossa, Ben Gutteridge, Koldo Almandoz, Marta Font Pascual",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:18"
+        }
+      ]
+    }
+  ],
+  "id": 2619
+}

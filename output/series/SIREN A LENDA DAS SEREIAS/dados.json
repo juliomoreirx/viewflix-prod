@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NDk=",
+  "tipo": "serie",
+  "titulo": "SIREN: A LENDA DAS SEREIAS",
+  "capa_url": "https://lgfp.one/IXV",
+  "capa_local": "SIREN A LENDA DAS SEREIAS/SIREN A LENDA DAS SEREIAS.jpg",
+  "sinopse": "A captura de uma criatura marinha feroz por pescadores de um vilarejo no noroeste do oceano pacífico abala as estruturas do local. A descoberta parece desafiar tudo que os habitantes achavam que sabiam sobre o mar, pois tudo indica que se trata de uma sereia.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Eline Powell, Alex Roe, Fola Evans-Akingbola, Ian Verdun, Rena Owen",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:11"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:42:07"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:41:57"
+        }
+      ]
+    }
+  ],
+  "id": 301
+}

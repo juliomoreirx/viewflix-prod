@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMjA=",
+  "tipo": "serie",
+  "titulo": "RIPLEY",
+  "capa_url": "https://lgfp.one/ARL2",
+  "capa_local": "RIPLEY/RIPLEY.jpg",
+  "sinopse": "Um trambiqueiro adentra no mundo da riqueza e do privilégio ao aceitar um trabalho na Itália. Mas, para aproveitar a vida boa, ele precisa criar uma teia de mentiras.",
+  "genero": "Drama",
+  "elenco": "Andrew Scott, Dakota Fanning, Johnny Flynn",
+  "diretor": "Peter Thorell, Peter Thorell",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:16:13"
+        }
+      ]
+    }
+  ],
+  "id": 5216
+}

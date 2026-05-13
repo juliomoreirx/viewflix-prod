@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5OTM=",
+  "tipo": "serie",
+  "titulo": "VIETNA A GUERRA QUE MUDOU OS EUA [L]",
+  "capa_url": "https://lgfp.one/MVE1",
+  "capa_local": "VIETNA A GUERRA QUE MUDOU OS EUA [L]/VIETNA A GUERRA QUE MUDOU OS EUA [L].jpg",
+  "sinopse": "A reunião de velhos amigos, relatos em primeira pessoa e filmagens raramente vistas pintam um quadro extraordinário e profundamente profundo de como foi viver uma das guerras mais longas da história.",
+  "genero": "Documentário",
+  "elenco": "Ethan Hawke",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:38"
+        }
+      ]
+    }
+  ],
+  "id": 6833
+}

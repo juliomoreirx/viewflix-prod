@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MzI=",
+  "tipo": "serie",
+  "titulo": "A PONTE: THE BRIDGE BRASIL",
+  "capa_url": "https://lgfp.one/AAHP",
+  "capa_local": "A PONTE THE BRIDGE BRASIL/A PONTE THE BRIDGE BRASIL.jpg",
+  "sinopse": "Completamente isolados na natureza, os participantes têm a missão de construir uma ponte de 300 metros até uma ilha, local onde encontra-se o prêmio. O tempo máximo para cumprir a tarefa é de 20 dias e só estarão disponíveis os materiais de construção à sua volta.",
+  "genero": "Reality",
+  "elenco": "Murilo Rosa, Pepita, Suyane Moreira, Murilo Rosa, Danielle Winits",
+  "diretor": "",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:58"
+        }
+      ]
+    }
+  ],
+  "id": 3546
+}

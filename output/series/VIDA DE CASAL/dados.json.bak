@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5OTA=",
+  "tipo": "serie",
+  "titulo": "VIDA DE CASAL",
+  "capa_url": "https://lgfp.one/WBB",
+  "capa_local": "VIDA DE CASAL/VIDA DE CASAL.jpg",
+  "sinopse": "Revelações e segredos vêm à tona à medida que a complexidade do casamento moderno e da fidelidade são expostos. Em um mundo de oito bilhões, o que acontece depois que encontramos \"aquela pessoa\"? Podemos permanecer fiéis às promessas que nos esforçamos para cumprir enquanto estamos em uma VIDA DE CASAL?",
+  "genero": "Comédia / Drama",
+  "elenco": "James Corden, Colin Morgan, Melia Kreiling, Sally Hawkins",
+  "diretor": "Jez Butterworth, James Richardson",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:43"
+        }
+      ]
+    }
+  ],
+  "id": 3066
+}

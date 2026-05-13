@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2OTQ=",
+  "tipo": "serie",
+  "titulo": "REGRAS DO AMOR",
+  "capa_url": "https://lgfp.one/QJW3",
+  "capa_local": "REGRAS DO AMOR/REGRAS DO AMOR.jpg",
+  "sinopse": "Jovem casal vivencia as diferentes fases do relacionamento entre um homem e uma mulher. Eles descobrem que as pessoas podem até descrevê-las, mas que a única forma de entender essas fases é vivendo cada uma delas.",
+  "genero": "Comédia",
+  "elenco": "Patrick Warburton, David Spade, Megyn Price, Bianca Kajlich, Oliver Hudson",
+  "diretor": "",
+  "total_episodios": "21",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:50"
+        }
+      ]
+    }
+  ],
+  "id": 8215
+}

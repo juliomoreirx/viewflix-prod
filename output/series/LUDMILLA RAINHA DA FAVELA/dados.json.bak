@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNjU=",
+  "tipo": "serie",
+  "titulo": "LUDMILLA: RAINHA DA FAVELA",
+  "capa_url": "https://lgfp.one/AAPA",
+  "capa_local": "LUDMILLA RAINHA DA FAVELA/LUDMILLA RAINHA DA FAVELA.jpg",
+  "sinopse": "Saída da Baixada Fluminense, Ludmilla enfrentou uma série de dificuldades para se tornar uma das popstars mais influentes do Brasil e um talento único na música do país.",
+  "genero": "Documentário",
+  "elenco": "Ludmilla",
+  "diretor": "",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:40"
+        }
+      ]
+    }
+  ],
+  "id": 3734
+}

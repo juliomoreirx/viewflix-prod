@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNzg=",
+  "tipo": "serie",
+  "titulo": "ESCANDALO BEM BRITANICO",
+  "capa_url": "https://lgfp.one/KCX0",
+  "capa_local": "ESCANDALO BEM BRITANICO/ESCANDALO BEM BRITANICO.jpg",
+  "sinopse": "A segunda temporada se concentra em um escândalo sexual de 1963 envolvendo Margaret Campbell, a duquesa de Argyll. Durante o divórcio de seu segundo marido, ele capturou imagens de Campbell realizando um ato sexual com um homem desconhecido e ela ficou conhecida como \"A Dirty Duchess\".",
+  "genero": "Drama",
+  "elenco": "Claire Foy, Paul Bettany, Julia Davis, Richard McCabe",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:37"
+        }
+      ]
+    }
+  ],
+  "id": 6354
+}

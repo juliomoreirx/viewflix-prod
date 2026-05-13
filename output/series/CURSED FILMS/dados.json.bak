@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NzI=",
+  "tipo": "serie",
+  "titulo": "CURSED FILMS",
+  "capa_url": "https://lgfp.one/IWM",
+  "capa_local": "CURSED FILMS/CURSED FILMS.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Jay Cheel",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:34"
+        }
+      ]
+    }
+  ],
+  "id": 265
+}

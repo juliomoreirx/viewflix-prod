@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NDQ=",
+  "tipo": "serie",
+  "titulo": "TODOS MENTEM",
+  "capa_url": "https://lgfp.one/SZT",
+  "capa_local": "TODOS MENTEM/TODOS MENTEM.jpg",
+  "sinopse": "A divulgação de um vídeo de sexo e o aparecimento de um corpo sem vida chacoalham a tranquilidade da vida de uma vila na costa da Catalunha.",
+  "genero": "Drama",
+  "elenco": "Natalia Verbeke, Irene Arcos, Leonardo Sbaraglia, Ernesto Alterio, Miren Ibarguren",
+  "diretor": "Pau Freixas",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:44"
+        }
+      ]
+    }
+  ],
+  "id": 2382
+}

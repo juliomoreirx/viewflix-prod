@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NTI=",
+  "tipo": "serie",
+  "titulo": "THE COPENHAGEN TEST [L]",
+  "capa_url": "https://lgfp.one/RFA1",
+  "capa_local": "THE COPENHAGEN TEST [L]/THE COPENHAGEN TEST [L].jpg",
+  "sinopse": "Alexander Hale é um analista de inteligência que descobre que seu cérebro foi hackeado, permitindo que criminosos monitorem seus sentidos em tempo real. Pressionado por sua agência a atuar como isca, ele precisa manter as aparências enquanto caça os responsáveis para recuperar sua privacidade e liberdade.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Mistério",
+  "elenco": "Simu Liu, Melissa Barrera, Sinclair Daniel, Brian d'Arcy James, Mark O'Brien",
+  "diretor": "James Wan, Jet Wilkinson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:09"
+        }
+      ]
+    }
+  ],
+  "id": 8580
+}

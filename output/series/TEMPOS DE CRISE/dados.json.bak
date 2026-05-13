@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0OTU=",
+  "tipo": "serie",
+  "titulo": "TEMPOS DE CRISE",
+  "capa_url": "https://lgfp.one/JCP",
+  "capa_local": "TEMPOS DE CRISE/TEMPOS DE CRISE.jpg",
+  "sinopse": "O banqueiro Paul Grangier é vítima de uma overdose de insulina e acaba em coma. Acidente, esgotamento ou suicídio? Apenas a sua irmã Elisabeth acredita que foi uma tentativa de assassinato.",
+  "genero": "Drama, Mistério",
+  "elenco": "Laura Sepul, Féodor Atkine, Arnaud Binard, Vincent Kucholl, Brigitte Fossey",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:04"
+        }
+      ]
+    }
+  ],
+  "id": 447
+}

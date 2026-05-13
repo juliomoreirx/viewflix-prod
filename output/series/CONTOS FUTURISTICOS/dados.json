@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMjE=",
+  "tipo": "serie",
+  "titulo": "CONTOS FUTURÍSTICOS",
+  "capa_url": "https://lgfp.one/WAP",
+  "capa_local": "CONTOS FUTURISTICOS/CONTOS FUTURISTICOS.jpg",
+  "sinopse": "Nesta antológica série sci-fi, a curiosidade leva ao caos quando os alunos em um futuro próximo vivenciam eventos misteriosos.",
+  "genero": "Família, Sci-Fi & Fantasy",
+  "elenco": "",
+  "diretor": "Jennifer Capraru, Matthew Hastings",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:08"
+        }
+      ]
+    }
+  ],
+  "id": 3054
+}

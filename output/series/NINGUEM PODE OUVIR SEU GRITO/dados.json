@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NDc=",
+  "tipo": "serie",
+  "titulo": "NINGUÉM PODE OUVIR SEU GRITO",
+  "capa_url": "https://lgfp.one/YRB",
+  "capa_local": "NINGUEM PODE OUVIR SEU GRITO/NINGUEM PODE OUVIR SEU GRITO.jpg",
+  "sinopse": "Sobreviventes e investigadores contam histórias de crimes terríveis que ocorreram nos locais mais isolados dos EUA. Uma coisa é certa: ninguém está seguro quando está sozinho.",
+  "genero": "Crime, Documentário",
+  "elenco": "Carl Carter Jr., Chris Flynn, Lynette Hadrath-Dahl",
+  "diretor": "Michel Monty",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 3308
+}

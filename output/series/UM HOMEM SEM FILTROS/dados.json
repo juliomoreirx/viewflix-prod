@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyOTc=",
+  "tipo": "serie",
+  "titulo": "UM HOMEM SEM FILTROS",
+  "capa_url": "https://lgfp.one/AYU1",
+  "capa_local": "UM HOMEM SEM FILTROS/UM HOMEM SEM FILTROS.jpg",
+  "sinopse": "Um respeitado apresentador perde a capacidade de autocensura ao vivo, chamando a atenção de uma produtora que o convida para seu programa de variedades.",
+  "genero": "Comédia, Drama",
+  "elenco": "고경표, 강한나, 주종혁, Lee Bom-so-ri, 신정근",
+  "diretor": "Jang Ji-yeon",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:25"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:07:18"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:04:01"
+        }
+      ]
+    }
+  ],
+  "id": 5381
+}

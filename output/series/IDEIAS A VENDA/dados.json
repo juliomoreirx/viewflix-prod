@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Mzg=",
+  "tipo": "serie",
+  "titulo": "IDEIAS À VENDA",
+  "capa_url": "https://lgfp.one/SWS",
+  "capa_local": "IDEIAS A VENDA/IDEIAS A VENDA.jpg",
+  "sinopse": "Um reality show em que, a cada episódio, 4 empreendedores apresentam seus produtos e são colocados à prova por um júri especial e 100 pessoas da plateia. No reality, a apresentadora Eliana, com Luana Génot como jurada fixa, comanda uma competição que dá 200 mil reais ao melhor negócio de cada rodada.",
+  "genero": "Reality",
+  "elenco": "Eliana, Luana Génot, Carole Crema",
+  "diretor": "Larri Andrade",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:45"
+        }
+      ]
+    }
+  ],
+  "id": 2303
+}

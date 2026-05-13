@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNjU=",
+  "tipo": "serie",
+  "titulo": "DUAS SEMANAS PARA VIVER",
+  "capa_url": "https://lgfp.one/RWU",
+  "capa_local": "DUAS SEMANAS PARA VIVER/DUAS SEMANAS PARA VIVER.jpg",
+  "sinopse": "Depois da morte de seu pai, a jovem Kim cresce isolada do mundo, sendo criada por sua rígida mãe. Aos 21 anos ela decide sair em uma missão para vingar seu pai e parte em uma jornada imprevisível e intrigante.",
+  "genero": "Comédia, Action & Adventure, Crime",
+  "elenco": "Maisie Williams, Mawaan Rizwan, Sian Clifford, Taheen Modak",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:45"
+        }
+      ]
+    }
+  ],
+  "id": 1435
+}

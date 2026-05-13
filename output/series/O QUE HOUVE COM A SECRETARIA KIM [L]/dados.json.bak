@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMjM=",
+  "tipo": "serie",
+  "titulo": "O QUE HOUVE COM A SECRETÁRIA KIM? [L]",
+  "capa_url": "https://lgfp.one/SPX4",
+  "capa_local": "O QUE HOUVE COM A SECRETARIA KIM [L]/O QUE HOUVE COM A SECRETARIA KIM [L].jpg",
+  "sinopse": "A família de Lee Young-Joon dirige uma grande empresa e ele trabalha como vice-presidente da empresa. Ele é inteligente, rico e bonito, mas é arrogante. Sua secretária é Kim Mi-So. Ela trabalhou por muitos anos e é perfeita para ele, mas Kim Mi-So decide deixar o emprego.",
+  "genero": "Comédia, Drama",
+  "elenco": "Park Seo Joon, 박민영, 이태환, 표예진, 김혜옥",
+  "diretor": "박준화, Yoo Jong-sun, Choi Ji-young",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:10:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:12:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:13:27"
+        }
+      ]
+    }
+  ],
+  "id": 9290
+}

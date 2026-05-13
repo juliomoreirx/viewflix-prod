@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNzg=",
+  "tipo": "serie",
+  "titulo": "DRAGONS OF WONDERHATCH [L]",
+  "capa_url": "https://lgfp.one/AWNE",
+  "capa_local": "DRAGONS OF WONDERHATCH [L]/DRAGONS OF WONDERHATCH [L].jpg",
+  "sinopse": "Upananta é um mundo fantástico com ilhas voadoras e cavaleiros de dragões. Este mundo deslumbrante está à beira da destruição... O maior cavaleiro de dragões de Upananta, Aktha, desaparece a meio de uma batalha decisiva. Sem ele, o mundo está perdido.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Animação",
+  "elenco": "Mackenyu, Sena Nakajima, Daiken Okudaira, Go Morita, Sumire",
+  "diretor": "Takashi Otsuka",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:16"
+        }
+      ]
+    }
+  ],
+  "id": 4674
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwODU=",
+  "tipo": "serie",
+  "titulo": "SWEETPEA [L]",
+  "capa_url": "https://lgfp.one/EGG6",
+  "capa_local": "SWEETPEA [L]/SWEETPEA [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia, Drama",
+  "elenco": "Ella Purnell, Nicôle Lecky, Jon Pointing, Calam Lynch, Leah Harvey",
+  "diretor": "Ella Jones, Ella Jones",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:27"
+        }
+      ]
+    }
+  ],
+  "id": 8808
+}

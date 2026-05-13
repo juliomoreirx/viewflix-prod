@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNjE=",
+  "tipo": "serie",
+  "titulo": "PROCURA-SE: O MAIOR FUGITIVO DAS AMÉRICAS",
+  "capa_url": "https://lgfp.one/VYL",
+  "capa_local": "PROCURA-SE O MAIOR FUGITIVO DAS AMERICAS/PROCURA-SE O MAIOR FUGITIVO DAS AMERICAS.jpg",
+  "sinopse": "Em um dia ensolarado de novembro de 1998, um vendedor de computadores do Brooklyn, careca e gordo, deveria se apresentar à prisão para começar a cumprir uma sentença de 17 anos. Ele alugou um Ford Taurus, dirigiu até o Queens para entregar a tornozeleira que estava usando, tirou US$ 600 de um caixa eletrônico e partiu em direção ao aeroporto JFK. Porém, no caminho, ele desapareceu. Seu nome era John Ruffo.",
+  "genero": "Documentário",
+  "elenco": "Sunny Hostin",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:12"
+        }
+      ]
+    }
+  ],
+  "id": 358406
+}

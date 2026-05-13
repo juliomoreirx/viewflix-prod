@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NTQ=",
+  "tipo": "serie",
+  "titulo": "NOS SOMOS A ONDA",
+  "capa_url": "https://lgfp.one/RSI2",
+  "capa_local": "NOS SOMOS A ONDA/NOS SOMOS A ONDA.jpg",
+  "sinopse": "Um misterioso colega lidera quatro adolescentes idealistas contra uma onda crescente de fervor nacionalista, mas o movimento sai do controle.",
+  "genero": "Drama",
+  "elenco": "Luise Befort, Ludwig Simon, Michelle Barthel, Mohamed Issa, Daniel Friedl",
+  "diretor": "Dennis Gansel",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:26"
+        }
+      ]
+    }
+  ],
+  "id": 8863
+}

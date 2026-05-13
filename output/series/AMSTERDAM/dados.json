@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNTU=",
+  "tipo": "serie",
+  "titulo": "AMSTERDAM",
+  "capa_url": "https://lgfp.one/TAM",
+  "capa_local": "AMSTERDAM/AMSTERDAM.jpg",
+  "sinopse": "Nadia e Martín são um casal há tanto tempo que já esqueceram o que os uniu em primeiro lugar. Ambos querem se separar, mas há um grande problema: quem fica com Amsterdam, o cachorrinho que eles resgataram da rua?",
+  "genero": "Drama / Comédia",
+  "elenco": "Sebastián Buitrón, Naian González Norvind",
+  "diretor": "",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:38:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:38:14"
+        }
+      ]
+    }
+  ],
+  "id": 130878
+}

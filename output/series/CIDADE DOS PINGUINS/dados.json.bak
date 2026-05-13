@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Nzk=",
+  "tipo": "serie",
+  "titulo": "CIDADE DOS PINGUINS",
+  "capa_url": "https://lgfp.one/RXF",
+  "capa_local": "CIDADE DOS PINGUINS/CIDADE DOS PINGUINS.jpg",
+  "sinopse": "Em uma pitoresca cidade da África do Sul, um grupo de pinguins eclético e em perigo de extinção se reúne para acasalar, formar família e se enturmar.",
+  "genero": "Documentário, Kids",
+  "elenco": "Patton Oswalt",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:39"
+        }
+      ]
+    }
+  ],
+  "id": 1447
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNzk=",
+  "tipo": "serie",
+  "titulo": "AGENTES DO CAOS",
+  "capa_url": "https://lgfp.one/QPZ6",
+  "capa_local": "AGENTES DO CAOS/AGENTES DO CAOS.jpg",
+  "sinopse": "Documentário em duas partes que oferece um olhar oportuno e perspicaz da interferência da Rússia nas eleições de 2016 nos EUA.",
+  "genero": "Documentário",
+  "elenco": "Alex Gibney, John Podesta, John O. Brennan, Andrew McCabe, Camille Francois",
+  "diretor": "Lowell Bergman, Alex Gibney, Alex Gibney",
+  "total_episodios": "120",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:57:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:59:05"
+        }
+      ]
+    }
+  ],
+  "id": 8371
+}

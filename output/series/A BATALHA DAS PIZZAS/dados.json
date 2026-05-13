@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NDk=",
+  "tipo": "serie",
+  "titulo": "A BATALHA DAS PIZZAS",
+  "capa_url": "https://lgfp.one/VYX",
+  "capa_local": "A BATALHA DAS PIZZAS/A BATALHA DAS PIZZAS.jpg",
+  "sinopse": "Em um mundo repleto de opiniões divergentes, há uma coisa que une a todos... o amor universal pela pizza. O reality reúne concorrentes de todas esferas da vida obcecados por pizza que vão mostrar suas habilidades e batalhar por um prêmio em dinheiro. Acenda o forno, a primeira competição de pizza começou!",
+  "genero": "Reality",
+  "elenco": "Wells Adams, Daniele Uditi, Millie Peartree, Eunji Kim, Bryan Ford",
+  "diretor": "",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:33:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:05"
+        }
+      ]
+    }
+  ],
+  "id": 3009
+}

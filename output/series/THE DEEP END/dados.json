@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTE=",
+  "tipo": "serie",
+  "titulo": "THE DEEP END",
+  "capa_url": "https://lgfp.one/VYS",
+  "capa_local": "THE DEEP END/THE DEEP END.jpg",
+  "sinopse": "Uma análise cativante e provocativa sobre o mundo de uma das líderes espirituais mais controversas da atualidade e seus fiéis seguidores. Filmado ao longo de três anos e com acesso sem precedentes, esta série documental mostra um retrato inabalável das distâncias incríveis que as pessoas vão em busca de conexão.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Jon Kasbe",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:13"
+        }
+      ]
+    }
+  ],
+  "id": 3007
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2OTc=",
+  "tipo": "serie",
+  "titulo": "OXEN",
+  "capa_url": "https://lgfp.one/QDB9",
+  "capa_local": "OXEN/OXEN.jpg",
+  "sinopse": "",
+  "genero": "Crime, War & Politics",
+  "elenco": "Jacob Lohmann, Ellen Hillingsø, Josephine Park, Birgitte Hjort Sørensen",
+  "diretor": "Jannik Johansen, Ida Øversveen Gabrielsen, Mikael Zilmer",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:11"
+        }
+      ]
+    }
+  ],
+  "id": 8124
+}

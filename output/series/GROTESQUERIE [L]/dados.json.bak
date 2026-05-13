@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNzc=",
+  "tipo": "serie",
+  "titulo": "GROTESQUERIE [L]",
+  "capa_url": "https://lgfp.one/DXN7",
+  "capa_local": "GROTESQUERIE [L]/GROTESQUERIE [L].jpg",
+  "sinopse": "Uma série de crimes hediondos abala uma pequena comunidade, e a detetive Lois Tryon sente que esses crimes são assustadoramente pessoais, como se alguém, ou algo, estivesse a provocando.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Niecy Nash-Betts, Courtney B. Vance, Nicholas Alexander Chavez, Micaela Diamond, Raven Goodwin",
+  "diretor": "Max Winkler, Scott Robertson, Anna Ramey Borden",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:33"
+        }
+      ]
+    }
+  ],
+  "id": 6244
+}

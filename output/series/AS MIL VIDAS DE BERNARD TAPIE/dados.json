@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNTQ=",
+  "tipo": "serie",
+  "titulo": "AS MIL VIDAS DE BERNARD TAPIE",
+  "capa_url": "https://lgfp.one/AAYT",
+  "capa_local": "AS MIL VIDAS DE BERNARD TAPIE/AS MIL VIDAS DE BERNARD TAPIE.jpg",
+  "sinopse": "Esta biografia fictícia sobre Bernard Tapie mostra como esse ambicioso homem saiu da classe trabalhadora e se tornou uma das figuras públicas mais controversas da França.",
+  "genero": "Drama",
+  "elenco": "Laurent Lafitte, Joséphine Japy, Patrick d'Assumçao, Ophélia Kolb, Camille Chamoux",
+  "diretor": "Tristan Séguéla, Tristan Séguéla, Constance Frederix",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:36"
+        }
+      ]
+    }
+  ],
+  "id": 3985
+}

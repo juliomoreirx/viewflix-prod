@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5OTQ=",
+  "tipo": "serie",
+  "titulo": "O MUNDO MARAVILHOSO DE MICKEY MOUSE",
+  "capa_url": "https://lgfp.one/RKC",
+  "capa_local": "O MUNDO MARAVILHOSO DE MICKEY MOUSE/O MUNDO MARAVILHOSO DE MICKEY MOUSE.jpg",
+  "sinopse": "Muita diversão e animação para Mickey Mouse e seus melhores amigos enquanto eles desviam de obstáculos e imprevistos e embarcam em suas maiores aventuras até agora. Isso tudo em um mundo radical e maluco onde a magia da Disney faz do impossível, possível.",
+  "genero": "Animação, Família, Kids",
+  "elenco": "Chris Diamantopoulos, Kaitlyn Robrock, Bill Farmer, Tony Anselmo, Tress MacNeille",
+  "diretor": "",
+  "total_episodios": "7",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:08:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:08:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:08:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:08:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:08:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:08:32"
+        }
+      ]
+    }
+  ],
+  "id": 227842
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNjE=",
+  "tipo": "serie",
+  "titulo": "IMMORTALS",
+  "capa_url": "https://lgfp.one/JGU",
+  "capa_local": "IMMORTALS/IMMORTALS.jpg",
+  "sinopse": "Por vingança, a humana transformada em vampira Mia tentará aniquilar Dmitry, um vampiro cruel em busca de um objeto que pode torná-lo imortal.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Elçin Sangu, Selma Ergeç, Kerem Bürsin, Birkan Sokullu, Hazal Türesan",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:59"
+        }
+      ]
+    }
+  ],
+  "id": 569
+}

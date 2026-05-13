@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MDc=",
+  "tipo": "serie",
+  "titulo": "DESLOCADOS: A SÉRIE",
+  "capa_url": "https://lgfp.one/SLB",
+  "capa_local": "DESLOCADOS A SERIE/DESLOCADOS A SERIE.jpg",
+  "sinopse": "Os Deslocados têm um ano movimentado pela frente com a produção de um musical. Mas quando a diretora da escola tem outros planos, é Julia quem salva o dia.",
+  "genero": "Comédia",
+  "elenco": "Djamila Verhoef, Niek Roozen, Jolijn Henneman, Fenna Ramos, Bente Fokkens",
+  "diretor": "Erwin van den Eshof",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:14"
+        }
+      ]
+    }
+  ],
+  "id": 1982
+}

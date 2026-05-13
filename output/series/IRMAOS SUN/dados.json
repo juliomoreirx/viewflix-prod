@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNzE=",
+  "tipo": "serie",
+  "titulo": "IRMAOS SUN",
+  "capa_url": "https://lgfp.one/AXCF",
+  "capa_local": "IRMAOS SUN/IRMAOS SUN.jpg",
+  "sinopse": "Depois que um inimigo misterioso ataca sua família, um membro de uma tríade de Taipé vai até Los Angeles para proteger a mãe obstinada e o irmão mais novo.",
+  "genero": "Drama, Action & Adventure, Crime",
+  "elenco": "Michelle Yeoh, Justin Chien, Sam Li, Joon Lee, Highdee Kuan",
+  "diretor": "Terrence B. Zinn, Kathleen Mulligan, Kevin Tancharoen",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:09:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:44"
+        }
+      ]
+    }
+  ],
+  "id": 4739
+}

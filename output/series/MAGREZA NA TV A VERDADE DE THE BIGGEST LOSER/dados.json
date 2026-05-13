@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NDI=",
+  "tipo": "serie",
+  "titulo": "MAGREZA NA TV A VERDADE DE THE BIGGEST LOSER",
+  "capa_url": "https://lgfp.one/PSO9",
+  "capa_local": "MAGREZA NA TV A VERDADE DE THE BIGGEST LOSER/MAGREZA NA TV A VERDADE DE THE BIGGEST LOSER.jpg",
+  "sinopse": "Ex-participantes e produtores mostram a realidade intensa e devastadora por trás do sucesso de The Biggest Loser nesta série documental instigante.",
+  "genero": "Documentário",
+  "elenco": "Bob Harper, Alison Sweeney, Rob Huizenga, J.D. Roth, Caroline Rhea",
+  "diretor": "Skye Borgman",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:31"
+        }
+      ]
+    }
+  ],
+  "id": 7836
+}

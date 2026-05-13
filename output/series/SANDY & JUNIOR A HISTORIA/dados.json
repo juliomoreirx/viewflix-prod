@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MjE=",
+  "tipo": "serie",
+  "titulo": "SANDY & JUNIOR: A HISTÓRIA",
+  "capa_url": "https://lgfp.one/SBS",
+  "capa_local": "SANDY & JUNIOR A HISTORIA/SANDY & JUNIOR A HISTORIA.jpg",
+  "sinopse": "A série documental mostra a trajetória de sucesso da dupla Sandy & Junior, oferecendo ao público uma viagem pela vida profissional e pessoal dos irmãos que se tornaram um marco da música brasileira. Os sete episódios acompanham diversos momentos de sua carreira artística, desde a infância até a recente turnê Nossa História. A partir de um vasto arquivo musical e de imagens inéditas, a produção reconstrói os mais de 30 anos da dupla, trazendo ainda depoimentos de familiares, fãs e grandes artistas como Roberto Carlos e Ivete Sangalo.",
+  "genero": "Documentário",
+  "elenco": "Sandy, Junior Lima, Xororó, Noely Lima, Lucas Lima",
+  "diretor": "Douglas Aguillar, Douglas Aguillar, Douglas Aguillar",
+  "total_episodios": "63",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:24:02"
+        }
+      ]
+    }
+  ],
+  "id": 1731
+}

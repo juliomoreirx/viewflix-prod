@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NDc=",
+  "tipo": "serie",
+  "titulo": "FORA DE ÓRBITA",
+  "capa_url": "https://lgfp.one/SVM",
+  "capa_local": "FORA DE ORBITA/FORA DE ORBITA.jpg",
+  "sinopse": "Em 2045, duas crianças nascidas na Lua e três da Terra precisam fazer de tudo para sobreviver após um acidente na estação espacial.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Natsumi Fujiwara, Azumi Waki, Kensho Ono, Chinatsu Akasaki, Yumiko Kobayashi",
+  "diretor": "Mitsuo Iso, Hideki Itô, Kazuo Terada",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:42"
+        }
+      ]
+    }
+  ],
+  "id": 2271
+}

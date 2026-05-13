@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMjA=",
+  "tipo": "serie",
+  "titulo": "PREAMAR",
+  "capa_url": "https://lgfp.one/EFF1",
+  "capa_local": "PREAMAR/PREAMAR.jpg",
+  "sinopse": "Série brasileira que narra a história de João Ricardo Velasco, um executivo que, após perder o emprego em um banco, inicia um negócio informal nas praias do Rio de Janeiro, sem contudo revelar à família sua. Vivendo nesse novo ambiente, ele testemunha uma realidade à qual não conhecia e presencia situações como tráfico de drogas e prostituição.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Hugo Bonemer, Thaíssa Carvalho, Leonardo Franco, Paloma Riani, Roberto Bonfim",
+  "diretor": "Estevão Ciavatta",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:49:40"
+        }
+      ]
+    }
+  ],
+  "id": 6209
+}

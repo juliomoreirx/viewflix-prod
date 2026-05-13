@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NjU=",
+  "tipo": "serie",
+  "titulo": "HARLOTS",
+  "capa_url": "https://lgfp.one/ITP",
+  "capa_local": "HARLOTS/HARLOTS.jpg",
+  "sinopse": "Na Londres do século 18, Margaret Wells (Samantha Morton) é uma mulher que precisa conciliar os papeis de dona de bordel e mãe solteira. Porém uma casa rival começa a atcar diretamente seu negócio, liderada por Lydia Quigley (Lesley Manville), uma mulher imperiosa e sem escrúpulos. Agora Margaret precisa lutar para manter-se no mercado, contando com a ajuda de sua filha mais velha Charlotte (Jessica Brown Findlay), a cortesã mais cobiçada da cidade, que começa a aprender a usar sua posição na sociedade a seu favor.",
+  "genero": "Drama",
+  "elenco": "Rosalind Eleazar, Danny Sapani, Roy Beck, Bronwyn James, Ben Lambert",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:01"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:52:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:51:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:53:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:53:03"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:55:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:51:49"
+        }
+      ]
+    }
+  ],
+  "id": 185
+}

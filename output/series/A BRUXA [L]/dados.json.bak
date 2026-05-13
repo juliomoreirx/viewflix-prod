@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNTg=",
+  "tipo": "serie",
+  "titulo": "A BRUXA [L]",
+  "capa_url": "https://lgfp.one/NCN4",
+  "capa_local": "A BRUXA [L]/A BRUXA [L].jpg",
+  "sinopse": "Lee Dong Jin (Park Jin Young) é um analista de dados brilhante, mas há um mistério que ele nunca conseguiu resolver: por que tragédias sempre cercam Park Mi Jeong (Roh Jeong Eui), sua antiga paixão do colégio?\n\nMarcada como \"bruxa\" após a morte de seu pai e colegas, Mi Jeong se isolou do mundo. Agora, dez anos depois, Dong Jin decide desvendar a verdade mesmo que isso coloque sua própria vida em risco.",
+  "genero": "Drama, Mistério",
+  "elenco": "진영, 노정의, 임재혁, 장희령, 장혜진",
+  "diretor": "김태균",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:47"
+        }
+      ]
+    }
+  ],
+  "id": 221633
+}

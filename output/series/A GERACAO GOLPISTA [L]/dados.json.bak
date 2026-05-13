@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1Njc=",
+  "tipo": "serie",
+  "titulo": "A GERAÇÃO GOLPISTA [L]",
+  "capa_url": "https://lgfp.one/AAQI",
+  "capa_local": "A GERACAO GOLPISTA [L]/A GERACAO GOLPISTA [L].jpg",
+  "sinopse": "Esta série examina o lado sombrio da cultura dos influenciadores digitais através de alguns dos maiores escândalos das redes sociais do nosso tempo. De grandes golpes a campanhas virais de cancelamento, veja como esses formadores de opinião acabaram na controversa mira de seus próprios mundos on-line cuidadosamente planejados.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "David Shadrack Smith",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:39"
+        }
+      ]
+    }
+  ],
+  "id": 3768
+}

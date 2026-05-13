@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NDQ=",
+  "tipo": "serie",
+  "titulo": "SELEÇÃO FINAL",
+  "capa_url": "https://lgfp.one/PSJ7",
+  "capa_local": "SELECAO FINAL/SELECAO FINAL.jpg",
+  "sinopse": "Vinte e cinco atletas, quase todos aposentados, competem por dinheiro para começar outra carreira. Será que eles conseguem superar os desafios físicos e psicológicos?",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "Ivan Reitman",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:37"
+        }
+      ]
+    }
+  ],
+  "id": 7787
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2NjE=",
+  "tipo": "serie",
+  "titulo": "CHEF KATH FANG LEGADO DE FAMILIA",
+  "capa_url": "https://lgfp.one/AUXD",
+  "capa_local": "CHEF KATH FANG LEGADO DE FAMILIA/CHEF KATH FANG LEGADO DE FAMILIA.jpg",
+  "sinopse": "A chef Kathy Fang tenta dominar o mundo da culinária chinesa servindo pratos modernos e inovadores de dar água na boca. Trabalhando ao lado do pai, Kathy se esforça para expandir sua marca e honrar o legado de sua família.",
+  "genero": "Reality",
+  "elenco": "Kathy Fang, Peter Fang, Lillian Phan, Long Vo, Christy-Anne Lopez",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:14"
+        }
+      ]
+    }
+  ],
+  "id": 4571
+}

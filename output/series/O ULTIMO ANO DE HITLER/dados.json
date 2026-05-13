@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNzA=",
+  "tipo": "serie",
+  "titulo": "O ULTIMO ANO DE HITLER",
+  "capa_url": "https://lgfp.one/DOT8",
+  "capa_local": "O ULTIMO ANO DE HITLER/O ULTIMO ANO DE HITLER.jpg",
+  "sinopse": "Entre a invasão da Normandia, no Dia D, à queda de Hitler, os Aliados levaram onze meses brutais para derrubar o Reich. Esse foi o ano mais mortal da 2ª Guerra Mundial.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Adolf Hitler",
+  "diretor": "David Korn-Brzoza, David Korn-Brzoza",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:57"
+        }
+      ]
+    }
+  ],
+  "id": 5967
+}

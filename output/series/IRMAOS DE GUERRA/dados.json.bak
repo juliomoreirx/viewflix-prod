@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNTU=",
+  "tipo": "serie",
+  "titulo": "IRMÃOS DE GUERRA",
+  "capa_url": "https://lgfp.one/ITW",
+  "capa_local": "IRMAOS DE GUERRA/IRMAOS DE GUERRA.jpg",
+  "sinopse": "A trajetória dos integrantes da Easy Company, grupo de elite da infantaria de paraquedistas dos Estados Unidos, desde o treinamento até os combates na histórica invasão da Europa, na Segunda Guerra Mundial.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Michael Cudlitz, Rick Gomez, Scott Grimes, Damian Lewis, Ron Livingston",
+  "diretor": "Steven Spielberg",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:13:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:12:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:14"
+        }
+      ]
+    }
+  ],
+  "id": 184947
+}

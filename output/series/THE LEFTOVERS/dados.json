@@ -1,0 +1,170 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NTE=",
+  "tipo": "serie",
+  "titulo": "THE LEFTOVERS",
+  "capa_url": "https://lgfp.one/SVR",
+  "capa_local": "THE LEFTOVERS/THE LEFTOVERS.jpg",
+  "sinopse": "Após dois por cento da população do mundo desaparecer, os que sobraram se esforçam para compreender.",
+  "genero": "Sci-Fi & Fantasy / Drama",
+  "elenco": "Justin Theroux, Amy Brenneman, Christopher Eccleston, Margaret Qualley, Chris Zylka, Carrie Coon, Scott Glenn, Regina King",
+  "diretor": "Tom Perrotta, Damon Lindelof",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:11:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:53:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:01:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:56:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:54:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:56:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:57:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:57:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:02:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:54:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:11:56"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:00:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "01:00:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:57:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:58:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "01:01:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:13:21"
+        }
+      ]
+    }
+  ],
+  "id": 2276
+}

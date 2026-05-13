@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NDA=",
+  "tipo": "serie",
+  "titulo": "ROMANCE IS A BONUS BOOK [L]",
+  "capa_url": "https://lgfp.one/RRJ",
+  "capa_local": "ROMANCE IS A BONUS BOOK [L]/ROMANCE IS A BONUS BOOK [L].jpg",
+  "sinopse": "Cha Eun Ho e Kang Dan Yi são amigos desde a infância. A vida de de Eun Ho, que aparentemente sempre nutriu sentimentos por Dan Yi mesmo que nunca tenha tido a oportunidade de realmente confessá-los, parece estar dando realmente certo para ele. Hoje ele é um famoso escritor e editor chefe de uma editora, tem uma casa legal e uma fila de mulher querendo namorar com ele. Já a vida de Dan Yi é completamente do avesso. A trouxa largou o emprego anos atrás pra criar a filha e apoiar o marido, sofreu pra burro e no final foi abandonada com uma mão da frente e outra atrás e com uma filha pra criar. Sem casa e com a conta bancária zerada, ela procura desesperadamente um emprego, mas não é nada fácil uma publicitária voltar ao mercado depois de tantos anos. É quando a luz no fim do túnel finalmente brilha e e ela é contratada na equipe de apoio da editora onde Eun Ho trabalha. Será que finalmente, depois de mil anos, esses dois vão conseguir desenrolar esse romance e encontrar a felicidade?",
+  "genero": "Comédia, Drama",
+  "elenco": "Lee Jong-suk, Lee Na-young, Jung Yoo-jin, Wi Ha-jun, Kim Tae-woo",
+  "diretor": "Lee Jung-hyo",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:42"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:35"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:01:18"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:02:37"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:00:40"
+        }
+      ]
+    }
+  ],
+  "id": 1283
+}

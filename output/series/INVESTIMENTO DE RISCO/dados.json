@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NTQ=",
+  "tipo": "serie",
+  "titulo": "INVESTIMENTO DE RISCO",
+  "capa_url": "https://lgfp.one/YJZ",
+  "capa_local": "INVESTIMENTO DE RISCO/INVESTIMENTO DE RISCO.jpg",
+  "sinopse": "Quatro homens e mulheres que trabalham no mesmo banco se envolvem em um romance complicado quando descobrem até onde estão dispostos a ir por amor.",
+  "genero": "Drama",
+  "elenco": "Yoo Yeon-seok, Moon Ga-young, Geum Sae-rok, Jung Ga-ram, Moon Tae-yu, Jung Jae-sung, Lee Hwa-ryong, Park Hyoung-soo",
+  "diretor": "Cho Young-min",
+  "total_episodios": "75",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:18:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:11:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:14:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:08:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:13:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:18:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:17:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:13:36"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:15:46"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:18:18"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:13:22"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:24:11"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:27:55"
+        }
+      ]
+    }
+  ],
+  "id": 3260
+}

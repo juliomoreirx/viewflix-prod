@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzODA=",
+  "tipo": "serie",
+  "titulo": "ALASCA: SABEDORIA NATIVA",
+  "capa_url": "https://lgfp.one/TRC",
+  "capa_local": "ALASCA SABEDORIA NATIVA/ALASCA SABEDORIA NATIVA.jpg",
+  "sinopse": "No Alasca, os povos indígenas devem enfrentar o clima e todos os tipos de desafios enquanto lutam para cuidar de suas terras ancestrais.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:03"
+        }
+      ]
+    }
+  ],
+  "id": 2855
+}

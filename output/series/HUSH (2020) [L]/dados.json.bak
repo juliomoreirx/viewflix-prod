@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MzA=",
+  "tipo": "serie",
+  "titulo": "HUSH (2020) [L]",
+  "capa_url": "https://lgfp.one/SEP3",
+  "capa_local": "HUSH (2020) [L]/HUSH (2020) [L].jpg",
+  "sinopse": "\"Hush\" é um drama de escritório sobre repórteres de jornais e suas lutas diárias, problemas e dilemas éticos. Han Jun Hyeok é um repórter veterano para um jornal. Ele se tornou o primeiro repórter a perseguir a justiça, mas agora ele está em conflito entre idealismo e pragmatismo. Han Jun Hyeok também deve lidar com questões pessoais como marido e pai.Lee Ji Su é um ousado repórter interno que não tem medo de dizer o que precisa ser dito, mesmo durante uma entrevista de trabalho. Quando ela conhece Han Jun Hyeok como seu mentor, ela começa a sonhar em se tornar uma verdadeira jornalista.",
+  "genero": "Drama",
+  "elenco": "황정민, Yoona, 손병호, 유선, 김원해",
+  "diretor": "Choi Gyu-sik",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:10:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:59:53"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:58:58"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:02:21"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:59:37"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:58:48"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:01:28"
+        }
+      ]
+    }
+  ],
+  "id": 35993
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Mjc=",
+  "tipo": "serie",
+  "titulo": "A RESERVA",
+  "capa_url": "https://lgfp.one/NVH5",
+  "capa_local": "A RESERVA/A RESERVA.jpg",
+  "sinopse": "Uma jovem au pair desaparece em um bairro de elite, fazendo com que Cecilie tente descobrir a verdade. Mal sabe ela que essa jornada trará revelações chocantes.",
+  "genero": "Drama, Crime",
+  "elenco": "Marie Bach Hansen, Excel Busano, Danica Ćurčić, Sara Fanta Traore, Simon Sears",
+  "diretor": "Per Fly, Peter Hingebjerg, Lillian Rype Fokdal",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:15"
+        }
+      ]
+    }
+  ],
+  "id": 7279
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMzE=",
+  "tipo": "serie",
+  "titulo": "SURVIVING THE JEHOVAHS WITNESSES (2026) [L]",
+  "capa_url": "https://lgfp.one/SEC3",
+  "capa_local": "SURVIVING THE JEHOVAHS WITNESSES (2026) [L]/SURVIVING THE JEHOVAHS WITNESSES (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Pablo Aguinaga",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:06"
+        }
+      ]
+    }
+  ],
+  "id": 9069
+}

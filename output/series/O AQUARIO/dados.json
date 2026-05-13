@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0Mzc=",
+  "tipo": "serie",
+  "titulo": "O AQUARIO",
+  "capa_url": "https://lgfp.one/KTV7",
+  "capa_local": "O AQUARIO/O AQUARIO.jpg",
+  "sinopse": "Esta série leva os espectadores a conhecer os bastidores do maior aquário do Hemisfério Ocidental, o Georgia Aquarium, em Atlanta. Você verá o cuidado de cada um dos milhares de animais e os laços dos funcionários com eles.",
+  "genero": "Documentário, Reality",
+  "elenco": "Vuli Mthethwa",
+  "diretor": "Sanet Olivier",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "102",
+          "codigo": "S02E102",
+          "duracao": "00:46:58"
+        }
+      ]
+    }
+  ],
+  "id": 337554
+}

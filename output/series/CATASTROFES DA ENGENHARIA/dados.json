@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMjE=",
+  "tipo": "serie",
+  "titulo": "CATASTROFES DA ENGENHARIA",
+  "capa_url": "https://lgfp.one/ALK6",
+  "capa_local": "CATASTROFES DA ENGENHARIA/CATASTROFES DA ENGENHARIA.jpg",
+  "sinopse": "Gráficos, relatos de testemunhas oculares e conhecimento especializado ajudam a desvendar os mistérios por trás de alguns dos piores desastres de engenharia do mundo registrados em vídeo.",
+  "genero": "Documentário, Reality",
+  "elenco": "Mocean Melvin",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:42"
+        }
+      ]
+    }
+  ],
+  "id": 5099
+}

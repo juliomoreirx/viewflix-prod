@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1ODQ=",
+  "tipo": "serie",
+  "titulo": "JOVEM DAVI",
+  "capa_url": "https://lgfp.one/QOY9",
+  "capa_local": "JOVEM DAVI/JOVEM DAVI.jpg",
+  "sinopse": "Segue a existência de David “como um jovem pastor adolescente - com ovelhas, um estilingue e uma lira para os amigos”.",
+  "genero": "Animação",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:05:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:06:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:06:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:06:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:06:39"
+        }
+      ]
+    }
+  ],
+  "id": 8351
+}

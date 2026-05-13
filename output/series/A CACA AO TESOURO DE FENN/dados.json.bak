@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NzA=",
+  "tipo": "serie",
+  "titulo": "A CAÇA AO TESOURO DE FENN",
+  "capa_url": "https://lgfp.one/NLG6",
+  "capa_local": "A CACA AO TESOURO DE FENN/A CACA AO TESOURO DE FENN.jpg",
+  "sinopse": "O excêntrico Forrest Fenn esconde um baú valioso nas Montanhas Rochosas e propõe uma verdadeira caça ao tesouro, com dicas escondidas em um poema.",
+  "genero": "Documentário, Action & Adventure",
+  "elenco": "Justin Posey, Cynthia Meachum, Forrest Fenn",
+  "diretor": "Jared McGilliard",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:32"
+        }
+      ]
+    }
+  ],
+  "id": 7088
+}

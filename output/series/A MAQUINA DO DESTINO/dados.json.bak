@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxOTA=",
+  "tipo": "serie",
+  "titulo": "A MÁQUINA DO DESTINO",
+  "capa_url": "https://lgfp.one/ZCE",
+  "capa_local": "A MAQUINA DO DESTINO/A MAQUINA DO DESTINO.jpg",
+  "sinopse": "Uma cidade pequena é transformada pra sempre quando uma máquina misteriosa aparece prometendo revelar o potencial verdadeiro de todos. Rapidamente, os habitantes começam a mudar de emprego, repensar o relacionamento e a questionar valores arraigados – tudo em busca de um futuro melhor.",
+  "genero": "Comédia",
+  "elenco": "Chris O'Dowd, Gabrielle Dennis, Josh Segarra, Ally Maki, Damon Gupton, Crystal Fox, Sammy Fourlas, Djouliet Amara",
+  "diretor": "David West Read",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:33:45"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:31:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:31:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:33:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:33:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:31:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:32:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:31:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:33:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:33:07"
+        }
+      ]
+    }
+  ],
+  "id": 3384
+}

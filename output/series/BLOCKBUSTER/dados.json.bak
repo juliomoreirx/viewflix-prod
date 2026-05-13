@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDA=",
+  "tipo": "serie",
+  "titulo": "BLOCKBUSTER",
+  "capa_url": "https://lgfp.one/VZB",
+  "capa_local": "BLOCKBUSTER/BLOCKBUSTER.jpg",
+  "sinopse": "O gerente da última Blockbuster luta para manter a loja aberta e os funcionários felizes, em meio à concorrência e seus próprios sentimentos.",
+  "genero": "Comédia",
+  "elenco": "Randall Park, Melissa Fumero, Olga Merediz, Tyler Alvarez, Madeleine Arthur",
+  "diretor": "Payman Benz, Jackie Clarke, Katie Locke O'Brien, Aleysa Young",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:10"
+        }
+      ]
+    }
+  ],
+  "id": 3013
+}

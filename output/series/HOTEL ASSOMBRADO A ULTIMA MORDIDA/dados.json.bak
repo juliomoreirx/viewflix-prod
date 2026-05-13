@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MDY=",
+  "tipo": "serie",
+  "titulo": "HOTEL ASSOMBRADO A ULTIMA MORDIDA",
+  "capa_url": "https://lgfp.one/QDB5",
+  "capa_local": "HOTEL ASSOMBRADO A ULTIMA MORDIDA/HOTEL ASSOMBRADO A ULTIMA MORDIDA.jpg",
+  "sinopse": "Oito chefs talentosos recebem um convite misterioso para cozinhar em um hotel remoto. Com apenas 13 ingredientes à disposição, eles devem preparar pratos complexos para convidados importantes, e o vencedor levará um prêmio de 25 mil dólares.",
+  "genero": "Reality",
+  "elenco": "Tituss Burgess",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:42"
+        }
+      ]
+    }
+  ],
+  "id": 8120
+}

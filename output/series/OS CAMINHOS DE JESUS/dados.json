@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTk=",
+  "tipo": "serie",
+  "titulo": "OS CAMINHOS DE JESUS",
+  "capa_url": "https://lgfp.one/XDZ",
+  "capa_local": "OS CAMINHOS DE JESUS/OS CAMINHOS DE JESUS.jpg",
+  "sinopse": "Disposto a investigar o poder da mensagem de Jesus, o diretor e escritor Rodrigo Alvarez viaja pelo mundo atrás de textos sagrados e descobertas arqueológicas surpreendentes sobre a vida do messias vindo de Nazaré.",
+  "genero": "Documentário",
+  "elenco": "Rodrigo Alvarez",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 3140
+}

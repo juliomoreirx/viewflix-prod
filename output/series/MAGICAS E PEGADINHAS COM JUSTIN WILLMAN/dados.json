@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMjQ=",
+  "tipo": "serie",
+  "titulo": "MAGICAS E PEGADINHAS COM JUSTIN WILLMAN",
+  "capa_url": "https://lgfp.one/AQY2",
+  "capa_local": "MAGICAS E PEGADINHAS COM JUSTIN WILLMAN/MAGICAS E PEGADINHAS COM JUSTIN WILLMAN.jpg",
+  "sinopse": "O mágico e humorista Justin Willman faz pegadinhas caprichadas em alvos inocentes para ajudar pessoas a se vingar.",
+  "genero": "Reality, Comédia",
+  "elenco": "Justin Willman, Kimberly Congdon, Simon Taylor, Kyle Marlett",
+  "diretor": "Maryna Harrison",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:14"
+        }
+      ]
+    }
+  ],
+  "id": 5209
+}

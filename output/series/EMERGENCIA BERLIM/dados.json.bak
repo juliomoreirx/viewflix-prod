@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNjE=",
+  "tipo": "serie",
+  "titulo": "EMERGENCIA BERLIM",
+  "capa_url": "https://lgfp.one/NCZ2",
+  "capa_local": "EMERGENCIA BERLIM/EMERGENCIA BERLIM.jpg",
+  "sinopse": "Após sua vida pessoal desmoronar, uma jovem médica busca um novo começo assumindo o pronto-socorro no hospital mais caótico e difícil de Berlim. Enfrentando a resistência dos colegas e um sistema decadente, ela precisa unir sua equipe rebelde para salvar vidas.",
+  "genero": "Drama",
+  "elenco": "Haley Louise Jones, Slavko Popadic, Bernhard Schütz, Safak Sengül, Aram Tafreshian",
+  "diretor": "Viktor Jakovleski, Marina Herrmany",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:01"
+        }
+      ]
+    }
+  ],
+  "id": 6955
+}

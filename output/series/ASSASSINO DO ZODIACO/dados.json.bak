@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4Mzc=",
+  "tipo": "serie",
+  "titulo": "ASSASSINO DO ZODIACO",
+  "capa_url": "https://lgfp.one/KLU5",
+  "capa_local": "ASSASSINO DO ZODIACO/ASSASSINO DO ZODIACO.jpg",
+  "sinopse": "Investigadores tentam decifrar o código do Assassino do Zodíaco, cuja identidade segue desconhecida.",
+  "genero": "Documentário, Crime, Reality",
+  "elenco": "Sal LaBarbera, Craig P. Bauer, Michael Butterfield, Ryan Garlick, Kevin Knight",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:21"
+        }
+      ]
+    }
+  ],
+  "id": 6445
+}

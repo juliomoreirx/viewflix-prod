@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5Mjk=",
+  "tipo": "serie",
+  "titulo": "ROMANCEIRO",
+  "capa_url": "https://lgfp.one/ASPI",
+  "capa_local": "ROMANCEIRO/ROMANCEIRO.jpg",
+  "sinopse": "Jordán e Cornelia são duas crianças indefesas que, na calada da noite, tentam escapar das pessoas enfurecidas que os acusam de assassinato. Apavorados e temendo por suas vidas, eles cuidarão um do outro e farão tudo o que for possível para não serem pegos por dois policiais violentos: Teodoro e Sorroche. Na fuga, eles também tentarão evitar os perigos sobrenaturais que encontram pelo caminho.",
+  "genero": "Mistério",
+  "elenco": "Sasha Cócola, Elena Matić, Ricardo Gómez, Guillermo Toledo, Belén Cuesta",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:36"
+        }
+      ]
+    }
+  ],
+  "id": 4394
+}

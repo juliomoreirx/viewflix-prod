@@ -1,0 +1,190 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzNDQ=",
+  "tipo": "serie",
+  "titulo": "TV PIRATA",
+  "capa_url": "https://lgfp.one/SDX0",
+  "capa_local": "TV PIRATA/TV PIRATA.jpg",
+  "sinopse": "Uma seleção de quadros e episódios, dentre os melhores da série, exibidos de 1988 a 1992 na TV Globo. E ainda duas novelas completas: 'Fogo no Rabo' e 'O Segredo de Darcy'.",
+  "genero": "Comédia",
+  "elenco": "Débora Bloch, Guilherme Karam, Cristina Pereira, Diogo Vilela, Luiz Fernando Guimarães",
+  "diretor": "Guel Arraes, Guel Arraes, Carlos Magalhães",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:37:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:36:25"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:37:35"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:41:28"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:35:51"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:39:22"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "21",
+          "codigo": "S01E21",
+          "duracao": "00:37:21"
+        },
+        {
+          "numero": "22",
+          "codigo": "S01E22",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "23",
+          "codigo": "S01E23",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "24",
+          "codigo": "S01E24",
+          "duracao": "00:34:49"
+        },
+        {
+          "numero": "25",
+          "codigo": "S01E25",
+          "duracao": "00:36:59"
+        },
+        {
+          "numero": "26",
+          "codigo": "S01E26",
+          "duracao": "00:35:36"
+        },
+        {
+          "numero": "27",
+          "codigo": "S01E27",
+          "duracao": "00:39:02"
+        },
+        {
+          "numero": "28",
+          "codigo": "S01E28",
+          "duracao": "00:39:15"
+        },
+        {
+          "numero": "29",
+          "codigo": "S01E29",
+          "duracao": "00:35:15"
+        },
+        {
+          "numero": "30",
+          "codigo": "S01E30",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "31",
+          "codigo": "S01E31",
+          "duracao": "00:39:04"
+        },
+        {
+          "numero": "32",
+          "codigo": "S01E32",
+          "duracao": "00:36:36"
+        },
+        {
+          "numero": "33",
+          "codigo": "S01E33",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "34",
+          "codigo": "S01E34",
+          "duracao": "00:39:36"
+        }
+      ]
+    }
+  ],
+  "id": 9060
+}

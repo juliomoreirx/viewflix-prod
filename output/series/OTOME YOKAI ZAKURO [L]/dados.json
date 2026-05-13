@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNTg=",
+  "tipo": "serie",
+  "titulo": "OTOME YOKAI ZAKURO [L]",
+  "capa_url": "https://lgfp.one/DCE5",
+  "capa_local": "OTOME YOKAI ZAKURO [L]/OTOME YOKAI ZAKURO [L].jpg",
+  "sinopse": "É a Era Meiji no Japão, um pouco alternativo, o calendário gregoriano acaba de entrar em vigor. Num mundo onde os humanos convivem livremente com os youkais, mas ainda existem youkais que fazem maldade. Assim, Zakuro e seus amigos, que fazem parte de uma tropa de youkais mestiços, estão prestes a serem postas à trabalhar em conjunto com uma delegação de jovens soldados humanos. Então, o que vai acontecer quando colide Zakuro, que possui uma forte personalidade, com a sensibilidade humana?",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "中原麻衣, 櫻井孝宏, 花澤香菜, Satoshi Hino, 豊崎愛生",
+  "diretor": "今千秋",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:24:09"
+        }
+      ]
+    }
+  ],
+  "id": 5748
+}

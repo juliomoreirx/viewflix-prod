@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMTM=",
+  "tipo": "serie",
+  "titulo": "O FUTURO DE BILL GATES",
+  "capa_url": "https://lgfp.one/DPD9",
+  "capa_local": "O FUTURO DE BILL GATES/O FUTURO DE BILL GATES.jpg",
+  "sinopse": "O visionário e filantropo Bill Gates fala de temas globais importantes e mostra as tecnologias de ponta que vão mudar o mundo.",
+  "genero": "Documentário",
+  "elenco": "Bill Gates",
+  "diretor": "Morgan Neville, Eve Marson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:57"
+        }
+      ]
+    }
+  ],
+  "id": 5974
+}

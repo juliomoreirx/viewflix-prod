@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMjI=",
+  "tipo": "serie",
+  "titulo": "VIREI VAMPIRA",
+  "capa_url": "https://lgfp.one/AQZF",
+  "capa_local": "VIREI VAMPIRA/VIREI VAMPIRA.jpg",
+  "sinopse": "No aniversário de 13 anos, Carmie descobre que é metade humana, metade vampira. E, agora com poderes míticos, a vida na escola vai ficar ainda mais complicada.",
+  "genero": "Comédia, Família, Sci-Fi & Fantasy",
+  "elenco": "Kaileen Angelic Chang, Niko Ceci, Zebastin Borjeau, Aaliyah Cinello, Ipsita Paul",
+  "diretor": "Warren P. Sonoda",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:36"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:25:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:25:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:25:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:25:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:25:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:27:08"
+        }
+      ]
+    }
+  ],
+  "id": 4240
+}

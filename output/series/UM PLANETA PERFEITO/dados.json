@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMDc=",
+  "tipo": "serie",
+  "titulo": "UM PLANETA PERFEITO",
+  "capa_url": "https://lgfp.one/SNN",
+  "capa_local": "UM PLANETA PERFEITO/UM PLANETA PERFEITO.jpg",
+  "sinopse": "Em cinco episódios, a série explica como o planeta funciona, mostrando como forças da natureza - o clima, as correntes oceânicas, a energia solar e os vulcões – moldam e mantêm a grande diversidade de vida na terra.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:27"
+        }
+      ]
+    }
+  ],
+  "id": 228440
+}

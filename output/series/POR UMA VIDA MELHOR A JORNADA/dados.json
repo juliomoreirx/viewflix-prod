@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNjg=",
+  "tipo": "serie",
+  "titulo": "POR UMA VIDA MELHOR A JORNADA",
+  "capa_url": "https://lgfp.one/BKV2",
+  "capa_local": "POR UMA VIDA MELHOR A JORNADA/POR UMA VIDA MELHOR A JORNADA.jpg",
+  "sinopse": "Disfarçada de prostituta na Nigéria, uma jornalista faz de tudo para expor um esquema de tráfico humano e luta pela sobrevivência tentando chegar à Europa.",
+  "genero": "Drama, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:57"
+        }
+      ]
+    }
+  ],
+  "id": 5633
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTA=",
+  "tipo": "serie",
+  "titulo": "MARSELHA EM PERIGO",
+  "capa_url": "https://lgfp.one/AUXG",
+  "capa_local": "MARSELHA EM PERIGO/MARSELHA EM PERIGO.jpg",
+  "sinopse": "Quando um traficante de drogas tenta dominar Marselha, um capitão de polícia insubordinado e sua equipe recebem uma nova recruta que tem seus próprios interesses.",
+  "genero": "Action & Adventure, Crime, Drama",
+  "elenco": "Diouc Koma, Erin Yvette, Marie Westbrook",
+  "diretor": "Olivier Marchal, Ivan Fegyveres, Nicolas Guicheteau",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:05"
+        }
+      ]
+    }
+  ],
+  "id": 4574
+}

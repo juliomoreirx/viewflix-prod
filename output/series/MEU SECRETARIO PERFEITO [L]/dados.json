@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NzQ=",
+  "tipo": "serie",
+  "titulo": "MEU SECRETARIO PERFEITO [L]",
+  "capa_url": "https://lgfp.one/KXT0",
+  "capa_local": "MEU SECRETARIO PERFEITO [L]/MEU SECRETARIO PERFEITO [L].jpg",
+  "sinopse": "O dorama que acompanha Kang Ji Yun, uma CEO confiante e bem-sucedida de uma empresa de caça-talentos. Apesar de sua competência profissional, Ji Yun é desorganizada em sua vida pessoal. Seu secretário, Yu Eun Ho, é um profissional eficiente e pai solteiro de uma criança de seis anos, que a auxilia nas tarefas cotidianas.",
+  "genero": "Drama",
+  "elenco": "한지민, 이준혁, 김도훈, 김윤혜, 박보경",
+  "diretor": "",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:19:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:08:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:19:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:09:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:05:48"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:11:54"
+        }
+      ]
+    }
+  ],
+  "id": 6586
+}

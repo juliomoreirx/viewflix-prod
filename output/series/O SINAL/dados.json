@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNDA=",
+  "tipo": "serie",
+  "titulo": "O SINAL",
+  "capa_url": "https://lgfp.one/ALV0",
+  "capa_local": "O SINAL/O SINAL.jpg",
+  "sinopse": "Uma família busca respostas sobre uma astronauta desaparecida. Mas quanto mais a investigação avança, maior é a ameaça para eles… e para o resto do mundo.",
+  "genero": "Sci-Fi & Fantasy, Drama, Mistério",
+  "elenco": "Florian David Fitz, Peri Baumeister, Yuna Bennett",
+  "diretor": "Daniela Lapp, Sebastian Hilger",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:09:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:25"
+        }
+      ]
+    }
+  ],
+  "id": 5114
+}

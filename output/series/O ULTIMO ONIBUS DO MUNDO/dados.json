@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MDU=",
+  "tipo": "serie",
+  "titulo": "O ÚLTIMO ÔNIBUS DO MUNDO",
+  "capa_url": "https://lgfp.one/TBP",
+  "capa_local": "O ULTIMO ONIBUS DO MUNDO/O ULTIMO ONIBUS DO MUNDO.jpg",
+  "sinopse": "Durante uma viagem escolar inesquecível, um grupo de estudantes geniais é chamado para salvar a humanidade. A ameaça? Um exército de drones implacáveis.",
+  "genero": "Sci-Fi & Fantasy, Família",
+  "elenco": "Laura Crowhurst, Daniel Frogson, Carys John, Amber-Rose Perry, Phoebe De Silva",
+  "diretor": "Lawrence Gough, Steve Hughes, Nour Wazzi, Drew Casson",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:30:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:15"
+        }
+      ]
+    }
+  ],
+  "id": 2431
+}

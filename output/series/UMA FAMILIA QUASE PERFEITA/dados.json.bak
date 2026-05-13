@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTU=",
+  "tipo": "serie",
+  "titulo": "UMA FAMILIA QUASE PERFEITA",
+  "capa_url": "https://lgfp.one/AUKG",
+  "capa_local": "UMA FAMILIA QUASE PERFEITA/UMA FAMILIA QUASE PERFEITA.jpg",
+  "sinopse": "O mundo de uma família aparentemente perfeita é abalado quando um assassinato prova que eles são capazes de fazer qualquer coisa para se proteger.",
+  "genero": "Crime, Drama",
+  "elenco": "Alexandra Karlsson Tyrefors, Lo Kauppi, Björn Bengtsson, Christian Fandango Sundgren, Melisa Ferhatovic",
+  "diretor": "Sebastian Danneborn, Julie Deepawali Petersen, Faryad Sayadi",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:14"
+        }
+      ]
+    }
+  ],
+  "id": 4530
+}

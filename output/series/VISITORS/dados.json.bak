@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3OTQ=",
+  "tipo": "serie",
+  "titulo": "VISITORS",
+  "capa_url": "https://lgfp.one/TTK",
+  "capa_local": "VISITORS/VISITORS.jpg",
+  "sinopse": "Richard, Bob e Mitch, três amigos de infância, vivem em Pointe-Claire. Richard segue os passos de seu avô e se junta à polícia, mas a recepção que recebe não é a mais calorosa. Nessa mesma tarde, ao cair da noite, duas estranhas luzes chocam-se no céu. É então quando ocorrem misteriosos acontecimentos na cidade.",
+  "genero": "Comédia, Sci-Fi & Fantasy",
+  "elenco": "Simon Astier, Florence Loiret Caille, Damien Jouillerot, Vincent Desagnat, Tiphaine Daviot",
+  "diretor": "Simon Astier, Morgan S. Dalibert, Ludivine Doazan",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:53"
+        }
+      ]
+    }
+  ],
+  "id": 2917
+}

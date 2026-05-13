@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NTE=",
+  "tipo": "serie",
+  "titulo": "VINGANÇA SABOR CEREJA",
+  "capa_url": "https://lgfp.one/SDD",
+  "capa_local": "VINGANCA SABOR CEREJA/VINGANCA SABOR CEREJA.jpg",
+  "sinopse": "Uma cineasta vai para Hollywood no começo dos anos 1990 para fazer seu filme, mas se depara com um mundo alucinante de sexo, magia, vingança…. e gatinhos.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Rosa Salazar, Catherine Keener, Eric Lange, Jeff Ward, Manny Jacinto",
+  "diretor": "Gandja Monteiro, Jake Schreier, Matt Sobel, Nick Antosca, Arkasha Stevenson",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:37"
+        }
+      ]
+    }
+  ],
+  "id": 1770
+}

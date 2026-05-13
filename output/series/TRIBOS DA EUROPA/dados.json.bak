@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MjI=",
+  "tipo": "serie",
+  "titulo": "TRIBOS DA EUROPA",
+  "capa_url": "https://lgfp.one/ROC",
+  "capa_local": "TRIBOS DA EUROPA/TRIBOS DA EUROPA.jpg",
+  "sinopse": "Em 2070, três irmãos lutam para mudar o destino da Europa após uma catástrofe global ter dividido o continente em microestados que disputam o poder.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Emilio Sakraya, Henriette Confurius, David Ali Rashed, Oliver Masucci, Melika Foroutan",
+  "diretor": "Philip Koch, Florian Baxmeyer, Philip Koch",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:26"
+        }
+      ]
+    }
+  ],
+  "id": 1194
+}

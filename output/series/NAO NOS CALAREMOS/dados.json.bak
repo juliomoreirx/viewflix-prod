@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxODU=",
+  "tipo": "serie",
+  "titulo": "NAO NOS CALAREMOS",
+  "capa_url": "https://lgfp.one/BDU9",
+  "capa_local": "NAO NOS CALAREMOS/NAO NOS CALAREMOS.jpg",
+  "sinopse": "Uma jovem de 17 anos faz uma denúncia de assédio sexual na escola, mas a investigação vira sua vida do avesso e coloca seus relacionamentos à prova.",
+  "genero": "Drama",
+  "elenco": "Nicole Wallace, Clara Galle, Aïcha Villaverde, José Pastor, Teresa de Mera",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:43"
+        }
+      ]
+    }
+  ],
+  "id": 5526
+}

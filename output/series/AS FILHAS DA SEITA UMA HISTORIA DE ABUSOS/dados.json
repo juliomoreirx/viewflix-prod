@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMjk=",
+  "tipo": "serie",
+  "titulo": "AS FILHAS DA SEITA: UMA HISTÓRIA DE ABUSOS",
+  "capa_url": "https://lgfp.one/TLH",
+  "capa_local": "AS FILHAS DA SEITA UMA HISTORIA DE ABUSOS/AS FILHAS DA SEITA UMA HISTORIA DE ABUSOS.jpg",
+  "sinopse": "",
+  "genero": "Documentário / Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:41"
+        }
+      ]
+    }
+  ],
+  "id": 2696
+}

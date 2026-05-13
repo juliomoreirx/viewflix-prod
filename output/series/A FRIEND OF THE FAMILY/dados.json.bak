@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMzg=",
+  "tipo": "serie",
+  "titulo": "A FRIEND OF THE FAMILY",
+  "capa_url": "https://lgfp.one/AYRY",
+  "capa_local": "A FRIEND OF THE FAMILY/A FRIEND OF THE FAMILY.jpg",
+  "sinopse": "A angustiante história real da família Broberg, o pai(Colin Hanks) e a mãe(Anna Paquin) lutam pela filha Jan(Mckenna Grace/Hendrix Yancey) que foi sequestrada várias vezes ao longo de anos por um “amigo”(Jake Lacy) carismático e obcecado da família. Os Brobergs, devotados à sua fé, família e comunidade, estavam totalmente despreparados para as táticas sofisticadas que seu vizinho usava para explorar suas vulnerabilidades, separá-los e colocar sua filha contra eles. Esta é a história de como suas vidas foram alteradas permanentemente e como eles sobreviveram.",
+  "genero": "Crime, Drama",
+  "elenco": "Colin Hanks, Anna Paquin, Jake Lacy, Lio Tipton, Mckenna Grace",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:20"
+        }
+      ]
+    }
+  ],
+  "id": 4858
+}

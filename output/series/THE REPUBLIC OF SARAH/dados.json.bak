@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NTM=",
+  "tipo": "serie",
+  "titulo": "THE REPUBLIC OF SARAH",
+  "capa_url": "https://lgfp.one/SUE",
+  "capa_local": "THE REPUBLIC OF SARAH/THE REPUBLIC OF SARAH.jpg",
+  "sinopse": "Diante da destruição de sua cidade pelas mãos de uma gananciosa empresa de mineração, a rebelde professora do ensino médio Sarah Cooper utiliza uma obscura lacuna cartográfica para declarar a independência. Agora Sarah deve liderar um grupo de jovens desajustados que tentam começar seu próprio país do zero.",
+  "genero": "Drama",
+  "elenco": "Stella Baker, Nia Holloway, Luke Mitchell, Izabella Alvarez, Hope Lauren, Ian Duff",
+  "diretor": "Marc Webb",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:25"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:41:37"
+        }
+      ]
+    }
+  ],
+  "id": 2233
+}

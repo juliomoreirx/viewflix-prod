@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MTA=",
+  "tipo": "serie",
+  "titulo": "ENIGMA DO PALCO NEGRO [L]",
+  "capa_url": "https://lgfp.one/PPY9",
+  "capa_local": "ENIGMA DO PALCO NEGRO [L]/ENIGMA DO PALCO NEGRO [L].jpg",
+  "sinopse": "Quando a peça \"The Bloom and a Thousand Bees\" está sendo refeita, ela exige uma seleção séria para o papel feminino principal. Agora, todos no showbiz lutam por ela e parecem dispostos a fazer o que for preciso. Assim, o olhar atento de um certo grupo paira sobre esta audição. O que ninguém sabe é que há um segredo perigoso escondido atrás da cortina, e toda magia negra é invocada.",
+  "genero": "Mistério",
+  "elenco": "เมธวิน โอภาสเอี่ยมขจร, จรินทร์พร จุนเกียรติ, ทิพนารี วีรวัฒโนดม, มิ้นท์ ธิฌาน์ ธุระชน, Prariyapit Yu",
+  "diretor": "Patha Thongpan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:59"
+        }
+      ]
+    }
+  ],
+  "id": 7735
+}

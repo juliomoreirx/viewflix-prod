@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Njk=",
+  "tipo": "serie",
+  "titulo": "SAINDO DO ARMÁRIO COM COLTON UNDERWOOD",
+  "capa_url": "https://lgfp.one/SQS",
+  "capa_local": "SAINDO DO ARMARIO COM COLTON UNDERWOOD/SAINDO DO ARMARIO COM COLTON UNDERWOOD.jpg",
+  "sinopse": "O ex-jogador da NFL e estrela de \"Bachelor\", Colton Underwood embarca na jornada para abraçar sua nova vida como membro da comunidade LGBTQ.",
+  "genero": "Reality",
+  "elenco": "Colton Underwood, Gus Kenworthy, Esera Tuaolo",
+  "diretor": "Josh Barnett",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:02"
+        }
+      ]
+    }
+  ],
+  "id": 2137
+}

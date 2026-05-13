@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0OTg=",
+  "tipo": "serie",
+  "titulo": "CALEIDOSCÓPIO",
+  "capa_url": "https://lgfp.one/XFS",
+  "capa_local": "CALEIDOSCOPIO/CALEIDOSCOPIO.jpg",
+  "sinopse": "Um ladrão magistral e sua equipe querem roubar 7 bilhões de dólares. Mas, para o plano dar certo, eles terão que lidar com traições, ganâncias e muitas outras ameaças.",
+  "genero": "Crime, Drama",
+  "elenco": "Giancarlo Esposito, Paz Vega, Rufus Sewell, Tati Gabrielle, Peter Mark Kendall",
+  "diretor": "Ridley Scott, Russell Lee Fine",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:00:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:29"
+        }
+      ]
+    }
+  ],
+  "id": 3153
+}

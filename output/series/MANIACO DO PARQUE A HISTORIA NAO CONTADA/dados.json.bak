@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NDk=",
+  "tipo": "serie",
+  "titulo": "MANIACO DO PARQUE A HISTORIA NAO CONTADA",
+  "capa_url": "https://lgfp.one/ONJ6",
+  "capa_local": "MANIACO DO PARQUE A HISTORIA NAO CONTADA/MANIACO DO PARQUE A HISTORIA NAO CONTADA.jpg",
+  "sinopse": "Esta série documental revisita o caso do maior serial killer brasileiro por outra perspectiva, a de uma das vítimas sobreviventes e das famílias das mulheres assassinadas. A partir de depoimentos inéditos e revelações surpreendentes, a produção apresenta equívocos na apuração e o papel da mídia no desenvolvimento da investigação.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Thaís Nunes, Maurício Eça, Guilherme Cesar",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:54"
+        }
+      ]
+    }
+  ],
+  "id": 6176
+}

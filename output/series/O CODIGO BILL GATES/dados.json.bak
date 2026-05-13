@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODY=",
+  "tipo": "serie",
+  "titulo": "O CÓDIGO BILL GATES",
+  "capa_url": "https://lgfp.one/JDJ",
+  "capa_local": "O CODIGO BILL GATES/O CODIGO BILL GATES.jpg",
+  "sinopse": "Em uma jornada pela mente de Bill Gates, descubra quem o influenciou e quais são as metas que o bilionário ainda pretende alcançar.",
+  "genero": "Documentário",
+  "elenco": "Bill Gates, Melinda Gates, Davin Orness, Alex Bueermann, Mohammed Albaaj",
+  "diretor": "Davis Guggenheim, Katie Sponseller",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:15:35"
+        }
+      ]
+    }
+  ],
+  "id": 471
+}

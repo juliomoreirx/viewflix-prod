@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NDQ=",
+  "tipo": "serie",
+  "titulo": "A LIVRARIA SANGRENTA [L]",
+  "capa_url": "https://lgfp.one/RGE0",
+  "capa_local": "A LIVRARIA SANGRENTA [L]/A LIVRARIA SANGRENTA [L].jpg",
+  "sinopse": "Como proprietário de uma livraria especializada em romances policiais e de suspense, faz sentido que Gao Chen Wei (Wes Lo) seja um amante obstinado dos gêneros. Como aspirante a autor e detetive amador, Chen Wei passa seu tempo livre tentando resolver casos arquivados com seus melhores amigos ou publicando suas últimas histórias criminais on-line.  Quando a promotora administrativa Lin Mu Qing (Moon Lee) é designada para um caso de suicídio, ela acha a cena do crime bastante incomum. Percebendo que esse caso tinha muitas semelhanças com uma certa história criminal on-line, Mu Qing rapidamente deduz que seu caso de suicídio é, na verdade, um homicídio. Seguindo as pistas, Mu Qing logo chega à porta de Chen Wei, onde não perde tempo acusando-o de assassinato.",
+  "genero": "Mistério, Crime",
+  "elenco": "羅宏正, 李沐, 黃河, 陳婉婷, 林映彤",
+  "diretor": "Liao Shih-Han, Siu-Di Wang, 王明台",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:33"
+        }
+      ]
+    }
+  ],
+  "id": 8607
+}

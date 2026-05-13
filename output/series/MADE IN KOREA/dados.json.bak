@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMTE=",
+  "tipo": "serie",
+  "titulo": "MADE IN KOREA",
+  "capa_url": "https://lgfp.one/RDS1",
+  "capa_local": "MADE IN KOREA/MADE IN KOREA.jpg",
+  "sinopse": "Na Coreia do Sul da década de 1970, um homem que busca o auge da riqueza e do poder vive uma vida dupla: agente da KCIA de dia e perigoso homem de negócios à noite. Determinado e imbatível, ele acaba se deparando com um promotor perspicaz que está disposto a arriscar tudo para derrubá-lo.",
+  "genero": "Crime, Drama",
+  "elenco": "현빈, 정우성, 우도환, Yeo-Jeong Cho, 서은수",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:21:17"
+        }
+      ]
+    }
+  ],
+  "id": 375370
+}

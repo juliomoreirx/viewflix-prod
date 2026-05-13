@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTk=",
+  "tipo": "serie",
+  "titulo": "O QUE VOCÊ NÃO SABIA SOBRE O HUMOR BRASILEIRO",
+  "capa_url": "https://lgfp.one/THM",
+  "capa_local": "O QUE VOCE NAO SABIA SOBRE O HUMOR BRASILEIRO/O QUE VOCE NAO SABIA SOBRE O HUMOR BRASILEIRO.jpg",
+  "sinopse": "Uma série de documentários apresentada por Fábio Porchat, que reúne os melhores comediantes brasileiros para falar sobre humor, seus limites e sua relação com a política, entre outros temas. Aos depoimentos de Rafael Cortez, Carol Zoccoli, Yuri Marçal, Marcelo Adnet, Tom Cavalcante e outros se juntam os arquivos humorísticos de todas as épocas para descobrir o que nos faz rir.",
+  "genero": "Documentário / Reality",
+  "elenco": "Fábio Porchat",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:44"
+        }
+      ]
+    }
+  ],
+  "id": 2588
+}

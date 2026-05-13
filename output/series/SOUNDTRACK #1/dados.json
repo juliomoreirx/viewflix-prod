@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNjU=",
+  "tipo": "serie",
+  "titulo": "SOUNDTRACK #1",
+  "capa_url": "https://lgfp.one/VXR",
+  "capa_local": "SOUNDTRACK #1/SOUNDTRACK #1.jpg",
+  "sinopse": "Eunsoo, convidada a escrever a letra para uma música de um compositor famoso, teve sua composição rejeitada por não ter a emoção de um amor não correspondido. Um dia, Eunsoo descobre que Sunwoo gosta de alguém. Ela pede a ele para ajudá-la com a letra enquanto mora em sua casa. Quem é a pessoa por quem Sunwoo está apaixonado? Quando a história deles começou?",
+  "genero": "Drama",
+  "elenco": "Park Hyung-sik, Han So-hee, Lee Jung-eun, Kim Ju-hun, Yoon Byung-hee, Yoon Seo-ah",
+  "diretor": "Kim Hee-won",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:29"
+        }
+      ]
+    }
+  ],
+  "id": 2980
+}

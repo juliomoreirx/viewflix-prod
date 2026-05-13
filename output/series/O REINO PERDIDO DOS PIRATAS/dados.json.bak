@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4OTQ=",
+  "tipo": "serie",
+  "titulo": "O REINO PERDIDO DOS PIRATAS",
+  "capa_url": "https://lgfp.one/RVS",
+  "capa_local": "O REINO PERDIDO DOS PIRATAS/O REINO PERDIDO DOS PIRATAS.jpg",
+  "sinopse": "Nesta série documental, os piratas do Caribe da vida real roubam os tesouros do mundo e formam uma república surpreendentemente igualitária.",
+  "genero": "Documentário",
+  "elenco": "Derek Jacobi, James Oliver Wheatley, Sam Callis, Thomas Padley, Evan Milton",
+  "diretor": "Stan Griffin, Hereward Pelling, Patrick Dickinson, Justin Rickett",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:28"
+        }
+      ]
+    }
+  ],
+  "id": 1406
+}

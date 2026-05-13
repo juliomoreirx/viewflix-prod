@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Mjk=",
+  "tipo": "serie",
+  "titulo": "ADAK: ILHA DO TESOURO",
+  "capa_url": "https://lgfp.one/NUU2",
+  "capa_local": "ADAK ILHA DO TESOURO/ADAK ILHA DO TESOURO.jpg",
+  "sinopse": "Será que a equipe de especialistas vai encontrar o lendário tesouro pirata? Esta série documental acompanha a caça ao ouro enterrado em uma região inóspita do Alasca.",
+  "genero": "Reality, Documentário",
+  "elenco": "Dr M Jackson, Brian Weed, Jay Toomoth, Burke Mitchell, Thom Spitler",
+  "diretor": "Trent Babbington",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:26"
+        }
+      ]
+    }
+  ],
+  "id": 7277
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Nzc=",
+  "tipo": "serie",
+  "titulo": "THE PLAYBOOK: ESTRATÉGIAS PARA VENCER",
+  "capa_url": "https://lgfp.one/REV",
+  "capa_local": "THE PLAYBOOK ESTRATEGIAS PARA VENCER/THE PLAYBOOK ESTRATEGIAS PARA VENCER.jpg",
+  "sinopse": "Nesta série documental reflexiva e inspiradora, técnicos campeões revelam suas regras pessoais para alcançar o sucesso nos esportes e na vida.",
+  "genero": "Documentário",
+  "elenco": "Doc Rivers, José Mourinho, Dawn Staley",
+  "diretor": "Josh Greenbaum",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:48"
+        }
+      ]
+    }
+  ],
+  "id": 941
+}

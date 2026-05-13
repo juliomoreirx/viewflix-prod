@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MTY=",
+  "tipo": "serie",
+  "titulo": "SEXO, SANGUE & REALEZA",
+  "capa_url": "https://lgfp.one/WLC",
+  "capa_local": "SEXO, SANGUE & REALEZA/SEXO, SANGUE & REALEZA.jpg",
+  "sinopse": "Esta série investiga as vidas dos monarcas mais perigosos, sensuais e icônicos da história, revisitando os dramas e escândalos da monarquia britânica.",
+  "genero": "Drama",
+  "elenco": "Amy James-Kelly, Adam Astill, Lois Brabin-Platt, Callum Coates, Simonas Mozūra",
+  "diretor": "James Bryce",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:14"
+        }
+      ]
+    }
+  ],
+  "id": 3105
+}

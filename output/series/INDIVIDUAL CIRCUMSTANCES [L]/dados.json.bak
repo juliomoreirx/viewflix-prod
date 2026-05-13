@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzODk=",
+  "tipo": "serie",
+  "titulo": "INDIVIDUAL CIRCUMSTANCES [L]",
+  "capa_url": "https://lgfp.one/AYFB",
+  "capa_local": "INDIVIDUAL CIRCUMSTANCES [L]/INDIVIDUAL CIRCUMSTANCES [L].jpg",
+  "sinopse": "Como um jovem diretor de cinema independente, seu filme de estreia foi um grande sucesso tanto para os espectadores quanto para a crítica. Mas depois desse começo auspicioso, ele caiu em uma longa depressão. Ele agora está apático e inseguro se realmente foi feito para ser um diretor de cinema de ponta, afinal. Um dia, ele conhece SungWoo Jae, um famoso escritor de ficção que ele conheceu - mas com quem não fala há algum tempo.",
+  "genero": "Drama",
+  "elenco": "Han Jung-wan, Kang Joon-kyu, Cha Shi-hyeok",
+  "diretor": "",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:19:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:16:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:17:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:16:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:16:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:16"
+        }
+      ]
+    }
+  ],
+  "id": 4769
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMjE=",
+  "tipo": "serie",
+  "titulo": "FELIZ NATAL E TAL",
+  "capa_url": "https://lgfp.one/IZJ",
+  "capa_local": "FELIZ NATAL E TAL/FELIZ NATAL E TAL.jpg",
+  "sinopse": "Um músico de Los Angeles tenta conquistar o pai rabugento e os irmãos excêntricos da nova namorada em uma visita à Filadélfia durante a temporada de Natal.",
+  "genero": "Comédia",
+  "elenco": "Brent Morin, Hayes MacArthur, Dennis Quaid, Bridgit Mendler, Ashley French",
+  "diretor": "Pamela Fryman, Phill Lewis, Gloria Calderón Kellett, Betsy Thomas",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:36"
+        }
+      ]
+    }
+  ],
+  "id": 345
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MTU=",
+  "tipo": "serie",
+  "titulo": "EXPRESSO SICILIA",
+  "capa_url": "https://lgfp.one/RDF1",
+  "capa_local": "EXPRESSO SICILIA/EXPRESSO SICILIA.jpg",
+  "sinopse": "Logo antes do Natal, dois amigos sicilianos trabalhando em Milão descobrem uma lixeira que os leva direto para suas famílias em poucos segundos.",
+  "genero": "Comédia, Família",
+  "elenco": "Salvatore Ficarra, Valentino Picone, Katia Follesa, Barbara Tabita, Max Tortora",
+  "diretor": "Salvatore Ficarra, Valentino Picone",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:00"
+        }
+      ]
+    }
+  ],
+  "id": 8478
+}

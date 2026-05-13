@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MDI=",
+  "tipo": "serie",
+  "titulo": "NA SUA MELHOR FASE [L]",
+  "capa_url": "https://lgfp.one/RSV4",
+  "capa_local": "NA SUA MELHOR FASE [L]/NA SUA MELHOR FASE [L].jpg",
+  "sinopse": "",
+  "genero": "Mistério, Drama",
+  "elenco": "이성경, Chae Jong Hyeop, 이미숙, Han Ji-hyun, 오예주",
+  "diretor": "Jung Sang-hee, 박선호",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:07:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:11:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:08:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:53"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:07:06"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:10:55"
+        }
+      ]
+    }
+  ],
+  "id": 9551
+}

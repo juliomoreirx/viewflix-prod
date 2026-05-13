@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NTE=",
+  "tipo": "serie",
+  "titulo": "O AGENTE NOTURNO",
+  "capa_url": "https://lgfp.one/YXP",
+  "capa_local": "O AGENTE NOTURNO/O AGENTE NOTURNO.jpg",
+  "sinopse": "A série acompanha um agente de baixo escalão do FBI que trabalha no porão da Casa Branca, a postos para atender um telefone que nunca toca. Até que um dia, ele recebe uma ligação que acaba revelando uma perigosa conspiração contra o governo dos Estados Unidos.",
+  "genero": "Action & Adventure, Drama, Mistério",
+  "elenco": "Gabriel Basso, Luciane Buchanan, Arienne Mandi, Louis Herthum, Berto Colon",
+  "diretor": "Paul F. Bernard, Seth Gordon",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:09"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:50:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:54:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:54:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:51:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:53:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:45:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:56:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:55:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:52:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:54:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:47:52"
+        }
+      ]
+    }
+  ],
+  "id": 3375
+}

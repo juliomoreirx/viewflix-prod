@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3OTk=",
+  "tipo": "serie",
+  "titulo": "O BEIJO DA SEREIA",
+  "capa_url": "https://lgfp.one/SBT1",
+  "capa_local": "O BEIJO DA SEREIA/O BEIJO DA SEREIA.jpg",
+  "sinopse": "Cha Wooseok, um investigador de elite da Unidade de Investigação de Fraudes de Seguros (SIU) conhecido por seus instintos afiados e percepção excepcional. Ele investiga um esquema de fraude de seguros ligado a uma série de mortes misteriosas — apenas para acabar envolvido com Han Seol-ah, uma deslumbrante e provocante leiloeira de arte e principal suspeita dos crimes.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "박민영, Wi Ha-jun, 김정현, 한준우, 공성하",
+  "diretor": "소재현, 김철규",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:44"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:02"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:07:00"
+        }
+      ]
+    }
+  ],
+  "id": 9013
+}

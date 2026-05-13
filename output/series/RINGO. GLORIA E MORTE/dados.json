@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMDk=",
+  "tipo": "serie",
+  "titulo": "RINGO. GLÓRIA E MORTE",
+  "capa_url": "https://lgfp.one/YXV",
+  "capa_local": "RINGO. GLORIA E MORTE/RINGO. GLORIA E MORTE.jpg",
+  "sinopse": "Em busca de uma retomada na carreira do boxe, já em declínio devido a uma série de infelizes contratos, \"Ringo\" Bonavena, o boxeador peso-pesado mais lembrado da Argentina, chega à Nevada em 1976. Ele se envolve com a máfia do jogo liderada por Joe Conforte. Ringo vive os últimos três meses de vida na esperança de conseguir uma luta final com Ali, mas é assassinado em circunstâncias pouco claras.",
+  "genero": "Drama",
+  "elenco": "Jerónimo Giocondo Bosia, Delfina Chaves, María Onetto, Martín Slipak, Renato Quattordio, Thomas Grube, Lucila Gandolfo, Germán de Silva",
+  "diretor": "Nicolás Pérez Veiga",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:32"
+        }
+      ]
+    }
+  ],
+  "id": 3381
+}

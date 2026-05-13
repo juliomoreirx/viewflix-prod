@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNTk=",
+  "tipo": "serie",
+  "titulo": "PAROT",
+  "capa_url": "https://lgfp.one/SOD",
+  "capa_local": "PAROT/PAROT.jpg",
+  "sinopse": "Após a anulação da doutrina Parot, alguém começa a matar os terroristas, estupradores e assassinos que foram soltos sem terminar suas penas.",
+  "genero": "Mistério / Crime / War & Politics / Drama",
+  "elenco": "Adriana Ugarte, Javier Albalá, Iván Massagué, Blanca Portillo, Patricia Vico, Michel Brown, Nicole Wallace, Antonio Dechent",
+  "diretor": "Pilar Nadal, Luis Murillo Arias, Alonso Laporta",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:20"
+        }
+      ]
+    }
+  ],
+  "id": 2064
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMTU=",
+  "tipo": "serie",
+  "titulo": "MAIS TOP [L]",
+  "capa_url": "https://lgfp.one/DQP0",
+  "capa_local": "MAIS TOP [L]/MAIS TOP [L].jpg",
+  "sinopse": "Daniel Tosh dá as boas-vindas a 14 superestrelas de reality shows em um novo programa de competição hilário e cheio de drama, no qual tanto os fortes quanto os totalmente sem noção podem sobreviver. A cada semana, Bachelors, Housewives, estrelas do Food Network e Os Reis de Beverly Hills se enfrentarão e eliminarão uns aos outros até um deles se tornar o Maior Participante dos Reality Shows.",
+  "genero": "Reality",
+  "elenco": "Daniel Tosh, Kristen Doute, Reza Farahan, Jill Zarin, Joe Amabile",
+  "diretor": "Elan Gale",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:53"
+        }
+      ]
+    }
+  ],
+  "id": 6003
+}

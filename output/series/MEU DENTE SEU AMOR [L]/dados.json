@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4ODU=",
+  "tipo": "serie",
+  "titulo": "MEU DENTE SEU AMOR [L]",
+  "capa_url": "https://lgfp.one/RGE8",
+  "capa_local": "MEU DENTE SEU AMOR [L]/MEU DENTE SEU AMOR [L].jpg",
+  "sinopse": "Bai Lang tem pavor de ir ao dentista e preocupa sua irmã mais velha Bai Qing. Ela o obriga a se consultar com Jin Xunan, um jovem dentista que, apesar da idade, já é o diretor da sua própria clínica. Poderá Bai Lang perder seu trauma graças ao carinho de seu novo dentista?",
+  "genero": "Drama",
+  "elenco": "吳岳擎, 余晉, 張豐豪, 周予天, 小薰",
+  "diretor": "姜瑞智",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:39:12"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:39:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:40:25"
+        }
+      ]
+    }
+  ],
+  "id": 8615
+}

@@ -1,0 +1,225 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0ODQ=",
+  "tipo": "serie",
+  "titulo": "LINE OF DUTY [L]",
+  "capa_url": "https://lgfp.one/ACJU",
+  "capa_local": "LINE OF DUTY [L]/LINE OF DUTY [L].jpg",
+  "sinopse": "Os policiais Steve Arnott e Kate Fleming, com a ajuda do superintendente Ted Hastings, lideram uma unidade anticorrupção e lidam com crimes internos.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Martin Compston, Vicky McClure, Adrian Dunbar, Gregory Piper, Nigel Boyle",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:16"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:58:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:58:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:59:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:58:52"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:59:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:58:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:58:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:58:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "01:27:34"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:59:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:58:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:58:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:57:43"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:57:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "01:24:02"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 6",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S06E01",
+          "duracao": "00:56:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S06E02",
+          "duracao": "00:57:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S06E03",
+          "duracao": "00:57:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S06E04",
+          "duracao": "00:57:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S06E05",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S06E06",
+          "duracao": "00:58:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S06E07",
+          "duracao": "00:58:02"
+        }
+      ]
+    }
+  ],
+  "id": 4142
+}

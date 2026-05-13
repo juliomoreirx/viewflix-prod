@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMTI=",
+  "tipo": "serie",
+  "titulo": "A RAINHA DAS VILAS",
+  "capa_url": "https://lgfp.one/DPZ2",
+  "capa_local": "A RAINHA DAS VILAS/A RAINHA DAS VILAS.jpg",
+  "sinopse": "Na década de 1980, uma garota boazinha se transforma em uma lutadora profissional sanguinária, e suas lutas descontroladas colocam o país todo contra ela.",
+  "genero": "Drama",
+  "elenco": "Yuriyan Retriever, Erika Karata, 剛力彩芽, 村上淳, 黒田大輔",
+  "diretor": "Keita Watanabe",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:15:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:22:56"
+        }
+      ]
+    }
+  ],
+  "id": 5978
+}

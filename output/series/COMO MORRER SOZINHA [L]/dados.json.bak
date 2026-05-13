@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwOTI=",
+  "tipo": "serie",
+  "titulo": "COMO MORRER SOZINHA [L]",
+  "capa_url": "https://lgfp.one/DTB4",
+  "capa_local": "COMO MORRER SOZINHA [L]/COMO MORRER SOZINHA [L].jpg",
+  "sinopse": "\"Como Morrer Sozinha\" acompanha Mel, uma mulher negra, gorda e falida que trabalha no aeroporto JFK que nunca se apaixonou e esqueceu de como é sonhar, até que um encontro acidental com a morte a catapulta em uma jornada para finalmente alçar voo e começar a viver.",
+  "genero": "Comédia",
+  "elenco": "Natasha Rothwell, Conrad Ricamora, Jocko Sims, KeiLyn Durrel Jones",
+  "diretor": "Jude Weng, Samantha McMeekin",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:10"
+        }
+      ]
+    }
+  ],
+  "id": 6024
+}

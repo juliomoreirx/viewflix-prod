@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4Mzg=",
+  "tipo": "serie",
+  "titulo": "DMZ",
+  "capa_url": "https://lgfp.one/TCV",
+  "capa_local": "DMZ/DMZ.jpg",
+  "sinopse": "Em um futuro próximo, a América encontra-se dividida por uma violenta guerra civil que deixa Manhattan, uma zona desmilitarizada (DMZ), destruída e isolada do resto do mundo.",
+  "genero": "Drama / Sci-Fi & Fantasy",
+  "elenco": "Rosario Dawson, Benjamin Bratt, Hoon Lee, Freddy Miyares, Mamie Gummer, Jordan Preston Carter",
+  "diretor": "Roberto Patino",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:56"
+        }
+      ]
+    }
+  ],
+  "id": 2464
+}

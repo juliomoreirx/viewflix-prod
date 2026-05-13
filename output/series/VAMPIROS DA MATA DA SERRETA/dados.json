@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0ODI=",
+  "tipo": "serie",
+  "titulo": "VAMPIROS DA MATA DA SERRETA",
+  "capa_url": "https://lgfp.one/AANM",
+  "capa_local": "VAMPIROS DA MATA DA SERRETA/VAMPIROS DA MATA DA SERRETA.jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:26"
+        }
+      ]
+    }
+  ],
+  "id": 639
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMzk=",
+  "tipo": "serie",
+  "titulo": "RENASCIDO PARA O ASFALTO",
+  "capa_url": "https://lgfp.one/DCF0",
+  "capa_local": "RENASCIDO PARA O ASFALTO/RENASCIDO PARA O ASFALTO.jpg",
+  "sinopse": "O comediante Chris Redd trabalha com um time de experts para dar vida nova a carros antigos, que passam por transformações personalizadas.",
+  "genero": "Reality",
+  "elenco": "Chris Redd",
+  "diretor": "Mike Odair",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:47"
+        }
+      ]
+    }
+  ],
+  "id": 5753
+}

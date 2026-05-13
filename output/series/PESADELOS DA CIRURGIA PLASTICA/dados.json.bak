@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MjE=",
+  "tipo": "serie",
+  "titulo": "PESADELOS DA CIRURGIA PLASTICA",
+  "capa_url": "https://lgfp.one/ATVJ",
+  "capa_local": "PESADELOS DA CIRURGIA PLASTICA/PESADELOS DA CIRURGIA PLASTICA.jpg",
+  "sinopse": "Sarah Cawood conta o que acontece quando sonhos se transformam em pesadelos da cirurgia plástica e como as celebridades têm ajudado a influenciar a indústria.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:20"
+        }
+      ]
+    }
+  ],
+  "id": 4500
+}

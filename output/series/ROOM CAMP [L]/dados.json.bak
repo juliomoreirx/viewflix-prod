@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNjY=",
+  "tipo": "serie",
+  "titulo": "ROOM CAMP [L]",
+  "capa_url": "https://lgfp.one/RSP1",
+  "capa_local": "ROOM CAMP [L]/ROOM CAMP [L].jpg",
+  "sinopse": "No interior de Yamanashi, tem um colégio chamado Colégio Motosu. Entre no prédio e você encontrará um clube de atividades ao ar livre bastante despreocupado, que usa um canto de uma das salas de aula para reunião de clube.\n\nKagamihara Nadeshiko só queria jogar papo fora no seu cantinho, mas suas amigas Ohgaki Chiaki e Inuyama Aoi avisam de sopetão que elas vão partir numa viagem, arrastando uma confusa Nadeshiko por vários lugares de Yamanashi. As garotas vão experimentar vários quitutes locais em sua jornada, mas onde é que essa viagem maluca vai dar?!",
+  "genero": "Animação, Comédia",
+  "elenco": "Yumiri Hanamori, 原紗友里, Aki Toyosaki",
+  "diretor": "神保昌登",
+  "total_episodios": "4",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:03:30"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:03:30"
+        }
+      ]
+    }
+  ],
+  "id": 8878
+}

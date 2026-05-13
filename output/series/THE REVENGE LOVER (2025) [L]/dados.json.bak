@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NzA=",
+  "tipo": "serie",
+  "titulo": "THE REVENGE LOVER (2025) [L]",
+  "capa_url": "https://lgfp.one/SXD6",
+  "capa_local": "THE REVENGE LOVER (2025) [L]/THE REVENGE LOVER (2025) [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "紺野彩夏, 鈴木仁, Sunada Masahiro, 近藤頌利, 太田駿静",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:45"
+        }
+      ]
+    }
+  ],
+  "id": 9453
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMDU=",
+  "tipo": "serie",
+  "titulo": "PODEROSOS CHEFOES AS CINCO FAMILIAS DA MAFIA",
+  "capa_url": "https://lgfp.one/NAD1",
+  "capa_local": "PODEROSOS CHEFOES AS CINCO FAMILIAS DA MAFIA/PODEROSOS CHEFOES AS CINCO FAMILIAS DA MAFIA.jpg",
+  "sinopse": "Esta série de documentários em três partes explora a ascensão e queda das cinco famílias da máfia de Nova Iorque. Através de arquivos, reconstituições e entrevistas com especialistas, testemunhas e ex-mafiosos, detalha a história do crime organizado, da Sicília aos EUA.",
+  "genero": "Crime, Documentário",
+  "elenco": "Michael Imperioli",
+  "diretor": "Colin Barnicle",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:26:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:26:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:26:06"
+        }
+      ]
+    }
+  ],
+  "id": 6905
+}

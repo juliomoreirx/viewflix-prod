@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNDI=",
+  "tipo": "serie",
+  "titulo": "QUE FALTA VOCÊ ME FAZ",
+  "capa_url": "https://lgfp.one/KNQ1",
+  "capa_local": "QUE FALTA VOCE ME FAZ/QUE FALTA VOCE ME FAZ.jpg",
+  "sinopse": "Depois de dar match em um app de namoro com o noivo que desapareceu há vários anos, a detetive Kat Donovan descobre que alguns segredos devem permanecer no passado.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Rosalind Eleazar, Jessica Kate Plummer, Richard Armitage, Lenny Henry, Steve Pemberton",
+  "diretor": "Guy Hescott, Fiona Pegram",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 6474
+}

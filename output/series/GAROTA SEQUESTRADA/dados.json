@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MjI=",
+  "tipo": "serie",
+  "titulo": "GAROTA SEQUESTRADA",
+  "capa_url": "https://lgfp.one/RGD4",
+  "capa_local": "GAROTA SEQUESTRADA/GAROTA SEQUESTRADA.jpg",
+  "sinopse": "Baseada no romance Baby Doll, de Hollie Overton, a série mergulha em uma história perturbadora sobre trauma, sobrevivência e as cicatrizes deixadas pelo abuso, explorando não apenas o impacto do sequestro, mas também o difícil caminho de reconstrução após o retorno à liberdade.",
+  "genero": "Drama, Crime",
+  "elenco": "Tallulah Evans, Delphi Evans, Jill Halfpenny, Alfie Allen, Vikash Bhai",
+  "diretor": "Mick Pantaleo",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:25"
+        }
+      ]
+    }
+  ],
+  "id": 8601
+}

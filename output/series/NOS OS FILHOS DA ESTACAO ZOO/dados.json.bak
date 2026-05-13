@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczODU=",
+  "tipo": "serie",
+  "titulo": "NOS OS FILHOS DA ESTACAO ZOO",
+  "capa_url": "https://lgfp.one/SPA",
+  "capa_local": "NOS OS FILHOS DA ESTACAO ZOO/NOS OS FILHOS DA ESTACAO ZOO.jpg",
+  "sinopse": "A série é uma interpretação moderna e contemporânea, inspirada nas emocionantes memórias de Christiane F. e acompanha seis jovens que lutam com veemência e intransigência pelo seu sonho de felicidade. Eles não são vítimas, mas jovens, corajosos e fortes e sua história é absolutamente comovente e comovente",
+  "genero": "Drama",
+  "elenco": "Jana McKinnon, Lena Urzendowsky, Lea Drinda, Bruno Alexander, Michelangelo Fortuzzi, Jeremias Meyer, Angelina Häntsch, Sebastian Urzendowsky",
+  "diretor": "Annette Hess",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:04"
+        }
+      ]
+    }
+  ],
+  "id": 2088
+}

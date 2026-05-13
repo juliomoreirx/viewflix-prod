@@ -1,0 +1,215 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MTQ=",
+  "tipo": "serie",
+  "titulo": "MESTRE DO SABOR",
+  "capa_url": "https://lgfp.one/SCC",
+  "capa_local": "MESTRE DO SABOR/MESTRE DO SABOR.jpg",
+  "sinopse": "Claude Troisgros e seu braço-direito Batista comandam o reality de gastronomia, em formato original, feito para mostrar o talento de grandes chefs e valorizar todas as nuances da culinária nacional.",
+  "genero": "",
+  "elenco": "Claude Troisgros, Batista, Rafael Costa e Silva, Leo Paixão, Kátia Barbosa",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:07:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:13"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:06:58"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:09:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:10:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:09:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:09:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:05:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:05:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:05:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:05:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "01:05:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "01:03:02"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "01:03:15"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "01:16:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:07:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "01:04:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "01:04:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:04:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "01:04:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "01:04:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "01:04:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "01:04:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "01:00:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:58:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "01:12:08"
+        }
+      ]
+    }
+  ],
+  "id": 227806
+}

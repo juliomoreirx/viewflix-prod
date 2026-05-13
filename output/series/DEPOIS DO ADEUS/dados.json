@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxOTE=",
+  "tipo": "serie",
+  "titulo": "DEPOIS DO ADEUS",
+  "capa_url": "https://lgfp.one/EGO4",
+  "capa_local": "DEPOIS DO ADEUS/DEPOIS DO ADEUS.jpg",
+  "sinopse": "Depois de perder o noivo em um acidente, Saeko sente uma conexão inexplicável com um estranho que, por obra do destino, recebeu o coração e as memórias dele.",
+  "genero": "Drama",
+  "elenco": "Kasumi Arimura, 坂口健太郎, 生田斗真, 中村ゆり, 三浦友和",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:47"
+        }
+      ]
+    }
+  ],
+  "id": 6242
+}

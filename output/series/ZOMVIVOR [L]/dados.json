@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NjA=",
+  "tipo": "serie",
+  "titulo": "ZOMVIVOR [L]",
+  "capa_url": "https://lgfp.one/QNR7",
+  "capa_local": "ZOMVIVOR [L]/ZOMVIVOR [L].jpg",
+  "sinopse": "Quando a cidade é assolada por um vírus apocalíptico que transforma pessoas em zumbis, um grupo de adolescentes se refugia em uma escola e luta para sobreviver.",
+  "genero": "Drama, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "เจณิสตา พรหมผดุงชีพ, สิทธิโชค เผือกพูลผล, ชวรินทร์ เพริศพิริยะวงศ์, พฤกษ์ พานิช, ศุกลวัฒน์ คณารศ",
+  "diretor": "ณธวรรศว์ ปิยานนท์พงศ์, Kittipat Jampa, Worawut Thanamatchaicharoen",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:53"
+        }
+      ]
+    }
+  ],
+  "id": 8333
+}

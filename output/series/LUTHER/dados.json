@@ -1,0 +1,140 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxODc=",
+  "tipo": "serie",
+  "titulo": "LUTHER",
+  "capa_url": "https://lgfp.one/IPO",
+  "capa_local": "LUTHER/LUTHER.jpg",
+  "sinopse": "Luther é um detetive brilhante que, lutando com seus próprios tormentos, pode ser tão perigoso quanto os assassinos que ele persegue.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Idris Elba, Dermot Crowley, Hermione Norris, Michael Smiley, Ruth Wilson",
+  "diretor": "Sam Miller, Jamie Payne...",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:32"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:52:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:52:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:51:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:52:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:52:15"
+        }
+      ]
+    }
+  ],
+  "id": 73
+}

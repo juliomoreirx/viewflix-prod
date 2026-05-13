@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MTY=",
+  "tipo": "serie",
+  "titulo": "BLACK RABBIT",
+  "capa_url": "https://lgfp.one/QAM1",
+  "capa_local": "BLACK RABBIT/BLACK RABBIT.jpg",
+  "sinopse": "O dono de um restaurante em ascensão mergulha no submundo do crime depois que seu irmão volta à cidade fugindo de agiotas perigosos.",
+  "genero": "Drama, Crime",
+  "elenco": "Jason Bateman, Jude Law, Chris Coy, Troy Kotsur, Abbey Lee",
+  "diretor": "Jason Bateman, Justin Kurzel,  Laura Linney,  Ben Semanoff",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:11"
+        }
+      ]
+    }
+  ],
+  "id": 7999
+}

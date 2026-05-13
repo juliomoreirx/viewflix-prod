@@ -1,0 +1,170 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4OTI=",
+  "tipo": "serie",
+  "titulo": "GINNY E GEORGIA",
+  "capa_url": "https://lgfp.one/RNW",
+  "capa_local": "GINNY E GEORGIA/GINNY E GEORGIA.jpg",
+  "sinopse": "Em busca de uma nova chance, Georgia leva os filhos Ginny e Austin para morar em outra cidade. Só que recomeçar do zero não é tão simples assim.",
+  "genero": "Comédia, Drama",
+  "elenco": "Antonia Gentry, Brianne Howey, Diesel La Torraca, Jennifer Robertson, Felix Mallard",
+  "diretor": "Michelle Askew",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:56:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:57:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:58:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:56:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:02:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "01:01:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:04:34"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:57:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "01:00:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "01:05:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:02:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "01:04:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "01:05:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:59:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:05:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "01:03:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "01:08:37"
+        }
+      ]
+    }
+  ],
+  "id": 1188
+}

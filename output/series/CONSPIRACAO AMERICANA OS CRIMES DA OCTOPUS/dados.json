@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNDc=",
+  "tipo": "serie",
+  "titulo": "CONSPIRACAO AMERICANA OS CRIMES DA OCTOPUS",
+  "capa_url": "https://lgfp.one/AJQ3",
+  "capa_local": "CONSPIRACAO AMERICANA OS CRIMES DA OCTOPUS/CONSPIRACAO AMERICANA OS CRIMES DA OCTOPUS.jpg",
+  "sinopse": "Um jornalista que investiga uma conspiração política conhecida como A Octopus é encontrado morto no quarto do hotel. Décadas depois, surgem novas informações.",
+  "genero": "Documentário, Crime",
+  "elenco": "Christian Hansen, Tony Casolaro, Michael Riconosciuto, Bobby Moses Nichols, Zachary Treitz",
+  "diretor": "Zachary Treitz, Chapman Way, Maclain Way",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:02"
+        }
+      ]
+    }
+  ],
+  "id": 5054
+}

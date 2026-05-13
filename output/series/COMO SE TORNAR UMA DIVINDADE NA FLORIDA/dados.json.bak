@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NTc=",
+  "tipo": "serie",
+  "titulo": "COMO SE TORNAR UMA DIVINDADE NA FLÓRIDA",
+  "capa_url": "https://lgfp.one/RDT",
+  "capa_local": "COMO SE TORNAR UMA DIVINDADE NA FLORIDA/COMO SE TORNAR UMA DIVINDADE NA FLORIDA.jpg",
+  "sinopse": "Após ver seu marido perder tudo em um esquema de pirâmide, Krystal busca uma forma de sustentar a filha e se infiltra na mesma associação que a derrubou para dar a volta por cima.",
+  "genero": "Comédia",
+  "elenco": "Kirsten Dunst, Théodore Pellerin, Beth Ditto, Mel Rodriguez, Ted Levine",
+  "diretor": "Breannah Gibson, Nick DiRosa",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:26"
+        }
+      ]
+    }
+  ],
+  "id": 910
+}

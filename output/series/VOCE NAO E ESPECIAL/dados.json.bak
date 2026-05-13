@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTc=",
+  "tipo": "serie",
+  "titulo": "VOCÊ NÃO É ESPECIAL",
+  "capa_url": "https://lgfp.one/TQF",
+  "capa_local": "VOCE NAO E ESPECIAL/VOCE NAO E ESPECIAL.jpg",
+  "sinopse": "Depois se mudar de Barcelona para a cidadezinha onde vive a mãe, a jovem Amaia descobre que talvez tenha herdado os poderes da avó, que diziam ser uma bruxa.",
+  "genero": "Comédia, Sci-Fi & Fantasy, Drama",
+  "elenco": "Dèlia Brufau, Jordi Aguilar, Miriam Cabeza, Elia Galera, Óscar de la Fuente",
+  "diretor": "Montxo Armendáriz",
+  "total_episodios": "33",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:22"
+        }
+      ]
+    }
+  ],
+  "id": 2828
+}

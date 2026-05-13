@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNDY=",
+  "tipo": "serie",
+  "titulo": "THE TEACHER",
+  "capa_url": "https://lgfp.one/YGI",
+  "capa_local": "THE TEACHER/THE TEACHER.jpg",
+  "sinopse": "Um thriller psicológico conta a história de Jenna, uma professora popular com uma vida privada caótica. Depois de uma noite comemorando uma promoção, Jenna é acusada de dormir com Kyle Hope, um aluno de 15 anos.",
+  "genero": "Drama",
+  "elenco": "Sheridan Smith, Kelvin Fletcher, Cecilia Noble, Samuel Bottomley, David Fleeshman, Sarah-Jane Potts",
+  "diretor": "Barunka O'Shaughnessy, Mike Benson",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:49"
+        }
+      ]
+    }
+  ],
+  "id": 3255
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNzQ=",
+  "tipo": "serie",
+  "titulo": "O RETORNO DE SIMONE BILES",
+  "capa_url": "https://lgfp.one/EGK0",
+  "capa_local": "O RETORNO DE SIMONE BILES/O RETORNO DE SIMONE BILES.jpg",
+  "sinopse": "Acompanhe a ginasta Simone Biles em sua jornada para achar o equilíbrio ideal entre treinamento, vida pessoal e saúde mental antes do tão aguardado retorno às Olimpíadas.",
+  "genero": "Documentário",
+  "elenco": "Simone Biles, Aly Raisman, Sunisa Lee, Jonathan Owens, Rebeca Andrade",
+  "diretor": "Gotham Chopra, Katie Walsh",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:32"
+        }
+      ]
+    }
+  ],
+  "id": 6240
+}

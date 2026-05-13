@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MTU=",
+  "tipo": "serie",
+  "titulo": "MIRACLE [L]",
+  "capa_url": "https://lgfp.one/RKJ0",
+  "capa_local": "MIRACLE [L]/MIRACLE [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Bear Grylls",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:36"
+        }
+      ]
+    }
+  ],
+  "id": 8728
+}

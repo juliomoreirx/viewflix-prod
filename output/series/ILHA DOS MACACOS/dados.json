@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNTQ=",
+  "tipo": "serie",
+  "titulo": "ILHA DOS MACACOS",
+  "capa_url": "https://lgfp.one/ASHY",
+  "capa_local": "ILHA DOS MACACOS/ILHA DOS MACACOS.jpg",
+  "sinopse": "Visite uma cidadela antiga, que já foi o lar dos reis do Sri Lanka, que foi recuperada por um elenco de primatas notáveis. Conheça a família governante de peculiares macacos toque, um grupo de graciosos Langures cinzentos e uma esquiva tropa de Macacos de cara roxa.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:02"
+        }
+      ]
+    }
+  ],
+  "id": 4352
+}

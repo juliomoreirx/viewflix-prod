@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NDk=",
+  "tipo": "serie",
+  "titulo": "I'M DYING UP HERE",
+  "capa_url": "https://lgfp.one/SUJ",
+  "capa_local": "I'M DYING UP HERE/I'M DYING UP HERE.jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "Melissa Leo, Ari Graynor, Clark Duke, Michael Angarano, RJ Cyler, Erik Griffin, Andrew Santino, Al Madrigal",
+  "diretor": "Jim Carrey",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:37"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:58:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:57:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:56:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:00:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:00:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:00:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:57:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:56:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:58:28"
+        }
+      ]
+    }
+  ],
+  "id": 2239
+}

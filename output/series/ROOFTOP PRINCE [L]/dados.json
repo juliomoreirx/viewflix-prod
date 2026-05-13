@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NDg=",
+  "tipo": "serie",
+  "titulo": "ROOFTOP PRINCE [L]",
+  "capa_url": "https://lgfp.one/AAUS",
+  "capa_local": "ROOFTOP PRINCE [L]/ROOFTOP PRINCE [L].jpg",
+  "sinopse": "Um príncipe da era Joseon, Lee Gak, é catapultado e transportado 300 anos rumo ao futuro, em Seul 2012, com sua comitiva, que inclui Song Man Bo, Do Chi San e Woo Young Sul, quando ele tentava investigar as circunstâncias suspeitas que cercavam a morte de sua princesa. No presente, ele encontra uma garota que se parece exatamente com a sua amada, mas nem tudo é o que aparenta ser...",
+  "genero": "Comédia, Drama, Sci-Fi & Fantasy",
+  "elenco": "Park Yoo-chun, Han Ji-min, Jeong Yu-mi, Kim So-hyun, Lee Tae-sung",
+  "diretor": "Shin Yoon-sub, An Gil-ho",
+  "total_episodios": "64",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:13"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:02:50"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:03:01"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:02:34"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:02:21"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "01:02:33"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "01:00:46"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "01:03:55"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "01:02:40"
+        }
+      ]
+    }
+  ],
+  "id": 3883
+}

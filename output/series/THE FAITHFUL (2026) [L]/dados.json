@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNDk=",
+  "tipo": "serie",
+  "titulo": "THE FAITHFUL (2026) [L]",
+  "capa_url": "https://lgfp.one/SHW3",
+  "capa_local": "THE FAITHFUL (2026) [L]/THE FAITHFUL (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:46"
+        }
+      ]
+    }
+  ],
+  "id": 9163
+}

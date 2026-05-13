@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzODk=",
+  "tipo": "serie",
+  "titulo": "OPERAÇÃO INFILTRADOS",
+  "capa_url": "https://lgfp.one/NNJ8",
+  "capa_local": "OPERACAO INFILTRADOS/OPERACAO INFILTRADOS.jpg",
+  "sinopse": "Policiais disfarçados e o CIS trabalham juntos para prender traficantes ativos em diversas cidades dos EUA.",
+  "genero": "Documentário, Crime",
+  "elenco": "Lindsay Mason, Lou Valoze",
+  "diretor": "Taylor Rogers",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:34"
+        }
+      ]
+    }
+  ],
+  "id": 7129
+}

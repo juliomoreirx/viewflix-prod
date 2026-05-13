@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNjE=",
+  "tipo": "serie",
+  "titulo": "UNMASKED",
+  "capa_url": "https://lgfp.one/RGK5",
+  "capa_local": "UNMASKED/UNMASKED.jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:45"
+        }
+      ]
+    }
+  ],
+  "id": 8628
+}

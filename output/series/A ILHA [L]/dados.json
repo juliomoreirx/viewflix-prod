@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MTM=",
+  "tipo": "serie",
+  "titulo": "A ILHA [L]",
+  "capa_url": "https://lgfp.one/PTB1",
+  "capa_local": "A ILHA [L]/A ILHA [L].jpg",
+  "sinopse": "Won Mi Ho é a única filha de seu pai que dirige o Grupo Daehan. Sua atitude arrogante e egoísta faz com que ela cometa um grande erro que eventualmente enfurece seu pai, que decide bani-la para a ilha de Jeju. Lá, ela foi designada a trabalhar como professora de ética no ensino médio. Sem que ela saiba, a ilha é onde o mal vagueia livre. Ela conhece outros indivíduos na ilha e, juntos, eles unem forças para viver.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+  "elenco": "Kim Nam-gil, 이다희, Cha Eun-woo, 성준, 허정희",
+  "diretor": "박광현",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:48:57"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:52:14"
+        }
+      ]
+    }
+  ],
+  "id": 385292
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Nzk=",
+  "tipo": "serie",
+  "titulo": "PATAGÔNIA EXTRAORDINÁRIA",
+  "capa_url": "https://lgfp.one/WLK",
+  "capa_local": "PATAGONIA EXTRAORDINARIA/PATAGONIA EXTRAORDINARIA.jpg",
+  "sinopse": "Explorando as regiões mais incríveis do planeta, esta série celebra a diversidade de paisagens, a exuberância da vida selvagem e as histórias humanas fascinantes que se espalham pela imensidão da Patagônia.",
+  "genero": "Documentário",
+  "elenco": "Pedro Pascal, Isaí Madriz, Susannah Buchan",
+  "diretor": "René Araneda, Kevin Zaouali,",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:40"
+        }
+      ]
+    }
+  ],
+  "id": 3113
+}

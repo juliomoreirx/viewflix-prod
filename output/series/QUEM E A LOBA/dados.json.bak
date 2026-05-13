@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNjY=",
+  "tipo": "serie",
+  "titulo": "QUEM É A LOBA?",
+  "capa_url": "https://lgfp.one/AAXL",
+  "capa_local": "QUEM E A LOBA/QUEM E A LOBA.jpg",
+  "sinopse": "Eles estão todos aqui em busca do verdadeiro romance, mas escondido entre as mulheres está pelo menos um “lobo” que está proibido de se apaixonar.",
+  "genero": "Reality",
+  "elenco": "Natsuko Yokosawa, 滝沢カレン, Riku Aoyama, Nako Yabuki, 大久保桜子",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:59"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:53:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:26"
+        }
+      ]
+    }
+  ],
+  "id": 3953
+}

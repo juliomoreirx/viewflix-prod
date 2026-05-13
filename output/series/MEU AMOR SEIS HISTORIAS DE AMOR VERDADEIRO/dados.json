@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0OTI=",
+  "tipo": "serie",
+  "titulo": "MEU AMOR: SEIS HISTÓRIAS DE AMOR VERDADEIRO",
+  "capa_url": "https://lgfp.one/RPG",
+  "capa_local": "MEU AMOR SEIS HISTORIAS DE AMOR VERDADEIRO/MEU AMOR SEIS HISTORIAS DE AMOR VERDADEIRO.jpg",
+  "sinopse": "Durante um ano, cineastas de seis países diferentes acompanham casais idosos que estão juntos há muito tempo. Da costa coreana a uma favela do Rio de Janeiro, dos subúrbios de Tóquio à zona rural da Índia, da Espanha aos EUA, esses casais contam as histórias e os segredos do amor para a vida toda.",
+  "genero": "Documentário, Reality",
+  "elenco": "",
+  "diretor": "Jin Mo-young, Carolina Sá, Deepti Kakkar, Fahad Mustafa, Hikaru Toda",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:10:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:13:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:13:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:10:09"
+        }
+      ]
+    }
+  ],
+  "id": 1224
+}

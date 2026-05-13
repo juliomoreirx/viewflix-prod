@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NDE=",
+  "tipo": "serie",
+  "titulo": "A TRAMA",
+  "capa_url": "https://lgfp.one/AUKS",
+  "capa_local": "A TRAMA/A TRAMA.jpg",
+  "sinopse": "O jogo do poder, das mídias e do judiciário no Brasil de 2016 a 2019 e a chegada da extrema-direita ao poder. Como e por que Lula foi preso pela Lava Jato.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Carlinhos Andrade, Otávio Antunes",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:37"
+        }
+      ]
+    }
+  ],
+  "id": 4532
+}

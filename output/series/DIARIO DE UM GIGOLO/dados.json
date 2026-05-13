@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTU=",
+  "tipo": "serie",
+  "titulo": "DIÁRIO DE UM GIGOLÔ",
+  "capa_url": "https://lgfp.one/TQL",
+  "capa_local": "DIARIO DE UM GIGOLO/DIARIO DE UM GIGOLO.jpg",
+  "sinopse": "Um gigolô se envolve nos assuntos de família de uma cliente e quebra a principal regra do trabalho: não se apaixonar.",
+  "genero": "Drama",
+  "elenco": "Jesús Castro, Victoria White, Fabiola Campomanes, Francisco Denis, Begoña Narváez",
+  "diretor": "Mariano Ardanaz",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:53:59"
+        }
+      ]
+    }
+  ],
+  "id": 2834
+}

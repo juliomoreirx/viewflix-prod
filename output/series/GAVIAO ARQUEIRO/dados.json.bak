@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MjQ=",
+  "tipo": "serie",
+  "titulo": "GAVIÃO ARQUEIRO",
+  "capa_url": "https://lgfp.one/SOX",
+  "capa_local": "GAVIAO ARQUEIRO/GAVIAO ARQUEIRO.jpg",
+  "sinopse": "O ex-vingador Clint Barton tem uma missão aparentemente simples: voltar para sua família no Natal. Será possível? Talvez com a ajuda de Kate Bishop, uma arqueira de 22 anos que sonha em se tornar uma super-heroína. Os dois são forçados a trabalhar juntos quando uma presença do passado de Barton ameaça descarrilar muito mais do que o espírito festivo.",
+  "genero": "Action & Adventure / Drama",
+  "elenco": "Jeremy Renner, Hailee Steinfeld, Tony Dalton, Alaqua Cox, Fra Fee, Aleks Paunovic, Piotr Adamczyk, Vera Farmiga",
+  "diretor": "Jonathan Igla",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:11"
+        }
+      ]
+    }
+  ],
+  "id": 2084
+}

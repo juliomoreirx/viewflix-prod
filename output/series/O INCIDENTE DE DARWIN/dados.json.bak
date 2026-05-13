@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NTk=",
+  "tipo": "serie",
+  "titulo": "O INCIDENTE DE DARWIN",
+  "capa_url": "https://lgfp.one/RHD2",
+  "capa_local": "O INCIDENTE DE DARWIN/O INCIDENTE DE DARWIN.jpg",
+  "sinopse": "Charlie é único. Meio-humano e meio-chimpanzé, um Humanzé, ele tem uma inteligência e força fora do comum. É por isso que a Aliança de Libertação Animal, um grupo terrorista, está atrás dele. E eles farão de tudo para capturá-lo. Mas Charlie está determinado a lutar por si mesmo e por quem ama.",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "Atsumi Tanezaki, Mitsuho Kambe, Akio Otsuka, Toshiyuki Morikawa, Rina Satoh",
+  "diretor": "中山勝一, 津田尚克",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:18"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:24:20"
+        }
+      ]
+    }
+  ],
+  "id": 8657
+}

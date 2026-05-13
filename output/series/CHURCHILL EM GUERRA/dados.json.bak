@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNTM=",
+  "tipo": "serie",
+  "titulo": "CHURCHILL EM GUERRA",
+  "capa_url": "https://lgfp.one/KCW6",
+  "capa_local": "CHURCHILL EM GUERRA/CHURCHILL EM GUERRA.jpg",
+  "sinopse": "Esta série documental examina o papel fundamental de Winston Churchill na Segunda Guerra Mundial e mostra os motivos pelos quais ele foi o líder ideal naquele momento.",
+  "genero": "Documentário",
+  "elenco": "Langley Kirkwood, Christian McKay, Martin Munro, Martin Kluge",
+  "diretor": "Ron Howard, Malcolm Venville",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:16"
+        }
+      ]
+    }
+  ],
+  "id": 6350
+}

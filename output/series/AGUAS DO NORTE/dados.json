@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NjI=",
+  "tipo": "serie",
+  "titulo": "ÁGUAS DO NORTE",
+  "capa_url": "https://lgfp.one/SQV",
+  "capa_local": "AGUAS DO NORTE/AGUAS DO NORTE.jpg",
+  "sinopse": "Patrick Sumner é um ex-cirurgião das Forças Armadas. Esperando fugir dos traumas seu passado, ele vai a uma expedição no Ártico. Porém, descobre novos horrores que não imaginava.",
+  "genero": "Drama / Mistério",
+  "elenco": "Colin Farrell, Jack O'Connell",
+  "diretor": "Andrew Haigh",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:40"
+        }
+      ]
+    }
+  ],
+  "id": 2141
+}

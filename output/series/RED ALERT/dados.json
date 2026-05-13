@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NzI=",
+  "tipo": "serie",
+  "titulo": "RED ALERT",
+  "capa_url": "https://lgfp.one/QOZ5",
+  "capa_local": "RED ALERT/RED ALERT.jpg",
+  "sinopse": "As pessoas comuns se tornam heróis quando o sul de Israel é atacado em 7 de outubro. Enquanto lutam para sobreviver, suas histórias de bravura emergem no cenário de caos e perigo. Inspirado em eventos verdadeiros e contas em primeira mão.",
+  "genero": "Documentário",
+  "elenco": "רותם סלע, Rotem Abuhab, Chen Amsalem, Israel Atias, הישאם סולימאן",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:26"
+        }
+      ]
+    }
+  ],
+  "id": 8357
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxODI=",
+  "tipo": "serie",
+  "titulo": "HITLER E O NAZISMO COMECO MEIO E FIM",
+  "capa_url": "https://lgfp.one/BFA9",
+  "capa_local": "HITLER E O NAZISMO COMECO MEIO E FIM/HITLER E O NAZISMO COMECO MEIO E FIM.jpg",
+  "sinopse": "Esta série documental mostra a ascensão de Adolf Hitler e do regime nazista desde antes da Primeira Guerra Mundial até o Julgamento de Nuremberg, passando pelo Holocausto.",
+  "genero": "Documentário",
+  "elenco": "William L. Shirer, Károly Kozma, Imre Csok, Balázs Kató, Soma Zámbori",
+  "diretor": "Joe Berlinger",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:06:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:31"
+        }
+      ]
+    }
+  ],
+  "id": 5554
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMzg=",
+  "tipo": "serie",
+  "titulo": "CRIMINAL - FRANÇA",
+  "capa_url": "https://lgfp.one/IWH",
+  "capa_local": "CRIMINAL - FRANCA/CRIMINAL - FRANCA.jpg",
+  "sinopse": "Segredos vêm à tona e casos são desvendados em uma sala de interrogatório em Paris, onde suspeitos e investigadores se enfrentam em uma desgastante batalha mental.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Margot Bancilhon, Anne Azoulay, Mhamed Arezki, Laurent Lucas, Stéphane Jobert",
+  "diretor": "Frédéric Mermoud",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:16"
+        }
+      ]
+    }
+  ],
+  "id": 342448
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MTI=",
+  "tipo": "serie",
+  "titulo": "MY RUNWAY",
+  "capa_url": "https://lgfp.one/AQRJ",
+  "capa_local": "MY RUNWAY/MY RUNWAY.jpg",
+  "sinopse": "Um modelo egocêntrico e uma aspirante a modelo embarcam em divertidas e inusitadas aventuras ao trocar de vida e de corpo.",
+  "genero": "Comédia",
+  "elenco": "Park Ji-yeon, Kang Dong-ho, Kisum, Ahn Bo-hyun, Yang Hak Jin",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:18:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:13"
+        }
+      ]
+    }
+  ],
+  "id": 4225
+}

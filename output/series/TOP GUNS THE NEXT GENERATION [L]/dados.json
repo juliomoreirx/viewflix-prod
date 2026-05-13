@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MjA=",
+  "tipo": "serie",
+  "titulo": "TOP GUNS THE NEXT GENERATION [L]",
+  "capa_url": "https://lgfp.one/QCN3",
+  "capa_local": "TOP GUNS THE NEXT GENERATION [L]/TOP GUNS THE NEXT GENERATION [L].jpg",
+  "sinopse": "Segue um grupo de oficiais no Programa de Treinamento de Voo Avançado enquanto eles procuram se tornar pilotos de caça de ataque de elite.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Lana Salah",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:15"
+        }
+      ]
+    }
+  ],
+  "id": 8094
+}

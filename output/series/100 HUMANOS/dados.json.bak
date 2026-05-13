@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMDI=",
+  "tipo": "serie",
+  "titulo": "100 HUMANOS",
+  "capa_url": "https://lgfp.one/INE",
+  "capa_local": "100 HUMANOS/100 HUMANOS.jpg",
+  "sinopse": "Cem pessoas com histórias diferentes participam de experimentos divertidos sobre idade, sexo, felicidade e outros aspectos da vida humana.",
+  "genero": "Documentário, Reality",
+  "elenco": "Haley Bockrath, Tyanta Snow, Komalpreet Batth, Braxton Hale, Alfredo Tavares",
+  "diretor": "Neil DeGroot, Tom Kramer, David Wechter",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:42"
+        }
+      ]
+    }
+  ],
+  "id": 7
+}

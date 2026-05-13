@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMTA=",
+  "tipo": "serie",
+  "titulo": "SHAMELESS [L]",
+  "capa_url": "https://lgfp.one/SRC2",
+  "capa_local": "SHAMELESS [L]/SHAMELESS [L].jpg",
+  "sinopse": "Situada em Chicago, a família Gallagher, uma família da classe trabalhadora de oito pessoas, terá de sobreviver aos altos e baixos da recessão de hoje. Com uma mãe que está fora de cena e um pai alcoólatra que geralmente acaba desmaiado no chão da sala, e com sua filha Fione, de 18 anos de idade, que tem a tarefa de manter seus cinco irmãos e irmãs na linha reta. Esta série é baseada na série britânica de mesmo nome.",
+  "genero": "Drama, Comédia",
+  "elenco": "William H. Macy, Jeremy Allen White, Ethan Cutkosky, Shanola Hampton, Steve Howey",
+  "diretor": "Iain B. MacDonald",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:50:48"
+        }
+      ]
+    }
+  ],
+  "id": 9360
+}

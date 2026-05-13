@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzE=",
+  "tipo": "serie",
+  "titulo": "PETER NYGARD ALEM DA MODA",
+  "capa_url": "https://lgfp.one/AANR",
+  "capa_local": "PETER NYGARD ALEM DA MODA/PETER NYGARD ALEM DA MODA.jpg",
+  "sinopse": "Minissérie em quatro episódios sobre Peter Nygård, um playboy do mundo da moda acusado de estar envolvido, desde os anos 1970, em casos de abuso, estupro e tráfico sexual.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:56"
+        }
+      ]
+    }
+  ],
+  "id": 2678
+}

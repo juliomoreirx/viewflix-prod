@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MzI=",
+  "tipo": "serie",
+  "titulo": "PARA SEMPRE",
+  "capa_url": "https://lgfp.one/NTQ9",
+  "capa_local": "PARA SEMPRE/PARA SEMPRE.jpg",
+  "sinopse": "Dois amigos de infância se reencontram na adolescência e se apaixonam, vivendo as alegrias e dores do primeiro amor que mudará suas vidas para sempre.",
+  "genero": "Drama",
+  "elenco": "Lovie Simone, Michael Cooper Jr., Wood Harris, Karen Pittman",
+  "diretor": "Anthony Hemingway,",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:57"
+        }
+      ]
+    }
+  ],
+  "id": 381288
+}

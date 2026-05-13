@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMzg=",
+  "tipo": "serie",
+  "titulo": "GERMINAL: A REVOLUÇÃO",
+  "capa_url": "https://lgfp.one/TSB",
+  "capa_local": "GERMINAL A REVOLUCAO/GERMINAL A REVOLUCAO.jpg",
+  "sinopse": "Na França da década de 1860, mineradores decidem lutar contra as difíceis condições de trabalho que enfrentam e iniciam uma revolução social que muda a história da humanidade.",
+  "genero": "Drama",
+  "elenco": "Louis Peres, Thierry Godard, Alix Poisson, Rose-Marie Perreault, Guillaume de Tonquédec",
+  "diretor": "David Hourrègue",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:25"
+        }
+      ]
+    }
+  ],
+  "id": 2881
+}

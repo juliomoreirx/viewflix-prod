@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1Njk=",
+  "tipo": "serie",
+  "titulo": "SUPERPODEROSOS: A HISTÓRIA DA DC [L]",
+  "capa_url": "https://lgfp.one/AAQF",
+  "capa_local": "SUPERPODEROSOS A HISTORIA DA DC [L]/SUPERPODEROSOS A HISTORIA DA DC [L].jpg",
+  "sinopse": "Com mais de três horas repletas de ação, essa série documental apresenta uma visão abrangente e interna de personagens icônicos da DC, seu impacto cultural e o legado duradouro.",
+  "genero": "Documentário",
+  "elenco": "Rosario Dawson",
+  "diretor": "Remsy Atassi, Leigh Bloomfield, Graham Forbes",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:57"
+        }
+      ]
+    }
+  ],
+  "id": 3765
+}

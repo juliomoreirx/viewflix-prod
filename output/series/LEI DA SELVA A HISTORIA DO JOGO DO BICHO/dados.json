@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNjQ=",
+  "tipo": "serie",
+  "titulo": "LEI DA SELVA: A HISTÓRIA DO JOGO DO BICHO",
+  "capa_url": "https://lgfp.one/TFH",
+  "capa_local": "LEI DA SELVA A HISTORIA DO JOGO DO BICHO/LEI DA SELVA A HISTORIA DO JOGO DO BICHO.jpg",
+  "sinopse": "A loteria criada para financiar um jardim zoológico foi incorporada pela cultura popular carioca, e nos moldes da máfia italiana, se transformou num imenso império do crime.",
+  "genero": "Documentário",
+  "elenco": "Cecília Olliveira, Marcelo Adnet, Fábio Fabato, Luiz Antônio Simas, Tainá de Paula",
+  "diretor": "Pedro Asbeg, Pedro Asbeg, Pedro Asbeg",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:23"
+        }
+      ]
+    }
+  ],
+  "id": 2530
+}

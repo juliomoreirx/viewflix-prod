@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMTY=",
+  "tipo": "serie",
+  "titulo": "FORA DA PRISÃO",
+  "capa_url": "https://lgfp.one/YSJ",
+  "capa_local": "FORA DA PRISAO/FORA DA PRISAO.jpg",
+  "sinopse": "O relacionamento confuso de uma coach perfeccionista e mãe solteira cuja vida vira de cabeça para baixo quando seu pai traficante sai da prisão depois de mais de 17 anos e se muda para o quarto de hóspedes de sua casa.",
+  "genero": "Comédia",
+  "elenco": "Kerry Washington, Delroy Lindo, Marque Richardson, Faly Rakotohavana, Jordyn McIntosh",
+  "diretor": "Tracy McMillan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:01"
+        }
+      ]
+    }
+  ],
+  "id": 3327
+}

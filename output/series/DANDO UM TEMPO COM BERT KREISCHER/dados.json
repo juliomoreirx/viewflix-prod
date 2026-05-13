@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NTc=",
+  "tipo": "serie",
+  "titulo": "DANDO UM TEMPO COM BERT KREISCHER",
+  "capa_url": "https://lgfp.one/RGZ",
+  "capa_local": "DANDO UM TEMPO COM BERT KREISCHER/DANDO UM TEMPO COM BERT KREISCHER.jpg",
+  "sinopse": "O comediante Bert Kreischer convida amigos para o acompanharem em uma cabana na floresta para cuidar da mente, do corpo e da alma.",
+  "genero": "Reality, Comédia",
+  "elenco": "Bert Kreischer",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:35"
+        }
+      ]
+    }
+  ],
+  "id": 1000
+}

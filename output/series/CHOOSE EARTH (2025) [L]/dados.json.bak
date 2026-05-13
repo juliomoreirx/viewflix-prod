@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMTk=",
+  "tipo": "serie",
+  "titulo": "CHOOSE EARTH (2025) [L]",
+  "capa_url": "https://lgfp.one/SQO8",
+  "capa_local": "CHOOSE EARTH (2025) [L]/CHOOSE EARTH (2025) [L].jpg",
+  "sinopse": "Filmada durante uma década crucial (2014-2024), a série \"Choose Earth\" acompanha a artista Anne de Carbuccia em encontros com os Guardiões da Terra, vozes globais em defesa do planeta. Com imagens marcantes e testemunhos fortes, retrata um mundo em transformação: adaptação, perda cultural, juventude mobilizada… e esperança na tecnologia e no progresso social.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "252",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:36"
+        }
+      ]
+    }
+  ],
+  "id": 9314
+}

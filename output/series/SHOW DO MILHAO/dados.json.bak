@@ -1,0 +1,190 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMTU=",
+  "tipo": "serie",
+  "titulo": "SHOW DO MILHAO",
+  "capa_url": "https://lgfp.one/EBC4",
+  "capa_local": "SHOW DO MILHAO/SHOW DO MILHAO.jpg",
+  "sinopse": "Participantes respondem perguntas diversas em um jogo para concorrer a um prêmio de até um milhão de reais.",
+  "genero": "Talk",
+  "elenco": "Patrícia Abravanel",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 24",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S24E01",
+          "duracao": "00:52:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S24E02",
+          "duracao": "00:56:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S24E03",
+          "duracao": "01:03:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S24E04",
+          "duracao": "00:55:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S24E05",
+          "duracao": "00:59:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S24E06",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S24E07",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S24E08",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S24E09",
+          "duracao": "00:53:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S24E10",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "11",
+          "codigo": "S24E11",
+          "duracao": "00:52:46"
+        },
+        {
+          "numero": "12",
+          "codigo": "S24E12",
+          "duracao": "00:57:30"
+        },
+        {
+          "numero": "13",
+          "codigo": "S24E13",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "14",
+          "codigo": "S24E14",
+          "duracao": "01:06:36"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 25",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S25E01",
+          "duracao": "01:06:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S25E02",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S25E03",
+          "duracao": "00:56:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S25E04",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S25E05",
+          "duracao": "00:46:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S25E06",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S25E07",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S25E08",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S25E09",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S25E10",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "11",
+          "codigo": "S25E11",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S25E12",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S25E13",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "14",
+          "codigo": "S25E14",
+          "duracao": "00:56:58"
+        },
+        {
+          "numero": "15",
+          "codigo": "S25E15",
+          "duracao": "01:11:04"
+        },
+        {
+          "numero": "16",
+          "codigo": "S25E16",
+          "duracao": "01:36:01"
+        },
+        {
+          "numero": "17",
+          "codigo": "S25E17",
+          "duracao": "01:03:44"
+        },
+        {
+          "numero": "18",
+          "codigo": "S25E18",
+          "duracao": "01:09:23"
+        },
+        {
+          "numero": "19",
+          "codigo": "S25E19",
+          "duracao": "01:07:28"
+        }
+      ]
+    }
+  ],
+  "id": 6189
+}

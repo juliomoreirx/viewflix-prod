@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNzk=",
+  "tipo": "serie",
+  "titulo": "VESPERA [L]",
+  "capa_url": "https://lgfp.one/DCG0",
+  "capa_local": "VESPERA [L]/VESPERA [L].jpg",
+  "sinopse": "\"Eve\" é um drama de romance que lida com a história interna do processo de divórcio de 2 trilhões de chaebol (aproximadamente US$ 1,7 bilhão) que choca toda a nação.\n\nLee Ra El, que nasceu entre um pai genial e uma linda mãe, passa por um infeliz caso de família e se transforma em uma mulher que é comparada a uma \"flor perigosa\" com um charme fatal. Ela é a mulher no centro do processo de divórcio incrivelmente caro.\n\nSeo Eun Pyung é um advogado de direitos humanos que desiste de tudo por amor quando conhece Lee Ra El.\n\nHan So Ra é a única filha do poderoso político Han Pan Ro, que se casou com a família chaebol do Grupo LJ. Ela parece bonita e confiante, mas na verdade é instável por dentro e obcecada por permanecer jovem.",
+  "genero": "Drama, Comédia",
+  "elenco": "서예지, 박병은, 유선, 이상엽, 이일화",
+  "diretor": "Park Bong-seob",
+  "total_episodios": "63",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:28"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:52"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:01:58"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:00:24"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:00:16"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:05:03"
+        }
+      ]
+    }
+  ],
+  "id": 8425
+}

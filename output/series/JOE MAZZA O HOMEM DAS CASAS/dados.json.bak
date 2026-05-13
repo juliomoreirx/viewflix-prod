@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Mjg=",
+  "tipo": "serie",
+  "titulo": "JOE MAZZA: O HOMEM DAS CASAS",
+  "capa_url": "https://lgfp.one/AAJH",
+  "capa_local": "JOE MAZZA O HOMEM DAS CASAS/JOE MAZZA O HOMEM DAS CASAS.jpg",
+  "sinopse": "Com experiência em construção e um sexto sentido para detectar riscos, o inspetor residencial Joe Mazza não permite que ninguém se mude para um imóvel perigoso. Ao lado do decorador Noel Gatts, Joe ajuda famílias a encontrar e reformar a casa dos sonhos.",
+  "genero": "Reality",
+  "elenco": "Noel Gatts, Joe Mazza, Gia Mazza",
+  "diretor": "",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 3586
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4ODI=",
+  "tipo": "serie",
+  "titulo": "BARGANHA",
+  "capa_url": "https://lgfp.one/ACKT",
+  "capa_local": "BARGANHA/BARGANHA.jpg",
+  "sinopse": "Um grupo de estranhos se reúne em um motel remoto com segundas intenções – buscando barganhar.  Depois que um terremoto inesperado os prende dentro do prédio.  Sem ninguém em quem confiar, eles precisam encontrar uma maneira de sobreviver.",
+  "genero": "Drama, Crime",
+  "elenco": "Jun Jong-seo, Jin Sun-kyu, Chang Ryul",
+  "diretor": "Lee Chung-hyun, Jeon Woo-sung, Jeon Woo-sung",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:16"
+        }
+      ]
+    }
+  ],
+  "id": 4166
+}

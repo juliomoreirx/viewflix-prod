@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5NTA=",
+  "tipo": "serie",
+  "titulo": "RUA AUGUSTA",
+  "capa_url": "https://lgfp.one/IQZ",
+  "capa_local": "RUA AUGUSTA/RUA AUGUSTA.jpg",
+  "sinopse": "Mika, ganha a vida dançando na Boate Love e se divertindo na balada Hell, localizada na icônica Rua Augusta, da capital paulista. As casas noturnas são o cenário central e se unem ao submundo das drogas, prostituição e diversão a qualquer custo, onde Mika encontrou seu refúgio e construiu uma vida, deixando para trás um passado pouco conhecido.",
+  "genero": "Action & Adventure, Drama, Crime",
+  "elenco": "Fiorella Mattheis, Pathy Dejesus, Lourinelson Vladmir, Rodrigo Pandolfo, Glamour Garcia",
+  "diretor": "Pedro Morelli",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:30:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:29:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:31:58"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:33:29"
+        }
+      ]
+    }
+  ],
+  "id": 112
+}

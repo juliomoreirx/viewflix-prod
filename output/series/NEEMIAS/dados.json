@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MDE=",
+  "tipo": "serie",
+  "titulo": "NEEMIAS",
+  "capa_url": "https://lgfp.one/DUG2",
+  "capa_local": "NEEMIAS/NEEMIAS.jpg",
+  "sinopse": "Spin off de A Rainha da Persia. Neemias foi copeiro do rei persa Artaxerxes I e posteriormente conhecido como o reconstrutor das muralhas de Jerusalém.Naquela época, os muros e os portões de uma cidade simbolizavam sua força e dignidade. O spin-off vai abordar a importância desse trabalho, a oposição sofrida por Neemias, a celebração das festas judaicas, e a separação dos estrangeiros a fim de que a corrupção religiosa e a idolatria fossem evitadas, entre outras tramas.",
+  "genero": "",
+  "elenco": "Mário Bregieira, Wolney Oliveira, Guilherme Boury, Ricardo Lyra Jr., Rafael Coimbra",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:07"
+        }
+      ]
+    }
+  ],
+  "id": 6064
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMDM=",
+  "tipo": "serie",
+  "titulo": "VIKTOR DELIVERS [L]",
+  "capa_url": "https://lgfp.one/BGS6",
+  "capa_local": "VIKTOR DELIVERS [L]/VIKTOR DELIVERS [L].jpg",
+  "sinopse": "Moritz Bleibtreu interpreta Viktor, um obstinado técnico de reparações de Berlim, que se reconciliou com o seu filho Mika. Vão entregar aparelhos elétricos juntos e ter discussões caricatas com os clientes sobre as grandes e pequenas questões da vida.",
+  "genero": "Comédia",
+  "elenco": "Moritz Bleibtreu, Enzo Brumm",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "0",
+          "codigo": "S01E00",
+          "duracao": "00:01:33"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:51"
+        }
+      ]
+    }
+  ],
+  "id": 5570
+}

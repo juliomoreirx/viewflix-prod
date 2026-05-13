@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2Mjk=",
+  "tipo": "serie",
+  "titulo": "MY MELODY E KUROMI",
+  "capa_url": "https://lgfp.one/PLW0",
+  "capa_local": "MY MELODY E KUROMI/MY MELODY E KUROMI.jpg",
+  "sinopse": "A visita de My Melody ao País das Nuvens vira uma grande confusão. Agora ela, Kuromi e seus amigos precisam correr contra o tempo para salvar sua amada cidade.",
+  "genero": "Animação, Sci-Fi & Fantasy, Kids",
+  "elenco": "佐久間レイ, 竹内順子, Megumi Han, 野島健児, Gakuto Kajiwara",
+  "diretor": "Tomoki Misato",
+  "total_episodios": "13",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:12:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:13:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:13:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:11:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:51"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:13:30"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:17:09"
+        }
+      ]
+    }
+  ],
+  "id": 7694
+}

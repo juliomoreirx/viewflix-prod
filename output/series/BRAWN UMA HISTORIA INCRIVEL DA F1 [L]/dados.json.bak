@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MDU=",
+  "tipo": "serie",
+  "titulo": "BRAWN UMA HISTORIA INCRIVEL DA F1 [L]",
+  "capa_url": "https://lgfp.one/AUTZ",
+  "capa_local": "BRAWN UMA HISTORIA INCRIVEL DA F1 [L]/BRAWN UMA HISTORIA INCRIVEL DA F1 [L].jpg",
+  "sinopse": "Keanu Reeves conta uma das maiores sagas da história da Fórmula 1. Através da visão de Ross Brawn e de respeitados ícones da corrida, como Jenson Button e Rubens Barrichello, tudo é revelado nesta cativante série de quatro partes. Desde a formação, veja a jornada marcante da Brawn GP através de manobras estratégicas e provações financeiras durante uma época excepcionalmente competitiva dos anais do esporte.",
+  "genero": "Documentário",
+  "elenco": "Keanu Reeves, Jenson Button, Ross Brawn, Rubens Barrichello, Christian Horner",
+  "diretor": "Daryl Goodrich",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:05"
+        }
+      ]
+    }
+  ],
+  "id": 4560
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NTQ=",
+  "tipo": "serie",
+  "titulo": "LARGADOS E PELADOS APOCALIPSE",
+  "capa_url": "https://lgfp.one/QHO6",
+  "capa_local": "LARGADOS E PELADOS APOCALIPSE/LARGADOS E PELADOS APOCALIPSE.jpg",
+  "sinopse": "Doze sobreviventes veteranos e novatos enfrentam uma paisagem apocalíptica e devastada, onde muitos já pereceram anteriormente.",
+  "genero": "Reality",
+  "elenco": "Steven Kelly",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:28:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:28:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:28:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:28:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:28:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:28:18"
+        }
+      ]
+    }
+  ],
+  "id": 8190
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNTI=",
+  "tipo": "serie",
+  "titulo": "MARVEL ZOMBIES",
+  "capa_url": "https://lgfp.one/QBY8",
+  "capa_local": "MARVEL ZOMBIES/MARVEL ZOMBIES.jpg",
+  "sinopse": "Depois que os Vingadores são tomados por uma praga zumbi, um grupo desesperado de sobreviventes descobre a chave para acabar com os mortos-vivos superpoderosos, correndo por uma paisagem distópica e arriscando a vida e os membros para salvar seu mundo.",
+  "genero": "Sci-Fi & Fantasy, Animação, Comédia",
+  "elenco": "Elizabeth Olsen, Iman Vellani, David Harbour, Simu Liu, Awkwafina",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:49"
+        }
+      ]
+    }
+  ],
+  "id": 8034
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMDU=",
+  "tipo": "serie",
+  "titulo": "190 O ASSASSINO LIGOU ?",
+  "capa_url": "https://lgfp.one/PVX9",
+  "capa_local": "190 O ASSASSINO LIGOU/190 O ASSASSINO LIGOU.jpg",
+  "sinopse": "Três assassinatos horríveis. Três ligações diferentes para o 911. Todos os três autores alegam inocência — mas, para a polícia, a ligação pode revelar muito mais do que apenas os fatos do caso. Descubra qual deles é o verdadeiro assassino disfarçad",
+  "genero": "Crime, Documentário",
+  "elenco": "Donnavan Lowe",
+  "diretor": "Zoran Trajkovic",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:27"
+        }
+      ]
+    }
+  ],
+  "id": 7888
+}

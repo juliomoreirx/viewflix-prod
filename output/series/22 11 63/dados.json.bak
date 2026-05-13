@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMjI=",
+  "tipo": "serie",
+  "titulo": "22 11 63",
+  "capa_url": "https://lgfp.one/INF",
+  "capa_local": "22 11 63/22 11 63.jpg",
+  "sinopse": "A minissérie 22.11.63 do Hulu, em oito episódios, adapta o best-seller de Stephen King contando a história de um viajante no tempo que tenta mudar o curso da história americana evitando o assassinato do presidente John F. Kennedy no fatídico dia 22 de Novembro de 1963 (data que dá título ao programa). James Franco interpreta Jake Epping, um professor de língua inglesa que acaba de assinar o divórcio quando é encarregado pelo seu amigo Al (Chris Cooper) a dar continuidade em sua missão de mudar a história do mundo; usando um portal em uma lanchonete que leva as pessoas ao ano 1960.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "James Franco, Sarah Gadon, Chris Cooper, Daniel Webber, Lucy Fry",
+  "diretor": "",
+  "total_episodios": "81",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:20:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:35"
+        }
+      ]
+    }
+  ],
+  "id": 8
+}

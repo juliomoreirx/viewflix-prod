@@ -1,0 +1,145 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3OTI=",
+  "tipo": "serie",
+  "titulo": "HOSPITAL PLAYLIST",
+  "capa_url": "https://lgfp.one/SEL",
+  "capa_local": "HOSPITAL PLAYLIST/HOSPITAL PLAYLIST.jpg",
+  "sinopse": "Todos os dias são extraordinários para cinco médicos e seus pacientes dentro de um hospital, onde coexistem nascimento, morte e tudo mais.",
+  "genero": "Drama, Comédia",
+  "elenco": "조정석, 유연석, Jung Kyung Ho, 김대명, 전미도",
+  "diretor": "Shin Won-ho",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:23:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:22:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:19:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:13:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:22:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:24:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:28:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:16:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:31:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:28:21"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:53:38"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:35:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:19:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:36:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:34:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:38:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:23:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:28:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:51:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "01:44:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:51:42"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "01:54:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "02:01:55"
+        }
+      ]
+    }
+  ],
+  "id": 1805
+}

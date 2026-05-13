@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4OTI=",
+  "tipo": "serie",
+  "titulo": "LAST CHANCE U: BASKETBALL",
+  "capa_url": "https://lgfp.one/RVK",
+  "capa_local": "LAST CHANCE U BASKETBALL/LAST CHANCE U BASKETBALL.jpg",
+  "sinopse": "“Last Chance U” chega ao mercado no leste de Los Angeles com um treinador com fortes convicções e lidera jovens que esperam atingir um grande potencial para a faculdade.",
+  "genero": "Documentário",
+  "elenco": "John Mosley, Kenneth Hunter, Rob Robinson",
+  "diretor": "Greg Whiteley",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:56"
+        }
+      ]
+    }
+  ],
+  "id": 1398
+}

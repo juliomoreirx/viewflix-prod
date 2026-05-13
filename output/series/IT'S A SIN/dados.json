@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4OTM=",
+  "tipo": "serie",
+  "titulo": "IT'S A SIN",
+  "capa_url": "https://lgfp.one/RZS",
+  "capa_local": "IT'S A SIN/IT'S A SIN.jpg",
+  "sinopse": "A Minissérie de cinco episódios se passa entre os anos de 1981 a 1991 em Londres e retrata a vida de um grupo de gays e seus amigos que viveram durante a crise de HIV/AIDS no Reino Unido.",
+  "genero": "Comédia, Drama",
+  "elenco": "Olly Alexander, Omari Douglas, Callum Scott Howells, Lydia West, Nathaniel Curtis",
+  "diretor": "Peter Hoar",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:48"
+        }
+      ]
+    }
+  ],
+  "id": 1675
+}

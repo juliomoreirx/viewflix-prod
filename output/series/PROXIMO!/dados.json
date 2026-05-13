@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MTg=",
+  "tipo": "serie",
+  "titulo": "PRÓXIMO!",
+  "capa_url": "https://lgfp.one/AWL3",
+  "capa_local": "PROXIMO!/PROXIMO!.jpg",
+  "sinopse": "Após um término doloroso, uma advogada mergulha de cabeça no mundo caótico dos namoros modernos com a ajuda inabalável dos melhores amigos.",
+  "genero": "Drama, Comédia",
+  "elenco": "Serenay Sarıkaya, Hakan Kurtaş",
+  "diretor": "Bertan Basaran",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:37:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:40:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:40:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:37:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:52:26"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:36:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:29:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:35:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:31:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:33:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:37:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:57:13"
+        }
+      ]
+    }
+  ],
+  "id": 5355
+}

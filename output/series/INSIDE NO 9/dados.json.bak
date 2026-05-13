@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNzg=",
+  "tipo": "serie",
+  "titulo": "INSIDE NO 9",
+  "capa_url": "https://lgfp.one/QWI2",
+  "capa_local": "INSIDE NO 9/INSIDE NO 9.jpg",
+  "sinopse": "Série antológica que mistura humor sombrio com gêneros como o crime, horror e/ou drama. O programa convida os espectadores para lugares diferentes, onde o comum e o mundano se relacionam com o extraordinário e macabro. O local que servirá de palco para as histórias sempre será em algum lugar com o número 9.",
+  "genero": "Comédia, Mistério, Crime",
+  "elenco": "Reece Shearsmith, Steve Pemberton",
+  "diretor": "",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:03"
+        }
+      ]
+    }
+  ],
+  "id": 8430
+}

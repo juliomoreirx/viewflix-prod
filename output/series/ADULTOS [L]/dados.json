@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MzI=",
+  "tipo": "serie",
+  "titulo": "ADULTOS [L]",
+  "capa_url": "https://lgfp.one/OAM2",
+  "capa_local": "ADULTOS [L]/ADULTOS [L].jpg",
+  "sinopse": "Um grupo de colegas codependentes tenta ser boas pessoas, apesar de ainda não serem nem \"bons\" nem \"pessoas\".",
+  "genero": "Comédia",
+  "elenco": "Malik Elassal, Lucy Freyer, Jack Innanen, Amita Rao, Owen Thiele",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:23"
+        }
+      ]
+    }
+  ],
+  "id": 7481
+}

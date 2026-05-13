@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0ODY=",
+  "tipo": "serie",
+  "titulo": "GUERREIRAS",
+  "capa_url": "https://lgfp.one/XUD",
+  "capa_local": "GUERREIRAS/GUERREIRAS.jpg",
+  "sinopse": "França, 1914. Com o avanço das tropas alemãs e os homens indo para o fronte, quatro mulheres precisam lidar com as trágicas consequências da guerra em casa.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Audrey Fleurot, Julie de Bona, Camille Lou, Sofia Essaïdi, Sandrine Bonnaire",
+  "diretor": "Alexandre Laurent, Alexandre Laurent",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:50"
+        }
+      ]
+    }
+  ],
+  "id": 3212
+}

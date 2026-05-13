@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4OTg=",
+  "tipo": "serie",
+  "titulo": "WAFFLES + MOCHI",
+  "capa_url": "https://lgfp.one/RWW",
+  "capa_local": "WAFFLES + MOCHI/WAFFLES + MOCHI.jpg",
+  "sinopse": "Os fantoches Waffles e Mochi viajam pelo mundo para descobrir culturas e comidas deliciosas, aprendendo como usar ingredientes saudáveis.",
+  "genero": "Kids",
+  "elenco": "Michelle Obama, Michelle Zamora, Piotr Michael, Jonathan Kidder, Diona Elise Burnett",
+  "diretor": "Jeremy Konner, Alex Braverman",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:59"
+        }
+      ]
+    }
+  ],
+  "id": 1437
+}

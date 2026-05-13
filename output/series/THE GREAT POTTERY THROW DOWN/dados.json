@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2ODU=",
+  "tipo": "serie",
+  "titulo": "THE GREAT POTTERY THROW DOWN",
+  "capa_url": "https://lgfp.one/AAYO",
+  "capa_local": "THE GREAT POTTERY THROW DOWN/THE GREAT POTTERY THROW DOWN.jpg",
+  "sinopse": "A cada semana, doze ceramistas enfrentam dois desafios para impressionar os jurados e competir por um lugar na final da disputa que escolhera o melhor do país.",
+  "genero": "Reality",
+  "elenco": "Keith Brymer Jones, Richard Miller, Siobhán McSweeney",
+  "diretor": "Mark Drake,  Emma Reynolds, Tim Van Someren",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S04E09",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S04E10",
+          "duracao": "00:46:54"
+        }
+      ]
+    }
+  ],
+  "id": 3980
+}

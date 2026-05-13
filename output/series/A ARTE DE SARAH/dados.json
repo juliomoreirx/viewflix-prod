@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NTY=",
+  "tipo": "serie",
+  "titulo": "A ARTE DE SARAH",
+  "capa_url": "https://lgfp.one/RRA0",
+  "capa_local": "A ARTE DE SARAH/A ARTE DE SARAH.jpg",
+  "sinopse": "Um corpo é encontrado na cidade. Uma marca de luxo está em ascensão. O detetive do caso analisa cada detalhe da história inconsistente de uma mulher. O que, de fato, aconteceu?",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "신혜선, 이준혁, 김재원, 정다빈, 배종옥",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:03"
+        }
+      ]
+    }
+  ],
+  "id": 8842
+}

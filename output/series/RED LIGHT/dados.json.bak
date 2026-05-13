@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczODc=",
+  "tipo": "serie",
+  "titulo": "RED LIGHT",
+  "capa_url": "https://lgfp.one/SOF",
+  "capa_local": "RED LIGHT/RED LIGHT.jpg",
+  "sinopse": "Relata a vida de três mulheres que se perdem e se encontram no mundo da prostituição e do tráfico de pessoas.",
+  "genero": "Drama",
+  "elenco": "Carice van Houten, Halina Reijn, Maaike Neuville, Geert Van Rampelberg, Koen De Bouw, Robert de Hoog",
+  "diretor": "Carice van Houten, Halina Reijn",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:30"
+        }
+      ]
+    }
+  ],
+  "id": 2066
+}

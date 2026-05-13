@@ -1,0 +1,195 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNzQ=",
+  "tipo": "serie",
+  "titulo": "SCHOOLED",
+  "capa_url": "https://lgfp.one/JZR9",
+  "capa_local": "SCHOOLED/SCHOOLED.jpg",
+  "sinopse": "Dois professores do ensino médio acabam de se tornar pais de primeira viagem, mas não é todo mundo que coloca fé nesta nova etapa da vida deles, a começar por seus próprios alunos.",
+  "genero": "Comédia",
+  "elenco": "AJ Michalka, Bryan Callen, Tim Meadows, Brett Dier, Haneefah Wood",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:30"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:34"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:33"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:21:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "15",
+          "codigo": "S02E15",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "16",
+          "codigo": "S02E16",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "17",
+          "codigo": "S02E17",
+          "duracao": "00:21:30"
+        },
+        {
+          "numero": "18",
+          "codigo": "S02E18",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "19",
+          "codigo": "S02E19",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "20",
+          "codigo": "S02E20",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "21",
+          "codigo": "S02E21",
+          "duracao": "00:21:34"
+        }
+      ]
+    }
+  ],
+  "id": 3671
+}

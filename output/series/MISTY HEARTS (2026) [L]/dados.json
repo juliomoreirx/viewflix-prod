@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MjI=",
+  "tipo": "serie",
+  "titulo": "MISTY HEARTS (2026) [L]",
+  "capa_url": "https://lgfp.one/SFG6",
+  "capa_local": "MISTY HEARTS (2026) [L]/MISTY HEARTS (2026) [L].jpg",
+  "sinopse": "Mei Lin, uma cartunista exausta que luta com o esgotamento criativo, viaja para a província de Phayao em busca de inspiração fresca. O que ela espera ser um retiro tranquilo rapidamente toma um rumo inesperado quando conhece Niran, um gerente de hotel reservado e composto que mantém suas emoções cuidadosamente guardadas.",
+  "genero": "Drama",
+  "elenco": "Chatchawit Techarukpong",
+  "diretor": "วศินี คุณะนิติสาร",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:14:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:16:39"
+        }
+      ]
+    }
+  ],
+  "id": 9093
+}

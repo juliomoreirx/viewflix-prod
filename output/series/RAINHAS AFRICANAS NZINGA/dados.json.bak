@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NzE=",
+  "tipo": "serie",
+  "titulo": "RAINHAS AFRICANAS: NZINGA",
+  "capa_url": "https://lgfp.one/YMS",
+  "capa_local": "RAINHAS AFRICANAS NZINGA/RAINHAS AFRICANAS NZINGA.jpg",
+  "sinopse": "Combinando dramatização e documentário, esta série mostra a ascensão e o reinado da rainha Nzinga de Angola em meio a traições familiares e rivalidades políticas.",
+  "genero": "Documentário",
+  "elenco": "Adesuwa Oni, Eshe Asante, Sivuyile Ngesi",
+  "diretor": "Ethosheia Hylton, Susannah Ward",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:00"
+        }
+      ]
+    }
+  ],
+  "id": 3284
+}

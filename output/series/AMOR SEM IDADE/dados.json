@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNTY=",
+  "tipo": "serie",
+  "titulo": "AMOR SEM IDADE",
+  "capa_url": "https://lgfp.one/KAM4",
+  "capa_local": "AMOR SEM IDADE/AMOR SEM IDADE.jpg",
+  "sinopse": "Seis solteiros e solteiras maduros descobrem as dinâmicas dos relacionamentos modernos enquanto buscam o amor e redescobrem a si mesmos neste reality.",
+  "genero": "Reality",
+  "elenco": "Logan Ury",
+  "diretor": "Jennifer Lane, Cian O'Clery",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:50"
+        }
+      ]
+    }
+  ],
+  "id": 6320
+}

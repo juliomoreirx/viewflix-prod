@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMjk=",
+  "tipo": "serie",
+  "titulo": "BATALHA DE INFLUENCERS",
+  "capa_url": "https://lgfp.one/DGM1",
+  "capa_local": "BATALHA DE INFLUENCERS/BATALHA DE INFLUENCERS.jpg",
+  "sinopse": "Nesta série de sobrevivência social, 77 influencers do YouTube, TikTok e Instagram colocam suas habilidades em prática para ver quem chama mais atenção.",
+  "genero": "Reality",
+  "elenco": "장근석, 빠니보틀, 진용진, 이사배, 차홍",
+  "diretor": "이재석, Son Soo-jung",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:21:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:49"
+        }
+      ]
+    }
+  ],
+  "id": 5818
+}

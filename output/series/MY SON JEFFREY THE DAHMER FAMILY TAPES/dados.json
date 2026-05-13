@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MzU=",
+  "tipo": "serie",
+  "titulo": "MY SON JEFFREY THE DAHMER FAMILY TAPES",
+  "capa_url": "https://lgfp.one/BHX4",
+  "capa_local": "MY SON JEFFREY THE DAHMER FAMILY TAPES/MY SON JEFFREY THE DAHMER FAMILY TAPES.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:32"
+        }
+      ]
+    }
+  ],
+  "id": 5599
+}

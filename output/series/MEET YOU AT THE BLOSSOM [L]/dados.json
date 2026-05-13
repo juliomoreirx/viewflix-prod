@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyODM=",
+  "tipo": "serie",
+  "titulo": "MEET YOU AT THE BLOSSOM [L]",
+  "capa_url": "https://lgfp.one/DCD6",
+  "capa_local": "MEET YOU AT THE BLOSSOM [L]/MEET YOU AT THE BLOSSOM [L].jpg",
+  "sinopse": "Jin Xiao Bao, o filho do homem mais rico da região de Jiangnan, se apaixona pela bela e fria Huai En, que veste roupas brancas, devido a um encontro inesperado. Esta jovem que ele vê como sua futura esposa, no entanto, parece ter despertado muita inimizade. Quando ele vem em socorro de uma Huai En ferida, que está sob efeito de um afrodisíaco, a verdadeira identidade dessa beleza é revelada.",
+  "genero": "Drama",
+  "elenco": "Wang Yunkai, Li Jun Liang, Kou Wei Long, Sukonlaphat Sribubpha, Song Jia Xi",
+  "diretor": "Nancy Chen",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:02"
+        }
+      ]
+    }
+  ],
+  "id": 5739
+}

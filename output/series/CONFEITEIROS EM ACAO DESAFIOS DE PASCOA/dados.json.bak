@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyOTI=",
+  "tipo": "serie",
+  "titulo": "CONFEITEIROS EM ACAO DESAFIOS DE PASCOA",
+  "capa_url": "https://lgfp.one/ZHB",
+  "capa_local": "CONFEITEIROS EM ACAO DESAFIOS DE PASCOA/CONFEITEIROS EM ACAO DESAFIOS DE PASCOA.jpg",
+  "sinopse": "O coelhinho da Páscoa é o centro das atenções no início da competição. Os sete confeiteiros tentam impressionar os jurados com tortas de pastelaria artísticas inspiradas em jujubas e confeitos gigantes.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:26"
+        }
+      ]
+    }
+  ],
+  "id": 3402
+}

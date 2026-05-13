@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMTQ=",
+  "tipo": "serie",
+  "titulo": "REFOLLOW (2025)",
+  "capa_url": "https://lgfp.one/SEV0",
+  "capa_local": "REFOLLOW (2025)/REFOLLOW (2025).jpg",
+  "sinopse": "Seis influenciadores e ex-atores de novelas infantis do SBT, entram em um reality que mistura amizade, rivalidade e redes sociais. Entre paixões mal resolvidas, tretas antigas e sonhos de fama, eles terão que disputar seguidores e encarar desafios que vão testar limites, sonhos e amizades.",
+  "genero": "Drama",
+  "elenco": "Gianlucca Mauad, Giovanna Chaves, Gui Vieira, Cinthia Cruz, Vivi Lucas",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:12:53"
+        }
+      ]
+    }
+  ],
+  "id": 9083
+}

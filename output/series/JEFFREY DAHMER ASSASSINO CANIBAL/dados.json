@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNTM=",
+  "tipo": "serie",
+  "titulo": "JEFFREY DAHMER: ASSASSINO CANIBAL",
+  "capa_url": "https://lgfp.one/TSE",
+  "capa_local": "JEFFREY DAHMER ASSASSINO CANIBAL/JEFFREY DAHMER ASSASSINO CANIBAL.jpg",
+  "sinopse": "A infância de Jeffrey Dahmer, pais combativos, obsessão por animais mortos, comportamento estranho no ensino médio e primeiros desejos sexuais colidem e transformam um menino antes feliz em um serial killer canibal.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:19"
+        }
+      ]
+    }
+  ],
+  "id": 2884
+}

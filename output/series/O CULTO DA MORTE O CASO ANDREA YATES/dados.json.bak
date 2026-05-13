@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MjU=",
+  "tipo": "serie",
+  "titulo": "O CULTO DA MORTE O CASO ANDREA YATES",
+  "capa_url": "https://lgfp.one/RES5",
+  "capa_local": "O CULTO DA MORTE O CASO ANDREA YATES/O CULTO DA MORTE O CASO ANDREA YATES.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:38"
+        }
+      ]
+    }
+  ],
+  "id": 8521
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1Nzk=",
+  "tipo": "serie",
+  "titulo": "DAY ONE (2026)",
+  "capa_url": "https://lgfp.one/SFG2",
+  "capa_local": "DAY ONE (2026)/DAY ONE (2026).jpg",
+  "sinopse": "Barcelona, 2026. Em plena semana do MWC, Ulises Albet, antigo prodígio tecnológico e agora ativista anti-tech, torna-se o principal suspeito de um assassinato. Em sua fuga pela cidade, ele descobre que um novo avanço tecnológico prestes a ser lançado coloca em risco o futuro ético da humanidade. Apenas enfrentando o próprio passado ele poderá neutralizar essa ameaça.",
+  "genero": "Drama, Mistério",
+  "elenco": "Álex González, Asier Etxeandia, Alba Planas, Jordi Mollà, Renata Notni",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:18"
+        }
+      ]
+    }
+  ],
+  "id": 9089
+}

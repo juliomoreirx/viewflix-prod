@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNDI=",
+  "tipo": "serie",
+  "titulo": "BASTIDORES DO POP O ESQUEMA DAS BOY BANDS",
+  "capa_url": "https://lgfp.one/DCC1",
+  "capa_local": "BASTIDORES DO POP O ESQUEMA DAS BOY BANDS/BASTIDORES DO POP O ESQUEMA DAS BOY BANDS.jpg",
+  "sinopse": "Backstreet Boys, *NSYNC... Lou Pearlman criou as boy bands mais famosas dos anos 1990 e um dos maiores esquemas de pirâmide da história.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "David Terry Fine, Tiller Russell",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:50"
+        }
+      ]
+    }
+  ],
+  "id": 5724
+}

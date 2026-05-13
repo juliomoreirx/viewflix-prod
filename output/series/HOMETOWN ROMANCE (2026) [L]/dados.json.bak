@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NTU=",
+  "tipo": "serie",
+  "titulo": "HOMETOWN ROMANCE (2026) [L]",
+  "capa_url": "https://lgfp.one/SNP0",
+  "capa_local": "HOMETOWN ROMANCE (2026) [L]/HOMETOWN ROMANCE (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "ปัญญาพัชร วังพงศ์สถาพร, ศรัณย์ภัทร์ พีเดอร์เซน, ธัญญาเรศ ชำนาญ, Pisanu Chutanimsakul, ภักษร ไชยมงคล",
+  "diretor": "พรรณทิพย์ วิบูลย์ธรรม",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:10:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:55"
+        }
+      ]
+    }
+  ],
+  "id": 9253
+}

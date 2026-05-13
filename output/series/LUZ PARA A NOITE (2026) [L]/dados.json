@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3Njg=",
+  "tipo": "serie",
+  "titulo": "LUZ PARA A NOITE (2026) [L]",
+  "capa_url": "https://lgfp.one/SXD5",
+  "capa_local": "LUZ PARA A NOITE (2026) [L]/LUZ PARA A NOITE (2026) [L].jpg",
+  "sinopse": "Uma jovem detetive reabre um caso de pessoas desaparecidas e pede ajuda ao pai, responsável por investigar o mistério 18 anos antes.",
+  "genero": "Crime, Mistério",
+  "elenco": "潘粤明, 王鹤棣, 任敏, 姜珮瑶, Zheng Qi",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:08"
+        }
+      ]
+    }
+  ],
+  "id": 9452
+}

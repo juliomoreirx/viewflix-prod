@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MDA=",
+  "tipo": "serie",
+  "titulo": "BRINCANDO COM FOGO ESPANHA",
+  "capa_url": "https://lgfp.one/OSN9",
+  "capa_local": "BRINCANDO COM FOGO ESPANHA/BRINCANDO COM FOGO ESPANHA.jpg",
+  "sinopse": "Um grupo de solteiros da Espanha acha que a vida é só festa, sol e pegação. Mas eles logo descobrem que, para levar o prêmio, vão ter que ficar em abstinência sexual.",
+  "genero": "Reality",
+  "elenco": "Alba Carrillo, Luis Caparrós, Enrique Sánchez Ortiz",
+  "diretor": "Paco Novales",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:01"
+        }
+      ]
+    }
+  ],
+  "id": 7437
+}

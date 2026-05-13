@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MzY=",
+  "tipo": "serie",
+  "titulo": "ROBIN HOOD",
+  "capa_url": "https://lgfp.one/QMY4",
+  "capa_local": "ROBIN HOOD/ROBIN HOOD.jpg",
+  "sinopse": "A jornada de Robert Locksley, de filho de guarda-florestal a fora-da-lei, começa. A rebelião começa em Sherwood, intrigas aumentam, e nasce uma lenda.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Jack Patten, Lauren McQueen, Sean Bean, Connie Nielsen, Lydia Peckham",
+  "diretor": "Jonathan English",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:59:37"
+        }
+      ]
+    }
+  ],
+  "id": 62365
+}

@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MzQ=",
+  "tipo": "serie",
+  "titulo": "NIVEL SECRETO",
+  "capa_url": "https://lgfp.one/KBM5",
+  "capa_local": "NIVEL SECRETO/NIVEL SECRETO.jpg",
+  "sinopse": "Nível Secreto é uma nova série animada de antologia para adultos, apresentando histórias originais nos mundos de alguns dos videogames mais adorados no mundo todo. Das mentes criativas por trás de LOVE, DEATH + ROBOTS, cada um dos 15 episódios é uma celebração de jogos e jogadores.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "",
+  "diretor": "Dave Wilson, Tim Miller, Dave Wilson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:19:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:14:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:18:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:08:20"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:15:26"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:08:25"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:18:14"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:18:24"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:12:25"
+        }
+      ]
+    }
+  ],
+  "id": 6338
+}

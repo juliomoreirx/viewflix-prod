@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyODg=",
+  "tipo": "serie",
+  "titulo": "A SMALL LIGHT",
+  "capa_url": "https://lgfp.one/ZTJ",
+  "capa_local": "A SMALL LIGHT/A SMALL LIGHT.jpg",
+  "sinopse": "A história de Miep Gies, a secretária de Otto Frank. Com a ajuda da resistência holandesa, Miep e seu marido protegeram a família Frank e diversas outras pessoas dos nazistas durante a Segunda Guerra Mundial. Talvez você conheça a história de Anne Frank e sua vida no anexo secreto. Isto é o que aconteceu do outro lado da estante de livros.",
+  "genero": "Drama",
+  "elenco": "Bel Powley, Joe Cole, Amira Casar, Billie Boullet, Ashley Brooke, Liev Schreiber",
+  "diretor": "Joan Rater, Tony Phelan",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:57"
+        }
+      ]
+    }
+  ],
+  "id": 3475
+}

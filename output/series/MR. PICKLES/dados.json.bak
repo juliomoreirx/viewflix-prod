@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNDY=",
+  "tipo": "serie",
+  "titulo": "MR. PICKLES",
+  "capa_url": "https://lgfp.one/SCH6",
+  "capa_local": "MR. PICKLES/MR. PICKLES.jpg",
+  "sinopse": "Toda família adorável tem um cachorro adorável. Os Goodman têm o collie Mr. Pickles, um cão saudável, amistoso e brincalhão, mas que se diverte arrancando vísceras humanas, afundando globos oculares ou arrancando couros cabeludos sem parar de balançar o rabo. Até o melhor amigo do homem tem seus momentos demoníacos.",
+  "genero": "Comédia, Animação",
+  "elenco": "Dave Stewart, Kaitlyn Robrock, Brooke Shields, Jay Johnston, Will Carsola",
+  "diretor": "",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:19"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:11:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:11:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:11:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:11:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:11:18"
+        }
+      ]
+    }
+  ],
+  "id": 356562
+}

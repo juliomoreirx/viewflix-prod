@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MjA=",
+  "tipo": "serie",
+  "titulo": "OS GRANDIOSOS IRMÃOS ROBÔS",
+  "capa_url": "https://lgfp.one/TNE",
+  "capa_local": "OS GRANDIOSOS IRMAOS ROBOS/OS GRANDIOSOS IRMAOS ROBOS.jpg",
+  "sinopse": "Dois robôs irmãos, Shiny e Thunder, e sua criadora precisam defender a Terra do ataque de monstros espaciais. Chega de briguinha, é hora da batalha!",
+  "genero": "Animação, Action & Adventure, Comédia",
+  "elenco": "Eric Lopez, Chris Diamantopoulos, Marisa Davila, Delbert Hunt, Sitara Attaie",
+  "diretor": "Alfredo Torres Martínez, Federico Breser, Rachel Burger",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:59"
+        }
+      ]
+    }
+  ],
+  "id": 2746
+}

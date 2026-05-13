@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Mzc=",
+  "tipo": "serie",
+  "titulo": "ESTRELAS DA MÚSICA",
+  "capa_url": "https://lgfp.one/ZIT",
+  "capa_local": "ESTRELAS DA MUSICA/ESTRELAS DA MUSICA.jpg",
+  "sinopse": "Nesta competição, jovens artistas precisam impressionar ícones da música latina, como Rauw Alejandro, Nicki Nicole e Yandel, para conquistar o contrato dos sonhos.",
+  "genero": "Reality",
+  "elenco": "Rauw Alejandro, Yandel, Lex Borrero, Nicki Nicole, Tainy",
+  "diretor": "Lex Borrero",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:55"
+        }
+      ]
+    }
+  ],
+  "id": 3428
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4Njc=",
+  "tipo": "serie",
+  "titulo": "CELTICS CITY [L]",
+  "capa_url": "https://lgfp.one/NLH1",
+  "capa_local": "CELTICS CITY [L]/CELTICS CITY [L].jpg",
+  "sinopse": "Série documental da HBO que narra a notável saga do Boston Celtics, a franquia mais vitoriosa e lendária da NBA. Transitando entre o passado e o presente, a série explora a história, o impacto cultural e o legado dos Celtics.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Bentley Weiner",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:31"
+        }
+      ]
+    }
+  ],
+  "id": 7093
+}

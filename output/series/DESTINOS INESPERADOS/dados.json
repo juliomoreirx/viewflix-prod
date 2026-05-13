@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0ODY=",
+  "tipo": "serie",
+  "titulo": "DESTINOS INESPERADOS",
+  "capa_url": "https://lgfp.one/RJG",
+  "capa_local": "DESTINOS INESPERADOS/DESTINOS INESPERADOS.jpg",
+  "sinopse": "O correspondente da ABC News, Bob Woodruff e seu filho de 28 anos, Mack Woodruff, levam os espectadores em uma aventura de pai e filho em alguns dos lugares mais inesperados do mundo - nações e territórios conhecidos principalmente por conflitos, mas cada um com um poder único de surpreender e inspirar.",
+  "genero": "Documentário",
+  "elenco": "Bob Woodruff, Mack Woodruff",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:39"
+        }
+      ]
+    }
+  ],
+  "id": 1060
+}

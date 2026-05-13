@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczODA=",
+  "tipo": "serie",
+  "titulo": "A COMIDA DE AMANHÃ",
+  "capa_url": "https://lgfp.one/JZP3",
+  "capa_local": "A COMIDA DE AMANHA/A COMIDA DE AMANHA.jpg",
+  "sinopse": "Dara Ó Briain revela o futuro inspirador de nossa comida. Para nos trazer as incríveis inovações que em breve estarão em nossos pratos de jantar, ele se junta a uma equipe de especialistas.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:12"
+        }
+      ]
+    }
+  ],
+  "id": 2111
+}

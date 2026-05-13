@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNTY=",
+  "tipo": "serie",
+  "titulo": "PATRICK MELROSE",
+  "capa_url": "https://lgfp.one/JHJ",
+  "capa_local": "PATRICK MELROSE/PATRICK MELROSE.jpg",
+  "sinopse": "Baseado na aclamada série de novelas semi-autobiográficas de Edward St. Aubyn, \"Patrick Melrose \" narra a odisseia angustiante de Patrick, de sua infância profundamente traumática, ao abuso de substâncias na fase adulta e, por fim, em sua recuperação.",
+  "genero": "Drama",
+  "elenco": "Benedict Cumberbatch, Jennifer Jason Leigh, Hugo Weaving, Sebastian Maltz, Jessica Raine",
+  "diretor": "Edward Berger",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:02"
+        }
+      ]
+    }
+  ],
+  "id": 587
+}

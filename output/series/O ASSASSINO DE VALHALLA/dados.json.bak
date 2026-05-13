@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODk=",
+  "tipo": "serie",
+  "titulo": "O ASSASSINO DE VALHALLA",
+  "capa_url": "https://lgfp.one/JDC",
+  "capa_local": "O ASSASSINO DE VALHALLA/O ASSASSINO DE VALHALLA.jpg",
+  "sinopse": "Um investigador com um passado difícil tem que voltar da Noruega para a Islândia e ajudar uma policial a capturar o primeiro serial killer do país.",
+  "genero": "Drama, Crime",
+  "elenco": "Nína Dögg Filippusdóttir, Björn Thors, Bergur Ebbi Benediktsson, Aldís Amah Hamilton, Sigurður Skúlason",
+  "diretor": "Thordur Palsson, Thora Hilmarsdottir, Davíd Óskar Ólafsson",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:16"
+        }
+      ]
+    }
+  ],
+  "id": 464
+}

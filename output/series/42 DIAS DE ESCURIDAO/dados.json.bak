@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Njk=",
+  "tipo": "serie",
+  "titulo": "42 DIAS DE ESCURIDÃO",
+  "capa_url": "https://lgfp.one/TFP",
+  "capa_local": "42 DIAS DE ESCURIDAO/42 DIAS DE ESCURIDAO.jpg",
+  "sinopse": "Para encontrar a irmã, uma mulher lidera uma busca frenética no Chile em meio ao frenesi da mídia e à investigação policial. Inspirada em um caso real.",
+  "genero": "Drama, Mistério",
+  "elenco": "Aline Küppenheim, Claudia di Girólamo, Pablo Macaya, Daniel Alcaíno, Amparo Noguera",
+  "diretor": "Pablo Larraín",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:17"
+        }
+      ]
+    }
+  ],
+  "id": 2538
+}

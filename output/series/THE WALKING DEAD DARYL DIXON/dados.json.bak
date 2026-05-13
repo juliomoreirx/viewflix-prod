@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODg=",
+  "tipo": "serie",
+  "titulo": "THE WALKING DEAD DARYL DIXON",
+  "capa_url": "https://lgfp.one/ALR8",
+  "capa_local": "THE WALKING DEAD DARYL DIXON/THE WALKING DEAD DARYL DIXON.jpg",
+  "sinopse": "Daryl Dixon chega à costa da França e luta para entender como chegou lá e por quê. A série acompanha a sua jornada por uma França quebrada, mas resiliente, enquanto ele tenta encontrar um caminho de volta para casa. As conexões que ele forma no caminho, no entanto, complicam os seus planos.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+  "elenco": "Norman Reedus, Clémence Poésy, Louis Puech Scigliuzzi, Laïka Blanc-Francard, Anne Charrier",
+  "diretor": "Daniel Percival",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:56"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:49:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:00:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:00:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:54:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:40:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:57:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:50:43"
+        }
+      ]
+    }
+  ],
+  "id": 3990
+}

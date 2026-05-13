@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NDQ=",
+  "tipo": "serie",
+  "titulo": "CROSSBONES [L]",
+  "capa_url": "https://lgfp.one/RPW",
+  "capa_local": "CROSSBONES [L]/CROSSBONES [L].jpg",
+  "sinopse": "É 1715 na ilha de New Providence, nas Bahamas, a primeira democracia em funcionamento nas Américas, onde o diabólico pirata Edward Teach, também conhecido como Barba Negra, reina sobre uma nação desonesta de ladrões, bandidos e marinheiros malvados. Parte favela, parte do paraíso dos marauders, este é um lugar sem igual na Terra - e uma ameaça crescente ao comércio internacional. Para ganhar o controle desta sociedade temível, Tom Lowe, um assassino disfarçado altamente qualificado, é enviado ao refúgio dos bucaneiros para derrubar o brilhante e carismático Barba Negra. Mas quanto mais próximo Lowe fica, mais ele descobre que sua busca não é tão simples. Lowe não pode deixar de admirar os ideais políticos de Barba Negra, cuja sede de conhecimento não conhece limites - e nenhuma lei. Mas Lowe não é o único perigo para o domínio do Barba Negra. Ele é um homem com muitos rivais malvados e uma grande fraqueza - uma mulher apaixonada que ele não pode negar.",
+  "genero": "Drama",
+  "elenco": "John Malkovich, Richard Coyle, Yasmine Al Massri, David Hoflin, Claire Foy",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:58"
+        }
+      ]
+    }
+  ],
+  "id": 1242
+}

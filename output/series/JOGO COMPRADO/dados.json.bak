@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MTQ=",
+  "tipo": "serie",
+  "titulo": "JOGO COMPRADO",
+  "capa_url": "https://lgfp.one/YBS",
+  "capa_local": "JOGO COMPRADO/JOGO COMPRADO.jpg",
+  "sinopse": "Crimes verídicos e esportes se cruzam em uma série documental sobre controvérsias e escândalos mundiais, com testemunhos em primeira mão dos envolvidos.",
+  "genero": "Documentário, Crime",
+  "elenco": "Randy Lanier, Pete Cullen, Jamie Salé",
+  "diretor": "James House, Georgina Cammalleri, Lizzie Kempton",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:25:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:07:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:24"
+        }
+      ]
+    }
+  ],
+  "id": 1921
+}

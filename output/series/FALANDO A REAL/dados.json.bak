@@ -1,0 +1,195 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMzA=",
+  "tipo": "serie",
+  "titulo": "FALANDO A REAL",
+  "capa_url": "https://lgfp.one/XZA",
+  "capa_local": "FALANDO A REAL/FALANDO A REAL.jpg",
+  "sinopse": "Jimmy está enfrentando o luto pela perda de sua esposa enquanto é pai, amigo e terapeuta. Ele decide tentar uma nova abordagem com todos em seu caminho: honestidade brutal e sem filtros. Ele pode ajudar a si mesmo ajudando os outros? Será que isso vai trazê-lo de volta para a luz?",
+  "genero": "Comédia",
+  "elenco": "Jason Segel, Jessica Williams, Harrison Ford, Luke Tennie, Michael Urie, Christa Miller, Lukita Maxwell",
+  "diretor": "Brett Goldstein, Jason Segel, Bill Lawrence",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:33:19"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:33:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:34:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:35:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:33:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:34:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:35:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:38:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:33:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:34:11"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:44:35"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:03:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:34:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:35:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:35:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:33:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:33:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:33:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:34:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:36:18"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:34:57"
+        }
+      ]
+    }
+  ],
+  "id": 3234
+}

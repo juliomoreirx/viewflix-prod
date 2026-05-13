@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMjU=",
+  "tipo": "serie",
+  "titulo": "ANGELICA 50 E TANTO",
+  "capa_url": "https://lgfp.one/AUOH",
+  "capa_local": "ANGELICA 50 E TANTO/ANGELICA 50 E TANTO.jpg",
+  "sinopse": "Uma vida que parece ficção, mas é real. Angélica abre sua casa para receber convidadas como Xuxa e Sandy e compartilhar histórias inéditas de assédio, de fama e de força.",
+  "genero": "Talk, Documentário",
+  "elenco": "Angélica",
+  "diretor": "Chico Felitti",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:48"
+        }
+      ]
+    }
+  ],
+  "id": 4537
+}

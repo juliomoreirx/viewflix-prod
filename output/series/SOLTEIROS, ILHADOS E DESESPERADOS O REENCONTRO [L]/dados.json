@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxODY=",
+  "tipo": "serie",
+  "titulo": "SOLTEIROS, ILHADOS E DESESPERADOS: O REENCONTRO [L]",
+  "capa_url": "https://lgfp.one/SVV2",
+  "capa_local": "SOLTEIROS, ILHADOS E DESESPERADOS O REENCONTRO [L]/SOLTEIROS, ILHADOS E DESESPERADOS O REENCONTRO [L].jpg",
+  "sinopse": "Os participantes do reality se reencontram para falar sobre sentimentos e a vida amorosa atual, recordando momentos marcantes do tempo em que passaram na ilha.",
+  "genero": "Reality",
+  "elenco": "송승일, 차빈, 윤현제, 신현우, 김재진",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:11"
+        }
+      ]
+    }
+  ],
+  "id": 9431
+}

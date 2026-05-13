@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MTQ=",
+  "tipo": "serie",
+  "titulo": "A HISTORIA DO MUNDO ATRAVES DOS TEMPOS",
+  "capa_url": "https://lgfp.one/ARU4",
+  "capa_local": "A HISTORIA DO MUNDO ATRAVES DOS TEMPOS/A HISTORIA DO MUNDO ATRAVES DOS TEMPOS.jpg",
+  "sinopse": "Saiba como alguns acontecimentos na criação do universo e do passado geológico da terra influenciaram o surgimento de novas civilizações.",
+  "genero": "Documentário",
+  "elenco": "Jonathan Markley",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:26"
+        }
+      ]
+    }
+  ],
+  "id": 5218
+}

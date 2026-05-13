@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNzQ=",
+  "tipo": "serie",
+  "titulo": "O SOM E A SILABA",
+  "capa_url": "https://lgfp.one/DKG5",
+  "capa_local": "O SOM E A SILABA/O SOM E A SILABA.jpg",
+  "sinopse": "Sarah é uma jovem diagnosticada no espectro do autismo com uma habilidade extraordinária para o canto lírico. Ela começa a ter aulas com a renomada soprano Leonor Delise, mas há tensão no relacionamento. Sarah aprenderá a transformar seus silêncios em emoções; Leonor terá que restaurar sua fé na humanidade e se reconciliar com sua filha. A música será o vínculo que transformará a vida de ambas.",
+  "genero": "Drama",
+  "elenco": "Alessandra Maestrini, Mirna Rubim, Maria Padilha, Giulia Nadruz, Guilherme Magon",
+  "diretor": "Cininha de Paula",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:32"
+        }
+      ]
+    }
+  ],
+  "id": 5909
+}

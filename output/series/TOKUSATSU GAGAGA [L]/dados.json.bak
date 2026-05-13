@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1Mzk=",
+  "tipo": "serie",
+  "titulo": "TOKUSATSU GAGAGA [L]",
+  "capa_url": "https://lgfp.one/QSM6",
+  "capa_local": "TOKUSATSU GAGAGA [L]/TOKUSATSU GAGAGA [L].jpg",
+  "sinopse": "É um dorama que vem inspirado por um mangá de sucesso de mesmo nome, e tem tudo a ver com as séries que gostamos, e com o fato de gostarmos delas.\n\nKano Nakamura é uma jovem empregada numa empresa normal, que precisa esconder do mundo sua maior paixão: séries Tokusatsu. Em parte semelhante em sua ideia à série Densha Otoko (que vocês podem baixar no site-irmão Blog Tokusatsus), a moça vive por vezes uma fantasia misturada com a realidade, em que vê os personagens de suas séries no meio da rua, do trem, em qualquer lugar.",
+  "genero": "Comédia, Drama, Action & Adventure",
+  "elenco": "小芝風花, 倉科カナ, 木南晴夏, 森永悠希, Honda Takafumi",
+  "diretor": "Shinzo Nitta, Hajime Suenaga",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 8410
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNzc=",
+  "tipo": "serie",
+  "titulo": "PESADELOS E DEVANEIOS DE JOKO ANWAR",
+  "capa_url": "https://lgfp.one/BHF6",
+  "capa_local": "PESADELOS E DEVANEIOS DE JOKO ANWAR/PESADELOS E DEVANEIOS DE JOKO ANWAR.jpg",
+  "sinopse": "Mergulhe em um mundo de fenômenos sobrenaturais e ficção científica com estas sete histórias alucinantes criadas pelo roteirista e diretor Joko Anwar.",
+  "genero": "Sci-Fi & Fantasy, Mistério",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:25"
+        }
+      ]
+    }
+  ],
+  "id": 5588
+}

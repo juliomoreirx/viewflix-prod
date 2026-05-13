@@ -1,0 +1,115 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2NTc=",
+  "tipo": "serie",
+  "titulo": "VAMOS RODAR COM OTIS",
+  "capa_url": "https://lgfp.one/NMK9",
+  "capa_local": "VAMOS RODAR COM OTIS/VAMOS RODAR COM OTIS.jpg",
+  "sinopse": "Bem-vindo à Long Hill Dairy Farm, lar do trator Otis e de seus amigos. Otis pode ser pequeno, mas tem um grande coração. Sempre que ele vê um amigo precisando de uma mãozinha, ele pisa no freio para ver o que está acontecendo e acelera para ajudar.",
+  "genero": "Animação, Kids",
+  "elenco": "Griffin Robert Faulkner, Elliott Fullam, Katie Grober, Josiah Gaffney, Leah Janvier",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:24"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:25:24"
+        }
+      ]
+    }
+  ],
+  "id": 7116
+}

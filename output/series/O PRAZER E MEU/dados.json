@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMzQ=",
+  "tipo": "serie",
+  "titulo": "O PRAZER E MEU",
+  "capa_url": "https://lgfp.one/DUG3",
+  "capa_local": "O PRAZER E MEU/O PRAZER E MEU.jpg",
+  "sinopse": "O Prazer é Meu é uma série documental, dirigida por Eliza Capai e narrada por Mariana Xavier, que percorre os caminhos e obstáculos do prazer de mulheres e pessoas com vulva.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "Eliza Capai",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:48"
+        }
+      ]
+    }
+  ],
+  "id": 6065
+}

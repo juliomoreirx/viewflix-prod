@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMTA=",
+  "tipo": "serie",
+  "titulo": "SINDROME DO AMOR [L]",
+  "capa_url": "https://lgfp.one/BAV0",
+  "capa_local": "SINDROME DO AMOR [L]/SINDROME DO AMOR [L].jpg",
+  "sinopse": "Um acidente inesperado deixou Day com ferimentos graves, fazendo com que Itt se culpe pelo que aconteceu com ele. O que Itt fará quando Day acordar sem memória alguma? A pessoa que costumava ser tão cuidadosa e amorosa se tornou tão implacável?",
+  "genero": "Drama",
+  "elenco": "Lee Long Shi, Thanatsaran Samthonglai, Nonthakorn Chatchue, Tinwiphat Khueankaew, Parinya Angsanan",
+  "diretor": "Marut Sarowat",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:55:33"
+        }
+      ]
+    }
+  ],
+  "id": 5418
+}

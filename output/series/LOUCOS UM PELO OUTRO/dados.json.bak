@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4OTM=",
+  "tipo": "serie",
+  "titulo": "LOUCOS UM PELO OUTRO",
+  "capa_url": "https://lgfp.one/RVM",
+  "capa_local": "LOUCOS UM PELO OUTRO/LOUCOS UM PELO OUTRO.jpg",
+  "sinopse": "Incomodados por descobrirem que são vizinhos e têm a mesma psiquiatra, um homem e uma mulher não conseguem se afastar um do outro.",
+  "genero": "Drama, Comédia",
+  "elenco": "Jung Woo, Oh Yeon-seo, Baek Ji-won, Lee Hae-eun, Lee Yeon-doo",
+  "diretor": "Lee Tae-gon",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:37:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:44"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:32:36"
+        }
+      ]
+    }
+  ],
+  "id": 1400
+}

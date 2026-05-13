@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NzA=",
+  "tipo": "serie",
+  "titulo": "UNIÃO DE SANGUE",
+  "capa_url": "https://lgfp.one/TFN",
+  "capa_local": "UNIAO DE SANGUE/UNIAO DE SANGUE.jpg",
+  "sinopse": "As melhores amigas Sarah e Kemi guardam um segredo perigoso e são obrigadas a fugir depois que um homem rico desaparece da própria festa de noivado.",
+  "genero": "Crime, Drama",
+  "elenco": "Ini Dima-Okojie, Nancy Isime, Kate Henshaw-Nuttal, Ramsey Nouah, Deyemi Okanlawon",
+  "diretor": "Mo Abudu, Kenneth Gyang, Biyi Bandele",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:20"
+        }
+      ]
+    }
+  ],
+  "id": 2536
+}

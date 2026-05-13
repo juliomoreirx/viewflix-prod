@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMDc=",
+  "tipo": "serie",
+  "titulo": "O EXÉRCITO ESQUECIDO",
+  "capa_url": "https://lgfp.one/JDW",
+  "capa_local": "O EXERCITO ESQUECIDO/O EXERCITO ESQUECIDO.jpg",
+  "sinopse": "O Exército Esquecido é a dinâmica história do Tenente Sodhi e seu grupo de intrépidos homens e mulheres que lutaram uma batalha heroica pela independência da Índia como parte do Exército Nacional Indiano, formado a partir da derrota britânica em Singapura durante a Segunda Guerra Mundial e liderado pelo carismático e indomável líder indiano Netaji Subhash Chandra Bose.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Tj Bhanu, Rohit Chaudhary, Akhil Iyer, Sam Mohan, Sunny Kaushal",
+  "diretor": "Kabir Khan, Anil Senior",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:02"
+        }
+      ]
+    }
+  ],
+  "id": 486
+}

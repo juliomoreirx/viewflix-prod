@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5OTg=",
+  "tipo": "serie",
+  "titulo": "HIGH SCORE",
+  "capa_url": "https://lgfp.one/RBQ",
+  "capa_local": "HIGH SCORE/HIGH SCORE.jpg",
+  "sinopse": "Um documentário inédito de seis partes sobre a era de ouro dos videogames, onde designers e artistas por trás de alguns dos jogos mais bem-sucedidos dos anos 80 e 90 falarão de suas experiências na indústria em uma época competitiva, inovadora e divertida.",
+  "genero": "Documentário",
+  "elenco": "Charles Martinet, Rebecca Ann Heineman, Nolan Bushnell",
+  "diretor": "William Acks, France Costrel, Sam LaCroix, Melissa Wood",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:58"
+        }
+      ]
+    }
+  ],
+  "id": 853
+}

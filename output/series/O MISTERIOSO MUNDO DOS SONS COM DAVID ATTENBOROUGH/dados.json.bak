@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMzE=",
+  "tipo": "serie",
+  "titulo": "O MISTERIOSO MUNDO DOS SONS COM DAVID ATTENBOROUGH",
+  "capa_url": "https://lgfp.one/DFT7",
+  "capa_local": "O MISTERIOSO MUNDO DOS SONS COM DAVID ATTENBOROUGH/O MISTERIOSO MUNDO DOS SONS COM DAVID ATTENBOROUGH.jpg",
+  "sinopse": "Uma tecnologia avançada de áudio captura o som da natureza de forma inédita nesta série documental envolvente narrada por David Attenborough.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:22"
+        }
+      ]
+    }
+  ],
+  "id": 5805
+}

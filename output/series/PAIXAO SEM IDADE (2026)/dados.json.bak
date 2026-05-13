@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1ODQ=",
+  "tipo": "serie",
+  "titulo": "PAIXAO SEM IDADE (2026)",
+  "capa_url": "https://lgfp.one/SFG3",
+  "capa_local": "PAIXAO SEM IDADE (2026)/PAIXAO SEM IDADE (2026).jpg",
+  "sinopse": "Neste reality, solteiros deixam a idade de lado em busca de uma alma gêmea. Mas será que o amor realmente não tem idade ou essa diferença pode botar tudo a perder?",
+  "genero": "Reality",
+  "elenco": "Natalie Joy Viall, Nick Vail",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:11:16"
+        }
+      ]
+    }
+  ],
+  "id": 9090
+}

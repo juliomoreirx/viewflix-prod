@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMzg=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS QUE MUDARAM O MUNDO",
+  "capa_url": "https://lgfp.one/ALR7",
+  "capa_local": "SEGREDOS QUE MUDARAM O MUNDO/SEGREDOS QUE MUDARAM O MUNDO.jpg",
+  "sinopse": "Acompanhe uma análise da revolução industrial, a era da fumaça e do aço, uma época em que os grandes engenheiros da história foram pioneiros em soluções que mudariam para sempre a maneira como as pessoas vivem, pensam e constroem.",
+  "genero": "Documentário",
+  "elenco": "Shini Somara",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:00"
+        }
+      ]
+    }
+  ],
+  "id": 5111
+}

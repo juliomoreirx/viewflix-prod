@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNzM=",
+  "tipo": "serie",
+  "titulo": "MIDNIGHT FAMILY",
+  "capa_url": "https://lgfp.one/DTC1",
+  "capa_local": "MIDNIGHT FAMILY/MIDNIGHT FAMILY.jpg",
+  "sinopse": "Marigaby é uma estudante de medicina de dia, e à noite, salva vidas com sua família no arriscado negócio de ambulâncias privadas na Cidade do México. Conforme a pressão de ambos os mundos ameaça sobrecarregá-la, Marigaby fará de tudo para não sucumbir.",
+  "genero": "Drama",
+  "elenco": "Joaquín Cosío, Renata Vaca, Diego Calva, Sergio Bautista, Óscar Jaenada",
+  "diretor": "Pablo Larraín, Luke Lorentzen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:27"
+        }
+      ]
+    }
+  ],
+  "id": 6031
+}

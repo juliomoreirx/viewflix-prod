@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMDU=",
+  "tipo": "serie",
+  "titulo": "EM CASA COM OS GIL",
+  "capa_url": "https://lgfp.one/TJR",
+  "capa_local": "EM CASA COM OS GIL/EM CASA COM OS GIL.jpg",
+  "sinopse": "A série acompanha a família de Gilberto Gil nos bastidores da preparação para a turnê que celebra os 80 anos de vida do cantor e compositor.",
+  "genero": "Documentário",
+  "elenco": "Gilberto Gil, Flora Gil, Bela Gil, Flor Gil, Marília Gil, Bento Gil, JP Demasi, Mariá Pinkusfeld",
+  "diretor": "Andrucha Waddington, Pedro Waddington, Rebeca Diniz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:38"
+        }
+      ]
+    }
+  ],
+  "id": 2648
+}

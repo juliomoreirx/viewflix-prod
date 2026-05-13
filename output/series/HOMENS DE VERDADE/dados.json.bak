@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MTY=",
+  "tipo": "serie",
+  "titulo": "HOMENS DE VERDADE",
+  "capa_url": "https://lgfp.one/NYJ2",
+  "capa_local": "HOMENS DE VERDADE/HOMENS DE VERDADE.jpg",
+  "sinopse": "Os amigos Massimo, Mattia, Luigi e Riccardo tentam lidar com os relacionamentos, as carreiras e o namoro em um mundo moderno bem difícil para a masculinidade.",
+  "genero": "Comédia",
+  "elenco": "Maurizio Lastrico, Matteo Martari, Francesco Montanari, Pietro Sermonti, Sarah Felberbaum",
+  "diretor": "Matteo Rovere, Mariachiara Squassino, Laura Biagiotti",
+  "total_episodios": "33",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:54"
+        }
+      ]
+    }
+  ],
+  "id": 7332
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1ODc=",
+  "tipo": "serie",
+  "titulo": "FIGHT INC POR DENTRO DO UFC [L]",
+  "capa_url": "https://lgfp.one/QEI4",
+  "capa_local": "FIGHT INC POR DENTRO DO UFC [L]/FIGHT INC POR DENTRO DO UFC [L].jpg",
+  "sinopse": "Já se passaram 30 anos desde o evento inaugural do UFC em 1993, uma era de marcos épicos, apesar dos enormes desafios. Mas para o presidente do UFC, Dana White, ainda há muito a realizar. Crônicas dos altos eufóricos e baixos esmagadores que White e seus conselheiros mais confiáveis enfrentam todos os dias no ramo da luta.",
+  "genero": "Documentário",
+  "elenco": "Dana White",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:00"
+        }
+      ]
+    }
+  ],
+  "id": 8160
+}

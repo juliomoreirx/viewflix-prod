@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MTk=",
+  "tipo": "serie",
+  "titulo": "CAPITÃES DA AMÉRICA",
+  "capa_url": "https://lgfp.one/WKT",
+  "capa_local": "CAPITAES DA AMERICA/CAPITAES DA AMERICA.jpg",
+  "sinopse": "A vida de oito famosos jogadores profissionais de futebol vindos de diversos cantos da América e com uma característica em comum: eles transcenderam seus tempos e times para se tornarem lendas.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:45"
+        }
+      ]
+    }
+  ],
+  "id": 3096
+}

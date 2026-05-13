@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMjU=",
+  "tipo": "serie",
+  "titulo": "O CRUSH PERFEITO",
+  "capa_url": "https://lgfp.one/JMB",
+  "capa_local": "O CRUSH PERFEITO/O CRUSH PERFEITO.jpg",
+  "sinopse": "Seis solteiros vão a cinco encontros às cegas em points badalados de São Paulo. Quem será que vai querer se ver de novo?",
+  "genero": "Reality",
+  "elenco": "Dieter Truppel",
+  "diretor": "Cássia Dian",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:35"
+        }
+      ]
+    }
+  ],
+  "id": 727
+}

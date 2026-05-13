@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNjg=",
+  "tipo": "serie",
+  "titulo": "QUANDO NINGUÉM NOS VÊ",
+  "capa_url": "https://lgfp.one/NLI3",
+  "capa_local": "QUANDO NINGUEM NOS VE/QUANDO NINGUEM NOS VE.jpg",
+  "sinopse": "Maribel Verdú e Mariela Garriga estrelam este suspense como duas policiais que investigam uma série de crimes durante a Semana Santa.",
+  "genero": "Crime, Mistério",
+  "elenco": "Maribel Verdú, Mariela Garriga, Austin Amelio, Ben Temple, Dani Rovira",
+  "diretor": "Enrique Urbizu",
+  "total_episodios": "37",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:39"
+        }
+      ]
+    }
+  ],
+  "id": 7105
+}

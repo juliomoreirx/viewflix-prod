@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMDI=",
+  "tipo": "serie",
+  "titulo": "YELLOWSTONE SELVAGEM",
+  "capa_url": "https://lgfp.one/NWW7",
+  "capa_local": "YELLOWSTONE SELVAGEM/YELLOWSTONE SELVAGEM.jpg",
+  "sinopse": "Conheça natureza selvagem do Parque Nacional de Yellowstone.",
+  "genero": "Documentário",
+  "elenco": "Bart Thomasson",
+  "diretor": "Joe Kennedy",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:05"
+        }
+      ]
+    }
+  ],
+  "id": 7327
+}

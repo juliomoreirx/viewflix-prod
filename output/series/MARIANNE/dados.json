@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxODQ=",
+  "tipo": "serie",
+  "titulo": "MARIANNE",
+  "capa_url": "https://lgfp.one/BFA7",
+  "capa_local": "MARIANNE/MARIANNE.jpg",
+  "sinopse": "De volta à cidade natal, uma famosa escritora de livros de terror descobre que o espírito que atormenta seus sonhos está provocando o caos no mundo real.",
+  "genero": "Mistério",
+  "elenco": "Victoire du Bois, Lucie Boujenah, Tiphaine Daviot, Ralph Amoussou, Corinne Valancogne",
+  "diretor": "Samuel Bodin",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:16"
+        }
+      ]
+    }
+  ],
+  "id": 5552
+}

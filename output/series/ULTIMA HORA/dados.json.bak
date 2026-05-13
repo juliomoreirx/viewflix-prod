@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3ODc=",
+  "tipo": "serie",
+  "titulo": "ULTIMA HORA",
+  "capa_url": "https://lgfp.one/OUW1",
+  "capa_local": "ULTIMA HORA/ULTIMA HORA.jpg",
+  "sinopse": "A vida de Hitler analisada por meio de fotos e vídeos, desde sua infância até sua queda. Cada episódio examina como ele usou propaganda para construir sua imagem, esconder relacionamentos e promover o racismo cruel que levou à guerra e ao maior horror que o mundo já viu: o Holocausto.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:53"
+        }
+      ]
+    }
+  ],
+  "id": 7489
+}

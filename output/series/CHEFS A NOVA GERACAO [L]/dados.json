@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2Mzg=",
+  "tipo": "serie",
+  "titulo": "CHEFS A NOVA GERACAO [L]",
+  "capa_url": "https://lgfp.one/QCJ6",
+  "capa_local": "CHEFS A NOVA GERACAO [L]/CHEFS A NOVA GERACAO [L].jpg",
+  "sinopse": "Nesta competição realizada no Culinary Institute of America, 21 chefs em ascensão competem pelo título de melhor chef da nova geração e um prêmio de 500 mil dólares.",
+  "genero": "Reality",
+  "elenco": "Olivia Culpo, Carlton McCoy, Kelsey Barnard Clark",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:48"
+        }
+      ]
+    }
+  ],
+  "id": 8057
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MzE=",
+  "tipo": "serie",
+  "titulo": "SLEEPERS O CRIME NUNCA DORME",
+  "capa_url": "https://lgfp.one/NPC4",
+  "capa_local": "SLEEPERS O CRIME NUNCA DORME/SLEEPERS O CRIME NUNCA DORME.jpg",
+  "sinopse": "Martin foi criado por Henk, um criminoso que o enviou para a academia de polícia com o objetivo de conseguir informações privilegiadas. Mas após Henk ser assassinado por um grupo de criminosos, Martin se encontra em uma situação difícil: Para proteger sua família, precisará colaborar com eles.",
+  "genero": "Action & Adventure, Drama, Crime",
+  "elenco": "Teun Kuilboer, Robert de Hoog, Lineke Rijxman, Sabri Saddik, Ravi Beewkes",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 7169
+}

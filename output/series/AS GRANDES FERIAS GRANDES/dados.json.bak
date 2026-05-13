@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwMDY=",
+  "tipo": "serie",
+  "titulo": "AS GRANDES FÉRIAS GRANDES",
+  "capa_url": "https://lgfp.one/JMW",
+  "capa_local": "AS GRANDES FERIAS GRANDES/AS GRANDES FERIAS GRANDES.jpg",
+  "sinopse": "No verão de 1939, Colette e Ernest são recebidos pelos seus avós maternos, em uma aldeia fictícia chamada Grangeville, perto de Dieppe, na Normandia. As grandes férias são prolongadas na casa devido a mudança de seu pai e os problemas de saúde de sua mãe que é obrigada a ir fazer um tratamento em um sanatório. Os dois pequenos parisienses vão descobrir a vida no campo, mas também as diferentes fases da Segunda Guerra Mundial, muitas vezes trágica e angustiante.",
+  "genero": "Animação, Drama, Família",
+  "elenco": "Antoine Lelandais, Philippe Catoire, Julien Crampon, Julien Alluguette, Cédric Dumond",
+  "diretor": "Paul Leluc",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:24"
+        }
+      ]
+    }
+  ],
+  "id": 753
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI1MTg=",
+  "tipo": "serie",
+  "titulo": "CHEGA MAIS",
+  "capa_url": "https://lgfp.one/AUP6",
+  "capa_local": "CHEGA MAIS/CHEGA MAIS.jpg",
+  "sinopse": "Mesmo após ser abandonada no altar, Gelly dá uma chance ao amor e reata com Tom. O casal enfrenta todas as dificuldades.",
+  "genero": "Soap, Comédia",
+  "elenco": "Tony Ramos, Sônia Braga, Renata Sorrah, Osmar Prado, Rosamaria Murtinho",
+  "diretor": "Gonzaga Blota, Reynaldo Boury, Roberto Vignati",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:26"
+        }
+      ]
+    }
+  ],
+  "id": 5281
+}

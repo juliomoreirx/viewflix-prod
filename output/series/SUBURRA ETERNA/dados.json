@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDI=",
+  "tipo": "serie",
+  "titulo": "SUBURRA ETERNA",
+  "capa_url": "https://lgfp.one/ATMB",
+  "capa_local": "SUBURRA ETERNA/SUBURRA ETERNA.jpg",
+  "sinopse": "O caos domina Roma, colocando em risco as alianças estabelecidas e aumentando a tensão entre os novos clãs criminosos. O mundo de Suburra toma um novo rumo.",
+  "genero": "Crime, Drama",
+  "elenco": "Giacomo Ferrara, Filippo Nigro, Carlotta Antonelli, Federica Sabatini, Marlon Joubert",
+  "diretor": "Ciro D'Emilio, Alessandro Tonda",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:22"
+        }
+      ]
+    }
+  ],
+  "id": 4470
+}

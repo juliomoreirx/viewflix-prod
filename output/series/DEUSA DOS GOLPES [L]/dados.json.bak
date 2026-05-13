@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MTc=",
+  "tipo": "serie",
+  "titulo": "DEUSA DOS GOLPES [L]",
+  "capa_url": "https://lgfp.one/OTL5",
+  "capa_local": "DEUSA DOS GOLPES [L]/DEUSA DOS GOLPES [L].jpg",
+  "sinopse": "Como podcaster de sucesso, a comediante Laci Mosley sabe enxergar de longe um golpe. Agora, ela está levando sua experiência para a estrada, descobrindo golpes em cidades pequenas e tramas em cidades grandes nos EUA. De esquemas Ponzi a golpistas religiosos e falsa realeza, Laci conhece delatores, vítimas e até os próprios golpistas, rastreando os culpados com sua sagacidade característica, não deixando pedra sobre pedra, ou melhor, golpe sobre golpe.",
+  "genero": "Documentário",
+  "elenco": "Laci Mosley",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:04"
+        }
+      ]
+    }
+  ],
+  "id": 7443
+}

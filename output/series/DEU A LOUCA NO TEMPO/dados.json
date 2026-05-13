@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMjk=",
+  "tipo": "serie",
+  "titulo": "DEU A LOUCA NO TEMPO",
+  "capa_url": "https://lgfp.one/DWF9",
+  "capa_local": "DEU A LOUCA NO TEMPO/DEU A LOUCA NO TEMPO.jpg",
+  "sinopse": "Didi é um antigo funcionário de um resort, que, junto com o amigo Bruno, envolve-se em grandes confusões para ajudar os hóspedes.",
+  "genero": "Kids, Comédia",
+  "elenco": "Bia Seidl, Eriberto Leão, Guilherme Berenguer, Leopoldo Pacheco, Luiza Valdetaro",
+  "diretor": "Marcus Figueiredo, Paulo Aragão",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:48"
+        }
+      ]
+    }
+  ],
+  "id": 6096
+}

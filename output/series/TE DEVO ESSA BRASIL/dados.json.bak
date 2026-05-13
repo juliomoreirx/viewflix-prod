@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4ODM=",
+  "tipo": "serie",
+  "titulo": "TE DEVO ESSA BRASIL",
+  "capa_url": "https://lgfp.one/YBN",
+  "capa_local": "TE DEVO ESSA BRASIL/TE DEVO ESSA BRASIL.jpg",
+  "sinopse": "Grandes celebridades presenteiam pessoas importantes em suas vidas com reformas deslumbrantes. Os famosos também colocam as mãos à obra para deixar essa transformação ainda mais emocionante.",
+  "genero": "Reality",
+  "elenco": "Dony De Nuccio, Renato Mendonça",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:47:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:55:59"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:55:25"
+        }
+      ]
+    }
+  ],
+  "id": 1472
+}

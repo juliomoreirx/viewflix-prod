@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzODE=",
+  "tipo": "serie",
+  "titulo": "IMPÉRIO DA DOR",
+  "capa_url": "https://lgfp.one/AASO",
+  "capa_local": "IMPERIO DA DOR/IMPERIO DA DOR.jpg",
+  "sinopse": "Este drama sobre as causas e consequências da epidemia de opioides nos Estados Unidos, acompanha culpados, vítimas e uma investigadora em busca da verdade.",
+  "genero": "Drama, Crime",
+  "elenco": "Uzo Aduba, Matthew Broderick, Taylor Kitsch, Dina Shihabi, West Duchovny",
+  "diretor": "Alex Gibney, Peter Berg",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:12"
+        }
+      ]
+    }
+  ],
+  "id": 3827
+}

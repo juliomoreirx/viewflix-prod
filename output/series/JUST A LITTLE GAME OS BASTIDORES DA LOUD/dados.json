@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MzA=",
+  "tipo": "serie",
+  "titulo": "JUST A LITTLE GAME: OS BASTIDORES DA LOUD",
+  "capa_url": "https://lgfp.one/RVD",
+  "capa_local": "JUST A LITTLE GAME OS BASTIDORES DA LOUD/JUST A LITTLE GAME OS BASTIDORES DA LOUD.jpg",
+  "sinopse": "Jovens Pro Players da LOUD, uma das maiores organizações de eSports do Brasil, lutam para se livrar dos maus resultados na temporada 2020 da Liga Brasileira de Free Fire.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Vinicius Teixeira",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:09"
+        }
+      ]
+    }
+  ],
+  "id": 1391
+}

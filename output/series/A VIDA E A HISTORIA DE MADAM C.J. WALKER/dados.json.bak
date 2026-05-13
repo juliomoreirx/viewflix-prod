@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNTg=",
+  "tipo": "serie",
+  "titulo": "A VIDA E A HISTÓRIA DE MADAM C.J. WALKER",
+  "capa_url": "https://lgfp.one/ITI",
+  "capa_local": "A VIDA E A HISTORIA DE MADAM C.J. WALKER/A VIDA E A HISTORIA DE MADAM C.J. WALKER.jpg",
+  "sinopse": "Uma afro-americana que venceu a pobreza, construiu um império de produtos de beleza e se tornou a primeira milionária pelo próprio esforço. Baseado em uma história real.",
+  "genero": "Drama",
+  "elenco": "Octavia Spencer, Tiffany Haddish, Carmen Ejogo, Garrett Morris, Kevin Carroll",
+  "diretor": "DeMane Davis",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:49"
+        }
+      ]
+    }
+  ],
+  "id": 177
+}

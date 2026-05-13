@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MzU=",
+  "tipo": "serie",
+  "titulo": "VIDA APÓS A MORTE",
+  "capa_url": "https://lgfp.one/RLB",
+  "capa_local": "VIDA APOS A MORTE/VIDA APOS A MORTE.jpg",
+  "sinopse": "O que acontece depois da morte? Esta série documental conta histórias pessoais e analisa experiências de quase morte, reencarnação e fenômenos paranormais.",
+  "genero": "Documentário",
+  "elenco": "Leslie Kean, Chris Roe, Mike Anthony",
+  "diretor": "Ricki Stern, Emily Everhard",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:25"
+        }
+      ]
+    }
+  ],
+  "id": 1111
+}

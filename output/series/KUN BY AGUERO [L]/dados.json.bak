@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4NTU=",
+  "tipo": "serie",
+  "titulo": "KUN BY AGUERO [L]",
+  "capa_url": "https://lgfp.one/NVY0",
+  "capa_local": "KUN BY AGUERO [L]/KUN BY AGUERO [L].jpg",
+  "sinopse": "Conta a história de Sergio Agüero, desde sua origem humilde até sua consagração esportiva, encerrando a carreira com uma aposentadoria precoce devido a uma arritmia cardíaca. Com imagens inéditas e entrevistas com as pessoas que mais o conhecem, esse retrato íntimo revela, pela primeira vez, seu relacionamento conturbado com o pai e as decisões mais difíceis que enfrentou.",
+  "genero": "Documentário",
+  "elenco": "Sergio Agüero, Pep Guardiola, Lionel Messi",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:51"
+        }
+      ]
+    }
+  ],
+  "id": 7306
+}

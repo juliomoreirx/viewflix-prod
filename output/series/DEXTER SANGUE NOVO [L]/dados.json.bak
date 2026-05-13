@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1OTg=",
+  "tipo": "serie",
+  "titulo": "DEXTER: SANGUE NOVO [L]",
+  "capa_url": "https://lgfp.one/SQN",
+  "capa_local": "DEXTER SANGUE NOVO [L]/DEXTER SANGUE NOVO [L].jpg",
+  "sinopse": "Longe de sua vida antiga, Dexter se refugiou em uma pequena cidade e adotou uma identidade falsa. Ele leva uma vida tranquila até que um serial killer aparece no local, forçando-o a reviver seu antigo eu.",
+  "genero": "Drama / Crime",
+  "elenco": "Michael C. Hall, Jack Alcott, Julia Jones, Johnny Sequoyah, Alano Miller, Clancy Brown, Jennifer Carpenter",
+  "diretor": "Clyde Phillips",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:28"
+        }
+      ]
+    }
+  ],
+  "id": 2039
+}

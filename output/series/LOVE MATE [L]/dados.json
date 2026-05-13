@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMjA=",
+  "tipo": "serie",
+  "titulo": "LOVE MATE [L]",
+  "capa_url": "https://lgfp.one/BAT7",
+  "capa_local": "LOVE MATE [L]/LOVE MATE [L].jpg",
+  "sinopse": "Jung Ha-ram, um novo contratado em uma produtora, se apaixona à primeira vista por sua líder de equipe, Seo Yi-joon. Ha-ram, acostumado a ser sempre o centro das atenções, fica surpreso ao descobrir que Yi-joon não se deixa influenciar facilmente e está ocupada planejando um reality show de namoro. Será que a inteligente e introvertida Yi-joon aprenderá a aceitar o entusiasmado e direto Ha-ram, tanto no ambiente de trabalho quanto no amor? A batalha de idas e vindas entre os dois começa a se desenrolar silenciosamente no escritório...",
+  "genero": "Drama, Comédia",
+  "elenco": "Cho Han-gyeol, Cho Hyun-min, Lee Sae-bom, Lee Chan Woo",
+  "diretor": "So Joon-moon",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:15:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:18:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:20"
+        }
+      ]
+    }
+  ],
+  "id": 5405
+}

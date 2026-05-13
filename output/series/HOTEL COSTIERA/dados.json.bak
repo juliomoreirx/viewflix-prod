@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODY=",
+  "tipo": "serie",
+  "titulo": "HOTEL COSTIERA",
+  "capa_url": "https://lgfp.one/QLT1",
+  "capa_local": "HOTEL COSTIERA/HOTEL COSTIERA.jpg",
+  "sinopse": "Itália, Costa Amalfitana. Neste cenário de beleza, Daniel De Luca, um ex-fuzileiro com um passado misterioso, trabalha como solucionador de problemas no Hotel Villa Costiera. Mas, enquanto resolve os problemas dos clientes ricos do hotel, Daniel está também no encalço de Alice, uma rapariga desaparecida que se meteu em grandes sarilhos.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Jesse Williams, Jordan Alexandra, Alejandra Onieva, Maria Chiara Giannetta, Antonio Gerardi",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:12"
+        }
+      ]
+    }
+  ],
+  "id": 8242
+}

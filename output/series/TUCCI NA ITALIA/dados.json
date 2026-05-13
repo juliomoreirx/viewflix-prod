@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMDE=",
+  "tipo": "serie",
+  "titulo": "TUCCI NA ITALIA",
+  "capa_url": "https://lgfp.one/NYJ9",
+  "capa_local": "TUCCI NA ITALIA/TUCCI NA ITALIA.jpg",
+  "sinopse": "Stanley Tucci acredita que a melhor maneira de se conhecer um país é através da sua gastronomia. Em nenhum lugar isso é mais verdadeiro do que na Itália, onde o formato da massa e o molho que a acompanha são característicos de uma região, a diferenciando das demais. Nesta nova série, Stanley embarca em uma jornada culinária para explorar a conexão entre a comida, a terra e o povo do país que ele tanto ama.",
+  "genero": "Documentário",
+  "elenco": "Stanley Tucci",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:07"
+        }
+      ]
+    }
+  ],
+  "id": 7339
+}

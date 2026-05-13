@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MzQ=",
+  "tipo": "serie",
+  "titulo": "CRIMES QUE ABALARAM O MUNDO",
+  "capa_url": "https://lgfp.one/AYIW",
+  "capa_local": "CRIMES QUE ABALARAM O MUNDO/CRIMES QUE ABALARAM O MUNDO.jpg",
+  "sinopse": "Produzida sem entrevistas, esta série mantém o público DENTRO da história do início ao fim. Combina material de arquivo íntimo para nos transportar para o coração das histórias que moldaram a jornada americana.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 4803
+}

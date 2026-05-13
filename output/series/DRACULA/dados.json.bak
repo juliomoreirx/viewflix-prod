@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3NzE=",
+  "tipo": "serie",
+  "titulo": "DRÁCULA",
+  "capa_url": "https://lgfp.one/IXO",
+  "capa_local": "DRACULA/DRACULA.jpg",
+  "sinopse": "Uma reimaginação do clássico romance de Bram Stoker, esta nova série se passa na década de 1890 e acompanha a história de Drácula (interpretado por Jonathan Rhys Meyers, de The Tudors), um homem que vive uma vida dupla em Londres: ele diz ser Allen Grayson, um empresário americano interessado em trazer a ciência moderna para a sociedade vitoriana; mas, na verdade, ele quer se vingar de quem lhe fez mal há centenas de anos. No entanto, seus planos podem ir por água abaixo quando ele conhece Mina Murray (interpretada por Jessica DeGouw, de Arrow), uma garota que parece ser a reencarnação de sua falecida esposa.",
+  "genero": "Drama",
+  "elenco": "Jonathan Rhys Meyers, Jessica De Gouw, Katie McGrath, Victoria Smurfit, Oliver Jackson-Cohen",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:58"
+        }
+      ]
+    }
+  ],
+  "id": 345376
+}

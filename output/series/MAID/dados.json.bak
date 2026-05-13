@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MjA=",
+  "tipo": "serie",
+  "titulo": "MAID",
+  "capa_url": "https://lgfp.one/SIF",
+  "capa_local": "MAID/MAID.jpg",
+  "sinopse": "Depois de deixar para trás um relacionamento abusivo e encontrar um emprego como faxineira, uma mulher luta para sustentar a filha e construir um futuro melhor.",
+  "genero": "Drama",
+  "elenco": "Margaret Qualley, Nick Robinson, Andie MacDowell, Rylea Nevaeh Whittet",
+  "diretor": "John Wells, Helen Shaver",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:14"
+        }
+      ]
+    }
+  ],
+  "id": 1906
+}

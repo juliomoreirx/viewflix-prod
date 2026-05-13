@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MTY=",
+  "tipo": "serie",
+  "titulo": "EU VICIADO [L]",
+  "capa_url": "https://lgfp.one/OTL6",
+  "capa_local": "EU VICIADO [L]/EU VICIADO [L].jpg",
+  "sinopse": "Javier Giner, 30 anos, se interna voluntariamente em um centro de reabilitação por causa de seu vício em álcool e cocaína. Com seu diário pessoal e determinação para reverter o caminho que está tomando, Javier encara o que é sem dúvida o momento mais importante de sua vida. Os meses de recuperação no centro de reabilitação cercado pela natureza e com um elenco de personagens memoráveis mudam a vida de Javier Giner completamente.",
+  "genero": "Drama",
+  "elenco": "Oriol Pla, Nora Navas, Ramón Barea, Marina Salas, Itziar Lazkano",
+  "diretor": "Javier Giner, Javier Giner",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:32"
+        }
+      ]
+    }
+  ],
+  "id": 7444
+}

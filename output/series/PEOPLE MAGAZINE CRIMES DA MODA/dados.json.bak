@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDk=",
+  "tipo": "serie",
+  "titulo": "PEOPLE MAGAZINE CRIMES DA MODA",
+  "capa_url": "https://lgfp.one/NZH3",
+  "capa_local": "PEOPLE MAGAZINE CRIMES DA MODA/PEOPLE MAGAZINE CRIMES DA MODA.jpg",
+  "sinopse": "Esta série relata casos de crimes reais ocorridos no mundo da moda. Cada episódio acompanha a jornada das vítimas até o topo, entre estilistas e modelos, e os eventos que levaram a seu destino trágico.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 7351
+}

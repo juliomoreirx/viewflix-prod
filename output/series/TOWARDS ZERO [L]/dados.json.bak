@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NDg=",
+  "tipo": "serie",
+  "titulo": "TOWARDS ZERO [L]",
+  "capa_url": "https://lgfp.one/NEM7",
+  "capa_local": "TOWARDS ZERO [L]/TOWARDS ZERO [L].jpg",
+  "sinopse": "O Superintendente Battle e o Inspetor Leach investigam o assassinato de uma viúva em Gull's Point. Um suicídio fracassado, uma falsa acusação de roubo e a vida amorosa de uma estrela do tênis surpreendentemente se conectam.",
+  "genero": "Drama, Crime",
+  "elenco": "Jack Farthing, Khalil Ben Gharbia, Adam Hugill, Ella Lily Hyland, Oliver Jackson-Cohen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:18"
+        }
+      ]
+    }
+  ],
+  "id": 6994
+}

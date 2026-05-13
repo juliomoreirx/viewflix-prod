@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNDE=",
+  "tipo": "serie",
+  "titulo": "O PACIENTE",
+  "capa_url": "https://lgfp.one/WLY",
+  "capa_local": "O PACIENTE/O PACIENTE.jpg",
+  "sinopse": "Alan Strauss é um terapeuta feito prisioneiro por um paciente que se revela como serial killer. Com o tempo se esgotando, Alan luta desesperadamente para impedir Sam antes que ele se torne cúmplice de seus assassinatos ou pior, se torne uma vítima.",
+  "genero": "Drama / Crime",
+  "elenco": "Steve Carell, Domhnall Gleeson, Linda Emond, Laura Niemi, Andrew Leeds, David Alan Grier",
+  "diretor": "Joel Fields, Joseph Weisberg",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:04"
+        }
+      ]
+    }
+  ],
+  "id": 3127
+}

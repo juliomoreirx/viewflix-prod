@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4Nzg=",
+  "tipo": "serie",
+  "titulo": "TODA FAMILIA TEM",
+  "capa_url": "https://lgfp.one/CYE7",
+  "capa_local": "TODA FAMILIA TEM/TODA FAMILIA TEM.jpg",
+  "sinopse": "Pê é um jovem de 19 anos cuja rotina muda repentinamente quando ele precisa retornar com a família para a casa da avó no Rio de Janeiro, onde sua vida privilegiada cheia de liberdade e conforto chega ao fim. Ao mesmo tempo em que ele se adapta para conviver com toda a sua família debaixo do mesmo teto e todas as cômicas confusões da Família Silva, Pê também precisa lidar com seus próprios dilemas e inquietações típicos de um jovem mimado que busca se encontrar no mundo.",
+  "genero": "Comédia",
+  "elenco": "Pedro Ottoni, Maíra Azevedo, Solange Couto, Érico Brás, Gabriela Dias",
+  "diretor": "Cris D'amato, Yasmin Thayná",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:34"
+        }
+      ]
+    }
+  ],
+  "id": 5692
+}

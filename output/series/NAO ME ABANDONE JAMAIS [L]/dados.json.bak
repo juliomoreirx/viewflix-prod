@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMTY=",
+  "tipo": "serie",
+  "titulo": "NAO ME ABANDONE JAMAIS [L]",
+  "capa_url": "https://lgfp.one/BAU1",
+  "capa_local": "NAO ME ABANDONE JAMAIS [L]/NAO ME ABANDONE JAMAIS [L].jpg",
+  "sinopse": "Enquanto filho único de uma família extremamente rica, Nuengdiao Kiattrakulmethee (Phuwin Tangsakyuen) cresceu com o mundo aos seus pés. Agora no último ano do ensino médio, Nuengdiao sabe que um dia deverá assumir os negócios da família. Mas quando seu pai é assassinado na sua frente, a gravidade de sua posição enquanto herdeiro aparente da família se torna arduamente clara.",
+  "genero": "Drama",
+  "elenco": "Naravit Lertratkosum, Phuwin Tangsakyuen, Rasee Wacharapolmek, Nat Sakdatorn, Wachirawit Ruangwiwat",
+  "diretor": "Tichakorn Phukhaotong",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:58:11"
+        }
+      ]
+    }
+  ],
+  "id": 5409
+}

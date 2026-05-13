@@ -1,0 +1,44 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5ODE=",
+  "tipo": "serie",
+  "titulo": "EM RITMO DE VINGANCA (2026) [L]",
+  "capa_url": "https://lgfp.one/TDI5",
+  "capa_local": "EM RITMO DE VINGANCA (2026) [L]/EM RITMO DE VINGANCA (2026) [L].jpg",
+  "sinopse": "Acompanha Poona, uma cantora que busca a verdade sobre a morte de seus pais, aliando-se ao policial Chaiya.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "สันติราษฎร์ กุลนพเกียรติ, ศรัณย่า ชุณหศาสตร์, Witchayaphong Iamsa-ard, พรทิวา สาครจันทร์, Pol Poonpat Attapanyapol",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:06"
+        }
+      ]
+    }
+  ]
+}

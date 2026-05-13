@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNzE=",
+  "tipo": "serie",
+  "titulo": "SUPACELL",
+  "capa_url": "https://lgfp.one/BJL7",
+  "capa_local": "SUPACELL/SUPACELL.jpg",
+  "sinopse": "Em Londres, cinco pessoas descobrem que têm poderes extraordinários. Agora, um homem vai tentar reunir o grupo para salvar a mulher que ama.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Drama",
+  "elenco": "Tosin Cole, Nadine Mills, Eric Kofi Abrefa, Calvin Demba, Josh Tedeku",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:07"
+        }
+      ]
+    }
+  ],
+  "id": 5626
+}

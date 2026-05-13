@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzOTc=",
+  "tipo": "serie",
+  "titulo": "ANA BOLENA: A RAINHA",
+  "capa_url": "https://lgfp.one/SOT",
+  "capa_local": "ANA BOLENA A RAINHA/ANA BOLENA A RAINHA.jpg",
+  "sinopse": "Ana Bolena enfrenta a sociedade patriarcal em busca de um futuro melhor para a filha enquanto lida com as traições do rei e a pressão para conceber um herdeiro masculino.",
+  "genero": "Drama",
+  "elenco": "Jodie Turner-Smith, Paapa Essiedu, Kris Hitchen, Barry Ward, Isabella Laughland",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:39"
+        }
+      ]
+    }
+  ],
+  "id": 2080
+}

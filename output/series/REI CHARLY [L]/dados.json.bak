@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMzc=",
+  "tipo": "serie",
+  "titulo": "REI CHARLY [L]",
+  "capa_url": "https://lgfp.one/DJS2",
+  "capa_local": "REI CHARLY [L]/REI CHARLY [L].jpg",
+  "sinopse": "Charly, um jovem de 18 anos, está pronto para afirmar perante a todos sua nova identidade como um jovem transgênero, porém ele precisa enfrentar os preconceitos dos moradores da vila machista onde mora. Para conquistar o respeito de todos, ele decide se inscrever no concurso ‘O Rei dos Machos’, onde desafios físicos, supostamente, julgarão a virilidade dos participantes.",
+  "genero": "Comédia, Drama",
+  "elenco": "Luis Tirado Morales, Christian Chávez, Alejandro de la Madrid, Fernanda Borches, Ian Vinitzky",
+  "diretor": "Fernando Urdapilleta, Mariano Cohn, Gastón Duprat",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:43"
+        }
+      ]
+    }
+  ],
+  "id": 5882
+}

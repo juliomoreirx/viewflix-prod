@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MDg=",
+  "tipo": "serie",
+  "titulo": "DOTA: DRAGON'S BLOOD",
+  "capa_url": "https://lgfp.one/SUO",
+  "capa_local": "DOTA DRAGON'S BLOOD/DOTA DRAGON'S BLOOD.jpg",
+  "sinopse": "Um Cavaleiro Dragão em conflito deve usar a força do dragão interior para deter um demônio mortal nesta fantasia épica baseada no jogo online.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Animação",
+  "elenco": "Yuri Lowenthal, Lara Pulver, Troy Baker",
+  "diretor": "Eugene Lee",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:25:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:27:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:26:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:27:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:25:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:29:08"
+        }
+      ]
+    }
+  ],
+  "id": 2245
+}

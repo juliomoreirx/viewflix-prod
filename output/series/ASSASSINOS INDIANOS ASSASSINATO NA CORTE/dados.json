@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MDk=",
+  "tipo": "serie",
+  "titulo": "ASSASSINOS INDIANOS: ASSASSINATO NA CORTE",
+  "capa_url": "https://lgfp.one/WLP",
+  "capa_local": "ASSASSINOS INDIANOS ASSASSINATO NA CORTE/ASSASSINOS INDIANOS ASSASSINATO NA CORTE.jpg",
+  "sinopse": "Em 2004, um predador cruel foi linchado no tribunal. Esta é a história da comunidade que ele aterrorizou, e da vingança dessas pessoas.",
+  "genero": "Crime, Documentário",
+  "elenco": "Happy Kalizpuria, Lajari Kale, Shubham Ugale, Aditya Wankhede, Snehalata Tagde",
+  "diretor": "Umesh Vinayak Kulkarni, Ranjit Nair, Umesh Vinayak Kulkarni",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:20"
+        }
+      ]
+    }
+  ],
+  "id": 3118
+}

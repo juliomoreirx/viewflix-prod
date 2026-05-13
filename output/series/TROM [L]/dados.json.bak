@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NDU=",
+  "tipo": "serie",
+  "titulo": "TROM [L]",
+  "capa_url": "https://lgfp.one/AASC",
+  "capa_local": "TROM [L]/TROM [L].jpg",
+  "sinopse": "",
+  "genero": "Crime, Drama",
+  "elenco": "Ria Tórgarð, Dánjal á Neystabø, Ulrich Thomsen, Maria Rich, Olaf Johannessen",
+  "diretor": "Kasper Barfoed, Peter Ahlén, Davíð Óskar Ólafsson",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:52:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:53:53"
+        }
+      ]
+    }
+  ],
+  "id": 3814
+}

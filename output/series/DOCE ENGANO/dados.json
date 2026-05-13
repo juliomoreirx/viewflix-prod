@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNDE=",
+  "tipo": "serie",
+  "titulo": "DOCE ENGANO",
+  "capa_url": "https://lgfp.one/NQT3",
+  "capa_local": "DOCE ENGANO/DOCE ENGANO.jpg",
+  "sinopse": "A esperta golpista Ro-eum sofre de uma nítida falta de empatia e é falsamente acusada de assassinato. Depois de 10 anos é inocentada com a ajuda do advogado altamente empático, Moo-young. Os dois formam uma aliança improvável em busca de vingança.",
+  "genero": "Drama, Comédia, Crime",
+  "elenco": "천우희, 김동욱, 윤박, 박소진, 이연",
+  "diretor": "이수현",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:38"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:03:36"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:04:11"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:02:17"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:03:40"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:07:52"
+        }
+      ]
+    }
+  ],
+  "id": 7205
+}

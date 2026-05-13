@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNTE=",
+  "tipo": "serie",
+  "titulo": "O CAVALEIRO DOS SETE REINOS",
+  "capa_url": "https://lgfp.one/RHO2",
+  "capa_local": "O CAVALEIRO DOS SETE REINOS/O CAVALEIRO DOS SETE REINOS.jpg",
+  "sinopse": "Ambientado em uma época em que a linhagem Targaryen ainda detém o Trono de Ferro e a memória do último dragão ainda não desapareceu da memória dos vivos, grandes destinos, inimigos poderosos e façanhas perigosas aguardam esses amigos improváveis ​​e incomparáveis.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Peter Claffey, Dexter Sol Ansell, Finn Bennett, Bertie Carvel, Tanzyn Crawford",
+  "diretor": "Owen Harris, Thomas Bentley, Mike Deedigan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:39"
+        }
+      ]
+    }
+  ],
+  "id": 8922
+}

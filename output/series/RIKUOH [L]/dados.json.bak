@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwODA=",
+  "tipo": "serie",
+  "titulo": "RIKUOH [L]",
+  "capa_url": "https://lgfp.one/NCN8",
+  "capa_local": "RIKUOH [L]/RIKUOH [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Kōji Hashimoto, 山﨑賢人, 内村遥, 吉谷彩子, 春やすこ",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:31:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:07:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:07:48"
+        }
+      ]
+    }
+  ],
+  "id": 6945
+}

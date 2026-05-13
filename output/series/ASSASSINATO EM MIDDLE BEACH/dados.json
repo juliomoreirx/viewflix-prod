@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4OTk=",
+  "tipo": "serie",
+  "titulo": "ASSASSINATO EM MIDDLE BEACH",
+  "capa_url": "https://lgfp.one/RTP",
+  "capa_local": "ASSASSINATO EM MIDDLE BEACH/ASSASSINATO EM MIDDLE BEACH.jpg",
+  "sinopse": "Esta série documental de quatro partes examina a complicada jornada de Madison Hamburg para resolver um crime indescritível e absolver as pessoas que ele ama enquanto busca respostas dentro de sua própria família e comunidade.",
+  "genero": "Documentário",
+  "elenco": "Madison Hamburg, Barbara Hamburg",
+  "diretor": "",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:31:25"
+        }
+      ]
+    }
+  ],
+  "id": 1348
+}

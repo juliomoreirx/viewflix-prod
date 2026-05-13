@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNTQ=",
+  "tipo": "serie",
+  "titulo": "UENO SAN WA BUKIYOU [L]",
+  "capa_url": "https://lgfp.one/DCF8",
+  "capa_local": "UENO SAN WA BUKIYOU [L]/UENO SAN WA BUKIYOU [L].jpg",
+  "sinopse": "Ueno-san, que está em seu terceiro ano do ensino médio, está apaixonada pelo conceito de se apaixonar. Ela faz pleno uso de suas invenções e tenta mostrá-lo a Tanaka, seu kouhai do clube de ciência.",
+  "genero": "Animação, Comédia",
+  "elenco": "芹澤優, 田中あいみ, 伊藤美来, 井口裕香, 井澤詩織",
+  "diretor": "",
+  "total_episodios": "12",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:12:30"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:12:30"
+        }
+      ]
+    }
+  ],
+  "id": 5761
+}

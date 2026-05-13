@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMjI=",
+  "tipo": "serie",
+  "titulo": "RIO CONNECTION",
+  "capa_url": "https://lgfp.one/AUKU",
+  "capa_local": "RIO CONNECTION/RIO CONNECTION.jpg",
+  "sinopse": "Na década de 1970, criminosos europeus se estabelecem no Brasil e usam o país como ponto estratégico para o tráfico de heroína para os Estados Unidos.",
+  "genero": "Crime, Drama",
+  "elenco": "Marina Ruy Barbosa, Rômulo Arantes Neto, Valerio Morigi, Aksel Üstün, Raphaël Kahn",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:20"
+        }
+      ]
+    }
+  ],
+  "id": 4534
+}

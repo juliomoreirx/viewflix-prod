@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4ODk=",
+  "tipo": "serie",
+  "titulo": "JOE PICKETT",
+  "capa_url": "https://lgfp.one/JZR2",
+  "capa_local": "JOE PICKETT/JOE PICKETT.jpg",
+  "sinopse": "Joe Pickett é uma série dramática baseada na famosa série de livros escrita por C.J. Box. A história segue um guarda florestal e sua família que devem enfrentar as mudanças no clima político e socioeconômico da zona rural de Wyoming.",
+  "genero": "Drama, Faroeste",
+  "elenco": "Michael Dorman, Julianna Guill, Skywalker Hughes, Vivienne Guynn, Chad Rook",
+  "diretor": "",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:52:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:45:54"
+        }
+      ]
+    }
+  ],
+  "id": 3664
+}

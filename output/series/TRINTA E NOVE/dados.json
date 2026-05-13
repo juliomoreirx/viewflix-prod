@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NzE=",
+  "tipo": "serie",
+  "titulo": "TRINTA E NOVE",
+  "capa_url": "https://lgfp.one/TFM",
+  "capa_local": "TRINTA E NOVE/TRINTA E NOVE.jpg",
+  "sinopse": "Três melhores amigas à beira dos 40 anos passam por tudo juntas e permanecem unidas na vida, no amor e na perda.",
+  "genero": "Drama",
+  "elenco": "Son Ye-jin, Jeon Mi-do, Kim Ji-Hyeon",
+  "diretor": "Kim Sang-Ho",
+  "total_episodios": "72",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:18:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:18:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:13:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:13:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:11:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:13:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:16:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:48"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:16:12"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:08:52"
+        }
+      ]
+    }
+  ],
+  "id": 2535
+}

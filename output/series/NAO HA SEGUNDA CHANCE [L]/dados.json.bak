@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwMTk=",
+  "tipo": "serie",
+  "titulo": "NAO HA SEGUNDA CHANCE [L]",
+  "capa_url": "https://lgfp.one/KXW9",
+  "capa_local": "NAO HA SEGUNDA CHANCE [L]/NAO HA SEGUNDA CHANCE [L].jpg",
+  "sinopse": "Baseada em um livro de Harlan Coben (Não há segunda chance), a minissérie gira em torno da Dra. Alice Lambert (Alexandra Lamy), uma mulher vítima de um atentado. Alguns dias depois, ao acordar de um coma no hospital, ela descobre que seu marido foi assassinado e sua filha Tara, ainda um bebê, foi sequestrada. Decidida a encontrar a menina, ela inicia uma investigação própria, contando apenas com a ajuda de seu ex-namorado Richard Millot (Pascal Elbe), um policial. Enquanto isso, ela se torna a principal suspeita pela morte do marido.",
+  "genero": "Drama, Mistério",
+  "elenco": "Alexandra Lamy, Charlotte Des Georges, Fanny Valette, Sébastien Libessart, Francis Renaud",
+  "diretor": "François Velle",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:54"
+        }
+      ]
+    }
+  ],
+  "id": 6625
+}

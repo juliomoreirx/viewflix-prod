@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4NTM=",
+  "tipo": "serie",
+  "titulo": "OKLAHOMA CITY BOMBING ONE DAY IN AMERICA [L]",
+  "capa_url": "https://lgfp.one/NVY3",
+  "capa_local": "OKLAHOMA CITY BOMBING ONE DAY IN AMERICA [L]/OKLAHOMA CITY BOMBING ONE DAY IN AMERICA [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Daniel Lindsay, T.J. Martin",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:06"
+        }
+      ]
+    }
+  ],
+  "id": 7309
+}

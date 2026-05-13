@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyODI=",
+  "tipo": "serie",
+  "titulo": "MISTERIOS BIBLICOS",
+  "capa_url": "https://lgfp.one/AQX9",
+  "capa_local": "MISTERIOS BIBLICOS/MISTERIOS BIBLICOS.jpg",
+  "sinopse": "Uma abordagem sobre os eventos históricos por trás das lendas e fenômenos bíblicos, levando a uma extensa jornada desde Jerusalém, Turim, Roma, o Mar da Galileia e muito mais, com informações de arqueólogos, historiadores e cientistas.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:53"
+        }
+      ]
+    }
+  ],
+  "id": 5206
+}

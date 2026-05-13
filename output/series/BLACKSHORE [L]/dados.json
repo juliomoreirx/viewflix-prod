@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNDE=",
+  "tipo": "serie",
+  "titulo": "BLACKSHORE [L]",
+  "capa_url": "https://lgfp.one/DCC2",
+  "capa_local": "BLACKSHORE [L]/BLACKSHORE [L].jpg",
+  "sinopse": "",
+  "genero": "Crime, Drama",
+  "elenco": "Lisa Dwan, Rory Keenan, Amy De Bhrún, Aidan McArdle, Stanley Townsend",
+  "diretor": "Dathaí Keane",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:50"
+        }
+      ]
+    }
+  ],
+  "id": 5725
+}

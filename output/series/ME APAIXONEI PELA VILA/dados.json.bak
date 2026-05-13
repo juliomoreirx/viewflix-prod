@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2NjA=",
+  "tipo": "serie",
+  "titulo": "ME APAIXONEI PELA VILA",
+  "capa_url": "https://lgfp.one/AMB6",
+  "capa_local": "ME APAIXONEI PELA VILA/ME APAIXONEI PELA VILA.jpg",
+  "sinopse": "Uma assalariada normal chamada Rae Oohashi acorda no corpo da protagonista de Revolution, seu jogo otome favorito. Para sua felicidade, a primeira a cumprimentá-la é também sua personagem favorita, Claire François - a antagonista da história! Agora, Rae está decidida a deixar os outros pretendentes de lado e ter um romance com a vilã! Mas como será que Claire reagirá a essa investida apaixonada?!",
+  "genero": "Animação, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Yu Serizawa, Karin Nanami, Daisuke Namikawa, Yoko Hikasa, Ikumi Hasegawa",
+  "diretor": "Hideaki Ooba",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:02"
+        }
+      ]
+    }
+  ],
+  "id": 5125
+}

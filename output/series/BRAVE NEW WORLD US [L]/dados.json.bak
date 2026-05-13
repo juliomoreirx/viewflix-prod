@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2ODU=",
+  "tipo": "serie",
+  "titulo": "BRAVE NEW WORLD US [L]",
+  "capa_url": "https://lgfp.one/JMZ",
+  "capa_local": "BRAVE NEW WORLD US [L]/BRAVE NEW WORLD US [L].jpg",
+  "sinopse": "Por meio da proibição da monogamia, da privacidade e do dinheiro, uma sociedade consegue alcançar a paz e a estabilidade. Curiosos para explorar a vida além das restrições dessa comunidade, Bernard Marx e Lenina Crowne viajam para as Terras Selvagens, onde se envolvem em uma rebelião angustiante e violenta.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Alden Ehrenreich, Jessica Brown Findlay, Harry Lloyd, Kylie Bunbury, Hannah John-Kamen",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:19"
+        }
+      ]
+    }
+  ],
+  "id": 756
+}

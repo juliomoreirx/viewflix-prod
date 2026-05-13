@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5OTM=",
+  "tipo": "serie",
+  "titulo": "FELIZES JUNTOS",
+  "capa_url": "https://lgfp.one/IZI",
+  "capa_local": "FELIZES JUNTOS/FELIZES JUNTOS.jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "Damon Wayans Jr., Amber Stevens West, Felix Mallard, Chris Parnell, Stephnie Weir",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:13:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:35"
+        }
+      ]
+    }
+  ],
+  "id": 344
+}

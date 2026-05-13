@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNTA=",
+  "tipo": "serie",
+  "titulo": "MAMUTE",
+  "capa_url": "https://lgfp.one/VZM",
+  "capa_local": "MAMUTE/MAMUTE.jpg",
+  "sinopse": "A cada quatro anos, o mundo redescobre e celebra novos e antigos atletas olímpicos. Vencedores ou perdedores, heróis ou vilões, a verdade é que mal conhecemos as jornadas de vida que levaram esses super-heróis até aquele momento de glória ou queda. Em Mamute - Quanto Maior o Sonho, Maior a Luta mergulhamos na vida de um dos maiores campeões que o Brasil já concebeu, Alison Cerutti - conhecido como 'o mamute' - para conhecer A HISTÓRIA de superação dos obstáculos por trás de suas vitórias. A narrativa se desenrola em um contexto histórico e inédito: a preparação para sua terceira Olimpíada em Tóquio 2020 - 2021, última chance de Mamute de ser o maior campeão do mundo no vôlei de praia masculino.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Doug Menezes, Larissa L. Tietjen",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:14"
+        }
+      ]
+    }
+  ],
+  "id": 3024
+}

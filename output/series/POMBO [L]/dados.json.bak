@@ -1,0 +1,170 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNTI=",
+  "tipo": "serie",
+  "titulo": "POMBO [L]",
+  "capa_url": "https://lgfp.one/PQA2",
+  "capa_local": "POMBO [L]/POMBO [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário, Reality",
+  "elenco": "María Pombo, Pablo Castellano, Marta Pombo, Lucía Pombo, Luis Zamalloa",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:06:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:06:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:07:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:04:33"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:39:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:40:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:45:11"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:40:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:41:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:48:29"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:42:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:49:27"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:39:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:41:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:40:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:47:27"
+        }
+      ]
+    }
+  ],
+  "id": 7748
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNjQ=",
+  "tipo": "serie",
+  "titulo": "O HOMEM COM MIL FILHOS",
+  "capa_url": "https://lgfp.one/CRU9",
+  "capa_local": "O HOMEM COM MIL FILHOS/O HOMEM COM MIL FILHOS.jpg",
+  "sinopse": "Famílias descobrem que o doador de esperma em que confiaram gerou centenas (ou talvez milhares) de crianças no mundo todo.",
+  "genero": "Documentário",
+  "elenco": "Jonathan Meijer",
+  "diretor": "Thomas Willem Renckens",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:03"
+        }
+      ]
+    }
+  ],
+  "id": 5644
+}

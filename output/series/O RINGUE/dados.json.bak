@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNzY=",
+  "tipo": "serie",
+  "titulo": "O RINGUE",
+  "capa_url": "https://lgfp.one/EFF0",
+  "capa_local": "O RINGUE/O RINGUE.jpg",
+  "sinopse": "Sonhando em se profissionalizar, um jovem lutador tenta ser notado até que um combate inesperado dá a ele a chance de sua vida, além de um rival violento no ringue.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Melvin Boomer, Franck Gastambide, Edwige Ahonto, Antoine Simony, Yanisse Kebbab",
+  "diretor": "Mathis Dujardin, Antoine Boulay, Maxime Bedue",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:41"
+        }
+      ]
+    }
+  ],
+  "id": 6208
+}

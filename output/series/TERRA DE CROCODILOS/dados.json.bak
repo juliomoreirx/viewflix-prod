@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTQ=",
+  "tipo": "serie",
+  "titulo": "TERRA DE CROCODILOS",
+  "capa_url": "https://lgfp.one/VRZ",
+  "capa_local": "TERRA DE CROCODILOS/TERRA DE CROCODILOS.jpg",
+  "sinopse": "Matt Wright e sua equipe não têm medo do perigo. Eles estão prontos para capturar e trasladar alguns dos répteis mais ferozes das regiões selvagens da Austrália.",
+  "genero": "Reality",
+  "elenco": "Kaia Wright, Banjo Wright, Matt Wright, Jock Purcell",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:33:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:34"
+        }
+      ]
+    }
+  ],
+  "id": 2952
+}

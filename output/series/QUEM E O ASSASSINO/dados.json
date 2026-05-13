@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4ODI=",
+  "tipo": "serie",
+  "titulo": "QUEM E O ASSASSINO",
+  "capa_url": "https://lgfp.one/BFL0",
+  "capa_local": "QUEM E O ASSASSINO/QUEM E O ASSASSINO.jpg",
+  "sinopse": "Programa inspirado no assassinato não solucionado do apresentador de TV mexicano Paco Stanley em 1999. Através do ponto de vista das seis pessoas mais próximas a ele, a história é revelada nos bastidores onde a fama, a traição e o excesso apontam para diferentes suspeitos.",
+  "genero": "Crime, Mistério",
+  "elenco": "Roberto Duarte, Luis Gerardo Méndez, Diego Boneta, Zuria Vega, Belinda",
+  "diretor": "Humberto Hinojosa, Humberto Hinojosa, Rodrigo Ruiz Patterson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:12"
+        }
+      ]
+    }
+  ],
+  "id": 5558
+}

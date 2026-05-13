@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NzY=",
+  "tipo": "serie",
+  "titulo": "GUERRA À MÁFIA: FILADÉLFIA CONTRA O CRIME",
+  "capa_url": "https://lgfp.one/QLS9",
+  "capa_local": "GUERRA A MAFIA FILADELFIA CONTRA O CRIME/GUERRA A MAFIA FILADELFIA CONTRA O CRIME.jpg",
+  "sinopse": "Uma guerra brutal da máfia entre John Stanfa e Joey Merlino na década de 1990 transforma a Filadélfia em caos e carnificina nesta série cativante de crime real.",
+  "genero": "Documentário, Crime",
+  "elenco": "John Alite",
+  "diretor": "Raissa Botterman Roteirista",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:26"
+        }
+      ]
+    }
+  ],
+  "id": 8240
+}

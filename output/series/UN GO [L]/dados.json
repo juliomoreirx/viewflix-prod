@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNTM=",
+  "tipo": "serie",
+  "titulo": "UN GO [L]",
+  "capa_url": "https://lgfp.one/DCF9",
+  "capa_local": "UN GO [L]/UN GO [L].jpg",
+  "sinopse": "UN-GO, conta a historia de um detetive chamado Yuuki Shinjuurou, famoso por resolver alguns incidentes que rondam seu círculo de amizades. Em uma de suas buscas por mistérios, Yuuki, acaba encontrando um garoto chamado Inga, que parece ter um estranho “dom” de solucionar com muita facilidade tais casos. Agora os dois trabalharão juntos para resolver tais acontecimentos, mesmo com personalidades totalmente distintas.",
+  "genero": "Animação, Mistério, Sci-Fi & Fantasy",
+  "elenco": "豊崎愛生, Ryo Katsuji, Marika Matsumoto, 三木眞一郎, Miyu Irino",
+  "diretor": "水島精二",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "0",
+          "codigo": "S01E00",
+          "duracao": "00:48:57"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:06"
+        }
+      ]
+    }
+  ],
+  "id": 5762
+}

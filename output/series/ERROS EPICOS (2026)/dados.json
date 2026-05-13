@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1ODU=",
+  "tipo": "serie",
+  "titulo": "ERROS EPICOS (2026)",
+  "capa_url": "https://lgfp.one/SPZ1",
+  "capa_local": "ERROS EPICOS (2026)/ERROS EPICOS (2026).jpg",
+  "sinopse": "Chantageados a trabalhar para pessoas muito perigosas, um casal de irmãos despreparados se torna a dupla mais desorganizada do crime organizado.",
+  "genero": "Comédia, Crime",
+  "elenco": "Dan Levy, Laurie Metcalf, Taylor Ortega, Abby Quinn, Jack Innanen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:20"
+        }
+      ]
+    }
+  ],
+  "id": 9298
+}

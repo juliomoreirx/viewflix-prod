@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMTk=",
+  "tipo": "serie",
+  "titulo": "SHANTARAM",
+  "capa_url": "https://lgfp.one/VRX",
+  "capa_local": "SHANTARAM/SHANTARAM.jpg",
+  "sinopse": "O fugitivo Lin Ford foge para as ruas de Bombaim dos anos 1980 querendo desaparecer. Trabalhando como médico para os pobres e negligenciados da cidade, Lin encontra amor inesperado, laços e coragem no longo caminho para a redenção.",
+  "genero": "Crime / Drama / Action & Adventure",
+  "elenco": "Charlie Hunnam, Antonia Desplat, Alexander Siddig, Richard Roxburgh, Rahel Romahn, Rachel Kamath, Sujaya Dasgupta",
+  "diretor": "Steve Lightfoot, Eric Warren Singer",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:51:46"
+        }
+      ]
+    }
+  ],
+  "id": 2950
+}

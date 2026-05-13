@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2Mzg=",
+  "tipo": "serie",
+  "titulo": "A SONHADA CASA DE CAMPO",
+  "capa_url": "https://lgfp.one/QUC6",
+  "capa_local": "A SONHADA CASA DE CAMPO/A SONHADA CASA DE CAMPO.jpg",
+  "sinopse": "Jonathan e Drew Scott cresceram em um rancho de 65 hectares. O Oeste os transformou em quem são, e eles querem compartilhar sua paixão e expertise no mercado imobiliário com um movimento crescente de pessoas.",
+  "genero": "Reality",
+  "elenco": "Drew Scott, Jonathan Silver Scott",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:43"
+        }
+      ]
+    }
+  ],
+  "id": 8417
+}

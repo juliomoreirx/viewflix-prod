@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0Nzk=",
+  "tipo": "serie",
+  "titulo": "VASCO ROSSI TODA UMA VIDA [L]",
+  "capa_url": "https://lgfp.one/ACKD",
+  "capa_local": "VASCO ROSSI TODA UMA VIDA [L]/VASCO ROSSI TODA UMA VIDA [L].jpg",
+  "sinopse": "Toda uma Vida, acompanhamos momentos importantes da trajetória do astro do rock, Vasco Rossi. Desde suas primieras conquistas ainda em sua cidade natal, Zocca, até seus grandes shows em Los Angeles. Entre muitas histórias do cantor com companheiros de longa data, entrevistas inéditas, materiais de arquivo e é claro, explorando toda a sua discografia, um novo olhar é apresentado sobre Rossi, que reflete sobre os momentos mais importantes de sua carreira e vida",
+  "genero": "Documentário",
+  "elenco": "Vasco Rossi",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:41"
+        }
+      ]
+    }
+  ],
+  "id": 4150
+}

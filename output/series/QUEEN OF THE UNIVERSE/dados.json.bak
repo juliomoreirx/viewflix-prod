@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNTY=",
+  "tipo": "serie",
+  "titulo": "QUEEN OF THE UNIVERSE",
+  "capa_url": "https://lgfp.one/TCB",
+  "capa_local": "QUEEN OF THE UNIVERSE/QUEEN OF THE UNIVERSE.jpg",
+  "sinopse": "Espere saltos altos, oitavas altas e muito drama que vai bagunçar sua peruca quando começar a busca para encontrar a superestrela global drag de canto.",
+  "genero": "Reality",
+  "elenco": "Graham Norton, Michelle Visage, Vanessa Williams, Leona Lewis, Trixie Mattel",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:59"
+        }
+      ]
+    }
+  ],
+  "id": 2443
+}

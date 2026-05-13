@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MDU=",
+  "tipo": "serie",
+  "titulo": "UFO",
+  "capa_url": "https://lgfp.one/SES",
+  "capa_local": "UFO/UFO.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "John Greenewald Jr., Leslie Kean",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:41"
+        }
+      ]
+    }
+  ],
+  "id": 308254
+}

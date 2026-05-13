@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MDA=",
+  "tipo": "serie",
+  "titulo": "HOUSE OF HAMMER: SEGREDOS DE FAMÍLIA",
+  "capa_url": "https://lgfp.one/TPX",
+  "capa_local": "HOUSE OF HAMMER SEGREDOS DE FAMILIA/HOUSE OF HAMMER SEGREDOS DE FAMILIA.jpg",
+  "sinopse": "Um escândalo chocante em Hollywood destrói a fachada perfeita da família Hammer. De alegações de estupro contra Armie Hammer a anos de engano nas mãos de seu bisavô, os segredos sombrios da família finalmente vêm à tona.",
+  "genero": "Documentário",
+  "elenco": "Armie Hammer, Casey Hammer, Courtney Vucekovich, Ryan Bailey, Julia Morrison",
+  "diretor": "Julian P. Hobbs, Elli Hakami",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:16"
+        }
+      ]
+    }
+  ],
+  "id": 2820
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2OTI=",
+  "tipo": "serie",
+  "titulo": "COSMOS POSSIBLE WORLDS [L]",
+  "capa_url": "https://lgfp.one/IWD",
+  "capa_local": "COSMOS POSSIBLE WORLDS [L]/COSMOS POSSIBLE WORLDS [L].jpg",
+  "sinopse": "Cosmos: Uma odisseia no espaço-tempo, a nova versão do programa homônimo de 1980 apresentado por Carl Sagan, produzida pela Fox em parceria com o National Geographic Channel, será apresentada pelo astrofísico Neil deGrasse Tyson, diretor do planetário Hayden no Museu Americano de História Natural e abordará o estudo de teorias espaciais e exploração científica, na linha do programa original.",
+  "genero": "Documentário",
+  "elenco": "Neil deGrasse Tyson",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:55"
+        }
+      ]
+    }
+  ],
+  "id": 255
+}

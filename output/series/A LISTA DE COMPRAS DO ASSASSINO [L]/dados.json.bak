@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NjE=",
+  "tipo": "serie",
+  "titulo": "A LISTA DE COMPRAS DO ASSASSINO [L]",
+  "capa_url": "https://lgfp.one/PFF4",
+  "capa_local": "A LISTA DE COMPRAS DO ASSASSINO [L]/A LISTA DE COMPRAS DO ASSASSINO [L].jpg",
+  "sinopse": "Um dia, um cadáver é encontrado em um apartamento perto do supermercado. Achando esse assassinato estranho, Dae-sung, sua mãe e sua namorada Ah-hee se reúnem para encontrar o verdadeiro assassino, começando por olhar os recibos do mercado.",
+  "genero": "Comédia, Drama, Mistério",
+  "elenco": "Lee Kwang Soo, 김설현, 진희경, 박지빈, 조아람",
+  "diretor": "이언희",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:06"
+        }
+      ]
+    }
+  ],
+  "id": 7544
+}

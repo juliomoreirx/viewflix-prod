@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMDk=",
+  "tipo": "serie",
+  "titulo": "CASAMENTO ÀS CEGAS ARGENTINA",
+  "capa_url": "https://lgfp.one/MWT8",
+  "capa_local": "CASAMENTO AS CEGAS ARGENTINA/CASAMENTO AS CEGAS ARGENTINA.jpg",
+  "sinopse": "As cabines estão abertas... e os corações também, agora na Argentina. Quem vai além das aparências neste experimento em que é preciso dizer \"sim\" sem ver a outra pessoa?",
+  "genero": "Reality",
+  "elenco": "Ted Evans, Wanda Nara, Darío Barassi",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:09:24"
+        }
+      ]
+    }
+  ],
+  "id": 6850
+}

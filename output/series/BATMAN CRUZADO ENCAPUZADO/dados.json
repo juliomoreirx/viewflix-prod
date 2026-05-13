@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NzU=",
+  "tipo": "serie",
+  "titulo": "BATMAN CRUZADO ENCAPUZADO",
+  "capa_url": "https://lgfp.one/DET6",
+  "capa_local": "BATMAN CRUZADO ENCAPUZADO/BATMAN CRUZADO ENCAPUZADO.jpg",
+  "sinopse": "Bem-vindos a Gotham City, o lugar onde os criminosos correm soltos e os cidadãos de bem vivem em constante estado de medo. Forjado no fogo da tragédia, o socialite bilionário Bruce Wayne se torna algo que é mais e menos do que humano: o BATMAN. Sua guerra de um homem só contra o crime atrai aliados de dentro do Dep. de Polícia e da Prefeitura, mas suas ações heroicas geram ramificações mortais.",
+  "genero": "Animação, Action & Adventure, Crime",
+  "elenco": "Hamish Linklater",
+  "diretor": "J.J. Abrams, Matt Reeves, Adamma Ebo",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:54"
+        }
+      ]
+    }
+  ],
+  "id": 5773
+}

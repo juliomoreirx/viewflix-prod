@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMjE=",
+  "tipo": "serie",
+  "titulo": "A MAGIA DO DISNEY'S ANIMAL KINGDOM",
+  "capa_url": "https://lgfp.one/NMI7",
+  "capa_local": "A MAGIA DO DISNEY'S ANIMAL KINGDOM/A MAGIA DO DISNEY'S ANIMAL KINGDOM.jpg",
+  "sinopse": "A Magia do Disney's Animal Kingdom, narrado pelo favorito dos fãs da Disney Josh Gad, oferece um passe abrangente aos bastidores para que explorar a magia por trás de duas das experiências com animais mais acarinhadas, o Parque Temático Disney's Animal Kingdom e o The Seas com Nemo e Amigos em EPCOT. Um acesso sem precedentes às mais raras e belas criaturas do planeta e conhecerão os especialistas em cuidado animal que formaram laços extraordinários com os mais de cinco mil animais dos Parques. Cada um dos oito episódios revela detalhes do funcionamento do Lugar Mais Mágico da Terra desvendando os aspetos multifacetados da operação e do \"Imagineering\".",
+  "genero": "Documentário, Reality",
+  "elenco": "Josh Gad",
+  "diretor": "",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:28"
+        }
+      ]
+    }
+  ],
+  "id": 7113
+}

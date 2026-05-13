@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2Njc=",
+  "tipo": "serie",
+  "titulo": "TWO WEEKS TO LIVE [L]",
+  "capa_url": "https://lgfp.one/RGM",
+  "capa_local": "TWO WEEKS TO LIVE [L]/TWO WEEKS TO LIVE [L].jpg",
+  "sinopse": "Depois da morte de seu pai, a jovem Kim cresce isolada do mundo, sendo criada por sua rígida mãe. Aos 21 anos ela decide sair em uma missão para vingar seu pai e parte em uma jornada imprevisível e intrigante.",
+  "genero": "Comédia, Action & Adventure, Crime",
+  "elenco": "Maisie Williams, Mawaan Rizwan, Sian Clifford, Taheen Modak",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:41"
+        }
+      ]
+    }
+  ],
+  "id": 987
+}

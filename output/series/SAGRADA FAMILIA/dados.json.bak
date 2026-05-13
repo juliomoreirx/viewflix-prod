@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTk=",
+  "tipo": "serie",
+  "titulo": "SAGRADA FAMILIA",
+  "capa_url": "https://lgfp.one/VRW",
+  "capa_local": "SAGRADA FAMILIA/SAGRADA FAMILIA.jpg",
+  "sinopse": "Uma família com um segredo perturbador recomeça a vida em Madri, onde novas relações complicam seus planos e fazem o passado vir à tona.",
+  "genero": "Drama",
+  "elenco": "Najwa Nimri, Iván Pellicer",
+  "diretor": "Manolo Caro",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:14"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:40:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:36:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:38:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:34:32"
+        }
+      ]
+    }
+  ],
+  "id": 2949
+}

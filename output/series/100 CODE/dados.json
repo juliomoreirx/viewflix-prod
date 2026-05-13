@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNjA=",
+  "tipo": "serie",
+  "titulo": "100 CODE",
+  "capa_url": "https://lgfp.one/SDF",
+  "capa_local": "100 CODE/100 CODE.jpg",
+  "sinopse": "Jovens loiras de olhos azuis foram assassinadas ao longo dos últimos doze meses. Tommy Conley (Dominic Monaghan, de LOST), um detetive de Nova Iorque, é enviado à Suécia para observar e aconselhar a polícia local nas investigações. Ele se une ao sueco Mikael Eklund (Michael Nyqvist, de Zero Hour), um veterano da homicídios que trabalha de acordo com as regras. Extremamente nacionalista, Mikael não vê com bons olhos a presença de Conley, criticando a cultura americana sempre que pode. Apesar dos dois não se suportarem, eles precisam encontrar uma forma de trabalharem juntos.\n\nA vida pessoal de cada um também é problemática. Conley ainda se sente culpado pela morte de Maggie, sua namorada. Algo que ele precisa deixar de lado quando conhece Maria, uma americana que trabalha em um bar local. Já Eklund precisa descobrir uma forma de se relacionar melhor com sua filha Hanna.",
+  "genero": "Crime",
+  "elenco": "Michael Nyqvist, Dominic Monaghan, Kristoffer Berglund, Peter Eggers, Hedda Stiernstedt",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:29"
+        }
+      ]
+    }
+  ],
+  "id": 1772
+}

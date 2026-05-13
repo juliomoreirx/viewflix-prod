@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzODA=",
+  "tipo": "serie",
+  "titulo": "PROFESSOR T",
+  "capa_url": "https://lgfp.one/SXA",
+  "capa_local": "PROFESSOR T/PROFESSOR T.jpg",
+  "sinopse": "Uma jovem detetive da polícia de Londres precisa da ajuda de seu antigo professor de Cambridge, Jasper Tempest, um metódico e genial criminologista, para auxiliá-la em suas investigações.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "Ben Miller, Emma Naomi, Barney White, Sarah Woodward, Andy Gathergood",
+  "diretor": "Dries Vos, Steffen Geypens",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:21"
+        }
+      ]
+    }
+  ],
+  "id": 2311
+}

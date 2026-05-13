@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyNzg=",
+  "tipo": "serie",
+  "titulo": "MY HAPPY END [L]",
+  "capa_url": "https://lgfp.one/AYFG",
+  "capa_local": "MY HAPPY END [L]/MY HAPPY END [L].jpg",
+  "sinopse": "Conta a história de Seo Jae Won, que é obcecada e persegue o sucesso, pois teve uma infância infeliz, tentando escapar de seus desejos e obsessões prejudiciais.",
+  "genero": "Mistério, Drama",
+  "elenco": "Jang Na-ra, Son Ho-jun, So I-hyeon, Lee Gi-taek, Kim Hong-pa",
+  "diretor": "Jo Soo-won",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:13:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:58"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:02:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:01:09"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:03:51"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:04:36"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:10:01"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:07:40"
+        }
+      ]
+    }
+  ],
+  "id": 4775
+}

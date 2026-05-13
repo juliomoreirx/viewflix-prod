@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NDc=",
+  "tipo": "serie",
+  "titulo": "COZINHA SELVAGEM: O DUELO",
+  "capa_url": "https://lgfp.one/XYT",
+  "capa_local": "COZINHA SELVAGEM O DUELO/COZINHA SELVAGEM O DUELO.jpg",
+  "sinopse": "Alcançar o pico do mundo culinário nunca foi tão difícil. Em cada episódio dois chefs renomados serão largados na natureza, onde embarcarão em uma missão cansativa e sem precedentes: sobreviver e coletar ingredientes selvagens para criar uma refeição cinco estrelas digna de restaurante.",
+  "genero": "Reality",
+  "elenco": "Kiran Jethwa, Valerie Segrest",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:41"
+        }
+      ]
+    }
+  ],
+  "id": 3227
+}

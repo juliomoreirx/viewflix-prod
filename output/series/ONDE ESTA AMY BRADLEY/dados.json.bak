@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NzM=",
+  "tipo": "serie",
+  "titulo": "ONDE ESTÁ AMY BRADLEY?",
+  "capa_url": "https://lgfp.one/PJF5",
+  "capa_local": "ONDE ESTA AMY BRADLEY/ONDE ESTA AMY BRADLEY.jpg",
+  "sinopse": "Esta série documental investiga o desaparecimento de uma jovem de 23 anos em um cruzeiro no ano de 1998 e mostra a busca incansável da família por respostas.",
+  "genero": "Documentário, Crime, Mistério",
+  "elenco": "Iva Bradley, Ron Bradley, Brad Bradley, Erin Sheridan, Erin Cullather",
+  "diretor": "Phil Lott, Ari Mark",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:02"
+        }
+      ]
+    }
+  ],
+  "id": 7649
+}

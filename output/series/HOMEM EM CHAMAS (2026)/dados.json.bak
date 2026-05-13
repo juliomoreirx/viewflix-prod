@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NTE=",
+  "tipo": "serie",
+  "titulo": "HOMEM EM CHAMAS (2026)",
+  "capa_url": "https://lgfp.one/SYA4",
+  "capa_local": "HOMEM EM CHAMAS (2026)/HOMEM EM CHAMAS (2026).jpg",
+  "sinopse": "Assombrado pelo passado e caçado pelos inimigos, um veterano das Forças Especiais luta com unhas e dentes para proteger uma adolescente nas ruas do Rio de Janeiro.",
+  "genero": "Action & Adventure, Crime",
+  "elenco": "Yahya Abdul-Mateen II, Billie Boullet, Scoot McNairy, Alice Braga",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:06"
+        }
+      ]
+    }
+  ],
+  "id": 9471
+}

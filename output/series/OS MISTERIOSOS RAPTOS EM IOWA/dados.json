@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MDU=",
+  "tipo": "serie",
+  "titulo": "OS MISTERIOSOS RAPTOS EM IOWA",
+  "capa_url": "https://lgfp.one/DUG6",
+  "capa_local": "OS MISTERIOSOS RAPTOS EM IOWA/OS MISTERIOSOS RAPTOS EM IOWA.jpg",
+  "sinopse": "O misterioso sequestro duplo de jovens primas em Iowa gera uma tempestade de controvérsias.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:58"
+        }
+      ]
+    }
+  ],
+  "id": 6068
+}

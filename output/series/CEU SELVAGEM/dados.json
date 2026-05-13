@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MTA=",
+  "tipo": "serie",
+  "titulo": "CEU SELVAGEM",
+  "capa_url": "https://lgfp.one/NSC8",
+  "capa_local": "CEU SELVAGEM/CEU SELVAGEM.jpg",
+  "sinopse": "Descubra os fenômenos celestes que dão forma a toda a vida na Terra. Viaje pela Austrália, África e pelas Américas do Norte e do Sul observando as maneiras engenhosas que os animais têm de driblar o sol, o vento, a chuva, a seca e as nevascas.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:04"
+        }
+      ]
+    }
+  ],
+  "id": 7237
+}

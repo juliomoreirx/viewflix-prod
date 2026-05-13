@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4Njg=",
+  "tipo": "serie",
+  "titulo": "ISTO E FUTEBOL",
+  "capa_url": "https://lgfp.one/DKG1",
+  "capa_local": "ISTO E FUTEBOL/ISTO E FUTEBOL.jpg",
+  "sinopse": "Um emocionante documentário de seis partes que mostra o impacto extraordinário do futebol no mundo. Das ruas de Délhi aos campos da Ruanda pós-guerra, até os lances da Liga dos Campeões, esta série conta uma história única do esporte e de seu poder de unir países, inspirar gerações e cativar bilhões ao redor do globo.",
+  "genero": "Documentário",
+  "elenco": "Pierluigi Collina, Juan Mata, Lionel Messi, Pep Guardiola, Oliver Kahn",
+  "diretor": "Jesse Vile, Jesse Vile",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:49"
+        }
+      ]
+    }
+  ],
+  "id": 5905
+}

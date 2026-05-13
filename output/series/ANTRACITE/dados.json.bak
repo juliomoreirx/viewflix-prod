@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMTg=",
+  "tipo": "serie",
+  "titulo": "ANTRACITE",
+  "capa_url": "https://lgfp.one/ARZ4",
+  "capa_local": "ANTRACITE/ANTRACITE.jpg",
+  "sinopse": "Um antigo caso é reaberto depois que um repórter desaparece, levando a filha dele a investigar uma cidadezinha assombrada por uma seita, segredos e mortes.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "Hatik, Noémie Schmidt, Camille Lou, Nicolas Godart, Raphaël Ferret",
+  "diretor": "Julius Berg",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:42"
+        }
+      ]
+    }
+  ],
+  "id": 5226
+}

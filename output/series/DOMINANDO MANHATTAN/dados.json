@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3Mjk=",
+  "tipo": "serie",
+  "titulo": "DOMINANDO MANHATTAN",
+  "capa_url": "https://lgfp.one/RAZ8",
+  "capa_local": "DOMINANDO MANHATTAN/DOMINANDO MANHATTAN.jpg",
+  "sinopse": "O magnata Ryan Serhant comanda uma das maiores imobiliárias de Nova York e tem os melhores corretores com ele. Afinal, vale tudo para vender os imóveis mais caros.",
+  "genero": "Reality",
+  "elenco": "Ryan Serhant",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:45"
+        }
+      ]
+    }
+  ],
+  "id": 8440
+}

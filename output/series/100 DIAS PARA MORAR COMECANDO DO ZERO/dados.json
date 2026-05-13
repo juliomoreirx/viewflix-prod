@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNjc=",
+  "tipo": "serie",
+  "titulo": "100 DIAS PARA MORAR: COMEÇANDO DO ZERO",
+  "capa_url": "https://lgfp.one/RDE7",
+  "capa_local": "100 DIAS PARA MORAR COMECANDO DO ZERO/100 DIAS PARA MORAR COMECANDO DO ZERO.jpg",
+  "sinopse": "O incorporador Brian e a corretora de imóveis Mika Kleinschmidt constroem casas de sonho para clientes de Tampa, Flórida. Juntos, o casal projeta e constrói casa perfeita em 100 dias ou menos.",
+  "genero": "Reality",
+  "elenco": "Brian Kleinschmidt, Mika Kleinschmidt",
+  "diretor": "Hashim Williams",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:47"
+        }
+      ]
+    }
+  ],
+  "id": 8474
+}

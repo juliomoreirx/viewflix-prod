@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwODA=",
+  "tipo": "serie",
+  "titulo": "O LADO OBSCURO DE GANGNAM [L]",
+  "capa_url": "https://lgfp.one/EKD1",
+  "capa_local": "O LADO OBSCURO DE GANGNAM [L]/O LADO OBSCURO DE GANGNAM [L].jpg",
+  "sinopse": "Quando Jaehee, uma garota de programa de luxo de uma boate em Gangnam, desaparece, o detetive Kang Dongwoo retorna para investigar. A promotora Min Seojin tenta ser promovida, e o famoso cafetão Yoon Gilho é o principal suspeito. Os três descobrem uma trama de segredos e conexões por trás do caso.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "조우진, 지창욱, 하윤경, 비비, 정재광",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:19"
+        }
+      ]
+    }
+  ],
+  "id": 6290
+}

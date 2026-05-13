@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NjI=",
+  "tipo": "serie",
+  "titulo": "O IMPOSTOR",
+  "capa_url": "https://lgfp.one/QOA6",
+  "capa_local": "O IMPOSTOR/O IMPOSTOR.jpg",
+  "sinopse": "Devendo dinheiro para um traficante de drogas, Riku decide se infiltrar em um grupo de jovens ricos para tentar roubá-los. Mas ele acaba se apaixonando por uma jovem herdeira e começa a gostar do seu novo estilo de vida.",
+  "genero": "Crime, Drama",
+  "elenco": "Daniel Virtanen, Karim Rapatti, Elias Gould, Marketta Tikkanen, Pihla Maalismaa",
+  "diretor": "Mikko Kuparinen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:45"
+        }
+      ]
+    }
+  ],
+  "id": 221613
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4ODY=",
+  "tipo": "serie",
+  "titulo": "OS EXPERIENTES",
+  "capa_url": "https://lgfp.one/AAZL",
+  "capa_local": "OS EXPERIENTES/OS EXPERIENTES.jpg",
+  "sinopse": "Os Experientes é a história de Mickey L'Angelo, Yeray, Samuel, Lucas e Guada, cinco adolescentes especiais que fogem de um hospital psiquiátrico em busca de um lugar no mundo.",
+  "genero": "Drama",
+  "elenco": "Álvaro Requena, Marco Sanz, Sara Manzano, Aitor Valadés, Héctor Pérez",
+  "diretor": "Roger Gual",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:48"
+        }
+      ]
+    }
+  ],
+  "id": 4003
+}

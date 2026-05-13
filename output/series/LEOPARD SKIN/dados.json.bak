@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MzE=",
+  "tipo": "serie",
+  "titulo": "LEOPARD SKIN",
+  "capa_url": "https://lgfp.one/REE1",
+  "capa_local": "LEOPARD SKIN/LEOPARD SKIN.jpg",
+  "sinopse": "Uma quadrilha fugindo de um roubo de diamantes se esconde numa propriedade à beira-mar onde duas mulheres vivem isoladas. A vida de todos vira uma rede de segredos, traições e desejo.",
+  "genero": "Crime, Drama",
+  "elenco": "Carla Gugino, Gaite Jansen, Ana de la Reguera, Margot Bingham, Nora Arnezeder",
+  "diretor": "Sebastian Gutierrez",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:24"
+        }
+      ]
+    }
+  ],
+  "id": 8505
+}

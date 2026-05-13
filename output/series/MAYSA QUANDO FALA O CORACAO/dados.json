@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwNDI=",
+  "tipo": "serie",
+  "titulo": "MAYSA: QUANDO FALA O CORAÇÃO",
+  "capa_url": "https://lgfp.one/SGM1",
+  "capa_local": "MAYSA QUANDO FALA O CORACAO/MAYSA QUANDO FALA O CORACAO.jpg",
+  "sinopse": "A minissérie retrata a vida da cantora Maysa, que desafiou os padrões de seu tempo nos anos de 1950 a 70, tornando-se uma estrela e vivendo intensamente seus amores e desilusões.",
+  "genero": "Drama",
+  "elenco": "Larissa Maciel, Eduardo Semerjian, Mateus Solano, Priscilla Rozenbaum, Nelson Baskerville",
+  "diretor": "Jayme Monjardim, Jayme Monjardim, Susana Furtado",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:07"
+        }
+      ]
+    }
+  ],
+  "id": 9131
+}

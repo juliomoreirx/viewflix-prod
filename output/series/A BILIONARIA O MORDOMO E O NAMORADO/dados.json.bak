@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDg=",
+  "tipo": "serie",
+  "titulo": "A BILIONARIA O MORDOMO E O NAMORADO",
+  "capa_url": "https://lgfp.one/ASXU",
+  "capa_local": "A BILIONARIA O MORDOMO E O NAMORADO/A BILIONARIA O MORDOMO E O NAMORADO.jpg",
+  "sinopse": "Como um conflito entre uma das mulheres mais ricas do mundo e sua filha virou um escândalo nacional na França? Esta série documental explica tudo.",
+  "genero": "Documentário, Crime",
+  "elenco": "Liliane Bettencourt, Françoise Bettencourt Meyers, François-Marie Banier, Nicolas Sarkozy",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:26"
+        }
+      ]
+    }
+  ],
+  "id": 4414
+}

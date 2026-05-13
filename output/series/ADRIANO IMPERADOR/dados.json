@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MDc=",
+  "tipo": "serie",
+  "titulo": "ADRIANO IMPERADOR",
+  "capa_url": "https://lgfp.one/TLK",
+  "capa_local": "ADRIANO IMPERADOR/ADRIANO IMPERADOR.jpg",
+  "sinopse": "No auge de sua carreira, Adriano Leite Ribeiro, jogador consagrado Imperador pela torcida da Inter de Milão, abre mão de contratos milionários para ir em busca de seu bem mais valioso: a felicidade.",
+  "genero": "Documentário",
+  "elenco": "Adriano Imperador",
+  "diretor": "Susanna Lira",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:23"
+        }
+      ]
+    }
+  ],
+  "id": 2699
+}

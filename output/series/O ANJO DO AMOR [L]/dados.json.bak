@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxOTg=",
+  "tipo": "serie",
+  "titulo": "O ANJO DO AMOR [L]",
+  "capa_url": "https://lgfp.one/BHX6",
+  "capa_local": "O ANJO DO AMOR [L]/O ANJO DO AMOR [L].jpg",
+  "sinopse": "Dan é um anjo encrenqueiro e otimista. Yeon Seo é uma bailarina que não acredita no amor. Dan então recebe uma missão, a de encontrar o verdadeiro amor para Yeon Seo, caso consiga, poderá voltar para o céu. Mas Dan logo se apaixona por ela.",
+  "genero": "Drama, Comédia",
+  "elenco": "신혜선, L, 이동건, 김보미, 도지원",
+  "diretor": "Lee Jung-sub",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:04:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:27"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:04:12"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:03:42"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:04:23"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:03:43"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:03:51"
+        }
+      ]
+    }
+  ],
+  "id": 5601
+}

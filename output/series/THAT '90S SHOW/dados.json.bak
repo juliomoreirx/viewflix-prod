@@ -1,0 +1,160 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMjQ=",
+  "tipo": "serie",
+  "titulo": "THAT '90S SHOW",
+  "capa_url": "https://lgfp.one/XUN",
+  "capa_local": "THAT '90S SHOW/THAT '90S SHOW.jpg",
+  "sinopse": "Kitty e Red Forman recebem uma nova geração de adolescentes em seu porão quando a neta Leia decide passar o verão com eles no Wisconsin.",
+  "genero": "Comédia",
+  "elenco": "Kurtwood Smith, Debra Jo Rupp, Callie Haverda, Ashley Aufderheide, Mace Coronel, Reyn Doi, Sam Morelos, Maxwell Acee Donovan",
+  "diretor": "Bonnie Turner, Terry Turner, Gregg Mettler",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:20:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:22:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:22:47"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:25:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:22:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:22:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:22:35"
+        }
+      ]
+    }
+  ],
+  "id": 3222
+}

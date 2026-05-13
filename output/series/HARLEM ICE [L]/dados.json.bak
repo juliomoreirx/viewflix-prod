@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5ODI=",
+  "tipo": "serie",
+  "titulo": "HARLEM ICE [L]",
+  "capa_url": "https://lgfp.one/MYU1",
+  "capa_local": "HARLEM ICE [L]/HARLEM ICE [L].jpg",
+  "sinopse": "\"Harlem Ice\" é uma série documental de cinco episódios que acompanha as meninas do Patinação Artística no Harlem, enquanto elas se preparam para competições, performances e uma experiência global transformadora. Pelos olhos delas, acompanhamos os altos e baixos da temporada do PAH, e sua experiência única como garotas negras, furando a bolha do gelo e ganhando acesso a um palco global.",
+  "genero": "Documentário",
+  "elenco": "Tori Prentice, Ashley Prentice, Adrianna Walker, Ariyana Peal, Ila Epperson",
+  "diretor": "Ron Howard, Geeta Gandbhir",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:08"
+        }
+      ]
+    }
+  ],
+  "id": 6873
+}

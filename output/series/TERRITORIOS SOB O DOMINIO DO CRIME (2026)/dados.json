@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4ODE=",
+  "tipo": "serie",
+  "titulo": "TERRITORIOS SOB O DOMINIO DO CRIME (2026)",
+  "capa_url": "https://lgfp.one/TBZ8",
+  "capa_local": "TERRITORIOS SOB O DOMINIO DO CRIME (2026)/TERRITORIOS SOB O DOMINIO DO CRIME (2026).jpg",
+  "sinopse": "Com acesso inédito e relatos impactantes de vítimas, autoridades e ex-chefes do tráfico, a série documental mostra como facções criminosas tomaram o controle de parte do Brasil.",
+  "genero": "Documentário, Crime, War & Politics",
+  "elenco": "",
+  "diretor": "Gustavo Gomes",
+  "total_episodios": "321",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:15"
+        }
+      ]
+    }
+  ],
+  "id": 9515
+}

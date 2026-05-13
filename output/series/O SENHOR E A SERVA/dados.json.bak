@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2OTQ=",
+  "tipo": "serie",
+  "titulo": "O SENHOR E A SERVA",
+  "capa_url": "https://lgfp.one/QCY6",
+  "capa_local": "O SENHOR E A SERVA/O SENHOR E A SERVA.jpg",
+  "sinopse": "Em meio à grandiosidade e crueldade do Império Romano, O Senhor e a Serva narra a jornada de Elisa, uma jovem cristã marcada pela perda, mas inabalável em sua fé. Entregue como serva à casa de Caius, um herói de guerra endurecido pela dor, ela encontra um lar dividido por mágoas e silêncios. As filhas de Caius, carentes de afeto, e o próprio senhor, envolto em sombras e paixões vazias, são impactados pela luz e bondade de Elisa. Enquanto Roma celebra a inauguração do Coliseu com cem dias de violência e espetáculo, os cristãos enfrentam perseguições implacáveis. Nesse cenário sombrio, paixões se entrelaçam, segredos vêm à tona e personagens marcantes traçam seus destinos entre o amor, a fé e a luta por sobrevivência. Inspirado em fatos históricos, O Senhor e a Serva é um épico de resistência e esperança, onde o amor que nasce da fé é a única chama capaz de vencer a escuridão.",
+  "genero": "Drama",
+  "elenco": "Nathalia Florentino, Dudu Pelizzari, Rafael Sardão, César Pezzuoli, Thais Melchior",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:51:51"
+        }
+      ]
+    }
+  ],
+  "id": 8114
+}

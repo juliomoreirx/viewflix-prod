@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMDU=",
+  "tipo": "serie",
+  "titulo": "MR MCMAHON",
+  "capa_url": "https://lgfp.one/DTC2",
+  "capa_local": "MR MCMAHON/MR MCMAHON.jpg",
+  "sinopse": "Sob o comando de Vince McMahon, a WWE quebrou recordes, mas também chegou aos seus pontos mais baixos. Esta série documental examina esse reinado controverso.",
+  "genero": "Documentário",
+  "elenco": "Vince McMahon, Dwayne Johnson, John Cena, Hulk Hogan, Steve Austin",
+  "diretor": "",
+  "total_episodios": "342",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:47"
+        }
+      ]
+    }
+  ],
+  "id": 6032
+}

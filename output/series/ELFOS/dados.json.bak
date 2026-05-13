@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NzI=",
+  "tipo": "serie",
+  "titulo": "ELFOS",
+  "capa_url": "https://lgfp.one/SQB",
+  "capa_local": "ELFOS/ELFOS.jpg",
+  "sinopse": "Dois irmãos decidem tirar férias em uma ilha remota, e acabam descobrindo que elfos sanguinários aterrorizam os moradores do lugar.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Vivelill Søgaard Holm, Ann Eleonora Jørgensen, Sonja Steen, Peder Pedersen, Milo Campanale",
+  "diretor": "Roni Ezra",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:28"
+        }
+      ]
+    }
+  ],
+  "id": 2118
+}

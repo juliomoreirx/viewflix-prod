@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NjA=",
+  "tipo": "serie",
+  "titulo": "THE COMEY RULE",
+  "capa_url": "https://lgfp.one/SSY",
+  "capa_local": "THE COMEY RULE/THE COMEY RULE.jpg",
+  "sinopse": "Publicado em 17 de abril de 2018, o livro de Comey foi o primeiro a expor o interior da administração do governo Trump. Ele chegou às bancas um ano após o diretor ser demitido do FBI, porque afirmou em uma audiência no Senado em junho de 2017 que o presidente havia pedido que ele abandonasse parte da investigação sobre possível interferência russa nas eleições de 2016.",
+  "genero": "War & Politics, Drama",
+  "elenco": "Jeff Daniels, Brendan Gleeson, Holly Hunter, Michael Kelly, Jennifer Ehle",
+  "diretor": "Richard L. Fox",
+  "total_episodios": "105",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:29"
+        }
+      ]
+    }
+  ],
+  "id": 2200
+}

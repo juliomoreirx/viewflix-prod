@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4Njk=",
+  "tipo": "serie",
+  "titulo": "ZOOTOPIA+",
+  "capa_url": "https://lgfp.one/WBC",
+  "capa_local": "ZOOTOPIA+/ZOOTOPIA+.jpg",
+  "sinopse": "Volte a metrópole dos mamíferos e conheça melhor a vida de uma série de personagens intrigantes.",
+  "genero": "Animação, Família, Action & Adventure",
+  "elenco": "",
+  "diretor": "Byron Howard",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:06:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:08:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:07:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:07:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:07:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:08:58"
+        }
+      ]
+    }
+  ],
+  "id": 3067
+}

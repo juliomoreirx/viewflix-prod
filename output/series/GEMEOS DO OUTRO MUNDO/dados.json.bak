@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NTg=",
+  "tipo": "serie",
+  "titulo": "GÊMEOS DO OUTRO MUNDO",
+  "capa_url": "https://lgfp.one/RDW",
+  "capa_local": "GEMEOS DO OUTRO MUNDO/GEMEOS DO OUTRO MUNDO.jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "Dean Cameron, Stuart Fratkin, Victor Brandt, Allan Royal",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:21"
+        }
+      ]
+    }
+  ],
+  "id": 913
+}

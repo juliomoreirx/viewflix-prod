@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MzE=",
+  "tipo": "serie",
+  "titulo": "JUVENILE JUSTICE",
+  "capa_url": "https://lgfp.one/SYG",
+  "capa_local": "JUVENILE JUSTICE/JUVENILE JUSTICE.jpg",
+  "sinopse": "Uma juíza dura equilibra sua aversão a infratores menores com crenças firmes sobre justiça e punição enquanto lida com casos complexos dentro de um tribunal juvenil.",
+  "genero": "Drama, Crime",
+  "elenco": "Kim Hye-su, Kim Mu-yeol, Lee Sung-min",
+  "diretor": "Hong Jong-chan",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:09:19"
+        }
+      ]
+    }
+  ],
+  "id": 2343
+}

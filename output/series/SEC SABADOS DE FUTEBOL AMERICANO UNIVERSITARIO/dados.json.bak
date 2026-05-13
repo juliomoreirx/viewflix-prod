@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NDg=",
+  "tipo": "serie",
+  "titulo": "SEC SABADOS DE FUTEBOL AMERICANO UNIVERSITÁRIO",
+  "capa_url": "https://lgfp.one/PQZ3",
+  "capa_local": "SEC SABADOS DE FUTEBOL AMERICANO UNIVERSITARIO/SEC SABADOS DE FUTEBOL AMERICANO UNIVERSITARIO.jpg",
+  "sinopse": "Acompanhe os jogadores e técnicos de maior prestígio da SEC nesta série documental sem filtros que acessa os bastidores da temporada 2024.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:28"
+        }
+      ]
+    }
+  ],
+  "id": 7767
+}

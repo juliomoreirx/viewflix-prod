@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4ODQ=",
+  "tipo": "serie",
+  "titulo": "DAVID BLAINE MAGIA INESPERADA [L]",
+  "capa_url": "https://lgfp.one/NLH2",
+  "capa_local": "DAVID BLAINE MAGIA INESPERADA [L]/DAVID BLAINE MAGIA INESPERADA [L].jpg",
+  "sinopse": "Um documentário em seis partes explorando o mundo pela visão da mágica. Procurando pessoas incríveis que realizam feitos reais que parecem mágica, Blaine nos leva numa jornada de cair o queixo por algumas das culturas mais extraordinárias do mundo enquanto procura  espíritos afins, busca inspiração e aprende habilidades excepcionais no processo.",
+  "genero": "Documentário",
+  "elenco": "David Blaine",
+  "diretor": "Ron Howard, Toby Oppenheimer, Matthew Akers",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:46"
+        }
+      ]
+    }
+  ],
+  "id": 7414
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzE=",
+  "tipo": "serie",
+  "titulo": "PERSEGUINDO ONDAS",
+  "capa_url": "https://lgfp.one/XRZ",
+  "capa_local": "PERSEGUINDO ONDAS/PERSEGUINDO ONDAS.jpg",
+  "sinopse": "Às vésperas da estreia do surfe na Olimpíada de Tóquio, a série é focada nas pessoas e nos locais que definem o alcance do Japão na cultura global do surfe. Esta série documental voltada para os personagens segue atletas multiculturais correndo atrás dos seus sonhos, pinta uma imagem cativante da vida japonesa e exibe o que é preciso para ter sucesso na indústria internacional do surfe.",
+  "genero": "Documentário",
+  "elenco": "Connor O'Leary, Mahina Maeda, Hiroto Ohhara, Sara Kohrogi, Shino Matsuda, Kanoa Igarashi",
+  "diretor": "Christopher G. Cowen",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:32"
+        }
+      ]
+    }
+  ],
+  "id": 3194
+}

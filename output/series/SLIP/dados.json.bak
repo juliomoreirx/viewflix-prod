@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4OTQ=",
+  "tipo": "serie",
+  "titulo": "SLIP",
+  "capa_url": "https://lgfp.one/AAOO",
+  "capa_local": "SLIP/SLIP.jpg",
+  "sinopse": "Segue Mae Cannon enquanto ela se encontra inquieta dentro de um casamento que funciona totalmente. Uma nova jornada fantástica a levará a universos paralelos.",
+  "genero": "Drama, Sci-Fi & Fantasy, Comédia",
+  "elenco": "Zoe Lister-Jones, Tymika Tafari, Whitmer Thomas, Amar Chadha-Patel, Emily Hampshire",
+  "diretor": "Zoe Lister-Jones",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:55"
+        }
+      ]
+    }
+  ],
+  "id": 3722
+}

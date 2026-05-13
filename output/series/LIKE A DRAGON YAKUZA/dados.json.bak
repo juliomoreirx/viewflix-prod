@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NDg=",
+  "tipo": "serie",
+  "titulo": "LIKE A DRAGON YAKUZA",
+  "capa_url": "https://lgfp.one/EAZ2",
+  "capa_local": "LIKE A DRAGON YAKUZA/LIKE A DRAGON YAKUZA.jpg",
+  "sinopse": "Ambientada na fictícia cidade de Kamurocho, a trama se desenrola através de duas linhas de tempo que se alternam - 1995 e 2005. Em 1995, quatro amigos ansiosos para escapar da austera vida em um orfanato mergulham no submundo controlado pela Yakuza. Enquanto isso, em 2005, a amizade deles está deteriorada, ao mesmo tempo em que a tensão entre o clã Tojo e o clã Omi está atingindo o limite.",
+  "genero": "Action & Adventure, Crime, Drama",
+  "elenco": "Ryoma Takeuchi, Kento Kaku, 河合優実, 渋谷すばる, 唐沢寿明",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:55"
+        }
+      ]
+    }
+  ],
+  "id": 6156
+}

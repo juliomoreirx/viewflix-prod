@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MDM=",
+  "tipo": "serie",
+  "titulo": "PÁTRIA",
+  "capa_url": "https://lgfp.one/AAPB",
+  "capa_local": "PATRIA/PATRIA.jpg",
+  "sinopse": "A série segue a história de duas famílias divididas pelo conflito separatista no País Basco. No dia em que o ETA anuncia o abandono das armas, Bittori decide voltar à cidade onde seu marido, Txato, foi morto pelos terroristas.",
+  "genero": "Drama, War & Politics, Crime",
+  "elenco": "Elena Irureta, Ane Gabarain, Iñigo Aranbarri, Susana Abaitua, José Ramón Soroiz",
+  "diretor": "Óscar Pedraza, Félix Viscarret",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:56"
+        }
+      ]
+    }
+  ],
+  "id": 3735
+}

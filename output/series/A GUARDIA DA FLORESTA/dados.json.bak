@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNDQ=",
+  "tipo": "serie",
+  "titulo": "A GUARDIÃ DA FLORESTA",
+  "capa_url": "https://lgfp.one/TPQ",
+  "capa_local": "A GUARDIA DA FLORESTA/A GUARDIA DA FLORESTA.jpg",
+  "sinopse": "Carrie está destinada a proteger o mundo humano de seres que vivem do outro lado da porta mágica no meio da floresta. Quando alguém descobre a porta e liberta as criaturas, Carrie precisa de ajuda.",
+  "genero": "Mistério, Sci-Fi & Fantasy",
+  "elenco": "Stefanie Scott, Sofia Bryant, Misha Osherovich, Will Yun Lee, Kylie Liya Page",
+  "diretor": "Jacob Chase, Joey Greene",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:29"
+        }
+      ]
+    }
+  ],
+  "id": 2813
+}

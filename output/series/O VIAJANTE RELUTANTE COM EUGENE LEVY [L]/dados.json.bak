@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MjY=",
+  "tipo": "serie",
+  "titulo": "O VIAJANTE RELUTANTE COM EUGENE LEVY [L]",
+  "capa_url": "https://lgfp.one/QCM0",
+  "capa_local": "O VIAJANTE RELUTANTE COM EUGENE LEVY [L]/O VIAJANTE RELUTANTE COM EUGENE LEVY [L].jpg",
+  "sinopse": "Eugene Levy, ator premiado e explorador nervoso, sai da sua zona de conforto para um tour vertiginoso nos destinos mais lindos e intrigantes do mundo.",
+  "genero": "Documentário",
+  "elenco": "Eugene Levy",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:25"
+        }
+      ]
+    }
+  ],
+  "id": 8081
+}

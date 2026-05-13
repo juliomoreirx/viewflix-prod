@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNDk=",
+  "tipo": "serie",
+  "titulo": "MR HEART [L]",
+  "capa_url": "https://lgfp.one/AUQ7",
+  "capa_local": "MR HEART [L]/MR HEART [L].jpg",
+  "sinopse": "O Drama será sobre o amor e a amizade entre uma estrela da maratona em ascensão e um percursor. Lee Se Jin assumirá o papel do sprinter Sang Ha, um cara que tenta ser forte e manter um sorriso apesar das dificuldades. Cheon Seung Ho(do boygroup THE MAN BLK) interpretará Jin Won, a estrela da maratona em ascensão que é apática sobre tudo, exceto maratonas.",
+  "genero": "Comédia, Drama",
+  "elenco": "Cheon Seung-ho, Han Se-jin, Lara, Yoo Jang-young",
+  "diretor": "Park Sun-jae",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:09:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:12:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:12:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:12:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:05:20"
+        }
+      ]
+    }
+  ],
+  "id": 5292
+}

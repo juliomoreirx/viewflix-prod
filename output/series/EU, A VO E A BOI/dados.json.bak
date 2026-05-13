@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1MzI=",
+  "tipo": "serie",
+  "titulo": "EU, A VÓ E A BOI",
+  "capa_url": "https://lgfp.one/IYW",
+  "capa_local": "EU, A VO E A BOI/EU, A VO E A BOI.jpg",
+  "sinopse": "A história de uma inimizade que atravessa décadas. Travando uma guerra sem tréguas, as vizinhas vão às últimas consequências para infernizar a vida uma da outra.",
+  "genero": "Comédia",
+  "elenco": "Daniel Rangel, Arlete Salles, Vera Holtz, Danielle Winits, Marco Luque",
+  "diretor": "Allexia Galvão, Mariana Richard, Paulo Silvestrini",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:29"
+        }
+      ]
+    }
+  ],
+  "id": 331
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMjc=",
+  "tipo": "serie",
+  "titulo": "AMORES QUE ENGANAM",
+  "capa_url": "https://lgfp.one/DVJ1",
+  "capa_local": "AMORES QUE ENGANAM/AMORES QUE ENGANAM.jpg",
+  "sinopse": "Uma série de antologia com histórias de mulheres que enfrentam relacionamentos cotidianos e dificuldades modernas, desde violência doméstica e desgosto até doenças mentais e infertilidade.",
+  "genero": "Drama",
+  "elenco": "Carlos Ponce, Jorge Salinas, Scarlet Ortiz, Mark Tacher, Ana Patricia Rojo",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:11"
+        }
+      ]
+    }
+  ],
+  "id": 6087
+}

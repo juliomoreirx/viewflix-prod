@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNDA=",
+  "tipo": "serie",
+  "titulo": "ORGULHO ALÉM DA TELA",
+  "capa_url": "https://lgfp.one/ARKR",
+  "capa_local": "ORGULHO ALEM DA TELA/ORGULHO ALEM DA TELA.jpg",
+  "sinopse": "A partir de imagens de arquivo e depoimentos dos talentos da Globo e do público, o documentário traça a cronologia da representação de personagens LGBTQIA+ nas novelas da Globo.",
+  "genero": "Documentário",
+  "elenco": "Aguinaldo Silva, Ricardo Linhares, Walcyr Carrasco, Gilberto Braga, Manoel Carlos",
+  "diretor": "Antonia Prado, Mariano Boni, Rafael Dragaud",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:21"
+        }
+      ]
+    }
+  ],
+  "id": 4278
+}

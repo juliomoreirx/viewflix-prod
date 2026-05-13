@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMzE=",
+  "tipo": "serie",
+  "titulo": "CASA FANTASMA HOSPEDEIRO FANTASMA [L]",
+  "capa_url": "https://lgfp.one/DTB3",
+  "capa_local": "CASA FANTASMA HOSPEDEIRO FANTASMA [L]/CASA FANTASMA HOSPEDEIRO FANTASMA [L].jpg",
+  "sinopse": "Kevin é um live streamer cuja paixão, devido a traumas passados, é o desafio de caçar fantasmas. Ele não sabia que viria a ficar debaixo do mesmo teto que os fantasmas que caça quando vem morar com seus parentes na Tailândia. Então ele conhece Pluem, um jovem que parece entender seus sentimentos de perda. Juntos, os dois têm que enfrentar uma verdade muito difícil de suportar.",
+  "genero": "Comédia, Mistério",
+  "elenco": "Tod Techit Panyanarapon, Nattapon Wongwanich, Guide Chavanvit Vongpong, Natty Natthamon Jantraviphart, Rina Wacharin Anantapong",
+  "diretor": "Kwankaow Koosakulnirund",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:13"
+        }
+      ]
+    }
+  ],
+  "id": 6023
+}

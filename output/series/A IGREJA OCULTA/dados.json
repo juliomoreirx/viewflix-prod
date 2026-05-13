@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyODQ=",
+  "tipo": "serie",
+  "titulo": "A IGREJA OCULTA",
+  "capa_url": "https://lgfp.one/AMA9",
+  "capa_local": "A IGREJA OCULTA/A IGREJA OCULTA.jpg",
+  "sinopse": "Conheça os interesses ocultos da Igreja Católica Apostólica Romana. Veja quantas das mensagens de Jesus foram distorcidas ao longo dos séculos e acompanhe os interesses obscuros por trás dessas mudanças.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:25"
+        }
+      ]
+    }
+  ],
+  "id": 5118
+}

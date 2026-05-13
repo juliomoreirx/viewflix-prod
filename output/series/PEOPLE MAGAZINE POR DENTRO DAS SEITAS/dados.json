@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDg=",
+  "tipo": "serie",
+  "titulo": "PEOPLE MAGAZINE POR DENTRO DAS SEITAS",
+  "capa_url": "https://lgfp.one/NZH4",
+  "capa_local": "PEOPLE MAGAZINE POR DENTRO DAS SEITAS/PEOPLE MAGAZINE POR DENTRO DAS SEITAS.jpg",
+  "sinopse": "Em mais de 30 anos como líderes de uma seita religiosa, Deborah e Jim Green arruinaram centenas de vidas. Este episódio relata como os Greens passaram de hippies carismáticos a líderes religiosos implacáveis.",
+  "genero": "Crime, Documentário",
+  "elenco": "Theresa Croft, Nathalie Frederick, Jim Jones",
+  "diretor": "Jason Bolicki",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 7352
+}

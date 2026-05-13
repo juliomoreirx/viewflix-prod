@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMDU=",
+  "tipo": "serie",
+  "titulo": "UM OMBRO PARA CHORAR [L]",
+  "capa_url": "https://lgfp.one/BAV7",
+  "capa_local": "UM OMBRO PARA CHORAR [L]/UM OMBRO PARA CHORAR [L].jpg",
+  "sinopse": "Na escola, Lee Da Yeol (Jae Han) passa a maior parte do tempo vivendo como um deslocado. Ele não é nem de longe popular, e a única alegria real de Dae Yeol vem de seu tempo gasto com o clube de arco e flecha. Um arqueiro talentoso cujas habilidades lhe renderam uma bolsa de estudos para a faculdade, Da Yeol não se importa em ser um deslocado, desde que seja livre para perseguir sua maior paixão. Mas um desentendimento inoportuno com um colega de classe diabolicamente bonito o deixa em apuros e coloca em risco sua preciosa bolsa de estudos.",
+  "genero": "Drama",
+  "elenco": "Kim Jae-han, Shin Ye-chan, Shin Si-ye, Jeong Ho-gyoon, Kim Dong-won",
+  "diretor": "Song Su-rim",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:59"
+        }
+      ]
+    }
+  ],
+  "id": 5425
+}

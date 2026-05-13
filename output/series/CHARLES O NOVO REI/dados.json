@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNDQ=",
+  "tipo": "serie",
+  "titulo": "CHARLES O NOVO REI",
+  "capa_url": "https://lgfp.one/BABV",
+  "capa_local": "CHARLES O NOVO REI/CHARLES O NOVO REI.jpg",
+  "sinopse": "Este especial nos apresenta o novo monarca britânico. Após o longo reinado de Elizabeth II, seu filho, Charles, se torna o rei Charles III. Por meio de arquivos reais e entrevistas reveladoras, examinaremos sua vida e personalidade para descobrir que tipo de rei ele será. Conseguirá igualar-se a sua mãe?",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:15"
+        }
+      ]
+    }
+  ],
+  "id": 5020
+}

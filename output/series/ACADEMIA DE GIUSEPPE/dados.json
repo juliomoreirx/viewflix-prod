@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwODY=",
+  "tipo": "serie",
+  "titulo": "ACADEMIA DE GIUSEPPE",
+  "capa_url": "https://lgfp.one/AMW3",
+  "capa_local": "ACADEMIA DE GIUSEPPE/ACADEMIA DE GIUSEPPE.jpg",
+  "sinopse": "Nesta divertida competição de culinária, o chef italiano Giuseppe Gerundino vai desvendar os segredos por trás de receitas tradicionais italianas para 4 alimentos entusiastas, usando a estrutura de sua Academia Gastronômica, que opera em São Paulo há 14 anos.",
+  "genero": "Reality",
+  "elenco": "Giuseppe Gerundino",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:55"
+        }
+      ]
+    }
+  ],
+  "id": 5142
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNTk=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS DE NATAL",
+  "capa_url": "https://lgfp.one/ITE",
+  "capa_local": "SEGREDOS DE NATAL/SEGREDOS DE NATAL.jpg",
+  "sinopse": "Uma reunião de Natal faz uma viagem ao passado nesta série dividida em três partes, que explora as complexidades da história de uma família.",
+  "genero": "Drama",
+  "elenco": "Corinna Harfouch, Christiane Paul, Svenja Jung, Leonie Benesch, Hans-Uwe Bauer",
+  "diretor": "Samira Radsi",
+  "total_episodios": "34",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:56"
+        }
+      ]
+    }
+  ],
+  "id": 172
+}

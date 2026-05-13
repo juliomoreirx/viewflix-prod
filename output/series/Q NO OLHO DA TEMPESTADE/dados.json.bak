@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NzQ=",
+  "tipo": "serie",
+  "titulo": "Q: NO OLHO DA TEMPESTADE",
+  "capa_url": "https://lgfp.one/SKM",
+  "capa_local": "Q NO OLHO DA TEMPESTADE/Q NO OLHO DA TEMPESTADE.jpg",
+  "sinopse": "É um documentário americano dirigida e produzida por Cullen Hoback. Ele explora a teoria da conspiração QAnon e as pessoas envolvidas com ela. Estreou na HBO em 21 de março de 2021.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:04"
+        }
+      ]
+    }
+  ],
+  "id": 1967
+}

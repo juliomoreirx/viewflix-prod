@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NDI=",
+  "tipo": "serie",
+  "titulo": "POST MORTEM: NINGUÉM MORRE EM SKARNES",
+  "capa_url": "https://lgfp.one/SEQ",
+  "capa_local": "POST MORTEM NINGUEM MORRE EM SKARNES/POST MORTEM NINGUEM MORRE EM SKARNES.jpg",
+  "sinopse": "Ela voltou da morte com sede de sangue. E a funerária da família está precisando de dinheiro. Hmm... E se ela desse uma ajudinha?",
+  "genero": "Drama, Comédia, Mistério",
+  "elenco": "Kathrine Thorborg Johansen, Elias Holmen Sørensen, André Sørum, Kim Fairchild, Sara Khorami",
+  "diretor": "Espen Sandberg, Harald Zwart, Hans Christian Omsted",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:08"
+        }
+      ]
+    }
+  ],
+  "id": 1810
+}

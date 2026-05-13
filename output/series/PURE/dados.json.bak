@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NjQ=",
+  "tipo": "serie",
+  "titulo": "PURE",
+  "capa_url": "https://lgfp.one/QRM5",
+  "capa_local": "PURE/PURE.jpg",
+  "sinopse": "\"Pure\" conta a história de Noah Funk, um pastor menonita recém-eleito, que está determinado a livrar sua comunidade de traficantes de drogas, denunciando um membro da comunidade à polícia.",
+  "genero": "Crime, Drama",
+  "elenco": "Dylan Everett, Víctor Gómez, Alex Paxton-Beesley, Ryan Robbins, Jessica Clement",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:53"
+        }
+      ]
+    }
+  ],
+  "id": 8396
+}

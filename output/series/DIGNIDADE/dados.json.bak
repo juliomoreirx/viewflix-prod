@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NDg=",
+  "tipo": "serie",
+  "titulo": "DIGNIDADE",
+  "capa_url": "https://lgfp.one/RIP",
+  "capa_local": "DIGNIDADE/DIGNIDADE.jpg",
+  "sinopse": "Chile, 1997. O advogado Leo Ramirez (32) é recrutado para liderar uma perigosa investigação contra Colônia Dignidade, uma das organizações criminosas mais cruéis da história do Chile, e para prender seu líder máximo Paul Schäfer, um fugitivo da justiça por abuso de menores.",
+  "genero": "Drama",
+  "elenco": "Götz Otto, Devid Striesow, Jennifer Ulrich, Antonia Zegers",
+  "diretor": "Julio Jorquera",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:46"
+        }
+      ]
+    }
+  ],
+  "id": 1043
+}

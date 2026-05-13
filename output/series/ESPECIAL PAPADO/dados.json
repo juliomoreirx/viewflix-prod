@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTY=",
+  "tipo": "serie",
+  "titulo": "ESPECIAL PAPADO",
+  "capa_url": "https://lgfp.one/RQY0",
+  "capa_local": "ESPECIAL PAPADO/ESPECIAL PAPADO.jpg",
+  "sinopse": "O Papa, como chefe supremo da Igreja Católica, tem grande relevância no mundo, com ações que influenciam não apenas a esfera religiosa, mas também os âmbitos político e social. Nesta série especial, acompanhe os mistérios e singularidades da vida e dos arredores dos sucessores de São Pedro.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Filipe Valerim, Renato Dias",
+  "total_episodios": "37",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:18:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:45"
+        }
+      ]
+    }
+  ],
+  "id": 8836
+}

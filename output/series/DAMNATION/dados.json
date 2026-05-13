@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NjE=",
+  "tipo": "serie",
+  "titulo": "DAMNATION",
+  "capa_url": "https://lgfp.one/TGV",
+  "capa_local": "DAMNATION/DAMNATION.jpg",
+  "sinopse": "A década de 1930 foi um período difícil no interior americano. Magnatas e religiosos charlatões disputavam pelo poder sobre a população oprimida e desprivilegiada. Nessa situação, Seth Davenport se inflama e decide derrubar o stats quo através de uma revolta geral. Para tanto, ele se finge de pastor numa pequena cidade do estado de Iowa. Porém, Creelet está na sua cola. Ele é um fura-greve profissional contratado por um empresário inescrupuloso. Creeley e Seth, entretanto, vão descobrir que tem muito mais conflito em comum entre si que pensam. Há situações sangrentas que os dois compartilham no passado, mas não sabem disso ainda.",
+  "genero": "Faroeste",
+  "elenco": "Killian Scott, Logan Marshall-Green, Sarah Jones, Chasten Harmon, Christopher Heyerdahl",
+  "diretor": "James Mangold, Jonnie Katz",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:24"
+        }
+      ]
+    }
+  ],
+  "id": 2571
+}

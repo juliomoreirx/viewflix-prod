@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MjQ=",
+  "tipo": "serie",
+  "titulo": "BIG BOYS [L]",
+  "capa_url": "https://lgfp.one/AAXR",
+  "capa_local": "BIG BOYS [L]/BIG BOYS [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia, Drama",
+  "elenco": "Dylan Llewellyn, Jonathan Pointing, Camille Coduri, Katy Wix, Izuka Hoyle",
+  "diretor": "Jim Archer",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:33"
+        }
+      ]
+    }
+  ],
+  "id": 3957
+}

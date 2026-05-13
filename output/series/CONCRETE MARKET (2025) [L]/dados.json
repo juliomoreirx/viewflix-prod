@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNjE=",
+  "tipo": "serie",
+  "titulo": "CONCRETE MARKET (2025) [L]",
+  "capa_url": "https://lgfp.one/SMB1",
+  "capa_local": "CONCRETE MARKET (2025) [L]/CONCRETE MARKET (2025) [L].jpg",
+  "sinopse": "Após um terremoto devastador, sobreviventes lutam pelo controle do último mercado de pé.",
+  "genero": "Drama",
+  "elenco": "Lee Jae In, 홍경, 정만식, Yoo Su Bin, 김국희",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:04"
+        }
+      ]
+    }
+  ],
+  "id": 9214
+}

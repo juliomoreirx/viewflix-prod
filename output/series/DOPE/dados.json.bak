@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MzE=",
+  "tipo": "serie",
+  "titulo": "DOPE",
+  "capa_url": "https://lgfp.one/SBA5",
+  "capa_local": "DOPE/DOPE.jpg",
+  "sinopse": "Filmada na perspectiva de traficantes, usuários e policiais, esta série oferece uma visão realista e abrangente sobre a guerra contra as drogas.",
+  "genero": "Documentário, Crime, War & Politics",
+  "elenco": "",
+  "diretor": "Rob VanAlkemade",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:50"
+        }
+      ]
+    }
+  ],
+  "id": 9002
+}

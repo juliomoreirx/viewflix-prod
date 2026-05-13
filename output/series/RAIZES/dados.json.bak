@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMTg=",
+  "tipo": "serie",
+  "titulo": "RAÍZES",
+  "capa_url": "https://lgfp.one/KGW4",
+  "capa_local": "RAIZES/RAIZES.jpg",
+  "sinopse": "Kunta Kinte, um garoto que foi sequestrado na África e enviado para os Estados Unidos, sempre se recusou a aceitar seu nome de escravo. Seus descendentes mantiveram vivo seu espírito heroico de rebelião, escrevendo seu nome entre as futuras gerações.",
+  "genero": "Drama",
+  "elenco": "John Amos, Madge Sinclair, LeVar Burton, Olivia Cole, Ben Vereen",
+  "diretor": "John Erman, Marvin J. Chomsky, Gilbert Moses",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:32:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:31:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:31:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:31:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:32:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:31:29"
+        }
+      ]
+    }
+  ],
+  "id": 9201
+}

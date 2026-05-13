@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MDc=",
+  "tipo": "serie",
+  "titulo": "IRISH BLOOD [L]",
+  "capa_url": "https://lgfp.one/PXF3",
+  "capa_local": "IRISH BLOOD [L]/IRISH BLOOD [L].jpg",
+  "sinopse": "A advogada de divórcio Fiona Sharpe recebe uma mensagem de seu pai distante e embarca em uma jornada para a Irlanda.\n\nEla descobre verdades familiares e o passado sombrio de seu pai, percebendo que a história de abandono de sua vida era uma mentira para portegê-la.",
+  "genero": "Drama, Mistério",
+  "elenco": "Alicia Silverstone, Wendy Crewson, Jason O'Mara, Dearbhla Molloy, Simone Kirby",
+  "diretor": "Molly McGlynn",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:47"
+        }
+      ]
+    }
+  ],
+  "id": 7918
+}

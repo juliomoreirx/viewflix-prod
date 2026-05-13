@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwODA=",
+  "tipo": "serie",
+  "titulo": "JOGO CRUZADO",
+  "capa_url": "https://lgfp.one/PFH7",
+  "capa_local": "JOGO CRUZADO/JOGO CRUZADO.jpg",
+  "sinopse": "Elisa e Matheus são inimigos declarados. Ela é uma jornalista esportiva talentosa e de pavio curto; ele é um artilheiro de futebol famoso pelas farras. Quando um problema de saúde força o jogador a interromper sua carreira, Elisa tem a chance de apresentar seu primeiro programa de esportes, com uma condição: dividir a bancada com seu desafeto. E a guerra entre eles vira a receita do sucesso.",
+  "genero": "Drama",
+  "elenco": "José Loreto, Carol Castro, Roberto Birindelli, Luciana Paes, Leandro Ramos",
+  "diretor": "Pedro Amorim",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:29"
+        }
+      ]
+    }
+  ],
+  "id": 7567
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MjY=",
+  "tipo": "serie",
+  "titulo": "CRISALIDA",
+  "capa_url": "https://lgfp.one/RFZ8",
+  "capa_local": "CRISALIDA/CRISALIDA.jpg",
+  "sinopse": "Crisálida é a primeira série de ficção dramática bilíngue, em Libras e português, realizada no Brasil.",
+  "genero": "Drama",
+  "elenco": "Harry Adams, Miriam Royer, Chico Caprario, Joanna Bruna Tiepo, Marco Stroisch",
+  "diretor": "Serginho Melo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:31"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:42"
+        }
+      ]
+    }
+  ],
+  "id": 8590
+}

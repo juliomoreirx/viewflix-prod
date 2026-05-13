@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMTI=",
+  "tipo": "serie",
+  "titulo": "FERRY A SERIE",
+  "capa_url": "https://lgfp.one/ASPH",
+  "capa_local": "FERRY A SERIE/FERRY A SERIE.jpg",
+  "sinopse": "Desesperado por grana, Ferry Bouman vê uma oportunidade de ouro bater em sua porta quando uma operação policial libera uma vaga entre os maiores traficantes de Brabant.",
+  "genero": "Crime, Drama",
+  "elenco": "Frank Lammers, Elise Schaap, Raymond Thiry, Yannick van de Velde, Tim Haars",
+  "diretor": "Eshref Reybrouck, Nico Moolenaar, Wout van Humbeeck",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:31"
+        }
+      ]
+    }
+  ],
+  "id": 4393
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MTY=",
+  "tipo": "serie",
+  "titulo": "PAM E TOMMY",
+  "capa_url": "https://lgfp.one/SZR",
+  "capa_local": "PAM E TOMMY/PAM E TOMMY.jpg",
+  "sinopse": "Ambientada nos primórdios da internet, Pam & Tommy é baseada na incrível história real por trás da primeira sex tape que viralizou protagonizada por Pamela Anderson e Tommy Lee. O vídeo, roubado da casa do casal por um eletricista insatisfeito, passou da curiosidade clandestina do VHS para tornar-se uma sensação mundial quando chegou à web em 1997.",
+  "genero": "Comédia / Drama",
+  "elenco": "Lily James, Sebastian Stan, Nick Offerman, Taylor Schilling, Seth Rogen",
+  "diretor": "Robert D. Siegel",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:58"
+        }
+      ]
+    }
+  ],
+  "id": 2380
+}

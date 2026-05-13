@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NDU=",
+  "tipo": "serie",
+  "titulo": "DASH & LILY",
+  "capa_url": "https://lgfp.one/RIN",
+  "capa_local": "DASH & LILY/DASH & LILY.jpg",
+  "sinopse": "Os opostos se atraem quando o cínico Dash e a otimista Lily trocam mensagens e desafios em um caderno que vão deixando em diferentes pontos de Nova York.",
+  "genero": "Comédia, Drama",
+  "elenco": "Austin Abrams, Midori Francis, Dante Brown, Troy Iwata",
+  "diretor": "Shawn Levy, Brad Silberling",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:14:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:20"
+        }
+      ]
+    }
+  ],
+  "id": 1041
+}

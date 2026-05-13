@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwODQ=",
+  "tipo": "serie",
+  "titulo": "BRIGHT MINDS",
+  "capa_url": "https://lgfp.one/BFA4",
+  "capa_local": "BRIGHT MINDS/BRIGHT MINDS.jpg",
+  "sinopse": "Quando a Comandante Raphaëlle Coste se dirige ao departamento de arquivos judiciais da polícia para uma de suas investigações, ela não suspeita que encontrará uma jovem tão brilhante quanto confusa, uma memória viva de investigações criminais, Astrid, 30 anos, com uma particularidade: Autista.",
+  "genero": "Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:29:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:18"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:49:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:51:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:57:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:55:52"
+        }
+      ]
+    }
+  ],
+  "id": 5565
+}

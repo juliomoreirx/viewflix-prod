@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMDk=",
+  "tipo": "serie",
+  "titulo": "BANG BANG BABY",
+  "capa_url": "https://lgfp.one/THE",
+  "capa_local": "BANG BANG BABY/BANG BANG BABY.jpg",
+  "sinopse": "1986. Alice é uma garota de 16 anos que vive em uma pequena cidade no norte da Itália. Sua vida muda repentinamente quando ela descobre que seu pai, falecido há muito tempo, ainda está vivo. Alice começa uma jornada ao submundo do crime de Milão, mergulhando no perigoso universo da ‘ndrangheta por amor ao pai. Quando ela tentar sair desse universo, já pode ser tarde demais.",
+  "genero": "Drama / Crime",
+  "elenco": "Arianna Becheroni, Giorgia Arena, Barbara Chichianelli, Pietro Paschini, Adriano Giannini, Lucia Mascino, Dora Romano, Christina Andrea Rosamilia",
+  "diretor": "Michele Alhaique",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:49"
+        }
+      ]
+    }
+  ],
+  "id": 2580
+}

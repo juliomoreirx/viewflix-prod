@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NTQ=",
+  "tipo": "serie",
+  "titulo": "SOLTEIROS NUNCA MAIS",
+  "capa_url": "https://lgfp.one/PFZ9",
+  "capa_local": "SOLTEIROS NUNCA MAIS/SOLTEIROS NUNCA MAIS.jpg",
+  "sinopse": "Interessados em começar a namorar, solteiros e solteiras de longa data recebem dicas de estilo, saúde e confiança. Será que agora eles vão conseguir encontrar o amor?",
+  "genero": "Reality",
+  "elenco": "서인국, 강한나, Lee Eun Ji, 카더가든",
+  "diretor": "Jo Wook Hyung, Kim No Eun e Won Seung Jae",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:22:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:16:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:15:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:21:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:23:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:29:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:14:47"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:11:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:18:27"
+        }
+      ]
+    }
+  ],
+  "id": 7595
+}

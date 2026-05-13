@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0OTM=",
+  "tipo": "serie",
+  "titulo": "O DOUTRINADOR – A SÉRIE",
+  "capa_url": "https://lgfp.one/JDO",
+  "capa_local": "O DOUTRINADOR  A SERIE/O DOUTRINADOR  A SERIE.jpg",
+  "sinopse": "Miguel é um agente federal que decidiu dedicar a vida a combater a corrupção após uma tragédia pessoal. Agora, seu maior objetivo é combater uma quadrilha de políticos e bandidos que tomaram a frente da política brasileira e passaram a governar o país pensando apenas em seus próprios interesses.",
+  "genero": "Crime, Action & Adventure, Drama",
+  "elenco": "Marília Gabriela, Helena Ranaldi, Lucy Ramos, Tainá Medina, Tuca Andrada",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 477
+}

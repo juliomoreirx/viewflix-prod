@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MjY=",
+  "tipo": "serie",
+  "titulo": "SECRETS OF THE HELLS ANGELS [L]",
+  "capa_url": "https://lgfp.one/RHM6",
+  "capa_local": "SECRETS OF THE HELLS ANGELS [L]/SECRETS OF THE HELLS ANGELS [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Jay Dobyns, Sonny Barger, George Christie",
+  "diretor": "David Foulkes",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:15"
+        }
+      ]
+    }
+  ],
+  "id": 8686
+}

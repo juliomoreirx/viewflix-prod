@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMzg=",
+  "tipo": "serie",
+  "titulo": "COWBOY CARTEL [L]",
+  "capa_url": "https://lgfp.one/DJP9",
+  "capa_local": "COWBOY CARTEL [L]/COWBOY CARTEL [L].jpg",
+  "sinopse": "Quando um agente novato do FBI descobre um enorme esquema de lavagem de dinheiro no turfe dos EUA, ele arrisca a vida para derrubar os culpados: o cartel mais letal do México.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:33"
+        }
+      ]
+    }
+  ],
+  "id": 5859
+}

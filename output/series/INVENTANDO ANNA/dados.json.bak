@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3Mzc=",
+  "tipo": "serie",
+  "titulo": "INVENTANDO ANNA",
+  "capa_url": "https://lgfp.one/SWT",
+  "capa_local": "INVENTANDO ANNA/INVENTANDO ANNA.jpg",
+  "sinopse": "Empreendedora audaciosa ou golpista? Uma jornalista conta a história de Anna Delvey, que convenceu a elite de Nova York de que era uma herdeira alemã.",
+  "genero": "Drama",
+  "elenco": "Anna Chlumsky, Julia Garner, Arian Moayed, Katie Lowes, Alexis Floyd",
+  "diretor": "David Frankel, Ellen Kuras, Nzingha Stewart, Tom Verica, Daisy von Scherler Mayer",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:15:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:22:52"
+        }
+      ]
+    }
+  ],
+  "id": 2304
+}

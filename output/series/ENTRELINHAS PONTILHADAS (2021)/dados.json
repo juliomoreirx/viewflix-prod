@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MDk=",
+  "tipo": "serie",
+  "titulo": "ENTRELINHAS PONTILHADAS (2021)",
+  "capa_url": "https://lgfp.one/SGQ2",
+  "capa_local": "ENTRELINHAS PONTILHADAS (2021)/ENTRELINHAS PONTILHADAS (2021).jpg",
+  "sinopse": "Durante uma viagem entre amigos, um cartunista com a consciência personificada em um tatu reflete sobre sua vida e um amor não correspondido.",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "Zerocalcare, Valerio Mastandrea",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:02"
+        }
+      ]
+    }
+  ],
+  "id": 9138
+}

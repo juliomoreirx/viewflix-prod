@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMjA=",
+  "tipo": "serie",
+  "titulo": "AS ULTIMAS HORAS DO TITANIC (2025)",
+  "capa_url": "https://lgfp.one/SUE0",
+  "capa_local": "AS ULTIMAS HORAS DO TITANIC (2025)/AS ULTIMAS HORAS DO TITANIC (2025).jpg",
+  "sinopse": "A série recria meticulosamente as 2 horas e 40 minutos finais do RMS Titanic, desde a colisão com o iceberg às 23h40 até o naufrágio total às 02h20. Sem recorrer a tramas românticas inventadas, a produção foca no caos humano real, na confusão nos corredores, nas ordens mal compreendidas e nas decisões de vida ou morte tomadas por passageiros e tripulantes reais. É um relato histórico cru e imersivo sobre a \"insubmersível\" maravilha da engenharia enfrentando seu fim.",
+  "genero": "Documentário, Drama",
+  "elenco": "Hannah Wengård, Vicky Allen, Candida Gubbins, Sara Diab, Patrick Buchanan",
+  "diretor": "Hugh Ballantyne",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:46"
+        }
+      ]
+    }
+  ],
+  "id": 9396
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNTA=",
+  "tipo": "serie",
+  "titulo": "MEMORY OF A KILLER [L]",
+  "capa_url": "https://lgfp.one/RMY7",
+  "capa_local": "MEMORY OF A KILLER [L]/MEMORY OF A KILLER [L].jpg",
+  "sinopse": "Angelo vive uma vida dupla como assassino e pai de família, que funcionou bem até que ele sofreu de início precoce da doença de Alzheimer. Agora seus mundos colidem, colocando sua família em perigo.",
+  "genero": "Crime",
+  "elenco": "Patrick Dempsey, Michael Imperioli, Odeya Rush, Richard Harmon, Daniel David Stewart",
+  "diretor": "Martin Campbell",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:59"
+        }
+      ]
+    }
+  ],
+  "id": 8735
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1OTc=",
+  "tipo": "serie",
+  "titulo": "A ODISSÉIA",
+  "capa_url": "https://lgfp.one/RQD8",
+  "capa_local": "A ODISSEIA/A ODISSEIA.jpg",
+  "sinopse": "Após dez anos, a Guerra de Troia chega ao fim e o herói Odisseu faz uma viagem de volta para casa. Ele enfrenta criaturas mitológicas, deuses e outros inimigos poderosos.",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "Armand Assante, Greta Scacchi, Isabella Rossellini, Bernadette Peters, Eric Roberts",
+  "diretor": "Andrei Konchalovsky, Francis Ford Coppola, Andrei Konchalovsky",
+  "total_episodios": "88",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:31:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:31:54"
+        }
+      ]
+    }
+  ],
+  "id": 4277
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MzU=",
+  "tipo": "serie",
+  "titulo": "HOME ECONOMICS [L]",
+  "capa_url": "https://lgfp.one/RPF",
+  "capa_local": "HOME ECONOMICS [L]/HOME ECONOMICS [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "Topher Grace, Caitlin McGee, Jimmy Tatro, Karla Souza, Sasheer Zamata",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:39"
+        }
+      ]
+    }
+  ],
+  "id": 1223
+}

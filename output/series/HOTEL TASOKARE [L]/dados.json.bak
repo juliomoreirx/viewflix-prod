@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5MjI=",
+  "tipo": "serie",
+  "titulo": "HOTEL TASOKARE [L]",
+  "capa_url": "https://lgfp.one/KXR7",
+  "capa_local": "HOTEL TASOKARE [L]/HOTEL TASOKARE [L].jpg",
+  "sinopse": "Quem você realmente é? O Hotel Tasokare fica na fronteira entre a vida e a morte, e serve como local de repouso para as almas perdidas que não sabem se devem voltar à vida ou seguir em frente. Após vagar sem destino, Neko Tsukahara chega no hotel sem saber quem é ou de como veio parar ali. Enquanto tenta recuperar sua identidade, Neko se depara com certo incidente...",
+  "genero": "Animação, Mistério, Drama",
+  "elenco": "桃河りか, 酒井広大, 白井悠介, 山本兼平, 長野佑紀",
+  "diretor": "紅水康介",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 6573
+}

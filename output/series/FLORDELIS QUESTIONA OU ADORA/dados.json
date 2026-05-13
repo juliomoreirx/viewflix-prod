@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTg=",
+  "tipo": "serie",
+  "titulo": "FLORDELIS: QUESTIONA OU ADORA",
+  "capa_url": "https://lgfp.one/VZH",
+  "capa_local": "FLORDELIS QUESTIONA OU ADORA/FLORDELIS QUESTIONA OU ADORA.jpg",
+  "sinopse": "Em seis episódios, a série conta a história de Flordelis, que foi de um exemplo de mulher religiosa que adotou mais de 50 filhos a mandante de um crime bárbaro envolvendo sua família.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:45"
+        }
+      ]
+    }
+  ],
+  "id": 3019
+}

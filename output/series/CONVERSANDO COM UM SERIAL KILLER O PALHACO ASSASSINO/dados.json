@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODA=",
+  "tipo": "serie",
+  "titulo": "CONVERSANDO COM UM SERIAL KILLER: O PALHAÇO ASSASSINO",
+  "capa_url": "https://lgfp.one/TEB",
+  "capa_local": "CONVERSANDO COM UM SERIAL KILLER O PALHACO ASSASSINO/CONVERSANDO COM UM SERIAL KILLER O PALHACO ASSASSINO.jpg",
+  "sinopse": "Ele circulava entre os poderosos, mas se aproveitava dos vulneráveis. Por trás da aparência alegre, havia toda a podridão de um sádico serial killer.",
+  "genero": "Documentário",
+  "elenco": "John Wayne Gacy, Sam Amirante, Greg Bedoe, Rafael Tovar, Mike Albrecht",
+  "diretor": "Joe Berlinger",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:44"
+        }
+      ]
+    }
+  ],
+  "id": 2497
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MTI=",
+  "tipo": "serie",
+  "titulo": "DECODIFICANDO DESASTRES",
+  "capa_url": "https://lgfp.one/KTV2",
+  "capa_local": "DECODIFICANDO DESASTRES/DECODIFICANDO DESASTRES.jpg",
+  "sinopse": "Imagens de arquivo e efeitos especiais de ponta são usados para explorar desastres globais, mostrando o impacto que esses eventos podem causar e fornecendo uma compreensão de como e por que eles ocorrem.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:29"
+        }
+      ]
+    }
+  ],
+  "id": 6546
+}

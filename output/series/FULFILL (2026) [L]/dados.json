@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NzE=",
+  "tipo": "serie",
+  "titulo": "FULFILL (2026) [L]",
+  "capa_url": "https://lgfp.one/SXD4",
+  "capa_local": "FULFILL (2026) [L]/FULFILL (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia, Drama",
+  "elenco": "Saralee Prasitdumrong, อิษยา ฮอสุวรรณ, Kanin Stanley, Mil Sarut Nawapraditkul, Daraneenute Pasutanavin",
+  "diretor": "Saratswadee Wongsomphet",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:03"
+        }
+      ]
+    }
+  ],
+  "id": 9451
+}

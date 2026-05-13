@@ -1,0 +1,170 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2NzY=",
+  "tipo": "serie",
+  "titulo": "O URSO [L]",
+  "capa_url": "https://lgfp.one/PZN2",
+  "capa_local": "O URSO [L]/O URSO [L].jpg",
+  "sinopse": "Carmy, um jovem chefe requintado, volta para Chicago para administrar a lanchonete de sua família. Enquanto ele luta para transformar a loja e a si mesmo, ele trabalha ao lado de uma equipe medíocre que acaba se transformando na sua família.",
+  "genero": "Drama, Comédia",
+  "elenco": "Jeremy Allen White, Ebon Moss-Bachrach, Ayo Edebiri, Lionel Boyce, Abby Elliott",
+  "diretor": "Hiro Murai, Christopher Storer",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:38"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:29:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:25:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:29:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:33:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:06:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:34:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:31:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:38:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:40:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:36:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:33:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:34:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:33:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:28:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:39:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:42:52"
+        }
+      ]
+    }
+  ],
+  "id": 7984
+}

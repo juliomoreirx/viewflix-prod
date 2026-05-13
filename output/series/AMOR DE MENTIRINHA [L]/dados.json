@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MTc=",
+  "tipo": "serie",
+  "titulo": "AMOR DE MENTIRINHA [L]",
+  "capa_url": "https://lgfp.one/QHP0",
+  "capa_local": "AMOR DE MENTIRINHA [L]/AMOR DE MENTIRINHA [L].jpg",
+  "sinopse": "Meri é traída pelo noivo e perde a casa num golpe. Em sua pior fase, ela ganha a mansão Beauté Palace, mas precisará aparecer casada para recebê-la. Sem contato com o ex, ela pede que um estranho com o mesmo nome finja ser seu marido. Eles conseguirão manter o casamento de mentirinha em segredo?",
+  "genero": "Comédia, Drama",
+  "elenco": "Woo-sik Choi, 정소민, 신슬기, 배나라, Seo Bum-june",
+  "diretor": "Kwon Da-som",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:11:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:04:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:12:53"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:33"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:11:40"
+        }
+      ]
+    }
+  ],
+  "id": 8372
+}

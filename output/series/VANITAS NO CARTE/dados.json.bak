@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3MzM=",
+  "tipo": "serie",
+  "titulo": "VANITAS NO CARTE",
+  "capa_url": "https://lgfp.one/SMJ",
+  "capa_local": "VANITAS NO CARTE/VANITAS NO CARTE.jpg",
+  "sinopse": "A história acompanha um vampiro chamado Noé, que está a procura de uma forma de salvar seu amigo. Ele viaja até Paris para encontrar O Livro de Vanitas, que dizem ser capaz de salvar os vampiros, porém, isso acaba levando a um confronto que coloca em risco a paz entre humanos e vampiros.",
+  "genero": "Animação / Mistério / Action & Adventure",
+  "elenco": "Natsuki Hanae, Kaito Ishikawa, Inori Minase, Shino Shimoji, Ai Kayano, Yoko Hikasa, Akira Ishida, Toshiyuki Morikawa",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 2016
+}

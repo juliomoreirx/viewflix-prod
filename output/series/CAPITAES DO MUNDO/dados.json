@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNzM=",
+  "tipo": "serie",
+  "titulo": "CAPITÃES DO MUNDO",
+  "capa_url": "https://lgfp.one/AWUI",
+  "capa_local": "CAPITAES DO MUNDO/CAPITAES DO MUNDO.jpg",
+  "sinopse": "Dos vestiários ao campo, esta série documental acompanha de perto os 32 times em busca da maior conquista do futebol na Copa do Mundo FIFA 2022.",
+  "genero": "Documentário",
+  "elenco": "Lionel Messi, Kylian Mbappé, Luka Modric, Cristiano Ronaldo, Olivier Giroud",
+  "diretor": "Ben Turner, Gabe Turner, Ben Turner",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:56"
+        }
+      ]
+    }
+  ],
+  "id": 4688
+}

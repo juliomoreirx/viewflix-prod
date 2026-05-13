@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NDA=",
+  "tipo": "serie",
+  "titulo": "FERIAS MORTAIS",
+  "capa_url": "https://lgfp.one/PSJ3",
+  "capa_local": "FERIAS MORTAIS/FERIAS MORTAIS.jpg",
+  "sinopse": "Explorando o lado sombrio dos destinos turísticos exóticos através de relatos em primeira mão dos envolvidos em incidentes trágicos.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jessica Biel",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:33"
+        }
+      ]
+    }
+  ],
+  "id": 7783
+}

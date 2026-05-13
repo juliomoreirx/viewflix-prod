@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NTU=",
+  "tipo": "serie",
+  "titulo": "POLICIAL OU BANDIDO: O ENIGMA DE EIRIK JENSEN",
+  "capa_url": "https://lgfp.one/TIE",
+  "capa_local": "POLICIAL OU BANDIDO O ENIGMA DE EIRIK JENSEN/POLICIAL OU BANDIDO O ENIGMA DE EIRIK JENSEN.jpg",
+  "sinopse": "Um renomado policial norueguês suspeito de traficar drogas deixa os investigadores na maior dúvida: será que ele é um bom policial ou um grande criminoso?",
+  "genero": "Documentário",
+  "elenco": "Tommy Hyving, Eric Vorenholt",
+  "diretor": "Trond Kvig Andreassen,  Ragne Riise",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:54"
+        }
+      ]
+    }
+  ],
+  "id": 2607
+}

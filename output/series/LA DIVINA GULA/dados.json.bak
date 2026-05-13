@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MzA=",
+  "tipo": "serie",
+  "titulo": "LA DIVINA GULA",
+  "capa_url": "https://lgfp.one/SYH",
+  "capa_local": "LA DIVINA GULA/LA DIVINA GULA.jpg",
+  "sinopse": "Delicie-se com esta viagem gastronômica pelas maravilhas da culinária mexicana e seus sabores peculiares.",
+  "genero": "Documentário",
+  "elenco": "Bill Rogers, Memo Villegas, Rodrigo Pérez Ortega",
+  "diretor": "Juan Márquez",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:17"
+        }
+      ]
+    }
+  ],
+  "id": 2344
+}

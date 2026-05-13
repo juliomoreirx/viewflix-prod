@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4Mzk=",
+  "tipo": "serie",
+  "titulo": "MELOU",
+  "capa_url": "https://lgfp.one/KBD7",
+  "capa_local": "MELOU/MELOU.jpg",
+  "sinopse": "Ruth Clarke, uma durona e extremamente competente fazendeira canadense de xarope de bordo de meia-idade, está farta de ser cercada pelas convenções educadas e burocráticas nativas da identidade de seu país. Com a ajuda de Remy Bouchard, um cabeça-dura local e um velho Mike Byrne, um mafioso de baixo escalão, Ruth muda seu destino — e transforma o futuro de sua comunidade com o roubo de milhões de dólares em xarope de bordo.",
+  "genero": "Comédia, Drama",
+  "elenco": "Margo Martindale, Chris Diamantopoulos, Guillaume Cyr",
+  "diretor": "Jonathan Levine",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:14"
+        }
+      ]
+    }
+  ],
+  "id": 6330
+}

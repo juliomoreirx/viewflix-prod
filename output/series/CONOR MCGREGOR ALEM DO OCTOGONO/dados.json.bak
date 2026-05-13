@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MTk=",
+  "tipo": "serie",
+  "titulo": "CONOR MCGREGOR: ALÉM DO OCTÓGONO",
+  "capa_url": "https://lgfp.one/AAFT",
+  "capa_local": "CONOR MCGREGOR ALEM DO OCTOGONO/CONOR MCGREGOR ALEM DO OCTOGONO.jpg",
+  "sinopse": "Com seus golpes potentes e provocações de tirar a paciência, Conor McGregor virou a maior aposta do UFC. Esta série documental acompanha a carreira do lutador.",
+  "genero": "Documentário",
+  "elenco": "Conor McGregor, Dee Devlin, John Kavanagh",
+  "diretor": "Victor Buhler, Gotham Chopra, Darragh McCarthy",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:04"
+        }
+      ]
+    }
+  ],
+  "id": 3523
+}

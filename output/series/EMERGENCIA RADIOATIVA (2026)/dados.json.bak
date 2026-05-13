@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MTE=",
+  "tipo": "serie",
+  "titulo": "EMERGENCIA RADIOATIVA (2026)",
+  "capa_url": "https://lgfp.one/SGF8",
+  "capa_local": "EMERGENCIA RADIOATIVA (2026)/EMERGENCIA RADIOATIVA (2026).jpg",
+  "sinopse": "Físicos e médicos entram em uma corrida contra o tempo para salvar a cidade e milhares de vidas após um grave acidente radiológico.",
+  "genero": "Drama, Mistério, Action & Adventure",
+  "elenco": "Johnny Massaro, Paulo Gorgulho, Leandra Leal, Alan Rocha, Tuca Andrada",
+  "diretor": "Fernando Coimbra, Iberê Carvalho",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:51"
+        }
+      ]
+    }
+  ],
+  "id": 9126
+}

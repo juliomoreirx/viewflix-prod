@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNTQ=",
+  "tipo": "serie",
+  "titulo": "A ASCENSAO E A QUEDA DOS FARAOS",
+  "capa_url": "https://lgfp.one/PSK5",
+  "capa_local": "A ASCENSAO E A QUEDA DOS FARAOS/A ASCENSAO E A QUEDA DOS FARAOS.jpg",
+  "sinopse": "Os faraós do antigo Egito eram considerados deuses na Terra, líderes místicos com poder total. Mas seus templos e tumbas monumentais eram uma forma de impor respeito e demonstrar poder eterno sobre o Egito, ou havia algo mais?",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:24"
+        }
+      ]
+    }
+  ],
+  "id": 7809
+}

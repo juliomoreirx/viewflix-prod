@@ -1,0 +1,195 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2OTE=",
+  "tipo": "serie",
+  "titulo": "THE SINNER",
+  "capa_url": "https://lgfp.one/JGB",
+  "capa_local": "THE SINNER/THE SINNER.jpg",
+  "sinopse": "Quando um assassinato terrível apavora uma cidadezinha, a busca por respostas de um detetive revela uma teia de segredos sinistros.",
+  "genero": "Crime, Drama",
+  "elenco": "Bill Pullman, Frances Fisher, Alice Kremelberg, Neal Huff, Cindy Cheung",
+  "diretor": "Kathryn Moïse, Justin Elsworth, Kathy Houghton",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:07"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:47:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:50:36"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:57:03"
+        }
+      ]
+    }
+  ],
+  "id": 9381
+}

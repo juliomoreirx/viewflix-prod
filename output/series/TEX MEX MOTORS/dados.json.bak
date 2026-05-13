@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MDY=",
+  "tipo": "serie",
+  "titulo": "TEX MEX MOTORS",
+  "capa_url": "https://lgfp.one/AAJM",
+  "capa_local": "TEX MEX MOTORS/TEX MEX MOTORS.jpg",
+  "sinopse": "Nesta série, as latas velhas ficam tinindo após passarem pelas mãos destes especialistas que fazem restaurações radicais em carros trazidos do México para os EUA.",
+  "genero": "Reality",
+  "elenco": "Jaime Hjelm, Andy Stapp, Wesley Zachary",
+  "diretor": "",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:34"
+        }
+      ]
+    }
+  ],
+  "id": 3591
+}

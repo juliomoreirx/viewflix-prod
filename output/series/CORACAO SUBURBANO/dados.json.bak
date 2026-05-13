@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNTI=",
+  "tipo": "serie",
+  "titulo": "CORAÇÃO SUBURBANO",
+  "capa_url": "https://lgfp.one/TTA",
+  "capa_local": "CORACAO SUBURBANO/CORACAO SUBURBANO.jpg",
+  "sinopse": "Rafael Portugal nasceu no subúrbio carioca e criou o Coração Suburbano para dar visibilidade aos lugares que ele tanto se identifica. Quando conhecemos uma nova cidade, raramente buscamos conhecer as riquezas dos subúrbios, que irradiam tendências nas artes e no comportamento do brasileiro. Mas o que faz de cada subúrbio tão especial? Com Rafael, vamos descobrir o coração de cada lugar!",
+  "genero": "Documentário",
+  "elenco": "Rafael Portugal",
+  "diretor": "Vini Videla",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:17:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:08"
+        }
+      ]
+    }
+  ],
+  "id": 2907
+}

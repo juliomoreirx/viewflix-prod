@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1Njg=",
+  "tipo": "serie",
+  "titulo": "OS SEGREDOS DA IGREJA HILLSONG [L]",
+  "capa_url": "https://lgfp.one/QNQ5",
+  "capa_local": "OS SEGREDOS DA IGREJA HILLSONG [L]/OS SEGREDOS DA IGREJA HILLSONG [L].jpg",
+  "sinopse": "Série documental que vai além das manchetes sensacionalistas e entra nos bastidores para investigar o histórico da Hillsong de encobrir casos de má conduta para se proteger.",
+  "genero": "Documentário",
+  "elenco": "Carl Lentz, Alex French, Dan Adler, Brian Houston, Bobbie Houston",
+  "diretor": "Stacey Lee",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:13"
+        }
+      ]
+    }
+  ],
+  "id": 8321
+}

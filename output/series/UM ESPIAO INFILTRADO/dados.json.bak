@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNjc=",
+  "tipo": "serie",
+  "titulo": "UM ESPIÃO INFILTRADO",
+  "capa_url": "https://lgfp.one/EJK6",
+  "capa_local": "UM ESPIAO INFILTRADO/UM ESPIAO INFILTRADO.jpg",
+  "sinopse": "Um professor aposentado e com o dom de improvisar ganha uma nova chance na vida ao ser contratado por uma detetive particular para ajudar na investigação de um caso.",
+  "genero": "Comédia, Crime",
+  "elenco": "Ted Danson, Mary Elizabeth Ellis, Lilah Richcreek Estrada, Mary Steenburgen",
+  "diretor": "Rebecca Asher, Morgan Sackett, Michael Schur",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:31"
+        }
+      ]
+    }
+  ],
+  "id": 6275
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNzc=",
+  "tipo": "serie",
+  "titulo": "DE BURRAS, NADA",
+  "capa_url": "https://lgfp.one/RIO",
+  "capa_local": "DE BURRAS, NADA/DE BURRAS, NADA.jpg",
+  "sinopse": "Após ser traída pelo namorado, Cristina procura um colega de quarto e encontra Alejandro, a quem aceita em sua vida porque acredita que ele é gay. Quando Alejandro decide confessar a verdade, é tarde demais, ambos estão completamente apaixonados.",
+  "genero": "Comédia, Drama",
+  "elenco": "Tessa Ía, Alejandro Montero, Carolina Ramírez, Marimar Vega",
+  "diretor": "Rafa Lara, Rolando Ocampo",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:46"
+        }
+      ]
+    }
+  ],
+  "id": 1042
+}

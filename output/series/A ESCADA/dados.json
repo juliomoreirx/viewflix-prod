@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MTk=",
+  "tipo": "serie",
+  "titulo": "A ESCADA",
+  "capa_url": "https://lgfp.one/TFR",
+  "capa_local": "A ESCADA/A ESCADA.jpg",
+  "sinopse": "Inspirado em uma história de crime real, esta minissérie emocionante acompanha Michael Peterson e sua extensa família da Carolina do Norte após a morte suspeita de sua esposa Kathleen.",
+  "genero": "Drama / Crime",
+  "elenco": "Colin Firth, Toni Collette, Michael Stuhlbarg, Dane DeHaan, Olivia DeJonge, Patrick Schwarzenegger, Sophie Turner, Odessa Young",
+  "diretor": "Antonio Campos",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:13:01"
+        }
+      ]
+    }
+  ],
+  "id": 2540
+}

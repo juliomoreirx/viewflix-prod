@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyOTI=",
+  "tipo": "serie",
+  "titulo": "JESSIE E COLOMBO",
+  "capa_url": "https://lgfp.one/ZCL",
+  "capa_local": "JESSIE E COLOMBO/JESSIE E COLOMBO.jpg",
+  "sinopse": "Um jovem casal de militantes que, encurralados pela ditadura militar, sequestram um avião em troca de presos políticos. Os dois são torturados e passam quase dez anos na prisão. Nesse período, se comunicam através de cartas de tonalidade sentimental, política, existencial, mas também marcadas por ciúmes, assuntos ordinários e da rotina do cárcere.",
+  "genero": "Documentário / Crime",
+  "elenco": "Andréia Horta, Humberto Carrão",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:56"
+        }
+      ]
+    }
+  ],
+  "id": 3391
+}

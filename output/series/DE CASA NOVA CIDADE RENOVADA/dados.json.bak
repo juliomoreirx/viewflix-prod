@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4Njc=",
+  "tipo": "serie",
+  "titulo": "DE CASA NOVA: CIDADE RENOVADA",
+  "capa_url": "https://lgfp.one/SOU",
+  "capa_local": "DE CASA NOVA CIDADE RENOVADA/DE CASA NOVA CIDADE RENOVADA.jpg",
+  "sinopse": "Depois que um chamado nacional em busca de uma cidade precisando de transformação colheu 5 mil inscrições, Wetumpka, no Alabama, foi escolhida. Ben e Erin, com a ajuda de convidados, vão tentar revitalizar toda a cidade.",
+  "genero": "Reality",
+  "elenco": "Ben Napier, Erin Napier",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:00"
+        }
+      ]
+    }
+  ],
+  "id": 2081
+}

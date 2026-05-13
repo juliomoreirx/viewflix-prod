@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NjI=",
+  "tipo": "serie",
+  "titulo": "NA MIRA DO JÚRI: RETIRO CORPORATIVO",
+  "capa_url": "https://lgfp.one/SMH9",
+  "capa_local": "NA MIRA DO JURI RETIRO CORPORATIVO/NA MIRA DO JURI RETIRO CORPORATIVO.jpg",
+  "sinopse": "Anthony, um funcionário temporário, é contratado na Molho Picante Rockin' Grandma's (uma empresa falsa) para o retiro anual, o último do CEO Doug antes da aposentadoria. O filho, Dougie Jr., tenta provar que sabe liderar, enquanto uma equipe interessante de capital privado sonda a empresa para comprá-la.",
+  "genero": "Comédia",
+  "elenco": "Anthony Norman, Blair Beeken, Alex Bonifer, Warren Burke, LaNisa Renee Frederick",
+  "diretor": "Jake Szymanski, Alex Kavutskiy, John O'Rourke",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:37"
+        }
+      ]
+    }
+  ],
+  "id": 9224
+}

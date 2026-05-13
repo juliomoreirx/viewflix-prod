@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMDE=",
+  "tipo": "serie",
+  "titulo": "NADA ORTODOXA",
+  "capa_url": "https://lgfp.one/JBK",
+  "capa_local": "NADA ORTODOXA/NADA ORTODOXA.jpg",
+  "sinopse": "Para escapar de um casamento arranjado, uma jovem judia foge do Brooklyn para Berlim e se junta a um grupo de músicos. Mas deixar o passado para trás não vai ser fácil.",
+  "genero": "Drama",
+  "elenco": "שירה האס, עמית רהב, Jeff Wilbusch, Alex Reid, Delia Mayer",
+  "diretor": "Alexa Karolinski",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:02"
+        }
+      ]
+    }
+  ],
+  "id": 407
+}

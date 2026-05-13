@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1Njk=",
+  "tipo": "serie",
+  "titulo": "O LENDARIO MARTIN SCORSESE [L]",
+  "capa_url": "https://lgfp.one/QNQ1",
+  "capa_local": "O LENDARIO MARTIN SCORSESE [L]/O LENDARIO MARTIN SCORSESE [L].jpg",
+  "sinopse": "Explore as inúmeras vidas de Martin Scorsese com acesso exclusivo e irrestrito a seus arquivos pessoais e extensas conversas com amigos, familiares, colaboradores lendários e o próprio cineasta visionário.",
+  "genero": "Documentário",
+  "elenco": "Martin Scorsese, Rebecca Miller",
+  "diretor": "Rebecca Miller, Ronan Day-Lewis, Alex Gibney",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:52"
+        }
+      ]
+    }
+  ],
+  "id": 8317
+}

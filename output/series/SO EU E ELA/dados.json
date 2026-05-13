@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NDI=",
+  "tipo": "serie",
+  "titulo": "SO EU E ELA",
+  "capa_url": "https://lgfp.one/ATMA",
+  "capa_local": "SO EU E ELA/SO EU E ELA.jpg",
+  "sinopse": "Valentina mora com Gabriel, seu pai, em uma praia de Marataízes. Gabriel deixou a esposa quando sua filha tinha apenas 3 anos de idade, e desde então tem sido o único provedor e cuidador da filha. Mas os dois mantém uma relação difícil.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:17:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:16:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:17:49"
+        }
+      ]
+    }
+  ],
+  "id": 4469
+}

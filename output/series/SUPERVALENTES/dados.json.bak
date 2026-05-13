@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1ODE=",
+  "tipo": "serie",
+  "titulo": "SUPERVALENTES",
+  "capa_url": "https://lgfp.one/TRR",
+  "capa_local": "SUPERVALENTES/SUPERVALENTES.jpg",
+  "sinopse": "Uma poderosa deusa reencarnada no corpo de uma jovem precisa aprender a dominar seus poderes para vingar a morte da irmã e proteger a família.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Sthandile Nkosi, Nomalanga Nkosi, Bonko Khoza, Tony Kgoroge, Zamani Mbatha",
+  "diretor": "David 'Tosh' Gitonga, Rolie Nikiwe, Akin Omotoso, Stephina Zwane",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:50"
+        }
+      ]
+    }
+  ],
+  "id": 2871
+}

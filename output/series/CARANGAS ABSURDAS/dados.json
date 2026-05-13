@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNjM=",
+  "tipo": "serie",
+  "titulo": "CARANGAS ABSURDAS",
+  "capa_url": "https://lgfp.one/NJX7",
+  "capa_local": "CARANGAS ABSURDAS/CARANGAS ABSURDAS.jpg",
+  "sinopse": "Apresentado por Rhobson Bola, figura já conhecida do público como o \"vida loka\" do programa \"Turbinados\", você vai se surpreender com as histórias por trás dos possantes. Com uma produção totalmente brasileira, Carangas Absurdas vai apresentar não apenas os carrões, mas também seus donos e os motivos das criações.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:59"
+        }
+      ]
+    }
+  ],
+  "id": 7069
+}

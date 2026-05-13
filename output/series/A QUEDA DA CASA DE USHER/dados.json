@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMzY=",
+  "tipo": "serie",
+  "titulo": "A QUEDA DA CASA DE USHER",
+  "capa_url": "https://lgfp.one/AQKN",
+  "capa_local": "A QUEDA DA CASA DE USHER/A QUEDA DA CASA DE USHER.jpg",
+  "sinopse": "Para proteger a fortuna e o futuro, um casal de irmãos constrói uma dinastia familiar que começa a ruir quando cada um dos herdeiros morre misteriosamente.",
+  "genero": "Mistério, Drama",
+  "elenco": "Carla Gugino, Bruce Greenwood, Mary McDonnell, Henry Thomas, Kate Siegel",
+  "diretor": "Mike Flanagan, Morgan Beggs",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:16:58"
+        }
+      ]
+    }
+  ],
+  "id": 4183
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNDQ=",
+  "tipo": "serie",
+  "titulo": "FAZENDAS E SONHOS",
+  "capa_url": "https://lgfp.one/ASZJ",
+  "capa_local": "FAZENDAS E SONHOS/FAZENDAS E SONHOS.jpg",
+  "sinopse": "A especialista em agricultura Indy Officinalis visita agricultores e fazendas iniciantes que precisam de ajuda para realizar seus sonhos.",
+  "genero": "Reality, Documentário",
+  "elenco": "Indy Srinath",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:04"
+        }
+      ]
+    }
+  ],
+  "id": 4428
+}

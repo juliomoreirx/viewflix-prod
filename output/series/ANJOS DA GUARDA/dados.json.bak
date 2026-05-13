@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MTE=",
+  "tipo": "serie",
+  "titulo": "ANJOS DA GUARDA",
+  "capa_url": "https://lgfp.one/AYZA",
+  "capa_local": "ANJOS DA GUARDA/ANJOS DA GUARDA.jpg",
+  "sinopse": "Acompanhe o trabalho dos bombeiros de Santa Catarina, os verdadeiros \"anjos da guarda\" em salvamentos, combates a incêndios e resgates.",
+  "genero": "Action & Adventure, Reality",
+  "elenco": "",
+  "diretor": "Carla Albuquerque, Beto Ribeiro, Beto Ribeiro",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:41:19"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:40:56"
+        }
+      ]
+    }
+  ],
+  "id": 4889
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5ODc=",
+  "tipo": "serie",
+  "titulo": "SELEÇÃO ARGENTINA: A SÉRIE - RUMO A CATAR",
+  "capa_url": "https://lgfp.one/TLZ",
+  "capa_local": "SELECAO ARGENTINA A SERIE - RUMO A CATAR/SELECAO ARGENTINA A SERIE - RUMO A CATAR.jpg",
+  "sinopse": "A Seleção Argentina de Futebol prepara-se para a Copa do Mundo e abre as portas dos bastidores. As eliminatórias, a Copa América, a Finalíssima e os jogos de preparação para o Catar, como nunca antes visto.",
+  "genero": "Documentário",
+  "elenco": "Lionel Messi, Angel di Maria, Rodrigo De Paul, Lionel Scaloni, Leandro Paredes, Lautaro Martinez, Sergio Agüero, Pablo Aimar",
+  "diretor": "Sebastián Dietsch",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:57"
+        }
+      ]
+    }
+  ],
+  "id": 2714
+}

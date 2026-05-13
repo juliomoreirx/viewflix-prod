@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MTM=",
+  "tipo": "serie",
+  "titulo": "HAPPY FACE UM SERIAL KILLER",
+  "capa_url": "https://lgfp.one/NJU5",
+  "capa_local": "HAPPY FACE UM SERIAL KILLER/HAPPY FACE UM SERIAL KILLER.jpg",
+  "sinopse": "Acompanha Melissa e seu pai encarcerado, conhecido como o assassino Happy Face. Depois de décadas sem contato, ele finalmente encontra um caminho de volta à vida de sua filha. Em uma corrida contra o tempo, Melissa precisa descobrir se um homem inocente será condenado à morte por um crime cometido por seu pai e, ao mesmo tempo, ela descobre o impacto que seu pai teve nas famílias de suas vítimas e, dessa forma, precisando repensar sua própria identidade.",
+  "genero": "Drama, Crime",
+  "elenco": "Annaleigh Ashford, Dennis Quaid, James Wolk, Tamera Tomakili, Khiyla Aynne",
+  "diretor": "Michael Showalter",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:33"
+        }
+      ]
+    }
+  ],
+  "id": 7062
+}

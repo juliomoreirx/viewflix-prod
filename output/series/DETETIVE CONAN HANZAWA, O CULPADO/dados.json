@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MDg=",
+  "tipo": "serie",
+  "titulo": "DETETIVE CONAN: HANZAWA, O CULPADO",
+  "capa_url": "https://lgfp.one/QBY4",
+  "capa_local": "DETETIVE CONAN HANZAWA, O CULPADO/DETETIVE CONAN HANZAWA, O CULPADO.jpg",
+  "sinopse": "Neste spin-off de Detetive Conan, uma silhueta suspeita com sede de sangue aparece na perigosa Cidade de Beika.",
+  "genero": "Animação, Comédia, Mistério",
+  "elenco": "蒼井翔太, Inori Minase, Minami Takayama, 山崎和佳奈, Megumi Urawa",
+  "diretor": "大地丙太郎, 山本泰一郎",
+  "total_episodios": "9",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:10:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:10:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:10:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:10:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:10:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:10:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:10:35"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:10:39"
+        }
+      ]
+    }
+  ],
+  "id": 8030
+}

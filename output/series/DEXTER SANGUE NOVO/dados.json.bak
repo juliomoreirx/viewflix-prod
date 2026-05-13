@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NDY=",
+  "tipo": "serie",
+  "titulo": "DEXTER: SANGUE NOVO",
+  "capa_url": "https://lgfp.one/SNG",
+  "capa_local": "DEXTER SANGUE NOVO/DEXTER SANGUE NOVO.jpg",
+  "sinopse": "Passando-se 10 anos depois do desaparecimento de Dexter no olho do furacão Laura, a série encontra-o vivendo com um nome falso na pequena cidade de Iron Lake, em Nova York. Dexter pode estar abraçando sua nova vida, mas na sequência de eventos inesperados nesta região, seu passado sombrio vem à tona",
+  "genero": "Drama / Crime",
+  "elenco": "Michael C. Hall, Jack Alcott, Julia Jones, Johnny Sequoyah, Alano Miller, Jennifer Carpenter, David Magidoff, Clancy Brown",
+  "diretor": "Clyde Phillips",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:54"
+        }
+      ]
+    }
+  ],
+  "id": 2039
+}

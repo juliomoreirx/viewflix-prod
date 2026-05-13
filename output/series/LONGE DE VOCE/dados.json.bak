@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NTk=",
+  "tipo": "serie",
+  "titulo": "LONGE DE VOCÊ",
+  "capa_url": "https://lgfp.one/RDZ",
+  "capa_local": "LONGE DE VOCE/LONGE DE VOCE.jpg",
+  "sinopse": "A dançarina Candela e o homem de negócios Massimo levam vidas completamente diferentes, mas após uma série de encontros no aeroporto de Praga, o destino lhes prega uma peça.",
+  "genero": "Comédia",
+  "elenco": "Antonio Zavatteri, Megan Montaner, Alessandro Tiberi",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:34"
+        }
+      ]
+    }
+  ],
+  "id": 916
+}

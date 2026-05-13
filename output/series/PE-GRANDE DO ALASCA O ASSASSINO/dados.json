@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3OTA=",
+  "tipo": "serie",
+  "titulo": "PÉ-GRANDE DO ALASCA: O ASSASSINO",
+  "capa_url": "https://lgfp.one/VXN",
+  "capa_local": "PE-GRANDE DO ALASCA O ASSASSINO/PE-GRANDE DO ALASCA O ASSASSINO.jpg",
+  "sinopse": "Setenta anos atrás, uma criatura assassina parecida com o Pé-Grande fez com que moradores fugissem de Portlock, no Alasca. Agora, uma expedição retorna à vila abandonada para recuperar a terra e seus recursos das terríveis feras locais chamadas Nantinaq.",
+  "genero": "Reality",
+  "elenco": "Ash Naderhoff, Keith Seville, D.J. Brewster",
+  "diretor": "Brian Kniffel",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 2976
+}

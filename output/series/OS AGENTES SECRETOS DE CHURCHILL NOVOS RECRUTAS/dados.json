@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNjI=",
+  "tipo": "serie",
+  "titulo": "OS AGENTES SECRETOS DE CHURCHILL: NOVOS RECRUTAS",
+  "capa_url": "https://lgfp.one/JGR",
+  "capa_local": "OS AGENTES SECRETOS DE CHURCHILL NOVOS RECRUTAS/OS AGENTES SECRETOS DE CHURCHILL NOVOS RECRUTAS.jpg",
+  "sinopse": "O programa de treinamento de uma das organizações mais secretas da Segunda Guerra Mundial, a Special Operations Executive (SEO), é retomado.",
+  "genero": "War & Politics, Documentário",
+  "elenco": "Douglas Henshall",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:17:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:16:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:17:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:30"
+        }
+      ]
+    }
+  ],
+  "id": 566
+}

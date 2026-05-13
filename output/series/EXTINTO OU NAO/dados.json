@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MzM=",
+  "tipo": "serie",
+  "titulo": "EXTINTO OU NAO",
+  "capa_url": "https://lgfp.one/AYNJ",
+  "capa_local": "EXTINTO OU NAO/EXTINTO OU NAO.jpg",
+  "sinopse": "O que aconteceria se os animais extintos fossem encontrados? Forrest Gallante, um biólogo, viaja pelo mundo com a mais recente tecnologia. Sua missão: encontre espécies que o mundo parou de procurar.",
+  "genero": "Action & Adventure, Documentário",
+  "elenco": "Forrest Galante, Cortni Borgerson, Nero Spannking",
+  "diretor": "Thomas Backer, Patrick DeLuca",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:33:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:54"
+        }
+      ]
+    }
+  ],
+  "id": 4826
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MDM=",
+  "tipo": "serie",
+  "titulo": "THE PAPER",
+  "capa_url": "https://lgfp.one/QBZ2",
+  "capa_local": "THE PAPER/THE PAPER.jpg",
+  "sinopse": "The Paper é uma comédia em formato mockumentary ambientada no mesmo universo de The Office. A nova série deixa os papéis de uma empresa de papel para trás e mergulha no mundo caótico de uma redação jornalística tradicional, agora à beira da falência. Em meio a cortes orçamentários, pressões por audiência digital e um jornalismo em constante transformação, os funcionários deste jornal histórico tentam manter a relevância e a sanidade no dia a dia. Com novos personagens tão excêntricos quanto os de Scranton, The Paper acompanha as desventuras de jornalistas, editores e estagiários em um ambiente de trabalho onde o absurdo é rotina e a crise é constante. Misturando humor ácido, crítica social e situações embaraçosamente reais, a série oferece uma nova perspectiva sobre o ambiente profissional e prova que, mesmo em tempos difíceis, ainda há espaço para rir do caos.",
+  "genero": "Comédia",
+  "elenco": "Domhnall Gleeson, Sabrina Impacciatore, Chelsea Frei, Melvin Gregg, Gbemisola Ikumelo",
+  "diretor": "Tony Nahar, Veda Semarne",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:30:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:30:12"
+        }
+      ]
+    }
+  ],
+  "id": 8038
+}

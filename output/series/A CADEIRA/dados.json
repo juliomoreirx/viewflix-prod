@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NDY=",
+  "tipo": "serie",
+  "titulo": "A CADEIRA",
+  "capa_url": "https://lgfp.one/SDY",
+  "capa_local": "A CADEIRA/A CADEIRA.jpg",
+  "sinopse": "Sandra Oh e Jay Duplass estrelam esta série de comédia dramática sobre a chefe do departamento de inglês de uma grande universidade.",
+  "genero": "Drama, Comédia",
+  "elenco": "Nana Mensah, Holland Taylor, Sandra Oh, Jay Duplass, Bob Balaban",
+  "diretor": "Daniel Gray Longino, Richard Robbins, Tyler Romary",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:14"
+        }
+      ]
+    }
+  ],
+  "id": 8193
+}

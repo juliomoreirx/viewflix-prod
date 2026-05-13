@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MTk=",
+  "tipo": "serie",
+  "titulo": "TAKE OUT WITH LISA LING [L]",
+  "capa_url": "https://lgfp.one/RHU1",
+  "capa_local": "TAKE OUT WITH LISA LING [L]/TAKE OUT WITH LISA LING [L].jpg",
+  "sinopse": "Iluminando as diversas comunidades e histórias por trás do cenário gastronômico asiático da América. Explorar o passado e o presente enquanto celebra a alegria que a caixinha branca para viagem pode trazer.",
+  "genero": "Documentário",
+  "elenco": "Lisa Ling",
+  "diretor": "David Shadrack Smith",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:19"
+        }
+      ]
+    }
+  ],
+  "id": 8704
+}

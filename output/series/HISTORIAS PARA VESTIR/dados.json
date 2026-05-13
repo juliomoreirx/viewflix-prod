@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4OTA=",
+  "tipo": "serie",
+  "titulo": "HISTÓRIAS PARA VESTIR",
+  "capa_url": "https://lgfp.one/RUV",
+  "capa_local": "HISTORIAS PARA VESTIR/HISTORIAS PARA VESTIR.jpg",
+  "sinopse": "\"Histórias para Vestir\" abre o armário de um grupo variado de pessoas e conta histórias fascinantes sobre o significado por trás das peças de vestuário. Seja um par de botas que simbolizam a sobrevivência, um vestido que representa a recuperação ou um uniforme que reafirma uma identidade, a série revela muito sobre as pessoas ao mostrar o que elas mais gostam de vestir ou calçar. Igualmente divertidos, trágicos e comoventes, os episódios são organizados por tema e se baseiam em entrevistas, usando imagens de arquivo e sequências em animação para dar vida à narrativa.",
+  "genero": "Documentário, Animação",
+  "elenco": "Lena Horne, Dorothy Dandridge, Lola Falana",
+  "diretor": "Dara Horenblas, Ted Passon, Claudia Woloshin",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:44"
+        }
+      ]
+    }
+  ],
+  "id": 1383
+}

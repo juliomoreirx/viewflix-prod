@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMzA=",
+  "tipo": "serie",
+  "titulo": "PACTO DE SANGUE",
+  "capa_url": "https://lgfp.one/JLQ",
+  "capa_local": "PACTO DE SANGUE/PACTO DE SANGUE.jpg",
+  "sinopse": "Um repórter de TV ambicioso usa métodos arriscados e eticamente questionáveis para relatar guerras de gangues e corrupção policial em Belém do Pará.",
+  "genero": "Drama, Crime",
+  "elenco": "Jonathan Haagensen, André Ramiro, Ravel Cabral, Guilherme Fontes",
+  "diretor": "Israel Adrián Caetano, Tomas Portella",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:39"
+        }
+      ]
+    }
+  ],
+  "id": 331233
+}

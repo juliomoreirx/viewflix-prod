@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NjA=",
+  "tipo": "serie",
+  "titulo": "FERA SAGRADA [L]",
+  "capa_url": "https://lgfp.one/NCN5",
+  "capa_local": "FERA SAGRADA [L]/FERA SAGRADA [L].jpg",
+  "sinopse": "Devido ao poder de um espírito maligno, os Anjos da Guarda começam a desaparecer um por um. As quarto Feras Sagradas, Gou, Shin, Rei e Gai decidem ir à Terra em busca dos inimigos que perturbam a paz dos Anjos. Várias batalhas ferozes os aguardam e os quatro poderosos guerreiros unirão seus poderes para combater o mal! Será que eles conseguirão desvendar o mistério por trás das desaparições?",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "Akira Ishida, Hikaru Midorikawa, Toshiyuki Morikawa, Takahiro Sakurai, 宮田幸季",
+  "diretor": "小坂春女",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:05"
+        }
+      ]
+    }
+  ],
+  "id": 6942
+}

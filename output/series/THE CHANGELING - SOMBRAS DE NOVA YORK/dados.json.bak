@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMDE=",
+  "tipo": "serie",
+  "titulo": "THE CHANGELING - SOMBRAS DE NOVA YORK",
+  "capa_url": "https://lgfp.one/AAYN",
+  "capa_local": "THE CHANGELING - SOMBRAS DE NOVA YORK/THE CHANGELING - SOMBRAS DE NOVA YORK.jpg",
+  "sinopse": "A história de amor de Apollo e Emma é um conto de fadas — até que Emma some misteriosamente. Desolado, Apollo se vê em uma odisseia que desafia a morte por uma Nova York que ele não sabia que existia.",
+  "genero": "Mistério, Drama, Sci-Fi & Fantasy",
+  "elenco": "Lakeith Stanfield, Clark Backo, Adina Porter, Jared Abrahamson, Samuel T. Herring",
+  "diretor": "Melina Matsoukas, Jonathan van Tulleken",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:21"
+        }
+      ]
+    }
+  ],
+  "id": 3979
+}

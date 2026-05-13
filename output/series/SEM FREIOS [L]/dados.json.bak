@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NjI=",
+  "tipo": "serie",
+  "titulo": "SEM FREIOS [L]",
+  "capa_url": "https://lgfp.one/QNR1",
+  "capa_local": "SEM FREIOS [L]/SEM FREIOS [L].jpg",
+  "sinopse": "Um entregador e uma viúva da alta sociedade abrem um hostel para imigrantes - e esquecem de pendurar uma placa dizendo \"Proibido Tumultuar\". Eles se deparam com mais segredos do que camas, um romance melhor do que o Wi-Fi gratuito e um bairro determinado a fazê-los fechar as portas.",
+  "genero": "Comédia",
+  "elenco": "Javiera Contador, Yul Bürkle, Felipe Londoño, Diego Muñoz, Maria Pedrique",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:58"
+        }
+      ]
+    }
+  ],
+  "id": 8327
+}

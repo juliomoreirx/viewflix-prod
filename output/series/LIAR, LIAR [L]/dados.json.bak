@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTc=",
+  "tipo": "serie",
+  "titulo": "LIAR, LIAR [L]",
+  "capa_url": "https://lgfp.one/AAUB",
+  "capa_local": "LIAR, LIAR [L]/LIAR, LIAR [L].jpg",
+  "sinopse": "A história que envolve vida escolar, jogos mentais e comédia romântica se passa na ilha “Academia“, onde os alunos se enfrentam para determinar suas classificações. Hiroto Shinohara obteve a nota mais alta de todos os tempos no vestibular, o mais difícil de todo o país. Em seu primeiro dia na escola, ele derrota a “rainha reinante” anterior, Sarasa Saionji, e se torna o aluno mais rápido de todos os tempos a se juntar à elite da escola Seven Stars. Entretanto, ele não fez realmente todas essas coisas, todas as suas conquistas se construíram por meio de mentiras. Agora, para manter sua posição no topo, ele deve lutar contra todos os jogos mentais impostos pela escola utilizando como seu principal artifício as mentiras e blefes.",
+  "genero": "Animação, Comédia",
+  "elenco": "Genta Nakamura, Yukina Shutou, Wakana Kuramochi, Rika Tachibana",
+  "diretor": "Naoki Matsuura, Satoru Ohno",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:04:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:57"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:49"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:49"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:04:11"
+        }
+      ]
+    }
+  ],
+  "id": 3866
+}

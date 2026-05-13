@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMTM=",
+  "tipo": "serie",
+  "titulo": "O FIM DA BELEZA",
+  "capa_url": "https://lgfp.one/VYH",
+  "capa_local": "O FIM DA BELEZA/O FIM DA BELEZA.jpg",
+  "sinopse": "O conceito e as formas da Beleza mudaram durante a história, mas nada foi tão impactante e drástico como a modernidade. Se a Beleza está nos olhos de quem vê, como estamos vendo o mundo?",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Marco Aslan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:53"
+        }
+      ]
+    }
+  ],
+  "id": 2996
+}

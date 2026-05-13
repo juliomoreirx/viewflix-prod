@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1Nzk=",
+  "tipo": "serie",
+  "titulo": "AS GAROTAS DO FUNDÃO",
+  "capa_url": "https://lgfp.one/TRU",
+  "capa_local": "AS GAROTAS DO FUNDAO/AS GAROTAS DO FUNDAO.jpg",
+  "sinopse": "Amigas desde os tempos de escola, cinco mulheres viajam juntas todos os anos. Mas, desta vez, uma delas acaba de receber um diagnóstico difícil.",
+  "genero": "Drama, Comédia",
+  "elenco": "Maria Rodríguez Soto, Itsaso Arana, Mariona Terés, Godeliv Van den Brandt, Mónica Miranda",
+  "diretor": "Daniel Sánchez Arévalo, Daniel Sánchez Arévalo",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:20"
+        }
+      ]
+    }
+  ],
+  "id": 2874
+}

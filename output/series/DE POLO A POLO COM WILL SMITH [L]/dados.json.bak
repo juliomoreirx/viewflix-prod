@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0Mjc=",
+  "tipo": "serie",
+  "titulo": "DE POLO A POLO COM WILL SMITH [L]",
+  "capa_url": "https://lgfp.one/RHC4",
+  "capa_local": "DE POLO A POLO COM WILL SMITH [L]/DE POLO A POLO COM WILL SMITH [L].jpg",
+  "sinopse": "Inspirado por seu falecido mentor a explorar as grandes questões da vida, Will Smith se joga em desafios incríveis por 100 dias: esquiar até o Polo Sul, capturar uma anaconda gigante, extrair veneno de uma tarântula, escalar montanhas e mergulhar sob o gelo do Polo Norte. Ele se aventura de polo a polo na companhia de cientistas, exploradores e especialistas locais.",
+  "genero": "Documentário",
+  "elenco": "Will Smith",
+  "diretor": "Darren Aronofsky",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:52"
+        }
+      ]
+    }
+  ],
+  "id": 8649
+}

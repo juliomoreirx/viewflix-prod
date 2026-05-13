@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NDA=",
+  "tipo": "serie",
+  "titulo": "A INTERNET DO MAL",
+  "capa_url": "https://lgfp.one/ZXC",
+  "capa_local": "A INTERNET DO MAL/A INTERNET DO MAL.jpg",
+  "sinopse": "Os crimes na Internet costumam ter um preço devastador para as vítimas. Estranhos agora podem acessar a vida pessoal de outras pessoas para assediar, violar e até atacá-los fisicamente.",
+  "genero": "Documentário, Crime",
+  "elenco": "Pranav Dev, Sean Bennett, Laurie Hamfeldt Mahoney",
+  "diretor": "Greg Tango",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:30"
+        }
+      ]
+    }
+  ],
+  "id": 3494
+}

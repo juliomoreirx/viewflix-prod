@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMzM=",
+  "tipo": "serie",
+  "titulo": "ILARY",
+  "capa_url": "https://lgfp.one/KPL7",
+  "capa_local": "ILARY/ILARY.jpg",
+  "sinopse": "Esta série documental acompanha a apresentadora de TV Ilary Blasi em sua vida após o divórcio, equilibrando autodescoberta, oportunidades profissionais e um novo amor.",
+  "genero": "Reality, Documentário",
+  "elenco": "Ilary Blasi",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:02"
+        }
+      ]
+    }
+  ],
+  "id": 6522
+}

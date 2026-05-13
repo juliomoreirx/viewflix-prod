@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0OTY=",
+  "tipo": "serie",
+  "titulo": "MORTE E ROUXINÓIS",
+  "capa_url": "https://lgfp.one/JBC",
+  "capa_local": "MORTE E ROUXINOIS/MORTE E ROUXINOIS.jpg",
+  "sinopse": "Um conto de amor, traição, decepções e vingança situado na zona rural de Fermanagh em 1885. No dia de seu aniversário de 25 anos, Beth Winters decide fugir com o encantador Liam Ward, deixando pra trás sua vida limitada e seu relacionamento complexo com seu padrasto religioso Billy.",
+  "genero": "Drama",
+  "elenco": "Matthew Rhys, Ann Skelly, Jamie Dornan, Valene Kane, Charlene McKenna",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:34"
+        }
+      ]
+    }
+  ],
+  "id": 398
+}

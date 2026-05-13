@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NzU=",
+  "tipo": "serie",
+  "titulo": "A INCRIVEL MADAGASCAR",
+  "capa_url": "https://lgfp.one/ASHN",
+  "capa_local": "A INCRIVEL MADAGASCAR/A INCRIVEL MADAGASCAR.jpg",
+  "sinopse": "Explore Madagascar, a quarta maior ilha da Terra, onde 88 milhões de anos de isolamento criaram espécies animais que não são encontradas em nenhum outro lugar do planeta.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:26"
+        }
+      ]
+    }
+  ],
+  "id": 4341
+}

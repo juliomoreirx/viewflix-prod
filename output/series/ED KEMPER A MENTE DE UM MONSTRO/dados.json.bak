@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MjI=",
+  "tipo": "serie",
+  "titulo": "ED KEMPER: A MENTE DE UM MONSTRO",
+  "capa_url": "https://lgfp.one/TIL",
+  "capa_local": "ED KEMPER A MENTE DE UM MONSTRO/ED KEMPER A MENTE DE UM MONSTRO.jpg",
+  "sinopse": "Ed Kemper parece um gigante gentil que ajuda jovens. Mas por trás de seu sorriso charmoso, há um monstro pervertido. Gravações revelam as fantasias sombrias de um dos assassinos em série mais famosos dos Estados Unidos.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:29"
+        }
+      ]
+    }
+  ],
+  "id": 2616
+}

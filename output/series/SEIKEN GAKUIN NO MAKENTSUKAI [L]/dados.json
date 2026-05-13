@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMjA=",
+  "tipo": "serie",
+  "titulo": "SEIKEN GAKUIN NO MAKENTSUKAI [L]",
+  "capa_url": "https://lgfp.one/AWUU",
+  "capa_local": "SEIKEN GAKUIN NO MAKENTSUKAI [L]/SEIKEN GAKUIN NO MAKENTSUKAI [L].jpg",
+  "sinopse": "Despertando de um estado de estase mágica após mil anos, o Lorde Sombrio Leonis de repente se vê no corpo de um menino de dez anos! Ele rapidamente conhece Riselia, uma garota que enfrenta os Vazios, criaturas que quase exterminaram a humanidade. Determinado a desvendar os mistérios desta estranha era nova, Leonis se matricula na Academia Excalibur, uma escola que treina estudantes para lutar contra esses enigmáticos monstros. Poderiam os Vazios ter alguma conexão com o passado de Leonis?",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "Marina Inoue, Yui Ishikawa, Aya Suzaki, Hiromi Igarashi, Honoka Kuroki",
+  "diretor": "Hiroyuki Morita",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:50"
+        }
+      ]
+    }
+  ],
+  "id": 4700
+}

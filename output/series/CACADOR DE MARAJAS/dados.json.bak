@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwNzM=",
+  "tipo": "serie",
+  "titulo": "CACADOR DE MARAJAS",
+  "capa_url": "https://lgfp.one/QKZ3",
+  "capa_local": "CACADOR DE MARAJAS/CACADOR DE MARAJAS.jpg",
+  "sinopse": "A ascensão e queda de Fernando Collor de Mello, o mais jovem presidente do Brasil e o primeiro presidente das Américas a sofrer um impeachment.",
+  "genero": "Documentário",
+  "elenco": "Fernando Collor de Mello, Zélia Cardoso de Melo, Fernando Henrique Cardoso, Luiz Inácio Lula da Silva",
+  "diretor": "Charly Braun, Miguel Antunes Ramos",
+  "total_episodios": "332",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:04"
+        }
+      ]
+    }
+  ],
+  "id": 8221
+}

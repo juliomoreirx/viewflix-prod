@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMjU=",
+  "tipo": "serie",
+  "titulo": "A MULHER BIONICA",
+  "capa_url": "https://lgfp.one/DET1",
+  "capa_local": "A MULHER BIONICA/A MULHER BIONICA.jpg",
+  "sinopse": "Jaime Sommers é uma tenista profissional que sofre um acidente de pára-quedas e é salva por uma cirurgia que substitiu sua orelha, um braço e as duas personas por membros biônicos. Agora ela trabalha como uma agente secreta disfarçada de professora escolar.",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "Michelle Ryan, Miguel Ferrer, Molly Price, Lucy Hale, Will Yun Lee",
+  "diretor": "Michael Dinner",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:18"
+        }
+      ]
+    }
+  ],
+  "id": 5768
+}

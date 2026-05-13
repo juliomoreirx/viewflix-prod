@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMTM=",
+  "tipo": "serie",
+  "titulo": "COMO WALT DISNEY MUDOU O MUNDO",
+  "capa_url": "https://lgfp.one/KBM4",
+  "capa_local": "COMO WALT DISNEY MUDOU O MUNDO/COMO WALT DISNEY MUDOU O MUNDO.jpg",
+  "sinopse": "Um estúdio de animação em dificuldades cria um dos personagens mais reconhecidos do mundo. Mickey Mouse começou como um esboço feito a lápis. No entanto, através de uma jornada de fracassos, ele se tornou um ícone americano e a base de um império.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:52"
+        }
+      ]
+    }
+  ],
+  "id": 6337
+}

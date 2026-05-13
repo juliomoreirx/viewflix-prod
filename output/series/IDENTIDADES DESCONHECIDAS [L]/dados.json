@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MTk=",
+  "tipo": "serie",
+  "titulo": "IDENTIDADES DESCONHECIDAS [L]",
+  "capa_url": "https://lgfp.one/PSL4",
+  "capa_local": "IDENTIDADES DESCONHECIDAS [L]/IDENTIDADES DESCONHECIDAS [L].jpg",
+  "sinopse": "Há 50.000 corpos sem nome e sem luto espalhados pelos Estados Unidos, sem nenhuma maneira de identificá-los, até agora. Esta nova e impactante série acompanha o Projeto DNA Doe – uma organização líder em investigação e identificação genética – em sua parceria com agências de segurança pública para solucionar os casos mais antigos, identificar esses corpos não identificados e levar soluções às famílias em todo o país.",
+  "genero": "Documentário, Mistério",
+  "elenco": "Jammy Kasongo",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:28"
+        }
+      ]
+    }
+  ],
+  "id": 7818
+}

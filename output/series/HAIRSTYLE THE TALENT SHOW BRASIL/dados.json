@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyODk=",
+  "tipo": "serie",
+  "titulo": "HAIRSTYLE THE TALENT SHOW BRASIL",
+  "capa_url": "https://lgfp.one/AUXF",
+  "capa_local": "HAIRSTYLE THE TALENT SHOW BRASIL/HAIRSTYLE THE TALENT SHOW BRASIL.jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:03"
+        }
+      ]
+    }
+  ],
+  "id": 4573
+}

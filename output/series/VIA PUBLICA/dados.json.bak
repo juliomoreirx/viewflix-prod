@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NDA=",
+  "tipo": "serie",
+  "titulo": "VIA PUBLICA",
+  "capa_url": "https://lgfp.one/AVOU",
+  "capa_local": "VIA PUBLICA/VIA PUBLICA.jpg",
+  "sinopse": "Via Pública é uma mini-série sobre a relação do homem com a cidade na qual vive. Mais variadas realidades pedalam suas bicicletas por prazer, esporte ou necessidade",
+  "genero": "Documentário, Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:59"
+        }
+      ]
+    }
+  ],
+  "id": 4620
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NjM=",
+  "tipo": "serie",
+  "titulo": "Y: O ÚLTIMO HOMEM",
+  "capa_url": "https://lgfp.one/SMM",
+  "capa_local": "Y O ULTIMO HOMEM/Y O ULTIMO HOMEM.jpg",
+  "sinopse": "Passa-se num mundo pós-apocalíptico, em que um evento cataclísmico dizima todos os mamíferos com cromossomo Y, menos um homem cisgénero e o seu macaco de estimação. A série acompanha os sobreviventes neste mundo novo, enquanto se debatem com a tentativa de restaurar o que foi perdido e com a oportunidade de criar algo melhor.",
+  "genero": "Sci-Fi & Fantasy / Drama",
+  "elenco": "Diane Lane, Ben Schnetzer, Ashley Romans, Diana Bang, Juliana Canfield, Amber Tamblyn, Olivia Thirlby, Elliot Fletcher",
+  "diretor": "Eliza Clark",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:29"
+        }
+      ]
+    }
+  ],
+  "id": 2019
+}

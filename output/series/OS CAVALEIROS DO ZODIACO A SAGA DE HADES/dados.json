@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1NDg=",
+  "tipo": "serie",
+  "titulo": "OS CAVALEIROS DO ZODÍACO: A SAGA DE HADES",
+  "capa_url": "https://lgfp.one/SCH5",
+  "capa_local": "OS CAVALEIROS DO ZODIACO A SAGA DE HADES/OS CAVALEIROS DO ZODIACO A SAGA DE HADES.jpg",
+  "sinopse": "Hades, o deus da morte, planeja conquistar o mundo e para alcançar esse objetivo, envia os cavaleiros de ouro falecidos para levar a cabeça de Atena. Seiya e os cavaleiros de bronze correm para ajudar, mas sua interferência desagrada os cavaleiros de ouro sobreviventes.",
+  "genero": "Action & Adventure, Animação",
+  "elenco": "Masakazu Morita, Takahiro Sakurai, Hiroaki Miura, Yuuta Kasuya, Katsuyuki Konishi",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:38"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:29:11"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:32:18"
+        }
+      ]
+    }
+  ],
+  "id": 9021
+}

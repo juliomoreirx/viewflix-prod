@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMTM=",
+  "tipo": "serie",
+  "titulo": "AS CONFISSOES DE GYPSY ROSE",
+  "capa_url": "https://lgfp.one/AJQ2",
+  "capa_local": "AS CONFISSOES DE GYPSY ROSE/AS CONFISSOES DE GYPSY ROSE.jpg",
+  "sinopse": "Gypsy Rose Blanchard está pronta para contar a verdade antes de se tornar uma mulher livre.",
+  "genero": "Documentário, Crime",
+  "elenco": "Gypsy-Rose Blanchard-Anderson",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:34"
+        }
+      ]
+    }
+  ],
+  "id": 5053
+}

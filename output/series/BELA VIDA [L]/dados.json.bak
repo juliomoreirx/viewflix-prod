@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNzY=",
+  "tipo": "serie",
+  "titulo": "BELA VIDA [L]",
+  "capa_url": "https://lgfp.one/KCW2",
+  "capa_local": "BELA VIDA [L]/BELA VIDA [L].jpg",
+  "sinopse": "Kyoko, é uma jovem de espírito inabalável presa a uma cadeira de rodas, devido a uma doença; Shuji, é um estiloso e popular cabeleireiro de uma revista de moda; eles se encontrão através de um acidente de trânsito e apesar do encontro desastroso, eles logo se vêem apaixonados, com Shuji, encantado pela coragem e entusiasmo dela, e, Kyoko, atraída pela habilidade dele em enxergar além de suas limitações físicas e principalmente as suas emoções. Porém, há o irmão mais velho protetor dela e sua condição física, que piora a cada dia, começando assim a testar os limites desse amor.",
+  "genero": "Drama",
+  "elenco": "木村拓哉, 常盤貴子, 渡部篤郎, 水野美紀, 池内博之",
+  "diretor": "生野慈朗, 生野慈朗, 土井裕泰",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:11:47"
+        }
+      ]
+    }
+  ],
+  "id": 6346
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2Njc=",
+  "tipo": "serie",
+  "titulo": "INFILTRADO NA COZINHA",
+  "capa_url": "https://lgfp.one/QBY7",
+  "capa_local": "INFILTRADO NA COZINHA/INFILTRADO NA COZINHA.jpg",
+  "sinopse": "Na competição com clima de investigação, os jurados terão que adivinhar a identidade do cozinheiro impostor, que sem experiência, vai tentar enganar a todos com suas técnicas culinárias.",
+  "genero": "Reality",
+  "elenco": "Paola Carosella, Luana Zucoloto, Fabio cruz",
+  "diretor": "Roberto d'Avila, Jorge Vaz Nande",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:00:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:07"
+        }
+      ]
+    }
+  ],
+  "id": 8033
+}

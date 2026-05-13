@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0ODQ=",
+  "tipo": "serie",
+  "titulo": "23.5 [L]",
+  "capa_url": "https://lgfp.one/REU3",
+  "capa_local": "23.5 [L]/23.5 [L].jpg",
+  "sinopse": "Ongsa, uma garota solitária durante toda a sua vida, apaixona-se à primeira vista por uma garota mais popular, Sun. No entanto, com o medo de ser rejeitada, ela decide se aproximar dela sob o pseudônimo de \"Earth\". À medida que Sun fica cada vez mais curiosa sobre quem é \"Earth\" e apaixona-se por ela...Ongsa se revelará a Sun?",
+  "genero": "Comédia",
+  "elenco": "พรรษา วอสเบียน, ภัทรานิษฐ์ ลิ้มปติยากร, เบญญาภา จีนประสม, June Wanwimol Jaenasavamethee, ธนเศรษฐ์ สุริยะชัยสกุล",
+  "diretor": "ขนิษฐา ขวัญอยู่, Chai Topiyabut, Nattakrit Deepo",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:51:24"
+        }
+      ]
+    }
+  ],
+  "id": 8522
+}

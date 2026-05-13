@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODU=",
+  "tipo": "serie",
+  "titulo": "NO XADREZ",
+  "capa_url": "https://lgfp.one/TDH",
+  "capa_local": "NO XADREZ/NO XADREZ.jpg",
+  "sinopse": "Laura Willis planejava eventos. Agora, ela é diretora de um presídio feminino e retrata o melhor e o pior da vida atrás das grades nesta comédia mordaz.",
+  "genero": "Comédia",
+  "elenco": "Catherine Tate, Christian Brassington, Niky Wardley, Lorna Brown, Caroline Harding",
+  "diretor": "James Kayler, Catherine Tate",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:40"
+        }
+      ]
+    }
+  ],
+  "id": 2476
+}

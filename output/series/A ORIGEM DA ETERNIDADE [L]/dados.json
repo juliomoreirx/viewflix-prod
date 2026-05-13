@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMzU=",
+  "tipo": "serie",
+  "titulo": "A ORIGEM DA ETERNIDADE [L]",
+  "capa_url": "https://lgfp.one/DTA5",
+  "capa_local": "A ORIGEM DA ETERNIDADE [L]/A ORIGEM DA ETERNIDADE [L].jpg",
+  "sinopse": "Uma íris que cresce perto de um rio em um reino celestial é transformada na fada das flores Qing Huan (Lin Yan Rou) quando uma gota de uma divindade poderosa, mas de coração frio e indiferente, Bai Ze (Yang Ze), cai sobre sua pétala. Agora em forma humana, Qing Huan se apaixona perdidamente pelo deus. Mas a divindade tem outras coisas a fazer: se conseguir passar com sucesso por três vidas no reino mortal, ele se tornará o Imperador do Céu...",
+  "genero": "Drama",
+  "elenco": "楊澤, Lin Yanrou",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:01"
+        }
+      ]
+    }
+  ],
+  "id": 6015
+}

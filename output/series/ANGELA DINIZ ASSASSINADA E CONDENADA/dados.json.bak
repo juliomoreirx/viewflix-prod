@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNDA=",
+  "tipo": "serie",
+  "titulo": "ANGELA DINIZ ASSASSINADA E CONDENADA",
+  "capa_url": "https://lgfp.one/QWD1",
+  "capa_local": "ANGELA DINIZ ASSASSINADA E CONDENADA/ANGELA DINIZ ASSASSINADA E CONDENADA.jpg",
+  "sinopse": "Inspirada na história real da socialite brasileira Ângela Diniz, esta minissérie retrata como sua vida, seu assassinato em 1976, e o julgamento que se seguiu se tornaram um marco na história do feminismo e do sistema judiciário brasileiro.",
+  "genero": "Drama, Crime",
+  "elenco": "Marjorie Estiano, Emílio Dantas, Antônio Fagundes, Thiago Lacerda, Camila Márdila",
+  "diretor": "Andrucha Waddington, Andrucha Waddington",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:27"
+        }
+      ]
+    }
+  ],
+  "id": 8426
+}

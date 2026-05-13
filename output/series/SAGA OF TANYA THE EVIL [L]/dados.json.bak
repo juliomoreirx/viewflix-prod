@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNTE=",
+  "tipo": "serie",
+  "titulo": "SAGA OF TANYA THE EVIL [L]",
+  "capa_url": "https://lgfp.one/SND7",
+  "capa_local": "SAGA OF TANYA THE EVIL [L]/SAGA OF TANYA THE EVIL [L].jpg",
+  "sinopse": "Junho de 1923. Uma jovem garota loira de olhos azuis, Tanya Degurechaff, estuda no último nível na Academia Militar Imperial e treina na terceira linha de patrulha do distrito militar do norte, o Norden Theater, como parte de seu serviço para as forças armadas. Na transição, Tanya é apontada para tarefas de observação, mas um ataque surpresa força Tanya a entrar em combate com as tropas de magos da Federação. Tanya está em menor número e não resistirá até a chegada de reforços, mas não pode fugir, sob pena de ser condenada ao crime de deserção.",
+  "genero": "Animação, Drama, Sci-Fi & Fantasy",
+  "elenco": "Aoi Yuki, Saori Hayami, Shin-ichiro Miki, Tessyo Genda, Hochu Otsuka",
+  "diretor": "春藤佳奈, 上村泰",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 9229
+}

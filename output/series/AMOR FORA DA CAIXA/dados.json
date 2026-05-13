@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2Njg=",
+  "tipo": "serie",
+  "titulo": "AMOR FORA DA CAIXA",
+  "capa_url": "https://lgfp.one/ATFK",
+  "capa_local": "AMOR FORA DA CAIXA/AMOR FORA DA CAIXA.jpg",
+  "sinopse": "Quando você é um ermitão que vive na montanha, no meio do nada, com ursos e linces como seus vizinhos mais próximos, encontrar a companheira perfeita pode ser quase impossível e mantê-la por perto é ainda mais difícil. A série acompanha esses homens da montanha que, embora sejam autossuficientes e vivam completamente isolados da sociedade, sentem que falta alguém a seu lado.",
+  "genero": "Reality",
+  "elenco": "Charlie Moore, Jen Taylor, Arune Villiers, Jolie Kleinhenz, Shayla Kummer",
+  "diretor": "Brooke Drogmund",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:44"
+        }
+      ]
+    }
+  ],
+  "id": 4432
+}

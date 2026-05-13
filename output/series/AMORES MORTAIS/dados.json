@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MDE=",
+  "tipo": "serie",
+  "titulo": "AMORES MORTAIS",
+  "capa_url": "https://lgfp.one/DPZ5",
+  "capa_local": "AMORES MORTAIS/AMORES MORTAIS.jpg",
+  "sinopse": "Triângulos amorosos se transformam em mistérios mortais quando um dos envolvidos aparece morto. Em um jogo perigoso de amor proibido e sexo secreto, quem pagará o preço final?",
+  "genero": "Crime",
+  "elenco": "Michelle Callahan",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 5981
+}

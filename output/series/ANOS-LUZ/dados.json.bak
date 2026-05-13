@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMTE=",
+  "tipo": "serie",
+  "titulo": "ANOS-LUZ",
+  "capa_url": "https://lgfp.one/TGH",
+  "capa_local": "ANOS-LUZ/ANOS-LUZ.jpg",
+  "sinopse": "Irene e Franklin York, um casal de aposentados, têm um segredo: uma câmara enterrada no seu quintal milagrosamente leva a um planeta estranho e deserto. Quando um jovem enigmático aparece, a vidinha pacífica dos York sofre uma reviravolta, e a misteriosa câmara, que eles achavam que conheciam tão bem, prova ser muito mais do que jamais haviam imaginado.",
+  "genero": "Sci-Fi & Fantasy / Drama",
+  "elenco": "Sissy Spacek, J.K. Simmons, Cass Buggé, Adam Bartley, Chai Hansen, Julieta Zylberberg, Rocío Hernández González, Kiah McKirnan",
+  "diretor": "Holden Miller",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:19"
+        }
+      ]
+    }
+  ],
+  "id": 2556
+}

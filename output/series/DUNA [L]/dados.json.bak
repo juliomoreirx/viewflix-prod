@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MDE=",
+  "tipo": "serie",
+  "titulo": "DUNA [L]",
+  "capa_url": "https://lgfp.one/SSC",
+  "capa_local": "DUNA [L]/DUNA [L].jpg",
+  "sinopse": "Em 10.191 d.C., a substância mais cobiçada do universo é a Especiaria, encontrada somente no planeta desértico Arrakis, conhecido como Duna. Depois que seu pai é assassinado pelo cruel Barão Harkonnen, o jovem Paul Atreides descobre que seu destino está ligado à Duna, onde terá início uma batalha monumental que irá redefinir o cosmos.",
+  "genero": "Sci-Fi & Fantasy / Drama",
+  "elenco": "Alec Newman, Barbora Kodetová, Saskia Reeves, William Hurt, P.H. Moriarty, Matt Keeslar, Ian McNeice, Uwe Ochsenknecht",
+  "diretor": "John Harrison",
+  "total_episodios": "95",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:31:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:34:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:33:47"
+        }
+      ]
+    }
+  ],
+  "id": 385846
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1Mzc=",
+  "tipo": "serie",
+  "titulo": "RWBY: ICE QUEENDOM [L]",
+  "capa_url": "https://lgfp.one/AAWK",
+  "capa_local": "RWBY ICE QUEENDOM [L]/RWBY ICE QUEENDOM [L].jpg",
+  "sinopse": "No mundo de Remnant, um lugar onde a ciência e os contos de fadas coexistem, a civilização humana é atormentada por monstros mortais conhecidos como Grimm. Por um tempo, a vitória dos Grimm parecia quase certa, se não fosse pelo heroísmo daqueles que juraram proteger a humanidade – Caçadores e Caçadoras. Esses guerreiros são treinados e reunidos em equipes em escolas como a Beacon Academy, onde Ruby conhece Weiss e Blake - formando a Equipe RWBY junto com a irmã de Ruby, Yang. Enquanto a equipe RWBY estuda para se tornar as maiores caçadoras que o mundo de Remnant já conheceu, elas enfrentam uma ameaça terrível..",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Saori Hayami, Yoko Hikasa, Yu Shimamura, Ami Koshimizu, Hiro Shimono",
+  "diretor": "Toshimasa Suzuki, Kenjirou Okada",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:41"
+        }
+      ]
+    }
+  ],
+  "id": 3926
+}

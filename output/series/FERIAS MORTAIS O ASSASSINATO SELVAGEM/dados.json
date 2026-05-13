@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzOTI=",
+  "tipo": "serie",
+  "titulo": "FÉRIAS MORTAIS: O ASSASSINATO SELVAGEM",
+  "capa_url": "https://lgfp.one/TMI",
+  "capa_local": "FERIAS MORTAIS O ASSASSINATO SELVAGEM/FERIAS MORTAIS O ASSASSINATO SELVAGEM.jpg",
+  "sinopse": "A história de um dos assassinatos mais notórios já cometidos em um Parque Nacional. A série acompanha a Agente Especial Beth Shott, do Grupo de Serviços Investigativos (a equipe de detetives de elite do Serviço Nacional de Parques), e sua equipe durante os três anos de busca pelo suspeito.",
+  "genero": "Documentário / Crime",
+  "elenco": "Beth Shott",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:29"
+        }
+      ]
+    }
+  ],
+  "id": 2723
+}

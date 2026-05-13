@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Mzg=",
+  "tipo": "serie",
+  "titulo": "O ETERNAUTA",
+  "capa_url": "https://lgfp.one/NSH7",
+  "capa_local": "O ETERNAUTA/O ETERNAUTA.jpg",
+  "sinopse": "Uma tempestade de neve tóxica matou milhões de pessoas, mas Juan Salvo e um grupo de sobreviventes em Buenos Aires precisarão enfrentar uma nova ameaça invisível.",
+  "genero": "Drama, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Ricardo Darín, Carla Peterson, César Troncoso, Andrea Pietra, Ariel Staltari",
+  "diretor": "Gaston Girod, Bruno Stagnaro, Bruno Stagnaro",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:21"
+        }
+      ]
+    }
+  ],
+  "id": 7244
+}

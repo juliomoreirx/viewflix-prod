@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5MDg=",
+  "tipo": "serie",
+  "titulo": "CRIADORES DE DIVERSÃO",
+  "capa_url": "https://lgfp.one/SYA",
+  "capa_local": "CRIADORES DE DIVERSAO/CRIADORES DE DIVERSAO.jpg",
+  "sinopse": "O rabugento Jimmy DiResta se inspira nas ideias de crianças para criar invenções divertidas e inúteis, e as transforma em realidade com a ajuda dos amigos.",
+  "genero": "Reality, Família",
+  "elenco": "Paul Jackman, Derek Forestier, John Graziano, Jimmy DiResta, Patrick Laperrière",
+  "diretor": "Mike Odair",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:53"
+        }
+      ]
+    }
+  ],
+  "id": 227586
+}

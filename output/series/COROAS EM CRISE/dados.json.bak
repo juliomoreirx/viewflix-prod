@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NjA=",
+  "tipo": "serie",
+  "titulo": "COROAS EM CRISE",
+  "capa_url": "https://lgfp.one/JZQ6",
+  "capa_local": "COROAS EM CRISE/COROAS EM CRISE.jpg",
+  "sinopse": "Regina, uma psicóloga, quer escrever um livro, no qual ela falará de personalidades masculinas distintas. Então ela vai juntar 5 \"Adultescentes\" muito divertidos e peculiares que ela vai ajudar a superar várias crises pelas quais eles passem.",
+  "genero": "Comédia",
+  "elenco": "Dalilah Polanco, Juan Soler, Cristián de la Fuente, Freddy Ortega, Rodrigo Murray",
+  "diretor": "Magaby García",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:34"
+        }
+      ]
+    }
+  ],
+  "id": 3658
+}

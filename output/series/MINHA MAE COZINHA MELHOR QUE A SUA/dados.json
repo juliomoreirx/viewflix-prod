@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyOTE=",
+  "tipo": "serie",
+  "titulo": "MINHA MÃE COZINHA MELHOR QUE A SUA",
+  "capa_url": "https://lgfp.one/YGF",
+  "capa_local": "MINHA MAE COZINHA MELHOR QUE A SUA/MINHA MAE COZINHA MELHOR QUE A SUA.jpg",
+  "sinopse": "Leandro Hassum comanda a competição culinária que é pura diversão! A cada semana, três duplas de mãe e filho disputam na cozinha, com Paola Carosella e João Diamante como jurados.",
+  "genero": "Família / Reality",
+  "elenco": "Leandro Hassum, Paola Carosella, João Diamante",
+  "diretor": "Angélica Campos",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:10:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:08:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:08:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:08:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:09:42"
+        }
+      ]
+    }
+  ],
+  "id": 3252
+}

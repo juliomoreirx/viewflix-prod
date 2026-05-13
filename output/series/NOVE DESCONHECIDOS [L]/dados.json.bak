@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MjE=",
+  "tipo": "serie",
+  "titulo": "NOVE DESCONHECIDOS [L]",
+  "capa_url": "https://lgfp.one/SDT",
+  "capa_local": "NOVE DESCONHECIDOS [L]/NOVE DESCONHECIDOS [L].jpg",
+  "sinopse": "Frustrados com suas vidas, nove estranhos embarcam em um programa de relaxamento e espiritualidade criado por um SPA de luxo, mas ao longo dos dias eles percebem que a experiência pode acabar colocando suas vidas e sanidade em perigo.",
+  "genero": "Drama",
+  "elenco": "Nicole Kidman, Melissa McCarthy, Bobby Cannavale, Luke Evans, Michael Shannon",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:04"
+        }
+      ]
+    }
+  ],
+  "id": 1809
+}

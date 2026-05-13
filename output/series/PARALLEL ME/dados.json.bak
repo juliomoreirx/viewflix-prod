@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MDA=",
+  "tipo": "serie",
+  "titulo": "PARALLEL ME",
+  "capa_url": "https://lgfp.one/QDC0",
+  "capa_local": "PARALLEL ME/PARALLEL ME.jpg",
+  "sinopse": "Toni Falk, consultora em crise, recebe um xale mágico que lhe permite viver versões alternativas de sua vida. Ao explorar diferentes realidades, você deve encarar a questão: Existe realmente uma vida perfeita?",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Malaya Stern Takeda, David Kross, Larissa Sirah Herden, Caroline Peters, Ulrich Noethen",
+  "diretor": "Felix Binder",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:38"
+        }
+      ]
+    }
+  ],
+  "id": 8125
+}

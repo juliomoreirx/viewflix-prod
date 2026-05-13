@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMDc=",
+  "tipo": "serie",
+  "titulo": "CORRIDAS PROIBIDAS TUDO OU NADA",
+  "capa_url": "https://lgfp.one/PUE4",
+  "capa_local": "CORRIDAS PROIBIDAS TUDO OU NADA/CORRIDAS PROIBIDAS TUDO OU NADA.jpg",
+  "sinopse": "64 dos pilotos mais rápidos dos EUA competem na Mega Cash Days, a primeira corrida de eliminação dupla da competição. Com prêmios de até 600 mil dólares ao longo de todo o evento, cada piloto está disposto a tudo para alcançar a vitória.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "83",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:27:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:28:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:28:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:27:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:27:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:28:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:28:03"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:27:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:28:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:28:04"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:28:14"
+        }
+      ]
+    }
+  ],
+  "id": 7854
+}

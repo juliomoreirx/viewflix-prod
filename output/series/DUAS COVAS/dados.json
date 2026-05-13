@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MzA=",
+  "tipo": "serie",
+  "titulo": "DUAS COVAS",
+  "capa_url": "https://lgfp.one/PVS3",
+  "capa_local": "DUAS COVAS/DUAS COVAS.jpg",
+  "sinopse": "Quando o desaparecimento de duas adolescentes abala uma cidadezinha costeira, uma avó desolada arrisca tudo para descobrir a verdade e sair em busca de vingança.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "Álvaro Morte, Hovik Keuchkerian, Kiti Mánver, Zoe Arnao, Nonna Cardoner",
+  "diretor": "Erik Rodríguez Fernández",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:14"
+        }
+      ]
+    }
+  ],
+  "id": 7880
+}

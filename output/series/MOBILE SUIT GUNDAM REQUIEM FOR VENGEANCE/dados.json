@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwOTE=",
+  "tipo": "serie",
+  "titulo": "MOBILE SUIT GUNDAM REQUIEM FOR VENGEANCE",
+  "capa_url": "https://lgfp.one/DWG2",
+  "capa_local": "MOBILE SUIT GUNDAM REQUIEM FOR VENGEANCE/MOBILE SUIT GUNDAM REQUIEM FOR VENGEANCE.jpg",
+  "sinopse": "Onze meses depois da Guerra de Um Ano no Século Universal 0079, a Capitã Solari enfrenta a nova arma letal da Federação da Terra: a armadura de voo Gundam.",
+  "genero": "War & Politics, Sci-Fi & Fantasy, Animação",
+  "elenco": "Celia Massingham, James Watts, Lavance, Daniel Wishes, Andrew Woolner",
+  "diretor": "Erasmus Brosdau",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:29"
+        }
+      ]
+    }
+  ],
+  "id": 6099
+}

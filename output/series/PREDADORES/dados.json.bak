@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNDI=",
+  "tipo": "serie",
+  "titulo": "PREDADORES",
+  "capa_url": "https://lgfp.one/OSH8",
+  "capa_local": "PREDADORES/PREDADORES.jpg",
+  "sinopse": "Esta incrível série explora o mundo dos predadores como nunca feito antes. Veja as incríveis estratégias dos caçadores, explore os desafios que os animais enfrentam e as táticas que eles desenvolvem.",
+  "genero": "Documentário",
+  "elenco": "David Attenborough, Jamie McPherson, Doug Anderson",
+  "diretor": "Ellen Husain, Rob Sullivan",
+  "total_episodios": "74",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:57"
+        }
+      ]
+    }
+  ],
+  "id": 347117
+}

@@ -1,0 +1,190 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4ODc=",
+  "tipo": "serie",
+  "titulo": "FILHO PRÓDIGO",
+  "capa_url": "https://lgfp.one/RND",
+  "capa_local": "FILHO PRODIGO/FILHO PRODIGO.jpg",
+  "sinopse": "A vida de Malcolm Bright (Tom Payne), um dos melhores psicólogos criminais do Departamento de Polícia de Nova York. Ele é um dos únicos profissionais capazes de entrar na mente de serial killers, justamente porque seu pai (Michael Sheen) também é um.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Tom Payne, Michael Sheen, Bellamy Young, Lou Diamond Phillips, Halston Sage",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:43:57"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:43:50"
+        }
+      ]
+    }
+  ],
+  "id": 1169
+}

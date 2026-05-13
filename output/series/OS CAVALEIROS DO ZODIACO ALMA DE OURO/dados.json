@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1NDk=",
+  "tipo": "serie",
+  "titulo": "OS CAVALEIROS DO ZODÍACO: ALMA DE OURO",
+  "capa_url": "https://lgfp.one/SBB0",
+  "capa_local": "OS CAVALEIROS DO ZODIACO ALMA DE OURO/OS CAVALEIROS DO ZODIACO ALMA DE OURO.jpg",
+  "sinopse": "No Submundo, durante a luta contra Hades, os Cavaleiros de Ouro dão a própria vida para destruir o Muro das Lamentações e, assim, permitir que Seiya e seus amigos avancem na jornada. No entanto, Aioria e os demais cavaleiros de ouro, que deveriam ter sido aniquilados, acordam em um lugar belo e cheio de luz. Por que eles, que deveriam estar mortos, reviveram? Enquanto esse grande mistério permanece, em um novo encontro Aioria se envolve numa luta e então, quando a onda de Cosmo chega ao seu limite... acontece uma transformação na armadura de Leão!",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Hideyuki Tanaka, 屋良有作, Takumi Yamazaki, 関俊彦, Tessyo Genda",
+  "diretor": "追崎史敏, 古田丈司",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:44"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 9007
+}

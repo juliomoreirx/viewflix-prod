@@ -1,0 +1,220 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4Mjc=",
+  "tipo": "serie",
+  "titulo": "SOLTOS",
+  "capa_url": "https://lgfp.one/IYJ",
+  "capa_local": "SOLTOS/SOLTOS.jpg",
+  "sinopse": "Oito jovens carismáticos em uma luxuosa casa de praia em Florianópolis embarcam em uma jornada cheia de festas, brigas, dramas, diversão e relacionamentos.",
+  "genero": "Reality",
+  "elenco": "Murilo Dias, Thaís Pereira, Alef Cardoso, Aila Vitória, Gabriel Lopes, Carla Signorelli, Eduardo De Carli, Marcela Carvalho",
+  "diretor": "Lucas Diego Lopez",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:59:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:53:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:47:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:51:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:57:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:54:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:27:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:57:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:58:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "01:00:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:59:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:56:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:59:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:57:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:54:23"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:39:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S05E07",
+          "duracao": "00:56:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S05E08",
+          "duracao": "00:47:26"
+        }
+      ]
+    }
+  ],
+  "id": 316
+}

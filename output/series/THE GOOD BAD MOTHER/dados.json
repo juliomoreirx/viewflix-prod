@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NDk=",
+  "tipo": "serie",
+  "titulo": "THE GOOD BAD MOTHER",
+  "capa_url": "https://lgfp.one/ZXV",
+  "capa_local": "THE GOOD BAD MOTHER/THE GOOD BAD MOTHER.jpg",
+  "sinopse": "Um drama sobre uma mãe, Young Soon, que viveu para seu filho toda a sua vida, e seu filho, o promotor Kang Ho, que sofre de amnésia em um acidente inesperado e volta a ser uma criança.",
+  "genero": "Drama / Comédia",
+  "elenco": "Ra Mi-ran, Lee Do-hyun, Ahn Eun-jin, Yoo In-soo, Jung Woong-in, Kang Mal-geum, Seo Yi-sook, Jang Won-young",
+  "diretor": "Sim Na-yeon",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:20:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:11:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:09:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:12:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:12:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:10:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:13:07"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:03:22"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:03:57"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:11:22"
+        }
+      ]
+    }
+  ],
+  "id": 3514
+}

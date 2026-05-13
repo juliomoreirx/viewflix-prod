@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0ODg=",
+  "tipo": "serie",
+  "titulo": "OS IRMAOS ESQUIZOFRENICOS",
+  "capa_url": "https://lgfp.one/DUM2",
+  "capa_local": "OS IRMAOS ESQUIZOFRENICOS/OS IRMAOS ESQUIZOFRENICOS.jpg",
+  "sinopse": "A \"família mais mentalmente doente\" da América revela a história terrivelmente real de como a esquizofrenia devastou sua família, afetando 6 dos 12 irmãos.",
+  "genero": "Documentário",
+  "elenco": "Lindsay Galvin Rauch, John Galvin, Richard Galvin",
+  "diretor": "Lee Phillips",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:34"
+        }
+      ]
+    }
+  ],
+  "id": 6073
+}

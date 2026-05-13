@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxOTY=",
+  "tipo": "serie",
+  "titulo": "AFFAIR [L]",
+  "capa_url": "https://lgfp.one/EGE9",
+  "capa_local": "AFFAIR [L]/AFFAIR [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Saranphat Pedersen, Punyapat Wangpongsathaporn, Bonz Nadol Lamprasert, Kidakarn Chatkaewmanee, Pop Pataraphol Wanlopsiri",
+  "diretor": "Pantip Vibultham",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:30"
+        }
+      ]
+    }
+  ],
+  "id": 6218
+}

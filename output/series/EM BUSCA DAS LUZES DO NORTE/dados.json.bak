@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1MTY=",
+  "tipo": "serie",
+  "titulo": "EM BUSCA DAS LUZES DO NORTE",
+  "capa_url": "https://lgfp.one/BKO0",
+  "capa_local": "EM BUSCA DAS LUZES DO NORTE/EM BUSCA DAS LUZES DO NORTE.jpg",
+  "sinopse": "Chicco Mattos vai em busca de cenários impressionantes, iluminados pelas luzes da Aurora Boreal. Ele vive experiências inesquecíveis, na procura pelas luzes verdes do Norte. Chicco Mattos e outros apaixonados por auroras boreais partem em aventuras de tirar o fôlego para registrar explosões solares nunca vistas antes. Acompanhe a maravilhosa busca de condições ideais do maior fenômeno natural do planeta Terra.",
+  "genero": "Action & Adventure",
+  "elenco": "",
+  "diretor": "André Miranda",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:11"
+        }
+      ]
+    }
+  ],
+  "id": 784
+}

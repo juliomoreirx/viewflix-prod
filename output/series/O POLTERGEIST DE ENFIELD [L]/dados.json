@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0NDE=",
+  "tipo": "serie",
+  "titulo": "O POLTERGEIST DE ENFIELD [L]",
+  "capa_url": "https://lgfp.one/ASIF",
+  "capa_local": "O POLTERGEIST DE ENFIELD [L]/O POLTERGEIST DE ENFIELD [L].jpg",
+  "sinopse": "Conheça a arrepiante história real do caso de poltergeist mais famoso do mundo por meio de gravações de áudio originais feitas dentro da casa enquanto as manifestações aconteciam.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Davis Guggenheim",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:58"
+        }
+      ]
+    }
+  ],
+  "id": 4359
+}

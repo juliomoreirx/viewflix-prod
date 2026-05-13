@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxODE=",
+  "tipo": "serie",
+  "titulo": "WELL BE FINE (2026) [L]",
+  "capa_url": "https://lgfp.one/SVV1",
+  "capa_local": "WELL BE FINE (2026) [L]/WELL BE FINE (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Mert Ramazan Demir, Miray Daner, Olgu Baran Kubilay, İdil Sivritepe, Sercan Badur",
+  "diretor": "Neslihan Yeşilyurt",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:13"
+        }
+      ]
+    }
+  ],
+  "id": 9430
+}

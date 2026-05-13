@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNTA=",
+  "tipo": "serie",
+  "titulo": "CASAR COM VOCE [L]",
+  "capa_url": "https://lgfp.one/KLM6",
+  "capa_local": "CASAR COM VOCE [L]/CASAR COM VOCE [L].jpg",
+  "sinopse": "Um funcionário público cético em relação ao casamento, em uma equipe do governo encarregada de promover o casamento, luta para encontrar um parceiro para um solteiro rural, a fim de escapar da equipe.",
+  "genero": "Drama",
+  "elenco": "이이경, 조수민, Ju-ne, 지이수, 우현",
+  "diretor": "Yoon Yeo-chang",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:12:23"
+        }
+      ]
+    }
+  ],
+  "id": 6434
+}

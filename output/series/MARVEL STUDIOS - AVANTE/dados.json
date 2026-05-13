@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMDY=",
+  "tipo": "serie",
+  "titulo": "MARVEL STUDIOS - AVANTE",
+  "capa_url": "https://lgfp.one/WBE",
+  "capa_local": "MARVEL STUDIOS - AVANTE/MARVEL STUDIOS - AVANTE.jpg",
+  "sinopse": "Uma nova série de documentários especiais que revelará os bastidores das séries e filmes do MCU, acompanhando os cineastas, elenco e equipe, e os heróis da Marvel a cada passo do caminho.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:04:53"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:38"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:54:35"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:57:39"
+        }
+      ]
+    }
+  ],
+  "id": 3069
+}

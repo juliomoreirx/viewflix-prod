@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNzY=",
+  "tipo": "serie",
+  "titulo": "SUPER NATURAL",
+  "capa_url": "https://lgfp.one/TSM",
+  "capa_local": "SUPER NATURAL/SUPER NATURAL.jpg",
+  "sinopse": "Testemunhe os poderes secretos de animais extraordinários, veja o mundo como eles veem e confira o lado Super Natural da natureza como nunca antes. Com James Cameron como produtor executivo e narrada por Benedict Cumberbatch.",
+  "genero": "Documentário",
+  "elenco": "Benedict Cumberbatch",
+  "diretor": "Matt Brandon, Bill Markham",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:43"
+        }
+      ]
+    }
+  ],
+  "id": 2892
+}

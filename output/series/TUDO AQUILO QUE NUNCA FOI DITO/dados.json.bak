@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2ODQ=",
+  "tipo": "serie",
+  "titulo": "TUDO AQUILO QUE NUNCA FOI DITO",
+  "capa_url": "https://lgfp.one/XEE",
+  "capa_local": "TUDO AQUILO QUE NUNCA FOI DITO/TUDO AQUILO QUE NUNCA FOI DITO.jpg",
+  "sinopse": "Um homem recém-falecido reaparece na vida da própria filha sob forma de um androide. Em seguida, os dois fazem uma viagem que vai mudar o destino da jovem.",
+  "genero": "Drama",
+  "elenco": "Alexandra Maria Lara, Jean Reno, Àlex Brendemühl, Cédric Ben Abdallah, Bastian Hagen",
+  "diretor": "Miguel Courtois",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:11"
+        }
+      ]
+    }
+  ],
+  "id": 3145
+}

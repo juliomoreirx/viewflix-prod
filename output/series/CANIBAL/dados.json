@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNjA=",
+  "tipo": "serie",
+  "titulo": "CANIBAL",
+  "capa_url": "https://lgfp.one/XYV",
+  "capa_local": "CANIBAL/CANIBAL.jpg",
+  "sinopse": "Depois de causar um certo incidente, o policial Daigo Agawa leva sua esposa e filha para morar na vila Kuge, um lugar remoto nas montanhas. Parece o lugar perfeito para a filha se recuperar de um trauma, apesar do misterioso desaparecimento do oficial que prestava serviço por lá. Um dia, o corpo de uma idosa é encontrado na montanha. A família Goto diz que ela foi atacada por um urso, mas Daigo percebe uma marca de mordida humana nela. Logo fica claro que nem tudo é o que parece nessa vila.",
+  "genero": "Drama / Crime / Action & Adventure",
+  "elenco": "Yuya Yagira, Riho Yoshioka, Show Kasamatsu, Mitsuko Baisho, Seiji Rokkaku, Rairu Sugita, Mitsuo Yoshihara, Yutaro Nakamura",
+  "diretor": "Shinzo Katayama",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:09:02"
+        }
+      ]
+    }
+  ],
+  "id": 3229
+}

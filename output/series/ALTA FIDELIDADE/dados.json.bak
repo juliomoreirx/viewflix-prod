@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0ODk=",
+  "tipo": "serie",
+  "titulo": "ALTA FIDELIDADE",
+  "capa_url": "https://lgfp.one/REO",
+  "capa_local": "ALTA FIDELIDADE/ALTA FIDELIDADE.jpg",
+  "sinopse": "Centrado em Rob, dona de uma loja de discos, que revisita relacionamentos passados através da música e da cultura pop. Uma reimaginação do romance “Alta Fidelidade”, de Nick Hornby, lançado em 1995.",
+  "genero": "Comédia",
+  "elenco": "Zoë Kravitz, David H. Holmes, Da'Vine Joy Randolph, Jake Lacy, Kingsley Ben-Adir",
+  "diretor": "",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:33"
+        }
+      ]
+    }
+  ],
+  "id": 8509
+}

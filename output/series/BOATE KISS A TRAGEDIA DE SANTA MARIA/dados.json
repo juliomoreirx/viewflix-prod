@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMDY=",
+  "tipo": "serie",
+  "titulo": "BOATE KISS: A TRAGÉDIA DE SANTA MARIA",
+  "capa_url": "https://lgfp.one/XWS",
+  "capa_local": "BOATE KISS A TRAGEDIA DE SANTA MARIA/BOATE KISS A TRAGEDIA DE SANTA MARIA.jpg",
+  "sinopse": "Marcelo Canellas conta a história de luta por justiça protagonizada por familiares das vítimas de uma das maiores tragédias do Brasil: o incêndio da Boate Kiss.",
+  "genero": "Documentário",
+  "elenco": "Marcelo Canellas",
+  "diretor": "Marcelo Canellas",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:31"
+        }
+      ]
+    }
+  ],
+  "id": 3225
+}

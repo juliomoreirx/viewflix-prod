@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMDc=",
+  "tipo": "serie",
+  "titulo": "MONARCA",
+  "capa_url": "https://lgfp.one/JAZ",
+  "capa_local": "MONARCA/MONARCA.jpg",
+  "sinopse": "Monarca é descrita como uma saga familiar de várias gerações sobre um império de negócios mexicano nascido na tequila e a batalha que se segue quando um membro da família decide combater o sistema sujo que sua família ajudou a criar.",
+  "genero": "Drama",
+  "elenco": "Irene Azuela, Juan Manuel Bernal, Osvaldo Benavides",
+  "diretor": "Nina Chávez Góngora",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:17:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:17:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:12:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:12:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:18:25"
+        }
+      ]
+    }
+  ],
+  "id": 395
+}

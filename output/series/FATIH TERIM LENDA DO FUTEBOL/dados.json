@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1ODU=",
+  "tipo": "serie",
+  "titulo": "FATIH TERIM: LENDA DO FUTEBOL",
+  "capa_url": "https://lgfp.one/TRK",
+  "capa_local": "FATIH TERIM LENDA DO FUTEBOL/FATIH TERIM LENDA DO FUTEBOL.jpg",
+  "sinopse": "O lendário Fatih Terim relembra sua trajetória no futebol, dos dias como jogador até o sucesso como técnico de vários times vencedores.",
+  "genero": "Documentário",
+  "elenco": "Fatih Terim, Bülent Timurlenk, Frank Gerrish",
+  "diretor": "Burak Aksoy, Altuğ Gültan, Cristiana Pecci",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:52"
+        }
+      ]
+    }
+  ],
+  "id": 2864
+}

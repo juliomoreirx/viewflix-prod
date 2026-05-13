@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNzg=",
+  "tipo": "serie",
+  "titulo": "JOHNNY DEPP X AMBER HEARD",
+  "capa_url": "https://lgfp.one/AATZ",
+  "capa_local": "JOHNNY DEPP X AMBER HEARD/JOHNNY DEPP X AMBER HEARD.jpg",
+  "sinopse": "Mostrando os dois depoimentos lado a lado pela primeira vez, esta série explora o julgamento que abalou Hollywood e dominou a internet.",
+  "genero": "Documentário",
+  "elenco": "Nick Viall, Johnny Depp, Amber Heard",
+  "diretor": "Emma Cooper",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:17"
+        }
+      ]
+    }
+  ],
+  "id": 3864
+}

@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMTc=",
+  "tipo": "serie",
+  "titulo": "WE ARE [L]",
+  "capa_url": "https://lgfp.one/DTE3",
+  "capa_local": "WE ARE [L]/WE ARE [L].jpg",
+  "sinopse": "Para esse grupo de amigos, por mais árduos que sejam os estudos universitários, sempre há algo mais para se ocupar; o caos da vida e do amor não deixa ninguém descansar.\n\nSomos… amigos, mas brigamos e gostamos tanto um do outro que podemos dar em cima um do outro.",
+  "genero": "Drama",
+  "elenco": "Naravit Lertratkosum, ภูวินทร์ ตั้งศักดิ์ยืน, Thanawin Pholcharoenrat, Kittipop Sereevichayasawat, ธนบูรณ์ เกียรตินิรันดร์",
+  "diretor": "Siwaj Sawatmaneekul, Ryu Pakphum Jitpisutsiri, Nuttapong Mongkolsawas",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:34"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:53:15"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:52:59"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:00:40"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:56:27"
+        }
+      ]
+    }
+  ],
+  "id": 6053
+}

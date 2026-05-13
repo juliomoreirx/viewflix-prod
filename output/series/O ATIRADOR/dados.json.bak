@@ -1,0 +1,185 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3NTM=",
+  "tipo": "serie",
+  "titulo": "O ATIRADOR",
+  "capa_url": "https://lgfp.one/JDD",
+  "capa_local": "O ATIRADOR/O ATIRADOR.jpg",
+  "sinopse": "Um condecorado atirador de elite da Marinha americana volta à ativa para desmontar uma conspiração com objetivo de matar o presidente, mas acaba acusado de assassinato.",
+  "genero": "Action & Adventure, War & Politics, Drama",
+  "elenco": "Ryan Phillippe, Shantel VanSanten, Cynthia Addai-Robinson, Omar Epps, Lexy Kolker",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:42:24"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "13",
+          "codigo": "S03E13",
+          "duracao": "00:42:42"
+        }
+      ]
+    }
+  ],
+  "id": 465
+}

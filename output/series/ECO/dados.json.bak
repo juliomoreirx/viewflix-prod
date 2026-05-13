@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMjU=",
+  "tipo": "serie",
+  "titulo": "ECO",
+  "capa_url": "https://lgfp.one/AYGH",
+  "capa_local": "ECO/ECO.jpg",
+  "sinopse": "Perseguida pelo criminoso Fisk, Maya volta para casa, onde confrontará sua família e seu legado.",
+  "genero": "Drama, Crime, Action & Adventure",
+  "elenco": "Alaqua Cox, Chaske Spencer, Tantoo Cardinal, Devery Jacobs, Cody Lightning",
+  "diretor": "Sydney Freeland, Steven Judd",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:40"
+        }
+      ]
+    }
+  ],
+  "id": 4792
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMTI=",
+  "tipo": "serie",
+  "titulo": "SECOND CHANCE [L]",
+  "capa_url": "https://lgfp.one/BAU7",
+  "capa_local": "SECOND CHANCE [L]/SECOND CHANCE [L].jpg",
+  "sinopse": "Muitas pessoas já ouviram falar em histórias parecidas como a de Tong Fah, um garoto que recentemente perdeu seu pai. Além da mãe de Tong Fah, Paper, um amigo próximo de infância, o ajuda a enfrentar diversas situações. Os dois se ajudam o tempo todo até o que o relacionamento entre os dois desenvolve para algo mais.\n\nUm dia, Jeno é atacado pela pessoa que ele ama fazendo-o não acreditar mais no amor até que Chris, um conhecido seu, tenta fazer com que ele se abra mais uma vez.\n\nNa primeira oportunidade, eles falharam. Então eles esperam uma segunda chance para focar no que eles querem conquistar e é nessa hora que todos tentarão novamente amar.",
+  "genero": "Drama",
+  "elenco": "Fluke Chinnathan Rojrawee Thanakun, Thanayut Thakoonauttaya, Mawin Tanawin Duangnate, Run Kantheephop Sirorattanaphanit, Games Nanthipat Srrttnphnt",
+  "diretor": "Nut Nutthachai Khrueasena",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:33"
+        }
+      ]
+    }
+  ],
+  "id": 5415
+}

@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMzI=",
+  "tipo": "serie",
+  "titulo": "COISA MAIS LINDA",
+  "capa_url": "https://lgfp.one/IVW",
+  "capa_local": "COISA MAIS LINDA/COISA MAIS LINDA.jpg",
+  "sinopse": "Uma dona de casa chega ao Rio dos anos 50 para encontrar o marido e descobre que foi abandonada. Em vez de sofrer, ela decide ficar na cidade e abrir um clube de bossa nova.",
+  "genero": "Drama",
+  "elenco": "Maria Casadevall, Pathy Dejesus, Larissa Nunes, Mel Lisboa, Leandro Lima",
+  "diretor": "Caito Ortiz, Hugo Prata, Julia Rezende",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:39"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:41:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:35:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:56:02"
+        }
+      ]
+    }
+  ],
+  "id": 248
+}

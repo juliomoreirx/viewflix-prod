@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxNjI=",
+  "tipo": "serie",
+  "titulo": "WE WERE THERE (2026) [L]",
+  "capa_url": "https://lgfp.one/SXJ6",
+  "capa_local": "WE WERE THERE (2026) [L]/WE WERE THERE (2026) [L].jpg",
+  "sinopse": "Narrado pela aclamada atriz Daisy Ridley, este é o relato do planejamento, do trabalho árduo e dos sonhos que estiveram por trás da primeira Copa do Mundo da FIFA realizada no Oriente Médio, e a mais bem-sucedida até hoje.",
+  "genero": "Documentário",
+  "elenco": "Daisy Ridley",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:09"
+        }
+      ]
+    }
+  ],
+  "id": 9461
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NTU=",
+  "tipo": "serie",
+  "titulo": "NO MAN'S LAND",
+  "capa_url": "https://lgfp.one/RJQ",
+  "capa_local": "NO MAN'S LAND/NO MAN'S LAND.jpg",
+  "sinopse": "Enquanto a família chora a morte de Anna, seu irmão suspeita que ela está viva depois de vê-la numa reportagem. Sem certezas nem garantias, ele parte para a Síria à sua procura.",
+  "genero": "War & Politics, Drama, Action & Adventure",
+  "elenco": "Félix Moati, Mélanie Thierry, Souheila Yacoub, James Floyd, Joe Ben Ayed",
+  "diretor": "Oded Ruskin",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:27"
+        }
+      ]
+    }
+  ],
+  "id": 1071
+}

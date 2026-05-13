@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3ODI=",
+  "tipo": "serie",
+  "titulo": "DÚVIDA RAZOÁVEL: UMA HISTÓRIA DE DOIS SEQUESTROS",
+  "capa_url": "https://lgfp.one/SOV",
+  "capa_local": "DUVIDA RAZOAVEL UMA HISTORIA DE DOIS SEQUESTROS/DUVIDA RAZOAVEL UMA HISTORIA DE DOIS SEQUESTROS.jpg",
+  "sinopse": "Uma batida de carro que se transforma em sequestro leva o documentarista Roberto Hernández a revelar as falhas da Justiça no México.",
+  "genero": "Crime, Documentário",
+  "elenco": "Gary Littman, Jeremy Levy, Rohana Kenin",
+  "diretor": "Roberto Hernández",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:07"
+        }
+      ]
+    }
+  ],
+  "id": 2082
+}

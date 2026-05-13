@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MDQ=",
+  "tipo": "serie",
+  "titulo": "MISTERIOS DA ANTIGA CHINA [L]",
+  "capa_url": "https://lgfp.one/ROH7",
+  "capa_local": "MISTERIOS DA ANTIGA CHINA [L]/MISTERIOS DA ANTIGA CHINA [L].jpg",
+  "sinopse": "O arqueólogo Allan Maca lidera uma equipe de especialistas em uma grande aventura para resolver mistérios da China antiga de uma maneira totalmente nova. Ele revela palácios, cidades perdidas e evidências de desastres devastadores.",
+  "genero": "Documentário",
+  "elenco": "Allan Maca",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:10"
+        }
+      ]
+    }
+  ],
+  "id": 8763
+}

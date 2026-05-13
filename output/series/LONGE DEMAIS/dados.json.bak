@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MDE=",
+  "tipo": "serie",
+  "titulo": "LONGE DEMAIS",
+  "capa_url": "https://lgfp.one/XDW",
+  "capa_local": "LONGE DEMAIS/LONGE DEMAIS.jpg",
+  "sinopse": "Uma bolsa de estudos para a escola de maior prestígio da Nigéria abre as portas do luxuoso mundo da elite para um adolescente com problemas financeiros.",
+  "genero": "Drama",
+  "elenco": "Funke Akindele, Richard Mofe-Damijo, Mike Afolarin, Elma Mbadiwe, Gbubemi Ejeye",
+  "diretor": "Catherine Stewart, Kayode Kasum",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:38"
+        }
+      ]
+    }
+  ],
+  "id": 3137
+}

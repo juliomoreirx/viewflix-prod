@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTk=",
+  "tipo": "serie",
+  "titulo": "BAD GENIUS: THE SERIES",
+  "capa_url": "https://lgfp.one/QOY4",
+  "capa_local": "BAD GENIUS THE SERIES/BAD GENIUS THE SERIES.jpg",
+  "sinopse": "Quando um grupo de estudantes quer transformar 'provas' em 'milhões', você acha que eles terão sucesso? Do filme de maior sucesso Bad Genius (2017) a uma extensa série de suspense.",
+  "genero": "Drama, Crime",
+  "elenco": "เพลินพิชญา โกมลารชุน, Sawanya Paisarnpayak, จินเจษฎ์ วรรธนะสิน, พาริส อินทรโกมาลย์สุต, ศักดิ์สิทธิ์ แท่งทอง",
+  "diretor": "พัฒน์ บุญนิธิพัฒน์, พัฒน์ บุญนิธิพัฒน์",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:12"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:31"
+        }
+      ]
+    }
+  ],
+  "id": 8346
+}

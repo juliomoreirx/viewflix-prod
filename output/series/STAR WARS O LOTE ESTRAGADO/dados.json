@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NTg=",
+  "tipo": "serie",
+  "titulo": "STAR WARS O LOTE ESTRAGADO",
+  "capa_url": "https://lgfp.one/RRL",
+  "capa_local": "STAR WARS O LOTE ESTRAGADO/STAR WARS O LOTE ESTRAGADO.jpg",
+  "sinopse": "Os Mal Feitos precisam encontrar seu caminho numa galáxia em rápida transformação.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Animação",
+  "elenco": "Dee Bradley Baker, Michelle Ang, Stephen Stanton",
+  "diretor": "",
+  "total_episodios": "75",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:11:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:17"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:28:11"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:28:06"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:28:54"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:26:40"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:26:11"
+        }
+      ]
+    }
+  ],
+  "id": 1285
+}

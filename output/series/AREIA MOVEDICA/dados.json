@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxOTQ=",
+  "tipo": "serie",
+  "titulo": "AREIA MOVEDICA",
+  "capa_url": "https://lgfp.one/AYM4",
+  "capa_local": "AREIA MOVEDICA/AREIA MOVEDICA.jpg",
+  "sinopse": "Após a tragédia numa escola abalar um rico subúrbio de Estocolmo, uma garota aparentemente normal vai a julgamento por assassinato.",
+  "genero": "Crime, Drama",
+  "elenco": "Hanna Ardéhn, Felix Sandman, David Dencik, Rebecka Hemse, Anna Björk",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:34"
+        }
+      ]
+    }
+  ],
+  "id": 5371
+}

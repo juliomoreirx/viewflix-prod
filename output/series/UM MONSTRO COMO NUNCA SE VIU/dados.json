@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NjE=",
+  "tipo": "serie",
+  "titulo": "UM MONSTRO COMO NUNCA SE VIU",
+  "capa_url": "https://lgfp.one/BGS5",
+  "capa_local": "UM MONSTRO COMO NUNCA SE VIU/UM MONSTRO COMO NUNCA SE VIU.jpg",
+  "sinopse": "Maria Awes, uma jornalista investigativa, se une a John Douglas, o investigador criminal do FBI, para descobrir a extensão dos crimes do serial killer Todd Kohlhepp.",
+  "genero": "Documentário, Crime, Reality",
+  "elenco": "John Edel, Eric Pierson, Jess Tomasko",
+  "diretor": "Andy Awes, Ben Krueger",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:45"
+        }
+      ]
+    }
+  ],
+  "id": 5569
+}

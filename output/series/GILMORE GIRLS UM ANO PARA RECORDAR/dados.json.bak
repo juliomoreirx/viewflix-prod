@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NTg=",
+  "tipo": "serie",
+  "titulo": "GILMORE GIRLS: UM ANO PARA RECORDAR",
+  "capa_url": "https://lgfp.one/SWP5",
+  "capa_local": "GILMORE GIRLS UM ANO PARA RECORDAR/GILMORE GIRLS UM ANO PARA RECORDAR.jpg",
+  "sinopse": "Quase uma década depois do último episódio da série original, Lorelai, Rory e Emily Gilmore estão de volta para viver as quatro estações do ano juntas.",
+  "genero": "Drama, Comédia",
+  "elenco": "Lauren Graham, Alexis Bledel, Scott Patterson, Kelly Bishop",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:31:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:28:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:29:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:42:19"
+        }
+      ]
+    }
+  ],
+  "id": 9446
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MTI=",
+  "tipo": "serie",
+  "titulo": "CÂMERA ENTRE BALAS",
+  "capa_url": "https://lgfp.one/NEF0",
+  "capa_local": "CAMERA ENTRE BALAS/CAMERA ENTRE BALAS.jpg",
+  "sinopse": "Mergulhe nos perigos dos fotojornalistas e correspondentes que arriscam tudo para cobrir zonas de guerra e crises humanitárias.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Tânia Leite, Tatty Viana, Adriana Cechetti",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 6980
+}

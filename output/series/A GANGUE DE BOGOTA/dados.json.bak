@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MzA=",
+  "tipo": "serie",
+  "titulo": "A GANGUE DE BOGOTA",
+  "capa_url": "https://lgfp.one/ASPF",
+  "capa_local": "A GANGUE DE BOGOTA/A GANGUE DE BOGOTA.jpg",
+  "sinopse": "Inspirado em eventos reais, A Gangue de Bogotá expõe a ascensão de um grupo de amigos de Bogotá nos anos 80. A série segue uma geração em busca de sua identidade através da amizade improvável entre David e Léo, o irmão mais novo de Andréa, uma dos líderes do grupo.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:27"
+        }
+      ]
+    }
+  ],
+  "id": 4391
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1ODQ=",
+  "tipo": "serie",
+  "titulo": "JOVEM SHERLOCK (2026)",
+  "capa_url": "https://lgfp.one/SCI7",
+  "capa_local": "JOVEM SHERLOCK (2026)/JOVEM SHERLOCK (2026).jpg",
+  "sinopse": "Nesse mistério repleto de ação, testemunhe a história de origem de Sherlock Holmes em uma releitura irreverente dos primórdios do icônico personagem.",
+  "genero": "Action & Adventure, Mistério",
+  "elenco": "Hero Fiennes Tiffin, Joseph Fiennes, Natascha McElhone, Zine Tseng, Colin Firth",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:38"
+        }
+      ]
+    }
+  ],
+  "id": 9023
+}

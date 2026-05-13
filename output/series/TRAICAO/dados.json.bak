@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0OTY=",
+  "tipo": "serie",
+  "titulo": "TRAIÇÃO",
+  "capa_url": "https://lgfp.one/XFX",
+  "capa_local": "TRAICAO/TRAICAO.jpg",
+  "sinopse": "O futuro brilhante de um agente britânico toma um rumo inesperado depois que um encontro com uma espiã russa o faz questionar todas as suas escolhas.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Charlie Cox, Ольга Куриленко, Oona Chaplin, Ciarán Hinds",
+  "diretor": "Louise Hooper, Sarah O'Gorman",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:28"
+        }
+      ]
+    }
+  ],
+  "id": 3158
+}

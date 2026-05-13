@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3ODM=",
+  "tipo": "serie",
+  "titulo": "CONTRASTE (2026) [L]",
+  "capa_url": "https://lgfp.one/SUK3",
+  "capa_local": "CONTRASTE (2026) [L]/CONTRASTE (2026) [L].jpg",
+  "sinopse": "Um estudante estrela emocionalmente distante e um solitário silencioso encontram um refúgio improvável no patamar de uma escada, onde o silêncio compartilhado lentamente se torna algo mais.",
+  "genero": "Drama",
+  "elenco": "井内 悠陽, Akune Haruse, 冨里奈央, 丸尾隼, 樫又龍ノ介",
+  "diretor": "Miki Tomita",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:24"
+        }
+      ]
+    }
+  ],
+  "id": 9403
+}

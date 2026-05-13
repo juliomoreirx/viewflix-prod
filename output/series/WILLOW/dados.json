@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzA=",
+  "tipo": "serie",
+  "titulo": "WILLOW",
+  "capa_url": "https://lgfp.one/WLM",
+  "capa_local": "WILLOW/WILLOW.jpg",
+  "sinopse": "Anos após os eventos do filme “Willow” original, esta série apresenta novos personagens ao reino encantado das rainhas das fadas e monstros Eborsisk de duas cabeças, e dá as boas-vindas ao seu herói homônimo, Willow Ufgood.",
+  "genero": "Sci-Fi & Fantasy / Action & Adventure / Drama",
+  "elenco": "Warwick Davis, Dempsey Bryk, Ellie Bamber, Ruby Cruz, Erin Kellyman, Tony Revolori, Amer Chadha-Patel, Christian Slater",
+  "diretor": "Jonathan Kasdan",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:01"
+        }
+      ]
+    }
+  ],
+  "id": 3115
+}

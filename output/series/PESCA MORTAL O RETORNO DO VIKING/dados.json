@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2NjA=",
+  "tipo": "serie",
+  "titulo": "PESCA MORTAL O RETORNO DO VIKING",
+  "capa_url": "https://lgfp.one/AUXI",
+  "capa_local": "PESCA MORTAL O RETORNO DO VIKING/PESCA MORTAL O RETORNO DO VIKING.jpg",
+  "sinopse": "Sig Hansen convence a família a voltar à sua terra natal, na Noruega, na esperança de construir um novo império de pesca do caranguejo-real. Uma jornada surpreendente que revelará um legado perdido.",
+  "genero": "Reality",
+  "elenco": "Sig Hansen, Mandy Hansen, Jake Anderson",
+  "diretor": "",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "101",
+          "codigo": "S01E101",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "102",
+          "codigo": "S01E102",
+          "duracao": "00:43:28"
+        }
+      ]
+    }
+  ],
+  "id": 4577
+}

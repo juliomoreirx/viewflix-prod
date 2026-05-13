@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTc=",
+  "tipo": "serie",
+  "titulo": "A VÍTIMA",
+  "capa_url": "https://lgfp.one/XFN",
+  "capa_local": "A VITIMA/A VITIMA.jpg",
+  "sinopse": "Uma mãe busca o paradeiro do assassino de seu filho, que foi solto da prisão, trazendo à tona muitas memórias e consequências inesperadas.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Kelly Macdonald, James Harkness, John Hannah, Jamie Sives, Karla Crome",
+  "diretor": "Niall MacCormick, Tanya Miller",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:36"
+        }
+      ]
+    }
+  ],
+  "id": 3148
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxNjY=",
+  "tipo": "serie",
+  "titulo": "GIRL RULES (2026) [L]",
+  "capa_url": "https://lgfp.one/SEV3",
+  "capa_local": "GIRL RULES (2026) [L]/GIRL RULES (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "ทิพนารี วีรวัฒโนดม, รชานันท์ มหาวรรณ์, พรรษา วอสเบียน, ภัทรานิษฐ์ ลิ้มปติยากร, เบญญาภา จีนประสม",
+  "diretor": "ทิชากร ภูเขาทอง",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:58:20"
+        }
+      ]
+    }
+  ],
+  "id": 9086
+}

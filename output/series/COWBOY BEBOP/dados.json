@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3OTA=",
+  "tipo": "serie",
+  "titulo": "COWBOY BEBOP",
+  "capa_url": "https://lgfp.one/SNT",
+  "capa_local": "COWBOY BEBOP/COWBOY BEBOP.jpg",
+  "sinopse": "Esses caçadores de recompensas viajam pela galáxia atrás dos bandidos mais perigosos do universo. Eles estão prontos para salvar o mundo — se forem bem pagos, lógico!",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Crime",
+  "elenco": "John Cho, Mustafa Shakir, Daniella Pineda, Elena Satine, Alex Hassell",
+  "diretor": "Michael Katleman",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:59"
+        }
+      ]
+    }
+  ],
+  "id": 2053
+}

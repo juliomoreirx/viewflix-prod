@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDY=",
+  "tipo": "serie",
+  "titulo": "CAPITÃES",
+  "capa_url": "https://lgfp.one/VXY",
+  "capa_local": "CAPITAES/CAPITAES.jpg",
+  "sinopse": "Entre decepções e glórias, o documentário acompanha seis capitães e seus times na briga por uma vaga na Copa do Mundo FIFA de 2022.",
+  "genero": "Documentário",
+  "elenco": "Pierre-Emerick Aubameyang, Luka Modric, Thiago Silva",
+  "diretor": "Ben Turner, Adam Goott",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:52"
+        }
+      ]
+    }
+  ],
+  "id": 2987
+}

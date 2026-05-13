@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MTc=",
+  "tipo": "serie",
+  "titulo": "FATMA",
+  "capa_url": "https://lgfp.one/RPY",
+  "capa_local": "FATMA/FATMA.jpg",
+  "sinopse": "Recuperando-se da tragédia, uma faxineira indefinida embarca em uma onda de assassinatos enquanto procura seu marido desaparecido e reconhece ferimentos antigos.",
+  "genero": "Crime, Drama",
+  "elenco": "Burcu Biricik, Uğur Yücel, Mehmet Yılmaz Ak",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 1244
+}

@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5ODU=",
+  "tipo": "serie",
+  "titulo": "AS NOVAS AVENTURAS DO MACACO",
+  "capa_url": "https://lgfp.one/RDR",
+  "capa_local": "AS NOVAS AVENTURAS DO MACACO/AS NOVAS AVENTURAS DO MACACO.jpg",
+  "sinopse": "A história se passa em uma era onde os deuses estão mortos ou escondidos, mas os demônios reinam. Para combater esses seres deve se despertar o guardião dos divinos o Rei Macaco, que ficou aprisionado em uma montanha por 500 anos. Isso se ocorre porque no passado o Rei roubou sete pergaminhos sagrados e os espalhou pelos sete continentes, em sua nuvem voadora. Logo essa missão de acorda-lo e recuperar as escrituras fica nas mãos da monge Tripitaka. Então as forças do mau tomam conhecimento e planejam impedir.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Comédia",
+  "elenco": "Chai Hansen, Luciane Buchanan, Josh Thomson, Emilie Cocquerel, Natasha Daniel",
+  "diretor": "Gerard Johnstone, Peter Andrikidis, Thomas Robins, Craig Irvin",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:01"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:26:48"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:35:52"
+        }
+      ]
+    }
+  ],
+  "id": 908
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2OTA=",
+  "tipo": "serie",
+  "titulo": "THE GIRL FROM PLAINVILLE",
+  "capa_url": "https://lgfp.one/TPJ",
+  "capa_local": "THE GIRL FROM PLAINVILLE/THE GIRL FROM PLAINVILLE.jpg",
+  "sinopse": "O controverso caso de Michelle Carter, que foi condenada em 2017 por homicídio culposo por incentivar o suicídio de seu então namorado por meio de mensagens de texto e telefonemas.",
+  "genero": "Drama / Crime",
+  "elenco": "Elle Fanning, Chloë Sevigny, Colton Ryan, Cara Buono, Kai Lennox, Norbert Leo Butz, Aya Cash, Kylie Goldstein",
+  "diretor": "Patrick Macmanus, Liz Hannah",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:57"
+        }
+      ]
+    }
+  ],
+  "id": 2806
+}

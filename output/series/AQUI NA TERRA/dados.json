@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0OTM=",
+  "tipo": "serie",
+  "titulo": "AQUI NA TERRA",
+  "capa_url": "https://lgfp.one/JNX",
+  "capa_local": "AQUI NA TERRA/AQUI NA TERRA.jpg",
+  "sinopse": "Um jovem humilde supera barreiras sociais em busca de ascensão econômica e política, enquanto que outro jovem herdeiro luta para esclarecer o assassinato de seu pai, um fiscal anticorrupção cuja morte obriga o presidente a renunciar.",
+  "genero": "Crime, Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:58:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:45:08"
+        }
+      ]
+    }
+  ],
+  "id": 782
+}

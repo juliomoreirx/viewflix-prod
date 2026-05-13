@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMjk=",
+  "tipo": "serie",
+  "titulo": "O LEGADO DOS ANOS 90",
+  "capa_url": "https://lgfp.one/RKZ",
+  "capa_local": "O LEGADO DOS ANOS 90/O LEGADO DOS ANOS 90.jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:23:55"
+        }
+      ]
+    }
+  ],
+  "id": 1109
+}

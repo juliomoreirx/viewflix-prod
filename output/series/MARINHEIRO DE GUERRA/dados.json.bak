@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NDc=",
+  "tipo": "serie",
+  "titulo": "MARINHEIRO DE GUERRA",
+  "capa_url": "https://lgfp.one/ZCM",
+  "capa_local": "MARINHEIRO DE GUERRA/MARINHEIRO DE GUERRA.jpg",
+  "sinopse": "Em meio à Segunda Guerra Mundial, dois marinheiros enfrentam situações terríveis em um navio norueguês enquanto lutam para sobreviver.",
+  "genero": "Drama",
+  "elenco": "Kristoffer Joner, Ine Marie Wilmann, Pål Sverre Hagen",
+  "diretor": "Michael Lehmann, Amalie Egeberg, Roar Fjørtoft",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:00"
+        }
+      ]
+    }
+  ],
+  "id": 3392
+}

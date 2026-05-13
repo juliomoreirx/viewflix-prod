@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MzM=",
+  "tipo": "serie",
+  "titulo": "O IMPÉRIO DOS CHIMPANZÉS",
+  "capa_url": "https://lgfp.one/ZLJ",
+  "capa_local": "O IMPERIO DOS CHIMPANZES/O IMPERIO DOS CHIMPANZES.jpg",
+  "sinopse": "Uma grande comunidade de chimpanzés vive numa floresta de Uganda enfrentando políticas sociais e dinâmicas familiares complexas, além de perigosas disputas territoriais.",
+  "genero": "Documentário",
+  "elenco": "Mahershala Ali",
+  "diretor": "James Reed, John Capener, Matt Houghton",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:03"
+        }
+      ]
+    }
+  ],
+  "id": 3442
+}

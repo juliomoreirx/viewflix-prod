@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMzE=",
+  "tipo": "serie",
+  "titulo": "MEMÓRIAS DE UM CARCEREIRO",
+  "capa_url": "https://lgfp.one/KPY3",
+  "capa_local": "MEMORIAS DE UM CARCEREIRO/MEMORIAS DE UM CARCEREIRO.jpg",
+  "sinopse": "Quando um funcionário certinho aceita um emprego na prisão Tihar, ele jura que vai mudar tudo após ver de perto a corrupção no local.",
+  "genero": "Drama, Crime",
+  "elenco": "Zahan Kapoor, Rahul Bhat, Paramvir Singh Cheema, Anurag Thakur, Rajshri Deshpande",
+  "diretor": "Tanya Chhabria, Vikramaditya Motwane, Ambiecka Pandit",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:42"
+        }
+      ]
+    }
+  ],
+  "id": 6531
+}

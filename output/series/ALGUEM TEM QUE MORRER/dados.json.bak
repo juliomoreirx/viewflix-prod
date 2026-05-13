@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NTk=",
+  "tipo": "serie",
+  "titulo": "ALGUÉM TEM QUE MORRER",
+  "capa_url": "https://lgfp.one/RGW",
+  "capa_local": "ALGUEM TEM QUE MORRER/ALGUEM TEM QUE MORRER.jpg",
+  "sinopse": "Na Espanha da década de 50, um casal chama o filho de volta do México para apresentá-lo a sua noiva. Mal sabiam que ele chegaria acompanhado de um bailarino.",
+  "genero": "Drama",
+  "elenco": "Ernesto Alterio, Carmen Maura, Carlos Cuevas, Alejandro Speitzer, Cecilia Suárez",
+  "diretor": "Manolo Caro",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:54"
+        }
+      ]
+    }
+  ],
+  "id": 997
+}

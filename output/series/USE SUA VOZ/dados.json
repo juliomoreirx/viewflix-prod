@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MTM=",
+  "tipo": "serie",
+  "titulo": "USE SUA VOZ",
+  "capa_url": "https://lgfp.one/AAMV",
+  "capa_local": "USE SUA VOZ/USE SUA VOZ.jpg",
+  "sinopse": "Um apagão no colégio Use Sua Voz no último dia de aula acontece justo quando aconteceriam as tão esperadas audições finais do Núcleo Musical. Os alunos suspeitam que o sabotador esteja entre eles, e então iniciam uma investigação. Bia, Giulia e Laura revisitam confidências do passado e entendem por que romperam a amizade. Agora, munidos de conhecimento, os alunos estão prontos para soltarem suas vozes em uma apresentação histórica.",
+  "genero": "Drama, Comédia",
+  "elenco": "Bia Torres, Giulia Nassa, Laura Castro, Robson Nunes, Serjão Loroza",
+  "diretor": "Adolpho Knauth, Lara Rodi, Daniel Talento",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:51"
+        }
+      ]
+    }
+  ],
+  "id": 3675
+}

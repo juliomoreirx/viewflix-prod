@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTA=",
+  "tipo": "serie",
+  "titulo": "NOSSO SEGREDO",
+  "capa_url": "https://lgfp.one/VXF",
+  "capa_local": "NOSSO SEGREDO/NOSSO SEGREDO.jpg",
+  "sinopse": "Uma série documental de quatro partes que acompanha a jornada de uma mulher enquanto ela analisa seu relacionamento passado com um professor de confiança. A série expõe uma epidemia de aliciamento generalizado nas escolas secundárias americanas.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "172",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:14"
+        }
+      ]
+    }
+  ],
+  "id": 2968
+}

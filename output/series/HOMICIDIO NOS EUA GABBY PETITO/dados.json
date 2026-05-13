@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMDQ=",
+  "tipo": "serie",
+  "titulo": "HOMICÍDIO NOS EUA GABBY PETITO",
+  "capa_url": "https://lgfp.one/NAD0",
+  "capa_local": "HOMICIDIO NOS EUA GABBY PETITO/HOMICIDIO NOS EUA GABBY PETITO.jpg",
+  "sinopse": "O que aconteceu nos dias finais de Gabby Petito? Nesta série emocionante sobre um crime real, amigos e familiares revelam a história de seu trágico assassinato.",
+  "genero": "Documentário, Crime",
+  "elenco": "Gabby Petito, Brian Laundrie, Jim Schmidt, Nicole Schmidt, Rose Davis",
+  "diretor": "Michael Gasparro, Julia Willoughby Nason",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:36"
+        }
+      ]
+    }
+  ],
+  "id": 6904
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NzM=",
+  "tipo": "serie",
+  "titulo": "WOLF CREEK",
+  "capa_url": "https://lgfp.one/JLL",
+  "capa_local": "WOLF CREEK/WOLF CREEK.jpg",
+  "sinopse": "Eva é uma turista de 19 anos dos Estados Unidos, e se torna o alvo do serial killer enlouquecido chamado Mick Taylo. Ela consegue sobreviver ao ataque samgrento e decide embarcar em uma missão para sivingar de todo o mal que ele lhe causou. Wolf Creek Online é uma série de tv do gênero thrille psicológico que é completamente ambientado em um mundo em que os fãs dos filmes conhecem muito bem, mas agora as coisas estão muito diferentes. Em Wolf Creek Online, iniciando a série Wolf Creek, o padrão é sempre familiar: O personagem Mick Taylor vai escolher uma família de turistas dos Estados Unidos para poder aterrorizar e destruí-la completamente. De repente o jogo acaba virando e Eva que tem 19 anos sobreviveu ao grande massacre de sua família e decide iniciar toda a sua existência que foi despedaçada e embarcando em uma grande missão para poder se vingar de todo o ocorrido.",
+  "genero": "Action & Adventure, Crime, Drama",
+  "elenco": "John Jarratt, Tess Haubrich, Matt Day",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:15"
+        }
+      ]
+    }
+  ],
+  "id": 708
+}

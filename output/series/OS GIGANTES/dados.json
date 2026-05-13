@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxODM=",
+  "tipo": "serie",
+  "titulo": "OS GIGANTES",
+  "capa_url": "https://lgfp.one/AUR3",
+  "capa_local": "OS GIGANTES/OS GIGANTES.jpg",
+  "sinopse": "Frederico está em coma no hospital. Angustiada com o sofrimento do irmão, Paloma desliga os aparelhos que o mantêm vivo. A partir de então, inicia-se uma batalha judicial entre ela e a cunhada Veridiana, que a acusa de ter praticado eutanásia.",
+  "genero": "Drama",
+  "elenco": "Dina Sfat, Francisco Cuoco, Tarcísio Meira, Susana Vieira, Joana Fomm",
+  "diretor": "Régis Cardoso, Jardel Mello",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:03"
+        }
+      ]
+    }
+  ],
+  "id": 5298
+}

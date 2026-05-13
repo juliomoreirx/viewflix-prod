@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMTA=",
+  "tipo": "serie",
+  "titulo": "VANDERPUMP VILLA LUXOS E SEGREDOS",
+  "capa_url": "https://lgfp.one/AQQ0",
+  "capa_local": "VANDERPUMP VILLA LUXOS E SEGREDOS/VANDERPUMP VILLA LUXOS E SEGREDOS.jpg",
+  "sinopse": "",
+  "genero": "Reality",
+  "elenco": "Lisa Vanderpump, Stephen Alsvig, Anthony Bar, Marciano Brunette, Caroline Byl",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:27"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:54:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:51:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:57:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:57:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:01:02"
+        }
+      ]
+    }
+  ],
+  "id": 5203
+}

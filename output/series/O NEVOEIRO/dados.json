@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNjc=",
+  "tipo": "serie",
+  "titulo": "O NEVOEIRO",
+  "capa_url": "https://lgfp.one/JGD",
+  "capa_local": "O NEVOEIRO/O NEVOEIRO.jpg",
+  "sinopse": "Encurralados por um estranho nevoeiro, os moradores de uma cidade descobrem que o fenômeno esconde criaturas terríveis. Uma nova série inspirada na obra de Stephen King.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Morgan Spector, Alyssa Sutherland, Gus Birney, Danica Ćurčić, Okezie Morro",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:22"
+        }
+      ]
+    }
+  ],
+  "id": 2920
+}

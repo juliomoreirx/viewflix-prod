@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Mjc=",
+  "tipo": "serie",
+  "titulo": "REZAR E OBEDECER",
+  "capa_url": "https://lgfp.one/TLX",
+  "capa_local": "REZAR E OBEDECER/REZAR E OBEDECER.jpg",
+  "sinopse": "Esta série documental mostra a ascensão de Warren Jeffs na Igreja Fundamentalista de Jesus Cristo dos Santos dos Últimos Dias e o chocante caso criminoso contra ele.",
+  "genero": "Documentário, Crime",
+  "elenco": "Mike Watkiss, Elissa Wall, Rebecca Musser",
+  "diretor": "Rachel Dretzin, Grace McNally, Rachel Dretzin",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:41"
+        }
+      ]
+    }
+  ],
+  "id": 2712
+}

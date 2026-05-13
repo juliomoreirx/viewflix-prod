@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MzM=",
+  "tipo": "serie",
+  "titulo": "MESTRES DE FERRO",
+  "capa_url": "https://lgfp.one/SGN",
+  "capa_local": "MESTRES DE FERRO/MESTRES DE FERRO.jpg",
+  "sinopse": "Nesta competição, mestres da arte em metal derretem, cortam e soldam peças incríveis em aço temperado. Quem será que vai levar o prêmio de 50 mil dólares?",
+  "genero": "Reality",
+  "elenco": "Jo Koy, Rae Ripple, Ivan Iler",
+  "diretor": "Rupert Smith",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:10"
+        }
+      ]
+    }
+  ],
+  "id": 227810
+}

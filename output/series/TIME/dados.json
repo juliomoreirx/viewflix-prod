@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MDk=",
+  "tipo": "serie",
+  "titulo": "TIME",
+  "capa_url": "https://lgfp.one/APQ7",
+  "capa_local": "TIME/TIME.jpg",
+  "sinopse": "Um prisioneiro consumido pela culpa, um oficial com uma escolha impossível. O que é preciso para sobreviver? Uma história tensa de punição e princípios, estrelada por Sean Bean e Stephen Graham.",
+  "genero": "Drama",
+  "elenco": "Bella Ramsey, Siobhan Finneran, Jodie Whittaker, Tamara Lawrance, James Nelson-Joyce",
+  "diretor": "Lewis Arnold",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:23"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:46:05"
+        }
+      ]
+    }
+  ],
+  "id": 5184
+}

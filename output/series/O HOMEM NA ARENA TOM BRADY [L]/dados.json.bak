@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NDk=",
+  "tipo": "serie",
+  "titulo": "O HOMEM NA ARENA: TOM BRADY [L]",
+  "capa_url": "https://lgfp.one/AAUO",
+  "capa_local": "O HOMEM NA ARENA TOM BRADY [L]/O HOMEM NA ARENA TOM BRADY [L].jpg",
+  "sinopse": "Tom Brady divide, em primeira mão, suas melhores experiências em suas dez campanhas de Super Bowl. A série terá a presença de Brady e outros grandes do esporte, repassando os principais eventos de sua carreira lendária na NFL, abordando o furacão mental e emocional em cada vitória e derrota.",
+  "genero": "Documentário",
+  "elenco": "Tom Brady",
+  "diretor": "Gotham Chopra, Gotham Chopra, Erik LeDrew",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:08"
+        }
+      ]
+    }
+  ],
+  "id": 3879
+}

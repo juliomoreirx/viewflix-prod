@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNzk=",
+  "tipo": "serie",
+  "titulo": "APAIXONADOS POR COMIDA",
+  "capa_url": "https://lgfp.one/JZP4",
+  "capa_local": "APAIXONADOS POR COMIDA/APAIXONADOS POR COMIDA.jpg",
+  "sinopse": "Amantes da comida do mundo, unam-se. Estamos trazendo nossos maiores apetites e mergulhando nas refeições mais saborosas do mundo neste guia definitivo para tudo relacionado à comida. De pizzas incríveis a montes de macarrão, passando por delícias fritas e muito mais, não há necessidade de esconder sua obsessão por comida - estamos aqui para celebrá-la.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:19:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:45"
+        }
+      ]
+    }
+  ],
+  "id": 2112
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNTM=",
+  "tipo": "serie",
+  "titulo": "O VELHO OESTE COM KEVIN COSTNER",
+  "capa_url": "https://lgfp.one/QEH2",
+  "capa_local": "O VELHO OESTE COM KEVIN COSTNER/O VELHO OESTE COM KEVIN COSTNER.jpg",
+  "sinopse": "O astro Kevin Costner explora o retrato multifacetado que compõe a fronteira norte-americana, dos desbravadores aos agentes da lei e às batalhas por terra e liberdade.",
+  "genero": "Documentário",
+  "elenco": "Kevin Costner",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:42"
+        }
+      ]
+    }
+  ],
+  "id": 8148
+}

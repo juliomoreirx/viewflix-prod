@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNzI=",
+  "tipo": "serie",
+  "titulo": "MISSAO AVIAO",
+  "capa_url": "https://lgfp.one/DFD9",
+  "capa_local": "MISSAO AVIAO/MISSAO AVIAO.jpg",
+  "sinopse": "Nick Popovich é um \"recuperador\", mas não do tipo que arranca carros de garagens de cassinos do subúrbio. Popovich é um superprofissional, um dos poucos quando chamado um banco quer de volta sua jato Gulfstream II, roubado por um pequeno exército de rebeldes colombianos. Híbrido de gatuno e agente do FBI, Nick e sua equipe cheia de adrenalina se especializaram em recuperar jatos de esconderijos nas selvas, de latifundiários corruptos na Colômbia, no México e Brasil; ou surrupiar aviões não pagos de grandes companhias aéreas, como Southwest e American Airlines.",
+  "genero": "Reality, Documentário",
+  "elenco": "Ken Cage, Danny Thompson, Kevin Lacey",
+  "diretor": "Steve Jones",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 5796
+}

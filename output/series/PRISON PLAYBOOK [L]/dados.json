@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0ODU=",
+  "tipo": "serie",
+  "titulo": "PRISON PLAYBOOK [L]",
+  "capa_url": "https://lgfp.one/RRI",
+  "capa_local": "PRISON PLAYBOOK [L]/PRISON PLAYBOOK [L].jpg",
+  "sinopse": "Kim Je Hyuk, um famoso jogador de beisebol, é preso após usar força excessiva enquanto perseguia um homem que tentava agredir sexualmente sua irmã. Chocantemente para ele e para o resto da nação, ele foi condenado a um ano de prisão. Lá, ele conhece seu amigo de infância e colega jogador de beisebol, Lee Joon Ho, que desistiu do beisebol após um acidente de carro, mas agora é um guarda prisional e um dos maiores fãs de Je Hyuk. O drama gira em torno do tempo de Je Hyuk na prisão, bem como dos prisioneiros que ele encontra e dos eventos que acontecem lá.",
+  "genero": "Comédia, Drama",
+  "elenco": "Park Hae-soo, Jung Kyung-ho, Krystal Jung, Lee Kyoo-hyung, Choi Moo-seong",
+  "diretor": "Shin Won-ho",
+  "total_episodios": "105",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:33:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:27:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:27:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:42:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:36:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:36:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:35:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:28:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:31:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:26:28"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:35:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:33:16"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:34:39"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:17:19"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:23:46"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:39:38"
+        }
+      ]
+    }
+  ],
+  "id": 1282
+}

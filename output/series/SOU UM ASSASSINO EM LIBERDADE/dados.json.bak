@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5OTI=",
+  "tipo": "serie",
+  "titulo": "SOU UM ASSASSINO: EM LIBERDADE",
+  "capa_url": "https://lgfp.one/RDK",
+  "capa_local": "SOU UM ASSASSINO EM LIBERDADE/SOU UM ASSASSINO EM LIBERDADE.jpg",
+  "sinopse": "Nesta série documental, um prisioneiro condenado à morte por homicídio ganha o direito à condicional depois de 30 anos. E então faz uma confissão surpreendente.",
+  "genero": "Documentário",
+  "elenco": "Dale Wayne Sigler, John Harlan Zeltner, Carole Whitworth",
+  "diretor": "Itamar Klasmer, Ned Parker",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:36"
+        }
+      ]
+    }
+  ],
+  "id": 900
+}

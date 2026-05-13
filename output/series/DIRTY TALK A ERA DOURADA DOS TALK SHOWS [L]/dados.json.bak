@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNDc=",
+  "tipo": "serie",
+  "titulo": "DIRTY TALK A ERA DOURADA DOS TALK SHOWS [L]",
+  "capa_url": "https://lgfp.one/RZG1",
+  "capa_local": "DIRTY TALK A ERA DOURADA DOS TALK SHOWS [L]/DIRTY TALK A ERA DOURADA DOS TALK SHOWS [L].jpg",
+  "sinopse": "Examina a ascensão, queda e impacto duradouro da era mais sensacional da história dos talk shows televisivos.",
+  "genero": "Documentário",
+  "elenco": "John Henson, Montel Williams, Leeza Gibbons, Sally Jessy Raphael, Maury Povich",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:08"
+        }
+      ]
+    }
+  ],
+  "id": 8975
+}

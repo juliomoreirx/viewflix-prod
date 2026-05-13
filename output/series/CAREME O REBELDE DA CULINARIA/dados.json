@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNTc=",
+  "tipo": "serie",
+  "titulo": "CAREME O REBELDE DA CULINARIA",
+  "capa_url": "https://lgfp.one/NSC6",
+  "capa_local": "CAREME O REBELDE DA CULINARIA/CAREME O REBELDE DA CULINARIA.jpg",
+  "sinopse": "Um cozinheiro jovem e ambicioso usa seu charme sedutor e trabalha como espião para poder salvar seu pai e conquistar a fama.",
+  "genero": "Drama",
+  "elenco": "Benjamin Voisin, Jérémie Renier, Lyna Khoudri, Sigrid Bouaziz, Alice da Luz",
+  "diretor": "Hugo Marquetty, Romane Isabella, Marie Gennesseaux",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:06"
+        }
+      ]
+    }
+  ],
+  "id": 7235
+}

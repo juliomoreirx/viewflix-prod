@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyOTY=",
+  "tipo": "serie",
+  "titulo": "OLOLADE",
+  "capa_url": "https://lgfp.one/AUKE",
+  "capa_local": "OLOLADE/OLOLADE.jpg",
+  "sinopse": "Dois amigos ficam ricos de repente, de um jeito inesperado. Parece bom demais para ser verdade, até que eles se envolvem em um esquema de lavagem de dinheiro.",
+  "genero": "Drama, Comédia",
+  "elenco": "Frank Donga, Femi Adebayo, Mide Funmi Martins, Mercy Aigbe, Adebowale Adedayo",
+  "diretor": "Adeniyi Joseph Omobulejo",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:37"
+        }
+      ]
+    }
+  ],
+  "id": 4528
+}

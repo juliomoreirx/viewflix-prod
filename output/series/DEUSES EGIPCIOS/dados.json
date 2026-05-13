@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNjU=",
+  "tipo": "serie",
+  "titulo": "DEUSES EGIPCIOS",
+  "capa_url": "https://lgfp.one/KNJ3",
+  "capa_local": "DEUSES EGIPCIOS/DEUSES EGIPCIOS.jpg",
+  "sinopse": "Egiptólogos exploram a história do Egito e rastreiam as origens deste antigo Reino.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:25"
+        }
+      ]
+    }
+  ],
+  "id": 6471
+}

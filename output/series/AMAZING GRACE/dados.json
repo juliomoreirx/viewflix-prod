@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwOTM=",
+  "tipo": "serie",
+  "titulo": "AMAZING GRACE",
+  "capa_url": "https://lgfp.one/TJO",
+  "capa_local": "AMAZING GRACE/AMAZING GRACE.jpg",
+  "sinopse": "A série centra-se na parteira Grace e seus colegas apaixonados em um centro de parto não convencional ligado a um grande hospital da cidade. Uma feroz defensora de suas futuras mães grávidas, o duvidoso equilíbrio entre trabalho e vida pessoal de Grace está prestes a ficar ainda mais caótico quando uma recém-chegada ao centro de parto muda sua vida para sempre.",
+  "genero": "Drama",
+  "elenco": "Kate Jenkinson, Sigrid Thornton, Alex Dimitriades, Ben O'Toole, Alexandra Jensen, Catherine Van-Davies, Kat Hoyos, Ben Mingay",
+  "diretor": "Sarah Smith, David Maher",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:55"
+        }
+      ]
+    }
+  ],
+  "id": 2645
+}

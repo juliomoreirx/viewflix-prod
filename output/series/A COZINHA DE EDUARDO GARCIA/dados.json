@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2NDE=",
+  "tipo": "serie",
+  "titulo": "A COZINHA DE EDUARDO GARCIA",
+  "capa_url": "https://lgfp.one/AWUE",
+  "capa_local": "A COZINHA DE EDUARDO GARCIA/A COZINHA DE EDUARDO GARCIA.jpg",
+  "sinopse": "Inspirado por seu amor pela natureza, o chefe de Montana, aventureiro e caçador de alimentos na natureza, Eduardo Garcia prepara refeições divertidas e deliciosas.",
+  "genero": "Reality, Documentário",
+  "elenco": "Eduardo Garcia",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:31"
+        }
+      ]
+    }
+  ],
+  "id": 4684
+}

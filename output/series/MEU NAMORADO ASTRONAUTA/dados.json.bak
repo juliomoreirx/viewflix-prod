@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NzI=",
+  "tipo": "serie",
+  "titulo": "MEU NAMORADO ASTRONAUTA",
+  "capa_url": "https://lgfp.one/YMQ",
+  "capa_local": "MEU NAMORADO ASTRONAUTA/MEU NAMORADO ASTRONAUTA.jpg",
+  "sinopse": "O retorno de um astronauta à Terra depois de 30 anos reacende a chama de uma antiga paixão e atrai uma empresa interessada no segredo para a juventude eterna.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Vanessa Aleksander, Magdalena Boczarska, Magdalena Cielecka, Anna Cieślak, Andrzej Chyra",
+  "diretor": "Bartosz Prokopowicz, Barbara Burska, Sylwia Wojdecka",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:54"
+        }
+      ]
+    }
+  ],
+  "id": 3282
+}

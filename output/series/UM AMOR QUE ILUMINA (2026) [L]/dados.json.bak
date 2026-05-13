@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MTQ=",
+  "tipo": "serie",
+  "titulo": "UM AMOR QUE ILUMINA (2026) [L]",
+  "capa_url": "https://lgfp.one/SEC2",
+  "capa_local": "UM AMOR QUE ILUMINA (2026) [L]/UM AMOR QUE ILUMINA (2026) [L].jpg",
+  "sinopse": "Apaixonados na adolescência, dois jovens se reencontram 10 anos depois e confrontam suas dores, aprendizados e novos desafios.",
+  "genero": "Drama",
+  "elenco": "Park Jin Young, 김민주, 신재하, 박세현, 김태훈",
+  "diretor": "Kim Yoon-jin",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:18"
+        }
+      ]
+    }
+  ],
+  "id": 9065
+}

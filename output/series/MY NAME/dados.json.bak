@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MDU=",
+  "tipo": "serie",
+  "titulo": "MY NAME",
+  "capa_url": "https://lgfp.one/SLP",
+  "capa_local": "MY NAME/MY NAME.jpg",
+  "sinopse": "Depois do assassinato do pai, uma mulher com sede de vingança deposita a confiança em um chefão do crime — e acaba entrando para a polícia sob seu comando.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "한소희, 박희순, 안보현, Kim Sang Ho, 이학주",
+  "diretor": "Oh Chung Pung",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:32"
+        }
+      ]
+    }
+  ],
+  "id": 1996
+}

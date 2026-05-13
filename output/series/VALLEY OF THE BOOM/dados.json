@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0OTg=",
+  "tipo": "serie",
+  "titulo": "VALLEY OF THE BOOM",
+  "capa_url": "https://lgfp.one/IZV",
+  "capa_local": "VALLEY OF THE BOOM/VALLEY OF THE BOOM.jpg",
+  "sinopse": "Conheça as vidas das personalidades do mundo da tecnologia, incluindo suas amizades, rivalidades, vitórias e fracassos.",
+  "genero": "Documentário, Drama",
+  "elenco": "Steve Zahn, Bradley Whitford, John Murphy, Oliver Cooper, John Karna",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:46"
+        }
+      ]
+    }
+  ],
+  "id": 359
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MzQ=",
+  "tipo": "serie",
+  "titulo": "NIGHT STALKER: TORTURA E TERROR",
+  "capa_url": "https://lgfp.one/RLL",
+  "capa_local": "NIGHT STALKER TORTURA E TERROR/NIGHT STALKER TORTURA E TERROR.jpg",
+  "sinopse": "Sob o glamour ensolarado de 1985, Los Angeles esconde um assassino em série cruel e implacável. Nesta história de crime verdadeiro, dois detetives não vão descansar até pegá-lo.",
+  "genero": "Documentário, Crime, Mistério",
+  "elenco": "Gil Carrillo, Frank Salerno, Pearl Carrillo, Tony Valdez, Laurel Erickson",
+  "diretor": "Tiller Russell, Douglas Rath",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:05"
+        }
+      ]
+    }
+  ],
+  "id": 1123
+}

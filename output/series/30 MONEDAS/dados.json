@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4OTg=",
+  "tipo": "serie",
+  "titulo": "30 MONEDAS",
+  "capa_url": "https://lgfp.one/RYJ",
+  "capa_local": "30 MONEDAS/30 MONEDAS.jpg",
+  "sinopse": "Coisas estranhas começam a acontecer na cidade, e uma improvável força-tarefa formada pelo Prefeito Paco e a veterinária Elena busca a verdade, enquanto a realidade é distorcida por uma moeda amaldiçoada que está no centro de uma conspiração mundial.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "Eduard Fernández, Megan Montaner, Pepón Nieto, Miguel Ángel Silvestre, Macarena Gómez",
+  "diretor": "",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:20:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:05"
+        }
+      ]
+    }
+  ],
+  "id": 1074
+}

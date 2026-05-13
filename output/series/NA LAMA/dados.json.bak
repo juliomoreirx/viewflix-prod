@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NDM=",
+  "tipo": "serie",
+  "titulo": "NA LAMA",
+  "capa_url": "https://lgfp.one/PSL7",
+  "capa_local": "NA LAMA/NA LAMA.jpg",
+  "sinopse": "Cinco detentas formam um vínculo único depois de um acidente terrível, mas tudo muda com a corrupção e a guerra pelo poder em uma prisão impiedosa.",
+  "genero": "Crime, Drama",
+  "elenco": "Ana Garibaldi, Valentina Zenere, Rita Cortese, Lorena Vega, Carolina Ramírez",
+  "diretor": "Sebastián Ortega",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:30"
+        }
+      ]
+    }
+  ],
+  "id": 7821
+}

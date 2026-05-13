@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MjU=",
+  "tipo": "serie",
+  "titulo": "HISTORIA DO COMUNISMO",
+  "capa_url": "https://lgfp.one/ANX3",
+  "capa_local": "HISTORIA DO COMUNISMO/HISTORIA DO COMUNISMO.jpg",
+  "sinopse": "Viajamos por 10 países, entrevistamos as maiores autoridades acadêmicas e científicas em comunismo, conversamos com testemunhas que viveram a realidade por trás da ideologia, e trouxemos o novo épico da Brasil Paralelo: o conteúdo mais completo já feito sobre a história do comunismo que pretende ser um marco definitivo na discussão sobre o tema, no Brasil e no mundo.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Asaph Hiroto",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:33:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:28:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:33:38"
+        }
+      ]
+    }
+  ],
+  "id": 5155
+}

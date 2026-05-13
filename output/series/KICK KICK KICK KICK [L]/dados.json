@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNjM=",
+  "tipo": "serie",
+  "titulo": "KICK KICK KICK KICK [L]",
+  "capa_url": "https://lgfp.one/NHY0",
+  "capa_local": "KICK KICK KICK KICK [L]/KICK KICK KICK KICK [L].jpg",
+  "sinopse": "O ator Ji Jin-hee e o ex-astro PD Jo Young-sik trabalham juntos para lançar uma empresa de conteúdo que visa 3 milhões de assinantes.",
+  "genero": "Comédia, Drama",
+  "elenco": "지진희, 이규형, 백지원, 이민재, Jeong Han-seol",
+  "diretor": "Goo Sung-joon",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:01:21"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:02:49"
+        }
+      ]
+    }
+  ],
+  "id": 7028
+}

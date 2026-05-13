@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MzY=",
+  "tipo": "serie",
+  "titulo": "FURACAO KATRINA CORRIDA CONTRA O TEMPO [L]",
+  "capa_url": "https://lgfp.one/PPZ1",
+  "capa_local": "FURACAO KATRINA CORRIDA CONTRA O TEMPO [L]/FURACAO KATRINA CORRIDA CONTRA O TEMPO [L].jpg",
+  "sinopse": "Uma série de cinco partes que retrata o furacão histórico e suas consequências, transportando os espectadores para o caos que tomou conta de Nova Orleans nos dias que antecederam e sucederam a chegada da tempestade. Com imagens de arquivo e depoimentos, momento a momento, de moradores, socorristas e autoridades, a série expõe como um desastre natural se tornou uma tragédia.",
+  "genero": "Documentário",
+  "elenco": "Sally forman, Russel Honoré, Malik Rahim, Thanh Truong, Kevin Goodman",
+  "diretor": "Ryan Coogler, Peter Nicks",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:04"
+        }
+      ]
+    }
+  ],
+  "id": 7737
+}

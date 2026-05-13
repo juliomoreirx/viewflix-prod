@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MjM=",
+  "tipo": "serie",
+  "titulo": "AS MALDICOES",
+  "capa_url": "https://lgfp.one/PYU4",
+  "capa_local": "AS MALDICOES/AS MALDICOES.jpg",
+  "sinopse": "No momento mais importante da carreira de um governador, a filha dele desaparece. Agora, ele terá que escolher entre a política ou a segurança da família.",
+  "genero": "Mistério, Drama",
+  "elenco": "Leonardo Sbaraglia, Gustavo Bassani, Francesca Varela, Alejandra Flechner, Mónica Antonópulos",
+  "diretor": "Daniel Burman, Martín Hodara",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:52"
+        }
+      ]
+    }
+  ],
+  "id": 7972
+}

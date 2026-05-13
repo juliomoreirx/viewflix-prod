@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MjA=",
+  "tipo": "serie",
+  "titulo": "EU, VOCÊ E TODA UMA VIDA",
+  "capa_url": "https://lgfp.one/PYU8",
+  "capa_local": "EU, VOCE E TODA UMA VIDA/EU, VOCE E TODA UMA VIDA.jpg",
+  "sinopse": "Com uma amizade cheia de altos e baixos desde a adolescência, elas se afastaram na idade adulta. Até que uma precisa acompanhar a outra em seus últimos dias de vida.",
+  "genero": "Drama",
+  "elenco": "김고은, 박지현, 김건우, 김재원, 문우진",
+  "diretor": "조영민",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:07:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:57:27"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:09:37"
+        }
+      ]
+    }
+  ],
+  "id": 7976
+}

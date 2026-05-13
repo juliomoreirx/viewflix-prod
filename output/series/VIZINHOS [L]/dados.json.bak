@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMDQ=",
+  "tipo": "serie",
+  "titulo": "VIZINHOS [L]",
+  "capa_url": "https://lgfp.one/RSP6",
+  "capa_local": "VIZINHOS [L]/VIZINHOS [L].jpg",
+  "sinopse": "Vizinhos examina histórias absurdas, ultrajantes e dramáticas de conflitos residenciais reais nos Estados Unidos. Assim, cada episódio apresenta um novo conjunto de vizinhos em disputas intensas, capturadas de forma imersiva em locais como ranchos em Montana, praias na Flórida e subúrbios em vários estados. Por exemplo, as brigas envolvem questões de fronteiras, barulho e controle pessoal, refletindo divisões maiores da sociedade americana.",
+  "genero": "Documentário, Reality",
+  "elenco": "",
+  "diretor": "Harrison Fishman, Josh Safdie",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:40"
+        }
+      ]
+    }
+  ],
+  "id": 124126
+}

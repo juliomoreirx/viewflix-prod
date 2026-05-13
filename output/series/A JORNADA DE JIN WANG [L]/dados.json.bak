@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2Nzc=",
+  "tipo": "serie",
+  "titulo": "A JORNADA DE JIN WANG [L]",
+  "capa_url": "https://lgfp.one/PZN1",
+  "capa_local": "A JORNADA DE JIN WANG [L]/A JORNADA DE JIN WANG [L].jpg",
+  "sinopse": "Jin Wang é um adolescente americano comum que tem seus planos de ser aceito socialmente prejudicados com a chegada de Wei-Chen Sun, um estudante estrangeiro. Mas ao conhecer melhor Wei-Chen, Jin descobre que ele é filho de Sun Wukong, o legendário Rei Macaco, da mitologia chinesa. Quando Wei-Chen pede que Jin o ajude a achar um suposto Quarto Rolo, Jin precisa encarar os problemas do Céu e do ensino médio e, com isso, acaba descobrindo sua identidade.",
+  "genero": "Comédia, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Ben Wang, Sydney Taylor, Chin Han, Ke Huy Quan, 劉敬",
+  "diretor": "Jake Kasdan, Destin Daniel Cretton, Peng Zhang",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:13"
+        }
+      ]
+    }
+  ],
+  "id": 7983
+}

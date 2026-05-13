@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MzY=",
+  "tipo": "serie",
+  "titulo": "REI DOS STONKS",
+  "capa_url": "https://lgfp.one/TKK",
+  "capa_local": "REI DOS STONKS/REI DOS STONKS.jpg",
+  "sinopse": "Um ambicioso gênio das finanças está disposto a mentir e trapacear para fazer com que sua startup questionável conquiste a fama e o sucesso.",
+  "genero": "Drama, Comédia, Crime",
+  "elenco": "Wilson Gonzalez Ochsenknecht, Thomas Schubert, Matthias Brandt, Larissa Sirah Herden, Maryam Zaree",
+  "diretor": "Jan Bonny, Isabell Suba, Facundo Scalerandi",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:26"
+        }
+      ]
+    }
+  ],
+  "id": 2669
+}

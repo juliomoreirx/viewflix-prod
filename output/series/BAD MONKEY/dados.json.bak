@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNzg=",
+  "tipo": "serie",
+  "titulo": "BAD MONKEY",
+  "capa_url": "https://lgfp.one/DGC1",
+  "capa_local": "BAD MONKEY/BAD MONKEY.jpg",
+  "sinopse": "Um investigador que se tornou vigilante sanitário no sul da Flórida é arrastado para um mundo de ganância e corrupção após um turista encontrar um braço decepado durante uma pescaria. E sim, há um macaco.",
+  "genero": "Comédia, Crime",
+  "elenco": "Vince Vaughn, L. Scott Caldwell, Rob Delaney, Meredith Hagner, Natalie Martinez",
+  "diretor": "Marcos Siega",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:39:12"
+        }
+      ]
+    }
+  ],
+  "id": 5813
+}

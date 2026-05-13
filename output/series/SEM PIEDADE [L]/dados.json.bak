@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4OTI=",
+  "tipo": "serie",
+  "titulo": "SEM PIEDADE [L]",
+  "capa_url": "https://lgfp.one/REZ9",
+  "capa_local": "SEM PIEDADE [L]/SEM PIEDADE [L].jpg",
+  "sinopse": "Depois de sair de sua gangue, um ex-criminoso volta para descobrir a verdade por trás da morte do irmão, embarcando em uma jornada de vingança incansável.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "소지섭, 허준호, Gong Myung, 추영우, 안길강",
+  "diretor": "최성은",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:18"
+        }
+      ]
+    }
+  ],
+  "id": 8578
+}

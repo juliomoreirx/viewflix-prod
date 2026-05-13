@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NTk=",
+  "tipo": "serie",
+  "titulo": "UM DOS NOSSOS DAVID CHASE E A FAMILIA SOPRANO [L]",
+  "capa_url": "https://lgfp.one/QNR4",
+  "capa_local": "UM DOS NOSSOS DAVID CHASE E A FAMILIA SOPRANO [L]/UM DOS NOSSOS DAVID CHASE E A FAMILIA SOPRANO [L].jpg",
+  "sinopse": "Uma exploração da inovadora série original da HBO® Família Soprano através de uma análise profunda de seu renomado criador, David Chase.",
+  "genero": "Documentário",
+  "elenco": "David Chase, Alex Gibney, Lorraine Bracco, Drea de Matteo, Edie Falco",
+  "diretor": "Alex Gibney",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:14:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:21:46"
+        }
+      ]
+    }
+  ],
+  "id": 8330
+}

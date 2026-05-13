@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNjg=",
+  "tipo": "serie",
+  "titulo": "VOLTA PRISCILA",
+  "capa_url": "https://lgfp.one/DTE0",
+  "capa_local": "VOLTA PRISCILA/VOLTA PRISCILA.jpg",
+  "sinopse": "Em 2004, o Brasil é abalado pelo desaparecimento de Priscila, irmã do campeão mundial de MMA Vitor Belfort. A polícia corre contra o tempo para chegar à solução do caso, mas, 20 anos depois, o que resta são mais perguntas do que respostas.",
+  "genero": "Documentário",
+  "elenco": "Vitor Belfort, Joana do Prado, Sonia Abrão",
+  "diretor": "Eduardo Rajabally",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:16"
+        }
+      ]
+    }
+  ],
+  "id": 6050
+}

@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MjM=",
+  "tipo": "serie",
+  "titulo": "MAD DOG [L]",
+  "capa_url": "https://lgfp.one/AAZH",
+  "capa_local": "MAD DOG [L]/MAD DOG [L].jpg",
+  "sinopse": "Choi Kang-Woo é um ex-detetive, mas agora trabalha como veterano investigador de seguros. Ele lidera uma equipe que tenta revelar casos de fraude em seguros.",
+  "genero": "Crime, Drama",
+  "elenco": "Yoo Ji-tae, Woo Do-hwan, Ryu Hwa-young, Jo Jae-yun, Kim Hye-seong",
+  "diretor": "Hwang Eui-kyung",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:47"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:03:29"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:55"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:11"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:00:55"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:59:36"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:59:47"
+        }
+      ]
+    }
+  ],
+  "id": 3999
+}

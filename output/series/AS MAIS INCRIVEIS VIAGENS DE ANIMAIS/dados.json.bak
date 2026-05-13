@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMzU=",
+  "tipo": "serie",
+  "titulo": "AS MAIS INCRIVEIS VIAGENS DE ANIMAIS",
+  "capa_url": "https://lgfp.one/AUGF",
+  "capa_local": "AS MAIS INCRIVEIS VIAGENS DE ANIMAIS/AS MAIS INCRIVEIS VIAGENS DE ANIMAIS.jpg",
+  "sinopse": "Vivemos em um planeta em movimento. Em todas as paisagens, animais fazem migrações épicas em busca de alimento, abrigo e amor.",
+  "genero": "Documentário",
+  "elenco": "Jeremy Renner",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:43"
+        }
+      ]
+    }
+  ],
+  "id": 4511
+}

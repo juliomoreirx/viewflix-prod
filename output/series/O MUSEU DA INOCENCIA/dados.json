@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NTc=",
+  "tipo": "serie",
+  "titulo": "O MUSEU DA INOCENCIA",
+  "capa_url": "https://lgfp.one/RRY9",
+  "capa_local": "O MUSEU DA INOCENCIA/O MUSEU DA INOCENCIA.jpg",
+  "sinopse": "Istambul, 1970. O amor proibido de um homem por uma vendedora se transforma em uma jornada de desejo e obsessão pela vida toda. Baseada no famoso livro de Orhan Pamuk.",
+  "genero": "Drama",
+  "elenco": "Selahattin Paşalı, Eylül Lize Kandemir, Oya Unustası, Tilbe Saran, Bülent Emin Yarar",
+  "diretor": "Zeynep Günay Tan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:33:59"
+        }
+      ]
+    }
+  ],
+  "id": 8856
+}

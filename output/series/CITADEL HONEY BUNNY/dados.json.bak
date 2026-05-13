@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NDc=",
+  "tipo": "serie",
+  "titulo": "CITADEL HONEY BUNNY",
+  "capa_url": "https://lgfp.one/EEX9",
+  "capa_local": "CITADEL HONEY BUNNY/CITADEL HONEY BUNNY.jpg",
+  "sinopse": "Quando o dublê Bunny recruta a atriz em dificuldades Honey para um bico, eles são lançados em um mundo de ação, espionagem e traição de alto risco. Anos depois, quando seu passado perigoso os alcança, Honey e Bunny, que estavam separados, precisam se reunir e lutar para proteger sua jovem filha Nadia.",
+  "genero": "Drama",
+  "elenco": "Samantha Ruth Prabhu, Varun Dhawan, Kay Kay Menon, Simran, Saqib Saleem",
+  "diretor": "Anthony Russo, Joe Russo, Raj Nidimoru",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:47"
+        }
+      ]
+    }
+  ],
+  "id": 6199
+}

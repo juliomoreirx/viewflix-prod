@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMDU=",
+  "tipo": "serie",
+  "titulo": "TÁ TUDO UMA M&RD@!",
+  "capa_url": "https://lgfp.one/VZW",
+  "capa_local": "TA TUDO UMA M&RD@!/TA TUDO UMA M&RD@!.jpg",
+  "sinopse": "Phoebe é uma estrela de podcast de 30 e poucos anos vivendo uma vida desajustada. Mas quando seu irmão mais velho, Jayden, se torna um político renomado, ela é forçada a crescer, o que a leva a pedir a ajuda de seus amigos e familiares para navegar a vida adulta.",
+  "genero": "Comédia",
+  "elenco": "Phoebe Robinson, Jordan Carlos, Toccarra Cash, Moses Storm, Nneka Okafor",
+  "diretor": "Chioke Nassor",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:48"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:26"
+        }
+      ]
+    }
+  ],
+  "id": 3034
+}

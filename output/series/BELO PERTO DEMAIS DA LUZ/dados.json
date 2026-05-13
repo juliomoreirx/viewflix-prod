@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMjA=",
+  "tipo": "serie",
+  "titulo": "BELO PERTO DEMAIS DA LUZ",
+  "capa_url": "https://lgfp.one/KAE6",
+  "capa_local": "BELO PERTO DEMAIS DA LUZ/BELO PERTO DEMAIS DA LUZ.jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:29"
+        }
+      ]
+    }
+  ],
+  "id": 6308
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODI=",
+  "tipo": "serie",
+  "titulo": "GIRI / HAJI",
+  "capa_url": "https://lgfp.one/JDP",
+  "capa_local": "GIRI  HAJI/GIRI  HAJI.jpg",
+  "sinopse": "Um policial vai a Londres atrás de seu irmão mafioso quando uma guerra da yakuza ameaça tomar conta de Tóquio.",
+  "genero": "Crime, Drama",
+  "elenco": "平岳大, Kelly Macdonald, Yosuke Kubozuka, Will Sharpe, 奥山葵",
+  "diretor": "Julian Farino",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:16"
+        }
+      ]
+    }
+  ],
+  "id": 478
+}

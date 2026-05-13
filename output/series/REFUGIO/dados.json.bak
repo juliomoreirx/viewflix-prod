@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NDM=",
+  "tipo": "serie",
+  "titulo": "REFÚGIO",
+  "capa_url": "https://lgfp.one/AAVO",
+  "capa_local": "REFUGIO/REFUGIO.jpg",
+  "sinopse": "Acompanha Mickey Bolitar depois que a morte de seu pai o leva a começar uma vida nova numa cidade pequena. Quando outra nova aluna desaparece, Mickey se vê metido num emaranhado de segredos. Com a ajuda dos novos amigos, Colherada e Ema, eles revelam um submundo sombrio que pode ter as respostas para décadas de desaparecimentos de crianças.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Jaden Michael, Constance Zimmer, Adrian Greensmith, Abby Corrigan, Sage Linder",
+  "diretor": "Patricia Cardoso",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:03"
+        }
+      ]
+    }
+  ],
+  "id": 107703
+}

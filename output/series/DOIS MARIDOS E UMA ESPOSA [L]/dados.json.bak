@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3OTE=",
+  "tipo": "serie",
+  "titulo": "DOIS MARIDOS E UMA ESPOSA [L]",
+  "capa_url": "https://lgfp.one/NQT4",
+  "capa_local": "DOIS MARIDOS E UMA ESPOSA [L]/DOIS MARIDOS E UMA ESPOSA [L].jpg",
+  "sinopse": "Quando sua ex propõe um casamento a três com o namorado dela, um homem embarca em uma relação nada convencional, com muito ciúme, tabu e desafios na intimidade.",
+  "genero": "Drama",
+  "elenco": "浅香航大, 朝倉あき, 鈴木大河, 美山加恋, 三戸なつめ",
+  "diretor": "熊坂出",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:05"
+        }
+      ]
+    }
+  ],
+  "id": 7206
+}

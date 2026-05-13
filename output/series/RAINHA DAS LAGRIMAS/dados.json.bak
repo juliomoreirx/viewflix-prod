@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMzU=",
+  "tipo": "serie",
+  "titulo": "RAINHA DAS LAGRIMAS",
+  "capa_url": "https://lgfp.one/APQ4",
+  "capa_local": "RAINHA DAS LAGRIMAS/RAINHA DAS LAGRIMAS.jpg",
+  "sinopse": "A rainha das lojas de departamentos e o príncipe dos supermercados enfrentam uma crise conjugal. Até que o amor milagrosamente volta a florescer.",
+  "genero": "Drama, Comédia",
+  "elenco": "Kim Soo-hyun, Kim Ji-won, Park Sung-hoon, Kwak Dong-yeon, Lee Ju-bin",
+  "diretor": "Jang Young-woo, Kim Hee-won",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:17:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:29:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:23:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:31:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:28:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:26:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:24:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:27:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:27:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:27:18"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:26:21"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:33:26"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:29:20"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:26:30"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:28:19"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:50:26"
+        }
+      ]
+    }
+  ],
+  "id": 5181
+}

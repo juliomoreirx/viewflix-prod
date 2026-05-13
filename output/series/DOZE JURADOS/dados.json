@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMjg=",
+  "tipo": "serie",
+  "titulo": "DOZE JURADOS",
+  "capa_url": "https://lgfp.one/JLV",
+  "capa_local": "DOZE JURADOS/DOZE JURADOS.jpg",
+  "sinopse": "Um júri formado por doze cidadãos comuns deve decidir o destino de uma mulher acusada de matar sua melhor amiga e sua própria filha.",
+  "genero": "Drama",
+  "elenco": "Koen De Graeve, Louisa Peeters, Peter van den Begin, Inge Paulussen, Wouter Hendrickx",
+  "diretor": "Roel Mondelaers, Kaat Beels",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:24"
+        }
+      ]
+    }
+  ],
+  "id": 721
+}

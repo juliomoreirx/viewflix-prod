@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MDI=",
+  "tipo": "serie",
+  "titulo": "HEROIS DA BIBLIA",
+  "capa_url": "https://lgfp.one/DOT6",
+  "capa_local": "HEROIS DA BIBLIA/HEROIS DA BIBLIA.jpg",
+  "sinopse": "A Bíblia é uma compilação das Escrituras Sagradas, que mostra a história de homens e mulheres que foram escolhidos pelo Próprio Deus. Conheça mais sobre suas trajetórias e entenda por que eles são conhecidos como heróis da Bíblia!",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:25"
+        }
+      ]
+    }
+  ],
+  "id": 5965
+}

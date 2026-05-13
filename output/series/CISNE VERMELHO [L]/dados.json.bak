@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNzg=",
+  "tipo": "serie",
+  "titulo": "CISNE VERMELHO [L]",
+  "capa_url": "https://lgfp.one/CXS4",
+  "capa_local": "CISNE VERMELHO [L]/CISNE VERMELHO [L].jpg",
+  "sinopse": "Oh Wansoo, uma ex-jogadora de golfe de classe mundial casada com um poderoso membro do Grupo Hwain, se vê ameaçada de morte. Ela encontra Seo Doyoon, um guarda-costas que está investigando a morte de um amigo e que está ligado ao Grupo Hwain. Juntos, eles desvendam os segredos do Grupo Hwain contaminados pelo desejo.",
+  "genero": "Drama",
+  "elenco": "김하늘, 비, 정겨운, 서이숙, 윤제문",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:37"
+        }
+      ]
+    }
+  ],
+  "id": 8335
+}

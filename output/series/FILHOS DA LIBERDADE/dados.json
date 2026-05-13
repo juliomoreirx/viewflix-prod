@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3Mzc=",
+  "tipo": "serie",
+  "titulo": "FILHOS DA LIBERDADE",
+  "capa_url": "https://lgfp.one/AALT",
+  "capa_local": "FILHOS DA LIBERDADE/FILHOS DA LIBERDADE.jpg",
+  "sinopse": "Enquanto a América do norte era dominada por britânicos, seis jovens chamados, Sam Adams (Ben Barnes), Benedict Arnold, John Adams (Henry Thomas), Patrick Henry, John Hancock (Rafe Spall) e Paul Revere (Michael Raymond-James). Os mesmos cansados do domínio e exploração de outra nação, pensavam no que fazer com suas jovens vidas, e em um protesto que por fim soou como revolta e traição, foram aprisionados tanto fisicamente quando emocionalmente, e puderam ver com profundidade que sua nação não poderia mais viver refém dos impostos e humilhações dos britânicos. E assim entre reuniões secretas e treinamentos, viraram os “Filhos da Liberdade”. Lutaram, enfrentaram a morte de perto a fim de libertar seu sofrido povo.",
+  "genero": "Drama",
+  "elenco": "Ben Barnes, Rafe Spall, Henry Thomas, Michael Raymond-James, Ryan Eggold",
+  "diretor": "Kari Skogland",
+  "total_episodios": "86",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:27:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:26:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:26:19"
+        }
+      ]
+    }
+  ],
+  "id": 3649
+}

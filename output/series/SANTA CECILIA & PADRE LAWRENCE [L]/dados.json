@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NTU=",
+  "tipo": "serie",
+  "titulo": "SANTA CECILIA & PADRE LAWRENCE [L]",
+  "capa_url": "https://lgfp.one/AASW",
+  "capa_local": "SANTA CECILIA & PADRE LAWRENCE [L]/SANTA CECILIA & PADRE LAWRENCE [L].jpg",
+  "sinopse": "Santa Cecília é amada pelas pessoas da cidade - ela não é apenas elegante e composta, ela compartilha benevolentemente sua sabedoria com todos que a procuram. Isto é, até que a última pessoa tenha saído — nesse ponto ela fica totalmente sem esperança! Apenas o pastor Lawrence está mantendo a Santo o suficiente para cumprir seus deveres... e embora ela possa testá-lo, é tudo em um dia de trabalho!",
+  "genero": "Animação, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Hime Sawada, Kaito Ishikawa, Haruki Ishiya, Kanna Nakamura, Haruka Tomatsu",
+  "diretor": "Sumie Noro",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:41"
+        }
+      ]
+    }
+  ],
+  "id": 3835
+}

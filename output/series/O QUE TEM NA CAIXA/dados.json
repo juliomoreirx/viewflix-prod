@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MTM=",
+  "tipo": "serie",
+  "titulo": "O QUE TEM NA CAIXA",
+  "capa_url": "https://lgfp.one/RDF4",
+  "capa_local": "O QUE TEM NA CAIXA/O QUE TEM NA CAIXA.jpg",
+  "sinopse": "Neste game show apresentado por Neil Patrick Harris, os participantes respondem perguntas para ganhar prêmios escondidos. Só que os concorrentes vão tentar roubá-los!",
+  "genero": "Reality",
+  "elenco": "Neil Patrick Harris",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:04"
+        }
+      ]
+    }
+  ],
+  "id": 8481
+}

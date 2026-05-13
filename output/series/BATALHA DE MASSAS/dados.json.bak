@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNzY=",
+  "tipo": "serie",
+  "titulo": "BATALHA DE MASSAS",
+  "capa_url": "https://lgfp.one/RDE8",
+  "capa_local": "BATALHA DE MASSAS/BATALHA DE MASSAS.jpg",
+  "sinopse": "Seis cozinheiros amadores enfrentam os chefs Raul Lemos, João Vieira e Heaven Delhaye em uma disputa com pratos incríveis.\n\né um reality show culinário recente da Band, em parceria com a marca Adria, onde cozinheiros amadores competem criando pratos criativos com massas para ganhar o título de \"Estrela das Massas\" e prêmios em dinheiro e produtos. O programa, exibido em canais digitais da Band, conta com desafios temáticos, caixas surpresa, provas de conhecimento e jurados renomados como Raul Lemos, João Vieira, e Heaven Delhaye.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:31"
+        }
+      ]
+    }
+  ],
+  "id": 8475
+}

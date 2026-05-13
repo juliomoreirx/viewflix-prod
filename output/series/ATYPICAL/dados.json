@@ -1,0 +1,225 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwODU=",
+  "tipo": "serie",
+  "titulo": "ATYPICAL",
+  "capa_url": "https://lgfp.one/EBA4",
+  "capa_local": "ATYPICAL/ATYPICAL.jpg",
+  "sinopse": "Quando um adolescente com traços de autismo resolve arrumar uma namorada, sua busca por independência coloca a família toda em uma aventura de autodescoberta.",
+  "genero": "Drama, Comédia",
+  "elenco": "Jennifer Jason Leigh, Keir Gilchrist, Jack Haven, Michael Rapaport",
+  "diretor": "Seth Gordon",
+  "total_episodios": "33",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:52"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:29:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:30:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:32:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:28:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:30:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:29:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:34:06"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:33:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:27:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:31:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:34:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:28:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:34:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:35:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:34:14"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:28:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:30:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:27:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:26:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:29:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:29:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S04E09",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S04E10",
+          "duracao": "00:38:38"
+        }
+      ]
+    }
+  ],
+  "id": 6168
+}

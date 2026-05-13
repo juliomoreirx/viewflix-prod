@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5MTI=",
+  "tipo": "serie",
+  "titulo": "PROMISE OF WIZARD [L]",
+  "capa_url": "https://lgfp.one/KXU3",
+  "capa_local": "PROMISE OF WIZARD [L]/PROMISE OF WIZARD [L].jpg",
+  "sinopse": "A história gira em torno de Akira Maki, uma jovem comum da Terra que é invocada a um mundo de fantasia para ser um sábia e treinar magos de cinco nações para que eles possam lutar na “Grande Calamidade”, que acontece uma vez por ano.",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "花守ゆみり, 田丸篤志, 近藤隆, 神原大地, 永野由祐",
+  "diretor": "龍輪直征",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 6599
+}

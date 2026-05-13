@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3MTI=",
+  "tipo": "serie",
+  "titulo": "SAIHATE NO PALADIN",
+  "capa_url": "https://lgfp.one/TNY",
+  "capa_local": "SAIHATE NO PALADIN/SAIHATE NO PALADIN.jpg",
+  "sinopse": "A história acompanha Will, um jovem que foi criado por três mortos-vivos: um guerreiro esquelético chamado Sangue, uma graciosa sacerdotisa mumificada chamada Maria e o por um feiticeiro espectral excêntrico chamado Gus.\n\nOs três sempre cuidaram bem de Will e o ensinaram tudo o que era necessário para sobreviver. Entretanto, ao atingir a maturidade, Will começa a se questionar sobre quem realmente é, partindo em uma jornada para, não só descobrir seu passado, como também os segredos por trás da cidade dos mortos onde cresceu.",
+  "genero": "Animação / Action & Adventure / Sci-Fi & Fantasy",
+  "elenco": "Eri Suzuki, Koji Yusa, Kenji Nomura, Minoru Inaba, Atsushi Tamaru, Maki Kawase, Katsuyuki Konishi, Yui Horie",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:41"
+        }
+      ]
+    }
+  ],
+  "id": 2768
+}

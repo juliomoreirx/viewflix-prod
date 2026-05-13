@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NDU=",
+  "tipo": "serie",
+  "titulo": "STUMPTOWN: INVESTIGADORA SEM LIMITE",
+  "capa_url": "https://lgfp.one/RJN",
+  "capa_local": "STUMPTOWN INVESTIGADORA SEM LIMITE/STUMPTOWN INVESTIGADORA SEM LIMITE.jpg",
+  "sinopse": "Baseada na HQ homônima, Stumptown acompanha Dex Parios, uma veterana do exército forte e perspicaz, com uma vida amorosa complicada, dívidas de jogo e um irmão para cuidar em Portland, Oregon. Suas habilidades de inteligência militar fazem dela uma investigadora muito competente, mas sua personalidade durona acaba atrapalhando o relacionamento com a polícia.",
+  "genero": "Drama",
+  "elenco": "Cobie Smulders, Jake Johnson, Michael Ealy, Cole Sibus, Adrian Martinez",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:43:04"
+        }
+      ]
+    }
+  ],
+  "id": 1068
+}

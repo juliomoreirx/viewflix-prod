@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NDQ=",
+  "tipo": "serie",
+  "titulo": "ANATOMIA DI UN COME-BACK",
+  "capa_url": "https://lgfp.one/PLU6",
+  "capa_local": "ANATOMIA DI UN COME-BACK/ANATOMIA DI UN COME-BACK.jpg",
+  "sinopse": "Esta série conta a história interna por trás da extraordinária transformação do Renault Group. Em um setor que tende a operar a portas fechadas, a Renault está oferecendo uma visão única de seu processo de design e segredos de fabricação.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Stéphane Gillot, Marlies Demeulandre, Julie Robert",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:35"
+        }
+      ]
+    }
+  ],
+  "id": 7679
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NjM=",
+  "tipo": "serie",
+  "titulo": "RISE OF THE RAVEN [L]",
+  "capa_url": "https://lgfp.one/QNR0",
+  "capa_local": "RISE OF THE RAVEN [L]/RISE OF THE RAVEN [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, War & Politics",
+  "elenco": "Gellért Kádár L., Vivien Rujder, Murathan Muslu, Franciska Törőcsik, László Mátray",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:23:24"
+        }
+      ]
+    }
+  ],
+  "id": 8326
+}

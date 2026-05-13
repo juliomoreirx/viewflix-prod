@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODA=",
+  "tipo": "serie",
+  "titulo": "BOŽENA [L]",
+  "capa_url": "https://lgfp.one/AAPJ",
+  "capa_local": "BOZENA [L]/BOZENA [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Anna Geislerová, Jan Hájek",
+  "diretor": "Lenka Wimmerová, Marek Juráček, Bára Hladíková",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:21:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:33:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:25:57"
+        }
+      ]
+    }
+  ],
+  "id": 3743
+}

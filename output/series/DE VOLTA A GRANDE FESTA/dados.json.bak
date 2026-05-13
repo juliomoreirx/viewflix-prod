@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDQ=",
+  "tipo": "serie",
+  "titulo": "DE VOLTA A GRANDE FESTA",
+  "capa_url": "https://lgfp.one/ATLT",
+  "capa_local": "DE VOLTA A GRANDE FESTA/DE VOLTA A GRANDE FESTA.jpg",
+  "sinopse": "Quando o noivo de Razan aparece sem avisar no meio de uma importante celebração religiosa da família, a moça tenta convencer a todos de que ele é um pretendente adequado.",
+  "genero": "Comédia",
+  "elenco": "Summer Shesha, Bateel Qamlo, Hamza Haq, Yassir Al Saggaf, خالد الحربي",
+  "diretor": "Said Zagha, Ali Alattas, Anas Ahmad",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:19"
+        }
+      ]
+    }
+  ],
+  "id": 4462
+}

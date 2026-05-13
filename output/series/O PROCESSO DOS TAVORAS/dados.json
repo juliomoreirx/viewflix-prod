@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0ODg=",
+  "tipo": "serie",
+  "titulo": "O PROCESSO DOS TÁVORAS",
+  "capa_url": "https://lgfp.one/JGJ",
+  "capa_local": "O PROCESSO DOS TAVORAS/O PROCESSO DOS TAVORAS.jpg",
+  "sinopse": "Esta série demonstra todo o processo (e os seus bastidores políticos), que levaram à barbara execução dos Távoras, numa viagem ao século XVIII. Em ambiente de crise política e económica, D. José, rei de Portugal é vítima de um atentado, numa noite de Setembro, quando regressava ao Campo Real depois de um encontro com a sua amante - a marquesa de Távora nova, D. Teresa de Távora. Após um primeiro momento, o rei hesita e encarrega o seu ministro Sebastião José de Carvalho e Melo de constituir um tribunal que descubra, prenda e julgue os responsáveis pela tentativa de regicídio. É o pretexto que este procurava, para acabar de vez com a velha nobreza que resistia à euforia iluminista que entretanto se preparava para modificar definitivamente a forma de fazer política na Europa, assim como com a Companhia de Jesus. Assim, as famílias do duque de Aveiro e do marquês de Távora são acusadas, e vêem-se num processo espúrio, construído sobre provas cuja intencionalidade política era evidente, e sem possibilidade de defesa efectiva. O destino para os que se considerou implicados directamente foi a morte, na maior execução coletiva a que Portugal alguma vez assistiu. No entanto, a dúvida permaneceu sempre. Se politicamente eram responsáveis pela oposição ao espírito de reforma, judicialmente eram inocentes e o seu horror e humilhação públicos marcou para sempre a história.",
+  "genero": "Crime, Drama",
+  "elenco": "Júlio Cardoso, Sandra Cóias, Fernanda Lapa, Marco D'Almeida, Dinarte Branco",
+  "diretor": "Wilson Solon",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:20"
+        }
+      ]
+    }
+  ],
+  "id": 558
+}

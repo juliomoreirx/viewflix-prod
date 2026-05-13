@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjk=",
+  "tipo": "serie",
+  "titulo": "NEON",
+  "capa_url": "https://lgfp.one/ARCP",
+  "capa_local": "NEON/NEON.jpg",
+  "sinopse": "Um aspirante a astro do reggaeton e seus amigos se mudam para Miami, enfrentando obstáculos e a dura realidade da vida na busca pelo sucesso.",
+  "genero": "Comédia",
+  "elenco": "Tyler Dean Flores, Emma Ferreira, Jordan Mendoza, Alycia Pascual-Peña, Jordana Brewster",
+  "diretor": "Eli Gonda, Steven Canals, Kimberly McCullough, Oz Rodriguez",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:15"
+        }
+      ]
+    }
+  ],
+  "id": 4249
+}

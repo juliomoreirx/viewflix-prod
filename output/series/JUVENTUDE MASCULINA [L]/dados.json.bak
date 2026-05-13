@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MTI=",
+  "tipo": "serie",
+  "titulo": "JUVENTUDE MASCULINA [L]",
+  "capa_url": "https://lgfp.one/OTM2",
+  "capa_local": "JUVENTUDE MASCULINA [L]/JUVENTUDE MASCULINA [L].jpg",
+  "sinopse": "Jang Byeong-tae é um menino pequeno e fraco que mora em Onyang, na província de South Chungcheong. Ele está na base da escala social da escola e quando se transfere para a vizinha Escola Secundária Agrícola Buyeo, enfrenta um incidente inesperado que se torna um ponto de viragem na sua vida.",
+  "genero": "Comédia, Drama, Action & Adventure",
+  "elenco": "임시완, 이선빈, 이시우, 강혜원, 김정진",
+  "diretor": "Lee Myung-woo",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:19"
+        }
+      ]
+    }
+  ],
+  "id": 7450
+}

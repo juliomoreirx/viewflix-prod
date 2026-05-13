@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMDE=",
+  "tipo": "serie",
+  "titulo": "DESTINO PARANORMAL: CHAMADOS DO LAR",
+  "capa_url": "https://lgfp.one/PWF7",
+  "capa_local": "DESTINO PARANORMAL CHAMADOS DO LAR/DESTINO PARANORMAL CHAMADOS DO LAR.jpg",
+  "sinopse": "Zak Bagans e a equipe de Destino Paranormal investigam casas assombradas de pessoas comuns. Ao receber um chamado, Zak envia o time às casas para documentar atividades sem explicação e aconselhar sobre hóspedes paranormais.",
+  "genero": "Mistério, Reality",
+  "elenco": "Zak Bagans, Aaron Goodwin, Billy Tolley, Jay Wasley",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:31"
+        }
+      ]
+    }
+  ],
+  "id": 7895
+}

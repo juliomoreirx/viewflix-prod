@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNzM=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS DE GUERRA",
+  "capa_url": "https://lgfp.one/DEU6",
+  "capa_local": "SEGREDOS DE GUERRA/SEGREDOS DE GUERRA.jpg",
+  "sinopse": "",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Juan Pablo Medina",
+  "diretor": "Helen Roca",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:43"
+        }
+      ]
+    }
+  ],
+  "id": 339777
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3Mzk=",
+  "tipo": "serie",
+  "titulo": "AQUI NASCEU O HIP HOP [L]",
+  "capa_url": "https://lgfp.one/PPY6",
+  "capa_local": "AQUI NASCEU O HIP HOP [L]/AQUI NASCEU O HIP HOP [L].jpg",
+  "sinopse": "Aqui Nasceu o Hip-Hop! Uma série documental temática sobre Hip-Hop apresentada por LL Cool J. Vá além do que você acha que sabe para explorar a criação, a evolução e o legado contínuo que a cultura Hip-Hop consolidou em nossa sociedade moderna.",
+  "genero": "Documentário",
+  "elenco": "LL Cool J",
+  "diretor": "Kirk Fraser",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:22"
+        }
+      ]
+    }
+  ],
+  "id": 7732
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3Njg=",
+  "tipo": "serie",
+  "titulo": "THE TERROR",
+  "capa_url": "https://lgfp.one/JGL",
+  "capa_local": "THE TERROR/THE TERROR.jpg",
+  "sinopse": "The Terror mostra a perigosa viagem da Marinha Real Britânica em busca da Passagem Noroeste pelo Ártico em território inexplorado.",
+  "genero": "Mistério, Drama, Sci-Fi & Fantasy",
+  "elenco": "George Takei, Kiki Sukezane, Shingo Usami, Naoko Mori, Miki Ishikawa",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:14"
+        }
+      ]
+    }
+  ],
+  "id": 560
+}

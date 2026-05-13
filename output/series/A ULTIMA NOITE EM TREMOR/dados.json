@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwODc=",
+  "tipo": "serie",
+  "titulo": "A ULTIMA NOITE EM TREMOR",
+  "capa_url": "https://lgfp.one/EAZ8",
+  "capa_local": "A ULTIMA NOITE EM TREMOR/A ULTIMA NOITE EM TREMOR.jpg",
+  "sinopse": "Um pianista atormentado é atingido por um raio e começa a ter visões perigosas sobre o próprio futuro e uma ameaça mortal.",
+  "genero": "Drama, Mistério",
+  "elenco": "Javier Rey, Ana Polvorosa, Guillermo Toledo, Pilar Castro, Josean Bengoetxea",
+  "diretor": "Oriol Paulo",
+  "total_episodios": "71",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:18:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:22:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:20:17"
+        }
+      ]
+    }
+  ],
+  "id": 6162
+}

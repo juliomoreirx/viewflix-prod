@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1ODQ=",
+  "tipo": "serie",
+  "titulo": "LATE NIGHT LOCKUP RONDA POLICIAL",
+  "capa_url": "https://lgfp.one/ARU7",
+  "capa_local": "LATE NIGHT LOCKUP RONDA POLICIAL/LATE NIGHT LOCKUP RONDA POLICIAL.jpg",
+  "sinopse": "Quando o sol se põe, os suspeitos mais estranhos passam pelas delegacias, e os policiais se deparam com os comportamentos mais extravagantes. Com acesso às câmeras corporais e ao circuito interno de TV, esta série revela a rotina noturna da polícia.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:10"
+        }
+      ]
+    }
+  ],
+  "id": 5221
+}

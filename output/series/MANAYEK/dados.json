@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NjM=",
+  "tipo": "serie",
+  "titulo": "MANAYEK",
+  "capa_url": "https://lgfp.one/TIR",
+  "capa_local": "MANAYEK/MANAYEK.jpg",
+  "sinopse": "Neste drama policial, um veterano investigador da Divisão de Assuntos Internos prestes a se aposentar, esbarra em um caso de corrupção policial onde o principal suspeito é o seu melhor amigo, um policial condecorado.",
+  "genero": "Drama, Crime",
+  "elenco": "Shalom Assayag, עמוס תמם, לירז חממי, Sasi Samucha, Mouna Hawa",
+  "diretor": "Alon Zingman",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:53"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:47:58"
+        }
+      ]
+    }
+  ],
+  "id": 2622
+}

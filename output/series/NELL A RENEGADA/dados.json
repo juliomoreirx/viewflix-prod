@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMDQ=",
+  "tipo": "serie",
+  "titulo": "NELL A RENEGADA",
+  "capa_url": "https://lgfp.one/AQG2",
+  "capa_local": "NELL A RENEGADA/NELL A RENEGADA.jpg",
+  "sinopse": "Inglaterra, 1705: Acusada de assassinato e fugindo com suas irmãs, Nell Jackson se dedica a assaltos nas estradas para sobreviver. Com a ajuda de seu amigo com superpoderes, uma destemida criatura mágica chamada Billy Blind, Nell percebe que o destino a colocou do lado errado da lei por um motivo. Um motivo muito maior do que ela poderia imaginar: acabar com uma conspiração contra a Rainha da Inglaterra.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Louisa Harland, Nick Mohammed, Frank Dillane, Adrian Lester, Alice Kremelberg",
+  "diretor": "Jon Jennings",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:06"
+        }
+      ]
+    }
+  ],
+  "id": 5195
+}

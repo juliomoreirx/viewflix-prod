@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NTY=",
+  "tipo": "serie",
+  "titulo": "A MULHER DA CASA ABANDONADA",
+  "capa_url": "https://lgfp.one/PSO5",
+  "capa_local": "A MULHER DA CASA ABANDONADA/A MULHER DA CASA ABANDONADA.jpg",
+  "sinopse": "O jornalista Chico Felitti investiga uma senhora peculiar que mora em uma mansão em ruínas em um bairro nobre de São Paulo, e que foi acusada, juntamente com seu ex-marido, de agredir e manter ilegalmente uma trabalhadora doméstica brasileira nos Estados Unidos durante os anos 2000.",
+  "genero": "Documentário",
+  "elenco": "Chico Felitti",
+  "diretor": "Kátia Lund",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:19"
+        }
+      ]
+    }
+  ],
+  "id": 7832
+}

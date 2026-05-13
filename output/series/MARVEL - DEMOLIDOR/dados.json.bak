@@ -1,0 +1,225 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MTI=",
+  "tipo": "serie",
+  "titulo": "MARVEL - DEMOLIDOR",
+  "capa_url": "https://lgfp.one/JAL",
+  "capa_local": "MARVEL - DEMOLIDOR/MARVEL - DEMOLIDOR.jpg",
+  "sinopse": "Cego desde pequeno, Matt Murdock luta contra a injustiça durante o dia como advogado e à noite nas ruas de Hell’s Kitchen, Nova York.",
+  "genero": "Crime, Drama, Action & Adventure",
+  "elenco": "Charlie Cox, Deborah Ann Woll, Elden Henson, Vincent D'Onofrio, Jay Ali",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:56:04"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:58:17"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:59:13"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:55:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:00:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:55:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:56:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:54:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:57:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:53:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:54:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:49:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:54:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:53:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:46:13"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "13",
+          "codigo": "S03E13",
+          "duracao": "00:53:57"
+        }
+      ]
+    }
+  ],
+  "id": 669
+}

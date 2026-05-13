@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzM=",
+  "tipo": "serie",
+  "titulo": "KOALA MAN",
+  "capa_url": "https://lgfp.one/XRV",
+  "capa_local": "KOALA MAN/KOALA MAN.jpg",
+  "sinopse": "Kevin é um pai de meia-idade, e Koala Man é sua identidade não tão secreta, cujo único superpoder é uma paixão ardente por seguir regras e impedir crimes pequenos. Koala Man está em uma missão para limpar a cidade de Dapto, muitas vezes envolvendo sua família em suas aventuras cada vez mais bizarras.",
+  "genero": "Animação / Comédia",
+  "elenco": "Michael Cusack, Sarah Snook, Demi Lardner",
+  "diretor": "Michael Cusack",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:50"
+        }
+      ]
+    }
+  ],
+  "id": 3190
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NDI=",
+  "tipo": "serie",
+  "titulo": "COZINHAR UM URSO [L]",
+  "capa_url": "https://lgfp.one/QNO5",
+  "capa_local": "COZINHAR UM URSO [L]/COZINHAR UM URSO [L].jpg",
+  "sinopse": "Um pastor tem um despertar espiritual que afeta profundamente os sami e os tornedalianos. O corpo de uma pastora é encontrado em um pântano. Enquanto isso, os aldeões saem em busca do urso assassino.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Gustaf Skarsgård, Emil Karlsen, Jonas Karlsson, Pernilla August, Ane Dahl Torp",
+  "diretor": "Trygve Allister Diesen",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:36"
+        }
+      ]
+    }
+  ],
+  "id": 8301
+}

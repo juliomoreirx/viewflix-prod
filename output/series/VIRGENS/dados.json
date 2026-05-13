@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MTU=",
+  "tipo": "serie",
+  "titulo": "VIRGENS",
+  "capa_url": "https://lgfp.one/QBZ3",
+  "capa_local": "VIRGENS/VIRGENS.jpg",
+  "sinopse": "Um passeio selvagem, quente e maravilhosamente estranho com quatro adultos que ainda precisam experimentar relações sexuais, enquanto navegam no amor, intimidade e autodescoberta na casa dos 30 e 40 anos.",
+  "genero": "Reality",
+  "elenco": "Sonali Chandra, Rhasha Newkirk, Alexander Stunz, Deanne Black",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:35"
+        }
+      ]
+    }
+  ],
+  "id": 8039
+}

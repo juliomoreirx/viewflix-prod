@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5NzY=",
+  "tipo": "serie",
+  "titulo": "LOVE SEA THE HOME FOR LOVERS [L]",
+  "capa_url": "https://lgfp.one/PSL5",
+  "capa_local": "LOVE SEA THE HOME FOR LOVERS [L]/LOVE SEA THE HOME FOR LOVERS [L].jpg",
+  "sinopse": "Rakumoto Ai, um escritor de romances, conhece Muto Kaishin, o carismático e livre-espírito guia turístico local durante uma viagem. O encontro inesperado desperta em Ai sentimentos que ele não consegue ignorar.",
+  "genero": "Drama",
+  "elenco": "国上将大, 西銘駿, 土生瑞穂, 川津明日香, 澤田大樹",
+  "diretor": "綾部真弥, 灯敦生, のむらなお",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:53"
+        }
+      ]
+    }
+  ],
+  "id": 7819
+}

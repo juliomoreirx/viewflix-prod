@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NzM=",
+  "tipo": "serie",
+  "titulo": "PETRICHOR [L]",
+  "capa_url": "https://lgfp.one/NBC5",
+  "capa_local": "PETRICHOR [L]/PETRICHOR [L].jpg",
+  "sinopse": "",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "อิงฟ้า วราหะ, Charlotte Austin, หลิน มาลิน แซ่ลิ้ม, Rina Chatamonchai, กวิยณัฎฐ์ แฮร์มันน์",
+  "diretor": "Pannares Ruchirananta, Not Pongsatorn Thongjaroen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:09:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:09:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:18:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:16:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:08:11"
+        }
+      ]
+    }
+  ],
+  "id": 6913
+}

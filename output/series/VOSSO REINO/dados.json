@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NTA=",
+  "tipo": "serie",
+  "titulo": "VOSSO REINO",
+  "capa_url": "https://lgfp.one/SDE",
+  "capa_local": "VOSSO REINO/VOSSO REINO.jpg",
+  "sinopse": "Após o assassinato do companheiro de partido, um pastor se candidata à presidência da Argentina. Só que de santo ele não tem nada.",
+  "genero": "Crime, Drama",
+  "elenco": "Diego Peretti",
+  "diretor": "Marcelo Piñeyro, Miguel Cohan",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:20"
+        }
+      ]
+    }
+  ],
+  "id": 1771
+}

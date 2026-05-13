@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MjQ=",
+  "tipo": "serie",
+  "titulo": "FOUND [L]",
+  "capa_url": "https://lgfp.one/AQZD",
+  "capa_local": "FOUND [L]/FOUND [L].jpg",
+  "sinopse": "Gabi Mosely e sua equipe de gerenciamento de crises garantem que sempre haja alguém à procura dos desaparecidos esquecidos. Nos Estados Unidos, mais de 600.000 são perdidos por ano.",
+  "genero": "Drama, Crime",
+  "elenco": "Shanola Hampton, Mark-Paul Gosselaar, Brett Dalton, Gabrielle Walsh, Arlen Escarpeta",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:37"
+        }
+      ]
+    }
+  ],
+  "id": 4238
+}

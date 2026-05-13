@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1OTE=",
+  "tipo": "serie",
+  "titulo": "RIVALIDADE ARDENTE",
+  "capa_url": "https://lgfp.one/RRZ0",
+  "capa_local": "RIVALIDADE ARDENTE/RIVALIDADE ARDENTE.jpg",
+  "sinopse": "Duas estrelas do hóquei no gelo vivem um romance secreto que dura anos enquanto perseguem a glória e lutam com seus sentimentos.",
+  "genero": "Drama",
+  "elenco": "Hudson Williams, Connor Storrie, François Arnaud, Robbie G.K., Christina Chang",
+  "diretor": "Jacob Tierney, Rob Cotterill, Jenny Mac",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:44"
+        }
+      ]
+    }
+  ],
+  "id": 8857
+}

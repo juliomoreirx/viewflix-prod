@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5MTM=",
+  "tipo": "serie",
+  "titulo": "A FABRICA DE VIDRO (2026) [L]",
+  "capa_url": "https://lgfp.one/TBY9",
+  "capa_local": "A FABRICA DE VIDRO (2026) [L]/A FABRICA DE VIDRO (2026) [L].jpg",
+  "sinopse": "Em meados dos anos 1990, André Joyal, dono de uma vidraçaria, tenta salvar seu negócio em declínio enquanto enfrenta grandes desafios familiares em um mundo em rápida transformação. André terá de aprender a desapegar, aceitar as mudanças e redefinir o que realmente importa em sua vida.",
+  "genero": "Comédia, Drama",
+  "elenco": "Martin Matte, Pier-Luc Funk, Pierre-Yves Roy-Desmarais, Marilyse Bourke, Florence Longpré",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:31"
+        }
+      ]
+    }
+  ],
+  "id": 9506
+}

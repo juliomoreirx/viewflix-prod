@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwMDA=",
+  "tipo": "serie",
+  "titulo": "OS CACADORES DE PELES [L]",
+  "capa_url": "https://lgfp.one/LLX1",
+  "capa_local": "OS CACADORES DE PELES [L]/OS CACADORES DE PELES [L].jpg",
+  "sinopse": "A história do macabro acordo entre equipes de emergência e funerárias na Polônia, que causou a morte de centenas de vítimas.",
+  "genero": "Documentário, Crime, Drama",
+  "elenco": "Krzysztof Drozdowski, Mateusz Bęben, Magdalena Dzięgiel-Gądek, Jaromir Grosman, Wojciech Jagła",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:51"
+        }
+      ]
+    }
+  ],
+  "id": 6764
+}

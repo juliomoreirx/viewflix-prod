@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NTI=",
+  "tipo": "serie",
+  "titulo": "MORTE NO DESERTO",
+  "capa_url": "https://lgfp.one/YSN",
+  "capa_local": "MORTE NO DESERTO/MORTE NO DESERTO.jpg",
+  "sinopse": "O desaparecimento da família McStay assombra a polícia por mais de três anos até os corpos aparecerem no deserto. A promotoria diz que as provas indicam que Chase Merritt os matou, mas ele se declara inocente.",
+  "genero": "Documentário, Crime",
+  "elenco": "Michael McStay, Gina Watson, Patrick McStay, Chase Merritt, Michael A. Smith",
+  "diretor": "Justin Lee Stanley",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:21"
+        }
+      ]
+    }
+  ],
+  "id": 3331
+}

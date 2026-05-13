@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NDg=",
+  "tipo": "serie",
+  "titulo": "UMA ESPOSA EM MINIATURA (2026)",
+  "capa_url": "https://lgfp.one/SVI7",
+  "capa_local": "UMA ESPOSA EM MINIATURA (2026)/UMA ESPOSA EM MINIATURA (2026).jpg",
+  "sinopse": "",
+  "genero": "Drama, Comédia",
+  "elenco": "Elizabeth Banks, Matthew Macfadyen, Zoe Lister-Jones, Sofia Rosinsky, O-T Fagbenle",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:41"
+        }
+      ]
+    }
+  ],
+  "id": 9476
+}

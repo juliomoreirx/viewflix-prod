@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NDA=",
+  "tipo": "serie",
+  "titulo": "IRON CHEF: EM BUSCA DE UMA LENDA",
+  "capa_url": "https://lgfp.one/TJT",
+  "capa_local": "IRON CHEF EM BUSCA DE UMA LENDA/IRON CHEF EM BUSCA DE UMA LENDA.jpg",
+  "sinopse": "Iron Chef está de volta! Nesta competição de culinária de alto nível, estrelas gastronômicas se enfrentam para chegar à final e conquistar o título de Lenda de Ferro.",
+  "genero": "Reality",
+  "elenco": "Alton Brown, Kristen Kish, Mark Dacascos, Andrew Zimmern, Nilou Motamed",
+  "diretor": "Jesse Ray Diamond, Eytan Keller",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:39"
+        }
+      ]
+    }
+  ],
+  "id": 2651
+}

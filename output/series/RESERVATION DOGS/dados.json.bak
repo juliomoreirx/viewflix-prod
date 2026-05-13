@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNTM=",
+  "tipo": "serie",
+  "titulo": "RESERVATION DOGS",
+  "capa_url": "https://lgfp.one/SPB",
+  "capa_local": "RESERVATION DOGS/RESERVATION DOGS.jpg",
+  "sinopse": "Quatro adolescentes indígenas da zona rural de Oklahoma, Estados Unidos, passam seus dias cometendo pequenos crimes e lutando contra quem entrar no seu caminho. Tudo isso para juntarem dinheiro suficiente para saírem do interior direto para a Califórnia.",
+  "genero": "Drama / Comédia / Crime",
+  "elenco": "Devery Jacobs, D'Pharaoh Woon-A-Tai, Paulina Jewel Alexis, Lane Factor",
+  "diretor": "Taika Waititi, Sterlin Harjo",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:29:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:29:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:29:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:32:02"
+        }
+      ]
+    }
+  ],
+  "id": 3946
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNDU=",
+  "tipo": "serie",
+  "titulo": "O ASSASSINATO DE JILL DANDO",
+  "capa_url": "https://lgfp.one/ABBH",
+  "capa_local": "O ASSASSINATO DE JILL DANDO/O ASSASSINATO DE JILL DANDO.jpg",
+  "sinopse": "Este documentário analisa o assassinato da apresentadora britânica Jill Dando, um crime de 1999 que continua desconcertando os especialistas e o público até hoje.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jane Moore, Hamish Campbell, Gareth Snow, Jon Roseman, Jennie Bond",
+  "diretor": "Marcus Plowright, Marcus Plowright",
+  "total_episodios": "137",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:48"
+        }
+      ]
+    }
+  ],
+  "id": 4093
+}

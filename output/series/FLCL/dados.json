@@ -1,0 +1,160 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0OTU=",
+  "tipo": "serie",
+  "titulo": "FLCL",
+  "capa_url": "https://lgfp.one/DWG1",
+  "capa_local": "FLCL/FLCL.jpg",
+  "sinopse": "Uma aventura rebelde, caótica e às vezes surrealista sobre os altos e baixos da adolescência, com robôs, aliens, grandes corporações e muita música.",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "Jun Mizuki, Mayumi Shintani, Izumi Kasagi",
+  "diretor": "Kazuya Tsurumaki, Masahiko Ôtsuka, Shôji Saeki, Ken Andô, Takeshi Ando",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:53"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:11"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:23:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:24:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:23:57"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:23:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:23:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:24:07"
+        }
+      ]
+    }
+  ],
+  "id": 6098
+}

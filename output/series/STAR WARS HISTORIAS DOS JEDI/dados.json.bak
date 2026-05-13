@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNjA=",
+  "tipo": "serie",
+  "titulo": "STAR WARS: HISTÓRIAS DOS JEDI",
+  "capa_url": "https://lgfp.one/VYQ",
+  "capa_local": "STAR WARS HISTORIAS DOS JEDI/STAR WARS HISTORIAS DOS JEDI.jpg",
+  "sinopse": "Histórias sobre os Jedi numa era antes da que conhecemos. Uma jornada pela vida de dois Jedi distintos: Ahsoka Tano e Conde Dookan. Eles serão testados enquanto tomam decisões que determinarão os destinos deles.",
+  "genero": "Animação / Sci-Fi & Fantasy",
+  "elenco": "",
+  "diretor": "Dave Filoni",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:14:11"
+        }
+      ]
+    }
+  ],
+  "id": 3005
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NzA=",
+  "tipo": "serie",
+  "titulo": "NAO ME CHAME DE SENHORA [L]",
+  "capa_url": "https://lgfp.one/RMY8",
+  "capa_local": "NAO ME CHAME DE SENHORA [L]/NAO ME CHAME DE SENHORA [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia, Drama",
+  "elenco": "김희선, 한혜진, 진서연, 윤박, 허준석",
+  "diretor": "Seong Do-joon",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:06:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:10:22"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:11:38"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:10:48"
+        }
+      ]
+    }
+  ],
+  "id": 8736
+}

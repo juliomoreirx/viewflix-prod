@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2MTA=",
+  "tipo": "serie",
+  "titulo": "A CONCIERGE POKÉMON",
+  "capa_url": "https://lgfp.one/AWLG",
+  "capa_local": "A CONCIERGE POKEMON/A CONCIERGE POKEMON.jpg",
+  "sinopse": "Conheça o Pokémon Resort, o refúgio perfeito para Pokémons relaxarem e se divertirem. Qual será o hóspede fofo que vai ganhar o coração da nova concierge Haru?",
+  "genero": "Animação, Família",
+  "elenco": "Non, Fairouz Ai, Eita Okuno",
+  "diretor": "Daisuke Horikawa, Kano Ikeda, Sarasa Onodera",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:19:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:16:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:18:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:18:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:17:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:01"
+        }
+      ]
+    }
+  ],
+  "id": 4667
+}

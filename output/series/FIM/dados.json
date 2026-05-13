@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMjc=",
+  "tipo": "serie",
+  "titulo": "FIM",
+  "capa_url": "https://lgfp.one/ARVY",
+  "capa_local": "FIM/FIM.jpg",
+  "sinopse": "Um grupo de amigos que não acredita que a vida se limita a encontrar o amor e ser feliz para sempre. Uma história sobre a vida, vista pelos olhos de quem acaba de deixá-la.",
+  "genero": "Drama",
+  "elenco": "Fábio Assunção, Marjorie Estiano, Débora Falabella, Bruno Mazzeo, Laila Garin",
+  "diretor": "Andrucha Waddington, Andrucha Waddington, Daniela Thomas",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:34"
+        }
+      ]
+    }
+  ],
+  "id": 4331
+}

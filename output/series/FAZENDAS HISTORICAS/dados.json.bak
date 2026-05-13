@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MTI=",
+  "tipo": "serie",
+  "titulo": "FAZENDAS HISTORICAS",
+  "capa_url": "https://lgfp.one/QCA9",
+  "capa_local": "FAZENDAS HISTORICAS/FAZENDAS HISTORICAS.jpg",
+  "sinopse": "Fazendas Históricas é uma série documental que traz a história do Brasil narrada através das grandes propriedades da época áurea brasileira como base de seu enredo. Nesta temporada - de dez episódios de 23 minutos cada – são mostradas importantes fazendas do Rio de Janeiro, Minas Gerais e de São Paulo",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Carla Albuquerque, Beto Ribeiro",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:46"
+        }
+      ]
+    }
+  ],
+  "id": 8042
+}

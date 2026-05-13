@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NjY=",
+  "tipo": "serie",
+  "titulo": "O GRIFO",
+  "capa_url": "https://lgfp.one/AAHY",
+  "capa_local": "O GRIFO/O GRIFO.jpg",
+  "sinopse": "O Grifo é criatura sombria poderosa de outro mundo e uma ameaça para Mark e tudo o que ele ama. Mark deve aceitar o difícil legado de sua família e lutar para salvar nosso mundo das garras do Grifo.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Jeremias Meyer, Zoran Pingel, Lea Drinda, Sabine Timoteo, Flora Thiemann",
+  "diretor": "Max Zähle, Sebastian Marka",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:47"
+        }
+      ]
+    }
+  ],
+  "id": 3555
+}

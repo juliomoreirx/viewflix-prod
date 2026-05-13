@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNzQ=",
+  "tipo": "serie",
+  "titulo": "AMOR E BATATAS [L]",
+  "capa_url": "https://lgfp.one/NEM3",
+  "capa_local": "AMOR E BATATAS [L]/AMOR E BATATAS [L].jpg",
+  "sinopse": "A vida de uma pesquisadora de batatas vira de cabeça para baixo quando um novo diretor chega ao laboratório, provando que o amor pode brotar nos lugares mais inesperados.",
+  "genero": "Comédia, Drama",
+  "elenco": "강태오, 이선빈, 이학주, 신현승, 진가은",
+  "diretor": "Kang Il-soo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:16:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:16:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:16:55"
+        }
+      ]
+    }
+  ],
+  "id": 7053
+}

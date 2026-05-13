@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxMDM=",
+  "tipo": "serie",
+  "titulo": "O MARIDO DO MEU IRMAO [L]",
+  "capa_url": "https://lgfp.one/MVD9",
+  "capa_local": "O MARIDO DO MEU IRMAO [L]/O MARIDO DO MEU IRMAO [L].jpg",
+  "sinopse": "Yaichi é um homem divorciado que vive com sua filha, Kana. Seu irmão gêmeo, Ryouji, que se mudou para o Canadá muitos anos atrás, faleceu recentemente. Seu marido, Mike, decide visitar Yaichi para conhecer melhor a cultura japonesa e para saber um pouco mais sobre a infância de Ryouji.",
+  "genero": "Comédia, Drama, Família",
+  "elenco": "佐藤隆太, Baruto Kaito, 中村ゆり, Maharu Nemoto, Nanaka Hirao",
+  "diretor": "吉田照幸, 戸田幸宏, 戸田幸宏",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:03"
+        }
+      ]
+    }
+  ],
+  "id": 6831
+}

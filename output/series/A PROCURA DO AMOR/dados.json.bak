@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczOTM=",
+  "tipo": "serie",
+  "titulo": "À PROCURA DO AMOR",
+  "capa_url": "https://lgfp.one/SKQ",
+  "capa_local": "A PROCURA DO AMOR/A PROCURA DO AMOR.jpg",
+  "sinopse": "Ansiosa por amor, obcecada por sexo, Linda está em busca do amante perfeito. Mas encontrar o Sr. Certo é muito mais difícil do que ela pensava.",
+  "genero": "Drama",
+  "elenco": "Lily James, Emily Beecham, Andrew Scott, Dominic West, Emily Mortimer, Dolly Wells, Beattie Edmondson, Assaad Bouab",
+  "diretor": "Emily Mortimer",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:46"
+        }
+      ]
+    }
+  ],
+  "id": 1971
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NTc=",
+  "tipo": "serie",
+  "titulo": "COCAINE COWBOYS: THE KINGS OF MIAMI",
+  "capa_url": "https://lgfp.one/SCH",
+  "capa_local": "COCAINE COWBOYS THE KINGS OF MIAMI/COCAINE COWBOYS THE KINGS OF MIAMI.jpg",
+  "sinopse": "Dois amigos de infância largam a escola e se transformam nos mais poderosos chefões das drogas de Miami nesta história real de uma saga que se desdobra por décadas.",
+  "genero": "Documentário",
+  "elenco": "Alexia Nepola, Sal Magluta, Willy Falcon",
+  "diretor": "Billy Corben",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:03"
+        }
+      ]
+    }
+  ],
+  "id": 1748
+}

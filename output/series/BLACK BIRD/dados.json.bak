@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMjU=",
+  "tipo": "serie",
+  "titulo": "BLACK BIRD",
+  "capa_url": "https://lgfp.one/TKC",
+  "capa_local": "BLACK BIRD/BLACK BIRD.jpg",
+  "sinopse": "Inspirado em uma história real. Quando Jimmy Keene começa a cumprir uma sentença de 10 anos de prisão, ele recebe uma oferta incrível: se ele conseguir obter uma confissão do suspeito de assassinato Larry Hall, Jimmy será libertado. Completar esta missão torna-se o desafio de sua vida.",
+  "genero": "Drama / Crime",
+  "elenco": "Taron Egerton, Paul Walter Hauser, Ray Liotta, Greg Kinnear, Sepideh Moafi, Laney Stiebing",
+  "diretor": "Dennis Lehane",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:59"
+        }
+      ]
+    }
+  ],
+  "id": 2661
+}

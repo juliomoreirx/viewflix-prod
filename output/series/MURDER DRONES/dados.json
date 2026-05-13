@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MDM=",
+  "tipo": "serie",
+  "titulo": "MURDER DRONES",
+  "capa_url": "https://lgfp.one/NVI8",
+  "capa_local": "MURDER DRONES/MURDER DRONES.jpg",
+  "sinopse": "Uma comovente história sobre \"destruir todos os humanos\". Uzi, uma Robô Operária adolescente, sarcástica e rebelde, faz amizade com N, um Robô de Desmonte otimista e amigável enviado para destruí-la, criando o que podemos supor ser um relacionamento muito ruim para a humanidade.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Elsie Lovelock, Michael Kovach, Nola Klop, Shara Kirby, Allanah Fitzgerald",
+  "diretor": "Liam Vickers",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:19:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:25"
+        }
+      ]
+    }
+  ],
+  "id": 7292
+}

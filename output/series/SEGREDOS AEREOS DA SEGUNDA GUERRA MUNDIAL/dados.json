@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTQ=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS AEREOS DA SEGUNDA GUERRA MUNDIAL",
+  "capa_url": "https://lgfp.one/ABBJ",
+  "capa_local": "SEGREDOS AEREOS DA SEGUNDA GUERRA MUNDIAL/SEGREDOS AEREOS DA SEGUNDA GUERRA MUNDIAL.jpg",
+  "sinopse": "A série apresenta eventos mais extraordinários da Segunda Guerra Mundial de uma perspectiva totalmente nova. Combinando fotografias da linha de frente, filmes arquivados raramente vistos e imagens notáveis ​​de reconhecimento aéreo em seus locais originais, a série reconstrói as batalhas cruciais, ​​bombardeios ousados e o desenvolvimento dos primeiros mísseis balísticos e de cruzeiro do mundo.",
+  "genero": "War & Politics, Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:03"
+        }
+      ]
+    }
+  ],
+  "id": 4095
+}

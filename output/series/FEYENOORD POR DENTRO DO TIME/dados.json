@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MzE=",
+  "tipo": "serie",
+  "titulo": "FEYENOORD: POR DENTRO DO TIME",
+  "capa_url": "https://lgfp.one/SNX",
+  "capa_local": "FEYENOORD POR DENTRO DO TIME/FEYENOORD POR DENTRO DO TIME.jpg",
+  "sinopse": "O time de futebol Feyenoord precisa se reinventar na temporada 2020/21, com o isolamento causado pela pandemia da COVID-19. Imagens exlusivas do vestiário e da sala de reuniões trazem o clube e suas principais personalidades para perto do público como nunca antes.",
+  "genero": "Documentário",
+  "elenco": "Dick Advocaat, Steven Berghuis, Leroy Fer, Nicolai Jørgensen, Frank Arnesen, Mark Koevermans",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:06:31"
+        }
+      ]
+    }
+  ],
+  "id": 2057
+}

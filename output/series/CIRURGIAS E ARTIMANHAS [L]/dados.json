@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MDQ=",
+  "tipo": "serie",
+  "titulo": "CIRURGIAS E ARTIMANHAS [L]",
+  "capa_url": "https://lgfp.one/AUUA",
+  "capa_local": "CIRURGIAS E ARTIMANHAS [L]/CIRURGIAS E ARTIMANHAS [L].jpg",
+  "sinopse": "Explora a vida dupla do famoso príncipe dos ladrões de Charles Dickens, agora um cirurgião na Austrália dos anos 1850, mas ainda tentado pelo crime. É uma história irreverente de reinvenção, traição e amor - tudo com um toque especial.",
+  "genero": "Drama, Crime, Action & Adventure",
+  "elenco": "Thomas Brodie-Sangster, David Thewlis, Maia Mitchell, Damon Herriman",
+  "diretor": "Jeffrey Walker",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:40"
+        }
+      ]
+    }
+  ],
+  "id": 8488
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NzU=",
+  "tipo": "serie",
+  "titulo": "WE HUNT TOGETHER [L]",
+  "capa_url": "https://lgfp.one/RDN",
+  "capa_local": "",
+  "sinopse": "",
+  "genero": "Crime, Drama",
+  "elenco": "Eve Myles, Babou Ceesay, Dipo Ola, Hermione Corfield, Freya Durkan",
+  "diretor": "Carl Tibbetts",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:49"
+        }
+      ]
+    }
+  ],
+  "id": 904
+}

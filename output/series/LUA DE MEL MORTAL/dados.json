@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NTQ=",
+  "tipo": "serie",
+  "titulo": "LUA DE MEL MORTAL",
+  "capa_url": "https://lgfp.one/BJL2",
+  "capa_local": "LUA DE MEL MORTAL/LUA DE MEL MORTAL.jpg",
+  "sinopse": "Na África do Sul, Anni é assassinada durante sua lua de mel com o marido, Shrien, um dos crimes mais misteriosos e de maior repercussão no país. A partir do testemunho de advogados, policiais e envolvidos no crime, a família tenta entender o motivo.",
+  "genero": "Documentário, Crime",
+  "elenco": "Anni Dewani, Shrien Dewani",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:31"
+        }
+      ]
+    }
+  ],
+  "id": 5621
+}

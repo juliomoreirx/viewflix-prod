@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNTE=",
+  "tipo": "serie",
+  "titulo": "BECKHAM: SALVE NOSSO TIME",
+  "capa_url": "https://lgfp.one/WAN",
+  "capa_local": "BECKHAM SALVE NOSSO TIME/BECKHAM SALVE NOSSO TIME.jpg",
+  "sinopse": "David Beckham está voltando para casa. Ao longo de uma temporada, David se junta ao time Westward Boys, um time da Echo Premier League, a liga em que começou sua carreira. O Westward não venceu nenhum jogo da temporada e a ameaça de rebaixamento é grande. David tem uma tarefa difícil pela frente.",
+  "genero": "Documentário / Reality",
+  "elenco": "David Beckham",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:42"
+        }
+      ]
+    }
+  ],
+  "id": 3052
+}

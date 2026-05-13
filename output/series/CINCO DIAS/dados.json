@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MjE=",
+  "tipo": "serie",
+  "titulo": "CINCO DIAS",
+  "capa_url": "https://lgfp.one/AKD3",
+  "capa_local": "CINCO DIAS/CINCO DIAS.jpg",
+  "sinopse": "Minissérie que acompanha o caso do sumiço de uma mulher e seus dois filhos mais novos. O mistério chama a atenção de\n\num jornalista.",
+  "genero": "Crime, Drama",
+  "elenco": "Hugh Bonneville, Patrick Malahide, Penelope Wilton, Edward Woodward, David Oyelowo",
+  "diretor": "John William Turner, Simon Curtis",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:36"
+        }
+      ]
+    }
+  ],
+  "id": 5072
+}

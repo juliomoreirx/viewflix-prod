@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5Njk=",
+  "tipo": "serie",
+  "titulo": "KAMP KORAL: BOB ESPONJA, PRIMEIROS ANOS!",
+  "capa_url": "https://lgfp.one/RVE",
+  "capa_local": "KAMP KORAL BOB ESPONJA, PRIMEIROS ANOS!/KAMP KORAL BOB ESPONJA, PRIMEIROS ANOS!.jpg",
+  "sinopse": "Junte-se a Bob Esponja e seus amigos enquanto eles passam o verão construindo fogueiras subaquáticas, pegando águas-vivas selvagens e nadando no Lago Yuckymuck no acampamento mais louco da floresta de algas, Acampamento Coral!",
+  "genero": "Animação, Comédia, Família",
+  "elenco": "Tom Kenny, Bill Fagerbakke, Rodger Bumpass, Clancy Brown, Carolyn Lawrence",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:36"
+        }
+      ]
+    }
+  ],
+  "id": 227755
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNDA=",
+  "tipo": "serie",
+  "titulo": "HOMEM ARANHA ACAO SEM LIMITES",
+  "capa_url": "https://lgfp.one/ATLV",
+  "capa_local": "HOMEM ARANHA ACAO SEM LIMITES/HOMEM ARANHA ACAO SEM LIMITES.jpg",
+  "sinopse": "Peter Parker, já casado com Mary Jane, se vê num meio de um dilema terrível, depois de ter abandonado definitivamente a identidade de Homem-Aranha: O astronauta Jonh Jameson, filho do J.J., penetra num portal que acaba levando-o para a Contraterra, uma nova versão de nosso mundo criada pelo Alto Evolucionário, na qual os Homens-Fera (neste desenho, chamados de Bestiais) é que são a raça dominante, oprimindo os seres humanos. O mais bizarro é que Venom e Carnage acabam sendo compelidos mentalmente a segui-lo através do portal, graças a uma colônia de simbiontes que quer dominar a Contraterra. Depois de ver uma mensagem de socorro de Jonh, a única que ele conseguira enviar da Contraterra, Peter resolveu resgatá-lo, voltando pela milésima vez a ser o Homem-Aranha. Usando um modernoso uniforme feito a partir de nanotecnologia e criada por Reed Richards, o Aranha partiu em direção a este novo mundo... E o portal atrás de si fechou-se.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Rino Romano, Kathleen Barr, Jim Byrnes, Garry Chalk, Paul Dobson",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:14"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:16"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:15"
+        }
+      ]
+    }
+  ],
+  "id": 4464
+}

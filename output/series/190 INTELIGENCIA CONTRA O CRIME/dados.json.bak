@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MTU=",
+  "tipo": "serie",
+  "titulo": "190: INTELIGÊNCIA CONTRA O CRIME",
+  "capa_url": "https://lgfp.one/TKA",
+  "capa_local": "190 INTELIGENCIA CONTRA O CRIME/190 INTELIGENCIA CONTRA O CRIME.jpg",
+  "sinopse": "Em São Paulo, a Polícia Militar e o GATE se arriscam diariamente em invasões, perseguições e situações-limite. Estratégia e inteligência são as principais armas na batalha contra o crime, acompanhada de perto com body cams exclusivas.",
+  "genero": "Documentário / Reality",
+  "elenco": "",
+  "diretor": "Discovery +",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:58"
+        }
+      ]
+    }
+  ],
+  "id": 2659
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MDI=",
+  "tipo": "serie",
+  "titulo": "DATED AND RELATED",
+  "capa_url": "https://lgfp.one/TPV",
+  "capa_local": "DATED AND RELATED/DATED AND RELATED.jpg",
+  "sinopse": "Neste reality de namoro, duplas de irmãos e irmãs vão para uma mansão luxuosa tentar encontrar o amor (e, de quebra, ganhar US$ 100 mil).",
+  "genero": "Reality",
+  "elenco": "Melinda Melrose, Daniel Perfetto, Rachel Foster",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:30:34"
+        }
+      ]
+    }
+  ],
+  "id": 2818
+}

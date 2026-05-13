@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NzY=",
+  "tipo": "serie",
+  "titulo": "GIGANTES DA ERA DO GELO [L]",
+  "capa_url": "https://lgfp.one/AAPQ",
+  "capa_local": "GIGANTES DA ERA DO GELO [L]/GIGANTES DA ERA DO GELO [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Alice Roberts",
+  "diretor": "Mark Flowers, Mags Lightbody, Tim Walker",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:54"
+        }
+      ]
+    }
+  ],
+  "id": 3750
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMTg=",
+  "tipo": "serie",
+  "titulo": "MORRENDO POR SEXO",
+  "capa_url": "https://lgfp.one/NNJ7",
+  "capa_local": "MORRENDO POR SEXO/MORRENDO POR SEXO.jpg",
+  "sinopse": "Depois que Molly Kochan recebe um diagnóstico de câncer de mama metastático em estágio IV, ela decide deixar seu marido para explorar a complexidade de seus desejos sexuais pela primeira vez em sua vida, com sua melhor amiga Nikki ao seu lado.",
+  "genero": "Drama",
+  "elenco": "Michelle Williams, Jenny Slate, Jay Duplass, Kelvin Yu, David Rasche",
+  "diretor": "Shannon Murphy, Jan Sargent",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:50"
+        }
+      ]
+    }
+  ],
+  "id": 7128
+}

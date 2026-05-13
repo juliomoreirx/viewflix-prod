@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjQ=",
+  "tipo": "serie",
+  "titulo": "COPENHAGEN COWBOY",
+  "capa_url": "https://lgfp.one/ARKJ",
+  "capa_local": "COPENHAGEN COWBOY/COPENHAGEN COWBOY.jpg",
+  "sinopse": "Cansada de servir como amuleto da sorte, uma mulher com misteriosos poderes sobrenaturais decide buscar vingança.",
+  "genero": "Crime, Drama",
+  "elenco": "Angela Bundalovic, Andreas Lykke Jørgensen, Lili Zhang",
+  "diretor": "Nicolas Winding Refn",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:13"
+        }
+      ]
+    }
+  ],
+  "id": 4268
+}

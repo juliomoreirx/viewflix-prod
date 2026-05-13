@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NTg=",
+  "tipo": "serie",
+  "titulo": "CONVERSANDO COM UM SERIAL KILLER O FILHO DE SAM",
+  "capa_url": "https://lgfp.one/PMZ2",
+  "capa_local": "CONVERSANDO COM UM SERIAL KILLER O FILHO DE SAM/CONVERSANDO COM UM SERIAL KILLER O FILHO DE SAM.jpg",
+  "sinopse": "Com entrevistas recentes e gravações inéditas, esta série sobre crimes reais analisa o impacto de David Berkowitz na Nova York dos anos 1970.",
+  "genero": "Documentário, Crime",
+  "elenco": "David Berkowitz, Jack Jones, Mary Murphy, Joseph Borrelli, Lawrence Klausner",
+  "diretor": "Joe Berlinger",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:15"
+        }
+      ]
+    }
+  ],
+  "id": 7707
+}

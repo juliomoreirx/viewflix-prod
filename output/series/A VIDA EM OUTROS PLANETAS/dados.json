@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NDE=",
+  "tipo": "serie",
+  "titulo": "A VIDA EM OUTROS PLANETAS",
+  "capa_url": "https://lgfp.one/RKJ",
+  "capa_local": "A VIDA EM OUTROS PLANETAS/A VIDA EM OUTROS PLANETAS.jpg",
+  "sinopse": "Aplicando as leis da vida na Terra ao resto da galáxia, esta série combina fatos científicos e ficção para imaginar vida alienígena em outros planetas.",
+  "genero": "Documentário",
+  "elenco": "Leigh Joel Scott, Sophie Okonedo, Douglas Vakoch",
+  "diretor": "Daniel M. Smith, Suzy Boyles, Tim Lambert, Nigel Paterson, Ben Wilson",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:26"
+        }
+      ]
+    }
+  ],
+  "id": 1091
+}

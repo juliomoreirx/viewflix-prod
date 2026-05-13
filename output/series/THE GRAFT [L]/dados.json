@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NDY=",
+  "tipo": "serie",
+  "titulo": "THE GRAFT [L]",
+  "capa_url": "https://lgfp.one/QCM9",
+  "capa_local": "THE GRAFT [L]/THE GRAFT [L].jpg",
+  "sinopse": "",
+  "genero": "Crime, Drama",
+  "elenco": "Serra Arıtürk, Aytaç Şaşmaz, Erol Babaoğlu, Diren Polatoğulları",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:55"
+        }
+      ]
+    }
+  ],
+  "id": 8090
+}

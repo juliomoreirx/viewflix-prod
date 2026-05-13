@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MDg=",
+  "tipo": "serie",
+  "titulo": "ARNOLD",
+  "capa_url": "https://lgfp.one/AAJB",
+  "capa_local": "ARNOLD/ARNOLD.jpg",
+  "sinopse": "Esta série documental intimista retrata a vida e a carreira multifacetada de Arnold Schwarzenegger, campeão de fisiculturismo, astro de Hollywood e político.",
+  "genero": "Documentário",
+  "elenco": "Arnold Schwarzenegger, Sylvester Stallone",
+  "diretor": "Doug Pray, Katharine Jane Reid, Suzanne C. Swindle",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:46"
+        }
+      ]
+    }
+  ],
+  "id": 9225
+}

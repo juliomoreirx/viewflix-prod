@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMTY=",
+  "tipo": "serie",
+  "titulo": "UM CAVALHEIRO EM MOSCOU [L]",
+  "capa_url": "https://lgfp.one/ASX0",
+  "capa_local": "UM CAVALHEIRO EM MOSCOU [L]/UM CAVALHEIRO EM MOSCOU [L].jpg",
+  "sinopse": "Depois da Revolução Russa, o Conde Alexander Rostov fica preso no hotel Metropol em Moscou, tornando-se um exilado em seu próprio país. Conforme o regime soviético sucumbe à tirania, o conde descobre o valor do amor, da coragem e da comunidade.",
+  "genero": "Drama",
+  "elenco": "Ewan McGregor, Fehinti Balogun, Jonny Harris, Mary Elizabeth Winstead, Alexa Goodall",
+  "diretor": "Tom Harper, Sam Miller",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:05"
+        }
+      ]
+    }
+  ],
+  "id": 5247
+}

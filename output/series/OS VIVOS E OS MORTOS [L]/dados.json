@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0ODI=",
+  "tipo": "serie",
+  "titulo": "OS VIVOS E OS MORTOS [L]",
+  "capa_url": "https://lgfp.one/ACJY",
+  "capa_local": "OS VIVOS E OS MORTOS [L]/OS VIVOS E OS MORTOS [L].jpg",
+  "sinopse": "se passa na Inglaterra no ano de 1888 em uma pequena comunidade chamada Somerset que está beirando grandes mudanças, entre os modos antigos e tradicionais da cidade e a nova evolução industrial que foi proporcionada pelos grandes avanços da ciência. Em terra de muitos mitos, demônios e poltergeists, essa é uma boa hora para que os fantasmas se levantem de seus túmulos. No centro dessa pequena comunidade temos o personagem Nathan Appleby, um homem muito tradicional e fazendeiro que é obcecado com a ideia de poder provar que existe a vida após a morte.",
+  "genero": "Drama",
+  "elenco": "Colin Morgan, Charlotte Spencer, David Oakes, Chloe Pirrie, Pooky Quesnel",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:11"
+        }
+      ]
+    }
+  ],
+  "id": 4145
+}

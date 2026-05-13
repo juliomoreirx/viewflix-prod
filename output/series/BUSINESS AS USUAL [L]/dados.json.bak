@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwMzQ=",
+  "tipo": "serie",
+  "titulo": "BUSINESS AS USUAL [L]",
+  "capa_url": "https://lgfp.one/NNJ9",
+  "capa_local": "BUSINESS AS USUAL [L]/BUSINESS AS USUAL [L].jpg",
+  "sinopse": "O funcionário de escritório Min Joon vive uma vida monótona, passando seus dias indo do trabalho para casa e vice versa. Sob a pressão que a sociedade impõe nele, esperando que conquiste mais coisas à medida que avança na casa dos 30 anos, Min Joon se sente preso e insatisfeito. No entanto, a vida dele sofre uma reviravolta quando seu ex-namorado de 10 anos atrás, Jin Hwan, começa a trabalhar no mesmo local que ele. Comparado a Min Joon, Jin Hwan é confiante, carismático e encanta a todos os novos colegas de trabalho, lembrando Min Joon do quanto eles são diferentes um do outro. Agora, enquanto Min Joon tenta manter o antigo relacionamento deles fora do ambiente de trabalho, Jin Hwan parece ter outros planos. Este drama foi adaptado da webnovel “Eul’s Love” de Moscareto.",
+  "genero": "Drama",
+  "elenco": "채종혁, 성승하, 장도명, 이유진, 이의섭",
+  "diretor": "Min Chae-yeon, Rim Kang",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:04"
+        }
+      ]
+    }
+  ],
+  "id": 7130
+}

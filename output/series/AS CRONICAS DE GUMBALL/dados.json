@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2NzY=",
+  "tipo": "serie",
+  "titulo": "AS CRÔNICAS DE GUMBALL",
+  "capa_url": "https://lgfp.one/MVO4",
+  "capa_local": "AS CRONICAS DE GUMBALL/AS CRONICAS DE GUMBALL.jpg",
+  "sinopse": "Reviva momentos hilários e inesquecíveis da série, envoltos em novas animações e agrupados em episódios temáticos. Gumball enfrenta as provações e tribulações de qualquer criança de 12 anos - como ser perseguido por um furioso T-Rex, dormir na rua quando um robô rouba sua identidade ou se vestir como uma líder de torcida e fazer espacates para impressionar a garota dos seus sonhos . Questões simples do dia a dia pelas quais todos nós já passamos. Junto com Darwin, Anais, Richard e Nicole, você não vai querer perder toda a diversão!",
+  "genero": "Kids, Família, Animação",
+  "elenco": "Duke Cutler, Christian J. Simon, Kyla Rae Kowalewski, Teresa Gallagher, Dan Russell",
+  "diretor": "Richard Overall",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:36"
+        }
+      ]
+    }
+  ],
+  "id": 6836
+}

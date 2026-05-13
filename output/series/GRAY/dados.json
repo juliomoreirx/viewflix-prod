@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMzE=",
+  "tipo": "serie",
+  "titulo": "GRAY",
+  "capa_url": "https://lgfp.one/AYW6",
+  "capa_local": "GRAY/GRAY.jpg",
+  "sinopse": "Uma série de vazamentos de informações ameaça a segurança nacional dos EUA e Cornelia Gray, ex-agente da CIA habilidosa e letal, é recrutada para descobrir quem é o informante da Agência.",
+  "genero": "Drama",
+  "elenco": "Patricia Clarkson, Rupert Everett, Wendy Crewson, Shawn Doyle, Jamaal Grant",
+  "diretor": "Ruba Nadda, Ruba Nadda",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 5383
+}

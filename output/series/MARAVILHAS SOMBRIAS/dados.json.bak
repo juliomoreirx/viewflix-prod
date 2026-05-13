@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMjI=",
+  "tipo": "serie",
+  "titulo": "MARAVILHAS SOMBRIAS",
+  "capa_url": "https://lgfp.one/AYGK",
+  "capa_local": "MARAVILHAS SOMBRIAS/MARAVILHAS SOMBRIAS.jpg",
+  "sinopse": "Ao longo da história, a crueldade humana não teve limites. Por meio de reconstituições e imagens de arquivo, esta série documental explora a história e a engenharia por trás das invenções mais diabólicas do mundo, desde dispositivos de tortura até armas de guerra e jogos mortais.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:50"
+        }
+      ]
+    }
+  ],
+  "id": 4795
+}

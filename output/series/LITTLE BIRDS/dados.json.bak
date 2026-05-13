@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MDI=",
+  "tipo": "serie",
+  "titulo": "LITTLE BIRDS",
+  "capa_url": "https://lgfp.one/RVL",
+  "capa_local": "LITTLE BIRDS/LITTLE BIRDS.jpg",
+  "sinopse": "Adaptada dos contos eróticos de Anaïs Nin, Little Birds decorre em Tânger, em 1955, numa famosa zona internacional, e segue a história de Lucy Savage (Juno Temple), uma americana problemática com dificuldades em ambientar-se a um país diferente. Entusiasmada por fugir aos seus pais, Lucy está radiante por se casar com o seu noivo britânico, mas nunca poderia adivinhar o que o futuro lhe reserva.",
+  "genero": "Drama",
+  "elenco": "Juno Temple, Raphael Acloque, Jean-Marc Barr, David Costabile, Amy Landecker",
+  "diretor": "Stacie Passon",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:56"
+        }
+      ]
+    }
+  ],
+  "id": 1399
+}

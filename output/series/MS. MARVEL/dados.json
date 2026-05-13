@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzOTY=",
+  "tipo": "serie",
+  "titulo": "MS. MARVEL",
+  "capa_url": "https://lgfp.one/TIW",
+  "capa_local": "MS. MARVEL/MS. MARVEL.jpg",
+  "sinopse": "Kamala Khan é uma adolescente muçulmana de Jersey City. Ela adora jogar videogames e escrever fanfictions, além de ser fã de super-heróis e ter uma imaginação sem limites – especialmente quando se trata da Capitã Marvel. Kamala sente que não se encaixa na escola e, às vezes, nem mesmo em casa. Mas um dia ela descobre que tem superpoderes como os heróis que sempre admirou... e a vida fica bem melhor com superpoderes, não é?",
+  "genero": "Sci-Fi & Fantasy / Action & Adventure / Comédia",
+  "elenco": "Iman Vellani, Matt Lintz, Yasmeen Fletcher, Zenobia Shroff, Mohan Kapur, Saagar Shaikh, Laurel Marsden, Azhar Usman",
+  "diretor": "Bisha K. Ali",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:54"
+        }
+      ]
+    }
+  ],
+  "id": 2627
+}

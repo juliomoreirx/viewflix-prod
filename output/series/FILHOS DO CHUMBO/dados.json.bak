@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NjM=",
+  "tipo": "serie",
+  "titulo": "FILHOS DO CHUMBO",
+  "capa_url": "https://lgfp.one/RQQ7",
+  "capa_local": "FILHOS DO CHUMBO/FILHOS DO CHUMBO.jpg",
+  "sinopse": "Quando uma médica descobre que crianças que vivem perto de uma fundição sofrem de intoxicação por chumbo, ela arrisca a carreira e a própria segurança para salvá-las.",
+  "genero": "Drama",
+  "elenco": "Joanna Kulig, Agata Kulesza, Kinga Preis, Michał Żurawski, Marian Dziędziel",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:06"
+        }
+      ]
+    }
+  ],
+  "id": 8824
+}

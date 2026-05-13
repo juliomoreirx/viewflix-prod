@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODA=",
+  "tipo": "serie",
+  "titulo": "BLACK SUMMER",
+  "capa_url": "https://lgfp.one/RXB",
+  "capa_local": "BLACK SUMMER/BLACK SUMMER.jpg",
+  "sinopse": "Nos primeiros dias de um sombrio apocalipse zumbi, estranhos se unem para sobreviver e voltar para aqueles que amam.",
+  "genero": "Sci-Fi & Fantasy, Drama, Action & Adventure",
+  "elenco": "Jaime King, Christine Lee, Zoe Marlett",
+  "diretor": "John Hyams, Abram Cox",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:34:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:47:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:33:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:58:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:42:41"
+        }
+      ]
+    }
+  ],
+  "id": 1442
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1OTc=",
+  "tipo": "serie",
+  "titulo": "A ILHA DA FANTASIA [L]",
+  "capa_url": "https://lgfp.one/SEC",
+  "capa_local": "A ILHA DA FANTASIA [L]/A ILHA DA FANTASIA [L].jpg",
+  "sinopse": "Antologia em que cada episódio contará uma história emocionante sobre pessoas que começam com um desejo, mas renascem através do realismo mágico da ilha. A trama é ambientada em um resort de luxo, onde literalmente qualquer fantasia solicitada pelos convidados é realizada, embora raramente resultem como o esperado. O resort é administrado por Elena Roarke (Roselyn Sanchez), que deixou de lado suas próprias ambições, e até mesmo o amor de sua vida, para defender o legado de sua família. Sofisticado, perspicaz e sempre charmoso, o exterior calmo de Elena mascara os desafios das responsabilidades que ela assumiu como administradora desta ilha misteriosa.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Roselyn Sánchez, Kiara Barnes",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:59"
+        }
+      ]
+    }
+  ],
+  "id": 35976
+}

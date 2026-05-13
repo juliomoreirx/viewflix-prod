@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NzY=",
+  "tipo": "serie",
+  "titulo": "MASABA MASABA [L]",
+  "capa_url": "https://lgfp.one/RDF",
+  "capa_local": "MASABA MASABA [L]/MASABA MASABA [L].jpg",
+  "sinopse": "Neena e Masaba Gupta, mãe e filha na vida real, estrelam esta divertida série fictícia sobre a vida no mundo da moda e do cinema.",
+  "genero": "Comédia, Drama",
+  "elenco": "Masaba Gupta, Neena Gupta, Neil Bhoopalam, Rytasha Rathore, Smaran Sahu",
+  "diretor": "Sonam Nair",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:22"
+        }
+      ]
+    }
+  ],
+  "id": 895
+}

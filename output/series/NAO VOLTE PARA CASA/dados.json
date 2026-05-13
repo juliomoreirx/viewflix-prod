@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwODE=",
+  "tipo": "serie",
+  "titulo": "NAO VOLTE PARA CASA",
+  "capa_url": "https://lgfp.one/EBB2",
+  "capa_local": "NAO VOLTE PARA CASA/NAO VOLTE PARA CASA.jpg",
+  "sinopse": "Quando a filha mais nova some misteriosamente após a mudança para a antiga mansão da família, uma mãe é obrigada a confrontar segredos sombrios do passado.",
+  "genero": "Mistério, Drama, Sci-Fi & Fantasy",
+  "elenco": "วรนุช ภิรมย์ภักดี, พิชชาภา พันธุมจินดา, ซินดี้ สิรินยา บิชอพ, พลอยปภัส ฝนแก้วศิวพร, ปาริธ ทิมทอง",
+  "diretor": "วุฒิดนัย อินทรเกษตร, Saroch Nuamsamran, วุฒิดนัย อินทรเกษตร",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:45"
+        }
+      ]
+    }
+  ],
+  "id": 201802
+}

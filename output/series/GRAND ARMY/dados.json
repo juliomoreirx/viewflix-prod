@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NTQ=",
+  "tipo": "serie",
+  "titulo": "GRAND ARMY",
+  "capa_url": "https://lgfp.one/RHG",
+  "capa_local": "GRAND ARMY/GRAND ARMY.jpg",
+  "sinopse": "Cinco alunos da maior escola pública do Brooklyn encaram um mundo caótico na luta por sobrevivência, liberdade e um futuro melhor.",
+  "genero": "Drama",
+  "elenco": "Odessa A'zion, Odley Jean, Amir Bageria, Maliq Johnson, Amalia Yoo",
+  "diretor": "Silas Howard, So Yong Kim, Tina Mabry, Darnell Martin, Clement Virgo",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:12:56"
+        }
+      ]
+    }
+  ],
+  "id": 1007
+}

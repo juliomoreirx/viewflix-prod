@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MjE=",
+  "tipo": "serie",
+  "titulo": "JEITOS DE MORAR",
+  "capa_url": "https://lgfp.one/AAKA",
+  "capa_local": "JEITOS DE MORAR/JEITOS DE MORAR.jpg",
+  "sinopse": "Maddie Moate explora casas exclusivas pelo mundo que refletem as personalidades, paixões e filosofias de vida de seus donos, visionários que ousaram sonhar, construir e viver diferente, desafiando nossa maneira de ver casas.",
+  "genero": "Documentário, Reality",
+  "elenco": "Maddie Moate",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:25"
+        }
+      ]
+    }
+  ],
+  "id": 3607
+}

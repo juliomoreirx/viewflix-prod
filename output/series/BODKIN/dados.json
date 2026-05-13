@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMDE=",
+  "tipo": "serie",
+  "titulo": "BODKIN",
+  "capa_url": "https://lgfp.one/AWK9",
+  "capa_local": "BODKIN/BODKIN.jpg",
+  "sinopse": "Uma equipe de podcasters começa a investigar desaparecimentos misteriosos em uma cidadezinha da Irlanda, cheia de segredos terríveis.",
+  "genero": "Drama, Mistério",
+  "elenco": "Siobhán Cullen, Robyn Cara, Chris Walley, David Wilmot, Will Forte",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:31"
+        }
+      ]
+    }
+  ],
+  "id": 5351
+}

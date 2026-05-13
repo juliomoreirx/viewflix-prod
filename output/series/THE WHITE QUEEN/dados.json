@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1MTM=",
+  "tipo": "serie",
+  "titulo": "THE WHITE QUEEN",
+  "capa_url": "https://lgfp.one/JOV",
+  "capa_local": "THE WHITE QUEEN/THE WHITE QUEEN.jpg",
+  "sinopse": "A história começa em 1464, nono ano da guerra, e é focada em três mulheres que foram peças-chave durante o período: Elizabeth Woodville, Margaret Beaufort, e Anne Neville.",
+  "genero": "Drama",
+  "elenco": "Rebecca Ferguson, Max Irons, Amanda Hale, Janet McTeer, James Frain",
+  "diretor": "James Kent, Jamie Payne, and Colin Teague",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:51"
+        }
+      ]
+    }
+  ],
+  "id": 807
+}

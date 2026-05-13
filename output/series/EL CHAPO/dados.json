@@ -1,0 +1,200 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Njc=",
+  "tipo": "serie",
+  "titulo": "EL CHAPO",
+  "capa_url": "https://lgfp.one/RFK",
+  "capa_local": "EL CHAPO/EL CHAPO.jpg",
+  "sinopse": "Série baseado na vida de Joaquín 'El Chapo' Guzmán, passando pela história sangrenta da guerra ás drogas que fragmentou as relações entre Estados Unidos e México através dos anos.",
+  "genero": "Drama, Crime",
+  "elenco": "Marco de la O, Valentina Acosta, Juan Carlos Olivas, Humberto Busto, Alejandro Aguilar",
+  "diretor": "José Manuel Cravioto, Ernesto Contreras",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:13"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:52:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:40:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:44:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:54:45"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:39:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "13",
+          "codigo": "S03E13",
+          "duracao": "00:46:49"
+        }
+      ]
+    }
+  ],
+  "id": 959
+}

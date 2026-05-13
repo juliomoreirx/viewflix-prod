@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNzE=",
+  "tipo": "serie",
+  "titulo": "OLHOS DE WAKANDA",
+  "capa_url": "https://lgfp.one/POO0",
+  "capa_local": "OLHOS DE WAKANDA/OLHOS DE WAKANDA.jpg",
+  "sinopse": "Acompanha as aventuras de corajosos Cães de Guerra da organização secreta dos Hatut Zeraze ao longo da história. Nessa aventura itinerante, eles precisam enfrentar missões perigosas para recuperar artefatos de Vibranium perdidos no mundo.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "",
+  "diretor": "Ryan Coogler, Nosipho Dumisa",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:21"
+        }
+      ]
+    }
+  ],
+  "id": 7725
+}

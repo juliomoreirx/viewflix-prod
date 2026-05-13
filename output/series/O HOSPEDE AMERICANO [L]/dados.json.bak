@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MDc=",
+  "tipo": "serie",
+  "titulo": "O HÓSPEDE AMERICANO [L]",
+  "capa_url": "https://lgfp.one/SHY",
+  "capa_local": "O HOSPEDE AMERICANO [L]/O HOSPEDE AMERICANO [L].jpg",
+  "sinopse": "A jornada do ex-presidente americano Teddy Roosevelt, junto com o oficial do exército brasileiro Cândido Rondon em uma aventura para desbravar regiões desconhecidas e encontrar-se com habitantes indígenas da Amazônia.",
+  "genero": "Drama",
+  "elenco": "Aidan Quinn, Chico Diaz, David Herman, Chris Mason",
+  "diretor": "Bruno Barreto",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:09"
+        }
+      ]
+    }
+  ],
+  "id": 1899
+}

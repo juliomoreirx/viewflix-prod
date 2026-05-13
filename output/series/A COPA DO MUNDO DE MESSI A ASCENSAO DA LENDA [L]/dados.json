@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyODM=",
+  "tipo": "serie",
+  "titulo": "A COPA DO MUNDO DE MESSI A ASCENSAO DA LENDA [L]",
+  "capa_url": "https://lgfp.one/AZKW",
+  "capa_local": "A COPA DO MUNDO DE MESSI A ASCENSAO DA LENDA [L]/A COPA DO MUNDO DE MESSI A ASCENSAO DA LENDA [L].jpg",
+  "sinopse": "Acompanhe a épica jornada da lenda através de cinco edições da Copa do Mundo, culminando na conquista de 2022. Durante a competição, Messi compartilha suas reflexões mais pessoais sobre a carreira na seleção e os desafios que enfrentou.",
+  "genero": "Documentário",
+  "elenco": "Lionel Messi, Mariana van Zeller",
+  "diretor": "Juan Baldana",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:23"
+        }
+      ]
+    }
+  ],
+  "id": 5014
+}

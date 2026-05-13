@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MTI=",
+  "tipo": "serie",
+  "titulo": "ASSUMINDO AS REDEAS [L]",
+  "capa_url": "https://lgfp.one/QNN7",
+  "capa_local": "ASSUMINDO AS REDEAS [L]/ASSUMINDO AS REDEAS [L].jpg",
+  "sinopse": "Kurisu sempre admirou o pai, que administra um escritório de contabilidade, e sonhava em trabalhar com ele um dia. Para aprimorar suas habilidades, ingressou em um grande escritório de contabilidade, mas um revés profissional o deixou desiludido. Sua vida toma um rumo inesperado quando conhece Sanno Kozo, dono de cavalos de corrida, reacendendo seu propósito.",
+  "genero": "Drama",
+  "elenco": "妻夫木聡, 佐藤浩市, 松本若菜, 黒木瞳, Kotaro Koizumi",
+  "diretor": "塚原あゆ子, 松田礼人, Ryōsuke Fukawa",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:40"
+        }
+      ]
+    }
+  ],
+  "id": 8293
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM3OTU=",
+  "tipo": "serie",
+  "titulo": "PEQUENOS DESASTRES",
+  "capa_url": "https://lgfp.one/RBF9",
+  "capa_local": "PEQUENOS DESASTRES/PEQUENOS DESASTRES.jpg",
+  "sinopse": "Quando Jess (Diane Kruger) leva seu bebê ao hospital com um ferimento inexplicável na cabeça, sua amiga íntima, Liz (Jo Joyner), médica do pronto-socorro, toma a decisão angustiante de acionar os serviços sociais, desencadeando uma série de eventos explosivos.",
+  "genero": "Drama",
+  "elenco": "Diane Kruger, Jo Joyner, Shelley Conn, Emily Taaffe, Jax James",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:42"
+        }
+      ]
+    }
+  ],
+  "id": 8458
+}

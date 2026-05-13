@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNjQ=",
+  "tipo": "serie",
+  "titulo": "THE BORDERLINE (2026) [L]",
+  "capa_url": "https://lgfp.one/RSP4",
+  "capa_local": "THE BORDERLINE (2026) [L]/THE BORDERLINE (2026) [L].jpg",
+  "sinopse": "A trama acompanha um policial de uma pequena cidade canadense que descobre que seu amigo de infância está envolvido em uma operação internacional de contrabando de drogas.",
+  "genero": "Crime, Drama",
+  "elenco": "Stephen Amell, Hamza Haq, Minnie Driver, Katia Smith, Jeremy Watson",
+  "diretor": "Robert Budreau",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:05"
+        }
+      ]
+    }
+  ],
+  "id": 8881
+}

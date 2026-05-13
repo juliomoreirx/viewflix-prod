@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NDI=",
+  "tipo": "serie",
+  "titulo": "SUBMERSA: O DESAPARECIMENTO DE KIM WALL",
+  "capa_url": "https://lgfp.one/TAZ",
+  "capa_local": "SUBMERSA O DESAPARECIMENTO DE KIM WALL/SUBMERSA O DESAPARECIMENTO DE KIM WALL.jpg",
+  "sinopse": "Este documentário em duas partes dirigido pela cineasta indicada ao Emmy® Erin Lee Carr conta a história da talentosa jornalista Kim Wall, que tragicamente desapareceu em 2017 antes de entrevistar o excêntrico empresário Peter Madsen.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:41"
+        }
+      ]
+    }
+  ],
+  "id": 2414
+}

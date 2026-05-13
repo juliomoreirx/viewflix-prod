@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNzg=",
+  "tipo": "serie",
+  "titulo": "LOVE TOUCH",
+  "capa_url": "https://lgfp.one/AAJJ",
+  "capa_local": "LOVE TOUCH/LOVE TOUCH.jpg",
+  "sinopse": "Sara cria um inovador aplicativo de relacionamento chamado Love Touch, que faz a sua combinação através da impressão digital, para encontrar o grande amor usuários.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:17:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:18:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:08"
+        }
+      ]
+    }
+  ],
+  "id": 3588
+}

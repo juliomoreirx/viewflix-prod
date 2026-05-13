@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4NTA=",
+  "tipo": "serie",
+  "titulo": "UM HOMEM DECENTE [L]",
+  "capa_url": "https://lgfp.one/NWE9",
+  "capa_local": "UM HOMEM DECENTE [L]/UM HOMEM DECENTE [L].jpg",
+  "sinopse": "Pawel é um homem decente, um marido dedicado, um bom pai e um cirurgião cardíaco bem-sucedido. Mas quando seu filho é brutalmente espancado na escola, Pawel toma uma decisão precipitada que altera para sempre o curso de sua idílica vida.",
+  "genero": "Drama, Mistério",
+  "elenco": "Krzysztof Czeczot, Agnieszka Żulewska, Konrad Kąkol, Magdalena Czerwińska, Antoni Tyszkiewicz",
+  "diretor": "",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:03"
+        }
+      ]
+    }
+  ],
+  "id": 7315
+}

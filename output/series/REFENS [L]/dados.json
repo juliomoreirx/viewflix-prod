@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MjA=",
+  "tipo": "serie",
+  "titulo": "REFENS [L]",
+  "capa_url": "https://lgfp.one/RHU0",
+  "capa_local": "REFENS [L]/REFENS [L].jpg",
+  "sinopse": "Acompanhe o caos que se desenrolou nos primeiros dias da crise dos reféns; os eventos mudam quando Khomeini sanciona a tomada de poder e de reféns e se torna um divisor de águas em um regime repressivo.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:34"
+        }
+      ]
+    }
+  ],
+  "id": 8703
+}

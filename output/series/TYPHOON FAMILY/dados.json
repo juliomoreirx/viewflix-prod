@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MzY=",
+  "tipo": "serie",
+  "titulo": "TYPHOON FAMILY",
+  "capa_url": "https://lgfp.one/QHO8",
+  "capa_local": "TYPHOON FAMILY/TYPHOON FAMILY.jpg",
+  "sinopse": "Em plena crise financeira de 1977, um filho despreocupado herda a empresa em apuros do pai e se vê forçado a aprender a ser chefe e amadurecer.",
+  "genero": "Drama",
+  "elenco": "이준호, Kim Min-ha, 김지영, Kim Min-seok, 무진성",
+  "diretor": "Lee Na-jeong",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:16:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:19:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:06:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:49"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:15:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:09:57"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:08:55"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:14:52"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:17:19"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:26:33"
+        }
+      ]
+    }
+  ],
+  "id": 8192
+}

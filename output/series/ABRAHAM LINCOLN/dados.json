@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MTk=",
+  "tipo": "serie",
+  "titulo": "ABRAHAM LINCOLN",
+  "capa_url": "https://lgfp.one/AYFW",
+  "capa_local": "ABRAHAM LINCOLN/ABRAHAM LINCOLN.jpg",
+  "sinopse": "A verdadeira história do icônico 16º presidente dos Estados Unidos, contada tecendo duas dramatizações roteirizadas de momentos importantes de sua vida e comentários de historiadores de autoridade e figuras públicas.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Graham Sibley, André Jacobs, Jenny Stead, Colin Moss, Luke Tyler",
+  "diretor": "Malcolm Venville",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:44:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:42:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:43:48"
+        }
+      ]
+    }
+  ],
+  "id": 4788
+}

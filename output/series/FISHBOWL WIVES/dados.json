@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NzQ=",
+  "tipo": "serie",
+  "titulo": "FISHBOWL WIVES",
+  "capa_url": "https://lgfp.one/SXL",
+  "capa_local": "FISHBOWL WIVES/FISHBOWL WIVES.jpg",
+  "sinopse": "Em um prédio de luxo, seis mulheres que vivem casamentos infelizes acabam cedendo à tentação da infidelidade. Baseada na série de mangás de Kurosawa R.",
+  "genero": "Drama",
+  "elenco": "Ryoko Shinohara, Takanori Iwata, Masanobu Ando, Kyoko Hasegawa, Wakana Matsumoto, Shizuka Nakamura, Saori Seto, Anna Ishii",
+  "diretor": "Michiko Namiki, Hiroaki Matsuyama",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:47"
+        }
+      ]
+    }
+  ],
+  "id": 2322
+}

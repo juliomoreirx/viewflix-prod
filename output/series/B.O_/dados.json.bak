@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNjI=",
+  "tipo": "serie",
+  "titulo": "B.O.",
+  "capa_url": "https://lgfp.one/AAXQ",
+  "capa_local": "B.O./B.O..jpg",
+  "sinopse": "Depois de assumir a função de delegado em um novo distrito, o tímido Suzano precisa provar seu valor para a equipe.",
+  "genero": "Comédia",
+  "elenco": "Leandro Hassum, Luciana Paes, Jefferson Schroeder, Taumaturgo Ferreira, Digão Ribeiro",
+  "diretor": "Pedro Amorim, Leandro Hassum, Carol Minêm",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:27"
+        }
+      ]
+    }
+  ],
+  "id": 342374
+}

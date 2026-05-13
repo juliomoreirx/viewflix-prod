@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MzQ=",
+  "tipo": "serie",
+  "titulo": "OS ENCANADORES DA CASA BRANCA",
+  "capa_url": "https://lgfp.one/ZTP",
+  "capa_local": "OS ENCANADORES DA CASA BRANCA/OS ENCANADORES DA CASA BRANCA.jpg",
+  "sinopse": "Conhecidos como os Encanadores da Casa Branca, E. Howard Hunt e G. Gordon Liddy, ex-agentes da CIA e FBI, foram as mentes por trás do escândalo de Watergate e acidentalmente derrubaram o governo do presidente Nixon, a quem tentavam proteger.",
+  "genero": "Drama",
+  "elenco": "Woody Harrelson, Justin Theroux, Lena Headey, Domhnall Gleeson, Judy Greer",
+  "diretor": "Ruben Fleischer, Scott Bowers, Kyle Casper",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:44"
+        }
+      ]
+    }
+  ],
+  "id": 3481
+}

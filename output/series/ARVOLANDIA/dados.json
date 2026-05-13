@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4MDE=",
+  "tipo": "serie",
+  "titulo": "ARVOLANDIA",
+  "capa_url": "https://lgfp.one/ASSJ",
+  "capa_local": "ARVOLANDIA/ARVOLANDIA.jpg",
+  "sinopse": "Com habilidades incríveis e carrinhos rápidos, esses heróis animais trabalham juntos para resolver os problemas mais espinhosos de Arvolândia.",
+  "genero": "Action & Adventure, Comédia, Kids",
+  "elenco": "Mark Benton, Naomi McDonald, Lucy Montgomery, Hollie Taylor, Hyoie O'Grady",
+  "diretor": "Daniel Cripps, Prawta Annez, Paul Ashall",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:23:36"
+        }
+      ]
+    }
+  ],
+  "id": 4397
+}

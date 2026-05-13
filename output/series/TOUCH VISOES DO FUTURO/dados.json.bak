@@ -1,0 +1,155 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxODE=",
+  "tipo": "serie",
+  "titulo": "TOUCH VISOES DO FUTURO",
+  "capa_url": "https://lgfp.one/QRM6",
+  "capa_local": "TOUCH VISOES DO FUTURO/TOUCH VISOES DO FUTURO.jpg",
+  "sinopse": "Martin Bohm é um viúvo cujo filho, Jake, é autista e não fala. Durante sua jornada de questionamentos sobre sua incapacidade de se comunicar com seu filho, Martin descobre que Jake é capaz de comunicar-se, mas usando números.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Drama",
+  "elenco": "Kiefer Sutherland, David Mazouz, Saxon Sharbino, Lukas Haas",
+  "diretor": "Francis Lawrence",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:43:29"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:44:19"
+        }
+      ]
+    }
+  ],
+  "id": 8397
+}

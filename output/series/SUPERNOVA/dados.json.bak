@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMDQ=",
+  "tipo": "serie",
+  "titulo": "SUPERNOVA",
+  "capa_url": "https://lgfp.one/TKN",
+  "capa_local": "SUPERNOVA/SUPERNOVA.jpg",
+  "sinopse": "Na fronteira dos 30, Nicolasa, June e Mimi se deparam com suas obrigações sociais, seus próprios desejos e frustrações . O resultado é um coquetel explosivo, uma Supernova que marca uma ruptura em suas vidas e, em meio ao caos da explosão, nas de seus familiares, namorados e amigos. Mas também curtem momentos felizes, onde se apoiam para alcançar o horizonte que tanto desejam.",
+  "genero": "Drama",
+  "elenco": "Ruggero Pasquarelli, Carolina Kopelioff, Nancy Dupláa, Inés Estévez, Johanna Chiefo, Marina Bellati, Diego Cremonesi",
+  "diretor": "Ana Katz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:54"
+        }
+      ]
+    }
+  ],
+  "id": 100936
+}

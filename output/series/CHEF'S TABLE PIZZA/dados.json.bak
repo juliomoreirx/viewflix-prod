@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTY=",
+  "tipo": "serie",
+  "titulo": "CHEF'S TABLE: PIZZA",
+  "capa_url": "https://lgfp.one/TQJ",
+  "capa_local": "CHEF'S TABLE PIZZA/CHEF'S TABLE PIZZA.jpg",
+  "sinopse": "Descubra as melhores pizzas do mundo, preparadas por chefs renomados, que colocam paixão, criatividade e dedicação em cada fatia.",
+  "genero": "Documentário",
+  "elenco": "Anthony Bourdain, Brett Anderson, Chris Bianco",
+  "diretor": "David Gelb, Brian McGinn, Danny O'Malley",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:09"
+        }
+      ]
+    }
+  ],
+  "id": 2832
+}

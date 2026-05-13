@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNzA=",
+  "tipo": "serie",
+  "titulo": "PARQUES NACIONAIS DOS ESTADOS UNIDOS",
+  "capa_url": "https://lgfp.one/VRU",
+  "capa_local": "PARQUES NACIONAIS DOS ESTADOS UNIDOS/PARQUES NACIONAIS DOS ESTADOS UNIDOS.jpg",
+  "sinopse": "A série mostra as paisagens e vida selvagem de dez parques incrivelmente diversos e belos, alguns famosos e outros surpreendentemente desconhecidos. Cada um destes parques é uma joia natural e juntos deviam ser celebrados como um Tesouro Nacional.",
+  "genero": "Documentário",
+  "elenco": "Garth Brooks",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 2947
+}

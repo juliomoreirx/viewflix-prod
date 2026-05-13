@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDc=",
+  "tipo": "serie",
+  "titulo": "BÁRBAROS",
+  "capa_url": "https://lgfp.one/RHT",
+  "capa_local": "BARBAROS/BARBAROS.jpg",
+  "sinopse": "Dividido entre o poderoso império em que foi criado e a própria tribo, um oficial romano arquiteta um confronto épico que pode mudar a história.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Laurence Rupp, Jeanne Goursaud, David Schütter, Gaetano Aronica, Bernhard Schütz",
+  "diretor": "Józef Grzymała",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:10"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:54:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:44:12"
+        }
+      ]
+    }
+  ],
+  "id": 1021
+}

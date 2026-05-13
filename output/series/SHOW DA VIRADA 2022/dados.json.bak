@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMTQ=",
+  "tipo": "serie",
+  "titulo": "SHOW DA VIRADA 2022",
+  "capa_url": "https://lgfp.one/XFY",
+  "capa_local": "SHOW DA VIRADA 2022/SHOW DA VIRADA 2022.jpg",
+  "sinopse": "O ano em que o país se dividiu pela política terminou com os brasileiros de um só lado, torcendo pela seleção na Copa do Mundo.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:44:49"
+        }
+      ]
+    }
+  ],
+  "id": 3159
+}

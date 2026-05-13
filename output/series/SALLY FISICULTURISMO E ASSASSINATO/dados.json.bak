@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MzU=",
+  "tipo": "serie",
+  "titulo": "SALLY: FISICULTURISMO E ASSASSINATO",
+  "capa_url": "https://lgfp.one/VZV",
+  "capa_local": "SALLY FISICULTURISMO E ASSASSINATO/SALLY FISICULTURISMO E ASSASSINATO.jpg",
+  "sinopse": "Amigos, familiares e a própria Sally McNeil relembram o chocante assassinato de um fisiculturista, que para piorar foi cometido em um dos dias mais românticos do ano.",
+  "genero": "Documentário, Crime",
+  "elenco": "Sally McNeil, John Lowden, Shantina Lowden, Shannon Brown, Peggy Hook",
+  "diretor": "Nanette Burstein, Robert Yapkowitz, Will Doyle",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:51"
+        }
+      ]
+    }
+  ],
+  "id": 3033
+}

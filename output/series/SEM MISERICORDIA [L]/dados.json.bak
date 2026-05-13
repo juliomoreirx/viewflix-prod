@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NTc=",
+  "tipo": "serie",
+  "titulo": "SEM MISERICORDIA [L]",
+  "capa_url": "https://lgfp.one/QCM8",
+  "capa_local": "SEM MISERICORDIA [L]/SEM MISERICORDIA [L].jpg",
+  "sinopse": "Um drama de vingança e suspense policial sobre Han So Min, uma atriz desconhecida que persevera apenas com determinação. Um dia, ela perde os pais em um golpe de phishing e se infiltra em uma grande organização de phishing por voz usando tecnologia deepfake, derrotando todos eles.",
+  "genero": "Crime",
+  "elenco": "이주영, 지승현, Ju-ne",
+  "diretor": "최형준",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:26"
+        }
+      ]
+    }
+  ],
+  "id": 41906
+}

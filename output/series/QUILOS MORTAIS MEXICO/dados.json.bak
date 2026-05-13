@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NjA=",
+  "tipo": "serie",
+  "titulo": "QUILOS MORTAIS MEXICO",
+  "capa_url": "https://lgfp.one/BDV5",
+  "capa_local": "QUILOS MORTAIS MEXICO/QUILOS MORTAIS MEXICO.jpg",
+  "sinopse": "A luta de indivíduos com obesidade extrema que devem ser submetidos a uma cirurgia para salvar suas vidas.",
+  "genero": "Documentário, Reality",
+  "elenco": "",
+  "diretor": "Javer Berruti",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:35"
+        }
+      ]
+    }
+  ],
+  "id": 5532
+}

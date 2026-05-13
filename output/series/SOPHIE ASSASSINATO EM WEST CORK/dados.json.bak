@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NzA=",
+  "tipo": "serie",
+  "titulo": "SOPHIE: ASSASSINATO EM WEST CORK",
+  "capa_url": "https://lgfp.one/RYO",
+  "capa_local": "SOPHIE ASSASSINATO EM WEST CORK/SOPHIE ASSASSINATO EM WEST CORK.jpg",
+  "sinopse": "Um assassinato chocante na Irlanda rural desencadeia uma busca cada vez mais complicada por justiça que atravessa décadas e atravessa as fronteiras nacionais.",
+  "genero": "Documentário, Crime, Mistério",
+  "elenco": "Sophie Toscan du Plantier, Ian Bailey, Barry Roche",
+  "diretor": "John Dower",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:54"
+        }
+      ]
+    }
+  ],
+  "id": 1483
+}

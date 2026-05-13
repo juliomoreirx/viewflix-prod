@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNDk=",
+  "tipo": "serie",
+  "titulo": "BOSÉ",
+  "capa_url": "https://lgfp.one/VZC",
+  "capa_local": "BOSE/BOSE.jpg",
+  "sinopse": "Bosé retratará a vida incrível de um artista com uma personalidade única e muito reconhecível. A série de seis episódios será uma obra de arte inédita por si só, transportando os espectadores para diferentes partes da carreira do cantor e compositor que começou no final dos anos 1970, revelando as histórias por trás da inspiração, composição e gravação de alguns de seus trabalhos mais emblemáticos e como esse sucesso impactou sua vida pessoal.",
+  "genero": "Drama / Família",
+  "elenco": "Iván Sánchez, José Pastor, Valeria Solarino, Alicia Borrachero, Ana Torrent, Hugo Fuertes Marciel, Nacho Fresneda, Mariela Garriga",
+  "diretor": "Nacho Faerna, Miguel Bardem, Fernando Trullols",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:26"
+        }
+      ]
+    }
+  ],
+  "id": 3014
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNjk=",
+  "tipo": "serie",
+  "titulo": "SISI",
+  "capa_url": "https://lgfp.one/TDQ",
+  "capa_local": "SISI/SISI.jpg",
+  "sinopse": "“Sisi” segue a vida extraordinária da imperatriz Elisabeth da Áustria. Moderno, honesto e autêntico. Contada a partir da perspectiva de seus confidentes mais próximos, a série dá uma nova olhada na vida da imperatriz e revela uma mulher de várias camadas.",
+  "genero": "Drama",
+  "elenco": "Dominique Devenport, Jannik Schümann, David Korbmann, Désirée Nosbusch, Tanja Schleiff",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:09"
+        }
+      ]
+    }
+  ],
+  "id": 2485
+}

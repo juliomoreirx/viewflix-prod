@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4Mjk=",
+  "tipo": "serie",
+  "titulo": "FIM DO VERAO",
+  "capa_url": "https://lgfp.one/MZG0",
+  "capa_local": "FIM DO VERAO/FIM DO VERAO.jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Julia Ragnarsson, Erik Enge, Vilhelm Blomgren, Torkel Petersson, Henrik Norlén",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:44"
+        }
+      ]
+    }
+  ],
+  "id": 6884
+}

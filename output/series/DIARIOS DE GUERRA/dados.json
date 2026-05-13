@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyOTU=",
+  "tipo": "serie",
+  "titulo": "DIÁRIOS DE GUERRA",
+  "capa_url": "https://lgfp.one/XQB",
+  "capa_local": "DIARIOS DE GUERRA/DIARIOS DE GUERRA.jpg",
+  "sinopse": "Guerra como nunca antes vista. Soldados contam suas experiências em um dos piores lugares do Afeganistão por meio de câmeras de capacete e testemunhos anos depois de sua turnê.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 3173
+}

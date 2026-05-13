@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MDc=",
+  "tipo": "serie",
+  "titulo": "SARA A MULHER NAS SOMBRAS",
+  "capa_url": "https://lgfp.one/ORL7",
+  "capa_local": "SARA A MULHER NAS SOMBRAS/SARA A MULHER NAS SOMBRAS.jpg",
+  "sinopse": "A morte suspeita do filho leva uma ex-agente secreta a voltar à ativa, investigando uma série de crimes que ficam cada vez mais sinistros.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Teresa Saponangelo, Claudia Gerini, Flavio Furno, Chiara Celotto, Massimo Popolizio",
+  "diretor": "Carmine Elia",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:32"
+        }
+      ]
+    }
+  ],
+  "id": 7418
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNzQ=",
+  "tipo": "serie",
+  "titulo": "MASK GIRL",
+  "capa_url": "https://lgfp.one/AAVM",
+  "capa_local": "MASK GIRL/MASK GIRL.jpg",
+  "sinopse": "Durante o dia, ela é uma funcionária insegura com a aparência. À noite, uma personalidade mascarada da internet. Até que um acontecimento desastroso muda sua vida.",
+  "genero": "Drama, Comédia, Mistério",
+  "elenco": "고현정, 나나, 이한별, 안재홍, 염혜란",
+  "diretor": "Kim Yong-hoon, Kim Yong-hoon, Kim Yong-hoon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:27"
+        }
+      ]
+    }
+  ],
+  "id": 3902
+}

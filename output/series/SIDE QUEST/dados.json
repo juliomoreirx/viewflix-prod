@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNjM=",
+  "tipo": "serie",
+  "titulo": "SIDE QUEST",
+  "capa_url": "https://lgfp.one/NKT9",
+  "capa_local": "SIDE QUEST/SIDE QUEST.jpg",
+  "sinopse": "Aprofunde-se no universo de Mythic Quest nessas quatro histórias independentes. Siga as vidas de jogadores, donos de lojas de quadrinhos, músicos de orquestras itinerantes e membros do departamento de arte enquanto eles buscam por comunidade, sucesso e amor.",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "Todd Biermann, Joe Moore, Iwona Sapienza",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:59"
+        }
+      ]
+    }
+  ],
+  "id": 7087
+}

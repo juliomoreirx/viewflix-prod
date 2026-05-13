@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2Mzg=",
+  "tipo": "serie",
+  "titulo": "THEM [L]",
+  "capa_url": "https://lgfp.one/RRO",
+  "capa_local": "THEM [L]/THEM [L].jpg",
+  "sinopse": "\"Outros\" é uma antologia que explora o terror nos EUA. A primeira temporada, \"Exigências\", ambientada na década de 1950, gira em torno de uma família negra que se muda da Carolina do Norte para um bairro branco de Los Angeles durante o período conhecido como A Grande Migração. A idílica casa da família se torna o marco para forças malignas e sobrenaturais que ameaçam destruí-los.",
+  "genero": "Drama, Mistério",
+  "elenco": "Deborah Ayorinde, Ashley Thomas, Alison Pill, Shahadi Wright Joseph, Melody Hurd",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:56"
+        }
+      ]
+    }
+  ],
+  "id": 1288
+}

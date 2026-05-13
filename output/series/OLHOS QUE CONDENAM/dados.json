@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNzY=",
+  "tipo": "serie",
+  "titulo": "OLHOS QUE CONDENAM",
+  "capa_url": "https://lgfp.one/JEK",
+  "capa_local": "OLHOS QUE CONDENAM/OLHOS QUE CONDENAM.jpg",
+  "sinopse": "Cinco adolescentes do Harlem vivem um pesadelo depois de serem injustamente acusados de um ataque brutal no Central Park.",
+  "genero": "Drama",
+  "elenco": "Asante Blackk, Jharrel Jerome, Ethan Herisse, Marquis Rodriguez, Caleel Harris",
+  "diretor": "H.H. Cooper, Ava DuVernay",
+  "total_episodios": "75",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:11:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:13:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:28:02"
+        }
+      ]
+    }
+  ],
+  "id": 500
+}

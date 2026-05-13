@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5NDk=",
+  "tipo": "serie",
+  "titulo": "CAMINHANDO SOBRE GELO FINO [L]",
+  "capa_url": "https://lgfp.one/QCJ5",
+  "capa_local": "CAMINHANDO SOBRE GELO FINO [L]/CAMINHANDO SOBRE GELO FINO [L].jpg",
+  "sinopse": "O drama retrata a história de uma dona de casa comum, Kang Eun Su, que se volta para o crime vendendo drogas no valor de centenas de bilhões de won que ela acidentalmente encontra enquanto luta para pagar as despesas médicas de seu marido com doença terminal.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "이영애, Kim Young-kwang, 박용우, 이수빈, 조연희",
+  "diretor": "Song Hyun-wook",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:09:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:06:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:07:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:50"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:19:13"
+        }
+      ]
+    }
+  ],
+  "id": 8056
+}

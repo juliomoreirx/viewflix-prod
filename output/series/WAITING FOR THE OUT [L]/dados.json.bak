@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNDQ=",
+  "tipo": "serie",
+  "titulo": "WAITING FOR THE OUT [L]",
+  "capa_url": "https://lgfp.one/RZV8",
+  "capa_local": "WAITING FOR THE OUT [L]/WAITING FOR THE OUT [L].jpg",
+  "sinopse": "Dan é um professor de filosofia que aceita um emprego ensinando em uma prisão masculina. O que parece ser apenas um desafio profissional é, na verdade, um confronto direto com seus demônios pessoais: Dan cresceu em uma família onde o pai, o irmão e o tio foram encarcerados. Assombrado por um TOC severo e visões intrusivas, ele vive com o medo constante de que a criminalidade seja hereditária e de que seu destino inevitável seja acabar atrás das grades. A série mistura o drama carcerário com humor ácido e questões filosóficas profundas sobre livre-arbítrio, sorte e redenção.",
+  "genero": "Drama",
+  "elenco": "Josh Finan, Stephen Wight, Phil Daniels, Gerard Kearns",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:07"
+        }
+      ]
+    }
+  ],
+  "id": 8988
+}

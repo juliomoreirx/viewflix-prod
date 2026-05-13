@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MTg=",
+  "tipo": "serie",
+  "titulo": "ONE PIECE: A SÉRIE",
+  "capa_url": "https://lgfp.one/AAWQ",
+  "capa_local": "ONE PIECE A SERIE/ONE PIECE A SERIE.jpg",
+  "sinopse": "O jovem pirata Monkey D. Luffy veste o chapéu de palha e, com sua tripulação atrapalhada, zarpa em uma jornada épica nesta adaptação em live-action do popular mangá.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Iñaki Godoy, Emily Rudd, 新田真剣佑, Jacob Gibson, Vincent Regan",
+  "diretor": "Greg Werner, Marc Jobst, Tim Southam",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:06:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:03:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:03:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:54:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:00:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:03:52"
+        }
+      ]
+    }
+  ],
+  "id": 3932
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NzE=",
+  "tipo": "serie",
+  "titulo": "ASTRONAUTA",
+  "capa_url": "https://lgfp.one/DWN8",
+  "capa_local": "ASTRONAUTA/ASTRONAUTA.jpg",
+  "sinopse": "Após integrantes da renomada Agência de Pesquisa Espacial Brasileira, a BRASA, desaparecerem em uma misteriosa missão na Lua, visões estranhas começam a perturbar Pereira, um astronauta recém-afastado da organização. Agora, que seus colegas precisam de um resgate urgente, ele vê a oportunidade perfeita para seguir para o espaço buscando compreender a estranha abdução que vivenciou cinco anos antes. O que ele não imaginava era que estava indo para uma armadilha criado por uma entidade alienígena capaz de colocar em risco não só sua mente, como também toda a humanidade.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Marco Pigossi, Mel Lisboa, Carol Crespo, Julia Ribas, Francisco Junior",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:01"
+        }
+      ]
+    }
+  ],
+  "id": 6107
+}

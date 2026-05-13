@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5OTE=",
+  "tipo": "serie",
+  "titulo": "FLORES E ESPERANÇA",
+  "capa_url": "https://lgfp.one/NDP1",
+  "capa_local": "FLORES E ESPERANCA/FLORES E ESPERANCA.jpg",
+  "sinopse": "Após uma série de infortúnios, Fleur decide pegar a filha e voltar para a cidade onde nasceu em busca de um novo propósito na vida.",
+  "genero": "Drama",
+  "elenco": "Amalia Uys, Michelle Botes, Jane de Wet, Armand Aucamp, Edwin van der Walt",
+  "diretor": "Nina Swart",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:20"
+        }
+      ]
+    }
+  ],
+  "id": 6971
+}

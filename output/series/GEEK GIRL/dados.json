@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxODY=",
+  "tipo": "serie",
+  "titulo": "GEEK GIRL",
+  "capa_url": "https://lgfp.one/BDT8",
+  "capa_local": "GEEK GIRL/GEEK GIRL.jpg",
+  "sinopse": "Harriet é bem desajeitada, mas sempre tentou se encaixar. Até que ela é descoberta por uma agência de modelos e entende que algumas pessoas nasceram para se destacar.",
+  "genero": "Drama, Comédia, Família",
+  "elenco": "Emily Carey, Tim Downie, Sarah Parish, Jemima Rooper, Liam Woodrum",
+  "diretor": "Declan O'Dwyer, Madz Abbasi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:09"
+        }
+      ]
+    }
+  ],
+  "id": 5515
+}

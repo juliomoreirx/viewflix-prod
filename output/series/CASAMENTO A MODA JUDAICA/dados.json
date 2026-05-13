@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Mjc=",
+  "tipo": "serie",
+  "titulo": "CASAMENTO À MODA JUDAICA",
+  "capa_url": "https://lgfp.one/ZTN",
+  "capa_local": "CASAMENTO A MODA JUDAICA/CASAMENTO A MODA JUDAICA.jpg",
+  "sinopse": "Com foco no casamento, judeus e judias procuram Aleeza Ben Shalom na busca pelo par ideal nos EUA ou em Israel.",
+  "genero": "Reality",
+  "elenco": "Aleeza Ben Shalom",
+  "diretor": "Smriti Mundhra",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:16"
+        }
+      ]
+    }
+  ],
+  "id": 3479
+}

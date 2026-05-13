@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNjM=",
+  "tipo": "serie",
+  "titulo": "VERGONHA",
+  "capa_url": "https://lgfp.one/RJP",
+  "capa_local": "VERGONHA/VERGONHA.jpg",
+  "sinopse": "Jesús e Nuria são um casal com a inusitada capacidade de passar vergonha e fazer besteira constantemente. Enquanto ele procura demonstrar seu talento como fotógrafo e ela procura resolver sua vida, ambos se perguntam se sua patetice é um vírus passageiro ou uma doença crônica.",
+  "genero": "Comédia",
+  "elenco": "Javier Gutiérrez, Malena Alterio, Vito Sanz, Miguel Rellán, Lola Casamayor",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:51"
+        }
+      ]
+    }
+  ],
+  "id": 1070
+}

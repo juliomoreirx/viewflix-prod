@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMjI=",
+  "tipo": "serie",
+  "titulo": "SEU HOMEM [L]",
+  "capa_url": "https://lgfp.one/DTD2",
+  "capa_local": "SEU HOMEM [L]/SEU HOMEM [L].jpg",
+  "sinopse": "Como o primeiro reality show de namoro gay da Coreia do Sul, \"His Man\" reúne um grupo de oito homens gays quentes, sensuais, livres e solteiros para uma casa compartilhada, onde eles devem viver, interagir e se abrir uns para os outros em sua busca pelo \"amor verdadeiro\".",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:34:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:50:47"
+        }
+      ]
+    }
+  ],
+  "id": 6042
+}

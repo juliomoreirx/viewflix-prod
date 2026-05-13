@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NjM=",
+  "tipo": "serie",
+  "titulo": "CIDADE DOS MORTOS",
+  "capa_url": "https://lgfp.one/RGA",
+  "capa_local": "CIDADE DOS MORTOS/CIDADE DOS MORTOS.jpg",
+  "sinopse": "Com a civilização ameaçada por uma terrível doença, um grupo de sobreviventes põe em risco suas vidas e o próprio senso de humanidade na luta pela sobrevivência.",
+  "genero": "Sci-Fi & Fantasy, Drama, Action & Adventure",
+  "elenco": "Kirill Käro, Maryana Spivak, Natalya Zemtsova",
+  "diretor": "Pavel Kostomarov, Dmitriy Tyurin",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:18"
+        }
+      ]
+    }
+  ],
+  "id": 975
+}

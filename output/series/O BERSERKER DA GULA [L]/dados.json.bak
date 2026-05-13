@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzODA=",
+  "tipo": "serie",
+  "titulo": "O BERSERKER DA GULA [L]",
+  "capa_url": "https://lgfp.one/AQPB",
+  "capa_local": "O BERSERKER DA GULA [L]/O BERSERKER DA GULA [L].jpg",
+  "sinopse": "Fate é um guarda de castelo num mundo onde habilidades são tudo, e ele acabou conseguindo uma habilidade chamada \"Gula\", cuja única serventia é deixá-lo com fome, fazendo com que Fate tenha uma vida miserável. Num certo dia, ele derrota alguns bandidos que estão se infiltrando no castelo, e seu mundo muda da água pro vinho. Assim começa a história de como um jovem, outrora ridicularizado como sem talento, começou a subir na vida!",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "Ryota Osaka, Tomokazu Seki, Hisako Tojo, Hitomi Sekine, Misato Matsuoka",
+  "diretor": "Tetsuya Yanagisawa, Shigeyuki Suga, Yukihiko Nakao",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 4214
+}

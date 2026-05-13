@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMzA=",
+  "tipo": "serie",
+  "titulo": "WASHINGTON",
+  "capa_url": "https://lgfp.one/JNS",
+  "capa_local": "WASHINGTON/WASHINGTON.jpg",
+  "sinopse": "A história de como um jovem soldado sem pai, cheio de ambição pessoal, se torna um líder de homens dispostos a sacrificar tudo pela causa comum. Como um sujeito britânico outrora leal se levanta para combater um império em uma campanha de liberdade ou morte para criar uma nova nação. E então como, no auge de seu poder, o general vitorioso renuncia voluntariamente, tornando-se o que o rei George III chamaria de \"o maior homem do mundo\".",
+  "genero": "Documentário",
+  "elenco": "Nicholas Rowe, Jeff Daniels, Hainsley Lloyd Bennett, Nia Roberts",
+  "diretor": "Matthew Ginsburg, Roel Reiné",
+  "total_episodios": "85",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:23:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:26:01"
+        }
+      ]
+    }
+  ],
+  "id": 777
+}

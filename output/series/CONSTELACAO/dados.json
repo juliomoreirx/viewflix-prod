@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxOTc=",
+  "tipo": "serie",
+  "titulo": "CONSTELACAO",
+  "capa_url": "https://lgfp.one/BABX",
+  "capa_local": "CONSTELACAO/CONSTELACAO.jpg",
+  "sinopse": "Quando ocorre um acidente fatal a bordo da Estação Espacial Internacional, uma astronauta solitária faz a heróica viagem de volta à Terra, apenas para descobrir que peças-chave da sua vida—incluindo sua filha—mudaram.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Drama",
+  "elenco": "Noomi Rapace, Jonathan Banks, James D'Arcy, Rosie Coleman, Davina Coleman",
+  "diretor": "Michelle MacLaren, Bobby McGee, Zoe Simijonovic",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:52"
+        }
+      ]
+    }
+  ],
+  "id": 5022
+}

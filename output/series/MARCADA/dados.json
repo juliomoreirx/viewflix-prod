@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NTA=",
+  "tipo": "serie",
+  "titulo": "MARCADA",
+  "capa_url": "https://lgfp.one/PON7",
+  "capa_local": "MARCADA/MARCADA.jpg",
+  "sinopse": "Desesperada para pagar a cirurgia que pode salvar a vida da filha, a ex-policial Babalwa pede ajuda a uma pessoa inusitada para organizar um assalto.",
+  "genero": "Drama",
+  "elenco": "Lerato Mvelase, Sphamandla Dhludhlu, S'Dumo Mtshali, Jabulani Mthembu, Jerry Mofokeng",
+  "diretor": "Thabani Gigaba, Katlego Mokoena, Desiree Muli",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:56"
+        }
+      ]
+    }
+  ],
+  "id": 7722
+}

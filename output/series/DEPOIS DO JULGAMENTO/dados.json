@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNDg=",
+  "tipo": "serie",
+  "titulo": "DEPOIS DO JULGAMENTO",
+  "capa_url": "https://lgfp.one/XQA",
+  "capa_local": "DEPOIS DO JULGAMENTO/DEPOIS DO JULGAMENTO.jpg",
+  "sinopse": "À medida que retornam à vida normal, quatro australianos muito diferentes que acabaram de terminar o serviço do júri em um julgamento de assassinato de alto nível começam a questionar seu veredicto e resolver o problema com suas próprias mãos, investigando o assassinato eles mesmos enquanto fazem malabarismos com as pressões e impactos em suas vidas. vidas pessoais.",
+  "genero": "Crime / Drama",
+  "elenco": "Sullivan Stapleton, Michelle Lim Davidson, Lincoln Younes, Tess Haubrich, Magda Szubanski",
+  "diretor": "Ellie Beaumont, Drew Proffitt",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:12"
+        }
+      ]
+    }
+  ],
+  "id": 3172
+}

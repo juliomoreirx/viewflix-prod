@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5MzM=",
+  "tipo": "serie",
+  "titulo": "WATSON [L]",
+  "capa_url": "https://lgfp.one/NCZ6",
+  "capa_local": "WATSON [L]/WATSON [L].jpg",
+  "sinopse": "Um ano após a morte de seu amigo e parceiro Sherlock Holmes nas mãos de Moriarty, o Dr. John Watson retoma sua carreira médica como chefe de uma clínica dedicada ao tratamento de doenças raras. No entanto, ele logo descobre que sua antiga vida ainda não terminou com ele.",
+  "genero": "Drama, Mistério",
+  "elenco": "Morris Chestnut, Eve Harlow, Peter Mark Kendall, Inga Schlingmann, Ritchie Coster",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:19"
+        }
+      ]
+    }
+  ],
+  "id": 6959
+}

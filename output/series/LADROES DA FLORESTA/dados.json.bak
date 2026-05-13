@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNzQ=",
+  "tipo": "serie",
+  "titulo": "LADRÕES DA FLORESTA",
+  "capa_url": "https://lgfp.one/JER",
+  "capa_local": "LADROES DA FLORESTA/LADROES DA FLORESTA.jpg",
+  "sinopse": "O carismático ladrão Jan de Lichte lidera os oprimidos em uma revolta contra a aristocracia corrupta de Flandres no século 18.",
+  "genero": "Drama, Action & Adventure, Mistério",
+  "elenco": "Matteo Simoni, Stef Aerts, Jeroen Perceval, Dirk Roofthooft, Tom van Dyck",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:51:53"
+        }
+      ]
+    }
+  ],
+  "id": 507
+}

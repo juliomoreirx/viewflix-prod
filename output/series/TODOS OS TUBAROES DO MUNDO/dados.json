@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4ODc=",
+  "tipo": "serie",
+  "titulo": "TODOS OS TUBARÕES DO MUNDO",
+  "capa_url": "https://lgfp.one/PDZ0",
+  "capa_local": "TODOS OS TUBAROES DO MUNDO/TODOS OS TUBAROES DO MUNDO.jpg",
+  "sinopse": "Neste reality imperdível, quatro equipes de entusiastas e especialistas em tubarões viajam pelo mundo para encontrar as espécies mais esquivas.",
+  "genero": "Documentário",
+  "elenco": "Tom Hird",
+  "diretor": "Kevin Bartel",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:03"
+        }
+      ]
+    }
+  ],
+  "id": 7533
+}

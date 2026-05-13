@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MTg=",
+  "tipo": "serie",
+  "titulo": "JAMES MAY NOSSO HOMEM NO JAPAO",
+  "capa_url": "https://lgfp.one/AYFX",
+  "capa_local": "JAMES MAY NOSSO HOMEM NO JAPAO/JAMES MAY NOSSO HOMEM NO JAPAO.jpg",
+  "sinopse": "James May está em uma missão italiana: explorar a história, a cultura, a paisagem, a indústria e as pessoas. Será que um britânico desajeitado de meia-idade pode descobrir os segredos de 'la dolce vita'?",
+  "genero": "Documentário",
+  "elenco": "James May",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:59"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:51:12"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:52:36"
+        }
+      ]
+    }
+  ],
+  "id": 4789
+}

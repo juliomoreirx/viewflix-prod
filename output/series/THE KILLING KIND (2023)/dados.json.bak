@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NDk=",
+  "tipo": "serie",
+  "titulo": "THE KILLING KIND (2023)",
+  "capa_url": "https://lgfp.one/SVI4",
+  "capa_local": "THE KILLING KIND (2023)/THE KILLING KIND (2023).jpg",
+  "sinopse": "Depois que sua amiga é morta, a advogada Ingrid Lewis suspeita que era o alvo, e um ex-cliente diz que só ele pode protegê-la.",
+  "genero": "Drama, Crime",
+  "elenco": "Emma Appleton, Colin Morgan, Elliot Barnes-Worrell, Olivia D'Lima, Nicholas Rowe",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:07"
+        }
+      ]
+    }
+  ],
+  "id": 9421
+}

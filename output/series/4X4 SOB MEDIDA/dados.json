@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NjU=",
+  "tipo": "serie",
+  "titulo": "4X4 SOB MEDIDA",
+  "capa_url": "https://lgfp.one/YBK",
+  "capa_local": "4X4 SOB MEDIDA/4X4 SOB MEDIDA.jpg",
+  "sinopse": "Nesta série, Ian Johnson mostra como executar todo tipo de projeto em veículos 4x4, seja modernizando um jipe de uso urbano ou construindo um chassi customizado para um rock crawler.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:19"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:22:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:22:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:22:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:22:10"
+        }
+      ]
+    }
+  ],
+  "id": 1342
+}

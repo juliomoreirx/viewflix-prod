@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxODI=",
+  "tipo": "serie",
+  "titulo": "SENNA POR AYRTON",
+  "capa_url": "https://lgfp.one/AVQ5",
+  "capa_local": "SENNA POR AYRTON/SENNA POR AYRTON.jpg",
+  "sinopse": "Ayrton Senna conta sua própria história. O início da carreira, o auge na F1, as rivalidades, o tri mundial e a consagração como o maior ídolo de uma geração de brasileiros.",
+  "genero": "Documentário",
+  "elenco": "Ayrton Senna, Alain Prost, Nelson Piquet, Michael Schumacher, Xuxa",
+  "diretor": "Rafael Pirrho, Rafael Timóteo, Rafael Timóteo",
+  "total_episodios": "180",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:56"
+        }
+      ]
+    }
+  ],
+  "id": 5340
+}

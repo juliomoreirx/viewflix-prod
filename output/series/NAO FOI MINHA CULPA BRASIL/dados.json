@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMjM=",
+  "tipo": "serie",
+  "titulo": "NÃO FOI MINHA CULPA: BRASIL",
+  "capa_url": "https://lgfp.one/TOK",
+  "capa_local": "NAO FOI MINHA CULPA BRASIL/NAO FOI MINHA CULPA BRASIL.jpg",
+  "sinopse": "Em meio a lantejoulas e a violência, o carnaval é o ponto em comum e o elo temporal de dez protagonistas com histórias inspiradas em fatos reais. Com liberdade cronológica para o passado e o futuro, as histórias mostram as contradições de um povo, enquanto revelam sentimentos e conflitos universais, explorando as contradições culturais do país do carnaval.",
+  "genero": "Drama",
+  "elenco": "Bianca Comparato, Lorena Comparato, Aline Dias, Vinícius de Oliveira, Fernanda Nobre, Karol Lanes, Ana Paula Secco, Gabrielle Joie",
+  "diretor": "Susanna Lira",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 2781
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NzA=",
+  "tipo": "serie",
+  "titulo": "DELIRIO",
+  "capa_url": "https://lgfp.one/PJI9",
+  "capa_local": "DELIRIO/DELIRIO.jpg",
+  "sinopse": "Quando a esposa Agustina começa a delirar, um professor investiga seu passado obscuro para juntar as peças e descobrir a causa da loucura.",
+  "genero": "Drama",
+  "elenco": "Estefania Piñeres, Juan Pablo Raba, Juan Pablo Urrego, Paola Turbay, José Julián Gaviria",
+  "diretor": "Julio Jorquera Arriagada, Rafael Martínez Moreno",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:16"
+        }
+      ]
+    }
+  ],
+  "id": 7658
+}

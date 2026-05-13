@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3Nzc=",
+  "tipo": "serie",
+  "titulo": "PARAQUEDISTAS AO RESGATE [L]",
+  "capa_url": "https://lgfp.one/PIP0",
+  "capa_local": "PARAQUEDISTAS AO RESGATE [L]/PARAQUEDISTAS AO RESGATE [L].jpg",
+  "sinopse": "O experiente instrutor Seiji Usami comanda uma equipe de elite pronta para encarar missões arriscadas em cenários extremos, onde ninguém mais teria coragem de estar.",
+  "genero": "Drama",
+  "elenco": "内野聖陽, 神尾楓珠, 石井杏奈, 前田拳太郎, 渡辺碧斗",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:28"
+        }
+      ]
+    }
+  ],
+  "id": 7310
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMTE=",
+  "tipo": "serie",
+  "titulo": "PLANETA VIVO",
+  "capa_url": "https://lgfp.one/ATG7",
+  "capa_local": "PLANETA VIVO/PLANETA VIVO.jpg",
+  "sinopse": "Esta série incrível sobre a natureza analisa a inteligência, a criatividade e a interconexão da vida no nosso planeta. Com narração de Cate Blanchett na versão em inglês.",
+  "genero": "Documentário",
+  "elenco": "Cate Blanchett",
+  "diretor": "Mohammed Imran, Lea Hejn, Lisa Eder",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:46"
+        }
+      ]
+    }
+  ],
+  "id": 5269
+}

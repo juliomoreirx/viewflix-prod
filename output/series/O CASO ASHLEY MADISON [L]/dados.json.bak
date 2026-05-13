@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NzI=",
+  "tipo": "serie",
+  "titulo": "O CASO ASHLEY MADISON [L]",
+  "capa_url": "https://lgfp.one/AAQA",
+  "capa_local": "O CASO ASHLEY MADISON [L]/O CASO ASHLEY MADISON [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Shaun Trevisick, Carla Francome, Johanna Hamilton",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:11"
+        }
+      ]
+    }
+  ],
+  "id": 3760
+}

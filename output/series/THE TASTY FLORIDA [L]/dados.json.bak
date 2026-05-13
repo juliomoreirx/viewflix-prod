@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNDA=",
+  "tipo": "serie",
+  "titulo": "THE TASTY FLORIDA [L]",
+  "capa_url": "https://lgfp.one/AUS4",
+  "capa_local": "THE TASTY FLORIDA [L]/THE TASTY FLORIDA [L].jpg",
+  "sinopse": "Tendo acabado de se mudar, o calouro da faculdade Seo Hae Won não tem certeza do que pensar da pousada que agora chama de lar. Com o Florida Banjeom, um restaurante chinês popular, confortavelmente instalado no telhado, pessoas de todos os lugares estão sempre entrando e saindo do prédio.\n\nMas não é o fluxo constante de pessoas que preocupa Hae Won; é o fato de que o dono do restaurante e chefe de cozinha, Baek Eun Kyu, parecer ter um problema sério com ele. Tendo sido recomendado para um emprego de meio período no restaurante por Cha Ji Soo, outro proprietário do restaurante, Hae Won achou que se encaixaria facilmente com a equipe, mas por alguma razão Eun Kyu parece não gostar dele instantaneamente.",
+  "genero": "Drama",
+  "elenco": "Cha Woo-min, Yoo Hwan, Moon Kang-hyuk, Choi Jae-hoon, Yoo Seung-jun",
+  "diretor": "Yang Kyeong-hui",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:11:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:12:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:12:48"
+        }
+      ]
+    }
+  ],
+  "id": 5309
+}

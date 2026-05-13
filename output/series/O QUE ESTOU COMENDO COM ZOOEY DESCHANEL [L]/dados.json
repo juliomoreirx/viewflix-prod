@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMzQ=",
+  "tipo": "serie",
+  "titulo": "O QUE ESTOU COMENDO COM ZOOEY DESCHANEL [L]",
+  "capa_url": "https://lgfp.one/AWNI",
+  "capa_local": "O QUE ESTOU COMENDO COM ZOOEY DESCHANEL [L]/O QUE ESTOU COMENDO COM ZOOEY DESCHANEL [L].jpg",
+  "sinopse": "Zooey Deschanel se propõe a resolver os dilemas alimentares cotidianos fazendo as perguntas difíceis que todos nós temos sobre o que comemos.",
+  "genero": "Família, Reality",
+  "elenco": "Zooey Deschanel",
+  "diretor": "Tracy Wares, Taye Shuayb",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:20"
+        }
+      ]
+    }
+  ],
+  "id": 5084
+}

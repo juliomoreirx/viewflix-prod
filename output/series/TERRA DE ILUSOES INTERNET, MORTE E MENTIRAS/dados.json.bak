@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NDM=",
+  "tipo": "serie",
+  "titulo": "TERRA DE ILUSÕES: INTERNET, MORTE E MENTIRAS",
+  "capa_url": "https://lgfp.one/TJI",
+  "capa_local": "TERRA DE ILUSOES INTERNET, MORTE E MENTIRAS/TERRA DE ILUSOES INTERNET, MORTE E MENTIRAS.jpg",
+  "sinopse": "Conspiração, fraude, violência, morte... O que começa no mundo virtual pode se tornar realidade. E quando a rede é mundial, as consequências também são.",
+  "genero": "Documentário, Crime",
+  "elenco": "Paul Black, Donald Trump, Alex Jones",
+  "diretor": "Ron Howard",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:15"
+        }
+      ]
+    }
+  ],
+  "id": 2639
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNzk=",
+  "tipo": "serie",
+  "titulo": "O CASO CELSO DANIEL",
+  "capa_url": "https://lgfp.one/SWX",
+  "capa_local": "O CASO CELSO DANIEL/O CASO CELSO DANIEL.jpg",
+  "sinopse": "Em janeiro de 2002, num domingo, o corpo de Celso Daniel é encontrado em um terreno baldio de Itapecerica da Serra. Sete tiros, um na boca. Celso era prefeito de Santo André, e um dos principais nomes do PT em franca ascensão. Vinte anos depois do brutal assassinato, finalmente o Brasil vai saber de todas as hipóteses do crime - e as conclusões da polícia, do Ministério Público e da própria família. Celso Daniel vai finalmente descansar em paz.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Marcos Jorge, Marcos Jorge",
+  "total_episodios": "413",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:03"
+        }
+      ]
+    }
+  ],
+  "id": 2308
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NDI=",
+  "tipo": "serie",
+  "titulo": "DIZ-ME QUEM SOU",
+  "capa_url": "https://lgfp.one/RJZ",
+  "capa_local": "DIZ-ME QUEM SOU/DIZ-ME QUEM SOU.jpg",
+  "sinopse": "Baseada no romance de Julia Navarro, a história de Amelia Garayoa, uma misteriosa mulher envolvida nos mais relevantes eventos do século XX.",
+  "genero": "Drama",
+  "elenco": "Irene Escolar, Oriol Pla, Pierre Kiwitt, Maria Pia Calzone, Pablo Derqui",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:14"
+        }
+      ]
+    }
+  ],
+  "id": 1081
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NDg=",
+  "tipo": "serie",
+  "titulo": "EMERGÊNCIA: NOVA YORK",
+  "capa_url": "https://lgfp.one/ZCI",
+  "capa_local": "EMERGENCIA NOVA YORK/EMERGENCIA NOVA YORK.jpg",
+  "sinopse": "Esta série documental acompanha profissionais de saúde na luta constante para equilibrar a pressão do trabalho com as exigências da vida pessoal em Nova York.",
+  "genero": "Documentário",
+  "elenco": "David Langer, John Boockvar, Vicky Ulloa",
+  "diretor": "Adi Barash, Ruthie Shatz, Adi Barash",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:46"
+        }
+      ]
+    }
+  ],
+  "id": 3388
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMDQ=",
+  "tipo": "serie",
+  "titulo": "ALL IN THE FAMILY",
+  "capa_url": "https://lgfp.one/JEN",
+  "capa_local": "ALL IN THE FAMILY/ALL IN THE FAMILY.jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "Carroll O'Connor, Jean Stapleton, Danielle Brisebois",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:57"
+        }
+      ]
+    }
+  ],
+  "id": 503
+}

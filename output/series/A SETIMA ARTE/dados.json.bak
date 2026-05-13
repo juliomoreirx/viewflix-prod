@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMTQ=",
+  "tipo": "serie",
+  "titulo": "A SÉTIMA ARTE",
+  "capa_url": "https://lgfp.one/VXV",
+  "capa_local": "A SETIMA ARTE/A SETIMA ARTE.jpg",
+  "sinopse": "O último século restabeleceu a relação do homem com a arte. O cinema surgiu como a mais presente e disseminada forma de entreter, inspirar e educar informalmente as pessoas.  Com o aumento do consumo de filmes e séries, será que estamos cientes do impacto da Sétima Arte em nossas vidas?",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:18:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:41"
+        }
+      ]
+    }
+  ],
+  "id": 2984
+}

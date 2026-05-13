@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNjM=",
+  "tipo": "serie",
+  "titulo": "GAROTAS EM CHAMAS",
+  "capa_url": "https://lgfp.one/ARCN",
+  "capa_local": "GAROTAS EM CHAMAS/GAROTAS EM CHAMAS.jpg",
+  "sinopse": "A reverenda Jack Brooks e sua filha, Flo, se mudam para Chapel Croft, uma vila onde duas garotas adolescentes despareceram e as \"garotas em chamas\", fantasmas de duas crianças, assombram a capela.",
+  "genero": "Mistério, Drama",
+  "elenco": "Samantha Morton, Ruby Stokes, Conrad Khan, David Dawson, Paul Bradley",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:02"
+        }
+      ]
+    }
+  ],
+  "id": 4247
+}

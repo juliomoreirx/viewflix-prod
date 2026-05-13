@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NzI=",
+  "tipo": "serie",
+  "titulo": "SMOTHER",
+  "capa_url": "https://lgfp.one/SME",
+  "capa_local": "SMOTHER/SMOTHER.jpg",
+  "sinopse": "Na costa acidentada do condado de Clare, o marido de Val Ahern é encontrado morto ao pé de um penhasco na manhã seguinte a uma festa de família. A matriarca começa a investigar os segredos da família para descobrir quem pode ser o responsável.",
+  "genero": "Crime / Drama",
+  "elenco": "Dervla Kirwan, Niamh Walsh, Seána Kerslake, Gemma-Leah Devereux, Stuart Graham, Thomas Levin, Carrie Crowley, Lochlann O'Mearáin",
+  "diretor": "Dathaí Keane",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:57"
+        }
+      ]
+    }
+  ],
+  "id": 2011
+}

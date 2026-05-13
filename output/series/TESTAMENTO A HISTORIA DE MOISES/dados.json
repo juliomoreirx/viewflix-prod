@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMjY=",
+  "tipo": "serie",
+  "titulo": "TESTAMENTO A HISTORIA DE MOISES",
+  "capa_url": "https://lgfp.one/AQP9",
+  "capa_local": "TESTAMENTO A HISTORIA DE MOISES/TESTAMENTO A HISTORIA DE MOISES.jpg",
+  "sinopse": "Esta série documental conta como foi a incrível vida de Moisés como príncipe, profeta e muito mais, com perspectivas de teólogos e historiadores.",
+  "genero": "Documentário, Drama, Sci-Fi & Fantasy",
+  "elenco": "Charles Dance, Clarke Peters, Avi Azulay, Dominique Tipper, Mehmet Kurtuluş",
+  "diretor": "Benjamin Ross",
+  "total_episodios": "85",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:21:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:26:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:32"
+        }
+      ]
+    }
+  ],
+  "id": 5202
+}

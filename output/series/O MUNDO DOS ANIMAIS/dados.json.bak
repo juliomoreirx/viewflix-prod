@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NTc=",
+  "tipo": "serie",
+  "titulo": "O MUNDO DOS ANIMAIS",
+  "capa_url": "https://lgfp.one/SDU",
+  "capa_local": "O MUNDO DOS ANIMAIS/O MUNDO DOS ANIMAIS.jpg",
+  "sinopse": "A aventura íntima e extraordinária de bebês animais, da segurança do útero às incertezas do nascimento e as tentativas de seus primeiros passos. Cada episódio mostra a incrível transformação de um animal icônico diferente, pleno de maravilhas e emoções.",
+  "genero": "Documentário",
+  "elenco": "Tracee Ellis Ross",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:26"
+        }
+      ]
+    }
+  ],
+  "id": 1787
+}

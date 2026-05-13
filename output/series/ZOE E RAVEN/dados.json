@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNjY=",
+  "tipo": "serie",
+  "titulo": "ZOE E RAVEN",
+  "capa_url": "https://lgfp.one/CRE4",
+  "capa_local": "ZOE E RAVEN/ZOE E RAVEN.jpg",
+  "sinopse": "Uma jovem de 15 anos passa as férias de verão em uma ilha da Inglaterra, onde desenvolve uma relação especial com um cavalo misterioso.",
+  "genero": "Família, Kids, Drama",
+  "elenco": "Jaylen Barron, Celine Buckens, Freddy Carter, Manpreet Bambra, Carla Woodcock",
+  "diretor": "",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:34:05"
+        }
+      ]
+    }
+  ],
+  "id": 5642
+}

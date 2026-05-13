@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5OTk=",
+  "tipo": "serie",
+  "titulo": "WHISKEY ON THE ROCKS [L]",
+  "capa_url": "https://lgfp.one/LLY2",
+  "capa_local": "WHISKEY ON THE ROCKS [L]/WHISKEY ON THE ROCKS [L].jpg",
+  "sinopse": "\"Whiskey on the Rocks\" é uma abordagem divertida do que realmente aconteceu durante os dias dramáticos na virada do mês entre outubro e novembro de 1981, quando o submarino soviético U-137 encalhou no arquipélago de Karlskrona. Nunca antes o mundo esteve tão perto de um conflito global em grande escala e toda a responsabilidade recai sobre os ombros de um homem, o primeiro-ministro sueco Thorbjörn Fälldin.",
+  "genero": "Drama, Comédia, War & Politics",
+  "elenco": "Rolf Lassgård, Anders Mossling, Niklas Engdahl, Kęstutis Jakštas, Mark Noble",
+  "diretor": "Nanna Mailand-Mercado",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:15"
+        }
+      ]
+    }
+  ],
+  "id": 6776
+}

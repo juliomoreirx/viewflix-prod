@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NTU=",
+  "tipo": "serie",
+  "titulo": "ARQUIVO 81",
+  "capa_url": "https://lgfp.one/SUH",
+  "capa_local": "ARQUIVO 81/ARQUIVO 81.jpg",
+  "sinopse": "Contratado para restaurar uma coleção de fitas de vídeo, um homem reconstrói o trabalho de uma documentarista que investiga uma seita perigosa.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Mamoudou Athie, Dina Shihabi, Evan Jonigkeit, Martin Donovan, Matt McGorry",
+  "diretor": "James Wan, Rebecca Thomas",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:58"
+        }
+      ]
+    }
+  ],
+  "id": 2236
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4Nzc=",
+  "tipo": "serie",
+  "titulo": "AS MIL MORTES DE NORA DALMASSO",
+  "capa_url": "https://lgfp.one/PHC2",
+  "capa_local": "AS MIL MORTES DE NORA DALMASSO/AS MIL MORTES DE NORA DALMASSO.jpg",
+  "sinopse": "Quem matou Nora Dalmasso? Nesta série emocionante sobre um crime real, a família e jornalistas revelam a história de seu assassinato e a repercussão na mídia.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Tom Keeling, Jamie Crawford, Mariano Martinez Moreno",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:15"
+        }
+      ]
+    }
+  ],
+  "id": 7628
+}

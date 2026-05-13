@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTU=",
+  "tipo": "serie",
+  "titulo": "OS LOBOS DA ILHA DE VANCOUVER",
+  "capa_url": "https://lgfp.one/VRT",
+  "capa_local": "OS LOBOS DA ILHA DE VANCOUVER/OS LOBOS DA ILHA DE VANCOUVER.jpg",
+  "sinopse": "Conheça a fascinante vida selvagem da Ilha de Vancouver, onde águias mergulham em busca de peixes e lobos se aventuram nas águas geladas do oceano.",
+  "genero": "Documentário",
+  "elenco": "Will Arnett",
+  "diretor": "Jeff Turner",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:13"
+        }
+      ]
+    }
+  ],
+  "id": 2946
+}

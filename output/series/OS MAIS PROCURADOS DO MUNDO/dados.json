@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMDg=",
+  "tipo": "serie",
+  "titulo": "OS MAIS PROCURADOS DO MUNDO",
+  "capa_url": "https://lgfp.one/JOO",
+  "capa_local": "OS MAIS PROCURADOS DO MUNDO/OS MAIS PROCURADOS DO MUNDO.jpg",
+  "sinopse": "Criminosos hediondos evitaram a captura, apesar das recompensas massivas e das investigações globais. Essa documentação perfila alguns dos mais procurados do mundo.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jennifer Julian, David Lorino, Pierre Richard Prosper, Thomas Fuentes, Jonathan Winer",
+  "diretor": "Martin Boudot, Cyprien Dhaese, Caroline Du Saint, Paul Moreira, Hugo Van Offel, Thomas Zribi",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:16"
+        }
+      ]
+    }
+  ],
+  "id": 800
+}

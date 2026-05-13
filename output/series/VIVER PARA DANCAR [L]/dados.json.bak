@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMzI=",
+  "tipo": "serie",
+  "titulo": "VIVER PARA DANCAR [L]",
+  "capa_url": "https://lgfp.one/DJT5",
+  "capa_local": "VIVER PARA DANCAR [L]/VIVER PARA DANCAR [L].jpg",
+  "sinopse": "Esta série acompanha a trajetória dos alunos mais talentosos da principal academia de dança da Austrália. Na busca incansável para se tornarem dançarinos profissionais, os riscos são altos, e nem todos realizarão seus sonhos.",
+  "genero": "Documentário",
+  "elenco": "Cassie Bartho, Lucas Newland, Tiana Vassallo, Arabella Meleo, Conor Bann-Murray",
+  "diretor": "Luke Cornish, Luke Cornish",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:30"
+        }
+      ]
+    }
+  ],
+  "id": 5895
+}

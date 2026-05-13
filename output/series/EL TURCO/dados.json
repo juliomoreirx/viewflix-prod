@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI1ODM=",
+  "tipo": "serie",
+  "titulo": "EL TURCO",
+  "capa_url": "https://lgfp.one/NJX8",
+  "capa_local": "EL TURCO/EL TURCO.jpg",
+  "sinopse": "No século XVI, o soldado Balaban e a misteriosa Glória vivem um romance enquanto lutam pelos direitos do povoado de Moena na batalha épica contra os italianos do palácio de Trento.",
+  "genero": "Action & Adventure, Drama",
+  "elenco": "Can Yaman, Greta Ferro, Magnus Samuelsson, Will Kemp, David Nykl",
+  "diretor": "Uluç Bayraktar",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:28"
+        }
+      ]
+    }
+  ],
+  "id": 7070
+}

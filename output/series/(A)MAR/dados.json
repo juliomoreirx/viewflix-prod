@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4Mjk=",
+  "tipo": "serie",
+  "titulo": "(A)MAR",
+  "capa_url": "https://lgfp.one/AAOS",
+  "capa_local": "(A)MAR/(A)MAR.jpg",
+  "sinopse": "Os amigos marinhos Bruda, Bobbi, Wayu e Puri partem em miniaventuras pelo oceano e trazem uma dose de mágica ao dia a dia!",
+  "genero": "Comédia, Kids, Animação",
+  "elenco": "Guy William Burnett, Anchasa Bhurichayawarodom, Tarakorn Visessintop",
+  "diretor": "",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:10:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:10:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:10:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:11:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:10:51"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:10:57"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:10:42"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:10:49"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:11:09"
+        }
+      ]
+    }
+  ],
+  "id": 3726
+}

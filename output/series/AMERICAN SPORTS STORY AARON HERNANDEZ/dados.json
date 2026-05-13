@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5Njc=",
+  "tipo": "serie",
+  "titulo": "AMERICAN SPORTS STORY: AARON HERNANDEZ",
+  "capa_url": "https://lgfp.one/SUS5",
+  "capa_local": "AMERICAN SPORTS STORY AARON HERNANDEZ/AMERICAN SPORTS STORY AARON HERNANDEZ.jpg",
+  "sinopse": "Uma série antológica roteirizada que foca casos famosos envolvendo grandes nomes do esporte e os reexamina pela perspectiva do mundo atual, contando as histórias por diferentes pontos de vista.",
+  "genero": "Drama",
+  "elenco": "Josh Rivera, Jaylen Barron, Lindsay Mendez, Ean Castellanos, Tammy Blanchard",
+  "diretor": "Scott Robertson, Carl Franklin, Eric Reitz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 9415
+}

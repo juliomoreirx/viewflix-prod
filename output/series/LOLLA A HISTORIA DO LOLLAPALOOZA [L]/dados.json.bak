@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMTI=",
+  "tipo": "serie",
+  "titulo": "LOLLA A HISTORIA DO LOLLAPALOOZA [L]",
+  "capa_url": "https://lgfp.one/BDU4",
+  "capa_local": "LOLLA A HISTORIA DO LOLLAPALOOZA [L]/LOLLA A HISTORIA DO LOLLAPALOOZA [L].jpg",
+  "sinopse": "No verão de 1991, o festival Lollapalooza nasceu. O que começou como uma turnê de despedida da banda Jane's Addiction saiu do meio alternativo para mudar a música para sempre.",
+  "genero": "Documentário",
+  "elenco": "Perry Farrell, Ice-T, Tom Morello, Matt Pinfield, Donita Sparks",
+  "diretor": "Michael John Warren, James Lee Hernandez, Michael John Warren",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:38"
+        }
+      ]
+    }
+  ],
+  "id": 5521
+}

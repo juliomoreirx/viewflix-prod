@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMTM=",
+  "tipo": "serie",
+  "titulo": "UNIDENTIFIED WITH DEMI LOVATO [L]",
+  "capa_url": "https://lgfp.one/AXAX",
+  "capa_local": "UNIDENTIFIED WITH DEMI LOVATO [L]/UNIDENTIFIED WITH DEMI LOVATO [L].jpg",
+  "sinopse": "",
+  "genero": "Reality",
+  "elenco": "Demi Lovato, Dallas Lovato, Matthew Scott Montgomery",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:31"
+        }
+      ]
+    }
+  ],
+  "id": 4729
+}

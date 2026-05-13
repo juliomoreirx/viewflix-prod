@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MTY=",
+  "tipo": "serie",
+  "titulo": "ANGEL FLIGHT OPERACAO TRANSLADO (2023) [L]",
+  "capa_url": "https://lgfp.one/SGP9",
+  "capa_local": "ANGEL FLIGHT OPERACAO TRANSLADO (2023) [L]/ANGEL FLIGHT OPERACAO TRANSLADO (2023) [L].jpg",
+  "sinopse": "Uma história sobre especialistas que transportam os falecidos de volta para casa. A empresa Angel Hearse é administrada por Nami Izawa e Kashiwagi. Um drama que retrata o amor entre o falecido e seus familiares.",
+  "genero": "Drama",
+  "elenco": "米倉涼子, 遠藤憲一, 松本穂香, 城田優, 矢本悠馬",
+  "diretor": "Kentarō Horikirizono",
+  "total_episodios": "102",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:33"
+        }
+      ]
+    }
+  ],
+  "id": 9135
+}

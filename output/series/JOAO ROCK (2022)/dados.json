@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzQ=",
+  "tipo": "serie",
+  "titulo": "JOAO ROCK (2022)",
+  "capa_url": "https://lgfp.one/JZP8",
+  "capa_local": "JOAO ROCK (2022)/JOAO ROCK (2022).jpg",
+  "sinopse": "Shows do João Rock 2022 nos canais Multishow e BIS, no dia 11 de junho, diretamente de Ribeirão Preto/SP.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:19:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:10:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:09"
+        }
+      ]
+    }
+  ],
+  "id": 2652
+}

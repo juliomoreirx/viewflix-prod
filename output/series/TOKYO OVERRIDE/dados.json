@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNjg=",
+  "tipo": "serie",
+  "titulo": "TOKYO OVERRIDE",
+  "capa_url": "https://lgfp.one/EJK4",
+  "capa_local": "TOKYO OVERRIDE/TOKYO OVERRIDE.jpg",
+  "sinopse": "Quando uma hacker solitária se envolve com um grupo de entregadores rebeldes, eles descobrem uma verdade sombria que se esconde atrás de uma Tóquio perfeita demais.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Fairouz Ai, Ryota Takeuchi, Mariya Ise, Hochu Otsuka, Yuhko Kaida",
+  "diretor": "Yuske Fukada, Veerapatra Jinanavin",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:48"
+        }
+      ]
+    }
+  ],
+  "id": 6273
+}

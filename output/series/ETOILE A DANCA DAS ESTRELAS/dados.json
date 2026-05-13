@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MTI=",
+  "tipo": "serie",
+  "titulo": "ETOILE A DANCA DAS ESTRELAS",
+  "capa_url": "https://lgfp.one/NRF0",
+  "capa_local": "ETOILE A DANCA DAS ESTRELAS/ETOILE A DANCA DAS ESTRELAS.jpg",
+  "sinopse": "Em uma jogada ambiciosa para salvar suas instituições históricas, duas companhias de balé de renome mundial em Nova York e Paris trocam suas estrelas mais talentosas. Dos produtores executivos de Maravilhosa Sra. Maisel, chega uma nova e ousada série celebrando a beleza, o humor e a imprevisibilidade de uma vida dedicada às artes, no palco e fora dele.",
+  "genero": "Comédia, Drama",
+  "elenco": "Luke Kirby, Charlotte Gainsbourg, Gideon Glick, Simon Callow, Lou de Laâge",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:15:48"
+        }
+      ]
+    }
+  ],
+  "id": 7224
+}

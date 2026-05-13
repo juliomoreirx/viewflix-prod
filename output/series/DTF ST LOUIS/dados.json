@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NTU=",
+  "tipo": "serie",
+  "titulo": "DTF ST LOUIS",
+  "capa_url": "https://lgfp.one/SAK0",
+  "capa_local": "DTF ST LOUIS/DTF ST LOUIS.jpg",
+  "sinopse": "David Harbour e Jason Bateman estrelam esta minissérie de humor ácido, em que dois amigos em plena crise de meia-idade se envolvem em um inesperado triângulo amoroso que termina com a morte de um deles.",
+  "genero": "Crime, Drama",
+  "elenco": "David Harbour, Jason Bateman, Linda Cardellini, Richard Jenkins, Chris Perfetti",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:52"
+        }
+      ]
+    }
+  ],
+  "id": 8989
+}

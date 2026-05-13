@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2NjE=",
+  "tipo": "serie",
+  "titulo": "EVA A CORUJA",
+  "capa_url": "https://lgfp.one/NKJ8",
+  "capa_local": "EVA A CORUJA/EVA A CORUJA.jpg",
+  "sinopse": "Junte-se a esta diversão com penas enquanto Eva busca aventuras em sua comunidade nas copas das árvores. A cada noite, ela aprende lições, reflete através da escrita, e dá uma ajudinha sempre que pode.",
+  "genero": "Kids, Animação, Família",
+  "elenco": "Vivienne Rutherford, Dino Andrade, Jessica DiCicco",
+  "diretor": "Damien O'Connor, Darragh O'Connell",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:30"
+        }
+      ]
+    }
+  ],
+  "id": 7073
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNzM=",
+  "tipo": "serie",
+  "titulo": "LA GARÇONNE: DUPLA IDENTIDADE",
+  "capa_url": "https://lgfp.one/TBH",
+  "capa_local": "LA GARCONNE DUPLA IDENTIDADE/LA GARCONNE DUPLA IDENTIDADE.jpg",
+  "sinopse": "Nos anos de 1920, em Paris, Louise é acusada por um crime que não cometeu. Para provar sua inocência, ela se disfarça como um homem para trabalhar como detetive na polícia.",
+  "genero": "Drama, Crime",
+  "elenco": "Laura Smet, Grégory Fitoussi, Clément Aubert, Noémie Kocher, Jérôme Deschamps",
+  "diretor": "Paolo Barzman",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:38"
+        }
+      ]
+    }
+  ],
+  "id": 2422
+}

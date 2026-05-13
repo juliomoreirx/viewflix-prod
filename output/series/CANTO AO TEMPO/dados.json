@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMDI=",
+  "tipo": "serie",
+  "titulo": "CANTO AO TEMPO",
+  "capa_url": "https://lgfp.one/YNC",
+  "capa_local": "CANTO AO TEMPO/CANTO AO TEMPO.jpg",
+  "sinopse": "Cinco artistas baianas revisitam suas carreiras e dão depoimentos sobre suas trajetórias. Juntas elas vão estar em cena nesta série para fazer um Canto ao Tempo.",
+  "genero": "Documentário / Talk",
+  "elenco": "Margareth Menezes, Daniela Mercury, Majur, Larissa Luz, Ivete Sangalo",
+  "diretor": "Letícia Muhana, Caio Barreto Da Silva Cou",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:22"
+        }
+      ]
+    }
+  ],
+  "id": 3288
+}

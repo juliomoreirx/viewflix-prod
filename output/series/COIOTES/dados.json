@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NzA=",
+  "tipo": "serie",
+  "titulo": "COIOTES",
+  "capa_url": "https://lgfp.one/SQM",
+  "capa_local": "COIOTES/COIOTES.jpg",
+  "sinopse": "Uma patrulha de reconhecimento se depara com diamantes durante um acampamento. Dividido entre devolvê-los, compartilhá-los ou mantê-los, cada membro questiona sua própria moralidade. Enquanto isso, há um perigo para as vespas: aqueles que as perderam estão dispostos a fazer qualquer coisa para encontrá-las.",
+  "genero": "Drama",
+  "elenco": "Kassim Meesters, Léo Hainaut, Isabelle Defossé, Anas El Marcouchi, Tessa Balzano",
+  "diretor": "Jacques Molitor, Gary Seghers",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:02"
+        }
+      ]
+    }
+  ],
+  "id": 2130
+}

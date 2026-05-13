@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwOTA=",
+  "tipo": "serie",
+  "titulo": "WOLF PACK",
+  "capa_url": "https://lgfp.one/YAM",
+  "capa_local": "WOLF PACK/WOLF PACK.jpg",
+  "sinopse": "Quatro vidas de adolescentes são mudadas para sempre quando um incêndio na Califórnia desperta um lobismo terrível e um vínculo entre eles.",
+  "genero": "Sci-Fi & Fantasy / Drama",
+  "elenco": "Armani Jackson, Bella Shepard, Tyler Lawrence Gray, Chloe Rose Robertson, Sarah Michelle Gellar, Rodrigo Santoro",
+  "diretor": "Jeff Davis",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:32"
+        }
+      ]
+    }
+  ],
+  "id": 3242
+}

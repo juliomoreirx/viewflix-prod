@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MDU=",
+  "tipo": "serie",
+  "titulo": "SYNANON REABILITACAO E CULTO [L]",
+  "capa_url": "https://lgfp.one/OTN8",
+  "capa_local": "SYNANON REABILITACAO E CULTO [L]/SYNANON REABILITACAO E CULTO [L].jpg",
+  "sinopse": "Docusérie da HBO que explora a ascensão e a queda da organização Synanon, que transformou um programa de reabilitação inovador em um culto.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Rory Kennedy, Keven McAlester, Rory Kennedy",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:00"
+        }
+      ]
+    }
+  ],
+  "id": 7466
+}

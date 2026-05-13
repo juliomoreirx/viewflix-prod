@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNDE=",
+  "tipo": "serie",
+  "titulo": "MARY E GEORGE",
+  "capa_url": "https://lgfp.one/DLM3",
+  "capa_local": "MARY E GEORGE/MARY E GEORGE.jpg",
+  "sinopse": "A história sobre Mary Villiers, condessa de Buckingham, que na Inglaterra do século XVII moldou seu lindo filho, George, para seduzir o rei Jaime I e se tornar seu amante todo-poderoso. Através de intrigas ultrajantes, a dupla passou de origens humildes para se tornar uma das mães e filhos mais ricos, mais nobres e influentes que a Inglaterra já viu.",
+  "genero": "Drama",
+  "elenco": "Julianne Moore, Nicholas Galitzine, Tony Curran, Mark O'Halloran, Niamh Algar",
+  "diretor": "Oliver Hermanus",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:08"
+        }
+      ]
+    }
+  ],
+  "id": 5937
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NzU=",
+  "tipo": "serie",
+  "titulo": "O BLEFE DE 1 MILHÃO!",
+  "capa_url": "https://lgfp.one/TEZ",
+  "capa_local": "O BLEFE DE 1 MILHAO!/O BLEFE DE 1 MILHAO!.jpg",
+  "sinopse": "Os participantes precisam responder perguntas difíceis de um jeito ou de outro, mesmo que tenham que mentir descaradamente.",
+  "genero": "Reality",
+  "elenco": "Howie Mandel, Ashley Johnson, Alison Betts",
+  "diretor": "Alan Carter",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:32:06"
+        }
+      ]
+    }
+  ],
+  "id": 2522
+}

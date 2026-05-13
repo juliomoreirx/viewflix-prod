@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NDE=",
+  "tipo": "serie",
+  "titulo": "SE EU SOUBESSE",
+  "capa_url": "https://lgfp.one/VYP",
+  "capa_local": "SE EU SOUBESSE/SE EU SOUBESSE.jpg",
+  "sinopse": "Emma não se sente capaz de lidar com um casamento decepcionante que já dura dez anos. Até que recebe uma oportunidade incrível de reviver toda a última década.",
+  "genero": "Sci-Fi & Fantasy, Drama, Comédia",
+  "elenco": "Megan Montaner, Miquel Fernández, Salva Reina, Michel Noher, Jael Pascual",
+  "diretor": "Liliana Bocanegra, Alejandro Bazzano, Sasha Politoff",
+  "total_episodios": "37",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:56"
+        }
+      ]
+    }
+  ],
+  "id": 3004
+}

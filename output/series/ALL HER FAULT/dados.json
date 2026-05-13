@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MzI=",
+  "tipo": "serie",
+  "titulo": "ALL HER FAULT",
+  "capa_url": "https://lgfp.one/RED5",
+  "capa_local": "ALL HER FAULT/ALL HER FAULT.jpg",
+  "sinopse": "Marissa Irvine chega para buscar seu filho pequeno, Milo, de seu primeiro playdate, mas a mulher que atende a porta não é a mãe que ela reconhece. A mulher não está com Milo e nunca ouviu falar dele. À medida que o pior pesadelo de qualquer pai começa a se desenrolar, novas perguntas levam a segredos profundos, revelando rachaduras no mundo aparentemente perfeito dos Irvine, até que tudo acaba destruído.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Sarah Snook, Jake Lacy, Sophia Lillis, Michael Peña, Dakota Fanning",
+  "diretor": "Paul Walton",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:46"
+        }
+      ]
+    }
+  ],
+  "id": 8528
+}

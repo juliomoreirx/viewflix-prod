@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNzI=",
+  "tipo": "serie",
+  "titulo": "UNTOLD: ENTRE O CAMPO E O CRIME",
+  "capa_url": "https://lgfp.one/AAWO",
+  "capa_local": "UNTOLD ENTRE O CAMPO E O CRIME/UNTOLD ENTRE O CAMPO E O CRIME.jpg",
+  "sinopse": "Esta série documental mostra como o implacável técnico Urban Meyer transformou o Florida Gators em uma máquina de vitórias no futebol americano.",
+  "genero": "Documentário",
+  "elenco": "Urban Meyer, Tim Tebow",
+  "diretor": "Katharine English, Tom Sheahan",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:35"
+        }
+      ]
+    }
+  ],
+  "id": 3930
+}

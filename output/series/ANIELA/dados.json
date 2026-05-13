@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MDI=",
+  "tipo": "serie",
+  "titulo": "ANIELA",
+  "capa_url": "https://lgfp.one/OSG1",
+  "capa_local": "ANIELA/ANIELA.jpg",
+  "sinopse": "Depois que o marido rico a deixa sem nada, uma socialite de Varsóvia precisa usar a única ferramenta que lhe restou para sobreviver: a inteligência.",
+  "genero": "Comédia, Drama",
+  "elenco": "Małgorzata Kożuchowska, Jacek Poniedziałek, Lila Vasina, Cezary Pazura, Gabriela Muskała",
+  "diretor": "Kuba Czekaj, Jakub Piatek",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:19"
+        }
+      ]
+    }
+  ],
+  "id": 7424
+}

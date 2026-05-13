@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NTY=",
+  "tipo": "serie",
+  "titulo": "ARQUIVANDO O AMOR (2026) [L]",
+  "capa_url": "https://lgfp.one/SWM0",
+  "capa_local": "ARQUIVANDO O AMOR (2026) [L]/ARQUIVANDO O AMOR (2026) [L].jpg",
+  "sinopse": "Uma comédia romântica sobre Joo In-ah, uma carismática chefe do departamento de auditoria com um segredo, e Noh Ki-joon, o ás do departamento que é repentinamente rebaixado para lidar com os escândalos da empresa.",
+  "genero": "Comédia, Drama",
+  "elenco": "신혜선, Gong Myung, Kim Jae Wook, 홍화연, 강상준",
+  "diretor": "이수현",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:07:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:10:15"
+        }
+      ]
+    }
+  ],
+  "id": 9445
+}

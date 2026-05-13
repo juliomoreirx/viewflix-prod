@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5OTI=",
+  "tipo": "serie",
+  "titulo": "CIDADE TOXICA",
+  "capa_url": "https://lgfp.one/NDG7",
+  "capa_local": "CIDADE TOXICA/CIDADE TOXICA.jpg",
+  "sinopse": "Quando dezenas de bebês nascem com defeitos congênitos na cidade de Corby, as mães embarcam em uma batalha por justiça.",
+  "genero": "Drama",
+  "elenco": "Jodie Whittaker, Aimee Lou Wood, Claudia Jessie, Karla Crome, Robert Carlyle",
+  "diretor": "Minkie Spiro",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:34"
+        }
+      ]
+    }
+  ],
+  "id": 6964
+}

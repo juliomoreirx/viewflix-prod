@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4ODk=",
+  "tipo": "serie",
+  "titulo": "ÁNGELA",
+  "capa_url": "https://lgfp.one/PDY5",
+  "capa_local": "ANGELA/ANGELA.jpg",
+  "sinopse": "A confortável existência de Londres de Angela implodia quando ela reconhece maus -tratos domésticos. Um detetive revela os mistérios ameaçadores de seu cônjuge, desorientando Angela. Desejando liberdade, ela abandona a rotina de uma perigosa perseguição.",
+  "genero": "Drama",
+  "elenco": "Verónica Sánchez, Daniel Grao, Jaime Zatarain, Lucía Jiménez, Ane Gabarain",
+  "diretor": "Norberto López Amado",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:45"
+        }
+      ]
+    }
+  ],
+  "id": 167506
+}

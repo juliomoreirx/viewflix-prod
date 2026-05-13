@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMzk=",
+  "tipo": "serie",
+  "titulo": "AS GAROTAS DO SURFE HAVAI [L]",
+  "capa_url": "https://lgfp.one/DJP3",
+  "capa_local": "AS GAROTAS DO SURFE HAVAI [L]/AS GAROTAS DO SURFE HAVAI [L].jpg",
+  "sinopse": "A nova geração de surfistas nativas havaianas compete em níveis de elite para alcançar um lugar de destaque no World Tour do surfe profissional. Esta série em quatro episódios mostra os bastidores das meninas treinando, compartilhando responsabilidades familiares e enfrentando as melhores do ranking para chegar ao pódio.",
+  "genero": "Documentário",
+  "elenco": "Moana Jones Wong, Ewe Wong, Maluhia Kinimaka, Pua DeSoto, Brianna Cope",
+  "diretor": "Leslie Garvin, Ramy Romany",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:39"
+        }
+      ]
+    }
+  ],
+  "id": 5853
+}

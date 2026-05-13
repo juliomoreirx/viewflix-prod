@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NDk=",
+  "tipo": "serie",
+  "titulo": "GET MILLIE BLACK",
+  "capa_url": "https://lgfp.one/KAF1",
+  "capa_local": "GET MILLIE BLACK/GET MILLIE BLACK.jpg",
+  "sinopse": "Acompanha Millie Black, uma ex-detetive da Scotland Yard que, ao voltar à sua casa em Kingston, Jamaica, se junta à polícia local em um caso de desaparecimento que revive fantasmas de seu passado.",
+  "genero": "Crime, Drama",
+  "elenco": "Tamara Lawrance, Joe Dempsie, Gershwyn Eustache Jnr, Chyna McQueen, Christopher Daley",
+  "diretor": "Tanya Hamilton",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:46"
+        }
+      ]
+    }
+  ],
+  "id": 6313
+}

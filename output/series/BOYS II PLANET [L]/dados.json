@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2ODI=",
+  "tipo": "serie",
+  "titulo": "BOYS II PLANET [L]",
+  "capa_url": "https://lgfp.one/PXE4",
+  "capa_local": "BOYS II PLANET [L]/BOYS II PLANET [L].jpg",
+  "sinopse": "Foi dada a largada na criação do próximo grande grupo de ídolos! Mais de 100 participantes, divididos entre novatos e ídolos que buscam uma segunda chance, vindos do mundo todo seguem seus sonhos e batalham para chegarem à final e se tornarem os mais novos astros da música. Desta vez, enquanto metade do programa será pautado no cenário musical coreano, a outra metade focará no mercado musical chinês, e os participantes de ambos os lados que acabarem vencendo a competição serão reunidos em um único grupo. Uma equipe de mentores composta por artistas musicais, dançarinos e coreógrafos talentosos ajudará a orientar esses aspirantes a ídolos enquanto competem para garantir uma das oito vagas que serão selecionadas pelo público. Este programa é o sucessor de “Girls Planet 999” (2021) e “Boys Planet” (2023).",
+  "genero": "Reality",
+  "elenco": "Han Harry-June, Yang Hee-chan, Jayder, Jeon Lee-jeong, Wonjun",
+  "diretor": "Kim shin young",
+  "total_episodios": "120",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "02:33:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "02:12:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "02:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 7909
+}

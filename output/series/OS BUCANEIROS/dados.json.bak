@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNTQ=",
+  "tipo": "serie",
+  "titulo": "OS BUCANEIROS",
+  "capa_url": "https://lgfp.one/ASYA",
+  "capa_local": "OS BUCANEIROS/OS BUCANEIROS.jpg",
+  "sinopse": "Um grupo de jovens americanas que adora diversão invade a tradicional Londres de 1870, e dá início a um choque cultural anglo-americano. Elas foram enviadas para garantir maridos e posição social, mas seus corações anseiam muito mais do que isso.",
+  "genero": "Drama",
+  "elenco": "Kristine Froseth, Alisha Boe, Josie Totah, Aubri Ibrag, Imogen Waterhouse",
+  "diretor": "Susanna White",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:29"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:57:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:49:52"
+        }
+      ]
+    }
+  ],
+  "id": 4420
+}

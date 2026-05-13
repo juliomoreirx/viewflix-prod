@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NDI=",
+  "tipo": "serie",
+  "titulo": "BILLY JOEL AND SO IT GOES [L]",
+  "capa_url": "https://lgfp.one/PLU8",
+  "capa_local": "BILLY JOEL AND SO IT GOES [L]/BILLY JOEL AND SO IT GOES [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Billy Joel",
+  "diretor": "Susan Lacy",
+  "total_episodios": "292",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "02:26:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "02:24:41"
+        }
+      ]
+    }
+  ],
+  "id": 7681
+}

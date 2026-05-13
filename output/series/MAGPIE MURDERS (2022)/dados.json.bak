@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NTY=",
+  "tipo": "serie",
+  "titulo": "MAGPIE MURDERS (2022)",
+  "capa_url": "https://lgfp.one/SOO6",
+  "capa_local": "MAGPIE MURDERS (2022)/MAGPIE MURDERS (2022).jpg",
+  "sinopse": "Susan Ryeland é uma editora a quem é dado um manuscrito inacabado que mudará sua vida.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Lesley Manville, Tim McMullan, Nia Deacon, Conleth Hill, Daniel Mays",
+  "diretor": "Peter Cattaneo",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:19"
+        }
+      ]
+    }
+  ],
+  "id": 9270
+}

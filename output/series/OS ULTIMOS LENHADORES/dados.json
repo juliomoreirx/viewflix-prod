@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNzE=",
+  "tipo": "serie",
+  "titulo": "OS ÚLTIMOS LENHADORES",
+  "capa_url": "https://lgfp.one/NSI0",
+  "capa_local": "OS ULTIMOS LENHADORES/OS ULTIMOS LENHADORES.jpg",
+  "sinopse": "Jared Douglas e sua equipe enfrentam riscos mortais para cortar e transportar árvores valiosas no Noroeste do Pacífico.",
+  "genero": "Reality",
+  "elenco": "Jeff Wilburn",
+  "diretor": "Lee Robinson, Paul Taggart",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:37"
+        }
+      ]
+    }
+  ],
+  "id": 7247
+}

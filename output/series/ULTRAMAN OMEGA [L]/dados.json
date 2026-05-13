@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MDY=",
+  "tipo": "serie",
+  "titulo": "ULTRAMAN OMEGA [L]",
+  "capa_url": "https://lgfp.one/PGA7",
+  "capa_local": "ULTRAMAN OMEGA [L]/ULTRAMAN OMEGA [L].jpg",
+  "sinopse": "",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Shori Kondo, Haruto Yoshida, 工藤綾乃",
+  "diretor": "武居正能",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:54"
+        }
+      ]
+    }
+  ],
+  "id": 7604
+}

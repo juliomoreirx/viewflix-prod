@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0OTQ=",
+  "tipo": "serie",
+  "titulo": "TERRORES URBANOS",
+  "capa_url": "https://lgfp.one/JCR",
+  "capa_local": "TERRORES URBANOS/TERRORES URBANOS.jpg",
+  "sinopse": "Terrores Urbanos é uma série da Record TV onde cinco lendas urbanas, de diferentes regiões do país, são contadas de maneira nunca antes vista.",
+  "genero": "Sci-Fi & Fantasy, Mistério",
+  "elenco": "Duda Balestero, Christina Lago, Igor Moraes, Renata Dutra, Sérgio Mastropasqua",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:13"
+        }
+      ]
+    }
+  ],
+  "id": 449
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMTU=",
+  "tipo": "serie",
+  "titulo": "AOS OLHOS DO MUNDO",
+  "capa_url": "https://lgfp.one/VWZ",
+  "capa_local": "AOS OLHOS DO MUNDO/AOS OLHOS DO MUNDO.jpg",
+  "sinopse": "Uma nova e profunda análise da luta de uma mãe para trazer o corpo de seu filho para casa em Chicago e sua decisão crucial, mas dolorosa, de ter um funeral de caixão aberto, o que acabou servindo como um ponto de virada do movimento pelos direitos civis. Uma jornada de volta ao Jim Crow South para enfrentar os assassinos de seu filho no tribunal.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:25"
+        }
+      ]
+    }
+  ],
+  "id": 2962
+}

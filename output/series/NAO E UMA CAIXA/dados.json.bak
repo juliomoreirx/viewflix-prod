@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2NDc=",
+  "tipo": "serie",
+  "titulo": "NAO E UMA CAIXA",
+  "capa_url": "https://lgfp.one/OUV8",
+  "capa_local": "NAO E UMA CAIXA/NAO E UMA CAIXA.jpg",
+  "sinopse": "Solte a criatividade com a coelhinha de olhos brilhantes Riley! Com apenas uma caixa de papelão, Riley imagina mundos mágicos cheios de novos amigos e aventuras fantásticas.",
+  "genero": "Animação, Kids",
+  "elenco": "Isabel Birch, Ian James Corlett",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:37"
+        }
+      ]
+    }
+  ],
+  "id": 376585
+}

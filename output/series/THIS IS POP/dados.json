@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NzE=",
+  "tipo": "serie",
+  "titulo": "THIS IS POP",
+  "capa_url": "https://lgfp.one/RYF",
+  "capa_local": "THIS IS POP/THIS IS POP.jpg",
+  "sinopse": "Conheça as histórias por trás das suas músicas pop favoritas nesta série documental que mostra o papel dos festivais, do Auto-Tune, das boy bands e muito mais.",
+  "genero": "Documentário",
+  "elenco": "Taylor Swift, David Bowie, The Beatles",
+  "diretor": "Chelsea McMullan, Jared Raab",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:05"
+        }
+      ]
+    }
+  ],
+  "id": 1474
+}

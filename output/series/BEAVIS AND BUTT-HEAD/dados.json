@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MjA=",
+  "tipo": "serie",
+  "titulo": "BEAVIS AND BUTT-HEAD",
+  "capa_url": "https://lgfp.one/WAI",
+  "capa_local": "BEAVIS AND BUTT-HEAD/BEAVIS AND BUTT-HEAD.jpg",
+  "sinopse": "Beavis and Butt-Head é uma série de animação americana criada por Mike Judge (também criador de O Rei do Pedaço) exibida originalmente no canal MTV, de 1993 a 1997. Nos Estados Unidos, atualmente é exibido na filial MTV2. No Brasil, a série foi exibida entre 1994 e 1998 pela MTV Brasil.\n\nCada episódio mostra histórias curtas focadas em uma dupla de adolescentes em fase pós-puberdade, chamados Beavis e Butt-Head, que moram e estudam na cidade fictícia de Highland, que parece estar localizada em algum ponto do sul da América do Norte. Nos episódios, existem interrupções que mostram Beavis e Butt-Head assistindo video clipes e fazendo piadas sobre eles.",
+  "genero": "Animação / Comédia",
+  "elenco": "Mike Judge, Adam Welsh",
+  "diretor": "Mike Judge",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:14"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:20:13"
+        }
+      ]
+    }
+  ],
+  "id": 3047
+}

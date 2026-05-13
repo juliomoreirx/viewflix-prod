@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNTg=",
+  "tipo": "serie",
+  "titulo": "AMOR DA MINHA VIDA",
+  "capa_url": "https://lgfp.one/EKH7",
+  "capa_local": "AMOR DA MINHA VIDA/AMOR DA MINHA VIDA.jpg",
+  "sinopse": "Bia e Victor são melhores amigos e grandes confidentes um do outro. Enquanto ele vive um relacionamento antigo que caiu no tédio, ela coleciona namoros curtos, dos mais diferentes tipos, sem nunca acreditar no amor.",
+  "genero": "Drama, Comédia",
+  "elenco": "Bruna Marquezine, Sergio Malheiros, Danilo Mesquita, Malu Rodrigues, Sophia Abrahão",
+  "diretor": "René Sampaio, Tatiana Fragoso, Matheus Souza",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:36:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:36"
+        }
+      ]
+    }
+  ],
+  "id": 6296
+}

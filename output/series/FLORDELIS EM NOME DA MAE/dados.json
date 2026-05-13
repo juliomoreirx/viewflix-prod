@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Nzg=",
+  "tipo": "serie",
+  "titulo": "FLORDELIS: EM NOME DA MÃE",
+  "capa_url": "https://lgfp.one/WLS",
+  "capa_local": "FLORDELIS EM NOME DA MAE/FLORDELIS EM NOME DA MAE.jpg",
+  "sinopse": "O processo de acusação contra a ex-pastora, que teria orquestrado o crime contra o marido. O caso aconteceu em junho de 2019, e nessa semana, Flordelis foi condenada a mais de 50 anos de prisão pelo homicídio do marido e pastor, Anderson do Carmo.",
+  "genero": "Documentário",
+  "elenco": "Flordelis",
+  "diretor": "Mauricio Monteiro Filho, Suemay Oram",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:02"
+        }
+      ]
+    }
+  ],
+  "id": 3121
+}

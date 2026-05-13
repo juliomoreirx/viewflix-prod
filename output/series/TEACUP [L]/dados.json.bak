@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNzM=",
+  "tipo": "serie",
+  "titulo": "TEACUP [L]",
+  "capa_url": "https://lgfp.one/DXP1",
+  "capa_local": "TEACUP [L]/TEACUP [L].jpg",
+  "sinopse": "Presos em uma fazenda na zona rural da Geórgia, um grupo de vizinhos precisa deixar de lado suas diferenças e se unir diante de uma ameaça misteriosa e mortal.",
+  "genero": "Mistério, Sci-Fi & Fantasy, Drama",
+  "elenco": "Yvonne Strahovski, Scott Speedman, Chaske Spencer, Boris McGiver, Émilie Bierre",
+  "diretor": "James Wan, E.L. Katz, Kevin Tancharoen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 6142
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3ODk=",
+  "tipo": "serie",
+  "titulo": "ENTRELINHAS PONTILHADAS",
+  "capa_url": "https://lgfp.one/SNV",
+  "capa_local": "ENTRELINHAS PONTILHADAS/ENTRELINHAS PONTILHADAS.jpg",
+  "sinopse": "Durante uma viagem entre amigos, um cartunista com a consciência personificada em um tatu reflete sobre sua vida e um amor não correspondido.",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "Zerocalcare, Valerio Mastandrea",
+  "diretor": "Vittorio Ascolani",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:17:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:46"
+        }
+      ]
+    }
+  ],
+  "id": 9138
+}

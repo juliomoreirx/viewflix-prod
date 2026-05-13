@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwODM=",
+  "tipo": "serie",
+  "titulo": "A VERY ENGLISH SCANDAL",
+  "capa_url": "https://lgfp.one/RDQ",
+  "capa_local": "A VERY ENGLISH SCANDAL/A VERY ENGLISH SCANDAL.jpg",
+  "sinopse": "Durante os anos 1960, a homossexualidade estava em processo de legalização no Reino Unido. Jeremy Thorpe (Hugh Grant) é líder do Partido Liberal Britânico e esconde seu relacionamento amoroso com outro homem, Norman (Ben Whishaw). Algum tempo depois, quando seu ex-amante ameaça revelar o caso, Thorpe decide elaborar um plano de ação que, eventualmente, acaba expondo todo o escândalo.",
+  "genero": "Drama",
+  "elenco": "Hugh Grant, Ben Whishaw, Alex Jennings, Monica Dolan, Jonathan Hyde",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:43"
+        }
+      ]
+    }
+  ],
+  "id": 907
+}

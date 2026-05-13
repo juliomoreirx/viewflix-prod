@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNDk=",
+  "tipo": "serie",
+  "titulo": "EM DEFESA DE JACOB",
+  "capa_url": "https://lgfp.one/IYQ",
+  "capa_local": "EM DEFESA DE JACOB/EM DEFESA DE JACOB.jpg",
+  "sinopse": "Uma família sofre um grande baque quando o filho é acusado de matar um colega de classe.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Chris Evans, Michelle Dockery, Jaeden Martell, Cherry Jones, Pablo Schreiber",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:14"
+        }
+      ]
+    }
+  ],
+  "id": 325
+}

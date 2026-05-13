@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMDI=",
+  "tipo": "serie",
+  "titulo": "MOTOS SAGRADAS",
+  "capa_url": "https://lgfp.one/SRQ",
+  "capa_local": "MOTOS SAGRADAS/MOTOS SAGRADAS.jpg",
+  "sinopse": "De origens humildes, Jason Wilson e seu grupo heterogêneo de amigos fundaram o infame Douche Larouche. Siga a loja enquanto eles criam helicópteros personalizados de última geração e restauram meticulosamente os clássicos americanos à sua merecida glória.",
+  "genero": "Reality",
+  "elenco": "Jason  Wilson",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 2165
+}

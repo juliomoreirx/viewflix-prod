@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwMzQ=",
+  "tipo": "serie",
+  "titulo": "O CONDE DE MONTE CRISTO [L]",
+  "capa_url": "https://lgfp.one/KXT6",
+  "capa_local": "O CONDE DE MONTE CRISTO [L]/O CONDE DE MONTE CRISTO [L].jpg",
+  "sinopse": "Edmond Dantes, um marinheiro falsamente acusado de traição, é aprisionado no Château d'If, perto de Marselha. Depois de escapar e adotar a identidade do Conde de Monte Cristo, ele planeja vingança contra aqueles que o acusaram.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Sam Claflin, Jeremy Irons, Blake Ritson, Méghane De Croock, Ramona Von Pusch",
+  "diretor": "Leone Mastropaolo, Bille August, Enrico Mastracchi Manes",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:08"
+        }
+      ]
+    }
+  ],
+  "id": 286113
+}

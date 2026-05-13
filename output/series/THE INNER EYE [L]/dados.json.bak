@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NjI=",
+  "tipo": "serie",
+  "titulo": "THE INNER EYE [L]",
+  "capa_url": "https://lgfp.one/ROF2",
+  "capa_local": "THE INNER EYE [L]/THE INNER EYE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "辛芷蕾, 林雨申, 张艺上, 鄭希怡, 王子睿",
+  "diretor": "Liu Yi Zhi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:50:03"
+        }
+      ]
+    }
+  ],
+  "id": 8754
+}

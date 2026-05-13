@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MTk=",
+  "tipo": "serie",
+  "titulo": "PLUTO (2024) [L]",
+  "capa_url": "https://lgfp.one/SFT8",
+  "capa_local": "PLUTO (2024) [L]/PLUTO (2024) [L].jpg",
+  "sinopse": "",
+  "genero": "Mistério, Drama",
+  "elenco": "ทิพนารี วีรวัฒโนดม, รชานันท์ มหาวรรณ์, รัตท์ริชา ประภากิติ, พลอยนิรา หิรัญทวีศิลป์, ปรียาภัทย์ หล่อสุวรรณศิริ",
+  "diretor": "สแนป25 ทีม",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:56:13"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:10:15"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:55"
+        }
+      ]
+    }
+  ],
+  "id": 9114
+}

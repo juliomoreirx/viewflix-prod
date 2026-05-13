@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNDg=",
+  "tipo": "serie",
+  "titulo": "OS ASPONES",
+  "capa_url": "https://lgfp.one/DFT9",
+  "capa_local": "OS ASPONES/OS ASPONES.jpg",
+  "sinopse": "Moira, Anete e Caio são funcionários de uma repartição pública e não fazem nada no escritório, que acabou perdendo a atenção do governo com o passar dos anos. Tales é nomeado novo chefe e, com sua estagiária Leda, fazem os antigos funcionários sofrerem com novos e muitos trabalhos para fazer.",
+  "genero": "Comédia",
+  "elenco": "Selton Mello, Andréa Beltrão, Marisa Orth, Drica Moraes, Pedro Paulo Rangel",
+  "diretor": "Guel Arraes",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:58"
+        }
+      ]
+    }
+  ],
+  "id": 5807
+}

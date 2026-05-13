@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMTk=",
+  "tipo": "serie",
+  "titulo": "O CONTO DA SENHORA OK",
+  "capa_url": "https://lgfp.one/KBD2",
+  "capa_local": "O CONTO DA SENHORA OK/O CONTO DA SENHORA OK.jpg",
+  "sinopse": "Uma jovem usa uma identidade falsa para fugir da escravidão. Mas a situação se complica com a chegada de um contador de histórias que se apaixona por ela.",
+  "genero": "Drama",
+  "elenco": "임지연, 추영우, 연우, 김재원, 성동일",
+  "diretor": "진혁, 최보윤",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:23:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:22:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:19:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:25:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:13:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:14:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:09:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:08:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:12:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:10:56"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:05:24"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:06:49"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:14:18"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:15:52"
+        }
+      ]
+    }
+  ],
+  "id": 6325
+}

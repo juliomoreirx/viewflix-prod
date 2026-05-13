@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwOTY=",
+  "tipo": "serie",
+  "titulo": "RAUL SEIXAS EU SOU",
+  "capa_url": "https://lgfp.one/OYJ6",
+  "capa_local": "RAUL SEIXAS EU SOU/RAUL SEIXAS EU SOU.jpg",
+  "sinopse": "O jovem gênio Raul Seixas ambiciona fundar o rock brasileiro, porém sua jornada é sabotada pela ditadura e a rejeição popular, além de seu maior inimigo: ele mesmo.",
+  "genero": "Drama",
+  "elenco": "Ravel Andrade, Júlio Andrade, Chandelly Braz, Julia Stockler, Cyria Coentro",
+  "diretor": "Pedro Morelli, Paulo Morelli",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:23"
+        }
+      ]
+    }
+  ],
+  "id": 7512
+}

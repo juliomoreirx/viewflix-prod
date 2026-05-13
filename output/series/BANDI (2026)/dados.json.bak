@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1ODc=",
+  "tipo": "serie",
+  "titulo": "BANDI (2026)",
+  "capa_url": "https://lgfp.one/SPZ0",
+  "capa_local": "BANDI (2026)/BANDI (2026).jpg",
+  "sinopse": "Após a morte da mãe, um grupo de irmãos órfãos na Martinica luta para sobreviver, e alguns recorrem ao crime para evitar a separação da família.",
+  "genero": "Drama",
+  "elenco": "Rudgy Pajany, Jonathan Zaccaï, Rémy Laquittant, Djody Grimeau, William Paul-Joseph",
+  "diretor": "Jimmy Laporal-Trésor, Mathilde Vallet",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:40"
+        }
+      ]
+    }
+  ],
+  "id": 9297
+}

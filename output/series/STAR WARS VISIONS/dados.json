@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NDg=",
+  "tipo": "serie",
+  "titulo": "STAR WARS: VISIONS",
+  "capa_url": "https://lgfp.one/SHP",
+  "capa_local": "STAR WARS VISIONS/STAR WARS VISIONS.jpg",
+  "sinopse": "Uma série de antologia de curtas-metragens de animação celebrando Star Wars pelas lentes dos melhores criadores de anime do mundo.",
+  "genero": "Animação, Sci-Fi & Fantasy",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:17:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:19:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:12:59"
+        }
+      ]
+    }
+  ],
+  "id": 228132
+}

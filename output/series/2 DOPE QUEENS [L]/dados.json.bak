@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODI=",
+  "tipo": "serie",
+  "titulo": "2 DOPE QUEENS [L]",
+  "capa_url": "https://lgfp.one/AAPC",
+  "capa_local": "2 DOPE QUEENS [L]/2 DOPE QUEENS [L].jpg",
+  "sinopse": "Jessica Williams e Phoebe Robinson voltam à HBO com seu podcast de comédia em quatro novos especiais cheios de\n\ninsights hilários.",
+  "genero": "Comédia",
+  "elenco": "Phoebe Robinson, Jessica Williams",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:25"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:58:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:56:34"
+        }
+      ]
+    }
+  ],
+  "id": 3736
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MjQ=",
+  "tipo": "serie",
+  "titulo": "QUE A JUSTIÇA SEJA FEITA",
+  "capa_url": "https://lgfp.one/TMQ",
+  "capa_local": "QUE A JUSTICA SEJA FEITA/QUE A JUSTICA SEJA FEITA.jpg",
+  "sinopse": "Durante o julgamento de um policial branco que atirou em um homem negro, um grupo invade o tribunal e faz reféns, em uma situação transmitida para o país inteiro.",
+  "genero": "Action & Adventure",
+  "elenco": "Nompumelelo Mayiyane, Panch Gasela, Dineo Rasedile, Motshabi Tyelele, Tiisetso Thoka",
+  "diretor": "Jozua Malherbe, Rolie Nikiwe, Zwelethu Radebe",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:16"
+        }
+      ]
+    }
+  ],
+  "id": 2731
+}

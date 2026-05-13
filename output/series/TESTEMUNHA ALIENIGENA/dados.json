@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NTU=",
+  "tipo": "serie",
+  "titulo": "TESTEMUNHA ALIENÍGENA",
+  "capa_url": "https://lgfp.one/YBZ",
+  "capa_local": "TESTEMUNHA ALIENIGENA/TESTEMUNHA ALIENIGENA.jpg",
+  "sinopse": "O ex-agente federal Ben Hansen revela a verdade sobre os casos mais chocantes e famosos de avistamentos de óvnis dos Estados Unidos. Ele terá acesso a um arquivo com mais de dez mil casos para encontrar respostas no passado.",
+  "genero": "Documentário",
+  "elenco": "Ben Hansen, Mark Gehred-O'Connell",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:51"
+        }
+      ]
+    }
+  ],
+  "id": 2218
+}

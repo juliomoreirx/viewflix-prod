@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NDM=",
+  "tipo": "serie",
+  "titulo": "BURNING BUSH [L]",
+  "capa_url": "https://lgfp.one/AAVY",
+  "capa_local": "BURNING BUSH [L]/BURNING BUSH [L].jpg",
+  "sinopse": "Baseado em personagens e eventos reais, este drama centra-se no sacrifício pessoal de um estudante de história de Praga, Jan Palach, que se incendiou em protesto contra a ocupação soviética da Checoslováquia em 1969. Dagmar Buresová, uma jovem advogada, tornou-se parte da seu legado defendendo a família de Jan em um julgamento contra o governo comunista, um regime que tentou desonrar o sacrifício de Palach, uma ação heróica pela liberdade da Tchecoslováquia",
+  "genero": "Drama, War & Politics",
+  "elenco": "Tatiana Pauhofová, Jaroslava Pokorná, Petr Stach, Vojtěch Kotek, Patrik Děrgel",
+  "diretor": "Agnieszka Holland, Kasia Adamik, Martin Stádník",
+  "total_episodios": "77",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:23:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:17:50"
+        }
+      ]
+    }
+  ],
+  "id": 3914
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1ODQ=",
+  "tipo": "serie",
+  "titulo": "OS CRIMES DA NOSSA MÃE",
+  "capa_url": "https://lgfp.one/TRN",
+  "capa_local": "OS CRIMES DA NOSSA MAE/OS CRIMES DA NOSSA MAE.jpg",
+  "sinopse": "A busca pelos filhos desaparecidos de Lori Vallow começa a revelar mortes suspeitas, um marido com as mesmas crenças apocalípticas e, pior ainda, assassinatos.",
+  "genero": "Documentário, Crime",
+  "elenco": "Lori Vallow, Colby Ryan, Janis Cox",
+  "diretor": "Skye Borgman",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:37"
+        }
+      ]
+    }
+  ],
+  "id": 2867
+}

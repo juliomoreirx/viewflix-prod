@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNjg=",
+  "tipo": "serie",
+  "titulo": "LAUNCHPAD",
+  "capa_url": "https://lgfp.one/PRT6",
+  "capa_local": "LAUNCHPAD/LAUNCHPAD.jpg",
+  "sinopse": "Cineastas de origens sub-representadas foram selecionados e tiveram a oportunidade de compartilhar suas perspectivas e visões criativas que mostrarão ao público o que significa ser visto.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:19:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:18:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:13:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:14:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:18:08"
+        }
+      ]
+    }
+  ],
+  "id": 7777
+}

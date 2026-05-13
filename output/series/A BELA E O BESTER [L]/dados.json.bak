@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2NDE=",
+  "tipo": "serie",
+  "titulo": "A BELA E O BESTER [L]",
+  "capa_url": "https://lgfp.one/QCI5",
+  "capa_local": "A BELA E O BESTER [L]/A BELA E O BESTER [L].jpg",
+  "sinopse": "Será que a renomada Dra. Nandipha estava envolvida na fuga de Thabo Bester da prisão? Esta série documental arrepiante analisa a misteriosa conexão entre os dois.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:31"
+        }
+      ]
+    }
+  ],
+  "id": 8046
+}

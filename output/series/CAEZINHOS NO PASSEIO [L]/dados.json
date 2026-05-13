@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5ODU=",
+  "tipo": "serie",
+  "titulo": "CAEZINHOS NO PASSEIO [L]",
+  "capa_url": "https://lgfp.one/MYT5",
+  "capa_local": "CAEZINHOS NO PASSEIO [L]/CAEZINHOS NO PASSEIO [L].jpg",
+  "sinopse": "Quando os humanos estão longe, um cãozinho fofo e muito curioso adora se juntar com os outros cachorrinhos e brincar com seus melhores amigos: seus brinquedos favoritos!",
+  "genero": "Kids, Animação",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:16:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:15:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:16:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:16:01"
+        }
+      ]
+    }
+  ],
+  "id": 6867
+}

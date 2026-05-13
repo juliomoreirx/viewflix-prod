@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NDg=",
+  "tipo": "serie",
+  "titulo": "SOMBRAS DA GUERRA",
+  "capa_url": "https://lgfp.one/SDW",
+  "capa_local": "SOMBRAS DA GUERRA/SOMBRAS DA GUERRA.jpg",
+  "sinopse": "Na Berlim de 1946, um policial americano procura por seu irmão desaparecido enquanto ajuda uma policial alemã novata a combater os crimes que estão assolando a cidade.",
+  "genero": "Drama",
+  "elenco": "Taylor Kitsch, Michael C. Hall, Nina Hoss, Sebastian Koch, Tuppence Middleton",
+  "diretor": "Måns Mårlind",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:22"
+        }
+      ]
+    }
+  ],
+  "id": 1789
+}

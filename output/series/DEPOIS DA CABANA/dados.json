@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNjA=",
+  "tipo": "serie",
+  "titulo": "DEPOIS DA CABANA",
+  "capa_url": "https://lgfp.one/AAXV",
+  "capa_local": "DEPOIS DA CABANA/DEPOIS DA CABANA.jpg",
+  "sinopse": "Após uma mulher sequestrada escapar do cativeiro, a polícia fica cada vez mais perto de descobrir a verdade sobre um desaparecimento que está há 13 anos sem solução.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Kim Riedle, Naila Schuberth, Sammy Schrein, Hans Löw, Haley Louise Jones",
+  "diretor": "Isabel Kleefeld, Julian Pörksen, Isabel Kleefeld",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:48"
+        }
+      ]
+    }
+  ],
+  "id": 3961
+}

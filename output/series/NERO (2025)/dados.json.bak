@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3OTM=",
+  "tipo": "serie",
+  "titulo": "NERO (2025)",
+  "capa_url": "https://lgfp.one/QEG9",
+  "capa_local": "NERO (2025)/NERO (2025).jpg",
+  "sinopse": "França, 1504. Um assassino impiedoso foge com a filha que não conhecia para protegê-la de inimigos mortais e forças malignas.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Pio Marmaï, Alice Isaaz, Olivier Gourmet, Louis-Do de Lencquesaing, Λίλι-Ρόουζ Καρλιέ Ταμπουρί",
+  "diretor": "Mathilde Rouyer, Bonnie Pirès, Aline Bessaha",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:57"
+        }
+      ]
+    }
+  ],
+  "id": 8145
+}

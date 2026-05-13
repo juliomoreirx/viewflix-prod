@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MTI=",
+  "tipo": "serie",
+  "titulo": "CONVERSAS QUE CURAM [L]",
+  "capa_url": "https://lgfp.one/PPY8",
+  "capa_local": "CONVERSAS QUE CURAM [L]/CONVERSAS QUE CURAM [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "松本潤, 小芝風花, 新田真剣佑, 木村佳乃, 田中泯",
+  "diretor": "Takahiro Aoyama, 棚澤孝義, Masahide Izumi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:54"
+        }
+      ]
+    }
+  ],
+  "id": 7734
+}

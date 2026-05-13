@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNTU=",
+  "tipo": "serie",
+  "titulo": "HOMENS SEM LEI",
+  "capa_url": "https://lgfp.one/PTC3",
+  "capa_local": "HOMENS SEM LEI/HOMENS SEM LEI.jpg",
+  "sinopse": "Eles foram temidos… e ovacionados. Homens Sem Lei revela a impressionante história real da Scuderie Le Cocq o grupo que deu origem às milícias no Brasil. Um poder capaz de unir polícia, governo, população… e até conquistar nomes como Frank Sinatra e Pelé.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:44"
+        }
+      ]
+    }
+  ],
+  "id": 7849
+}

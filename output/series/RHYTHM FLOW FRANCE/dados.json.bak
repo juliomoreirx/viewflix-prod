@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NjQ=",
+  "tipo": "serie",
+  "titulo": "RHYTHM FLOW FRANCE",
+  "capa_url": "https://lgfp.one/QMY3",
+  "capa_local": "RHYTHM FLOW FRANCE/RHYTHM FLOW FRANCE.jpg",
+  "sinopse": "Rappers franceses improvisam, rimam e se enfrentam para levar o prêmio de 100 mil euros em uma competição musical liderada por um trio de jurados famosos.",
+  "genero": "Reality",
+  "elenco": "SCH, SDM",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:22"
+        }
+      ]
+    }
+  ],
+  "id": 8274
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxOTA=",
+  "tipo": "serie",
+  "titulo": "A ANTARTIDA [L]",
+  "capa_url": "https://lgfp.one/EKB8",
+  "capa_local": "A ANTARTIDA [L]/A ANTARTIDA [L].jpg",
+  "sinopse": "Conta a história de 11 membros de uma equipe, que foram enviados para o Pólo Sul pela primeira vez em fevereiro de 1957, em um projeto nacional para explorar a Antártica. Eles foram acompanhados por um trenó puxado por 19 cães Sakhalin huskies. Quando eles partiram para o Japão, um ano depois, eles foram forçados a deixar os cães para trás devido ao mau tempo. Em janeiro de 1959, Kuramochi Takeshie e alguns outros se juntaram a uma terceira expedição para averiguar o destino dos cães e para sua surpresa, dois dos cães, Taro e Jiro, foram capazes de sobreviver apesar das condições adversas. Sua reunião com os dois cães vai ser o grande destaque do drama emocional.",
+  "genero": "Drama",
+  "elenco": "木村拓哉, 綾瀬はるか, 香川照之, 堺雅人, 緒形直人",
+  "diretor": "福澤克雄",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:46:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:11:51"
+        }
+      ]
+    }
+  ],
+  "id": 6276
+}

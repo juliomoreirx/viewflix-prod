@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4NzA=",
+  "tipo": "serie",
+  "titulo": "LONG BRIGHT RIVER [L]",
+  "capa_url": "https://lgfp.one/NIO9",
+  "capa_local": "LONG BRIGHT RIVER [L]/LONG BRIGHT RIVER [L].jpg",
+  "sinopse": "Em meio à devastadora crise dos opioides, Mickey, uma policial dedicada da Filadélfia, patrulha um bairro marcado pelo alto índice de uso de drogas e violência. Sua vida pessoal e profissional se entrelaçam quando sua irmã, Kacey, profundamente envolvida com o vício, desaparece sem deixar rastros. Paralelamente, uma série de assassinatos abala a região, levando Mickey a suspeitar que os casos podem estar conectados ao sumiço de sua irmã.",
+  "genero": "Drama, Crime",
+  "elenco": "Amanda Seyfried, Nicholas Pinnock, Ashleigh Cummings, Callum Vinson, John Doman",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:55"
+        }
+      ]
+    }
+  ],
+  "id": 7263
+}

@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMjE=",
+  "tipo": "serie",
+  "titulo": "REU [L]",
+  "capa_url": "https://lgfp.one/AWUT",
+  "capa_local": "REU [L]/REU [L].jpg",
+  "sinopse": "Será que você conseguiria provar que não fez algo mesmo sem se lembrar de nada? Park Jung Woo é um dos melhores promotores do Ministério Público do Distrito Central de Seul. Seu mundo vira de cabeça para baixo quando acorda um dia e se vê na cela de uma delegacia, acusado de matar sua mulher, Yoon Ji Soo, ao mesmo tempo em que descobre que sua filha está desparecida.",
+  "genero": "Crime",
+  "elenco": "Ji Sung, Uhm Ki-joon, Kwon Yu-ri, Oh Chang-seok, Uhm Hyun-kyung",
+  "diretor": "Jeong Dong-yoon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:53"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:58:56"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:58:59"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:58:35"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:58:08"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:58:30"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:57:59"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:58:29"
+        }
+      ]
+    }
+  ],
+  "id": 4699
+}

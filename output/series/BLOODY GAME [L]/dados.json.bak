@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNTE=",
+  "tipo": "serie",
+  "titulo": "BLOODY GAME [L]",
+  "capa_url": "https://lgfp.one/KOM7",
+  "capa_local": "BLOODY GAME [L]/BLOODY GAME [L].jpg",
+  "sinopse": "Os jogadores competem em um jogo cheio de conspirações e traições. O último sobrevivente ganhará o prêmio.",
+  "genero": "Reality, Mistério",
+  "elenco": "서출구, 장동민, 홍진호, Kim Kyung-ran, MJ Kim",
+  "diretor": "",
+  "total_episodios": "93",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:15:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:26:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:24:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:19:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:22:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:26:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:19:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:25:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:31:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:22:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:26:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:21:40"
+        }
+      ]
+    }
+  ],
+  "id": 6484
+}

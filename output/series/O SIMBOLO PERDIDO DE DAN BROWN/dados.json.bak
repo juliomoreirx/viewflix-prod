@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzOTQ=",
+  "tipo": "serie",
+  "titulo": "O SÍMBOLO PERDIDO DE DAN BROWN",
+  "capa_url": "https://lgfp.one/SHA",
+  "capa_local": "O SIMBOLO PERDIDO DE DAN BROWN/O SIMBOLO PERDIDO DE DAN BROWN.jpg",
+  "sinopse": "Chamado por seu amigo Peter Solomon para dar uma palestra em Washington, Robert Langdon viaja até a capital americana, mas ao entrar no palco para iniciar a palestra descobre que tudo aquilo foi uma forma de atraí-lo até ali para iniciar uma busca por um antigo portal místico que tornaria possível a Apoteose.",
+  "genero": "Action & Adventure, Drama, Mistério",
+  "elenco": "Ashley Zukerman, Valorie Curry, Sumalee Montano, Rick Gonzalez, Eddie Izzard",
+  "diretor": "Ron Howard",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:09"
+        }
+      ]
+    }
+  ],
+  "id": 1875
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyOTU=",
+  "tipo": "serie",
+  "titulo": "ED STAFFORD: RUMO AO DESCONHECIDO",
+  "capa_url": "https://lgfp.one/QBY5",
+  "capa_local": "ED STAFFORD RUMO AO DESCONHECIDO/ED STAFFORD RUMO AO DESCONHECIDO.jpg",
+  "sinopse": "Nesta série, o famoso aventureiro britânico Ed Stafford vai visitar as paisagens mais perigosas da Terra para investigar misteriosos fenômenos que permanecem sem explicação.",
+  "genero": "Documentário",
+  "elenco": "Ed Stafford",
+  "diretor": "Jonny Young, Tom Beard, James Levelle, Nick Shoolingin-Jordan",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:19"
+        }
+      ]
+    }
+  ],
+  "id": 8031
+}

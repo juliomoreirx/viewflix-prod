@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MDM=",
+  "tipo": "serie",
+  "titulo": "DEEP WATER",
+  "capa_url": "https://lgfp.one/IWX",
+  "capa_local": "DEEP WATER/DEEP WATER.jpg",
+  "sinopse": "Os detetives Tori Lustigman e Nick Manning recebem um caso de assassinato brutal em Bondi, onde começam a descobrir evidências crescentes para sugerir que o assassinato está ligado a uma série de mortes, suicídios e desaparecimentos inexplicáveis ​​durante os anos 80 e 90. Assombrada pelo desaparecimento de seu irmão adolescente, o fascínio de Tori com o caso logo se transforma em fixação. Quando assassinatos mais ritualísticos ocorrem com a mesma assinatura bizarra, Tori e Nick precisarão colocar suas relações, suas carreiras e suas vidas na linha para finalmente revelar a verdade.",
+  "genero": "Crime, Drama",
+  "elenco": "Noah Taylor, Yael Stone, William McInnes, Jeremy Lindsay Taylor, Craig McLachlan",
+  "diretor": "Shawn Seet",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:40"
+        }
+      ]
+    }
+  ],
+  "id": 276
+}

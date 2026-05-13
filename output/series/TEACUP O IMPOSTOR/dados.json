@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwOTk=",
+  "tipo": "serie",
+  "titulo": "TEACUP O IMPOSTOR",
+  "capa_url": "https://lgfp.one/OPR5",
+  "capa_local": "TEACUP O IMPOSTOR/TEACUP O IMPOSTOR.jpg",
+  "sinopse": "Presos em uma fazenda na zona rural da Geórgia, um grupo de vizinhos precisa deixar de lado suas diferenças e se unir diante de uma ameaça misteriosa e mortal.",
+  "genero": "Mistério, Sci-Fi & Fantasy, Drama",
+  "elenco": "Yvonne Strahovski, Scott Speedman, Chaske Spencer, Boris McGiver, Émilie Bierre",
+  "diretor": "E.L. Katz, James Wan, Kevin Tancharoen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:18"
+        }
+      ]
+    }
+  ],
+  "id": 7378
+}

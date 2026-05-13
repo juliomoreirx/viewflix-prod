@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNzQ=",
+  "tipo": "serie",
+  "titulo": "QUANDO NINGUEM VE",
+  "capa_url": "https://lgfp.one/DHE3",
+  "capa_local": "QUANDO NINGUEM VE/QUANDO NINGUEM VE.jpg",
+  "sinopse": "Uma mulher misteriosa aluga uma casa de temporada para passar um verão tranquilo, mas sua presença acaba gerando situações que abalam a vida do proprietário.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "김윤석, 윤계상, 고민시, 이정은, 하윤경",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:08:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:14"
+        }
+      ]
+    }
+  ],
+  "id": 5835
+}

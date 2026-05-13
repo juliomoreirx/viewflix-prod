@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5ODE=",
+  "tipo": "serie",
+  "titulo": "O CAFETÃO",
+  "capa_url": "https://lgfp.one/YRC",
+  "capa_local": "O CAFETAO/O CAFETAO.jpg",
+  "sinopse": "Inspirado em fatos reais, o épico gangster fala da ascensão da Gangue Nutella, o mais famoso cartel de prostituição no lendário Reeperbahn de Hamburgo durante os anos 1980. O cartel fora do comum transforma o distrito da luz vermelha em um lugar glamouroso, mas também o início da luta pelo poder com os cafetões tradicionais.",
+  "genero": "Drama",
+  "elenco": "Lena Urzendowsky, Noah Tinwa, Karsten Antonio Mielke, Stefan Konarske, Lara Feith",
+  "diretor": "Laura Lackmann",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:47"
+        }
+      ]
+    }
+  ],
+  "id": 3309
+}

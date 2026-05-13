@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NDc=",
+  "tipo": "serie",
+  "titulo": "NEO YOKIO",
+  "capa_url": "https://lgfp.one/QRM4",
+  "capa_local": "NEO YOKIO/NEO YOKIO.jpg",
+  "sinopse": "Ao lado de seu fiel mordomo-robô, o jovem Kaz Kaan enfrenta forças sobrenaturais e parte em busca do verdadeiro amor em meio à sinistra alta sociedade de Neo Yokio.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Jaden Smith, Jude Law, Tavi Gevinson, Susan Sarandon, The Kid Mero",
+  "diretor": "Kazuhiro Furuhashi e Junji Nishimura",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:51"
+        }
+      ]
+    }
+  ],
+  "id": 8395
+}

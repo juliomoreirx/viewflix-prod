@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NTY=",
+  "tipo": "serie",
+  "titulo": "SE DESEJOS MATASSEM… (2026)",
+  "capa_url": "https://lgfp.one/SWD0",
+  "capa_local": "SE DESEJOS MATASSEM... (2026)/SE DESEJOS MATASSEM... (2026).jpg",
+  "sinopse": "Um aplicativo misterioso promete realizar desejos, mas faz uma contagem para a morte. Quando um grupo de jovens o baixa, tem que quebrar este ciclo fatal para sobreviver.",
+  "genero": "Mistério, Drama",
+  "elenco": "전소영, 강미나, 백선호, 현우석, 이효제",
+  "diretor": "Park Yoon-seo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:59"
+        }
+      ]
+    }
+  ],
+  "id": 9437
+}

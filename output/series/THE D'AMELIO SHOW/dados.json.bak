@@ -1,0 +1,175 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNTA=",
+  "tipo": "serie",
+  "titulo": "THE D'AMELIO SHOW",
+  "capa_url": "https://lgfp.one/SMZ",
+  "capa_local": "THE D'AMELIO SHOW/THE D'AMELIO SHOW.jpg",
+  "sinopse": "De uma escuridão relativa e uma aparente vida normal, ao serem jogados nas luzes de Hollywood da noite para o dia, os D'Amelio enfrentam novos desafios e oportunidades que não poderiam ter imaginado. Charli, Dixie, Heidi e Marc fazem o melhor que podem para ficarem juntos, enquanto tentam se ajustar à vida em Hollywood.",
+  "genero": "Documentário",
+  "elenco": "Charli D'Amelio, Dixie D'Amelio, Heidi D'Amelio, Marc D'Amelio",
+  "diretor": "",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:30"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:33:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:29:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:32:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:33:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:30:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:33:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:34:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:34:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:43:19"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:29:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:36:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:31:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:32:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:31:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:31:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:34:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:34:17"
+        }
+      ]
+    }
+  ],
+  "id": 2032
+}

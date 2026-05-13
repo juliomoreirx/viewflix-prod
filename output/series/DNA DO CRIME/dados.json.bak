@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MDQ=",
+  "tipo": "serie",
+  "titulo": "DNA DO CRIME",
+  "capa_url": "https://lgfp.one/ATGO",
+  "capa_local": "DNA DO CRIME/DNA DO CRIME.jpg",
+  "sinopse": "Um grupo de agentes federais vai ter que arregaçar as mangas e desenrolar a investigação de um roubo espetacular.",
+  "genero": "Drama, Crime, Action & Adventure",
+  "elenco": "Maeve Jinkings, Rômulo Braga, Thomás Aquino, Alex Nader",
+  "diretor": "Nayana Gouvea, Heitor Dhalia, Pedro Morelli",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:37"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:54:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:51:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:51:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:53:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:47:43"
+        }
+      ]
+    }
+  ],
+  "id": 4449
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NTc=",
+  "tipo": "serie",
+  "titulo": "ONISION: ABUSO NA INTERNET",
+  "capa_url": "https://lgfp.one/SSV",
+  "capa_local": "ONISION ABUSO NA INTERNET/ONISION ABUSO NA INTERNET.jpg",
+  "sinopse": "Esta série investigativa contemporânea explora o mistério, a controvérsia e a suposta criminalidade em torno de Greg Jackson, conhecido mundialmente como Onision, trazendo novas pesquisas e revelações sobre o homem que a comunidade do YouTube adora odiar.",
+  "genero": "Documentário",
+  "elenco": "Chris Hansen, Gregory Jackson",
+  "diretor": "Chris Hansen",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:50"
+        }
+      ]
+    }
+  ],
+  "id": 2197
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTg=",
+  "tipo": "serie",
+  "titulo": "HEROIS EM FOCO BATALHAO DE ACOES COM CAES (BAC)",
+  "capa_url": "https://lgfp.one/ROT8",
+  "capa_local": "HEROIS EM FOCO BATALHAO DE ACOES COM CAES (BAC)/HEROIS EM FOCO BATALHAO DE ACOES COM CAES (BAC).jpg",
+  "sinopse": "Nesta série documental, a jornalista Nathalia Alvitos acompanha a rotina de treinamento dos combatentes do Batalhão de Operações com Cães da Polícia Militar do Rio de Janeiro (BAC). Ao longo dos episódios, os policiais mostram como adquirem a aptidão física e psicológica necessária para o dia a dia e como preparam seus cães para o trabalho.",
+  "genero": "Documentário",
+  "elenco": "Nathalia Alvitos",
+  "diretor": "",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:17:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:18:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:17:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:17:25"
+        }
+      ]
+    }
+  ],
+  "id": 8778
+}

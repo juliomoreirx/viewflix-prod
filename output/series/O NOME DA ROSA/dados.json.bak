@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NjM=",
+  "tipo": "serie",
+  "titulo": "O NOME DA ROSA",
+  "capa_url": "https://lgfp.one/RIU",
+  "capa_local": "O NOME DA ROSA/O NOME DA ROSA.jpg",
+  "sinopse": "Um monge franciscano começa a investigar uma série de assassinatos, que, para muitos, são obras do demônio. Enquanto ele tentar desvendar esses mistérios, o inquisitor Bernardo Gui faz questão de punir qualquer suspeito de heresia, e William de Baskerville está no topo de sua lista.",
+  "genero": "Drama, Mistério, War & Politics",
+  "elenco": "John Turturro, Rupert Everett, Damian Hardung, Fabrizio Bentivoglio, Greta Scarano",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:48"
+        }
+      ]
+    }
+  ],
+  "id": 68206
+}

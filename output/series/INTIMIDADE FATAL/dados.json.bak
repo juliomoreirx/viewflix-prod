@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2Mzk=",
+  "tipo": "serie",
+  "titulo": "INTIMIDADE FATAL",
+  "capa_url": "https://lgfp.one/AWZI",
+  "capa_local": "INTIMIDADE FATAL/INTIMIDADE FATAL.jpg",
+  "sinopse": "Esta série combina imagens originais de cenas de crimes com vídeos amadores gravados pelas famílias, criando um registro íntimo e emocionalmente potente.",
+  "genero": "Crime, Documentário",
+  "elenco": "Craig S. Wollman, Bing Fu, Alex Javo",
+  "diretor": "Deborah Mitchell, Lauren J. Przybyszewski, Elizabeth Fisher",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:44"
+        }
+      ]
+    }
+  ],
+  "id": 4715
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMjY=",
+  "tipo": "serie",
+  "titulo": "30 SEGUNDOS",
+  "capa_url": "https://lgfp.one/DDI3",
+  "capa_local": "30 SEGUNDOS/30 SEGUNDOS.jpg",
+  "sinopse": "Série documental que acompanha cinco décadas de transformações na sociedade brasileira através dos olhos, ideias e trabalhos produzidos por profissionais que mantêm o Brasil, há mais de 30 anos, no grupo de elite da propaganda mundial.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "João Daniel Tikhomiroff, Nikolas Fonseca, Rodrigo Astiz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:51"
+        }
+      ]
+    }
+  ],
+  "id": 5765
+}

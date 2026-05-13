@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MTA=",
+  "tipo": "serie",
+  "titulo": "DEPT. Q",
+  "capa_url": "https://lgfp.one/OPR3",
+  "capa_local": "DEPT. Q/DEPT. Q.jpg",
+  "sinopse": "Um policial brilhante, mas arrogante, se torna chefe de um novo departamento, liderando um grupo improvável de desajustados na solução de casos arquivados de Edimburgo.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Matthew Goode, Chloe Pirrie, Jamie Sives, Alexej Manvelov, Leah Byrne",
+  "diretor": "Scott Frank, Elisa Amoruso",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:11:45"
+        }
+      ]
+    }
+  ],
+  "id": 7375
+}

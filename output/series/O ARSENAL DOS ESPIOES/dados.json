@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MzA=",
+  "tipo": "serie",
+  "titulo": "O ARSENAL DOS ESPIÕES",
+  "capa_url": "https://lgfp.one/RMN",
+  "capa_local": "O ARSENAL DOS ESPIOES/O ARSENAL DOS ESPIOES.jpg",
+  "sinopse": "Espionagem é coisa séria. Ao longo da história, as tecnologias e os dispositivos criados para a atividade se tornaram tão importantes quanto os próprios espiões.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Christie Cate, Masoud Sepahi, Engin Öztürk",
+  "diretor": "Maria Berry, Jan Spindler, Marek Bures",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:28"
+        }
+      ]
+    }
+  ],
+  "id": 1153
+}

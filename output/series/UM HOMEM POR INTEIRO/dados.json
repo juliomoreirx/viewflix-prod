@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMDI=",
+  "tipo": "serie",
+  "titulo": "UM HOMEM POR INTEIRO",
+  "capa_url": "https://lgfp.one/AVQ6",
+  "capa_local": "UM HOMEM POR INTEIRO/UM HOMEM POR INTEIRO.jpg",
+  "sinopse": "Enfrentando adversários implacáveis e uma falência repentina, um magnata do mercado imobiliário de Atlanta faz de tudo para voltar ao topo quando seu império desmorona.",
+  "genero": "Drama",
+  "elenco": "Jeff Daniels, Diane Lane, Tom Pelphrey, Aml Ameen, Chanté Adams",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:15"
+        }
+      ]
+    }
+  ],
+  "id": 5341
+}

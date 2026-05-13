@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyNDc=",
+  "tipo": "serie",
+  "titulo": "THE PENDRAGON CYCLE RISE OF THE MERLIN [L]",
+  "capa_url": "https://lgfp.one/RIC2",
+  "capa_local": "THE PENDRAGON CYCLE RISE OF THE MERLIN [L]/THE PENDRAGON CYCLE RISE OF THE MERLIN [L].jpg",
+  "sinopse": "",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Família",
+  "elenco": "Tom Sharp, Rose Reid, James Arden, Emree Franklin, Myles Clohessy",
+  "diretor": "Ryan Whitaker, Jeremy Boreing, Jesse V. Johnson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:11:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:09:09"
+        }
+      ]
+    }
+  ],
+  "id": 8727
+}

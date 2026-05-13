@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1OTc=",
+  "tipo": "serie",
+  "titulo": "A MENINA E O PORQUINHO",
+  "capa_url": "https://lgfp.one/QEG1",
+  "capa_local": "A MENINA E O PORQUINHO/A MENINA E O PORQUINHO.jpg",
+  "sinopse": "Um porquinho chamado Wilbur faz amizade com uma aranha do celeiro chamada Charlotte. Quando Wilbur descobre que está sendo criado para o abate, Charlotte escreve mensagens elogiando-o em sua teia para convencer o fazendeiro a deixá-lo viver.",
+  "genero": "Família, Animação, Drama",
+  "elenco": "Amy Adams, Elijah Wood, Griffin Robert Faulkner, Jean Smart, Cynthia Erivo",
+  "diretor": "Luke Matheny",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:12"
+        }
+      ]
+    }
+  ],
+  "id": 359916
+}

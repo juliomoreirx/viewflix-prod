@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3OTY=",
+  "tipo": "serie",
+  "titulo": "A BATALHA DOS PIORES COZINHEIROS EM PRATOS LIMPOS",
+  "capa_url": "https://lgfp.one/TSS",
+  "capa_local": "A BATALHA DOS PIORES COZINHEIROS EM PRATOS LIMPOS/A BATALHA DOS PIORES COZINHEIROS EM PRATOS LIMPOS.jpg",
+  "sinopse": "",
+  "genero": "Reality",
+  "elenco": "Anne Burrell, Tyler Florence, Alex Guarnaschelli, Bobby Flay",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:59"
+        }
+      ]
+    }
+  ],
+  "id": 2899
+}

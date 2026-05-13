@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MDQ=",
+  "tipo": "serie",
+  "titulo": "REI LOBO",
+  "capa_url": "https://lgfp.one/NJU7",
+  "capa_local": "REI LOBO/REI LOBO.jpg",
+  "sinopse": "Nesta fantasia épica, um jovem comum descobre que é o último de uma longa linhagem de lobisomens. Para piorar, também é o herdeiro do trono.",
+  "genero": "Animação, Action & Adventure, Kids",
+  "elenco": "Nina Barker-Francis, Ceallach Spellman",
+  "diretor": "Tom Brass",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:47"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:22:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:22:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:24:44"
+        }
+      ]
+    }
+  ],
+  "id": 7064
+}

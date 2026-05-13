@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTI=",
+  "tipo": "serie",
+  "titulo": "VIGARISTA PROFISSIONAL [L]",
+  "capa_url": "https://lgfp.one/AAZR",
+  "capa_local": "VIGARISTA PROFISSIONAL [L]/VIGARISTA PROFISSIONAL [L].jpg",
+  "sinopse": "México, 1982. Emiliano Escamilla, um vigarista com múltiplas identidades, põe em ação seu plano para vingar sua mãe, presa injustamente pelos golpes cometidos por seu pai, o ladrão mais famoso e procurado dos anos 50: \"El Mantequilla.\"",
+  "genero": "Comédia, Drama",
+  "elenco": "Alberto Guerra, Mayra Batalla, Rafael Sánchez Navarro, Iván Aragón, Enrique Arreola",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:27"
+        }
+      ]
+    }
+  ],
+  "id": 4009
+}

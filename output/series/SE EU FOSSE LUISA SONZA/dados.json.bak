@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyODU=",
+  "tipo": "serie",
+  "titulo": "SE EU FOSSE LUISA SONZA",
+  "capa_url": "https://lgfp.one/AUZA",
+  "capa_local": "SE EU FOSSE LUISA SONZA/SE EU FOSSE LUISA SONZA.jpg",
+  "sinopse": "Nesta série documental, a cantora pop mais polêmica do Brasil fala sobre a vida amorosa, carreira, controvérsias e a criação de um novo álbum.",
+  "genero": "Documentário",
+  "elenco": "Luísa Sonza",
+  "diretor": "Isabel Nascimento Silva",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:54"
+        }
+      ]
+    }
+  ],
+  "id": 4590
+}

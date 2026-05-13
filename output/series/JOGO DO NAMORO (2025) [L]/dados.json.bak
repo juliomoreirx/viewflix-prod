@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3OTU=",
+  "tipo": "serie",
+  "titulo": "JOGO DO NAMORO (2025) [L]",
+  "capa_url": "https://lgfp.one/SQA0",
+  "capa_local": "JOGO DO NAMORO (2025) [L]/JOGO DO NAMORO (2025) [L].jpg",
+  "sinopse": "Quando seu jogo de favorito é cancelado, um otaku reformado precisa se unir ao frio CEO da empresa para salvá-lo — isso se eles não se destruírem antes.",
+  "genero": "Drama, Comédia",
+  "elenco": "向井康二, จุฑาวุฒิ ภัทรกำพล, ณธัช ศิริพงษ์ธร, ธรรม์ธัช ธารินทร์ภิรมย์, Natticha Chantaravareelrkha",
+  "diretor": "จักรี รุจิวิภัทร",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:12:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:05:17"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:52:44"
+        }
+      ]
+    }
+  ],
+  "id": 9307
+}

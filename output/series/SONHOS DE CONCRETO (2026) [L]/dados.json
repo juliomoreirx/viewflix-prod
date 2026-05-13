@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3ODQ=",
+  "tipo": "serie",
+  "titulo": "SONHOS DE CONCRETO (2026) [L]",
+  "capa_url": "https://lgfp.one/SMB6",
+  "capa_local": "SONHOS DE CONCRETO (2026) [L]/SONHOS DE CONCRETO (2026) [L].jpg",
+  "sinopse": "Um proprietário de prédio afogado em dívidas aceita encenar um sequestro falso para salvar sua família e sua propriedade, mas o plano sai do controle e se transforma em um sequestro real, levando a uma situação perigosamente escalada.",
+  "genero": "Crime, Comédia, Drama",
+  "elenco": "하정우, 임수정, 김준한, 정수정, 심은경",
+  "diretor": "임필성",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:13:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:07:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:08"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:35"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:25"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:16:45"
+        }
+      ]
+    }
+  ],
+  "id": 9219
+}

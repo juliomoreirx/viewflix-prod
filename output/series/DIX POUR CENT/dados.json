@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5OTM=",
+  "tipo": "serie",
+  "titulo": "DIX POUR CENT",
+  "capa_url": "https://lgfp.one/RDA",
+  "capa_local": "DIX POUR CENT/DIX POUR CENT.jpg",
+  "sinopse": "Em uma conceituada agência de talentos de Paris, os agentes se desdobram para manter os astros satisfeitos — e os lucros constantes — após uma crise inesperada.",
+  "genero": "Comédia, Drama",
+  "elenco": "Camille Cottin, Thibault de Montalembert, Grégory Montel, Liliane Rovère, Laure Calamy",
+  "diretor": "Marc Fitoussi, Antoine Garceau",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:18"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:48"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:57:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:07:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:54:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "01:06:24"
+        }
+      ]
+    }
+  ],
+  "id": 890
+}

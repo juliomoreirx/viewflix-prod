@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MDA=",
+  "tipo": "serie",
+  "titulo": "SWEETPEA",
+  "capa_url": "https://lgfp.one/RPV9",
+  "capa_local": "SWEETPEA/SWEETPEA.jpg",
+  "sinopse": "A história bombástica de Rhiannon Lewis, uma moça tímida e invisível que é levada ao extremo quando seu pai morre e sua agressora dos tempos de escola volta para a cidade.",
+  "genero": "Comédia, Drama",
+  "elenco": "Ella Purnell, Nicôle Lecky, Jon Pointing, Calam Lynch, Jeremy Swift",
+  "diretor": "Ella Jones",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:50"
+        }
+      ]
+    }
+  ],
+  "id": 8808
+}

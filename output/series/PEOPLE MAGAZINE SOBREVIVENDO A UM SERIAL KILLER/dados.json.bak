@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MTk=",
+  "tipo": "serie",
+  "titulo": "PEOPLE MAGAZINE SOBREVIVENDO A UM SERIAL KILLER",
+  "capa_url": "https://lgfp.one/DCE7",
+  "capa_local": "PEOPLE MAGAZINE SOBREVIVENDO A UM SERIAL KILLER/PEOPLE MAGAZINE SOBREVIVENDO A UM SERIAL KILLER.jpg",
+  "sinopse": "Em 1965, Rodney Alcala ataca uma adolescente. Três anos depois, ele volta a atacá-la. A culpa a consome quando ela descobre que ele ataca uma criança logo depois, mas eles são apenas duas das inúmeras vítimas do psicopata.",
+  "genero": "Crime, Documentário",
+  "elenco": "Jack Walter ColesShahrad FredottiChristine Pelisek",
+  "diretor": "Mike Testin, Zack Shisslak",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:28"
+        }
+      ]
+    }
+  ],
+  "id": 5750
+}

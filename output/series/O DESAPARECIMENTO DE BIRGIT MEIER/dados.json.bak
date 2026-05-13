@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NzE=",
+  "tipo": "serie",
+  "titulo": "O DESAPARECIMENTO DE BIRGIT MEIER",
+  "capa_url": "https://lgfp.one/SQG",
+  "capa_local": "O DESAPARECIMENTO DE BIRGIT MEIER/O DESAPARECIMENTO DE BIRGIT MEIER.jpg",
+  "sinopse": "O caso do desaparecimento de Birgit Meier, em 1989, ficou marcado pelos erros da polícia. Mas seu irmão nunca desistiu de lutar pela verdade.",
+  "genero": "Documentário, Crime",
+  "elenco": "Frederic Heidorn, Sandra Schreiber, Birgit Meier",
+  "diretor": "Nicolas Steiner, Benjamin Cantu",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:04"
+        }
+      ]
+    }
+  ],
+  "id": 2123
+}

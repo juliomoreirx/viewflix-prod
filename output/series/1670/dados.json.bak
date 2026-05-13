@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyODY=",
+  "tipo": "serie",
+  "titulo": "1670",
+  "capa_url": "https://lgfp.one/AUYZ",
+  "capa_local": "1670/1670.jpg",
+  "sinopse": "Uma comédia satírica. Um nobre excêntrico, com a missão de se tornar a figura mais famosa da Polónia, enfrenta disputas familiares e entra em conflito com camponeses na sua missão para ser a pessoa mais célebre da Polónia",
+  "genero": "Comédia",
+  "elenco": "Bartłomiej Topa, Katarzyna Herman, Martyna Byczkowska, Michał Balicki, Michał Sikorski",
+  "diretor": "Kordian Kądziela, Ivo Krankowski",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:43"
+        }
+      ]
+    }
+  ],
+  "id": 4589
+}

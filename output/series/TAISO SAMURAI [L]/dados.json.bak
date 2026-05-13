@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0MDM=",
+  "tipo": "serie",
+  "titulo": "TAISO SAMURAI [L]",
+  "capa_url": "https://lgfp.one/ROH8",
+  "capa_local": "TAISO SAMURAI [L]/TAISO SAMURAI [L].jpg",
+  "sinopse": "A história se passa no ano de 2002, na época da poderosa equipe de ginástica olímpica masculina do Japão. Shoutarou Aragaki, o ex-membro da equipe nipônica, que dedicou boa parte da sua vida à ginástica, não consegue mais competir. Apesar de ainda treinar vigorosamente dia após dia, o seu treinador Amakusa o aconselha a desistir. No entanto, um encontro repentino muda completamente o destino de Aragaki",
+  "genero": "Animação, Drama, Comédia",
+  "elenco": "Daisuke Namikawa, 本泉莉奈, Kensho Ono, Kenyu Horiuchi, Yuki Kaji",
+  "diretor": "清水久敏",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:55"
+        }
+      ]
+    }
+  ],
+  "id": 8764
+}

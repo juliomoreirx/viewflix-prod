@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMjk=",
+  "tipo": "serie",
+  "titulo": "THE JETTY [L]",
+  "capa_url": "https://lgfp.one/DCF6",
+  "capa_local": "THE JETTY [L]/THE JETTY [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime",
+  "elenco": "Jenna Coleman, Archie Renaux, Laura Marcus, Bo Bragason, Amelia Bullmore",
+  "diretor": "Marialy Rivas, Natasha Romaniuk",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:58"
+        }
+      ]
+    }
+  ],
+  "id": 5759
+}

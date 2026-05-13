@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5NjQ=",
+  "tipo": "serie",
+  "titulo": "VENUS EM MARTE [L]",
+  "capa_url": "https://lgfp.one/PXI7",
+  "capa_local": "VENUS EM MARTE [L]/VENUS EM MARTE [L].jpg",
+  "sinopse": "Quando um experimento científico dá errado, a estudante universitária Zhu Wei Na (Ivy Shao) se vê transportada para um mundo alternativo onde tudo permanece igual, exceto ela, que é a única mulher em todo o planeta. Perdida em uma sociedade com papéis de gênero completamente diferentes, Wei Na precisará aprender a navegar por esse mundo e terá de reavaliar seus pontos de vista sobre o feminismo, a igualdade de gênero, a vida cotidiana e o amor. Porém, ela não está sozinha nessa, pois descobre que seu ex-namorado Ben (Tsao Yu Ning) também é um novo residente desse planeta e quer reatar o relacionamento deles.",
+  "genero": "Sci-Fi & Fantasy, Comédia",
+  "elenco": "邵雨薇, 曹佑寧, 羅宏正, 劉亮佐, Gina Lin",
+  "diretor": "蔡于位",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:09"
+        }
+      ]
+    }
+  ],
+  "id": 7952
+}

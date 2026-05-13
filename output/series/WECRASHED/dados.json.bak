@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMzA=",
+  "tipo": "serie",
+  "titulo": "WECRASHED",
+  "capa_url": "https://lgfp.one/TBE",
+  "capa_local": "WECRASHED/WECRASHED.jpg",
+  "sinopse": "Inspirada em eventos reais – e na história de amor no centro de tudo. WeWork cresceu a partir de um único espaço de coworking e virou uma marca global de 47 bilhões de dólares em menos de uma década. Depois, em menos de um ano, ela perdeu 40 bilhões de dólares. O que aconteceu?",
+  "genero": "Drama",
+  "elenco": "Jared Leto, Anne Hathaway, Kyle Marvin, America Ferrera, O.T. Fagbenle",
+  "diretor": "Lee Eisenberg, Drew Crevello",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:31"
+        }
+      ]
+    }
+  ],
+  "id": 2419
+}

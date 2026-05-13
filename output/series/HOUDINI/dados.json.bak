@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3NDE=",
+  "tipo": "serie",
+  "titulo": "HOUDINI",
+  "capa_url": "https://lgfp.one/RUX",
+  "capa_local": "HOUDINI/HOUDINI.jpg",
+  "sinopse": "Estrelando o vencedor do Oscar®, Adrien Brody e Kristen Connolly, HOUDINI, encena a transformação do mestre da fuga de renome mundial de imigrante para estrela.",
+  "genero": "Drama",
+  "elenco": "Adrien Brody, Kristen Connolly, Evan Jones, Tim Pigott-Smith, Tom Benedict Knight",
+  "diretor": "Gabriella Winkler",
+  "total_episodios": "172",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:26:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:25:08"
+        }
+      ]
+    }
+  ],
+  "id": 1385
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0OTM=",
+  "tipo": "serie",
+  "titulo": "A VIDA MENTIROSA DOS ADULTOS",
+  "capa_url": "https://lgfp.one/XPW",
+  "capa_local": "A VIDA MENTIROSA DOS ADULTOS/A VIDA MENTIROSA DOS ADULTOS.jpg",
+  "sinopse": "A jovem Giovanna vive a passagem da infância para a adolescência e sente na pele as diversas facetas da Nápoles dos anos 1990.",
+  "genero": "Drama",
+  "elenco": "Giordana Marengo, Valeria Golino, Alessandro Preziosi, Pina Turco, Raffaella Rea",
+  "diretor": "Edoardo De Angelis",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:50"
+        }
+      ]
+    }
+  ],
+  "id": 3168
+}

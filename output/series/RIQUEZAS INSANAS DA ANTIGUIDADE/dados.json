@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMTk=",
+  "tipo": "serie",
+  "titulo": "RIQUEZAS INSANAS DA ANTIGUIDADE",
+  "capa_url": "https://lgfp.one/BBU1",
+  "capa_local": "RIQUEZAS INSANAS DA ANTIGUIDADE/RIQUEZAS INSANAS DA ANTIGUIDADE.jpg",
+  "sinopse": "A história do mundo foi moldada por ricos e poderosos. No entanto, para entender o domínio desses personagens é preciso seguir o rastro do dinheiro daqueles que tiveram de tudo: de animais exóticos a festas multimilionárias.",
+  "genero": "Documentário",
+  "elenco": "Darrell Brown",
+  "diretor": "",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:19:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:19:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:16"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:20:09"
+        }
+      ]
+    }
+  ],
+  "id": 5489
+}

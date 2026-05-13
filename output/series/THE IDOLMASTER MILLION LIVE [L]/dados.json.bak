@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzMzE=",
+  "tipo": "serie",
+  "titulo": "THE IDOLMASTER MILLION LIVE [L]",
+  "capa_url": "https://lgfp.one/AWNM",
+  "capa_local": "THE IDOLMASTER MILLION LIVE [L]/THE IDOLMASTER MILLION LIVE [L].jpg",
+  "sinopse": "O sonho de Mirai Kasuga ainda é difícil de definir, a devoção de idol de Shizuka Mogami não conhece limites e Tsubasa Ibuki? Bom, digamos que ela nunca teve um momento de seriedade. Quando essas três almas excêntricas se cruzarem com o mundo cativante das idols, prepare-se para um espetáculo de tirar o fôlego. Junte-se às nossas 39 idols que se juntam para pintar os teatros com os deslumbrantes tons coloridos de um milhão de sonhos!",
+  "genero": "Animação",
+  "elenco": "Azusa Tadokoro, Machico, Haruka Yamazaki, Yu Kahara, Aimi",
+  "diretor": "Shinya Watada",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:05"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 4682
+}

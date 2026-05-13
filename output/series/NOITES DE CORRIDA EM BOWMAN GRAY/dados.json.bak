@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyOTQ=",
+  "tipo": "serie",
+  "titulo": "NOITES DE CORRIDA EM BOWMAN GRAY",
+  "capa_url": "https://lgfp.one/XUJ",
+  "capa_local": "NOITES DE CORRIDA EM BOWMAN GRAY/NOITES DE CORRIDA EM BOWMAN GRAY.jpg",
+  "sinopse": "A primeira e mais longa pista semanal da NASCAR onde a competição é intensa e os motores são potentes.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:55"
+        }
+      ]
+    }
+  ],
+  "id": 3218
+}

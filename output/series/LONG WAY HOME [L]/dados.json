@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NjY=",
+  "tipo": "serie",
+  "titulo": "LONG WAY HOME [L]",
+  "capa_url": "https://lgfp.one/NVY1",
+  "capa_local": "LONG WAY HOME [L]/LONG WAY HOME [L].jpg",
+  "sinopse": "Os melhores amigos Ewan McGregor e Charley Boorman se preparam para a quarta temporada de Long Way. E, desta vez, irão da casa de Ewan, na Escócia, até a de Charley, na Inglaterra. Eles seguirão pela rota panorâmica, claro, e passarão por 17 países europeus pilotando motos antigas e temperamentais.",
+  "genero": "Documentário",
+  "elenco": "Ewan McGregor, Charley Boorman",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:54"
+        }
+      ]
+    }
+  ],
+  "id": 7307
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NjU=",
+  "tipo": "serie",
+  "titulo": "OS ÚLTIMOS CZARES",
+  "capa_url": "https://lgfp.one/RQI4",
+  "capa_local": "OS ULTIMOS CZARES/OS ULTIMOS CZARES.jpg",
+  "sinopse": "A revolta popular se alastra pela Rússia no começo do século 20, mas o czar Nicolau II resiste a mudanças. O resultado é a revolução e o fim brutal da dinastia Romanov.",
+  "genero": "Drama, War & Politics, Documentário",
+  "elenco": "Robert Jack, Oliver Dimsdale, Samuel Collings, Ben Cartwright, Elsie Bennett",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:49"
+        }
+      ]
+    }
+  ],
+  "id": 8816
+}

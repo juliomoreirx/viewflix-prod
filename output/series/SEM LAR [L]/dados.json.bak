@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4NDM=",
+  "tipo": "serie",
+  "titulo": "SEM LAR [L]",
+  "capa_url": "https://lgfp.one/NRI0",
+  "capa_local": "SEM LAR [L]/SEM LAR [L].jpg",
+  "sinopse": "",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "신용우, 심규혁",
+  "diretor": "손영은",
+  "total_episodios": "8",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:41"
+        }
+      ]
+    }
+  ],
+  "id": 7230
+}

@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMTc=",
+  "tipo": "serie",
+  "titulo": "O INTERNATO: LAS CUMBRES",
+  "capa_url": "https://lgfp.one/RNZ",
+  "capa_local": "O INTERNATO LAS CUMBRES/O INTERNATO LAS CUMBRES.jpg",
+  "sinopse": "Depois de uma tentativa de fuga sem sucesso, Manuel desaparece no bosque por ação de um homem misterioso, com uma máscara de corvo. Apesar da disciplina férrea do internato, Paul, Amaia e seus amigos não deixam de procurá-lo um minuto sequer. Em sua aventura, descobrem que a antiga loja que havia no bosque, o Ninho do Corvo, ainda é palco de crimes, e que o internato é mais do que um colégio.",
+  "genero": "Drama, Mistério",
+  "elenco": "Asia Ortega, Albert Salazar, Joel Bosqued, Alberto Amarilla, Mina El Hammani",
+  "diretor": "Denis Rovira",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:50:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:54:55"
+        }
+      ]
+    }
+  ],
+  "id": 1191
+}

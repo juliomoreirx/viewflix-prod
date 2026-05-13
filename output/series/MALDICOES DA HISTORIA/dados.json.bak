@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNTY=",
+  "tipo": "serie",
+  "titulo": "MALDICOES DA HISTORIA",
+  "capa_url": "https://lgfp.one/PJF4",
+  "capa_local": "MALDICOES DA HISTORIA/MALDICOES DA HISTORIA.jpg",
+  "sinopse": "Esta série analisa os sinistros, enigmáticos e desconcertantes elementos históricos, locais, ícones ou eventos que parecem estar, à falta de melhor termo, amaldiçoados. Não tem de acreditar, mas é melhor ter cuidado…",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:23"
+        }
+      ]
+    }
+  ],
+  "id": 7648
+}

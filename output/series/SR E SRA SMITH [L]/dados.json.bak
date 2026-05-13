@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzOTc=",
+  "tipo": "serie",
+  "titulo": "SR E SRA SMITH [L]",
+  "capa_url": "https://lgfp.one/ROQ7",
+  "capa_local": "SR E SRA SMITH [L]/SR E SRA SMITH [L].jpg",
+  "sinopse": "Conheçam os Smiths: dois desconhecidos solitários, John e Jane, que abriram mão de suas vidas e identidades para se tornarem parceiros – tanto na espionagem quanto no casamento.",
+  "genero": "Action & Adventure, Comédia, Drama",
+  "elenco": "Donald Glover, Maya Erskine",
+  "diretor": "Hiro Murai",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:54"
+        }
+      ]
+    }
+  ],
+  "id": 8774
+}

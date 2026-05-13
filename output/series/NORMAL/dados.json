@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3OTc=",
+  "tipo": "serie",
+  "titulo": "NORMAL",
+  "capa_url": "https://lgfp.one/YCJ",
+  "capa_local": "NORMAL/NORMAL.jpg",
+  "sinopse": "Depois de chegar ao fundo do poço, Noam Ashkenazy, um jovem escritor, encontra seu próprio caminho para a normalidade no mais improvável dos lugares: um hospital psiquiátrico.",
+  "genero": "Drama",
+  "elenco": "Roy Nik, Vicrot Haim Bubli, Shiraz Lanciano, Karen Tepper, רמי הויברגר",
+  "diretor": "Asaf Korman",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:58"
+        }
+      ]
+    }
+  ],
+  "id": 2896
+}

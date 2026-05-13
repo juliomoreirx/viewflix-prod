@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3OTk=",
+  "tipo": "serie",
+  "titulo": "DIAGNÓSTICO",
+  "capa_url": "https://lgfp.one/TBJ9",
+  "capa_local": "DIAGNOSTICO/DIAGNOSTICO.jpg",
+  "sinopse": "Com a ajuda do público, a doutora Lisa Sanders busca diagnósticos para doenças misteriosas nessa série baseada em sua coluna no jornal The New York Times.",
+  "genero": "Documentário",
+  "elenco": "Lisa Sanders",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:31"
+        }
+      ]
+    }
+  ],
+  "id": 9495
+}

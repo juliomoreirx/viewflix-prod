@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwNjQ=",
+  "tipo": "serie",
+  "titulo": "O NATAL DOS SILVA",
+  "capa_url": "https://lgfp.one/RBF8",
+  "capa_local": "O NATAL DOS SILVA/O NATAL DOS SILVA.jpg",
+  "sinopse": "Em seu primeiro Natal sem Dona Zelina, a família Silva enfrenta conflitos quando Bel tenta manter as tradições vivas. Entre brigas e fofocas, Luciano esconde um segredo que pode agitar ainda mais a ceia.",
+  "genero": "Drama, Comédia",
+  "elenco": "Rejane Faria, Robert Frank, Aisha Brunno, Carlandréia Ribeiro, Ítalo Laureano",
+  "diretor": "Guto Parente, André Novais Oliveira, Gabriel Martins",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:32"
+        }
+      ]
+    }
+  ],
+  "id": 8457
+}

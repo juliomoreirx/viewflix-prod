@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4Nzk=",
+  "tipo": "serie",
+  "titulo": "ASSASSINO SEM PASSADO",
+  "capa_url": "https://lgfp.one/SJS",
+  "capa_local": "ASSASSINO SEM PASSADO/ASSASSINO SEM PASSADO.jpg",
+  "sinopse": "Pascual León, um aposentado com uma vida monótona, descobre como dar sentido aos seus últimos dias após ser diagnosticado com Alzheimer: vingar um crime hediondo do qual foi testemunha antes que o esquecimento o alcance.",
+  "genero": "Crime, Drama",
+  "elenco": "Damián Alcázar, Paulina Gaitán, Erik Hayser",
+  "diretor": "Ernesto Contreras",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:46"
+        }
+      ]
+    }
+  ],
+  "id": 1947
+}

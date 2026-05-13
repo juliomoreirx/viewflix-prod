@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MjU=",
+  "tipo": "serie",
+  "titulo": "A CIDADE É NOSSA",
+  "capa_url": "https://lgfp.one/THS",
+  "capa_local": "A CIDADE E NOSSA/A CIDADE E NOSSA.jpg",
+  "sinopse": "Os segredos da ascensão e queda da Força Tarefa de Rastreamento de Armas do Departamento de Polícia de Baltimore.",
+  "genero": "Crime / Drama",
+  "elenco": "Jon Bernthal, Wunmi Mosaku, Jamie Hector, Josh Charles, McKinley Belcher III, Rob Brown, David Corenswet, Dagmara Domińczyk",
+  "diretor": "George Pelecanos, David Simon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:51"
+        }
+      ]
+    }
+  ],
+  "id": 2594
+}

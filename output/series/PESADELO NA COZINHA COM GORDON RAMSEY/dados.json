@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyOTQ=",
+  "tipo": "serie",
+  "titulo": "PESADELO NA COZINHA COM GORDON RAMSEY",
+  "capa_url": "https://lgfp.one/AYWB",
+  "capa_local": "PESADELO NA COZINHA COM GORDON RAMSEY/PESADELO NA COZINHA COM GORDON RAMSEY.jpg",
+  "sinopse": "O chef Ramsay tenta fazer o impossível: transformar um restaurante comum e vazio no local mais popular e procurado da cidade. Não há tempo para conversas educadas enquanto ele embarca em sua missão de mudar a sorte de cada restaurante em apenas uma semana e salvá-los de seus pesadelos.",
+  "genero": "Reality",
+  "elenco": "Gordon Ramsay, Arthur Smith",
+  "diretor": "Jay Hunter, Brad Kreisberg, Mark S. Jacobs",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 8",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S08E01",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S08E02",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S08E03",
+          "duracao": "00:41:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S08E04",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S08E05",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S08E06",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S08E07",
+          "duracao": "00:41:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S08E08",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S08E09",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S08E10",
+          "duracao": "00:41:55"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 9",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S09E01",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S09E02",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S09E03",
+          "duracao": "00:41:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S09E04",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S09E05",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S09E06",
+          "duracao": "00:41:12"
+        }
+      ]
+    }
+  ],
+  "id": 4881
+}

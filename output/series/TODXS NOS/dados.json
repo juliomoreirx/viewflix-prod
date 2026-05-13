@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0ODU=",
+  "tipo": "serie",
+  "titulo": "TODXS NÓS",
+  "capa_url": "https://lgfp.one/JIB",
+  "capa_local": "TODXS NOS/TODXS NOS.jpg",
+  "sinopse": "Rafa, Vini e Maia são três jovens adultxs que dividem um apartamento em São Paulo. Vivendo cada qual sua própria experiências, elxs procuram afirmar suas identidades, encontrar seus próprios caminhos e um espaço onde haja lugar e respeito para todxs.",
+  "genero": "Drama",
+  "elenco": "Clara Gallo, Juliana Gerais, Kelner Macêdo, Lourinelson Vladmir",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:19"
+        }
+      ]
+    }
+  ],
+  "id": 606
+}

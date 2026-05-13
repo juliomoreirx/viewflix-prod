@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5NjQ=",
+  "tipo": "serie",
+  "titulo": "TRANSFORMERS: WAR FOR CYBERTRON: O CERCO",
+  "capa_url": "https://lgfp.one/SBC",
+  "capa_local": "TRANSFORMERS WAR FOR CYBERTRON O CERCO/TRANSFORMERS WAR FOR CYBERTRON O CERCO.jpg",
+  "sinopse": "Dois líderes icônicos emergem em um planeta arrasado pela guerra entre Autobots e Decepticons na história que conta a origem do universo Transformers.",
+  "genero": "Animação, Action & Adventure, Kids",
+  "elenco": "Jason Marnocha, Jake Foushee, Linsay Rousseau, Frank Todaro, Joe Zieja",
+  "diretor": "Vincent Talenti",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:38"
+        }
+      ]
+    }
+  ],
+  "id": 228415
+}

@@ -1,0 +1,145 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwOTE=",
+  "tipo": "serie",
+  "titulo": "JAMESTOWN",
+  "capa_url": "https://lgfp.one/JOF",
+  "capa_local": "JAMESTOWN/JAMESTOWN.jpg",
+  "sinopse": "1619, Virgínia: no que parece ser a veira do mundo, fica a colônia britânica de Jamestown. Por 12 anos, ela tem sido povoada apenas por homens, mas o assentamento é abalado quando as primeiras mulheres, incluindo Alice (Sophie Rundle), Verity (Niamh Walsh) e Jocelyn (Naomi Battrick), aterrissam nessas terras de tirar o fôlego.",
+  "genero": "Drama",
+  "elenco": "Sophie Rundle, Niamh Walsh, Naomi Battrick, Gwilym Lee, Stuart Martin",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:38"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:48:12"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:44:22"
+        }
+      ]
+    }
+  ],
+  "id": 791
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDE=",
+  "tipo": "serie",
+  "titulo": "HEROIS DOS TRILHOS",
+  "capa_url": "https://lgfp.one/ATOZ",
+  "capa_local": "HEROIS DOS TRILHOS/HEROIS DOS TRILHOS.jpg",
+  "sinopse": "Depois do vazamento letal de gás numa fábrica em Bhopal, bravos ferroviários arriscam a vida para salvar outras pessoas de um desastre indescritível.",
+  "genero": "Drama",
+  "elenco": "Kay Kay Menon, Divyendu Sharma, Babil Khan, R. Madhavan, Sunny Hinduja",
+  "diretor": "Shiv Rawail, Shiv Rawail, Ahaan Panday",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:05:47"
+        }
+      ]
+    }
+  ],
+  "id": 4489
+}

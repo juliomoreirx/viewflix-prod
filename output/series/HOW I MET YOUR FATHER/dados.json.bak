@@ -1,0 +1,175 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNzQ=",
+  "tipo": "serie",
+  "titulo": "HOW I MET YOUR FATHER",
+  "capa_url": "https://lgfp.one/SZY",
+  "capa_local": "HOW I MET YOUR FATHER/HOW I MET YOUR FATHER.jpg",
+  "sinopse": "Em um futuro próximo, Sophie conta ao filho a história de como conheceu seu pai: uma história que nos catapulta de volta ao ano de 2021, onde Sophie e seu grupo de amigos estão tentando descobrir quem são, o que eles querem da vida e como se apaixonar na era dos aplicativos de namoro e opções ilimitadas.",
+  "genero": "Comédia",
+  "elenco": "Hilary Duff, Chris Lowell, Francia Raisa, Suraj Sharma, Tom Ainsley, Tien Tran, Kim Cattrall, Josh Peck",
+  "diretor": "Isaac Aptaker, Elizabeth Berger",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:39"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:21:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:21:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:21:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:20:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:20:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:20:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:20:11"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:22:02"
+        },
+        {
+          "numero": "15",
+          "codigo": "S02E15",
+          "duracao": "00:21:10"
+        },
+        {
+          "numero": "16",
+          "codigo": "S02E16",
+          "duracao": "00:24:18"
+        },
+        {
+          "numero": "17",
+          "codigo": "S02E17",
+          "duracao": "00:22:32"
+        },
+        {
+          "numero": "18",
+          "codigo": "S02E18",
+          "duracao": "00:20:23"
+        },
+        {
+          "numero": "19",
+          "codigo": "S02E19",
+          "duracao": "00:22:51"
+        },
+        {
+          "numero": "20",
+          "codigo": "S02E20",
+          "duracao": "00:25:09"
+        }
+      ]
+    }
+  ],
+  "id": 2387
+}

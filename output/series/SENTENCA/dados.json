@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMTU=",
+  "tipo": "serie",
+  "titulo": "SENTENÇA",
+  "capa_url": "https://lgfp.one/TDO",
+  "capa_local": "SENTENCA/SENTENCA.jpg",
+  "sinopse": "Heloísa é uma advogada criminalista que acredita na lei e no direito à defesa, mas se vê numa encruzilhada quando a justiça falha com quem mais ama.",
+  "genero": "Drama / Crime",
+  "elenco": "Camila Morgado, Fernando Alves Pinto, Victor Hugo Martins, Lena Roque, Lucinha Lins, Arthur Kohl, Pedro Caetano, Alexandre Apolinário",
+  "diretor": "Anahí Berneri, Marina Meliande",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:01"
+        }
+      ]
+    }
+  ],
+  "id": 2483
+}

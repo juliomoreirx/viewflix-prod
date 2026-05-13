@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5ODM=",
+  "tipo": "serie",
+  "titulo": "GOEDAM",
+  "capa_url": "https://lgfp.one/REJ",
+  "capa_local": "GOEDAM/GOEDAM.jpg",
+  "sinopse": "Ao cair da noite, sombras e espíritos ganham vida nesta série antológica de terror baseada em lendas urbanas.",
+  "genero": "Mistério, Drama",
+  "elenco": "Han Su-ah, Song Chae-Yoon, Jang Won-hyuk",
+  "diretor": "Won Ki Hong",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:08:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:08:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:09:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:07:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:07:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:10:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:08:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:15:22"
+        }
+      ]
+    }
+  ],
+  "id": 927
+}

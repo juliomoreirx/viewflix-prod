@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMDg=",
+  "tipo": "serie",
+  "titulo": "DIAS MELHORES",
+  "capa_url": "https://lgfp.one/NOX5",
+  "capa_local": "DIAS MELHORES/DIAS MELHORES.jpg",
+  "sinopse": "Com a ajuda da Dra. Laforet e sua peculiar terapia do luto, um grupo de pais e mães que acabaram de perder seus parceiros tentará superar a dor e seguir em frente em suas vidas.",
+  "genero": "Drama",
+  "elenco": "Blanca Portillo, Francesc Orella, Marta Hazas, Erick Elías, Alba Planas",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:35"
+        }
+      ]
+    }
+  ],
+  "id": 84973
+}

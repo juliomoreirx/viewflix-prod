@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NzM=",
+  "tipo": "serie",
+  "titulo": "WAS IT LOVE [L]",
+  "capa_url": "https://lgfp.one/REH",
+  "capa_local": "WAS IT LOVE [L]/WAS IT LOVE [L].jpg",
+  "sinopse": "Quatro homens muito diferentes surgem na vida de uma mãe solo. É hora de redescobrir o amor – e a si mesma.",
+  "genero": "Comédia, Drama",
+  "elenco": "Song Ji-hyo, Son Ho-jun, Song Jong-ho, Kim Min-jun, Koo Ja-sung",
+  "diretor": "Kim Do-Hyung",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:10:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:07:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:06:21"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:04:01"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:05:26"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:07:17"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:08:03"
+        }
+      ]
+    }
+  ],
+  "id": 925
+}

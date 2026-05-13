@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2ODE=",
+  "tipo": "serie",
+  "titulo": "EVIL BY DESIGN: SURVIVING NYGÅRD",
+  "capa_url": "https://lgfp.one/AAHS",
+  "capa_local": "EVIL BY DESIGN SURVIVING NYGARD/EVIL BY DESIGN SURVIVING NYGARD.jpg",
+  "sinopse": "O imigrante finlandês Peter Nygård rapidamente se torna o queridinho do mundo da moda canadense. Mas nos bastidores de sua empresa de vestuário, os funcionários sofrem abusos verbais e sexuais. Esta série explora toda investigação e suas evidências.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:08"
+        }
+      ]
+    }
+  ],
+  "id": 3549
+}

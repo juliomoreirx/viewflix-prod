@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MjQ=",
+  "tipo": "serie",
+  "titulo": "OS APUROS DE PENÉLOPE CHARMOSA",
+  "capa_url": "https://lgfp.one/THN",
+  "capa_local": "OS APUROS DE PENELOPE CHARMOSA/OS APUROS DE PENELOPE CHARMOSA.jpg",
+  "sinopse": "A história gira em torno de Penélope Charmosa, que é herdeira de uma vasta fortuna, e que vive sendo perseguida pelo vilão Tião Gavião.\n\nEla conta com a ajuda da Quadrilha da Morte e seu carro Chugabum para protegê-la, mas invariavelmente se salva sozinha, em histórias por diversas partes do mundo.",
+  "genero": "Animação / Kids / Família",
+  "elenco": "Gary Owens, Paul Winchell, Janet Waldo, Don Messick, Mel Blanc, Paul Lynde",
+  "diretor": "Joseph Barbera, William Hanna",
+  "total_episodios": "21",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:49"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:20:47"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:20:46"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:20:52"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:20:44"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:20:49"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:20:50"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:20:45"
+        }
+      ]
+    }
+  ],
+  "id": 227854
+}

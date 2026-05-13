@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNzc=",
+  "tipo": "serie",
+  "titulo": "NINJA KAMUI",
+  "capa_url": "https://lgfp.one/AUQ9",
+  "capa_local": "NINJA KAMUI/NINJA KAMUI.jpg",
+  "sinopse": "Um ex-membro de um clã ninja desistiu para viver uma vida tranquila com sua esposa e filho. Uma noite, sua família morre após ser atacada por uma organização misteriosa. O homem é torturado pelas consequências.",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Kenjiro Tsuda, Atsushi Ono, Tatsumaru Tachibana",
+  "diretor": "Sunghoo Park, Hiroki Itai, Hiro Ôki",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:22"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:22"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:22"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:21"
+        }
+      ]
+    }
+  ],
+  "id": 5294
+}

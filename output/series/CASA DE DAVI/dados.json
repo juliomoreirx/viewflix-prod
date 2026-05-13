@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1Njk=",
+  "tipo": "serie",
+  "titulo": "CASA DE DAVI",
+  "capa_url": "https://lgfp.one/NDG5",
+  "capa_local": "CASA DE DAVI/CASA DE DAVI.jpg",
+  "sinopse": "Conta a história da ascensão do ícone bíblico Davi, que se torna o mais famoso rei de Israel. O outrora poderoso rei Saul é vítima de seu próprio orgulho. Seguindo as ordens de Deus, o profeta Samuel unge um pária adolescente como o novo rei.",
+  "genero": "Drama",
+  "elenco": "Michael Iskander,Ali Suliman, Indy Lewis",
+  "diretor": "Jon Gunn, Jon Erwin",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:08"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:57:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:59:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:57:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:58:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:58:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:04:41"
+        }
+      ]
+    }
+  ],
+  "id": 6962
+}

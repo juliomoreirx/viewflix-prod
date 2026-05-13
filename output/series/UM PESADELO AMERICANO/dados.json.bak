@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNjQ=",
+  "tipo": "serie",
+  "titulo": "UM PESADELO AMERICANO",
+  "capa_url": "https://lgfp.one/AYSD",
+  "capa_local": "UM PESADELO AMERICANO/UM PESADELO AMERICANO.jpg",
+  "sinopse": "Nesta série sobre um crime real de 2015, um casal é acusado de forjar uma invasão à própria residência e um sequestro após o reaparecimento da vítima.",
+  "genero": "Documentário, Crime",
+  "elenco": "Denise Huskins, Aaron Quinn",
+  "diretor": "Felicity Morris",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:27"
+        }
+      ]
+    }
+  ],
+  "id": 4863
+}

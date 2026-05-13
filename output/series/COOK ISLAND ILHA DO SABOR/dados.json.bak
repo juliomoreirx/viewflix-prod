@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNTc=",
+  "tipo": "serie",
+  "titulo": "COOK ISLAND: ILHA DO SABOR",
+  "capa_url": "https://lgfp.one/TII",
+  "capa_local": "COOK ISLAND ILHA DO SABOR/COOK ISLAND ILHA DO SABOR.jpg",
+  "sinopse": "Cook Island é uma competição culinária onde doze Chefs profissionais vão vivenciar uma experiência na natureza para mostrar que são cozinheiros de mão cheia.",
+  "genero": "Reality",
+  "elenco": "Kaywa Hilton, Manuelle Ferraz, Joaquim Lopes, Jéssica Ellen",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:58"
+        }
+      ]
+    }
+  ],
+  "id": 2613
+}

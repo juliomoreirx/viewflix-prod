@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MDk=",
+  "tipo": "serie",
+  "titulo": "RUPAULS DRAG RACE GLOBAL ALL STARS",
+  "capa_url": "https://lgfp.one/PJF9",
+  "capa_local": "RUPAULS DRAG RACE GLOBAL ALL STARS/RUPAULS DRAG RACE GLOBAL ALL STARS.jpg",
+  "sinopse": "RuPaul convida 12 das melhores Drag Race Queens do mundo para se unirem e competirem em uma série de desafios hilariantes e glamorosos.",
+  "genero": "Reality",
+  "elenco": "RuPaul, Michelle Visage, Jamal Sims",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:06"
+        }
+      ]
+    }
+  ],
+  "id": 7653
+}

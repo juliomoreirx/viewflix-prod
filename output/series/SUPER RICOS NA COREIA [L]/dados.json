@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNzk=",
+  "tipo": "serie",
+  "titulo": "SUPER RICOS NA COREIA [L]",
+  "capa_url": "https://lgfp.one/RQY4",
+  "capa_local": "SUPER RICOS NA COREIA [L]/SUPER RICOS NA COREIA [L].jpg",
+  "sinopse": "Conheça a vida luxuosa dos multimilionários na Coreia: um magnata de Singapura, o herdeiro de uma marca de luxo da Itália e uma integrante da nobreza do Paquistão.",
+  "genero": "Reality",
+  "elenco": "조세호, 뱀뱀, Mimi",
+  "diretor": "여운혁",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:34"
+        }
+      ]
+    }
+  ],
+  "id": 8840
+}

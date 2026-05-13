@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MDc=",
+  "tipo": "serie",
+  "titulo": "O PIOR DO MAL [L]",
+  "capa_url": "https://lgfp.one/ABCR",
+  "capa_local": "O PIOR DO MAL [L]/O PIOR DO MAL [L].jpg",
+  "sinopse": "Em 1995, começa uma investigação para desmantelar os cartéis da Coreia do Sul, China e Japão. Junmo, um policial do interior, infiltra-se na ambiciosa Legião de Gangnam, sem saber da complexa relação entre sua esposa e o chefe da gangue. Essa trama do destino os leva ao pior dos cenários.",
+  "genero": "Crime, Action & Adventure, Drama",
+  "elenco": "Ji Chang-wook, Wi Ha-jun, Lim Se-mi, BIBI, Kyul Hwi",
+  "diretor": "Han Dong-wook, Park Geun-buem",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:09:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:53:18"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:05:59"
+        }
+      ]
+    }
+  ],
+  "id": 4128
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNzQ=",
+  "tipo": "serie",
+  "titulo": "ONDE ESTA A WANDA",
+  "capa_url": "https://lgfp.one/DUG5",
+  "capa_local": "ONDE ESTA A WANDA/ONDE ESTA A WANDA.jpg",
+  "sinopse": "Depois que a filha dos Klatt desaparece, eles tomam as rédeas da situação e bolam um plano maluco: espionar a vizinhança. Enquanto fazem sua espionagem de iniciantes, segredos chocantes vêm à tona um por um.",
+  "genero": "Drama, Comédia",
+  "elenco": "Heike Makatsch, Axel Stein, Lea Drinda, Nikeata Thompson, Leo Simon",
+  "diretor": "Zoltan Spirandelli, Christian Ditter",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:05"
+        }
+      ]
+    }
+  ],
+  "id": 6067
+}

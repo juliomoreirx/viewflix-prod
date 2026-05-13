@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MDc=",
+  "tipo": "serie",
+  "titulo": "KALAHARI LAND OF SECRET ALLIANCES",
+  "capa_url": "https://lgfp.one/NTQ6",
+  "capa_local": "KALAHARI LAND OF SECRET ALLIANCES/KALAHARI LAND OF SECRET ALLIANCES.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Pierre Stine",
+  "total_episodios": "150",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:41"
+        }
+      ]
+    }
+  ],
+  "id": 7262
+}

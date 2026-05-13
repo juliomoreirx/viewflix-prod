@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MDg=",
+  "tipo": "serie",
+  "titulo": "FUNDAMENTOS DO PRAZER",
+  "capa_url": "https://lgfp.one/TAR",
+  "capa_local": "FUNDAMENTOS DO PRAZER/FUNDAMENTOS DO PRAZER.jpg",
+  "sinopse": "Sexo, alegria e ciência moderna se unem nesta série reveladora para enaltecer a complexidade do prazer feminino e destruir mitos antiquados.",
+  "genero": "Documentário",
+  "elenco": "Michelle Buteau, Supriya Ganesh, Annie Pisapia, Gina Nicole Brown, Julia Zou",
+  "diretor": "Niharika Desai, Sindha Agha, Sindha Agha",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:45"
+        }
+      ]
+    }
+  ],
+  "id": 2406
+}

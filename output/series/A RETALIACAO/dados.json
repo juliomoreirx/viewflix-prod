@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNzE=",
+  "tipo": "serie",
+  "titulo": "A RETALIAÇÃO",
+  "capa_url": "https://lgfp.one/TCE",
+  "capa_local": "A RETALIACAO/A RETALIACAO.jpg",
+  "sinopse": "Alon Shenhav, um detetive extraordinário, retorna a sua cidade natal, onde busca deter uma violenta organização criminosa.",
+  "genero": "Crime, Drama",
+  "elenco": "Tsahi Halevi, Danny Steg, מאור שוויצר, Daniel Gad, Shani Cohen",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:17"
+        }
+      ]
+    }
+  ],
+  "id": 2446
+}

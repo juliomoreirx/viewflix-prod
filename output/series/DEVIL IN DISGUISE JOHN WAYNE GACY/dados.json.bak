@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1OTY=",
+  "tipo": "serie",
+  "titulo": "DEVIL IN DISGUISE JOHN WAYNE GACY",
+  "capa_url": "https://lgfp.one/RPA7",
+  "capa_local": "DEVIL IN DISGUISE JOHN WAYNE GACY/DEVIL IN DISGUISE JOHN WAYNE GACY.jpg",
+  "sinopse": "Quando um adolescente desaparece, o principal suspeito é John Wayne Gacy. À medida que os agentes seguem, interrogam e acabam por prender Gacy, torna-se claro que muitos jovens e rapazes desapareceram às suas mãos.",
+  "genero": "Crime, Drama",
+  "elenco": "Michael Chernus, Gabriel Luna, James Badge Dale, Michael Angarano, Chris Sullivan",
+  "diretor": "",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:03"
+        }
+      ]
+    }
+  ],
+  "id": 8786
+}

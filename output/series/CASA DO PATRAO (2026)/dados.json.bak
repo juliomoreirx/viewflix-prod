@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU5Mjc=",
+  "tipo": "serie",
+  "titulo": "CASA DO PATRAO (2026)",
+  "capa_url": "https://lgfp.one/TCQ7",
+  "capa_local": "CASA DO PATRAO (2026)/CASA DO PATRAO (2026).jpg",
+  "sinopse": "Este novo reality show acompanha a convivência entre participantes anônimos dentro de três casas: Casa do Patrão, Casa do Trampo e Casa de Convivência. Nessa dinâmica, decisões, privilégios e responsabilidades reorganizam constantemente o grupo. Apresentado por Leandro Hassum, o programa promete responder à pergunta: o poder muda as pessoas ou só revela quem elas sempre foram?",
+  "genero": "Reality",
+  "elenco": "Leandro Hassum",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:27:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:18:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:19:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:48"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:07:40"
+        }
+      ]
+    }
+  ],
+  "id": 9550
+}

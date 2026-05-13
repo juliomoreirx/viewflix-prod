@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MzQ=",
+  "tipo": "serie",
+  "titulo": "TINDER APRESENTA MTV BEIJA SAPO",
+  "capa_url": "https://lgfp.one/ABCX",
+  "capa_local": "TINDER APRESENTA MTV BEIJA SAPO/TINDER APRESENTA MTV BEIJA SAPO.jpg",
+  "sinopse": "O programa que marcou uma geração e a televisão brasileira nos anos 2000 está de volta! Apresentado pelo Tinder, a nova versão do Beija Sapo tem a maravilhosa Valentina Bandeira como apresentadora, que faz sucesso na internet e por onde passa.",
+  "genero": "Reality",
+  "elenco": "Valentina Bandeira",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:54"
+        }
+      ]
+    }
+  ],
+  "id": 4135
+}

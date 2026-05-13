@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMTc=",
+  "tipo": "serie",
+  "titulo": "GIGANTES DA INDUSTRIA UMA GERACAO DE TITAS",
+  "capa_url": "https://lgfp.one/AGWF",
+  "capa_local": "GIGANTES DA INDUSTRIA UMA GERACAO DE TITAS/GIGANTES DA INDUSTRIA UMA GERACAO DE TITAS.jpg",
+  "sinopse": "A série destaca, entre outros, Rockefeller, Vanderbilt, Carnegie, Ford e Morgan, os homens que transformaram os Estados Unidos em uma superpotência global.",
+  "genero": "Documentário",
+  "elenco": "Campbell Scott, Gerald Kyd, Grant Masters, Cillian O'Gairbhi, Peter O'Meara",
+  "diretor": "",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:25:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:22"
+        }
+      ]
+    }
+  ],
+  "id": 5011
+}

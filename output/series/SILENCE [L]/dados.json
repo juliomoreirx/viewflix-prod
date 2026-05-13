@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MzQ=",
+  "tipo": "serie",
+  "titulo": "SILENCE [L]",
+  "capa_url": "https://lgfp.one/AAUV",
+  "capa_local": "SILENCE [L]/SILENCE [L].jpg",
+  "sinopse": "Eventos dramáticos se desenrolam na Croácia e na Ucrânia. Duas garotas aparecem mortas, e o principal suspeito dessas mortes logo se revela inocente – e morto também. Enquanto o detetive Vladimir e o repórter Stribor lutam para resolver esses assassinatos na Croácia, a sobrinha de Olga, uma filantropa ucraniana, desaparece em Kiev. O marido croata de Olga, Ivan Hrvatic, uma das pessoas mais influentes da cidade de Osijek, se compromete a ajudar na investigação. Mas a garota desaparecida é encontrada morta – em Osijek, não em Kiev. E ela agora é a terceira vítima. Parece que um serial killer está operando na Croácia. Vladimir, Stribor e Olga acabarão descobrindo a verdade, mas não antes de cada um deles pagar um alto preço por isso.",
+  "genero": "Mistério, Drama, Crime",
+  "elenco": "Kseniia Mishyna, Goran Bogdan, Darko Milas, Iryna Verenych-Ostrovska, Sandra Lončarić",
+  "diretor": "Dalibor Matanić",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:03"
+        }
+      ]
+    }
+  ],
+  "id": 3886
+}

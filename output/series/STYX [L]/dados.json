@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4MjY=",
+  "tipo": "serie",
+  "titulo": "STYX [L]",
+  "capa_url": "https://lgfp.one/OAN2",
+  "capa_local": "STYX [L]/STYX [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Sebastien Dewaele, Loes Haverkort, Koen De Bouw, Werner Kolf, Dahlia Pessemiers",
+  "diretor": "Jeroen Dumoulein",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:03:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:06:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:20"
+        }
+      ]
+    }
+  ],
+  "id": 7370
+}

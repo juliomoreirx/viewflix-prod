@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MDI=",
+  "tipo": "serie",
+  "titulo": "HALSTON",
+  "capa_url": "https://lgfp.one/RSA",
+  "capa_local": "HALSTON/HALSTON.jpg",
+  "sinopse": "Seu nome construiu um império. Seu estilo definiu uma era. A carreira do estilista de moda Halston decola, mas sua vida logo foge do controle.",
+  "genero": "Drama",
+  "elenco": "Ewan McGregor, Rebecca Dayan, David Pittu, Krysta Rodriguez",
+  "diretor": "Daniel Minahan, Scott Robertson, Bobbin Ramsey",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:23"
+        }
+      ]
+    }
+  ],
+  "id": 1302
+}

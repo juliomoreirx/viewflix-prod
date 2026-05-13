@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMjg=",
+  "tipo": "serie",
+  "titulo": "AMOR NO NATAL",
+  "capa_url": "https://lgfp.one/KBD3",
+  "capa_local": "AMOR NO NATAL/AMOR NO NATAL.jpg",
+  "sinopse": "Natal é sobre passar com a família e agradecer por mais um ano juntos e com saúde, principalmente por termos sobrevivido a uma pandemia mundial. É sobre criar vínculos e repassar para as novas gerações tradições.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:42"
+        }
+      ]
+    }
+  ],
+  "id": 6326
+}

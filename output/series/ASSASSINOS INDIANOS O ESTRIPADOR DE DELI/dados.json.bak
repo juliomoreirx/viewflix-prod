@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Mjk=",
+  "tipo": "serie",
+  "titulo": "ASSASSINOS INDIANOS: O ESTRIPADOR DE DÉLI",
+  "capa_url": "https://lgfp.one/TLN",
+  "capa_local": "ASSASSINOS INDIANOS O ESTRIPADOR DE DELI/ASSASSINOS INDIANOS O ESTRIPADOR DE DELI.jpg",
+  "sinopse": "A polícia precisa capturar um assassino experiente que deixa corpos mutilados junto com cartas cheias de insultos bem na porta de uma prisão de Déli.",
+  "genero": "Documentário, Crime",
+  "elenco": "Bunny Adhikari, Manjit Singh, Jitendra Sharma, Hemanshu Kumar, Ankita Sharma",
+  "diretor": "Ayesha Sood",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:36"
+        }
+      ]
+    }
+  ],
+  "id": 2702
+}

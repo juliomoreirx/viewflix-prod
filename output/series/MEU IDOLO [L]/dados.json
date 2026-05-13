@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4Njk=",
+  "tipo": "serie",
+  "titulo": "MEU IDOLO [L]",
+  "capa_url": "https://lgfp.one/REX6",
+  "capa_local": "MEU IDOLO [L]/MEU IDOLO [L].jpg",
+  "sinopse": "Uma superadvogada criminalista é fã de carteirinha de boy band. Mas as coisas se complicam quando seu ídolo vira suspeito de homicídio.",
+  "genero": "Comédia, Mistério, Drama",
+  "elenco": "Choi Sooyoung, 김재영, Choi Hee-jin, Kim Hyun Jin, 정재광",
+  "diretor": "이광영",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:07:17"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:07"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:59:08"
+        }
+      ]
+    }
+  ],
+  "id": 8555
+}

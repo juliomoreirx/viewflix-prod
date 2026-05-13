@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3OTk=",
+  "tipo": "serie",
+  "titulo": "A NOVA FORÇA",
+  "capa_url": "https://lgfp.one/QDE6",
+  "capa_local": "A NOVA FORCA/A NOVA FORCA.jpg",
+  "sinopse": "Na Suécia dos anos 1950, um distrito policial enfrenta a falta de pessoal com uma experiência ousada: receber sua primeira equipe feminina. Inspirada em fatos reais.",
+  "genero": "Drama",
+  "elenco": "Josefin Asplund, Agnes Westerlund Rase, Malin Persson, Christopher Wagelin, Rasmus Luthander",
+  "diretor": "Julia Lindström, Rojda Sekersöz",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:28"
+        }
+      ]
+    }
+  ],
+  "id": 8130
+}

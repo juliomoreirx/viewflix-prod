@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNDY=",
+  "tipo": "serie",
+  "titulo": "RIVAIS",
+  "capa_url": "https://lgfp.one/KNQ2",
+  "capa_local": "RIVAIS/RIVAIS.jpg",
+  "sinopse": "É 1986, e o Reino Unido está no auge. “Rivais” mergulha no mundo brutal da TV, onde os penteados são grandes e as ambições ainda maiores. Acordos são feitos em escritórios bem como na cama. Não há como saber quem vai sair vencedor. Com cada homem e mulher por si, será que o amor verdadeiro pode surgir nesta tão aguardada adaptação do romance best-seller das Crônicas de Rutshire de Jilly Cooper?",
+  "genero": "Drama",
+  "elenco": "David Tennant, Aidan Turner, Danny Dyer, Alex Hassell, Nafessa Williams",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:04"
+        }
+      ]
+    }
+  ],
+  "id": 206617
+}

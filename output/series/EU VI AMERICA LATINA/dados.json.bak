@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4ODc=",
+  "tipo": "serie",
+  "titulo": "EU VI: AMÉRICA LATINA",
+  "capa_url": "https://lgfp.one/RUM",
+  "capa_local": "EU VI AMERICA LATINA/EU VI AMERICA LATINA.jpg",
+  "sinopse": "Um olhar arrepiante nos relatos em primeira mão de latino-americanos que testemunharam eventos sobrenaturais horríveis e extraordinários e outros fenômenos inexplicáveis. Essas experiências 100% reais apresentam eventos aterrorizantes, psicologicamente perturbadores e muitas vezes paranormais.",
+  "genero": "Reality",
+  "elenco": "Cristal Aparicio, Pablo Guisa Koestinger, Alejandro Restrepo",
+  "diretor": "Adrian Garcia Bogliano",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:52"
+        }
+      ]
+    }
+  ],
+  "id": 1373
+}

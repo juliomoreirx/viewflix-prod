@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NDU=",
+  "tipo": "serie",
+  "titulo": "CROMANON A NOITE DO INCENDIO",
+  "capa_url": "https://lgfp.one/EFE6",
+  "capa_local": "CROMANON A NOITE DO INCENDIO/CROMANON A NOITE DO INCENDIO.jpg",
+  "sinopse": "Ano de 2008. Uma notícia conecta Malena, 22 anos, com seu passado traumático. Em 2004, ela foi a um show de rock na República de Cromañón, onde um incêndio começou, e 194 jovens morreram. Agora, quatro anos depois, um novo acontecimento a conectará a amores e amizades do passado, ajudando-a a superar a culpa que sente por estar viva.",
+  "genero": "Drama",
+  "elenco": "Olivia Nuss, Toto Rovito",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:07"
+        }
+      ]
+    }
+  ],
+  "id": 6204
+}

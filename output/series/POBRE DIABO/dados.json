@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NTk=",
+  "tipo": "serie",
+  "titulo": "POBRE DIABO",
+  "capa_url": "https://lgfp.one/YNL",
+  "capa_local": "POBRE DIABO/POBRE DIABO.jpg",
+  "sinopse": "Stan é um jovem Anticristo que não gosta de fazer o mal, mas está destinado a desencadear o apocalipse e destruir a humanidade.",
+  "genero": "Animação",
+  "elenco": "Joaquín Reyes, Ernesto Sevilla, Ignatius Farray, Gakian, Stéphanie Magnin",
+  "diretor": "Miguel Esteban",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:26"
+        }
+      ]
+    }
+  ],
+  "id": 3298
+}

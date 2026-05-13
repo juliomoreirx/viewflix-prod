@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzOTM=",
+  "tipo": "serie",
+  "titulo": "THE GUEST [L]",
+  "capa_url": "https://lgfp.one/RHM9",
+  "capa_local": "THE GUEST [L]/THE GUEST [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime",
+  "elenco": "Eve Myles, Gabrielle Creevy, Sion Daniel Young, Emun Elliott, Bethan Mary-James",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:59"
+        }
+      ]
+    }
+  ],
+  "id": 8689
+}

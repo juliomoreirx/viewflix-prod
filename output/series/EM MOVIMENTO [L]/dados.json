@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MDg=",
+  "tipo": "serie",
+  "titulo": "EM MOVIMENTO [L]",
+  "capa_url": "https://lgfp.one/AASM",
+  "capa_local": "EM MOVIMENTO [L]/EM MOVIMENTO [L].jpg",
+  "sinopse": "Nesta série de ação sobrenatural, jovens que escondem superpoderes e seus pais, que vivem com segredos dolorosos do passado, enfrentam grandes perigos juntos.",
+  "genero": "Action & Adventure, Mistério, Drama",
+  "elenco": "Ryu Seung-ryong, Han Hyo-joo, Zo In-sung, Cha Tae-hyun, Ryoo Seung-bum",
+  "diretor": "Park In-je, Park Yoon-seo",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:50:21"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:50:52"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:41:11"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:38:40"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:45:21"
+        }
+      ]
+    }
+  ],
+  "id": 4920
+}

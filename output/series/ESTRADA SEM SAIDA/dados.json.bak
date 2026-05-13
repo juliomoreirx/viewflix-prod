@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MTI=",
+  "tipo": "serie",
+  "titulo": "ESTRADA SEM SAÍDA",
+  "capa_url": "https://lgfp.one/WLI",
+  "capa_local": "ESTRADA SEM SAIDA/ESTRADA SEM SAIDA.jpg",
+  "sinopse": "Com tanto dinheiro em jogo, estas quatro pessoas desesperadas vão fazer de tudo pela grana. Até mesmo enfrentar um criminoso que não pensa duas vezes antes de matar.",
+  "genero": "Comédia, Drama",
+  "elenco": "Juliusz Chrząstowski, Łukasz Garlicki, Anna Ilczuk, Jaśmina Polak, Michał Sikorski",
+  "diretor": "Jakub Piątek, Quentin Regnier",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:06"
+        }
+      ]
+    }
+  ],
+  "id": 3111
+}

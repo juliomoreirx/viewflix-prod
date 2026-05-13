@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMDA=",
+  "tipo": "serie",
+  "titulo": "O TOQUE DO SILÊNCIO",
+  "capa_url": "https://lgfp.one/JGX",
+  "capa_local": "O TOQUE DO SILENCIO/O TOQUE DO SILENCIO.jpg",
+  "sinopse": "Militares britânicos vivem com mulheres e filhos no Iêmen, em 1965, para combater o levante da população local. Além dos confrontos, eles precisam superar as questões familiares.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Jessie Buckley, Stephen Campbell Moore, Amanda Drew, Ben Miles, Jeremy Neumark Jones",
+  "diretor": "",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:18"
+        }
+      ]
+    }
+  ],
+  "id": 572
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNTg=",
+  "tipo": "serie",
+  "titulo": "RELATOS DO FRONT: A OUTRA FACE DO CARTÃO POSTAL",
+  "capa_url": "https://lgfp.one/YCD",
+  "capa_local": "RELATOS DO FRONT A OUTRA FACE DO CARTAO POSTAL/RELATOS DO FRONT A OUTRA FACE DO CARTAO POSTAL.jpg",
+  "sinopse": "Através dos relatos de policiais, mães e ex-criminosos, conheceremos o lado mais sombrio do Rio de Janeiro, que enfrenta problemas sérios quando o assunto é segurança pública.",
+  "genero": "Documentário, Crime",
+  "elenco": "Dira Paes",
+  "diretor": "Renato Martins, Renato Martins",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:08"
+        }
+      ]
+    }
+  ],
+  "id": 2597
+}

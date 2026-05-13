@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMjQ=",
+  "tipo": "serie",
+  "titulo": "GRANDE DRAGAO [L]",
+  "capa_url": "https://lgfp.one/BAT3",
+  "capa_local": "GRANDE DRAGAO [L]/GRANDE DRAGAO [L].jpg",
+  "sinopse": "Yai é um estudante de administração de empresas promissor e bonito que cativa corações com um único olhar. Ele está sendo entrevistado para um segmento de vídeo produzido pela universidade, onde espera conquistar o coração da mulher que deseja. E quando ele acha que conseguiu, surge o estudante de arquitetura, do quinto ano, Mangkorn. Este último, outro jovem extremamente atraente e superconfiante, imediatamente supera Yai. Os espectadores do vídeo também concordam que Mangkorn é um indivíduo bonito e notável e deixam comentários desaprovadores sobre Yai.",
+  "genero": "Drama, Comédia",
+  "elenco": "Mondop Heamtan, Mos Panuwat Sopradit, Bovorn Kongnawdee, Rathasat Butwong",
+  "diretor": "Puwadon Naosopa",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:55"
+        }
+      ]
+    }
+  ],
+  "id": 5401
+}

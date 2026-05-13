@@ -1,0 +1,95 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NjQ=",
+  "tipo": "serie",
+  "titulo": "IRMANDADE",
+  "capa_url": "https://lgfp.one/IRH",
+  "capa_local": "IRMANDADE/IRMANDADE.jpg",
+  "sinopse": "Uma advogada honesta enfrenta um dilema moral depois que policiais a forçam a delatar seu irmão, que está preso e lidera uma facção criminosa em ascensão.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Seu Jorge, Hermila Guedes, Bruce Wexler",
+  "diretor": "Pedro Morelli",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:56"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:53:58"
+        }
+      ]
+    }
+  ],
+  "id": 29863
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMjE=",
+  "tipo": "serie",
+  "titulo": "VOU VIVER DE HQ",
+  "capa_url": "https://lgfp.one/WLL",
+  "capa_local": "VOU VIVER DE HQ/VOU VIVER DE HQ.jpg",
+  "sinopse": "A série acompanha a saga de sucesso, prêmios e desafios pessoais de dois irmãos gêmeos brasileiros que conquistam o prêmio mais importante do mercado internacional de HQs.",
+  "genero": "Documentário",
+  "elenco": "Fabio Moon, Gabriel Bá",
+  "diretor": "Giuliano Zanelato",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:35"
+        }
+      ]
+    }
+  ],
+  "id": 3114
+}

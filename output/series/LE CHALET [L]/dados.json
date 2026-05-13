@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NzA=",
+  "tipo": "serie",
+  "titulo": "LE CHALET [L]",
+  "capa_url": "https://lgfp.one/RGF",
+  "capa_local": "LE CHALET [L]/LE CHALET [L].jpg",
+  "sinopse": "Era para ser uma reunião de verão em um chalé afastado. Mas estes amigos caíram em uma cilada mortal que vai revelar um segredo obscuro do passado.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "Marc Ruchmann, Emilie de Preissac, Agnès Delachair, Nicolas Gob, Chloé Lambert",
+  "diretor": "Camille Bordes-Resnais",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:48"
+        }
+      ]
+    }
+  ],
+  "id": 980
+}

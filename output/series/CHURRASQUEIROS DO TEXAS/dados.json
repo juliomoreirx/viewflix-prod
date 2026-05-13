@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MTU=",
+  "tipo": "serie",
+  "titulo": "CHURRASQUEIROS DO TEXAS",
+  "capa_url": "https://lgfp.one/AYNH",
+  "capa_local": "CHURRASQUEIROS DO TEXAS/CHURRASQUEIROS DO TEXAS.jpg",
+  "sinopse": "Em cada episódio desta divertida série, três equipes constroem as churrasqueiras mais impressionantes e preparam deliciosas carnes grelhadas. No final, o construtor com a maior pontuação ganha um grande prêmio em dinheiro.",
+  "genero": "",
+  "elenco": "John Paiz",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:41"
+        }
+      ]
+    }
+  ],
+  "id": 4824
+}

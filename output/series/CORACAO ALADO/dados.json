@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI1MTc=",
+  "tipo": "serie",
+  "titulo": "CORAÇÃO ALADO",
+  "capa_url": "https://lgfp.one/AUP8",
+  "capa_local": "CORACAO ALADO/CORACAO ALADO.jpg",
+  "sinopse": "Juca Pitanga, um artista plástico pernambucano, deixa sua cidade e vai para o Rio de Janeiro em busca de maior visibilidade na carreira. Em solo carioca, ele se envolve com Catucha, filha do respeitável empresário Alberto Karany.",
+  "genero": "Soap, Drama",
+  "elenco": "Tarcísio Meira, Vera Fischer, Débora Duarte, Walmor Chagas, Jardel Filho",
+  "diretor": "Roberto Talma",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:44"
+        }
+      ]
+    }
+  ],
+  "id": 5283
+}

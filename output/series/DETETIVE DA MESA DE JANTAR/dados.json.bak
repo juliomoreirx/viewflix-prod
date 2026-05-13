@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NzU=",
+  "tipo": "serie",
+  "titulo": "DETETIVE DA MESA DE JANTAR",
+  "capa_url": "https://lgfp.one/PGX2",
+  "capa_local": "DETETIVE DA MESA DE JANTAR/DETETIVE DA MESA DE JANTAR.jpg",
+  "sinopse": "A rica herdeira Reiko Hosho leva uma vida dupla como detetive novata, combatendo o crime sob a supervisão do inspetor Kazamatsuri, que também vem de uma família rica. Após o expediente, Reiko troca o terno por um vestido para o jantar. Diante de casos difíceis, ela recorre ao mordomo Kageyama, que sempre a ridiculariza pela incapacidade de solucionar mistérios, enquanto ele os desvenda facilmente.",
+  "genero": "Animação, Mistério, Comédia",
+  "elenco": "Kana Hanazawa, Yuki Kaji, Mamoru Miyano",
+  "diretor": "増原光幸",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:19"
+        }
+      ]
+    }
+  ],
+  "id": 7619
+}

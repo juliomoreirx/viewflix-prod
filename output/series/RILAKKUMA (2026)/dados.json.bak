@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0OTg=",
+  "tipo": "serie",
+  "titulo": "RILAKKUMA (2026)",
+  "capa_url": "https://lgfp.one/SNO7",
+  "capa_local": "RILAKKUMA (2026)/RILAKKUMA (2026).jpg",
+  "sinopse": "Conheça o mundo descontraído do Rilakkuma, o ursinho relaxado que faz com que a preguiça pareça algo natural.",
+  "genero": "Animação",
+  "elenco": "Lilas Ikuta",
+  "diretor": "",
+  "total_episodios": "2",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:01:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:01:30"
+        }
+      ]
+    }
+  ],
+  "id": 9250
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NDg=",
+  "tipo": "serie",
+  "titulo": "O INSTITUTO",
+  "capa_url": "https://lgfp.one/PIO4",
+  "capa_local": "O INSTITUTO/O INSTITUTO.jpg",
+  "sinopse": "Luke Ellis, um adolescente gênio, é sequestrado e desperta no Instituto, um local misterioso onde outras crianças com habilidades extraordinárias estão passando pelo mesmo. Paralelamente, em uma cidade vizinha, o ex-policial Tim Jamieson, atormentado por seu passado, tenta construir uma nova vida. No entanto, a tranquilidade é passageira, já que suas histórias estão predestinadas a colidir com a de Luke.",
+  "genero": "Mistério, Sci-Fi & Fantasy",
+  "elenco": "Ben Barnes, Mary-Louise Parker, Simone Miller, Joe Freeman, Jason Díaz",
+  "diretor": "Jack Bender, Jack Bender",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:56"
+        }
+      ]
+    }
+  ],
+  "id": 319761
+}

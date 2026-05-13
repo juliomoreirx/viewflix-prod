@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2Mzg=",
+  "tipo": "serie",
+  "titulo": "SUPERZOO",
+  "capa_url": "https://lgfp.one/PEF2",
+  "capa_local": "SUPERZOO/SUPERZOO.jpg",
+  "sinopse": "Monky, Catty e Kangu são três amigos que formam a Equipe Superzoo. Sua missão é proteger o meio ambiente, e seu maior inimigo é o Dr. Spooky, um cientista louco disposto a fazer qualquer coisa para destruir a natureza. Junto com a vovó e seu neto Kit, a equipe Superzoo viverá mil aventuras tentando proteger o planeta Terra. Junte-se aos protetores do meio ambiente!",
+  "genero": "Kids",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:07:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:06:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:08:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:06:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:09:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:06:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:07:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:07:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:07:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:05:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:08:49"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:07:42"
+        }
+      ]
+    }
+  ],
+  "id": 7537
+}

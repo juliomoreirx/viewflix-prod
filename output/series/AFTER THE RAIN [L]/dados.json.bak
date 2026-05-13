@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNTI=",
+  "tipo": "serie",
+  "titulo": "AFTER THE RAIN [L]",
+  "capa_url": "https://lgfp.one/KOM5",
+  "capa_local": "AFTER THE RAIN [L]/AFTER THE RAIN [L].jpg",
+  "sinopse": "Este é um drama sobre Bong Gil, que tem 40 anos, solteiro e está morrendo de vontade de se mudar para Seul e longe de seu pai de 90 anos, que tem feito Pyeongyang Naengmyun nos últimos 70 anos solitários.",
+  "genero": "Família, Drama, Comédia",
+  "elenco": "이설, 신구, 김강우, 한소희, 인교진",
+  "diretor": "Kim Jung-hyun",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:22:54"
+        }
+      ]
+    }
+  ],
+  "id": 6482
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMjE=",
+  "tipo": "serie",
+  "titulo": "THE INVISIBLE GIRL",
+  "capa_url": "https://lgfp.one/YMV",
+  "capa_local": "THE INVISIBLE GIRL/THE INVISIBLE GIRL.jpg",
+  "sinopse": "Aurora Ríos, 17 anos, é encontrada morta no portão da escola na cidade de Cárdena. Duas linhas de investigação são abertas: a oficial liderada por Miguel Ángel, e a não oficial por sua filha Julia. Julia e Miguel juntarão as peças do quebra-cabeça e embarcarão em uma jornada cheia de enigmas, pistas e armadilhas.",
+  "genero": "Drama",
+  "elenco": "Daniel Grao, Zoe Stein, Rebeca Matellán, Pablo Gómez-Pando, Javier Córdoba, Marta Vallés, Hugo Welzel, Tábata Cerezo",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:32"
+        }
+      ]
+    }
+  ],
+  "id": 3287
+}

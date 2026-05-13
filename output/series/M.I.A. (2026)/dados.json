@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4ODg=",
+  "tipo": "serie",
+  "titulo": "M.I.A. (2026)",
+  "capa_url": "https://lgfp.one/TBZ5",
+  "capa_local": "M.I.A. (2026)/M.I.A. (2026).jpg",
+  "sinopse": "Inquieta em Florida Keys, Etta Tiger Jonze sonha com o brilho do paraíso subtropical de Miami. Quando uma tragédia destroça o negócio de sua família no tráfico de drogas, ela mergulha no submundo de Miami e precisa descobrir do que é capaz.",
+  "genero": "Crime, Drama",
+  "elenco": "Shannon Gisela, Cary Elwes, Danay García, Brittany Adebumola, Rylan Jackson",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:00"
+        }
+      ]
+    }
+  ],
+  "id": 9512
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5ODI=",
+  "tipo": "serie",
+  "titulo": "O CONSULTOR",
+  "capa_url": "https://lgfp.one/YNK",
+  "capa_local": "O CONSULTOR/O CONSULTOR.jpg",
+  "sinopse": "Após uma tragédia inimaginável na CompWare, um estúdio de jogos localizado no centro de Los Angeles, um misterioso consultor, Regus Patoff, chega à cidade e assume o comando.",
+  "genero": "Comédia / Drama",
+  "elenco": "Christoph Waltz, Aimee Carrero, Brittany O'Grady, Nat Wolff",
+  "diretor": "Tony Basgallop",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:46"
+        }
+      ]
+    }
+  ],
+  "id": 3297
+}

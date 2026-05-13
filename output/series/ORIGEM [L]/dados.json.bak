@@ -1,0 +1,205 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMTY=",
+  "tipo": "serie",
+  "titulo": "ORIGEM [L]",
+  "capa_url": "https://lgfp.one/AAOP",
+  "capa_local": "ORIGEM [L]/ORIGEM [L].jpg",
+  "sinopse": "Desvende o mistério de uma cidade no centro dos EUA. Enquanto os moradores lutam para manter um senso de normalidade, eles também devem sobreviver às ameaças da floresta ao redor, incluindo as criaturas aterrorizantes que surgem quando o sol se põe.",
+  "genero": "Mistério, Drama, Sci-Fi & Fantasy",
+  "elenco": "Harold Perrineau, Catalina Sandino Moreno, Eion Bailey, Pegah Ghafoori, Hannah Cheramy",
+  "diretor": "John Griffin, Jack Bender, Joe Russo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:47:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:53:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:59:23"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:59:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:46:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:53:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:48:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "01:13:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:52:01"
+        }
+      ]
+    }
+  ],
+  "id": 3377
+}

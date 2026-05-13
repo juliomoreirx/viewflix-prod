@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NzU=",
+  "tipo": "serie",
+  "titulo": "O RESGATE NA CAVERNA TAILANDESA",
+  "capa_url": "https://lgfp.one/TSH",
+  "capa_local": "O RESGATE NA CAVERNA TAILANDESA/O RESGATE NA CAVERNA TAILANDESA.jpg",
+  "sinopse": "Um time de futebol juvenil fica preso em uma caverna na Tailândia, e a situação trágica mobiliza uma operação internacional de resgate.",
+  "genero": "Drama",
+  "elenco": "Papangkorn Lerkchaleampote, ปรัชญา พาทอง, ทรงพล กันทะวงค์, รัฐภูมิ นาคีสถิตย์, ธนาวุฒิ เช่ตู่กู่",
+  "diretor": "นัฐวุฒิ พูนพิริยะ, Kevin Tancharoen, Jon M. Chu",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:16:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:37"
+        }
+      ]
+    }
+  ],
+  "id": 2887
+}

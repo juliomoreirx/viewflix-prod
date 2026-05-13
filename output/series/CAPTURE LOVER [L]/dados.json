@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMzI=",
+  "tipo": "serie",
+  "titulo": "CAPTURE LOVER [L]",
+  "capa_url": "https://lgfp.one/DTB1",
+  "capa_local": "CAPTURE LOVER [L]/CAPTURE LOVER [L].jpg",
+  "sinopse": "Este drama conta a história de Ding Jun Jie, o vice-gerente geral de uma empresa de cosméticos, e Ying Jia Ming, filho do cínico presidente do conselho. Embora os dois originalmente tenham um relacionamento olho por olho, gato e rato, eles gradualmente se conhecem e se entendem.",
+  "genero": "Drama",
+  "elenco": "Luigi Zhang, Jingcheng Han, Haiting Jiao, Meng Yue Chen",
+  "diretor": "",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:16:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:17:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:18:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:18:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:12:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:05"
+        }
+      ]
+    }
+  ],
+  "id": 6021
+}

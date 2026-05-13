@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNDM=",
+  "tipo": "serie",
+  "titulo": "SEMANTIC ERROR [L]",
+  "capa_url": "https://lgfp.one/AUR7",
+  "capa_local": "SEMANTIC ERROR [L]/SEMANTIC ERROR [L].jpg",
+  "sinopse": "Chu Sang Woo, major em ciência da computação, é o epítome de uma pessoa inflexível e rigorosa que cumpude as regras. Enquanto trabalha em um projeto de grupo de artes liberais com carregadores livres que não se esforçam, Sang Woo decide razoavelmente remover seus nomes da apresentação final. Mas ele não imaginava o quão envolvido ficaria com a pessoa cujos planos de estudo no exterior estavam confusos por causa desse projeto. A pessoa envolvida: a estrela do campus que todo mundo conhece, Jang Jae Young, do Departamento de Design. Ele tem de tudo, desde habilidades, aparência, histórico familiar e bons relacionamentos, exceto por 1 grande problema: Chu Sang Woo. O que acontece quando um engenheiro e um artista cujas personalidades são como petróleo e água têm que trabalhar juntos? Jang Jae Young é como um erro semântico no mundo perfeito de Chu Sang Woo. Sang Woo será capaz de depurar isso?",
+  "genero": "Drama",
+  "elenco": "Park Seo-ham, Park Jae-chan, Song Ji-oh, Kim No-jin, Kim Won-gi",
+  "diretor": "Kim Soo-jung",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:18:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:17:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:13"
+        }
+      ]
+    }
+  ],
+  "id": 5302
+}

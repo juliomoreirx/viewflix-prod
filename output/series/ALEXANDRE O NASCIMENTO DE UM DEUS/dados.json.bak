@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNTQ=",
+  "tipo": "serie",
+  "titulo": "ALEXANDRE: O NASCIMENTO DE UM DEUS",
+  "capa_url": "https://lgfp.one/AZSS",
+  "capa_local": "ALEXANDRE O NASCIMENTO DE UM DEUS/ALEXANDRE O NASCIMENTO DE UM DEUS.jpg",
+  "sinopse": "Com entrevistas de especialistas e reconstituições realistas, esta série conta a vida de Alexandre, o Grande e seu desejo de conquistar o mundo.",
+  "genero": "Documentário, Drama",
+  "elenco": "Mido Hamada, Buck Braithwaite, Agni Scott, Souad Faress, Dino Kelly",
+  "diretor": "Hugh Ballantyne, Lucy van Beek",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:22"
+        }
+      ]
+    }
+  ],
+  "id": 4937
+}

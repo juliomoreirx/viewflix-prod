@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1Mjk=",
+  "tipo": "serie",
+  "titulo": "SUPERMAX",
+  "capa_url": "https://lgfp.one/JBW",
+  "capa_local": "SUPERMAX/SUPERMAX.jpg",
+  "sinopse": "Na história, doze participantes de um reality show são confinados em uma prisão de segurança máxima. Mais do que a busca pelo prêmio, todos compartilham também de um passado em comum e, além dos mistérios que cercam o local, terão que lidar com os seus próprios fantasmas e medos.",
+  "genero": "Crime, Mistério",
+  "elenco": "Mariana Ximenes, Cléo Pires, Erom Cordeiro, Nicolas Trevijano, Rui Ricardo Diaz",
+  "diretor": "José Alvarenga Jr.",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:37:47"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:48:39"
+        }
+      ]
+    }
+  ],
+  "id": 421
+}

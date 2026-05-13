@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MzE=",
+  "tipo": "serie",
+  "titulo": "DISSOCIACAO",
+  "capa_url": "https://lgfp.one/QWI3",
+  "capa_local": "DISSOCIACAO/DISSOCIACAO.jpg",
+  "sinopse": "Influenciada pela literatura, a amizade de León e Jeremías é arruinada quando um deles comete um ato imperdoável de violência em Bogotá.",
+  "genero": "Drama",
+  "elenco": "Andrés Parra, Carolina Gómez, Jose Restrepo, Camila Jurado",
+  "diretor": "Carlos Moreno, Claudia Fernanda Pedraza Olaya",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:41"
+        }
+      ]
+    }
+  ],
+  "id": 8431
+}

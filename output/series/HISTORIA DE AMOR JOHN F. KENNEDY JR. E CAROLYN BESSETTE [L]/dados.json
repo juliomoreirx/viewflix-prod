@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMjY=",
+  "tipo": "serie",
+  "titulo": "HISTÓRIA DE AMOR: JOHN F. KENNEDY JR. E CAROLYN BESSETTE [L]",
+  "capa_url": "https://lgfp.one/SET2",
+  "capa_local": "HISTORIA DE AMOR JOHN F. KENNEDY JR. E CAROLYN BESSETTE [L]/HISTORIA DE AMOR JOHN F. KENNEDY JR. E CAROLYN BESSETTE [L].jpg",
+  "sinopse": "A jornada complexa e comovente de um casal cujo amor particular virou uma obsessão nacional.",
+  "genero": "Drama",
+  "elenco": "Sarah Pidgeon, Paul Anthony Kelly, Grace Gummer",
+  "diretor": "Scott Robertson, Jimmy Rosario, Grace Condon",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:14"
+        }
+      ]
+    }
+  ],
+  "id": 8855
+}

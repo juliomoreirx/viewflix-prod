@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NDY=",
+  "tipo": "serie",
+  "titulo": "CADA MINUTO CONTA",
+  "capa_url": "https://lgfp.one/EFE5",
+  "capa_local": "CADA MINUTO CONTA/CADA MINUTO CONTA.jpg",
+  "sinopse": "19 de setembro de 1985. Um terremoto de magnitude 8,1 atinge a Cidade do México, causando uma das maiores tragédias do país. Nas primeiras horas, um médico e sua equipe viram heróis enquanto fazem de tudo para resgatar os que estão presos sob os escombros do Hospital Geral; uma jornalista registra o desastre enquanto atravessa a cidade; e uma família tenta se reunir em meio aos escombros.",
+  "genero": "Drama",
+  "elenco": "Osvaldo Benavides, Maya Zapata, Luis Fernando Peña, Damayanti Quintanar, Mónica del Carmen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:29"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:07"
+        }
+      ]
+    }
+  ],
+  "id": 6203
+}

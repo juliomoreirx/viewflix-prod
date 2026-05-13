@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMjE=",
+  "tipo": "serie",
+  "titulo": "CONTRATEMPOS",
+  "capa_url": "https://lgfp.one/TQU",
+  "capa_local": "CONTRATEMPOS/CONTRATEMPOS.jpg",
+  "sinopse": "Acreditando na possibilidade de poder viajar no tempo, Dr. \"Sam\" Beckett, entra numa máquina do tempo e inicia uma viagem intemporal. Sam além de viajar no tempo, em cada salto que dá, encarna uma nova pessoa. Enfrenta reflexos no espelho que não são o seu e, para poder seguir em frente para outro tempo, tem sempre de completar uma missão naquele corpo. Ao seu lado há \"Al\", um observador do seu tempo, em forma de holograma, que apenas ele pode ver e ouvir. Nas suas viagens vai aproveitando para mudar na história as coisas que estavam mal, sempre na esperança de que o seu próximo salto, fosse um salto para casa.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+  "elenco": "Scott Bakula, Dean Stockwell",
+  "diretor": "Michael Zinberg",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:32:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:23"
+        }
+      ]
+    }
+  ],
+  "id": 2844
+}

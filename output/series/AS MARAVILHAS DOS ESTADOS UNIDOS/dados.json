@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNzk=",
+  "tipo": "serie",
+  "titulo": "AS MARAVILHAS DOS ESTADOS UNIDOS",
+  "capa_url": "https://lgfp.one/TRD",
+  "capa_local": "AS MARAVILHAS DOS ESTADOS UNIDOS/AS MARAVILHAS DOS ESTADOS UNIDOS.jpg",
+  "sinopse": "A história ambiciosa dos EUA. Conduzidos pelas espécies mais icônicas do planeta, iremos viajar pelas regiões visualmente espetaculares dos EUA: o Norte Congelado, o Oeste Selvagem, as Grandes Planícies, o Extremo Sul e as Montanhas Primitivas.",
+  "genero": "Documentário",
+  "elenco": "Michael B. Jordan",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:34"
+        }
+      ]
+    }
+  ],
+  "id": 2856
+}

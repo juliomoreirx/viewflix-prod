@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwOTE=",
+  "tipo": "serie",
+  "titulo": "OS 43 DE AYOTZINAPA CRIME DE ESTADO [L]",
+  "capa_url": "https://lgfp.one/DQP3",
+  "capa_local": "OS 43 DE AYOTZINAPA CRIME DE ESTADO [L]/OS 43 DE AYOTZINAPA CRIME DE ESTADO [L].jpg",
+  "sinopse": "Série documental da HBO que acompanha os elementos-chave do caso do desaparecimento forçado dos 43 estudantes de Ayotzinapa, México.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:55"
+        }
+      ]
+    }
+  ],
+  "id": 6006
+}

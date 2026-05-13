@@ -1,0 +1,130 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4NDI=",
+  "tipo": "serie",
+  "titulo": "MISTERIOS ANIMAIS",
+  "capa_url": "https://lgfp.one/TDG",
+  "capa_local": "MISTERIOS ANIMAIS/MISTERIOS ANIMAIS.jpg",
+  "sinopse": "Os agentes especiais Sam e Kit viajam pelo mundo para investigar fatos científicos e desvendar mistérios do mundo animal usando gadgets maneiros.",
+  "genero": "Kids, Animação",
+  "elenco": "Nneka Okoye, Shash Hira",
+  "diretor": "",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:47"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:28:35"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:27:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:28:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:28:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:28:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:28:27"
+        }
+      ]
+    }
+  ],
+  "id": 2475
+}

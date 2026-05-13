@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNDQ=",
+  "tipo": "serie",
+  "titulo": "SERENDIPITYS EMBRACE [L]",
+  "capa_url": "https://lgfp.one/DEU7",
+  "capa_local": "SERENDIPITYS EMBRACE [L]/SERENDIPITYS EMBRACE [L].jpg",
+  "sinopse": "Em seu último ano do ensino médio, Lee Hong Ju (Kim So Hyun) se apaixonou perdidamente. Mas esse primeiro contato com o amor terminou em desgosto. Desde então, ela tem sido profundamente cética quando se trata de tudo relacionado ao amor. Uma década depois, ela se tornou produtora de animação quando o destino a reúne com sua antiga paixão, Hu Yeong (Chae Jong Hyeop), em um café. Ele voltou dos Estados Unidos para a Coreia do Sul e agora é um planejador financeiro de 29 anos. Ambos são atingidos por uma onda de emoções. Será que uma nova chance de romance está nos planos?",
+  "genero": "Drama, Comédia",
+  "elenco": "Kim So Hyun, Chae Jong Hyeop, Yoon Ji On, Kim Dasom, Lee Won-jeong",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:09:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:10:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:11:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:11:36"
+        }
+      ]
+    }
+  ],
+  "id": 5784
+}

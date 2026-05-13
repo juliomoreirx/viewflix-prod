@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MjM=",
+  "tipo": "serie",
+  "titulo": "SELENA RESTAURANTE",
+  "capa_url": "https://lgfp.one/DHE4",
+  "capa_local": "SELENA RESTAURANTE/SELENA RESTAURANTE.jpg",
+  "sinopse": "Selena Gomez cozinha nos restaurantes mais badalados de Los Angeles, onde será testada e terá que apresentar um prato bom o bastante para o cardápio!",
+  "genero": "Reality",
+  "elenco": "Raquelle Stevens, Selena Gomez, Wolfgang Puck",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:53"
+        }
+      ]
+    }
+  ],
+  "id": 5836
+}

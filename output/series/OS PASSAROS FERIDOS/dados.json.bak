@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNDY=",
+  "tipo": "serie",
+  "titulo": "OS PASSAROS FERIDOS",
+  "capa_url": "https://lgfp.one/AYZJ",
+  "capa_local": "OS PASSAROS FERIDOS/OS PASSAROS FERIDOS.jpg",
+  "sinopse": "O romance impossível entre Meggie Cleary e Ralph de Bricassart, o padre de sua família. Na intenção de esquecer o amor que sente por Ralph, Meggie se casa com Luke O'Neill. Mas a jovem e o padre acabam se reencontrando, o que traz consequências trágicas para ambos.",
+  "genero": "Drama",
+  "elenco": "Richard Chamberlain, Rachel Ward, Christopher Plummer, Bryan Brown, Brett Cullen",
+  "diretor": "Daryl Duke",
+  "total_episodios": "121",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "02:24:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:36:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:36:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "02:23:36"
+        }
+      ]
+    }
+  ],
+  "id": 4898
+}

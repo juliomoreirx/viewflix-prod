@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2Njc=",
+  "tipo": "serie",
+  "titulo": "THE STAND",
+  "capa_url": "https://lgfp.one/RLS",
+  "capa_local": "THE STAND/THE STAND.jpg",
+  "sinopse": "Num cenário pós-apocalíptico a Terra foi destruída por um vírus letal. Os poucos sobreviventes se dividiram em facções: uma democrática, liderada pela Mãe Abigail, uma senhora de 108 anos; enquanto a outra é mantida pela brutalidade de Randall Flagg, dono de poderes inexplicáveis.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "James Marsden, Alexander Skarsgård, Odessa Young, Whoopi Goldberg, Amber Heard",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:46"
+        }
+      ]
+    }
+  ],
+  "id": 1131
+}

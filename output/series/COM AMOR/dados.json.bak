@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMjQ=",
+  "tipo": "serie",
+  "titulo": "COM AMOR",
+  "capa_url": "https://lgfp.one/SXZ",
+  "capa_local": "COM AMOR/COM AMOR.jpg",
+  "sinopse": "A série acompanha os irmãos Diaz, Jorge e Lily, e suas jornadas no amor. Enquanto Jorge vive um romance com Henry, Lily acabou de terminar um relacionamento de anos, pouco antes do Natal.",
+  "genero": "Comédia",
+  "elenco": "Emeraude Toubia, Mark Indelicato, Rome Flynn, Desmond Chiam, Vincent Rodriguez III, Isis King, Todd Grinnell, Constance Marie",
+  "diretor": "Gloria Calderon Kellett",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:24"
+        }
+      ]
+    }
+  ],
+  "id": 2336
+}

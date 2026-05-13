@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzODY=",
+  "tipo": "serie",
+  "titulo": "INTERPRETE DO SILENCIO [L]",
+  "capa_url": "https://lgfp.one/AVNJ",
+  "capa_local": "INTERPRETE DO SILENCIO [L]/INTERPRETE DO SILENCIO [L].jpg",
+  "sinopse": "Eva Bruhns está prestes a ficar noiva quando é convidada a ser intérprete em um julgamento de oficiais nazistas. Seus pais e o futuro noivo tentam dissuadi-la, mas ela segue seus instintos e aceita o trabalho. Ela logo percebe que tem uma conexão mais pessoal com o julgamento do que jamais poderia imaginar.",
+  "genero": "Drama",
+  "elenco": "Katharina Stark, Anke Engelke, Hans-Jochen Wagner, Thomas Prenn, Ricarda Seifried",
+  "diretor": "Aleksandra Polnicka, Magdalena Roessler, Dorota Nowakowska",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:01"
+        }
+      ]
+    }
+  ],
+  "id": 4611
+}

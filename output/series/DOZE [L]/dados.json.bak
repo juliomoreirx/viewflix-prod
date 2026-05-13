@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MzY=",
+  "tipo": "serie",
+  "titulo": "DOZE [L]",
+  "capa_url": "https://lgfp.one/QCK1",
+  "capa_local": "DOZE [L]/DOZE [L].jpg",
+  "sinopse": "Há muito tempo, 12 anjos do zodíaco lutaram contra espíritos malignos para proteger a raça humana. Graças ao sacrifício dos anjos, as forças malignas foram seladas nos portões do Inferno. A paz também foi encontrada. Mas, o mal desperta novamente e o mundo humano é lançado no caos. Contra um grupo de seres malignos, incluindo O Gwi, os 12 anjos do zodíaco, liderados por Tae San, que simboliza o tigre, entram em uma batalha épica.",
+  "genero": "Sci-Fi & Fantasy, Action & Adventure, Drama",
+  "elenco": "마동석, 박형식, 서인국, 이주빈, 고규필",
+  "diretor": "Kang Dae-gyu",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:08"
+        }
+      ]
+    }
+  ],
+  "id": 8062
+}

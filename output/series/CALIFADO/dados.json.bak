@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNDc=",
+  "tipo": "serie",
+  "titulo": "CALIFADO",
+  "capa_url": "https://lgfp.one/IVB",
+  "capa_local": "CALIFADO/CALIFADO.jpg",
+  "sinopse": "Na Suécia, um ataque iminente do Estado Islâmico une os caminhos de várias mulheres. Entre elas, uma mãe em situação difícil, uma policial ambiciosa e uma estudante.",
+  "genero": "War & Politics, Drama",
+  "elenco": "Gizem Erdogan, Amed Bozan, Aliette Opheim, Arvin Kananian, Amanda Sohrabi",
+  "diretor": "Goran Kapetanović",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:52"
+        }
+      ]
+    }
+  ],
+  "id": 224
+}

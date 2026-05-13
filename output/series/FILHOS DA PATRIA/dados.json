@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1MzE=",
+  "tipo": "serie",
+  "titulo": "FILHOS DA PÁTRIA",
+  "capa_url": "https://lgfp.one/IZK",
+  "capa_local": "FILHOS DA PATRIA/FILHOS DA PATRIA.jpg",
+  "sinopse": "A família Bulhosa desembarca um século à frente, dessa vez na década de 1930, no início da Era Vargas, mas mantém seus trejeitos e toda a excentricidade característica do clã.",
+  "genero": "Comédia, Soap",
+  "elenco": "Fernanda Torres, Alexandre Nero, Matheus Nachtergaele, Johnny Massaro, Lara Tremouroux",
+  "diretor": "Maurício Farias, Joana Jabace",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:13:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:13:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:09:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:14:15"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:15:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:15:18"
+        }
+      ]
+    }
+  ],
+  "id": 346
+}

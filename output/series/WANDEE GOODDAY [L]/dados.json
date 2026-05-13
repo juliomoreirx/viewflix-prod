@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMTg=",
+  "tipo": "serie",
+  "titulo": "WANDEE GOODDAY [L]",
+  "capa_url": "https://lgfp.one/DTE1",
+  "capa_local": "WANDEE GOODDAY [L]/WANDEE GOODDAY [L].jpg",
+  "sinopse": "Por causa de um coração partido e embriaguez, o Dr. Wandee vai de querido a ousado, envolvendo-se com o lutador de Muay Thai Yoyak Phadetseuk. Uma noite de aventura de alguma forma se transforma em um relacionamento de amigos (namorados) com benefícios. Embora seja apenas um relacionamento falso, sentimentos surgem que os dois não ousam aceitar quando cada um tem outra pessoa permanecendo em seus corações.",
+  "genero": "Comédia",
+  "elenco": "สพล อัศวมั่นคง, สาริน รณเกียรติ, Thinnaphan Tantui, ณัฐนนท์ ทองแสง, Phatchatorn Thanawat",
+  "diretor": "ธัญญ์วาริน สุขะพิสิษฐ์, Noppharnach Chaiwimol, Pro Siwasit Phondongnok",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:01:56"
+        }
+      ]
+    }
+  ],
+  "id": 6051
+}

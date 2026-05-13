@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NTI=",
+  "tipo": "serie",
+  "titulo": "DESAPARECIDO PARA SEMPRE",
+  "capa_url": "https://lgfp.one/SDB",
+  "capa_local": "DESAPARECIDO PARA SEMPRE/DESAPARECIDO PARA SEMPRE.jpg",
+  "sinopse": "Dez anos após perder as duas pessoas que mais amava, um homem se envolve em mais um mistério depois que a namorada desaparece.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Finnegan Oldfield, Nicolas Duvauchelle, Guillaume Gouix, Garance Marillier, Naïlia Harzoune",
+  "diretor": "Juan Carlos Medina",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:52"
+        }
+      ]
+    }
+  ],
+  "id": 1768
+}

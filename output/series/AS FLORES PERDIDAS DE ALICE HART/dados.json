@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NDk=",
+  "tipo": "serie",
+  "titulo": "AS FLORES PERDIDAS DE ALICE HART",
+  "capa_url": "https://lgfp.one/AARD",
+  "capa_local": "AS FLORES PERDIDAS DE ALICE HART/AS FLORES PERDIDAS DE ALICE HART.jpg",
+  "sinopse": "Depois de perder os pais aos nove anos de idade em um incêndio misterioso, Alice Hart é criada pela avó June em uma fazenda de flores onde se depara com uma série de segredos. Anos mais tarde, a descoberta de uma traição obriga Alice a encarar seu passado.",
+  "genero": "Drama, Mistério",
+  "elenco": "Sigourney Weaver, Alycia Debnam-Carey, Charlie Vickers, Frankie Adams, Leah Purcell",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:02:02"
+        }
+      ]
+    }
+  ],
+  "id": 3789
+}

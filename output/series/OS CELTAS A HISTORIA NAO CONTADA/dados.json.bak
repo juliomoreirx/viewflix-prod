@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNTI=",
+  "tipo": "serie",
+  "titulo": "OS CELTAS A HISTORIA NAO CONTADA",
+  "capa_url": "https://lgfp.one/ATGU",
+  "capa_local": "OS CELTAS A HISTORIA NAO CONTADA/OS CELTAS A HISTORIA NAO CONTADA.jpg",
+  "sinopse": "Descubra a história desconhecida dos Celtas, um povo que não deixou registros escritos, mas que comunicava o seu passado através de canções e histórias, que veio da Europa Central e se espalhou por todo o continente.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:10"
+        }
+      ]
+    }
+  ],
+  "id": 4455
+}

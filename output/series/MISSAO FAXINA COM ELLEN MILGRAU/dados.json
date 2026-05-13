@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2OTg=",
+  "tipo": "serie",
+  "titulo": "MISSAO FAXINA COM ELLEN MILGRAU",
+  "capa_url": "https://lgfp.one/QBY9",
+  "capa_local": "MISSAO FAXINA COM ELLEN MILGRAU/MISSAO FAXINA COM ELLEN MILGRAU.jpg",
+  "sinopse": "Com o apoio de uma equipe especializada de \"faxiners\", composta por Jady Carvalho, Nicoli Clavero e Rodrigo Hayek, Ellen conduz processos de limpeza pesada e reorganização de casas inteiras, sempre com respeito, escuta e leveza. Este reality prova que colocar a casa em ordem é também um gesto de autocuidado e um emocionante convite a novos recomeços.",
+  "genero": "Reality",
+  "elenco": "Ellen Milgrau, Jady Carvalho, Nicoli Clavero, Rodrigo Hayek",
+  "diretor": "Adriana Cechetti, Bruna Leonardi",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:07"
+        }
+      ]
+    }
+  ],
+  "id": 8035
+}

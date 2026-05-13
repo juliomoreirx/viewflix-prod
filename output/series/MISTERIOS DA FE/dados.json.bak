@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMTU=",
+  "tipo": "serie",
+  "titulo": "MISTÉRIOS DA FÉ",
+  "capa_url": "https://lgfp.one/ASMC",
+  "capa_local": "MISTERIOS DA FE/MISTERIOS DA FE.jpg",
+  "sinopse": "Considerados milagrosos, os tesouros sagrados são guardados a sete chaves. Conheça as histórias e os mistérios por trás dessas relíquias católicas.",
+  "genero": "Documentário",
+  "elenco": "David Harewood",
+  "diretor": "Robin Dashwood",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:08"
+        }
+      ]
+    }
+  ],
+  "id": 4378
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMDM=",
+  "tipo": "serie",
+  "titulo": "FIASCO",
+  "capa_url": "https://lgfp.one/AVQ3",
+  "capa_local": "FIASCO/FIASCO.jpg",
+  "sinopse": "O set de um diretor novato vira um caos, e a equipe que filma os bastidores registra tudo, incluindo acidentes, chantagens e sabotagens.",
+  "genero": "Comédia",
+  "elenco": "Pierre Niney, François Civil, Géraldine Nakache, Pascal Demolon, Leslie Medina",
+  "diretor": "Mathilde Cavillan, Julien Espiaut, Melaine Delauney",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:07"
+        }
+      ]
+    }
+  ],
+  "id": 5338
+}

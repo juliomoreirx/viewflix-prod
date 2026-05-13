@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MTc=",
+  "tipo": "serie",
+  "titulo": "SILENT TRUTH [L]",
+  "capa_url": "https://lgfp.one/RHD9",
+  "capa_local": "SILENT TRUTH [L]/SILENT TRUTH [L].jpg",
+  "sinopse": "",
+  "genero": "Mistério",
+  "elenco": "Ryoma Takeuchi, 井上真央, 瀬戸康史, 渡辺大知, 上川周作",
+  "diretor": "深川栄洋, 山本大輔",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:13"
+        }
+      ]
+    }
+  ],
+  "id": 8664
+}

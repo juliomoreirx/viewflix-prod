@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2OTA=",
+  "tipo": "serie",
+  "titulo": "AMOR NO ESCRITORIO",
+  "capa_url": "https://lgfp.one/RHB9",
+  "capa_local": "AMOR NO ESCRITORIO/AMOR NO ESCRITORIO.jpg",
+  "sinopse": "Uma funcionária dedicada e o charmoso filho do chefe competem pelo cargo de CEO em uma empresa de lingerie. Mas o amor pode sabotar essa guerra.",
+  "genero": "Comédia",
+  "elenco": "Diego Klein, Ana González Bello, Martha Reyes Arias, Paola Fernández",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:14"
+        }
+      ]
+    }
+  ],
+  "id": 8644
+}

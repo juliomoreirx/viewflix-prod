@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExODI=",
+  "tipo": "serie",
+  "titulo": "THE ACOLYTE",
+  "capa_url": "https://lgfp.one/BFA3",
+  "capa_local": "THE ACOLYTE/THE ACOLYTE.jpg",
+  "sinopse": "Cem anos antes da ascensão do Império, a Ordem Jedi e a República Galáctica prosperaram sem guerras durante séculos. Durante esse tempo, uma investigação sobre uma terrível onda de crimes coloca uma Mestra Jedi contra uma perigosa guerreira de seu passado.",
+  "genero": "Mistério, Sci-Fi & Fantasy",
+  "elenco": "Amandla Stenberg, 이정재, Charlie Barnett, Dafne Keen, Manny Jacinto",
+  "diretor": "George Lucas, Christopher Clark Cowan, Dominic Fysh",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:51"
+        }
+      ]
+    }
+  ],
+  "id": 5548
+}

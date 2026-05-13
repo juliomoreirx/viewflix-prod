@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MDU=",
+  "tipo": "serie",
+  "titulo": "SEDUCED: INSIDE THE NXIVM CULT",
+  "capa_url": "https://lgfp.one/RJL",
+  "capa_local": "SEDUCED INSIDE THE NXIVM CULT/SEDUCED INSIDE THE NXIVM CULT.jpg",
+  "sinopse": "Esta série documental segue a história de India Oxenberg em sua perigosa jornada pelo mundo sombrio e criminoso da seita sexual NXIVM.",
+  "genero": "Documentário",
+  "elenco": "Catherine Oxenberg, India Oxenberg, Jaclyn Cangro, Tabitha Chapman, Steve Hassan",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:20:17"
+        }
+      ]
+    }
+  ],
+  "id": 3558
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNTU=",
+  "tipo": "serie",
+  "titulo": "PRIVATE BANKER [L]",
+  "capa_url": "https://lgfp.one/NNK7",
+  "capa_local": "PRIVATE BANKER [L]/PRIVATE BANKER [L].jpg",
+  "sinopse": "Um lendário profissional do mercado financeiro trabalha apenas com ricos e famosos. Com uma expertise rara, ele faz de tudo para proteger os patrimônios de seus clientes.",
+  "genero": "Drama",
+  "elenco": "唐沢寿明, 鈴木保奈美, 上杉柊平, 土屋アンナ, MEGUMI",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:32"
+        }
+      ]
+    }
+  ],
+  "id": 7138
+}

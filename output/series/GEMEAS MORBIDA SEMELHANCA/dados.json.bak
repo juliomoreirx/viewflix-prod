@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NzQ=",
+  "tipo": "serie",
+  "titulo": "GÊMEAS: MÓRBIDA SEMELHANÇA",
+  "capa_url": "https://lgfp.one/ZLF",
+  "capa_local": "GEMEAS MORBIDA SEMELHANCA/GEMEAS MORBIDA SEMELHANCA.jpg",
+  "sinopse": "Elliot e Beverly Mantle são gêmeas que compartilham tudo: drogas, amantes e um desejo desenfreado de fazer qualquer coisa—até ir além dos limites da ética médica—para desafiar as práticas antiquadas e pôr a saúde da mulher em primeiro plano.",
+  "genero": "Mistério / Drama",
+  "elenco": "Rachel Weisz, Britne Oldford, Poppy Liu, Jennifer Ehle, Michael Chernus, Emily Meade, Ntare Guma Mbaho Mwine, Jennean Farmer",
+  "diretor": "Alice Birch",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:19"
+        }
+      ]
+    }
+  ],
+  "id": 3438
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2NzU=",
+  "tipo": "serie",
+  "titulo": "OS AMORES DE ANNE [L]",
+  "capa_url": "https://lgfp.one/PZN3",
+  "capa_local": "OS AMORES DE ANNE [L]/OS AMORES DE ANNE [L].jpg",
+  "sinopse": "Uma menina órfã, enviada para um irmão e uma irmã por engano, encanta sua nova casa e sua comunidade com seu espírito e imaginação.",
+  "genero": "",
+  "elenco": "Tim McGarry, Colin Murphy, Neil Delamere",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:37:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:38:45"
+        }
+      ]
+    }
+  ],
+  "id": 7985
+}

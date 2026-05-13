@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMDk=",
+  "tipo": "serie",
+  "titulo": "THE CHALLENGE USA [L]",
+  "capa_url": "https://lgfp.one/DTD8",
+  "capa_local": "THE CHALLENGE USA [L]/THE CHALLENGE USA [L].jpg",
+  "sinopse": "Os jogadores lutam em desafios épicos e eliminações na esperança de ganhar dinheiro que mudará suas vidas.",
+  "genero": "Reality, Drama",
+  "elenco": "T.J. Lavin",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:25:34"
+        }
+      ]
+    }
+  ],
+  "id": 6048
+}

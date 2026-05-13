@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyOTM=",
+  "tipo": "serie",
+  "titulo": "O CRIME DO PADRE AMARO [PT-PT]",
+  "capa_url": "https://lgfp.one/ZCO",
+  "capa_local": "O CRIME DO PADRE AMARO [PT-PT]/O CRIME DO PADRE AMARO [PT-PT].jpg",
+  "sinopse": "A trama desenrola-se em Leiria, no final da década de 1860 e acompanha a história da paixão proibida entre Amaro, um jovem padre, e Amélia \"a rapariga mais bonita de Leiria\". Tensa, emocional e ancorada em conflitos de personalidade, a série \"O Crime do Padre Amaro\" lança um olhar crítico sobre a sociedade e a igreja em Portugal, na Leiria do século XIX.",
+  "genero": "Drama / Crime",
+  "elenco": "José Condessa, Bárbara Branco, Sérgio Praia, José Raposo, Ana Guiomar, Filomena Gonçalves, Joaquim Nicolau, Pedro Diogo",
+  "diretor": "Leonel Vieira",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:09"
+        }
+      ]
+    }
+  ],
+  "id": 3394
+}

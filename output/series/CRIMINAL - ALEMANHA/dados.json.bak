@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNDA=",
+  "tipo": "serie",
+  "titulo": "CRIMINAL - ALEMANHA",
+  "capa_url": "https://lgfp.one/IWF",
+  "capa_local": "CRIMINAL - ALEMANHA/CRIMINAL - ALEMANHA.jpg",
+  "sinopse": "Na sala de interrogatório, investigadores questionam suspeitos e tentam desvendar a verdade – mesmo que, para isso, tenham de quebrar regras e colocar tudo em risco.",
+  "genero": "Crime, Drama",
+  "elenco": "Eva Meckbach, Sylvester Groth, Florence Kasumba, Christian Kuchenbuch, Jonathan Berlin",
+  "diretor": "Oliver Hirschbiegel, Jim Field Smith",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:36"
+        }
+      ]
+    }
+  ],
+  "id": 342448
+}

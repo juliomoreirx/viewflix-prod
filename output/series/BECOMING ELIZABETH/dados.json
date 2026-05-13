@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNTA=",
+  "tipo": "serie",
+  "titulo": "BECOMING ELIZABETH",
+  "capa_url": "https://lgfp.one/TNA",
+  "capa_local": "BECOMING ELIZABETH/BECOMING ELIZABETH.jpg",
+  "sinopse": "A fascinante história do início da vida da rainha mais icônica da Inglaterra, Elizabeth Tudor, uma adolescente órfã que se envolveu na política política e sexual da corte inglesa em sua jornada para obter a coroa.",
+  "genero": "Drama",
+  "elenco": "Alicia von Rittberg, Romola Garai, Oliver Zetterström, John Heffernan, Jamie Parker",
+  "diretor": "",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:01"
+        }
+      ]
+    }
+  ],
+  "id": 2742
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwNDY=",
+  "tipo": "serie",
+  "titulo": "O TESTAMENTO O SEGREDO DE ANITA HARLEY",
+  "capa_url": "https://lgfp.one/SDU0",
+  "capa_local": "O TESTAMENTO O SEGREDO DE ANITA HARLEY/O TESTAMENTO O SEGREDO DE ANITA HARLEY.jpg",
+  "sinopse": "Anita Harley é a principal acionista das Casas Pernambucanas, uma das redes de varejo mais tradicionais do país. Esta série traz os bastidores das disputas em torno de sua herança em um dos casos mais complexos e intrigantes do judiciário brasileiro.",
+  "genero": "Documentário",
+  "elenco": "Camila Appel",
+  "diretor": "Camila Appel",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:46"
+        }
+      ]
+    }
+  ],
+  "id": 9053
+}

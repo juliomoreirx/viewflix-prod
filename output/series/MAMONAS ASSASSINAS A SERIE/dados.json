@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxNTY=",
+  "tipo": "serie",
+  "titulo": "MAMONAS ASSASSINAS A SERIE",
+  "capa_url": "https://lgfp.one/RSN6",
+  "capa_local": "MAMONAS ASSASSINAS A SERIE/MAMONAS ASSASSINAS A SERIE.jpg",
+  "sinopse": "A atração convida o público para uma viagem afetiva ao passado. A produção é uma ficção inspirada em fatos reais, com atores interpretando o grupo que marcou gerações. A história começa em 1992, quando Dinho (Ruy Brissac), Sérgio (Rhener Freitas), Samuel (Adriano Tunes), Júlio (Robson Lima) e Bento (Beto Hinoto) eram jovens de Guarulhos, na Grande SP, tentando viver da própria arte, sem imaginar que alguns anos depois se tornariam parte do maior fenômeno musical brasileiro dos anos 1990: os Mamonas Assassinas. O quinteto conquistou o país de forma meteórica com o lançamento do único álbum, em 1995. Eles dominaram as rádios e venderam milhões de cópias com sucessos como \"Pelados em Santos\" e \"Vira-Vira\", até a trajetória ser interrompida pelo trágico acidente aéreo de 2 de março de 1996. A Serie vai contar essa trajetória, desde as dificuldades do início da carreira até a conquista do primeiro disco, a fama e a carreira interrompida no auge, de maneira tão precoce.",
+  "genero": "Drama",
+  "elenco": "Ruy Brissac, Adriano Tunes, Robson Lima, Rhener Freitas, Beto Hinoto",
+  "diretor": "Edson Spinello",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:23"
+        }
+      ]
+    }
+  ],
+  "id": 8867
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3MTM=",
+  "tipo": "serie",
+  "titulo": "TURMA DA MONICA ORIGENS",
+  "capa_url": "https://lgfp.one/EAZ7",
+  "capa_local": "TURMA DA MONICA ORIGENS/TURMA DA MONICA ORIGENS.jpg",
+  "sinopse": "Mônica, Magali, Milena, Cebolinha, Cascão e Milena se conhecem em um hotel do Limoeiro, mas precisam superar uma competição e suas questões pessoais para dar origem à Turma da Mônica.",
+  "genero": "Família, Action & Adventure, Kids",
+  "elenco": "Giovanna Urbano, Felipe Rosa, Manu Colombo, Bernardo Cruz, Sabrina de Souza",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:19:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:59"
+        }
+      ]
+    }
+  ],
+  "id": 6161
+}

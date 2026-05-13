@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwODU=",
+  "tipo": "serie",
+  "titulo": "O INDICE DO MEDO",
+  "capa_url": "https://lgfp.one/AWD7",
+  "capa_local": "O INDICE DO MEDO/O INDICE DO MEDO.jpg",
+  "sinopse": "Um cientista que virou magnata de Wall Street torna-se alvo de um plano para destruir os mercados financeiros do mundo.",
+  "genero": "Drama",
+  "elenco": "Josh Hartnett, Arsher Ali, Leila Farzad, Grégory Montel, Aïssa Maïga",
+  "diretor": "Paul Andrew Williams, James Emmott, Mihaly Magenheim",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:36"
+        }
+      ]
+    }
+  ],
+  "id": 5348
+}

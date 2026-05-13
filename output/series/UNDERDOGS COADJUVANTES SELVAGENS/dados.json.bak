@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwOTE=",
+  "tipo": "serie",
+  "titulo": "UNDERDOGS COADJUVANTES SELVAGENS",
+  "capa_url": "https://lgfp.one/OUJ5",
+  "capa_local": "UNDERDOGS COADJUVANTES SELVAGENS/UNDERDOGS COADJUVANTES SELVAGENS.jpg",
+  "sinopse": "Narrado por Ryan Reynolds, esta série celebra os comportamentos únicos das espécies do reino animal que costumam ser as estrelas do show. Desde animais com superpoderes até os mais engenhosos trapaceiros da natureza, Ryan descobre muitos dos estranhos e maravilhosos azarões da Mãe Natureza. Com hábitos de acasalamento estranhos e estratégias de reprodução impactantes que implicam em situações mais desagradáveis do que a próxima, fica claro que esses “bichos estranhos” são os verdadeiros heróis do grande ciclo da vida.",
+  "genero": "Documentário",
+  "elenco": "Ryan Reynolds",
+  "diretor": "Mark Linfield, Dan Rees",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:39"
+        }
+      ]
+    }
+  ],
+  "id": 7476
+}

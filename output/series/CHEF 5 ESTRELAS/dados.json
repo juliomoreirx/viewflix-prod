@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzOTE=",
+  "tipo": "serie",
+  "titulo": "CHEF 5 ESTRELAS",
+  "capa_url": "https://lgfp.one/JZS4",
+  "capa_local": "CHEF 5 ESTRELAS/CHEF 5 ESTRELAS.jpg",
+  "sinopse": "Sete chefs profissionais competem entre si para levar pratos conceituais ao histórico Palm Court, o luxuoso restaurante do Langham Hotel, em Londres.",
+  "genero": "Reality",
+  "elenco": "Ravneet Gill, Mike Reid, Michel Roux Jr",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:44"
+        }
+      ]
+    }
+  ],
+  "id": 3698
+}

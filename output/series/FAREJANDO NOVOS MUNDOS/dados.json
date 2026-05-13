@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5MzQ=",
+  "tipo": "serie",
+  "titulo": "FAREJANDO NOVOS MUNDOS",
+  "capa_url": "https://lgfp.one/SNW",
+  "capa_local": "FAREJANDO NOVOS MUNDOS/FAREJANDO NOVOS MUNDOS.jpg",
+  "sinopse": "É hora de farejar um novo planeta para nós! Com a Terra em perigo, cientistas enviam cachorros geneticamente modificados para explorar o espaço em busca de um novo lar.",
+  "genero": "Comédia, Animação, Action & Adventure",
+  "elenco": "Haley Joel Osment, Sarah Chalke, Kimiko Glenn, Chris Parnell, David López",
+  "diretor": "Liz Artinian",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:53"
+        }
+      ]
+    }
+  ],
+  "id": 227673
+}

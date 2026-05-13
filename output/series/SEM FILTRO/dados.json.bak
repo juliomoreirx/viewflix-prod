@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Njk=",
+  "tipo": "serie",
+  "titulo": "SEM FILTRO",
+  "capa_url": "https://lgfp.one/YMU",
+  "capa_local": "SEM FILTRO/SEM FILTRO.jpg",
+  "sinopse": "Marcely não aguenta mais o curso da faculdade e decide largar tudo para realizar seu novo sonho: ser uma influencer. Só que a vida online é mais difícil do que parece…",
+  "genero": "Comédia, Drama, Talk",
+  "elenco": "Ademara Barros, Maicon Rodrigues, Mel Maia, Luisa Perissé, Pedro Ottoni",
+  "diretor": "Tatiana de Lamare, João Fonseca",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:37:58"
+        }
+      ]
+    }
+  ],
+  "id": 3286
+}

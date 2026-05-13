@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NzA=",
+  "tipo": "serie",
+  "titulo": "GAROTA DE FORA RECOMECO (2026)",
+  "capa_url": "https://lgfp.one/SEB8",
+  "capa_local": "GAROTA DE FORA RECOMECO (2026)/GAROTA DE FORA RECOMECO (2026).jpg",
+  "sinopse": "Em um novo universo, a misteriosa Nanno finge ser uma aluna nova para expor a crueldade, virando o poder, a culpa e o desejo contra quem abusa de tudo isso.",
+  "genero": "Drama, Mistério",
+  "elenco": "เบ็คกี้ อาร์มสตรอง",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:32"
+        }
+      ]
+    }
+  ],
+  "id": 9064
+}

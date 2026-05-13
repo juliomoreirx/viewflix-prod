@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MzU=",
+  "tipo": "serie",
+  "titulo": "PONTO DE VIRADA: 11/9 E A GUERRA CONTRA O TERROR",
+  "capa_url": "https://lgfp.one/SFP",
+  "capa_local": "PONTO DE VIRADA 119 E A GUERRA CONTRA O TERROR/PONTO DE VIRADA 119 E A GUERRA CONTRA O TERROR.jpg",
+  "sinopse": "A história contemporânea pode ser dividida em dois períodos: antes e depois de 11 de setembro de 2001. Esta série documental do diretor Brian Knappenberger faz uma crônica em cinco partes dos atentados, oferecendo perspectivas esclarecedoras e histórias pessoais sobre os eventos catastróficos que mudaram o rumo dos Estados Unidos. Da invasão soviética ao Afeganistão em 1979 até o colapso que levou o país de volta às mãos do Talibã pouco antes do vigésimo aniversário do ataque, a história continua sendo feita.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Osama bin Laden, George W. Bush, Dexter Filkins",
+  "diretor": "Lowell Bergman, Mohammed Naqvi, Jordan Bryon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:06:54"
+        }
+      ]
+    }
+  ],
+  "id": 1837
+}

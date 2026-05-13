@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MzA=",
+  "tipo": "serie",
+  "titulo": "SOBRE VIVER",
+  "capa_url": "https://lgfp.one/AYWD",
+  "capa_local": "SOBRE VIVER/SOBRE VIVER.jpg",
+  "sinopse": "Sobreviventes, entes queridos e testemunhas compartilham histórias de resistência, descrevendo as situações de vida ou morte que passaram e as permanentes cicatrizes físicas e emocionais que sofreram depois de escapar por pouco da morte.",
+  "genero": "Documentário",
+  "elenco": "John Beach, Davin DeLoatch, Ellis Ford",
+  "diretor": "Michel Monty, Scott Wiley, Dan Bush",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 4883
+}

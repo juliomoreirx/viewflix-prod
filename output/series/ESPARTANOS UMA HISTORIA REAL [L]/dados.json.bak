@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NjM=",
+  "tipo": "serie",
+  "titulo": "ESPARTANOS UMA HISTORIA REAL [L]",
+  "capa_url": "https://lgfp.one/NBZ6",
+  "capa_local": "ESPARTANOS UMA HISTORIA REAL [L]/ESPARTANOS UMA HISTORIA REAL [L].jpg",
+  "sinopse": "Depois de testemunhar com seus próprios olhos a realidade violenta das prisões na Argentina, um advogado de classe alta e ex-jogador de rúgbi decide treinar um grupo de prisioneiros e acaba fundando o Espartanos, o primeiro time de rúgbi formado na prisão.",
+  "genero": "Drama",
+  "elenco": "Guillermo Pfening, Mariana Giménez, Pablo Rago",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:56"
+        }
+      ]
+    }
+  ],
+  "id": 6937
+}

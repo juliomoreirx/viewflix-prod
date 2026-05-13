@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyODk=",
+  "tipo": "serie",
+  "titulo": "RESTRITO, SIM! SEM SABOR, NUNCA!",
+  "capa_url": "https://lgfp.one/YXU",
+  "capa_local": "RESTRITO, SIM! SEM SABOR, NUNCA!/RESTRITO, SIM! SEM SABOR, NUNCA!.jpg",
+  "sinopse": "Tabitha Brown desafia chefs talentosos a agradar um difícil grupo de jurados com pratos deliciosos que agradem suas restrições alimentares e suas preferências. Os participantes concorrem a um prêmio de US$ 10 mil!",
+  "genero": "Reality",
+  "elenco": "Tabitha Brown, Maneet Chauhan",
+  "diretor": "Tabitha Brown",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:35"
+        }
+      ]
+    }
+  ],
+  "id": 3380
+}

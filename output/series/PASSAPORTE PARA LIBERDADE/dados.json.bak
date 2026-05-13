@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzODc=",
+  "tipo": "serie",
+  "titulo": "PASSAPORTE PARA LIBERDADE",
+  "capa_url": "https://lgfp.one/SSK",
+  "capa_local": "PASSAPORTE PARA LIBERDADE/PASSAPORTE PARA LIBERDADE.jpg",
+  "sinopse": "A história de Aracy de Carvalho, funcionária do consulado do Brasil em Hamburgo, na Alemanha, que salvou judeus do nazismo durante a Segunda Guerra Mundial.",
+  "genero": "Drama",
+  "elenco": "Sophie Charlotte, Rodrigo Lombardi, Tarcísio Filho, Stefan Weinert, Aryè Campos",
+  "diretor": "Jayme Monjardim",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:40"
+        }
+      ]
+    }
+  ],
+  "id": 2185
+}

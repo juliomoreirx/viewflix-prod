@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NTg=",
+  "tipo": "serie",
+  "titulo": "THE CLUB",
+  "capa_url": "https://lgfp.one/SMY",
+  "capa_local": "THE CLUB/THE CLUB.jpg",
+  "sinopse": "Na Istambul dos anos 50, uma mulher com um passado conturbado trabalha em uma casa noturna para ajudar a filha que não conseguiu criar.",
+  "genero": "Drama",
+  "elenco": "Gökçe Bahadır, Barış Arduç, Fırat Tanış, Asude Kalebek, Salih Bademci",
+  "diretor": "Zeynep Gunay Tan, Seren Yüce",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:28"
+        }
+      ]
+    }
+  ],
+  "id": 2031
+}

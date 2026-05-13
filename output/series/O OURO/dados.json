@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNjc=",
+  "tipo": "serie",
+  "titulo": "O OURO",
+  "capa_url": "https://lgfp.one/AAZJ",
+  "capa_local": "O OURO/O OURO.jpg",
+  "sinopse": "Um novo e emocionante drama inspirado na icônica história real do roubo da Brinks Mat e nas longas décadas de eventos que se seguiram.",
+  "genero": "Crime, Drama",
+  "elenco": "Hugh Bonneville, Dominic Cooper, Charlotte Spencer, Jack Lowden, Sean Harris",
+  "diretor": "Christian Rigg",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:36"
+        }
+      ]
+    }
+  ],
+  "id": 4001
+}

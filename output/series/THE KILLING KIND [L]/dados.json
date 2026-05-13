@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MDc=",
+  "tipo": "serie",
+  "titulo": "THE KILLING KIND [L]",
+  "capa_url": "https://lgfp.one/ABAF",
+  "capa_local": "THE KILLING KIND [L]/THE KILLING KIND [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Colin Morgan, Emma Appleton",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:03:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:03:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:03"
+        }
+      ]
+    }
+  ],
+  "id": 9421
+}

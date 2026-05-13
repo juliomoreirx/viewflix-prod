@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzU=",
+  "tipo": "serie",
+  "titulo": "BEM-VINDOS AO CLUBE DA SEDUÇÃO",
+  "capa_url": "https://lgfp.one/WKS",
+  "capa_local": "BEM-VINDOS AO CLUBE DA SEDUCAO/BEM-VINDOS AO CLUBE DA SEDUCAO.jpg",
+  "sinopse": "Em uma extensa saga de true crime, a série conta a história chocante de Somen \"Steve\" Banerjee, um imigrante indiano que se tornou o fundador improvável do maior império de striptease masculino do mundo e não deixou ninguém impedir seu caminho para o sucesso.",
+  "genero": "Drama / Crime / Comédia",
+  "elenco": "Kumail Nanjiani, Murray Bartlett, Annaleigh Ashford, Nicola Peltz, Dan Stevens, Juliette Lewis, Quentin Plair",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:54"
+        }
+      ]
+    }
+  ],
+  "id": 375582
+}

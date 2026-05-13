@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5ODI=",
+  "tipo": "serie",
+  "titulo": "O CIRCO DA PAIXÃO",
+  "capa_url": "https://lgfp.one/NGA8",
+  "capa_local": "O CIRCO DA PAIXAO/O CIRCO DA PAIXAO.jpg",
+  "sinopse": "Ambientado na Espanha dos anos 1980, este filme narra a tumultuosa história de amor entre a estrela de cinema Bárbara Rey e o artista de circo Ángel Cristo.",
+  "genero": "Drama, Documentário",
+  "elenco": "Jaime Lorente, Belén Cuesta, Adriana Torrebejano, Cristóbal Suárez, Artur Busquets",
+  "diretor": "",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:43"
+        }
+      ]
+    }
+  ],
+  "id": 7011
+}

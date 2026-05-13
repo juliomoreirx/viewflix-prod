@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5NTU=",
+  "tipo": "serie",
+  "titulo": "UM CASAMENTO FELIZ [L]",
+  "capa_url": "https://lgfp.one/PSM6",
+  "capa_local": "UM CASAMENTO FELIZ [L]/UM CASAMENTO FELIZ [L].jpg",
+  "sinopse": "Em um Casamento Feliz, Harada Kotaro (Abe Sadao) é um advogado muito focado no trabalho, que viveu solteiro e solitário por muitos anos. Porém, sua vida muda completamente ao conhecer a professora de artes Suzuki Nella (Matsu Takako), com quem se casa rapidamente. Por trás do casamento perfeito, um segredo de Nella pode mudar tudo.",
+  "genero": "Drama",
+  "elenco": "阿部隆史, 松たか子, 板垣李光人, 段田安則, 岡部たかし",
+  "diretor": "黒崎博",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:30"
+        }
+      ]
+    }
+  ],
+  "id": 7830
+}

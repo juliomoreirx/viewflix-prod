@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MTE=",
+  "tipo": "serie",
+  "titulo": "1985 [L]",
+  "capa_url": "https://lgfp.one/AAPE",
+  "capa_local": "1985 [L]/1985 [L].jpg",
+  "sinopse": "1985 segue os amigos Marc e Franky, e sua irmã Vicky, na turbulenta década de 1980. Marc e Franky mudam-se para Bruxelas para uma carreira na Gendarmaria. Logo os três jovens são sugados para uma espiral de crimes que são atribuídos à chamada gangue “Bende van Nijvel”.",
+  "genero": "Drama, Crime",
+  "elenco": "Tijmen Govaerts, Aimé Claeys, Mona Mina Leon, Tom Vermeir, Titus De Voogdt",
+  "diretor": "Willem Wallyn, Wouter Bouvijn",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:06"
+        }
+      ]
+    }
+  ],
+  "id": 3738
+}

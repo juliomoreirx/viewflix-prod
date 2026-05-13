@@ -1,0 +1,25 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MzE=",
+  "tipo": "serie",
+  "titulo": "I TOPI",
+  "capa_url": "https://lgfp.one/RQO",
+  "capa_local": "I TOPI/I TOPI.jpg",
+  "sinopse": "",
+  "genero": "Comédia, Família",
+  "elenco": "Antonio Albanese, Nicola Rignanese, Lorenza Indovina, Michela De Rossi, Andrea Colombo",
+  "diretor": "Antonio Albanese",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:23"
+        }
+      ]
+    }
+  ],
+  "id": 1261
+}

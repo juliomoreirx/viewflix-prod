@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMDA=",
+  "tipo": "serie",
+  "titulo": "SCOTT PILGRIM A SERIE",
+  "capa_url": "https://lgfp.one/ATPB",
+  "capa_local": "SCOTT PILGRIM A SERIE/SCOTT PILGRIM A SERIE.jpg",
+  "sinopse": "Scott Pilgrim conhece Ramona Flowers, a garota dos seus sonhos, mas logo descobre que há sete ex-namorados do mal no meio do caminho.",
+  "genero": "Animação, Action & Adventure, Comédia",
+  "elenco": "Michael Cera, Mary Elizabeth Winstead, Satya Bhabha, Kieran Culkin, Chris Evans",
+  "diretor": "Edgar Wright, 최은영, Abel Góngora",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:23"
+        }
+      ]
+    }
+  ],
+  "id": 4491
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2Mjg=",
+  "tipo": "serie",
+  "titulo": "GLEIPNIR",
+  "capa_url": "https://lgfp.one/DGC3",
+  "capa_local": "GLEIPNIR/GLEIPNIR.jpg",
+  "sinopse": "Shuuichi Kagaya é um garoto comum do ensino médio de uma cidade pequena e chata, mas quando uma bela colega de sua classe é pega em um incêndio no armazém, ele descobre um poder misterioso: Ele pode se transformar em um cachorro peludo com um revólver enorme e um zíper nas costas. Ele salva a vida da garota, compartilhando seu segredo com ela. Mas ela está procurando a irmã que matou sua família e ela não se importa com o quão degradante seja: Ela usará Shuuichi para cumprir sua vingança!",
+  "genero": "Animação, Mistério, Comédia",
+  "elenco": "花江夏樹, 東山奈央, 花澤香菜, 櫻井孝宏, 伊藤美来",
+  "diretor": "米田和弘",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:42"
+        }
+      ]
+    }
+  ],
+  "id": 5815
+}

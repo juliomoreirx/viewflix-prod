@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMDY=",
+  "tipo": "serie",
+  "titulo": "MC DALESTE: MATARAM O POBRE LOCO",
+  "capa_url": "https://lgfp.one/NRX4",
+  "capa_local": "MC DALESTE MATARAM O POBRE LOCO/MC DALESTE MATARAM O POBRE LOCO.jpg",
+  "sinopse": "A série investiga o assassinato de MC Daleste, precursor do funk paulista, baleado no palco em 2013. O documentário revela novas pistas e testemunhas do crime, que continua impune.",
+  "genero": "Documentário",
+  "elenco": "Mc Livinho, Mc Daleste/Daniel, Mc Pedrinho",
+  "diretor": "Eliane Scardovelli, Guilherme Belarmino, Caio Cavechini",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:28"
+        }
+      ]
+    }
+  ],
+  "id": 7232
+}

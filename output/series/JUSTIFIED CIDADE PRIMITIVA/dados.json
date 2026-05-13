@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNjE=",
+  "tipo": "serie",
+  "titulo": "JUSTIFIED: CIDADE PRIMITIVA",
+  "capa_url": "https://lgfp.one/AAOE",
+  "capa_local": "JUSTIFIED CIDADE PRIMITIVA/JUSTIFIED CIDADE PRIMITIVA.jpg",
+  "sinopse": "Raylan Givens deixou o Kentucky e está equilibrando sua vida de agente federal com a de pai em meio período. Um encontro inesperado o envia para Detroit, onde ele acaba cruzando com um sociopata violento e uma advogada de defesa formidável.",
+  "genero": "Crime, Drama",
+  "elenco": "Timothy Olyphant, Aunjanue Ellis-Taylor, Boyd Holbrook, Adelaide Clemens, Vondie Curtis-Hall",
+  "diretor": "Michael Dinner, Peter Leonard",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:54"
+        }
+      ]
+    }
+  ],
+  "id": 3712
+}

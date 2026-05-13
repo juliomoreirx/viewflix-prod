@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3OTI=",
+  "tipo": "serie",
+  "titulo": "MEMORIAS DE UMA PRISAO",
+  "capa_url": "https://lgfp.one/OSG3",
+  "capa_local": "MEMORIAS DE UMA PRISAO/MEMORIAS DE UMA PRISAO.jpg",
+  "sinopse": "Antologia de histórias contadas em épocas distintas, mas que aconteceram no mesmo lugar: um presídio com mais de 200 anos de história.",
+  "genero": "Drama, Crime",
+  "elenco": "Gábor Jászberényi, Csaba Krisztik, Péter Jankovics, Dániel Pásztor, András Pál",
+  "diretor": "Mano Csillag",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:12"
+        }
+      ]
+    }
+  ],
+  "id": 7426
+}

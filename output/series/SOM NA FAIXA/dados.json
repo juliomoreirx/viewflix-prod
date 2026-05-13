@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMzg=",
+  "tipo": "serie",
+  "titulo": "SOM NA FAIXA",
+  "capa_url": "https://lgfp.one/AMI2",
+  "capa_local": "SOM NA FAIXA/SOM NA FAIXA.jpg",
+  "sinopse": "Um grupo de jovens empreendedores liderados por Daniel Ek aceita a missão aparentemente impossível de mudar a indústria da música (e o mundo) com a criação de uma plataforma de streaming para músicas.",
+  "genero": "Drama",
+  "elenco": "Edvin Endre, Gizem Erdogan, Christian Hillborg, Ulf Stenberg, Severija Janušauskaitė",
+  "diretor": "Per-Olav Sørensen, Hallgrim Haug",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:19"
+        }
+      ]
+    }
+  ],
+  "id": 5135
+}

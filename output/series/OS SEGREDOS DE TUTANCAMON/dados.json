@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNTQ=",
+  "tipo": "serie",
+  "titulo": "OS SEGREDOS DE TUTANCAMON",
+  "capa_url": "https://lgfp.one/QAU5",
+  "capa_local": "OS SEGREDOS DE TUTANCAMON/OS SEGREDOS DE TUTANCAMON.jpg",
+  "sinopse": "Descubra a história de um jovem rei e líder poderoso o suficiente para restabelecer um Egito falido no centro do mundo antigo.",
+  "genero": "Documentário",
+  "elenco": "Mark Bazeley",
+  "diretor": "Michael Douglas, Stephen Mizelas",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:02"
+        }
+      ]
+    }
+  ],
+  "id": 8016
+}

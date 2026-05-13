@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNzM=",
+  "tipo": "serie",
+  "titulo": "GUGA POR KUERTEN",
+  "capa_url": "https://lgfp.one/DMM4",
+  "capa_local": "GUGA POR KUERTEN/GUGA POR KUERTEN.jpg",
+  "sinopse": "Guga por Kuerten narra a ascensão de Guga, desde suas origens humildes e a morte precoce de seu pai, até se tornar uma lenda mundial do tênis sob a tutela de Larri Passos. A série destaca suas vitórias e lutas contra lesões, inclusive sua emocionante aposentadoria em 2008. Com imagens, entrevistas e momentos íntimos, revela a humanidade e a grandeza do ídolo brasileiro.",
+  "genero": "Documentário",
+  "elenco": "Gustavo Kuerten, Rafael Nadal, Roger Federer, Novak Djokovic, Larri Passos",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:41"
+        }
+      ]
+    }
+  ],
+  "id": 5945
+}

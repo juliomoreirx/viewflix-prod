@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNDM=",
+  "tipo": "serie",
+  "titulo": "JOGO DE ESPIÕES: HISTÓRIAS DA GUERRA FRIA",
+  "capa_url": "https://lgfp.one/AIW4",
+  "capa_local": "JOGO DE ESPIOES HISTORIAS DA GUERRA FRIA/JOGO DE ESPIOES HISTORIAS DA GUERRA FRIA.jpg",
+  "sinopse": "Saiba mais sobre a exploração crescente das tensões globais durante a Guerra Fria e o uso de espiões pelo Oriente e Ocidente.",
+  "genero": "War & Politics",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:41"
+        }
+      ]
+    }
+  ],
+  "id": 5046
+}

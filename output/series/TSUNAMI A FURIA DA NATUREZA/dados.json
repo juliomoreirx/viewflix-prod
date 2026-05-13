@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNTQ=",
+  "tipo": "serie",
+  "titulo": "TSUNAMI A FURIA DA NATUREZA",
+  "capa_url": "https://lgfp.one/RQI9",
+  "capa_local": "TSUNAMI A FURIA DA NATUREZA/TSUNAMI A FURIA DA NATUREZA.jpg",
+  "sinopse": "Em dezembro de 2004, a costa da Tailândia é destruída por ondas gigantes, afetando a vidas de seus habitantes e dos turistas. Veja a triste combinação de perdas humanas, luta pela sobrevivência e esperança dos que enfrentaram uma das maiores tragédias naturais da história.",
+  "genero": "Drama",
+  "elenco": "Tim Roth, Toni Collette, Chiwetel Ejiofor, Sophie Okonedo, Hugh Bonneville",
+  "diretor": "Bharat Nalluri, Rowena Ladbury",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:36:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:29:43"
+        }
+      ]
+    }
+  ],
+  "id": 8821
+}

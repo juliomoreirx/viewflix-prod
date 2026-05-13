@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzODE=",
+  "tipo": "serie",
+  "titulo": "COIOTE HEROI E FERA",
+  "capa_url": "https://lgfp.one/NDI8",
+  "capa_local": "COIOTE HEROI E FERA/COIOTE HEROI E FERA.jpg",
+  "sinopse": "Em uma cidade do México dividida entre dois impiedosos cartéis de drogas rivais, um jovem chamado Lupe abraça seu destino como o Coiote, uma criatura mítica metade homem, metade fera, para se tornar o guardião de que seu povo precisa.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Drama",
+  "elenco": "Alejandro Speitzer, Paulina Gaitán, Horacio García Rojas, Beng Zeng, Hoze Meléndez",
+  "diretor": "Julián de Tavira, Batan Silva, Pablo Silva Glez",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:06:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:36"
+        }
+      ]
+    }
+  ],
+  "id": 6966
+}

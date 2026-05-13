@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NDc=",
+  "tipo": "serie",
+  "titulo": "O CASO IRIS [L]",
+  "capa_url": "https://lgfp.one/QNQ0",
+  "capa_local": "O CASO IRIS [L]/O CASO IRIS [L].jpg",
+  "sinopse": "Um gênio sem raízes, Iris Nixon, rouba um código enigmático de um charmoso filantropo e desaparece. Uma tensa contagem regressiva se inicia enquanto ela corre para desvendar o mistério do código.",
+  "genero": "Crime, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Niamh Algar, Tom Hollander, Meréana Tomlinson, Sacha Dhawan, Maya Sansa",
+  "diretor": "Terry McDonough",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:21"
+        }
+      ]
+    }
+  ],
+  "id": 8316
+}

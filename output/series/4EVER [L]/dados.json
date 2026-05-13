@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1Nzg=",
+  "tipo": "serie",
+  "titulo": "4EVER [L]",
+  "capa_url": "https://lgfp.one/QNM9",
+  "capa_local": "4EVER [L]/4EVER [L].jpg",
+  "sinopse": "Os jovens músicos Andy, Ian, Ciro e Darío se encontram por acaso em um restaurante, onde se veem em uma situação inesperada: um valioso violão desapareceu. Para recuperá-lo e devolvê-lo ao dono, os meninos devem formar uma banda. A paixão pela música será a linguagem comum que os unirá apesar de suas diferenças, embarcando a nova banda em um caminho com promessas de sucesso e oportunidades frustradas, cujo objetivo final consta em encontrar duas coisas: o misterioso violão perdido... e uma melodia que os torna únicos.",
+  "genero": "Drama, Comédia",
+  "elenco": "Christopher Vélez, Zabdiel De Jesús, Richard Camacho, Erick Brian Colón, Yesika Glikman",
+  "diretor": "Nuno Eduardo Gomes",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:57"
+        }
+      ]
+    }
+  ],
+  "id": 8285
+}

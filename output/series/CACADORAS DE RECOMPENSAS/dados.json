@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5OTU=",
+  "tipo": "serie",
+  "titulo": "CAÇADORAS DE RECOMPENSAS",
+  "capa_url": "https://lgfp.one/RBK",
+  "capa_local": "CACADORAS DE RECOMPENSAS/CACADORAS DE RECOMPENSAS.jpg",
+  "sinopse": "As gêmeas Sterling e Blair tentam conciliar a vida em uma escola de elite com o novo trabalho de caçadoras de recompensa.",
+  "genero": "Comédia, Action & Adventure, Drama",
+  "elenco": "Anjelica Bette Fellini, Maddie Phillips, Kadeem Hardison, Virginia Williams",
+  "diretor": "Arturo Guzman",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:54"
+        }
+      ]
+    }
+  ],
+  "id": 847
+}

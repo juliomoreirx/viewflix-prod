@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2NTc=",
+  "tipo": "serie",
+  "titulo": "SHAMAN KING FLOWERS [L]",
+  "capa_url": "https://lgfp.one/AMC3",
+  "capa_local": "SHAMAN KING FLOWERS [L]/SHAMAN KING FLOWERS [L].jpg",
+  "sinopse": "Depois que Hao se tornou Shaman King e fechou a cortina da Shaman Fight, 14 anos já se passaram em Funbari Hill. Agora, tudo gira em torno de Hana Asakura, que é filho de Yoh Asakura, o lendário guerreiro que lutou na batalha final contra seu irmão Hao. Hana leva uma vida um tanto frustrante, pois não tem permissão para mostrar seus talentos como xamã. No entanto, tudo muda quando duas pessoas que dizem ser membros de outro ramo da família Asakura aparecem diante dele. Aqui começa a história da próxima geração de xamãs!",
+  "genero": "Animação",
+  "elenco": "Yoko Hikasa, Katsuyuki Konishi, Sumire Uesaka, Shun Horie, Kentaro Ito",
+  "diretor": "Jouji Furuta",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:50"
+        }
+      ]
+    }
+  ],
+  "id": 5130
+}

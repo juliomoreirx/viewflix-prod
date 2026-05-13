@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MjA=",
+  "tipo": "serie",
+  "titulo": "MINTA COMIGO [L]",
+  "capa_url": "https://lgfp.one/SJK",
+  "capa_local": "MINTA COMIGO [L]/MINTA COMIGO [L].jpg",
+  "sinopse": "Após uma crise no casamento, Anna Fallmont e seu marido buscam um recomeço na Austrália, mas a chegada da nova babá dos seus filhos pode representar uma grande ameaça.",
+  "genero": "Drama",
+  "elenco": "Charlie Brooks, Brett Tucker, Phoebe Roberts",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:39"
+        }
+      ]
+    }
+  ],
+  "id": 1938
+}

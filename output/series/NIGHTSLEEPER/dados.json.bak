@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNzc=",
+  "tipo": "serie",
+  "titulo": "NIGHTSLEEPER",
+  "capa_url": "https://lgfp.one/EFM8",
+  "capa_local": "NIGHTSLEEPER/NIGHTSLEEPER.jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Alexandra Roach, Joe Cole, Alex Ferns, Sharon Small, James Cosmo",
+  "diretor": "Jamie Magnus Stone",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:48"
+        }
+      ]
+    }
+  ],
+  "id": 6217
+}

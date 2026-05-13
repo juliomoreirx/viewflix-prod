@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTY=",
+  "tipo": "serie",
+  "titulo": "EXCEPTION",
+  "capa_url": "https://lgfp.one/VRO",
+  "capa_local": "EXCEPTION/EXCEPTION.jpg",
+  "sinopse": "Em um futuro distante, a humanidade foi forçada a deixar a Terra. Uma nave com uma equipe de especialistas impressa em 3D é enviada para colonizar um novo planeta.",
+  "genero": "Animação, Sci-Fi & Fantasy, Mistério",
+  "elenco": "Takahiro Sakurai, Atsumi Tanezaki, Yuhko Kaida, Chikahiro Kobayashi, 星野貴紀",
+  "diretor": "本多真",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 2941
+}

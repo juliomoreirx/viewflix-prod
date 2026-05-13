@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNzU=",
+  "tipo": "serie",
+  "titulo": "INVASAO A PARIS",
+  "capa_url": "https://lgfp.one/MZG3",
+  "capa_local": "INVASAO A PARIS/INVASAO A PARIS.jpg",
+  "sinopse": "Vincent é um agente secreto que trabalha para o governo dos Estados Unidos e ficou encarregado de proteger um político muito poderoso. Quando um grupo terrorista ameaça a segurança do ministro francês, o agente precisa se aliar a outros do ramo para garantir a segurança do político.",
+  "genero": "Action & Adventure, War & Politics",
+  "elenco": "Tewfik Jallab, Ritu Arya, Emmanuelle Bercot, Ana Ularu, Nathan Willcocks",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:57"
+        }
+      ]
+    }
+  ],
+  "id": 6887
+}

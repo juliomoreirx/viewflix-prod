@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NzA=",
+  "tipo": "serie",
+  "titulo": "IMPÉRIO DE AMSTERDÃ",
+  "capa_url": "https://lgfp.one/QMX3",
+  "capa_local": "IMPERIO DE AMSTERDA/IMPERIO DE AMSTERDA.jpg",
+  "sinopse": "Depois de descobrir a traição de Jack, sua esposa Betty bola um plano para tomar o que ele mais ama: The Jackal, seu império de coffeeshops.",
+  "genero": "Drama, Crime",
+  "elenco": "Famke Janssen, Jacob Derwig, Elise Schaap, Jade Olieberg, Jesse Mensah",
+  "diretor": "Tom Willemse, Pieter Walther Boer, Lars Zijm",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:46"
+        }
+      ]
+    }
+  ],
+  "id": 8264
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzI=",
+  "tipo": "serie",
+  "titulo": "A MULHER DO VIAJANTE NO TEMPO",
+  "capa_url": "https://lgfp.one/TJM",
+  "capa_local": "A MULHER DO VIAJANTE NO TEMPO/A MULHER DO VIAJANTE NO TEMPO.jpg",
+  "sinopse": "Desde os seis anos de idade, ela via um amigo que considerava imaginário: um homem gentil e engraçado, às vezes velho, às vezes jovem, que aparecia na floresta atrás de sua casa para lhe contar histórias do futuro. Mas conforme os anos passaram e ela se tornou uma bela jovem, Clare começou a perceber que seu amigo não era imaginário, mas um viajante do tempo vindo do futuro. E não apenas de um futuro qualquer, mas de seu próprio futuro. Após reencontrar Henry DeTamble como adulta, ela entende que se tornará a esposa do viajante no tempo.",
+  "genero": "Sci-Fi & Fantasy / Drama",
+  "elenco": "Rose Leslie, Theo James, Natasha Lopez, Desmin Borges, Caitlin Shorey, Everleigh McDonell, Peter Graham, Michael Park",
+  "diretor": "Steven Moffat",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:14"
+        }
+      ]
+    }
+  ],
+  "id": 2643
+}

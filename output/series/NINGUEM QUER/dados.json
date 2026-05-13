@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MzI=",
+  "tipo": "serie",
+  "titulo": "NINGUEM QUER",
+  "capa_url": "https://lgfp.one/DTC3",
+  "capa_local": "NINGUEM QUER/NINGUEM QUER.jpg",
+  "sinopse": "A apresentadora de podcast sobre sexo e um rabino recém-solteiro se apaixonam, mas será que a relação sobrevive às diferenças no estilo de vida e suas famílias intrometidas?",
+  "genero": "Comédia",
+  "elenco": "Kristen Bell, Adam Brody, Justine Lupe, Timothy Simons",
+  "diretor": "Greg Mottola, Iwona Sapienza, Ryann Werner",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:31:45"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:27:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:26:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:28:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:31:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:21:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:27:54"
+        }
+      ]
+    }
+  ],
+  "id": 6033
+}

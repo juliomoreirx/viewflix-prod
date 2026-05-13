@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1NjE=",
+  "tipo": "serie",
+  "titulo": "SPARTACUS: GODS OF THE ARENA",
+  "capa_url": "https://lgfp.one/SMS8",
+  "capa_local": "SPARTACUS GODS OF THE ARENA/SPARTACUS GODS OF THE ARENA.jpg",
+  "sinopse": "No tempo antes da chegada de Spartacus, a Casa de Batiatus enfrenta muitos desafios dos concorrentes, e dentro de sua própria casa.",
+  "genero": "",
+  "elenco": "John Hannah, Lucy Lawless, Manu Bennett, Peter Mensah",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:07"
+        }
+      ]
+    }
+  ],
+  "id": 9227
+}

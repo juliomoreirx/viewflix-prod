@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0OTI=",
+  "tipo": "serie",
+  "titulo": "THE CHELSEA DETECTIVE [L]",
+  "capa_url": "https://lgfp.one/ABAE",
+  "capa_local": "THE CHELSEA DETECTIVE [L]/THE CHELSEA DETECTIVE [L].jpg",
+  "sinopse": "Arnold, cujo estilo de vida em uma casa flutuante em Cheyne Walk, em Chelsea, contrasta fortemente com a elite abastada cujos crimes ele ajuda a resolver ao lado da parceira D.C. Priya Shamsie.",
+  "genero": "Crime, Mistério",
+  "elenco": "Adrian Scarborough, Sonita Henry, Cayvan Coates, Cecilia Appiah, Anamaria Marinca",
+  "diretor": "",
+  "total_episodios": "90",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:27:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:31:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:29:20"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:29:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:29:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:27:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:28:04"
+        }
+      ]
+    }
+  ],
+  "id": 4063
+}

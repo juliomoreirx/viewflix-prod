@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxOTc=",
+  "tipo": "serie",
+  "titulo": "SPRIGGAN",
+  "capa_url": "https://lgfp.one/AXB2",
+  "capa_local": "SPRIGGAN/SPRIGGAN.jpg",
+  "sinopse": "As relíquias de uma antiga civilização guardam poderes perigosos. Ainda bem que os agentes Spriggan estão prontos para evitar que elas caiam nas mãos erradas.",
+  "genero": "Animação, Action & Adventure, War & Politics",
+  "elenco": "小林千晃, 阿座上洋平, 浜田賢二, 伊瀬茉莉也, 細谷佳正",
+  "diretor": "Hiroshi Kobayashi, Shohei Miyake",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:45"
+        }
+      ]
+    }
+  ],
+  "id": 5367
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NDk=",
+  "tipo": "serie",
+  "titulo": "UM RAPAZ ADEQUADO",
+  "capa_url": "https://lgfp.one/RIF",
+  "capa_local": "UM RAPAZ ADEQUADO/UM RAPAZ ADEQUADO.jpg",
+  "sinopse": "Na Índia recém-dividida, uma mãe procura o marido ideal para a filha em uma jornada que envolve política, amor e dramas familiares.",
+  "genero": "Drama",
+  "elenco": "तान्या मानिकतला, Ishaan Khatter, Tabu, Mahira Kakkar, रसिका दुग्गल",
+  "diretor": "Mira Nair, Shimit Amin",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:46"
+        }
+      ]
+    }
+  ],
+  "id": 1033
+}

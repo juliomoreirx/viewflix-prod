@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxMzQ=",
+  "tipo": "serie",
+  "titulo": "NAKED FIREMAN [L]",
+  "capa_url": "https://lgfp.one/KXT4",
+  "capa_local": "NAKED FIREMAN [L]/NAKED FIREMAN [L].jpg",
+  "sinopse": "Kang Chul-Soo é um bombeiro dedicado que leva uma vida simples, mas tudo muda quando ele é falsamente acusado de um assassinato. Na tentativa de limpar seu nome, ele aceita uma proposta inusitada: posar como modelo para pinturas de Han Jin-A, uma artista rica e misteriosa que tem ligações com o caso. Enquanto Chul-Soo tenta desvendar o verdadeiro culpado, ele e Jin-A acabam formando uma parceria inesperada, repleta de desconfianças, segredos e uma atração crescente. Entre o calor das investigações e o fogo do romance, Naked Fireman combina ação, mistério e humor, revelando que, às vezes, a verdade pode estar onde menos se espera.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "이준혁, 정인선, 조희봉, 서정연, 이원종",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:34"
+        }
+      ]
+    }
+  ],
+  "id": 6590
+}

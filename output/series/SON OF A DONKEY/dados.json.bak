@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NjM=",
+  "tipo": "serie",
+  "titulo": "SON OF A DONKEY",
+  "capa_url": "https://lgfp.one/QMY6",
+  "capa_local": "SON OF A DONKEY/SON OF A DONKEY.jpg",
+  "sinopse": "Theo inventa planos caóticos para não perder seu amado carro. Enquanto isso, o pai dele, que está doente, vai fazer de tudo para encontrar um novo rim.",
+  "genero": "Comédia",
+  "elenco": "Nathan Saidden, Theodore Saidden",
+  "diretor": "Nathan Saidden, Theodore Saidden",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:04"
+        }
+      ]
+    }
+  ],
+  "id": 8277
+}

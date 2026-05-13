@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMjg=",
+  "tipo": "serie",
+  "titulo": "SALVE MEU RESTAURANTE!",
+  "capa_url": "https://lgfp.one/TLY",
+  "capa_local": "SALVE MEU RESTAURANTE!/SALVE MEU RESTAURANTE!.jpg",
+  "sinopse": "Todd Graves ajuda donos de restaurante a se recuperar da pandemia da COVID-19. Com um profundo conhecimento da indústria e alguns amigos famosos, Todd arregaça as mangas para fazer os estabelecimentos voltarem a seus dias de glória.",
+  "genero": "Reality",
+  "elenco": "Todd Graves",
+  "diretor": "",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:56"
+        }
+      ]
+    }
+  ],
+  "id": 2713
+}

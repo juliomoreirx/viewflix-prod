@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3OTc=",
+  "tipo": "serie",
+  "titulo": "LENDA IMPERIAL",
+  "capa_url": "https://lgfp.one/OPS0",
+  "capa_local": "LENDA IMPERIAL/LENDA IMPERIAL.jpg",
+  "sinopse": "Movidos pelo desejo de uma mecenas, os alunos do Colégio Bento Quirino partem para uma aventura numa fazenda colonial do século XIX. Não sabiam eles que serão manipulados por ela, a procurar o medalhão imperial que D. Pedro II deu de presente a Bento Quirino. Uma relíquia de alto valor histórico e comercial.",
+  "genero": "Action & Adventure",
+  "elenco": "Guto Melo, Raphael Montagner, Ana Juh Fraga, Ana Laura Zerbinato, Ana Luiza Barros",
+  "diretor": "Márcio Trigo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:17:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:50"
+        }
+      ]
+    }
+  ],
+  "id": 7384
+}

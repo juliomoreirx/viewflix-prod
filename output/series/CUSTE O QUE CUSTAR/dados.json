@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2ODk=",
+  "tipo": "serie",
+  "titulo": "CUSTE O QUE CUSTAR",
+  "capa_url": "https://lgfp.one/RHC3",
+  "capa_local": "CUSTE O QUE CUSTAR/CUSTE O QUE CUSTAR.jpg",
+  "sinopse": "Em busca da filha que fugiu, um pai desesperado acaba envolvido em um caso de assassinato e descobre segredos que podem destruir sua família de vez.",
+  "genero": "Drama, Mistério",
+  "elenco": "James Nesbitt, Minnie Driver, Lucian Msamati, Ruth Jones, Alfred Enoch",
+  "diretor": "Will McDonagh, Annie Dibling",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:30"
+        }
+      ]
+    }
+  ],
+  "id": 313952
+}

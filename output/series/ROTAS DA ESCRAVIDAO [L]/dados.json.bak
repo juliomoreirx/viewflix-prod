@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0NDc=",
+  "tipo": "serie",
+  "titulo": "ROTAS DA ESCRAVIDAO [L]",
+  "capa_url": "https://lgfp.one/ARWE",
+  "capa_local": "ROTAS DA ESCRAVIDAO [L]/ROTAS DA ESCRAVIDAO [L].jpg",
+  "sinopse": "Esta série revela como as populações subsaarianas se tornaram, ao longo dos séculos, a principal “matéria-prima” do tráfico de escravos da história.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Juan Gélas, Daniel Cattier, Fanny Glissant",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:48"
+        }
+      ]
+    }
+  ],
+  "id": 4337
+}

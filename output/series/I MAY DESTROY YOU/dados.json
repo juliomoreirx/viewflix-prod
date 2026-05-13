@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5Mjc=",
+  "tipo": "serie",
+  "titulo": "I MAY DESTROY YOU",
+  "capa_url": "https://lgfp.one/RDX",
+  "capa_local": "I MAY DESTROY YOU/I MAY DESTROY YOU.jpg",
+  "sinopse": "Arabella é uma independente londrina cheia de bons amigos e uma promissora carreira de escritora. Mas quando colocam drogas em sua bebida, ela precisa questionar e reconstruir todos os elementos de sua vida.",
+  "genero": "Drama",
+  "elenco": "Michaela Coel, Weruche Opia",
+  "diretor": "Georgina Higgins",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:30:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:30:19"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:30:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:36:08"
+        }
+      ]
+    }
+  ],
+  "id": 914
+}

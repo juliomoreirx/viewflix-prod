@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2OTg=",
+  "tipo": "serie",
+  "titulo": "CELESTIAL BONDS [L]",
+  "capa_url": "https://lgfp.one/PXE8",
+  "capa_local": "CELESTIAL BONDS [L]/CELESTIAL BONDS [L].jpg",
+  "sinopse": "",
+  "genero": "Animação, Mistério, Comédia",
+  "elenco": "Liu Xiaoyu, Qian Chen, 劉三木, Yang Kaiqi, Zhang Jie",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:01"
+        }
+      ]
+    }
+  ],
+  "id": 7913
+}

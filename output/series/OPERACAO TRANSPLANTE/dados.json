@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzNjM=",
+  "tipo": "serie",
+  "titulo": "OPERAÇÃO TRANSPLANTE",
+  "capa_url": "https://lgfp.one/NLH9",
+  "capa_local": "OPERACAO TRANSPLANTE/OPERACAO TRANSPLANTE.jpg",
+  "sinopse": "Esta série documenta com exclusividade a jornada de equipes médicas e pacientes envolvidos com transplantes de órgãos em São Paulo. Da captação até a alta hospitalar, os episódios revelam desafios intensos e a corrida pela vida.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Rodrigo Astiz, João Daniel Tikhomiroff, Michel Tikhomiroff",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:30"
+        }
+      ]
+    }
+  ],
+  "id": 7101
+}

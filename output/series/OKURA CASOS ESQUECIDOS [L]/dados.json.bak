@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxMjQ=",
+  "tipo": "serie",
+  "titulo": "OKURA CASOS ESQUECIDOS [L]",
+  "capa_url": "https://lgfp.one/KJK5",
+  "capa_local": "OKURA CASOS ESQUECIDOS [L]/OKURA CASOS ESQUECIDOS [L].jpg",
+  "sinopse": "Um jovem investigador e um policial experiente trabalham duro em casos não solucionados e esquecidos.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "反町隆史, 杉野遥亮, 白石麻衣, 前田旺志郎, Arisawa Shōtarō",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:51"
+        }
+      ]
+    }
+  ],
+  "id": 6408
+}

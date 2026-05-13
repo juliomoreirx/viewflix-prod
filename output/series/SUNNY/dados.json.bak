@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxODA=",
+  "tipo": "serie",
+  "titulo": "SUNNY",
+  "capa_url": "https://lgfp.one/CXT2",
+  "capa_local": "SUNNY/SUNNY.jpg",
+  "sinopse": "A vida de uma americana que vive em Kyoto, no Japão, vira de cabeça para baixo quando seu marido e filho desaparecem em um misterioso acidente de avião. Como consolo, ela ganha Sunny, um exemplar de uma nova classe de robôs domésticos fabricados pela empresa de eletrônicos de seu marido.",
+  "genero": "Mistério, Drama, Comédia",
+  "elenco": "Rashida Jones, Hidetoshi Nishijima, Joanna Sotomura, Judy Ongg, YOU",
+  "diretor": "Lucy Tcherniak, Masahiro Maeda",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:31:03"
+        }
+      ]
+    }
+  ],
+  "id": 5680
+}

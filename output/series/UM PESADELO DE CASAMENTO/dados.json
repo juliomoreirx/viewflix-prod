@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NjQ=",
+  "tipo": "serie",
+  "titulo": "UM PESADELO DE CASAMENTO",
+  "capa_url": "https://lgfp.one/TMZ",
+  "capa_local": "UM PESADELO DE CASAMENTO/UM PESADELO DE CASAMENTO.jpg",
+  "sinopse": "Um pedido de casamento deveria ser um final feliz. Mas para esse casal, é o começo de uma batalha sobre os preparativos para a cerimônia.",
+  "genero": "Drama",
+  "elenco": "Lee Jin-wook, Lee Yeon-hee, Hwang Seung-eon, Kil Yong-woo, Song Jin-woo, Kim Ju-yeon, Kim Mi Kyung, Im Ha-ryong",
+  "diretor": "Seo Joo-wan",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:38:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:38:54"
+        }
+      ]
+    }
+  ],
+  "id": 2741
+}

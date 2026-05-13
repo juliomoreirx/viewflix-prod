@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MjQ=",
+  "tipo": "serie",
+  "titulo": "A GUERRA DOS SAMURAIS",
+  "capa_url": "https://lgfp.one/RNR",
+  "capa_local": "A GUERRA DOS SAMURAIS/A GUERRA DOS SAMURAIS.jpg",
+  "sinopse": "Reconstituições e comentários de especialistas dão vida à história conturbada e às lutas por poder no Japão feudal do século 16.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Elijah Bender, David Spafford, Nathan Ledbetter, David Eason, Oleg Benesch",
+  "diretor": "Simon George, Stephen Scott, Andrea Maxwell",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:23"
+        }
+      ]
+    }
+  ],
+  "id": 1183
+}

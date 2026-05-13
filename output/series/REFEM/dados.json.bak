@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4Mzg=",
+  "tipo": "serie",
+  "titulo": "REFÉM",
+  "capa_url": "https://lgfp.one/PUE6",
+  "capa_local": "REFEM/REFEM.jpg",
+  "sinopse": "O marido da primeira-ministra do Reino Unido é sequestrado, e a presidente da França começa a receber ameaças. Agora, as duas precisam tomar uma decisão impossível.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Suranne Jones, Julie Delpy, Corey Mylchreest, Ashley Thomas, Martin McCann",
+  "diretor": "David Meanti, Rebecca Keros, Bruno Tormos",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:24"
+        }
+      ]
+    }
+  ],
+  "id": 327266
+}

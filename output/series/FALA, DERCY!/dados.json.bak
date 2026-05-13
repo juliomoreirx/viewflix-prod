@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMjM=",
+  "tipo": "serie",
+  "titulo": "FALA, DERCY!",
+  "capa_url": "https://lgfp.one/OYO5",
+  "capa_local": "FALA, DERCY!/FALA, DERCY!.jpg",
+  "sinopse": "'Fala, Dercy!\", um programa de auditório apresentado pela atriz brasileira Dercy Gonçalves entre 04 de janeiro e 27 de agosto de 2000. A programa tinha direção geral de Carlos Alberto Xavier e direção de dramaturgia de Marcos Caruso. O programa abaixo foi exibido em 27/08/2000.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:39:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:38:24"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:40:18"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:41:15"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:41:05"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:38:27"
+        },
+        {
+          "numero": "21",
+          "codigo": "S01E21",
+          "duracao": "00:34:37"
+        }
+      ]
+    }
+  ],
+  "id": 7382
+}

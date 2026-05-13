@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMjU=",
+  "tipo": "serie",
+  "titulo": "EXPLICANDO O SEXO",
+  "capa_url": "https://lgfp.one/IZC",
+  "capa_local": "EXPLICANDO O SEXO/EXPLICANDO O SEXO.jpg",
+  "sinopse": "Ciência da atração, história do controle de natalidade e mais: nesta série divertida e esclarecedora você encontra tudo o que queria saber sobre sexo.",
+  "genero": "Documentário",
+  "elenco": "Janelle Monáe, Lisa Diamond, DJ Khaled",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:18:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:17:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:07"
+        }
+      ]
+    }
+  ],
+  "id": 337
+}

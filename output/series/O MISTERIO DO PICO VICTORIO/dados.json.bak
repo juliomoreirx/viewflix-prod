@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MTE=",
+  "tipo": "serie",
+  "titulo": "O MISTÉRIO DO PICO VICTORIO",
+  "capa_url": "https://lgfp.one/AANE",
+  "capa_local": "O MISTERIO DO PICO VICTORIO/O MISTERIO DO PICO VICTORIO.jpg",
+  "sinopse": "Uma família briga com o governo dos EUA para recuperar um tesouro de US$ 28 bilhões há mais de 80 anos. Eles vão revelar centenas de horas de gravações para provar o caso deles e descobrir a verdade de uma vez por todas.",
+  "genero": "Documentário",
+  "elenco": "Terry Delonas, Alex Alonso",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:28"
+        }
+      ]
+    }
+  ],
+  "id": 3687
+}

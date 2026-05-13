@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwOTM=",
+  "tipo": "serie",
+  "titulo": "THE NEWSREADER",
+  "capa_url": "https://lgfp.one/TBY",
+  "capa_local": "THE NEWSREADER/THE NEWSREADER.jpg",
+  "sinopse": "Série da ABC australiana, “The Newsreader” entra na turbulenta redação de um jornal no ano de 1986, quando o Cometa Halley era algo obrigatório a ser visto; a crise da AIDS estava se espalhando; a explosão do ônibus espacial Challenger chocou o mundo; e a eclosão do acidente nuclear de Chernobyl. No meio disso tudo, a âncora de notícias, Helen Norville (Anna Torv) está determinada a construir sua credibilidade, enquanto seu colega, Dale Jennings (Sam Reid), está desesperado para se tornar um âncora. Com suas ambições, ambos iniciam uma improvável amizade e buscam, de toda maneira, transformar o tecido do boletim noturno de notícias.",
+  "genero": "Drama",
+  "elenco": "Anna Torv, Sam Reid, Robert Taylor, Chum Ehelepola, William McInnes, Stephen Peacocke, Michelle Lim Davidson",
+  "diretor": "Michael Lucas",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:39"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:56:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:02:27"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:53:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:51:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:52:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:59:21"
+        }
+      ]
+    }
+  ],
+  "id": 2440
+}

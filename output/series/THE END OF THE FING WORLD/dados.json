@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNzc=",
+  "tipo": "serie",
+  "titulo": "THE END OF THE F***ING WORLD",
+  "capa_url": "https://lgfp.one/JEG",
+  "capa_local": "THE END OF THE FING WORLD/THE END OF THE FING WORLD.jpg",
+  "sinopse": "Nesta comédia de humor ácido, um adolescente psicopata e uma rebelde louca por aventuras caem na estrada em uma viagem complicada.",
+  "genero": "Comédia, Drama, Crime",
+  "elenco": "Alex Lawther, Jessica Barden, Naomi Ackie, Josh Dylan",
+  "diretor": "Jonathan Entwistle",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:18:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:19:48"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:25:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:19:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:22:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:24:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:22:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:19:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:19:44"
+        }
+      ]
+    }
+  ],
+  "id": 496
+}

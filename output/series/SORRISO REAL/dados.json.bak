@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MzM=",
+  "tipo": "serie",
+  "titulo": "SORRISO REAL",
+  "capa_url": "https://lgfp.one/JZS0",
+  "capa_local": "SORRISO REAL/SORRISO REAL.jpg",
+  "sinopse": "Em meio a uma disputa pela herança, um charmoso herdeiro entra em conflito com uma funcionária e seu enorme sorriso, que ele simplesmente não suporta.",
+  "genero": "Drama, Comédia",
+  "elenco": "Lee Jun-ho, Yoona, Go Won-hee, Kim Ga-eun, Ahn Se-ha",
+  "diretor": "Im Hyeon-wook",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:10:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:08:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:17:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:14:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:16:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:09:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:17:17"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:05:55"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:14:22"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:07:24"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:16:03"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:14:04"
+        }
+      ]
+    }
+  ],
+  "id": 3672
+}

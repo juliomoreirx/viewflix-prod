@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNjE=",
+  "tipo": "serie",
+  "titulo": "CASÃO: NUM JOGO SEM REGRAS",
+  "capa_url": "https://lgfp.one/TGU",
+  "capa_local": "CASAO NUM JOGO SEM REGRAS/CASAO NUM JOGO SEM REGRAS.jpg",
+  "sinopse": "Uma intensa jornada que diz muito sobre a história recente. Poucos personagens permitem descascar tantas camadas da sociedade brasileira como Walter Casagrande Júnior, o Casão: ex-atacante da Seleção Brasileira e ídolo do Corinthians. Fruto de um espaço-tempo único: a repressão militar dos anos 70 e a efervescência cultural dos 80.",
+  "genero": "Documentário",
+  "elenco": "Walter Casagrande Júnior",
+  "diretor": "Susanna Lira",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:55"
+        }
+      ]
+    }
+  ],
+  "id": 2570
+}

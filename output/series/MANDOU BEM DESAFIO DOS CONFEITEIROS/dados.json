@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzODA=",
+  "tipo": "serie",
+  "titulo": "MANDOU BEM: DESAFIO DOS CONFEITEIROS",
+  "capa_url": "https://lgfp.one/AASQ",
+  "capa_local": "MANDOU BEM DESAFIO DOS CONFEITEIROS/MANDOU BEM DESAFIO DOS CONFEITEIROS.jpg",
+  "sinopse": "Neste spin-off de \"Mandou Bem\", dez confeiteiros novatos recebem dicas de profissionais e disputam um prêmio em dinheiro.",
+  "genero": "Reality",
+  "elenco": "Nicole Byer, Jacques Torres, Erin Jeanne McDowell, Robert Lucas",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:55"
+        }
+      ]
+    }
+  ],
+  "id": 3829
+}

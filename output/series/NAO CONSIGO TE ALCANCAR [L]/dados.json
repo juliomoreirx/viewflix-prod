@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNTg=",
+  "tipo": "serie",
+  "titulo": "NAO CONSIGO TE ALCANCAR [L]",
+  "capa_url": "https://lgfp.one/DJR4",
+  "capa_local": "NAO CONSIGO TE ALCANCAR [L]/NAO CONSIGO TE ALCANCAR [L].jpg",
+  "sinopse": "Amigos de longa data e opostos em tudo, Yamato e Kakeru são inseparáveis. Mas será que isso vai mudar quando o tímido Yamato confessar seus sentimentos?",
+  "genero": "Drama",
+  "elenco": "前田拳太郎, 柏木悠, 田中偉登, 松本怜生, Momose Takumi",
+  "diretor": "Masahide Izumi, Takayoshi Tanasawa, Masaki Hayashi",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:19:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:05"
+        }
+      ]
+    }
+  ],
+  "id": 5874
+}

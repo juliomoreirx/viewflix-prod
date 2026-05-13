@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMjM=",
+  "tipo": "serie",
+  "titulo": "CHESPIRITO: SEM QUERER QUERENDO",
+  "capa_url": "https://lgfp.one/ORL1",
+  "capa_local": "CHESPIRITO SEM QUERER QUERENDO/CHESPIRITO SEM QUERER QUERENDO.jpg",
+  "sinopse": "Uma jornada pela ascensão à fama do Roberto Gómez Bolaños, mais conhecido como Chespirito, o artista que criou os personagens icônicos “Chaves”, “Chapolin” e muitas outras histórias e bordões que conquistaram o coração de milhões.",
+  "genero": "Drama, Comédia",
+  "elenco": "Pablo Cruz Guerrero, Paulina Dávila, Bárbara López, Arturo Barba, Juan Lecanda",
+  "diretor": "Rodrigo Santos, Julián de Tavira, David Ruiz",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:47"
+        }
+      ]
+    }
+  ],
+  "id": 7411
+}

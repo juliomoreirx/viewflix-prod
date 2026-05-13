@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNzA=",
+  "tipo": "serie",
+  "titulo": "BTS IN THE SOOP [L]",
+  "capa_url": "https://lgfp.one/DJP4",
+  "capa_local": "BTS IN THE SOOP [L]/BTS IN THE SOOP [L].jpg",
+  "sinopse": "Os membros do BTS apreciam a beleza da floresta enquanto criam seus próprios horários onde cada um passa o tempo curtindo seus hobbies. Da pintura à canoagem, os sete vão passar o tempo juntos no mesmo lugar.",
+  "genero": "Reality",
+  "elenco": "RM, 진, 슈가, 제이홉, 지민",
+  "diretor": "",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:54:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:55:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:49:14"
+        }
+      ]
+    }
+  ],
+  "id": 5854
+}

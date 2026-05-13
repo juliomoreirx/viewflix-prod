@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NDU=",
+  "tipo": "serie",
+  "titulo": "HORÁRIO NOBRE",
+  "capa_url": "https://lgfp.one/YMO",
+  "capa_local": "HORARIO NOBRE/HORARIO NOBRE.jpg",
+  "sinopse": "Ramiro del Solar, um famoso jornalista, tem uma reviravolta em sua vida no momento em que sua amante Alexia morre acidentalmente durante um dos encontros. Aterrorizado, em vez de ligar para a polícia, ele decide esconder qualquer vestígio. Ramiro manipula a opinião pública para esconder seu papel no ocorrido, além de descobrir que sua filha também é suspeita.",
+  "genero": "Drama / Crime",
+  "elenco": "Óscar Jaenada, Dominika Paleta, Ela Velden, Maya Zapata, Alejandro Camacho, Pamela Almanza, Luis Arrieta, Iliana Fox",
+  "diretor": "Luis Urquiza",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:39:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:39:08"
+        }
+      ]
+    }
+  ],
+  "id": 3280
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNjM=",
+  "tipo": "serie",
+  "titulo": "HERÓIS DA SELVA",
+  "capa_url": "https://lgfp.one/AAWY",
+  "capa_local": "HEROIS DA SELVA/HEROIS DA SELVA.jpg",
+  "sinopse": "Um equipa de ambientalistas e veterinários em missão para salvar animais em perigo e ajudar os indianos e a vida selvagem a coexistirem em harmonia.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:09"
+        }
+      ]
+    }
+  ],
+  "id": 3940
+}

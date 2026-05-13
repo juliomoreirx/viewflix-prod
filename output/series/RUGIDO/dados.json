@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMzE=",
+  "tipo": "serie",
+  "titulo": "RUGIDO",
+  "capa_url": "https://lgfp.one/TDN",
+  "capa_local": "RUGIDO/RUGIDO.jpg",
+  "sinopse": "Com um elenco estelar, esta série antológica tece oito contos feministas sombriamente cômicos que tomam abordagens inesperadas para assuntos como papéis de gênero, autonomia e identidade.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "Liz Flahive, Carly Mensch",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:06"
+        }
+      ]
+    }
+  ],
+  "id": 2482
+}

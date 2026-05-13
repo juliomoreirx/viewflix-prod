@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1OTA=",
+  "tipo": "serie",
+  "titulo": "AS AVENTURAS ESCOLHIDAS",
+  "capa_url": "https://lgfp.one/QKZ2",
+  "capa_local": "AS AVENTURAS ESCOLHIDAS/AS AVENTURAS ESCOLHIDAS.jpg",
+  "sinopse": "Abby, uma menina curiosa, e seu melhor amigo, Josué, exploram a Galileia ao lado de seus amigos animais, Carneiro e Pomba, quando encontram um professor divertido e bondoso.",
+  "genero": "Animação, Família, Kids",
+  "elenco": "Paul Walter Hauser, Yvonne Orji, Romy Fay, Jude Zarzaur, Danny Nucci",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:13:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:12:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:12:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:13:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:13:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:13:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:12:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:10:29"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:11:51"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:11:16"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:13:29"
+        }
+      ]
+    }
+  ],
+  "id": 8220
+}

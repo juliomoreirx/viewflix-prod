@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzY=",
+  "tipo": "serie",
+  "titulo": "O GALÃ: A TV MUDOU, ELE NÃO",
+  "capa_url": "https://lgfp.one/TIT",
+  "capa_local": "O GALA A TV MUDOU, ELE NAO/O GALA A TV MUDOU, ELE NAO.jpg",
+  "sinopse": "Fabián Delmar foi um galã das telenovelas do início dos anos 90, famoso por estrelar o programa de sucesso \"Serás Mia\". Trinta anos após seu momento de glória, ele perdeu quase toda a sua fama, embora algumas pessoas ainda se lembrem dele. Agora, ele viverá tentando achar o seu lugar em um mundo muito diferente daquele que o elevou.",
+  "genero": "Comédia",
+  "elenco": "Humberto Zurita, Sebastián Zurita, Darío Rippol, Dolores Heredia, Patricia Reyes Spinola, Sara Maldonado, Bárbara Perea, América Valdés",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:26:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:31:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:28:03"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:38:24"
+        }
+      ]
+    }
+  ],
+  "id": 2624
+}

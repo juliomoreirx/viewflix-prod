@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMTg=",
+  "tipo": "serie",
+  "titulo": "PRIMEIROS AMORES",
+  "capa_url": "https://lgfp.one/ASII",
+  "capa_local": "PRIMEIROS AMORES/PRIMEIROS AMORES.jpg",
+  "sinopse": "De férias na praia antes de começar a faculdade de Cinema, um casal de amigos conhece um jovem atleta que desperta desejos até então desconhecidos.",
+  "genero": "Drama",
+  "elenco": "Martyna Byczkowska, Bartłomiej Deklewa, Jan Sałasiński, Paulina Krzyżańska, Katarzyna Warnke",
+  "diretor": "Kamila Tarabura, Katarzyna Warzecha",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:51"
+        }
+      ]
+    }
+  ],
+  "id": 4362
+}

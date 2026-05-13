@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3OTY=",
+  "tipo": "serie",
+  "titulo": "GÊNIO DOS DESEJOS",
+  "capa_url": "https://lgfp.one/QEG4",
+  "capa_local": "GENIO DOS DESEJOS/GENIO DOS DESEJOS.jpg",
+  "sinopse": "Após um milênio, um gênio excêntrico volta para conceder desejos a uma mulher que nasceu sem emoções. Será que sua magia vai trazer amor e encantamento para o mundo dela?",
+  "genero": "Sci-Fi & Fantasy, Comédia, Drama",
+  "elenco": "Kim Woo-bin, 수지, Ahn Eun-jin, 노상현, 고규필",
+  "diretor": "안길호, 이병헌",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:02:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:58:11"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:45"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:25"
+        }
+      ]
+    }
+  ],
+  "id": 8140
+}

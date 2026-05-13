@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMzc=",
+  "tipo": "serie",
+  "titulo": "MISTERIO EM CEMETERY ROAD",
+  "capa_url": "https://lgfp.one/QMX6",
+  "capa_local": "MISTERIO EM CEMETERY ROAD/MISTERIO EM CEMETERY ROAD.jpg",
+  "sinopse": "Quando uma criança desaparece após a explosão de uma casa, uma vizinha preocupada se alia a uma investigadora particular para encontrá-la. Segredos são descobertos e uma conspiração militar é revelada nos subúrbios tranquilos de South Oxford.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Emma Thompson, Ruth Wilson, Adeel Akhtar, Nathan Stewart-Jarrett, Tom Goodman-Hill",
+  "diretor": "Simon Morris",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:25"
+        }
+      ]
+    }
+  ],
+  "id": 8267
+}

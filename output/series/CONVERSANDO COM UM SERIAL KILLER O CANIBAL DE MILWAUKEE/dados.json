@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NjE=",
+  "tipo": "serie",
+  "titulo": "CONVERSANDO COM UM SERIAL KILLER: O CANIBAL DE MILWAUKEE",
+  "capa_url": "https://lgfp.one/TTP",
+  "capa_local": "CONVERSANDO COM UM SERIAL KILLER O CANIBAL DE MILWAUKEE/CONVERSANDO COM UM SERIAL KILLER O CANIBAL DE MILWAUKEE.jpg",
+  "sinopse": "O serial killer Jeffrey Dahmer confessa seus crimes hediondos em entrevistas que revelam sua mente doentia.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jeffrey Dahmer, Vernell Bass, Pamela Bass, Fred Berlin, Park Dietz",
+  "diretor": "Joe Berlinger",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:30"
+        }
+      ]
+    }
+  ],
+  "id": 2922
+}

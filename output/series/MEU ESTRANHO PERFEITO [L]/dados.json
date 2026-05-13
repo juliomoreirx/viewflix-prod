@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNjQ=",
+  "tipo": "serie",
+  "titulo": "MEU ESTRANHO PERFEITO [L]",
+  "capa_url": "https://lgfp.one/KJX3",
+  "capa_local": "MEU ESTRANHO PERFEITO [L]/MEU ESTRANHO PERFEITO [L].jpg",
+  "sinopse": "Um homem que viaja ao passado para descobrir a verdade por trás de uma série de assassinatos, conhece uma mulher que viaja no tempo para impedir o casamento de seus pais. Seus objetivos parecem completamente não relacionados, mas logo percebem que estão conectados.",
+  "genero": "Drama, Sci-Fi & Fantasy, Mistério",
+  "elenco": "김동욱, 진기주, 서지혜, Lee Won-jeong, 김종수",
+  "diretor": "Kang Soo-yeon, Lee Woong-hee",
+  "total_episodios": "63",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:43"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:53"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:01:18"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:01:19"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:00:59"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:02:56"
+        }
+      ]
+    }
+  ],
+  "id": 6427
+}

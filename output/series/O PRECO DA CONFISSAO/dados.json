@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3Mjg=",
+  "tipo": "serie",
+  "titulo": "O PRECO DA CONFISSAO",
+  "capa_url": "https://lgfp.one/RAZ9",
+  "capa_local": "O PRECO DA CONFISSAO/O PRECO DA CONFISSAO.jpg",
+  "sinopse": "Acusada de assassinar o marido, uma mulher recebe uma proposta inesperada: uma desconhecida promete confessar em seu lugar. Mas, em troca, ela pede um crime.",
+  "genero": "Mistério, Drama",
+  "elenco": "전도연, 김고은, 박해수, 진선규, 최영준",
+  "diretor": "이정효",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:30"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:52:01"
+        }
+      ]
+    }
+  ],
+  "id": 8441
+}

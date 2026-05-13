@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Mzg=",
+  "tipo": "serie",
+  "titulo": "EQUINOX",
+  "capa_url": "https://lgfp.one/RKS",
+  "capa_local": "EQUINOX/EQUINOX.jpg",
+  "sinopse": "Vinte anos depois de ter visto um ônibus desaparecer sem deixar vestígios, Astrid reconhece uma das vítimas e resolve investigar o caso.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Ask Truelsen, Danica Ćurčić, Lars Brygmann, Karoline Hamm, Hanne Hedelund",
+  "diretor": "Søren Balle, Mads Matthiesen",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:36"
+        }
+      ]
+    }
+  ],
+  "id": 1100
+}

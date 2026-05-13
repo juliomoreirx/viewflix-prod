@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTM=",
+  "tipo": "serie",
+  "titulo": "28 DIAS ASSOMBRADOS",
+  "capa_url": "https://lgfp.one/VWT",
+  "capa_local": "28 DIAS ASSOMBRADOS/28 DIAS ASSOMBRADOS.jpg",
+  "sinopse": "Três equipes passam 28 dias em lugares mal-assombrados como parte de uma experiência paranormal baseada nas teorias de Ed e Lorraine Warren.",
+  "genero": "Reality",
+  "elenco": "Josh Goodman, Tony Spera, Sean Austin",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:37"
+        }
+      ]
+    }
+  ],
+  "id": 2956
+}

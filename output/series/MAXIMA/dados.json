@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyMjQ=",
+  "tipo": "serie",
+  "titulo": "MAXIMA",
+  "capa_url": "https://lgfp.one/DGM4",
+  "capa_local": "MAXIMA/MAXIMA.jpg",
+  "sinopse": "A partir do momento em que Máxima Zorreguieta aparece ao lado do príncipe herdeiro holandês, ela se vê no centro das atenções. Quando Willem-Alexander a pede em casamento, o passado a alcança. Surge uma discussão acalorada sobre a carreira política do seu pai no regime de Videla – uma discussão que ela nunca enfrentou nos seus próprios círculos. O que permite a este argentino prosperar finalmente numa antiga corte europeia? E como Máxima pode permanecer fiel a si mesma sem abrir mão da família – ou essas coisas não andam juntas?",
+  "genero": "Drama",
+  "elenco": "Delfina Chaves, Martijn Lakemeier, Daniel Freire",
+  "diretor": "Saskia Diesing, Joosje Duk, Iván López Núñez",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:17"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:46:24"
+        }
+      ]
+    }
+  ],
+  "id": 5821
+}

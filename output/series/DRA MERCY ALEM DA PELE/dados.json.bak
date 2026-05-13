@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MzU=",
+  "tipo": "serie",
+  "titulo": "DRA MERCY ALEM DA PELE",
+  "capa_url": "https://lgfp.one/LBC2",
+  "capa_local": "DRA MERCY ALEM DA PELE/DRA MERCY ALEM DA PELE.jpg",
+  "sinopse": "Para o Dr. Mercy Odueyungbo, a dermatologia não é apenas uma questão estética. Em seu consultório, localizado na cidade americana de Chicago, ela trata doenças e condições de pele raras e graves, enquanto também ajuda seus pacientes a recuperar a autoconfiança e a autoestima.",
+  "genero": "Reality",
+  "elenco": "Mercy Odueyungbo, Clark Schierle, Bridget Malbrough",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        }
+      ]
+    }
+  ],
+  "id": 337545
+}

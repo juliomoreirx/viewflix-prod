@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MTI=",
+  "tipo": "serie",
+  "titulo": "ONE OF US IS LYING [L]",
+  "capa_url": "https://lgfp.one/SLW",
+  "capa_local": "ONE OF US IS LYING [L]/ONE OF US IS LYING [L].jpg",
+  "sinopse": "",
+  "genero": "Mistério / Drama",
+  "elenco": "Marianly Tejada, Annalisa Cochrane, Chibuikem Uche, Cooper van Grootel, Barrett Carnahan, Melissa Collazo, Jessica McLeod, Sara Thompson",
+  "diretor": "Darío Madrona",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:54"
+        }
+      ]
+    }
+  ],
+  "id": 2003
+}

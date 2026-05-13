@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MjM=",
+  "tipo": "serie",
+  "titulo": "UNITOPIA",
+  "capa_url": "https://lgfp.one/DPE1",
+  "capa_local": "UNITOPIA/UNITOPIA.jpg",
+  "sinopse": "As câmeras da Brasil Paralelo entraram nas universidades públicas brasileiras. O que descobrimos será revelado por professores, alunos e servidores que vivem a realidade das salas de aula.\n\nEssa produção é crucial para trazer à tona uma iniciativa que impacta o futuro do Brasil.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Silvio Medeiros",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:09:06"
+        }
+      ]
+    }
+  ],
+  "id": 5976
+}

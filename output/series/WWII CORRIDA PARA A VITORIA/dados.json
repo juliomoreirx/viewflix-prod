@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNTE=",
+  "tipo": "serie",
+  "titulo": "WWII CORRIDA PARA A VITORIA",
+  "capa_url": "https://lgfp.one/ATME",
+  "capa_local": "WWII CORRIDA PARA A VITORIA/WWII CORRIDA PARA A VITORIA.jpg",
+  "sinopse": "Esta série revela como e por que a aliança entre a Grã-Bretanha, os Estados Unidos e a União Soviética foi formada durante a Segunda Guerra Mundial. Mostra a relação de suspeita e desconfiança entre Winston Churchill, Franklin D. Roosevelt e Joseph Stalin enquanto lutavam contra a Alemanha nazista.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Dr. Warren Dockter, Dr. Martin Folly, Dr. Andrew Priest, Dr. Peter Whitewood, Dr. Harshan Kumarasingham",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 4473
+}

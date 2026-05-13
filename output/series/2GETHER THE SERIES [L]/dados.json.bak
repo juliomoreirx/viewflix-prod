@@ -1,0 +1,115 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMjQ=",
+  "tipo": "serie",
+  "titulo": "2GETHER THE SERIES [L]",
+  "capa_url": "https://lgfp.one/BAR9",
+  "capa_local": "2GETHER THE SERIES [L]/2GETHER THE SERIES [L].jpg",
+  "sinopse": "Já se passou mais de um ano desde a tentativa desesperada de Tine (Win Metawin Opas-iamkajorn) de afastar um potencial amante, o que trouxe Sarawat (Bright Vachirawit Chivaaree) para a sua vida. Embora o relacionamento deles tenha começado como uma farsa para afastar o admirador incansável de Tine, os sentimentos que tanto Tine quanto Sarawat começaram a sentir um pelo outro se provaram verdadeiros.",
+  "genero": "Comédia",
+  "elenco": "Noah Bastian, Michael Cuccione, Kevin Farley, Evan Farmer, Alex Solowitz",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 0",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S00E01",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S00E02",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S00E03",
+          "duracao": "00:57:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S00E04",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S00E05",
+          "duracao": "00:58:26"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:07:00"
+        }
+      ]
+    }
+  ],
+  "id": 5387
+}

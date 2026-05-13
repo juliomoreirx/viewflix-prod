@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMjA=",
+  "tipo": "serie",
+  "titulo": "GABRIEL MONTEIRO – HERÓI FAKE",
+  "capa_url": "https://lgfp.one/WLU",
+  "capa_local": "GABRIEL MONTEIRO  HEROI FAKE/GABRIEL MONTEIRO  HEROI FAKE.jpg",
+  "sinopse": "Conheça a trajetória do ex-vereador Gabriel Monteiro desde a sua ascensão meteórica nas redes sociais até a perda do mandato e a prisão preventiva por acusações de crimes sexuais.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Eliane Scardovelli, Rafael Norton, Clarissa Cavalcanti",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:15"
+        }
+      ]
+    }
+  ],
+  "id": 3123
+}

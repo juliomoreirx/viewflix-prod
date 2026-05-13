@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MDM=",
+  "tipo": "serie",
+  "titulo": "A CHUVA [L]",
+  "capa_url": "https://lgfp.one/ABBZ",
+  "capa_local": "A CHUVA [L]/A CHUVA [L].jpg",
+  "sinopse": "Segue a história de um homem que não gosta de estranhos e fala com as pessoas desnecessariamente. Ele também sofre de perda auditiva neurossensorial quando chove. No entanto, conforme o destino decide, ele só pode ouvir uma voz quando chove.",
+  "genero": "Drama, Sci-Fi & Fantasy, Mistério",
+  "elenco": "Tanatorn Saenangkanikorn, Peerawich Ploynumpol, Copter Nuntapong Wongsakulyong, Suar Kritsanaphong Sripattiyanon, Pakpai Pareena Busayasiri",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:56"
+        }
+      ]
+    }
+  ],
+  "id": 4111
+}

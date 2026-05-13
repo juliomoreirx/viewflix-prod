@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MDc=",
+  "tipo": "serie",
+  "titulo": "ORPHAN BLACK ECHOES [L]",
+  "capa_url": "https://lgfp.one/ASXZ",
+  "capa_local": "ORPHAN BLACK ECHOES [L]/ORPHAN BLACK ECHOES [L].jpg",
+  "sinopse": "Orphan Black: Echoes acompanha um grupo de mulheres enquanto se entrelaçam nas vidas umas das outras e embarcam em uma emocionante jornada, desvendando o mistério de sua identidade e descobrindo uma história angustiante de amor e traição.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Krysten Ritter, Keeley Hawes, Rya Kihlstedt, Amanda Fix, Avan Jogia",
+  "diretor": "John Fawcett, John Fawcett",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:13"
+        }
+      ]
+    }
+  ],
+  "id": 4419
+}

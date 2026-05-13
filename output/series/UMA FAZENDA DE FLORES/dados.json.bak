@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NjI=",
+  "tipo": "serie",
+  "titulo": "UMA FAZENDA DE FLORES",
+  "capa_url": "https://lgfp.one/PQZ4",
+  "capa_local": "UMA FAZENDA DE FLORES/UMA FAZENDA DE FLORES.jpg",
+  "sinopse": "Erin e Chris Benzakein passaram a última década construindo o negócio da família, Floret Farms, no fértil Vale do Rio Skagit. Agora, eles arriscam tudo para recuperar uma área de quase 100 mil metros quadrados e expandir o negócio.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:33"
+        }
+      ]
+    }
+  ],
+  "id": 7768
+}

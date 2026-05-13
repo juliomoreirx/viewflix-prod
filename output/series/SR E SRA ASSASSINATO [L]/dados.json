@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2ODY=",
+  "tipo": "serie",
+  "titulo": "SR E SRA ASSASSINATO [L]",
+  "capa_url": "https://lgfp.one/PXI1",
+  "capa_local": "SR E SRA ASSASSINATO [L]/SR E SRA ASSASSINATO [L].jpg",
+  "sinopse": "A vida perfeita de quatro amigos desmorona após um deles desaparecer em uma caçada. Vinte anos depois, a verdade vem à tona com consequências devastadoras.",
+  "genero": "Documentário, Crime",
+  "elenco": "Kathy Thomas, Jennifer Winchester, Scott Dungey",
+  "diretor": "Michael Beach Nichols, Stuart Cabb",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 7946
+}

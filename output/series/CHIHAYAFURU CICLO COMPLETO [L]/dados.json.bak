@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5ODM=",
+  "tipo": "serie",
+  "titulo": "CHIHAYAFURU CICLO COMPLETO [L]",
+  "capa_url": "https://lgfp.one/PSL0",
+  "capa_local": "CHIHAYAFURU CICLO COMPLETO [L]/CHIHAYAFURU CICLO COMPLETO [L].jpg",
+  "sinopse": "A aluna do segundo ano, Meguru, só quer se concentrar no futuro. Mas, quando forçada a participar do clube competitivo de karuta da escola, ela descobre uma nova paixão.",
+  "genero": "Drama",
+  "elenco": "當真あみ, 齋藤潤, 山時聡真, Lina Arashi, Kaito Takamura",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:47"
+        }
+      ]
+    }
+  ],
+  "id": 7814
+}

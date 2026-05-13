@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NzU=",
+  "tipo": "serie",
+  "titulo": "OS ASTRONAUTAS",
+  "capa_url": "https://lgfp.one/RRE",
+  "capa_local": "OS ASTRONAUTAS/OS ASTRONAUTAS.jpg",
+  "sinopse": "Cinco crianças invadem um foguete e acabam sendo enviadas acidentalmente ao espaço. Eles fazem de tudo para conseguir voltar para casa, mas antes devem cuidar da nave e realizar diversas missões.",
+  "genero": "Família, Sci-Fi & Fantasy",
+  "elenco": "Miya Cech, Bryce Gheisar, Keith L. Williams, Kayden Grace Swan, Ben Andrusco-Daon",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:15"
+        }
+      ]
+    }
+  ],
+  "id": 227855
+}

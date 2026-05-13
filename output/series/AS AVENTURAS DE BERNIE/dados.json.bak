@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3NDY=",
+  "tipo": "serie",
+  "titulo": "AS AVENTURAS DE BERNIE",
+  "capa_url": "https://lgfp.one/APP6",
+  "capa_local": "AS AVENTURAS DE BERNIE/AS AVENTURAS DE BERNIE.jpg",
+  "sinopse": "Depois de uma tentativa fracassada de ajudar Zig a comer Marina, Bernie está perdido no fundo do oceano. Neste ambiente hostil, nosso gênio inventor tenta incansavelmente retornar à sua ilha e se reunir com Zig.",
+  "genero": "Animação, Kids, Família",
+  "elenco": "",
+  "diretor": "Olivier Jean-Marie",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:45"
+        }
+      ]
+    }
+  ],
+  "id": 5172
+}

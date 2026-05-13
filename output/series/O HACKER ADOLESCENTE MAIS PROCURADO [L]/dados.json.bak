@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2MDU=",
+  "tipo": "serie",
+  "titulo": "O HACKER ADOLESCENTE MAIS PROCURADO [L]",
+  "capa_url": "https://lgfp.one/PXG9",
+  "capa_local": "O HACKER ADOLESCENTE MAIS PROCURADO [L]/O HACKER ADOLESCENTE MAIS PROCURADO [L].jpg",
+  "sinopse": "Série documental que acompanha os incríveis ciberataques realizados pelo finlandês de 15 anos Julius Kivimäki, também conhecido como Aleksanteri Kivimäki, considerado pelo FBI como um dos hackers mais perigosos do mundo.",
+  "genero": "Documentário",
+  "elenco": "Julius Kivimäki",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:30"
+        }
+      ]
+    }
+  ],
+  "id": 7934
+}

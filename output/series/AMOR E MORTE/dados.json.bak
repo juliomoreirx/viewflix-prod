@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3Mjk=",
+  "tipo": "serie",
+  "titulo": "AMOR E MORTE",
+  "capa_url": "https://lgfp.one/ZQG",
+  "capa_local": "AMOR E MORTE/AMOR E MORTE.jpg",
+  "sinopse": "A história real de Candy e Pat Montgomery e Betty e Allan Gore, dois casais que frequentam a igreja e vivem uma vida simples no Texas… até que uma traição faz alguém pegar um machado.",
+  "genero": "Crime, Drama",
+  "elenco": "Elizabeth Olsen, Jesse Plemons, Lily Rabe, Patrick Fugit, Krysten Ritter",
+  "diretor": "Lesli Linka Glatter, Sunday Stevens",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:47"
+        }
+      ]
+    }
+  ],
+  "id": 3446
+}

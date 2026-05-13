@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NDQ=",
+  "tipo": "serie",
+  "titulo": "CLICKBAIT",
+  "capa_url": "https://lgfp.one/SEH",
+  "capa_local": "CLICKBAIT/CLICKBAIT.jpg",
+  "sinopse": "Quando Nick Brewer é sequestrado e sua vida passa a depender de um sinistro jogo online, as pessoas próximas a ele correm para descobrir quem esta por trás disso.",
+  "genero": "Drama, Mistério, Crime",
+  "elenco": "Adrian Grenier, Zoe Kazan, Betty Gabriel, Phoenix Raei, Camaron Engels",
+  "diretor": "Brad Anderson, Emma Freeman, Cherie Nowlan, Ben Young",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:34"
+        }
+      ]
+    }
+  ],
+  "id": 1801
+}

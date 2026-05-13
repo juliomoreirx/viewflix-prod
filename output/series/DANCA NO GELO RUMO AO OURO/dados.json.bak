@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NzY=",
+  "tipo": "serie",
+  "titulo": "DANCA NO GELO RUMO AO OURO",
+  "capa_url": "https://lgfp.one/ROH4",
+  "capa_local": "DANCA NO GELO RUMO AO OURO/DANCA NO GELO RUMO AO OURO.jpg",
+  "sinopse": "Conheça o intenso mundo da patinação artística, em que os melhores casais dançam pelo ouro e pela glória na preparação para os Jogos Olímpicos de Inverno de 2026.",
+  "genero": "Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:02"
+        }
+      ]
+    }
+  ],
+  "id": 8760
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NzM=",
+  "tipo": "serie",
+  "titulo": "CASA EM OBRA DO PESADELO AO SONHO",
+  "capa_url": "https://lgfp.one/AWD6",
+  "capa_local": "CASA EM OBRA DO PESADELO AO SONHO/CASA EM OBRA DO PESADELO AO SONHO.jpg",
+  "sinopse": "O empreiteiro Rico Leon resolve conflitos entre proprietários emocionalmente e financeiramente estressados e seus empreiteiros, para transformar pesadelos de reforma e construção em casas dos sonhos.",
+  "genero": "Reality",
+  "elenco": "Rico León, Poonam Moore, Matt Plowman",
+  "diretor": "John W. Burshtan",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:20"
+        }
+      ]
+    }
+  ],
+  "id": 5347
+}

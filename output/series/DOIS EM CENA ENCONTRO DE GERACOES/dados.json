@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxOTg=",
+  "tipo": "serie",
+  "titulo": "DOIS EM CENA: ENCONTRO DE GERAÇÕES",
+  "capa_url": "https://lgfp.one/BABY",
+  "capa_local": "DOIS EM CENA ENCONTRO DE GERACOES/DOIS EM CENA ENCONTRO DE GERACOES.jpg",
+  "sinopse": "Com Marisa Orth, a proposta do programa é reunir sempre um ator mais jovem e outro veterano para trocar experiências no palco. Eles vão bater um papo sobre suas carreiras, falar dos papéis mais desafiadores e até reencenar ou ler algumas cenas icônicas que marcaram suas trajetórias.",
+  "genero": "Talk",
+  "elenco": "Marisa Orth",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:54"
+        }
+      ]
+    }
+  ],
+  "id": 5023
+}

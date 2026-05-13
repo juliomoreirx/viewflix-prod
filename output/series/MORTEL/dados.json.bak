@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMDU=",
+  "tipo": "serie",
+  "titulo": "MORTEL",
+  "capa_url": "https://lgfp.one/JBD",
+  "capa_local": "MORTEL/MORTEL.jpg",
+  "sinopse": "Depois de fazer um acordo com uma entidade sobrenatural, dois estudantes adquirem poderes extraordinários e unem forças para resolver um assassinato.",
+  "genero": "Sci-Fi & Fantasy, Crime, Drama",
+  "elenco": "Sami Outalbali, Manon Bresch, Némo Schiffman, Carl Malapa, Corentin Fila",
+  "diretor": "Simon Astier, Edouard Salier, Xavier Gens",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:12"
+        }
+      ]
+    }
+  ],
+  "id": 399
+}

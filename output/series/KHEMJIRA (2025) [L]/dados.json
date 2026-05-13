@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4OTY=",
+  "tipo": "serie",
+  "titulo": "KHEMJIRA (2025) [L]",
+  "capa_url": "https://lgfp.one/TCE6",
+  "capa_local": "KHEMJIRA (2025) [L]/KHEMJIRA (2025) [L].jpg",
+  "sinopse": "Nascido em uma família amaldiçoada, a mãe de Khem lhe deu um nome de menina, Khemjira, para protegê-lo de morrer antes dos 20 anos. Ele acreditou nisso até o seu 19º aniversário, quando a verdade veio à tona.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "Keng Harit Buayoi, Namping Napatsakorn Pingmuang, วรรณกร เรืองรัตน์, มติมันท์ ศรีบุญเรือง, อัษฎาพร สิริวัฒน์ธนกุล",
+  "diretor": "ภาณุวัฒน์ อินทวัฒน์",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:17:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:14:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:15:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:12:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:56:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:16:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:05:51"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:10:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:47:37"
+        }
+      ]
+    }
+  ],
+  "id": 9524
+}

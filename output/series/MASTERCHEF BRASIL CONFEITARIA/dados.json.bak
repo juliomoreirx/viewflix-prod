@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MjI=",
+  "tipo": "serie",
+  "titulo": "MASTERCHEF BRASIL CONFEITARIA",
+  "capa_url": "https://lgfp.one/EIM9",
+  "capa_local": "MASTERCHEF BRASIL CONFEITARIA/MASTERCHEF BRASIL CONFEITARIA.jpg",
+  "sinopse": "Inédito no Brasil, talent show reúne 12 dos principais especialistas em pâtisserie do país em uma disputa sob o comando de Ana Paula Padrão.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:51:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:46:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:49:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:45:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:39:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:39:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:44:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:40:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:41:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:54:09"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:46:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:45:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:49:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "01:47:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "01:46:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:43:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:45:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:47:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "01:46:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:47:10"
+        }
+      ]
+    }
+  ],
+  "id": 6263
+}

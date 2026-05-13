@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4ODQ=",
+  "tipo": "serie",
+  "titulo": "JERICHO",
+  "capa_url": "https://lgfp.one/ABBR",
+  "capa_local": "JERICHO/JERICHO.jpg",
+  "sinopse": "Uma nuvem em forma de cogumelo aparece no horizonte e, para os habitantes da pequena cidade de Jericho, no Kansas, isso pode significar que são os únicos americanos ainda vivos. Agora, eles precisam lidar com uma nova realidade.",
+  "genero": "Action & Adventure, Drama, Mistério",
+  "elenco": "Skeet Ulrich, Lennie James, Ashley Scott, Kenneth Mitchell, Brad Beyer",
+  "diretor": "Jon Turteltaub",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:41:15"
+        }
+      ]
+    }
+  ],
+  "id": 4158
+}

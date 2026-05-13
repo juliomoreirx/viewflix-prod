@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNTA=",
+  "tipo": "serie",
+  "titulo": "GRAG HEARTS DRAG",
+  "capa_url": "https://lgfp.one/ATLU",
+  "capa_local": "GRAG HEARTS DRAG/GRAG HEARTS DRAG.jpg",
+  "sinopse": "Assista em breve o Grag Hearts Drag, uma celebração de todas as coisas do universo drag brasileiro! A nova série de Grag Queen, mostra ela junto às estrelas da Drag Race Brasil explorando suas cidades natais por todo o Brasil.",
+  "genero": "Documentário, Reality, Talk",
+  "elenco": "Grag Queen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:33"
+        }
+      ]
+    }
+  ],
+  "id": 4463
+}

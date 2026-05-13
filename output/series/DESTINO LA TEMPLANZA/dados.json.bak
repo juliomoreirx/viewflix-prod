@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNjI=",
+  "tipo": "serie",
+  "titulo": "DESTINO: LA TEMPLANZA",
+  "capa_url": "https://lgfp.one/RUG",
+  "capa_local": "DESTINO LA TEMPLANZA/DESTINO LA TEMPLANZA.jpg",
+  "sinopse": "Conta as histórias de Mauro Larrea e Soledad Montalvo, dois desconhecidos cujos destinos irão se cruzar na segunda metade do século XIX, mudando suas vidas para sempre. É uma história de glórias e derrotas, de minas de prata, intrigas familiares, vinhedos, adegas e cidades fascinantes, cujo esplendor desvaneceu com o tempo.",
+  "genero": "Drama",
+  "elenco": "Leonor Watling, Rafael Novoa, Emilio Gutiérrez Caba, Juana Acosta, Esmeralda Pimentel",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:40:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:49:36"
+        }
+      ]
+    }
+  ],
+  "id": 1366
+}

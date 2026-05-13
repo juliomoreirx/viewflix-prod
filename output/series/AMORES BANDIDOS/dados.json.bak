@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MTE=",
+  "tipo": "serie",
+  "titulo": "AMORES BANDIDOS",
+  "capa_url": "https://lgfp.one/RBF2",
+  "capa_local": "AMORES BANDIDOS/AMORES BANDIDOS.jpg",
+  "sinopse": "No primeiro reality de namoro do Japão para jovens rebeldes, 11 solteiros e solteiras batem de frente, criam laços e moram juntos por 14 dias em busca da pessoa certa.",
+  "genero": "Reality",
+  "elenco": "MEGUMI, AK-69, 永野",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:58"
+        }
+      ]
+    }
+  ],
+  "id": 8451
+}

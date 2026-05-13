@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NzI=",
+  "tipo": "serie",
+  "titulo": "REAÇÃO NUCLEAR",
+  "capa_url": "https://lgfp.one/TFK",
+  "capa_local": "REACAO NUCLEAR/REACAO NUCLEAR.jpg",
+  "sinopse": "Pessoas que viram de perto o acidente na usina nuclear Three Mile Island, na Pensilvânia, explicam os eventos, as controvérsias e as consequências que duram até hoje.",
+  "genero": "Documentário",
+  "elenco": "Milana Manko, Ruthy Froch, Rick Parks",
+  "diretor": "Peter Etzweiler",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:35"
+        }
+      ]
+    }
+  ],
+  "id": 2533
+}

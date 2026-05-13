@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMzA=",
+  "tipo": "serie",
+  "titulo": "CASO ROSWELL: O VEREDITO FINAL",
+  "capa_url": "https://lgfp.one/YCB",
+  "capa_local": "CASO ROSWELL O VEREDITO FINAL/CASO ROSWELL O VEREDITO FINAL.jpg",
+  "sinopse": "Enquanto o mundo aguarda que o Pentágono divulgue arquivos confidenciais sobre óvnis, o caso Roswell, o incidente extraterrestre mais famoso da história, ganha uma nova perspectiva com análises modernas.",
+  "genero": "Documentário",
+  "elenco": "Tony Call, Ben Hansen, Adam Oakley, Paul Andrew Goldsmith",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:07"
+        }
+      ]
+    }
+  ],
+  "id": 2267
+}

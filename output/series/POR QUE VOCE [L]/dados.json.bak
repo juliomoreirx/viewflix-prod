@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMDI=",
+  "tipo": "serie",
+  "titulo": "POR QUE VOCE [L]",
+  "capa_url": "https://lgfp.one/BBT8",
+  "capa_local": "POR QUE VOCE [L]/POR QUE VOCE [L].jpg",
+  "sinopse": "Jung Lee Won é um estudante de uma importante universidade sul-coreana. Ele está se formando em teatro e espera se tornar uma estrela no futuro. Seu nêmesis é Kim Ji Oh, um estudante do mesmo ano acadêmico que está se formando em direção. Eles brigam sempre que se encontram e acusam um ao outro constantemente de atrapalhar seu caminho. No entanto, a natureza de seus cursos significa que, muitas vezes, eles têm de trabalhar juntos.\n\nMal sabia Jung Lee Won que sua irmã mais nova está escrevendo um romance na web em que ele e Kim Ji Oh são amantes! Um dia, Jung Lee Won descobre os escritos secretos de sua irmã e fica indignado. Ele promete que, se houver alguma verdade no fato de que ele gosta secretamente de Kim Ji Oh, a história fantástica do romance deverá se tornar realidade. No entanto, ele logo se arrependerá desse voto!",
+  "genero": "Drama",
+  "elenco": "Lee Jung-min, Lee Sang-min, Park Chang-hoon, Lee Ye-hwan, Jeon Sa-ra",
+  "diretor": "Kim Eun-hye",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:47"
+        }
+      ]
+    }
+  ],
+  "id": 5486
+}

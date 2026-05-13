@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MTA=",
+  "tipo": "serie",
+  "titulo": "O MUNDO E UM TEATRO [L]",
+  "capa_url": "https://lgfp.one/QNQ2",
+  "capa_local": "O MUNDO E UM TEATRO [L]/O MUNDO E UM TEATRO [L].jpg",
+  "sinopse": "Ambientado em Shibuya, em 1984, às vésperas da bolha econômica japonesa, este drama retrata os problemas, contratempos e histórias de amor de jovens desajeitados, porém determinados. A história é original, escrita por Koki Mitani, e incorpora elementos semiautobiográficos. Masaki Suda interpreta o jovem ator de teatro Mitsunari Kube, Fumi Nikaido interpreta a dançarina Rika Koda, Ryunosuke Kamiki interpreta o radialista Horai Shogo e Minami Hamabe interpreta a sacerdotisa Juri Egawa.",
+  "genero": "Drama",
+  "elenco": "菅田将暉, 二階堂ふみ, Ryunosuke Kamiki, Minami Hamabe",
+  "diretor": "西浦正記",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:06:50"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:07:08"
+        }
+      ]
+    }
+  ],
+  "id": 8318
+}

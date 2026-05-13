@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NDQ=",
+  "tipo": "serie",
+  "titulo": "THE ASSASSIN",
+  "capa_url": "https://lgfp.one/PVJ0",
+  "capa_local": "THE ASSASSIN/THE ASSASSIN.jpg",
+  "sinopse": "Uma assassina aposentada e seu filho distante são forçados a trabalhar juntos em uma luta pela sobrevivência, testando todos os limites de um relacionamento conturbado.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Freddie Highmore, Keeley Hawes, David Dencik, Shalom Brune-Franklin, Gerald Kyd",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:15"
+        }
+      ]
+    }
+  ],
+  "id": 7876
+}

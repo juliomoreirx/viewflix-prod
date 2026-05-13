@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNzI=",
+  "tipo": "serie",
+  "titulo": "CONTAGEM REGRESSIVA JAKE PAUL VS. MIKE TYSON",
+  "capa_url": "https://lgfp.one/EHE4",
+  "capa_local": "CONTAGEM REGRESSIVA JAKE PAUL VS. MIKE TYSON/CONTAGEM REGRESSIVA JAKE PAUL VS. MIKE TYSON.jpg",
+  "sinopse": "Acompanhe o dia a dia e os treinos de Jake Paul e Mike Tyson, que estão se preparando para uma luta imperdível. O embate vai acontecer no dia 15 de novembro.",
+  "genero": "Documentário",
+  "elenco": "Mike Tyson, Jake Paul, Katie Taylor, Amanda Serrano, Ice-T",
+  "diretor": "Jackie Decker, Tim Mullen",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:35"
+        }
+      ]
+    }
+  ],
+  "id": 6252
+}

@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyODQ=",
+  "tipo": "serie",
+  "titulo": "LIGA DO FOGAO [L]",
+  "capa_url": "https://lgfp.one/DCD4",
+  "capa_local": "LIGA DO FOGAO [L]/LIGA DO FOGAO [L].jpg",
+  "sinopse": "Se Young é a chefe mais jovem da equipe de gerenciamento do Dreams, um time de beisebol de porão. Ela é altamente reconhecida por sua perseverança e intensa paixão pela equipe. Um dia, Seung Su é apontado como gerente geral. Embora ele tenha trabalhado no campo esportivo, as equipes que ele liderou no campeonato eram impopulares, e algumas foram dissolvidas após vencer a liga devido às dificuldades financeiras de suas empresas controladoras. Esse novo gerente geral infeliz seria capaz de levar o Dreams à conquista do campeonato com a apaixonada Se Young?",
+  "genero": "Drama",
+  "elenco": "남궁민, 박은빈, 오정세, 조병규, 윤병희",
+  "diretor": "Jeong Dong-yoon",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:10"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:59:57"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:03:17"
+        }
+      ]
+    }
+  ],
+  "id": 5737
+}

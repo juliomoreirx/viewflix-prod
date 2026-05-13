@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NjM=",
+  "tipo": "serie",
+  "titulo": "A SAGA WINGFEATHER",
+  "capa_url": "https://lgfp.one/PPY2",
+  "capa_local": "A SAGA WINGFEATHER/A SAGA WINGFEATHER.jpg",
+  "sinopse": "Série animada baseada nos romances de fantasia de Andrew Peterson que detalha as aventuras da família Igiby e sua perseguição pelos venenosos Presas de Dang e seu senhor maligno, Gnag, o Sem Nome.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Alkaio Thiele, Griffin Robert Faulkner, Romy Fay, Jodi Benson, Kevin McNally",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:08"
+        }
+      ]
+    }
+  ],
+  "id": 7728
+}

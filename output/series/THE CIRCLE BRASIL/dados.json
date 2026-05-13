@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODE=",
+  "tipo": "serie",
+  "titulo": "THE CIRCLE BRASIL",
+  "capa_url": "https://lgfp.one/JDT",
+  "capa_local": "THE CIRCLE BRASIL/THE CIRCLE BRASIL.jpg",
+  "sinopse": "Nesta competição, os participantes usam as melhores táticas, tentam criar laços ou enganar os desavisados. O prêmio? R$ 300.000.",
+  "genero": "Reality",
+  "elenco": "Ana Carla, Gaybol, João Akel, JP Gadêlha, Paloma Lisboa",
+  "diretor": "Carla Barros",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:52:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:49:20"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:00:52"
+        }
+      ]
+    }
+  ],
+  "id": 483
+}

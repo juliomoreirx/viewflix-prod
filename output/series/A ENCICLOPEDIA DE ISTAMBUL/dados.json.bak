@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NTI=",
+  "tipo": "serie",
+  "titulo": "A ENCICLOPEDIA DE ISTAMBUL",
+  "capa_url": "https://lgfp.one/NQS9",
+  "capa_local": "A ENCICLOPEDIA DE ISTAMBUL/A ENCICLOPEDIA DE ISTAMBUL.jpg",
+  "sinopse": "Uma jovem estudante vai morar com uma amiga da família em Istambul, trocando sua cidadezinha por uma metrópole que coloca sua identidade e suas convicções à prova.",
+  "genero": "Drama",
+  "elenco": "Helin Kandemir, Canan Ergüder, Kaan Miraç Sezen, Müjde Ar, Nezaket Erden",
+  "diretor": "Selman Nacar, Selman Nacar",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:51"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:19"
+        }
+      ]
+    }
+  ],
+  "id": 7201
+}

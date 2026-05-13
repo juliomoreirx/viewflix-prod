@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMTU=",
+  "tipo": "serie",
+  "titulo": "PROVAS SUSPEITAS",
+  "capa_url": "https://lgfp.one/JAB",
+  "capa_local": "PROVAS SUSPEITAS/PROVAS SUSPEITAS.jpg",
+  "sinopse": "A série sobre crimes reais mostra inocentes condenados com base em técnica duvidosas, como o uso questionável de amostras de DNA e cães farejadores.",
+  "genero": "Crime, Documentário, Mistério",
+  "elenco": "Martin Grimes, Arthur Young, David Rossi, Grant Fredericks, Kanika Jones",
+  "diretor": "Bs0g05pE-60",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:04"
+        }
+      ]
+    }
+  ],
+  "id": 366
+}

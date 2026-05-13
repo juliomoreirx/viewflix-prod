@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNTI=",
+  "tipo": "serie",
+  "titulo": "OUR SKYY [L]",
+  "capa_url": "https://lgfp.one/DJS0",
+  "capa_local": "OUR SKYY [L]/OUR SKYY [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Comédia",
+  "elenco": "",
+  "diretor": "ลิท ผดุง สมาจาร, Jane Kitt Botta, Pawis Sowsrion",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:46"
+        }
+      ]
+    }
+  ],
+  "id": 5880
+}

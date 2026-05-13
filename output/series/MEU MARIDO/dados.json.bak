@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxODI=",
+  "tipo": "serie",
+  "titulo": "MEU MARIDO",
+  "capa_url": "https://lgfp.one/RDF8",
+  "capa_local": "MEU MARIDO/MEU MARIDO.jpg",
+  "sinopse": "A trama tem como fio condutor a investigação sobre o envolvimento de Carlos Zanata, um homem aparentemente íntegro e honesto, pai de família, acusado de porte de cocaína. Casados há muito tempo, Carlos e Maria, juntamente com os filhos pequenos, Raul e Aline, formam uma família feliz. Ele é um funcionário público exemplar, ela, uma mulher ativa e moderna.",
+  "genero": "Mistério, Drama",
+  "elenco": "Elizabeth Savalla, Nuno Leal Maia, Imara Reis, Vicente Barcellos, Rafael Salgado",
+  "diretor": "Walter Lima Jr.",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:35"
+        }
+      ]
+    }
+  ],
+  "id": 8393
+}

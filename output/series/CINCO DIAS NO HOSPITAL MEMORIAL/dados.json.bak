@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMjQ=",
+  "tipo": "serie",
+  "titulo": "CINCO DIAS NO HOSPITAL MEMORIAL",
+  "capa_url": "https://lgfp.one/TOD",
+  "capa_local": "CINCO DIAS NO HOSPITAL MEMORIAL/CINCO DIAS NO HOSPITAL MEMORIAL.jpg",
+  "sinopse": "Baseado em eventos reais do furacão Katrina. Quando as águas da enchente subiram, a energia caiu e o calor aumentou, os cuidadores exaustos de um hospital de Nova Orleans foram forçados a tomar decisões difíceis e angustiantes.",
+  "genero": "Drama",
+  "elenco": "Vera Farmiga, Cherry Jones, Cornelius Smith, Jr., Robert Pine, Adepero Oduye, Julie Ann Emery, Michael Gaston, Molly Hager",
+  "diretor": "John Ridley, Carlton Cuse",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:54"
+        }
+      ]
+    }
+  ],
+  "id": 2773
+}

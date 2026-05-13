@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0ODM=",
+  "tipo": "serie",
+  "titulo": "MINHA CASA FRANKENSTEIN",
+  "capa_url": "https://lgfp.one/EBA1",
+  "capa_local": "MINHA CASA FRANKENSTEIN/MINHA CASA FRANKENSTEIN.jpg",
+  "sinopse": "Na série Minha Casa Frankenstein, Denese e Mike Butler, casal especialista em design e construção, reformam casas desorganizadas e desconexas conhecidas como \"Casas Frankenstein\". Essas casas, que apresentam layouts confusos devido a renovações mal planejadas, são transformadas pelo casal, que ajusta a funcionalidade e o visual, preservando o charme e acrescentando modernidade. Cada projeto traz desafios únicos, e o casal trabalha para criar ambientes mais fluídos e harmoniosos para seus clientes.",
+  "genero": "Reality",
+  "elenco": "Denese Butler, Mike Butler, Ren Leach",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:21"
+        }
+      ]
+    }
+  ],
+  "id": 6165
+}

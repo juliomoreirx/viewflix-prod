@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1OTI=",
+  "tipo": "serie",
+  "titulo": "IMPERFEITOS",
+  "capa_url": "https://lgfp.one/TQQ",
+  "capa_local": "IMPERFEITOS/IMPERFEITOS.jpg",
+  "sinopse": "Abbi, Tilda e Juan passaram por um experimento que teve efeitos colaterais monstruosos. Agora, os três precisam encontrar não só a pessoa responsável, mas também a cura.",
+  "genero": "Action & Adventure, Drama, Sci-Fi & Fantasy",
+  "elenco": "Italia Ricci, Morgan Taylor Campbell, Rhianna Jagpal, Iñaki Godoy, Kyra Zagorsky",
+  "diretor": "Mark Chow, Director X, Dennis Heaton, Mathias Herndl, Nimisha Mukerji",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:27"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:17"
+        }
+      ]
+    }
+  ],
+  "id": 2840
+}

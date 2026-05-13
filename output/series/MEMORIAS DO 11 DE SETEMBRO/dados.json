@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NDk=",
+  "tipo": "serie",
+  "titulo": "MEMÓRIAS DO 11 DE SETEMBRO",
+  "capa_url": "https://lgfp.one/SHG",
+  "capa_local": "MEMORIAS DO 11 DE SETEMBRO/MEMORIAS DO 11 DE SETEMBRO.jpg",
+  "sinopse": "Esta série documental conta em detalhes a história do 11 de setembro através dos olhos das testemunhas, heróis e sobreviventes. Feito em colaboração com o 9/11 Memorial & Museum para marcar o 20º aniversário do ocorrido, esta nova série mostra detalhes inéditos deste dia trágico - desde o primeiro avião atingindo a torre norte até os últimos sobreviventes sendo resgatados dos escombros.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Daniel Bogado",
+  "total_episodios": "74",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:14:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 1881
+}

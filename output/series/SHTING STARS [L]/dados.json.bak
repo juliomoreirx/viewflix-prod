@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMjE=",
+  "tipo": "serie",
+  "titulo": "SHTING STARS [L]",
+  "capa_url": "https://lgfp.one/DTD3",
+  "capa_local": "SHTING STARS [L]/SHTING STARS [L].jpg",
+  "sinopse": "A história fala sobre as pessoas que trabalham nos bastidores da indústria do entretenimento, como equipes de relações públicas, gerentes e repórteres, e limpam as bagunças criadas pelas estrelas. Ele fala de Oh Han Byul, chefe da equipe de relações públicas de uma agência de entretenimento, e a estrela impecável Gong Tae Sung, que também é seu inimigo natural. Eles brigam o tempo todo, mas logo também desenvolvem sentimentos um pelo outro.",
+  "genero": "Comédia, Drama",
+  "elenco": "이성경, 김영대, 윤종훈, 김윤혜, 박소진",
+  "diretor": "Lee Soo-hyun",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:03:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:00:46"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:04:22"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:47"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:00:33"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:00:37"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:59:21"
+        }
+      ]
+    }
+  ],
+  "id": 6043
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NjM=",
+  "tipo": "serie",
+  "titulo": "ACAPULCO SHORE",
+  "capa_url": "https://lgfp.one/ASPG",
+  "capa_local": "ACAPULCO SHORE/ACAPULCO SHORE.jpg",
+  "sinopse": "Oito desconhecidos passam um mês juntos na mesma casa, vivendo histórias intensas, festas e muitas loucuras. Esses personagens da vida real fazem questão de que Acapulco jamais se esqueça da sua passagem por lá.",
+  "genero": "Reality",
+  "elenco": "Karime Pindter",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 11",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S11E01",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S11E02",
+          "duracao": "00:45:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S11E03",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S11E04",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S11E05",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S11E06",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S11E07",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S11E08",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S11E09",
+          "duracao": "00:45:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S11E10",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "11",
+          "codigo": "S11E11",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S11E12",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "13",
+          "codigo": "S11E13",
+          "duracao": "00:42:17"
+        }
+      ]
+    }
+  ],
+  "id": 4392
+}

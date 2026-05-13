@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Mjg=",
+  "tipo": "serie",
+  "titulo": "O MAR DA TRANQUILIDADE",
+  "capa_url": "https://lgfp.one/NUU3",
+  "capa_local": "O MAR DA TRANQUILIDADE/O MAR DA TRANQUILIDADE.jpg",
+  "sinopse": "Em uma missão perigosa na Lua, exploradores espaciais tentam recuperar amostras em uma estação de pesquisa abandonada e repleta de segredos.",
+  "genero": "Drama, Sci-Fi & Fantasy, Mistério",
+  "elenco": "배두나, Gong Yoo, 이준, Kim Sun-young, 이무생",
+  "diretor": "Choi Hang-yong",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:51"
+        }
+      ]
+    }
+  ],
+  "id": 7278
+}

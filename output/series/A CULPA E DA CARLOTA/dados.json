@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NjE=",
+  "tipo": "serie",
+  "titulo": "A CULPA É DA CARLOTA",
+  "capa_url": "https://lgfp.one/SFU",
+  "capa_local": "A CULPA E DA CARLOTA/A CULPA E DA CARLOTA.jpg",
+  "sinopse": "Primeiro show de humor totalmente conduzido por mulheres brasileiras de diferentes regiões do país para discutir problemas,  particularidades e características marcantes de forma sarcástica e até feminista, mas sempre priorizando a piada.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:45:34"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:45:07"
+        }
+      ]
+    }
+  ],
+  "id": 227382
+}

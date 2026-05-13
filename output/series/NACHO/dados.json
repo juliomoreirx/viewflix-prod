@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2ODI=",
+  "tipo": "serie",
+  "titulo": "NACHO",
+  "capa_url": "https://lgfp.one/YSD",
+  "capa_local": "NACHO/NACHO.jpg",
+  "sinopse": "Conta a história dramática, com toques de humor,  de pessoas reais por trás da indústria pornográfica - que gera mais de 500 milhões de euros por ano na Espanha -, com  suas particularidades e, por vezes, suas vidas divertidas. Provando que seus talentos vão muito além dos seus famosos 25 cm, Nacho muda as regras do jogo na década de 1990 quando se torna uma estrela internacional. É aí que sua história começa, quando ele descobre que nasceu com um dom que poderia usar para se sustentar sozinho.",
+  "genero": "Drama",
+  "elenco": "Martiño Rivas, María de Nati, Andrés Velencoso, Edu Soto, Miriam Giovanelli, Carmen Conesa, Montse Guallar, Nancho Novo",
+  "diretor": "David Pinillos, Beatriz Sanchís, Eduardo Casanova",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:59"
+        }
+      ]
+    }
+  ],
+  "id": 3321
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTU=",
+  "tipo": "serie",
+  "titulo": "VOCÊ ESTAVA LÁ",
+  "capa_url": "https://lgfp.one/QOZ8",
+  "capa_local": "VOCE ESTAVA LA/VOCE ESTAVA LA.jpg",
+  "sinopse": "Duas mulheres decidem cometer um assassinato para acabar com um casamento abusivo. Até que uma visita inesperada ameaça tudo o que elas planejaram.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "전소니, 이유미, 장승조, 이무생",
+  "diretor": "Lee Jung-rim",
+  "total_episodios": "62",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:11:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:18"
+        }
+      ]
+    }
+  ],
+  "id": 8360
+}

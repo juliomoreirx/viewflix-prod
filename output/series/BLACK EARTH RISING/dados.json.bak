@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NTE=",
+  "tipo": "serie",
+  "titulo": "BLACK EARTH RISING",
+  "capa_url": "https://lgfp.one/RHU",
+  "capa_local": "BLACK EARTH RISING/BLACK EARTH RISING.jpg",
+  "sinopse": "Adotada por uma advogada especialista em direitos humanos após o genocídio de Ruanda, a investigadora Kate Ashby confronta o passado ao assumir casos de crimes de guerra.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Michaela Coel, John Goodman, Noma Dumezweni, Lucian Msamati, Tyrone Huggins",
+  "diretor": "Connie Fyans, Dean Byfield, Rosalind Howes",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:52"
+        }
+      ]
+    }
+  ],
+  "id": 1022
+}

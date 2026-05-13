@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwODk=",
+  "tipo": "serie",
+  "titulo": "ESTUDOS SOCIAIS CRESCENDO NA ERA DIGITAL [L]",
+  "capa_url": "https://lgfp.one/EGF2",
+  "capa_local": "ESTUDOS SOCIAIS CRESCENDO NA ERA DIGITAL [L]/ESTUDOS SOCIAIS CRESCENDO NA ERA DIGITAL [L].jpg",
+  "sinopse": "Filmado em Los Angeles ao longo de um ano letivo, este ambicioso experimento social apresenta um grupo diverso de adolescentes que abrem suas vidas e seus celulares para oferecer uma visão íntima de como a mídia social remodelou a infância.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Lauren Greenfield, Lauren Greenfield, Robb Moss",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:50"
+        }
+      ]
+    }
+  ],
+  "id": 6221
+}

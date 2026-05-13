@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NjA=",
+  "tipo": "serie",
+  "titulo": "SOMEBODY",
+  "capa_url": "https://lgfp.one/WGM",
+  "capa_local": "SOMEBODY/SOMEBODY.jpg",
+  "sinopse": "Uma desenvolvedora de software, o aplicativo de namoro que ela criou, um homem misterioso e um caso de assassinato: está tudo ligado. Quem aqui tem algo a esconder?",
+  "genero": "Drama / Crime / Mistério",
+  "elenco": "Kim Young-kwang, Kang Hae-lim, Kim Yong-ji, Kim Su-yeon",
+  "diretor": "Jung Ji-woo",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:11:13"
+        }
+      ]
+    }
+  ],
+  "id": 3088
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyMjQ=",
+  "tipo": "serie",
+  "titulo": "PRECISE SHOT [L]",
+  "capa_url": "https://lgfp.one/DTD0",
+  "capa_local": "PRECISE SHOT [L]/PRECISE SHOT [L].jpg",
+  "sinopse": "Devido ao nervosismo pré-competição, Shao Yi You, um talentoso atirador de pistola de ar, não conseguiu se juntar à equipe provincial muitas vezes. Para ajudar seu filho a superar as dificuldades psicológicas, seu pai especialmente tem o adolescente talentoso tiro Shao Yi Liang como filho adotivo, deixá-lo viver com Shao Yi You. E os dois meninos começam a se ajudar a resolver seus problemas.",
+  "genero": "Drama, Comédia",
+  "elenco": "Wen Yi Fan, Xia Zhiyuan",
+  "diretor": "",
+  "total_episodios": "5",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:05"
+        }
+      ]
+    }
+  ],
+  "id": 6040
+}

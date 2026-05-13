@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzOTU=",
+  "tipo": "serie",
+  "titulo": "ŌOKU: POR DENTRO DO CASTELO",
+  "capa_url": "https://lgfp.one/AAKZ",
+  "capa_local": "OOKU POR DENTRO DO CASTELO/OOKU POR DENTRO DO CASTELO.jpg",
+  "sinopse": "Em um mundo alternativo onde a população masculina foi praticamente dizimada, os homens que se qualificam servem de concubinos para a xogum.",
+  "genero": "Animação, Drama, Sci-Fi & Fantasy",
+  "elenco": "Mamoru Miyano, 松井恵理子, Yuki Kaji, Kikuko Inoue, Jun Fukuyama",
+  "diretor": "阿部記之",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:19:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:26:58"
+        }
+      ]
+    }
+  ],
+  "id": 3630
+}

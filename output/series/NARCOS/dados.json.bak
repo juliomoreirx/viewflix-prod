@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwOTU=",
+  "tipo": "serie",
+  "titulo": "NARCOS",
+  "capa_url": "https://lgfp.one/JCJ",
+  "capa_local": "NARCOS/NARCOS.jpg",
+  "sinopse": "A notória série sobre o tráfico é baseada na história real de violência e poder dos cartéis colombianos.",
+  "genero": "Crime, Drama",
+  "elenco": "Pedro Pascal, Matias Varela, Damián Alcázar, Francisco Denis, Alberto Ammann",
+  "diretor": "Andrés Baiz",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:56"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:56:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:52:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:56:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:54:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:52:46"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:54:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:49:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:52:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "01:00:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:51:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:47:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:50:53"
+        }
+      ]
+    }
+  ],
+  "id": 440
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMTQ=",
+  "tipo": "serie",
+  "titulo": "O FIM DA INFANCIA",
+  "capa_url": "https://lgfp.one/NCW1",
+  "capa_local": "O FIM DA INFANCIA/O FIM DA INFANCIA.jpg",
+  "sinopse": "Na história, os Overlords, uma raça alienígena, chegam à Terra colocando um fim em todas as guerras. Intelectual, tecnológica e militarmente superior aos humanos, a raça, de forma pacífica, consegue reconstruir a sociedade, transformando a Terra em um planeta quase utópico. No entanto, neste processo, os humanos perdem sua identidade cultural.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Colm Meaney, Mike Vogel, Julian McMahon, Charles Dance, Yael Stone",
+  "diretor": "",
+  "total_episodios": "85",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:21:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:25:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:19:39"
+        }
+      ]
+    }
+  ],
+  "id": 6953
+}

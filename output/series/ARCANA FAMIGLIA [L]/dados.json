@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNjc=",
+  "tipo": "serie",
+  "titulo": "ARCANA FAMIGLIA [L]",
+  "capa_url": "https://lgfp.one/DCC0",
+  "capa_local": "ARCANA FAMIGLIA [L]/ARCANA FAMIGLIA [L].jpg",
+  "sinopse": "Felicita viveu sua infância solitária ao lado de sua mãe, Sumire, e seu mordomo Luca. Sua vida começa a tomar um rumo diferente ao conhecer seu pai quando completa 16 anos. Mondo, chama sua filha para morar com ele, mas o que ela não esperava é que ela fosse agora recrutada para ser membro da “Arcana Famiglia”, uma organização mafiosa que Mondo controla e que protege a ilha de Regalo através de um poder chamado Tarocco. O plano de Mondo é: entregar a mão de sua filha para aquele que ganhar o “Arcana Duello”, e assim, se tornar seu sucessor. Sete jovens testarão sua força e poderes em busca do prêmio máximo de ser o sucessor da família Arcana, além de ter a mão da linda jovem. Mas como nem tudo é fácil, Felicita não quer se casar com qualquer um, e para isso ela deve vencer o Arcana Duello e escolher com quem ela quer se casar. Ela terá 3 meses para isso, e o treinamento será mais intenso do que parece.",
+  "genero": "Animação, Action & Adventure, Comédia",
+  "elenco": "Yuichi Nakamura, 福山潤, 能登麻美子, 杉田智和, 吉野裕行",
+  "diretor": "今千秋",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:23:30"
+        }
+      ]
+    }
+  ],
+  "id": 5723
+}

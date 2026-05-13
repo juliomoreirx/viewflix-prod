@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1OTE=",
+  "tipo": "serie",
+  "titulo": "CIAO HOUSE A COMPETICAO",
+  "capa_url": "https://lgfp.one/AVH8",
+  "capa_local": "CIAO HOUSE A COMPETICAO/CIAO HOUSE A COMPETICAO.jpg",
+  "sinopse": "Alex Guarnaschelli e Gabe Bertaccini recebem dez chefs talentosos para morar e cozinhar juntos em uma vila na Toscana, onde colocarão à prova seu domínio da culinária italiana. O vencedor fará cursos de culinária com chefs renomados em toda a Itália.",
+  "genero": "Reality",
+  "elenco": "Alex Guarnaschelli, Gabriele Bertaccini, Zev Bennett",
+  "diretor": "Michael Pearlman",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:06:02"
+        }
+      ]
+    }
+  ],
+  "id": 5324
+}

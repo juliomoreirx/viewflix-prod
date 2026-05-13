@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwNzc=",
+  "tipo": "serie",
+  "titulo": "SE AS FLORES FALASSEM",
+  "capa_url": "https://lgfp.one/NDG8",
+  "capa_local": "SE AS FLORES FALASSEM/SE AS FLORES FALASSEM.jpg",
+  "sinopse": "Quando seu cliente morre na véspera do casamento, uma florista decide encontrar o assassino e acaba revelando os segredos sombrios da alta sociedade.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Urassaya Sperbund, ชญานิษฐ์ ชาญสง่าเวช, ณภัทร วิกัยรุ่งโรจน์, รอน บรรจงสร้าง, อัมรินทร์ นิติพน",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:10"
+        }
+      ]
+    }
+  ],
+  "id": 6965
+}

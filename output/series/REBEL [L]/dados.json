@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MzI=",
+  "tipo": "serie",
+  "titulo": "REBEL [L]",
+  "capa_url": "https://lgfp.one/RQL",
+  "capa_local": "REBEL [L]/REBEL [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Katey Sagal, John Corbett, Andy García, James Lesure, Tamala Jones",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:05"
+        }
+      ]
+    }
+  ],
+  "id": 1258
+}

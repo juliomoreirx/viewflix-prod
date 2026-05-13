@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0Mzg=",
+  "tipo": "serie",
+  "titulo": "ACESSO TOTAL: CORINTHIANS",
+  "capa_url": "https://lgfp.one/YBJ",
+  "capa_local": "ACESSO TOTAL CORINTHIANS/ACESSO TOTAL CORINTHIANS.jpg",
+  "sinopse": "Acompanhe os bastidores do ano do Corinthians. Veja os momentos no CT e no vestiário do time.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:16"
+        }
+      ]
+    }
+  ],
+  "id": 1299
+}

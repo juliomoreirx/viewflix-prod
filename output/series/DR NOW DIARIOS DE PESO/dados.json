@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNDI=",
+  "tipo": "serie",
+  "titulo": "DR NOW DIARIOS DE PESO",
+  "capa_url": "https://lgfp.one/RGX8",
+  "capa_local": "DR NOW DIARIOS DE PESO/DR NOW DIARIOS DE PESO.jpg",
+  "sinopse": "Dez pessoas com obesidade severa, que juntas ultrapassam 2,7 toneladas, procuram o Dr. Now em busca de uma cirurgia bariátrica e de uma nova vida.",
+  "genero": "Reality",
+  "elenco": "Younan Nowzaradan",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:23:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:23:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:25:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:24:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:24:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:23:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:25:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:21:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:24:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:20:43"
+        }
+      ]
+    }
+  ],
+  "id": 8638
+}

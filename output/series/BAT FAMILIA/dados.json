@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1ODU=",
+  "tipo": "serie",
+  "titulo": "BAT FAMILIA",
+  "capa_url": "https://lgfp.one/QOY5",
+  "capa_local": "BAT FAMILIA/BAT FAMILIA.jpg",
+  "sinopse": "Esta comédia de ação animada de 22 minutos mostra Damian e Bruce Wayne, enquanto eles e sua família unida de desajustados passam pelos desafios de uma vida comum e protegem as ruas de Gotham.",
+  "genero": "Animação, Família",
+  "elenco": "Luke Wilson, Yonas Kibreab, James Cromwell, Haley Tju, London Hughes",
+  "diretor": "",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:03"
+        }
+      ]
+    }
+  ],
+  "id": 8347
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMjU=",
+  "tipo": "serie",
+  "titulo": "KINDRED: SEGREDOS E RAÍZES",
+  "capa_url": "https://lgfp.one/YKB",
+  "capa_local": "KINDRED SEGREDOS E RAIZES/KINDRED SEGREDOS E RAIZES.jpg",
+  "sinopse": "Quando Dana, uma jovem negra e aspirante a escritora, começa a se estabelecer em sua nova casa, ela se vê viajando entre o passado e o presente, surgindo em uma plantação do século XIX e confrontando segredos que ela nunca soube que corriam em seu sangue.",
+  "genero": "Drama",
+  "elenco": "Mallori Johnson, Micah Stock, Ryan Kwanten, Gayle Rankin, Austin Smith, Antoinette Crowe-Legacy, David Alexander Kaplan, Jayden Braddock",
+  "diretor": "Branden Jacobs-Jenkins",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:27"
+        }
+      ]
+    }
+  ],
+  "id": 3262
+}

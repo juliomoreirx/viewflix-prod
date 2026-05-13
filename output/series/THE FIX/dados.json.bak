@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0OTI=",
+  "tipo": "serie",
+  "titulo": "THE FIX",
+  "capa_url": "https://lgfp.one/JEP",
+  "capa_local": "THE FIX/THE FIX.jpg",
+  "sinopse": "Maya Travis, uma promotora profissional de Los Angeles, se aposentou depois de perder um caso de assassinato duplo de alta visibilidade, mas quando o assassino ataca novamente, ela retorna para buscar justiça do seu próprio jeito.",
+  "genero": "Drama, Crime",
+  "elenco": "Robin Tunney, Adewale Akinnuoye-Agbaje, Scott Cohen, Merrin Dungey, Marc Blucas",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:00"
+        }
+      ]
+    }
+  ],
+  "id": 256926
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMjc=",
+  "tipo": "serie",
+  "titulo": "CAPITAO LASERHAWK REMIX BLOOD DRAGON",
+  "capa_url": "https://lgfp.one/ARCZ",
+  "capa_local": "CAPITAO LASERHAWK REMIX BLOOD DRAGON/CAPITAO LASERHAWK REMIX BLOOD DRAGON.jpg",
+  "sinopse": "Considerado inimigo do Estado, um supersoldado ciborgue tenta encontrar uma causa para lutar em meio a uma sociedade distópica cheia de segredos e mentiras.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Nathaniel Curtis, Caroline Ford, David Menkin",
+  "diretor": "Mehdi Leffad, Mehdi Leffad, Felix Sikora",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:36"
+        }
+      ]
+    }
+  ],
+  "id": 4259
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5NTc=",
+  "tipo": "serie",
+  "titulo": "TUDO SOB CONTROLE",
+  "capa_url": "https://lgfp.one/QAN1",
+  "capa_local": "TUDO SOB CONTROLE/TUDO SOB CONTROLE.jpg",
+  "sinopse": "Yun-A, workaholic, chega à hospedagem conectada e descobre que dividirá o espaço com o charmoso Ji-Hoon. A disputa pelo controle revela segredos e sentimentos inesperados.",
+  "genero": "Drama",
+  "elenco": "Sharon Cho, Raphael Chung",
+  "diretor": "Marcelo Trotta",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:05:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:06:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:06:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:06:01"
+        }
+      ]
+    }
+  ],
+  "id": 8009
+}

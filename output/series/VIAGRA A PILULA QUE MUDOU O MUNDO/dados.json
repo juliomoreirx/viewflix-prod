@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NTc=",
+  "tipo": "serie",
+  "titulo": "VIAGRA: A PÍLULA QUE MUDOU O MUNDO",
+  "capa_url": "https://lgfp.one/YNP",
+  "capa_local": "VIAGRA A PILULA QUE MUDOU O MUNDO/VIAGRA A PILULA QUE MUDOU O MUNDO.jpg",
+  "sinopse": "A história não contada de uma pílula azul que mudou o mundo. Descoberto por acidente, o Viagra reescreveu a cartilha das grandes farmacêuticas e mudou o sexo para sempre.",
+  "genero": "Documentário",
+  "elenco": "Aaron Canada, Ian Osterloh, David Brinkley",
+  "diretor": "Brent Hodge",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:33"
+        }
+      ]
+    }
+  ],
+  "id": 3302
+}

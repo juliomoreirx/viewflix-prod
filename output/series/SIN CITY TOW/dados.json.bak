@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MjU=",
+  "tipo": "serie",
+  "titulo": "SIN CITY TOW",
+  "capa_url": "https://lgfp.one/EBA3",
+  "capa_local": "SIN CITY TOW/SIN CITY TOW.jpg",
+  "sinopse": "Quando as pessoas apostam e estacionam seus carros ilegalmente, os motoristas de guincho de Vegas entram em cena. Isso leva a brigas, propostas selvagens e personagens malucos fazendo de tudo para ter suas caronas de volta. Duas empresas de guincho rivais competem para manter a Vegas Strip em movimento.",
+  "genero": "Reality",
+  "elenco": "Adam Gold, Jeremy, Shawn Davis, Elmer",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:27"
+        }
+      ]
+    }
+  ],
+  "id": 6167
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MDI=",
+  "tipo": "serie",
+  "titulo": "AMELIO O HOMEM DE VERDADE",
+  "capa_url": "https://lgfp.one/NVH6",
+  "capa_local": "AMELIO O HOMEM DE VERDADE/AMELIO O HOMEM DE VERDADE.jpg",
+  "sinopse": "Os recém-casados Amélio e Fabi vivem uma crise conjugal logo após a lua-de-mel. Ela é ciumenta ao extremo, e o cerca por todos os lados. Já Amélio é domado pela esposa e pelo universo feminino que o cerca.",
+  "genero": "Drama, Comédia",
+  "elenco": "Thierry Figueira, Natallia Rodrigues",
+  "diretor": "Luis Antonio Pereira, Luis Antonio Pereira",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:17"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:28:16"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:18"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:31:08"
+        }
+      ]
+    }
+  ],
+  "id": 7280
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MDc=",
+  "tipo": "serie",
+  "titulo": "LOOKISM",
+  "capa_url": "https://lgfp.one/WLW",
+  "capa_local": "LOOKISM/LOOKISM.jpg",
+  "sinopse": "Em uma sociedade que favorece a beleza, um estudante leva uma vida dupla, alternando entre dois corpos de aparências totalmente opostas.",
+  "genero": "Comédia, Drama, Animação",
+  "elenco": "심규혁, Han Shin, 류승곤, 정재헌, 남도형",
+  "diretor": "Han Kyung-Hoon, Han Kwang Il, Han Kyung-Hoon",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:08"
+        }
+      ]
+    }
+  ],
+  "id": 9400
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MTg=",
+  "tipo": "serie",
+  "titulo": "DIÁRIOS DE ANDY WARHOL",
+  "capa_url": "https://lgfp.one/SZJ",
+  "capa_local": "DIARIOS DE ANDY WARHOL/DIARIOS DE ANDY WARHOL.jpg",
+  "sinopse": "Após levar um tiro em 1968, Andy Warhol começa a registrar a vida e os sentimentos em diários que, junto com esta série, revelam os segredos por trás do artista.",
+  "genero": "Documentário",
+  "elenco": "Andy Warhol, Bill Irwin, Jeffrey Deitch, Jessica Beck, Bob Colacello",
+  "diretor": "Scott Robertson, Andrew Rossi, Andrew Rossi",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:12:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:14:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:17:57"
+        }
+      ]
+    }
+  ],
+  "id": 2372
+}

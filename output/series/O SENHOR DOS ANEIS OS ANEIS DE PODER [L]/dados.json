@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODY=",
+  "tipo": "serie",
+  "titulo": "O SENHOR DOS ANÉIS: OS ANÉIS DE PODER [L]",
+  "capa_url": "https://lgfp.one/TPN",
+  "capa_local": "O SENHOR DOS ANEIS OS ANEIS DE PODER [L]/O SENHOR DOS ANEIS OS ANEIS DE PODER [L].jpg",
+  "sinopse": "Tendo início em uma época de relativa paz, a série acompanha um grupo de personagens que enfrenta o ressurgimento do mal na Terra-média. Das profundezas escuras das Montanhas de Névoa, das majestosas florestas de Lindon, do belíssimo reino da ilha de Númenor, até os confins do mapa, esses reinos e personagens criarão legados que permanecerão vivos muito além de suas partidas.",
+  "genero": "Sci-Fi & Fantasy / Action & Adventure / Drama",
+  "elenco": "Markella Kavenagh, Joseph Mawle, Morfydd Clark, Tyroe Muhafidin, Ian Blackburn, Anthony Crum, Maxine Cunliffe, Will Fletcher",
+  "diretor": "John D. Payne, Patrick McKay",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:05:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:09:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:12:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:12:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:26"
+        }
+      ]
+    }
+  ],
+  "id": 2809
+}

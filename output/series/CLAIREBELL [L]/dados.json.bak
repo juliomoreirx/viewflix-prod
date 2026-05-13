@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMTU=",
+  "tipo": "serie",
+  "titulo": "CLAIREBELL [L]",
+  "capa_url": "https://lgfp.one/QNO1",
+  "capa_local": "CLAIREBELL [L]/CLAIREBELL [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Siriwalee Siriwibool, Paphavarin Sawasdiwech, Pantira Ouhirun, Jirakit Kanjanawaraporn, ศิรพันธ์ วัฒนจินดา",
+  "diretor": "Prach Rojanasinwilai, Arnon Losiripanya, Noah Ottersen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:05:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:15:43"
+        }
+      ]
+    }
+  ],
+  "id": 8297
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODE=",
+  "tipo": "serie",
+  "titulo": "ADHURA [L]",
+  "capa_url": "https://lgfp.one/AAPG",
+  "capa_local": "ADHURA [L]/ADHURA [L].jpg",
+  "sinopse": "Coisas estranhas acontecem na Escola Nilgiri Valley que parecem estar conectadas a Vedant, o aluno novato de 10 anos. Quando a turma de 2007 retorna para um reencontro, o ex-aluno Adhiraj Jaisingh, deve lidar com o que fez 15 anos antes. As coisas tomam um rumo terrível quando os caminhos de Vedant e Adhiraj se cruzam. Um segredo obscuro começa a se revelar, ameaçando a vida de todos no campus.",
+  "genero": "Mistério",
+  "elenco": "Ishwak Singh, Rasika Dugal, Shrenik Arora, Poojan Chhabra, Arjun Deswal",
+  "diretor": "Gauravv K. Chawla, Ananya Banerjee, Ananya Banerjee",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:34"
+        }
+      ]
+    }
+  ],
+  "id": 3740
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2MTQ=",
+  "tipo": "serie",
+  "titulo": "JOGANDO COM O AMOR",
+  "capa_url": "https://lgfp.one/XDV",
+  "capa_local": "JOGANDO COM O AMOR/JOGANDO COM O AMOR.jpg",
+  "sinopse": "Ilkin teme que seu namorado, um ator famoso, não a ame mais. Um dia, ela decide entrar em contato com ele através de um perfil falso nas redes sociais e quase cria a mulher que poderá seduzir o amor de sua vida.",
+  "genero": "Drama",
+  "elenco": "Demet Özdemir, Buğra Gülsoy, Hafsanur Sancaktutan, Zerrin Tekindor, İbrahim Selim, Melisa Döngel, Metin Akdülger",
+  "diretor": "Hülya Gezer",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:17"
+        }
+      ]
+    }
+  ],
+  "id": 223173
+}

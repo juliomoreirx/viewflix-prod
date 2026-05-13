@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1ODM=",
+  "tipo": "serie",
+  "titulo": "ALTO LUXO BAIXO CUSTO (2022)",
+  "capa_url": "https://lgfp.one/SDO4",
+  "capa_local": "ALTO LUXO BAIXO CUSTO (2022)/ALTO LUXO BAIXO CUSTO (2022).jpg",
+  "sinopse": "",
+  "genero": "Reality",
+  "elenco": "Michel Smith Boyd, Anthony Elle, Kai Williamson, Laura Green",
+  "diretor": "Rey Miranda",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:18"
+        }
+      ]
+    }
+  ],
+  "id": 9046
+}

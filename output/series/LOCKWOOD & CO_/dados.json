@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0ODI=",
+  "tipo": "serie",
+  "titulo": "LOCKWOOD & CO.",
+  "capa_url": "https://lgfp.one/XZB",
+  "capa_local": "LOCKWOOD & CO./LOCKWOOD & CO..jpg",
+  "sinopse": "Em um mundo infestado de fantasmas, três adolescentes se juntam em investigações paranormais e arriscam tudo para desvendar uma conspiração diabólica.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Ruby Stokes, Cameron Chapman, Ali Hadji-Heshmati",
+  "diretor": "Joe Cornish",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:46"
+        }
+      ]
+    }
+  ],
+  "id": 3235
+}

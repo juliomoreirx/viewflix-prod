@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxMzU=",
+  "tipo": "serie",
+  "titulo": "PALM ROYALE",
+  "capa_url": "https://lgfp.one/AOI9",
+  "capa_local": "PALM ROYALE/PALM ROYALE.jpg",
+  "sinopse": "Em 1969, uma mulher ambiciosa aspira cruzar a linha que separa aqueles que têm e aqueles que não têm, buscando garantir seu lugar na mesa mais exclusiva, elegante e traiçoeira dos Estados Unidos: a alta sociedade de Palm Beach.",
+  "genero": "Comédia",
+  "elenco": "Kristen Wiig, Ricky Martin, Josh Lucas, Leslie Bibb, Amber Chardae Robinson",
+  "diretor": "Tate Taylor, Jesse Sternbaum, Shawn Dyrdahl",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:54:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:58:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:52:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:59:01"
+        }
+      ]
+    }
+  ],
+  "id": 5169
+}

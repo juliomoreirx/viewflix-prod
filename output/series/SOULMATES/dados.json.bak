@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwNzE=",
+  "tipo": "serie",
+  "titulo": "SOULMATES",
+  "capa_url": "https://lgfp.one/RNH",
+  "capa_local": "SOULMATES/SOULMATES.jpg",
+  "sinopse": "O Teste de Almas Gêmeas afeta a vida de seis personagens: Nikki duvida do casamento, David tem um caso, Libby ama a alma gêmea e o marido, Mateo tem uma aventura selvagem, a alma gêmea de Kurt está morta, Caitlin questiona se o casamento dela é bom para ela.",
+  "genero": "Sci-Fi & Fantasy, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:53"
+        }
+      ]
+    }
+  ],
+  "id": 1173
+}

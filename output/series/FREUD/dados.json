@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMTQ=",
+  "tipo": "serie",
+  "titulo": "FREUD",
+  "capa_url": "https://lgfp.one/JAA",
+  "capa_local": "FREUD/FREUD.jpg",
+  "sinopse": "Decidido a se tornar conhecido na Viena do século 19, o jovem Sigmund Freud se une a uma vidente e um detetive da polícia para resolver uma série de mistérios.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Manuel Ossenkopf, Robert Finster, Georg Friedrich, Ella Rumpf, Brigitte Kren",
+  "diretor": "Marvin Kren, Marvin Kren, Marvin Kren",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:36"
+        }
+      ]
+    }
+  ],
+  "id": 365
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MzU=",
+  "tipo": "serie",
+  "titulo": "HITMAKERS [L]",
+  "capa_url": "https://lgfp.one/PPZ2",
+  "capa_local": "HITMAKERS [L]/HITMAKERS [L].jpg",
+  "sinopse": "A criatividade e o ego se misturam neste reality sobre um grupo de compositores que criam grandes sucessos para as maiores estrelas da música.",
+  "genero": "Reality",
+  "elenco": "John Legend, LISA, Shaboozey",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:21"
+        }
+      ]
+    }
+  ],
+  "id": 7738
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNDQ=",
+  "tipo": "serie",
+  "titulo": "ATÉ QUE SE PROVE O CONTRÁRIO",
+  "capa_url": "https://lgfp.one/WKR",
+  "capa_local": "ATE QUE SE PROVE O CONTRARIO/ATE QUE SE PROVE O CONTRARIO.jpg",
+  "sinopse": "Você vai julgar Jax Stewart por sua ética questionável e interpretações selvagens da lei... até que você esteja com problemas. Então você a verá pelo que ela é: a advogada de defesa mais brilhante e destemida de Los Angeles, que contraria o sistema de justiça sempre que pode.",
+  "genero": "Drama",
+  "elenco": "Emayatzy Corinealdi, Tim Jo, McKinley Freeman, Angela Grovey, Michael Ealy, Thaddeus J. Mixson, Aderinsola Olabode",
+  "diretor": "Raamla Mohamed",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:37"
+        }
+      ]
+    }
+  ],
+  "id": 3094
+}

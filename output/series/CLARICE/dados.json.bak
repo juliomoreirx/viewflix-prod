@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMDA=",
+  "tipo": "serie",
+  "titulo": "CLARICE",
+  "capa_url": "https://lgfp.one/TOY",
+  "capa_local": "CLARICE/CLARICE.jpg",
+  "sinopse": "Um mergulho profundo na história pessoal e desconhecida da agente do FBI Clarice Starling, enquanto ela volta ao trabalho para perseguir assassinos em série e predadores sexuais e navega no mundo político de altos riscos de Washington, DC.",
+  "genero": "Crime / Drama",
+  "elenco": "Rebecca Breeds, Nick Sandow, Michael Cudlitz, Lucca De Oliveira, Devyn A. Tyler",
+  "diretor": "Alex Kurtzman, Jenny Lumet",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:30"
+        }
+      ]
+    }
+  ],
+  "id": 2795
+}

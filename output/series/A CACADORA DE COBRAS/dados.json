@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMjk=",
+  "tipo": "serie",
+  "titulo": "A CAÇADORA DE COBRAS",
+  "capa_url": "https://lgfp.one/PFE9",
+  "capa_local": "A CACADORA DE COBRAS/A CACADORA DE COBRAS.jpg",
+  "sinopse": "Julia é uma caçadora de cobras profissional em Brisbane, na Austrália, uma das regiões com mais cobras venenosas do mundo. Ela enfrenta perigos diariamente ao capturar esses animais em locais como creches, quartos e banheiros, sempre com o objetivo de proteger as pessoas. No episódio, Julia é chamada por um cliente preocupado após uma píton-diamante devorar outro animal de estimação. Ela consegue capturá-la e a solta em segurança na natureza.",
+  "genero": "Documentário",
+  "elenco": "Julia Baker",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:36"
+        }
+      ]
+    }
+  ],
+  "id": 7539
+}

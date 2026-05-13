@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyOTc=",
+  "tipo": "serie",
+  "titulo": "SEM BLOQUEIO",
+  "capa_url": "https://lgfp.one/YSU",
+  "capa_local": "SEM BLOQUEIO/SEM BLOQUEIO.jpg",
+  "sinopse": "Sem bloqueio acompanhará os bastidores e a realidade fora de quadra das vitoriosas meninas do esquadrão brasileiro, a preparação e a trajetória na Liga das Nações e no Mundial.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Anna Azevedo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:00"
+        }
+      ]
+    }
+  ],
+  "id": 3338
+}

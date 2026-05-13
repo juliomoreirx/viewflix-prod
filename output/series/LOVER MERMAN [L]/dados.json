@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5MTU=",
+  "tipo": "serie",
+  "titulo": "LOVER MERMAN [L]",
+  "capa_url": "https://lgfp.one/QCK9",
+  "capa_local": "LOVER MERMAN [L]/LOVER MERMAN [L].jpg",
+  "sinopse": "Um novato em um bar da ilha se apaixona pelo barman mais famoso do lugar, sem saber que ele é um tritão — enquanto um amigo protetor alerta que o amor entre humano e tritão só pode acabar em tragédia.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "อัครภัทร์ สุทธิเธียรณรงค์, เฟโรส คาน แช่มช้อย, จิรายุ อึ่งวานิช, ชลัช ตันติจิบูรณ์, จิรเมธ ศรีหนองห้าง",
+  "diretor": "Rungradit Rungamonwanit, นที ฉวีวงษ์, จิรวัฒน์ ศรีนุ",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:10"
+        }
+      ]
+    }
+  ],
+  "id": 8070
+}

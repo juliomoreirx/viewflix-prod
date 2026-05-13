@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxOTg=",
+  "tipo": "serie",
+  "titulo": "AFTER LIFE: VOCÊS VÃO TER DE ME ENGOLIR",
+  "capa_url": "https://lgfp.one/INX",
+  "capa_local": "AFTER LIFE VOCES VAO TER DE ME ENGOLIR/AFTER LIFE VOCES VAO TER DE ME ENGOLIR.jpg",
+  "sinopse": "Devastado pela morte da mulher, um jornalista torna-se frio e distante, numa tentativa de afastar todos os que o querem ajudar.",
+  "genero": "Comédia, Drama",
+  "elenco": "Ricky Gervais, Tom Basden, Kerry Godliman, David Bradley, Joe Wilkinson",
+  "diretor": "Ricky Gervais",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:56"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:27:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:27:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:30:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:28:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:30:14"
+        }
+      ]
+    }
+  ],
+  "id": 28
+}

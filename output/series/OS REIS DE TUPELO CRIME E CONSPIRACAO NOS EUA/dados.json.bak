@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNDk=",
+  "tipo": "serie",
+  "titulo": "OS REIS DE TUPELO CRIME E CONSPIRAÇÃO NOS EUA",
+  "capa_url": "https://lgfp.one/KGW0",
+  "capa_local": "OS REIS DE TUPELO CRIME E CONSPIRACAO NOS EUA/OS REIS DE TUPELO CRIME E CONSPIRACAO NOS EUA.jpg",
+  "sinopse": "Nesta história bizarra sobre um crime real, a teoria da conspiração de um sósia de Elvis Presley acaba levando a uma tentativa de assassinato presidencial.",
+  "genero": "Documentário, Crime",
+  "elenco": "Paul Kevin Curtis, Laura Curtis, Jimmy Blaylock, Elois Curtis, Steve Holland",
+  "diretor": "Chapman Way, Maclain Way",
+  "total_episodios": "64",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:15:33"
+        }
+      ]
+    }
+  ],
+  "id": 6381
+}

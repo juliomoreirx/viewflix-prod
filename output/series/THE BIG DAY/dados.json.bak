@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNDI=",
+  "tipo": "serie",
+  "titulo": "THE BIG DAY",
+  "capa_url": "https://lgfp.one/ABCU",
+  "capa_local": "THE BIG DAY/THE BIG DAY.jpg",
+  "sinopse": "Para seis casais de noivos, o \"felizes para sempre\" começa com uma festa espetacular – uma entre as tantas que movem a multibilionária indústria do casamento na Índia.",
+  "genero": "Reality",
+  "elenco": "Divya Singh, Daniel Bauer, Sreejan Shandilya, Itai Reuveni, Prerna Gupta",
+  "diretor": "Ashish Sawhny, Faraz Arif Ansari, Aakriti Mehta",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:44"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:41:43"
+        }
+      ]
+    }
+  ],
+  "id": 4131
+}

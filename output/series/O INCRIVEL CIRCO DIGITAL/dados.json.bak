@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NzE=",
+  "tipo": "serie",
+  "titulo": "O INCRÍVEL CIRCO DIGITAL",
+  "capa_url": "https://lgfp.one/DUM1",
+  "capa_local": "O INCRIVEL CIRCO DIGITAL/O INCRIVEL CIRCO DIGITAL.jpg",
+  "sinopse": "Uma mulher e outras cinco pessoas vão parar em uma realidade virtual bizarra, à mercê dos próprios traumas e de uma inteligência artificial desequilibrada.",
+  "genero": "Animação, Comédia, Mistério",
+  "elenco": "Lizzie Freeman, Alex Rochon, Michael Kovach, Amanda Hufford, Marissa Lenti",
+  "diretor": "Gooseworx",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:55"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:43"
+        }
+      ]
+    }
+  ],
+  "id": 6072
+}

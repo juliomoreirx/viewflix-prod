@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNzc=",
+  "tipo": "serie",
+  "titulo": "SOBREVIVENTE PRIMITIVO OS ANDES",
+  "capa_url": "https://lgfp.one/PIO6",
+  "capa_local": "SOBREVIVENTE PRIMITIVO OS ANDES/SOBREVIVENTE PRIMITIVO OS ANDES.jpg",
+  "sinopse": "Na primeira etapa desta jornada épica pela América do Sul, o explorador de territórios selvagens, Hazen Audel, enfrenta a poderosa Mata Atlântica. Tendo que enfrentar pântanos cheios de serpentes e cachoeiras com quedas mortais, Hazen segue o sol ao oeste do território do povo Guarani. Ele participa de um jogo de caça tradicional antes de se juntar aos locais em uma festa da colheita.",
+  "genero": "Documentário, Reality",
+  "elenco": "Hazen Audel",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:04"
+        }
+      ]
+    }
+  ],
+  "id": 7642
+}

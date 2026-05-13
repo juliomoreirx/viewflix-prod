@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwODQ=",
+  "tipo": "serie",
+  "titulo": "UM ARREMESSO OVERTIME ELITE [L]",
+  "capa_url": "https://lgfp.one/EGG7",
+  "capa_local": "UM ARREMESSO OVERTIME ELITE [L]/UM ARREMESSO OVERTIME ELITE [L].jpg",
+  "sinopse": "Veja a luta da nova geração de estrelas do basquete por uma carreira profissional no esporte. Esses jovens estão muito perto de alcançar todos os seus sonhos, mas será que vão conseguir encarar o desafio? Ou vão ceder à pressão? A seleção da NBA está de olho nos gêmeos Thompson, o que vai obrigar os outros jogadores a darem tudo de si.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:47"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:31:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:37:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:34:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:37:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:37:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:40:28"
+        }
+      ]
+    }
+  ],
+  "id": 6236
+}

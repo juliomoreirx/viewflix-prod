@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1MDU=",
+  "tipo": "serie",
+  "titulo": "GO FOR IT NAKAMURA KUN (2026)",
+  "capa_url": "https://lgfp.one/SNN2",
+  "capa_local": "GO FOR IT NAKAMURA KUN (2026)/GO FOR IT NAKAMURA KUN (2026).jpg",
+  "sinopse": "Nakamura é um garoto muito tímido que se apaixona à primeira vista por seu colega de classe dos sonhos, Hirose. Mas há um problema: eles ainda nem se conhecem. E Nakamura é tão desajeitado que pode estragar tudo antes mesmo de começar.",
+  "genero": "Animação, Comédia",
+  "elenco": "Chiaki Kobayashi, Yuki Sakakihara, Fairouz Ai, Takuya Eguchi, 笹翼",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 9235
+}

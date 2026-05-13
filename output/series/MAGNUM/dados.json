@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMDY=",
+  "tipo": "serie",
+  "titulo": "MAGNUM",
+  "capa_url": "https://lgfp.one/RNC7",
+  "capa_local": "MAGNUM/MAGNUM.jpg",
+  "sinopse": "O aspirante a ator de Hollywood Simon Williams está lutando para decolar. Durante um encontro casual com Trevor Slattery, um ator cujos maiores papéis podem já ter ficado no passado, Simon descobre que o lendário diretor Von Kovak está fazendo um remake do filme do super-herói \"Magnum\". Esses dois atores, em extremos opostos de suas carreiras, buscam obstinadamente papéis transformadores nesse filme, enquanto o público dá uma espiadinha nos bastidores da indústria do entretenimento.",
+  "genero": "Comédia",
+  "elenco": "Yahya Abdul-Mateen II, Arian Moayed, X Mayo, Zlatko Burić, Ben Kingsley",
+  "diretor": "Destin Daniel Cretton",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:07"
+        }
+      ]
+    }
+  ],
+  "id": 8739
+}

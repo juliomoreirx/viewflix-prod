@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyODg=",
+  "tipo": "serie",
+  "titulo": "LARGADOS, PELADOS E CONGELADOS",
+  "capa_url": "https://lgfp.one/YXN",
+  "capa_local": "LARGADOS, PELADOS E CONGELADOS/LARGADOS, PELADOS E CONGELADOS.jpg",
+  "sinopse": "Enfrentando dificuldades desde o início, 12 sobrevivencialistas encaram o local mais inóspito: as Montanhas Rochosas de Montana.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 3373
+}

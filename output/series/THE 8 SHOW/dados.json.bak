@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxOTE=",
+  "tipo": "serie",
+  "titulo": "THE 8 SHOW",
+  "capa_url": "https://lgfp.one/AYW8",
+  "capa_local": "THE 8 SHOW/THE 8 SHOW.jpg",
+  "sinopse": "Oito pessoas presas em um misterioso prédio de oito andares participam de um programa tentador, mas muito perigoso, que dá dinheiro conforme o tempo passa.",
+  "genero": "Drama, Mistério",
+  "elenco": "류준열, 천우희, 박정민, 이열음, 박해준",
+  "diretor": "한재림, 한재림",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:25"
+        }
+      ]
+    }
+  ],
+  "id": 5385
+}

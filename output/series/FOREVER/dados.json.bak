@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwOTI=",
+  "tipo": "serie",
+  "titulo": "FOREVER",
+  "capa_url": "https://lgfp.one/JNC",
+  "capa_local": "FOREVER/FOREVER.jpg",
+  "sinopse": "Após June convencer Oscar a fazer algo diferente, um evento inesperado muda o relacionamento, e eles têm que decidir se foram mesmo feitos um para o outro.",
+  "genero": "Comédia, Drama",
+  "elenco": "Maya Rudolph, Fred Armisen",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:07"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:58"
+        }
+      ]
+    }
+  ],
+  "id": 759
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NTE=",
+  "tipo": "serie",
+  "titulo": "POR TRÁS DA DIVERSÃO",
+  "capa_url": "https://lgfp.one/SGS",
+  "capa_local": "POR TRAS DA DIVERSAO/POR TRAS DA DIVERSAO.jpg",
+  "sinopse": "Dos produtores executivos Dwayne Johnson, Dany Garcia e Brian Volk-Weiss, \"Parques Disney: Por Trás da Diversão\" explora como os Imagineiros preencheram a The Haunted House com 999 assombrações felizes, como a Twilight Zone Tower of Terror™ se transformou em Guardians of the Galaxy – Mission: BREAKOUT! (desafiando a gravidade no processo), e porque a Space Mountain demorou tanto para ser criada. Dos anos 50 até hoje, de Jungle Cruise, passando por It's a Small World a Star Wars: Galaxy's Edge, as atrações dos parques da Disney impressionaram milhões. E essa é a história de como fizeram isso.",
+  "genero": "Documentário",
+  "elenco": "Paget Brewster",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:38:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:35:13"
+        }
+      ]
+    }
+  ],
+  "id": 1867
+}

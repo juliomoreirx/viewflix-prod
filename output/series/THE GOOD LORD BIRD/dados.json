@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NzM=",
+  "tipo": "serie",
+  "titulo": "THE GOOD LORD BIRD",
+  "capa_url": "https://lgfp.one/RWL",
+  "capa_local": "THE GOOD LORD BIRD/THE GOOD LORD BIRD.jpg",
+  "sinopse": "O adolescente escravizado Henry Shackleford, também conhecido como Little Onion, torna-se membro da família heterogênea do abolicionista John Brown durante a era do Kansas Sangrento, antes da Guerra Civil.",
+  "genero": "Faroeste / Drama",
+  "elenco": "Ethan Hawke, Joshua Caleb Johnson, Hubert Point-Du Jour, Beau Knapp, Nick Eversman, Ellar Coltrane, Jack Alcott, Mo Brings Plenty",
+  "diretor": "Ethan Hawke, Mark Richard",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:24"
+        }
+      ]
+    }
+  ],
+  "id": 1426
+}

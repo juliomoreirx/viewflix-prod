@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwMTY=",
+  "tipo": "serie",
+  "titulo": "TSUMASHO [L]",
+  "capa_url": "https://lgfp.one/KXX5",
+  "capa_local": "TSUMASHO [L]/TSUMASHO [L].jpg",
+  "sinopse": "Keisuke Niijima viveu na tristeza desde que sua esposa, Takae, faleceu há 10 anos. Mas quando uma jovem garota o visita, dizendo ser a reencarnação de Takae, Keisuke e sua filha, Mai, são levados para um reencontro milagroso. Enquanto a garota revela detalhes íntimos que eles saberiam, a família Niijima lentamente começa a se recuperar, redescobrindo o amor a o afeto da forma mais inesperada.",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "Daisuke Hirakawa, Aoi Yuki, Maiko Nomura, 小島幸子, Mutsuki Iwanaka",
+  "diretor": "阿部記之",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 6631
+}

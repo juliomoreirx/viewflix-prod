@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODc=",
+  "tipo": "serie",
+  "titulo": "THE BOYS FROM BRAZIL: RISE OF THE BOLSONAROS [L]",
+  "capa_url": "https://lgfp.one/TSP",
+  "capa_local": "THE BOYS FROM BRAZIL RISE OF THE BOLSONAROS [L]/THE BOYS FROM BRAZIL RISE OF THE BOLSONAROS [L].jpg",
+  "sinopse": "A notável ascensão de um dos líderes mais polêmicos do mundo, Jair Bolsonaro, da obscuridade à presidência do Brasil.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:00"
+        }
+      ]
+    }
+  ],
+  "id": 2895
+}

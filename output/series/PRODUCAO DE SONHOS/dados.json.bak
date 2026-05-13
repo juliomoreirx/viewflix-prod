@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2OTE=",
+  "tipo": "serie",
+  "titulo": "PRODUCAO DE SONHOS",
+  "capa_url": "https://lgfp.one/KCY6",
+  "capa_local": "PRODUCAO DE SONHOS/PRODUCAO DE SONHOS.jpg",
+  "sinopse": "Riley está crescendo e, quando suas memórias precisam de mais processamento, Alegria e as outras Emoções Base as enviam para a Produção de Sonhos. A aclamada diretora Paula Persimmon encara seu próprio pesadelo: tentar criar o próximo sonho de sucesso trabalhando ao lado de Xeni, um presunçoso diretor de devaneios que quer estar entre os grandes nomes dos sonhos noturnos.",
+  "genero": "Animação, Comédia, Família",
+  "elenco": "Paula Pell, Richard Ayoade, Amy Poehler, Maya Rudolph, Ally Maki",
+  "diretor": "Pete Docter",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:50"
+        }
+      ]
+    }
+  ],
+  "id": 6370
+}

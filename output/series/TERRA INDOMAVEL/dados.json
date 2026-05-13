@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMzQ=",
+  "tipo": "serie",
+  "titulo": "TERRA INDOMAVEL",
+  "capa_url": "https://lgfp.one/KPL1",
+  "capa_local": "TERRA INDOMAVEL/TERRA INDOMAVEL.jpg",
+  "sinopse": "Fugindo do passado, mãe e filho formam uma nova família em meio à crueldade e à luta pela liberdade no oeste dos Estados Unidos.",
+  "genero": "Faroeste, Drama, Action & Adventure",
+  "elenco": "Taylor Kitsch, Betty Gilpin, Dane DeHaan, Saura Lightfoot Leon, Derek Hinkey",
+  "diretor": "Peter Berg, Alexander H. Gayner, Alexander H. Gayner",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:03:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:38"
+        }
+      ]
+    }
+  ],
+  "id": 6521
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0MDk=",
+  "tipo": "serie",
+  "titulo": "ONDE SEUS OLHOS SE PROLONGAM [L]",
+  "capa_url": "https://lgfp.one/ARKQ",
+  "capa_local": "ONDE SEUS OLHOS SE PROLONGAM [L]/ONDE SEUS OLHOS SE PROLONGAM [L].jpg",
+  "sinopse": "Han Tae Joo é um aluno do ensino médio de 18 anos e é o único herdeiro do Grupo TB – um conglomerado de empresas familiar. Seus rigorosos pais o mantêm sob vigilância 24 horas por dia, e ele se sente entediado e oprimido pela relutância deles de deixar que ele aproveite ao menos um pouco de liberdade. Seu amigo mais próximo também é seu guarda-costas não oficial – um outro aluno de 18 anos chamado Gang Cook. Gang Cook é um cara durão, com um físico poderoso e comportamento sem noção. Mas conforme os dois garotos crescem, eles começam a se perguntar se a amizade deles não tem uma outra dimensão.",
+  "genero": "Drama",
+  "elenco": "Han Gi-chan, Jang Eui-soo, Choi Yeon-cheong, Chun Jae-young, Cheon Seung-ho",
+  "diretor": "Hwang Da-seul",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:11:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:10:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:16:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:10:11"
+        }
+      ]
+    }
+  ],
+  "id": 4277
+}

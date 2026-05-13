@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0OTE=",
+  "tipo": "serie",
+  "titulo": "WANDANCE [L]",
+  "capa_url": "https://lgfp.one/QHP8",
+  "capa_local": "WANDANCE [L]/WANDANCE [L].jpg",
+  "sinopse": "Kabo é um jovem do ensino médio com gagueira e dificuldade de expressar seus sentimentos. Ele se interessa por Wanda, uma colega que dança sem se preocupar com a opinião alheia. Em busca de se expressar livremente, Kabo se aventura no desconhecido mundo da dança.",
+  "genero": "Animação, Drama",
+  "elenco": "Koki Uchiyama, Hina Youmiya, Ayaka Suwa, Toshiki Masuda, Yuma Uchida",
+  "diretor": "加藤道哉, 加藤道哉, 加藤道哉",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:11"
+        }
+      ]
+    }
+  ],
+  "id": 8234
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMzM=",
+  "tipo": "serie",
+  "titulo": "SEM SANGUE [L]",
+  "capa_url": "https://lgfp.one/AUR6",
+  "capa_local": "SEM SANGUE [L]/SEM SANGUE [L].jpg",
+  "sinopse": "Jayu é a CEO da BF e, embora receba ameaças de morte, segue expandindo o negócio. Com as ameaças, a BF contrata Chaewoon, um ex-policial comissionado, para protegê-la. Estranhamente, ele resolve facilmente os problemas que Jayu enfrenta, e, logo, segredos e suspeitas começam a se espalhar pela BF.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Ju Ji-hoon, Han Hyo-joo, Lee Hee-jun, Lee Moo-saeng, Jun Suk-ho",
+  "diretor": "Park Chul-hwan",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:23"
+        }
+      ]
+    }
+  ],
+  "id": 5301
+}

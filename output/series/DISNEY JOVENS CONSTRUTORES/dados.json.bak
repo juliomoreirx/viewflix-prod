@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0NTA=",
+  "tipo": "serie",
+  "titulo": "DISNEY JOVENS CONSTRUTORES",
+  "capa_url": "https://lgfp.one/IQC",
+  "capa_local": "DISNEY JOVENS CONSTRUTORES/DISNEY JOVENS CONSTRUTORES.jpg",
+  "sinopse": "Uma nova série de competição com equipes de jovens construtores, encarregados de projetar, construir e testando criações únicas. Em cada episódio, um painel de especialistas avaliará e testará seu trabalho com base no design criatividade e criar funcionalidade. No episódio final, uma equipe será chamada \"Campeões Jovens Construtores\".",
+  "genero": "Reality",
+  "elenco": "Justin Long",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:07"
+        }
+      ]
+    }
+  ],
+  "id": 87
+}

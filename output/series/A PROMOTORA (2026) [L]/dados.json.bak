@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyODg=",
+  "tipo": "serie",
+  "titulo": "A PROMOTORA (2026) [L]",
+  "capa_url": "https://lgfp.one/SKK4",
+  "capa_local": "A PROMOTORA (2026) [L]/A PROMOTORA (2026) [L].jpg",
+  "sinopse": "Acompanha a primeira diretora do Departamento de Feminicídio da Cidade do México, uma nova divisão dedicada a acabar com a violência contra as mulheres.",
+  "genero": "Documentário, Crime",
+  "elenco": "Sayuri Herrera Román",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:19"
+        }
+      ]
+    }
+  ],
+  "id": 9192
+}

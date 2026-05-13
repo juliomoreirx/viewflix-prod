@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNjY=",
+  "tipo": "serie",
+  "titulo": "O JARDIM DOS ESQUECIDOS: A ORIGEM",
+  "capa_url": "https://lgfp.one/AAZY",
+  "capa_local": "O JARDIM DOS ESQUECIDOS A ORIGEM/O JARDIM DOS ESQUECIDOS A ORIGEM.jpg",
+  "sinopse": "Após um romance turbulento, Olivia se encontra responsável pela imponente Foxworth Hall, onde logo descobre que a vida de conto de fadas que esperava se transformou rapidamente em um pesadelo.",
+  "genero": "Drama",
+  "elenco": "Jemima Rooper, Max Irons, Kelsey Grammer, Harry Hamlin, Kate Mulgrew",
+  "diretor": "Robin Sheppard",
+  "total_episodios": "411",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:27:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:27:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:27:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:27:51"
+        }
+      ]
+    }
+  ],
+  "id": 4032
+}

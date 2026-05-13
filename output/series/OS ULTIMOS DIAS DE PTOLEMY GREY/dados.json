@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMzM=",
+  "tipo": "serie",
+  "titulo": "OS ÚLTIMOS DIAS DE PTOLEMY GREY",
+  "capa_url": "https://lgfp.one/SZQ",
+  "capa_local": "OS ULTIMOS DIAS DE PTOLEMY GREY/OS ULTIMOS DIAS DE PTOLEMY GREY.jpg",
+  "sinopse": "Ao subitamente perder seu cuidador de confiança, Ptolemy Grey é deixado aos cuidados da adolescente órfã Robyn. Quando eles descobrem  um tratamento que restaurará as memórias aturdidas pela demência de Ptolemy, uma jornada se inicia rumo a verdades chocantes.",
+  "genero": "Drama",
+  "elenco": "Samuel L. Jackson, Dominique Fishback, Cynthia Kaye McWilliams, Damon Gupton, Marsha Stephanie Blake, Walton Goggins, Omar Benson Miller",
+  "diretor": "Walter Mosley",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:25"
+        }
+      ]
+    }
+  ],
+  "id": 2379
+}

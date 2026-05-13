@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5ODk=",
+  "tipo": "serie",
+  "titulo": "CONTOS (2026)",
+  "capa_url": "https://lgfp.one/SHV6",
+  "capa_local": "CONTOS (2026)/CONTOS (2026).jpg",
+  "sinopse": "Uma série documental que explora o impacto cultural, histórico e econômico dos ingredientes básicos, examinando como eles moldaram civilizações, tradições e sistemas globais ao longo do tempo.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:39"
+        }
+      ]
+    }
+  ],
+  "id": 9156
+}

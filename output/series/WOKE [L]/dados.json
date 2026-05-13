@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2Njk=",
+  "tipo": "serie",
+  "titulo": "WOKE [L]",
+  "capa_url": "https://lgfp.one/RGH",
+  "capa_local": "WOKE [L]/WOKE [L].jpg",
+  "sinopse": "Keef, um cartunista afro-americano, está finalmente à beira do sucesso quando um incidente inesperado muda tudo. Ele deve agora navegar pelas novas vozes e ideias que o confrontam e o desafiam, tudo sem colocar em chamas tudo o que já construiu.",
+  "genero": "Comédia",
+  "elenco": "Lamorne Morris, T. Murph, Blake Anderson, Sasheer Zamata, J.B. Smoove",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:25"
+        }
+      ]
+    }
+  ],
+  "id": 982
+}

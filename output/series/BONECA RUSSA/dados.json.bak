@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNTE=",
+  "tipo": "serie",
+  "titulo": "BONECA RUSSA",
+  "capa_url": "https://lgfp.one/IUR",
+  "capa_local": "BONECA RUSSA/BONECA RUSSA.jpg",
+  "sinopse": "Em seu aniversário de 36 anos, Nadia morre. Mas retorna para morrer de novo. E de novo. Presa nesse ciclo surreal, só lhe resta encarar a própria mortalidade.",
+  "genero": "Comédia, Drama",
+  "elenco": "Natasha Lyonne, Charlie Barnett, Greta Lee, Chloë Sevigny, Elizabeth Ashley",
+  "diretor": "Natasha Lyonne, Leslye Headland, Alexander Buono, Jamie Babbit",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:16"
+        }
+      ]
+    }
+  ],
+  "id": 214
+}

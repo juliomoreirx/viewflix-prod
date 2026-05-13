@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1Njk=",
+  "tipo": "serie",
+  "titulo": "FILHOTES SELVAGENS",
+  "capa_url": "https://lgfp.one/TTC",
+  "capa_local": "FILHOTES SELVAGENS/FILHOTES SELVAGENS.jpg",
+  "sinopse": "Acompanhe as aventuras de filhotes de leões, elefantes, pinguins e pangolins que enfrentam os altos e baixos da vida na natureza.",
+  "genero": "Documentário",
+  "elenco": "Daniel Wilson, Peter Sasaki, Diana Wilson",
+  "diretor": "Theo Love",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:29:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:06"
+        }
+      ]
+    }
+  ],
+  "id": 2909
+}

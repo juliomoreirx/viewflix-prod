@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNzg=",
+  "tipo": "serie",
+  "titulo": "FUNK DOC POPULAR E PROIBIDO",
+  "capa_url": "https://lgfp.one/QSD2",
+  "capa_local": "FUNK DOC POPULAR E PROIBIDO/FUNK DOC POPULAR E PROIBIDO.jpg",
+  "sinopse": "A série conta a trajetória do Funk e aborda questões essenciais do gênero, desde as suas múltiplas raízes até seu impacto mundial,  tornando-se um fenômeno nas paradas de sucesso.",
+  "genero": "Documentário",
+  "elenco": "Mr. Catra, MC Carol, Valesca Popozuda, KondZilla, Ludmilla, MC Guimê, Buchecha",
+  "diretor": "Luiz Bolognesi, KondZilla",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:33"
+        }
+      ]
+    }
+  ],
+  "id": 8405
+}

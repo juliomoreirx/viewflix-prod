@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MTM=",
+  "tipo": "serie",
+  "titulo": "DO ALTO DO SEU CONHECIMENTO",
+  "capa_url": "https://lgfp.one/NRE9",
+  "capa_local": "DO ALTO DO SEU CONHECIMENTO/DO ALTO DO SEU CONHECIMENTO.jpg",
+  "sinopse": "Do Alto do Seu Conhecimento é um game show que desafia tudo o que achamos que sabemos. Em cada episódio, Penelopy Jean recebe três convidados, que competem em um quiz. O vencedor escolhe uma ONG para receber uma doação de R$ 10.000.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:46"
+        }
+      ]
+    }
+  ],
+  "id": 7223
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxODA=",
+  "tipo": "serie",
+  "titulo": "THE TRUNK",
+  "capa_url": "https://lgfp.one/KAH6",
+  "capa_local": "THE TRUNK/THE TRUNK.jpg",
+  "sinopse": "Um objeto misterioso aparece no litoral, revelando uma empresa secreta de casamentos e a estranha relação de um casal.",
+  "genero": "Drama, Mistério",
+  "elenco": "서현진, 공유, 정윤하, Kim Dong-won, 엄지원",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:08:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:12:52"
+        }
+      ]
+    }
+  ],
+  "id": 6318
+}

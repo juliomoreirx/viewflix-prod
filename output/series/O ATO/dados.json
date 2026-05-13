@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTE=",
+  "tipo": "serie",
+  "titulo": "O ATO",
+  "capa_url": "https://lgfp.one/JCF",
+  "capa_local": "O ATO/O ATO.jpg",
+  "sinopse": "O relacionamento entre Dee Dee Blanchard e sua filha Gypsy, que acreditou ter uma grave doença durante toda a vida por causa da mãe extremamente controladora e insegura. Em busca de independência para viver um amor proibido, Gypsy decide então orquestrar um assassinato.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Patricia Arquette, Joey King, AnnaSophia Robb, Chloë Sevigny, Calum Worthy",
+  "diretor": "",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:39"
+        }
+      ]
+    }
+  ],
+  "id": 433
+}

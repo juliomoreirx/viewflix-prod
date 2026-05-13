@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2OTI=",
+  "tipo": "serie",
+  "titulo": "QUEER AS FOLK",
+  "capa_url": "https://lgfp.one/TNX",
+  "capa_local": "QUEER AS FOLK/QUEER AS FOLK.jpg",
+  "sinopse": "Acompanha um grupo diverso de amigos em Nova Orleans e mostra suas vidas, amores e relacionamentos após uma tragédia abalar a comunidade.",
+  "genero": "Drama",
+  "elenco": "Devin Way, Steffan Argus, Jesse James Keitel, Candace Grace, Johnny Sibilly, Ryan O'Connell",
+  "diretor": "Stephen Dunn",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:15"
+        }
+      ]
+    }
+  ],
+  "id": 2766
+}

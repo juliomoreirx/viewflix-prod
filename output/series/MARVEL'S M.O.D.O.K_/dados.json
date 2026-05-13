@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0Mzc=",
+  "tipo": "serie",
+  "titulo": "MARVEL'S M.O.D.O.K.",
+  "capa_url": "https://lgfp.one/SLQ",
+  "capa_local": "MARVEL'S M.O.D.O.K./MARVEL'S M.O.D.O.K..jpg",
+  "sinopse": "Dominar o universo nunca pareceu algo tão distante para o supervilão megalomaníaco M.O.D.O.K., que luta para continuar tendo o controle da sua organização maligna e lidar com a sua família exigente.",
+  "genero": "Comédia / Animação",
+  "elenco": "Patton Oswalt, Melissa Fumero, Aimee Garcia, Ben Schwartz, Wendi McLendon-Covey, Beck Bennett, Jon Daly, Sam Richardson",
+  "diretor": "Patton Oswalt, Jordan Blum",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:47"
+        }
+      ]
+    }
+  ],
+  "id": 227795
+}

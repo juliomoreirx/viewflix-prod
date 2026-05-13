@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5ODg=",
+  "tipo": "serie",
+  "titulo": "FLINT TOWN",
+  "capa_url": "https://lgfp.one/RDV",
+  "capa_local": "FLINT TOWN/FLINT TOWN.jpg",
+  "sinopse": "Cineastas acompanham policiais de Flint, Michigan, por dois anos e revelam um departamento que tem que lidar com questões delicadas em condições insustentáveis. O departamento de polícia luta com a diminuição dos recursos e as infra-estruturas em ruínas em uma comunidade paralisada pela violência e uma crise da água contaminada, em uma das cidades mais pobres e violentas dos Estados Unidos.",
+  "genero": "Documentário, Crime, Action & Adventure",
+  "elenco": "Timothy Johnson, Bridgette Balasko, Devon Bernritter, John Boismier, Esther Campbell",
+  "diretor": "Zackary Canepari, Jessica Dimmock, Drea Cooper",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:43"
+        }
+      ]
+    }
+  ],
+  "id": 912
+}

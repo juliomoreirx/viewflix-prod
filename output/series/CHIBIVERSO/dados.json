@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4NDM=",
+  "tipo": "serie",
+  "titulo": "CHIBIVERSO",
+  "capa_url": "https://lgfp.one/AAIK",
+  "capa_local": "CHIBIVERSO/CHIBIVERSO.jpg",
+  "sinopse": "Junte-se aos seus personagens favoritos da Disney enquanto eles organizam uma vitrine para celebrar suas aventuras selvagens de Chibi Tiny Tales, incluindo Phineas e Ferb, Cricket Green, Anne Boonchuy, Molly McGee, Penny Proud e muito mais.",
+  "genero": "Comédia, Animação",
+  "elenco": "Ashly Burch, Chris Houghton, Marieve Herington, Dana Snyder",
+  "diretor": "Éric Gonzalez, Dawn Connors",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:35"
+        }
+      ]
+    }
+  ],
+  "id": 3567
+}

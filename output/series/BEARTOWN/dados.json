@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczOTI=",
+  "tipo": "serie",
+  "titulo": "BEARTOWN",
+  "capa_url": "https://lgfp.one/SKV",
+  "capa_local": "BEARTOWN/BEARTOWN.jpg",
+  "sinopse": "O hóquei é o último farol da esperança em Beartown, e ser responsável por isso é um fardo pesado. O dia da semifinal também é o catalisador de um ato violento que deixará uma jovem traumatizada e a cidade em tumulto.",
+  "genero": "Drama",
+  "elenco": "Miriam Ingrid, Oliver Dufåker, Otto Fahlgren, Ulf Stenberg, Aliette Opheim, Tobias Zilliacus, Tyler Shamy",
+  "diretor": "Peter Grönlund",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:28"
+        }
+      ]
+    }
+  ],
+  "id": 1976
+}

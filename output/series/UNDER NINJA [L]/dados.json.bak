@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzNDg=",
+  "tipo": "serie",
+  "titulo": "UNDER NINJA [L]",
+  "capa_url": "https://lgfp.one/ARSZ",
+  "capa_local": "UNDER NINJA [L]/UNDER NINJA [L].jpg",
+  "sinopse": "Ninjas ainda existem no Japão de hoje em dia. E são cerca de 200 mil. A organização ninja INN (Inteligência Nacional de NINJA) não é controlada pelo governo civil, visto que seus membros de elite cometem assassinatos e sabotagens em segredo. Existe uma organização que se opõe à INN: UN (Under Ninja). Ninja vs. ninja: como será que esta rivalidade sombria será resolvida?",
+  "genero": "Animação, Drama, Comédia",
+  "elenco": "Taito Ban, Atsumi Tanezaki, Tarusuke Shingaki, Tasuku Hatanaka, Kouichi Souma",
+  "diretor": "Satoshi Kuwabara",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:55"
+        }
+      ]
+    }
+  ],
+  "id": 4325
+}

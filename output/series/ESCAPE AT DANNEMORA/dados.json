@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5Njc=",
+  "tipo": "serie",
+  "titulo": "ESCAPE AT DANNEMORA",
+  "capa_url": "https://lgfp.one/RUL",
+  "capa_local": "ESCAPE AT DANNEMORA/ESCAPE AT DANNEMORA.jpg",
+  "sinopse": "Relata a fuga de uma prisão em Nova Yokr no verão de 2015, que gerou uma perseguição por dois assassinos condenados que tiveram a fuga facilitada por uma funcionária casada com quem ambos se envolveram sexualmente.",
+  "genero": "Drama",
+  "elenco": "Benicio del Toro, Paul Dano, Patricia Arquette, David Morse, Eric Lange",
+  "diretor": "",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:39:01"
+        }
+      ]
+    }
+  ],
+  "id": 1372
+}

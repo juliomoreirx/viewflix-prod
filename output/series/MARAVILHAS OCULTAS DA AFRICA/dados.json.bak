@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwODc=",
+  "tipo": "serie",
+  "titulo": "MARAVILHAS OCULTAS DA AFRICA",
+  "capa_url": "https://lgfp.one/OUV6",
+  "capa_local": "MARAVILHAS OCULTAS DA AFRICA/MARAVILHAS OCULTAS DA AFRICA.jpg",
+  "sinopse": "Conheça as maravilhas ocultas da África, um continente cheio de contrastes.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:11"
+        }
+      ]
+    }
+  ],
+  "id": 7484
+}

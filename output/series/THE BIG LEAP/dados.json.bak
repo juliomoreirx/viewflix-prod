@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNTA=",
+  "tipo": "serie",
+  "titulo": "THE BIG LEAP",
+  "capa_url": "https://lgfp.one/TCK",
+  "capa_local": "THE BIG LEAP/THE BIG LEAP.jpg",
+  "sinopse": "Um drama sobre segundas chances, perseguir os próprios sonhos e recuperar o que é seu. Um grupo de personagens diversos e sem sorte, os quais tentam mudar suas vidas participando de um reality show de dança que poderá arruinar suas vidas.",
+  "genero": "Drama",
+  "elenco": "Simone Recasner, Teri Polo, Piper Perabo, Scott Foley, Jon Rudnitsky, Kevin Daniels, Ser'Darius Blain, Raymond Alexander Cham Jr.",
+  "diretor": "Liz Heldens",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:58"
+        }
+      ]
+    }
+  ],
+  "id": 2453
+}

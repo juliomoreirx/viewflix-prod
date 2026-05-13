@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwNzk=",
+  "tipo": "serie",
+  "titulo": "CHICO ANYSIO UM HOMEM A PROCURA DE UM PERSONAGEM",
+  "capa_url": "https://lgfp.one/QCA7",
+  "capa_local": "CHICO ANYSIO UM HOMEM A PROCURA DE UM PERSONAGEM/CHICO ANYSIO UM HOMEM A PROCURA DE UM PERSONAGEM.jpg",
+  "sinopse": "A série revisita a trajetória de um dos maiores humoristas do Brasil: Francisco Anysio de Oliveira Paula Filho.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:43"
+        }
+      ]
+    }
+  ],
+  "id": 8040
+}

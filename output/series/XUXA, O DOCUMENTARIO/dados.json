@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNjA=",
+  "tipo": "serie",
+  "titulo": "XUXA, O DOCUMENTÁRIO",
+  "capa_url": "https://lgfp.one/AANJ",
+  "capa_local": "XUXA, O DOCUMENTARIO/XUXA, O DOCUMENTARIO.jpg",
+  "sinopse": "A trajetória de Maria da Graça Xuxa Meneghel e como ela conquistou o Brasil e se consagrou a Rainha dos Baixinhos.",
+  "genero": "Documentário",
+  "elenco": "Xuxa, Marlene Mattos, Pedro Bial, Letícia Spiller, Hebe Camargo",
+  "diretor": "Pedro Bial, Cassia Dian, Monica Almeida",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:46"
+        }
+      ]
+    }
+  ],
+  "id": 3704
+}

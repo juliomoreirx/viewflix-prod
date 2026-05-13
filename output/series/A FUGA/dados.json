@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTM=",
+  "tipo": "serie",
+  "titulo": "A FUGA",
+  "capa_url": "https://lgfp.one/VXT",
+  "capa_local": "A FUGA/A FUGA.jpg",
+  "sinopse": "Um fotógrafo de guerra, Mehmet, Ilker, seu amigo repórter, e um grupo da Alemanha, juntamente com a ativista Zeynep, atravessam a fronteira ilegalmente para visitar um vilarejo Yazidi. O vilarejo é atacado por uma organização terrorista radical e eles são capturados, Eles vão ter que lutar para sobreviver e fugir.",
+  "genero": "Action & Adventure / Drama",
+  "elenco": "Engin Akyürek, İrem Helvacıoğlu, Aras Aydın, Leyla Tanlar, Levent Ülgen, Aziz Çapkurt, Onur Bay, Serkan Genç",
+  "diretor": "",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:49:12"
+        }
+      ]
+    }
+  ],
+  "id": 349078
+}

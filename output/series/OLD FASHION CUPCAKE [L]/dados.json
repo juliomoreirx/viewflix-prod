@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNTU=",
+  "tipo": "serie",
+  "titulo": "OLD FASHION CUPCAKE [L]",
+  "capa_url": "https://lgfp.one/DJR7",
+  "capa_local": "OLD FASHION CUPCAKE [L]/OLD FASHION CUPCAKE [L].jpg",
+  "sinopse": "Dormir, acordar e trabalhar – resume o dia-a-dia de Nozue, de 39 anos. Uma rotina que o acalma e, inversamente, pesa sobre ele – o que preocupa o Togawa, de 29 anos, seu subordinado de 29 anos. Em uma reviravolta inesperada, os dois acabam visitando uma loja de panquecas cheia de garotas.",
+  "genero": "Drama",
+  "elenco": "Kouhei Takeda, Tatsunari Kimura, Atomu Mizuishi, Momoka Ayukawa, Rei Yoshii",
+  "diretor": "Ayaka Kato",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:36"
+        }
+      ]
+    }
+  ],
+  "id": 5877
+}

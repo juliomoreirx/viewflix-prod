@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NTI=",
+  "tipo": "serie",
+  "titulo": "CORAÇÃO DE VIDRO",
+  "capa_url": "https://lgfp.one/PON3",
+  "capa_local": "CORACAO DE VIDRO/CORACAO DE VIDRO.jpg",
+  "sinopse": "Uma baterista amadora é expulsa da própria banda. Mas tudo muda de figura quando um músico brilhante a convida para formar um grupo novo.",
+  "genero": "Drama",
+  "elenco": "佐藤健, 宮﨑優, 町田啓太, 志尊淳, 菅田将暉",
+  "diretor": "柿本ケンサク, 柿本ケンサク, 後藤孝太郎",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:33:14"
+        }
+      ]
+    }
+  ],
+  "id": 7718
+}

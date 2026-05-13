@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MzY=",
+  "tipo": "serie",
+  "titulo": "A PRIMEIRA-DAMA",
+  "capa_url": "https://lgfp.one/TEQ",
+  "capa_local": "A PRIMEIRA-DAMA/A PRIMEIRA-DAMA.jpg",
+  "sinopse": "Na Ala Leste da Casa Branca, muitas das decisões mais importantes e que mudaram o mundo foram tomadas às escuras pelas carismáticas, complexas e dinâmicas primeiras-damas dos Estados Unidos.",
+  "genero": "Drama",
+  "elenco": "Viola Davis, Michelle Pfeiffer, Aaron Eckhart, Gillian Anderson, O.T. Fagbenle, Saniyya Sidney, Lexi Underwood, Eliza Scanlen",
+  "diretor": "Aaron Cooley",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:21"
+        }
+      ]
+    }
+  ],
+  "id": 126809
+}

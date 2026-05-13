@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0OTE=",
+  "tipo": "serie",
+  "titulo": "NA DIREÇÃO DO AMOR",
+  "capa_url": "https://lgfp.one/RPJ",
+  "capa_local": "NA DIRECAO DO AMOR/NA DIRECAO DO AMOR.jpg",
+  "sinopse": "Um famoso atleta dá uma guinada na vida e decide correr atrás de seus sonhos depois de conhecer uma tradutora.",
+  "genero": "Drama",
+  "elenco": "Yim Si-wan, Shin Se-kyung, Choi Soo-young, Kang Tae-oh, Lee Bong-ryeon",
+  "diretor": "Lee Jae-hoon",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:11:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:11:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:10:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:11:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:11:52"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:11:02"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:10:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:09:40"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:10:16"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:11:42"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:05:44"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:10:36"
+        }
+      ]
+    }
+  ],
+  "id": 1227
+}

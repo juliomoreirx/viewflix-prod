@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MzE=",
+  "tipo": "serie",
+  "titulo": "NAOMI",
+  "capa_url": "https://lgfp.one/TGP",
+  "capa_local": "NAOMI/NAOMI.jpg",
+  "sinopse": "Em Naomi, conhecemos Naomi McDuffie (Kaci Walfall), uma adolescente divertida, confiante e apaixonada por histórias em quadrinhos. Naomi irá embarcar em uma jornada de autoconhecimento depois que um evento sobrenatural abala a pequena cidade onde vive, Port Oswego. Após o ocorrido, sua vida vira de cabeça para baixo.",
+  "genero": "Drama / Sci-Fi & Fantasy",
+  "elenco": "Kaci Walfall, Cranston Johnson, Alexander Wraith, Mary-Charles Jones, Mouzam Makkar, Daniel Puig, Camila Moreno, Will Meyers",
+  "diretor": "Ava DuVernay, Jill Blankenship",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:50"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:41:10"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:42:18"
+        }
+      ]
+    }
+  ],
+  "id": 315096
+}

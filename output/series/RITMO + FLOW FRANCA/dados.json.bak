@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NDE=",
+  "tipo": "serie",
+  "titulo": "RITMO + FLOW: FRANÇA",
+  "capa_url": "https://lgfp.one/TJY",
+  "capa_local": "RITMO + FLOW FRANCA/RITMO + FLOW FRANCA.jpg",
+  "sinopse": "Rappers franceses improvisam, rimam e se enfrentam para levar o prêmio de 100 mil euros em uma competição musical liderada por um trio de jurados famosos.",
+  "genero": "Reality",
+  "elenco": "SCH, Elias Argentiere, SDM",
+  "diretor": "Stéphane Bohée",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:22"
+        }
+      ]
+    }
+  ],
+  "id": 2657
+}

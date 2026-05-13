@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODg=",
+  "tipo": "serie",
+  "titulo": "TALES OF THE WALKING DEAD [L]",
+  "capa_url": "https://lgfp.one/TQD",
+  "capa_local": "TALES OF THE WALKING DEAD [L]/TALES OF THE WALKING DEAD [L].jpg",
+  "sinopse": "Série Antológica composta de episódios independentes focados em personagens novos e já apresentados do universo The walking dead",
+  "genero": "Drama / Action & Adventure / Sci-Fi & Fantasy",
+  "elenco": "",
+  "diretor": "Scott M. Gimple, Channing Powell",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:54"
+        }
+      ]
+    }
+  ],
+  "id": 5116
+}

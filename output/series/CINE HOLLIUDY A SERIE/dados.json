@@ -1,0 +1,195 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNjk=",
+  "tipo": "serie",
+  "titulo": "CINE HOLLIÚDY: A SÉRIE",
+  "capa_url": "https://lgfp.one/AALI",
+  "capa_local": "CINE HOLLIUDY A SERIE/CINE HOLLIUDY A SERIE.jpg",
+  "sinopse": "A série se passa na década de 1970. Na história, o prefeito bate de frente com o idealista Francisgleydisson, dono do Cine Holliúdy, única atração cultural de Pitombas, fictícia cidade do Ceará.",
+  "genero": "Comédia, Action & Adventure",
+  "elenco": "Edmilson Filho, Matheus Nachtergaele, Heloísa Périssé, Falcão, Gustavo Falcão",
+  "diretor": "Halder Gomes, Ricardo Spencer, Patricia Pedrosa",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:29:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:25"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:33:04"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:41:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:27:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:31:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:29:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:27:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:30:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:31:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:28:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:34:35"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:34:20"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:33:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:32:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:32:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:25:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:30:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:30:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:32:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:31:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:29:50"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:27:37"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:29:29"
+        }
+      ]
+    }
+  ],
+  "id": 3639
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NjY=",
+  "tipo": "serie",
+  "titulo": "MOTORVALLEY",
+  "capa_url": "https://lgfp.one/RQI3",
+  "capa_local": "MOTORVALLEY/MOTORVALLEY.jpg",
+  "sinopse": "Desesperada para assumir o império da família, uma jovem herdeira contrata uma pilota arrojada e um antigo astro do automobilismo para competir no Gran Turismo.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Luca Argentero, Giulia Michelini, Caterina Forza",
+  "diretor": "Matteo Rovere",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:29"
+        }
+      ]
+    }
+  ],
+  "id": 8815
+}

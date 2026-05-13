@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxNTc=",
+  "tipo": "serie",
+  "titulo": "LOVE SEA [L]",
+  "capa_url": "https://lgfp.one/KMS2",
+  "capa_local": "LOVE SEA [L]/LOVE SEA [L].jpg",
+  "sinopse": "Tongrak é um escritor de romances populares. Enquanto viaja em busca de inspiração para seu romance mais recente, ele conhece um irritante homem do sul da Tailândia, Mahasamut. Quando eles acabam na cama juntos, no entanto, Tongrak se vê fisgado.",
+  "genero": "Drama",
+  "elenco": "Wasuthorn Chaijindar, Thitipong Sengngai, Chanya Amarit Duval, Aya Orapan Phongmaykin",
+  "diretor": "Niti Iam-amonniphit, Neti Suwanjinda, MAME",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:21:24"
+        }
+      ]
+    }
+  ],
+  "id": 6453
+}

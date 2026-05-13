@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzNTQ=",
+  "tipo": "serie",
+  "titulo": "CODENAME ANNIKA [L]",
+  "capa_url": "https://lgfp.one/AUIQ",
+  "capa_local": "CODENAME ANNIKA [L]/CODENAME ANNIKA [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime",
+  "elenco": "Sannah Nedergård, Ardalan Esmaili, Eva Melander, Helena Bergström, Pekka Strang",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:13"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:06"
+        }
+      ]
+    }
+  ],
+  "id": 4521
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzODI=",
+  "tipo": "serie",
+  "titulo": "ENTRE CASAMENTOS",
+  "capa_url": "https://lgfp.one/TQN",
+  "capa_local": "ENTRE CASAMENTOS/ENTRE CASAMENTOS.jpg",
+  "sinopse": "O romântico incurável Stefan conhece a carismática Katie e, apesar de seu noivado com o filho de um rico magnata, um caso relâmpago começa durante um verão de casamentos. Em pouco tempo, eles estão fugindo da lei, com Katie como principal suspeita de um crime chocante. Eles poderão afastar a polícia, criminosos organizados e seus sentimentos complicados um pelo outro enquanto tentam limpar seus nomes?",
+  "genero": "Action & Adventure / Comédia",
+  "elenco": "Rosa Salazar, Gavin Drea, Jamie Michie, Jade Harrison, Omar Baroud, Callie Cooke, Bhav Joshi, Ioanna Kimbook",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:21"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:32"
+        }
+      ]
+    }
+  ],
+  "id": 2837
+}

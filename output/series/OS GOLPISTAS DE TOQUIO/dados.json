@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyODI=",
+  "tipo": "serie",
+  "titulo": "OS GOLPISTAS DE TOQUIO",
+  "capa_url": "https://lgfp.one/DCE4",
+  "capa_local": "OS GOLPISTAS DE TOQUIO/OS GOLPISTAS DE TOQUIO.jpg",
+  "sinopse": "Um grupo de golpistas descobre um imóvel no valor de 10 bilhões de ienes e faz de tudo para colocar em prática uma falcatrua ambiciosa.",
+  "genero": "Crime, Drama",
+  "elenco": "綾野剛, 豊川悦司, 北村一輝, 小池栄子, ピエール瀧",
+  "diretor": "Takashi Kitano, Naoko Isaka",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:06:38"
+        }
+      ]
+    }
+  ],
+  "id": 5747
+}

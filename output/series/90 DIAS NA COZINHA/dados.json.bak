@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMDU=",
+  "tipo": "serie",
+  "titulo": "90 DIAS NA COZINHA",
+  "capa_url": "https://lgfp.one/SOP",
+  "capa_local": "90 DIAS NA COZINHA/90 DIAS NA COZINHA.jpg",
+  "sinopse": "Os casais preferidos de “90 Dias para Casar” se unem na cozinha para dividir truques culinários, responder perguntas picantes dos fãs e servir conselhos de relacionamento. Segredos são revelados quando a temperatura aumenta.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:41"
+        }
+      ]
+    }
+  ],
+  "id": 2076
+}

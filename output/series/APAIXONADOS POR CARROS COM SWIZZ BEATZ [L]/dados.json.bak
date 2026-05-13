@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MTI=",
+  "tipo": "serie",
+  "titulo": "APAIXONADOS POR CARROS COM SWIZZ BEATZ [L]",
+  "capa_url": "https://lgfp.one/AUDG",
+  "capa_local": "APAIXONADOS POR CARROS COM SWIZZ BEATZ [L]/APAIXONADOS POR CARROS COM SWIZZ BEATZ [L].jpg",
+  "sinopse": "",
+  "genero": "Reality, Documentário",
+  "elenco": "Swizz Beatz",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:31:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:20"
+        }
+      ]
+    }
+  ],
+  "id": 4503
+}

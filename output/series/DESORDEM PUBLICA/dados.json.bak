@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMjg=",
+  "tipo": "serie",
+  "titulo": "DESORDEM PÚBLICA",
+  "capa_url": "https://lgfp.one/KTV3",
+  "capa_local": "DESORDEM PUBLICA/DESORDEM PUBLICA.jpg",
+  "sinopse": "Quando um protesto tem um desfecho violento, a tensão aumenta em uma unidade de elite que luta para separar o trabalho da vida pessoal.",
+  "genero": "Action & Adventure, Crime, Drama",
+  "elenco": "Marco Giallini, Adriano Giannini, Valentina Bellè, Pierluigi Gigante, Fabrizio Nardi",
+  "diretor": "Stefano Sollima",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:48"
+        }
+      ]
+    }
+  ],
+  "id": 6547
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NTA=",
+  "tipo": "serie",
+  "titulo": "SEITA PERIGOSA [L]",
+  "capa_url": "https://lgfp.one/PFZ7",
+  "capa_local": "SEITA PERIGOSA [L]/SEITA PERIGOSA [L].jpg",
+  "sinopse": "Com depoimentos apresentados por ex-devotos, esta serie documental acompanha a vida do polemico deus autoproclamado, Swami Nithyananda, lider de uma polemica seita acusada de diversos crimes, incluindo abuso sexual.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:19"
+        }
+      ]
+    }
+  ],
+  "id": 7593
+}

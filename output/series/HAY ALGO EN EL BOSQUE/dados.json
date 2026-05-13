@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyMTg=",
+  "tipo": "serie",
+  "titulo": "HAY ALGO EN EL BOSQUE",
+  "capa_url": "https://lgfp.one/AZYN",
+  "capa_local": "HAY ALGO EN EL BOSQUE/HAY ALGO EN EL BOSQUE.jpg",
+  "sinopse": "Um grupo de estranhos descobre os perigos que se escondem num retiro isolado e enfrentam os seus pesadelos mais selvagens enquanto lutam para sobreviver e resolver o mistério por trás de uma joia roubada e de um perigoso livro de feitiços.",
+  "genero": "Comédia, Sci-Fi & Fantasy",
+  "elenco": "Andrea Nuñez, Gaston Haag, Denís Gómez, Zorion Eguileor, Alfonso Agra",
+  "diretor": "Gaston Haag, Nicolás Amelio-Ortiz, Nicolás Amelio-Ortiz",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:49"
+        }
+      ]
+    }
+  ],
+  "id": 4970
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2OTM=",
+  "tipo": "serie",
+  "titulo": "O REFUGIO",
+  "capa_url": "https://lgfp.one/TMM",
+  "capa_local": "O REFUGIO/O REFUGIO.jpg",
+  "sinopse": "Uma família vive circunstâncias estranhas enquanto lida com uma aparente invasão alienígena. Com suas telas como única fonte de informação, ex-marido e mulher precisam proteger seus filhos de um inimigo invisível que eles nem sabem que existe.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Alberto Guerra, Ana Claudia Talancón, Zuria Vega, Alfredo Castro, Paloma Woolrich, Camila Valero, Diego Escalona Zaragoza, Isabella Arroyo",
+  "diretor": "Pablo Fendrick",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:15"
+        }
+      ]
+    }
+  ],
+  "id": 368607
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4MDI=",
+  "tipo": "serie",
+  "titulo": "PESADELOS DA NATUREZA",
+  "capa_url": "https://lgfp.one/QCU9",
+  "capa_local": "PESADELOS DA NATUREZA/PESADELOS DA NATUREZA.jpg",
+  "sinopse": "Com histórias eletrizantes de sobrevivência, esta série documental captura todo o drama, o perigo e a beleza sombria da natureza pela perspectiva das presas.",
+  "genero": "Documentário",
+  "elenco": "Maya Hawke",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:34"
+        }
+      ]
+    }
+  ],
+  "id": 8107
+}

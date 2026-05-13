@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2NDI=",
+  "tipo": "serie",
+  "titulo": "UM NOVO CORPO UMA NOVA VIDA",
+  "capa_url": "https://lgfp.one/AWNN",
+  "capa_local": "UM NOVO CORPO UMA NOVA VIDA/UM NOVO CORPO UMA NOVA VIDA.jpg",
+  "sinopse": "A anaplastologista Allison Vest cria próteses incríveis e de aparência natural para pessoas que perderam membros ou têm deformidades. Atendendo casos extremos e peculiares, Allison funde medicina e talento artístico para ajudar seus pacientes.",
+  "genero": "Reality, Documentário",
+  "elenco": "Allison Vest",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:45"
+        }
+      ]
+    }
+  ],
+  "id": 4683
+}

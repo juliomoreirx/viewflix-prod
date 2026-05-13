@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4Mzk=",
+  "tipo": "serie",
+  "titulo": "WORK LATER DRINK NOW [L]",
+  "capa_url": "https://lgfp.one/SAK7",
+  "capa_local": "WORK LATER DRINK NOW [L]/WORK LATER DRINK NOW [L].jpg",
+  "sinopse": "Três mulheres solteiras na casa dos 30 se reúnem e conversam sobre a vida cotidiana, do trabalho ao amor. Nada é mais importante para eles do que desfrutar de uma bebida depois do trabalho.",
+  "genero": "Drama, Comédia",
+  "elenco": "이선빈, 한선화, Jung Eun Ji, Choi Si Won, 유인영",
+  "diretor": "Park Soo-won",
+  "total_episodios": "38",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:36"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:36:17"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:46:24"
+        }
+      ]
+    }
+  ],
+  "id": 8996
+}

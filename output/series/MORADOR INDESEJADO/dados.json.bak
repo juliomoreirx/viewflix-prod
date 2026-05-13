@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MjY=",
+  "tipo": "serie",
+  "titulo": "MORADOR INDESEJADO",
+  "capa_url": "https://lgfp.one/SYM",
+  "capa_local": "MORADOR INDESEJADO/MORADOR INDESEJADO.jpg",
+  "sinopse": "Vigaristas violentos, assassinos frios e calculistas: veja nesta série alguns moradores com quem você não vai querer dividir a casa.",
+  "genero": "Crime, Documentário",
+  "elenco": "Harry Bachman, Abigail, Jamison Bachman",
+  "diretor": "Domini Hofmann, Cynthia Childs",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:31"
+        }
+      ]
+    }
+  ],
+  "id": 2349
+}

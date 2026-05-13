@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2NTQ=",
+  "tipo": "serie",
+  "titulo": "ASTERIX E OBELIX O COMBATE DOS CHEFES",
+  "capa_url": "https://lgfp.one/NSC5",
+  "capa_local": "ASTERIX E OBELIX O COMBATE DOS CHEFES/ASTERIX E OBELIX O COMBATE DOS CHEFES.jpg",
+  "sinopse": "O druida esqueceu a receita da poção mágica. Agora, Asterix e Obelix precisam defender os gauleses contra César, que planeja usar as leis deles a favor dos romanos.",
+  "genero": "Animação, Action & Adventure, Comédia",
+  "elenco": "Alain Chabat, Gilles Lellouche, Anaïs Demoustier, Laurent Lafitte, Thierry Lhermitte",
+  "diretor": "Alain Chabat, Fabrice Joubert",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:18"
+        }
+      ]
+    }
+  ],
+  "id": 7234
+}

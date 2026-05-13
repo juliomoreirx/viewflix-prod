@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNDQ=",
+  "tipo": "serie",
+  "titulo": "LOVE: A HISTÓRIA DE LISEY",
+  "capa_url": "https://lgfp.one/SCB",
+  "capa_local": "LOVE A HISTORIA DE LISEY/LOVE A HISTORIA DE LISEY.jpg",
+  "sinopse": "Baseada no livro de Stephen King, esta série aterrorizante conta a história da viúva Lisey Landon e os eventos perturbadores que reacendem suas memórias do seu casamento com o escritor Scott Landon e as trevas que o atormentavam.",
+  "genero": "Mistério, Drama, Sci-Fi & Fantasy",
+  "elenco": "Julianne Moore, Clive Owen, Jennifer Jason Leigh, Dane DeHaan, Joan Allen",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:54"
+        }
+      ]
+    }
+  ],
+  "id": 1742
+}

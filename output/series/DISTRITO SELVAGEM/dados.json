@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMzA=",
+  "tipo": "serie",
+  "titulo": "DISTRITO SELVAGEM",
+  "capa_url": "https://lgfp.one/IXK",
+  "capa_local": "DISTRITO SELVAGEM/DISTRITO SELVAGEM.jpg",
+  "sinopse": "Depois de se entregar à polícia de Bogotá, um ex-guerrilheiro tenta evitar a prisão trabalhando para o governo em uma investigação de corrupção.",
+  "genero": "Drama",
+  "elenco": "Juan Pablo Raba, Cristina Umaña, Paula Castaño, Juan Fernando Sánchez, Camila Sodi",
+  "diretor": "Carlos Moreno, Javier Fuentes-León, Andres Beltran",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:50:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:48:11"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:50:05"
+        }
+      ]
+    }
+  ],
+  "id": 289
+}

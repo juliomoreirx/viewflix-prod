@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzNTI=",
+  "tipo": "serie",
+  "titulo": "MENINAS DO BENFICA",
+  "capa_url": "https://lgfp.one/TLU",
+  "capa_local": "MENINAS DO BENFICA/MENINAS DO BENFICA.jpg",
+  "sinopse": "Junho de 2013. Brasil em ebulição: as manifestações mobilizam milhares de jovens em todo o país. Em Fortaleza, Sandra, Iara, Keyla e Andrea, as quatro amigas recém formadas em Comunicação Social, vão às ruas com o desejo de mudar o país. O que elas vão descobrir é que suas vidas serão mudadas para sempre.",
+  "genero": "Drama",
+  "elenco": "Larissa Goes, Ariza Torquato, Amanda Freire, Lua Martins, Luciana Marques",
+  "diretor": "Roberta Marques, Luciana Vieira",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:17"
+        }
+      ]
+    }
+  ],
+  "id": 2709
+}

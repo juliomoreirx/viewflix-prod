@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NjQ=",
+  "tipo": "serie",
+  "titulo": "CHAPOLIN E OS COLORADOS",
+  "capa_url": "https://lgfp.one/RED9",
+  "capa_local": "CHAPOLIN E OS COLORADOS/CHAPOLIN E OS COLORADOS.jpg",
+  "sinopse": "Chapolin Colorado está de volta e agora tem família. Ao lado da esposa, dos filhos e da avó, precisa salvar Cidade Caótica enquanto encara o caos em casa. Dos homens das cavernas aos seres intergalácticos, ninguém escapa da Marreta Biônica.",
+  "genero": "Animação, Comédia",
+  "elenco": "Jesús Guzmán",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:35"
+        }
+      ]
+    }
+  ],
+  "id": 376359
+}

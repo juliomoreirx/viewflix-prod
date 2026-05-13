@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwODg=",
+  "tipo": "serie",
+  "titulo": "O BOSQUE",
+  "capa_url": "https://lgfp.one/JDG",
+  "capa_local": "O BOSQUE/O BOSQUE.jpg",
+  "sinopse": "Uma garota desaparece na floresta próxima a um vilarejo na França. Durante a busca, a polícia e uma professora descobrem uma teia de segredos inquietantes.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Samuel Labarthe, Suzanne Clément, Alexia Barlier, Frédéric Diefenthal, Patrick Ridremont",
+  "diretor": "Julius Berg",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:10"
+        }
+      ]
+    }
+  ],
+  "id": 468
+}

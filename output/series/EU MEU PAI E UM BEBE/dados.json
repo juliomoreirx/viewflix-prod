@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MDU=",
+  "tipo": "serie",
+  "titulo": "EU MEU PAI E UM BEBE",
+  "capa_url": "https://lgfp.one/RPA8",
+  "capa_local": "EU MEU PAI E UM BEBE/EU MEU PAI E UM BEBE.jpg",
+  "sinopse": "Depois de um caso, a festeira Gemma engravida e precisa ajudar seu pai Malcolm durante a dissolução de seu casamento.",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:12"
+        }
+      ]
+    }
+  ],
+  "id": 8787
+}

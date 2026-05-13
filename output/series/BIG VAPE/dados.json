@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMzU=",
+  "tipo": "serie",
+  "titulo": "BIG VAPE",
+  "capa_url": "https://lgfp.one/AQKO",
+  "capa_local": "BIG VAPE/BIG VAPE.jpg",
+  "sinopse": "Nesta série documental, uma startup de cigarros eletrônicos se torna uma empresa multibilionária até que uma epidemia faz com que seu sucesso se transforme em fumaça.",
+  "genero": "Documentário",
+  "elenco": "David Pierce",
+  "diretor": "R. J. Cutler",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:11"
+        }
+      ]
+    }
+  ],
+  "id": 4184
+}

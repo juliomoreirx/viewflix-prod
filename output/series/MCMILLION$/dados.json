@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MDI=",
+  "tipo": "serie",
+  "titulo": "MCMILLION$",
+  "capa_url": "https://lgfp.one/RSB",
+  "capa_local": "MCMILLION$/MCMILLION$.jpg",
+  "sinopse": "Com produção executiva de Mark Wahlberg, McMillions narra a história surreal de um ex-policial que virou auditor e fraudou a promoção do McDonald's baseada no jogo Monopoly por uma década, roubando milhões de dólares e construindo uma vasta rede de fraudadores nos EUA.",
+  "genero": "Documentário",
+  "elenco": "Michael C. Pizzuto, Pelé Kizy, Cristal Bubblin, Nelson Hayne, Alistair David Herz",
+  "diretor": "",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:13"
+        }
+      ]
+    }
+  ],
+  "id": 1303
+}

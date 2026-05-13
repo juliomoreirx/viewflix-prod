@@ -1,0 +1,180 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNTE=",
+  "tipo": "serie",
+  "titulo": "WU TANG AN AMERICAN SAGA",
+  "capa_url": "https://lgfp.one/KGW5",
+  "capa_local": "WU TANG AN AMERICAN SAGA/WU TANG AN AMERICAN SAGA.jpg",
+  "sinopse": "Situada no início dos anos 90 em Nova York, no auge da epidemia de crack, a série acompanha a formação do clã, em uma visão de Bobby Diggs, também conhecido como RZA, que se esforça para unir uma dúzia de jovens negros divididos entre a música e o crime, mas acaba se tornando a mais improvável das histórias de sucesso americanas.",
+  "genero": "Drama",
+  "elenco": "Ashton Sanders, Siddiq Saunderson, Shameik Moore, Julian Elijah Martinez, Zolee Griggs",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:03"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:57:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:49:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:48:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:48:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:49:57"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:52:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:47:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:44:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:47:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:48:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:04:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "01:09:48"
+        }
+      ]
+    }
+  ],
+  "id": 6386
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU3MTE=",
+  "tipo": "serie",
+  "titulo": "BERLIM 1945",
+  "capa_url": "https://lgfp.one/NKT3",
+  "capa_local": "BERLIM 1945/BERLIM 1945.jpg",
+  "sinopse": "A vida em Berlim em 1945, antes, durante e depois da batalha de Berlim, vista pelos olhos daqueles que estavam lá na época, desde berlinenses comuns até tropas aliadas.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:13"
+        }
+      ]
+    }
+  ],
+  "id": 7081
+}

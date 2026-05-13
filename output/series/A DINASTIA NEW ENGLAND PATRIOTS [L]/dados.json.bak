@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyNjY=",
+  "tipo": "serie",
+  "titulo": "A DINASTIA NEW ENGLAND PATRIOTS [L]",
+  "capa_url": "https://lgfp.one/ALD2",
+  "capa_local": "A DINASTIA NEW ENGLAND PATRIOTS [L]/A DINASTIA NEW ENGLAND PATRIOTS [L].jpg",
+  "sinopse": "Conheça a jornada de 20 anos da franquia, desde uma química única que conquistou seis Super Bowls até o conflito interno que desencadeou uma guerra territorialista. Tom Brady, Bill Belichick, Robert Kraft e importantes jogadores revelam o caminho — e os custos — da grandiosidade.",
+  "genero": "Documentário",
+  "elenco": "Tom Brady, Bill Belichick, Robert Kraft",
+  "diretor": "Ron Howard",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:36:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:39:33"
+        }
+      ]
+    }
+  ],
+  "id": 5086
+}

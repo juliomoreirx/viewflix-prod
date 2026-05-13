@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1NDE=",
+  "tipo": "serie",
+  "titulo": "ALEMÃO: OS DOIS LADOS DO COMPLEXO",
+  "capa_url": "https://lgfp.one/IOC",
+  "capa_local": "ALEMAO OS DOIS LADOS DO COMPLEXO/ALEMAO OS DOIS LADOS DO COMPLEXO.jpg",
+  "sinopse": "O delegado Valadares tinha uma operação secreta no complexo do alemão, com cinco policiais infiltrados nas fileiras do tráfico organizado. Mas as identidades de seus homens foram descobertas por Playboy, o chefe do tráfico. Agora eles precisam escapar do morro com vida enquanto o clima fica cada vez mais pesado com a expectativa da invasão das forças pacificadoras do estado.",
+  "genero": "Crime, Drama",
+  "elenco": "Antônio Fagundes, Cauã Reymond, Caio Blat, Aisha Jambo, Alcemar Vieira",
+  "diretor": "José Eduardo Belmonte, Gabriel Martins",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:45"
+        }
+      ]
+    }
+  ],
+  "id": 33
+}

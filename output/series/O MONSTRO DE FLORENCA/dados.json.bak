@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NzU=",
+  "tipo": "serie",
+  "titulo": "O MONSTRO DE FLORENÇA",
+  "capa_url": "https://lgfp.one/QLT4",
+  "capa_local": "O MONSTRO DE FLORENCA/O MONSTRO DE FLORENCA.jpg",
+  "sinopse": "Por anos, um serial killer aterrorizou casais na Itália. Agora, as autoridades exploram um caso de 1968 que pode ser a chave para encontrar o Monstro de Florença.",
+  "genero": "Crime, Mistério, Drama",
+  "elenco": "Marco Bullitta, Valentino Mannias, Francesca Olia, Liliana Bottone, Giacomo Fadda",
+  "diretor": "Stefano Sollima",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:07:51"
+        }
+      ]
+    }
+  ],
+  "id": 8245
+}

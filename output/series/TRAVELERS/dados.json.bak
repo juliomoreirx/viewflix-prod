@@ -1,0 +1,190 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNTE=",
+  "tipo": "serie",
+  "titulo": "TRAVELERS",
+  "capa_url": "https://lgfp.one/JIH",
+  "capa_local": "TRAVELERS/TRAVELERS.jpg",
+  "sinopse": "Um agente federal está na cola de quatro pessoas que assumem novas personalidades repentinamente, levando a uma descoberta impressionante sobre o futuro da humanidade.",
+  "genero": "Drama, Sci-Fi & Fantasy",
+  "elenco": "Eric McCormack, MacKenzie Porter, Nesta Cooper, Jared Abrahamson, Reilly Dolman",
+  "diretor": "Andy Mikita",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:43"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:45:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:45:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:45:31"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:44:45"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:45:01"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:48:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:44:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:42:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:50:09"
+        }
+      ]
+    }
+  ],
+  "id": 612
+}

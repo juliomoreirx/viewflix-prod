@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MTY=",
+  "tipo": "serie",
+  "titulo": "COMO ACABAR COM O AMOR",
+  "capa_url": "https://lgfp.one/RDF0",
+  "capa_local": "COMO ACABAR COM O AMOR/COMO ACABAR COM O AMOR.jpg",
+  "sinopse": "Desconfiada de que está sendo traída, Zoleka planeja pegar o namorado no flagra e acaba estragando uma grande surpresa. Agora, a missão dela é reconquistá-lo.",
+  "genero": "Comédia",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:32"
+        }
+      ]
+    }
+  ],
+  "id": 8477
+}

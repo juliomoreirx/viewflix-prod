@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMzg=",
+  "tipo": "serie",
+  "titulo": "FIGHT NIGHT THE MILLION DOLLAR HEIST",
+  "capa_url": "https://lgfp.one/LGK2",
+  "capa_local": "FIGHT NIGHT THE MILLION DOLLAR HEIST/FIGHT NIGHT THE MILLION DOLLAR HEIST.jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime",
+  "elenco": "Kevin Hart, Samuel L. Jackson, Terrence Howard, Dexter Darden, Taraji P. Henson",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:42"
+        }
+      ]
+    }
+  ],
+  "id": 6737
+}

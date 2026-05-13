@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5ODU=",
+  "tipo": "serie",
+  "titulo": "MEDUSA",
+  "capa_url": "https://lgfp.one/NEF7",
+  "capa_local": "MEDUSA/MEDUSA.jpg",
+  "sinopse": "Alguém está tentando matar a CEO Bárbara Hidalgo. Será que ela consegue encontrar o responsável enquanto a família tenta assumir o controle de seu império na Colômbia?",
+  "genero": "Drama",
+  "elenco": "Juana Acosta, Manolo Cardona, Sebastián Martínez, Mariana Mozo, Carlos Torres",
+  "diretor": "Liliana Bocanegra, Juan Felipe Cano, Maria Gamboa",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:31:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:38:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:35:21"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:46:32"
+        }
+      ]
+    }
+  ],
+  "id": 132908
+}

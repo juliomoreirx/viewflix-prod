@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMDI=",
+  "tipo": "serie",
+  "titulo": "MÃES DA MÁFIA",
+  "capa_url": "https://lgfp.one/ZGM",
+  "capa_local": "MAES DA MAFIA/MAES DA MAFIA.jpg",
+  "sinopse": "A história real da vida de três mulheres corajosas que cresceram na máfia de 'Ndrangheta e decidiram cooperar com a promotora Anna Colace, que acaba de chegar à Calábria. É a história de três mulheres que lutam por suas vidas e pelo futuro de seus filhos, na tentativa de enfraquecer o império do crime.",
+  "genero": "Drama / Crime",
+  "elenco": "Gaia Girace, Micaela Ramazzotti, Valentina Bellè, Barbara Chichiarelli, Simona Distefano, Francesco Colella, Marco Zingaro",
+  "diretor": "Julian Jarrold, Elisa Amoruso",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:25"
+        }
+      ]
+    }
+  ],
+  "id": 3410
+}

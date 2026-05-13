@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5MDY=",
+  "tipo": "serie",
+  "titulo": "ATRAÇÃO FATAL",
+  "capa_url": "https://lgfp.one/ZQV",
+  "capa_local": "ATRACAO FATAL/ATRACAO FATAL.jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Lizzy Caplan, Joshua Jackson, Amanda Peet, Alyssa Jirrels, Toby Huss, Reno Wilson, Brian Goodman",
+  "diretor": "Alexandra Cunningham",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:44"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:57"
+        }
+      ]
+    }
+  ],
+  "id": 104438
+}

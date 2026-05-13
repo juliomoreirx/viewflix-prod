@@ -1,0 +1,260 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NjE=",
+  "tipo": "serie",
+  "titulo": "INSECURE",
+  "capa_url": "https://lgfp.one/IRN",
+  "capa_local": "INSECURE/INSECURE.jpg",
+  "sinopse": "Acompanhe as aventuras de duas amigas afro-americanas, Issa Dee e Molly, que vivem diversas experiências, muitas delas desconfortáveis.",
+  "genero": "Comédia, Drama",
+  "elenco": "Issa Rae, Yvonne Orji, Jay Ellis, Natasha Rothwell",
+  "diretor": "Melina Matsoukas, Prentice Penny",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:28:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:45"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:31:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:30:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:29:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:31:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:28:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:28:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:28:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:39:49"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:34:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:29:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:29:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:30:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:33:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:30:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:29:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:33:18"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:34:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:26:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:29:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:28:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:30:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:26:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:31:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S04E09",
+          "duracao": "00:29:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S04E10",
+          "duracao": "00:29:13"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:32:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:28:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:28:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S05E07",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S05E08",
+          "duracao": "00:28:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S05E09",
+          "duracao": "00:28:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S05E10",
+          "duracao": "00:41:02"
+        }
+      ]
+    }
+  ],
+  "id": 126
+}

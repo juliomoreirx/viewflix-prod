@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MzM=",
+  "tipo": "serie",
+  "titulo": "TRICKSTER: O AGENTE DO CAOS",
+  "capa_url": "https://lgfp.one/RWS",
+  "capa_local": "TRICKSTER O AGENTE DO CAOS/TRICKSTER O AGENTE DO CAOS.jpg",
+  "sinopse": "O jovem Jared não mede esforços para sustentar sua família disfuncional. Tudo se complica quando ele nota eventos sobrenaturais ligados à mitologia indígena e a sua própria origem.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Joel Oulette, Nathan Alexis, Crystle Lightning, Kalani Queypo, Anna Lambe",
+  "diretor": "Michelle Latimer",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:49"
+        }
+      ]
+    }
+  ],
+  "id": 1433
+}

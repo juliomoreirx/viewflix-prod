@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNDg=",
+  "tipo": "serie",
+  "titulo": "LITTLE VOICE",
+  "capa_url": "https://lgfp.one/JLZ",
+  "capa_local": "LITTLE VOICE/LITTLE VOICE.jpg",
+  "sinopse": "Bess King é uma artista talentosa que luta pelos seus sonhos enquanto lida com rejeições, dramas românticos e familiares. Com música original de Sara Bareilles, esta é uma história sobre encontrar a sua própria voz e ter coragem de usá-la.",
+  "genero": "Drama, Comédia",
+  "elenco": "Brittany O'Grady, Kevin Valdez, Shalini Bathina, Sean Teale, Colton Ryan",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:28:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:30:20"
+        }
+      ]
+    }
+  ],
+  "id": 725
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5NTE=",
+  "tipo": "serie",
+  "titulo": "LOS ESPOOKYS",
+  "capa_url": "https://lgfp.one/IOV",
+  "capa_local": "LOS ESPOOKYS/LOS ESPOOKYS.jpg",
+  "sinopse": "Um grupo de amigos transforma seu amor pelo horror em um negócio peculiar em um país latino-americano, no qual o estranho e o misterioso são apenas parte da vida cotidiana.",
+  "genero": "Comédia",
+  "elenco": "Bernardo Velasco, Ana Fabrega, Cassandra Ciangherotti, Julio Torres",
+  "diretor": "",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:29"
+        }
+      ]
+    }
+  ],
+  "id": 53
+}

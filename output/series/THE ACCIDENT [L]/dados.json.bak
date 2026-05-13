@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMzY=",
+  "tipo": "serie",
+  "titulo": "THE ACCIDENT [L]",
+  "capa_url": "https://lgfp.one/DJS8",
+  "capa_local": "THE ACCIDENT [L]/THE ACCIDENT [L].jpg",
+  "sinopse": "Uma pequena cidade galesa é devastada por um acidente que matou oito crianças e um homem, após o colapso de uma grande construção que traria riqueza e empregos para a região.",
+  "genero": "Drama",
+  "elenco": "Sarah Lancashire, Sidse Babett Knudsen, Mark Lewis Jones, Joanna Scanlan, Genevieve Barr",
+  "diretor": "Sandra Goldbacher",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:09"
+        }
+      ]
+    }
+  ],
+  "id": 5888
+}

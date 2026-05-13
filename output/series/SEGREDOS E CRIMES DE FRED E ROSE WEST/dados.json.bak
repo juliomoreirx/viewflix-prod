@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MjA=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS E CRIMES DE FRED E ROSE WEST",
+  "capa_url": "https://lgfp.one/NVJ3",
+  "capa_local": "SEGREDOS E CRIMES DE FRED E ROSE WEST/SEGREDOS E CRIMES DE FRED E ROSE WEST.jpg",
+  "sinopse": "Registros policiais recém-descobertos e relatos pessoais contam a história de Fred e Rose West, dois dos assassinos mais prolíficos do Reino Unido.",
+  "genero": "Documentário, Crime",
+  "elenco": "Fred West, Rose West",
+  "diretor": "Daniel Dewsbury",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:17"
+        }
+      ]
+    }
+  ],
+  "id": 7297
+}

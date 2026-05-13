@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1Mjg=",
+  "tipo": "serie",
+  "titulo": "WAYNE SHORTER: ZERO GRAVITY [L]",
+  "capa_url": "https://lgfp.one/AAXI",
+  "capa_local": "WAYNE SHORTER ZERO GRAVITY [L]/WAYNE SHORTER ZERO GRAVITY [L].jpg",
+  "sinopse": "Uma ode à lenda do jazz Wayne Shorter, com produção executiva de Brad Pitt e direção de Dorsay Alavi. Ao atravessar 3 portais, o espectador é transportado para períodos da vida de Shorter e acompanha como o artista, através da adversidade, alcançou a grandeza, desconstruiu as limitações do jazz e tornou-se um dos mais influentes músicos e compositores dos EUA.",
+  "genero": "Documentário",
+  "elenco": "Wayne Shorter",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:18:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:30"
+        }
+      ]
+    }
+  ],
+  "id": 3950
+}

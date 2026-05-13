@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NTA=",
+  "tipo": "serie",
+  "titulo": "O MONSTRO EM MIM",
+  "capa_url": "https://lgfp.one/QQA4",
+  "capa_local": "O MONSTRO EM MIM/O MONSTRO EM MIM.jpg",
+  "sinopse": "Uma escritora famosa se envolve em um estranho jogo mental com seu novo vizinho, um homem rico e poderoso que pode ser um assassino.",
+  "genero": "Drama, Mistério",
+  "elenco": "Claire Danes, Matthew Rhys, Brittany Snow, Natalie Morales",
+  "diretor": "Antonio Campos, Tomas Deckaj",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:02"
+        }
+      ]
+    }
+  ],
+  "id": 8379
+}

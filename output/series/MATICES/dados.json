@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NTU=",
+  "tipo": "serie",
+  "titulo": "MATICES",
+  "capa_url": "https://lgfp.one/PSO8",
+  "capa_local": "MATICES/MATICES.jpg",
+  "sinopse": "",
+  "genero": "Crime, Mistério",
+  "elenco": "Elsa Pataky, Eusebio Poncela, Hovik Keuchkerian, Luis Tosar, Maxi Iglesias",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:41"
+        }
+      ]
+    }
+  ],
+  "id": 7835
+}

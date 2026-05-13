@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5OTg=",
+  "tipo": "serie",
+  "titulo": "PRISMA",
+  "capa_url": "https://lgfp.one/TSI",
+  "capa_local": "PRISMA/PRISMA.jpg",
+  "sinopse": "A série explora as relações e identidades de Marco e André, dois gêmeos que parecem idênticos, mas que abordam a vida de formas muito diferentes. Os gêmeos iniciam uma jornada de descoberta e transição do que deveriam ser para o que querem ser, que envolverá também seu grupo de amigos, todos unidos pela busca de seu lugar no mundo.",
+  "genero": "Drama",
+  "elenco": "Mattia Carrano, Lorenzo Zurzolo, Caterina Forza, Chiara Bordi, Matteo Scattaretico, LXX Blood",
+  "diretor": "",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:44"
+        }
+      ]
+    }
+  ],
+  "id": 2888
+}

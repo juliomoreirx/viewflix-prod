@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NjA=",
+  "tipo": "serie",
+  "titulo": "CARMA",
+  "capa_url": "https://lgfp.one/NNJ4",
+  "capa_local": "CARMA/CARMA.jpg",
+  "sinopse": "Um acidente fatídico conecta a vida de seis pessoas em uma história eletrizante sobre crime e carma, obrigando cada uma delas a enfrentar as próprias sombras.",
+  "genero": "Crime, Drama",
+  "elenco": "박해수, 신민아, 이희준, Kim Sung Kyun, Lee Kwang Soo",
+  "diretor": "Yoon Jong-bin, 이재창",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:25"
+        }
+      ]
+    }
+  ],
+  "id": 7125
+}

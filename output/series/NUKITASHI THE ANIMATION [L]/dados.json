@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2NjY=",
+  "tipo": "serie",
+  "titulo": "NUKITASHI THE ANIMATION [L]",
+  "capa_url": "https://lgfp.one/PPZ7",
+  "capa_local": "NUKITASHI THE ANIMATION [L]/NUKITASHI THE ANIMATION [L].jpg",
+  "sinopse": "Na Ilha Seiran, a sociedade secreta NLNS é unida por Junnosuke Tachibana, determinado a acabar com a lei. Eles encontraram um benfeitor, um homem rico e desconhecido, que lhes oferece uma base secreta e dinheiro. A missão deles é localizar uma garota misteriosa e deter a lei, mantendo a SHO longe de seu rastro.",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "柳晃平, Shizuka Ishigami, 小澤みのり, 岡本理絵, 小秋あこ",
+  "diretor": "長山延好, 倉骨治人, 神近ゆう",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 7743
+}

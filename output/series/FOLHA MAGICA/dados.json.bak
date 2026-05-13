@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NDM=",
+  "tipo": "serie",
+  "titulo": "FOLHA MAGICA",
+  "capa_url": "https://lgfp.one/SBA6",
+  "capa_local": "FOLHA MAGICA/FOLHA MAGICA.jpg",
+  "sinopse": "As aventuras da Pequena Raposa Azul Frig",
+  "genero": "Kids, Animação",
+  "elenco": "Christopher Downs, Brooke Wolloff, Zac McDowell, Jodi Downs, Addie Zintel",
+  "diretor": "Drew Hodges",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:11"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:25:52"
+        }
+      ]
+    }
+  ],
+  "id": 376580
+}

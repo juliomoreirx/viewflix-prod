@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNDE=",
+  "tipo": "serie",
+  "titulo": "STAR WARS SKELETON CREW",
+  "capa_url": "https://lgfp.one/KBE0",
+  "capa_local": "STAR WARS SKELETON CREW/STAR WARS SKELETON CREW.jpg",
+  "sinopse": "Quatro crianças comuns buscam seu planeta natal após se perderem na galáxia de Star Wars.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Jude Law, Ravi Cabot-Conyers, Ryan Kiera Armstrong, Kyriana Kratter, Robert Timothy Smith",
+  "diretor": "Jon Watts, George Lucas, George Cottle",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:06"
+        }
+      ]
+    }
+  ],
+  "id": 6333
+}

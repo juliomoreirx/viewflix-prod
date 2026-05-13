@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4OTg=",
+  "tipo": "serie",
+  "titulo": "FARMAGIA [L]",
+  "capa_url": "https://lgfp.one/KXR0",
+  "capa_local": "FARMAGIA [L]/FARMAGIA [L].jpg",
+  "sinopse": "Em Felicidad, agricultores conhecidos como Farmagia criam monstros no pacífico governo de Magus Diluculum. Porém, após a morte de Magus, uma luta pelo poder começa, com forças usando monstros para conquistar o controle. Na cidade de Centvelt, Farmagia Ten e seus amigos se unem contra a nova governante tirânica, Glaza. Agora, Ten, seus amigos e seus monstros criados com tanto cuidado precisam resistir para defender sua liberdade!",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "佐藤拓也, Ayane Sakura, Inori Minase, Hiro Shimono, 石狩勇気",
+  "diretor": "Toshihiko Sano, 石平信司",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:00"
+        }
+      ]
+    }
+  ],
+  "id": 6566
+}

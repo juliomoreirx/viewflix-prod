@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1ODU=",
+  "tipo": "serie",
+  "titulo": "QUEM MATOU NOSSA FILHA [L]",
+  "capa_url": "https://lgfp.one/QCM5",
+  "capa_local": "QUEM MATOU NOSSA FILHA [L]/QUEM MATOU NOSSA FILHA [L].jpg",
+  "sinopse": "Docussérie sobre a luta de Mario e Dolores Escobar para esclarecer o desaparecimento e a morte de sua filha Debanhi em Monterrey, México, em 2022.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:06"
+        }
+      ]
+    }
+  ],
+  "id": 8086
+}

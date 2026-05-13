@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NTk=",
+  "tipo": "serie",
+  "titulo": "PAPEL DE RAINHA",
+  "capa_url": "https://lgfp.one/XEA",
+  "capa_local": "PAPEL DE RAINHA/PAPEL DE RAINHA.jpg",
+  "sinopse": "Dentro do palácio existem príncipes problemáticos que não causam nada além de dores de cabeça para a família real e estão prestes a ser transformados em príncipes herdeiros adequados. Sua mãe, Im Hwa Ryeong, é a esposa de um grande rei. Mas em vez de ter uma aura de elegância e graça, ela é uma rainha espinhosa, sensível e temperamental. Mais uma vez serena, ela mudou desde que as pessoas continuaram apertando seus botões. Ela é uma rainha que às vezes abandona seu orgulho e é até conhecida por ...",
+  "genero": "Drama / Comédia",
+  "elenco": "Kim Hye-soo, Kim Hae-sook, Choi Won-young, Kim Eui-sung, Moon Sang-min, Ok Ja-yeon, Kang Chan-hee, Kim Ga-eun",
+  "diretor": "Kim Hyung-sik",
+  "total_episodios": "67",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:13:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:13:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:04:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:04:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:12:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:36"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:10:18"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:02:57"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:02:05"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:03:54"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "01:06:00"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "01:10:24"
+        }
+      ]
+    }
+  ],
+  "id": 3141
+}

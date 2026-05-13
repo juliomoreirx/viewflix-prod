@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MjM=",
+  "tipo": "serie",
+  "titulo": "DECEIT [L]",
+  "capa_url": "https://lgfp.one/SEI",
+  "capa_local": "DECEIT [L]/DECEIT [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Crime",
+  "elenco": "Niamh Algar, Sion Daniel Young, Harry Treadaway, Eddie Marsan, Rochenda Sandall",
+  "diretor": "Niall MacCormick",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:59"
+        }
+      ]
+    }
+  ],
+  "id": 3016
+}

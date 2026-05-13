@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMzc=",
+  "tipo": "serie",
+  "titulo": "DR. BRAIN",
+  "capa_url": "https://lgfp.one/SNH",
+  "capa_local": "DR. BRAIN/DR. BRAIN.jpg",
+  "sinopse": "Prepare-se para uma jornada alucinante ao lado de um neurocientista genial que navega pelas memórias das outras pessoas em busca da verdade.",
+  "genero": "Sci-Fi & Fantasy / Mistério / Drama",
+  "elenco": "Lee Sun-kyun, Park Hee-soon, Seo Ji-hye, Lee You-young, Lee Jae-won, Yoo Teo, Um Tae-goo",
+  "diretor": "Kim Jee-woon",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:41"
+        }
+      ]
+    }
+  ],
+  "id": 5284
+}

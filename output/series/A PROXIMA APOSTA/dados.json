@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMTA=",
+  "tipo": "serie",
+  "titulo": "A PRÓXIMA APOSTA",
+  "capa_url": "https://lgfp.one/XFZ",
+  "capa_local": "A PROXIMA APOSTA/A PROXIMA APOSTA.jpg",
+  "sinopse": "Cha Moosik administra um cassino-bar e foge para as Filipinas após a Investigação Fiscal Nacional fechar o cerco. Com sua determinação e habilidade de se adaptar, ele lança um cassino com tudo o que tem direito e cria estratégias para conquistar os círculos políticos e empresariais do país. No entanto, ele é incriminado pela morte de Min Seokjun sendo perseguido por Oh Seunghoon da Mesa Coreana. Quando se trata de dinheiro, a traição sai do controle.",
+  "genero": "Drama",
+  "elenco": "Choi Min-sik, Lee Kyoo-hyung, Son Suk-ku, Lee Dong-hwi, Heo Sung-tae, Lee Hye-young, Kim Hong-pa, Kim Joo-ryoung",
+  "diretor": "Kang Yun-sung",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:28"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:03:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:02:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:56:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:18:57"
+        }
+      ]
+    }
+  ],
+  "id": 3160
+}

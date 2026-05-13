@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MDA=",
+  "tipo": "serie",
+  "titulo": "ASSASSINATO TEM DUAS CARAS [L]",
+  "capa_url": "https://lgfp.one/PXE3",
+  "capa_local": "ASSASSINATO TEM DUAS CARAS [L]/ASSASSINATO TEM DUAS CARAS [L].jpg",
+  "sinopse": "À sombra de uma tragédia amplamente divulgada, um crime semelhante é ignorado. Robin Roberts, do GMA, lança uma nova luz sobre as vítimas ignoradas.",
+  "genero": "Documentário, Crime",
+  "elenco": "Robin Roberts",
+  "diretor": "Lisa Cortés, Tara Malone",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:03"
+        }
+      ]
+    }
+  ],
+  "id": 7908
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyMDY=",
+  "tipo": "serie",
+  "titulo": "ENTRE ESTRANHOS",
+  "capa_url": "https://lgfp.one/AAJE",
+  "capa_local": "ENTRE ESTRANHOS/ENTRE ESTRANHOS.jpg",
+  "sinopse": "Na série antológica The Crowded Room, baseada no livro biográfico The Minds of Billy Milligan, escrito por Daniel Keyes, entendemos como Billy Milligan, na série chamado Danny Sullivan (Tom Holland), se tornou a primeira pessoa a ser absolvida de um crime por causa de transtorno de personalidade múltipla (hoje conhecido como transtorno dissociativo de identidade). O mistério por trás do caso e do passado do garoto envolvido em um tiroteio em Nova York é desvendado através de entrevistas e interrogatórios conduzidos por Rya (Amanda Seyfried), uma psicóloga clínica dedicada à causa mas que precisa conciliar a vida profissional com a de mãe solteira.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Tom Holland, Amanda Seyfried, Sasha Lane, Will Chase, Lior Raz",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:43"
+        }
+      ]
+    }
+  ],
+  "id": 3583
+}

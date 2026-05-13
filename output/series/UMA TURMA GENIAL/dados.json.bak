@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNTc=",
+  "tipo": "serie",
+  "titulo": "UMA TURMA GENIAL",
+  "capa_url": "https://lgfp.one/SXT",
+  "capa_local": "UMA TURMA GENIAL/UMA TURMA GENIAL.jpg",
+  "sinopse": "A série apresenta um grupo de alunos superdotados do ensino médio que enfrentam seu maior desafio – uma professora que deseja que eles se concentrem menos nas notas e mais nas experiências de vida.",
+  "genero": "Comédia",
+  "elenco": "Isabella Gomez, Jorge Diaz, Jolie Hoang-Rappaport, Gavin Lewis, Dior Goodjohn, Brandon Severs, Adrian Matthew Escalona, Katie Beth Hall",
+  "diretor": "Michael Elias, Rich Eustis",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:32"
+        }
+      ]
+    }
+  ],
+  "id": 2330
+}

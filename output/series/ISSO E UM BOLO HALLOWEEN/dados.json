@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3OTU=",
+  "tipo": "serie",
+  "titulo": "ISSO É UM BOLO? HALLOWEEN",
+  "capa_url": "https://lgfp.one/QEG5",
+  "capa_local": "ISSO E UM BOLO HALLOWEEN/ISSO E UM BOLO HALLOWEEN.jpg",
+  "sinopse": "É bolo ou não? Gostosura ou travessura? Confeiteiros de talento criam bolos de Halloween hiper-realistas na edição especial deste reality de competição que é um sucesso.",
+  "genero": "Reality",
+  "elenco": "Mikey Day",
+  "diretor": "Rich Kim",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:15"
+        }
+      ]
+    }
+  ],
+  "id": 8141
+}

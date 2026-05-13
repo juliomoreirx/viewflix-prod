@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NDY=",
+  "tipo": "serie",
+  "titulo": "CONFISSÕES DE MULHERES DE 50",
+  "capa_url": "https://lgfp.one/TEA",
+  "capa_local": "CONFISSOES DE MULHERES DE 50/CONFISSOES DE MULHERES DE 50.jpg",
+  "sinopse": "Domingos Oliveira traz quatro amigas cinquentenárias que se reencontram semanalmente em um tradicional restaurante da zona sul carioca depois de se divorciarem de seus maridos.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Clarice Niskier, Cacá Mourthé, Priscilla Rozenbaum, Dedina Bernardelli",
+  "diretor": "Domingos de Oliveira, Renata Paschoal",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:20:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:59"
+        }
+      ]
+    }
+  ],
+  "id": 2496
+}

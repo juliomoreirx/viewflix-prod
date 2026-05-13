@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MjU=",
+  "tipo": "serie",
+  "titulo": "BEM-VINDOS À TERRA",
+  "capa_url": "https://lgfp.one/SQX",
+  "capa_local": "BEM-VINDOS A TERRA/BEM-VINDOS A TERRA.jpg",
+  "sinopse": "Will Smith, cuja curiosidade e admiração são positivamente infecciosas, é guiado por exploradores da National Geographic viajando para diferentes cantos do mundo para se aproximar dos espetáculos mais estranhos, incomuns, perigosos e emocionantes do planeta.",
+  "genero": "Documentário / Reality",
+  "elenco": "Will Smith",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:18"
+        }
+      ]
+    }
+  ],
+  "id": 375582
+}

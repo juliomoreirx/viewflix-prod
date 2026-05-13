@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwMzU=",
+  "tipo": "serie",
+  "titulo": "MURDER IN PROVENCE [L]",
+  "capa_url": "https://lgfp.one/KXT3",
+  "capa_local": "MURDER IN PROVENCE [L]/MURDER IN PROVENCE [L].jpg",
+  "sinopse": "Antoine Verlaque, magistrado examinador em Aix-en-Provence, com sua parceira romântica Marine Bonnet, investiga assassinatos, mistérios e o lado mais escuro de sua casa idílica no sul da França.",
+  "genero": "Crime, Drama",
+  "elenco": "Roger Allam, Keala Settle, Patricia Hodge, Nancy Carroll, Geff Francis",
+  "diretor": "",
+  "total_episodios": "88",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:28:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:28:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:27:56"
+        }
+      ]
+    }
+  ],
+  "id": 6589
+}

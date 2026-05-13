@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4OTc=",
+  "tipo": "serie",
+  "titulo": "SOBREVIVENDO A JEFFREY EPSTEIN",
+  "capa_url": "https://lgfp.one/ANY1",
+  "capa_local": "SOBREVIVENDO A JEFFREY EPSTEIN/SOBREVIVENDO A JEFFREY EPSTEIN.jpg",
+  "sinopse": "Sobreviventes dos abusos cometidos pelo multimilionário Jeffrey Epstein relatam suas histórias.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:04"
+        }
+      ]
+    }
+  ],
+  "id": 5163
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMjM=",
+  "tipo": "serie",
+  "titulo": "LOV3",
+  "capa_url": "https://lgfp.one/SYI",
+  "capa_local": "LOV3/LOV3.jpg",
+  "sinopse": "Quando seus pais anunciam o divórcio, os irmãos Ana, Sofia e Beto percebem que nunca foram uma família, só sobreviventes de um mesmo desastre. Agora, sozinhos, tentam provar que podem construir relações sinceras - apesar de não convencionais. Casamento aberto. Namoro poligâmico. Até um caso com um homem casado e dentro do armário. Formas distintas de uma verdade assustadora: Compromisso.",
+  "genero": "Comédia / Drama",
+  "elenco": "Elen Cunha, Bella Camero, João Vithor Oliveira, Chris Couto, Donizeti Mazonas, Drayson Menezzes, Caio Horowicz, Ingrid Gaigher",
+  "diretor": "Felipe Braga, Rita Moraes",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:07"
+        }
+      ]
+    }
+  ],
+  "id": 2345
+}

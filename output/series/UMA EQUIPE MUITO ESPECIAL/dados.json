@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NzM=",
+  "tipo": "serie",
+  "titulo": "UMA EQUIPE MUITO ESPECIAL",
+  "capa_url": "https://lgfp.one/DGM8",
+  "capa_local": "UMA EQUIPE MUITO ESPECIAL/UMA EQUIPE MUITO ESPECIAL.jpg",
+  "sinopse": "Em 1943, Carson Shaw vai até Chicago para fazer um teste para a Liga de Beisebol Profissional All-American Girls. Lá, conhece uma mulher que também sonha em jogar profissionalmente e pessoas que expandem seu mundo. A moradora de Rockford, Max Chapman também vai aos testes, mas é dispensada. Com o apoio de sua melhor amiga Clance, ela deve forjar um novo caminho para buscar seu sonho.",
+  "genero": "Comédia, Drama",
+  "elenco": "Abbi Jacobson, Chanté Adams, D'Arcy Carden, Gbemisola Ikumelo, Kelly McCormack",
+  "diretor": "Jamie Babbit, Em Weinstein",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:23"
+        }
+      ]
+    }
+  ],
+  "id": 5825
+}

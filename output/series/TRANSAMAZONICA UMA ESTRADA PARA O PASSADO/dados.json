@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMzA=",
+  "tipo": "serie",
+  "titulo": "TRANSAMAZÔNICA: UMA ESTRADA PARA O PASSADO",
+  "capa_url": "https://lgfp.one/TKQ",
+  "capa_local": "TRANSAMAZONICA UMA ESTRADA PARA O PASSADO/TRANSAMAZONICA UMA ESTRADA PARA O PASSADO.jpg",
+  "sinopse": "Em seis episódios, a série documental revisita a rodovia Transamazônica, um marco que foi idealizado e teve as obras iniciadas durante o governo do presidente Emílio Garrastazu Médici, no fim dos anos 1960. Com o objetivo de unificar a nação, sua construção foi uma saga gigantesca e o maior exemplo das obras faraônicas do governo militar brasileiro. A estrada, que promoveria a integração nacional cortando o País de leste a oeste, ficou mais conhecida por ligar a fome do Nordeste com a miséria da Amazônia, e teve sua construção abandonada.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Jorge Bodanzky, Fabiano Maciel",
+  "total_episodios": "61",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:09"
+        }
+      ]
+    }
+  ],
+  "id": 2675
+}

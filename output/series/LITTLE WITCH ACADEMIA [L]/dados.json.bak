@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU4MDY=",
+  "tipo": "serie",
+  "titulo": "LITTLE WITCH ACADEMIA [L]",
+  "capa_url": "https://lgfp.one/TBL4",
+  "capa_local": "LITTLE WITCH ACADEMIA [L]/LITTLE WITCH ACADEMIA [L].jpg",
+  "sinopse": "Akko tem sido fascinada por magia desde o momento em que viu o seu primeiro show de mágica. Agora, ela está na Escola de Magia Luna Nova, uma famosa escola de magia da Europa. Entretanto, ao contrário do que esperava, as lições de magia são sérias, conservativas e nem um pouco excitantes. Akko as tem achado extremamente entediantes e exatamente o contrário do que esperava. Um dia, algo que pode destruir a escola acaba acontecendo, e caberá à Akko salvar o dia!",
+  "genero": "Animação, Sci-Fi & Fantasy, Comédia",
+  "elenco": "Megumi Han, 村瀬迪与, Fumiko Orikasa, Chinatsu Akasaki, Yoko Hikasa",
+  "diretor": "吉成曜, 吉成曜, 大塚雅彦",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:25:09"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "15",
+          "codigo": "S02E15",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "16",
+          "codigo": "S02E16",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "17",
+          "codigo": "S02E17",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "18",
+          "codigo": "S02E18",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "19",
+          "codigo": "S02E19",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "20",
+          "codigo": "S02E20",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "21",
+          "codigo": "S02E21",
+          "duracao": "00:25:07"
+        },
+        {
+          "numero": "22",
+          "codigo": "S02E22",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "23",
+          "codigo": "S02E23",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "24",
+          "codigo": "S02E24",
+          "duracao": "00:25:09"
+        },
+        {
+          "numero": "25",
+          "codigo": "S02E25",
+          "duracao": "00:25:09"
+        }
+      ]
+    }
+  ],
+  "id": 9498
+}

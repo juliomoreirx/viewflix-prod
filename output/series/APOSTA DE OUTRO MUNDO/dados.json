@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NzU=",
+  "tipo": "serie",
+  "titulo": "APOSTA DE OUTRO MUNDO",
+  "capa_url": "https://lgfp.one/NJX5",
+  "capa_local": "APOSTA DE OUTRO MUNDO/APOSTA DE OUTRO MUNDO.jpg",
+  "sinopse": "Um jornalista esportivo em crise é obrigado a se unir ao fantasma de um autoritário magnata dos negócios que quer desvendar o próprio assassinato.",
+  "genero": "Comédia, Sci-Fi & Fantasy",
+  "elenco": "Ata Demirer, Uğur Yücel, Esra Bilgiç, Lale Mansur",
+  "diretor": "Hakan Algül",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:19"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:53"
+        }
+      ]
+    }
+  ],
+  "id": 7067
+}

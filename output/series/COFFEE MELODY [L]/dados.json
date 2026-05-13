@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMjc=",
+  "tipo": "serie",
+  "titulo": "COFFEE MELODY [L]",
+  "capa_url": "https://lgfp.one/BAS6",
+  "capa_local": "COFFEE MELODY [L]/COFFEE MELODY [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "Benz Panupun Vongjorn, Pavel Naret Promphaopun, Tar Tinnaphat Leelaphiphatkul, Palm Veerapat Chalermponprapha, Minty Chuthikan Chawasathienphong",
+  "diretor": "Nut Nutthachai Khrueasena, Nut Nutthachai Khrueasena",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:37:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:37:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:32:51"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:33:51"
+        }
+      ]
+    }
+  ],
+  "id": 5394
+}

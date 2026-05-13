@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNDY=",
+  "tipo": "serie",
+  "titulo": "ITS NOT LIKE THAT [L]",
+  "capa_url": "https://lgfp.one/RQI1",
+  "capa_local": "ITS NOT LIKE THAT [L]/ITS NOT LIKE THAT [L].jpg",
+  "sinopse": "A recém-divorciada Lori e o pastor Malcolm, recentemente viúvo, amigos com filhos adolescentes, navegam pela vida de solteiros enquanto questionam se seu vínculo duradouro sugere um futuro romântico.",
+  "genero": "Família",
+  "elenco": "Tyner Rushing, J.R. Ramirez, Cary Christopher, Michaela Russell, Caleb Baumann",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:24"
+        }
+      ]
+    }
+  ],
+  "id": 8813
+}

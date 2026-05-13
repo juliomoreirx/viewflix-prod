@@ -1,0 +1,210 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4NTA=",
+  "tipo": "serie",
+  "titulo": "A LENDA DE VOX MACHINA",
+  "capa_url": "https://lgfp.one/SXF",
+  "capa_local": "A LENDA DE VOX MACHINA/A LENDA DE VOX MACHINA.jpg",
+  "sinopse": "Desordeiros e maltrapilhos, são desajustados que viraram mercenários. O grupo Vox Machina está mais interessado em dinheiro fácil e cerveja barata do que em proteger o reino. Mas quando o reino é ameaçado pelo mal, esses encrenqueiros percebem que são os únicos capazes de restaurar a justiça. O que começou como um serviço simples agora é a história de origem dos mais novos heróis de Exandria.",
+  "genero": "Animação / Sci-Fi & Fantasy",
+  "elenco": "Matthew Mercer, Ashley Johnson, Laura Bailey, Liam O'Brien, Marisha Ray, Sam Riegel, Taliesin Jaffe, Travis Willingham",
+  "diretor": "Jason Monsorno",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:23"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:27:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:26:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:26:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:27:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:27:13"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:29:39"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:26:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:26:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:26:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:25:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:26:25"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:28:58"
+        }
+      ]
+    }
+  ],
+  "id": 2316
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNzU=",
+  "tipo": "serie",
+  "titulo": "CAMINANTES A TRILHA DO MEDO",
+  "capa_url": "https://lgfp.one/DJP7",
+  "capa_local": "CAMINANTES A TRILHA DO MEDO/CAMINANTES A TRILHA DO MEDO.jpg",
+  "sinopse": "Duas garotas e três rapazes desaparecem enquanto fazem o Caminho de Santiago. Duas semanas depois, a polícia encontra seus celulares enterrados no meio da montanha e, neles, vídeos que os meninos gravaram que permitem reconstruir 40 horas de pesadelo.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Action & Adventure",
+  "elenco": "Lucas Miramón, Alexandra Pino, Songa Park, Daniel Ibáñez, Carlos Suárez",
+  "diretor": "",
+  "total_episodios": "21",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:17:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:19:47"
+        }
+      ]
+    }
+  ],
+  "id": 5857
+}

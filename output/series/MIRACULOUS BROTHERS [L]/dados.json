@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NDA=",
+  "tipo": "serie",
+  "titulo": "MIRACULOUS BROTHERS [L]",
+  "capa_url": "https://lgfp.one/AAPV",
+  "capa_local": "MIRACULOUS BROTHERS [L]/MIRACULOUS BROTHERS [L].jpg",
+  "sinopse": "Uma amizade calorosa se desenvolve quando Yuk Dong-joo, um jovem de sangue quente que só tem dívidas, conhece Kang San, um garoto não identificado com habilidades misteriosas.",
+  "genero": "Mistério, Drama, Sci-Fi & Fantasy",
+  "elenco": "Jung Woo, Bae Hyeon-seong, Park Yu-rim, Oh Man-seok, Lee Ki-woo",
+  "diretor": "Park Chan-hong",
+  "total_episodios": "65",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:09"
+        }
+      ]
+    }
+  ],
+  "id": 3755
+}

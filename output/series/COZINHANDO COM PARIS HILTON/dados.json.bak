@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NTU=",
+  "tipo": "serie",
+  "titulo": "COZINHANDO COM PARIS HILTON",
+  "capa_url": "https://lgfp.one/SCJ",
+  "capa_local": "COZINHANDO COM PARIS HILTON/COZINHANDO COM PARIS HILTON.jpg",
+  "sinopse": "Paris cozinhando de tudo: de batatas fritas do McDonald’s a cannolis, sem nunca descer do salto. Para provar o resultado, ela traz convidados muito especiais, como Kim Kardashian West, Demi Lovato, Saweetie e vários outros.",
+  "genero": "Reality",
+  "elenco": "Paris Hilton, Kim Kardashian, Lele Pons, Nikki Glaser, Demi Lovato, Kathy Hilton,  Nicky Rothschild,  Saweetie, Carlisle Forrester",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:29"
+        }
+      ]
+    }
+  ],
+  "id": 1750
+}

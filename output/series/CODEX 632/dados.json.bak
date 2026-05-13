@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMzY=",
+  "tipo": "serie",
+  "titulo": "CODEX 632",
+  "capa_url": "https://lgfp.one/ARCM",
+  "capa_local": "CODEX 632/CODEX 632.jpg",
+  "sinopse": "Tomás, um professor especialista em criptologia, é contratado por uma fundação para decifrar o enigma deixado por seu falecido mentor.",
+  "genero": "Drama",
+  "elenco": "Paulo Pires, Deborah Secco, Betty Faria, Alexandre Borges, Albi De Abreu",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:12"
+        }
+      ]
+    }
+  ],
+  "id": 4246
+}

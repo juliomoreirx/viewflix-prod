@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4ODA=",
+  "tipo": "serie",
+  "titulo": "LEVIATA",
+  "capa_url": "https://lgfp.one/PGX5",
+  "capa_local": "LEVIATA/LEVIATA.jpg",
+  "sinopse": "Em um passado steampunk alternativo, um príncipe austríaco perseguido e um aviador escocês disfarçado embarcam numa jornada inesperada para evitar uma guerra mundial.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Ayumu Murase, Natsumi Fujiwara, 咲野俊介, Yasuhiro Mamiya, Mie Sonozaki",
+  "diretor": "Christophe Ferreira",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:29:27"
+        }
+      ]
+    }
+  ],
+  "id": 7622
+}

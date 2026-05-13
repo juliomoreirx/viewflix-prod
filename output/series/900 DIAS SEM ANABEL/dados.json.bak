@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NTk=",
+  "tipo": "serie",
+  "titulo": "900 DIAS SEM ANABEL",
+  "capa_url": "https://lgfp.one/RQZ9",
+  "capa_local": "900 DIAS SEM ANABEL/900 DIAS SEM ANABEL.jpg",
+  "sinopse": "O sequestro de Anabel Segura manteve a Espanha em suspense durante 900 dias. Esta série documental explora o caso e apresenta gravações inéditas dos sequestradores.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:51"
+        }
+      ]
+    }
+  ],
+  "id": 8841
+}

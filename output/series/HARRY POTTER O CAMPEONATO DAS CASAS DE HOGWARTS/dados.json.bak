@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NTg=",
+  "tipo": "serie",
+  "titulo": "HARRY POTTER: O CAMPEONATO DAS CASAS DE HOGWARTS",
+  "capa_url": "https://lgfp.one/SRA",
+  "capa_local": "HARRY POTTER O CAMPEONATO DAS CASAS DE HOGWARTS/HARRY POTTER O CAMPEONATO DAS CASAS DE HOGWARTS.jpg",
+  "sinopse": "Este evento especial de quatro partes revelará fãs do mundo bruxo que estão dispostos a colocar seus conhecimentos sobre Harry Potter à prova para receber a grande honra de ser nomeado campeão da Taça das Casas.",
+  "genero": "Reality",
+  "elenco": "Helen Mirren",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:23"
+        }
+      ]
+    }
+  ],
+  "id": 9448
+}

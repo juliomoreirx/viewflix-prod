@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MDY=",
+  "tipo": "serie",
+  "titulo": "YEARS AND YEARS",
+  "capa_url": "https://lgfp.one/JIT",
+  "capa_local": "YEARS AND YEARS/YEARS AND YEARS.jpg",
+  "sinopse": "Enquanto a Grã-Bretanha é abalada por instáveis avanços políticos, econômicos e tecnológicos, membros da família Lyons convergem em uma noite crucial em 2019. Nos próximos 15 anos, as reviravoltas de suas vidas cotidianas são exploradas.",
+  "genero": "Drama, War & Politics, Sci-Fi & Fantasy",
+  "elenco": "Emma Thompson, Russell Tovey, Rory Kinnear, T'Nia Miller, Ruth Madeley",
+  "diretor": "Kate Powis, Fiona Pegram",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:11"
+        }
+      ]
+    }
+  ],
+  "id": 625
+}

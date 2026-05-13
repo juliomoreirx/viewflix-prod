@@ -1,0 +1,210 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzODY=",
+  "tipo": "serie",
+  "titulo": "THE ORVILLE",
+  "capa_url": "https://lgfp.one/TOP",
+  "capa_local": "THE ORVILLE/THE ORVILLE.jpg",
+  "sinopse": "Ed Grayson (Seth MacFarlane), que acaba de enfrentar um divórcio, assume a missão de comandar a nave exploratório Orville, e vê neste trabalho a chance de recomeçar sua vida. O capitão começa a montar uma equipe tão bem preparada quanto excêntrica, e é aí que descobre que uma das tripulantes será sua ex-esposa Kelly Grayson (Adrianne Palicki). Agora, não importa suas desavenças, juntos eles precisam aprender a conviver no espaço.",
+  "genero": "Drama / Comédia / Sci-Fi & Fantasy",
+  "elenco": "Seth MacFarlane, Adrianne Palicki, Penny Johnson, Scott Grimes, Peter Macon, Jessica Szohr, J. Lee, Mark Jackson",
+  "diretor": "Seth MacFarlane",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:43:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:43:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:46:27"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:48:25"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "01:09:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "01:05:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:05:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "01:15:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "01:10:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "01:13:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:26:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "01:18:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "01:21:16"
+        }
+      ]
+    }
+  ],
+  "id": 2786
+}

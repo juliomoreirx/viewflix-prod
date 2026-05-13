@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNTc=",
+  "tipo": "serie",
+  "titulo": "CECILIA",
+  "capa_url": "https://lgfp.one/SWP",
+  "capa_local": "CECILIA/CECILIA.jpg",
+  "sinopse": "Uma mulher cujo mundo parece entrar em colapso quando sofre um derrame cerebral. Mas o que a princípio parece ser uma tragédia revela-se como uma oportunidade para reunir a sua família e reconstruir a sua vida.",
+  "genero": "Drama / Comédia",
+  "elenco": "Mariana Treviño",
+  "diretor": "Daniel Burman",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:59:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:31"
+        }
+      ]
+    }
+  ],
+  "id": 2300
+}

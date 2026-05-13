@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMzE=",
+  "tipo": "serie",
+  "titulo": "ANGELYNE: POR TRÁS DO ÍCONE DE HOLLYWOOD",
+  "capa_url": "https://lgfp.one/TTN",
+  "capa_local": "ANGELYNE POR TRAS DO ICONE DE HOLLYWOOD/ANGELYNE POR TRAS DO ICONE DE HOLLYWOOD.jpg",
+  "sinopse": "﻿﻿Angelyne era a rainha dos outdoors de Los Angeles, na época em que não havia celebridades e influenciadoras digitais. Em busca da fama, ela fez de tudo para alcançar seus objetivos.",
+  "genero": "Drama",
+  "elenco": "Emmy Rossum, Alex Karpovsky, Lukas Gage",
+  "diretor": "Sam Esmail, Lucy Tcherniak, Peter Kohn",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:26"
+        }
+      ]
+    }
+  ],
+  "id": 2920
+}

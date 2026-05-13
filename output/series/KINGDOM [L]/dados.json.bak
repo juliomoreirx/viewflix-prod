@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1MDA=",
+  "tipo": "serie",
+  "titulo": "KINGDOM [L]",
+  "capa_url": "https://lgfp.one/AIQ8",
+  "capa_local": "KINGDOM [L]/KINGDOM [L].jpg",
+  "sinopse": "Baseado no mangá de Yasuhisa Hara, conta a história de Shin e Hyou, dois meninos sem família no Período dos Reinos Imperiais, quando a China foi envolvida em uma guerra que durou mais de cinco séculos (475-221 a.C.). Apesar de viverem como escravos, os garotos se esforçam para realizar seus sonhos de se tornarem senhores da guerra. Mas algo acontece e acabam se separando, e acabe a Shin descobrir o que está acontecendo com o precioso reino de Qin.",
+  "genero": "Action & Adventure, Animação, Drama",
+  "elenco": "Yutaka Nakano, Rie Kugimiya, Masakazu Morita, Jun Fukuyama, Yoko Hikasa",
+  "diretor": "Kenichi Imaizumi",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "8",
+          "codigo": "S05E08",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S05E09",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S05E10",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S05E11",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S05E12",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "13",
+          "codigo": "S05E13",
+          "duracao": "00:24:55"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 6",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S06E01",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S06E02",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S06E03",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S06E04",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S06E05",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S06E06",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S06E07",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S06E08",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S06E09",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "10",
+          "codigo": "S06E10",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "11",
+          "codigo": "S06E11",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "12",
+          "codigo": "S06E12",
+          "duracao": "00:24:55"
+        },
+        {
+          "numero": "13",
+          "codigo": "S06E13",
+          "duracao": "00:24:45"
+        }
+      ]
+    }
+  ],
+  "id": 330722
+}

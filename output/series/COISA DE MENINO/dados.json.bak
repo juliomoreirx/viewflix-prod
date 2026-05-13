@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MzA=",
+  "tipo": "serie",
+  "titulo": "COISA DE MENINO",
+  "capa_url": "https://lgfp.one/AAIL",
+  "capa_local": "COISA DE MENINO/COISA DE MENINO.jpg",
+  "sinopse": "Um olhar sobre questões ligadas à criação e à educação de meninos por meio de contrastes, matizes e contradições, além de colocar em xeque velhos e novos conceitos sobre o comportamento masculino.",
+  "genero": "Documentário",
+  "elenco": "Pedro Goifman, Pedro Giandalia, Marcos Carvalheiro",
+  "diretor": "Tatiana Issa, Paula Buarque",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:55"
+        }
+      ]
+    }
+  ],
+  "id": 3568
+}

@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4MTU=",
+  "tipo": "serie",
+  "titulo": "1923",
+  "capa_url": "https://lgfp.one/YFX",
+  "capa_local": "1923/1923.jpg",
+  "sinopse": "Siga uma nova geração da família Dutton durante o início do século XX, quando pandemias, secas históricas, o fim da Lei Seca e a Grande Depressão assolam o oeste montanhoso e os Duttons que o chamam de lar.",
+  "genero": "Drama / Faroeste",
+  "elenco": "Harrison Ford, Helen Mirren, Darren Mann, Michelle Randolph, Brian Geraghty, Aminah Nieves, Brandon Sklenar, Julia Schlaepfer",
+  "diretor": "Taylor Sheridan",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:27"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:35"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:58:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:54:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:53:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:50:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:52:26"
+        }
+      ]
+    }
+  ],
+  "id": 3244
+}

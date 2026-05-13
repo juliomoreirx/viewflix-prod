@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NjI=",
+  "tipo": "serie",
+  "titulo": "NOTURNOS",
+  "capa_url": "https://lgfp.one/RHZ",
+  "capa_local": "NOTURNOS/NOTURNOS.jpg",
+  "sinopse": "Baseada em contos de terror escritos por Vinicius de Moraes, Noturna segue um grupo de atores que, durante um ensaio, fica preso dentro do teatro por causa de uma tempestade. Já que não podem voltar para casa, eles decidem passar o tempo contando histórias assustadoras e, para isso, se reúnem em torno de uma goteira. Mas, à medida que a noite avança, conflitos mal resolvidos da companhia teatral também se manifestam.",
+  "genero": "Mistério, Drama",
+  "elenco": "Bernardo de Assis, Andréa Marquee, Thaia Perez, Rafael Losso, Vaneza Oliveira",
+  "diretor": "Caetano Gotardo, Marco Dutra",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:05"
+        }
+      ]
+    }
+  ],
+  "id": 1027
+}

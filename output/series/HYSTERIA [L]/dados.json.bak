@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwODc=",
+  "tipo": "serie",
+  "titulo": "HYSTERIA [L]",
+  "capa_url": "https://lgfp.one/EGF4",
+  "capa_local": "HYSTERIA [L]/HYSTERIA [L].jpg",
+  "sinopse": "Acompanha uma banda de heavy metal de uma escola secundária com dificuldades, formada por párias que usam o súbito interesse da cidade pelo ocultismo para criar uma reputação de banda de metal satânica.",
+  "genero": "Drama, Mistério",
+  "elenco": "Julie Bowen, Anna Camp, Emjay Anthony, Chiara Aurelia, Kezii Curtis",
+  "diretor": "Jonathan Goldstein, Jordan Vogt-Roberts",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:46"
+        }
+      ]
+    }
+  ],
+  "id": 6529
+}

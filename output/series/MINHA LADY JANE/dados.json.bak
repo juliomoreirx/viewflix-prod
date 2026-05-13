@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4ODE=",
+  "tipo": "serie",
+  "titulo": "MINHA LADY JANE",
+  "capa_url": "https://lgfp.one/BJL3",
+  "capa_local": "MINHA LADY JANE/MINHA LADY JANE.jpg",
+  "sinopse": "Prepare-se para a trágica história de Lady Jane Grey, a jovem nobre Tudor que foi Rainha da Inglaterra por nove dias e depois decapitada em 1553... F*da-se. Estamos recontando a história como deveria ter acontecido: a donzela em perigo se salva. Este é um conto épico de amor verdadeiro e grandes aventuras ambientado em um universo alternativo de ação, história, fantasia, comédia e romance. Preparar-se.",
+  "genero": "Drama, Comédia",
+  "elenco": "Emily Bader, Edward Bluemel, Jordan Peters, Jim Broadbent, James Corrigan",
+  "diretor": "Jamie Babbit",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:51:43"
+        }
+      ]
+    }
+  ],
+  "id": 5622
+}

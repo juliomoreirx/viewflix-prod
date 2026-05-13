@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3Mjk=",
+  "tipo": "serie",
+  "titulo": "DO AMOR E DE LUTA",
+  "capa_url": "https://lgfp.one/QAM5",
+  "capa_local": "DO AMOR E DE LUTA/DO AMOR E DE LUTA.jpg",
+  "sinopse": "A experiência da maternidade despertou a curiosidade de Nanda Costa e Lan Lanh de descobrir mais sobre a experiência de outras famílias da comunidade LGBTIQA+ pelo Brasil.",
+  "genero": "Documentário",
+  "elenco": "Nanda Costa",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:05"
+        }
+      ]
+    }
+  ],
+  "id": 8003
+}

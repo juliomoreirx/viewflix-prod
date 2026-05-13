@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczOTA=",
+  "tipo": "serie",
+  "titulo": "MARÍLIA MENDONÇA: TODOS OS CANTOS",
+  "capa_url": "https://lgfp.one/SMU",
+  "capa_local": "MARILIA MENDONCA TODOS OS CANTOS/MARILIA MENDONCA TODOS OS CANTOS.jpg",
+  "sinopse": "Acompanhe Marília Mendonça nos bastidores do projeto \"Todos os Cantos\" percorrendo várias capitais. A preparação da cantora, a chegada e o contato com os fãs.",
+  "genero": "Documentário",
+  "elenco": "Marília Mendonça",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:29:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:05"
+        }
+      ]
+    }
+  ],
+  "id": 2027
+}

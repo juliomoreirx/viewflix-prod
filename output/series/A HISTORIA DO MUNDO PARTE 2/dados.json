@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMTc=",
+  "tipo": "serie",
+  "titulo": "A HISTÓRIA DO MUNDO: PARTE 2",
+  "capa_url": "https://lgfp.one/YSG",
+  "capa_local": "A HISTORIA DO MUNDO PARTE 2/A HISTORIA DO MUNDO PARTE 2.jpg",
+  "sinopse": "Após mais de 40 anos de espera, finalmente temos a continuação do filme de Mel Brooks, História do Mundo, Parte I, com cada episódio apresentando diversos esquetes que nos levam a diferentes períodos da história da humanidade.",
+  "genero": "Comédia",
+  "elenco": "Mel Brooks, Ike Barinholtz, Nick Kroll, Wanda Sykes",
+  "diretor": "Nick Kroll, Alice Mathias, David Stassen",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:47"
+        }
+      ]
+    }
+  ],
+  "id": 3324
+}

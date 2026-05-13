@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MTg=",
+  "tipo": "serie",
+  "titulo": "THE LAST JOURNEY OF THE VIKINGS [L]",
+  "capa_url": "https://lgfp.one/SJJ",
+  "capa_local": "THE LAST JOURNEY OF THE VIKINGS [L]/THE LAST JOURNEY OF THE VIKINGS [L].jpg",
+  "sinopse": "Quase 1.000 anos atrás, os vikings deixaram a Escandinávia e se estabeleceram pela Europa – dando seu nome à Normandia ao longo do caminho – antes de seus descendentes normandos tomarem o trono inglês na Batalha de Hastings em 1066. Mas o que realmente sabemos sobre eles? Combinando análise de especialistas com drama convincente, ‘A Última Jornada dos Vikings’ (título sueco: ‘Vikingarnas sista resa’) conta uma história nova e muitas vezes surpreendente sobre esse povo complexo.",
+  "genero": "Documentário",
+  "elenco": "Clodagh Moriarty, Kristine Kenina, Megan O'Malley, Dmitry Vinokurov, Brian Matthews Murphy",
+  "diretor": "James Velasquez",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:09"
+        }
+      ]
+    }
+  ],
+  "id": 1937
+}

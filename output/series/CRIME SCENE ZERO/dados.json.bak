@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3ODk=",
+  "tipo": "serie",
+  "titulo": "CRIME SCENE ZERO",
+  "capa_url": "https://lgfp.one/QBY2",
+  "capa_local": "CRIME SCENE ZERO/CRIME SCENE ZERO.jpg",
+  "sinopse": "Nesta série de mistério, os jogadores se envolvem em situações complexas como suspeitos ou detetives. O objetivo? Revelar a verdade antes de todo mundo.",
+  "genero": "Reality, Crime",
+  "elenco": "박지윤, 장진, 장동민, 김지훈, An Yujin",
+  "diretor": "윤현준, Hwang Seul-woo",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:19:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:27:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:18:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:23:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:21:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:21:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:24:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:27:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:22:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:11:14"
+        }
+      ]
+    }
+  ],
+  "id": 8028
+}

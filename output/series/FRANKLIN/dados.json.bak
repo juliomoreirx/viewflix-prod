@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5MjU=",
+  "tipo": "serie",
+  "titulo": "FRANKLIN",
+  "capa_url": "https://lgfp.one/NVI3",
+  "capa_local": "FRANKLIN/FRANKLIN.jpg",
+  "sinopse": "Um falsário e pai solo precisa trabalhar com a ex para fabricar a nota de 100 dólares perfeita, tudo para evitar a morte da filha.",
+  "genero": "Drama, Crime",
+  "elenco": "Daniella Rahme, Mohammed Al Ahmad, Toni Issa, فايز قزق, خالد السيد",
+  "diretor": "Hussien El Menbawy",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:51"
+        }
+      ]
+    }
+  ],
+  "id": 7287
+}

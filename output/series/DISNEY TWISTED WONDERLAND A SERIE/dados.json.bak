@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwMTY=",
+  "tipo": "serie",
+  "titulo": "DISNEY TWISTED WONDERLAND A SERIE",
+  "capa_url": "https://lgfp.one/QMW9",
+  "capa_local": "DISNEY TWISTED WONDERLAND A SERIE/DISNEY TWISTED WONDERLAND A SERIE.jpg",
+  "sinopse": "Era uma vez uma época em que os Sete Grandiosos governavam suas terras no mundo mágico e encantado de Twisted Wonderland. Seus feitos lendários inspiraram a criação da prestigiada Academia Corvo da Noite, que batizou seus sete dormitórios em homenagem a seus patronos: a Rainha de Copas, o Rei das Feras, a Bruxa do Mar, o Feiticeiro das Areias, a Rainha Mais Bela, o Rei do Submundo e a Fada dos Espinhos. No entanto, o estudante Yuken (Yu) jamais imaginou que esse mundo existisse, até ser repentinamente transportado para a cerimônia de boas-vindas da academia. Agora, sem qualquer magia, ele terá de enfrentar monstros, excêntricos aprendizes de magos e situações misteriosas. Será que ele conseguirá encontrar o caminho de volta para o mundo dele?",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Yohei Azakami, Natsuki Hanae, Seiichiro Yamashita, Chiaki Kobayashi, Ryota Suzuki",
+  "diretor": "名取孝浩, 名取孝浩, 片貝慎",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:41"
+        }
+      ]
+    }
+  ],
+  "id": 8260
+}

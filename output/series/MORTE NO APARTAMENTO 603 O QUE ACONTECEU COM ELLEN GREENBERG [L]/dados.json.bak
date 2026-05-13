@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1OTk=",
+  "tipo": "serie",
+  "titulo": "MORTE NO APARTAMENTO 603 O QUE ACONTECEU COM ELLEN GREENBERG [L]",
+  "capa_url": "https://lgfp.one/QCU7",
+  "capa_local": "MORTE NO APARTAMENTO 603 O QUE ACONTECEU COM ELLEN GREENBERG [L]/MORTE NO APARTAMENTO 603 O QUE ACONTECEU COM ELLEN GREENBERG [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Nancy Schwartzman, Geno McDermott",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:22"
+        }
+      ]
+    }
+  ],
+  "id": 8105
+}

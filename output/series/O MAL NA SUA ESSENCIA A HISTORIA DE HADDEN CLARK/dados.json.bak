@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MjE=",
+  "tipo": "serie",
+  "titulo": "O MAL NA SUA ESSENCIA A HISTORIA DE HADDEN CLARK",
+  "capa_url": "https://lgfp.one/DLM1",
+  "capa_local": "O MAL NA SUA ESSENCIA A HISTORIA DE HADDEN CLARK/O MAL NA SUA ESSENCIA A HISTORIA DE HADDEN CLARK.jpg",
+  "sinopse": "Esta série investiga os crimes de Hadden Clark, um serial killer praticamente desconhecido.",
+  "genero": "Documentário, Crime",
+  "elenco": "Ian Kincaid, Jack Truitt, Chaz Riddle, Hayden Clark, Chris Smorto",
+  "diretor": "Michael Bay",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:13"
+        }
+      ]
+    }
+  ],
+  "id": 5935
+}

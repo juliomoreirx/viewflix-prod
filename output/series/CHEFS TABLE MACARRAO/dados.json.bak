@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwOTg=",
+  "tipo": "serie",
+  "titulo": "CHEFS TABLE MACARRAO",
+  "capa_url": "https://lgfp.one/DUG0",
+  "capa_local": "CHEFS TABLE MACARRAO/CHEFS TABLE MACARRAO.jpg",
+  "sinopse": "Descubra a arte do preparo do macarrão com chefs renomados, que compartilham suas jornadas culinárias e as histórias por trás de seus pratos exclusivos.",
+  "genero": "Documentário",
+  "elenco": "Frank Gerrish, Evan Funke, Reem Assil",
+  "diretor": "David Gelb, Brian McGinn, Danny O'Malley",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:25"
+        }
+      ]
+    }
+  ],
+  "id": 6062
+}

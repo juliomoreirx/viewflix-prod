@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNTQ=",
+  "tipo": "serie",
+  "titulo": "BLACK DOVES",
+  "capa_url": "https://lgfp.one/KCW4",
+  "capa_local": "BLACK DOVES/BLACK DOVES.jpg",
+  "sinopse": "Quando descobre que mataram o amante dela, uma espiã infiltrada como esposa de um político sai em busca da verdade e de vingança com a ajuda de um amigo assassino.",
+  "genero": "Action & Adventure, Mistério, Crime",
+  "elenco": "Keira Knightley, Ben Whishaw, Sarah Lancashire",
+  "diretor": "Julian Farino, Alex Gabassi, Lisa Gunning, Kieron Hawkes",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:55"
+        }
+      ]
+    }
+  ],
+  "id": 6348
+}

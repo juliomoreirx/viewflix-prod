@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0Mjc=",
+  "tipo": "serie",
+  "titulo": "THE BEATLES: GET BACK",
+  "capa_url": "https://lgfp.one/SPT",
+  "capa_local": "THE BEATLES GET BACK/THE BEATLES GET BACK.jpg",
+  "sinopse": "Um documentário dividido em três partes e compilado a partir de mais de 60 horas de imagens nunca vistas, que mostra o entusiasmo, o companheirismo e a incrível criatividade que são a marca do legado do quarteto mais icônico do cenário musical: os Beatles.  A série também incluirá, pela primeira vez na íntegra, o último show dos Beatles na Savile Row, em Londres.",
+  "genero": "Documentário",
+  "elenco": "John Lennon, Paul McCartney, George Harrison, Ringo Starr, George Martin, Billy Preston, Glyn Johns, Mal Evans",
+  "diretor": "Peter Jackson",
+  "total_episodios": "157",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "02:36:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "02:53:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "02:18:07"
+        }
+      ]
+    }
+  ],
+  "id": 2107
+}

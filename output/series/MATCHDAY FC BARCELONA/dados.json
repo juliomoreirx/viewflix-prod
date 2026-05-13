@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMDE=",
+  "tipo": "serie",
+  "titulo": "MATCHDAY: FC BARCELONA",
+  "capa_url": "https://lgfp.one/RBU",
+  "capa_local": "MATCHDAY FC BARCELONA/MATCHDAY FC BARCELONA.jpg",
+  "sinopse": "Dentro e fora de campo, imagens inéditas garantem um mergulho exclusivo no dia a dia do Barcelona, um dos times mais amados e bem-sucedidos do planeta.",
+  "genero": "Documentário",
+  "elenco": "Lionel Messi, Gerard Piqué, Luis Suárez, Jordi Alba, Sergio Busquets",
+  "diretor": "Pol Rodríguez, Oriol Querol, Pau Teixidor",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:32"
+        }
+      ]
+    }
+  ],
+  "id": 857
+}

@@ -1,0 +1,165 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5NDU=",
+  "tipo": "serie",
+  "titulo": "CAVERNA DO DRAGÃO",
+  "capa_url": "https://lgfp.one/RXE",
+  "capa_local": "CAVERNA DO DRAGAO/CAVERNA DO DRAGAO.jpg",
+  "sinopse": "Seis crianças embarcam numa montanha russa e acabam parando no Reino de Dungeons and Dragons, a Caverna do Dragão. Para receber aos perigos daquela terra mágica, elas recebem seis Armas do Poder: Hank, um arco de flechas magnéticas; Eric, um poderoso escudo; Diana, um bastão para acrobacias; Sheila, um capuz de invisibilidade; Presto, um chapéu de feiticeiro; e Bobby, um tacape superpoderoso. Com a ajuda do Mestre dos Magos, eles tentarão encontrar um caminho de volta para casa; mas não poderão contar com ele para combater o maligno Vingador e o dragão de cinco cabeças Tiamat.",
+  "genero": "Animação, Sci-Fi & Fantasy, Comédia",
+  "elenco": "Adam Rich, Bob Holt, Don Most, Frank Welker, Frank Welker",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:21:53"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:21:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:21:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:21:55"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:21:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:21:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:21:50"
+        }
+      ]
+    }
+  ],
+  "id": 227536
+}

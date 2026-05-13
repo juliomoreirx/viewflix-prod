@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MzU=",
+  "tipo": "serie",
+  "titulo": "O PILOTO INVISÍVEL",
+  "capa_url": "https://lgfp.one/TEI",
+  "capa_local": "O PILOTO INVISIVEL/O PILOTO INVISIVEL.jpg",
+  "sinopse": "A história segue a vida de um marido e pai carismático e imprudente que inesperadamente pulou de uma ponte em 1977, apesar de levar uma vida familiar aparentemente feliz e uma carreira lucrativa como piloto. Depois que sua comunidade de uma cidadezinha do Arkansas passa anos procurando em vão por seu corpo, e sua família e amigos buscando respostas, surge uma história misteriosa.",
+  "genero": "Documentário / Crime",
+  "elenco": "Konstantin Podprugin, Ray Buffer",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:06"
+        }
+      ]
+    }
+  ],
+  "id": 2505
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5NDA=",
+  "tipo": "serie",
+  "titulo": "1883",
+  "capa_url": "https://lgfp.one/TEM",
+  "capa_local": "1883/1883.jpg",
+  "sinopse": "A série acompanha a família Dutton em uma jornada para o oeste norte-americano através das Grandes Planícies em direção ao último bastião da América indomada, trazendo uma releitura da expansão ocidental e um estudo intenso de uma família que foge da pobreza em busca de um futuro melhor na terra prometida de Montana.",
+  "genero": "Faroeste / Drama",
+  "elenco": "Sam Elliott, Tim McGraw, Faith Hill, Isabel May, LaMonica Garrett, Marc Rissmann, Audie Rick, James Landry Hébert",
+  "diretor": "Taylor Sheridan",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:54"
+        }
+      ]
+    }
+  ],
+  "id": 4477
+}

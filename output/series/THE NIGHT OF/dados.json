@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA5MDE=",
+  "tipo": "serie",
+  "titulo": "THE NIGHT OF",
+  "capa_url": "https://lgfp.one/RSX",
+  "capa_local": "THE NIGHT OF/THE NIGHT OF.jpg",
+  "sinopse": "Na série de TV , depois de ter passado uma noite com uma mulher totalmente desconhecida, esse homem acorda e encontra a tal mulher esfaqueada e ele é acusado de ter assassinado ela. As investigações policiais denunciam as relações complexas entre diversos casos que foram analisados pela policia da cidade de Nova Yokr nos Estados Unidos, sistema criminal, procedimentos legais e o temido purgatório de Rikers Island, é la onde os acusados são presos em espera de seu julgamento final.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Riz Ahmed, John Turturro, Bill Camp, Payman Maadi, Poorna Jagannathan",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:18:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:35:05"
+        }
+      ]
+    }
+  ],
+  "id": 1326
+}

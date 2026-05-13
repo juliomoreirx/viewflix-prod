@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3ODg=",
+  "tipo": "serie",
+  "titulo": "MENTIROSOS",
+  "capa_url": "https://lgfp.one/OUV7",
+  "capa_local": "MENTIROSOS/MENTIROSOS.jpg",
+  "sinopse": "Um ano após o misterioso acidente que a deixou com amnésia, Cadence, de 17 anos, volta à Ilha Beechwood, perto de Martha's Vineyard, em busca de respostas. Três gerações da distinta família Sinclair se reúnem em sua utopia de verão privada, e ninguém fala sobre o acidente, nem seus amigos de infância, \"Os Mentirosos\", nem seu primeiro amor, Gat, forçando-a a desvendar a verdade sozinha.",
+  "genero": "Mistério",
+  "elenco": "Emily Alyn Lind, Shubham Maheshwari, Joseph Zada, Esther-Rose McGregor, David Morse",
+  "diretor": "Nzingha Stewart",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:56:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:01:53"
+        }
+      ]
+    }
+  ],
+  "id": 7485
+}

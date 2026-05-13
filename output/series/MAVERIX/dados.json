@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Njc=",
+  "tipo": "serie",
+  "titulo": "MAVERIX",
+  "capa_url": "https://lgfp.one/TGA",
+  "capa_local": "MAVERIX/MAVERIX.jpg",
+  "sinopse": "Nesta série de alta velocidade, seis adolescentes apaixonados por motocross tentam derrotar seus rivais, despertar o que há de melhor entre si e vencer.",
+  "genero": "Action & Adventure, Comédia, Família",
+  "elenco": "Darcy Tadich, Tatiana Goode, Sam Winspear-Schillings, Tjiirdm McGuire, Sebastian Tang",
+  "diretor": "Isaac Elliott",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:13"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:36"
+        }
+      ]
+    }
+  ],
+  "id": 2549
+}

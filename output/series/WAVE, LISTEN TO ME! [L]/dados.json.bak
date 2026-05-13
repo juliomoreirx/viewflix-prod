@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM1MDg=",
+  "tipo": "serie",
+  "titulo": "WAVE, LISTEN TO ME! [L]",
+  "capa_url": "https://lgfp.one/SXL7",
+  "capa_local": "WAVE, LISTEN TO ME! [L]/WAVE, LISTEN TO ME! [L].jpg",
+  "sinopse": "A história acompanha Minare Koda, uma mulher que, após beber muito, decide abrir seu coração partido para um funcionário de uma estação de rádio que conheceu. No dia seguinte, ela percebe que uma gravação com o seu deplorável desabafo está sendo transmitido por todos lugares. Ficando enfurecida com a situação, ela decide ir tirar satisfações com a rádio, mas acaba sendo enganada pelo diretor da estação e participando de um programa de improviso onde tenta justificar suas falas.  A partir de então, Minare começa a se afundar cada vez mais no mundo dos talk shows, graças as diferentes facetas da sua personalidade mostrada naquela gravação.",
+  "genero": "Animação, Drama, Comédia",
+  "elenco": "Riho Sugiyama, Shinshu Fuji, Manaka Iwami, Kazuhiro Yamaji, Sayaka Ohara",
+  "diretor": "南川達馬",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:57"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:57"
+        }
+      ]
+    }
+  ],
+  "id": 9465
+}

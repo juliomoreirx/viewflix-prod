@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyOTE=",
+  "tipo": "serie",
+  "titulo": "DESPERTAR MORTAL",
+  "capa_url": "https://lgfp.one/ZHC",
+  "capa_local": "DESPERTAR MORTAL/DESPERTAR MORTAL.jpg",
+  "sinopse": "Acompanhe o caso de Randy Herman Jr, um homem da Flórida acusado de assassinato que alega ter cometido o crime como sonâmbulo. Com entrevistas de especialistas em distúrbios do sono que explicam a ciência do sonambulismo. Conheça a amizade entre Brooke, Preston e Randy Herman Jr, que acabou levando à morte dela.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:47"
+        }
+      ]
+    }
+  ],
+  "id": 3419
+}

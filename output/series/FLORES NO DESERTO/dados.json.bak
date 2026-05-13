@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNzY=",
+  "tipo": "serie",
+  "titulo": "FLORES NO DESERTO",
+  "capa_url": "https://lgfp.one/AWHC",
+  "capa_local": "FLORES NO DESERTO/FLORES NO DESERTO.jpg",
+  "sinopse": "Em meio a dificuldades para alcançar o sucesso, um ex-lutador prodígio está prestes a desistir, até que reencontra uma amiga de longa data que reacende sua paixão.",
+  "genero": "Comédia, Drama, Mistério",
+  "elenco": "Jang Dong-yoon, Lee Joo-myung, Yun Jong-seok, Kim Bo-ra, Lee Jae-joon",
+  "diretor": "Kim Jin-woo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:04:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:06:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:02:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:01:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:06:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:06:01"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:06:24"
+        }
+      ]
+    }
+  ],
+  "id": 4645
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNjI=",
+  "tipo": "serie",
+  "titulo": "CAPOEIRAS",
+  "capa_url": "https://lgfp.one/PVS1",
+  "capa_local": "CAPOEIRAS/CAPOEIRAS.jpg",
+  "sinopse": "Veneno e Noivo são capoeiristas que cresceram como irmãos, mas um crime brutal os separou. Anos depois, seus caminhos se cruzam: Veneno vive no submundo das lutas clandestinas; Noivo tenta proteger Ventania, filha de seu mestre assassinado, e recuperar o que foi perdido entre ele e o amigo. No ringue e na vida, precisarão decidir até onde estão dispostos a ir para acertar as contas do passado.",
+  "genero": "Action & Adventure",
+  "elenco": "Raphael Logam, Sergio Malheiros, Bruno Gissoni, Juliana Alves, Dan Ferreira",
+  "diretor": "Tomás Portella, Igor Verde, Luiz Guilherme Assis",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:15"
+        }
+      ]
+    }
+  ],
+  "id": 7878
+}

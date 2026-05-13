@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MzI=",
+  "tipo": "serie",
+  "titulo": "MUQUIRANAS BRASIL",
+  "capa_url": "https://lgfp.one/CYZ3",
+  "capa_local": "MUQUIRANAS BRASIL/MUQUIRANAS BRASIL.jpg",
+  "sinopse": "Muquiranas Brasil mostra táticas de economia extremas e excêntricas que brasileiros de diferentes regiões do país seguem como rotina. Com dinheiro na conta ou até casa própria, poupar é mais que uma necessidade para essas pessoas, é um estilo de vida.",
+  "genero": "Reality",
+  "elenco": "Ana Chiyo",
+  "diretor": "Fabio Ock",
+  "total_episodios": "27",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:15"
+        }
+      ]
+    }
+  ],
+  "id": 5702
+}

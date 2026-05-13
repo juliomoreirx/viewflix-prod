@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIzMTA=",
+  "tipo": "serie",
+  "titulo": "THE DISAPPEARANCE",
+  "capa_url": "https://lgfp.one/RNJ",
+  "capa_local": "THE DISAPPEARANCE/THE DISAPPEARANCE.jpg",
+  "sinopse": "Na sequência do desaparecimento de Anthony Sullivan em seu 10º aniversário, a família fraturada se junta para resolver o mistério que desenraizou suas vidas.",
+  "genero": "Mistério, Drama",
+  "elenco": "Aden Young, Peter Coyote, Camille Sullivan, Joanne Kelly, Micheline Lanctôt",
+  "diretor": "Caroline Morissette, Anissa Harvey, Robbie Ditchburn, Laurence Beauregard, Frédérique Chalifoux-Bazinet",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 1175
+}

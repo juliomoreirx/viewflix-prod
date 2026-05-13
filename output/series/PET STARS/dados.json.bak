@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MDU=",
+  "tipo": "serie",
+  "titulo": "PET STARS",
+  "capa_url": "https://lgfp.one/RRG",
+  "capa_local": "PET STARS/PET STARS.jpg",
+  "sinopse": "Este reality show acompanha o trabalho da Pets on Q, que gerencia as carreiras dos bichinhos de estimação que são verdadeiras celebridades nas redes sociais.",
+  "genero": "Reality",
+  "elenco": "Colleen Wilson, Melissa May Curtis, Shai Lighter",
+  "diretor": "",
+  "total_episodios": "29",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:36"
+        }
+      ]
+    }
+  ],
+  "id": 1280
+}

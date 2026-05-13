@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NDk=",
+  "tipo": "serie",
+  "titulo": "VADE RETRO",
+  "capa_url": "https://lgfp.one/RNP",
+  "capa_local": "VADE RETRO/VADE RETRO.jpg",
+  "sinopse": "Acompanhe a história de Abel Zebu, um empresário de escrúpulos tão baixos quanto o movimento no escritório da doce advogada Celeste.",
+  "genero": "Comédia, Mistério",
+  "elenco": "Monica Iozzi, Tony Ramos, Maria Luísa Mendonça, Maria Casadevall, Juliano Cazarré",
+  "diretor": "",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:32:49"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:19"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:06"
+        }
+      ]
+    }
+  ],
+  "id": 1181
+}

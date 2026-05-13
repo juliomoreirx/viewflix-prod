@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5Mzk=",
+  "tipo": "serie",
+  "titulo": "POR QUE AS MULHERES MATAM",
+  "capa_url": "https://lgfp.one/RMF",
+  "capa_local": "POR QUE AS MULHERES MATAM/POR QUE AS MULHERES MATAM.jpg",
+  "sinopse": "Infidelidade, mistério e assassinato. Na mesma mansão – mas em diferentes décadas – a série antológica acompanha a vida de três mulheres casadas.",
+  "genero": "Comédia, Crime, Drama",
+  "elenco": "Allison Tolman, Lana Parrilla, B.K. Cannon, Jordane Christie, Matthew Daddario",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:53:23"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:56:11"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:50:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:46:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:43:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:45:39"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:50:14"
+        }
+      ]
+    }
+  ],
+  "id": 1145
+}

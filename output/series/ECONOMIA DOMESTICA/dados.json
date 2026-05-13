@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMzI=",
+  "tipo": "serie",
+  "titulo": "ECONOMIA DOMÉSTICA",
+  "capa_url": "https://lgfp.one/SUP",
+  "capa_local": "ECONOMIA DOMESTICA/ECONOMIA DOMESTICA.jpg",
+  "sinopse": "A série aborda a relação entre três irmãos: um empresário de sucesso, um escritor de classe média e uma terapeuta infantil desempregada.",
+  "genero": "Comédia",
+  "elenco": "Topher Grace, Caitlin McGee, Jimmy Tatro, Karla Souza, Sasheer Zamata, JeCobi Swain",
+  "diretor": "Michael Colton, John Aboud",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:34"
+        }
+      ]
+    }
+  ],
+  "id": 2246
+}

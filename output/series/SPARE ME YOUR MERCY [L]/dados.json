@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI5NjU=",
+  "tipo": "serie",
+  "titulo": "SPARE ME YOUR MERCY [L]",
+  "capa_url": "https://lgfp.one/PXI0",
+  "capa_local": "SPARE ME YOUR MERCY [L]/SPARE ME YOUR MERCY [L].jpg",
+  "sinopse": "Um policial determinado retorna para casa após a morte repentina de sua mãe — apenas para suspeitar que o charmoso médico que cuidou dela possa estar escondendo algo mortal. Enquanto se envolvem em uma intensa relação marcada por segredos sombrios e desejo proibido, a tensão entre eles cresce, levando a um desfecho inevitável.",
+  "genero": "Drama, Mistério, Action & Adventure",
+  "elenco": "ธนภพ ลีรัตนขจร, กฤษณภูมิ พิบูลสงคราม, อริศรา วงษ์ชาลี, พงศธร จงวิลาส, อัจฉริย โพธิพิพิธธนากร",
+  "diretor": "หวอ วรวิทย์ ขัตติยโยธิน, Thanadet Pradit",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:54"
+        }
+      ]
+    }
+  ],
+  "id": 7945
+}

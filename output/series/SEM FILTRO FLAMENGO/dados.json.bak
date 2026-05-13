@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1MTA=",
+  "tipo": "serie",
+  "titulo": "SEM FILTRO: FLAMENGO",
+  "capa_url": "https://lgfp.one/ISO",
+  "capa_local": "SEM FILTRO FLAMENGO/SEM FILTRO FLAMENGO.jpg",
+  "sinopse": "Batizada de \"Sem Filtro: Flamengo\", a produção reúne entrevistas e momentos exclusivos, que estão divididos em sete episódios e prometem mexer com o torcedor rubro-negro. De acordo com a plataforma de streaming, além da exclusividade, o diferencial da série é o fato de ter uma montagem dinâmica, recheada de depoimentos de jogadores, corpo técnico, torcedores e ídolos. A proposta é apresentar aos torcedores do clube e fãs de futebol em geral um formato inovador ao captar, editar e exibir conteúdos inéditos durante o andamento da temporada.",
+  "genero": "Documentário",
+  "elenco": "Jorge Jesus, Gabriel Barbosa, Diego Ribas",
+  "diretor": "",
+  "total_episodios": "17",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:13:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:16:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:14:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:16:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:13:43"
+        }
+      ]
+    }
+  ],
+  "id": 155
+}

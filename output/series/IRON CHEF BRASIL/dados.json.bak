@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2MTM=",
+  "tipo": "serie",
+  "titulo": "IRON CHEF BRASIL",
+  "capa_url": "https://lgfp.one/TOI",
+  "capa_local": "IRON CHEF BRASIL/IRON CHEF BRASIL.jpg",
+  "sinopse": "Talentos culinários em ascensão duelam contra os melhores chefs do Brasil nesta competição apresentada por Fernanda Souza e Andressa Cabral.",
+  "genero": "Reality",
+  "elenco": "Elias Argentiere, Fernanda Souza, Andressa Cabral",
+  "diretor": "",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:06"
+        }
+      ]
+    }
+  ],
+  "id": 2779
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NTQ=",
+  "tipo": "serie",
+  "titulo": "HISTÓRIAS DE SUPERAÇÃO",
+  "capa_url": "https://lgfp.one/YSC",
+  "capa_local": "HISTORIAS DE SUPERACAO/HISTORIAS DE SUPERACAO.jpg",
+  "sinopse": "Série de documentários com histórias reais de bravura humana, como pessoas inspiradoras que se esforçam para superar doenças graves e condições médicas, recusando-se a permitir que suas deficiências dominem suas vidas.",
+  "genero": "Documentário, Reality",
+  "elenco": "Caron Pascoe, Tina Hodgdon",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:16"
+        }
+      ]
+    }
+  ],
+  "id": 3320
+}

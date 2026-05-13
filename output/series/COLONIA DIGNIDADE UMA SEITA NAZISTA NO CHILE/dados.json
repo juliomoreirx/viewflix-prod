@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MTY=",
+  "tipo": "serie",
+  "titulo": "COLÔNIA DIGNIDADE: UMA SEITA NAZISTA NO CHILE",
+  "capa_url": "https://lgfp.one/SIP",
+  "capa_local": "COLONIA DIGNIDADE UMA SEITA NAZISTA NO CHILE/COLONIA DIGNIDADE UMA SEITA NAZISTA NO CHILE.jpg",
+  "sinopse": "Uma colônia cristã de alemães, com um líder carismático e manipulador, se estabelece no Chile, tornando-se fundamental para a ditadura.",
+  "genero": "Documentário",
+  "elenco": "Jonas Baeck,Paul Schäfer, Günter Schaffrik",
+  "diretor": "Annette Baumeister, Wilfried Huismann, Cristian Leighton",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:32"
+        }
+      ]
+    }
+  ],
+  "id": 1916
+}

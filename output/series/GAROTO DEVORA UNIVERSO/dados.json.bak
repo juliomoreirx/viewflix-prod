@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNjg=",
+  "tipo": "serie",
+  "titulo": "GAROTO DEVORA UNIVERSO",
+  "capa_url": "https://lgfp.one/AYGW",
+  "capa_local": "GAROTO DEVORA UNIVERSO/GAROTO DEVORA UNIVERSO.jpg",
+  "sinopse": "Na Austrália da década de 1980, um garoto enfrenta a dura realidade da vida e os perigos que ameaçam sua família.",
+  "genero": "Drama, Crime, Mistério",
+  "elenco": "Phoebe Tonkin, Lee Tiger Halley",
+  "diretor": "Bharat Nalluri, Renata Blaich, Chiquita Mitchell",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:17:35"
+        }
+      ]
+    }
+  ],
+  "id": 4799
+}

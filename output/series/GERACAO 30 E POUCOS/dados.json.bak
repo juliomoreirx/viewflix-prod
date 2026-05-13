@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Njc=",
+  "tipo": "serie",
+  "titulo": "GERAÇÃO 30 E POUCOS",
+  "capa_url": "https://lgfp.one/NLQ8",
+  "capa_local": "GERACAO 30 E POUCOS/GERACAO 30 E POUCOS.jpg",
+  "sinopse": "Amigos desde a época da internet discada, Matilda e Daniel se encontram por acaso duas décadas depois. Será que essa amizade pode se transformar em algo mais?",
+  "genero": "Comédia, Drama",
+  "elenco": "Angelo Spagnoletti, Cristina Cappelli, Gianluca Colucci, Fabio Balsamo, Alfredo Cerrone",
+  "diretor": "Francesco Capaldo, Alessio Maria Federici",
+  "total_episodios": "33",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:30:06"
+        }
+      ]
+    }
+  ],
+  "id": 7110
+}

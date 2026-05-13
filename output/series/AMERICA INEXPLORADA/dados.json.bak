@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NzU=",
+  "tipo": "serie",
+  "titulo": "AMÉRICA INEXPLORADA",
+  "capa_url": "https://lgfp.one/XFP",
+  "capa_local": "AMERICA INEXPLORADA/AMERICA INEXPLORADA.jpg",
+  "sinopse": "O aclamado fotógrafo Ian Shive embarca em uma viagem até alguns dos cantos mais remotos do planeta, para revelar detalhes das reservas naturais americanas e dos parques nacionais menos conhecidos.",
+  "genero": "Documentário",
+  "elenco": "Ian Shive",
+  "diretor": "Ian Shive",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:10:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:10:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:10:04"
+        }
+      ]
+    }
+  ],
+  "id": 3150
+}

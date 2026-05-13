@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1NTc=",
+  "tipo": "serie",
+  "titulo": "KRYPTO SALVA O DIA",
+  "capa_url": "https://lgfp.one/QBH5",
+  "capa_local": "KRYPTO SALVA O DIA/KRYPTO SALVA O DIA.jpg",
+  "sinopse": "Krypto, o Supercão, quer ser um bom menino, mas não consegue evitar fazer travessuras para os cidadãos de Metrópolis.",
+  "genero": "animação, desenho",
+  "elenco": "Teigo Dawson",
+  "diretor": "David Gemmill, Ryan Kramer",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:05:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:05:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:05:21"
+        }
+      ]
+    }
+  ],
+  "id": 8018
+}

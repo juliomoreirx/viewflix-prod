@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5ODk=",
+  "tipo": "serie",
+  "titulo": "QUARENTÕES EM CRISE",
+  "capa_url": "https://lgfp.one/NDP3",
+  "capa_local": "QUARENTOES EM CRISE/QUARENTOES EM CRISE.jpg",
+  "sinopse": "Diante de uma crise de masculinidade, quatro amigos tentam sobreviver em um mundo em constante mudança. Será que vai dar para manter relacionamentos e carreiras intactos?",
+  "genero": "Comédia",
+  "elenco": "Jeroen Spitzenberger, Waldemar Torenstra, André Dongelmans, Benja Bruijning, Jennifer Hoffman",
+  "diretor": "Laura Caballero",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:32:19"
+        }
+      ]
+    }
+  ],
+  "id": 6973
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NDk=",
+  "tipo": "serie",
+  "titulo": "PENSAMENTOS IMPUROS",
+  "capa_url": "https://lgfp.one/JIV",
+  "capa_local": "PENSAMENTOS IMPUROS/PENSAMENTOS IMPUROS.jpg",
+  "sinopse": "Marnie sofre com pensamentos perturbadores e incontroláveis. Decidida, a jovem sai da casa dos pais e parte para Londres em busca de autoconhecimento e novas experiências.",
+  "genero": "Drama, Comédia",
+  "elenco": "Charly Clive, Kiran Sonia Sawar, Niamh Algar, Joe Cole",
+  "diretor": "",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:37"
+        }
+      ]
+    }
+  ],
+  "id": 628
+}

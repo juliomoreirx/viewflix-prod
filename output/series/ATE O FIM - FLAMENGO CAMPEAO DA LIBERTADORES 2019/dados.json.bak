@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1Mzc=",
+  "tipo": "serie",
+  "titulo": "ATÉ O FIM - FLAMENGO CAMPEÃO DA LIBERTADORES 2019",
+  "capa_url": "https://lgfp.one/ISV",
+  "capa_local": "ATE O FIM - FLAMENGO CAMPEAO DA LIBERTADORES 2019/ATE O FIM - FLAMENGO CAMPEAO DA LIBERTADORES 2019.jpg",
+  "sinopse": "Bastidores inéditos e a saga até a final. A preparação, as viagens, a tensão e a festa nos vestiários, além de entrevistas exclusivas com os personagens do título.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:55"
+        }
+      ]
+    }
+  ],
+  "id": 316438
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNzQ=",
+  "tipo": "serie",
+  "titulo": "HOW MUSIC GOT FREE [L]",
+  "capa_url": "https://lgfp.one/CRV4",
+  "capa_local": "HOW MUSIC GOT FREE [L]/HOW MUSIC GOT FREE [L].jpg",
+  "sinopse": "Um trabalhador de uma fábrica de CDs e hackers adolescentes inventam a pirataria de MP3, abalando o mundo da música.",
+  "genero": "Documentário",
+  "elenco": "Rhymefest, Eminem, Method Man, Dell",
+  "diretor": "Alex Stapleton",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:54"
+        }
+      ]
+    }
+  ],
+  "id": 5649
+}

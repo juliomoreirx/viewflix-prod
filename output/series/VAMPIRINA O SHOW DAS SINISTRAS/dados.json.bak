@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc1ODI=",
+  "tipo": "serie",
+  "titulo": "VAMPIRINA O SHOW DAS SINISTRAS",
+  "capa_url": "https://lgfp.one/QPS8",
+  "capa_local": "VAMPIRINA O SHOW DAS SINISTRAS/VAMPIRINA O SHOW DAS SINISTRAS.jpg",
+  "sinopse": "Inspiradas pela sua banda preferida, As Meninas Gritantes, Vampi, Poppy e Bridget decidem formar uma banda de música também, As Monstrinhas. Junta-te ao Demi, à Gregória e ao Chef Remy Ossos, que se reúnem à volta da televisão para ver o lado sobrenatural da banda explodir!",
+  "genero": "Animação, Kids",
+  "elenco": "Isabella Crovetti, Jordan Alexa Davis, ViviAnn Yee, Mitchell Whitfield, Wanda Sykes",
+  "diretor": "",
+  "total_episodios": "4",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:02:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:02:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:02:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:02:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:02:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:02:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:02:15"
+        }
+      ]
+    }
+  ],
+  "id": 8370
+}

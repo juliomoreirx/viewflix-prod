@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4NDk=",
+  "tipo": "serie",
+  "titulo": "FAMÍLIA LARVA",
+  "capa_url": "https://lgfp.one/ZUH",
+  "capa_local": "FAMILIA LARVA/FAMILIA LARVA.jpg",
+  "sinopse": "A família Larva está crescendo! Uma pequenina bebê lagarta acabou de chegar, então é hora de aprender a cuidar de bebês e outras coisinhas fedidas.",
+  "genero": "Kids, Comédia, Animação",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "21",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:20:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:14:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:20:45"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:57"
+        }
+      ]
+    }
+  ],
+  "id": 3489
+}

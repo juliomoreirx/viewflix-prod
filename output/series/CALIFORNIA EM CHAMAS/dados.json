@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4NTk=",
+  "tipo": "serie",
+  "titulo": "CALIFÓRNIA EM CHAMAS",
+  "capa_url": "https://lgfp.one/SSB",
+  "capa_local": "CALIFORNIA EM CHAMAS/CALIFORNIA EM CHAMAS.jpg",
+  "sinopse": "Este programa mostra ao espectador o trabalho da maior força de emergência dos EUA. Acompanhe o trabalho de 6100 bombeiros para conter incêndios recorrentes na Califórnia.",
+  "genero": "Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:40"
+        }
+      ]
+    }
+  ],
+  "id": 2176
+}

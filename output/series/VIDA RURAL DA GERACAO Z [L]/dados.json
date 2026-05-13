@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMxOTg=",
+  "tipo": "serie",
+  "titulo": "VIDA RURAL DA GERACAO Z [L]",
+  "capa_url": "https://lgfp.one/DQP8",
+  "capa_local": "VIDA RURAL DA GERACAO Z [L]/VIDA RURAL DA GERACAO Z [L].jpg",
+  "sinopse": "",
+  "genero": "Reality",
+  "elenco": "이은지, 양세찬, 이이경, 정동원, 송건희",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:16:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:12:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:49"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:14:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:52"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:16:17"
+        }
+      ]
+    }
+  ],
+  "id": 6011
+}

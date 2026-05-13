@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NTg=",
+  "tipo": "serie",
+  "titulo": "A COROA PERFEITA (2026) [L]",
+  "capa_url": "https://lgfp.one/SQP6",
+  "capa_local": "A COROA PERFEITA (2026) [L]/A COROA PERFEITA (2026) [L].jpg",
+  "sinopse": "Na Coreia do Sul do século 21, governada por uma monarquia constitucional, uma herdeira chaebol com tudo, menos status, tenta controlar seu futuro após cruzar com o príncipe que não tem nada, apenas status. Unidos por um contrato de casamento, eles vivem um romance que desafia barreiras sociais.",
+  "genero": "Comédia, Drama",
+  "elenco": "IU, Byeon Woo-seok, 노상현, 공승연, Yoo Su Bin",
+  "diretor": "박준화, 배희영",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:13:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:12:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:07:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:12:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:09:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:13:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:03:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:03:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:15:43"
+        }
+      ]
+    }
+  ],
+  "id": 9508
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5Nzg=",
+  "tipo": "serie",
+  "titulo": "SEM RASTROS",
+  "capa_url": "https://lgfp.one/YVX",
+  "capa_local": "SEM RASTROS/SEM RASTROS.jpg",
+  "sinopse": "Desi e Cati, uma cigana e uma mexicana, encontram o cadáver de uma mulher na mansão que acabaram de limpar. O pânico se instala. Devem chamar a polícia? Como deixaram tudo limpo, seriam as culpadas perfeitas, então precisam fugir: da polícia, mas também de bandidos russos, de uma família de milionários e de um ex-marido com mariachis. Vamos ver como elas se livram dessa \"bagunça\".",
+  "genero": "Comédia / Action & Adventure",
+  "elenco": "Carolina Yuste, Camila Sodi, Silvia Alonso, Leonardo Ortizgris, Adrian Grösser, Borja Luna, Beka Lemondzhava, Antonín Ludvík Havel",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:11"
+        }
+      ]
+    }
+  ],
+  "id": 66708
+}

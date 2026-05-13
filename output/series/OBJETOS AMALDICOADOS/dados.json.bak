@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyODU=",
+  "tipo": "serie",
+  "titulo": "OBJETOS AMALDICOADOS",
+  "capa_url": "https://lgfp.one/ANX8",
+  "capa_local": "OBJETOS AMALDICOADOS/OBJETOS AMALDICOADOS.jpg",
+  "sinopse": "Relatos impressionantes de pessoas que alegam ter sobrevivido a apavorantes atividades paranormais provocadas por um objeto assombrado.",
+  "genero": "Documentário, Drama",
+  "elenco": "Lev Cameron, Aryè Campos, James Hal Hardy, Don Baldaramos, William \"Will\" Daubert",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:31"
+        }
+      ]
+    }
+  ],
+  "id": 5160
+}

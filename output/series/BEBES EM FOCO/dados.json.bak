@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNTM=",
+  "tipo": "serie",
+  "titulo": "BEBÊS EM FOCO",
+  "capa_url": "https://lgfp.one/IUA",
+  "capa_local": "BEBES EM FOCO/BEBES EM FOCO.jpg",
+  "sinopse": "Esta série documental investiga a ciência inovadora que revela como as crianças descobrem a vida durante seu primeiro ano.",
+  "genero": "Documentário",
+  "elenco": "Pascal Wallisch",
+  "diretor": "Kim Duke, Adam Perkins, Emma Webster",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:39"
+        }
+      ]
+    }
+  ],
+  "id": 197
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MzU=",
+  "tipo": "serie",
+  "titulo": "CORACAO SOMBRIO",
+  "capa_url": "https://lgfp.one/PXL6",
+  "capa_local": "CORACAO SOMBRIO/CORACAO SOMBRIO.jpg",
+  "sinopse": "Sanna, de 21 anos, é filha de um rico proprietário de terras no sul da Suécia. Seu pai, Bengt, construiu sua fortuna arrendando as vastas terras herdadas a famílias de agricultores que, em sua maioria, mal conseguem sobreviver. Autoritário e inflexível, Bengt exerce poder sobre os menos favorecidos, enquanto Sanna enfrenta o peso de ser sua possível sucessora. Tudo se complica quando ela inicia um romance com Marcus, o filho sem recursos de um fazendeiro vizinho. Diante disso, Bengt lança um ultimato: ou ela abandona Marcus, ou perde a herança.",
+  "genero": "Drama, Crime",
+  "elenco": "Clara Christiansson Drake, Gustav Lindh, Aliette Opheim, Peter Andersson, Stella Juhlin",
+  "diretor": "Gustav Möller",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:45"
+        }
+      ]
+    }
+  ],
+  "id": 7956
+}

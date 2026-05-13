@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMjY=",
+  "tipo": "serie",
+  "titulo": "TERRA DOS MENINOS PELADOS",
+  "capa_url": "https://lgfp.one/DWO1",
+  "capa_local": "TERRA DOS MENINOS PELADOS/TERRA DOS MENINOS PELADOS.jpg",
+  "sinopse": "Raimundo, um menino que, cansado de ser alvo de chacotas, parte em uma viagem fantástica e chega a Tatipirun, uma terra encantada onde todos são exatamente como ele.",
+  "genero": "Drama, Kids",
+  "elenco": "Herval Silveira, Camille Heiss, Gustavo Pereira",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:00"
+        }
+      ]
+    }
+  ],
+  "id": 6110
+}

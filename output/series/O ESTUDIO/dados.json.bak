@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxNTk=",
+  "tipo": "serie",
+  "titulo": "O ESTUDIO",
+  "capa_url": "https://lgfp.one/NKT6",
+  "capa_local": "O ESTUDIO/O ESTUDIO.jpg",
+  "sinopse": "Seth Rogen interpreta o novo diretor de um estúdio de cinema. Buscando desesperadamente a aprovação das celebridades, ele e sua equipe de executivos da Continental Estúdios precisam equilibrar as exigências corporativas com suas ambições criativas enquanto tentam manter o cinema vivo e relevante.",
+  "genero": "Comédia",
+  "elenco": "Seth Rogen, Catherine O'Hara, Kathryn Hahn, Ike Barinholtz, Chase Sui Wonders",
+  "diretor": "Frida Perez",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:31:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:49"
+        }
+      ]
+    }
+  ],
+  "id": 8461
+}

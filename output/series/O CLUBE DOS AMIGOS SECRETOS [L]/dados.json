@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4MzM=",
+  "tipo": "serie",
+  "titulo": "O CLUBE DOS AMIGOS SECRETOS [L]",
+  "capa_url": "https://lgfp.one/SBT6",
+  "capa_local": "O CLUBE DOS AMIGOS SECRETOS [L]/O CLUBE DOS AMIGOS SECRETOS [L].jpg",
+  "sinopse": "Uma confusa batalha de dar presentes disfarçados! Esconda sua identidade, entre furtivamente em sua vida cotidiana como a Fada dos Caracóis e desapareça silenciosamente depois de trazer risadas e felicidade.",
+  "genero": "Reality",
+  "elenco": "추성훈, 노홍철, 이수지, 덱스, 제니",
+  "diretor": "김태호",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:24:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:29:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:45:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:27:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:29:24"
+        }
+      ]
+    }
+  ],
+  "id": 9018
+}

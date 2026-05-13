@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNzg=",
+  "tipo": "serie",
+  "titulo": "PEQUENOS GIGANTES DA NATUREZA",
+  "capa_url": "https://lgfp.one/BJL4",
+  "capa_local": "PEQUENOS GIGANTES DA NATUREZA/PEQUENOS GIGANTES DA NATUREZA.jpg",
+  "sinopse": "Quando se pensa nos animais dominantes que vagam pela Terra, grandes predadores, leões, ursos pardos e sucuris vêm à mente. Mas as criaturas mais poderosas e intimidadoras são os esquivos Pequenos Gigantes.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:20"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:22:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:23:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:23:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:22:30"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "14",
+          "codigo": "S02E14",
+          "duracao": "00:22:55"
+        }
+      ]
+    }
+  ],
+  "id": 5623
+}

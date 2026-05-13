@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwOTY=",
+  "tipo": "serie",
+  "titulo": "TUDO OU NADA: SELEÇÃO BRASILEIRA",
+  "capa_url": "https://lgfp.one/JIN",
+  "capa_local": "TUDO OU NADA SELECAO BRASILEIRA/TUDO OU NADA SELECAO BRASILEIRA.jpg",
+  "sinopse": "A Seleção Brasileira segue uma jornada de fé, fraternidade e trabalho duro para reinventar sua identidade e reconquistar uma base de fãs insatisfeita, enquanto busca vencer a Copa América 2019 em casa. Do vestiário, passando pelos treinamentos até os jogos, acompanhamos com acesso jamais visto os bastidores do time de futebol mais famoso do mundo.",
+  "genero": "Documentário",
+  "elenco": "Marquinhos, Everton Cebolinha, Rogério Langanke Caboclo, Paulo Vinícius Coelho, Fernandinho",
+  "diretor": "Felipe Briso, Daniel Ramirez-Suarez",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:35"
+        }
+      ]
+    }
+  ],
+  "id": 618
+}

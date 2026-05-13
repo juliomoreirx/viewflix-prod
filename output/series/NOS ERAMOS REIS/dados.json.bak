@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxMDQ=",
+  "tipo": "serie",
+  "titulo": "NOS ERAMOS REIS",
+  "capa_url": "https://lgfp.one/DTC4",
+  "capa_local": "NOS ERAMOS REIS/NOS ERAMOS REIS.jpg",
+  "sinopse": "Um trio de grandes amigos domina um bairro na Cidade do México. Até que uma tragédia destrói esse reinado e transforma dois deles em rivais.",
+  "genero": "Drama, Crime",
+  "elenco": "Joshua Okamoto, Ingrid Águila, Elías Toscano, María Rojo, Roberto Sosa",
+  "diretor": "Mauricio Lule, Pepé Valle, Santiago Zermeño",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:38:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:03"
+        }
+      ]
+    }
+  ],
+  "id": 6034
+}

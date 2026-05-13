@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIwMzM=",
+  "tipo": "serie",
+  "titulo": "NOSSO JEITO DE SER",
+  "capa_url": "https://lgfp.one/SUN",
+  "capa_local": "NOSSO JEITO DE SER/NOSSO JEITO DE SER.jpg",
+  "sinopse": "A história de Jack, Harrison e Violet, três colegas de quarto de vinte e poucos anos no espectro autista. A série acompanha os protagonistas enquanto eles se esforçam para conseguir e manter seus empregos, fazer amigos, se apaixonar e navegar em um mundo que os ilude.",
+  "genero": "Comédia",
+  "elenco": "Rick Glassman, Sue Ann Pien, Albert Rutecki, Sosie Bacon, Chris Pang, Joe Mantegna, Jennifer Lyons, Naomi Rubin",
+  "diretor": "Jason Katims",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:06"
+        }
+      ]
+    }
+  ],
+  "id": 2244
+}

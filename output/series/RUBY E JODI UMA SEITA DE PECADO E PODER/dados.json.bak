@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyOTY=",
+  "tipo": "serie",
+  "titulo": "RUBY E JODI: UMA SEITA DE PECADO E PODER",
+  "capa_url": "https://lgfp.one/QBH7",
+  "capa_local": "RUBY E JODI UMA SEITA DE PECADO E PODER/RUBY E JODI UMA SEITA DE PECADO E PODER.jpg",
+  "sinopse": "Revela a dinâmica e os motivos por trás da relação perturbadora entre a ex-vlogger materna Ruby Franke e a controversa terapeuta Jodi Hildebrandt.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jodi Hildebrandt, Janae Thompson, Ruby Franke",
+  "diretor": "Olivia Crist",
+  "total_episodios": "41",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:25"
+        }
+      ]
+    }
+  ],
+  "id": 8020
+}

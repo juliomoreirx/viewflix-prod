@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MjY=",
+  "tipo": "serie",
+  "titulo": "POR TRÁS DE SEUS OLHOS",
+  "capa_url": "https://lgfp.one/RNM",
+  "capa_local": "POR TRAS DE SEUS OLHOS/POR TRAS DE SEUS OLHOS.jpg",
+  "sinopse": "Uma mãe solo se envolve em um jogo perigoso ao ter um caso com o chefe e fazer amizade com a enigmática esposa dele.",
+  "genero": "Drama",
+  "elenco": "Simona Brown, Eve Hewson, Tom Bateman, Robert Aramayo, Tyler Howitt",
+  "diretor": "Erik Richter Strand",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:44"
+        }
+      ]
+    }
+  ],
+  "id": 1178
+}

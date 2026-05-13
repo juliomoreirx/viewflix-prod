@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NTc=",
+  "tipo": "serie",
+  "titulo": "LOVE TO HATE YOU",
+  "capa_url": "https://lgfp.one/YMP",
+  "capa_local": "LOVE TO HATE YOU/LOVE TO HATE YOU.jpg",
+  "sinopse": "Para uma mulher que detesta perder para os homens e para um homem que não confia nas mulheres, o amor é uma guerra. Qual é o limite entre o amor e o ódio?",
+  "genero": "Comédia / Drama",
+  "elenco": "Kim Ok-vin, Yoo Teo, Kim Ji-hun, Go Won-hee, Kim Sung-ryung",
+  "diretor": "Kim Jeong-kwon",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:22"
+        }
+      ]
+    }
+  ],
+  "id": 3281
+}

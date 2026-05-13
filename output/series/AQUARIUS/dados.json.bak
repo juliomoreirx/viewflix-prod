@@ -1,0 +1,155 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxODM=",
+  "tipo": "serie",
+  "titulo": "AQUARIUS",
+  "capa_url": "https://lgfp.one/IQF",
+  "capa_local": "AQUARIUS/AQUARIUS.jpg",
+  "sinopse": "Em 1967, o detetive da polícia Sam Hodiak de Los Angeles recebe ajuda em um caso de uma pessoa desaparecida. Sem que eles saibam, a investigação vai levá-los até Charles Manson.",
+  "genero": "Drama, Crime",
+  "elenco": "David Duchovny, Grey Damon, Gethin Anthony, Emma Dumont, Claire Holt",
+  "diretor": "Jonas Pate",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:47:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:45:16"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:47:39"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:42:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:42:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:42:32"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:42:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "00:43:14"
+        }
+      ]
+    }
+  ],
+  "id": 90
+}

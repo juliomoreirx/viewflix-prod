@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1ODQ=",
+  "tipo": "serie",
+  "titulo": "OS WINCHESTERS [L]",
+  "capa_url": "https://lgfp.one/VYK",
+  "capa_local": "OS WINCHESTERS [L]/OS WINCHESTERS [L].jpg",
+  "sinopse": "Antes de Sam e Dean, havia John e Mary. Contada a partir da perspectiva do narrador Dean Winchester, esta é a história de amor épica e não contada de como John conheceu Mary e como eles colocaram tudo em risco não apenas para salvar seu amor, mas o mundo inteiro.",
+  "genero": "Action & Adventure / Sci-Fi & Fantasy",
+  "elenco": "Meg Donnelly, Drake Rodger, Nida Khurshid, Jensen Ackles, Jojo Fleites",
+  "diretor": "Jensen Ackles, Danneel Ackles",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:01"
+        }
+      ]
+    }
+  ],
+  "id": 2998
+}

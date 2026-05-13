@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMTI=",
+  "tipo": "serie",
+  "titulo": "CASAMENTO ARRANJADO",
+  "capa_url": "https://lgfp.one/YVR",
+  "capa_local": "CASAMENTO ARRANJADO/CASAMENTO ARRANJADO.jpg",
+  "sinopse": "Na noite de seu casamento, Tari recebe uma proposta de acordo de seu marido Bian, afirmando que o casamento terminará depois de apenas um ano. Bian, que jura fidelidade a sua namorada de longa data, Sarah, só concordou com o casamento arranjado para satisfazer o desejo de seus pais. Tari tenta conquistar o amor de Bian.",
+  "genero": "Drama",
+  "elenco": "Refal Hady, Indah Permatasari, Susan Sameh, Zsazsa Utari, Wafda Saifan Lubis, Ibrahim Risyad, Chantiq Schagerl, Bucek Depp",
+  "diretor": "Archie Hekagery",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:20"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:09:53"
+        }
+      ]
+    }
+  ],
+  "id": 3352
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MDI=",
+  "tipo": "serie",
+  "titulo": "ESTRADA DE SANGUE",
+  "capa_url": "https://lgfp.one/RDZ3",
+  "capa_local": "ESTRADA DE SANGUE/ESTRADA DE SANGUE.jpg",
+  "sinopse": "Policial luta para manter a família unida e a paz na cidade onde cresceu. Após uma tragédia, ele faz uma aliança com membros perigosos da tribo que voltam para caçar os envolvidos.",
+  "genero": "Crime, Drama",
+  "elenco": "Martin Henderson, Jason Momoa, Julianne Nicholson, Allie Gonino, Tom Sizemore",
+  "diretor": "",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:14"
+        }
+      ]
+    }
+  ],
+  "id": 8497
+}

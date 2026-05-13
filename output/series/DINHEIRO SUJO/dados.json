@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMzI=",
+  "tipo": "serie",
+  "titulo": "DINHEIRO SUJO",
+  "capa_url": "https://lgfp.one/IXH",
+  "capa_local": "DINHEIRO SUJO/DINHEIRO SUJO.jpg",
+  "sinopse": "Recém-chegado de Hollywood, o pequeno Isaac revela que foi vítima de abuso de um famoso cineasta. Seus pais ficam divididos entre tornar o caso público ou preservar a criança.",
+  "genero": "Drama",
+  "elenco": "Babou Ceesay, Jill Halfpenny, Max Fincham, Olive Gray, Rudi Dharmalingam",
+  "diretor": "Lewis Arnold",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:33"
+        }
+      ]
+    }
+  ],
+  "id": 323188
+}

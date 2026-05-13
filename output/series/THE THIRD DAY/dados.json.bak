@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NjA=",
+  "tipo": "serie",
+  "titulo": "THE THIRD DAY",
+  "capa_url": "https://lgfp.one/KBE1",
+  "capa_local": "THE THIRD DAY/THE THIRD DAY.jpg",
+  "sinopse": "Sam e Helen, duas pessoas que, atraídas por razões diferentes, viajam separadamente para uma misteriosa ilha da costa britânica. Ali, enquanto fantasia e realidade se confundem, ambos descobrem que os locais estão dispostos a preservar seus segredos a qualquer custo.",
+  "genero": "Mistério, Drama, Sci-Fi & Fantasy",
+  "elenco": "Jude Law, Katherine Waterston, Freya Allan, John Dagleish, Mark Lewis Jones",
+  "diretor": "Marc Munden",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:03"
+        }
+      ]
+    }
+  ],
+  "id": 6334
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MDE=",
+  "tipo": "serie",
+  "titulo": "MS ESTONIA: TRAGÉDIA EM ALTO MAR",
+  "capa_url": "https://lgfp.one/TOJ",
+  "capa_local": "MS ESTONIA TRAGEDIA EM ALTO MAR/MS ESTONIA TRAGEDIA EM ALTO MAR.jpg",
+  "sinopse": "A história do pior desastre envolvendo meios de transporte na Europa desde a Segunda Guerra: em 1994 a balsa \"MS Estonia\", uma propriedade da Estônia, afundou em uma tragédia que matou 852 pessoas. Os sobreviventes conseguiram escapar do naufrágio, mesmo depois de o navio ter sucumbido à força da água, e ainda hoje buscam justiça. A produção analisa o que levou a balsa à catástrofe.",
+  "genero": "Documentário",
+  "elenco": "Lars Borgnäs",
+  "diretor": "Henrik Evertsson, Bendik Mondal, Ingrid Boon Ulfsby",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:39"
+        }
+      ]
+    }
+  ],
+  "id": 2780
+}

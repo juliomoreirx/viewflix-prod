@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3MTA=",
+  "tipo": "serie",
+  "titulo": "THE LITTLE DRUMMER GIRL",
+  "capa_url": "https://lgfp.one/JFA",
+  "capa_local": "THE LITTLE DRUMMER GIRL/THE LITTLE DRUMMER GIRL.jpg",
+  "sinopse": "Assassino palestino ataca israelenses famosos. Atriz inglesa é recrutada para se infiltrar na célula terrorista do assassino. Isso exigirá seu talento de atriz e a colocará em risco.",
+  "genero": "Drama, War & Politics",
+  "elenco": "Florence Pugh, Michael Shannon, Alexander Skarsgård, Michael Moshonov, Kate Sumpter",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:54"
+        }
+      ]
+    }
+  ],
+  "id": 517
+}

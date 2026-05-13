@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMjk=",
+  "tipo": "serie",
+  "titulo": "COM A PERMISSÃO DO TRIBUNAL",
+  "capa_url": "https://lgfp.one/XUB",
+  "capa_local": "COM A PERMISSAO DO TRIBUNAL/COM A PERMISSAO DO TRIBUNAL.jpg",
+  "sinopse": "Noh Chakhee, a brilhante advogada do grande escritório de advocacia Jangsan, torna-se defensora pública da noite para o dia. Este drama de mistério jurídico segue seu envolvimento com outro excêntrico defensor público, Jwa Sibaek, enquanto assume um caso de assassinato em série.",
+  "genero": "Drama",
+  "elenco": "Jung Ryeo-won, Lee Kyoo-hyung, Jung Jin-young, Kim Hye-eun, Kim Sang-ho, Park So-jin, Go Gyu-pil, Hong Seo-joon",
+  "diretor": "Kang Min-koo",
+  "total_episodios": "64",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:04:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:00:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:10:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:08:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:00:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:59"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:59:21"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:19:18"
+        }
+      ]
+    }
+  ],
+  "id": 3210
+}

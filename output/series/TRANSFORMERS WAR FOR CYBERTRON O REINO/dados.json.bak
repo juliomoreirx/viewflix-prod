@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5NjI=",
+  "tipo": "serie",
+  "titulo": "TRANSFORMERS: WAR FOR CYBERTRON: O REINO",
+  "capa_url": "https://lgfp.one/SBE",
+  "capa_local": "TRANSFORMERS WAR FOR CYBERTRON O REINO/TRANSFORMERS WAR FOR CYBERTRON O REINO.jpg",
+  "sinopse": "Após batalhas no planeta-natal e a bordo da Arca, uma nave espacial cybertroniana, agora a batalha chega ao futuro, onde todos cruzarão caminho com os personagens Beast Wars.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Jake Foushee, Jason Marnocha, Justin Luther, Marqus Bobesich, Joe Zieja",
+  "diretor": "Vincent Talenti",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:40"
+        }
+      ]
+    }
+  ],
+  "id": 228419
+}

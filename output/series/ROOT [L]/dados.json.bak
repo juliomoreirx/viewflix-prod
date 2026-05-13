@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyOTU=",
+  "tipo": "serie",
+  "titulo": "ROOT [L]",
+  "capa_url": "https://lgfp.one/ATC6",
+  "capa_local": "ROOT [L]/ROOT [L].jpg",
+  "sinopse": "A detetive experiente, Rena, e um novato deslumbrado, Sato, assumem uma investigação sem muita importância. Tudo corre bem, até que um bandido chamado Dobu rouba suas provas. Desanimados, eles aceitam o trabalho de investigar a vida de um motorista de táxi chamado Odokawa, na esperança de se redimirem. Eles acabam no meio de um caso de desaparecimento, com gangsters, estudantes e surpresas a cada esquina.",
+  "genero": "Mistério, Crime, Comédia",
+  "elenco": "Yuumi Kawai, Ryota Bando, Daisuke Kuroda, Rio Teramoto, Atsuko Fukuda",
+  "diretor": "Takafumi Tsuchiya, Takafumi Tsuchiya, Naoyoshi Kawamatsu",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:15"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:00"
+        }
+      ]
+    }
+  ],
+  "id": 140427
+}

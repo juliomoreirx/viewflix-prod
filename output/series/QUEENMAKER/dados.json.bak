@@ -1,0 +1,75 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0NTE=",
+  "tipo": "serie",
+  "titulo": "QUEENMAKER",
+  "capa_url": "https://lgfp.one/ZIW",
+  "capa_local": "QUEENMAKER/QUEENMAKER.jpg",
+  "sinopse": "O trabalho dela é abafar os escândalos dos ricos e poderosos. Mas um trágico acidente a faz tentar eleger uma advogada e ativista como a nova prefeita de Seul.",
+  "genero": "Drama",
+  "elenco": "Kim Hee-ae, Moon So-ri, Ryu Soo-young, Seo Yi-sook, Ok Ja-yeon, Yoon Ji-hye, Kim Sae-byuk, Lee Kyung-young",
+  "diretor": "Oh Jin-seok",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:06:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:06:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:05:12"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:12:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:00"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:10:01"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:14:31"
+        }
+      ]
+    }
+  ],
+  "id": 3431
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5NTM=",
+  "tipo": "serie",
+  "titulo": "PROJETO OVNI",
+  "capa_url": "https://lgfp.one/NPR7",
+  "capa_local": "PROJETO OVNI/PROJETO OVNI.jpg",
+  "sinopse": "Um apresentador de TV arrogante e um ufólogo trabalham para descobrir as origens da suposta aparição de um OVNI, dividindo a nação em um mar de dúvidas e crenças.",
+  "genero": "Comédia, Drama, Sci-Fi & Fantasy",
+  "elenco": "Piotr Adamczyk, Mateusz Kościukiewicz, Maja Ostaszewska, Julia Kijowska, Adam Woronowicz",
+  "diretor": "Emi Buchwald",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:39"
+        }
+      ]
+    }
+  ],
+  "id": 7197
+}

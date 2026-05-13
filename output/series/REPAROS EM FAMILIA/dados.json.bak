@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExMDc=",
+  "tipo": "serie",
+  "titulo": "REPAROS EM FAMILIA",
+  "capa_url": "https://lgfp.one/NSH9",
+  "capa_local": "REPAROS EM FAMILIA/REPAROS EM FAMILIA.jpg",
+  "sinopse": "Matt, um viúvo obstinado, é o proprietário de uma oficina de carros clássicos. Quando sua filha separada e seus filhos adolescentes chegam à sua casa, a verdadeira restauração começa.",
+  "genero": "Comédia",
+  "elenco": "Tim Allen, Kat Dennings, Seann William Scott, Daryl Mitchell, Maxwell Simkins",
+  "diretor": "John Pasquin",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:20:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:20:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:21:33"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:21:33"
+        }
+      ]
+    }
+  ],
+  "id": 7246
+}

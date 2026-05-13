@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzMzE=",
+  "tipo": "serie",
+  "titulo": "DUSTER",
+  "capa_url": "https://lgfp.one/NVI2",
+  "capa_local": "DUSTER/DUSTER.jpg",
+  "sinopse": "A primeira agente negra do FBI vai ao sudoeste dos EUA e recruta um piloto de fuga corajoso em uma tentativa ousada de derrubar uma organização mafiosa em ascensão.",
+  "genero": "Crime, Drama",
+  "elenco": "Josh Holloway, Rachel Hilson, Asivak Koostachin, Sydney Elisabeth, Benjamin Charles Watson",
+  "diretor": "J.J. Abrams",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:34"
+        }
+      ]
+    }
+  ],
+  "id": 7286
+}

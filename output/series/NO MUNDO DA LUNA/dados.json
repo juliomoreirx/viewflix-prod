@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3ODc=",
+  "tipo": "serie",
+  "titulo": "NO MUNDO DA LUNA",
+  "capa_url": "https://lgfp.one/WAX",
+  "capa_local": "NO MUNDO DA LUNA/NO MUNDO DA LUNA.jpg",
+  "sinopse": "Luna é uma jovem cigana que busca seu primeiro emprego como jornalista. Ela tem uma surpresa ao descobrir que pode conversar com cartas de tarô e precisa decidir entre dois pretendentes: Vini e Dante.",
+  "genero": "Comédia, Drama",
+  "elenco": "Marina Moschen, Enzo Romani, Leonardo Bittencourt, Maria Clara Gueiros, Rosi Campos",
+  "diretor": "Roberto d'Avila",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:30:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:34:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:31:20"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:32:39"
+        }
+      ]
+    }
+  ],
+  "id": 3062
+}

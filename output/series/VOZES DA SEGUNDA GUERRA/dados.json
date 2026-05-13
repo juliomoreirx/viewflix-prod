@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyODk=",
+  "tipo": "serie",
+  "titulo": "VOZES DA SEGUNDA GUERRA",
+  "capa_url": "https://lgfp.one/AUXM",
+  "capa_local": "VOZES DA SEGUNDA GUERRA/VOZES DA SEGUNDA GUERRA.jpg",
+  "sinopse": "Com imagens de arquivo vividamente aprimoradas e vozes de todos os lados do conflito, esta série documental faz uma releitura inédita da Segunda Guerra Mundial.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "John Boyega, Adolf Hitler, Winston Churchill",
+  "diretor": "Rob Coldstream, Hermann Pölking-Eiken, Morgane Ciret",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:41"
+        }
+      ]
+    }
+  ],
+  "id": 4581
+}

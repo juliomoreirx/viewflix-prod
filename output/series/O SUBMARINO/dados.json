@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2Nzg=",
+  "tipo": "serie",
+  "titulo": "O SUBMARINO",
+  "capa_url": "https://lgfp.one/TEJ",
+  "capa_local": "O SUBMARINO/O SUBMARINO.jpg",
+  "sinopse": "Quando um desastre atinge a Terra, um biólogo marinho a bordo de um submarino precisa lutar para sobreviver com a equipe. Para piorar, eles descobrem uma conspiração.",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Kıvanç Tatlıtuğ, Özge Özpirinçci, Ertan Saban, Meriç Aral, Jerry Hoffmann",
+  "diretor": "Umut Aral, Tolga Karaçelik",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:54"
+        }
+      ]
+    }
+  ],
+  "id": 2506
+}

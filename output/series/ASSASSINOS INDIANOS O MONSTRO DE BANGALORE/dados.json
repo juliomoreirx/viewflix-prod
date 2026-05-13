@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2NTg=",
+  "tipo": "serie",
+  "titulo": "ASSASSINOS INDIANOS O MONSTRO DE BANGALORE",
+  "capa_url": "https://lgfp.one/RRA1",
+  "capa_local": "ASSASSINOS INDIANOS O MONSTRO DE BANGALORE/ASSASSINOS INDIANOS O MONSTRO DE BANGALORE.jpg",
+  "sinopse": "Uma força policial despreparada enfrenta uma caçada pelo cruel assassino de mulheres que aterroriza todo o estado.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:28"
+        }
+      ]
+    }
+  ],
+  "id": 8843
+}

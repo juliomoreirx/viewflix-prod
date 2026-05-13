@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2ODE=",
+  "tipo": "serie",
+  "titulo": "GAROTA INVENCIVEL",
+  "capa_url": "https://lgfp.one/EHK2",
+  "capa_local": "GAROTA INVENCIVEL/GAROTA INVENCIVEL.jpg",
+  "sinopse": "Uma jovem lutadora em treinamento parte em uma jornada com seus amigos para se tornar a maior de todas.",
+  "genero": "Animação, Action & Adventure, Comédia",
+  "elenco": "Sydney Mikayla, Paul Castro Jr., Rolonda Watts",
+  "diretor": "Bryan Newton",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:36"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:22:38"
+        }
+      ]
+    }
+  ],
+  "id": 6253
+}

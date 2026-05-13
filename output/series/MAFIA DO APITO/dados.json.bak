@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgwODE=",
+  "tipo": "serie",
+  "titulo": "MAFIA DO APITO",
+  "capa_url": "https://lgfp.one/PYV1",
+  "capa_local": "MAFIA DO APITO/MAFIA DO APITO.jpg",
+  "sinopse": "Essa série expõe o maior escândalo do futebol brasileiro em ritmo explosivo, com escutas reais, depoimentos inéditos e estética de cinema noir!",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:49"
+        }
+      ]
+    }
+  ],
+  "id": 7979
+}

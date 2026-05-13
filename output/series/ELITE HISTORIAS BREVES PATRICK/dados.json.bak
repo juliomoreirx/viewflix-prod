@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODg=",
+  "tipo": "serie",
+  "titulo": "ÉLITE HISTORIAS BREVES: PATRICK",
+  "capa_url": "https://lgfp.one/TDB",
+  "capa_local": "ELITE HISTORIAS BREVES PATRICK/ELITE HISTORIAS BREVES PATRICK.jpg",
+  "sinopse": "Agora que está em remissão, Ander quer passar o verão ajudando seu parceiro de quimioterapia, Alexis, a enfrentar o tratamento.",
+  "genero": "Mistério, Comédia",
+  "elenco": "Manu Ríos, Carla Díaz, Martina Cariddi, Iván Pellicer, Diego Martín",
+  "diretor": "Eduardo Chapero-Jackson",
+  "total_episodios": "12",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:13:38"
+        }
+      ]
+    }
+  ],
+  "id": 2470
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1OTI=",
+  "tipo": "serie",
+  "titulo": "DA PONTE PRA LA",
+  "capa_url": "https://lgfp.one/ARL0",
+  "capa_local": "DA PONTE PRA LA/DA PONTE PRA LA.jpg",
+  "sinopse": "Malu, uma humilde aspirante a rapper, se infiltra em uma escola exclusiva de São Paulo para descobrir quem matou seu melhor amigo, um garoto trans, e descobre grandes fissuras e pontes inesperadas entre a elite e a periferia da cidade.",
+  "genero": "Drama",
+  "elenco": "Gabz, Victor Liam, João Guilherme Ávila, Esther Tinman, Nina Tomsic",
+  "diretor": "Vicente Amorim, Rafael Spínola, Thiago Villas Boas",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:40:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:02"
+        }
+      ]
+    }
+  ],
+  "id": 5214
+}

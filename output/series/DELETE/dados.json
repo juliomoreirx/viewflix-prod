@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzOTY=",
+  "tipo": "serie",
+  "titulo": "DELETE",
+  "capa_url": "https://lgfp.one/AAKV",
+  "capa_local": "DELETE/DELETE.jpg",
+  "sinopse": "Um homem e uma mulher que vivem um caso extraconjugal planejam uma nova vida juntos após descobrirem um telefone com o poder de fazer as pessoas sumirem da face da Terra.",
+  "genero": "Mistério, Drama",
+  "elenco": "ณัฏฐ์ กิจจริต, ณัฐรัตน์ นพรัตยาภรณ์, ษริกา สารทศิลป์ศุภา, ชุติมณฑน์ จึงเจริญสุขยิ่ง, วาศิตา แฮเมเนา",
+  "diretor": "ภาคภูมิ วงศ์ภูมิ, Atis T. Asanachinda, ภาคภูมิ วงศ์ภูมิ",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:08"
+        }
+      ]
+    }
+  ],
+  "id": 3626
+}

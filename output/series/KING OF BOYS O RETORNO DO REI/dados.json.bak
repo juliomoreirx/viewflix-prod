@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4Mzc=",
+  "tipo": "serie",
+  "titulo": "KING OF BOYS: O RETORNO DO REI",
+  "capa_url": "https://lgfp.one/SEY",
+  "capa_local": "KING OF BOYS O RETORNO DO REI/KING OF BOYS O RETORNO DO REI.jpg",
+  "sinopse": "Uma antiga inimizade. Conforme a campanha ganha força, Eniola reflete sobre a fé e a independência — e retoma um acordo do passado para garantir o futuro.",
+  "genero": "Drama",
+  "elenco": "Lord Frank, Richard Mofe-Damijo, Osas Ighodaro, Sola Sobowale, Remilekun Reminisce Safaru",
+  "diretor": "Kemi Adetiba",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:19:02"
+        }
+      ]
+    }
+  ],
+  "id": 1820
+}

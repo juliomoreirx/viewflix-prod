@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2NzQ=",
+  "tipo": "serie",
+  "titulo": "SHOGUN [L]",
+  "capa_url": "https://lgfp.one/PZN4",
+  "capa_local": "SHOGUN [L]/SHOGUN [L].jpg",
+  "sinopse": "No século XVII, um navio holandês navega pelo Pacífico desde as Américas para escapar dos espanhóis. O piloto-major John Blackthorne é o piloto do navio e o primeiro a perceber as possibilidades do Japão. O Japão é uma sociedade feudal com forte presença portuguesa. Está em fase final uma luta para decidir quem será o Shogun, o líder que, sob o comando do Imperador, governa o país. Lorde Yoshi Toranaga vê em Blackthorn coisas que ele pode usar para pelo menos sobreviver à luta que está por vir e, se ambos jogarem corretamente, tornar-se Shogun.",
+  "genero": "Action & Adventure, Drama, War & Politics",
+  "elenco": "Richard Chamberlain, Toshirô Mifune, 島田陽子, John Rhys-Davies, Damien Thomas",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "02:50:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "03:00:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "03:17:24"
+        }
+      ]
+    }
+  ],
+  "id": 7986
+}

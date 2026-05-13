@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwNzU=",
+  "tipo": "serie",
+  "titulo": "PARIS HAS FALLEN [L]",
+  "capa_url": "https://lgfp.one/DXO8",
+  "capa_local": "PARIS HAS FALLEN [L]/PARIS HAS FALLEN [L].jpg",
+  "sinopse": "Vincent é um agente secreto que trabalha para o governo dos Estados Unidos e ficou encarregado de proteger um político muito poderoso. Quando um grupo terrorista ameaça a segurança do ministro francês, o agente precisa se aliar a outros do ramo para garantir a segurança do político.",
+  "genero": "Action & Adventure, War & Politics",
+  "elenco": "Tewfik Jallab, Ritu Arya, Emmanuelle Bercot, Ana Ularu, Nathan Willcocks",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:05"
+        }
+      ]
+    }
+  ],
+  "id": 6139
+}

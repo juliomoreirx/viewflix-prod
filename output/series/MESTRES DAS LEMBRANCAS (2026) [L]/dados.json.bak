@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMTM=",
+  "tipo": "serie",
+  "titulo": "MESTRES DAS LEMBRANCAS (2026) [L]",
+  "capa_url": "https://lgfp.one/SFT9",
+  "capa_local": "MESTRES DAS LEMBRANCAS (2026) [L]/MESTRES DAS LEMBRANCAS (2026) [L].jpg",
+  "sinopse": "Uma descoberta sombria em um canteiro de obras reúne três amigos de meia-idade. Juntos, eles relembram o misterioso desaparecimento de sua orientadora da época de escola.",
+  "genero": "Drama, Mistério",
+  "elenco": "反町隆史, 大森南朋, Kenjiro Tsuda, Mai Kiryu, 福本莉子",
+  "diretor": "森脇智延",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:44:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:07"
+        }
+      ]
+    }
+  ],
+  "id": 9115
+}

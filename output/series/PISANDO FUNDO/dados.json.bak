@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MTI=",
+  "tipo": "serie",
+  "titulo": "PISANDO FUNDO",
+  "capa_url": "https://lgfp.one/TAA",
+  "capa_local": "PISANDO FUNDO/PISANDO FUNDO.jpg",
+  "sinopse": "Uma corrida traz consequências fatais, e os amigos Kike e Noche fogem para a Cidade do México para se esconder, recomeçar a vida e fugir do perigo – ou pelo menos tentar.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Andrés Delgado, Renata Vaca, Benny Emmanuel, Gerardo Taracena, David Montalvo",
+  "diretor": "Ernesto Contreras, Alejandro Fernández Almendras, Edgar Nito",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:37:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:35:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:50"
+        }
+      ]
+    }
+  ],
+  "id": 2389
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2MDE=",
+  "tipo": "serie",
+  "titulo": "ALGO HORRIVEL VAI ACONTECER (2026)",
+  "capa_url": "https://lgfp.one/SKJ9",
+  "capa_local": "ALGO HORRIVEL VAI ACONTECER (2026)/ALGO HORRIVEL VAI ACONTECER (2026).jpg",
+  "sinopse": "Uma noiva tem a sensação de que algo horrível vai acontecer no dia do seu casamento. E quanto mais a hora do “sim” se aproxima, pior fica.",
+  "genero": "Drama, Mistério",
+  "elenco": "Camila Morrone, Adam DiMarco, Jennifer Jason Leigh, Ted Levine, Jeff Wilbusch",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:19"
+        }
+      ]
+    }
+  ],
+  "id": 9187
+}

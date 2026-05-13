@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTA=",
+  "tipo": "serie",
+  "titulo": "NOTRE-DAME: CATEDRAL EM CHAMAS",
+  "capa_url": "https://lgfp.one/VXG",
+  "capa_local": "NOTRE-DAME CATEDRAL EM CHAMAS/NOTRE-DAME CATEDRAL EM CHAMAS.jpg",
+  "sinopse": "Inspirada em histórias reais de bombeiros franceses, esta série de drama explora o impacto do incêndio da catedral de Notre-Dame, em 2019, na vida de um grupo de parisienses.",
+  "genero": "Drama",
+  "elenco": "Roschdy Zem, Caroline Proust, Simon Abkarian, Alice Isaaz, Sandor Funtek",
+  "diretor": "Hervé Hadmar",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:44"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:00"
+        }
+      ]
+    }
+  ],
+  "id": 134658
+}

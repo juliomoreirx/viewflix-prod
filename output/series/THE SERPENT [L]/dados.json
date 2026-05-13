@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2NTY=",
+  "tipo": "serie",
+  "titulo": "THE SERPENT [L]",
+  "capa_url": "https://lgfp.one/RLR",
+  "capa_local": "THE SERPENT [L]/THE SERPENT [L].jpg",
+  "sinopse": "Charles Sobrhaj (Tahar Rahim) é um dos criminosos mais detestáveis do século XX. Ele foi o principal suspeito dos assassinatos não resolvidos de até 20 jovens viajantes na Índia, Tailândia e 'Hippie Trail' do Nepal em 1975 e 1976. Psicopata, vigarista, ladrão e mestre do disfarce, tendo escapado repetidamente do alcance das autoridades em todo o mundo. Em 1976, o serial killer Sobhraj era o homem mais procurado da Interpol e tinha mandados de prisão em três continentes diferentes. - Série original Netflix de oito episódios.",
+  "genero": "Drama, Crime",
+  "elenco": "Tahar Rahim, Jenna Coleman, Ellie Bamber, Billy Howle, Amesh Edireweera",
+  "diretor": "",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:44"
+        }
+      ]
+    }
+  ],
+  "id": 1130
+}

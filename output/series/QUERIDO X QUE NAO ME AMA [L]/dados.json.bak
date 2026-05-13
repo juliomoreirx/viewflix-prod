@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NTE=",
+  "tipo": "serie",
+  "titulo": "QUERIDO X QUE NAO ME AMA [L]",
+  "capa_url": "https://lgfp.one/RSP9",
+  "capa_local": "QUERIDO X QUE NAO ME AMA [L]/QUERIDO X QUE NAO ME AMA [L].jpg",
+  "sinopse": "Conta a história de jovens na casa dos 20 anos que estão lutando com seus sonhos e amor, anunciando o nascimento de um drama simpático à realidade. 'To X Who Doesn't Love Me' é um drama de romance de \"data de validade\" que conta a história de Seo Hee Su, uma estudante universitária e aspirante a letrista com zero autoestima e zero amor-próprio, que descobre uma nota lírica misteriosa que faz com que alguém se apaixone por ela por um mês e se entrelaça com Jung Si Ho.",
+  "genero": "Drama",
+  "elenco": "한지효, 도영, Kwon Ah-reum, Bang Jae-min, Son Hyun-woo",
+  "diretor": "Ko Jae-hong, Ko Jae-hong",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:25"
+        }
+      ]
+    }
+  ],
+  "id": 8884
+}

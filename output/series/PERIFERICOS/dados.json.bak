@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5ODk=",
+  "tipo": "serie",
+  "titulo": "PERIFÉRICOS",
+  "capa_url": "https://lgfp.one/VXO",
+  "capa_local": "PERIFERICOS/PERIFERICOS.jpg",
+  "sinopse": "Flynne Fisher É uma garota que tenta juntar os cacos de sua família destruída, em um canto esquecido dos Estados Unidos de amanhã. Flynne é sagaz, ambiciosa e está condenada. Ela não tem futuro. Até que o futuro vem convocá-la.",
+  "genero": "Sci-Fi & Fantasy / Drama",
+  "elenco": "Chloë Grace Moretz, Gary Carr, Jack Reynor, JJ Feild, T'Nia Miller, Louis Herthum, Katie Leung, Melinda Page Hamilton",
+  "diretor": "Scott B. Smith",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:11:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:18"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:47"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:35"
+        }
+      ]
+    }
+  ],
+  "id": 2977
+}

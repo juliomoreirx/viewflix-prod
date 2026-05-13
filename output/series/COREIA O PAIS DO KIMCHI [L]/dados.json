@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1MDQ=",
+  "tipo": "serie",
+  "titulo": "COREIA O PAIS DO KIMCHI [L]",
+  "capa_url": "https://lgfp.one/ABAI",
+  "capa_local": "COREIA O PAIS DO KIMCHI [L]/COREIA O PAIS DO KIMCHI [L].jpg",
+  "sinopse": "Embarque em uma aventura gastronômica com o kimchi para descobrir tudo e mais um pouco sobre o prato coreano que simboliza união, história e criatividade.",
+  "genero": "Documentário",
+  "elenco": "Huh Young-man, Ryu Soo-young, Kim Mi-hyun",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:30"
+        }
+      ]
+    }
+  ],
+  "id": 4068
+}

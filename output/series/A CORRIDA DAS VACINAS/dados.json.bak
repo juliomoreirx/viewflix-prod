@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MzU=",
+  "tipo": "serie",
+  "titulo": "A CORRIDA DAS VACINAS",
+  "capa_url": "https://lgfp.one/RPO",
+  "capa_local": "A CORRIDA DAS VACINAS/A CORRIDA DAS VACINAS.jpg",
+  "sinopse": "Em 5 episódios, os bastidores de uma grande conquista da ciência: a criação, em tempo recorde, de vacinas contra a Covid-19. Na Índia, na Rússia, na China, nos EUA, na Europa e no Brasil.",
+  "genero": "Documentário, News",
+  "elenco": "Álvaro Pereira Júnior",
+  "diretor": "Álvaro Pereira Júnior",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:28"
+        }
+      ]
+    }
+  ],
+  "id": 1232
+}

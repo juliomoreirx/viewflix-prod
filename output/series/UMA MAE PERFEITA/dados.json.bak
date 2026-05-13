@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2NTM=",
+  "tipo": "serie",
+  "titulo": "UMA MÃE PERFEITA",
+  "capa_url": "https://lgfp.one/TIG",
+  "capa_local": "UMA MAE PERFEITA/UMA MAE PERFEITA.jpg",
+  "sinopse": "Convencida de que sua filha é inocente em um homicídio, uma mãe dedicada faz descobertas perturbadoras e a linha que separa vítima e agressor começa a desaparecer.",
+  "genero": "Crime, Drama",
+  "elenco": "Julie Gayet, Tomer Sisley, Eden Ducourant, Andreas Pietschmann, Cyril Gueï",
+  "diretor": "Maëva Poli, Lukas Rakotozafiarison, Olivier Vergès",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:38"
+        }
+      ]
+    }
+  ],
+  "id": 2609
+}

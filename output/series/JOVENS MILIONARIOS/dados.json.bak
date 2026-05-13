@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4NDY=",
+  "tipo": "serie",
+  "titulo": "JOVENS MILIONARIOS",
+  "capa_url": "https://lgfp.one/PSJ5",
+  "capa_local": "JOVENS MILIONARIOS/JOVENS MILIONARIOS.jpg",
+  "sinopse": "Depois de ganhar 17 milhões de euros, quatro adolescentes de Marselha sonham com iates e liberdade. Mas o dinheiro traz um caos que eles não imaginavam.",
+  "genero": "Comédia, Drama",
+  "elenco": "Abraham Wapler, Malou Khebizi, Calixte Broisin-Doutaz, Sara Gançarski, Jeanne Boudier",
+  "diretor": "Tania Gotesman, Théo Jourdain, Igor Gotesman",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:32:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:33:32"
+        }
+      ]
+    }
+  ],
+  "id": 7785
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNTg=",
+  "tipo": "serie",
+  "titulo": "ONDA BOA COM IVETE",
+  "capa_url": "https://lgfp.one/SXP",
+  "capa_local": "ONDA BOA COM IVETE/ONDA BOA COM IVETE.jpg",
+  "sinopse": "Os fãs de Ivete Sangalo poderão fazer um mergulho no processo criativo da artista e seus convidados. Com um ângulo mais intimista, a cada episódio Ivete recebe outros músicos consagrados para um bate-papo e desenvolvimento de novas músicas.",
+  "genero": "Documentário / Talk",
+  "elenco": "Ivete Sangalo",
+  "diretor": "Kátia Lund",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:32:39"
+        }
+      ]
+    }
+  ],
+  "id": 2326
+}

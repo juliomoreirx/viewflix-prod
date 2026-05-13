@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MDg=",
+  "tipo": "serie",
+  "titulo": "GOOP: MUITO ALÉM DO PRAZER",
+  "capa_url": "https://lgfp.one/SLG",
+  "capa_local": "GOOP MUITO ALEM DO PRAZER/GOOP MUITO ALEM DO PRAZER.jpg",
+  "sinopse": "Neste reality, Gwyneth Paltrow e um time de especialistas ajudam casais corajosos que estão em busca de mais prazer e intimidade no sexo.",
+  "genero": "Reality, Talk, Documentário",
+  "elenco": "Michaela Boehm, Gwyneth Paltrow",
+  "diretor": "",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:30:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:18"
+        }
+      ]
+    }
+  ],
+  "id": 1987
+}

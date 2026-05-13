@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgzMDM=",
+  "tipo": "serie",
+  "titulo": "GIRLSQUAD",
+  "capa_url": "https://lgfp.one/YJX",
+  "capa_local": "GIRLSQUAD/GIRLSQUAD.jpg",
+  "sinopse": "Um grupo de amigas inseparáveis vive as loucuras e confusões da adolescência, enquanto diversos mistérios ocorrem em sua volta.",
+  "genero": "Drama / Mistério",
+  "elenco": "Uma Couji, Lola Saint-Gilles, Mina Boudjani, Paloma Vauthier, Apollonia  Luisetti",
+  "diretor": "Katia Raïs",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:09"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:14:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:21:04"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:15:53"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:18:09"
+        }
+      ]
+    }
+  ],
+  "id": 3258
+}

@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5MDQ=",
+  "tipo": "serie",
+  "titulo": "SELENA: A SÉRIE",
+  "capa_url": "https://lgfp.one/RRK",
+  "capa_local": "SELENA A SERIE/SELENA A SERIE.jpg",
+  "sinopse": "Na adolescência, a cantora americana de origem mexicana Selena precisa fazer escolhas difíceis junto com sua família em nome do amor e da música.",
+  "genero": "Drama",
+  "elenco": "Christian Serratos, Gabriel Chavarria, Ricardo Chavira, Noemi Gonzalez, Seidy López",
+  "diretor": "Hiromi Kamata",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:52"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:37:22"
+        }
+      ]
+    }
+  ],
+  "id": 1284
+}

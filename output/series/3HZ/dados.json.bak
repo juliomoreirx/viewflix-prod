@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyNjQ=",
+  "tipo": "serie",
+  "titulo": "3HZ",
+  "capa_url": "https://lgfp.one/AAWR",
+  "capa_local": "3HZ/3HZ.jpg",
+  "sinopse": "Felix consegue ouvir o passado através de seu antigo walkman. Com a ajuda de seus amigos, ele começa a buscar respostas para a misteriosa morte de sua mãe e, no processo, descobre um escândalo ambiental. Na década de 1980, foram despejados resíduos ilegalmente, gerando um risco para a sua cidade. O que isso tem a ver com a morte de sua mãe? Será que ele vai conseguir evitar a catástrofe?",
+  "genero": "Mistério, Kids",
+  "elenco": "Junes Callaert, Cécile Enthoven, Arthur Hermans, Maja Aziza, Stan Van Samang",
+  "diretor": "",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:24:54"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:56"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:24:42"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:24:56"
+        }
+      ]
+    }
+  ],
+  "id": 3933
+}

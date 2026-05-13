@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MjU=",
+  "tipo": "serie",
+  "titulo": "DESAFIO EM DOSE DUPLA MEXICO",
+  "capa_url": "https://lgfp.one/DKF6",
+  "capa_local": "DESAFIO EM DOSE DUPLA MEXICO/DESAFIO EM DOSE DUPLA MEXICO.jpg",
+  "sinopse": "Fernanda e Palma, dois especialistas em sobrevivência com habilidades complementares, se colocam à prova nos ambientes mais exigentes da Colômbia.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:07"
+        }
+      ]
+    }
+  ],
+  "id": 5900
+}

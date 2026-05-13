@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyOTE=",
+  "tipo": "serie",
+  "titulo": "SAINT X",
+  "capa_url": "https://lgfp.one/ZQN",
+  "capa_local": "SAINT X/SAINT X.jpg",
+  "sinopse": "A morte misteriosa de uma jovem durante uma viagem idílica ao Caribe cria um efeito cascata de traumas que acaba levando sua irmã a uma perigosa busca pela verdade.",
+  "genero": "Crime / Drama / Mistério",
+  "elenco": "Alycia Debnam-Carey, Josh Bonzie, West Duchovny, Jayden Elijah, Betsy Brandt, Bre Francis, Kenlee Anaya Townsend, Michael Park",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:39"
+        }
+      ]
+    }
+  ],
+  "id": 3453
+}

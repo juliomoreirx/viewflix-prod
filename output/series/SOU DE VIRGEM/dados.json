@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5NjI=",
+  "tipo": "serie",
+  "titulo": "SOU DE VIRGEM",
+  "capa_url": "https://lgfp.one/AAKL",
+  "capa_local": "SOU DE VIRGEM/SOU DE VIRGEM.jpg",
+  "sinopse": "A história do amadurecimento de Cootie, um jovem negro de 4 metros de altura, em Oakland, CA. Cootie cresceu escondido, mas logo vivencia as belezas e as contradições do mundo pela primeira vez. Ele faz amizades, encontra o amor, passa por situações embaraçosas e encontra seu ídolo, um super-herói da vida real chamado O Herói.",
+  "genero": "Comédia, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Jharrel Jerome, Brett Gray, Kara Young, Allius Barnes, Olivia Washington",
+  "diretor": "Boots Riley",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:52"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:29:09"
+        }
+      ]
+    }
+  ],
+  "id": 3618
+}

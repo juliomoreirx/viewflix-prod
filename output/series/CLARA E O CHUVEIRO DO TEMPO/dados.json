@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNDY=",
+  "tipo": "serie",
+  "titulo": "CLARA E O CHUVEIRO DO TEMPO",
+  "capa_url": "https://lgfp.one/ACKI",
+  "capa_local": "CLARA E O CHUVEIRO DO TEMPO/CLARA E O CHUVEIRO DO TEMPO.jpg",
+  "sinopse": "Depois de inventar uma máquina do tempo, Vô Teodoro acaba se perdendo no passado. Clara e seu melhor amigo Nico se aventuram para trazer o avô da menina de volta ao presente.",
+  "genero": "Kids",
+  "elenco": "Bianca Salgueiro, Eva Wilma, Flávio Migliaccio, Lara Rodrigues, Camila Zambelli",
+  "diretor": "Márcio Trigo",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:21"
+        }
+      ]
+    }
+  ],
+  "id": 4155
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNzU=",
+  "tipo": "serie",
+  "titulo": "GRID",
+  "capa_url": "https://lgfp.one/PJX8",
+  "capa_local": "GRID/GRID.jpg",
+  "sinopse": "A Terra sobreviveu a ventos solares catastróficos sob a proteção do Grid, seu escudo de defesa planetário. Kim Saeha, um funcionário do escritório de administração, encontra um assassino. Jung Saebyeok, uma detetive, é enviada para prender esse assassino. Enquanto persegue o fugitivo, ela testemunha um fenômeno inacreditável. Grid é um thriller que acompanha a misteriosa verdade por trás do que salvou a humanidade de um apocalipse.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Action & Adventure",
+  "elenco": "서강준, 김아중, 이시영, 김무열, 장소연",
+  "diretor": "Khan Lee, Park Chul-hwan",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:23"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:52:46"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:54:15"
+        }
+      ]
+    }
+  ],
+  "id": 7664
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4MDk=",
+  "tipo": "serie",
+  "titulo": "VELENO: A CIDADE DAS CRIANÇAS PERDIDAS",
+  "capa_url": "https://lgfp.one/TLG",
+  "capa_local": "VELENO A CIDADE DAS CRIANCAS PERDIDAS/VELENO A CIDADE DAS CRIANCAS PERDIDAS.jpg",
+  "sinopse": "No final dos anos 90, uma pequena comunidade é perturbada por uma série de casos de pedofilia e satanismo. Dezesseis crianças são separadas de suas famílias. Vinte anos depois, uma investigação lança dúvidas sobre o caso inteiro.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Hugo Berkeley",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:57:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:56:14"
+        }
+      ]
+    }
+  ],
+  "id": 2695
+}

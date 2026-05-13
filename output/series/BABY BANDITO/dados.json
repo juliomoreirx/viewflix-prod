@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNTM=",
+  "tipo": "serie",
+  "titulo": "BABY BANDITO",
+  "capa_url": "https://lgfp.one/AZST",
+  "capa_local": "BABY BANDITO/BABY BANDITO.jpg",
+  "sinopse": "O skatista Kevin e sua gangue fazem o maior assalto da história do Chile, mas amores imprudentes e posts em redes sociais podem colocar tudo a perder.",
+  "genero": "Crime, Drama",
+  "elenco": "Nicolás Contreras, Carmen Zabala, Francisca Armstrong",
+  "diretor": "Pepa San Martín, Julio Jorquera Arriagada, Fernando Guzzoni, Alejandro Bazzano",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:04"
+        }
+      ]
+    }
+  ],
+  "id": 4938
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MDk=",
+  "tipo": "serie",
+  "titulo": "AMOR FATAL AS SEIS ESPOSAS DE THOMAS RANDOLPH",
+  "capa_url": "https://lgfp.one/DTH2",
+  "capa_local": "AMOR FATAL AS SEIS ESPOSAS DE THOMAS RANDOLPH/AMOR FATAL AS SEIS ESPOSAS DE THOMAS RANDOLPH.jpg",
+  "sinopse": "Seis esposas, quatro das quais já falecidas, têm uma coisa em comum: todas se casaram com Thomas Randolph.",
+  "genero": "Documentário, Crime",
+  "elenco": "Beth Karas, Martha Degraw, Kathy Thomas",
+  "diretor": "",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:30"
+        }
+      ]
+    }
+  ],
+  "id": 6056
+}

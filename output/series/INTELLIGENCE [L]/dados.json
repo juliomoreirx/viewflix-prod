@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2ODc=",
+  "tipo": "serie",
+  "titulo": "INTELLIGENCE [L]",
+  "capa_url": "https://lgfp.one/JNF",
+  "capa_local": "INTELLIGENCE [L]/INTELLIGENCE [L].jpg",
+  "sinopse": "",
+  "genero": "Comédia",
+  "elenco": "David Schwimmer, Nick Mohammed, Jane Stanness, Sylvestra Le Touzel, Gana Bayarsaikhan",
+  "diretor": "Matt Lipsey",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:30"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:21:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:42"
+        }
+      ]
+    }
+  ],
+  "id": 763
+}

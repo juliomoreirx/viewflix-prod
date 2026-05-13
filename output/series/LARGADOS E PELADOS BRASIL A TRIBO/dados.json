@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyODY=",
+  "tipo": "serie",
+  "titulo": "LARGADOS E PELADOS BRASIL: A TRIBO",
+  "capa_url": "https://lgfp.one/PZN7",
+  "capa_local": "LARGADOS E PELADOS BRASIL A TRIBO/LARGADOS E PELADOS BRASIL A TRIBO.jpg",
+  "sinopse": "10 brasileiros especialistas em sobrevivência enfrentam os desafios da savana sul-africana. Durante 30 dias, eles precisarão lidar com a falta de água, comida e vestimentas, além de encarar os riscos da natureza selvagem.",
+  "genero": "Reality",
+  "elenco": "Taís Teixeira, Raysa Ribeiro, Erika Rodrigues, Itamar Charlie, Henrique Fonseca,  Rene Murad, Fernando Monezzi, Aline Caravaggio,  Diogo Berto, Tony Bushels",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:57"
+        }
+      ]
+    }
+  ],
+  "id": 7989
+}

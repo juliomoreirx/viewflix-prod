@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1Mzk=",
+  "tipo": "serie",
+  "titulo": "GOL CONTRA",
+  "capa_url": "https://lgfp.one/VZI",
+  "capa_local": "GOL CONTRA/GOL CONTRA.jpg",
+  "sinopse": "Esta série examina o impacto do clima sociopolítico no futebol da Colômbia nas décadas de 1980 e 1990 e sua relação com a morte do jogador Andrés Escobar.",
+  "genero": "Drama",
+  "elenco": "Laura Archbold, Carlos Mariño, Juan Pablo Urrego, John Alex Castillo, Patricia Tamayo",
+  "diretor": "Carlos Moreno",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:21"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:25"
+        }
+      ]
+    }
+  ],
+  "id": 3020
+}

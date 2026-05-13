@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyOTk=",
+  "tipo": "serie",
+  "titulo": "CONTE TUDO PARA MIM",
+  "capa_url": "https://lgfp.one/YNE",
+  "capa_local": "CONTE TUDO PARA MIM/CONTE TUDO PARA MIM.jpg",
+  "sinopse": "Com depressão aos 16 anos, Jonny precisa lidar com os desafios da adolescência em um mundo cada vez mais conectado e perigoso devido à internet.",
+  "genero": "Drama",
+  "elenco": "Eden H. Davies, Lauryn Ajufo, Callina Liang, Spike Fearn, Tessa Lucille, Carla Woodcock",
+  "diretor": "마크 오 설리반",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:46"
+        }
+      ]
+    }
+  ],
+  "id": 3291
+}

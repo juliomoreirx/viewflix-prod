@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg1MzQ=",
+  "tipo": "serie",
+  "titulo": "CHACRINHA: A MINISSÉRIE",
+  "capa_url": "https://lgfp.one/IVJ",
+  "capa_local": "CHACRINHA A MINISSERIE/CHACRINHA A MINISSERIE.jpg",
+  "sinopse": "A minissérie mostra a personalidade mítica do comunicador revolucionário e inovador, que mudou a forma de fazer TV no Brasil; e a do homem por trás do visual irreverente e inconfundível.",
+  "genero": "Drama",
+  "elenco": "Stepan Nercessian, Carla Ribas, Gianne Albertoni, Rodrigo Pandolfo, Pablo Sanábio",
+  "diretor": "",
+  "total_episodios": "32",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:06"
+        }
+      ]
+    }
+  ],
+  "id": 234
+}

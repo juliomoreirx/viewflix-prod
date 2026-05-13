@@ -1,0 +1,130 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MTE=",
+  "tipo": "serie",
+  "titulo": "HELLUVA BOSS",
+  "capa_url": "https://lgfp.one/RKR6",
+  "capa_local": "HELLUVA BOSS/HELLUVA BOSS.jpg",
+  "sinopse": "Esta comédia animada para adultos acompanha as desventuras, peripécias e relacionamentos dos Incríveis Matadores Profissionais, ou IMP, para abreviar. Um bando de demônios assassinos do Inferno que ganha a vida matando pessoas na Terra.",
+  "genero": "Animação, Comédia, Drama",
+  "elenco": "Brandon Rogers, Richard Steven Horvitz, Vivian Nixon, Erica Lindbeck, Bryce Pinkham",
+  "diretor": "Vivienne Medrano, Vivienne Medrano",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "0",
+          "codigo": "S01E00",
+          "duracao": "00:12:54"
+        },
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:14:57"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:17:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:18:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:16:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:17:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:17:05"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:24:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:22:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:26:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:20:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:22:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:28:15"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:24:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:23:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:28:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:23:22"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:30:20"
+        }
+      ]
+    }
+  ],
+  "id": 8731
+}

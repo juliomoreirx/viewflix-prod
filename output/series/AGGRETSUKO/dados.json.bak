@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3NTc=",
+  "tipo": "serie",
+  "titulo": "AGGRETSUKO",
+  "capa_url": "https://lgfp.one/STS",
+  "capa_local": "AGGRETSUKO/AGGRETSUKO.jpg",
+  "sinopse": "Frustrada com o emprego, Retsuko, a panda vermelha, encara a luta diária cantando heavy metal em um karaokê depois do expediente.",
+  "genero": "Animação, Comédia",
+  "elenco": "Kaolip, Shingo Kato, Rareko",
+  "diretor": "Rareko",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:15:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:18:26"
+        }
+      ]
+    }
+  ],
+  "id": 2221
+}

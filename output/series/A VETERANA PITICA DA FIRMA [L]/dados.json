@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1NTM=",
+  "tipo": "serie",
+  "titulo": "A VETERANA PITICA DA FIRMA [L]",
+  "capa_url": "https://lgfp.one/AATQ",
+  "capa_local": "A VETERANA PITICA DA FIRMA [L]/A VETERANA PITICA DA FIRMA [L].jpg",
+  "sinopse": "Quando Shinozaki começou em seu novo trabalho, ele não esperava que sua chefe fosse tão... fofa! Ele deu seu melhor para pegar o jeito das coisas no trabalho, mas Katase, sua pequena e amável senpai, o colocou sob sua proteção. Mas à medida que se os dois aproximam, ele espera que a atenção dela possa significar algo mais...",
+  "genero": "Animação, Comédia",
+  "elenco": "Hina Tachibana, Yuuki Shin, Yumiri Hanamori, Nobunaga Shimazaki, Mikako Komatsu",
+  "diretor": "Mitsutoshi Sato",
+  "total_episodios": "23",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:03"
+        }
+      ]
+    }
+  ],
+  "id": 3854
+}

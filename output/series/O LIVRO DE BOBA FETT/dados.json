@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0MTk=",
+  "tipo": "serie",
+  "titulo": "O LIVRO DE BOBA FETT",
+  "capa_url": "https://lgfp.one/SSJ",
+  "capa_local": "O LIVRO DE BOBA FETT/O LIVRO DE BOBA FETT.jpg",
+  "sinopse": "Uma emocionante aventura Star Wars que encontra o lendário caçador de recompensas Boba Fett e o mercenário Fennec Shand explorando o submundo da Galáxia quando retornam às areias de Tatooine para reivindicar o território antes governado por Jabba, o Hutt e seu sindicato do crime.",
+  "genero": "Sci-Fi & Fantasy / Action & Adventure",
+  "elenco": "Temuera Morrison, Ming-Na Wen",
+  "diretor": "Jon Favreau",
+  "total_episodios": "39",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:45:52"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:58:41"
+        }
+      ]
+    }
+  ],
+  "id": 2184
+}

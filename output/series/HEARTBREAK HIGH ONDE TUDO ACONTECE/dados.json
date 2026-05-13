@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyMDk=",
+  "tipo": "serie",
+  "titulo": "HEARTBREAK HIGH ONDE TUDO ACONTECE",
+  "capa_url": "https://lgfp.one/TRL",
+  "capa_local": "HEARTBREAK HIGH ONDE TUDO ACONTECE/HEARTBREAK HIGH ONDE TUDO ACONTECE.jpg",
+  "sinopse": "Um mural incendiário expõe as ficadas secretas de todos os alunos do Colégio Hartley, e Amerie, a autora da obra, vai ter que encarar as consequências.",
+  "genero": "Drama",
+  "elenco": "Ayesha Madon, James Majoos, Chloé Hayden, Asher Yasbincek, Thomas Weatherall",
+  "diretor": "Gracie Otto, Adam Murfet, Jessie Oldfield",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:52:54"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:49:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:49:35"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:52:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:52:37"
+        }
+      ]
+    }
+  ],
+  "id": 2865
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4Mzc=",
+  "tipo": "serie",
+  "titulo": "O JOGO DA PIRAMIDE",
+  "capa_url": "https://lgfp.one/BDV2",
+  "capa_local": "O JOGO DA PIRAMIDE/O JOGO DA PIRAMIDE.jpg",
+  "sinopse": "O Colégio Feminino Baekyeon já parece um jogo de sobrevivência para a nova aluna Seong Su-ji, mas quando ela é apresentada a um sistema de níveis que escolhe quem marginalizar através de voto secreto.",
+  "genero": "Drama",
+  "elenco": "보나, 장다아, 류다인, 강나언, 정하담",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:48"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:55:33"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:58:07"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:54:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:02:12"
+        }
+      ]
+    }
+  ],
+  "id": 8562
+}

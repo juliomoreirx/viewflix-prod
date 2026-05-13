@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NDM=",
+  "tipo": "serie",
+  "titulo": "NA PONTA DA FACA BUSCANDO ESTRELAS MICHELIN [L]",
+  "capa_url": "https://lgfp.one/QHP6",
+  "capa_local": "NA PONTA DA FACA BUSCANDO ESTRELAS MICHELIN [L]/NA PONTA DA FACA BUSCANDO ESTRELAS MICHELIN [L].jpg",
+  "sinopse": "Veja os altos e baixos da busca dos melhores chefs pela conquista suprema: a Estrela Michelin. Os avaliadores nunca revelaram seus métodos, até agora.",
+  "genero": "Documentário",
+  "elenco": "Jesse Burgess",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:38:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:51"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:53"
+        }
+      ]
+    }
+  ],
+  "id": 8200
+}

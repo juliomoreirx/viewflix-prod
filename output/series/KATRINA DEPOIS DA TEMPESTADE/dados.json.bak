@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4Mjk=",
+  "tipo": "serie",
+  "titulo": "KATRINA: DEPOIS DA TEMPESTADE",
+  "capa_url": "https://lgfp.one/PVS5",
+  "capa_local": "KATRINA DEPOIS DA TEMPESTADE/KATRINA DEPOIS DA TEMPESTADE.jpg",
+  "sinopse": "Vinte anos após o furacão Katrina, os sobreviventes refletem sobre a tempestade desastrosa que mudou suas vidas para sempre e as desigualdades sistêmicas que ela expôs.",
+  "genero": "Documentário",
+  "elenco": "Leanne Williams",
+  "diretor": "Spike Lee, Sam Pollard, Geeta Gandbhir",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:28:18"
+        }
+      ]
+    }
+  ],
+  "id": 7882
+}

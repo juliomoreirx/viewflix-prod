@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyODk=",
+  "tipo": "serie",
+  "titulo": "GOULAG UMA HISTORIA DOS CAMPOS DE CONCENTRACAO SOVIETICOS [L]",
+  "capa_url": "https://lgfp.one/AYWA",
+  "capa_local": "GOULAG UMA HISTORIA DOS CAMPOS DE CONCENTRACAO SOVIETICOS [L]/GOULAG UMA HISTORIA DOS CAMPOS DE CONCENTRACAO SOVIETICOS [L].jpg",
+  "sinopse": "Documentário sobre os Campos de Concentração na antiga URSS.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Florence Pernel",
+  "diretor": "Patrick Rotman, François Aymé, Lisa Vapné",
+  "total_episodios": "53",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:38"
+        }
+      ]
+    }
+  ],
+  "id": 4880
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1NTc=",
+  "tipo": "serie",
+  "titulo": "BORBOLETAS NEGRAS",
+  "capa_url": "https://lgfp.one/VRM",
+  "capa_local": "BORBOLETAS NEGRAS/BORBOLETAS NEGRAS.jpg",
+  "sinopse": "Um romancista com um bloqueio criativo aceita escrever as memórias de um homem à beira da morte, mas logo acaba fazendo parte do sangrento passado dessa estranha figura.",
+  "genero": "Crime, Drama",
+  "elenco": "Nicolas Duvauchelle, Niels Arestrup, Axel Granberger, Alyzée Costes, Brigitte Catillon",
+  "diretor": "Olivier Abbou",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:00"
+        }
+      ]
+    }
+  ],
+  "id": 2939
+}

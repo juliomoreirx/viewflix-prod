@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MTc=",
+  "tipo": "serie",
+  "titulo": "SU DA VIDA SELVAGEM",
+  "capa_url": "https://lgfp.one/NPC2",
+  "capa_local": "SU DA VIDA SELVAGEM/SU DA VIDA SELVAGEM.jpg",
+  "sinopse": "Acompanha uma equipe dedicada de profissionais e voluntários enquanto cuidam de animais doentes e os reabilitam com carinho no Hospital de Vida Selvagem da RSPCA, em Brisbane, Austrália.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:12"
+        }
+      ]
+    }
+  ],
+  "id": 7167
+}

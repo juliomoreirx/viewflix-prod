@@ -1,0 +1,25 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxMzM=",
+  "tipo": "serie",
+  "titulo": "STREET FIGHTER: RESURRECTION [L]",
+  "capa_url": "https://lgfp.one/SZB3",
+  "capa_local": "STREET FIGHTER RESURRECTION [L]/STREET FIGHTER RESURRECTION [L].jpg",
+  "sinopse": "",
+  "genero": "Action & Adventure",
+  "elenco": "Alain Moussi, Gillian MacGregor, Christian Howard, Mike Moh, Alexis Rodney",
+  "diretor": "Joey Ansah",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:28"
+        }
+      ]
+    }
+  ],
+  "id": 9482
+}

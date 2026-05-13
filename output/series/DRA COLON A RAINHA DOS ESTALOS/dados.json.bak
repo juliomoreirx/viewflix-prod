@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MDc=",
+  "tipo": "serie",
+  "titulo": "DRA COLON A RAINHA DOS ESTALOS",
+  "capa_url": "https://lgfp.one/AQF9",
+  "capa_local": "DRA COLON A RAINHA DOS ESTALOS/DRA COLON A RAINHA DOS ESTALOS.jpg",
+  "sinopse": "Com métodos quiropráticos inovadores, a Dra. Alessandra Colón e sua equipe cuidam das condições físicas mais debilitantes. Com cada estalo, ela proporciona alívio quando ninguém mais conseguiu.",
+  "genero": "Reality-TV",
+  "elenco": "Alessandra Colón, Sarah Vaeth",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:46"
+        }
+      ]
+    }
+  ],
+  "id": 5192
+}

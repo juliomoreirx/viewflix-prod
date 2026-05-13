@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NjI=",
+  "tipo": "serie",
+  "titulo": "O NAUFRÁGIO DO HEWELIUSZ",
+  "capa_url": "https://lgfp.one/QOA8",
+  "capa_local": "O NAUFRAGIO DO HEWELIUSZ/O NAUFRAGIO DO HEWELIUSZ.jpg",
+  "sinopse": "Depois que uma embarcação sofre um desastre catastrófico, o capitão que estava de folga busca respostas e justiça pelas pessoas que perderam suas vidas.",
+  "genero": "Drama, Mistério",
+  "elenco": "Magdalena Różczka, Michał Żurawski, Konrad Eleryk, Justyna Wasilewska, Borys Szyc",
+  "diretor": "Jan Holoubek",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:00:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:01:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:21:40"
+        }
+      ]
+    }
+  ],
+  "id": 8341
+}

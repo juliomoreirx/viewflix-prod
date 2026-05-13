@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4Mzg=",
+  "tipo": "serie",
+  "titulo": "DE REPENTE HUMANA",
+  "capa_url": "https://lgfp.one/RHJ8",
+  "capa_local": "DE REPENTE HUMANA/DE REPENTE HUMANA.jpg",
+  "sinopse": "Ela ganha a vida realizando desejos. Amor não estava nos planos. Uma cínica raposa de nova cauldas conhece um gentil jogador de futebol, e um desejo malsucedido desencadeia um romance mágico, caótico e arrebatador.",
+  "genero": "Sci-Fi & Fantasy, Comédia",
+  "elenco": "김혜윤, 로몬, 이시우, 장동주, 김태우",
+  "diretor": "Kim Jeong-kwon",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:01:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:02:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:03:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:01:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:28"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:21"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:01:16"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:01:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:00:34"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:05:33"
+        }
+      ]
+    }
+  ],
+  "id": 8677
+}

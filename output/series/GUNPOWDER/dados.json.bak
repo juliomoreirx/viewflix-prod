@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2ODQ=",
+  "tipo": "serie",
+  "titulo": "GUNPOWDER",
+  "capa_url": "https://lgfp.one/QLW4",
+  "capa_local": "GUNPOWDER/GUNPOWDER.jpg",
+  "sinopse": "Inglaterra, 1605. O ativista britânico Guy Fawkes e um grupo de católicos liderados por Robert Catesby planejam explodir a Casa dos Lordes e matar o rei protestante James I e os membros do Parlamento inglês. Mas para levar adiante esta conspiração, eles precisam enfrentar muitos desafios.",
+  "genero": "War & Politics, Drama",
+  "elenco": "Kit Harington, Mark Gatiss, Edward Holcroft, Tom Cullen, Peter Mullan",
+  "diretor": "",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:16"
+        }
+      ]
+    }
+  ],
+  "id": 8253
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2ODk=",
+  "tipo": "serie",
+  "titulo": "ELITE HISTÓRIAS BREVES: OMAR ANDER ALEXIS",
+  "capa_url": "https://lgfp.one/TDA",
+  "capa_local": "ELITE HISTORIAS BREVES OMAR ANDER ALEXIS/ELITE HISTORIAS BREVES OMAR ANDER ALEXIS.jpg",
+  "sinopse": "Agora que está em remissão, Ander quer passar o verão ajudando seu parceiro de quimioterapia, Alexis, a enfrentar o tratamento.",
+  "genero": "Drama",
+  "elenco": "Omar Ayuso, Arón Piper, Jorge Clemente",
+  "diretor": "Jorge Torregrossa, Pablo Ramos",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:09:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:36"
+        }
+      ]
+    }
+  ],
+  "id": 2469
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MzA=",
+  "tipo": "serie",
+  "titulo": "REFORMA NA MONTANHA A COMPETICAO",
+  "capa_url": "https://lgfp.one/DGC5",
+  "capa_local": "REFORMA NA MONTANHA A COMPETICAO/REFORMA NA MONTANHA A COMPETICAO.jpg",
+  "sinopse": "A batalha avança para as montanhas. Rico Leon, Kim Myles e Kim Wolfe orientam três equipes de designers talentosos. Elas terão seis semanas e US$ 100.000 para reformar uma casa decadente na montanha e disputar um prêmio de US$ 50.000.",
+  "genero": "Reality",
+  "elenco": "Kim Spradlin Wolfe, Kim Myles, Rico León",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:27:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:06:06"
+        }
+      ]
+    }
+  ],
+  "id": 5817
+}

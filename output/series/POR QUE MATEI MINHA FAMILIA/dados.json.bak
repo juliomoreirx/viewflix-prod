@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MDE=",
+  "tipo": "serie",
+  "titulo": "POR QUE MATEI MINHA FAMILIA?",
+  "capa_url": "https://lgfp.one/SLZ",
+  "capa_local": "POR QUE MATEI MINHA FAMILIA/POR QUE MATEI MINHA FAMILIA.jpg",
+  "sinopse": "Jerusalém, 1986, um garoto de 14 anos mata sua família a tiros. Dúvidas persistem até hoje. Informantes se pronunciam sobre o caso.",
+  "genero": "Documentário, Crime",
+  "elenco": "Avi Samuel, Yossi Arnon, Yossi Cohen, Haim Siani, Shmuel Tiano",
+  "diretor": "Asaf Sudry, Asaf Sudry, Tali Shemesh",
+  "total_episodios": "36",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:32:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:32"
+        }
+      ]
+    }
+  ],
+  "id": 2006
+}

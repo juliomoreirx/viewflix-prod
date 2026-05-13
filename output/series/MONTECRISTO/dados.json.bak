@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxNzU=",
+  "tipo": "serie",
+  "titulo": "MONTECRISTO",
+  "capa_url": "https://lgfp.one/BDU7",
+  "capa_local": "MONTECRISTO/MONTECRISTO.jpg",
+  "sinopse": "Alejandro Montecristo, uma figura enigmática, fundador e diretor executivo de uma grande empresa se torna conhecido do público e deixa algumas pessoas incomodas e desconfiadas.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "William Levy, Roberto Enríquez, Juan Fernández, Esmeralda Pimentel, Silvia Abascal",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:55:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:34"
+        }
+      ]
+    }
+  ],
+  "id": 5524
+}

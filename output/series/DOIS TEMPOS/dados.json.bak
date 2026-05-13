@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyOTU=",
+  "tipo": "serie",
+  "titulo": "DOIS TEMPOS",
+  "capa_url": "https://lgfp.one/ZXJ",
+  "capa_local": "DOIS TEMPOS/DOIS TEMPOS.jpg",
+  "sinopse": "Paz é a maior influencer brasileira de 2022, mas seu mundo cai quando ela é cancelada na internet. Cecília é uma escritora lésbica de 1922 que se vê forçada a se casar com um homem. Sem perspectiva de escapar de seus destinos, as garotas expressam o mesmo desejo de ser livre. O universo então decide ajudá-las: misteriosamente elas viajam no tempo e acordam uma no corpo – e no século! – da outra.",
+  "genero": "Drama / Sci-Fi & Fantasy",
+  "elenco": "Mari Oliveira, Sol Menezzes, Martha Nowill, Leonardo Bianchi, Paulo Rocha, Dadá Coelho, Nicolas Ahnert, Luíza Nery",
+  "diretor": "Vera Egito",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:35:33"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:34:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:13"
+        }
+      ]
+    }
+  ],
+  "id": 3501
+}

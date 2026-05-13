@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMzM=",
+  "tipo": "serie",
+  "titulo": "PACTO DE SILENCIO",
+  "capa_url": "https://lgfp.one/AQKY",
+  "capa_local": "PACTO DE SILENCIO/PACTO DE SILENCIO.jpg",
+  "sinopse": "Uma influenciadora digital mergulha de cabeça na vida de quatro mulheres, movida pelo desejo de descobrir a verdade sobre seu nascimento... e de se vingar.",
+  "genero": "Drama, Mistério",
+  "elenco": "Camila Valero, Kika Edgar, Adriana Louvier, Marimar Vega, José Manuel Rincón",
+  "diretor": "Mauricio Corredor, Carlos Villegas Rosales",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:36:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:01"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:33"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:38:31"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:47"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:36:34"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:41:20"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:42:55"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:39:40"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:35:45"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:43:29"
+        }
+      ]
+    }
+  ],
+  "id": 4194
+}

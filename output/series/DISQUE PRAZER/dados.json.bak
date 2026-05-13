@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MDA=",
+  "tipo": "serie",
+  "titulo": "DISQUE PRAZER",
+  "capa_url": "https://lgfp.one/TCF",
+  "capa_local": "DISQUE PRAZER/DISQUE PRAZER.jpg",
+  "sinopse": "Na Amsterdã dos anos 1980, uma estudante ambiciosa descobre uma nova carreira por acaso: atendente de um serviço de telessexo criado por dois irmãos bem diferentes.",
+  "genero": "Drama",
+  "elenco": "Joy Delima, Minne Koole, Chris Peters, Charlie Dagelet, Abbey Hoes",
+  "diretor": "Tomas Kaan, Pieter Bart Korthuis, Anna van der Heide",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:08"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:32"
+        }
+      ]
+    }
+  ],
+  "id": 2447
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMTQ=",
+  "tipo": "serie",
+  "titulo": "A ERA DOS DADOS",
+  "capa_url": "https://lgfp.one/JNU",
+  "capa_local": "A ERA DOS DADOS/A ERA DOS DADOS.jpg",
+  "sinopse": "O jornalista de ciências Latif Nasser investiga as maneiras surpreendentes e intrincadas pelas quais estamos conectados, ao mundo e ao universo.",
+  "genero": "Documentário",
+  "elenco": "Latif Nasser, Ainara Sistiago, Alex Wellerstein",
+  "diretor": "Nick Brigden, Arianna LaPenne, Alyse Walsh",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:46"
+        }
+      ]
+    }
+  ],
+  "id": 779
+}

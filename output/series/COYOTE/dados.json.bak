@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0MTI=",
+  "tipo": "serie",
+  "titulo": "COYOTE",
+  "capa_url": "https://lgfp.one/SDL",
+  "capa_local": "COYOTE/COYOTE.jpg",
+  "sinopse": "Após trabalhar durante anos na fronteira dos Estados Unidos com o México, o americano Ben Clemens passa a cooperar com as pessoas que sempre tentou manter distante do seu país.",
+  "genero": "Drama, Crime",
+  "elenco": "Michael Chiklis, Juan Pablo Raba, Adriana Paz, Kristyan Ferrer, Octavio Pisano",
+  "diretor": "Michelle MacLaren, David James",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:17"
+        }
+      ]
+    }
+  ],
+  "id": 1778
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNjQ=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS DAS BASES NAZISTAS",
+  "capa_url": "https://lgfp.one/NFZ8",
+  "capa_local": "SEGREDOS DAS BASES NAZISTAS/SEGREDOS DAS BASES NAZISTAS.jpg",
+  "sinopse": "Examina estruturas ocultas construídas pelos nazistas, de túneis a torres e centros de comunicação.",
+  "genero": "Documentário",
+  "elenco": "James MacPhee, Richard Lynson",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:56"
+        }
+      ]
+    }
+  ],
+  "id": 7009
+}

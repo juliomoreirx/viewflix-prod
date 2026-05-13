@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU1OTI=",
+  "tipo": "serie",
+  "titulo": "ELITE HISTÓRIAS BREVES: GUZMÁN CAYE REBE [L]",
+  "capa_url": "https://lgfp.one/TCY",
+  "capa_local": "ELITE HISTORIAS BREVES GUZMAN CAYE REBE [L]/ELITE HISTORIAS BREVES GUZMAN CAYE REBE [L].jpg",
+  "sinopse": "Rebe dá uma festa apenas para os amigos mais chegados, mas a situação se complica com as drogas e as visitas inesperadas.",
+  "genero": "Drama / Crime",
+  "elenco": "Miguel Bernardeau, Claudia Salas, Georgina Amorós",
+  "diretor": "Dani de la Orden",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:12:42"
+        }
+      ]
+    }
+  ],
+  "id": 2467
+}

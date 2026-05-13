@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MDM=",
+  "tipo": "serie",
+  "titulo": "TOKYO VICE",
+  "capa_url": "https://lgfp.one/AAIV",
+  "capa_local": "TOKYO VICE/TOKYO VICE.jpg",
+  "sinopse": "Inspirado no relato de Jake Adelstein (Ansel Elgort), este drama criminal acompanha o jovem jornalista americano enquanto ele mergulha no submundo do final dos anos 90 em Tóquio, onde nada e ninguém é o que parece.",
+  "genero": "Crime, Drama",
+  "elenco": "Ansel Elgort, Ken Watanabe, Rachel Keller, 笠松将, 菊地凛子",
+  "diretor": "Josef Kubota Wladyka, Michael Mann, Destin Daniel Cretton",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:03:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:03:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:54:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:04:15"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:57:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "01:00:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:56:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:55:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:55:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:50:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "01:02:15"
+        }
+      ]
+    }
+  ],
+  "id": 3578
+}

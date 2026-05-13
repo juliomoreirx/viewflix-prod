@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1NTA=",
+  "tipo": "serie",
+  "titulo": "FANTASMAS (2024)",
+  "capa_url": "https://lgfp.one/BGB7",
+  "capa_local": "FANTASMAS (2024)/FANTASMAS (2024).jpg",
+  "sinopse": "Através de um caleidoscópio de cores e surrealismo, Julio Torres (Los Espookys da HBO) conta a história fantástica de sua jornada por uma Nova York onírica, repleta de personagens excêntricos, para encontrar um brinco em forma de ostra.",
+  "genero": "Comédia",
+  "elenco": "Julio Torres, Martine Gutierrez, Joe Rumrill, Natasha Lyonne",
+  "diretor": "Julio Torres",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:52"
+        }
+      ]
+    }
+  ],
+  "id": 331254
+}

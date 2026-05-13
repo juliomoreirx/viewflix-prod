@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ4Mjg=",
+  "tipo": "serie",
+  "titulo": "NAO ME ESQUECEREI DE VOCE [L]",
+  "capa_url": "https://lgfp.one/OAM9",
+  "capa_local": "NAO ME ESQUECEREI DE VOCE [L]/NAO ME ESQUECEREI DE VOCE [L].jpg",
+  "sinopse": "Uma aspirante a humorista de stand-up transforma suas dificuldades em comédia ao equilibrar o trabalho, os relacionamentos e os cuidados com o pai idoso.",
+  "genero": "Comédia, Drama",
+  "elenco": "Hsieh Ying-hsuan, Chin Han, 周采詩, 劉品言",
+  "diretor": "劉若英",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:00:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:06"
+        }
+      ]
+    }
+  ],
+  "id": 7367
+}

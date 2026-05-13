@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2OTg=",
+  "tipo": "serie",
+  "titulo": "SENZO: O ASSASSINATO DE UM CRAQUE",
+  "capa_url": "https://lgfp.one/TCI",
+  "capa_local": "SENZO O ASSASSINATO DE UM CRAQUE/SENZO O ASSASSINATO DE UM CRAQUE.jpg",
+  "sinopse": "O jogador de futebol Senzo Meyiwa era um herói nacional e sua morte chocou a África do Sul. Quem o matou e por quê? Esta série documental analisa o caso.",
+  "genero": "Documentário, Crime",
+  "elenco": "Senzo Meyiwa, Mzillikazi Wa Afrika, Robert Marawa",
+  "diretor": "Sara Blecher",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:04"
+        }
+      ]
+    }
+  ],
+  "id": 2450
+}

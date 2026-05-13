@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxMDI=",
+  "tipo": "serie",
+  "titulo": "MYTHO",
+  "capa_url": "https://lgfp.one/JBJ",
+  "capa_local": "MYTHO/MYTHO.jpg",
+  "sinopse": "Exausta no trabalho e sentindo-se pouco valorizada em casa, uma mulher tenta chamar a atenção do marido fingindo que está doente.",
+  "genero": "Comédia, Drama",
+  "elenco": "Marina Hands, Mathieu Demy, Marie Drion, Jéremy Gillet, Zélie Rixhon",
+  "diretor": "Fabrice Gobert",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:24"
+        }
+      ]
+    }
+  ],
+  "id": 406
+}

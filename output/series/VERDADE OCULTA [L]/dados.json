@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ1NDQ=",
+  "tipo": "serie",
+  "titulo": "VERDADE OCULTA [L]",
+  "capa_url": "https://lgfp.one/QCN6",
+  "capa_local": "VERDADE OCULTA [L]/VERDADE OCULTA [L].jpg",
+  "sinopse": "Acompanha as aventuras do jornalista independente Lee Raybon, um \"verdadeirista\" de Tulsa, cuja obsessão por desmascarar a corrupção sempre o coloca em apuros. Embora não seja um idealista, Lee está determinado a expor as entranhas da cidade, mesmo que isso o coloque em risco. Quando sua mais recente reportagem, investigando a poderosa família Washberg, é seguida pelo suicídio suspeito de Dale Washberg, Lee sabe que está diante de algo grande. Seguindo pistas deixadas por Dale, Lee descobre que Betty Jo, a viúva, parece mais interessada no cunhado do que no falecido marido. E forças poderosas querem impedi-lo de descobrir mais.",
+  "genero": "Drama",
+  "elenco": "Ethan Hawke, Keith David",
+  "diretor": "Sterlin Harjo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:39"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:41"
+        }
+      ]
+    }
+  ],
+  "id": 370217
+}

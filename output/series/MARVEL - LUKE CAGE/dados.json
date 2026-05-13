@@ -1,0 +1,155 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MjQ=",
+  "tipo": "serie",
+  "titulo": "MARVEL - LUKE CAGE",
+  "capa_url": "https://lgfp.one/IPN",
+  "capa_local": "MARVEL - LUKE CAGE/MARVEL - LUKE CAGE.jpg",
+  "sinopse": "Um ex-presidiário com pele indestrutível luta para limpar seu nome e salvar o bairro onde vive. Ele não queria confusão, mas a população precisava muito de um herói.",
+  "genero": "Drama, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "Mike Colter, Alfre Woodard, Simone Missick, Theo Rossi, Mustafa Shakir",
+  "diretor": "",
+  "total_episodios": "46",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:05:53"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:48:16"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:51:32"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:02:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:46:07"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:56:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:55:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "01:00:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:54:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "01:04:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:55:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:55:13"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:59:22"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:56:26"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "01:02:28"
+        },
+        {
+          "numero": "13",
+          "codigo": "S02E13",
+          "duracao": "01:09:20"
+        }
+      ]
+    }
+  ],
+  "id": 669
+}

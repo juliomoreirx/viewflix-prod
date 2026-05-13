@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NTk=",
+  "tipo": "serie",
+  "titulo": "COMPANHEIROS DE VIAGEM",
+  "capa_url": "https://lgfp.one/ASHT",
+  "capa_local": "COMPANHEIROS DE VIAGEM/COMPANHEIROS DE VIAGEM.jpg",
+  "sinopse": "Uma crônica de décadas do relacionamento arriscado, volátil e sensual entre o carismático e ambicioso Hawk e o devoto e idealista Tim, dois servidores públicos que se apaixonam no auge do Terror Lilás dos anos 50.",
+  "genero": "Drama",
+  "elenco": "Matt Bomer, Jonathan Bailey, Jelani Alladin, Allison Williams, Noah J. Ricketts",
+  "diretor": "Uta Briesewitz",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:07:49"
+        }
+      ]
+    }
+  ],
+  "id": 4347
+}

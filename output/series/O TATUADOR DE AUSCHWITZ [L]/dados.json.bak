@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyMDI=",
+  "tipo": "serie",
+  "titulo": "O TATUADOR DE AUSCHWITZ [L]",
+  "capa_url": "https://lgfp.one/BAU3",
+  "capa_local": "O TATUADOR DE AUSCHWITZ [L]/O TATUADOR DE AUSCHWITZ [L].jpg",
+  "sinopse": "A poderosa história da vida real de Lali Sokolov, uma prisioneira judia que foi encarregada de tatuar números de identificação nos braços dos prisioneiros no campo de concentração de Auschwitz-Birkenau durante a Segunda Guerra Mundial.",
+  "genero": "Drama",
+  "elenco": "Jonah Hauer-King, Melanie Lynskey, Anna Próchniak, Jonas Nay, Harvey Keitel",
+  "diretor": "Tali Shalom-Ezer",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:11"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:29"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:27"
+        }
+      ]
+    }
+  ],
+  "id": 6085
+}

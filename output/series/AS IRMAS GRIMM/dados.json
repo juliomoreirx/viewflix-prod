@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc2MDE=",
+  "tipo": "serie",
+  "titulo": "AS IRMAS GRIMM",
+  "capa_url": "https://lgfp.one/QDB3",
+  "capa_local": "AS IRMAS GRIMM/AS IRMAS GRIMM.jpg",
+  "sinopse": "Um ano após o misterioso desaparecimento de seus pais, as irmãs Sabrina e Daphne se mudam para uma cidade mágica onde os contos de fadas são reais e segredos estão à espreita a cada esquina.",
+  "genero": "Action & Adventure, Sci-Fi & Fantasy, Animação",
+  "elenco": "Ariel Winter, Leah Newman, Laraine Newman, Abubakar Salim, Billy Harris",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:35"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:08"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:41"
+        }
+      ]
+    }
+  ],
+  "id": 376357
+}

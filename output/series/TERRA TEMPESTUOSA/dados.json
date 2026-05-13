@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3NDM=",
+  "tipo": "serie",
+  "titulo": "TERRA TEMPESTUOSA",
+  "capa_url": "https://lgfp.one/QRY3",
+  "capa_local": "TERRA TEMPESTUOSA/TERRA TEMPESTUOSA.jpg",
+  "sinopse": "Caçadores de tempestades, sobreviventes e profissionais de resgate contam suas experiências eletrizantes com vulcões, tornados, furacões e terremotos.",
+  "genero": "Documentário",
+  "elenco": "Mimî M. Khayisa",
+  "diretor": "Adam Brown, Tim Lambert ,Fuyuko Mochizuki",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:24"
+        }
+      ]
+    }
+  ],
+  "id": 8403
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzOTI=",
+  "tipo": "serie",
+  "titulo": "STAR SEARCH [L]",
+  "capa_url": "https://lgfp.one/ROF1",
+  "capa_local": "STAR SEARCH [L]/STAR SEARCH [L].jpg",
+  "sinopse": "A famosa série de competição está de volta, com talentos ainda maiores, apostas mais altas e votação em tempo real nos EUA.",
+  "genero": "Reality",
+  "elenco": "Anthony Anderson, Jelly Roll, Sarah Michelle Gellar, Chrissy Teigen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:25:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:31:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:17:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:16:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:00:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:10:17"
+        }
+      ]
+    }
+  ],
+  "id": 8869
+}

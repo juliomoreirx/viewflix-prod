@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Nzk=",
+  "tipo": "serie",
+  "titulo": "AMOR: VERDADE OU CONSEQUÊNCIA – POLÔNIA",
+  "capa_url": "https://lgfp.one/YFY",
+  "capa_local": "AMOR VERDADE OU CONSEQUENCIA  POLONIA/AMOR VERDADE OU CONSEQUENCIA  POLONIA.jpg",
+  "sinopse": "Um detector de mentiras testa a confiança de seis casais neste reality em que a desonestidade custa caro, mas a verdade vale um grande prêmio.",
+  "genero": "Reality",
+  "elenco": "Elias Argentiere, Stacy Ines, Maja Bohosiewicz",
+  "diretor": "Malgorzata Majda",
+  "total_episodios": "57",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:30"
+        }
+      ]
+    }
+  ],
+  "id": 3245
+}

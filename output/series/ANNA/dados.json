@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczMjc=",
+  "tipo": "serie",
+  "titulo": "ANNA",
+  "capa_url": "https://lgfp.one/TLM",
+  "capa_local": "ANNA/ANNA.jpg",
+  "sinopse": "O mundo como o conhecemos não existe mais. Um vírus devastou o planeta, acabando com os adultos.\n\nAs crianças, que são imunes até a puberdade, vivem em bandos selvagens, brigando pelos poucos restos comestíveis que os adultos lhes deixaram. Na Sicília, a natureza está tomando de volta o que já foi dela, sufocando as cidades com sua vegetação, sufocando os cascos de veículos antigos com hera. Não há eletricidade nem água encanada. Escondidos em uma fazenda familiar na floresta estão os irmãos Salemi.",
+  "genero": "Drama / Mistério",
+  "elenco": "Giulia Dragotto, Alessandro Pecorella, Elena Lietti, Roberta Mattei, Giovanni Mavilla, Clara Tramontano, Viviana Mocciaro",
+  "diretor": "Niccolò Ammaniti",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:37"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:15"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:24"
+        }
+      ]
+    }
+  ],
+  "id": 297784
+}

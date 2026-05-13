@@ -1,0 +1,120 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3MTA=",
+  "tipo": "serie",
+  "titulo": "OPERACAO POLICIAL",
+  "capa_url": "https://lgfp.one/QCT6",
+  "capa_local": "OPERACAO POLICIAL/OPERACAO POLICIAL.jpg",
+  "sinopse": "O primeiro reality policial do Brasil mostra todos os bastidores do dia a dia das Polícias de São Paulo, Rio de Janeiro, Rio Grande do Sul, Paraná, Santa Catarina, Sergipe, Brasília e Espírito Santo. São os mais variados tipos de operações: combate às drogas, às quadrilhas de roubos de carro, à prostituição, pirataria, desvio de verbas de remédios, etc.",
+  "genero": "Crime, Documentário, Reality",
+  "elenco": "",
+  "diretor": "Carla Albuquerque, Beto Ribeiro",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:45"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:04"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:43:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:46:40"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:45:33"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:43:03"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:46:44"
+        },
+        {
+          "numero": "18",
+          "codigo": "S01E18",
+          "duracao": "00:45:47"
+        },
+        {
+          "numero": "19",
+          "codigo": "S01E19",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "20",
+          "codigo": "S01E20",
+          "duracao": "00:48:00"
+        }
+      ]
+    }
+  ],
+  "id": 8100
+}

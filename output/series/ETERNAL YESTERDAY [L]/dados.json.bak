@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNjY=",
+  "tipo": "serie",
+  "titulo": "ETERNAL YESTERDAY [L]",
+  "capa_url": "https://lgfp.one/DJQ4",
+  "capa_local": "ETERNAL YESTERDAY [L]/ETERNAL YESTERDAY [L].jpg",
+  "sinopse": "Koichi, que é alegre e popular na classe, e Mitsuru, que é talentoso e não é bom em socializar. Os dois estudantes do ensino médio sentem-se fortemente atraídos um pelo outro devido às suas personalidades opostas. Porém, uma manhã, Koichi é atropelado por um caminhão na frente de Mitsuru. Koichi levantou-se imediatamente e sorriu como sempre, e embora estivesse realmente \"vivo\", seus colegas gradualmente começaram a esquecer a existência de Koichi.",
+  "genero": "Drama",
+  "elenco": "Rio Komiya, Inoue Sora, 大友花恋, Niihara Taisuke, 鳴海唯",
+  "diretor": "Keiichi Kobayashi, Keiichi Kobayashi",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:45"
+        }
+      ]
+    }
+  ],
+  "id": 5864
+}

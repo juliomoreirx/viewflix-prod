@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzMzc=",
+  "tipo": "serie",
+  "titulo": "YOU MAKE ME DANCE [L]",
+  "capa_url": "https://lgfp.one/AUT1",
+  "capa_local": "YOU MAKE ME DANCE [L]/YOU MAKE ME DANCE [L].jpg",
+  "sinopse": "Song Shi On é um estudante universitário de 22 anos que está se formando em dança contemporânea. Sua família reprova seu estilo de vida e suas ambições profissionais, expulsando-o de casa após uma briga séria. Ele resolve correr atrás de seus sonhos custe o que custar, e essa decisão o leva a dividir uma cobertura com Jin Hong Seok, um cobrador de dívidas de 28 anos.",
+  "genero": "Drama",
+  "elenco": "Choo Young-woo, Won Tae-min",
+  "diretor": "So Joon-moon",
+  "total_episodios": "14",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:12:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:12:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:12:09"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:15:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:42"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:14:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:18:51"
+        }
+      ]
+    }
+  ],
+  "id": 5316
+}

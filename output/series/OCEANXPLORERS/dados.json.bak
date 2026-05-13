@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExNzc=",
+  "tipo": "serie",
+  "titulo": "OCEANXPLORERS",
+  "capa_url": "https://lgfp.one/DHE2",
+  "capa_local": "OCEANXPLORERS/OCEANXPLORERS.jpg",
+  "sinopse": "Acompanha as missões do OceanXplorer, o navio de pesquisa científica e exploração de última geração da OceanX. A embarcação investiga as fronteiras mais distantes dos oceanos do mundo, 80% das quais são totalmente desconhecidas.",
+  "genero": "Documentário",
+  "elenco": "Asha de Vos, Zoleka Filander, Eric Stackpole, Aldo Kane, James Cameron",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:38:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:34"
+        }
+      ]
+    }
+  ],
+  "id": 5834
+}

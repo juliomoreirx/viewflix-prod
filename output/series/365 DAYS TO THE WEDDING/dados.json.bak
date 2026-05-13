@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM2MjA=",
+  "tipo": "serie",
+  "titulo": "365 DAYS TO THE WEDDING",
+  "capa_url": "https://lgfp.one/KLU4",
+  "capa_local": "365 DAYS TO THE WEDDING/365 DAYS TO THE WEDDING.jpg",
+  "sinopse": "Takuya e Rika trabalham na mesma agência de viagens em Tóquio e os dois estão felizes sendo introvertidos e solteiros. Mas a empresa vai abrir uma filial no Alaska no ano que vem e os empregados não casados serão recrutados para trabalhar lá. Desesperados para evitar a mudança, e apesar de nunca terem conversado antes, eles decidem fingir um noivado. Será que esses dois colegas que andam sempre calados podem se passar por um casal convincente?",
+  "genero": "Animação, Comédia",
+  "elenco": "熊谷健太郎, Saori Hayami, Ami Koshimizu, 落合福嗣, 阿澄佳奈",
+  "diretor": "博史池畠",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 6444
+}

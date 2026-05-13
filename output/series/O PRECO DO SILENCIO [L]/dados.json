@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MTU=",
+  "tipo": "serie",
+  "titulo": "O PRECO DO SILENCIO [L]",
+  "capa_url": "https://lgfp.one/PSS8",
+  "capa_local": "O PRECO DO SILENCIO [L]/O PRECO DO SILENCIO [L].jpg",
+  "sinopse": "Depois de testemunhar um assassinato em uma escola de prestígio, uma garota de origem humilde tem a chance de estudar no local em troca de silêncio.",
+  "genero": "Drama, Mistério",
+  "elenco": "이은샘, 예리",
+  "diretor": "",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:35:34"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:34:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:13"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:04"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:40:34"
+        }
+      ]
+    }
+  ],
+  "id": 3235
+}

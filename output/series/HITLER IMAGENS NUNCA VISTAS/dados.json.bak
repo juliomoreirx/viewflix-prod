@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIyNTc=",
+  "tipo": "serie",
+  "titulo": "HITLER IMAGENS NUNCA VISTAS",
+  "capa_url": "https://lgfp.one/OUV5",
+  "capa_local": "HITLER IMAGENS NUNCA VISTAS/HITLER IMAGENS NUNCA VISTAS.jpg",
+  "sinopse": "A vida de Hitler analisada por meio de fotos e vídeos, desde sua infância até sua queda. Cada episódio examina como ele usou propaganda para construir sua imagem, esconder relacionamentos e promover o racismo cruel que levou à guerra e ao maior horror que o mundo já viu: o Holocausto.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:58"
+        }
+      ]
+    }
+  ],
+  "id": 7483
+}

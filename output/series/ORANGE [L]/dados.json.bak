@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQyMjQ=",
+  "tipo": "serie",
+  "titulo": "ORANGE [L]",
+  "capa_url": "https://lgfp.one/SPL3",
+  "capa_local": "ORANGE [L]/ORANGE [L].jpg",
+  "sinopse": "Certo dia, Takamiya Naho recebe uma carta escrita por ela mesma dez anos no futuro. A carta narra exatamente os eventos daquele dia, incluindo a transferência de um novo aluno para a turma dela chamado Naruse Kakeru. A Naho do futuro diz repetidamente que ela tem vários arrependimentos e quer consertar eles garantindo que Naho do passado tome as decisões certas, especialmente sobre Kakeru. O mais chocante é que ela descobre que daqui dez anos Kakeru não estará mais entre eles. A Naho do futuro pede que ela cuide dele com atenção.",
+  "genero": "Animação, Drama, Sci-Fi & Fantasy",
+  "elenco": "Kana Hanazawa, Seiichiro Yamashita, Makoto Furukawa, 高森奈津美, Kazuyuki Okitsu",
+  "diretor": "浜崎博嗣, 中山奈緒美",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:41"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:37:55"
+        }
+      ]
+    }
+  ],
+  "id": 9284
+}

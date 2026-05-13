@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2NTA=",
+  "tipo": "serie",
+  "titulo": "DESPACHOS DE OUTRO LUGAR",
+  "capa_url": "https://lgfp.one/RAZ7",
+  "capa_local": "DESPACHOS DE OUTRO LUGAR/DESPACHOS DE OUTRO LUGAR.jpg",
+  "sinopse": "Segue um grupo de pessoas comuns que tropeçam num quebra-cabeça escondido atrás do véu da vida cotidiana. Eles descobrirão que o mistério é muito mais profundo do que eles jamais imaginaram.",
+  "genero": "Drama, Mistério",
+  "elenco": "Jason Segel, André 3000, Sally Field, Richard E. Grant, Eve Lindley",
+  "diretor": "Alethea Jones, Spencer McCall",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:13"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:45:15"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:38"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:52:23"
+        }
+      ]
+    }
+  ],
+  "id": 8439
+}

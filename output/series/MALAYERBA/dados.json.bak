@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2OTk=",
+  "tipo": "serie",
+  "titulo": "MALAYERBA",
+  "capa_url": "https://lgfp.one/SUT",
+  "capa_local": "MALAYERBA/MALAYERBA.jpg",
+  "sinopse": "Três amigos cultivando um império, mas ao desenterram uma má semente, o futuro deles é ameaçado",
+  "genero": "Drama",
+  "elenco": "María Elisa Camargo, Sebastián Eslava, Carolina Gaitán, Juan Pablo Urrego",
+  "diretor": "Natalia Echeverri",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:24"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:46:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:45:55"
+        }
+      ]
+    }
+  ],
+  "id": 2250
+}

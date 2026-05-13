@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5Mzc=",
+  "tipo": "serie",
+  "titulo": "PONTO DE VIRADA A GUERRA DO VIETNÃ",
+  "capa_url": "https://lgfp.one/NSH8",
+  "capa_local": "PONTO DE VIRADA A GUERRA DO VIETNA/PONTO DE VIRADA A GUERRA DO VIETNA.jpg",
+  "sinopse": "Esta série documental instigante analisa as consequências perturbadoras da Guerra do Vietnã, desde o incidente do Golfo de Tonkin até a queda de Saigon.",
+  "genero": "Documentário, War & Politics",
+  "elenco": "Fredrik Logevall, George J. Veith, Marc J. Selverstone",
+  "diretor": "Sabrina Parke",
+  "total_episodios": "75",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:12:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:13:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:12:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:20:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:24:22"
+        }
+      ]
+    }
+  ],
+  "id": 7245
+}

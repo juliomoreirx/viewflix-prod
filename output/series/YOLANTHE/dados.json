@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg4OTM=",
+  "tipo": "serie",
+  "titulo": "YOLANTHE",
+  "capa_url": "https://lgfp.one/OUW2",
+  "capa_local": "YOLANTHE/YOLANTHE.jpg",
+  "sinopse": "Este reality acompanha Yolanthe Cabau em sua nova vida cheia de glamour em Los Angeles, enfrentando desafios inesperados e fantasmas do passado.",
+  "genero": "Reality",
+  "elenco": "Yolanthe Cabau, Xess Xava Sneijder, Wesley Sneijder, Patricia Farris, James Harris",
+  "diretor": "Mark Leene",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:43"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:36:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:48:00"
+        }
+      ]
+    }
+  ],
+  "id": 7490
+}

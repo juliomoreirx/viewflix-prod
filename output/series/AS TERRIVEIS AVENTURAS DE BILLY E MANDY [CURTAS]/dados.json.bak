@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4OTc=",
+  "tipo": "serie",
+  "titulo": "AS TERRÍVEIS AVENTURAS DE BILLY E MANDY [CURTAS]",
+  "capa_url": "https://lgfp.one/RYL",
+  "capa_local": "AS TERRIVEIS AVENTURAS DE BILLY E MANDY [CURTAS]/AS TERRIVEIS AVENTURAS DE BILLY E MANDY [CURTAS].jpg",
+  "sinopse": "A história do desenho se inicia quando Puro Osso, o Ceifador Sinistro, entra na casa de Billy, para ceifar a alma de seu hamster, mas Mandy não deixa que isso aconteça, e desafia Puro Osso a um jogo de limbo. Se Billy e Mandy ganhasse, eles ficariam com o hamster e Puro Osso se tornaria amigo deles para sempre, e, se Puro Osso ganhasse ficaria com a alma do hamster. Billy e Mandy vencem o desafio no Reino do Limbo contra o representante da morte, Puro Osso. Então, o desenho trata de acontecimentos estranhos e sinistros, como que diários, da relação de Puro Osso (criatura mágica e imortal) e Billy e Mandy (crianças normais).",
+  "genero": "Animação, Comédia, Família",
+  "elenco": "Greg Eagles, Richard Steven Horvitz, Grey DeLisle, Vanessa Marshall",
+  "diretor": "",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:02:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:02:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:02:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:02:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:02:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:02:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:02:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:02:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:02:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:02:05"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:02:07"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:02:05"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:02:07"
+        }
+      ]
+    }
+  ],
+  "id": 227472
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MTA=",
+  "tipo": "serie",
+  "titulo": "FAZ-ME RIR",
+  "capa_url": "https://lgfp.one/TAE",
+  "capa_local": "FAZ-ME RIR/FAZ-ME RIR.jpg",
+  "sinopse": "Para fazer o mundo rir e arrasar no stand-up, estes quatro amigos estão dispostos a tudo, custe o que custar!",
+  "genero": "Comédia, Drama",
+  "elenco": "Jean Siuen, Mariama Gueye, Younès Boucif, Elsa Guedj",
+  "diretor": "Farid Bentoumi, Bryan Marciano",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:02"
+        }
+      ]
+    }
+  ],
+  "id": 2393
+}

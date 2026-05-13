@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMTQ=",
+  "tipo": "serie",
+  "titulo": "O PROFESSOR [L]",
+  "capa_url": "https://lgfp.one/DQP2",
+  "capa_local": "O PROFESSOR [L]/O PROFESSOR [L].jpg",
+  "sinopse": "Evan Marquez é um professor de ensino médio em Austin, Texas, que frequentemente se encontra na interseção dos aspectos pessoais, profissionais e políticos de trabalhar em uma escola de ensino médio.",
+  "genero": "Comédia",
+  "elenco": "Brian Jordan Alvarez, Stephanie Koenig, Enrico Colantoni, Sean Patton",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:22:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:24"
+        }
+      ]
+    }
+  ],
+  "id": 353418
+}

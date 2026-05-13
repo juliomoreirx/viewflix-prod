@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNDc=",
+  "tipo": "serie",
+  "titulo": "DESCENDENTES DO SOL",
+  "capa_url": "https://lgfp.one/BHF1",
+  "capa_local": "DESCENDENTES DO SOL/DESCENDENTES DO SOL.jpg",
+  "sinopse": "Yoo Shi Jin é o capitão das forças especiais coreana. Ele conhece a médica Kang Mo Yeon quando Yoo e seu colega de trabalho acabam machucando um bandido. O capitão e a doutora logo se apaixonam, mas manter essa relação e lidar com seus respectivos trabalhos não é uma tarefa fácil. O casal acaba terminando o namoro, mas, oito meses depois, o destino os reúne novamente.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "송중기, 송혜교, 김지원, 진구, 온유",
+  "diretor": "이응복, Baek Sang-Hoon, Yoo Jong-sun",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:56:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:59:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:42"
+        }
+      ]
+    }
+  ],
+  "id": 5583
+}

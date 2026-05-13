@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwMjA=",
+  "tipo": "serie",
+  "titulo": "GOSTINHO DE AMOR",
+  "capa_url": "https://lgfp.one/NVI4",
+  "capa_local": "GOSTINHO DE AMOR/GOSTINHO DE AMOR.jpg",
+  "sinopse": "Em busca do estrelato culinário, um herdeiro arrogante conhece uma chef discreta, mas teimosa, e se encanta com suas receitas. Seria o início de um romance improvável?",
+  "genero": "Comédia, Drama",
+  "elenco": "Kang Ha Neul, Go Min Si, Kim Shin Rok, Yoo Su Bin, 배나라",
+  "diretor": "Park Dan-hee",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:36"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:00:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:00:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:01:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:00:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:00:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:59:47"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:04:42"
+        }
+      ]
+    }
+  ],
+  "id": 7288
+}

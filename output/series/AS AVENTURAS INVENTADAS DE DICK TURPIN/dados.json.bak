@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxOTY=",
+  "tipo": "serie",
+  "titulo": "AS AVENTURAS INVENTADAS DE DICK TURPIN",
+  "capa_url": "https://lgfp.one/AKD2",
+  "capa_local": "AS AVENTURAS INVENTADAS DE DICK TURPIN/AS AVENTURAS INVENTADAS DE DICK TURPIN.jpg",
+  "sinopse": "O lendário bandoleiro Dick Turpin sai numa série de aventuras absurdas quando torna-se o relutante líder de uma gangue fora da lei—e tem a tarefa de superar o incrivelmente corrupto Jonathan Wilde.",
+  "genero": "Comédia, Action & Adventure",
+  "elenco": "Noel Fielding, Hugh Bonneville, Marc Wootton, Ellie White, Mark Heap",
+  "diretor": "Ben Palmer",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:32:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:33:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:30"
+        }
+      ]
+    }
+  ],
+  "id": 5071
+}

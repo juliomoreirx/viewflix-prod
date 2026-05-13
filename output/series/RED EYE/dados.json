@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwNzM=",
+  "tipo": "serie",
+  "titulo": "RED EYE",
+  "capa_url": "https://lgfp.one/NPB8",
+  "capa_local": "RED EYE/RED EYE.jpg",
+  "sinopse": "O policial londrino DC Hana Li está escoltando o Dr. Matthew Nolan de volta a Pequim, onde foi acusado de um crime. No entanto, a bordo do voo 357, ela se vê envolvida em uma conspiração crescente e em um número crescente de assassinatos.",
+  "genero": "Action & Adventure",
+  "elenco": "Richard Armitage, Jing Lusi, Mido Hamada, Jemma Moore, Thomas Chaanhing",
+  "diretor": "Kieron Hawkes",
+  "total_episodios": "270",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:25"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:49"
+        }
+      ]
+    }
+  ],
+  "id": 5533
+}

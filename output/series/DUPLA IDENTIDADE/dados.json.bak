@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NTQ=",
+  "tipo": "serie",
+  "titulo": "DUPLA IDENTIDADE",
+  "capa_url": "https://lgfp.one/RDC",
+  "capa_local": "DUPLA IDENTIDADE/DUPLA IDENTIDADE.jpg",
+  "sinopse": "Quatro jovens assassinadas em três meses. Dupla Identidade narra a perseguição policial a Edu, um serial Killer, sem compaixão, consciência ou remorso dos seus atos mais cruéis.",
+  "genero": "Crime, Drama",
+  "elenco": "Bruno Gagliasso, Débora Falabella, Luana Piovani, Marcello Novaes, Marisa Orth",
+  "diretor": "Mauro Mendonça Filho, René Sampaio",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:49:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:49:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:34"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:50:24"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:49:58"
+        }
+      ]
+    }
+  ],
+  "id": 892
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2MDE=",
+  "tipo": "serie",
+  "titulo": "SPARTACUS HOUSE OF ASHUR",
+  "capa_url": "https://lgfp.one/RBA2",
+  "capa_local": "SPARTACUS HOUSE OF ASHUR/SPARTACUS HOUSE OF ASHUR.jpg",
+  "sinopse": "E se Ashur tivesse sobrevivido e ganhado o ludus onde antes sangrou? Com Achillia, uma gladiadora, ele cria espetáculos que desafiam Roma e chocam a elite.",
+  "genero": "Drama, Action & Adventure",
+  "elenco": "Nick E. Tarabay, Graham McTavish, Tenika Davis, Jamaica Vaughan, Ivana Baquero",
+  "diretor": "Rick Jacobson",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:45"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:45"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:01"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:03:20"
+        }
+      ]
+    }
+  ],
+  "id": 8444
+}

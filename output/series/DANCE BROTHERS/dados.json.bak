@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MjM=",
+  "tipo": "serie",
+  "titulo": "DANCE BROTHERS",
+  "capa_url": "https://lgfp.one/ZXI",
+  "capa_local": "DANCE BROTHERS/DANCE BROTHERS.jpg",
+  "sinopse": "Dois irmãos que buscam o sucesso como dançarinos abrem uma boate. Mas o amor pela arte logo entra em conflito com os negócios, abalando a relação dos dois.",
+  "genero": "Drama",
+  "elenco": "Samuel Kujala, Roderick Kabanga, Jeanine Muyima, Fanni Noroila, Laura Lohi",
+  "diretor": "Leo Viirret, Mahsa Malka, Reeta Ruotsalainen",
+  "total_episodios": "20",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:19:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:56"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:20:08"
+        }
+      ]
+    }
+  ],
+  "id": 3500
+}

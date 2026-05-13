@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUwOTk=",
+  "tipo": "serie",
+  "titulo": "A MAQUINA [L]",
+  "capa_url": "https://lgfp.one/DXM7",
+  "capa_local": "A MAQUINA [L]/A MAQUINA [L].jpg",
+  "sinopse": "Após uma derrota devastadora, Esteban “A Máquina” Osuna encontra-se em uma fase ruim de sua carreira no boxe. Para sua sorte, seu empresário e melhor amigo Andy Lujan está determinado a colocá-lo de volta no topo. Mas, quando uma organização nefasta aparece, o resultado dessa revanche se torna uma questão de vida ou morte. Enquanto luta para se preparar para seu gande retorno, Esteban também deve lidar com seus demônios pessoais e proteger sua família.",
+  "genero": "Drama, Comédia",
+  "elenco": "Gael García Bernal, Diego Luna, Eiza González, Jorge Perugorría, Karina Gidi",
+  "diretor": "Kyzza Terrazas",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:42"
+        }
+      ]
+    }
+  ],
+  "id": 6118
+}

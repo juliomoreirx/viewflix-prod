@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA4OTY=",
+  "tipo": "serie",
+  "titulo": "ALLEN V FARROW",
+  "capa_url": "https://lgfp.one/RYK",
+  "capa_local": "ALLEN V FARROW/ALLEN V FARROW.jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Dylan Farrow, Mia Farrow, Ronan Farrow, Woody Allen, Soon-Yi Previn",
+  "diretor": "",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:56:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:14:18"
+        }
+      ]
+    }
+  ],
+  "id": 1479
+}

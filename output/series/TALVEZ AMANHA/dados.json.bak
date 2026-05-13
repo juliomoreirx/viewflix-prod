@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4Nzk=",
+  "tipo": "serie",
+  "titulo": "TALVEZ AMANHA",
+  "capa_url": "https://lgfp.one/RBA4",
+  "capa_local": "TALVEZ AMANHA/TALVEZ AMANHA.jpg",
+  "sinopse": "Na casa dos vinte anos, Lee Kyeong-do e Seo Ji-woo se separam após dois relacionamentos. Dez anos depois, eles se reencontram: ele, agora repórter que cobre um escândalo de adultério; ela, esposa do homem no centro do caso. Ao se reverem perto dos quarenta, a juventude ficou para trás, mas o sentimento continua vivo. Kyeong-do passa a lutar para provar a ela e a si mesmo que ainda a ama.",
+  "genero": "Comédia",
+  "elenco": "Park Seo Joon, 원지안, 이엘, 이주영, 강기둥",
+  "diretor": "Im Hyeon-wook",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:07:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:06:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:11:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:11:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:18:30"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:15:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:05:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:05:55"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:04:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:10:37"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:14:06"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:15:12"
+        }
+      ]
+    }
+  ],
+  "id": 8446
+}

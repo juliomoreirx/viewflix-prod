@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzNTM=",
+  "tipo": "serie",
+  "titulo": "LUTADORES",
+  "capa_url": "https://lgfp.one/AAYU",
+  "capa_local": "LUTADORES/LUTADORES.jpg",
+  "sinopse": "Nesta série documental, os novos proprietários e atletas de uma organização de luta livre profissional tentam deixar sua marca dentro e fora dos ringues.",
+  "genero": "Documentário",
+  "elenco": "Allen Sarven, Doug Basham, Matt Jones",
+  "diretor": "Greg Whiteley",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:58:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:48"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:12"
+        }
+      ]
+    }
+  ],
+  "id": 3986
+}

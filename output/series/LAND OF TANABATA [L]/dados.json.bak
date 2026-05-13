@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNDI=",
+  "tipo": "serie",
+  "titulo": "LAND OF TANABATA [L]",
+  "capa_url": "https://lgfp.one/CXS9",
+  "capa_local": "LAND OF TANABATA [L]/LAND OF TANABATA [L].jpg",
+  "sinopse": "Yoji Minamimaru, conhecido como Nanmaru, é um estudante universitário com uma habilidade supernatural de criar pequenos buracos em qualquer coisa. Um dia, Yoji descobre que o professor de estudos folclóricos desapareceu. Junto de seus colegas de classe, ele decide procurar seu professor.",
+  "genero": "Drama, Mistério, Sci-Fi & Fantasy",
+  "elenco": "細田佳央太, 藤野涼子, Shuhei Uesugi, 木竜麻生, 鳴海唯",
+  "diretor": "Takamasa Oe",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:35:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:14"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:51:27"
+        }
+      ]
+    }
+  ],
+  "id": 5677
+}

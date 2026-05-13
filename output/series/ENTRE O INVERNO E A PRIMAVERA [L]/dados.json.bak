@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI4NDk=",
+  "tipo": "serie",
+  "titulo": "ENTRE O INVERNO E A PRIMAVERA [L]",
+  "capa_url": "https://lgfp.one/ROB7",
+  "capa_local": "ENTRE O INVERNO E A PRIMAVERA [L]/ENTRE O INVERNO E A PRIMAVERA [L].jpg",
+  "sinopse": "",
+  "genero": "Drama",
+  "elenco": "杉咲花, 成田凌, 岡山天音, 水沢林太郎, 志田彩良",
+  "diretor": "今泉力哉",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:17"
+        }
+      ]
+    }
+  ],
+  "id": 8751
+}

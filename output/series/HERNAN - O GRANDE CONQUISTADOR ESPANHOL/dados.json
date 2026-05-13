@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0Nzc=",
+  "tipo": "serie",
+  "titulo": "HERNÁN - O GRANDE CONQUISTADOR ESPANHOL",
+  "capa_url": "https://lgfp.one/JLD",
+  "capa_local": "HERNAN - O GRANDE CONQUISTADOR ESPANHOL/HERNAN - O GRANDE CONQUISTADOR ESPANHOL.jpg",
+  "sinopse": "A história por trás da conquista do México, em 1519. Quando Hernán Cortés, um diplomata habilidoso, com ambiguidade moral e gênio militar, chega ao país, as culturas contrastantes dos colonizados e do colonizador entram em choque.",
+  "genero": "Drama",
+  "elenco": "Óscar Jaenada, Ishbel Bautista, Almagro San Miguel, Jorge Antonio Guerrero, Víctor Clavijo",
+  "diretor": "",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:24"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:17"
+        }
+      ]
+    }
+  ],
+  "id": 698
+}

@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MzQ=",
+  "tipo": "serie",
+  "titulo": "À BEIRA DO CAOS",
+  "capa_url": "https://lgfp.one/SFT",
+  "capa_local": "A BEIRA DO CAOS/A BEIRA DO CAOS.jpg",
+  "sinopse": "A crise da meia-idade bateu à porta. Agora, quatro amigas compartilham as dores e as delícias de suas vidas pessoais e profissionais.",
+  "genero": "Comédia, Drama",
+  "elenco": "Julie Delpy, Sarah Jones, Elisabeth Shue, Alexia Landeau",
+  "diretor": "Julie Delpy, Mathieu Demy, David Petrarca",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:35:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:28"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:50"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:29:02"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:33:13"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:30:38"
+        }
+      ]
+    }
+  ],
+  "id": 1842
+}

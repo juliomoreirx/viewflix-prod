@@ -1,0 +1,185 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MjM=",
+  "tipo": "serie",
+  "titulo": "TRUE DETECTIVE",
+  "capa_url": "https://lgfp.one/JIL",
+  "capa_local": "TRUE DETECTIVE/TRUE DETECTIVE.jpg",
+  "sinopse": "Mostrando diferentes perspectivas tanto no passado como no presente, a narrativa se foca na investigação dos crimes supostamente cometidos por um serial killer no ano de 1995 feita pelos detetives Rust Cohle e Martin Hart. Nos dias atuais, o caso é aberto novamente e ambos são questionados pelos atuais detetives, já que a polícia tenta novamente prender o mesmo assassino. A série mostrará ao público o que acontece atualmente, ao mesmo tempo em que revela flashbacks da investigação nos anos 90.",
+  "genero": "Drama, Mistério",
+  "elenco": "Jodie Foster, Kali Reis, Fiona Shaw, Finn Bennett, Isabella Star LaBlanc",
+  "diretor": "Barry Jenkins, Cary Joji Fukunaga",
+  "total_episodios": "59",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:28"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:46"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:03"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:00:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:58:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:58:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:55:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:59:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:59:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:04:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "01:26:50"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:58:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:57:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:54:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "01:06:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:58:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:58:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:57:17"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "01:15:56"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:58:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "01:02:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:58:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "01:00:42"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "01:03:05"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "01:15:22"
+        }
+      ]
+    }
+  ],
+  "id": 9361
+}

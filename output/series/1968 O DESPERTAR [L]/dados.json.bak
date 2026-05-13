@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUyNzU=",
+  "tipo": "serie",
+  "titulo": "1968 O DESPERTAR [L]",
+  "capa_url": "https://lgfp.one/AJQ0",
+  "capa_local": "1968 O DESPERTAR [L]/1968 O DESPERTAR [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário",
+  "elenco": "Alain Mabanckou, Viet Thanh Nguyen, Antonio Negri, Judith Butler, Hélène Cixous",
+  "diretor": "Don Kent, François-Xavier Destors, Don Kent",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:15"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:35"
+        }
+      ]
+    }
+  ],
+  "id": 5051
+}

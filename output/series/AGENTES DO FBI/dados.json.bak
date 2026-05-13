@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyODI=",
+  "tipo": "serie",
+  "titulo": "AGENTES DO FBI",
+  "capa_url": "https://lgfp.one/ZXD",
+  "capa_local": "AGENTES DO FBI/AGENTES DO FBI.jpg",
+  "sinopse": "Contado através de três linhas do tempo, uma turma de agentes do FBI deve lidar com grandes mudanças à medida que o sistema de justiça criminal dos EUA é alterado por inteligência artificial.",
+  "genero": "Drama / Mistério / Crime",
+  "elenco": "Kate Mara, Brian Tyree Henry, Sepideh Moafi, Brian J. Smith, Jon Jon Briones, Brooke Smith, Rosalind Eleazar, Jake McDorman",
+  "diretor": "Tom Rob Smith",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:38:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:07"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:38:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:08"
+        }
+      ]
+    }
+  ],
+  "id": 3495
+}

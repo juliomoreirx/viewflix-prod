@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4ODU=",
+  "tipo": "serie",
+  "titulo": "S.M.A.S.H.! ACAMPAMENTO DE SUPER-HERÓIS",
+  "capa_url": "https://lgfp.one/YCH",
+  "capa_local": "S.M.A.S.H.! ACAMPAMENTO DE SUPER-HEROIS/S.M.A.S.H.! ACAMPAMENTO DE SUPER-HEROIS.jpg",
+  "sinopse": "Bem-vindo ao Acampamento SMASH, onde esses super-heróis em treinamento e seus super amigos de estimação aprendem a trabalhar juntos, se tornam grandes amigos, se fortalecem, formam equipe e salvam o dia.",
+  "genero": "Animação, Kids",
+  "elenco": "Jeannie Tirado, Hattie Kragten, Anairis Quinones, Becky Boxer, Ogie Banks",
+  "diretor": "",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:10:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:09:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:10:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:10:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:09:57"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:10:26"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:10:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:10:40"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:11:07"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:09:41"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:11:39"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:10:01"
+        }
+      ]
+    }
+  ],
+  "id": 2767
+}

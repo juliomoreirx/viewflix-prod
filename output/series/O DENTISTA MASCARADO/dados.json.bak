@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg0NDc=",
+  "tipo": "serie",
+  "titulo": "O DENTISTA MASCARADO",
+  "capa_url": "https://lgfp.one/ROI",
+  "capa_local": "O DENTISTA MASCARADO/O DENTISTA MASCARADO.jpg",
+  "sinopse": "De dia, ele é um pacato dentista. À noite, um atrapalhado combatente do crime. O seriado mostra a história de um trio improvável que tenta fazer justiça com as próprias mãos.",
+  "genero": "Comédia, Crime, Action & Adventure",
+  "elenco": "Marcelo Adnet, Taís Araújo, Helena Fernandes, Leandro Hassum, Otávio Augusto",
+  "diretor": "José Alvarenga Jr.",
+  "total_episodios": "35",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:37:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:35:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:35:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:36:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:32:36"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:33:14"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:30:35"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:36:03"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:33:46"
+        }
+      ]
+    }
+  ],
+  "id": 1200
+}

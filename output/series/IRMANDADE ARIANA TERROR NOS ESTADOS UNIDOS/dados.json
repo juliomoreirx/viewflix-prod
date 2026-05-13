@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0MjM=",
+  "tipo": "serie",
+  "titulo": "IRMANDADE ARIANA TERROR NOS ESTADOS UNIDOS",
+  "capa_url": "https://lgfp.one/MXJ9",
+  "capa_local": "IRMANDADE ARIANA TERROR NOS ESTADOS UNIDOS/IRMANDADE ARIANA TERROR NOS ESTADOS UNIDOS.jpg",
+  "sinopse": "O agente especial, Rich Boehning, enfrenta uma das gangues criminosas mais violentas dos EUA, a Irmandade Ariana do Texas.",
+  "genero": "Documentário",
+  "elenco": "Richard Boehning",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:41"
+        }
+      ]
+    }
+  ],
+  "id": 6859
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg3MzM=",
+  "tipo": "serie",
+  "titulo": "TALAMASCA DE ANNE RICE: A ORDEM SECRETA",
+  "capa_url": "https://lgfp.one/QUD2",
+  "capa_local": "TALAMASCA DE ANNE RICE A ORDEM SECRETA/TALAMASCA DE ANNE RICE A ORDEM SECRETA.jpg",
+  "sinopse": "Guy Anatole é um cara comum. Até ser recrutado pela agência de espionagem do mundo imortal para integrar suas forças clandestinas. Acompanhamos Guy enquanto ele se adapta a esse novo mundo e descobre conexões inesperadas com o passado de sua família.",
+  "genero": "Sci-Fi & Fantasy",
+  "elenco": "Nicholas Denton, Celine Buckens, Maisie Richardson-Sellers, William Fichtner, Elizabeth McGovern",
+  "diretor": "John Lee Hancock",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:17"
+        }
+      ]
+    }
+  ],
+  "id": 8423
+}

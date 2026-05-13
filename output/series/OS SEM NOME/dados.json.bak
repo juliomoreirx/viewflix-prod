@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEwNTg=",
+  "tipo": "serie",
+  "titulo": "OS SEM NOME",
+  "capa_url": "https://lgfp.one/PYV2",
+  "capa_local": "OS SEM NOME/OS SEM NOME.jpg",
+  "sinopse": "Claudia é uma mulher que perdeu sua filha Angela de forma traumática, descobre anos depois, justo quando começa a se recuperar da dor, que talvez sua filha ainda esteja viva.",
+  "genero": "Mistério, Crime",
+  "elenco": "Miren Ibarguren, Rodrigo de la Serna, Milena Smit, Bastien Ughetto, Alba Guilera",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:02:33"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:58:29"
+        }
+      ]
+    }
+  ],
+  "id": 7980
+}

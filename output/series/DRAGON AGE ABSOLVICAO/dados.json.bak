@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MDg=",
+  "tipo": "serie",
+  "titulo": "DRAGON AGE: ABSOLVIÇÃO",
+  "capa_url": "https://lgfp.one/WLQ",
+  "capa_local": "DRAGON AGE ABSOLVICAO/DRAGON AGE ABSOLVICAO.jpg",
+  "sinopse": "Um grande poder está em jogo e um grupo de rebeldes precisa se unir para roubar o artefato de um mago sinistro.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Kimberly Brooks, Ashly Burch, Sumalee Montano, Phil LaMarr, Keston John",
+  "diretor": "Ki-Yong Bae, Mairghread Scott",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:46"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:27:14"
+        }
+      ]
+    }
+  ],
+  "id": 3119
+}

@@ -1,0 +1,85 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzMDA=",
+  "tipo": "serie",
+  "titulo": "HELLSING ULTIMATE [L]",
+  "capa_url": "https://lgfp.one/SIB6",
+  "capa_local": "HELLSING ULTIMATE [L]/HELLSING ULTIMATE [L].jpg",
+  "sinopse": "A história se passa em uma Inglaterra dos dias de hoje atormentada pelos ataques de criaturas sobrenaturais. A maioria dessas aparições, no entanto, não chega ao conhecimento da população comum, pois há um destacamento especial para lidar com estes casos; a organização Hellsing. O grupo, liderado pela jovem Integra Fairbrook Wingates Hellsing, é composto por diversos membros de tropas especiais, incluindo ainda o habilidoso e cruel vampiro Alucard.",
+  "genero": "Animação, Drama, Sci-Fi & Fantasy",
+  "elenco": "中田譲治, Fumiko Orikasa, Yoshiko Sakakibara, 飛田展男",
+  "diretor": "ところともかず",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:56:19"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:07:45"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:09:07"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:07:31"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:10:38"
+        }
+      ]
+    }
+  ],
+  "id": 9165
+}

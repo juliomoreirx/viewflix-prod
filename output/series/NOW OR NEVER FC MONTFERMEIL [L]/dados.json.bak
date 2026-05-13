@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3MTg=",
+  "tipo": "serie",
+  "titulo": "NOW OR NEVER FC MONTFERMEIL [L]",
+  "capa_url": "https://lgfp.one/PSL9",
+  "capa_local": "NOW OR NEVER FC MONTFERMEIL [L]/NOW OR NEVER FC MONTFERMEIL [L].jpg",
+  "sinopse": "Acompanhe os jovens jogadores de futebol no notório subúrbio parisiense de Montfermeil, em uma temporada que vai determinar o futuro deles.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:34:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:30:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:22"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:57"
+        }
+      ]
+    }
+  ],
+  "id": 7823
+}

@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkxNTg=",
+  "tipo": "serie",
+  "titulo": "RECEIVER",
+  "capa_url": "https://lgfp.one/CXT1",
+  "capa_local": "RECEIVER/RECEIVER.jpg",
+  "sinopse": "Esta emocionante série esportiva acompanha a temporada de 2023 dos receptores da NFL Davante Adams, Justin Jefferson, George Kittle, Deebo Samuel e Amon-Ra St. Brown.",
+  "genero": "Documentário",
+  "elenco": "Davante Adams, Justin Jefferson, George Kittle, Deebo Samuel, Amon-Ra St. Brown",
+  "diretor": "Keith Cossrow, Joe Zucco",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:43"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:05"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:53:47"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:02:37"
+        }
+      ]
+    }
+  ],
+  "id": 5679
+}

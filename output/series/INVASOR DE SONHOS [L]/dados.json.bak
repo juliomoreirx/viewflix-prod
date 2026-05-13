@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ0NDI=",
+  "tipo": "serie",
+  "titulo": "INVASOR DE SONHOS [L]",
+  "capa_url": "https://lgfp.one/RGE5",
+  "capa_local": "INVASOR DE SONHOS [L]/INVASOR DE SONHOS [L].jpg",
+  "sinopse": "No futuro, a mente pode ser invadida por criminosos. Para detê-los, existem os Invasores de Sonhos. Após uma série de crimes intrugantes, um trio embarca em uma perigosa jornada dentro da mente humana para evitar novas vítimas.",
+  "genero": "Mistério",
+  "elenco": "王識賢, 徐若瑄, 王耀慶, 楊一展, 樊光耀",
+  "diretor": "鄭保瑞, Simon Hung, Fu Dung",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:06"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:50"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:26"
+        }
+      ]
+    }
+  ],
+  "id": 8612
+}

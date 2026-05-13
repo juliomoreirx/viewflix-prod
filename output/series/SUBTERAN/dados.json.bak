@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMzU=",
+  "tipo": "serie",
+  "titulo": "SUBTERAN",
+  "capa_url": "https://lgfp.one/KPH5",
+  "capa_local": "SUBTERAN/SUBTERAN.jpg",
+  "sinopse": "A vida de uma jovem mãe muda de rumo quando ela precisa usar uma identidade secreta para fugir da gangue responsável pela morte de seu noivo.",
+  "genero": "Crime, Drama",
+  "elenco": "Ana Ularu, Cezar Grumăzescu, Florin Piersic Jr., Irina Artenii",
+  "diretor": "Octav Gheorghe, Anca Miruna Lazarescu, Daniel Sandu",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:37"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:02"
+        }
+      ]
+    }
+  ],
+  "id": 6517
+}

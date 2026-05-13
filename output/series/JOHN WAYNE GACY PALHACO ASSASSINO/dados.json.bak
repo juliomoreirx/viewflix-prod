@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMDg=",
+  "tipo": "serie",
+  "titulo": "JOHN WAYNE GACY PALHACO ASSASSINO",
+  "capa_url": "https://lgfp.one/AYFC",
+  "capa_local": "JOHN WAYNE GACY PALHACO ASSASSINO/JOHN WAYNE GACY PALHACO ASSASSINO.jpg",
+  "sinopse": "A história arrepiante, de um dos mais notórios assassinos em série do mundo, contada através das palavras do próprio John Wayne Gacy.",
+  "genero": "Documentário",
+  "elenco": "John Wayne Gacy",
+  "diretor": "Rod Blackhurst",
+  "total_episodios": "51",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:54:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:18"
+        }
+      ]
+    }
+  ],
+  "id": 4770
+}

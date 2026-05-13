@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMDk=",
+  "tipo": "serie",
+  "titulo": "3X ÁRTICO: O ALERTA DO GELO",
+  "capa_url": "https://lgfp.one/AXCE",
+  "capa_local": "3X ARTICO O ALERTA DO GELO/3X ARTICO O ALERTA DO GELO.jpg",
+  "sinopse": "Ernesto Paglia retorna à Groenlândia, depois de quase 30 anos da primeira viagem, para mostrar o impacto das mudanças climáticas em uma das regiões mais isoladas do mundo.",
+  "genero": "Documentário",
+  "elenco": "Henrique Picarelli, Ernesto Paglia, Caio Cavechini",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:08"
+        }
+      ]
+    }
+  ],
+  "id": 4738
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMzg=",
+  "tipo": "serie",
+  "titulo": "PRA SEMPRE PAQUITAS",
+  "capa_url": "https://lgfp.one/DOZ0",
+  "capa_local": "PRA SEMPRE PAQUITAS/PRA SEMPRE PAQUITAS.jpg",
+  "sinopse": "‘Pra Sempre Paquitas’, série documental Original Globoplay, mergulha na vida e na carreira das eternas companheiras de palco da Rainha dos Baixinhos, resgatando histórias de amizade e união, as paixões, os sonhos, as experiências, os bastidores das gravações, as decepções, desentendimentos e os diferentes pontos de vista. A série traça um paralelo com os tempos atuais e promove a reflexão sobre como a sociedade moderna evoluiu junto às gerações de 1980 e 2000. Questões de gênero, pressão estética, representatividade, competitividade, infância, assédio, trabalho e tantos outros temas são abordados sem pudor.  A obra reúne depoimentos de 27 do total de 29 Paquitas que foram coroadas como assistentes de palco de Xuxa ao longo de sua icônica trajetória na TV.",
+  "genero": "Documentário",
+  "elenco": "Ana Paula Guimarães, Andréa Faria, Andréa Veiga, Luise Wischermann, Roberta Cipriani",
+  "diretor": "Ivo Filho, Ana Paula Guimarães, Mariano Boni",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:09:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:08:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:15:24"
+        }
+      ]
+    }
+  ],
+  "id": 5970
+}

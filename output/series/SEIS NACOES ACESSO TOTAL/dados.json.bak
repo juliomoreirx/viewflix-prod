@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNTc=",
+  "tipo": "serie",
+  "titulo": "SEIS NACOES ACESSO TOTAL",
+  "capa_url": "https://lgfp.one/AZLQ",
+  "capa_local": "SEIS NACOES ACESSO TOTAL/SEIS NACOES ACESSO TOTAL.jpg",
+  "sinopse": "Os melhores times de rugby da Europa se enfrentam em várias partidas para descobrir quem leva o troféu do Campeonato das Seis Nações.",
+  "genero": "Documentário, Reality",
+  "elenco": "Ugo Monye, Finn Russell, Christina Mahon",
+  "diretor": "Ollie Elliott, Mark O'Brien",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:39:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:33:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:00"
+        }
+      ]
+    }
+  ],
+  "id": 4918
+}

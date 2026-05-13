@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAyNzI=",
+  "tipo": "serie",
+  "titulo": "UM TANTO FAMILIAR",
+  "capa_url": "https://lgfp.one/QOA9",
+  "capa_local": "UM TANTO FAMILIAR/UM TANTO FAMILIAR.jpg",
+  "sinopse": "Pedro Andrade embarca numa viagem ao redor do mundo para explorar como diferentes situações e culturas influenciam a formação de uma família, enquanto compartilha sua experiência pessoal de se tornar pai com seu marido, Ben.",
+  "genero": "Documentário",
+  "elenco": "Pedro Andrade",
+  "diretor": "Tatiana Issa",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:33:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:31:05"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:29:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:30:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:30:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:28:52"
+        }
+      ]
+    }
+  ],
+  "id": 8342
+}

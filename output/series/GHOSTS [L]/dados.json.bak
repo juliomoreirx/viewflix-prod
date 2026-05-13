@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ5NTA=",
+  "tipo": "serie",
+  "titulo": "GHOSTS [L]",
+  "capa_url": "https://lgfp.one/NEM4",
+  "capa_local": "GHOSTS [L]/GHOSTS [L].jpg",
+  "sinopse": "Alison e Mike, um jovem casal sem dinheiro e lutando para comprar sua primeira casa, pensam que suas orações são respondidas quando um parente distante os deixa uma propriedade extensa. No entanto, a casa antiga é assombrada.",
+  "genero": "Comédia, Sci-Fi & Fantasy",
+  "elenco": "Charlotte Ritchie, Kiell Smith-Bynoe, Mathew Baynton, Simon Farnaby, Martha Howe-Douglas",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:29:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:53"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:28:30"
+        }
+      ]
+    }
+  ],
+  "id": 6991
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxMTM=",
+  "tipo": "serie",
+  "titulo": "SERA QUE ERA O AMOR [L]",
+  "capa_url": "https://lgfp.one/DQP6",
+  "capa_local": "SERA QUE ERA O AMOR [L]/SERA QUE ERA O AMOR [L].jpg",
+  "sinopse": "Dizem que até os 25 anos, a maioria das pessoas já conheceu seu amor, mas ainda não sabe disso. Seis Solteiros sortudos irão participar de um experimento no qual, pela primeira vez, será respondida a pergunta: E se a pessoa destinada ao seu futuro for do seu passado? Uma a uma, as pessoas dos seus passados passarão pelo Portal para surpreender os solteiros e lhes dar uma chance de amar.",
+  "genero": "Reality",
+  "elenco": "Betty Who",
+  "diretor": "Michael Shea",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:35"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:52:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:25"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:55:09"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:28"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:13:39"
+        }
+      ]
+    }
+  ],
+  "id": 6009
+}

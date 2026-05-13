@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNjk=",
+  "tipo": "serie",
+  "titulo": "DETETIVE FORST",
+  "capa_url": "https://lgfp.one/AYGV",
+  "capa_local": "DETETIVE FORST/DETETIVE FORST.jpg",
+  "sinopse": "Suspenso por usar métodos pouco convencionais, um detetive se une a uma jornalista para tentar resolver uma série de assassinatos violentos por conta própria.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Borys Szyc, Andrzej Bienias, Zuzanna Saporznikow, Kamilla Baar, Szymon Wróblewski",
+  "diretor": "Daniel Jaroszek, Dawid Nowak, Mikołaj Piszczan",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:52"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:00"
+        }
+      ]
+    }
+  ],
+  "id": 4798
+}

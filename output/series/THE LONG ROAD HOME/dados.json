@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE0Njc=",
+  "tipo": "serie",
+  "titulo": "THE LONG ROAD HOME",
+  "capa_url": "https://lgfp.one/RWN",
+  "capa_local": "THE LONG ROAD HOME/THE LONG ROAD HOME.jpg",
+  "sinopse": "Uma heroica luta pela sobrevivência durante a Guerra do Iraque quando a primeira Divisão da Cavalaria de Fort Hood caiu em uma emboscada na cidade de Sadr, em Bagdá. Durante oito episódios desta minissérie, veremos uma mescla de cenas de ação no Iraque e no Texas, onde as famílias aguardam notícias, temendo pelo pior.",
+  "genero": "War & Politics",
+  "elenco": "Michael Kelly, E.J. Bonilla, Noel Fisher, Darius Homayoun, Jon Beavers",
+  "diretor": "",
+  "total_episodios": "47",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:34:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:12"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:50:59"
+        }
+      ]
+    }
+  ],
+  "id": 1428
+}

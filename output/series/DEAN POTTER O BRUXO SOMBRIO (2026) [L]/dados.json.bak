@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxNTg=",
+  "tipo": "serie",
+  "titulo": "DEAN POTTER O BRUXO SOMBRIO (2026) [L]",
+  "capa_url": "https://lgfp.one/SUL0",
+  "capa_local": "DEAN POTTER O BRUXO SOMBRIO (2026) [L]/DEAN POTTER O BRUXO SOMBRIO (2026) [L].jpg",
+  "sinopse": "Docussérie que retrata as proezas de Dean Potter, um dos alpinistas mais influentes e controversos do mundo.",
+  "genero": "Documentário",
+  "elenco": "Dean Potter",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:01:10"
+        }
+      ]
+    }
+  ],
+  "id": 9410
+}

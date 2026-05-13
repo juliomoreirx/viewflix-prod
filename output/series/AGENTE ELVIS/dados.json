@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0NTc=",
+  "tipo": "serie",
+  "titulo": "AGENTE ELVIS",
+  "capa_url": "https://lgfp.one/YVO",
+  "capa_local": "AGENTE ELVIS/AGENTE ELVIS.jpg",
+  "sinopse": "Elvis entra para um programa secreto do governo americano e troca o rock pela espionagem para combater forças sombrias que ameaçam os EUA.",
+  "genero": "Animação, Comédia, Action & Adventure",
+  "elenco": "Matthew McConaughey, Kaitlin Olson, Johnny Knoxville, Niecy Nash-Betts, Tom Kenny",
+  "diretor": "Ben Kalina, Robert Valley, Jason Hammons",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:26:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:10"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:02"
+        }
+      ]
+    }
+  ],
+  "id": 3349
+}

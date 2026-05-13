@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4NjQ=",
+  "tipo": "serie",
+  "titulo": "DANIEL, O CAÇADOR DE MAGIA",
+  "capa_url": "https://lgfp.one/WLH",
+  "capa_local": "DANIEL, O CACADOR DE MAGIA/DANIEL, O CACADOR DE MAGIA.jpg",
+  "sinopse": "Na cidade de Nova York nos dias de hoje, a magia continua existindo... só que está escondida. Mas Daniel, o Caçador de Magia, sabe exatamente onde encontrá-la. Ganhando a vida como rastreador de objetos mágicos, Daniel encontra um artefato raro e atrai a atenção das pessoas erradas. Agora, o destino do mundo mágico está em jogo.",
+  "genero": "Animação, Action & Adventure",
+  "elenco": "Alex Barima, Deven Mack, Chantel Riley, Saara Chaudry, Al Mukaddam",
+  "diretor": "Trevor Deane-Freeman, Matthew Fernandes, Sophie Ann Rooney",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:25:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:25:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:26:12"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:25:56"
+        }
+      ]
+    }
+  ],
+  "id": 3110
+}

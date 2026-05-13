@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0NDA=",
+  "tipo": "serie",
+  "titulo": "JOHN CARPENTERS SUBURBAN SCREAMS [L]",
+  "capa_url": "https://lgfp.one/ARWA",
+  "capa_local": "JOHN CARPENTERS SUBURBAN SCREAMS [L]/JOHN CARPENTERS SUBURBAN SCREAMS [L].jpg",
+  "sinopse": "",
+  "genero": "Documentário, Mistério",
+  "elenco": "",
+  "diretor": "John Carpenter, John Carpenter",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:39:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:39:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:34"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:12"
+        }
+      ]
+    }
+  ],
+  "id": 4333
+}

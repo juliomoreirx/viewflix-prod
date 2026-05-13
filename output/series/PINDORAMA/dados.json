@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc3MzQ=",
+  "tipo": "serie",
+  "titulo": "PINDORAMA",
+  "capa_url": "https://lgfp.one/BKV1",
+  "capa_local": "PINDORAMA/PINDORAMA.jpg",
+  "sinopse": "A primeira animação Original BP dedicada às crianças, que fará florescer em seus corações o amor pelo Brasil: uma produção encantadora que estimula a imaginação e conta a história do país para os pequenos, inspirada na carta de Pero Vaz de Caminha.",
+  "genero": "Animação",
+  "elenco": "",
+  "diretor": "Evelyn Nonato, Renan Amadeo",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:10:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:09:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:09:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:09:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:08:31"
+        }
+      ]
+    }
+  ],
+  "id": 5632
+}

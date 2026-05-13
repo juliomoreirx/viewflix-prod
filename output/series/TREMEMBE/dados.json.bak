@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE2Nzg=",
+  "tipo": "serie",
+  "titulo": "TREMEMBE",
+  "capa_url": "https://lgfp.one/QMY7",
+  "capa_local": "TREMEMBE/TREMEMBE.jpg",
+  "sinopse": "A chegada de Suzane Von Richthofen abala a ordem em Tremembé e inicia uma disputa com Elize Matsunaga, enquanto Jatobá, Nardoni, Roger, Daniel e Cristian Cravinhos, entre outros criminosos, desafiam o sistema, em meio a conflitos internos e externos.",
+  "genero": "Drama, Crime",
+  "elenco": "Marina Ruy Barbosa, Carol Garcia, Letícia Rodrigues, Bianca Comparato, Felipe Simas",
+  "diretor": "Vera Egito, Heitor Dhalia, Gustavo Ribeiro",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:16"
+        }
+      ]
+    }
+  ],
+  "id": 8278
+}

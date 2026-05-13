@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MDk=",
+  "tipo": "serie",
+  "titulo": "FORMULA E DRIVER",
+  "capa_url": "https://lgfp.one/NSH5",
+  "capa_local": "FORMULA E DRIVER/FORMULA E DRIVER.jpg",
+  "sinopse": "Quatro pilotos de elite expõem suas vidas às câmeras pela primeira vez na temporada de 2024 da Fórmula E.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:00"
+        }
+      ]
+    }
+  ],
+  "id": 7242
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzODQ=",
+  "tipo": "serie",
+  "titulo": "CONDENADOS PELA MÍDIA",
+  "capa_url": "https://lgfp.one/AARF",
+  "capa_local": "CONDENADOS PELA MIDIA/CONDENADOS PELA MIDIA.jpg",
+  "sinopse": "Em nosso atual ambiente midiático, em que dramas judiciários da vida real são transformados em forma de entretenimento, a série documental Condenados pela Mídia, da Netflix, reflete sobre alguns dos julgamentos mais dramáticos e memoráveis da história recente. A crescente cobertura televisiva introduziu no sistema legal uma nova ênfase em narrativas criativas e espetacularização. O tribunal nunca mais foi o mesmo. Ao longo de seis partes, Condenados pela Mídia explora como a imprensa ajudou a moldar de diversas maneiras a percepção pública sobre culpa ou inocência – antes, durante e depois de um julgamento. A série traz casos de diferentes áreas legais, como o inesquecível julgamento de Jenny Jones por homicídio, feito sob medida para a TV, a história sensacional da queda política de Rod Blagojevich e o caso de Amadou Diallo, um imigrante africano desarmado que levou 41 tiros da polícia em Nova York.",
+  "genero": "Documentário, Crime",
+  "elenco": "Al Sharpton, Phil Donahue, Rudy Giuliani",
+  "diretor": "David Gelb",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:03:48"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:47"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:50"
+        }
+      ]
+    }
+  ],
+  "id": 3791
+}

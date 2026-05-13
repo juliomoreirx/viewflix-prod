@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMjg=",
+  "tipo": "serie",
+  "titulo": "IDEIAS SINISTRAS",
+  "capa_url": "https://lgfp.one/YBI",
+  "capa_local": "IDEIAS SINISTRAS/IDEIAS SINISTRAS.jpg",
+  "sinopse": "Nos últimos séculos, mentes brilhantes têm mudado ao redor. Mas quando sua genialidade é usada para o mal, o resultado são alguns dos crimes mais elaborados, criativos e sinistros da história.",
+  "genero": "Documentário / Crime",
+  "elenco": "Tim Friedlander",
+  "diretor": "",
+  "total_episodios": "40",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:48"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:51"
+        }
+      ]
+    }
+  ],
+  "id": 1118
+}

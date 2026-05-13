@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQxNDY=",
+  "tipo": "serie",
+  "titulo": "A HUNDRED SCENES OF AWAJIMA (2026) [L]",
+  "capa_url": "https://lgfp.one/SQP7",
+  "capa_local": "A HUNDRED SCENES OF AWAJIMA (2026) [L]/A HUNDRED SCENES OF AWAJIMA (2026) [L].jpg",
+  "sinopse": "Acompanha as estudantes de Awajima — uma escola inspirada na real Takarazuka Musical School — enquanto elas buscam o palco, enfrentando os dramas e romances de um grupo teatral feminino.",
+  "genero": "Animação, Drama",
+  "elenco": "中林新夏, Yo Taichi, Ai Kayano, Natsumi Fujiwara, 恒松あゆみ",
+  "diretor": "",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:40"
+        }
+      ]
+    }
+  ],
+  "id": 9323
+}

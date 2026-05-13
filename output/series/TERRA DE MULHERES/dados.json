@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTIxODQ=",
+  "tipo": "serie",
+  "titulo": "TERRA DE MULHERES",
+  "capa_url": "https://lgfp.one/BJL8",
+  "capa_local": "TERRA DE MULHERES/TERRA DE MULHERES.jpg",
+  "sinopse": "Uma socialite de Nova York é obrigada a fugir para uma charmosa cidade produtora de vinho na Espanha com sua mãe e filha. Ela se vê navegando pelas peculiaridades da cidadezinha enquanto confronta os mais profundos segredos da sua família e um par de assassinos desajeitados.",
+  "genero": "Comédia, Drama",
+  "elenco": "Eva Longoria, Carmen Maura, Victoria Bazúa, Santiago Cabrera, Gloria Muñoz",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:45:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:26"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:33"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:16"
+        }
+      ]
+    }
+  ],
+  "id": 5627
+}

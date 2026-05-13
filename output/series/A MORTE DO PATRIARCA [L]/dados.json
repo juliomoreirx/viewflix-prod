@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2ODA=",
+  "tipo": "serie",
+  "titulo": "A MORTE DO PATRIARCA [L]",
+  "capa_url": "https://lgfp.one/JPU",
+  "capa_local": "A MORTE DO PATRIARCA [L]/A MORTE DO PATRIARCA [L].jpg",
+  "sinopse": "Envolta em mistérios, a morte de um patriarca traz à tona segredos terríveis a respeito de uma família.",
+  "genero": "Mistério, Drama",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:37:25"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:31:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:33:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:14"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:46:27"
+        }
+      ]
+    }
+  ],
+  "id": 954
+}

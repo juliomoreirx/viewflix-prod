@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3ODg=",
+  "tipo": "serie",
+  "titulo": "A GENTE TENTA (2026)",
+  "capa_url": "https://lgfp.one/SUE1",
+  "capa_local": "A GENTE TENTA (2026)/A GENTE TENTA (2026).jpg",
+  "sinopse": "Uma pessoa luta contra a inveja e o ciúme de amigos bem-sucedidos enquanto tenta encontrar a paz interior depois de ficar para trás na vida.",
+  "genero": "Drama",
+  "elenco": "Go Youn-jung, 구교환, Oh Jung Se, 강말금, 박해준",
+  "diretor": "차영훈",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:11:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:05:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:02:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:05:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:08:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:07:22"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:06:19"
+        }
+      ]
+    }
+  ],
+  "id": 9397
+}

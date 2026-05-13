@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMzNDY=",
+  "tipo": "serie",
+  "titulo": "OH MY ASSISTANT [L]",
+  "capa_url": "https://lgfp.one/AUR1",
+  "capa_local": "OH MY ASSISTANT [L]/OH MY ASSISTANT [L].jpg",
+  "sinopse": "Sobre um artista de quadrinhos +18 que acaba se interessando pelo seu assistente após ele posar para uma cena.",
+  "genero": "Drama",
+  "elenco": "Song Seung-hyun, Ko Chan-bin, Lee Do-ha, Seo Hyo-myeong",
+  "diretor": "Ju Seong-min",
+  "total_episodios": "15",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:15:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:15:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:14:51"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:14:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:14:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:14:29"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:15:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:18:13"
+        }
+      ]
+    }
+  ],
+  "id": 5296
+}

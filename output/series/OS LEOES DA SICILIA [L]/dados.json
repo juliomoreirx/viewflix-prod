@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0MTc=",
+  "tipo": "serie",
+  "titulo": "OS LEOES DA SICILIA [L]",
+  "capa_url": "https://lgfp.one/ATON",
+  "capa_local": "OS LEOES DA SICILIA [L]/OS LEOES DA SICILIA [L].jpg",
+  "sinopse": "Os irmãos Paolo e Ignazio Florio trocam a região da Calábria por Palermo, onde abrem uma loja de especiarias. Movido pela ambição, Vincenzo, o filho de Paolo, transforma o negócio da família em um império comercial. Ao passo que tenta estabelecer o nome da família Florio, seu amor por Giulia o leva a sacrificar sua aspiração à nobreza.",
+  "genero": "Drama",
+  "elenco": "Michele Riondino, Miriam Leone, Donatella Finocchiaro, Vinicio Marchioni, Eduardo Scarpetta",
+  "diretor": "Paolo Genovese",
+  "total_episodios": "400",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:48"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:44"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:56"
+        }
+      ]
+    }
+  ],
+  "id": 4484
+}

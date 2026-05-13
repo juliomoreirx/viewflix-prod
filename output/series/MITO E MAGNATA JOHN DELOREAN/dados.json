@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4NjQ=",
+  "tipo": "serie",
+  "titulo": "MITO E MAGNATA: JOHN DELOREAN",
+  "capa_url": "https://lgfp.one/SBO",
+  "capa_local": "MITO E MAGNATA JOHN DELOREAN/MITO E MAGNATA JOHN DELOREAN.jpg",
+  "sinopse": "O documentário, dividido em três partes, cobre todos os aspectos importantes da vida de John e como sua fama desabou após o caso do tráfico de drogas.",
+  "genero": "Documentário",
+  "elenco": "John Z. DeLorean",
+  "diretor": "Mike Connolly, Chris Hegedus",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:08"
+        }
+      ]
+    }
+  ],
+  "id": 1726
+}

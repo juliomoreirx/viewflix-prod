@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI3NjU=",
+  "tipo": "serie",
+  "titulo": "GOLD LAND (2026) [L]",
+  "capa_url": "https://lgfp.one/SYA5",
+  "capa_local": "GOLD LAND (2026) [L]/GOLD LAND (2026) [L].jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "강예솔, 이병훈, Kang Eun-tak, 이현경, 백승희",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:50"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:05:46"
+        }
+      ]
+    }
+  ],
+  "id": 9472
+}

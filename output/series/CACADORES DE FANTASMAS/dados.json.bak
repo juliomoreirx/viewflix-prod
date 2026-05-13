@@ -1,0 +1,175 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1MjI=",
+  "tipo": "serie",
+  "titulo": "CAÇADORES DE FANTASMAS",
+  "capa_url": "https://lgfp.one/DLZ3",
+  "capa_local": "CACADORES DE FANTASMAS/CACADORES DE FANTASMAS.jpg",
+  "sinopse": "Investigadores paranormais investigam lugares que são relatados como assombrados. Envolvendo especialistas forenses, registros históricos e a tecnologia mais inovadora disponível, o esquadrão ajuda as pessoas comuns que estão lutando com fenômenos sobrenaturais inexplicáveis.",
+  "genero": "Sci-Fi & Fantasy, Reality",
+  "elenco": "Jason Hawes, Steve Gonsalves, Dave Tango",
+  "diretor": "Mark Marinaccio",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 14",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S14E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S14E02",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S14E03",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S14E04",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S14E05",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "6",
+          "codigo": "S14E06",
+          "duracao": "00:43:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S14E07",
+          "duracao": "00:41:36"
+        },
+        {
+          "numero": "8",
+          "codigo": "S14E08",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "9",
+          "codigo": "S14E09",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "10",
+          "codigo": "S14E10",
+          "duracao": "00:43:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S14E11",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "12",
+          "codigo": "S14E12",
+          "duracao": "00:43:36"
+        },
+        {
+          "numero": "13",
+          "codigo": "S14E13",
+          "duracao": "00:43:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 15",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S15E01",
+          "duracao": "00:43:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S15E02",
+          "duracao": "00:42:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S15E03",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S15E04",
+          "duracao": "00:43:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S15E05",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S15E06",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S15E07",
+          "duracao": "00:43:02"
+        },
+        {
+          "numero": "8",
+          "codigo": "S15E08",
+          "duracao": "00:41:41"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 16",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S16E01",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S16E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S16E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S16E04",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S16E05",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "6",
+          "codigo": "S16E06",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "7",
+          "codigo": "S16E07",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "8",
+          "codigo": "S16E08",
+          "duracao": "00:43:31"
+        }
+      ]
+    }
+  ],
+  "id": 5939
+}

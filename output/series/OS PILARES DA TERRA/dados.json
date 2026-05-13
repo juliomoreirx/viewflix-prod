@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0MDQ=",
+  "tipo": "serie",
+  "titulo": "OS PILARES DA TERRA",
+  "capa_url": "https://lgfp.one/SFB",
+  "capa_local": "OS PILARES DA TERRA/OS PILARES DA TERRA.jpg",
+  "sinopse": "Conta uma épica história que mistura o bom e o mau, traições, intrigas, violência e beleza. Ambientada em um cenário de guerra, conflitos religiosos e disputas de poder que destruirão famílias e vidas. Enquanto isso, uma magnífica Catedral, em Kingsdridge, começa a crescer, com o sonho de Tom.",
+  "genero": "Drama",
+  "elenco": "Robert Bathurst, Donald Sutherland, Matthew Macfadyen, Rufus Sewell, Ian McShane",
+  "diretor": "",
+  "total_episodios": "54",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:54:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:37:50"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:43:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:45:38"
+        }
+      ]
+    }
+  ],
+  "id": 1823
+}

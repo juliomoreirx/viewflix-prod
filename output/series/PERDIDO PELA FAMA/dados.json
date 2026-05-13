@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzMzI=",
+  "tipo": "serie",
+  "titulo": "PERDIDO PELA FAMA",
+  "capa_url": "https://lgfp.one/XRY",
+  "capa_local": "PERDIDO PELA FAMA/PERDIDO PELA FAMA.jpg",
+  "sinopse": "Satoru Matsudo se muda para Tóquio na esperança de se tornar ator. Ele tem problemas para entrar na indústria, mas sua sorte começa a mudar quando ele encontra uma passagem de avião pertencente ao CEO de uma agência de talentos. O tempo passa e Satoru se destaca como ator. Ele recebe uma ligação dos EUA. Ele espera que seja uma oferta de Hollywood, mas, ao invés disso, ele recebe notícias de seu irmão mais velho.",
+  "genero": "Drama / Comédia",
+  "elenco": "Taiga Nakano, Tsuyoshi Kusanagi, Sairi Ito, Hiroko Yakushimaru, Anne Suzuki, Morio Kazama, Mako Ishino, Jun Kaname",
+  "diretor": "Tsuyoshi Inoue, Keishi Hayashi",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:32"
+        }
+      ]
+    }
+  ],
+  "id": 3193
+}

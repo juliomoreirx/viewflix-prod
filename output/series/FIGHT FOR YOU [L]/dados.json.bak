@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMwMjI=",
+  "tipo": "serie",
+  "titulo": "FIGHT FOR YOU [L]",
+  "capa_url": "https://lgfp.one/NNK3",
+  "capa_local": "FIGHT FOR YOU [L]/FIGHT FOR YOU [L].jpg",
+  "sinopse": "Quando Da Hei (Andy Ko) se vê com dificuldades para pagar as despesas médicas, ele decide se juntar a uma misteriosa organização de serviços “faz-tudo” que oferece todo tipo de trabalho — desde coisas estranhas, como encontrar animais de estimação perdidos, até trabalhos moralmente mais questionáveis, como esfaquear pessoas. Lá, ele conhece Xiao Bai (Nelson Ji), que passa a ser seu novo colega de quarto. Porém, Da Hei não sabe que Xiao Bai, na verdade, é um agente secreto enviado por uma agência de inteligência para desmantelar essa organização. À medida que ambos cumprem mais missões juntos, eles começam a desenvolver um vínculo que obscurece as linhas entre seus compromissos pessoais e profissionais, tornando-os ainda mais próximos. Contudo, a força dessa conexão fica por um fio quando a verdadeira identidade e objetivo de Xiao Bai vêm à tona.",
+  "genero": "Drama",
+  "elenco": "葛兆恩, 紀成澔, Mike Lin, 幸卓輝, 夏和熙",
+  "diretor": "蔡妃喬, Kai-Hui Wu",
+  "total_episodios": "28",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:30"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:56"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:28:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:27:58"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:27:14"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:28:55"
+        }
+      ]
+    }
+  ],
+  "id": 7134
+}

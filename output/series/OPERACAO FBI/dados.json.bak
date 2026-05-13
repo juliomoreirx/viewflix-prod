@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1Mzg=",
+  "tipo": "serie",
+  "titulo": "OPERACAO FBI",
+  "capa_url": "https://lgfp.one/DEU4",
+  "capa_local": "OPERACAO FBI/OPERACAO FBI.jpg",
+  "sinopse": "As táticas engenhosas e os julgamentos difíceis que fazem do FBI a agência de combate ao crime de elite do mundo.",
+  "genero": "Crime, Documentário",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "42",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:43:31"
+        }
+      ]
+    }
+  ],
+  "id": 5781
+}

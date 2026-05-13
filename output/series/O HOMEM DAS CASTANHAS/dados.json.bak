@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MjE=",
+  "tipo": "serie",
+  "titulo": "O HOMEM DAS CASTANHAS",
+  "capa_url": "https://lgfp.one/SHX",
+  "capa_local": "O HOMEM DAS CASTANHAS/O HOMEM DAS CASTANHAS.jpg",
+  "sinopse": "Ela foi assassinada em um playground de Copenhague. Perto do corpo, um bonequinho de castanhas pode ser a chave do mistério. Baseada no best-seller nórdico",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Danica Ćurčić, Mikkel Boe Følsgaard, David Dencik, Iben Dorner, Lars Ranthe",
+  "diretor": "Mikkel Serup, Mikkel Serup, Mikkel Serup",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:57:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:57:22"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:22"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:51:56"
+        }
+      ]
+    }
+  ],
+  "id": 1898
+}

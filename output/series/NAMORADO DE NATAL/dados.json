@@ -1,0 +1,130 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg2ODI=",
+  "tipo": "serie",
+  "titulo": "NAMORADO DE NATAL",
+  "capa_url": "https://lgfp.one/JBL",
+  "capa_local": "NAMORADO DE NATAL/NAMORADO DE NATAL.jpg",
+  "sinopse": "Cansada dos comentários sobre sua vida amorosa, Johanne tem 24 dias para encontrar um namorado e levá-lo para conhecer os pais no Natal.",
+  "genero": "Drama, Comédia",
+  "elenco": "Ida Elise Broch, Gabrielle Leithaug, Eric Curtis Johnson, Mads Sjøgård Pettersen, Hege Schøyen",
+  "diretor": "Per-Olav Sørensen, Anna Gutto, Aurora Gossé",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:34"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:29:14"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:31:48"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:29:18"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:31:46"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:06"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:28:04"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:25:54"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:34:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:31:00"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:28:07"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:36:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:35:35"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:31:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:28:09"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:30:41"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:30:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:28:01"
+        }
+      ]
+    }
+  ],
+  "id": 408
+}

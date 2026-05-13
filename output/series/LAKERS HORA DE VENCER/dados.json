@@ -1,0 +1,110 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2ODM=",
+  "tipo": "serie",
+  "titulo": "LAKERS: HORA DE VENCER",
+  "capa_url": "https://lgfp.one/TBN",
+  "capa_local": "LAKERS HORA DE VENCER/LAKERS HORA DE VENCER.jpg",
+  "sinopse": "Uma série sobre a vida profissional e pessoal dos atletas do Los Angeles Lakers da década de 1980, uma das dinastias mais reverenciadas e dominantes do esporte - uma equipe que definiu uma era, dentro e fora das quadras.",
+  "genero": "Drama, Comédia",
+  "elenco": "John C. Reilly, Quincy Isaiah, Jason Clarke, Adrien Brody, Gaby Hoffmann",
+  "diretor": "Adam McKay",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:59:16"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:59:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:56:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:05"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:57:07"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:57:10"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "01:09:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:46:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:43:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:51:03"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:46:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:46:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "01:01:47"
+        }
+      ]
+    }
+  ],
+  "id": 2429
+}

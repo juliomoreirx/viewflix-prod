@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0MjY=",
+  "tipo": "serie",
+  "titulo": "RAINHA CHARLOTTE: UMA HISTÓRIA BRIDGERTON",
+  "capa_url": "https://lgfp.one/ZTQ",
+  "capa_local": "RAINHA CHARLOTTE UMA HISTORIA BRIDGERTON/RAINHA CHARLOTTE UMA HISTORIA BRIDGERTON.jpg",
+  "sinopse": "O casamento da rainha Charlotte com o rei George é muito mais que uma história de amor: é uma transformação na alta sociedade do universo de Bridgerton.",
+  "genero": "Drama",
+  "elenco": "India Ria Amarteifio, Corey Mylchreest, Golda Rosheuvel, Arsema Thomas, Adjoa Andoh",
+  "diretor": "Manddy Wyckens",
+  "total_episodios": "58",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:01:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:15:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:26:35"
+        }
+      ]
+    }
+  ],
+  "id": 3482
+}

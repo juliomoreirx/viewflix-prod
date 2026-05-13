@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE1MzM=",
+  "tipo": "serie",
+  "titulo": "CLASSICO AMERICANO (2026)",
+  "capa_url": "https://lgfp.one/SPZ2",
+  "capa_local": "CLASSICO AMERICANO (2026)/CLASSICO AMERICANO (2026).jpg",
+  "sinopse": "A trama acompanha a estrela da Broadway Richard Bean, que sofre um colapso público e retorna ao teatro da família, onde descobriu seu próprio talento. Lá, seu comportamento extremo desencadeia uma série de crises entre as pessoas mais próximas a ele. À medida que antigos amores ressurgem e segredos enterrados vêm à tona, Richard precisa confrontar as consequências de seus atos passados e a família e a cidade que abandonou em busca de fama e glamour. Cada temporada acompanha uma produção diferente de Richard Bean, que refletirá as histórias que se desenrolam na adorável, porém imperfeita, família Bean e o poder transformador da arte.",
+  "genero": "Comédia",
+  "elenco": "Kevin Kline, Jon Tenney, Laura Linney, Len Cariou, Jane Alexander",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:28:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:34:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:33:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:32:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:34:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:34:24"
+        }
+      ]
+    }
+  ],
+  "id": 9299
+}

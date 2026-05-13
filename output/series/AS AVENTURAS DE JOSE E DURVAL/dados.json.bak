@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyNDg=",
+  "tipo": "serie",
+  "titulo": "AS AVENTURAS DE JOSÉ E DURVAL",
+  "capa_url": "https://lgfp.one/AAVE",
+  "capa_local": "AS AVENTURAS DE JOSE E DURVAL/AS AVENTURAS DE JOSE E DURVAL.jpg",
+  "sinopse": "A trajetória dos irmãos Chitãozinho e Xororó, do nascimento no interior do Paraná até a consagração como uma das maiores duplas da música sertaneja.",
+  "genero": "Drama",
+  "elenco": "Felipe Simas, Rodrigo Simas, Marco Ricca, Andréia Horta, Marjorie Gerardi",
+  "diretor": "Hugo Prata",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:03"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:15"
+        }
+      ]
+    }
+  ],
+  "id": 3895
+}

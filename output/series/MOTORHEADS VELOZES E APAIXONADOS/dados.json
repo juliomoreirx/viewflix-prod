@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE4MDE=",
+  "tipo": "serie",
+  "titulo": "MOTORHEADS VELOZES E APAIXONADOS",
+  "capa_url": "https://lgfp.one/NXJ8",
+  "capa_local": "MOTORHEADS VELOZES E APAIXONADOS/MOTORHEADS VELOZES E APAIXONADOS.jpg",
+  "sinopse": "Ambientada em uma cidade da antiga região industrial dos EUA que, antes próspera, agora busca uma luz no fim do túnel, a série apresenta uma história cheia de adrenalina sobre um grupo de renegados que se unem pelo amor às corridas de rua, enquanto enfrentam a hierarquia e as regras do ensino médio.",
+  "genero": "Drama",
+  "elenco": "Ryan Phillippe, Nathalie Kelley, Michael Cimino, Melissa Collazo, Uriah Shelton",
+  "diretor": "Ruben Fleischer, Ryan Zaragoza, Neil Burger",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:20"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:50:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:56:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:48:42"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:47:55"
+        }
+      ]
+    }
+  ],
+  "id": 7329
+}

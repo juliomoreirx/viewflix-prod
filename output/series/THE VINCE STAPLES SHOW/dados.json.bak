@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkyNDQ=",
+  "tipo": "serie",
+  "titulo": "THE VINCE STAPLES SHOW",
+  "capa_url": "https://lgfp.one/AKJ6",
+  "capa_local": "THE VINCE STAPLES SHOW/THE VINCE STAPLES SHOW.jpg",
+  "sinopse": "Meio famoso e quase rico, o rapper e ator Vince Staples lida com os desafios e surpresas do dia a dia em Long Beach, cidade onde nasceu.",
+  "genero": "Drama, Comédia",
+  "elenco": "Vince Staples",
+  "diretor": "William Stefan Smith",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:19"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:19:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:21:31"
+        }
+      ]
+    }
+  ],
+  "id": 5085
+}

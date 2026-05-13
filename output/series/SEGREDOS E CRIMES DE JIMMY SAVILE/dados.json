@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk2OTk=",
+  "tipo": "serie",
+  "titulo": "SEGREDOS E CRIMES DE JIMMY SAVILE",
+  "capa_url": "https://lgfp.one/TCH",
+  "capa_local": "SEGREDOS E CRIMES DE JIMMY SAVILE/SEGREDOS E CRIMES DE JIMMY SAVILE.jpg",
+  "sinopse": "O astro da TV Jimmy Savile encantou a todos com sua excentricidade e filantropia. Até que as acusações de abuso sexual revelaram um lado chocante de sua personalidade.",
+  "genero": "Documentário, Crime",
+  "elenco": "Jimmy Savile, Terry Wogan, Mark Lawson, King Charles III of the United Kingdom, Gary Glitter",
+  "diretor": "Rowan Deacon",
+  "total_episodios": "80",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:19:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:31:20"
+        }
+      ]
+    }
+  ],
+  "id": 2449
+}

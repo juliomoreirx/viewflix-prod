@@ -1,0 +1,80 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ3NzA=",
+  "tipo": "serie",
+  "titulo": "MONO [L]",
+  "capa_url": "https://lgfp.one/NPL5",
+  "capa_local": "MONO [L]/MONO [L].jpg",
+  "sinopse": "O Clube de Fotografia está em perigo de fechar?! E o Clube do Cinema também?! Não se preocupe, pois eles vão se fundir e se tornar... Cinephoto Club! Agora, os membros do clube, An e Sakurako são convidados para serem os personagens principais do novo trabalho da mangaká Haruno, que é centrado em torno de câmeras e fotografia. As meninas vão capturar os belos pontos turísticos do Japão, explorando os gadgets ao seu redor e, claro, saboreando as iguarias locais ao longo do caminho!",
+  "genero": "Animação, Comédia",
+  "elenco": "Haruna Mikawa, 古賀葵, 遠野ひかる, Reina Ueda, 河瀬茉希",
+  "diretor": "愛敬亮太, 諸冨直也",
+  "total_episodios": "24",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:18:12"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:59"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:24:00"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:25:00"
+        }
+      ]
+    }
+  ],
+  "id": 7665
+}

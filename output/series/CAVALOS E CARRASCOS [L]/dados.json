@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQ2NTk=",
+  "tipo": "serie",
+  "titulo": "CAVALOS E CARRASCOS [L]",
+  "capa_url": "https://lgfp.one/PXE7",
+  "capa_local": "CAVALOS E CARRASCOS [L]/CAVALOS E CARRASCOS [L].jpg",
+  "sinopse": "No verão de 2022, Frank, um homem de família de 40 anos, desaparece. Seu carro é encontrado queimado e o caso rapidamente toma um rumo sinistro.",
+  "genero": "Documentário, Crime, Drama",
+  "elenco": "Christina Ehrenskjöld, Camilla Marie Nielsen",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:39"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:28"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:10"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:21"
+        }
+      ]
+    }
+  ],
+  "id": 7912
+}

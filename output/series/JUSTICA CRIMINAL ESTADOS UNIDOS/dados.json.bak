@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2MDQ=",
+  "tipo": "serie",
+  "titulo": "JUSTICA CRIMINAL ESTADOS UNIDOS",
+  "capa_url": "https://lgfp.one/AMW6",
+  "capa_local": "JUSTICA CRIMINAL ESTADOS UNIDOS/JUSTICA CRIMINAL ESTADOS UNIDOS.jpg",
+  "sinopse": "Esta visão completa do sistema de justiça criminal de Nashville dá acesso sem precedentes à vida de presidiários, advogados e administradores que enfrentam questões de saúde mental, dependência e prisão de jovens e mulheres.",
+  "genero": "Documentário, Crime",
+  "elenco": "",
+  "diretor": "Michael Tollin",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:55:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:11"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:52:16"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:47"
+        }
+      ]
+    }
+  ],
+  "id": 5145
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NjI=",
+  "tipo": "serie",
+  "titulo": "BAD BOYS E BILIONÁRIOS: ÍNDIA",
+  "capa_url": "https://lgfp.one/RGB",
+  "capa_local": "BAD BOYS E BILIONARIOS INDIA/BAD BOYS E BILIONARIOS INDIA.jpg",
+  "sinopse": "Esta série documental mostra a trilha de ganância, fraudes e corrupção que ergueu — e derrubou — alguns dos magnatas mais poderosos da Índia.",
+  "genero": "Crime, Documentário",
+  "elenco": "Nisha JamVwal, Aayush Ailawadi",
+  "diretor": "Ricardo Pollack, Morgan Matthews",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:04:42"
+        }
+      ]
+    }
+  ],
+  "id": 976
+}

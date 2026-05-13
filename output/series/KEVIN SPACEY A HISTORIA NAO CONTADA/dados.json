@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA1Nzc=",
+  "tipo": "serie",
+  "titulo": "KEVIN SPACEY A HISTORIA NAO CONTADA",
+  "capa_url": "https://lgfp.one/BBL5",
+  "capa_local": "KEVIN SPACEY A HISTORIA NAO CONTADA/KEVIN SPACEY A HISTORIA NAO CONTADA.jpg",
+  "sinopse": "O programa aborda as acusações de aliciamento, assédio sexual e abuso contra Kevin Spacey, um dos atores mais poderosos e respeitados do mundo.",
+  "genero": "Documentário, Drama, Crime",
+  "elenco": "Kevin Spacey, Randall Fowler, Andy Holtzman, Adam B. Vary, Daniel Alfonso Contreras",
+  "diretor": "Janet Knipe, Ben Steele, Mike Lerner",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:17"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:04"
+        }
+      ]
+    }
+  ],
+  "id": 5478
+}

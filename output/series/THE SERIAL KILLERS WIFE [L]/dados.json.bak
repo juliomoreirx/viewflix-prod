@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUzNDE=",
+  "tipo": "serie",
+  "titulo": "THE SERIAL KILLERS WIFE [L]",
+  "capa_url": "https://lgfp.one/AWJZ",
+  "capa_local": "THE SERIAL KILLERS WIFE [L]/THE SERIAL KILLERS WIFE [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Mistério",
+  "elenco": "Annabel Scholey, Jack Farthing, Luke Treadaway, Angela Griffin, Shobna Gulati",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:35"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:45:48"
+        }
+      ]
+    }
+  ],
+  "id": 4663
+}

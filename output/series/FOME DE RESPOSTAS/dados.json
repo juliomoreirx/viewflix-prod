@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA2NjM=",
+  "tipo": "serie",
+  "titulo": "FOME DE RESPOSTAS",
+  "capa_url": "https://lgfp.one/ATOY",
+  "capa_local": "FOME DE RESPOSTAS/FOME DE RESPOSTAS.jpg",
+  "sinopse": "A premiada escritora, autora de livros de culinária e dona de restaurantes Caroline Randall Williams viaja pelos Estados Unidos para revelar histórias fascinantes e pouco conhecidas sobre a cultura afro-americana e seu impacto na culinária do país.",
+  "genero": "Documentário",
+  "elenco": "Caroline Randall Williams",
+  "diretor": "",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:26:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:20"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:49"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:29"
+        }
+      ]
+    }
+  ],
+  "id": 4488
+}

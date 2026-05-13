@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2Mjg=",
+  "tipo": "serie",
+  "titulo": "THE NORTH WATER [L]",
+  "capa_url": "https://lgfp.one/SAD",
+  "capa_local": "THE NORTH WATER [L]/THE NORTH WATER [L].jpg",
+  "sinopse": "Patrick Sumner (Jack O'Connell) é um ex-cirurgião do exército que decide se inscrever como médico de navio em uma expedição ao Ártico. Durante a viagem, ele conhece o violento Henry Drax (Colin Farrell) que se moldou ao seu mundo cruel. Na esperança de escapar dos horrores de seu passado, Sumner encontra uma realidade muito pior nessa jornada difícil contra a mente psicopata de seu colega.",
+  "genero": "Drama, Mistério",
+  "elenco": "Colin Farrell, Jack O'Connell, Stephen Graham, Tom Courtenay, Peter Mullan",
+  "diretor": "Andrew Haigh",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:59:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:58:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:34"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:00"
+        }
+      ]
+    }
+  ],
+  "id": 1686
+}

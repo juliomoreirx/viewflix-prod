@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyMzc=",
+  "tipo": "serie",
+  "titulo": "CLAS SANGUE E PODER",
+  "capa_url": "https://lgfp.one/AMB3",
+  "capa_local": "CLAS SANGUE E PODER/CLAS SANGUE E PODER.jpg",
+  "sinopse": "Conheça a história da guerra civil escocesa do século 17, dos Campbells contra os MacDonalds.",
+  "genero": "Documentário",
+  "elenco": "Neil Oliver",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:51:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:49"
+        }
+      ]
+    }
+  ],
+  "id": 5122
+}

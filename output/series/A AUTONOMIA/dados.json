@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3MDY=",
+  "tipo": "serie",
+  "titulo": "A AUTONOMIA",
+  "capa_url": "https://lgfp.one/AAOT",
+  "capa_local": "A AUTONOMIA/A AUTONOMIA.jpg",
+  "sinopse": "Um drama distópico estrelado por alguns dos maiores talentos de atuação de Israel, Autonomies é um conto globalmente relevante centrado nas questões ardentes de identidade, religião, política e liberdade pessoal. A história se passa em uma realidade alternativa da atual Israel, uma nação rasgada e dividida por um muro no secular \"Estado de Israel\", com Tel Aviv como sua capital, e a \"Autonomia Haredi\" em Jerusalém, dirigida por um grupo religioso ultra-ortodoxo. Vivendo na Autonomia, entre esse inquieto status quo territorial, está Broide, um negociante de rodas Haredi que ganha a vida contrabandeando pequenos contrabandos entre as duas regiões. Um dia ele recebe uma oferta de emprego que muda sua vida: ele é convidado a sequestrar uma garotinha no centro de uma batalha de custódia entre duas famílias - uma Haredi e uma secular - e contrabandeá-la através da fronteira entre os dois territórios.",
+  "genero": "Drama",
+  "elenco": "Assi Cohen, דניאלה קרטס‎, Dana Ivgy, טלי שרון, רותם סלע",
+  "diretor": "Yehunatan Indorski",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:51:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:11"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:29"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:37"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:59"
+        }
+      ]
+    }
+  ],
+  "id": 3727
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4NzQ=",
+  "tipo": "serie",
+  "titulo": "WACO THE AFTERMATH",
+  "capa_url": "https://lgfp.one/ASPK",
+  "capa_local": "WACO THE AFTERMATH/WACO THE AFTERMATH.jpg",
+  "sinopse": "Explora os eventos e as escalas desiguais de justiça que os sobreviventes do Ramo Davidiano enfrentaram. Também segue os terríveis eventos que alimentaram o emergente movimento 'Patriota', que levou ao ato terrorista em Oklahoma City.",
+  "genero": "Drama",
+  "elenco": "Michael Shannon, Giovanni Ribisi, Keean Johnson, Abbey Lee, Alex Breaux",
+  "diretor": "John Erick Dowdle",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:47:54"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:32"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:32"
+        }
+      ]
+    }
+  ],
+  "id": 4396
+}

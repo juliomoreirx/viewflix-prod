@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMzY=",
+  "tipo": "serie",
+  "titulo": "GODLESS",
+  "capa_url": "https://lgfp.one/JKH",
+  "capa_local": "GODLESS/GODLESS.jpg",
+  "sinopse": "Um bandido implacável aterroriza o oeste à procura de um desertor de seu bando que encontrou uma nova vida em uma cidadezinha habitada apenas por mulheres.",
+  "genero": "Faroeste, Drama",
+  "elenco": "Jack O'Connell, Michelle Dockery, Scoot McNairy, Merritt Wever, Thomas Brodie-Sangster",
+  "diretor": "Steven Soderbergh",
+  "total_episodios": "75",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:10:46"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:09:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:14:39"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:08:26"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:50:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:03"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:20:03"
+        }
+      ]
+    }
+  ],
+  "id": 674
+}

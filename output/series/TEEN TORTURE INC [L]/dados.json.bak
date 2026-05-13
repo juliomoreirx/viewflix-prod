@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTUxNTU=",
+  "tipo": "serie",
+  "titulo": "TEEN TORTURE INC [L]",
+  "capa_url": "https://lgfp.one/DCF5",
+  "capa_local": "TEEN TORTURE INC [L]/TEEN TORTURE INC [L].jpg",
+  "sinopse": "",
+  "genero": "Drama, Documentário",
+  "elenco": "",
+  "diretor": "Tara Malone",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:26"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:36"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:45"
+        }
+      ]
+    }
+  ],
+  "id": 5758
+}

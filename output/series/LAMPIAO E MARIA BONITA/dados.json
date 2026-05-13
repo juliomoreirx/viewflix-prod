@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgxMDQ=",
+  "tipo": "serie",
+  "titulo": "LAMPIAO E MARIA BONITA",
+  "capa_url": "https://lgfp.one/NSX6",
+  "capa_local": "LAMPIAO E MARIA BONITA/LAMPIAO E MARIA BONITA.jpg",
+  "sinopse": "Lampião se torna alvo de uma perseguição incansável após o sequestro de um estrangeiro. Ao lado de Maria Bonita, ele enfrenta desafios e perseguições nos últimos meses de vida no cangaço.",
+  "genero": "Drama, Crime",
+  "elenco": "Nelson Xavier, Tânia Alves, Roberto Bonfim, José Dumont, Gilson Moura",
+  "diretor": "Paulo Afonso Grisolli, Paulo Afonso Grisolli, Luiz Antônio Piá",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:40:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:37:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:40:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:40:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:05"
+        }
+      ]
+    }
+  ],
+  "id": 7255
+}

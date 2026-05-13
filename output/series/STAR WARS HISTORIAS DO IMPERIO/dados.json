@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTExOTc=",
+  "tipo": "serie",
+  "titulo": "STAR WARS HISTORIAS DO IMPERIO",
+  "capa_url": "https://lgfp.one/AWD9",
+  "capa_local": "STAR WARS HISTORIAS DO IMPERIO/STAR WARS HISTORIAS DO IMPERIO.jpg",
+  "sinopse": "Uma viagem ao temível Império Galáctico pelo olhar de duas guerreiras em caminhos divergentes, com lugar em eras distintas. Após ter perdido tudo, a jovem Morgan Elsbeth navega pelo mundo Imperial em expansão rumo a um caminho de vingança, enquanto a antiga Jedi Barriss Offee faz o que é preciso para sobreviver numa galáxia em rápida mudança. As escolhas que fazem vão definir os seus destinos.",
+  "genero": "Animação, Sci-Fi & Fantasy, Action & Adventure",
+  "elenco": "",
+  "diretor": "Dave Filoni, George Lucas, George Lucas",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:14:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:12:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:58"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:15:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:11:33"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:15:07"
+        }
+      ]
+    }
+  ],
+  "id": 5350
+}

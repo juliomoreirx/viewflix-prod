@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQwMDk=",
+  "tipo": "serie",
+  "titulo": "MISTERIOS E LENDAS DA HISTORIA",
+  "capa_url": "https://lgfp.one/KPH4",
+  "capa_local": "MISTERIOS E LENDAS DA HISTORIA/MISTERIOS E LENDAS DA HISTORIA.jpg",
+  "sinopse": "O aclamado historiador Bil Lepp viaja ao redor dos Estados Unidos para descobrir a verdade por trás dos mistérios e lendas da história norte-americana.",
+  "genero": "",
+  "elenco": "Bil Lepp",
+  "diretor": "",
+  "total_episodios": "43",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:06"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:30"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:11"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:11"
+        }
+      ]
+    }
+  ],
+  "id": 6516
+}

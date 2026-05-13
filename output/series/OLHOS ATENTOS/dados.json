@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NDI=",
+  "tipo": "serie",
+  "titulo": "OLHOS ATENTOS",
+  "capa_url": "https://lgfp.one/ZCR",
+  "capa_local": "OLHOS ATENTOS/OLHOS ATENTOS.jpg",
+  "sinopse": "Elena Santos, uma jovem com um passado complicado, está trilhando seu caminho para trabalhar como babá para uma família rica em Manhattan. Ela logo descobre que todos os moradores do misterioso edifício têm segredos mortais e segundas intenções. No entanto, o que eles não sabem é que Elena também guarda seus próprios segredos.",
+  "genero": "Mistério / Drama",
+  "elenco": "Mariel Molino, Warren Christie, Kelly Bishop, Amy Acker, Jon Ecker, Lex Lumpkin, Henry Joseph Samiri, Aliyah Royale",
+  "diretor": "Julie Durk",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:44"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:00"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:54"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:42:02"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:45"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:42:05"
+        }
+      ]
+    }
+  ],
+  "id": 3397
+}

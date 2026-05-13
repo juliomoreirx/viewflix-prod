@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTI2NTU=",
+  "tipo": "serie",
+  "titulo": "LIMBO",
+  "capa_url": "https://lgfp.one/TTF",
+  "capa_local": "LIMBO/LIMBO.jpg",
+  "sinopse": "Sofía é uma jovem milionária que parece ter tudo: uma vida glamorosa, uma família que satisfaz todos os seus caprichos e grandes amigos que são seus cúmplices de um estilo de vida ousado que poucos se permitem. Após a morte de seu pai, ela retorna a Buenos Aires, lugar onde nasceu e enfrenta um pesado legado.",
+  "genero": "Drama",
+  "elenco": "Clara Lago, Mike Amigorena, Esteban Pérez, Enrique Piñeyro, Mex Urtizberea, Andrés Gil, Andrea Frigerio, Claudio Da Passano",
+  "diretor": "Mariano Cohn, Gastón Duprat",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:22"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:34:57"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:59"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:39:49"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:39:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:20"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:39:57"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:32:44"
+        }
+      ]
+    }
+  ],
+  "id": 110321
+}

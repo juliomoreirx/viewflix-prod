@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA3NTY=",
+  "tipo": "serie",
+  "titulo": "THREE PINES",
+  "capa_url": "https://lgfp.one/YRF",
+  "capa_local": "THREE PINES/THREE PINES.jpg",
+  "sinopse": "Ele sabe onde procurar as pistas que os outros deixam passar. É a sua vez de seguir o detetive Armand para descobrir as causas dos assassinatos em Three Pines.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Alfred Molina, Rossif Sutherland, Elle-Máijá Tailfeathers, Sarah Booth, Anna Tierney",
+  "diretor": "Sam Donovan",
+  "total_episodios": "8",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:33"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:53:50"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:41"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:48:45"
+        }
+      ]
+    }
+  ],
+  "id": 3312
+}

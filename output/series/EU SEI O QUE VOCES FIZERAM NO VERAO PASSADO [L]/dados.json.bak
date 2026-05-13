@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2MDQ=",
+  "tipo": "serie",
+  "titulo": "EU SEI O QUE VOCÊS FIZERAM NO VERÃO PASSADO [L]",
+  "capa_url": "https://lgfp.one/SKL",
+  "capa_local": "EU SEI O QUE VOCES FIZERAM NO VERAO PASSADO [L]/EU SEI O QUE VOCES FIZERAM NO VERAO PASSADO [L].jpg",
+  "sinopse": "Em uma cidade cheia de segredos, um grupo de adolescentes é perseguido por um misterioso assassino, um ano após um acidente fatal em sua noite de formatura.",
+  "genero": "Drama",
+  "elenco": "Madison Iseman, Brianne Tju, Ezekiel Goodman, Ashley Moore, Sebastian Amoruso",
+  "diretor": "",
+  "total_episodios": "49",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:45:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:17"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:44:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:47:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:57:55"
+        }
+      ]
+    }
+  ],
+  "id": 326249
+}

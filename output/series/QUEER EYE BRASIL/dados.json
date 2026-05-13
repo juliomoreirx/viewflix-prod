@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk0Njc=",
+  "tipo": "serie",
+  "titulo": "QUEER EYE: BRASIL",
+  "capa_url": "https://lgfp.one/YNM",
+  "capa_local": "QUEER EYE BRASIL/QUEER EYE BRASIL.jpg",
+  "sinopse": "Os cinco fabulosos brasileiros usam o conhecimento em bem-estar, estilo, beleza, design e cultura para transformar a vida de heróis e heroínas da vida real.",
+  "genero": "Reality",
+  "elenco": "Fred Nicácio, Rica Benozzati, Luca Scarpelli, Yohan Nicolas, Guto Requena",
+  "diretor": "Andrea Cassola",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:16"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:40"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:49:34"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:08"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:45:22"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:42"
+        }
+      ]
+    }
+  ],
+  "id": 3299
+}

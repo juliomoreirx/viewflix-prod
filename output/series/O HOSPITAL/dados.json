@@ -1,0 +1,115 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxOTk=",
+  "tipo": "serie",
+  "titulo": "O HOSPITAL",
+  "capa_url": "https://lgfp.one/SGQ",
+  "capa_local": "O HOSPITAL/O HOSPITAL.jpg",
+  "sinopse": "A série O Hospital traz o dia a dia de 11 médicos no Hospital Moriah, localizado em São Paulo, e considerado um dos melhores da América Latina. O programa, produzido pelo Jornalismo da Record TV, mostra a rotina desses profissionais e como conciliam o trabalho e a vida pessoal.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:55:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:56:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:54:51"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:56"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:54:54"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:51"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:54:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:56:58"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:58:48"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:21:42"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:22:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:19:38"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:21:01"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:19:34"
+        }
+      ]
+    }
+  ],
+  "id": 1865
+}

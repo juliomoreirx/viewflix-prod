@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU0OTM=",
+  "tipo": "serie",
+  "titulo": "PATRULHA DO RIO HAN [L]",
+  "capa_url": "https://lgfp.one/AAZM",
+  "capa_local": "PATRULHA DO RIO HAN [L]/PATRULHA DO RIO HAN [L].jpg",
+  "sinopse": "Han Dujin e a equipe de Polícia do Rio Han investigam Go Giseok depois que o descobrem agindo de forma suspeita em um navio de cruzeiro encalhado. Logo, começam a desvendar uma conspiração criminosa que envolve Giseok, a empresa Cruzeiro Rio Kyungin e seu ex-aliado Baek Chul.",
+  "genero": "Comédia, Action & Adventure",
+  "elenco": "Kwon Sang-woo, Kim Hee-won, Lee Sang-yi, Bae Da-bin, Shin Hyeon-seung",
+  "diretor": "Kim Sang-chul, Kim Sang-chul",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:54"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:53"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:48:21"
+        }
+      ]
+    }
+  ],
+  "id": 4004
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwMTI=",
+  "tipo": "serie",
+  "titulo": "IMMIGRATION NATION",
+  "capa_url": "https://lgfp.one/JOD",
+  "capa_local": "IMMIGRATION NATION/IMMIGRATION NATION.jpg",
+  "sinopse": "Com histórias emocionantes de imigrantes reais, esta série documental lança um olhar sobre o ICE, o Departamento de Imigração e Alfândega dos EUA.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Christina Clusiau, Shaul Schwarz",
+  "total_episodios": "60",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:38"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:02:44"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:03:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:04:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:02:20"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:04:50"
+        }
+      ]
+    }
+  ],
+  "id": 789
+}

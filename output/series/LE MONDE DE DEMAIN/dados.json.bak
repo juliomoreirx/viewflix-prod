@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk1MjQ=",
+  "tipo": "serie",
+  "titulo": "LE MONDE DE DEMAIN",
+  "capa_url": "https://lgfp.one/WGK",
+  "capa_local": "LE MONDE DE DEMAIN/LE MONDE DE DEMAIN.jpg",
+  "sinopse": "Esta série conta a história de dois amigos que se tornaram os pioneiros do hip-hop francês.",
+  "genero": "Drama",
+  "elenco": "Melvin Boomer, Anthony Bajon, Laïka Blanc-Francard, Andranic Manet, Joshua Raccah",
+  "diretor": "Hélier Cisterne, Katell Quillévéré",
+  "total_episodios": "52",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:49:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:51:28"
+        }
+      ]
+    }
+  ],
+  "id": 3086
+}

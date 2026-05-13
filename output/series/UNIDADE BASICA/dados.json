@@ -1,0 +1,150 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODgyMzA=",
+  "tipo": "serie",
+  "titulo": "UNIDADE BÁSICA",
+  "capa_url": "https://lgfp.one/RWV",
+  "capa_local": "UNIDADE BASICA/UNIDADE BASICA.jpg",
+  "sinopse": "Série médica sobre a rotina de uma Unidade Básica de Saúde da periferia de São Paulo. Com formações e objetivos de vida tão diferentes, Dr. Paulo e Dra. Laura vão, aos poucos, aprender um com o outro ao mesmo tempo em que lidam com a complexidade dos casos médicos.",
+  "genero": "Drama",
+  "elenco": "Caco Ciocler",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:43"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:13"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:26:38"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:57"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:53"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:27:24"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:27:31"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:26:13"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:23:47"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:25:14"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:26:02"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:27:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:27:25"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:26:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:27:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:25:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:24:56"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:28:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:26:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:27:42"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:25:15"
+        }
+      ]
+    }
+  ],
+  "id": 1436
+}

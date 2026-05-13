@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEyODQ=",
+  "tipo": "serie",
+  "titulo": "RESTAURANTES NO FIM DO MUNDO",
+  "capa_url": "https://lgfp.one/AAKK",
+  "capa_local": "RESTAURANTES NO FIM DO MUNDO/RESTAURANTES NO FIM DO MUNDO.jpg",
+  "sinopse": "Kristen Kish aprende com chefes que superam os grandes desafios necessários para servir pratos memoráveis nos lugares mais remotos da Terra.",
+  "genero": "Reality, Documentário",
+  "elenco": "Kristen Kish",
+  "diretor": "Fenton Bailey, Randy Barbato, Jeremy Simmons",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:04"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:05"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:44:07"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:04"
+        }
+      ]
+    }
+  ],
+  "id": 3617
+}

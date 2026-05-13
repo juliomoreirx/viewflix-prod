@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM0OTM=",
+  "tipo": "serie",
+  "titulo": "THE DEVIL PUNISHER [L]",
+  "capa_url": "https://lgfp.one/RMS",
+  "capa_local": "THE DEVIL PUNISHER [L]/THE DEVIL PUNISHER [L].jpg",
+  "sinopse": "",
+  "genero": "",
+  "elenco": "Mike He, Yin Chao-Te, Dewi Chien, Amanda Chou, Bor Jeng Chen",
+  "diretor": "",
+  "total_episodios": "70",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:08:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "01:07:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "01:09:18"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "01:09:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "01:08:59"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "01:09:22"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "01:08:39"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "01:09:08"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "01:09:18"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "01:09:40"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "01:09:39"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "01:09:44"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "01:09:50"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "01:09:01"
+        }
+      ]
+    }
+  ],
+  "id": 1158
+}

@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5NjU=",
+  "tipo": "serie",
+  "titulo": "OKTOBERFEST: SANGUE E CERVEJA",
+  "capa_url": "https://lgfp.one/RFS",
+  "capa_local": "OKTOBERFEST SANGUE E CERVEJA/OKTOBERFEST SANGUE E CERVEJA.jpg",
+  "sinopse": "Em 1900, o ambicioso cervejeiro Curt Prank recorre a medidas extremas para construir uma tenda de cerveja e dominar a lucrativa Oktoberfest de Munique.",
+  "genero": "Drama",
+  "elenco": "Mišel Matičević, Martina Gedeck, Klaus Steinbacher, Mercedes Müller, Francis Fulton-Smith",
+  "diretor": "Hannu Salonen",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:56"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:47:58"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:47:58"
+        }
+      ]
+    }
+  ],
+  "id": 967
+}

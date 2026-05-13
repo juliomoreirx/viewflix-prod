@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NDE=",
+  "tipo": "serie",
+  "titulo": "CHOPPED NOVA GERACAO",
+  "capa_url": "https://lgfp.one/KPH1",
+  "capa_local": "CHOPPED NOVA GERACAO/CHOPPED NOVA GERACAO.jpg",
+  "sinopse": "A atriz Liza Koshy apresenta a competição em que chefs jovens e ousados enfrentam algumas das cestas de ingredientes mais difíceis de Chopped. Eles inventam pratos criativos enquanto fascinam os jurados.",
+  "genero": "Reality, Família",
+  "elenco": "Liza Koshy, Nyesha Arrington, Mei Lin",
+  "diretor": "Michael Pearlman",
+  "total_episodios": "48",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:48:01"
+        }
+      ]
+    }
+  ],
+  "id": 6513
+}

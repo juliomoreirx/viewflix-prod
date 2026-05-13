@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE5MDE=",
+  "tipo": "serie",
+  "titulo": "RAINHA VERMELHA",
+  "capa_url": "https://lgfp.one/AJQ9",
+  "capa_local": "RAINHA VERMELHA/RAINHA VERMELHA.jpg",
+  "sinopse": "Antonia Scott é a mulher mais inteligente do mundo, sua inteligência fez dela a “Rainha Vermelha” de um projeto secreto da polícia. Depois de deixar o serviço por causa de uma expulsão disciplinar, o policial Jon Gutiérrez, revoluciona sua vida e seus métodos em um empolgante caso de duplo de sequestro e homicídio.",
+  "genero": "Action & Adventure, Mistério",
+  "elenco": "Victoria Luengo, Hovik Keuchkerian, Eduardo Noriega, Emma Suárez, Nacho Fresneda",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:53:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:54:54"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:01"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:53:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:55:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:57:54"
+        }
+      ]
+    }
+  ],
+  "id": 5060
+}

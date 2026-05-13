@@ -1,0 +1,90 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTU2Nzc=",
+  "tipo": "serie",
+  "titulo": "DONT LOOK DEEPER [L]",
+  "capa_url": "https://lgfp.one/RDB",
+  "capa_local": "DONT LOOK DEEPER [L]/DONT LOOK DEEPER [L].jpg",
+  "sinopse": "",
+  "genero": "Sci-Fi & Fantasy, Drama",
+  "elenco": "Helena Howard, Don Cheadle, Emily Mortimer",
+  "diretor": "",
+  "total_episodios": "10",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:09:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:07:57"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:08:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:08:05"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:07:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:09:59"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:09:53"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:08:19"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:09:53"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:07:27"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:08:11"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:07:16"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:09:13"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:07:16"
+        }
+      ]
+    }
+  ],
+  "id": 891
+}

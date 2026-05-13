@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk5Nzg=",
+  "tipo": "serie",
+  "titulo": "SEM MATURIDADE PARA ISSO",
+  "capa_url": "https://lgfp.one/RET",
+  "capa_local": "SEM MATURIDADE PARA ISSO/SEM MATURIDADE PARA ISSO.jpg",
+  "sinopse": "Nesta série de animação para adultos, um casal de 30 e poucos anos tenta se manter divertido após deixar a vida de festas para cuidar dos filhos.",
+  "genero": "Comédia, Animação",
+  "elenco": "J.G. Quintel, Gabrielle Walsh, Jessica DiCicco, Jason Mantzoukas, Kimiko Glenn",
+  "diretor": "Robert Alvarez",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:32"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:05"
+        }
+      ]
+    }
+  ],
+  "id": 939
+}

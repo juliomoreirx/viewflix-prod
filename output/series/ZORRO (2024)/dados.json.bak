@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM4Mjc=",
+  "tipo": "serie",
+  "titulo": "ZORRO (2024)",
+  "capa_url": "https://lgfp.one/KBE2",
+  "capa_local": "ZORRO (2024)/ZORRO (2024).jpg",
+  "sinopse": "Em 1821, Don Diego de la Vega torna-se prefeito de sua amada cidade de Los Angeles, que pretende tornar próspera. No entanto, o município enfrenta problemas financeiros devido à ganância de um empresário local, Don Emmanuel, contra quem os poderes do prefeito se mostram insuficientes para combater a injustiça. Don Diego não invoca seu Zorro duplo há 20 anos. Mas em nome do interesse geral, ele não tem escolha a não ser tirar sua máscara e sua espada. Muito rapidamente, Diego encontrará dificuldades em conciliar sua dupla identidade como Zorro e prefeito, o que prejudica seu casamento com Gabriella, que desconhece seu segredo.",
+  "genero": "Action & Adventure, Comédia, Família",
+  "elenco": "Jean Dujardin, Grégory Gadebois, André Dussollier, Audrey Dana, Eric Elmosnino",
+  "diretor": "Jean-Baptiste Saurel, Émilie Noblet, Emmanuel Poulain-Arnaud",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:39:21"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:36:45"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:36:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:40"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:12"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:36:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:38:43"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:37:47"
+        }
+      ]
+    }
+  ],
+  "id": 228487
+}

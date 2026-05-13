@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwNzU=",
+  "tipo": "serie",
+  "titulo": "AS MAES DOS PINGUINS",
+  "capa_url": "https://lgfp.one/EGJ9",
+  "capa_local": "AS MAES DOS PINGUINS/AS MAES DOS PINGUINS.jpg",
+  "sinopse": "Quando seu filho de sete anos precisa mudar de escola, uma atleta de MMA percebe que sua luta mais difícil será a maternidade.",
+  "genero": "Drama, Comédia",
+  "elenco": "Masza Wągrocka, Barbara Wypych, Magdalena Różczka, Tomasz Tyndyk, Jan Lubas",
+  "diretor": "Klara Kochańska, Krzysztof Komander, Natalia Spychala",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:43:00"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:45"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:53:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:58:35"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:50:12"
+        }
+      ]
+    }
+  ],
+  "id": 6239
+}

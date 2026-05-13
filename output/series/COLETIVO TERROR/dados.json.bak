@@ -1,0 +1,45 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAxNDI=",
+  "tipo": "serie",
+  "titulo": "COLETIVO TERROR",
+  "capa_url": "https://lgfp.one/IVX",
+  "capa_local": "COLETIVO TERROR/COLETIVO TERROR.jpg",
+  "sinopse": "Nesta série antológica de terror, os passageiros a bordo de um ônibus viajam sem saber qual será seu destino final.",
+  "genero": "Sci-Fi & Fantasy, Mistério, Action & Adventure",
+  "elenco": "Ine Marie Wilmann, Ellen Bendu, Dagny Backer Johnsen",
+  "diretor": "Geir Henning Hopland, Atle Knudsen",
+  "total_episodios": "31",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:24"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:27:18"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:32:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:28:24"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:27:26"
+        }
+      ]
+    }
+  ],
+  "id": 249
+}

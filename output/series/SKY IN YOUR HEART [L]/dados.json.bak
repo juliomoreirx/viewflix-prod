@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNDk=",
+  "tipo": "serie",
+  "titulo": "SKY IN YOUR HEART [L]",
+  "capa_url": "https://lgfp.one/DJS4",
+  "capa_local": "SKY IN YOUR HEART [L]/SKY IN YOUR HEART [L].jpg",
+  "sinopse": "Uma doce história de amor do jovem médico Kaufah, que trabalha em um hospital de uma província remota e do professor voluntário com uma personalidade brilhante, Prince.",
+  "genero": "Drama",
+  "elenco": "Jirakit Thawornwong, Jiruntanin Trairattanayon, Archen Aydin, ณัฎฐ์ฐชัย บุญประเสริฐ, วีรยุทธ จันทร์สุข",
+  "diretor": "Siwaj Sawatmaneekul",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:44:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:44:16"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:43:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:44:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:42:27"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:44:09"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:40:20"
+        }
+      ]
+    }
+  ],
+  "id": 5884
+}

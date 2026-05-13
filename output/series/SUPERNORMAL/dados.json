@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODczNzQ=",
+  "tipo": "serie",
+  "titulo": "SUPERNORMAL",
+  "capa_url": "https://lgfp.one/SRK",
+  "capa_local": "SUPERNORMAL/SUPERNORMAL.jpg",
+  "sinopse": "Patricia quer ser a melhor em tudo, mas as linhas que separam a família do trabalho são muito tênues e ela vai terminar levando trabalho para casa e a família para o trabalho.",
+  "genero": "Comédia / Família",
+  "elenco": "Miren Ibarguren, Diego Martín, Gracia Olayo, Bárbara Goenaga",
+  "diretor": "Olatz Arroyo, Marta Sánchez",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:52"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:13"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:26:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:23:20"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:30:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:25:27"
+        }
+      ]
+    }
+  ],
+  "id": 2159
+}

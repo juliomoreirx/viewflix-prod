@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTEzNjc=",
+  "tipo": "serie",
+  "titulo": "ESTE TONTO",
+  "capa_url": "https://lgfp.one/VXC",
+  "capa_local": "ESTE TONTO/ESTE TONTO.jpg",
+  "sinopse": "Julio Lopez é um homem de 30 anos que ainda mora em casa, que está com sua namorada desde o ensino médio e que encontra qualquer desculpa para evitar lidar com seus próprios problemas. Julio trabalha na Hugs Not Thugs, uma organização sem fins lucrativos de reabilitação de gangues, onde bate de frente com seu primo mais velho, Luis, um ex-membro de gangue que acabou de sair da prisão e foi morar com Julio e sua família.",
+  "genero": "Comédia",
+  "elenco": "Chris Estrada, Frankie Quinones, Laura Patalano, Michelle Ortiz, Julia Vera, Michael Imperioli",
+  "diretor": "",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:31"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:22:17"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:23:38"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:21:43"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:21:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:23:35"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:25:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:24:36"
+        }
+      ]
+    }
+  ],
+  "id": 2965
+}

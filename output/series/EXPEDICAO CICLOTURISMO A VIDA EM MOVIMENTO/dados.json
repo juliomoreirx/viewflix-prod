@@ -1,0 +1,55 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNzk=",
+  "tipo": "serie",
+  "titulo": "EXPEDICAO CICLOTURISMO A VIDA EM MOVIMENTO",
+  "capa_url": "https://lgfp.one/AAIN",
+  "capa_local": "EXPEDICAO CICLOTURISMO A VIDA EM MOVIMENTO/EXPEDICAO CICLOTURISMO A VIDA EM MOVIMENTO.jpg",
+  "sinopse": "Acompanhe uma jornada ciclística pela cidade de Porto Alegre e pelo litoral de Santa Catarina. Ao longo do caminho, os apresentadores mostram as atrações turísticas, as belezas naturais e histórias de vida, sempre acompanhadas de boas pedaladas.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:01"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:55"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:25:20"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:20:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:45"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:22:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:24:44"
+        }
+      ]
+    }
+  ],
+  "id": 3570
+}

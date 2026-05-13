@@ -1,0 +1,35 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTE3NDk=",
+  "tipo": "serie",
+  "titulo": "FILHOS DE CISTER",
+  "capa_url": "https://lgfp.one/PUF4",
+  "capa_local": "FILHOS DE CISTER/FILHOS DE CISTER.jpg",
+  "sinopse": "Um retrato da vida dos monges cistercienses do Mosteiro Nossa Senhora de Nazaré, no sul do Brasil. Suas histórias pessoais, dificuldades, e práticas devocionais são apresentadas nos três episódios da série.",
+  "genero": "Documentário",
+  "elenco": "",
+  "diretor": "Julia Sondermann",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:58"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:20:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:12"
+        }
+      ]
+    }
+  ],
+  "id": 7864
+}

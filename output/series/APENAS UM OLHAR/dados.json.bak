@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODg5ODg=",
+  "tipo": "serie",
+  "titulo": "APENAS UM OLHAR",
+  "capa_url": "https://lgfp.one/NEE9",
+  "capa_local": "APENAS UM OLHAR/APENAS UM OLHAR.jpg",
+  "sinopse": "Depois que uma foto sinistra aparece misteriosamente, Greta confronta verdades esquecidas e memórias confusas para proteger o marido e seus segredos sombrios.",
+  "genero": "Mistério, Crime, Drama",
+  "elenco": "Maria Dębska, Cezary Łukaszewicz, Marta Malikowska, Monika Krzywkowska, Piotr Stramowski",
+  "diretor": "Marek Lechki, Monika Filipowicz",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:42:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:21"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:41"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:52:06"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:42:43"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:24"
+        }
+      ]
+    }
+  ],
+  "id": 6979
+}

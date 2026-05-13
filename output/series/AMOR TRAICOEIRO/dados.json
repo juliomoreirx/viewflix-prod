@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwOTU=",
+  "tipo": "serie",
+  "titulo": "AMOR TRAICOEIRO",
+  "capa_url": "https://lgfp.one/DVB2",
+  "capa_local": "AMOR TRAICOEIRO/AMOR TRAICOEIRO.jpg",
+  "sinopse": "Ao fazer 60 anos, uma mulher rica se apaixona por um homem atraente e muito mais novo, mas a família dela duvida das intenções dele.",
+  "genero": "Drama",
+  "elenco": "Giacomo Gianniotti, Monica Guerritore, Denise Capezza, Emanuel Caserio",
+  "diretor": "Pappi Corsicato",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:52:11"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:46:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:50:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:54"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:08"
+        }
+      ]
+    }
+  ],
+  "id": 6080
+}

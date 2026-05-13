@@ -1,0 +1,40 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTQzNTg=",
+  "tipo": "serie",
+  "titulo": "MATORI E KYOKEN HOMENS DO SUBMUNDO [L]",
+  "capa_url": "https://lgfp.one/RPV1",
+  "capa_local": "MATORI E KYOKEN HOMENS DO SUBMUNDO [L]/MATORI E KYOKEN HOMENS DO SUBMUNDO [L].jpg",
+  "sinopse": "Após um incidente mortal em um clube de Roppongi, um ex-astro infantil se torna agente duplo e passa a atuar para forças rivais de combate ao narcotráfico no submundo de Tóquio.",
+  "genero": "Crime, Action & Adventure, Drama",
+  "elenco": "細田善彦, 向井理, 森田想, Kujō jō",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:24:02"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:02"
+        }
+      ]
+    }
+  ],
+  "id": 8800
+}

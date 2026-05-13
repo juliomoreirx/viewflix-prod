@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc0NjM=",
+  "tipo": "serie",
+  "titulo": "THE ROMEO SECTION",
+  "capa_url": "https://lgfp.one/RBZ",
+  "capa_local": "THE ROMEO SECTION/THE ROMEO SECTION.jpg",
+  "sinopse": "A história gira em torno de Wolfgang McGee, um ex-agente de campo que agora atua como professor universitário. Mas esta é apenas uma fachada para sua verdadeira atividade. Secretamente, McGee está no comando de uma equipe de espiões conhecidos pelo codinome de Romeu e de Julieta. A missão desses agentes é a de se infiltrar em meios selecionados (indústrias, bolsa de valores, tráfico de drogas e armas, etc) para atuarem como informantes. No entanto, quando McGee se apaixona por uma de suas recrutas, ele cria uma relação obsessiva com ela, o que coloca em risco seu trabalho e suas vidas.",
+  "genero": "Crime, Drama",
+  "elenco": "Sophia Lauchlin Hirt, Stephanie Bennett, Eugene Lipinski, Mathias Retamal, Manny Jacinto",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:41:32"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:41:31"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:41:34"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:41:34"
+        }
+      ]
+    }
+  ],
+  "id": 863
+}

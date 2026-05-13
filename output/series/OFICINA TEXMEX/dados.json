@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTA0NTA=",
+  "tipo": "serie",
+  "titulo": "OFICINA TEXMEX",
+  "capa_url": "https://lgfp.one/KNC8",
+  "capa_local": "OFICINA TEXMEX/OFICINA TEXMEX.jpg",
+  "sinopse": "Restaurar carros clássicos é mais que um trabalho para Shorty e a equipe. Esses mecânicos talentosos transformam carros antigos para proprietários merecedores, dando vida aos sonhos deles.",
+  "genero": "Reality",
+  "elenco": "Javier 'Shorty' Ponce, Pete Pina, Joel Balboa, Terry Hill, Wayne Strawser",
+  "diretor": "",
+  "total_episodios": "44",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:07"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:46:50"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:47:10"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:46:58"
+        }
+      ]
+    }
+  ],
+  "id": 6467
+}

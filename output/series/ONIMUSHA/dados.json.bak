@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkzMTQ=",
+  "tipo": "serie",
+  "titulo": "ONIMUSHA",
+  "capa_url": "https://lgfp.one/ASME",
+  "capa_local": "ONIMUSHA/ONIMUSHA.jpg",
+  "sinopse": "De posse de uma arma demoníaca que consome almas, um espadachim lendário e uma irmandade de samurais tentam deter uma insurreição de zumbis sedentos por sangue.",
+  "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+  "elenco": "Akio Otsuka, Hochu Otsuka, Daiki Yamashita, 木村昴, Katsuyuki Konishi",
+  "diretor": "須貝真也, Takashi Miike",
+  "total_episodios": "30",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:36:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:49"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:28:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:24:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:11"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:40"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:22:19"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:36:12"
+        }
+      ]
+    }
+  ],
+  "id": 4380
+}

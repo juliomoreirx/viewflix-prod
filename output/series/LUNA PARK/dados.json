@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk4MjI=",
+  "tipo": "serie",
+  "titulo": "LUNA PARK",
+  "capa_url": "https://lgfp.one/SHW",
+  "capa_local": "LUNA PARK/LUNA PARK.jpg",
+  "sinopse": "Na Roma dos anos 60, o encontro entre duas garotas de origens completamente diferentes leva a uma série de intrigas, segredos e novas e inesperadas histórias de amor.",
+  "genero": "Drama",
+  "elenco": "Edoardo Coen, Giulio Corso, Simona Tabasco, Tommaso Ragno, Milvia Marigliano",
+  "diretor": "Leonardo D'Agostini, Anna Negri",
+  "total_episodios": "50",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:54:40"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:51:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:44:02"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:49:42"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:49:32"
+        }
+      ]
+    }
+  ],
+  "id": 1897
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4Mzk=",
+  "tipo": "serie",
+  "titulo": "UNICORN: WARRIORS ETERNAL",
+  "capa_url": "https://lgfp.one/ZUI",
+  "capa_local": "UNICORN WARRIORS ETERNAL/UNICORN WARRIORS ETERNAL.jpg",
+  "sinopse": "Uma equipe de heróis ancestrais protege o mundo de um mal supremo. No decorrer da história da humanidade, toda vez que o mal aparece, os heróis são despertados para, mais uma vez, fazer seu trabalho e derrotá-lo.",
+  "genero": "Animação, Action & Adventure, Drama",
+  "elenco": "Hazel Doupe, Tom Milligan, Demari Hunte",
+  "diretor": "Genndy Tartakovsky, Bernard Som, Genndy Tartakovsky",
+  "total_episodios": "22",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:21:49"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:22:04"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:19"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:21:50"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:22:19"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:23:14"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:33:07"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:22:06"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:20:54"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:23:45"
+        }
+      ]
+    }
+  ],
+  "id": 3490
+}

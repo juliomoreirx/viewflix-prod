@@ -1,0 +1,100 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc5NDg=",
+  "tipo": "serie",
+  "titulo": "ELLIOTT, O TERRÁQUEO",
+  "capa_url": "https://lgfp.one/SGE",
+  "capa_local": "ELLIOTT, O TERRAQUEO/ELLIOTT, O TERRAQUEO.jpg",
+  "sinopse": "Conheça Elliott e sua mãe Francine enquanto eles embarcam em uma viagem inesperada pelo universo. Eles vão encontrar\n\ncriaturas incríveis, incluindo o novo melhor amigo de Elliott, um dinossauro chamado Mo.",
+  "genero": "Animação, Comédia, Sci-Fi & Fantasy",
+  "elenco": "Samuel Faraci, Noah Kaye Bentley, Naomi McDonald, Saul Bearryman, Ashton Frank",
+  "diretor": "Marie Faucomprez",
+  "total_episodios": "11",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:11:47"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:11:58"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:11:42"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:12:36"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:12:04"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:12:17"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:11:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:12:16"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:12:06"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:12:00"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:12:03"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:12:07"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:12:07"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:12:07"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:12:05"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:12:19"
+        }
+      ]
+    }
+  ],
+  "id": 1853
+}

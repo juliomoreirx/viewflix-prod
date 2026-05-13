@@ -1,0 +1,65 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODk3MTU=",
+  "tipo": "serie",
+  "titulo": "VIDA APÓS A MORTE COM TYLER HENRY",
+  "capa_url": "https://lgfp.one/SZU",
+  "capa_local": "VIDA APOS A MORTE COM TYLER HENRY/VIDA APOS A MORTE COM TYLER HENRY.jpg",
+  "sinopse": "O médium Tyler Henry traz respostas e consolo do mundo dos espíritos enquanto investiga o passado da própria família em um reality intimista.",
+  "genero": "Reality",
+  "elenco": "Tyler Henry, Theresa Koelewyn, Clint Godwin, Heather Denehy",
+  "diretor": "Larissa A.K. Matsson",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:43:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:47:33"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:37:52"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:16"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:43:18"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:42:02"
+        }
+      ]
+    }
+  ],
+  "id": 2383
+}

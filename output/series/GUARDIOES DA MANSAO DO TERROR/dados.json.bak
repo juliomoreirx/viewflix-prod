@@ -1,0 +1,125 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODc4NzQ=",
+  "tipo": "serie",
+  "titulo": "GUARDIÕES DA MANSÃO DO TERROR",
+  "capa_url": "https://lgfp.one/TIZ",
+  "capa_local": "GUARDIOES DA MANSAO DO TERROR/GUARDIOES DA MANSAO DO TERROR.jpg",
+  "sinopse": "Em um parque de diversões assombrado, uma dupla de adolescentes e um cachorro falante enfrentam demônios e tentam impedir um apocalipse sobrenatural.",
+  "genero": "Animação, Kids",
+  "elenco": "Zach Barack, Kody Kavitha, Alex Brightman, Emily Osment, Kathreen Khavari",
+  "diretor": "GUARDIÕES DA MANSÃO DO TERROR",
+  "total_episodios": "26",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:27:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:26:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:27:25"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:27:25"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:25:13"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:26:49"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:26:49"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:25:23"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:31:17"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:28:21"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:26:37"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:27:29"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:27:59"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:27:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:25:27"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:26:09"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:26:11"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:26:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:25:35"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:29:11"
+        }
+      ]
+    }
+  ],
+  "id": 2630
+}

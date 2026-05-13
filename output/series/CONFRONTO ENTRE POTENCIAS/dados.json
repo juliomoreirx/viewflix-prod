@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcyNDA=",
+  "tipo": "serie",
+  "titulo": "CONFRONTO ENTRE POTENCIAS",
+  "capa_url": "https://lgfp.one/AZXE",
+  "capa_local": "CONFRONTO ENTRE POTENCIAS/CONFRONTO ENTRE POTENCIAS.jpg",
+  "sinopse": "Conheça as forças históricas e contemporâneas que impulsionam o conflito entre Estados Unidos e China. Saiba mais sobre como a disputa entre as duas superpotências pode evoluir ainda mais no futuro.",
+  "genero": "",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:47:42"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:48:26"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:48:18"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:47:23"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:47:01"
+        }
+      ]
+    }
+  ],
+  "id": 4962
+}

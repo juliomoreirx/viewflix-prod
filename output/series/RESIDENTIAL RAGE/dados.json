@@ -1,0 +1,30 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAzODI=",
+  "tipo": "serie",
+  "titulo": "RESIDENTIAL RAGE",
+  "capa_url": "https://lgfp.one/NPC1",
+  "capa_local": "RESIDENTIAL RAGE/RESIDENTIAL RAGE.jpg",
+  "sinopse": "",
+  "genero": "Crime, Reality",
+  "elenco": "",
+  "diretor": "",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:22:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:21:49"
+        }
+      ]
+    }
+  ],
+  "id": 7166
+}

@@ -1,0 +1,595 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTM5OTQ=",
+  "tipo": "serie",
+  "titulo": "DEXTER",
+  "capa_url": "https://lgfp.one/IXB",
+  "capa_local": "DEXTER/DEXTER.jpg",
+  "sinopse": "Renomado funcionário da Polícia de Miami, Dexter esconde de todos uma segunda identidade: ele é um assassino em série que mata os criminosos que a polícia não consegue prender.",
+  "genero": "Crime, Drama, Mistério",
+  "elenco": "Michael C. Hall, Jennifer Carpenter, Geoff Pierson, David Zayas, James Remar",
+  "diretor": "",
+  "total_episodios": "55",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:53:03"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:54:39"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:50:56"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:55:39"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:52:55"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:52:27"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:53:41"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:55:37"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:56:24"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:53:56"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:56:27"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:53:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:52:24"
+        },
+        {
+          "numero": "4",
+          "codigo": "S02E04",
+          "duracao": "00:53:00"
+        },
+        {
+          "numero": "5",
+          "codigo": "S02E05",
+          "duracao": "00:55:58"
+        },
+        {
+          "numero": "6",
+          "codigo": "S02E06",
+          "duracao": "00:53:37"
+        },
+        {
+          "numero": "7",
+          "codigo": "S02E07",
+          "duracao": "00:55:15"
+        },
+        {
+          "numero": "8",
+          "codigo": "S02E08",
+          "duracao": "00:49:38"
+        },
+        {
+          "numero": "9",
+          "codigo": "S02E09",
+          "duracao": "00:50:03"
+        },
+        {
+          "numero": "10",
+          "codigo": "S02E10",
+          "duracao": "00:55:29"
+        },
+        {
+          "numero": "11",
+          "codigo": "S02E11",
+          "duracao": "00:51:30"
+        },
+        {
+          "numero": "12",
+          "codigo": "S02E12",
+          "duracao": "00:51:36"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 3",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S03E01",
+          "duracao": "00:58:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S03E02",
+          "duracao": "00:49:27"
+        },
+        {
+          "numero": "3",
+          "codigo": "S03E03",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "4",
+          "codigo": "S03E04",
+          "duracao": "00:54:28"
+        },
+        {
+          "numero": "5",
+          "codigo": "S03E05",
+          "duracao": "00:48:50"
+        },
+        {
+          "numero": "6",
+          "codigo": "S03E06",
+          "duracao": "00:54:10"
+        },
+        {
+          "numero": "7",
+          "codigo": "S03E07",
+          "duracao": "00:57:55"
+        },
+        {
+          "numero": "8",
+          "codigo": "S03E08",
+          "duracao": "00:54:43"
+        },
+        {
+          "numero": "9",
+          "codigo": "S03E09",
+          "duracao": "00:51:09"
+        },
+        {
+          "numero": "10",
+          "codigo": "S03E10",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "11",
+          "codigo": "S03E11",
+          "duracao": "00:50:49"
+        },
+        {
+          "numero": "12",
+          "codigo": "S03E12",
+          "duracao": "00:51:37"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 4",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S04E01",
+          "duracao": "00:54:09"
+        },
+        {
+          "numero": "2",
+          "codigo": "S04E02",
+          "duracao": "00:49:53"
+        },
+        {
+          "numero": "3",
+          "codigo": "S04E03",
+          "duracao": "00:51:46"
+        },
+        {
+          "numero": "4",
+          "codigo": "S04E04",
+          "duracao": "00:54:47"
+        },
+        {
+          "numero": "5",
+          "codigo": "S04E05",
+          "duracao": "00:49:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S04E06",
+          "duracao": "00:55:38"
+        },
+        {
+          "numero": "7",
+          "codigo": "S04E07",
+          "duracao": "00:52:37"
+        },
+        {
+          "numero": "8",
+          "codigo": "S04E08",
+          "duracao": "00:54:49"
+        },
+        {
+          "numero": "9",
+          "codigo": "S04E09",
+          "duracao": "00:51:12"
+        },
+        {
+          "numero": "10",
+          "codigo": "S04E10",
+          "duracao": "00:56:59"
+        },
+        {
+          "numero": "11",
+          "codigo": "S04E11",
+          "duracao": "00:51:08"
+        },
+        {
+          "numero": "12",
+          "codigo": "S04E12",
+          "duracao": "00:51:22"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 5",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S05E01",
+          "duracao": "00:54:45"
+        },
+        {
+          "numero": "2",
+          "codigo": "S05E02",
+          "duracao": "00:49:52"
+        },
+        {
+          "numero": "3",
+          "codigo": "S05E03",
+          "duracao": "00:49:21"
+        },
+        {
+          "numero": "4",
+          "codigo": "S05E04",
+          "duracao": "00:50:41"
+        },
+        {
+          "numero": "5",
+          "codigo": "S05E05",
+          "duracao": "00:51:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S05E06",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "7",
+          "codigo": "S05E07",
+          "duracao": "00:48:16"
+        },
+        {
+          "numero": "8",
+          "codigo": "S05E08",
+          "duracao": "00:52:30"
+        },
+        {
+          "numero": "9",
+          "codigo": "S05E09",
+          "duracao": "00:55:05"
+        },
+        {
+          "numero": "10",
+          "codigo": "S05E10",
+          "duracao": "00:54:03"
+        },
+        {
+          "numero": "11",
+          "codigo": "S05E11",
+          "duracao": "00:47:19"
+        },
+        {
+          "numero": "12",
+          "codigo": "S05E12",
+          "duracao": "00:56:06"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 6",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S06E01",
+          "duracao": "00:53:55"
+        },
+        {
+          "numero": "2",
+          "codigo": "S06E02",
+          "duracao": "00:53:23"
+        },
+        {
+          "numero": "3",
+          "codigo": "S06E03",
+          "duracao": "00:50:27"
+        },
+        {
+          "numero": "4",
+          "codigo": "S06E04",
+          "duracao": "00:52:14"
+        },
+        {
+          "numero": "5",
+          "codigo": "S06E05",
+          "duracao": "00:51:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S06E06",
+          "duracao": "00:54:18"
+        },
+        {
+          "numero": "7",
+          "codigo": "S06E07",
+          "duracao": "00:51:58"
+        },
+        {
+          "numero": "8",
+          "codigo": "S06E08",
+          "duracao": "00:52:32"
+        },
+        {
+          "numero": "9",
+          "codigo": "S06E09",
+          "duracao": "00:50:26"
+        },
+        {
+          "numero": "10",
+          "codigo": "S06E10",
+          "duracao": "00:49:17"
+        },
+        {
+          "numero": "11",
+          "codigo": "S06E11",
+          "duracao": "00:48:01"
+        },
+        {
+          "numero": "12",
+          "codigo": "S06E12",
+          "duracao": "00:51:24"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 7",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S07E01",
+          "duracao": "00:55:18"
+        },
+        {
+          "numero": "2",
+          "codigo": "S07E02",
+          "duracao": "00:58:38"
+        },
+        {
+          "numero": "3",
+          "codigo": "S07E03",
+          "duracao": "00:56:44"
+        },
+        {
+          "numero": "4",
+          "codigo": "S07E04",
+          "duracao": "00:53:57"
+        },
+        {
+          "numero": "5",
+          "codigo": "S07E05",
+          "duracao": "00:57:41"
+        },
+        {
+          "numero": "6",
+          "codigo": "S07E06",
+          "duracao": "00:54:26"
+        },
+        {
+          "numero": "7",
+          "codigo": "S07E07",
+          "duracao": "00:53:30"
+        },
+        {
+          "numero": "8",
+          "codigo": "S07E08",
+          "duracao": "00:57:53"
+        },
+        {
+          "numero": "9",
+          "codigo": "S07E09",
+          "duracao": "00:57:00"
+        },
+        {
+          "numero": "10",
+          "codigo": "S07E10",
+          "duracao": "00:53:58"
+        },
+        {
+          "numero": "11",
+          "codigo": "S07E11",
+          "duracao": "00:57:37"
+        },
+        {
+          "numero": "12",
+          "codigo": "S07E12",
+          "duracao": "00:56:08"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 8",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S08E01",
+          "duracao": "00:52:59"
+        },
+        {
+          "numero": "1",
+          "codigo": "S08E01",
+          "duracao": "00:52:59"
+        },
+        {
+          "numero": "2",
+          "codigo": "S08E02",
+          "duracao": "00:57:15"
+        },
+        {
+          "numero": "2",
+          "codigo": "S08E02",
+          "duracao": "00:57:15"
+        },
+        {
+          "numero": "3",
+          "codigo": "S08E03",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "3",
+          "codigo": "S08E03",
+          "duracao": "00:49:03"
+        },
+        {
+          "numero": "4",
+          "codigo": "S08E04",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "4",
+          "codigo": "S08E04",
+          "duracao": "00:50:12"
+        },
+        {
+          "numero": "5",
+          "codigo": "S08E05",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "5",
+          "codigo": "S08E05",
+          "duracao": "00:48:10"
+        },
+        {
+          "numero": "6",
+          "codigo": "S08E06",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "6",
+          "codigo": "S08E06",
+          "duracao": "00:55:23"
+        },
+        {
+          "numero": "7",
+          "codigo": "S08E07",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "7",
+          "codigo": "S08E07",
+          "duracao": "00:53:08"
+        },
+        {
+          "numero": "8",
+          "codigo": "S08E08",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "8",
+          "codigo": "S08E08",
+          "duracao": "00:52:34"
+        },
+        {
+          "numero": "9",
+          "codigo": "S08E09",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "9",
+          "codigo": "S08E09",
+          "duracao": "00:55:51"
+        },
+        {
+          "numero": "10",
+          "codigo": "S08E10",
+          "duracao": "00:53:11"
+        },
+        {
+          "numero": "10",
+          "codigo": "S08E10",
+          "duracao": "00:53:11"
+        },
+        {
+          "numero": "11",
+          "codigo": "S08E11",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "11",
+          "codigo": "S08E11",
+          "duracao": "00:52:43"
+        },
+        {
+          "numero": "12",
+          "codigo": "S08E12",
+          "duracao": "00:56:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S08E12",
+          "duracao": "00:56:42"
+        }
+      ]
+    }
+  ],
+  "id": 280
+}

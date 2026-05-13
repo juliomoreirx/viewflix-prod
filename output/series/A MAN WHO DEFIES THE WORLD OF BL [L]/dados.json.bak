@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTMyNzM=",
+  "tipo": "serie",
+  "titulo": "A MAN WHO DEFIES THE WORLD OF BL [L]",
+  "capa_url": "https://lgfp.one/DJO7",
+  "capa_local": "A MAN WHO DEFIES THE WORLD OF BL [L]/A MAN WHO DEFIES THE WORLD OF BL [L].jpg",
+  "sinopse": "Um dia, o protagonista percebe que vive dentro de um “mundo BL”. Como ele gosta de garotas, ele luta contra qualquer cara atraente que se aproxime, mas esse é um \"mundo de BL\"... ele ainda é atacado com a visão de pessoas em situações amorosas uma após a outra!",
+  "genero": "Comédia, Drama",
+  "elenco": "Atsuhiro Inukai, Yutaro, Akihisa Shiono, Masaki Yabe, Ryota Kobayashi",
+  "diretor": "",
+  "total_episodios": "25",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:31:05"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:25:59"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:23:16"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:19:29"
+        }
+      ]
+    },
+    {
+      "temporada": "TEMPORADA: 2",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S02E01",
+          "duracao": "00:23:29"
+        },
+        {
+          "numero": "2",
+          "codigo": "S02E02",
+          "duracao": "00:25:17"
+        },
+        {
+          "numero": "3",
+          "codigo": "S02E03",
+          "duracao": "00:28:51"
+        }
+      ]
+    }
+  ],
+  "id": 5847
+}

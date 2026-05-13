@@ -1,0 +1,60 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/OTAwNTA=",
+  "tipo": "serie",
+  "titulo": "TROIA: A QUEDA DE UMA CIDADE",
+  "capa_url": "https://lgfp.one/JIJ",
+  "capa_local": "TROIA A QUEDA DE UMA CIDADE/TROIA A QUEDA DE UMA CIDADE.jpg",
+  "sinopse": "Em busca da mulher prometida por Afrodite, o pastor Páris descobre sua verdadeira identidade e se apaixona por Helena de Esparta, desencadeando a Guerra de Troia.",
+  "genero": "War & Politics, Drama, Action & Adventure",
+  "elenco": "Louis Hunter, Bella Dayne, David Threlfall, Frances O'Connor, Tom Weston-Jones",
+  "diretor": "Mark Brozel, Owen Harris, John Strickland",
+  "total_episodios": "56",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "01:00:20"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:59:08"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:58:48"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:58:04"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:57:28"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:57:46"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:59:04"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:59:24"
+        }
+      ]
+    }
+  ],
+  "id": 614
+}

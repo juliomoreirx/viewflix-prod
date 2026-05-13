@@ -1,0 +1,105 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODcxOTQ=",
+  "tipo": "serie",
+  "titulo": "MARIO FOFOCA",
+  "capa_url": "https://lgfp.one/QAU4",
+  "capa_local": "MARIO FOFOCA/MARIO FOFOCA.jpg",
+  "sinopse": "Mário Fofoca, um detetive atrapalhado, se muda para o Rio e, com a ajuda de um amigo, investiga casos, começando pela suspeita de infidelidade de uma esposa.",
+  "genero": "Comédia",
+  "elenco": "Luis Gustavo, Osmar Prado, Ana Ariel, Felipe Carone",
+  "diretor": "Adriano Stuart, Régis Cardoso",
+  "total_episodios": "",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:46:28"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:40:01"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:42:36"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:43:07"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:43:21"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:40:25"
+        },
+        {
+          "numero": "7",
+          "codigo": "S01E07",
+          "duracao": "00:39:01"
+        },
+        {
+          "numero": "8",
+          "codigo": "S01E08",
+          "duracao": "00:38:26"
+        },
+        {
+          "numero": "9",
+          "codigo": "S01E09",
+          "duracao": "00:35:21"
+        },
+        {
+          "numero": "10",
+          "codigo": "S01E10",
+          "duracao": "00:50:30"
+        },
+        {
+          "numero": "11",
+          "codigo": "S01E11",
+          "duracao": "00:42:42"
+        },
+        {
+          "numero": "12",
+          "codigo": "S01E12",
+          "duracao": "00:39:59"
+        },
+        {
+          "numero": "13",
+          "codigo": "S01E13",
+          "duracao": "00:44:01"
+        },
+        {
+          "numero": "14",
+          "codigo": "S01E14",
+          "duracao": "00:44:27"
+        },
+        {
+          "numero": "15",
+          "codigo": "S01E15",
+          "duracao": "00:46:19"
+        },
+        {
+          "numero": "16",
+          "codigo": "S01E16",
+          "duracao": "00:37:19"
+        },
+        {
+          "numero": "17",
+          "codigo": "S01E17",
+          "duracao": "00:36:40"
+        }
+      ]
+    }
+  ],
+  "id": 8015
+}

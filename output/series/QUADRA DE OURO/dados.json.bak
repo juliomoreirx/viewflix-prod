@@ -1,0 +1,50 @@
+{
+  "url": "https://guiadeconteudo.blog/serie/ODkwMDI=",
+  "tipo": "serie",
+  "titulo": "QUADRA DE OURO",
+  "capa_url": "https://lgfp.one/NBC6",
+  "capa_local": "QUADRA DE OURO/QUADRA DE OURO.jpg",
+  "sinopse": "Conheça os bastidores da batalha pelo ouro no basquete masculino nos Jogos Olímpicos de Paris de 2024.",
+  "genero": "Documentário",
+  "elenco": "Stephen Curry, Kevin Durant, Victor Wembanyama, LeBron James, Steve Kerr",
+  "diretor": "Jason Hehir",
+  "total_episodios": "45",
+  "temporadas": [
+    {
+      "temporada": "TEMPORADA: 1",
+      "episodios": [
+        {
+          "numero": "1",
+          "codigo": "S01E01",
+          "duracao": "00:40:51"
+        },
+        {
+          "numero": "2",
+          "codigo": "S01E02",
+          "duracao": "00:45:25"
+        },
+        {
+          "numero": "3",
+          "codigo": "S01E03",
+          "duracao": "00:37:53"
+        },
+        {
+          "numero": "4",
+          "codigo": "S01E04",
+          "duracao": "00:46:43"
+        },
+        {
+          "numero": "5",
+          "codigo": "S01E05",
+          "duracao": "00:47:00"
+        },
+        {
+          "numero": "6",
+          "codigo": "S01E06",
+          "duracao": "00:46:03"
+        }
+      ]
+    }
+  ],
+  "id": 6914
+}
