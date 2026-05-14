@@ -15,7 +15,42 @@ const cache = {
 };
 
 function normalizeTitle(title) {
-  return String(title || '').trim().toLowerCase();
+  return String(title || '')
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[\[\]\(\){}'"“”‘’,:;.!?@#$%^&*_+=|\\/<>~`-]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function normalizeLooseTitle(title) {
+  return normalizeTitle(title).replace(/[^a-z0-9]/g, '');
+}
+
+function levenshteinDistance(left = '', right = '') {
+  const a = String(left || '');
+  const b = String(right || '');
+  if (a === b) return 0;
+  if (!a) return b.length;
+  if (!b) return a.length;
+
+  const matrix = Array.from({ length: a.length + 1 }, (_, row) => [row]);
+  for (let col = 1; col <= b.length; col += 1) matrix[0][col] = col;
+
+  for (let row = 1; row <= a.length; row += 1) {
+    for (let col = 1; col <= b.length; col += 1) {
+      const cost = a[row - 1] === b[col - 1] ? 0 : 1;
+      matrix[row][col] = Math.min(
+        matrix[row - 1][col] + 1,
+        matrix[row][col - 1] + 1,
+        matrix[row - 1][col - 1] + cost
+      );
+    }
+  }
+
+  return matrix[a.length][b.length];
 }
 
 function sanitizeLocalMeta(raw = {}) {
@@ -75,7 +110,7 @@ async function loadLocalType(type) {
       const meta = sanitizeLocalMeta(raw);
       const coverUrl = buildCoverUrl(type, raw.capa_local || null);
 
-      map.set(key, { title, meta, coverUrl, raw });
+      map.set(key, { title, meta, coverUrl, raw, looseKey: normalizeLooseTitle(title) });
     } catch (err) {
       logger.warn({ msg: 'Falha ao ler dados.json local', file: dataPath, err: err.message });
     }
@@ -102,7 +137,36 @@ async function getLocalContentByTitle(title, type) {
 
   const key = normalizeTitle(title);
   const map = cache[type] || new Map();
-  const local = map.get(key) || null;
+  let local = map.get(key) || null;
+
+  if (!local) {
+    const looseKey = normalizeLooseTitle(title);
+    let bestMatch = null;
+    let bestDistance = Number.POSITIVE_INFINITY;
+
+    for (const entry of map.values()) {
+      const distance = levenshteinDistance(looseKey, entry.looseKey || '');
+      if (distance < bestDistance) {
+        bestDistance = distance;
+        bestMatch = entry;
+        if (distance === 0) break;
+      }
+    }
+
+    if (bestMatch && bestDistance <= 2) {
+      local = bestMatch;
+      logger.info({
+        msg: 'Local content fuzzy hit',
+        type,
+        title,
+        key,
+        looseKey,
+        matchedTitle: bestMatch.title,
+        distance: bestDistance,
+        coverUrl: local.coverUrl || null
+      });
+    }
+  }
 
   logger.info({
     msg: 'Local content lookup',

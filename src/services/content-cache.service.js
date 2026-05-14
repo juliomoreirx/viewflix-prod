@@ -1,4 +1,4 @@
-const axios = require('axios');
+﻿const axios = require('axios');
 const fs = require('fs-extra');
 const path = require('path');
 const cheerio = require('cheerio');
@@ -9,6 +9,7 @@ const { HttpProxyAgent } = require('http-proxy-agent');
 
 const env = require('../config/env');
 const logger = require('../lib/logger');
+const { getLocalContentByTitle } = require('./local-content.service');
 
 const BASE_URL = env.BASE_URL || 'http://vouver.me';
 const CLOUDFLARE_WORKER_URL = env.CLOUDFLARE_WORKER_URL || '';
@@ -334,7 +335,7 @@ async function carregarViaApiDireta(contentPath) {
     const rawLiveTv = normalized.livetv;
 
     if (rawMovies.length === 0 && rawSeries.length === 0 && rawLiveTv.length === 0) {
-      logger.warn({ msg: 'API direta respondeu sem catálogo' });
+      logger.warn({ msg: 'API direta respondeu sem catÃ¡logo' });
       return false;
     }
 
@@ -354,7 +355,7 @@ async function carregarViaApiDireta(contentPath) {
 
     return true;
   } catch (e) {
-    logger.error({ msg: 'Erro na API direta de catálogo', err: e.message });
+    logger.error({ msg: 'Erro na API direta de catÃ¡logo', err: e.message });
     return false;
   }
 }
@@ -375,7 +376,7 @@ async function atualizarCache(forceDownload = false) {
     if (await carregarViaApiDireta(contentPath)) return CACHE_CONTEUDO;
 
     logger.error({
-      msg: 'Cache não pôde ser carregado por nenhum método',
+      msg: 'Cache nÃ£o pÃ´de ser carregado por nenhum mÃ©todo',
       hasSessionCookies: !!SESSION_COOKIES,
       hasWorker: !!CLOUDFLARE_WORKER_URL,
       workerCacheEnabled: WORKER_CACHE_ENABLED
@@ -389,7 +390,7 @@ async function atualizarCache(forceDownload = false) {
 }
 
 // ============================
-// DETALHES E DURAÇÃO
+// DETALHES E DURAÃ‡ÃƒO
 // ============================
 function extrairPrimeiro(texto, regex, fallback = '') {
   const m = texto.match(regex);
@@ -412,8 +413,8 @@ function hhmmssParaMinutos(valor = '') {
 }
 
 /**
- * Busca detalhes do conteúdo no endpoint de detalhes.
- * Retorna shape compatível com telegram-bot:
+ * Busca detalhes do conteÃºdo no endpoint de detalhes.
+ * Retorna shape compatÃ­vel com telegram-bot:
  * {
  *   id, title, mediaType,
  *   info: { genero, ano, imdb, sinopse, duracaoTexto, duracaoMinutos },
@@ -423,22 +424,22 @@ function hhmmssParaMinutos(valor = '') {
 
 function corrigirCaracteresEspeciais(texto = '') {
   return String(texto)
-    .replace(/â€™/g, '’')
-    .replace(/â€œ/g, '“')
-    .replace(/â€/g, '”')
-    .replace(/â€"/g, '—')
-    .replace(/Ã¡/g, 'á')
-    .replace(/Ã /g, 'à')
-    .replace(/Ã¢/g, 'â')
-    .replace(/Ã£/g, 'ã')
-    .replace(/Ã©/g, 'é')
-    .replace(/Ãª/g, 'ê')
-    .replace(/Ã­/g, 'í')
-    .replace(/Ã³/g, 'ó')
-    .replace(/Ã´/g, 'ô')
-    .replace(/Ãµ/g, 'õ')
-    .replace(/Ãº/g, 'ú')
-    .replace(/Ã§/g, 'ç');
+    .replace(/Ã¢â‚¬â„¢/g, 'â€™')
+    .replace(/Ã¢â‚¬Å“/g, 'â€œ')
+    .replace(/Ã¢â‚¬/g, 'â€')
+    .replace(/Ã¢â‚¬"/g, 'â€”')
+    .replace(/ÃƒÂ¡/g, 'Ã¡')
+    .replace(/Ãƒ /g, 'Ã ')
+    .replace(/ÃƒÂ¢/g, 'Ã¢')
+    .replace(/ÃƒÂ£/g, 'Ã£')
+    .replace(/ÃƒÂ©/g, 'Ã©')
+    .replace(/ÃƒÂª/g, 'Ãª')
+    .replace(/ÃƒÂ­/g, 'Ã­')
+    .replace(/ÃƒÂ³/g, 'Ã³')
+    .replace(/ÃƒÂ´/g, 'Ã´')
+    .replace(/ÃƒÂµ/g, 'Ãµ')
+    .replace(/ÃƒÂº/g, 'Ãº')
+    .replace(/ÃƒÂ§/g, 'Ã§');
 }
 
 function limparTexto(txt = '') {
@@ -450,6 +451,34 @@ async function logCurrentCookies(tag = 'cookies') {
     const c = await refreshSessionCookiesFromJar();
     logger.info({ msg: `Cookies atuais (${tag})`, size: c ? c.length : 0 });
   } catch {}
+}
+
+async function attachLocalContent(data, type) {
+  if (!data?.title) return data;
+
+  const local = await getLocalContentByTitle(data.title, type);
+  if (!local) {
+    logger.info({
+      msg: 'Detalhes sem conteúdo local',
+      type,
+      title: data.title
+    });
+    return data;
+  }
+
+  logger.info({
+    msg: 'Detalhes usando conteúdo local',
+    type,
+    title: data.title,
+    coverUrl: local.coverUrl || null
+  });
+
+  return {
+    ...data,
+    ...local.meta,
+    coverUrl: local.coverUrl || data.coverUrl || null,
+    localMeta: local.meta
+  };
 }
 
 async function buscarDetalhes(id, type) {
@@ -469,7 +498,7 @@ async function buscarDetalhes(id, type) {
     for (const encoding of ['ISO-8859-1', 'Windows-1252', 'UTF-8', 'latin1']) {
       try {
         const decoded = iconv.decode(Buffer.from(buffer), encoding);
-        if (!decoded.includes('â€') && !decoded.includes('?â€')) { html = decoded; break; }
+        if (!decoded.includes('Ã¢â‚¬') && !decoded.includes('?Ã¢â‚¬')) { html = decoded; break; }
       } catch {}
     }
     if (!html) {
@@ -520,7 +549,7 @@ async function buscarDetalhes(id, type) {
           const invalido = !d.title || d.title.length < 2 || (!d.seasons && !d.info);
           if (!bloqueado && !invalido) {
             
-            return d;
+            return attachLocalContent(d, type === 'movies' ? 'movies' : 'series');
           }
           
         }
@@ -533,7 +562,7 @@ async function buscarDetalhes(id, type) {
     await logCurrentCookies(`detalhes-${type}-${id}`);
 
     let html = await fetchDetailHtml(pageType, id, type === 'movies' ? 'movies' : 'series');
-    if (!html) { console.error(`❌ Não foi possível obter HTML de detalhes (${type}/${id})`); return null; }
+    if (!html) { console.error(`âŒ NÃ£o foi possÃ­vel obter HTML de detalhes (${type}/${id})`); return null; }
 
     let $ = cheerio.load(html, { decodeEntities: false });
 
@@ -597,9 +626,9 @@ async function buscarDetalhes(id, type) {
       return null;
     }
 
-    return data;
+    return attachLocalContent(data, data.mediaType === 'movie' ? 'movies' : 'series');
   } catch (error) {
-    console.error('❌ Erro ao buscar detalhes:', error.message);
+    console.error('âŒ Erro ao buscar detalhes:', error.message);
     return null;
   }
 }
@@ -623,3 +652,7 @@ module.exports = {
   setSessionCookiesRaw,
   getSessionCookiesRaw
 };
+
+
+
+

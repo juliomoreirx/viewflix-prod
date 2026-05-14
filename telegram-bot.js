@@ -19,6 +19,7 @@ const {
 const sessionService = require('./src/services/session.service');
 const paymentAdapter = require('./src/adapters/payment.adapter');
 const bunnyCacheService = require('./src/services/bunny-cache.service');
+const logger = require('./src/lib/logger');
 
 
 // ============================
@@ -165,6 +166,13 @@ function getBuscarDetalhes() {
 function getEstimarDuracao(defaultMin = 109) {
   if (typeof vouverService?.estimarDuracao === 'function') return vouverService.estimarDuracao;
   return async () => defaultMin;
+}
+
+function toAbsoluteUrl(url = '') {
+  if (!url) return '';
+  if (/^https?:\/\//i.test(url)) return url;
+  const base = String(DOMINIO_PUBLICO || '').replace(/\/$/, '');
+  return base ? `${base}${url.startsWith('/') ? '' : '/'}${url}` : url;
 }
 
 // ============================
@@ -1155,6 +1163,36 @@ async function mostrarDetalhesConteudo(chatId, contentId) {
       `${timeRemaining}\n\n` +
       `🎯 *Clique em "▶️ Assistir" para abrir o player!*`;
 
+
+      const coverUrl = toAbsoluteUrl(detalhes.coverUrl || detalhes.capa_url || detalhes.capa || '');
+      if (coverUrl) {
+        logger.info({
+          msg: 'Enviando capa dos detalhes',
+          chatId,
+          title: detalhes.title,
+          coverUrl
+        });
+
+        try {
+          await bot.sendPhoto(chatId, coverUrl, {
+            caption: detalhes.title ? ` ${detalhes.title}` : ' Detalhes do conteúdo'
+          });
+        } catch (error) {
+          logger.warn({
+            msg: 'Falha ao enviar capa dos detalhes',
+            chatId,
+            title: detalhes.title,
+            error: error.message
+          });
+        }
+      } else {
+        logger.info({
+          msg: 'Detalhes sem capa para enviar',
+          chatId,
+          title: detalhes.title
+        });
+      }
+
     await bot.sendMessage(chatId, mensagem, {
       parse_mode: 'Markdown',
       reply_markup: {
@@ -1954,6 +1992,36 @@ bot.on('callback_query', async (query) => {
       }
 
       keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+
+      const coverUrl = toAbsoluteUrl(detalhes.coverUrl || detalhes.capa_url || detalhes.capa || '');
+      if (coverUrl) {
+        logger.info({
+          msg: 'Enviando capa dos detalhes',
+          chatId,
+          title: detalhes.title,
+          coverUrl
+        });
+
+        try {
+          await bot.sendPhoto(chatId, coverUrl, {
+            caption: detalhes.title ? `Detalhes: ${detalhes.title}` : 'Detalhes do conteudo'
+          });
+        } catch (error) {
+          logger.warn({
+            msg: 'Falha ao enviar capa dos detalhes',
+            chatId,
+            title: detalhes.title,
+            error: error.message
+          });
+        }
+      } else {
+        logger.info({
+          msg: 'Detalhes sem capa para enviar',
+          chatId,
+          title: detalhes.title
+        });
+      }
+
       await bot.sendMessage(chatId, mensagem, {
         parse_mode: 'Markdown',
         reply_markup: { inline_keyboard: keyboard }
