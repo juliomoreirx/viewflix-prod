@@ -175,6 +175,17 @@ function toAbsoluteUrl(url = '') {
   return base ? `${base}${url.startsWith('/') ? '' : '/'}${url}` : url;
 }
 
+function toTelegramUrl(url = '') {
+  if (!url) return '';
+  let normalized = String(url);
+  if (/\.ngrok-free\.app\b/i.test(normalized)) {
+    normalized = normalized.includes('?')
+      ? `${normalized}&ngrok-skip-browser-warning=1`
+      : `${normalized}?ngrok-skip-browser-warning=1`;
+  }
+  return encodeURI(normalized);
+}
+
 // ============================
 // FUNÇÕES AUXILIARES (TRADUTORES HTML)
 // ============================
@@ -1164,7 +1175,9 @@ async function mostrarDetalhesConteudo(chatId, contentId) {
       `🎯 *Clique em "▶️ Assistir" para abrir o player!*`;
 
 
-      const coverUrl = toAbsoluteUrl(detalhes.coverUrl || detalhes.capa_url || detalhes.capa || '');
+      const coverUrl = toTelegramUrl(
+        toAbsoluteUrl(detalhes.coverUrl || detalhes.capa_url || detalhes.capa || '')
+      );
       if (coverUrl) {
         logger.info({
           msg: 'Enviando capa dos detalhes',
@@ -1624,7 +1637,8 @@ bot.on('message', async (msg) => {
       if (state.step === 'search_livetv') {
         return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `live_details_${item.id}` }];
       }
-      const tipo = (cache.movies || []).find(m => m.id === item.id) ? 'movies' : 'series';
+      // Determinador de tipo: usar state.step ao invés de cache.movies (que era errado)
+      const tipo = state.step === 'search_movies' ? 'movies' : state.step === 'search_adult' ? 'movies' : 'series';
       const owned = tipo === 'movies' ? ownedMovieIds.has(String(item.id)) : false;
       const prefix = owned ? '✅ ' : '';
       return [{ text: `${prefix}${name.substring(0, 60)}${name.length > 60 ? '...' : ''}`, callback_data: `details_${item.id}_${tipo}` }];
@@ -1993,7 +2007,9 @@ bot.on('callback_query', async (query) => {
 
       keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
-      const coverUrl = toAbsoluteUrl(detalhes.coverUrl || detalhes.capa_url || detalhes.capa || '');
+      const coverUrl = toTelegramUrl(
+        toAbsoluteUrl(detalhes.coverUrl || detalhes.capa_url || detalhes.capa || '')
+      );
       if (coverUrl) {
         logger.info({
           msg: 'Enviando capa dos detalhes',

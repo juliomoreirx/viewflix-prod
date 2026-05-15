@@ -53,7 +53,23 @@ app.use(rateLimit({
 // (ex: /admin.html, assets, index, etc)
 app.use(express.static(path.join(__dirname, '..', 'public')));
 
-// Serve capas e dados locais em output/filmes e output/series
+// Middleware robusto para servir capas e dados locais em output/filmes e output/series
+// Decodifica URLs e lida com caracteres especiais em nomes de arquivos
+app.use('/local-content', (req, res, next) => {
+  // Decodifica o caminho da URL para lidar com caracteres especiais como [, ], espaços, etc
+  const decodedPath = decodeURIComponent(req.path);
+  const filePath = path.join(__dirname, '..', 'output', decodedPath);
+  
+  // Verifica se o arquivo solicitado existe
+  const fs = require('fs-extra');
+  if (fs.existsSync(filePath) && fs.statSync(filePath).isFile()) {
+    res.sendFile(filePath);
+  } else {
+    next(); // Passa para o próximo middleware se não encontrar
+  }
+});
+
+// Fallback: também tenta servir sem decodificação (compatibilidade)
 app.use('/local-content', express.static(path.join(__dirname, '..', 'output')));
 
 // Rota amigável sem extensão para o painel admin

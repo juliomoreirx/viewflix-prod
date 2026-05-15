@@ -15,14 +15,22 @@ const cache = {
 };
 
 function normalizeTitle(title) {
-  return String(title || '')
+  let normalized = String(title || '')
     .trim()
     .toLowerCase()
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[\[\]\(\){}'"“”‘’,:;.!?@#$%^&*_+=|\\/<>~`-]/g, ' ')
+    .replace(/[\(\){}'"""'',:;.!?@#$%^&*_+=|\\/<>~`-]/g, ' ')
     .replace(/\s+/g, ' ')
     .trim();
+  
+  // Preservar [L] para diferenciar versões legendadas
+  const hasLegendado = /\[l\]/i.test(String(title || ''));
+  if (hasLegendado && !normalized.includes('[l]')) {
+    normalized = normalized + ' [l]';
+  }
+  
+  return normalized;
 }
 
 function normalizeLooseTitle(title) {
@@ -82,7 +90,9 @@ function buildCoverUrl(type, capaLocal) {
   const normalized = normalizeCoverRelativePath(type, capaLocal);
   if (!normalized) return null;
 
-  return encodeURI(`/local-content/${dirName}/${normalized}`);
+  // Não usar encodeURI aqui - deixar para o cliente/navegador fazer encoding se necessário
+  // Express.static e clientes modernos lidam melhor com paths sem double-encoding
+  return `/local-content/${dirName}/${normalized}`;
 }
 
 async function loadLocalType(type) {
