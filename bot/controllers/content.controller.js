@@ -52,7 +52,8 @@ class ContentController {
     let mensagem = `🎬 *${tituloSeguro}*\n\n`;
     if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
     if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
-    if (detalhes.info?.imdb) appendMessage += `⭐ IMDB: ${detalhes.info.imdb}\n`;
+    // 🚀 CORRIGIDO: Removido o 'appendMessage' intruso e setado para 'mensagem'
+    if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
     if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
     const keyboard = [];
@@ -63,7 +64,7 @@ class ContentController {
         minutos = await contentService.vouverService.estimarDuracao('movie', id);
       }
 
-      const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos });
+      const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutes });
       mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
 
       if (saldoAtual < pricing.precoFinal) {
@@ -81,7 +82,6 @@ class ContentController {
 
     keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
-    // Sistema de renderização de capas obscurecidas
     let fotoEnviada = false;
     try {
       if (config.dynamic.DOMINIO_PUBLICO && detalhes.coverUrl) {
@@ -334,7 +334,7 @@ class ContentController {
   }
 
   // ==========================================
-  // 6. 🚀 ETAPA 3: COMPRAR A TEMPORADA INTEIRA (EM MASSA - REDIS)
+  // 6. COMPRAR A TEMPORADA INTEIRA (EM MASSA - REDIS)
   // ==========================================
   async handleBuySeason(query) {
     const chatId = query.message.chat.id;
@@ -364,7 +364,6 @@ class ContentController {
 
     const bulkStateId = `season-${id}-${season}-${Date.now()}`;
     
-    // Registra os contadores estruturais no Redis para o monitoramento síncrono dos Workers
     await bunnyCacheService.redisConnection.set(`bulk:${bulkStateId}:total`, restantes.length);
     await bunnyCacheService.redisConnection.set(`bulk:${bulkStateId}:ready`, 0);
 
@@ -379,7 +378,6 @@ class ContentController {
       const saved = await contentService.salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season, { seriesId, episodeIndex, totalEpisodes });
       
       if (saved?.token) {
-        // Enfileira cada tarefa individualmente de forma controlada
         bunnyCacheService.enqueue(saved.purchase, {
           chatId: chatId,
           statusMessageId: statusMsg.message_id,
@@ -578,10 +576,6 @@ class ContentController {
     return { movies, livetv, series: Array.from(seriesMap.values()) };
   }
 
-  /**
-   * 🚀 DISPACHO PRO REDIS (BULLMQ WORKER ENQUEUE)
-   * Remove totalmente os callbacks locais em memória e persiste no Redis
-   */
   async _iniciarCacheComNotificacao(chatId, purchase, caption, mediaType) {
     const token = purchase.token;
     const msg = await bot.sendMessage(chatId, `⏳ *Preparando seu conteúdo no servidor...*\n\nSua solicitação entrou na fila de processamento automático do Redis.`, { parse_mode: 'Markdown' }).catch(() => null);
