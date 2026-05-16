@@ -52,7 +52,6 @@ class ContentController {
     let mensagem = `🎬 *${tituloSeguro}*\n\n`;
     if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
     if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
-    // 🚀 CORRIGIDO: Removido o 'appendMessage' intruso e setado para 'mensagem'
     if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
     if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
@@ -64,7 +63,8 @@ class ContentController {
         minutos = await contentService.vouverService.estimarDuracao('movie', id);
       }
 
-      const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutes });
+      // 🚀 CORRIGIDO: Variável 'minutos' (PT-BR) passada corretamente para o precificador
+      const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos });
       mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
 
       if (saldoAtual < pricing.precoFinal) {
