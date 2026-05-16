@@ -1,4 +1,5 @@
-const { mongoose } = require('../db/mongoose');
+// src/models/user.model.js
+const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
   userId: { type: Number, required: true, unique: true, index: true },
@@ -10,12 +11,12 @@ const userSchema = new mongoose.Schema({
   isActive: { type: Boolean, default: true },
   isBlocked: { type: Boolean, default: false },
   blockedReason: { type: String },
-  registeredAt: { type: Date, default: Date.now },
-  lastAccess: { type: Date, default: Date.now },
   totalSpent: { type: Number, default: 0 },
   totalPurchases: { type: Number, default: 0 },
   language: { type: String, default: 'pt-BR' },
   notificationsEnabled: { type: Boolean, default: true },
+  
+  // Opcional: Metadata extra agrupada
   metadata: {
     telegramLanguageCode: String,
     isPremium: Boolean,
@@ -24,6 +25,9 @@ const userSchema = new mongoose.Schema({
     initialBonusGrantedAt: Date,
     initialBonusAmount: Number
   }
+}, { 
+  // O Mongoose gere as datas de criação e atualização automaticamente
+  timestamps: { createdAt: 'registeredAt', updatedAt: 'lastAccess' } 
 });
 
 module.exports = mongoose.models.User || mongoose.model('User', userSchema);

@@ -1,57 +1,35 @@
 // src/adapters/payment.adapter.js
-// Adapter para integrar PaymentService ao bot (substitui funções antigas)
-
-let paymentService = null;
-
-function initPaymentAdapter(service) {
-  paymentService = service;
-}
-
-// Wrappers para manter compatibilidade com código existente
-async function getUserCredits(userId) {
-  if (!paymentService) return 0;
-  return await paymentService.getUserCredits(userId);
-}
-
-async function addCredits(userId, centavos) {
-  if (!paymentService) return false;
-  return await paymentService.addCredits(userId, centavos);
-}
-
-async function criarPagamentoPix(userId, valorCentavos) {
-  if (!paymentService) return null;
-  return await paymentService.createPixPayment(userId, valorCentavos);
-}
-
-async function checkPaymentStatus(paymentId) {
-  if (!paymentService) return null;
-  const result = await paymentService.checkPaymentStatus(paymentId);
-  return result?.status || null;
-}
-
-async function processarPagamentoAprovado(paymentId, userId, amount) {
-  if (!paymentService) return false;
-  const result = await paymentService.processApprovedPayment(paymentId, userId, amount);
-  return result?.success || false;
-}
-
-function gerarTokenAcesso(userId, contentId, expirationHours = 24) {
-  if (!paymentService) return null;
-  return paymentService.generateAccessToken(userId, contentId, expirationHours);
-}
-
-function verificarTokenAcesso(token) {
-  if (!paymentService) return null;
-  return paymentService.verifyAccessToken(token);
-}
+let paymentServiceInstance = null;
 
 module.exports = {
-  initPaymentAdapter,
-  getUserCredits,
-  addCredits,
-  criarPagamentoPix,
-  checkPaymentStatus,
-  processarPagamentoAprovado,
-  gerarTokenAcesso,
-  verificarTokenAcesso
+  initPaymentAdapter: (service) => {
+    paymentServiceInstance = service;
+  },
+  
+  getUserCredits: async (userId) => {
+    if (!paymentServiceInstance) return 0;
+    return await paymentServiceInstance.getUserCredits(userId);
+  },
+  
+  addCredits: async (userId, centavos) => {
+    if (!paymentServiceInstance) return false;
+    return await paymentServiceInstance.addCredits(userId, centavos);
+  },
+  
+  criarPagamentoPix: async (userId, valorCentavos) => {
+    if (!paymentServiceInstance) return null;
+    return await paymentServiceInstance.createPixPayment(userId, valorCentavos);
+  },
+  
+  checkPaymentStatus: async (paymentId) => {
+    if (!paymentServiceInstance) return null;
+    const result = await paymentServiceInstance.checkPaymentStatus(paymentId);
+    return result?.status || null;
+  },
+  
+  processarPagamentoAprovado: async (paymentId, userId, amount) => {
+    if (!paymentServiceInstance) return false;
+    const result = await paymentServiceInstance.processApprovedPayment(paymentId, userId, amount);
+    return result?.success || false;
+  }
 };

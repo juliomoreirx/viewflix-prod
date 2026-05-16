@@ -1,4 +1,5 @@
-﻿const fs = require('fs-extra');
+﻿// src/services/local-content.service.js
+const fs = require('fs-extra');
 const path = require('path');
 const logger = require('../lib/logger');
 
@@ -24,7 +25,6 @@ function normalizeTitle(title) {
     .replace(/\s+/g, ' ')
     .trim();
   
-  // Preservar [L] para diferenciar versões legendadas
   const hasLegendado = /\[l\]/i.test(String(title || ''));
   if (hasLegendado && !normalized.includes('[l]')) {
     normalized = normalized + ' [l]';
@@ -90,9 +90,8 @@ function buildCoverUrl(type, capaLocal) {
   const normalized = normalizeCoverRelativePath(type, capaLocal);
   if (!normalized) return null;
 
-  // Não usar encodeURI aqui - deixar para o cliente/navegador fazer encoding se necessário
-  // Express.static e clientes modernos lidam melhor com paths sem double-encoding
-  return `/local-content/${dirName}/${normalized}`;
+  // 🚀 LINK PROFISSIONAL: Retorna apenas /filmes/nome/capa.jpg ou /series/nome/capa.jpg
+  return `/${dirName}/${normalized}`;
 }
 
 async function loadLocalType(type) {
@@ -120,7 +119,17 @@ async function loadLocalType(type) {
       const meta = sanitizeLocalMeta(raw);
       const coverUrl = buildCoverUrl(type, raw.capa_local || null);
 
-      map.set(key, { title, meta, coverUrl, raw, looseKey: normalizeLooseTitle(title) });
+      const relativePath = normalizeCoverRelativePath(type, raw.capa_local || null);
+      const absoluteCoverPath = relativePath ? path.join(OUTPUT_DIR, dirName, relativePath) : null;
+
+      map.set(key, { 
+        title, 
+        meta, 
+        coverUrl, 
+        raw, 
+        absoluteCoverPath, 
+        looseKey: normalizeLooseTitle(title) 
+      });
     } catch (err) {
       logger.warn({ msg: 'Falha ao ler dados.json local', file: dataPath, err: err.message });
     }
@@ -188,18 +197,16 @@ async function getLocalContentByTitle(title, type) {
   });
 
   if (!local) {
-    logger.warn({
-      msg: 'Local content miss',
-      type,
-      title,
-      key
-    });
+    logger.warn({ msg: 'Local content miss', type, title, key });
+    return null;
   }
 
-  return local;
+  return {
+    ...local.raw,
+    absoluteCoverPath: local.absoluteCoverPath,
+    coverUrl: local.coverUrl,
+    meta: local.meta
+  };
 }
 
-module.exports = {
-  getLocalContentByTitle
-};
-
+module.exports = { getLocalContentByTitle };

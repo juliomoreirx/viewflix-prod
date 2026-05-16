@@ -1,8 +1,12 @@
+// src/services/catalog.service.js
 const fs = require('fs');
 const path = require('path');
 
+// Movemos a regex para fora para não ser compilada a cada iteração
+const ADULT_REGEX = /[\[\(]xxx|\+18|adulto|hentai|brasileirinhas/i;
+
 function isAdultoNome(name) {
-  return /[\[\(]xxx|\+18|adulto|hentai/i.test(String(name).toUpperCase());
+  return ADULT_REGEX.test(String(name || '').toUpperCase());
 }
 
 async function listCatalog({
@@ -13,46 +17,58 @@ async function listCatalog({
   atualizarCache,
   projectRoot
 }) {
-  const pageNum = parseInt(page, 10) || 1;
+  const pageNum = Math.max(1, parseInt(page, 10) || 1);
   const limit = 20;
 
+  // Se as caches estiverem vazias, forçamos a atualização
   if (
-    (!cacheConteudo.series || cacheConteudo.series.length === 0) &&
-    (!cacheConteudo.movies || cacheConteudo.movies.length === 0) &&
-    (!cacheConteudo.livetv || cacheConteudo.livetv.length === 0)
+    (!cacheConteudo.series?.length) &&
+    (!cacheConteudo.movies?.length) &&
+    (!cacheConteudo.livetv?.length)
   ) {
     await atualizarCache(true);
   }
 
-  let lista;
+  // Filtragem inicial
+  let lista = [];
   if (type === 'adult') {
-    lista = [...cacheConteudo.movies, ...cacheConteudo.series].filter((i) =>
-      isAdultoNome(i.name)
-    );
+    lista = [...(cacheConteudo.movies || []), ...(cacheConteudo.series || [])]
+      .filter((i) => isAdultoNome(i.name));
   } else if (type === 'livetv') {
     lista = cacheConteudo.livetv || [];
   } else {
     lista = (cacheConteudo[type] || []).filter((i) => !isAdultoNome(i.name));
   }
 
-  if (q) {
-    const qLower = String(q).toLowerCase();
-    lista = lista.filter((i) => i.name.toLowerCase().includes(qLower));
+  // Busca por texto
+  if (q && q.trim()) {
+    const qLower = String(q).toLowerCase().trim();
+    lista = lista.filter((i) => String(i.name || '').toLowerCase().includes(qLower));
   }
 
   const total = lista.length;
   const items = lista.slice((pageNum - 1) * limit, pageNum * limit);
 
+  // Mapeamento com otimização
   const data = items.map((item) => {
-    const folder =
-      type === 'adult'
-        ? (cacheConteudo.movies.find((m) => m.id === item.id) ? 'movies' : 'series')
-        : type;
+    let folder = type;
+    if (type === 'adult') {
+      folder = (cacheConteudo.movies || []).some((m) => m.id === item.id) ? 'movies' : 'series';
+    }
 
+    // Em vez de bloquear a thread a verificar o disco para cada imagem, 
+    // assumimos a rota pública. O Nginx ou o Express devem lidar com o 404 da imagem e fazer fallback.
+    // Mas para manter a tua lógica, fazemos a verificação de forma mais segura:
     const coverPath = path.join(projectRoot, 'public', 'covers', folder, `${item.id}.jpg`);
-    const img = fs.existsSync(coverPath)
-      ? `/covers/${folder}/${item.id}.jpg`
-      : `https://via.placeholder.com/300x450?text=${encodeURIComponent(item.name)}`;
+    let img = `https://via.placeholder.com/300x450?text=${encodeURIComponent(item.name)}`;
+    
+    try {
+      if (fs.existsSync(coverPath)) {
+        img = `/covers/${folder}/${item.id}.jpg`;
+      }
+    } catch (e) {
+      // Ignora erro de disco
+    }
 
     return {
       id: item.id,

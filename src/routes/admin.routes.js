@@ -8,7 +8,7 @@ const { CACHE_CONTEUDO, atualizarCache, buscarDetalhes } = require('../services/
 const bunnyCacheService = require('../services/bunny-cache.service');
 const bunnyStorage = require('../services/bunny-storage.service');
 const env = require('../config/env');
-const telegramBot = require('../../telegram-bot');
+const telegramBot = require('../../bot');
 
 const router = express.Router();
 

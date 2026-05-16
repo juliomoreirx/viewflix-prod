@@ -1,21 +1,22 @@
+// src/services/hls-proxy.service.js
 const axios = require('axios');
 const crypto = require('crypto');
 const logger = require('../lib/logger');
 
 /**
- * HLS Proxy Service
+ * HLS Proxy Service — Versão Titanium Edge Ultra v2
  * Proxies HLS manifest and segments from Bunny CDN to bypass CORS issues
- * Uses AES-256-GCM encryption to hide actual Bunny URLs from client
- * This prevents URL leakage in network inspection tools
+ * Protege contra bloqueios 403 e corrige falhas de quebras de linha (\r\n) em nível sênior.
  */
 
 class HLSProxyService {
   constructor() {
     this.manifestCache = new Map();
-    this.cacheTTL = 5 * 60 * 1000; // 5 minutes
+    this.cacheTTL = 5 * 60 * 1000; // 5 minutos
     
-    // Encryption key from environment or generate one
     this.encryptionKey = this._getEncryptionKey();
+    this.bunnyTokenKey = process.env.BUNNY_TOKEN_KEY;
+    this.bunnyPullZoneUrl = process.env.BUNNY_PULL_ZONE_URL || 'viewflix.b-cdn.net';
   }
 
   /**
@@ -25,44 +26,22 @@ class HLSProxyService {
   _getEncryptionKey() {
     const key = process.env.HLS_PROXY_ENCRYPTION_KEY;
     if (key && key.length === 64) {
-      logger.info('[HLS Proxy] Using HLS_PROXY_ENCRYPTION_KEY from environment');
       return Buffer.from(key, 'hex');
     }
-
-    if (key) {
-      logger.warn('[HLS Proxy] HLS_PROXY_ENCRYPTION_KEY has invalid length (expected 64 hex chars), generating new one');
-    }
-
-    // Generate and log warning in production
     const generated = crypto.randomBytes(32);
-    logger.warn('[HLS Proxy] ⚠️ IMPORTANT: No encryption key set. Set HLS_PROXY_ENCRYPTION_KEY to persist key across restarts:');
-    logger.warn('[HLS Proxy] HLS_PROXY_ENCRYPTION_KEY=' + generated.toString('hex'));
-    logger.warn('[HLS Proxy] Without this, previously encrypted URLs will become invalid after restart!');
     return generated;
   }
 
   /**
-   * Encrypt a URL using AES-256-GCM
-   * Returns encrypted data in format: IV:ENCRYPTED:AUTH_TAG (all hex)
-   * This format is safe for URLs and includes authentication to prevent tampering
-   * @param {string} url - URL to encrypt
-   * @returns {string} - Encrypted token
+   * Encrypt a URL using AES-256-GCM (Mantido para retrocompatibilidade)
    */
   encryptUrl(url) {
     try {
       const iv = crypto.randomBytes(16);
       const cipher = crypto.createCipheriv('aes-256-gcm', this.encryptionKey, iv);
-      
-      const encrypted = Buffer.concat([
-        cipher.update(url, 'utf8'),
-        cipher.final()
-      ]);
-      
+      const encrypted = Buffer.concat([cipher.update(url, 'utf8'), cipher.final()]);
       const authTag = cipher.getAuthTag();
-      
-      // Format: IV:ENCRYPTED:AUTH_TAG (all hex, URL-safe)
-      const token = iv.toString('hex') + ':' + encrypted.toString('hex') + ':' + authTag.toString('hex');
-      return token;
+      return iv.toString('hex') + ':' + encrypted.toString('hex') + ':' + authTag.toString('hex');
     } catch (error) {
       logger.error('[HLS Proxy] Encryption failed:', error.message);
       throw error;
@@ -71,20 +50,13 @@ class HLSProxyService {
 
   /**
    * Decrypt a URL token
-   * Uses authentication tag to verify token hasn't been tampered with
-   * @param {string} token - Encrypted token from encryptUrl()
-   * @returns {string|null} - Original URL or null if decryption/auth fails
    */
   decryptUrl(token) {
     try {
       const parts = token.split(':');
-      if (parts.length !== 3) {
-        logger.warn('[HLS Proxy] Token has invalid format (expected 3 parts)');
-        return null;
-      }
+      if (parts.length !== 3) return null;
 
       const [ivHex, encryptedHex, authTagHex] = parts;
-      
       const iv = Buffer.from(ivHex, 'hex');
       const encrypted = Buffer.from(encryptedHex, 'hex');
       const authTag = Buffer.from(authTagHex, 'hex');
@@ -92,144 +64,118 @@ class HLSProxyService {
       const decipher = crypto.createDecipheriv('aes-256-gcm', this.encryptionKey, iv);
       decipher.setAuthTag(authTag);
 
-      const url = decipher.update(encrypted, undefined, 'utf8') + decipher.final('utf8');
-      return url;
+      return decipher.update(encrypted, undefined, 'utf8') + decipher.final('utf8');
     } catch (error) {
-      logger.warn('[HLS Proxy] Decryption/authentication failed (possible token tampering):', error.message);
       return null;
     }
   }
 
   /**
-   * Get HLS manifest from Bunny, with manifest rewriting for segment URLs
-   * Rewrites segment paths to use encrypted tokens instead of exposing full URLs
-   * @param {string} manifestUrl - Original manifest URL from Bunny CDN
-   * @param {string} proxyPrefix - Proxy prefix path (e.g., /api/hls-proxy)
-   * @returns {Promise<string>} - Rewritten manifest with encrypted segment URLs
+   * 🚀 GERADOR DE ASSINATURA CRIPTOGRÁFICA DA BUNNY CDN
+   * Cria os parâmetros de autenticação MD5 Token sem conversão de strings binárias
+   */
+  signBunnyPath(videoPath, expiryWindow = 7200) {
+    if (!this.bunnyTokenKey) {
+      logger.warn('[HLS Proxy] ⚠️ Chave BUNNY_TOKEN_KEY ausente no .env.');
+      return videoPath;
+    }
+
+    let cleanPath = String(videoPath).trim();
+    if (!cleanPath.startsWith('/')) {
+      cleanPath = '/' + cleanPath;
+    }
+
+    const expires = Math.floor(Date.now() / 1000) + expiryWindow;
+    const hashableString = this.bunnyTokenKey + cleanPath + expires;
+    
+    // Executa o digest direto para base64 em nível de buffer de memória nativo
+    const token = crypto.createHash('md5')
+      .update(hashableString)
+      .digest('base64')
+      .replace(/\+/g, '-')
+      .replace(/\//g, '_')
+      .replace(/=/g, '');
+
+    return `${cleanPath}?token=${token}&expires=${expires}`;
+  }
+
+  /**
+   * Obtém e reescreve o manifesto index.m3u8
+   * @param {string} manifestUrl - URL crua do manifesto
    */
   async getManifest(manifestUrl, proxyPrefix = '/api/hls-proxy') {
     if (!manifestUrl) {
       throw new Error('Manifest URL is required');
     }
 
-    // Check cache
     const cacheKey = manifestUrl;
     const cached = this.manifestCache.get(cacheKey);
     if (cached && Date.now() - cached.timestamp < this.cacheTTL) {
-      logger.debug(`[HLS Proxy] Manifest cache hit: ${manifestUrl}`);
       return cached.content;
     }
 
     try {
-      logger.info(`[HLS Proxy] Fetching manifest: ${manifestUrl}`);
+      const urlParsed = new URL(manifestUrl);
+      
+      // Auto-assinatura de segurança de 5 minutos para permissão de leitura da VPS
+      const signedPathForFetch = this.signBunnyPath(urlParsed.pathname, 300);
+      const secureFetchUrl = `https://${urlParsed.host}${signedPathForFetch}`;
 
-      const response = await axios.get(manifestUrl, {
+      logger.info(`[HLS Proxy] Solicitando manifesto autenticado à CDN: ${secureFetchUrl.substring(0, 90)}...`);
+
+      const response = await axios.get(secureFetchUrl, {
         timeout: 10000,
         responseType: 'text',
         headers: {
           'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
           'Accept': '*/*',
-          'Accept-Language': 'pt-BR,pt;q=0.9',
           'Referer': 'https://watch.viewflix.space/'
         }
       });
 
       let manifestContent = response.data;
+      const pathnameBase = urlParsed.pathname.substring(0, urlParsed.pathname.lastIndexOf('/'));
 
-      // Rewrite manifest to proxy segment URLs with encryption
-      // Before: 0000.ts, 0001.ts, ...
-      // After: /api/hls-proxy/segment?token=<encrypted>
-      const basePath = manifestUrl.substring(0, manifestUrl.lastIndexOf('/'));
-      
+      // ⚔️ CORREÇÃO CIRÚRGICA: Captura os segmentos tratando de forma segura o \r opcional no fim da linha
       manifestContent = manifestContent.replace(
-        /^(?!#|http)([^\n]+\.ts)$/gm,
+        /^(?!#|http)([^\r\n]+\.ts)\r?$/gm,
         (match, segment) => {
-          const segmentUrl = `${basePath}/${segment}`;
-          const encryptedToken = this.encryptUrl(segmentUrl);
-          return `${proxyPrefix}/segment?token=${encodeURIComponent(encryptedToken)}`;
+          // Limpa qualquer resíduo de espaço ou quebra de bloco
+          const segmentLimpo = String(segment).trim();
+          const pathSegmentoFisico = `${pathnameBase}/${segmentLimpo}`;
+          
+          const segmentoAssinadoComQuery = this.signBunnyPath(pathSegmentoFisico, 7200);
+          return `https://${this.bunnyPullZoneUrl}${segmentoAssinadoComQuery}`;
         }
       );
 
-      // Cache the rewritten manifest
       this.manifestCache.set(cacheKey, {
         content: manifestContent,
         timestamp: Date.now()
       });
 
-      logger.debug(`[HLS Proxy] Manifest fetched and rewritten: ${manifestUrl}`);
       return manifestContent;
     } catch (error) {
-      logger.error(`[HLS Proxy] Failed to fetch manifest: ${manifestUrl}`, error.message);
+      logger.error(`[HLS Proxy] Falha crítica ao processar manifesto: ${manifestUrl}`, error.message);
       throw error;
     }
   }
 
-  /**
-   * Get HLS segment from Bunny CDN using encrypted token
-   * @param {string} encryptedToken - Encrypted segment URL token
-   * @returns {Promise<Buffer>} - Segment data
-   */
   async getSegment(encryptedToken) {
-    if (!encryptedToken) {
-      throw new Error('Encrypted token is required');
-    }
-
-    // Decrypt the URL
-    const segmentUrl = this.decryptUrl(encryptedToken);
-    if (!segmentUrl) {
-      logger.warn('[HLS Proxy] Security: Invalid/tampered token rejected');
-      throw new Error('Invalid or tampered token');
-    }
-
-    // Security: Validate URL points to Bunny CDN
-    if (!segmentUrl.includes('b-cdn.net') && !segmentUrl.includes('bunny')) {
-      logger.error('[HLS Proxy] Security: Attempted unauthorized access to non-Bunny URL');
-      throw new Error('Invalid segment URL - must be from Bunny CDN');
-    }
-
-    try {
-      logger.debug(`[HLS Proxy] Fetching segment (${encryptedToken.substring(0, 20)}...)`);
-
-      const response = await axios.get(segmentUrl, {
-        timeout: 30000,
-        responseType: 'arraybuffer',
-        headers: {
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-          'Accept': '*/*',
-          'Referer': 'https://watch.viewflix.space/'
-        }
-      });
-
-      logger.debug(`[HLS Proxy] Segment fetched: ${response.data.length} bytes`);
-      return response.data;
-    } catch (error) {
-      logger.error('[HLS Proxy] Failed to fetch segment', error.message);
-      throw error;
-    }
+    throw new Error('Endpoint desativado — Os fragmentos rodam direto na Edge CDN.');
   }
 
-  /**
-   * Clear manifest cache
-   */
   clearCache() {
     this.manifestCache.clear();
     logger.info('[HLS Proxy] Manifest cache cleared');
   }
 
-  /**
-   * Clear old cache entries
-   */
   cleanOldCache() {
     const now = Date.now();
-    let cleaned = 0;
     for (const [key, value] of this.manifestCache.entries()) {
       if (now - value.timestamp > this.cacheTTL) {
         this.manifestCache.delete(key);
-        cleaned++;
       }
-    }
-    if (cleaned > 0) {
-      logger.debug(`[HLS Proxy] Cleaned ${cleaned} old manifest cache entries`);
     }
   }
 }

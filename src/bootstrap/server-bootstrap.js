@@ -5,7 +5,11 @@ const logger = require('../lib/logger');
 const { connectMongo, mongoose } = require('../db/mongoose');
 const models = require('../models');
 
-const telegramBot = require('../../telegram-bot');
+// ======================
+// NOVA IMPORTAÇÃO DO BOT (estrutura modular)
+// ======================
+const botModule = require('../../bot');                    // ← ALTERADO AQUI
+
 const contentService = require('../services/content-cache.service');
 const PaymentService = require('../services/payment.service');
 const paymentAdapter = require('../adapters/payment.adapter');
@@ -34,16 +38,14 @@ async function startServer() {
     });
     paymentAdapter.initPaymentAdapter(paymentService);
 
-    // Inicializa Cookie Manager para monitorar Cloudflare
+    // Inicializa Cookie Manager
     const cookieManager = new CookieManagerService({
       targetUrl: env.VOUVER_BASE_URL || 'http://vouver.me',
-      checkInterval: 300000, // 5 minutos
+      checkInterval: 300000,
       requireCfClearance: true,
       logger
     });
 
-    // Warm-up inicial síncrono para popular cookies antes de carregar cache
-    // Não bloquear boot se cookies falharem - permitir fallback
     let cookiesReady = false;
     try {
       cookiesReady = await cookieManager.checkAndRefreshCookies();
@@ -52,38 +54,31 @@ async function startServer() {
         msg: 'Erro ao verificar cookies no boot, continuando com fallback',
         error: err.message
       });
-      cookiesReady = false;
     }
     
     cookieManager.startMonitoring();
 
-    // Carrega cache apenas com cookies válidos/completeos
     if (cookiesReady) {
       await contentService.atualizarCache(true);
     } else {
       logger.warn({
-        msg: 'Cookies incompletos no boot; cache inicial adiado até renovação completa',
+        msg: 'Cookies incompletos no boot; cache inicial adiado',
         hasSessionCookies: !!cookieManager.sessionCookies,
         hasCfClearance: !!cookieManager.cfClearance
       });
     }
 
-    // Resolve nomes alternativos de funções do service
-    const buscarDetalhesFn =
-      contentService.buscarDetalhes ||
-      contentService.getDetails ||
-      contentService.fetchDetails ||
-      null;
+    // Resolve funções do content service
+    const buscarDetalhesFn = contentService.buscarDetalhes || contentService.getDetails || contentService.fetchDetails || null;
+    const estimarDuracaoFn = contentService.estimarDuracao || contentService.estimateDuration || null;
 
-    const estimarDuracaoFn =
-      contentService.estimarDuracao ||
-      contentService.estimateDuration ||
-      null;
-
-    telegramBot.initBot(
+    // ======================
+    // INICIALIZAÇÃO DO BOT (nova estrutura)
+    // ======================
+    botModule.initBot(
       models,
       {
-        CACHE_CONTEUDO: contentService.CACHE_CONTEUDO, // referência viva
+        CACHE_CONTEUDO: contentService.CACHE_CONTEUDO,
         atualizarCache: contentService.atualizarCache,
         buscarDetalhes: buscarDetalhesFn,
         estimarDuracao: estimarDuracaoFn
@@ -94,22 +89,16 @@ async function startServer() {
     // ============================
     // LiveTV Buffer Provisioning
     // ============================
-    // Auto-provisionar perfis de buffer para todos os canais LiveTV
     (async () => {
       try {
         const catalogLiveTV = contentService.CACHE_CONTEUDO?.livetv || [];
         if (catalogLiveTV.length > 0) {
           logger.info({ msg: `Iniciando provisioning de ${catalogLiveTV.length} canais LiveTV` });
           await liveTvBufferProvisioner.provisionAllChannels(catalogLiveTV, models.LiveTvBufferProfile);
-          
-          // Iniciar warmup automático após provisioning
           await liveTvBufferProvisioner.startAutoWarmup(models.LiveTvBufferProfile);
         }
       } catch (err) {
-        logger.warn({
-          msg: 'Erro ao provisionar LiveTV buffer no boot',
-          error: err.message
-        });
+        logger.warn({ msg: 'Erro ao provisionar LiveTV buffer', error: err.message });
       }
     })();
 
@@ -128,7 +117,7 @@ async function startServer() {
     });
 
     // ============================
-    // ENCERRAMENTO GRACIOSO (Graceful Shutdown)
+    // ENCERRAMENTO GRACIOSO
     // ============================
     const gracefulShutdown = async (signal) => {
       logger.info({ msg: `Sinal ${signal} recebido. Encerrando servidor graciosamente...` });
@@ -136,13 +125,12 @@ async function startServer() {
         server.close(async () => {
           logger.info({ msg: 'Servidor HTTP fechado.' });
           
-          // Se o bot estiver rodando online via polling
-          if (telegramBot.bot && typeof telegramBot.bot.stopPolling === 'function') {
-            await telegramBot.bot.stopPolling();
+          // Encerramento do bot (nova referência)
+          if (botModule.bot && typeof botModule.bot.stopPolling === 'function') {
+            await botModule.bot.stopPolling();
             logger.info({ msg: 'Telegram Bot polling encerrado.' });
           }
 
-          // Desconexão do banco de dados
           if (mongoose.connection.readyState === 1) {
             await mongoose.disconnect();
             logger.info({ msg: 'Conexão com o MongoDB encerrada.' });
@@ -151,9 +139,8 @@ async function startServer() {
           process.exit(0);
         });
 
-        // Caso as conexões demorem muito a fechar
         setTimeout(() => {
-          logger.error({ msg: 'Encerramento forçado do processo após 10 segundos.' });
+          logger.error({ msg: 'Encerramento forçado após 10 segundos.' });
           process.exit(1);
         }, 10000);
       } catch (err) {
@@ -170,30 +157,14 @@ async function startServer() {
       gracefulShutdown('uncaughtException');
     });
 
-    process.on('unhandledRejection', (reason, promise) => {
-      logger.error({ msg: 'Unhandled Rejection não tratado!', promise, reason });
-      
-      // Não fazer graceful shutdown para erros não-críticos
-      const isCritical = reason && (
-        reason.message?.includes('ECONNREFUSED') ||
-        reason.message?.includes('EADDRINUSE') ||
-        reason.code === 'EADDRINUSE' ||
-        reason.code === 'ERR_'
-      );
-      
-      if (isCritical) {
-        gracefulShutdown('unhandledRejection-critical');
-      } else {
-        // Log apenas, continua rodando
-        logger.warn({ msg: 'Unhandled rejection não-crítico, continuando...', reason: reason?.message });
-      }
+    process.on('unhandledRejection', (reason) => {
+      logger.error({ msg: 'Unhandled Rejection não tratado!', reason: reason?.message });
+      const isCritical = reason && (reason.message?.includes('ECONNREFUSED') || reason.code === 'EADDRINUSE');
+      if (isCritical) gracefulShutdown('unhandledRejection-critical');
     });
 
   } catch (error) {
-    logger.error({
-      msg: 'Falha ao iniciar servidor',
-      err: error?.stack || error?.message || String(error)
-    });
+    logger.error({ msg: 'Falha ao iniciar servidor', err: error?.stack || error?.message });
     process.exit(1);
   }
 }

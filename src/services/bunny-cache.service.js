@@ -1,3 +1,4 @@
+// src/services/bunny-cache.service.js
 const axios = require('axios');
 const { spawn } = require('child_process');
 const fs = require('fs');
@@ -5,6 +6,8 @@ const fsp = require('fs/promises');
 const path = require('path');
 const os = require('os');
 const { HttpProxyAgent } = require('http-proxy-agent');
+const { Queue, Worker } = require('bullmq'); // 🚀 INJETADO: Motores do BullMQ
+const Redis = require('ioredis'); // 🚀 INJETADO: Driver de Conexão Redis
 const env = require('../config/env');
 const bunnyStorage = require('./bunny-storage.service');
 const hlsPipeline = require('./hls-pipeline.service');
@@ -44,12 +47,6 @@ function buildStoragePath(purchase) {
   return `movies/${titleSlug}-${videoId}.mp4`;
 }
 
-/**
- * Build HLS path based on purchase info
- * Supports both old format and Python script format:
- * - Old: content/series/season-1/episodio-slug-videoId/
- * - Python: series/titulo/season-1/s01e01-videoId/
- */
 function buildHLSPath(purchase) {
   const videoId = String(purchase.videoId || '').trim();
 
@@ -58,18 +55,13 @@ function buildHLSPath(purchase) {
     const seasonNum = String(purchase.season || '1').padStart(2, '0');
     const episodeNum = String(purchase.episodeIndex || 1).padStart(2, '0');
     
-    // Python script format: series/titulo-slug/season-1/s01e01-videoId
     return `series/${titleSlug}/season-${purchase.season || '1'}/s${seasonNum}e${episodeNum}-${videoId}`;
   }
 
-  // Movie format: movies/titulo-slug-videoId
   const titleSlug = slugify(purchase.title || 'titulo');
   return `movies/${titleSlug}-${videoId}`;
 }
 
-/**
- * Construct HLS manifest URL from path
- */
 function constructHLSManifestUrl(hlsPath) {
   const bunnyPullZoneUrl = process.env.BUNNY_PULL_ZONE_URL || '';
   return `https://${bunnyPullZoneUrl}/${hlsPath}/index.m3u8`;
@@ -139,7 +131,6 @@ async function downloadWithCurl(url, outputFile, logDebug) {
 
     child.stderr.on('data', (data) => {
       const percent = parseCurlPercent(data);
-      // Only log every 25%
       if (percent !== null && (percent === 0 || percent === 100 || percent % 25 === 0) && percent !== lastReportedPercent) {
         lastReportedPercent = percent;
         logDebug({ stage: 'curl-download-progress', percent });
@@ -155,7 +146,6 @@ async function downloadWithCurl(url, outputFile, logDebug) {
   });
 }
 
-// Valida se o arquivo é um vídeo válido checando magic bytes
 async function isValidVideoFile(filePath) {
   try {
     const fd = await fsp.open(filePath, 'r');
@@ -163,19 +153,19 @@ async function isValidVideoFile(filePath) {
     await fd.read(buffer, 0, 16, 0);
     await fd.close();
 
-    // MP4 magic bytes: 00 00 00 XX 66 74 79 70 (ftyp box)
+    // 1. MP4 (ftyp)
     if (buffer[4] === 0x66 && buffer[5] === 0x74 && buffer[6] === 0x79 && buffer[7] === 0x70) {
       return true;
     }
-    // MPEG-TS magic byte: 47
+    // 2. MPEG-TS (0x47)
     if (buffer[0] === 0x47) {
       return true;
     }
-    // Matroska (MKV) magic: 1A 45 DF A3
+    // 3. MKV / WebM (EBML)
     if (buffer[0] === 0x1a && buffer[1] === 0x45 && buffer[2] === 0xdf && buffer[3] === 0xa3) {
       return true;
     }
-    // FLV magic: 46 4C 56 01
+    // 🚀 CORRIGIDO: 4. FLV ('F', 'L', 'V' -> 0x46, 0x4c, 0x56)
     if (buffer[0] === 0x46 && buffer[1] === 0x4c && buffer[2] === 0x56) {
       return true;
     }
@@ -187,76 +177,153 @@ async function isValidVideoFile(filePath) {
 
 class BunnyCacheService {
   constructor() {
-    this.queue = [];
-    this.processing = false;
-    this.activeCount = 0;
+    // Inicialização da conexão compartilhada com o banco de chaves do Redis
+    this.redisConfig = process.env.REDIS_URL || 'redis://127.0.0.1:6379';
+    this.redisConnection = new Redis(this.redisConfig, { maxRetriesPerRequest: null });
+
+    // Instanciação da fila do BullMQ gerenciada via Redis
+    this.queue = new Queue('bunny-cache-stream', { connection: this.redisConnection });
+
     this.maxConcurrent = parseInt(env.BUNNY_CACHE_CONCURRENCY || '2', 10);
     this.maxRetries = parseInt(env.BUNNY_CACHE_RETRIES || '2', 10);
+
+    // Dispara a escuta do Worker consumidor em background
+    this._initWorker();
   }
 
-  enqueue(purchase, options = {}) {
+  /**
+   * Enfileira a tarefa de processamento persistindo metadados no Redis
+   * @param {Object} purchase - Documento do Mongoose de compra
+   * @param {Object} telegramMetadata - { chatId, statusMessageId, caption, mediaType, bulkStateId }
+   */
+  async enqueue(purchase, telegramMetadata = {}) {
     if (!purchase || !purchase.videoId) return;
-    const task = { purchaseId: purchase._id, purchase, options };
-    this.queue.push(task);
-    this.processNext();
+
+    // Envia a carga de execução estruturada para a fila atômica do Redis
+    await this.queue.add('process-cache-job', {
+      purchaseId: String(purchase._id),
+      telegramMetadata: {
+        chatId: telegramMetadata.chatId || null,
+        statusMessageId: telegramMetadata.statusMessageId || null,
+        caption: telegramMetadata.caption || null,
+        mediaType: telegramMetadata.mediaType || purchase.mediaType,
+        token: purchase.token || null,
+        bulkStateId: telegramMetadata.bulkStateId || null,
+        episodeName: purchase.episodeName || null
+      }
+    }, {
+      attempts: this.maxRetries + 1,
+      backoff: { type: 'exponential', delay: 5000 },
+      removeOnComplete: true,
+      removeOnFail: false
+    });
   }
 
-  async processNext() {
-    if (this.processing) return;
-    this.processing = true;
+  /**
+   * Inicializa o consumidor Worker isolado com concorrência paralela controlada
+   * @private
+   */
+  _initWorker() {
+    this.worker = new Worker('bunny-cache-stream', async (job) => {
+      const { purchaseId, telegramMetadata } = job.data;
 
-    while (this.activeCount < this.maxConcurrent && this.queue.length > 0) {
-      const task = this.queue.shift();
-      if (!task) break;
+      // Lazy load dos modelos do banco para evitar travamento de dependência circular
+      const db = require('../../bot/services/db.service');
+      const PurchasedContentModel = db.getPurchasedContentModel();
+      const purchase = await PurchasedContentModel.findById(purchaseId);
 
-      this.activeCount += 1;
-      this.processTask(task)
-        .catch((error) => {
-          logger.error({ msg: 'Bunny cache falhou', err: error.message });
-        })
-        .finally(() => {
-          this.activeCount -= 1;
-          setImmediate(() => this.processNext());
-        });
-    }
+      if (!purchase) {
+        throw new Error(`[BullMQ Worker] Registro de compra ${purchaseId} não localizado no MongoDB.`);
+      }
 
-    this.processing = false;
+      // Executa o faturamento de mídia reaproveitando a engine central estável
+      await this._executeTaskProcessing(job, purchase, telegramMetadata);
+
+    }, {
+      connection: this.redisConnection,
+      concurrency: this.maxConcurrent
+    });
+
+    this.worker.on('failed', (job, err) => {
+      logger.error(`[BullMQ Worker Error] Job ${job?.id} falhou definitivamente: ${err.message}`);
+    });
   }
 
-  async processTask({ purchase, options }) {
-    const { onProgress, onReady, onError } = options;
+  /**
+   * Processador lógico centralizado do faturamento de mídias (Engine Refatorada)
+   * @private
+   */
+  async _executeTaskProcessing(job, purchase, telegramMetadata) {
     const debug = String(env.BUNNY_CACHE_DEBUG || 'false').toLowerCase() === 'true';
     const logDebug = (payload) => {
       if (!debug) return;
       logger.info({ msg: 'bunny-cache-debug', ...payload });
     };
 
-    if (!bunnyStorage.isConfigured()) {
-      if (typeof onError === 'function') {
-        onError(new Error('Bunny Storage não configurado'));
+    const emitProgress = async (percent) => {
+      await job.updateProgress(percent);
+      if (telegramMetadata.chatId && telegramMetadata.statusMessageId && !telegramMetadata.bulkStateId) {
+        const bot = require('../../bot/instance');
+        await bot.editMessageText(`⏳ *Processando cache:* ${percent}%`, {
+          chat_id: telegramMetadata.chatId,
+          message_id: telegramMetadata.statusMessageId,
+          parse_mode: 'Markdown'
+        }).catch(() => {});
       }
-      return;
+    };
+
+    const emitReady = async (manifestUrl) => {
+      const bot = require('../../bot/instance');
+      
+      // Fluxo 1: Se for liberação em massa (Bulk Season), incrementa o contador atômico no Redis
+      if (telegramMetadata.bulkStateId && telegramMetadata.statusMessageId && telegramMetadata.chatId) {
+        const currentReady = await this.redisConnection.incr(`bulk:${telegramMetadata.bulkStateId}:ready`);
+        const totalEpisodes = await this.redisConnection.get(`bulk:${telegramMetadata.bulkStateId}:total`) || 1;
+        
+        if (Number(currentReady) >= Number(totalEpisodes)) {
+          await bot.editMessageText(`✅ *Temporada 100% Liberada!*\n\nTodos os episódios estão salvos em "Meu Conteúdo".`, {
+            chat_id: telegramMetadata.chatId,
+            message_id: telegramMetadata.statusMessageId,
+            parse_mode: 'Markdown'
+          }).catch(() => {});
+          await this.redisConnection.del(`bulk:${telegramMetadata.bulkStateId}:ready`);
+          await this.redisConnection.del(`bulk:${telegramMetadata.bulkStateId}:total`);
+        } else {
+          await bot.editMessageText(`⏳ *Liberando Temporada...*\n\nProgresso: ${currentReady}/${totalEpisodes} concluídos.\n\n🆕 Último pronto: ${telegramMetadata.episodeName || 'Episódio'}`, {
+            chat_id: telegramMetadata.chatId,
+            message_id: telegramMetadata.statusMessageId,
+            parse_mode: 'Markdown'
+          }).catch(() => {});
+        }
+        return;
+      }
+
+      // Fluxo 2: Notificação padrão individual de Filme ou Episódio Avulso
+      if (telegramMetadata.chatId) {
+        if (telegramMetadata.statusMessageId) {
+          await bot.deleteMessage(telegramMetadata.chatId, telegramMetadata.statusMessageId).catch(() => {});
+        }
+        const playerUrl = `${process.env.DOMINIO_PUBLICO}/player/${telegramMetadata.token}`;
+        await bot.sendMessage(telegramMetadata.chatId, `✅ *Liberado! Clique no player para assistir:*\n\n${telegramMetadata.caption || ''}`, {
+          parse_mode: 'Markdown',
+          reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 Meu Conteúdo', callback_data: 'my_content' }]] }
+        });
+      }
+    };
+
+    if (!bunnyStorage.isConfigured()) {
+      throw new Error('Bunny Storage não configurado no ecossistema.');
     }
 
     const storagePath = purchase.storagePath || buildStoragePath(purchase);
-
     logDebug({ stage: 'start', purchaseId: String(purchase._id), mediaType: purchase.mediaType, videoId: purchase.videoId, storagePath });
     
-    // Log clean message to console for visibility
     logger.info(`[Bunny Cache] Processing ${purchase.mediaType} - ${purchase.title || purchase.videoId}`);
 
     await purchase.updateOne({
-      $set: {
-        storagePath,
-        cacheStatus: 'pending',
-        cacheProgress: 0,
-        cacheUpdatedAt: new Date()
-      }
+      $set: { storagePath, cacheStatus: 'pending', cacheProgress: 0, cacheUpdatedAt: new Date() }
     });
 
-    // ============================================================
-    // VERIFICAR SE JÁ EXISTE HLS PARA ESTE CONTEÚDO
-    // ============================================================
     const hlsPath = buildHLSPath(purchase);
     const hlsManifestPath = `${hlsPath}/index.m3u8`;
 
@@ -267,482 +334,184 @@ class BunnyCacheService {
         const hlsManifestUrl = constructHLSManifestUrl(hlsPath);
 
         await purchase.updateOne({
-          $set: {
-            cacheStatus: 'ready',
-            cacheProgress: 100,
-            cacheReadyAt: new Date(),
-            cacheUpdatedAt: new Date(),
-            hlsManifestUrl
-          }
+          $set: { cacheStatus: 'ready', cacheProgress: 100, cacheReadyAt: new Date(), cacheUpdatedAt: new Date(), hlsManifestUrl }
         });
 
-        if (typeof onReady === 'function') onReady({ storagePath, manifestUrl: hlsManifestUrl });
+        await emitReady(hlsManifestUrl);
         logger.info(`[Bunny Cache] HLS já existe: ${hlsManifestUrl}`);
         return;
       }
     } catch (err) {
       logDebug({ stage: 'hls-check-error', error: err.message });
-      // Continue se falhar a verificação
     }
 
-    let attempt = 0;
     let tempFile;
     let stallTimer;
     let localSize = 0;
 
-    while (attempt <= this.maxRetries) {
-      attempt += 1;
-      try {
-        const exists = await bunnyStorage.exists(storagePath);
-        logDebug({ stage: 'exists-check', storagePath, exists });
+    const exists = await bunnyStorage.exists(storagePath);
+    logDebug({ stage: 'exists-check', storagePath, exists });
 
-        if (exists) {
-          const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
-          if (remoteSize && remoteSize < 1024 * 100) {
-            logDebug({ stage: 'exists-but-small', storagePath, remoteSize, willRetry: true });
-            // continua para re-download
-          } else {
-            // ============================================================
-            // MP4 JÁ EXISTE - Verificar se precisa transcode
-            // ============================================================
-            const enableHLSTranscode = String(process.env.ENABLE_HLS_TRANSCODE || 'true').toLowerCase() === 'true';
-            let manifestUrl = null;
-
-            // Se HLS transcode habilitado E ainda não foi feito, fazer agora
-            if (enableHLSTranscode && !purchase.hlsManifestUrl) {
-              try {
-                logDebug({ stage: 'transcode-existing-mp4-start', videoId: purchase.videoId });
-
-                await purchase.updateOne({
-                  $set: {
-                    cacheStatus: 'transcoding',
-                    cacheProgress: 99,
-                    cacheUpdatedAt: new Date()
-                  }
-                });
-
-                if (typeof onProgress === 'function') {
-                  onProgress({ percent: 99, stage: 'transcoding' });
-                }
-
-                // Download MP4 temporarily to transcode
-                const tempTranscodeFile = path.join(env.BUNNY_TEMP_DIR || os.tmpdir(), `transcode-${purchase.videoId}-${Date.now()}.mp4`);
-                
-                const mp4Stream = await axios.get(storagePath, {
-                  responseType: 'stream',
-                  timeout: 0,
-                  headers: { 'AccessKey': bunnyStorage.bunnyStorageKey }
-                });
-
-                await new Promise((resolve, reject) => {
-                  const writeStream = fs.createWriteStream(tempTranscodeFile);
-                  mp4Stream.data.pipe(writeStream);
-                  writeStream.on('finish', resolve);
-                  writeStream.on('error', reject);
-                });
-
-                // Extract MP4 filename (without .mp4) for movie folder naming
-                let mp4FileName = null;
-                if (purchase.mediaType === 'movie' && storagePath.includes('/')) {
-                  const filename = storagePath.split('/').pop();
-                  mp4FileName = filename.replace(/\.mp4$/i, '');
-                }
-
-                const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempTranscodeFile, mp4FileName);
-                
-                if (transcodeResult.success) {
-                  manifestUrl = transcodeResult.manifestUrl;
-                  logDebug({
-                    stage: 'transcode-existing-mp4-complete',
-                    videoId: purchase.videoId,
-                    manifestUrl
-                  });
-                }
-
-                // Cleanup temp transcode file
-                try {
-                  await fsp.unlink(tempTranscodeFile).catch(() => {});
-                } catch (e) {}
-              } catch (transcodeError) {
-                logDebug({ stage: 'transcode-existing-mp4-error', error: transcodeError.message });
-                logger.warn(`[Bunny Cache] HLS transcode of existing MP4 failed: ${transcodeError.message}`);
-              }
-            }
-
-            const readyAt = new Date();
-            await purchase.updateOne({
-              $set: {
-                cacheStatus: 'ready',
-                cacheProgress: 100,
-                cacheReadyAt: readyAt,
-                cacheUpdatedAt: readyAt,
-                storagePath,
-                hlsManifestUrl: manifestUrl  // Store if transcode was done
-              }
-            });
-            if (typeof onReady === 'function') onReady({ storagePath, manifestUrl });
-            return;
-          }
-        }
-
-        const finalUrl = await resolveFinalUrl(purchase.mediaType, purchase.videoId);
-        logDebug({ stage: 'resolve-final-url', finalUrl });
-
-        await purchase.updateOne({
-          $set: {
-            cacheStatus: 'uploading',
-            cacheProgress: 0,
-            cacheUpdatedAt: new Date()
-          }
-        });
-
-        logDebug({ stage: 'download-start', url: finalUrl });
-
-        const useCurlDownload = String(env.BUNNY_DOWNLOAD_USE_CURL || 'false').toLowerCase() === 'true';
-
-        const downloadResponse = await axios.get(finalUrl, {
-          httpAgent: residentialProxyAgent || undefined,
-          httpsAgent: residentialProxyAgent || undefined,
-          headers: getRelayRequestHeaders(),
-          responseType: 'stream',
-          timeout: 0,
-          maxRedirects: 3,
-          validateStatus: (status) => status >= 200 && status < 400
-        });
-
-        logDebug({
-          stage: 'download-headers',
-          status: downloadResponse.status,
-          contentLength: downloadResponse.headers['content-length'] || null,
-          contentType: downloadResponse.headers['content-type'] || null
-        });
-
-        const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
-
-        // ============================================================
-        // STALL TIMER — detecta stream travada
-        // ============================================================
-        let lastProgressAt = Date.now();
-        const stallTimeoutMs = parseInt(env.BUNNY_CACHE_STALL_MS || '90000', 10);
-
-        stallTimer = setInterval(() => {
-          if (Date.now() - lastProgressAt > stallTimeoutMs) {
-            logDebug({ stage: 'stall-detected', attempt, stallTimeoutMs });
-            downloadResponse.data?.destroy?.(new Error('Download stalled'));
-          }
-        }, 10000);
-
-        // ============================================================
-        // PREPARAR ARQUIVO TEMPORÁRIO
-        // ============================================================
-        tempFile = buildTempFilePath(purchase);
-        await ensureDir(path.dirname(tempFile));
-
-        logDebug({ stage: 'temp-download-start', tempFile, method: useCurlDownload ? 'curl' : 'stream' });
-
-        if (useCurlDownload) {
-          // ---- Download via curl ----
-          await downloadWithCurl(finalUrl, tempFile, logDebug);
-        } else {
-          // ---- Download via stream axios ----
-          // IMPORTANTE: todos os listeners ANTES do .pipe()
-          // O stream Node começa a fluir assim que há listeners 'data',
-          // então adicionar depois do pipe pode perder chunks → trava em 99%
-          const fileWriteStream = fs.createWriteStream(tempFile);
-          let downloadedBytes = 0;
-          let lastDownloadPercent = 0;
-
-          await new Promise((resolve, reject) => {
-            // 1. Listener de erro do source stream
-            downloadResponse.data.on('error', (err) => {
-              logDebug({ stage: 'download-stream-error', attempt, error: err.message });
-              reject(err);
-            });
-
-            // 2. Listener de progresso — atualiza lastProgressAt para o stall timer
-            downloadResponse.data.on('data', (chunk) => {
-              lastProgressAt = Date.now();
-              downloadedBytes += chunk.length;
-
-              if (contentLength && typeof onProgress === 'function') {
-                // Capeado em 95% durante download; os 5% finais ficam para o upload
-                const percent = Math.min(Math.round((downloadedBytes / contentLength) * 100), 95);
-                // Only report progress every 5%
-                if (percent >= lastDownloadPercent + 5) {
-                  lastDownloadPercent = percent;
-                  onProgress({
-                    percent,
-                    downloadedBytes,
-                    totalBytes: contentLength,
-                    stage: 'downloading'
-                  });
-                  // Only log significant milestones to avoid spam
-                  if (percent === 0 || percent === 95 || percent % 25 === 0) {
-                    logDebug({ stage: 'download-progress', percent, downloadedBytes, contentLength });
-                  }
-                }
-              }
-            });
-
-            // 3. Listeners do arquivo de destino
-            fileWriteStream.on('error', reject);
-            fileWriteStream.on('finish', resolve);
-
-            // 4. pipe por último — só depois de todos os listeners registrados
-            downloadResponse.data.pipe(fileWriteStream);
-          });
-        }
-
-        // Para o stall timer após download completo
-        if (stallTimer) {
-          clearInterval(stallTimer);
-          stallTimer = null;
-        }
-
-        logDebug({ stage: 'temp-download-complete', tempFile });
-
-        // Log human-friendly summary
-        const sizeGB = (localSize / 1024 / 1024 / 1024).toFixed(2);
-        logger.info(`[Bunny Cache] ✅ Downloaded: ${sizeGB}GB in ${Math.round((Date.now() - lastProgressAt) / 1000)}s`);
-
-        // ============================================================
-        // VERIFICAR TAMANHO LOCAL
-        // ============================================================
-        try {
-          const st = await fsp.stat(tempFile);
-          localSize = Number(st.size || 0);
-        } catch (e) {
-          localSize = 0;
-        }
-
-        // Se download menor que esperado, tenta novamente com curl
-        let curlRetries = 0;
-        const maxCurlRetries = 3;
-        while (
-          contentLength &&
-          localSize &&
-          localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95)) &&
-          curlRetries < maxCurlRetries
-        ) {
-          curlRetries += 1;
-          logDebug({ stage: 'download-size-small-curl-retry', expected: contentLength, actual: localSize, attempt: curlRetries });
-          try {
-            await fsp.unlink(tempFile).catch(() => {});
-            await downloadWithCurl(finalUrl, tempFile, logDebug);
-            try {
-              const st2 = await fsp.stat(tempFile);
-              localSize = Number(st2.size || 0);
-              logDebug({ stage: 'download-size-after-curl', newSize: localSize, attempt: curlRetries });
-            } catch (e) {
-              localSize = 0;
-            }
-          } catch (curlErr) {
-            logDebug({ stage: 'curl-retry-failed', error: curlErr.message, attempt: curlRetries });
-            if (curlRetries < maxCurlRetries) {
-              await new Promise((resolve) => setTimeout(resolve, 2000 * curlRetries));
-            }
-          }
-        }
-
-        if (localSize && localSize < 1024 * 100) {
-          throw new Error(`download_incomplete_after_retries size=${localSize}`);
-        }
-
-        if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
-          throw new Error(`download_incomplete_after_retries expected=${contentLength} actual=${localSize}`);
-        }
-
-        // Validar formato do vídeo via magic bytes
-        const isValid = await isValidVideoFile(tempFile);
-        if (!isValid) {
-          logDebug({ stage: 'invalid-video-format', tempFile, size: localSize });
-          throw new Error('download_invalid_video_format');
-        }
-
-        // ============================================================
-        // TRANSCODE MP4 TO HLS (Optional)
-        // ============================================================
+    if (exists) {
+      const remoteSize = await bunnyStorage.getContentLength(storagePath).catch(() => null);
+      if (!(remoteSize && remoteSize < 1024 * 100)) {
         const enableHLSTranscode = String(process.env.ENABLE_HLS_TRANSCODE || 'true').toLowerCase() === 'true';
         let manifestUrl = null;
 
-        if (enableHLSTranscode) {
+        if (enableHLSTranscode && !purchase.hlsManifestUrl) {
           try {
-            await purchase.updateOne({
-              $set: {
-                cacheStatus: 'transcoding',
-                cacheProgress: 97,
-                cacheUpdatedAt: new Date()
-              }
+            logDebug({ stage: 'transcode-existing-mp4-start', videoId: purchase.videoId });
+            await purchase.updateOne({ $set: { cacheStatus: 'transcoding', cacheProgress: 99, cacheUpdatedAt: new Date() } });
+            await emitProgress(99);
+
+            const tempTranscodeFile = path.join(env.BUNNY_TEMP_DIR || os.tmpdir(), `transcode-${purchase.videoId}-${Date.now()}.mp4`);
+            const mp4Stream = await axios.get(storagePath, {
+              responseType: 'stream',
+              timeout: 0,
+              headers: { 'AccessKey': bunnyStorage.bunnyStorageKey }
             });
 
-            if (typeof onProgress === 'function') {
-              onProgress({ percent: 97, stage: 'transcoding' });
-            }
+            await new Promise((resolve, reject) => {
+              const writeStream = fs.createWriteStream(tempTranscodeFile);
+              mp4Stream.data.pipe(writeStream);
+              writeStream.on('finish', resolve);
+              writeStream.on('error', reject);
+            });
 
-            // Extract MP4 filename (without .mp4) for movie folder naming
-            // storagePath is like: movies/a-abelha-maya-o-filme-2014-60003.mp4
-            // mp4FileName should be: a-abelha-maya-o-filme-2014-60003
             let mp4FileName = null;
             if (purchase.mediaType === 'movie' && storagePath.includes('/')) {
-              const filename = storagePath.split('/').pop(); // Get last part
-              mp4FileName = filename.replace(/\.mp4$/i, ''); // Remove .mp4 extension
+              const filename = storagePath.split('/').pop();
+              mp4FileName = filename.replace(/\.mp4$/i, '');
             }
 
-            logDebug({ stage: 'transcode-start', videoId: purchase.videoId, tempFile, mp4FileName });
-
-            const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempFile, mp4FileName);
-            
+            const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempTranscodeFile, mp4FileName);
             if (transcodeResult.success) {
               manifestUrl = transcodeResult.manifestUrl;
-              logDebug({
-                stage: 'transcode-complete',
-                videoId: purchase.videoId,
-                manifestUrl,
-                segmentCount: transcodeResult.segmentCount
-              });
-              logger.info(`[Bunny Cache] ✅ Remuxed: ${transcodeResult.segmentCount} segments in ${Math.round(transcodeResult.elapsedMs / 1000)}s`);
             }
+
+            await fsp.unlink(tempTranscodeFile).catch(() => {});
           } catch (transcodeError) {
-            logDebug({ stage: 'transcode-error', videoId: purchase.videoId, error: transcodeError.message });
-            logger.warn(`[Bunny Cache] HLS transcode failed for ${purchase.videoId}: ${transcodeError.message}`);
-            // Continue anyway - just skip HLS
-          } finally {
-            // Clean up MP4 temp file after transcode (whether success or fail)
-            // NOTE: We do NOT upload the MP4 to Bunny when HLS is enabled
-            try {
-              if (typeof tempFile !== 'undefined' && tempFile) {
-                await fsp.unlink(tempFile).catch(() => {});
-                logDebug({ stage: 'temp-mp4-deleted', tempFile });
-                tempFile = undefined;
-              }
-            } catch (cleanupErr) {
-              logDebug({ stage: 'temp-mp4-delete-error', error: cleanupErr.message });
-            }
+            logger.warn(`[Bunny Cache] HLS transcode of existing MP4 failed: ${transcodeError.message}`);
           }
-        } else {
-          // If transcode disabled, upload the MP4 to Bunny
-          logDebug({ stage: 'uploading-mp4', storagePath });
-
-          if (typeof onProgress === 'function') {
-            onProgress({ percent: 96, stage: 'uploading' });
-          }
-
-          await purchase.updateOne({
-            $set: {
-              cacheStatus: 'uploading',
-              cacheProgress: 96,
-              cacheUpdatedAt: new Date()
-            }
-          });
-
-          let lastUploadPercent = 0;
-
-          await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
-            const rawPercent = Math.max(0, Math.min(100, Math.round(progress.percent || 0)));
-            const mappedPercent = 96 + Math.round(rawPercent * 3 / 100); // 96..99
-
-            if (mappedPercent >= lastUploadPercent + 1) {
-              lastUploadPercent = mappedPercent;
-
-              await purchase.updateOne({
-                $set: {
-                  cacheProgress: mappedPercent,
-                  cacheUpdatedAt: new Date(),
-                  cacheStatus: 'uploading'
-                }
-              });
-
-              if (typeof onProgress === 'function') {
-                onProgress({
-                  percent: mappedPercent,
-                  uploadedBytes: progress.uploadedBytes,
-                  totalBytes: progress.totalBytes,
-                  stage: 'uploading'
-                });
-              }
-
-              logDebug({ stage: 'upload-progress', rawPercent, mappedPercent });
-            }
-          });
-
-          // Clean up temp file
-          try {
-            if (typeof tempFile !== 'undefined' && tempFile) {
-              await fsp.unlink(tempFile).catch(() => {});
-              tempFile = undefined;
-            }
-          } catch (_) {}
         }
 
-        // ============================================================
-        // MARCAR COMO PRONTO — 100%
-        // ============================================================
         const readyAt = new Date();
         await purchase.updateOne({
-          $set: {
-            cacheStatus: 'ready',
-            cacheProgress: 100,
-            cacheReadyAt: readyAt,
-            cacheUpdatedAt: readyAt,
-            storagePath,
-            hlsManifestUrl: manifestUrl  // Store HLS manifest URL if available
-          }
+          $set: { cacheStatus: 'ready', cacheProgress: 100, cacheReadyAt: readyAt, cacheUpdatedAt: readyAt, storagePath, hlsManifestUrl: manifestUrl }
         });
-
-        if (typeof onProgress === 'function') {
-          onProgress({ percent: 100, stage: 'ready' });
-        }
-
-        if (typeof onReady === 'function') onReady({ storagePath, manifestUrl });
-        logDebug({ stage: 'ready', storagePath, manifestUrl });
-        logger.info(`[Bunny Cache] 🎬 Ready: ${purchase.mediaType} ${purchase.episodeName || purchase.title}`);
+        await emitReady(manifestUrl);
         return;
-
-      } catch (error) {
-        logDebug({ stage: 'error', attempt, error: error.message });
-
-        if (stallTimer) {
-          clearInterval(stallTimer);
-          stallTimer = null;
-        }
-
-        // Limpar arquivo temporário se existir
-        try {
-          if (typeof tempFile !== 'undefined' && tempFile) {
-            await fsp.unlink(tempFile).catch(() => {});
-            tempFile = undefined;
-          }
-        } catch (_) {}
-
-        await purchase.updateOne({
-          $set: {
-            cacheStatus: attempt > this.maxRetries ? 'failed' : 'uploading',
-            cacheError: error.message,
-            cacheUpdatedAt: new Date()
-          }
-        });
-
-        if (attempt > this.maxRetries) {
-          if (typeof onError === 'function') onError(error);
-
-          // Notificar usuário via Telegram
-          try {
-            const telegramBot = require('../../telegram-bot');
-            if (telegramBot && typeof telegramBot.notificarFalhaCacheAoUsuario === 'function') {
-              telegramBot.notificarFalhaCacheAoUsuario(purchase.userId, purchase).catch(() => {});
-            }
-          } catch (e) {
-            logDebug({ stage: 'telegram-notify-error', error: e.message });
-          }
-
-          return;
-        }
-
-        const backoffMs = attempt * 5000;
-        logDebug({ stage: 'retrying', attempt, backoffMs });
-        await new Promise((resolve) => setTimeout(resolve, backoffMs));
       }
     }
+
+    const finalUrl = await resolveFinalUrl(purchase.mediaType, purchase.videoId);
+    logDebug({ stage: 'resolve-final-url', finalUrl });
+
+    await purchase.updateOne({ $set: { cacheStatus: 'uploading', cacheProgress: 0, cacheUpdatedAt: new Date() } });
+    logDebug({ stage: 'download-start', url: finalUrl });
+
+    const useCurlDownload = String(env.BUNNY_DOWNLOAD_USE_CURL || 'false').toLowerCase() === 'true';
+    const downloadResponse = await axios.get(finalUrl, {
+      httpAgent: residentialProxyAgent || undefined,
+      httpsAgent: residentialProxyAgent || undefined,
+      headers: getRelayRequestHeaders(),
+      responseType: 'stream',
+      timeout: 0,
+      maxRedirects: 3,
+      validateStatus: (status) => status >= 200 && status < 400
+    });
+
+    const contentLength = Number(downloadResponse.headers['content-length']) || undefined;
+    let lastProgressAt = Date.now();
+    const stallTimeoutMs = parseInt(env.BUNNY_CACHE_STALL_MS || '90000', 10);
+
+    stallTimer = setInterval(() => {
+      if (Date.now() - lastProgressAt > stallTimeoutMs) {
+        downloadResponse.data?.destroy?.(new Error('Download stalled'));
+      }
+    }, 10000);
+
+    tempFile = buildTempFilePath(purchase);
+    await ensureDir(path.dirname(tempFile));
+
+    if (useCurlDownload) {
+      await downloadWithCurl(finalUrl, tempFile, logDebug);
+    } else {
+      const fileWriteStream = fs.createWriteStream(tempFile);
+      let downloadedBytes = 0;
+      let lastDownloadPercent = 0;
+
+      await new Promise((resolve, reject) => {
+        downloadResponse.data.on('error', reject);
+        downloadResponse.data.on('data', (chunk) => {
+          lastProgressAt = Date.now();
+          downloadedBytes += chunk.length;
+
+          if (contentLength) {
+            const percent = Math.min(Math.round((downloadedBytes / contentLength) * 100), 95);
+            if (percent >= lastDownloadPercent + 5) {
+              lastDownloadPercent = percent;
+              emitProgress(percent).catch(() => {});
+            }
+          }
+        });
+
+        fileWriteStream.on('error', reject);
+        fileWriteStream.on('finish', resolve);
+        downloadResponse.data.pipe(fileWriteStream);
+      });
+    }
+
+    if (stallTimer) { clearInterval(stallTimer); stallTimer = null; }
+
+    try {
+      const st = await fsp.stat(tempFile);
+      localSize = Number(st.size || 0);
+    } catch (e) { localSize = 0; }
+
+    if (contentLength && localSize && localSize < Math.max(1024 * 100, Math.round(contentLength * 0.95))) {
+      throw new Error(`download_incomplete_after_retries expected=${contentLength} actual=${localSize}`);
+    }
+
+    const isValid = await isValidVideoFile(tempFile);
+    if (!isValid) throw new Error('download_invalid_video_format');
+
+    const enableHLSTranscode = String(process.env.ENABLE_HLS_TRANSCODE || 'true').toLowerCase() === 'true';
+    let manifestUrl = null;
+
+    if (enableHLSTranscode) {
+      await purchase.updateOne({ $set: { cacheStatus: 'transcoding', cacheProgress: 97, cacheUpdatedAt: new Date() } });
+      await emitProgress(97);
+
+      let mp4FileName = null;
+      if (purchase.mediaType === 'movie' && storagePath.includes('/')) {
+        const filename = storagePath.split('/').pop();
+        mp4FileName = filename.replace(/\.mp4$/i, '');
+      }
+
+      const transcodeResult = await hlsPipeline.processVODToHLS(purchase, tempFile, mp4FileName);
+      if (transcodeResult.success) {
+        manifestUrl = transcodeResult.manifestUrl;
+      }
+      await fsp.unlink(tempFile).catch(() => {});
+    } else {
+      await purchase.updateOne({ $set: { cacheStatus: 'uploading', cacheProgress: 96, cacheUpdatedAt: new Date() } });
+      await bunnyStorage.uploadFileFromPath(tempFile, storagePath, async (progress) => {
+        const rawPercent = Math.max(0, Math.min(100, Math.round(progress.percent || 0)));
+        const mappedPercent = 96 + Math.round(rawPercent * 3 / 100);
+        await emitProgress(mappedPercent);
+      });
+      await fsp.unlink(tempFile).catch(() => {});
+    }
+
+    const readyAt = new Date();
+    await purchase.updateOne({
+      $set: { cacheStatus: 'ready', cacheProgress: 100, cacheReadyAt: readyAt, cacheUpdatedAt: readyAt, storagePath, hlsManifestUrl: manifestUrl }
+    });
+
+    await emitProgress(100);
+    await emitReady(manifestUrl);
+    logger.info(`[Bunny Cache] 🎬 Ready: ${purchase.mediaType} ${purchase.episodeName || purchase.title}`);
   }
 }
 

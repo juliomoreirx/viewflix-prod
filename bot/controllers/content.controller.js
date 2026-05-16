@@ -1,0 +1,606 @@
+// bot/controllers/content.controller.js
+const fs = require('fs');
+const bot = require('../instance');
+const config = require('../config');
+const state = require('../state');
+const db = require('../services/db.service');
+const contentService = require('../services/content.service');
+const paymentService = require('../services/payment.service');
+const userService = require('../services/user.service');
+const { formatMoney, formatTimeRemaining, normalizeTitle, paginateList, buildPaginationRow } = require('../utils/formatters');
+const { calcularPrecoFinal } = require('../utils/pricing');
+const { toTelegramUrl, toAbsoluteUrl } = require('../utils/urls');
+const { decodificarHTML, escaparMarkdownSeguro, sanitizarTexto } = require('../../src/services/text-utils.service');
+
+// Integração de infraestrutura resiliente
+const bunnyCacheService = require('../../src/services/bunny-cache.service');
+const logger = require('../../src/lib/logger');
+
+class ContentController {
+
+  // ==========================================
+  // 1. EXIBIÇÃO DE DETALHES (FILME / SÉRIE)
+  // ==========================================
+  async handleDetails(query) {
+    const chatId = query.message.chat.id;
+    const msgId = query.message.message_id;
+    const [, id, type] = query.data.split('_');
+
+    bot.answerCallbackQuery(query.id, { text: '🔄 Carregando...' });
+    
+    const loadingMsg = await bot.sendMessage(chatId, '🔍 *Carregando detalhes...*\n\nAguarde um segundinho enquanto busco as informações...', { parse_mode: 'Markdown' });
+    bot.deleteMessage(chatId, msgId).catch(() => {});
+
+    const buscarDetalhes = contentService.vouverService.buscarDetalhes;
+    if (!buscarDetalhes) {
+      bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
+      return bot.sendMessage(chatId, '❌ Serviço de detalhes indisponível no momento.');
+    }
+
+    const detalhes = await buscarDetalhes(id, type);
+    if (!detalhes) {
+      bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
+      return bot.sendMessage(chatId, '❌ Erro ao carregar detalhes do conteúdo.');
+    }
+
+    bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
+    state.setUserState(chatId, { step: 'details', data: detalhes, id, type });
+
+    const saldoAtual = await paymentService.getUserCredits(chatId);
+    const tituloSeguro = escaparMarkdownSeguro(detalhes.title);
+
+    let mensagem = `🎬 *${tituloSeguro}*\n\n`;
+    if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
+    if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
+    if (detalhes.info?.imdb) appendMessage += `⭐ IMDB: ${detalhes.info.imdb}\n`;
+    if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
+
+    const keyboard = [];
+
+    if (detalhes.mediaType === 'movie') {
+      let minutos = parseInt(detalhes.info?.duracaoMinutos || detalhes.info?.duracao || 0, 10);
+      if (!Number.isFinite(minutos) || minutos <= 0) {
+        minutos = await contentService.vouverService.estimarDuracao('movie', id);
+      }
+
+      const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos });
+      mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
+
+      if (saldoAtual < pricing.precoFinal) {
+        keyboard.push([{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]);
+      } else {
+        keyboard.push([{ text: `▶️ Assistir - ${formatMoney(pricing.precoFinal)}`, callback_data: `watch_movie_${id}_${pricing.precoFinal}_${pricing.duracaoMinutos}` }]);
+      }
+    } else {
+      mensagem += `📺 *Temporadas disponíveis:*\n\n⏰ Válido por: 7 dias\n💳 Seu saldo: ${formatMoney(saldoAtual)}\n\n`;
+      Object.keys(detalhes.seasons || {}).forEach((seasonKey) => {
+        const eps = detalhes.seasons[seasonKey] || [];
+        keyboard.push([{ text: `Temporada ${seasonKey} (${eps.length} ep)`, callback_data: `season_${id}_${String(seasonKey)}` }]);
+      });
+    }
+
+    keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+
+    // Sistema de renderização de capas obscurecidas
+    let fotoEnviada = false;
+    try {
+      if (config.dynamic.DOMINIO_PUBLICO && detalhes.coverUrl) {
+        const urlAbsoluta = detalhes.coverUrl.startsWith('http')
+          ? detalhes.coverUrl
+          : `${String(config.dynamic.DOMINIO_PUBLICO).replace(/\/$/, '')}${detalhes.coverUrl}`;
+
+        await bot.sendPhoto(chatId, urlAbsoluta, { 
+          caption: detalhes.title ? `🎬 Detalhes: ${detalhes.title}` : 'Detalhes' 
+        });
+        fotoEnviada = true;
+      }
+    } catch (urlErr) {
+      console.warn('⚠️ Falha ao carregar capa via URL pública obscurecida, acionando fallback:', urlErr.message);
+    }
+
+    if (!fotoEnviada && detalhes.coverPath && fs.existsSync(detalhes.coverPath)) {
+      await bot.sendPhoto(chatId, fs.createReadStream(detalhes.coverPath), { 
+        caption: detalhes.title ? `🎬 Detalhes: ${detalhes.title}` : 'Detalhes' 
+      }).then(() => { fotoEnviada = true; }).catch((err) => console.error('❌ Erro no fallback de Stream local:', err.message));
+    }
+
+    if (!fotoEnviada) {
+      const fallbackWebUrl = toTelegramUrl(toAbsoluteUrl(detalhes.coverUrl || detalhes.capa_url || detalhes.capa || ''));
+      if (fallbackWebUrl) {
+        await bot.sendPhoto(chatId, fallbackWebUrl, { 
+          caption: detalhes.title ? `🎬 Detalhes: ${detalhes.title}` : 'Detalhes' 
+        }).catch(() => {});
+      }
+    }
+
+    await bot.sendMessage(chatId, mensagem, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboard } });
+  }
+
+  // ==========================================
+  // 2. COMPRA E EXECUÇÃO DE FILME
+  // ==========================================
+  async handleWatchMovie(query) {
+    const chatId = query.message.chat.id;
+    const parts = query.data.split('_');
+    const id = parts[2];
+    const precoNum = parseInt(parts[3], 10);
+    const minutosReais = parts[4] ? parseInt(parts[4], 10) : 110;
+    const currentState = state.getUserState(chatId);
+
+    bot.answerCallbackQuery(query.id);
+
+    const saldoAtual = await paymentService.getUserCredits(chatId);
+    if (saldoAtual < precoNum) {
+      return bot.sendMessage(chatId, `❌ *Saldo Insuficiente*\n\nVocê possui: ${formatMoney(saldoAtual)}\nNecessário: ${formatMoney(precoNum)}`, {
+        parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]] }
+      });
+    }
+
+    const deducaoSucesso = await paymentService.deductCredits(chatId, precoNum);
+    if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Erro ao processar pagamento. Tente novamente.');
+
+    const titulo = currentState?.data?.title || 'Filme';
+    const saved = await contentService.salvarConteudoComprado(chatId, id, 'movie', titulo, precoNum);
+    
+    if (!saved?.token) {
+      await paymentService.addCredits(chatId, precoNum);
+      return bot.sendMessage(chatId, '❌ Erro ao gerar link. Créditos devolvidos.');
+    }
+
+    const novoSaldo = await paymentService.getUserCredits(chatId);
+    await bot.sendMessage(chatId, `✅ *Pagamento Confirmado!*\n\n🎬 Duração: ${minutosReais}min\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏰ Link válido por *24 horas*`, { parse_mode: 'Markdown' });
+
+    this._iniciarCacheComNotificacao(chatId, saved.purchase, `🎬 ${titulo} (${minutosReais}min)`, 'movie');
+  }
+
+  // ==========================================
+  // 3. NAVEGAÇÃO DA TEMPORADA (PAGINAÇÃO)
+  // ==========================================
+  async handleSeason(query) {
+    const chatId = query.message.chat.id;
+    const msgId = query.message.message_id;
+    const parts = query.data.split('_');
+    const id = parts[1];
+    const season = String(parts[2]);
+    
+    let page = 1;
+    if (parts.length >= 5 && parts[3] === 'page') {
+      page = parseInt(parts[4], 10) || 1;
+    }
+
+    const currentState = state.getUserState(chatId);
+    if (!currentState || !currentState.data || !currentState.data.seasons) {
+      return bot.answerCallbackQuery(query.id, { text: 'Erro ao carregar temporada de forma assíncrona.' });
+    }
+
+    let episodios = currentState.data.seasons[season] || currentState.data.seasons[Number(season)] || [];
+    if (!Array.isArray(episodios) || episodios.length === 0) {
+      return bot.answerCallbackQuery(query.id, { text: 'Temporada vazia ou inválida.' });
+    }
+
+    bot.answerCallbackQuery(query.id);
+
+    const EPISODES_PER_PAGE = 10;
+    const pageData = paginateList(episodios, page, EPISODES_PER_PAGE);
+
+    const episodeIds = episodios.map(ep => String(ep.id));
+    const ownedEpisodes = await userService.getOwnedEpisodesSet(chatId, currentState.data.title, season, episodeIds);
+
+    let precoTotal = 0;
+    let restantes = 0;
+    const estimarDuracao = contentService.vouverService.estimarDuracao;
+
+    for (const ep of episodios) {
+      if (ownedEpisodes.has(String(ep.id))) continue;
+      let min = await estimarDuracao('series', ep.id);
+      if (!Number.isFinite(min) || min <= 0) min = 24;
+      const p = calcularPrecoFinal({ mediaType: 'series', duracaoMinutos: min });
+      precoTotal += p.precoFinal;
+      restantes += 1;
+    }
+
+    const saldoAtual = await paymentService.getUserCredits(chatId);
+    const keyboard = [];
+
+    for (let i = 0; i < pageData.items.length; i++) {
+      const ep = pageData.items[i];
+      const globalIndex = (pageData.current - 1) * EPISODES_PER_PAGE + i;
+      const name = decodificarHTML(ep.name || `Episódio ${globalIndex + 1}`);
+      const owned = ownedEpisodes.has(String(ep.id));
+      const prefix = owned ? '✅ ' : '';
+      keyboard.push([{
+        text: `${prefix}${globalIndex + 1}. ${name.substring(0, 45)}`,
+        callback_data: `episode_${ep.id}_${season}`
+      }]);
+    }
+
+    const navRow = buildPaginationRow(`season_${id}_${season}_page`, pageData.current, pageData.totalPages);
+    if (navRow.length > 0) keyboard.push(navRow);
+
+    if (restantes === 0) {
+      keyboard.push([{ text: '✅ Temporada inteira já adquirida', callback_data: 'noop' }]);
+    } else if (saldoAtual >= precoTotal) {
+      keyboard.push([{ text: `📥 Comprar Temporada (${restantes} ep) - ${formatMoney(precoTotal)}`, callback_data: `buy_season_${id}_${season}_${precoTotal}` }]);
+    } else {
+      keyboard.push([{ text: `⚠️ Saldo Insuficiente - Faltam ${formatMoney(precoTotal - saldoAtual)}`, callback_data: 'menu_add_credits' }]);
+    }
+
+    keyboard.push([{ text: '⬅️ Voltar aos Detalhes', callback_data: `details_${id}_series` }]);
+    keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+
+    bot.deleteMessage(chatId, msgId).catch(() => {});
+
+    await bot.sendMessage(chatId,
+      `📺 *${escaparMarkdownSeguro(currentState.data.title)}*\n*Temporada ${season}*\n\nTotal: ${episodios.length} episódios\n📋 Página ${pageData.current} de ${pageData.totalPages}\n💰 Valor restante da Temporada: ${formatMoney(precoTotal)}\n💳 Seu Saldo: ${formatMoney(saldoAtual)}\n\nSelecione um episódio para assistir:`,
+      { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboard } }
+    );
+  }
+
+  // ==========================================
+  // 4. DETALHES DO EPISÓDIO SELECIONADO
+  // ==========================================
+  async handleEpisode(query) {
+    const chatId = query.message.chat.id;
+    const msgId = query.message.message_id;
+    const [, epId, season] = query.data.split('_');
+    const currentState = state.getUserState(chatId);
+
+    if (!currentState || !currentState.data || !currentState.data.seasons) {
+      return bot.answerCallbackQuery(query.id, { text: 'Sessão perdida.' });
+    }
+
+    let episodios = currentState.data.seasons[season] || currentState.data.seasons[Number(season)] || [];
+    const episodio = episodios.find(e => String(e.id) === String(epId));
+    if (!episodio) return bot.answerCallbackQuery(query.id, { text: 'Episódio não localizado.' });
+
+    bot.answerCallbackQuery(query.id);
+
+    const min = await contentService.vouverService.estimarDuracao('series', epId);
+    const pricing = calcularPrecoFinal({ mediaType: 'series', duracaoMinutos: min });
+    const saldoAtual = await paymentService.getUserCredits(chatId);
+
+    bot.deleteMessage(chatId, msgId).catch(() => {});
+
+    const PurchasedContentModel = db.getPurchasedContentModel();
+    const ownedEpisode = await PurchasedContentModel.findOne({
+      userId: chatId, mediaType: 'series', videoId: String(epId),
+      ...userService.getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
+    });
+
+    let mensagem = `📺 *${escaparMarkdownSeguro(currentState.data.title)}*\n*Temporada ${season} - ${escaparMarkdownSeguro(episodio.name)}*\n\n⏱️ Duração: ~${pricing.duracaoMinutos}min\n⏰ Validade: 7 dias\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
+    const keyboard = [];
+
+    if (ownedEpisode) {
+      mensagem += `\n\n✅ Você já possui acesso ativo a este episódio!`;
+      keyboard.push([{ text: '▶️ Assistir Agora', url: `${config.dynamic.DOMINIO_PUBLICO}/player/${ownedEpisode.token}` }]);
+    } else if (saldoAtual < pricing.precoFinal) {
+      mensagem += `\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n\n⚠️ Saldo insuficiente! Faltam ${formatMoney(pricing.precoFinal - saldoAtual)}`;
+      keyboard.push([{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]);
+    } else {
+      mensagem += `\n💰 Preço: ${formatMoney(pricing.precoFinal)}`;
+      keyboard.push([{ text: `▶️ Comprar e Assistir - ${formatMoney(pricing.precoFinal)}`, callback_data: `watch_ep_${epId}_${pricing.precoFinal}_${season}` }]);
+    }
+
+    keyboard.push([{ text: '⬅️ Voltar à Temporada', callback_data: `season_${currentState.id}_${season}` }]);
+    keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+
+    await bot.sendMessage(chatId, mensagem, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboard } });
+  }
+
+  // ==========================================
+  // 5. COMPRAR INDIVIDUALMENTE UM EPISÓDIO
+  // ==========================================
+  async handleWatchEpisode(query) {
+    const chatId = query.message.chat.id;
+    const [, , epId, preco, season] = query.data.split('_');
+    const precoNum = parseInt(preco, 10);
+    const currentState = state.getUserState(chatId);
+
+    bot.answerCallbackQuery(query.id);
+
+    const saldoAtual = await paymentService.getUserCredits(chatId);
+    if (saldoAtual < precoNum) return bot.sendMessage(chatId, '❌ Saldo insuficiente.');
+
+    const deducaoSucesso = await paymentService.deductCredits(chatId, precoNum);
+    if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Erro no processamento do saldo.');
+
+    let nomeEpisodio = 'Episódio';
+    let episodeIndex = null;
+    let totalEpisodes = null;
+    let seriesId = currentState?.id || null;
+
+    if (currentState?.data?.seasons?.[season]) {
+      const list = currentState.data.seasons[season];
+      const idx = list.findIndex(e => String(e.id) === String(epId));
+      if (idx >= 0) {
+        nomeEpisodio = list[idx].name || nomeEpisodio;
+        episodeIndex = idx + 1;
+        totalEpisodes = list.length;
+      }
+    }
+
+    const tituloSerie = currentState?.data?.title || 'Série';
+    const saved = await contentService.salvarConteudoComprado(chatId, epId, 'series', tituloSerie, precoNum, nomeEpisodio, season, { seriesId, episodeIndex, totalEpisodes });
+
+    if (!saved?.token) {
+      await paymentService.addCredits(chatId, precoNum);
+      return bot.sendMessage(chatId, '❌ Erro ao liberar o link.');
+    }
+
+    const novoSaldo = await paymentService.getUserCredits(chatId);
+    await bot.sendMessage(chatId, `✅ *Pagamento Confirmado!*\n\n📺 Episódio: ${escaparMarkdownSeguro(nomeEpisodio)}\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}`, { parse_mode: 'Markdown' });
+
+    this._iniciarCacheComNotificacao(chatId, saved.purchase, `📺 ${nomeEpisodio}`, 'series');
+  }
+
+  // ==========================================
+  // 6. 🚀 ETAPA 3: COMPRAR A TEMPORADA INTEIRA (EM MASSA - REDIS)
+  // ==========================================
+  async handleBuySeason(query) {
+    const chatId = query.message.chat.id;
+    const [, , id, season, preco] = query.data.split('_');
+    const precoNum = parseInt(preco, 10);
+    const currentState = state.getUserState(chatId);
+
+    bot.answerCallbackQuery(query.id);
+
+    let episodios = currentState?.data?.seasons?.[season] || [];
+    if (episodios.length === 0) return bot.sendMessage(chatId, '❌ Falha ao recuperar episódios.');
+
+    const episodeIds = episodios.map(ep => String(ep.id));
+    const ownedEpisodes = await userService.getOwnedEpisodesSet(chatId, currentState.data.title, season, episodeIds);
+    const restantes = episodios.filter(ep => !ownedEpisodes.has(String(ep.id)));
+
+    if (restantes.length === 0) return bot.sendMessage(chatId, '✅ Você já tem todos os episódios ativos!');
+
+    const saldoAtual = await paymentService.getUserCredits(chatId);
+    if (saldoAtual < precoNum) return bot.sendMessage(chatId, '❌ Saldo insuficiente.');
+
+    const deducaoSucesso = await paymentService.deductCredits(chatId, precoNum);
+    if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Falha ao processar débito.');
+
+    const novoSaldo = await paymentService.getUserCredits(chatId);
+    const statusMsg = await bot.sendMessage(chatId, `✅ *Compra Confirmada!*\n\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏳ Liberando ${restantes.length} episódios na fila do Redis...\nDisponíveis agora: 0/${restantes.length}`, { parse_mode: 'Markdown' });
+
+    const bulkStateId = `season-${id}-${season}-${Date.now()}`;
+    
+    // Registra os contadores estruturais no Redis para o monitoramento síncrono dos Workers
+    await bunnyCacheService.redisConnection.set(`bulk:${bulkStateId}:total`, restantes.length);
+    await bunnyCacheService.redisConnection.set(`bulk:${bulkStateId}:ready`, 0);
+
+    const tituloSerie = currentState?.data?.title || 'Série';
+    const seriesId = currentState?.id || null;
+    const totalEpisodes = episodios.length;
+
+    for (let i = 0; i < restantes.length; i++) {
+      const ep = restantes[i];
+      const episodeIndex = episodios.findIndex(e => String(e.id) === String(ep.id)) + 1;
+
+      const saved = await contentService.salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season, { seriesId, episodeIndex, totalEpisodes });
+      
+      if (saved?.token) {
+        // Enfileira cada tarefa individualmente de forma controlada
+        bunnyCacheService.enqueue(saved.purchase, {
+          chatId: chatId,
+          statusMessageId: statusMsg.message_id,
+          bulkStateId: bulkStateId,
+          episodeName: ep.name
+        });
+      }
+    }
+  }
+
+  // ==========================================
+  // 7. COMPRAR E ASSISTIR CANAL AO VIVO
+  // ==========================================
+  async handleWatchLive(query) {
+    const chatId = query.message.chat.id;
+    const [, , id, preco] = query.data.split('_');
+    const precoNum = parseInt(preco, 10);
+
+    bot.answerCallbackQuery(query.id);
+    const saldoAtual = await paymentService.getUserCredits(chatId);
+
+    if (saldoAtual < precoNum) return bot.sendMessage(chatId, '❌ Saldo insuficiente.');
+
+    const deducaoSucesso = await paymentService.deductCredits(chatId, precoNum);
+    if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Erro ao deduzir créditos.');
+
+    const cache = contentService.getCacheSafe();
+    const canal = (cache.livetv || []).find(item => String(item.id) === String(id));
+    const tituloCanal = decodificarHTML(canal?.name || `Canal ${id}`);
+
+    const saved = await contentService.salvarConteudoComprado(chatId, id, 'livetv', tituloCanal, precoNum);
+    if (!saved?.token) {
+      await paymentService.addCredits(chatId, precoNum);
+      return bot.sendMessage(chatId, '❌ Falha ao processar link de transmissão.');
+    }
+
+    const novoSaldo = await paymentService.getUserCredits(chatId);
+    await bot.sendMessage(chatId, `✅ *Pagamento Confirmado!*\n\n📡 Canal: ${escaparMarkdownSeguro(tituloCanal)}\n💰 -${formatMoney(precoNum)}\n💳 Novo Saldo: ${formatMoney(novoSaldo)}`, { parse_mode: 'Markdown' });
+
+    this._enviarVideoComLink(chatId, saved.token, `📡 ${tituloCanal}`, precoNum, tituloCanal, 'livetv');
+  }
+
+  // ==========================================
+  // 8. GERENCIAMENTO E INTERFACE DO MEU CONTEÚDO
+  // ==========================================
+  async mostrarMeuConteudo(chatId) {
+    try {
+      const PurchasedContentModel = db.getPurchasedContentModel();
+      const conteudos = await PurchasedContentModel.find({
+        userId: chatId, ...userService.getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
+      }).sort({ purchaseDate: -1 });
+
+      if (conteudos.length === 0) {
+        return bot.sendMessage(chatId, `📦 *Meu Conteúdo*\n\nVocê não possui nenhum conteúdo ativo.`, {
+          parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: '🔍 Buscar Filmes', callback_data: 'retry_search_movies' }], [{ text: '🏠 Menu', callback_data: 'back_main' }]] }
+        });
+      }
+
+      const groups = this._buildMeuConteudoGroups(conteudos);
+      state.setUserState(chatId, { myContent: groups });
+
+      const buttons = [];
+      if (groups.movies.length > 0) buttons.push([{ text: `🎬 Filmes (${groups.movies.length})`, callback_data: 'mycontent_movies' }]);
+      if (groups.series.length > 0) buttons.push([{ text: `📺 Séries (${groups.series.length})`, callback_data: 'mycontent_series' }]);
+      if (groups.livetv.length > 0) buttons.push([{ text: `📡 Canais (${groups.livetv.length})`, callback_data: 'mycontent_live' }]);
+      buttons.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+
+      await bot.sendMessage(chatId, `📦 *Meu Conteúdo*\n\nEscolha uma categoria abaixo:`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+    } catch (e) {
+      bot.sendMessage(chatId, '❌ Erro ao abrir conteúdo.');
+    }
+  }
+
+  async mostrarMeuConteudoFilmes(chatId, page = 1) {
+    const myContent = state.getUserState(chatId)?.myContent;
+    if (!myContent) return this.mostrarMeuConteudo(chatId);
+
+    const pageData = paginateList(myContent.movies, page, 10);
+    const buttons = pageData.items.map(item => [{
+      text: `🎬 ${item.title.substring(0, 40)} | ${formatTimeRemaining(item.expiresAt)}`,
+      callback_data: `mycontent_details_${item._id}`
+    }]);
+
+    const navRow = buildPaginationRow('mycontent_movies_page', pageData.current, pageData.totalPages);
+    if (navRow.length > 0) buttons.push(navRow);
+    buttons.push([{ text: '⬅️ Voltar', callback_data: 'my_content' }]);
+
+    await bot.sendMessage(chatId, `🎬 *Meus Filmes Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+  }
+
+  async mostrarMeuConteudoSeries(chatId, page = 1) {
+    const myContent = state.getUserState(chatId)?.myContent;
+    if (!myContent) return this.mostrarMeuConteudo(chatId);
+
+    const pageData = paginateList(myContent.series, page, 10);
+    const buttons = pageData.items.map((serie, idx) => [{
+      text: `📺 ${serie.title.substring(0, 40)} (${serie.totalEpisodes} ep)`,
+      callback_data: `myseries_${(pageData.current - 1) * 10 + idx}`
+    }]);
+
+    const navRow = buildPaginationRow('mycontent_series_page', pageData.current, pageData.totalPages);
+    if (navRow.length > 0) buttons.push(navRow);
+    buttons.push([{ text: '⬅️ Voltar', callback_data: 'my_content' }]);
+
+    await bot.sendMessage(chatId, `📺 *Minhas Séries Ativas*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+  }
+
+  async mostrarMeuConteudoLive(chatId, page = 1) {
+    const myContent = state.getUserState(chatId)?.myContent;
+    if (!myContent) return this.mostrarMeuConteudo(chatId);
+
+    const pageData = paginateList(myContent.livetv, page, 10);
+    const buttons = pageData.items.map(item => [{
+      text: `📡 ${item.title.substring(0, 40)} | ${formatTimeRemaining(item.expiresAt)}`,
+      callback_data: `mycontent_details_${item._id}`
+    }]);
+
+    const navRow = buildPaginationRow('mycontent_live_page', pageData.current, pageData.totalPages);
+    if (navRow.length > 0) buttons.push(navRow);
+    buttons.push([{ text: '⬅️ Voltar', callback_data: 'my_content' }]);
+
+    await bot.sendMessage(chatId, `📡 *Meus Canais Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+  }
+
+  async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
+    const myContent = state.getUserState(chatId)?.myContent;
+    if (!myContent) return this.mostrarMeuConteudo(chatId);
+    const serie = myContent.series[index];
+    if (!serie) return this.mostrarMeuConteudoSeries(chatId);
+
+    const episodeEntries = [];
+    for (const [seasonKey, episodes] of serie.seasons.entries()) {
+      for (const ep of episodes) {
+        episodeEntries.push({ season: seasonKey, label: `▶️ ${ep.episodeName || 'Episódio'}`, expiresAt: ep.expiresAt, id: ep._id });
+      }
+    }
+
+    const pageData = paginateList(episodeEntries, page, 10);
+    const buttons = [];
+    let currentSeason = null;
+
+    for (const entry of pageData.items) {
+      if (entry.season !== currentSeason) {
+        currentSeason = entry.season;
+        buttons.push([{ text: `📂 Temporada ${currentSeason}`, callback_data: 'noop' }]);
+      }
+      buttons.push([{ text: `${entry.label} | ${formatTimeRemaining(entry.expiresAt)}`, callback_data: `mycontent_details_${entry.id}` }]);
+    }
+
+    const navRow = buildPaginationRow(`myseries_${index}_page`, pageData.current, pageData.totalPages);
+    if (navRow.length > 0) buttons.push(navRow);
+    buttons.push([{ text: '⬅️ Voltar', callback_data: 'mycontent_series' }]);
+
+    await bot.sendMessage(chatId, `📺 *${escaparMarkdownSeguro(serie.title)}*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+  }
+
+  async mostrarDetalhesConteudo(chatId, contentId) {
+    const PurchasedContentModel = db.getPurchasedContentModel();
+    const content = await PurchasedContentModel.findById(contentId);
+    if (!content) return bot.sendMessage(chatId, '❌ Conteúdo indisponível.');
+
+    const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${content.token}`;
+    const msg = `🎯 *Link Liberado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
+    
+    await bot.sendMessage(chatId, msg, {
+      parse_mode: 'Markdown',
+      reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 Voltar', callback_data: 'my_content' }]] }
+    });
+  }
+
+  // ==========================================
+  // METODOS INTERNOS PRIVADOS
+  // ==========================================
+  _buildMeuConteudoGroups(conteudos) {
+    const movies = [];
+    const livetv = [];
+    const seriesMap = new Map();
+
+    for (const item of conteudos) {
+      const title = decodificarHTML(item.title || '');
+      const purchaseDate = item.purchaseDate ? new Date(item.purchaseDate) : new Date(0);
+      if (item.mediaType === 'movie') { movies.push({ ...item, title, purchaseDate }); continue; }
+      if (item.mediaType === 'livetv') { livetv.push({ ...item, title, purchaseDate }); continue; }
+
+      const key = normalizeTitle(title || item.title || '');
+      if (!seriesMap.has(key)) seriesMap.set(key, { title: title || item.title, seasons: new Map(), totalEpisodes: 0, lastPurchaseDate: purchaseDate });
+      
+      const group = seriesMap.get(key);
+      if (purchaseDate > group.lastPurchaseDate) group.lastPurchaseDate = purchaseDate;
+      const seasonKey = String(item.season || '1');
+      if (!group.seasons.has(seasonKey)) group.seasons.set(seasonKey, []);
+      group.seasons.get(seasonKey).push({ ...item, episodeName: item.episodeName, expiresAt: item.expiresAt, _id: item._id });
+      group.totalEpisodes += 1;
+    }
+    
+    return { movies, livetv, series: Array.from(seriesMap.values()) };
+  }
+
+  /**
+   * 🚀 DISPACHO PRO REDIS (BULLMQ WORKER ENQUEUE)
+   * Remove totalmente os callbacks locais em memória e persiste no Redis
+   */
+  async _iniciarCacheComNotificacao(chatId, purchase, caption, mediaType) {
+    const token = purchase.token;
+    const msg = await bot.sendMessage(chatId, `⏳ *Preparando seu conteúdo no servidor...*\n\nSua solicitação entrou na fila de processamento automático do Redis.`, { parse_mode: 'Markdown' }).catch(() => null);
+
+    bunnyCacheService.enqueue(purchase, {
+      chatId: chatId,
+      statusMessageId: msg ? msg.message_id : null,
+      caption: caption,
+      mediaType: mediaType
+    });
+  }
+
+  async _enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, mediaType = 'movie') {
+    const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${token}`;
+    await bot.sendMessage(chatId, `✅ *Liberado! Clique no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
+      parse_mode: 'Markdown',
+      reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 Meu Conteúdo', callback_data: 'my_content' }]] }
+    });
+  }
+}
+
+module.exports = new ContentController();

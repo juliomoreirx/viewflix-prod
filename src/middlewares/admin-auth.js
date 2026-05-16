@@ -1,19 +1,26 @@
+// src/middlewares/admin-auth.js
 const env = require('../config/env');
 
 function adminAuth(req, res, next) {
-  const authToken = req.headers.authorization;
-  const validToken = env.ADMIN_API_TOKEN || 'seu-token-super-secreto';
+  // 1. Failsafe: Se não existir token configurado no ambiente, bloqueia a rota inteira.
+  if (!env.ADMIN_API_TOKEN) {
+    return res.status(500).json({ error: 'Configuração de segurança do servidor ausente.' });
+  }
 
-  if (authToken !== `Bearer ${validToken}`) {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith('Bearer ')) {
     return res.status(401).json({ error: 'Não autorizado' });
   }
 
-  const adminIds = String(process.env.ADMIN_IDS || '')
-    .split(',')
-    .map((id) => Number(id.trim()))
-    .filter((id) => Number.isFinite(id));
+  const token = authHeader.split(' ')[1];
 
-  req.userId = adminIds[0] || 0;
+  // 2. Validação estrita sem fallbacks hardcoded
+  if (token !== env.ADMIN_API_TOKEN) {
+    return res.status(401).json({ error: 'Não autorizado' });
+  }
+
+  // 3. Usa o array validado diretamente do nosso env.js (Zod)
+  req.userId = env.ADMIN_IDS && env.ADMIN_IDS.length > 0 ? env.ADMIN_IDS[0] : 0;
 
   return next();
 }

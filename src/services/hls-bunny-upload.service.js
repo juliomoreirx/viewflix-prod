@@ -1,3 +1,4 @@
+// src/services/hls-bunny-upload.service.js
 const fs = require('fs').promises;
 const path = require('path');
 const axios = require('axios');
@@ -43,9 +44,6 @@ class HLSBunnyUploadService {
       let bunnyPath;
       if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
         const seriesName = this._slugify(seriesInfo.seriesTitle || 'series');
-        const seasonNum = String(seriesInfo.season || '1').padStart(2, '0');
-        const episodeNum = String(seriesInfo.episodeIndex || 1).padStart(2, '0');
-        // Match buildHLSPath format: series/{titleSlug}/season-{N}/s##e##-{videoId}
         bunnyPath = `series/${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
       } else if (contentType === 'movie' && mp4FileName) {
         bunnyPath = `movies/${mp4FileName}`;
@@ -53,24 +51,57 @@ class HLSBunnyUploadService {
         bunnyPath = `content/${contentType}/${contentId}`;
       }
 
-      // Upload all files
+      // ==========================================
+      // 🚀 PROGRAMAÇÃO DE ELITE: POOL DE CONCORRÊNCIA PARALELA
+      // ==========================================
       let uploadedCount = 0;
       const errors = [];
+      
+      // Lemos o limite do .env ou aplicamos 10 uploads simultâneos por padrão para não saturar
+      const CONCURRENCY_LIMIT = parseInt(process.env.BUNNY_UPLOAD_CONCURRENCY, 10) || 10;
 
+      // Filtramos apenas os arquivos válidos em disco antes de abrir a fila paralela
+      const filesToUpload = [];
       for (const file of files) {
         const localFilePath = path.join(hlsDir, file);
         const stats = await fs.stat(localFilePath);
-
-        if (!stats.isFile()) continue;
-
-        try {
-          await this._uploadFileToBunny(localFilePath, file, bunnyPath);
-          uploadedCount++;
-        } catch (err) {
-          logger.error(`[HLS Bunny Upload] Failed to upload ${file}:`, err);
-          errors.push({ file, error: err.message });
+        if (stats.isFile()) {
+          filesToUpload.push({ file, localFilePath });
         }
       }
+
+      logger.info(`[HLS Bunny Upload] Mapeados ${filesToUpload.length} ficheiros para processamento. Pool de Concorrência: ${CONCURRENCY_LIMIT}`);
+
+      let pointer = 0;
+
+      // Função worker que consome a fila dinamicamente de forma síncrona/atómica
+      const worker = async () => {
+        while (pointer < filesToUpload.length) {
+          const currentIdx = pointer++;
+          if (currentIdx >= filesToUpload.length) break;
+
+          const { file, localFilePath } = filesToUpload[currentIdx];
+
+          try {
+            await this._uploadFileToBunny(localFilePath, file, bunnyPath);
+            uploadedCount++;
+          } catch (err) {
+            logger.error(`[HLS Bunny Upload] Failed to upload ${file}:`, err);
+            errors.push({ file, error: err.message });
+          }
+        }
+      };
+
+      // Dispara os workers em paralelo respeitando o limite máximo definido
+      const workersPool = [];
+      const activeWorkersCount = Math.min(CONCURRENCY_LIMIT, filesToUpload.length);
+      
+      for (let i = 0; i < activeWorkersCount; i++) {
+        workersPool.push(worker());
+      }
+
+      // Aguarda que todos os workers terminem de esvaziar a fila de segmentos
+      await Promise.all(workersPool);
 
       if (errors.length > 0) {
         logger.warn(`[HLS Bunny Upload] ${errors.length} files failed to upload`);
@@ -202,7 +233,6 @@ class HLSBunnyUploadService {
     let bunnyPath;
     if (contentType === 'series' && seriesInfo && seriesInfo.season && seriesInfo.episodeName) {
       const seriesName = this._slugify(seriesInfo.seriesTitle || 'series');
-      // Match buildHLSPath format: series/{titleSlug}/season-{N}/{episodeName}-{videoId}
       bunnyPath = `series/${seriesName}/season-${seriesInfo.season}/${this._slugify(seriesInfo.episodeName)}-${contentId}`;
     } else {
       bunnyPath = `content/${contentType}/${contentId}`;

@@ -46,24 +46,14 @@ router.post('/api/progress', async (req, res) => {
   }
 });
 
-// Proxy residencial opcional
-const RES_PROXY_ENABLED = String(env.RES_PROXY_ENABLED || 'false')
-  .replace(/['"]/g, '')
-  .trim()
-  .toLowerCase() === 'true';
-
-const RES_PROXY_HOST = (env.RES_PROXY_HOST || '').trim();
-const RES_PROXY_PORT = parseInt(String(env.RES_PROXY_PORT || '0').trim(), 10);
-const RES_PROXY_USER = env.RES_PROXY_USER || '';
-const RES_PROXY_PASS = env.RES_PROXY_PASS || '';
-
+// Proxy residencial opcional via Zod Env
 let residentialProxyAgent = null;
-if (RES_PROXY_ENABLED && RES_PROXY_HOST && RES_PROXY_PORT && RES_PROXY_USER && RES_PROXY_PASS) {
-  const proxyUrl = `http://${encodeURIComponent(RES_PROXY_USER)}:${encodeURIComponent(RES_PROXY_PASS)}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
+if (env.RES_PROXY_ENABLED && env.RES_PROXY_HOST && env.RES_PROXY_PORT) {
+  const proxyUrl = `http://${encodeURIComponent(env.RES_PROXY_USER)}:${encodeURIComponent(env.RES_PROXY_PASS)}@${env.RES_PROXY_HOST}:${env.RES_PROXY_PORT}`;
   residentialProxyAgent = new HttpProxyAgent(proxyUrl);
 }
 
-// ===== PLAYER =====
+
 // ===== PLAYER =====
 router.get('/player/:token', async (req, res) => {
   try {

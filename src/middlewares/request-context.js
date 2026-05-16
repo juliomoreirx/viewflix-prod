@@ -1,7 +1,8 @@
-const { v4: uuidv4 } = require('uuid');
+// src/middlewares/request-context.js
+const crypto = require('crypto');
 
 function requestContext(req, res, next) {
-  const requestId = req.headers['x-request-id'] || uuidv4();
+  const requestId = req.headers['x-request-id'] || crypto.randomUUID();
   req.requestId = requestId;
   res.setHeader('x-request-id', requestId);
   next();

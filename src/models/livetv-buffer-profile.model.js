@@ -1,7 +1,8 @@
-const { mongoose } = require('../db/mongoose');
+// src/models/livetv-buffer-profile.model.js
+const mongoose = require('mongoose');
 
 const livetvBufferProfileSchema = new mongoose.Schema({
-  channelId: { type: String, required: true, unique: true, index: true },
+  channelId: { type: String, required: true, unique: true }, // unique já cria index
   channelTitle: { type: String },
   enabled: { type: Boolean, default: false, index: true },
   segmentDurationSec: { type: Number, default: 6, min: 2, max: 20 },
@@ -13,8 +14,8 @@ const livetvBufferProfileSchema = new mongoose.Schema({
   lastError: { type: String },
   statusNote: { type: String },
   statusMeta: { type: mongoose.Schema.Types.Mixed }
-}, { timestamps: true });
+}, { 
+  timestamps: true 
+});
 
-module.exports =
-  mongoose.models.LiveTvBufferProfile ||
-  mongoose.model('LiveTvBufferProfile', livetvBufferProfileSchema);
+module.exports = mongoose.models.LiveTvBufferProfile || mongoose.model('LiveTvBufferProfile', livetvBufferProfileSchema);

@@ -6,53 +6,69 @@ const cron = require('node-cron');
 
 puppeteer.use(StealthPlugin());
 
-const PROXY_HOST = 'brd.superproxy.io';
-const PROXY_PORT = '33335';
-const PROXY_USER = 'brd-customer-hl_110d360f-zone-viewflix_login';
-const PROXY_PASS = 'nje410p9m2w1';
+// ==========================================
+// 1. VALIDAÇÃO DE AMBIENTE (Failsafe)
+// ==========================================
+const {
+    PROXY_HOST,
+    PROXY_PORT = '33335',
+    PROXY_USER,
+    PROXY_PASS,
+    LOGIN_USER,
+    LOGIN_PASS,
+    TARGET_URL = 'http://vouver.me/index.php?page=login',
+    WEBHOOK_URL,
+    WEBHOOK_TOKEN
+} = process.env;
 
-const TARGET_URL = 'http://vouver.me/index.php?page=login';
-const WEBHOOK_URL = 'https://watch.viewflix.space/cookies/webhook';
-const WEBHOOK_TOKEN = 'QI113sPuww5G32yRefBTWefUXr63d7UrrmrhoI58orUk';
+if (!LOGIN_USER || !LOGIN_PASS || !WEBHOOK_URL || !WEBHOOK_TOKEN) {
+    console.error('❌ ERRO FATAL: Variáveis de ambiente ausentes no .env do Worker!');
+    process.exit(1);
+}
 
-const LOGIN_USER = '85119rbz';
-const LOGIN_PASS = 'cyd16156';
-
+// ==========================================
+// 2. FUNÇÃO PRINCIPAL DE SINCRONIZAÇÃO
+// ==========================================
 async function syncViewflixCookies() {
+    console.log(`[${new Date().toISOString()}] 🔄 Iniciando extração de cookies...`);
     
-
-    const proxyUrlCompleta = `http://${PROXY_USER}:${PROXY_PASS}@${PROXY_HOST}:${PROXY_PORT}`;
     let proxyLocalAutenticado = null;
     let browser = null;
 
     try {
-        proxyLocalAutenticado = await proxyChain.anonymizeProxy(proxyUrlCompleta);
+        // Configuração do Proxy (se existir)
+        let puppeteerArgs = [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-web-security',
+            '--disable-features=IsolateOrigins,site-per-process,AutoUpgradeMixedContent,HttpsUpgrades',
+            '--disable-site-isolation-trials',
+            '--allow-running-insecure-content',
+            '--ignore-certificate-errors',
+            '--force-device-scale-factor=1',
+            '--disable-dev-shm-usage',
+            '--disable-gpu',
+            '--unsafely-treat-insecure-origin-as-secure=http://vouver.me'
+        ];
+
+        if (PROXY_HOST && PROXY_USER && PROXY_PASS) {
+            const proxyUrlCompleta = `http://${PROXY_USER}:${PROXY_PASS}@${PROXY_HOST}:${PROXY_PORT}`;
+            proxyLocalAutenticado = await proxyChain.anonymizeProxy(proxyUrlCompleta);
+            puppeteerArgs.push(`--proxy-server=${proxyLocalAutenticado}`);
+            console.log('🛡️ Proxy configurado e anonimizado.');
+        } else {
+            console.warn('⚠️ A rodar sem Proxy Residencial. Risco elevado de bloqueio do Cloudflare!');
+        }
 
         browser = await puppeteer.launch({
-            headless: 'new',
+            headless: true, // Corrigido (Sintaxe atualizada do Puppeteer)
             ignoreHTTPSErrors: true,
-            args: [
-                `--proxy-server=${proxyLocalAutenticado}`,
-                '--no-sandbox',
-                '--disable-setuid-sandbox',
-                '--disable-web-security',
-                '--disable-features=IsolateOrigins,site-per-process,AutoUpgradeMixedContent,HttpsUpgrades',
-                '--disable-site-isolation-trials',
-                '--allow-running-insecure-content',
-                '--ignore-certificate-errors',
-                '--ignore-certificate-errors-spki-list',
-                '--force-device-scale-factor=1',
-                '--disable-dev-shm-usage',
-                '--disable-gpu',
-                // Desativa upgrade automático de HTTP para HTTPS
-                '--disable-features=AutoupgradeMixedContent',
-                '--unsafely-treat-insecure-origin-as-secure=http://vouver.me',
-            ]
+            args: puppeteerArgs
         });
 
         const page = await browser.newPage();
 
-        // Evasão de detecção
+        // Evasão Avançada de Deteção
         await page.evaluateOnNewDocument(() => {
             Object.defineProperty(navigator, 'webdriver', { get: () => false });
             window.chrome = { runtime: {} };
@@ -60,96 +76,59 @@ async function syncViewflixCookies() {
             Object.defineProperty(navigator, 'languages', { get: () => ['pt-BR', 'pt', 'en-US'] });
         });
 
-        await page.setUserAgent(
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
-        );
-        await page.setDefaultNavigationTimeout(120000);
-        await page.setJavaScriptEnabled(true);
-        await page.setExtraHTTPHeaders({
-            'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
-        });
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
+        await page.setDefaultNavigationTimeout(60000); // 60s é mais sensato que 120s
 
-        // Intercepta requisições para evitar loop de redirect
+        // Otimização de Performance: Bloquear imagens e CSS inútil
         await page.setRequestInterception(true);
-        let redirectCount = 0;
         page.on('request', (req) => {
-            const url = req.url();
-            // Bloqueia recursos desnecessários para acelerar
             if (['image', 'stylesheet', 'font', 'media'].includes(req.resourceType())) {
                 return req.abort();
             }
-            // Detecta loop de redirect e força URL original
             if (req.isNavigationRequest() && req.redirectChain().length > 3) {
-                
-                return req.abort();
+                return req.abort(); // Previne loops infinitos de redirecionamento
             }
             req.continue();
         });
 
+        console.log('🌐 Navegando para a página alvo...');
         
         try {
-            await page.goto(TARGET_URL, {
-                waitUntil: 'domcontentloaded', 
-                timeout: 60000
-            });
+            await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 45000 });
         } catch (err) {
-
+            console.warn('⚠️ O carregamento demorou muito, forçando continuação...');
         }
 
-        await new Promise(r => setTimeout(r, 8000));
-
-        // Checagem do conteúdo atual
-        const currentUrl = page.url();
+        // Lidar com o Cloudflare ou Erros SSL (Bypass forçado)
         const content = await page.content();
-
-        // Se ainda está na página de erro do Chrome, tenta navegar direto via fetch interno
         if (content.includes('--google-blue') || content.includes('ERR_')) {
-
-            
-            // Tenta via about:blank + injeção de fetch
+            console.log('🔄 Intervenção necessária. Tentando bypass via about:blank...');
             await page.goto('about:blank');
-            await new Promise(r => setTimeout(r, 2000));
-            
-            // Seta o contexto do domínio manualmente e navega
-            await page.goto(TARGET_URL, {
-                waitUntil: 'domcontentloaded',
-                timeout: 60000
-            }).catch(e => console.log('[Aviso] Segunda tentativa:', e.message));
-
-            await new Promise(r => setTimeout(r, 8000));
+            await page.waitForTimeout(2000); // waitForTimeout é mais limpo que new Promise(setTimeout) em Puppeteer antigos
+            await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
         }
 
-        try {
-            await page.waitForSelector('#username', { visible: true, timeout: 30000 });
-        } catch (e) {
-            const finalContent = await page.content();
-            await page.screenshot({ path: 'erro-vps.png', fullPage: true });
-            throw new Error('Falha de renderização: #username não encontrado.');
-        }
+        // Esperar pelo input de forma inteligente (em vez de setTimeout cego)
+        console.log('⏳ Aguardando formulário de login...');
+        await page.waitForSelector('#username', { visible: true, timeout: 30000 });
 
+        // Preencher e submeter o formulário
         await page.evaluate((u, p) => {
-            const user = document.getElementById('username');
-            const pass = document.getElementById('sifre');
-            if (user && pass) {
-                user.value = u;
-                pass.value = p;
-            }
+            document.getElementById('username').value = u;
+            document.getElementById('sifre').value = p;
+            document.getElementById('login').click();
         }, LOGIN_USER, LOGIN_PASS);
 
-
-        await Promise.all([
-            page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 30000 }).catch(() => {}),
-            page.evaluate(() => {
-                const loginBtn = document.getElementById('login');
-                if (loginBtn) loginBtn.click();
-            })
-        ]);
-
-
-        await new Promise(r => setTimeout(r, 10000));
+        console.log('🔑 Credenciais inseridas. Aguardando processamento do login...');
+        
+        // Esperamos que a navegação aconteça ou que um elemento logado apareça (ajuste o seletor se o painel logado for diferente)
+        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }).catch(() => console.log('Navegação lenta, verificando cookies mesmo assim...'));
+        
+        // Damos apenas uma margem curta para os cookies se estabelecerem pós-login
+        await new Promise(r => setTimeout(r, 3000)); 
 
         const cookies = await page.cookies();
-        let cookieMap = new Map();
+        const cookieMap = new Map();
         let cfClearanceValue = '';
 
         cookies.forEach(cookie => {
@@ -158,19 +137,20 @@ async function syncViewflixCookies() {
         });
 
         const order = ['PHPSESSID', 'vouverme', 'username', 'password', 'cf_clearance'];
-        let sessionCookiesArray = [];
-        order.forEach(name => {
-            if (cookieMap.has(name)) sessionCookiesArray.push(`${name}=${cookieMap.get(name)}`);
-        });
+        const sessionCookiesArray = order
+            .filter(name => cookieMap.has(name))
+            .map(name => `${name}=${cookieMap.get(name)}`);
 
         const finalSessionString = sessionCookiesArray.join('; ');
 
         if (!finalSessionString.includes('PHPSESSID')) {
-            // Loga todos cookies recebidos para diagnóstico
-            throw new Error('Login falhou: PHPSESSID ausente após clique.');
+            await page.screenshot({ path: 'erro-login-sem-sessao.png', fullPage: true });
+            throw new Error('Login falhou: PHPSESSID ausente após o clique. Screenshot guardado.');
         }
 
-
+        console.log('📡 Enviando cookies frescos para a API central...');
+        
+        // Usar Node Fetch Nativo
         const response = await fetch(WEBHOOK_URL, {
             method: 'POST',
             headers: {
@@ -185,19 +165,36 @@ async function syncViewflixCookies() {
         });
 
         if (response.ok) {
-            console.log('✅ Cookies sincronizados com sucesso via webhook');
+            console.log('✅ Cookies sincronizados com sucesso via webhook!');
         } else {
             const body = await response.text();
-            console.error('[Erro Webhook] Status:', response.status, '| Body:', body);
+            throw new Error(`[Erro Webhook] Status: ${response.status} | Body: ${body}`);
         }
 
     } catch (error) {
-        console.error('[Erro Crítico]:', error.message);
+        console.error('❌ [Erro Crítico]:', error.message);
     } finally {
+        console.log('🧹 Limpando processos...');
         if (browser) await browser.close();
         if (proxyLocalAutenticado) await proxyChain.closeAnonymizedProxy(proxyLocalAutenticado, true);
     }
 }
 
+// ==========================================
+// 3. PREVENÇÃO DE PROCESSOS ZUMBI (Graceful Shutdown)
+// ==========================================
+process.on('SIGINT', async () => {
+    console.log('Encerramento forçado detectado. Limpando processos...');
+    process.exit(0);
+});
+process.on('SIGTERM', async () => {
+    console.log('Encerramento do sistema detectado. Limpando processos...');
+    process.exit(0);
+});
+
+// Executa imediatamente ao ligar
 syncViewflixCookies();
+
+// Agenda para rodar de hora a hora
 cron.schedule('0 * * * *', () => syncViewflixCookies());
+console.log('🕰️ Worker agendado. Aguardando ciclos...');

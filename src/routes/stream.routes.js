@@ -1,9 +1,11 @@
+// src/routes/stream.routes.js
 const express = require('express');
 const axios = require('axios');
 const { z } = require('zod');
 const { HttpProxyAgent } = require('http-proxy-agent');
 const env = require('../config/env');
 const logger = require('../lib/logger');
+const hlsProxyService = require('../services/hls-proxy.service'); // <-- INJETADO: Necessário para a assinatura com Node v24
 
 const router = express.Router();
 
@@ -27,15 +29,10 @@ const liveTvBufferStatusSchema = z.object({
   channelId: z.string().trim().min(1).max(200)
 });
 
-// Proxy apenas para autenticação rápida (não consome dados)
-const RES_PROXY_HOST = (env.RES_PROXY_HOST || '').trim();
-const RES_PROXY_PORT = parseInt(String(env.RES_PROXY_PORT || '0').trim(), 10);
-const RES_PROXY_USER = env.RES_PROXY_USER || '';
-const RES_PROXY_PASS = env.RES_PROXY_PASS || '';
-
+// Proxy Residencial via Zod Env
 let residentialProxyAgent = null;
-if (RES_PROXY_HOST && RES_PROXY_PORT) {
-  const proxyUrl = `http://${encodeURIComponent(RES_PROXY_USER)}:${encodeURIComponent(RES_PROXY_PASS)}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
+if (env.RES_PROXY_ENABLED && env.RES_PROXY_HOST && env.RES_PROXY_PORT) {
+  const proxyUrl = `http://${encodeURIComponent(env.RES_PROXY_USER)}:${encodeURIComponent(env.RES_PROXY_PASS)}@${env.RES_PROXY_HOST}:${env.RES_PROXY_PORT}`;
   residentialProxyAgent = new HttpProxyAgent(proxyUrl);
 }
 
@@ -324,7 +321,6 @@ router.get('/relay-stream', async (req, res, next) => {
     let finalUrl = cached && cached.expiresAt > Date.now() ? cached.url : null;
 
     if (!finalUrl) {
-      // 1. Usa o proxy apenas para descobrir a porta do cofre (0 consumo de dados pesados)
       const response = await axios.get(streamUrl, {
         httpAgent: residentialProxyAgent || undefined,
         httpsAgent: residentialProxyAgent || undefined,
@@ -342,7 +338,6 @@ router.get('/relay-stream', async (req, res, next) => {
     }
 
     if (!finalUrl) {
-      // fallback: tentar URL cacheada ainda dentro da janela de staleness
       if (cached && cached.url && cached.staleUntil > Date.now()) {
         finalUrl = cached.url;
       } else {
@@ -350,7 +345,6 @@ router.get('/relay-stream', async (req, res, next) => {
       }
     }
 
-    // 2. Remove o "http://" para que o Nginx consiga ler o caminho corretamente
     const urlLimpa = finalUrl.replace(/^https?:\/\//, '');
 
     logger.info({ msg: 'Delegando IP bruto para o Nginx', videoId, urlLimpa });
@@ -360,7 +354,6 @@ router.get('/relay-stream', async (req, res, next) => {
       res.setHeader('X-Accel-Buffering', 'no');
     }
 
-    // 3. O Node envia o IP dinâmico diretamente na URI do túnel
     res.setHeader('X-Accel-Redirect', `/proxy-stream/${urlLimpa}`);
     res.end();
 
@@ -440,6 +433,39 @@ router.get('/relay-live-segment', async (req, res, next) => {
   } catch (error) {
     logger.error({ msg: 'erro no /relay-live-segment', error: error.message });
     return next(error);
+  }
+});
+
+// ==========================================
+// 🚀 INJEÇÃO DO PROXY DE MANIFESTO DE ALTA PERFORMANCE
+// ==========================================
+router.get('/api/hls-proxy/manifest', async (req, res, next) => {
+  try {
+    const tokenUrl = req.query.token;
+    if (!tokenUrl) return res.status(400).send('Missing token parameter');
+
+    let manifestUrl;
+    try {
+      manifestUrl = Buffer.from(tokenUrl, 'base64').toString('utf-8');
+    } catch (e) {
+      manifestUrl = hlsProxyService.decryptUrl(tokenUrl) || tokenUrl;
+    }
+
+    if (!manifestUrl.includes('b-cdn.net') && !manifestUrl.includes('bunny')) {
+      logger.error(`[Segurança] Bloqueio preventivo: Origem não reconhecida: ${manifestUrl}`);
+      return res.status(403).send('Unauthorized manifest source');
+    }
+
+    const rewrittenManifest = await hlsProxyService.getManifest(manifestUrl, '/api/hls-proxy');
+
+    res.setHeader('Content-Type', 'application/vnd.apple.mpegurl; charset=utf-8');
+    res.setHeader('Cache-Control', 'no-store, no-cache, private, must-revalidate');
+    res.setHeader('Pragma', 'no-cache');
+
+    return res.status(200).send(rewrittenManifest);
+  } catch (error) {
+    logger.error({ msg: 'Falha fatal na entrega de manifesto assinado', error: error.message });
+    return res.status(500).send('Internal streaming error');
   }
 });
 
