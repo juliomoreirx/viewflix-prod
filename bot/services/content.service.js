@@ -1,9 +1,13 @@
+// bot/services/content.service.js
 const db = require('./db.service');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const config = require('../config');
 
-// 🚀 CORE: Expressão regular para capturar formatos de filmes/séries incompatíveis na web
+// 🚀 NOVO: Importação do ecossistema de infraestrutura para reaproveitar a conexão nativa do Redis
+const bunnyCacheService = require('../../src/services/bunny-cache.service');
+
+// CORE: Expressão regular para capturar formatos de filmes/séries incompatíveis na web
 const REGEX_BLOQUEIO_4K = /(4k|hdr|hybrid)/i;
 
 /**
@@ -37,7 +41,7 @@ function _filtrarCanaisIncompativeis(items) {
   });
 }
 
-// Armazenamento em memória isolado para o interceptor trabalhar
+// Armazenamento em memória isolado para o interceptor trabalhar localmente na thread ativa
 let _cacheInternoBlindado = { movies: [], series: [], livetv: [] };
 
 // Integração com o serviço de cache injetado
@@ -46,7 +50,7 @@ let vouverService = {
   estimarDuracao: async () => 109,
   atualizarCache: async () => {},
   
-  // 🚀 INTERCEPTOR DINÂMICO: Garante blindagem total independente de onde o cache venha
+  // INTERCEPTOR DINÂMICO: Garante blindagem total independente de onde o cache venha
   get CACHE_CONTEUDO() {
     return _cacheInternoBlindado;
   },
@@ -55,11 +59,22 @@ let vouverService = {
       _cacheInternoBlindado = { movies: [], series: [], livetv: [] };
       return;
     }
+    
+    // Processa a higienização dos metadados cortando lixos e containers pesados
     _cacheInternoBlindado = {
       movies: _filtrarListaIncompativel(novoCache.movies || []),
       series: _filtrarListaIncompativel(novoCache.series || []),
       livetv: _filtrarCanaisIncompativeis(novoCache.livetv || novoCache.channels || [])
     };
+    
+    // 🚀 EVOLUÇÃO REDIS: Sempre que o cache sofrer mutação, sincroniza em background com o banco em memória Redis
+    bunnyCacheService.redisConnection.set('fasttv:catalog:global', JSON.stringify(_cacheInternoBlindado))
+      .then(() => {
+        console.log(`📥 [Redis Catalog] Catálogo de segurança persistido e sincronizado no Redis com sucesso.`);
+      })
+      .catch(err => {
+        console.error('❌ [Redis Catalog] Erro crítico ao salvar string de cache no Redis:', err.message);
+      });
   }
 };
 
@@ -68,7 +83,9 @@ function setExternalServices(services) {
   vouverService.buscarDetalhes = services.buscarDetalhes || services.getDetails || null;
   vouverService.estimarDuracao = services.estimarDuracao || services.estimateDuration || vouverService.estimarDuracao;
   vouverService.atualizarCache = services.atualizarCache || vouverService.atualizarCache;
-  vouverService.CACHE_CONTEUDO = services.CACHE_CONTEUDO || services.CACHE_CONTEUDO;
+  if (services.CACHE_CONTEUDO) {
+    vouverService.CACHE_CONTEUDO = services.CACHE_CONTEUDO;
+  }
 }
 
 function getCacheSafe() {
@@ -76,6 +93,23 @@ function getCacheSafe() {
 }
 
 async function ensureCacheLoaded() {
+  // 🚀 EVOLUÇÃO REDIS: Se a instância do Node acabar de reiniciar e a memória RAM interna estiver zerada,
+  // tenta puxar instantaneamente o catálogo salvo e higienizado diretamente do Redis antes de bater na API externa.
+  if (_cacheInternoBlindado.movies.length === 0 && _cacheInternoBlindado.series.length === 0 && _cacheInternoBlindado.livetv.length === 0) {
+    try {
+      const cacheSalvoNoRedis = await bunnyCacheService.redisConnection.get('fasttv:catalog:global');
+      if (cacheSalvoNoRedis) {
+        const parsedCache = JSON.parse(cacheSalvoNoRedis);
+        _cacheInternoBlindado = parsedCache;
+        console.log(`🚀 [Redis Catalog] Sincronização multi-cluster ativa! Catálogo recuperado via Redis: ${_cacheInternoBlindado.movies.length} filmes, ${_cacheInternoBlindado.series.length} séries, ${_cacheInternoBlindado.livetv.length} canais.`);
+        return;
+      }
+    } catch (err) {
+      console.error('❌ [Redis Catalog] Falha ao tentar ler backup do catálogo no Redis, acionando fluxo convencional:', err.message);
+    }
+  }
+
+  // Fallback de segurança: Se nem a RAM local nem o Redis possuírem o catálogo, força o provisioning completo
   const cache = getCacheSafe();
   if ((!cache.movies || cache.movies.length === 0) && (!cache.series || cache.series.length === 0) && (!cache.livetv || cache.livetv.length === 0)) {
     await vouverService.atualizarCache();
