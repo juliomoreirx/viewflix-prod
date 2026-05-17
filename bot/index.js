@@ -49,58 +49,49 @@ function initBot(models, services, dominio, app) {
   // 5. Ativar as rotinas assíncronas de manutenção (Cleanup / Notificações)
   startJobs();
 
-  // 6. 🚀 ROTEAMENTO CIRÚRGICO DE WEBHOOK: Interceptador de Stream Bruto (Raw Level)
+  // 6. 🚀 ROTEAMENTO CIRÚRGICO: Içamento Inteligente (Route Hoisting)
   if (app) {
-    
-    // Escudo Interceptador: Não depende do sistema de rotas do Express
-    const telegramInterceptor = (req, res, next) => {
-      // Se for exatamente o disparo do Telegram, nós assumimos o controle
-      if (req.method === 'POST' && req.path === '/api/telegram-webhook') {
-        let rawData = '';
-        
-        // Bebe direto da fonte (lê os pacotes TCP puros antes de qualquer parse)
-        req.on('data', chunk => { rawData += chunk.toString(); });
-        
-        req.on('end', () => {
-          try {
-            if (rawData) {
-              const payload = JSON.parse(rawData);
-              bot.processUpdate(payload);
-              console.log(`✅ [WebHook] Sinal processado com sucesso. Evento disparado no Bot.`);
-            } else if (req.body && Object.keys(req.body).length > 0) {
-              // Fallback de segurança se o body-parser já tiver processado misteriosamente
-              bot.processUpdate(req.body);
-              console.log(`✅ [WebHook] Sinal processado via req.body existente.`);
-            } else {
-              console.warn(`⚠️ [WebHook] Requisição recebida, mas o payload está completamente vazio.`);
-            }
-          } catch (err) {
-            console.error(`❌ [WebHook] Erro crítico ao decodificar payload do Telegram:`, err.message);
-          }
-          
-          // Responde na mesma hora pro Telegram não achar que o servidor travou
-          res.status(200).send('OK');
-        });
-        
-        // Retorna imediatamente para impedir que o Express passe o fluxo pra frente
-        return; 
+    // Desliga qualquer rastro de polling antigo para evitar conflitos de porta com o Webhook
+    try {
+      bot.stopPolling();
+    } catch (e) { /* Ignora se já estiver parado */ }
+
+    // Cria a rota padrão protegida
+    app.post('/api/telegram-webhook', express.json(), (req, res) => {
+      console.log('⚡ [Telegram Webhook] Sinal capturado pela Rota Oficial!');
+      if (req.body && Object.keys(req.body).length > 0) {
+        bot.processUpdate(req.body);
+      } else {
+        console.warn('⚠️ [Telegram Webhook] O corpo da requisição está vazio. O Telegram enviou um payload nulo.');
+      }
+      res.sendStatus(200);
+    });
+
+    // 🚀 MASTER HACK: O "Içamento de Rota" (Route Hoisting)
+    // O Express lê as rotas em ordem. Nossa rota acabou de cair no final da fila (atrás do 404).
+    // Nós vamos varrer a arquitetura, puxar ela do final e colocar APÓS as rotas reais, mas ANTES do 404!
+    if (app._router && app._router.stack) {
+      const stack = app._router.stack;
+      const webhookLayer = stack.pop(); // Remove a nossa rota do abismo do final da fila
+      
+      let insertIndex = 0;
+      // Procura de trás pra frente a última rota válida declarada
+      for (let i = stack.length - 1; i >= 0; i--) {
+        // Ignora Middlewares de Erro (geralmente recebem 4 argumentos) ou Middlewares sem rota específica (Catch-Alls)
+        if (stack[i].route || stack[i].name === 'router') {
+          insertIndex = i + 1;
+          break;
+        }
       }
       
-      // Se a requisição NÃO for pro Webhook, libera para o restante do seu app normalmente
-      next();
-    };
-
-    // Aplica o Middleware
-    app.use(telegramInterceptor);
-
-    // 🚀 MASTER HACK: Arranca o escudo do final da fila e planta ele na posição [0] (Topo Absoluto)
-    if (app._router && app._router.stack) {
-      const interceptorLayer = app._router.stack.pop();
-      app._router.stack.unshift(interceptorLayer);
-      console.log('⚡ [Telegram Webhook] Escudo Ativado: Interceptador alocado no nível máximo do Express.');
+      // Se não achou nada (impossível), coloca quase no topo, pra não quebrar o logger/body-parser
+      if (insertIndex === 0) insertIndex = stack.length; 
+      
+      stack.splice(insertIndex, 0, webhookLayer);
+      console.log(`🛡️ [Telegram Webhook] Içamento Ativo: Rota blindada na posição [${insertIndex}] (Bypass do 404 concluído).`);
     }
 
-    // Apenas a instância principal (0) do Cluster PM2 registra o link no Telegram
+    // Apenas a instância principal (0) do Cluster PM2 notifica os servidores do Telegram
     const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
     
     if (isPrimaryInstance && dominio) {
@@ -116,7 +107,6 @@ function initBot(models, services, dominio, app) {
     }
     console.log('🚀 [FastTV Bot] Inicializado com sucesso em modo WEBHOOK distribuído (Pronto para PM2 -i max).');
   } else {
-    // Fallback para dev local
     bot.startPolling();
     console.log('⚠️ [FastTV Bot] Inicializado em modo LONGBOLLING de Fallback (Não utilize em modo Cluster do PM2).');
   }
