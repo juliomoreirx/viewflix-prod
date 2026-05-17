@@ -81,12 +81,13 @@ async function syncViewflixCookies() {
             req.continue();
         });
 
-        console.log('🌐 Navegando para a página alvo...');
+console.log('🌐 Navegando para a página alvo via Proxy...');
         
         try {
-            await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 45000 });
+            // Proxies residenciais são mais lentos. Mudamos para 'domcontentloaded' para não travar na rede.
+            await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
         } catch (err) {
-            console.warn('⚠️ O carregamento demorou muito, forçando continuação...');
+            console.warn(`⚠️ Timeout na rede (${err.message}), mas o HTML pode já estar lá. Continuando...`);
         }
 
         console.log('⏳ Analisando a página (Aguardando Cloudflare ou Login)...');
