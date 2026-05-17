@@ -10,14 +10,15 @@ const cron = require('node-cron');
 // 1. CONFIGURAÇÕES E AMBIENTE
 // ==========================================
 const {
-    REDIS_URL, // 🚀 Padrão absoluto centralizado
+    REDIS_URL,
     RES_PROXY_HOST,
     RES_PROXY_PORT = '33335',
     RES_PROXY_USER,
     RES_PROXY_PASS,
     WEBHOOK_URL,
     WEBHOOK_TOKEN,
-    CATALOG_URL = 'http://vouver.me/api/content.json' 
+    // 🚀 URL exata extraída do trace de rede
+    CATALOG_URL = 'http://vouver.me/ajax/search.php?q=a' 
 } = process.env;
 
 if (!WEBHOOK_URL || !WEBHOOK_TOKEN) {
@@ -25,7 +26,6 @@ if (!WEBHOOK_URL || !WEBHOOK_TOKEN) {
     process.exit(1);
 }
 
-// Inicializa o Redis passando a string de conexão completa diretamente
 const redis = REDIS_URL ? new Redis(REDIS_URL) : new Redis();
 console.log('🔌 [Redis] Inicializado com sucesso via string de conexão.');
 
@@ -56,21 +56,25 @@ function filtrarCanaisLive(items) {
 // 3. CORE: DOWNLOAD E ATUALIZAÇÃO DO CATÁLOGO
 // ==========================================
 async function atualizarCatalogoFila() {
-    console.log(`[${new Date().toISOString()}] 🔄 Iniciando ciclo de atualização do catálogo...`);
+    console.log(`[${new Date().toISOString()}] 🔄 Iniciando extração do catálogo via GET AJAX...`);
 
     try {
-        // Buscar cookies frescos gerados pelo robô Puppeteer
         let cookiesAtivos = await redis.get('fasttv:cookies:current') || process.env.SESSION_COOKIES;
         
         if (!cookiesAtivos) {
-            console.warn('⚠️ Nenhum cookie ativo localizado no Redis ou .env. Tentando requisição limpa...');
+            console.warn('⚠️ Nenhum cookie ativo localizado. Tentando requisição...');
         }
 
+        // 🚀 CABEÇALHOS IDÊNTICOS AO SEU NAVEGADOR (TRACE DE REDE)
         let axiosConfig = {
             timeout: 90000, 
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-                'Accept': 'application/json, text/plain, */*',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0',
+                'Accept': 'application/json, text/javascript, */*; q=0.01',
+                'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
+                'X-Requested-With': 'XMLHttpRequest', // O disfarce do AJAX
+                'Connection': 'keep-alive',
+                'Referer': 'http://vouver.me/index.php?page=homepage',
                 'Cookie': cookiesAtivos || ''
             }
         };
@@ -82,15 +86,18 @@ async function atualizarCatalogoFila() {
             console.log('🛡️ Roteamento via Proxy Bright Data ativado.');
         }
 
-        console.log(`📡 Efetuando download do catálogo de: ${CATALOG_URL}`);
+        console.log(`📡 Disparando GET para: ${CATALOG_URL}`);
+        
         const response = await axios.get(CATALOG_URL, axiosConfig);
         
-        if (!response.data || (typeof response.data !== 'object')) {
-            throw new Error('O servidor respondeu com um payload inválido ou vazio.');
+        // Valida se a resposta tem a estrutura {"status":true, "data": {...}}
+        if (!response.data || !response.data.status || !response.data.data) {
+            throw new Error(`Payload inválido. Estrutura encapsulada 'data' ausente.`);
         }
 
-        const catalogoBruto = response.data;
-        console.log('✅ Download concluído. Processando filtragem de segurança...');
+        // 🚀 O pulo do gato: desempacotar o JSON real que fica dentro de "data"
+        const catalogoBruto = response.data.data;
+        console.log('✅ Resposta AJAX recebida e desempacotada. Processando filtragem...');
 
         const catalogoFiltrado = {
             movies: filtrarFilmesESeries(catalogoBruto.movies || catalogoBruto.filmes || []),
