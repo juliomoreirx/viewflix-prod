@@ -251,15 +251,6 @@ class ContentController {
     const navRow = buildPaginationRow(`season_${id}_${season}_page`, pageData.current, pageData.totalPages);
     if (navRow.length > 0) keyboard.push(navRow);
 
-    if (restantes === 0) {
-      keyboard.push([{ text: '✅ Temporada completa já adquirida', callback_data: 'noop' }]);
-    } else {
-      keyboard.push([{ text: `🛒 Comprar Mais Episódios ou Temporada`, callback_data: `buy_season_${id}_${season}_${precoTotal}` }]);
-      if (saldoAtual < precoTotal) {
-        keyboard.push([{ text: `⚠️ Faltam ${formatMoney(precoTotal - saldoAtual)} para a temporada toda`, callback_data: 'menu_add_credits' }]);
-      }
-    }
-
     keyboard.push([{ text: '⬅️ Voltar aos Detalhes', callback_data: `details_${id}_series` }]);
     keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
