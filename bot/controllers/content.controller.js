@@ -11,16 +11,11 @@ const { formatMoney, formatTimeRemaining, normalizeTitle, paginateList, buildPag
 const { calcularPrecoFinal } = require('../utils/pricing');
 const { toTelegramUrl, toAbsoluteUrl } = require('../utils/urls');
 const { decodificarHTML, escaparMarkdownSeguro, sanitizarTexto } = require('../../src/services/text-utils.service');
-
-// Integração de infraestrutura resiliente
 const bunnyCacheService = require('../../src/services/bunny-cache.service');
 const logger = require('../../src/lib/logger');
 
 class ContentController {
 
-  // ==========================================
-  // 1. EXIBIÇÃO DE DETALHES (FILME / SÉRIE / CANAL)
-  // ==========================================
   async handleDetails(query) {
     const chatId = query.message.chat.id;
     const msgId = query.message.message_id;
@@ -31,11 +26,10 @@ class ContentController {
     const loadingMsg = await bot.sendMessage(chatId, '🔍 *Carregando detalhes...*\n\nAguarde um segundinho enquanto busco as informações...', { parse_mode: 'Markdown' });
     bot.deleteMessage(chatId, msgId).catch(() => {});
 
-    // SEGUNDO PLANO: INTERCEPTAÇÃO E ATIVAÇÃO DO FLUXO DE CANAL AO VIVO
     if (type === 'livetv' || type === 'live') {
       bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
       
-      const cache = contentService.getCacheSafe();
+      const cache = await contentService.getCacheSafe(); // 🚀 ATUALIZADO
       const canal = (cache.livetv || []).find(item => String(item.id) === String(id));
       
       if (!canal) {
@@ -59,7 +53,6 @@ class ContentController {
       }
       keyboardCanal.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
       
-      // Tenta enviar a capa/logo do canal se existir
       const imgUrl = canal.coverUrl || canal.logo || canal.logoUrl || canal.capa || '';
       if (imgUrl) {
         try {
@@ -71,7 +64,6 @@ class ContentController {
       return bot.sendMessage(chatId, mensagemCanal, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboardCanal } });
     }
 
-    // Fluxo convencional de Filmes e Séries mantido intacto abaixo
     const buscarDetalhes = contentService.vouverService.buscarDetalhes;
     if (!buscarDetalhes) {
       bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
@@ -85,7 +77,9 @@ class ContentController {
     }
 
     bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
-    state.setUserState(chatId, { step: 'details', data: detalhes, id, type });
+    
+    // 🚀 ATUALIZADO: Salva o estado assincronamente no Redis
+    await state.setUserState(chatId, { step: 'details', data: detalhes, id, type });
 
     const saldoAtual = await paymentService.getUserCredits(chatId);
     const tituloSeguro = escaparMarkdownSeguro(detalhes.title);
@@ -135,13 +129,13 @@ class ContentController {
         fotoEnviada = true;
       }
     } catch (urlErr) {
-      console.warn('⚠️ Falha ao carregar capa via URL pública obscurecida, acionando fallback:', urlErr.message);
+      console.warn('⚠️ Falha ao carregar capa via URL pública obscurecida:', urlErr.message);
     }
 
     if (!fotoEnviada && detalhes.coverPath && fs.existsSync(detalhes.coverPath)) {
       await bot.sendPhoto(chatId, fs.createReadStream(detalhes.coverPath), { 
         caption: detalhes.title ? `🎬 Detalhes: ${detalhes.title}` : 'Detalhes' 
-      }).then(() => { fotoEnviada = true; }).catch((err) => console.error('❌ Erro no fallback de Stream local:', err.message));
+      }).then(() => { fotoEnviada = true; }).catch((err) => console.error('❌ Erro no fallback Stream:', err.message));
     }
 
     if (!fotoEnviada) {
@@ -156,16 +150,15 @@ class ContentController {
     await bot.sendMessage(chatId, mensagem, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboard } });
   }
 
-  // ==========================================
-  // 2. COMPRA E EXECUÇÃO DE FILME
-  // ==========================================
   async handleWatchMovie(query) {
     const chatId = query.message.chat.id;
     const parts = query.data.split('_');
     const id = parts[2];
     const precoNum = parseInt(parts[3], 10);
     const minutosReais = parts[4] ? parseInt(parts[4], 10) : 110;
-    const currentState = state.getUserState(chatId);
+    
+    // 🚀 ATUALIZADO: Leitura do Redis
+    const currentState = await state.getUserState(chatId);
 
     bot.answerCallbackQuery(query.id);
 
@@ -193,9 +186,6 @@ class ContentController {
     this._iniciarCacheComNotificacao(chatId, saved.purchase, `🎬 ${titulo} (${minutosReais}min)`, 'movie');
   }
 
-  // ==========================================
-  // 3. NAVEGAÇÃO DA TEMPORADA (PAGINAÇÃO)
-  // ==========================================
   async handleSeason(query) {
     const chatId = query.message.chat.id;
     const msgId = query.message.message_id;
@@ -208,9 +198,10 @@ class ContentController {
       page = parseInt(parts[4], 10) || 1;
     }
 
-    const currentState = state.getUserState(chatId);
+    // 🚀 ATUALIZADO: Leitura do Redis
+    const currentState = await state.getUserState(chatId);
     if (!currentState || !currentState.data || !currentState.data.seasons) {
-      return bot.answerCallbackQuery(query.id, { text: 'Erro ao carregar temporada de forma assíncrona.' });
+      return bot.answerCallbackQuery(query.id, { text: 'Sessão perdida.' });
     }
 
     let episodios = currentState.data.seasons[season] || currentState.data.seasons[Number(season)] || [];
@@ -276,14 +267,13 @@ class ContentController {
     );
   }
 
-  // ==========================================
-  // 4. DETALHES DO EPISÓDIO SELECIONADO
-  // ==========================================
   async handleEpisode(query) {
     const chatId = query.message.chat.id;
     const msgId = query.message.message_id;
     const [, epId, season] = query.data.split('_');
-    const currentState = state.getUserState(chatId);
+    
+    // 🚀 ATUALIZADO: Leitura do Redis
+    const currentState = await state.getUserState(chatId);
 
     if (!currentState || !currentState.data || !currentState.data.seasons) {
       return bot.answerCallbackQuery(query.id, { text: 'Sessão perdida.' });
@@ -327,14 +317,13 @@ class ContentController {
     await bot.sendMessage(chatId, mensagem, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboard } });
   }
 
-  // ==========================================
-  // 5. COMPRAR INDIVIDUALMENTE UM EPISÓDIO
-  // ==========================================
   async handleWatchEpisode(query) {
     const chatId = query.message.chat.id;
     const [, , epId, preco, season] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
-    const currentState = state.getUserState(chatId);
+    
+    // 🚀 ATUALIZADO: Leitura do Redis
+    const currentState = await state.getUserState(chatId);
 
     bot.answerCallbackQuery(query.id);
 
@@ -373,14 +362,13 @@ class ContentController {
     this._iniciarCacheComNotificacao(chatId, saved.purchase, `📺 ${nomeEpisodio}`, 'series');
   }
 
-  // ==========================================
-  // 6. COMPRAR A TEMPORADA INTEIRA (EM MASSA - REDIS)
-  // ==========================================
   async handleBuySeason(query) {
     const chatId = query.message.chat.id;
     const [, , id, season, preco] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
-    const currentState = state.getUserState(chatId);
+    
+    // 🚀 ATUALIZADO: Leitura do Redis
+    const currentState = await state.getUserState(chatId);
 
     bot.answerCallbackQuery(query.id);
 
@@ -400,7 +388,7 @@ class ContentController {
     if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Falha ao processar débito.');
 
     const novoSaldo = await paymentService.getUserCredits(chatId);
-    const statusMsg = await bot.sendMessage(chatId, `✅ *Compra Confirmada!*\n\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏳ Liberando ${restantes.length} episódios na fila do Redis...\nDisponíveis agora: 0/${restantes.length}`, { parse_mode: 'Markdown' });
+    const statusMsg = await bot.sendMessage(chatId, `✅ *Compra Confirmada!*\n\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏳ Liberando ${restantes.length} episódios na fila...\nDisponíveis agora: 0/${restantes.length}`, { parse_mode: 'Markdown' });
 
     const bulkStateId = `season-${id}-${season}-${Date.now()}`;
     
@@ -428,9 +416,6 @@ class ContentController {
     }
   }
 
-  // ==========================================
-  // 7. COMPRAR E ASSISTIR CANAL AO VIVO
-  // ==========================================
   async handleWatchLive(query) {
     const chatId = query.message.chat.id;
     const [, , id, preco] = query.data.split('_');
@@ -444,7 +429,7 @@ class ContentController {
     const deducaoSucesso = await paymentService.deductCredits(chatId, precoNum);
     if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Erro ao deduzir créditos.');
 
-    const cache = contentService.getCacheSafe();
+    const cache = await contentService.getCacheSafe(); // 🚀 ATUALIZADO
     const canal = (cache.livetv || []).find(item => String(item.id) === String(id));
     const tituloCanal = decodificarHTML(canal?.name || `Canal ${id}`);
 
@@ -460,9 +445,6 @@ class ContentController {
     this._enviarVideoComLink(chatId, saved.token, `📡 ${tituloCanal}`, precoNum, tituloCanal, 'livetv');
   }
 
-  // ==========================================
-  // 8. GERENCIAMENTO E INTERFACE DO MEU CONTEÚDO
-  // ==========================================
   async mostrarMeuConteudo(chatId) {
     try {
       const PurchasedContentModel = db.getPurchasedContentModel();
@@ -477,7 +459,9 @@ class ContentController {
       }
 
       const groups = this._buildMeuConteudoGroups(conteudos);
-      state.setUserState(chatId, { myContent: groups });
+      
+      // 🚀 ATUALIZADO: Salva o MyContent no Redis
+      await state.setUserState(chatId, { myContent: groups });
 
       const buttons = [];
       if (groups.movies.length > 0) buttons.push([{ text: `🎬 Filmes (${groups.movies.length})`, callback_data: 'mycontent_movies' }]);
@@ -492,7 +476,8 @@ class ContentController {
   }
 
   async mostrarMeuConteudoFilmes(chatId, page = 1) {
-    const myContent = state.getUserState(chatId)?.myContent;
+    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
     const pageData = paginateList(myContent.movies, page, 10);
@@ -509,7 +494,8 @@ class ContentController {
   }
 
   async mostrarMeuConteudoSeries(chatId, page = 1) {
-    const myContent = state.getUserState(chatId)?.myContent;
+    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
     const pageData = paginateList(myContent.series, page, 10);
@@ -526,7 +512,8 @@ class ContentController {
   }
 
   async mostrarMeuConteudoLive(chatId, page = 1) {
-    const myContent = state.getUserState(chatId)?.myContent;
+    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
     const pageData = paginateList(myContent.livetv, page, 10);
@@ -543,8 +530,10 @@ class ContentController {
   }
 
   async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
-    const myContent = state.getUserState(chatId)?.myContent;
+    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
+    
     const serie = myContent.series[index];
     if (!serie) return this.mostrarMeuConteudoSeries(chatId);
 
@@ -575,7 +564,6 @@ class ContentController {
   }
 
   async mostrarDetalhesConteudo(chatId, contentId) {
-    // 🚀 AQUI ESTÁ O LEÃO DE CHÁCARA: Previne crashes de Banco de Dados se o _id for undefined
     if (!contentId || contentId === 'undefined') {
       return bot.sendMessage(chatId, '❌ Este conteúdo expirou ou é inválido.\n\nRetorne ao menu e compre novamente.', {
         reply_markup: { inline_keyboard: [[{ text: '🏠 Menu Principal', callback_data: 'back_main' }]] }
@@ -606,9 +594,6 @@ class ContentController {
     }
   }
 
-  // ==========================================
-  // METODOS INTERNOS PRIVADOS
-  // ==========================================
   _buildMeuConteudoGroups(conteudos) {
     const movies = [];
     const livetv = [];
@@ -617,9 +602,6 @@ class ContentController {
     for (const item of conteudos) {
       const title = decodificarHTML(item.title || '');
       const purchaseDate = item.purchaseDate ? new Date(item.purchaseDate) : new Date(0);
-      
-      // 🚀 SALVAÇÃO DO MONGOOSE: Transforma o monstro do MongoDB em um JS Object purinho
-      // Isso extrai as variáveis _id e expiresAt ocultas para o iterador conseguir ler!
       const plainItem = item.toObject ? item.toObject() : item;
 
       if (item.mediaType === 'movie') { movies.push({ ...plainItem, title, purchaseDate }); continue; }

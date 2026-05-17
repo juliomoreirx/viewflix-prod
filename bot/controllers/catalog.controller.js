@@ -114,9 +114,10 @@ class CatalogController {
     }
   }
 
-  iniciarBusca(chatId, tipo) {
-    state.clearUserState(chatId);
-    state.setUserState(chatId, { step: `search_${tipo}` });
+  // 🚀 ATUALIZADO: Async/Await adicionado para o estado no Redis
+  async iniciarBusca(chatId, tipo) {
+    await state.clearUserState(chatId);
+    await state.setUserState(chatId, { step: `search_${tipo}` });
 
     const rotulo = tipo === 'movies' ? 'Filme' : tipo === 'series' ? 'Série' : 'Canal';
     const icone = tipo === 'movies' ? '🎥' : tipo === 'series' ? '📺' : '📡';
@@ -158,7 +159,8 @@ class CatalogController {
       const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
       const itensPagina = resultados.slice(inicio, inicio + ITENS_POR_PAGINA);
 
-      state.setUserState(chatId, { step: 'viewing_search', searchTerm: termoOriginal, searchType: tipo });
+      // 🚀 ATUALIZADO: Gravação Assíncrona no Redis
+      await state.setUserState(chatId, { step: 'viewing_search', searchTerm: termoOriginal, searchType: tipo });
 
       let ownedMovieIds = new Set();
       if (tipo === 'movies') {
@@ -219,7 +221,6 @@ class CatalogController {
       const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
       const itensPagina = canais.slice(inicio, inicio + ITENS_POR_PAGINA);
 
-      // 🚀 ROTA CORRETA: Redireciona para details_ID_livetv para o router não se perder
       const buttons = itensPagina.map((item) => {
         const name = decodificarHTML(item.name || `Canal ${item.id}`);
         return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `details_${item.id}_livetv` }];
@@ -267,9 +268,9 @@ class CatalogController {
     const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
     const itensPagina = resultados.slice(inicio, inicio + ITENS_POR_PAGINA);
 
-    state.setUserState(chatId, { step: 'viewing_search', searchTerm: termoOriginal, searchType: 'livetv' });
+    // 🚀 ATUALIZADO: Gravação Assíncrona no Redis
+    await state.setUserState(chatId, { step: 'viewing_search', searchTerm: termoOriginal, searchType: 'livetv' });
 
-    // 🚀 ROTA CORRETA: Redireciona para details_ID_livetv para o router não se perder
     const buttons = itensPagina.map((item) => {
       const name = decodificarHTML(item.name || `Canal ${item.id}`);
       return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `details_${item.id}_livetv` }];

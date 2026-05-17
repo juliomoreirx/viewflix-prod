@@ -18,7 +18,7 @@ module.exports = function registerCallbackHandlers() {
       if (data === 'back_main') {
         bot.answerCallbackQuery(query.id);
         bot.deleteMessage(chatId, msgId).catch(() => {});
-        state.clearUserState(chatId);
+        await state.clearUserState(chatId); // 🚀 ATUALIZADO: Limpa estado no Redis
         return catalogController.showMainMenu(chatId);
       }
 
@@ -38,7 +38,8 @@ module.exports = function registerCallbackHandlers() {
       if (data.startsWith('searchpage_')) {
         bot.answerCallbackQuery(query.id);
         const pagina = parseInt(data.split('_')[1], 10);
-        const currentState = state.getUserState(chatId);
+        // 🚀 ATUALIZADO: Leitura Assíncrona do Redis
+        const currentState = await state.getUserState(chatId);
         if (currentState && currentState.searchTerm) {
           return catalogController.renderBuscaPaginada(chatId, currentState.searchTerm, currentState.searchType, pagina, msgId);
         }
@@ -46,20 +47,19 @@ module.exports = function registerCallbackHandlers() {
       if (data.startsWith('livesearchpage_')) {
         bot.answerCallbackQuery(query.id);
         const pagina = parseInt(data.split('_')[1], 10);
-        const currentState = state.getUserState(chatId);
+        // 🚀 ATUALIZADO: Leitura Assíncrona do Redis
+        const currentState = await state.getUserState(chatId);
         if (currentState && currentState.searchTerm) {
           return catalogController.renderBuscaCanaisPaginada(chatId, currentState.searchTerm, pagina, msgId);
         }
       }
       
-      // Paginação da Lista Geral de Canais
       if (data.startsWith('livepage_')) {
         bot.answerCallbackQuery(query.id);
         bot.deleteMessage(chatId, msgId).catch(() => {});
         return catalogController.listarCanaisAoVivo(chatId, parseInt(data.split('_')[1], 10));
       }
       
-      // Botão "Lista Completa" nos resultados da busca de canais
       if (data === 'list_livetv') {
         bot.answerCallbackQuery(query.id);
         bot.deleteMessage(chatId, msgId).catch(() => {});
@@ -79,7 +79,6 @@ module.exports = function registerCallbackHandlers() {
       if (data.startsWith('season_')) return contentController.handleSeason(query);
       if (data.startsWith('episode_')) return contentController.handleEpisode(query);
       
-      // Execuções de compras e playbacks
       if (data.startsWith('watch_movie_')) return contentController.handleWatchMovie(query);
       if (data.startsWith('watch_ep_')) return contentController.handleWatchEpisode(query);
       if (data.startsWith('buy_season_')) return contentController.handleBuySeason(query);
@@ -143,11 +142,11 @@ module.exports = function registerCallbackHandlers() {
       if (data === 'check_balance') return paymentController.handleCheckBalance(chatId, query.id);
 
       // ==========================================
-      // 🚀 FALLBACK SEGURO PARA AÇÕES EXPIRADAS OU INVÁLIDAS
+      // FALLBACK SEGURO
       // ==========================================
       bot.answerCallbackQuery(query.id, { text: '⚠️ Ação inválida ou expirada. Retornando ao menu.', show_alert: true }).catch(() => {});
       bot.deleteMessage(chatId, msgId).catch(() => {});
-      state.clearUserState(chatId);
+      await state.clearUserState(chatId); // 🚀 ATUALIZADO
       return catalogController.showMainMenu(chatId);
 
     } catch (error) {
