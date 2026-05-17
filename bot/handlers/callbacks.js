@@ -33,7 +33,7 @@ module.exports = function registerCallbackHandlers() {
       }
 
       // ==========================================
-      // PAGINAÇÃO E CONTROLE DAS BUSCAS TEXTUAIS E LISTAS
+      // PAGINAÇÃO E CONTROLE DAS BUSCAS TEXTUAIS
       // ==========================================
       if (data.startsWith('searchpage_')) {
         bot.answerCallbackQuery(query.id);
@@ -52,14 +52,14 @@ module.exports = function registerCallbackHandlers() {
         }
       }
       
-      // 🚀 CORREÇÃO AQUI: Paginação da Lista Geral de Canais
+      // Paginação da Lista Geral de Canais
       if (data.startsWith('livepage_')) {
         bot.answerCallbackQuery(query.id);
         bot.deleteMessage(chatId, msgId).catch(() => {});
         return catalogController.listarCanaisAoVivo(chatId, parseInt(data.split('_')[1], 10));
       }
       
-      // 🚀 CORREÇÃO AQUI: Botão "Lista Completa" nos resultados da busca de canais
+      // Botão "Lista Completa" nos resultados da busca de canais
       if (data === 'list_livetv') {
         bot.answerCallbackQuery(query.id);
         bot.deleteMessage(chatId, msgId).catch(() => {});
@@ -75,7 +75,6 @@ module.exports = function registerCallbackHandlers() {
       // ==========================================
       // FLUXO DE DETALHES E INTERAÇÃO PRINCIPAL
       // ==========================================
-      // Ao trocar no catálogo para details_ID_livetv, a linha abaixo captura perfeitamente o clique!
       if (data.startsWith('details_')) return contentController.handleDetails(query);
       if (data.startsWith('season_')) return contentController.handleSeason(query);
       if (data.startsWith('episode_')) return contentController.handleEpisode(query);
@@ -143,11 +142,18 @@ module.exports = function registerCallbackHandlers() {
       }
       if (data === 'check_balance') return paymentController.handleCheckBalance(chatId, query.id);
 
-      // Fallback para queries não interceptadas
-      bot.answerCallbackQuery(query.id).catch(() => {});
+      // ==========================================
+      // 🚀 FALLBACK SEGURO PARA AÇÕES EXPIRADAS OU INVÁLIDAS
+      // ==========================================
+      bot.answerCallbackQuery(query.id, { text: '⚠️ Ação inválida ou expirada. Retornando ao menu.', show_alert: true }).catch(() => {});
+      bot.deleteMessage(chatId, msgId).catch(() => {});
+      state.clearUserState(chatId);
+      return catalogController.showMainMenu(chatId);
+
     } catch (error) {
       console.error('Erro crítico no interceptor de callbacks:', error);
-      bot.answerCallbackQuery(query.id, { text: 'Erro ao processar ação inline.' }).catch(() => {});
+      bot.answerCallbackQuery(query.id, { text: 'Erro ao processar ação inline. Tente novamente.' }).catch(() => {});
+      catalogController.showMainMenu(chatId);
     }
   });
 };

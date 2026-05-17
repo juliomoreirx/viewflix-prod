@@ -640,10 +640,11 @@ class ContentController {
   async _enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, mediaType = 'movie') {
     const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${token}`;
     
-    let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
+    let disclaimer = `⚠️ *AVISO DE STREAMING VIEWFLIX SPACE* ⚠️\n`;
     disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
     disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
     disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
+    disclaimer += `• _Se o player demorar iniciar, só apertar o botão de play e esperar iniciar._\n\n`;
 
     await bot.sendMessage(chatId, `${disclaimer}✅ *Liberado! Clique no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
       parse_mode: 'Markdown',

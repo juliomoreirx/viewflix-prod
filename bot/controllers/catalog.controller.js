@@ -144,7 +144,7 @@ class CatalogController {
 
       if (resultados.length === 0) {
         const msgErro = `❌ *Nenhum resultado encontrado para:* "${escaparMarkdownSeguro(termoOriginal)}"`;
-        const btnErro = { inline_keyboard: [[{ text: '🔄 Tentar Novamente', callback_data: `retry_search_${tipo}` }], [{ text: '🏠 Menu', callback_data: 'back_main' }]] };
+        const btnErro = { inline_keyboard: [[{ text: '🔄 Tentar Novamente', callback_data: `retry_search_${tipo}` }], [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]] };
         
         if (msgId) {
           return bot.editMessageText(msgErro, { chat_id: chatId, message_id: msgId, parse_mode: 'Markdown', reply_markup: btnErro }).catch(() => {});
@@ -219,7 +219,7 @@ class CatalogController {
       const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
       const itensPagina = canais.slice(inicio, inicio + ITENS_POR_PAGINA);
 
-      // 🚀 CORREÇÃO AQUI: Mudando de live_details_ID para details_ID_livetv
+      // 🚀 ROTA CORRETA: Redireciona para details_ID_livetv para o router não se perder
       const buttons = itensPagina.map((item) => {
         const name = decodificarHTML(item.name || `Canal ${item.id}`);
         return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `details_${item.id}_livetv` }];
@@ -254,7 +254,7 @@ class CatalogController {
 
     if (resultados.length === 0) {
       const txtErro = `❌ *Nenhum canal encontrado para:* ${escaparMarkdownSeguro(termoOriginal)}`;
-      const btnErro = { inline_keyboard: [[{ text: '🔄 Buscar novamente', callback_data: 'retry_search_livetv' }], [{ text: '🏠 Menu', callback_data: 'back_main' }]] };
+      const btnErro = { inline_keyboard: [[{ text: '🔄 Buscar novamente', callback_data: 'retry_search_livetv' }], [{ text: '🏠 Menu Principal', callback_data: 'back_main' }]] };
       if (msgId) {
         return bot.editMessageText(txtErro, { chat_id: chatId, message_id: msgId, parse_mode: 'Markdown', reply_markup: btnErro }).catch(() => {});
       }
@@ -269,7 +269,7 @@ class CatalogController {
 
     state.setUserState(chatId, { step: 'viewing_search', searchTerm: termoOriginal, searchType: 'livetv' });
 
-    // 🚀 CORREÇÃO AQUI: Mudando de live_details_ID para details_ID_livetv
+    // 🚀 ROTA CORRETA: Redireciona para details_ID_livetv para o router não se perder
     const buttons = itensPagina.map((item) => {
       const name = decodificarHTML(item.name || `Canal ${item.id}`);
       return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `details_${item.id}_livetv` }];
