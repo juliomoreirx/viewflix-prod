@@ -17,10 +17,12 @@ const {
     RES_PROXY_PASS,
     LOGIN_USER,
     LOGIN_PASS,
-    TARGET_URL = 'http://vouver.me/index.php?page=login',
     WEBHOOK_URL,
     WEBHOOK_TOKEN
 } = process.env;
+
+// 🚀 FIX ABSOLUTO: HTTP PURO E ENGESSADO. SEM REPLACES, SEM INVENCÕES.
+const TARGET_URL = 'http://vouver.me/index.php?page=login';
 
 if (!LOGIN_USER || !LOGIN_PASS || !WEBHOOK_URL || !WEBHOOK_TOKEN) {
     console.error('❌ ERRO FATAL: Variáveis de ambiente ausentes no .env do Worker!');
@@ -44,10 +46,12 @@ async function syncViewflixCookies() {
             '--ignore-certificate-errors',
             '--disable-dev-shm-usage',
             '--disable-gpu',
-            '--disable-features=IsolateOrigins,site-per-process,AutoUpgradeMixedContent,HttpsUpgrades'
+            // 🚀 A MÁGICA ESTÁ AQUI: Proíbe o Chrome de tentar forçar HTTPS (O que causava o Too Many Redirects)
+            '--disable-features=HttpsUpgrades,AutoUpgradeMixedContent,IsolateOrigins,site-per-process',
+            '--unsafely-treat-insecure-origin-as-secure=http://vouver.me'
         ];
 
-        // 🚀 FIX: Sem encodeURIComponent! Usando a string bruta que a Bright Data espera!
+        // Usando a credencial bruta sem encode para a Bright Data não rejeitar
         if (RES_PROXY_HOST && RES_PROXY_USER && RES_PROXY_PASS) {
             const proxyUrlCompleta = `http://${RES_PROXY_USER}:${RES_PROXY_PASS}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
             proxyLocalAutenticado = await proxyChain.anonymizeProxy(proxyUrlCompleta);
@@ -67,7 +71,7 @@ async function syncViewflixCookies() {
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
         await page.setDefaultNavigationTimeout(45000);
 
-        // 🚀 Aceleração máxima: corta peso morto da rede residencial
+        // Bloqueio de peso morto (imagens e fontes)
         await page.setRequestInterception(true);
         page.on('request', (req) => {
             if (['image', 'font', 'media'].includes(req.resourceType())) {
@@ -76,7 +80,7 @@ async function syncViewflixCookies() {
             req.continue();
         });
 
-        console.log(`🌐 Navegando para: ${TARGET_URL}`);
+        console.log(`🌐 Navegando para (HTTP PURO): ${TARGET_URL}`);
         
         try {
             await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 45000 });
@@ -95,9 +99,12 @@ async function syncViewflixCookies() {
         }, LOGIN_USER, LOGIN_PASS);
 
         console.log('🔑 Credenciais inseridas. Aguardando processamento...');
-        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }).catch(() => {});
         
-        await new Promise(r => setTimeout(r, 3000)); 
+        // Timeout menor e com catch para não travar o script se o botão for de requisição AJAX (como mostrou no HTML)
+        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 15000 }).catch(() => {});
+        
+        // Tempo crucial para a resposta do AJAX.login.php processar o cookie no servidor
+        await new Promise(r => setTimeout(r, 4000)); 
 
         const cookies = await page.cookies();
         const cookieMap = new Map();
@@ -143,15 +150,6 @@ async function syncViewflixCookies() {
 
     } catch (error) {
         console.error('❌ [Erro Crítico]:', error.message);
-        if (browser) {
-            try {
-                const pages = await browser.pages();
-                if (pages.length > 0) {
-                    await pages[0].screenshot({ path: '/root/viewflix/viewflix-prod/viewflix-worker/debug-cloudflare.png', fullPage: true });
-                    console.log('📸 Screenshot para debug salvo em: debug-cloudflare.png');
-                }
-            } catch (e) {}
-        }
     } finally {
         console.log('🧹 Limpando processos...');
         if (browser) await browser.close();
