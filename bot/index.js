@@ -49,31 +49,58 @@ function initBot(models, services, dominio, app) {
   // 5. Ativar as rotinas assíncronas de manutenção (Cleanup / Notificações)
   startJobs();
 
-  // 6. 🚀 ROTEAMENTO CIRÚRGICO DE WEBHOOK: Autônomo e Prioritário
+  // 6. 🚀 ROTEAMENTO CIRÚRGICO DE WEBHOOK: Interceptador de Stream Bruto (Raw Level)
   if (app) {
-    // Declaramos um mini-roteador isolado para garantir que a rota leve o parser JSON consigo para o topo da pilha
-    const botRouter = express.Router();
     
-    botRouter.post('/api/telegram-webhook', express.json(), (req, res) => {
-      if (req.body && Object.keys(req.body).length > 0) {
-        bot.processUpdate(req.body);
-      } else {
-        console.log('⚠️ [Telegram Webhook] Recebeu POST, mas o corpo está vazio. O express.json() pode estar falhando.');
+    // Escudo Interceptador: Não depende do sistema de rotas do Express
+    const telegramInterceptor = (req, res, next) => {
+      // Se for exatamente o disparo do Telegram, nós assumimos o controle
+      if (req.method === 'POST' && req.path === '/api/telegram-webhook') {
+        let rawData = '';
+        
+        // Bebe direto da fonte (lê os pacotes TCP puros antes de qualquer parse)
+        req.on('data', chunk => { rawData += chunk.toString(); });
+        
+        req.on('end', () => {
+          try {
+            if (rawData) {
+              const payload = JSON.parse(rawData);
+              bot.processUpdate(payload);
+              console.log(`✅ [WebHook] Sinal processado com sucesso. Evento disparado no Bot.`);
+            } else if (req.body && Object.keys(req.body).length > 0) {
+              // Fallback de segurança se o body-parser já tiver processado misteriosamente
+              bot.processUpdate(req.body);
+              console.log(`✅ [WebHook] Sinal processado via req.body existente.`);
+            } else {
+              console.warn(`⚠️ [WebHook] Requisição recebida, mas o payload está completamente vazio.`);
+            }
+          } catch (err) {
+            console.error(`❌ [WebHook] Erro crítico ao decodificar payload do Telegram:`, err.message);
+          }
+          
+          // Responde na mesma hora pro Telegram não achar que o servidor travou
+          res.status(200).send('OK');
+        });
+        
+        // Retorna imediatamente para impedir que o Express passe o fluxo pra frente
+        return; 
       }
-      res.sendStatus(200);
-    });
+      
+      // Se a requisição NÃO for pro Webhook, libera para o restante do seu app normalmente
+      next();
+    };
 
-    app.use(botRouter);
+    // Aplica o Middleware
+    app.use(telegramInterceptor);
 
-    // 🚀 MASTER HACK: Move o mini-roteador do bot para o topo absoluto do Express (Index 0).
-    // Isso garante que ele atenda a porta ANTES de qualquer regra 404, auth ou middleware global que possa bloquear.
+    // 🚀 MASTER HACK: Arranca o escudo do final da fila e planta ele na posição [0] (Topo Absoluto)
     if (app._router && app._router.stack) {
-      const camadaDoBot = app._router.stack.pop();
-      app._router.stack.unshift(camadaDoBot);
-      console.log('⚡ [Telegram Webhook] Escudo ativado! Rota do bot movida para o topo da pilha do Express.');
+      const interceptorLayer = app._router.stack.pop();
+      app._router.stack.unshift(interceptorLayer);
+      console.log('⚡ [Telegram Webhook] Escudo Ativado: Interceptador alocado no nível máximo do Express.');
     }
 
-    // Apenas a instância principal (0) do Cluster PM2 notifica os servidores do Telegram
+    // Apenas a instância principal (0) do Cluster PM2 registra o link no Telegram
     const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
     
     if (isPrimaryInstance && dominio) {
@@ -89,7 +116,7 @@ function initBot(models, services, dominio, app) {
     }
     console.log('🚀 [FastTV Bot] Inicializado com sucesso em modo WEBHOOK distribuído (Pronto para PM2 -i max).');
   } else {
-    // Fallback de segurança
+    // Fallback para dev local
     bot.startPolling();
     console.log('⚠️ [FastTV Bot] Inicializado em modo LONGBOLLING de Fallback (Não utilize em modo Cluster do PM2).');
   }
