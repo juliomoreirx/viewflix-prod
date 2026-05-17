@@ -8,7 +8,7 @@ const models = require('../models');
 // ======================
 // NOVA IMPORTAÇÃO DO BOT (estrutura modular)
 // ======================
-const botModule = require('../../bot');                    // ← ALTERADO AQUI
+const botModule = require('../../bot');
 
 const contentService = require('../services/content-cache.service');
 const PaymentService = require('../services/payment.service');
@@ -72,10 +72,9 @@ async function startServer() {
     const buscarDetalhesFn = contentService.buscarDetalhes || contentService.getDetails || contentService.fetchDetails || null;
     const estimarDuracaoFn = contentService.estimarDuracao || contentService.estimateDuration || null;
 
-// ======================
+    // ======================
     // INICIALIZAÇÃO DO BOT (nova estrutura)
     // ======================
-    // 🚀 ATUALIZADO: Injetado o objeto 'app' (Express) como 4º argumento para ativar o modo Webhook distribuído
     botModule.initBot(
       models,
       {
@@ -127,7 +126,6 @@ async function startServer() {
         server.close(async () => {
           logger.info({ msg: 'Servidor HTTP fechado.' });
           
-          // Encerramento do bot (nova referência)
           if (botModule.bot && typeof botModule.bot.stopPolling === 'function') {
             await botModule.bot.stopPolling();
             logger.info({ msg: 'Telegram Bot polling encerrado.' });
@@ -172,3 +170,8 @@ async function startServer() {
 }
 
 module.exports = { startServer };
+
+// 🚀 GATILHO DE EXECUÇÃO SÊNIOR: Se este ficheiro for chamado diretamente pelo PM2, executa a inicialização!
+if (require.main === module) {
+  startServer();
+}
