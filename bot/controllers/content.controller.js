@@ -21,15 +21,15 @@ class ContentController {
     const msgId = query.message.message_id;
     const [, id, type] = query.data.split('_');
 
-    bot.answerCallbackQuery(query.id, { text: '🔄 Carregando...' });
+    bot.answerCallbackQuery(query.id, { text: '🔄 A carregar...' });
     
-    const loadingMsg = await bot.sendMessage(chatId, '🔍 *Carregando detalhes...*\n\nAguarde um segundinho enquanto busco as informações...', { parse_mode: 'Markdown' });
+    const loadingMsg = await bot.sendMessage(chatId, '🔍 *A carregar detalhes...*\n\nAguarde um segundo enquanto procuro as informações...', { parse_mode: 'Markdown' });
     bot.deleteMessage(chatId, msgId).catch(() => {});
 
     if (type === 'livetv' || type === 'live') {
       bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
       
-      const cache = await contentService.getCacheSafe(); // 🚀 ATUALIZADO
+      const cache = await contentService.getCacheSafe();
       const canal = (cache.livetv || []).find(item => String(item.id) === String(id));
       
       if (!canal) {
@@ -42,8 +42,8 @@ class ContentController {
       
       let mensagemCanal = `📡 *${escaparMarkdownSeguro(tituloCanal)}*\n\n`;
       mensagemCanal += `📺 *Categoria:* Ao Vivo\n`;
-      mensagemCanal += `💰 *Preço para liberar:* ${formatMoney(precoCanal)}\n`;
-      mensagemCanal += `💳 *Seu saldo:* ${formatMoney(saldoAtual)}`;
+      mensagemCanal += `💰 *Preço para libertar:* ${formatMoney(precoCanal)}\n`;
+      mensagemCanal += `💳 *O teu saldo:* ${formatMoney(saldoAtual)}`;
       
       const keyboardCanal = [];
       if (saldoAtual < precoCanal) {
@@ -77,8 +77,6 @@ class ContentController {
     }
 
     bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
-    
-    // 🚀 ATUALIZADO: Salva o estado assincronamente no Redis
     await state.setUserState(chatId, { step: 'details', data: detalhes, id, type });
 
     const saldoAtual = await paymentService.getUserCredits(chatId);
@@ -99,7 +97,7 @@ class ContentController {
       }
 
       const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos });
-      mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
+      mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 O teu saldo: ${formatMoney(saldoAtual)}`;
 
       if (saldoAtual < pricing.precoFinal) {
         keyboard.push([{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]);
@@ -107,7 +105,7 @@ class ContentController {
         keyboard.push([{ text: `▶️ Assistir - ${formatMoney(pricing.precoFinal)}`, callback_data: `watch_movie_${id}_${pricing.precoFinal}_${pricing.duracaoMinutos}` }]);
       }
     } else {
-      mensagem += `📺 *Temporadas disponíveis:*\n\n⏰ Válido por: 7 dias\n💳 Seu saldo: ${formatMoney(saldoAtual)}\n\n`;
+      mensagem += `📺 *Temporadas disponíveis:*\n\n⏰ Válido por: 7 dias\n💳 O teu saldo: ${formatMoney(saldoAtual)}\n\n`;
       Object.keys(detalhes.seasons || {}).forEach((seasonKey) => {
         const eps = detalhes.seasons[seasonKey] || [];
         keyboard.push([{ text: `Temporada ${seasonKey} (${eps.length} ep)`, callback_data: `season_${id}_${String(seasonKey)}` }]);
@@ -157,20 +155,24 @@ class ContentController {
     const precoNum = parseInt(parts[3], 10);
     const minutosReais = parts[4] ? parseInt(parts[4], 10) : 110;
     
-    // 🚀 ATUALIZADO: Leitura do Redis
-    const currentState = await state.getUserState(chatId);
+    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
+    const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:${id}`, '1', 'EX', 5, 'NX');
+    if (!actionLock) {
+      return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
+    }
 
+    const currentState = await state.getUserState(chatId);
     bot.answerCallbackQuery(query.id);
 
     const saldoAtual = await paymentService.getUserCredits(chatId);
     if (saldoAtual < precoNum) {
-      return bot.sendMessage(chatId, `❌ *Saldo Insuficiente*\n\nVocê possui: ${formatMoney(saldoAtual)}\nNecessário: ${formatMoney(precoNum)}`, {
+      return bot.sendMessage(chatId, `❌ *Saldo Insuficiente*\n\nPossuis: ${formatMoney(saldoAtual)}\nNecessário: ${formatMoney(precoNum)}`, {
         parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]] }
       });
     }
 
     const deducaoSucesso = await paymentService.deductCredits(chatId, precoNum);
-    if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Erro ao processar pagamento. Tente novamente.');
+    if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Erro ao processar pagamento. Tenta novamente.');
 
     const titulo = currentState?.data?.title || 'Filme';
     const saved = await contentService.salvarConteudoComprado(chatId, id, 'movie', titulo, precoNum);
@@ -198,7 +200,6 @@ class ContentController {
       page = parseInt(parts[4], 10) || 1;
     }
 
-    // 🚀 ATUALIZADO: Leitura do Redis
     const currentState = await state.getUserState(chatId);
     if (!currentState || !currentState.data || !currentState.data.seasons) {
       return bot.answerCallbackQuery(query.id, { text: 'Sessão perdida.' });
@@ -262,7 +263,7 @@ class ContentController {
     bot.deleteMessage(chatId, msgId).catch(() => {});
 
     await bot.sendMessage(chatId,
-      `📺 *${escaparMarkdownSeguro(currentState.data.title)}*\n*Temporada ${season}*\n\nTotal: ${episodios.length} episódios\n📋 Página ${pageData.current} de ${pageData.totalPages}\n💰 Valor restante da Temporada: ${formatMoney(precoTotal)}\n💳 Seu Saldo: ${formatMoney(saldoAtual)}\n\nSelecione um episódio para assistir:`,
+      `📺 *${escaparMarkdownSeguro(currentState.data.title)}*\n*Temporada ${season}*\n\nTotal: ${episodios.length} episódios\n📋 Página ${pageData.current} de ${pageData.totalPages}\n💰 Valor restante da Temporada: ${formatMoney(precoTotal)}\n💳 O teu Saldo: ${formatMoney(saldoAtual)}\n\nSelecione um episódio para assistir:`,
       { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboard } }
     );
   }
@@ -272,7 +273,6 @@ class ContentController {
     const msgId = query.message.message_id;
     const [, epId, season] = query.data.split('_');
     
-    // 🚀 ATUALIZADO: Leitura do Redis
     const currentState = await state.getUserState(chatId);
 
     if (!currentState || !currentState.data || !currentState.data.seasons) {
@@ -297,11 +297,11 @@ class ContentController {
       ...userService.getPurchaseVisibilityFilter({ expiresAt: { $gt: new Date() } })
     });
 
-    let mensagem = `📺 *${escaparMarkdownSeguro(currentState.data.title)}*\n*Temporada ${season} - ${escaparMarkdownSeguro(episodio.name)}*\n\n⏱️ Duração: ~${pricing.duracaoMinutos}min\n⏰ Validade: 7 dias\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
+    let mensagem = `📺 *${escaparMarkdownSeguro(currentState.data.title)}*\n*Temporada ${season} - ${escaparMarkdownSeguro(episodio.name)}*\n\n⏱️ Duração: ~${pricing.duracaoMinutos}min\n⏰ Validade: 7 dias\n💳 O teu saldo: ${formatMoney(saldoAtual)}`;
     const keyboard = [];
 
     if (ownedEpisode) {
-      mensagem += `\n\n✅ Você já possui acesso ativo a este episódio!`;
+      mensagem += `\n\n✅ Já possuis acesso ativo a este episódio!`;
       keyboard.push([{ text: '▶️ Assistir Agora', url: `${config.dynamic.DOMINIO_PUBLICO}/player/${ownedEpisode.token}` }]);
     } else if (saldoAtual < pricing.precoFinal) {
       mensagem += `\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n\n⚠️ Saldo insuficiente! Faltam ${formatMoney(pricing.precoFinal - saldoAtual)}`;
@@ -322,9 +322,11 @@ class ContentController {
     const [, , epId, preco, season] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
     
-    // 🚀 ATUALIZADO: Leitura do Redis
-    const currentState = await state.getUserState(chatId);
+    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
+    const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:${epId}`, '1', 'EX', 5, 'NX');
+    if (!actionLock) return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
 
+    const currentState = await state.getUserState(chatId);
     bot.answerCallbackQuery(query.id);
 
     const saldoAtual = await paymentService.getUserCredits(chatId);
@@ -353,7 +355,7 @@ class ContentController {
 
     if (!saved?.token) {
       await paymentService.addCredits(chatId, precoNum);
-      return bot.sendMessage(chatId, '❌ Erro ao liberar o link.');
+      return bot.sendMessage(chatId, '❌ Erro ao libertar o link.');
     }
 
     const novoSaldo = await paymentService.getUserCredits(chatId);
@@ -367,9 +369,11 @@ class ContentController {
     const [, , id, season, preco] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
     
-    // 🚀 ATUALIZADO: Leitura do Redis
-    const currentState = await state.getUserState(chatId);
+    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
+    const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:season:${season}`, '1', 'EX', 5, 'NX');
+    if (!actionLock) return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
 
+    const currentState = await state.getUserState(chatId);
     bot.answerCallbackQuery(query.id);
 
     let episodios = currentState?.data?.seasons?.[season] || [];
@@ -379,7 +383,7 @@ class ContentController {
     const ownedEpisodes = await userService.getOwnedEpisodesSet(chatId, currentState.data.title, season, episodeIds);
     const restantes = episodios.filter(ep => !ownedEpisodes.has(String(ep.id)));
 
-    if (restantes.length === 0) return bot.sendMessage(chatId, '✅ Você já tem todos os episódios ativos!');
+    if (restantes.length === 0) return bot.sendMessage(chatId, '✅ Já tens todos os episódios ativos!');
 
     const saldoAtual = await paymentService.getUserCredits(chatId);
     if (saldoAtual < precoNum) return bot.sendMessage(chatId, '❌ Saldo insuficiente.');
@@ -388,7 +392,7 @@ class ContentController {
     if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Falha ao processar débito.');
 
     const novoSaldo = await paymentService.getUserCredits(chatId);
-    const statusMsg = await bot.sendMessage(chatId, `✅ *Compra Confirmada!*\n\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏳ Liberando ${restantes.length} episódios na fila...\nDisponíveis agora: 0/${restantes.length}`, { parse_mode: 'Markdown' });
+    const statusMsg = await bot.sendMessage(chatId, `✅ *Compra Confirmada!*\n\n💰 -${formatMoney(precoNum)}\n💳 Novo saldo: ${formatMoney(novoSaldo)}\n\n⏳ A libertar ${restantes.length} episódios na fila...\nDisponíveis agora: 0/${restantes.length}`, { parse_mode: 'Markdown' });
 
     const bulkStateId = `season-${id}-${season}-${Date.now()}`;
     
@@ -406,12 +410,18 @@ class ContentController {
       const saved = await contentService.salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season, { seriesId, episodeIndex, totalEpisodes });
       
       if (saved?.token) {
-        bunnyCacheService.enqueue(saved.purchase, {
-          chatId: chatId,
-          statusMessageId: statusMsg.message_id,
-          bulkStateId: bulkStateId,
-          episodeName: ep.name
-        });
+        // 🚀 MUTEX: Bloqueio de Infraestrutura de Massa (Anti-Double FFmpeg para a mesma série)
+        const lockKey = `lock:transcode:${ep.id}`;
+        const lockAdquirido = await bunnyCacheService.redisConnection.set(lockKey, '1', 'EX', 900, 'NX');
+        
+        if (lockAdquirido) {
+          bunnyCacheService.enqueue(saved.purchase, {
+            chatId: chatId,
+            statusMessageId: statusMsg.message_id,
+            bulkStateId: bulkStateId,
+            episodeName: ep.name
+          });
+        }
       }
     }
   }
@@ -421,6 +431,10 @@ class ContentController {
     const [, , id, preco] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
 
+    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
+    const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:live:${id}`, '1', 'EX', 5, 'NX');
+    if (!actionLock) return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
+
     bot.answerCallbackQuery(query.id);
     const saldoAtual = await paymentService.getUserCredits(chatId);
 
@@ -429,7 +443,7 @@ class ContentController {
     const deducaoSucesso = await paymentService.deductCredits(chatId, precoNum);
     if (!deducaoSucesso) return bot.sendMessage(chatId, '❌ Erro ao deduzir créditos.');
 
-    const cache = await contentService.getCacheSafe(); // 🚀 ATUALIZADO
+    const cache = await contentService.getCacheSafe();
     const canal = (cache.livetv || []).find(item => String(item.id) === String(id));
     const tituloCanal = decodificarHTML(canal?.name || `Canal ${id}`);
 
@@ -453,14 +467,12 @@ class ContentController {
       }).sort({ purchaseDate: -1 });
 
       if (conteudos.length === 0) {
-        return bot.sendMessage(chatId, `📦 *Meu Conteúdo*\n\nVocê não possui nenhum conteúdo ativo.`, {
+        return bot.sendMessage(chatId, `📦 *O Meu Conteúdo*\n\nNão possuis nenhum conteúdo ativo.`, {
           parse_mode: 'Markdown', reply_markup: { inline_keyboard: [[{ text: '🔍 Buscar Filmes', callback_data: 'retry_search_movies' }], [{ text: '🏠 Menu', callback_data: 'back_main' }]] }
         });
       }
 
       const groups = this._buildMeuConteudoGroups(conteudos);
-      
-      // 🚀 ATUALIZADO: Salva o MyContent no Redis
       await state.setUserState(chatId, { myContent: groups });
 
       const buttons = [];
@@ -469,14 +481,14 @@ class ContentController {
       if (groups.livetv.length > 0) buttons.push([{ text: `📡 Canais (${groups.livetv.length})`, callback_data: 'mycontent_live' }]);
       buttons.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
-      await bot.sendMessage(chatId, `📦 *Meu Conteúdo*\n\nEscolha uma categoria abaixo:`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+      await bot.sendMessage(chatId, `📦 *O Meu Conteúdo*\n\nEscolhe uma categoria abaixo:`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
     } catch (e) {
-      bot.sendMessage(chatId, '❌ Erro ao abrir conteúdo.');
+      bot.sendMessage(chatId, '❌ Erro ao abrir o conteúdo.');
     }
   }
 
   async mostrarMeuConteudoFilmes(chatId, page = 1) {
-    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const currentState = await state.getUserState(chatId);
     const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
@@ -490,11 +502,11 @@ class ContentController {
     if (navRow.length > 0) buttons.push(navRow);
     buttons.push([{ text: '⬅️ Voltar', callback_data: 'my_content' }]);
 
-    await bot.sendMessage(chatId, `🎬 *Meus Filmes Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+    await bot.sendMessage(chatId, `🎬 *Os Meus Filmes Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
   }
 
   async mostrarMeuConteudoSeries(chatId, page = 1) {
-    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const currentState = await state.getUserState(chatId);
     const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
@@ -508,11 +520,11 @@ class ContentController {
     if (navRow.length > 0) buttons.push(navRow);
     buttons.push([{ text: '⬅️ Voltar', callback_data: 'my_content' }]);
 
-    await bot.sendMessage(chatId, `📺 *Minhas Séries Ativas*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+    await bot.sendMessage(chatId, `📺 *As Minhas Séries Ativas*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
   }
 
   async mostrarMeuConteudoLive(chatId, page = 1) {
-    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const currentState = await state.getUserState(chatId);
     const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
@@ -526,11 +538,11 @@ class ContentController {
     if (navRow.length > 0) buttons.push(navRow);
     buttons.push([{ text: '⬅️ Voltar', callback_data: 'my_content' }]);
 
-    await bot.sendMessage(chatId, `📡 *Meus Canais Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
+    await bot.sendMessage(chatId, `📡 *Os Meus Canais Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
   }
 
   async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
-    const currentState = await state.getUserState(chatId); // 🚀 ATUALIZADO
+    const currentState = await state.getUserState(chatId);
     const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
     
@@ -565,7 +577,7 @@ class ContentController {
 
   async mostrarDetalhesConteudo(chatId, contentId) {
     if (!contentId || contentId === 'undefined') {
-      return bot.sendMessage(chatId, '❌ Este conteúdo expirou ou é inválido.\n\nRetorne ao menu e compre novamente.', {
+      return bot.sendMessage(chatId, '❌ Este conteúdo expirou ou é inválido.\n\nRetorna ao menu e efetua a compra novamente.', {
         reply_markup: { inline_keyboard: [[{ text: '🏠 Menu Principal', callback_data: 'back_main' }]] }
       });
     }
@@ -578,11 +590,11 @@ class ContentController {
       const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${content.token}`;
       
       let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
-      disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
-      disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
-      disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
+      disclaimer += `• _Para correr sem travamentos, utiliza uma ligação Wi-Fi/Rede Estável._\n`;
+      disclaimer += `• _Recomendamos abrir o link no Google Chrome ou Safari._\n`;
+      disclaimer += `• _Se o player encravar no início, atualiza (F5) a página._\n\n`;
 
-      const msg = `${disclaimer}🎯 *Link Liberado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
+      const msg = `${disclaimer}🎯 *Link Libertado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
       
       await bot.sendMessage(chatId, msg, {
         parse_mode: 'Markdown',
@@ -590,7 +602,7 @@ class ContentController {
       });
     } catch (error) {
       logger.error(`[ContentController] Erro ao buscar ID do conteúdo: ${contentId}`, error);
-      bot.sendMessage(chatId, '❌ Erro ao buscar informações do conteúdo no banco de dados.');
+      bot.sendMessage(chatId, '❌ Erro ao procurar informações do conteúdo na base de dados.');
     }
   }
 
@@ -621,9 +633,22 @@ class ContentController {
     return { movies, livetv, series: Array.from(seriesMap.values()) };
   }
 
+  // 🚀 MUTEX: Bloqueio de Infraestrutura (15 Minutos) para Transcodes Paralelos
   async _iniciarCacheComNotificacao(chatId, purchase, caption, mediaType) {
-    const token = purchase.token;
-    const msg = await bot.sendMessage(chatId, `⏳ *Preparando seu conteúdo no servidor...*\n\nSua solicitação entrou na fila de processamento automático do Redis.`, { parse_mode: 'Markdown' }).catch(() => null);
+    const videoId = purchase.videoId;
+    const lockKey = `lock:transcode:${videoId}`;
+    
+    // Tenta adquirir o bloqueio por 15 minutos (900 segundos) para impedir downloads simultâneos do mesmo vídeo
+    const lockAdquirido = await bunnyCacheService.redisConnection.set(lockKey, '1', 'EX', 900, 'NX');
+
+    if (!lockAdquirido) {
+      // Outro utilizador já ativou a preparação deste conteúdo! Evitamos enviar para o BullMQ de novo.
+      await bot.sendMessage(chatId, `🍿 *Infraestrutura Ativa!*\n\nEste conteúdo já está a ser descarregado e preparado neste exato momento (outro utilizador solicitou há pouco tempo).\n\nGarantiste um atalho! Vai à tua aba 📦 *O Meu Conteúdo* dentro de alguns minutos para assistires.`, { parse_mode: 'Markdown' });
+      return;
+    }
+
+    // Se a tranca foi adquirida com sucesso, a infraestrutura prossegue normalmente
+    const msg = await bot.sendMessage(chatId, `⏳ *A preparar o teu conteúdo no servidor...*\n\nA tua solicitação entrou na fila de processamento automático do Redis.`, { parse_mode: 'Markdown' }).catch(() => null);
 
     bunnyCacheService.enqueue(purchase, {
       chatId: chatId,
@@ -637,13 +662,13 @@ class ContentController {
     const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${token}`;
     
     let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
-    disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
-    disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
-    disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
+    disclaimer += `• _Para correr sem travamentos, utiliza uma ligação Wi-Fi/Rede Estável._\n`;
+    disclaimer += `• _Recomendamos abrir o link no Google Chrome ou Safari._\n`;
+    disclaimer += `• _Se o player encravar no início, atualiza (F5) a página._\n\n`;
 
-    await bot.sendMessage(chatId, `${disclaimer}✅ *Liberado! Clique no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
+    await bot.sendMessage(chatId, `${disclaimer}✅ *Libertado! Clica no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
       parse_mode: 'Markdown',
-      reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 Meu Conteúdo', callback_data: 'my_content' }]] }
+      reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 O Meu Conteúdo', callback_data: 'my_content' }]] }
     });
   }
 }
