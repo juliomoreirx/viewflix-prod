@@ -11,7 +11,8 @@ module.exports = {
   PRECO_POR_HORA: env.PRECO_POR_HORA,
   PRECO_MINIMO: env.PRECO_MINIMO,
   PRECO_MINIMO_SERIE: env.PRECO_MINIMO_SERIE,
-  PRECO_LIVETV_FIXO: env.PRECO_LIVETV_FIXO,
+  // 🚀 ATUALIZADO: Preço fixado para R$ 5,00 por canal por 24 horas
+  PRECO_LIVETV_FIXO: 5,
   BONUS_INICIAL_NOVO_USUARIO: parseInt(process.env.BONUS_INICIAL_NOVO_USUARIO || '500', 10), // Se quiser, adicione no Zod também!
 
   // Admins (Já é um array de números [123, 456])

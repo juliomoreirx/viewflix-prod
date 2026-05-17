@@ -44,7 +44,8 @@ class ContentController {
       
       const tituloCanal = decodificarHTML(canal.name || canal.title || `Canal ${id}`);
       const saldoAtual = await paymentService.getUserCredits(chatId);
-      const precoCanal = canal.price || 0; // Canais geralmente custam 0 ou valor fixo configurado
+      // 🚀 CORREÇÃO: Puxa o preço do config oficial de 5 reais por 24h
+      const precoCanal = config.PRECO_LIVETV_FIXO || 5; 
       
       let mensagemCanal = `📡 *${escaparMarkdownSeguro(tituloCanal)}*\n\n`;
       mensagemCanal += `📺 *Categoria:* Ao Vivo\n`;
@@ -55,7 +56,6 @@ class ContentController {
       if (saldoAtual < precoCanal) {
         keyboardCanal.push([{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]);
       } else {
-        // Encaixa perfeitamente no interpretador do método handleWatchLive abaixo
         keyboardCanal.push([{ text: `▶️ Assistir Agora - ${formatMoney(precoCanal)}`, callback_data: `watch_live_${id}_${precoCanal}` }]);
       }
       keyboardCanal.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
@@ -94,7 +94,7 @@ class ContentController {
     let mensagem = `🎬 *${tituloSeguro}*\n\n`;
     if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
     if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
-    if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
+    if (detalhes.info?.imdb) message += `⭐ IMDB: ${detalhes.info.imdb}\n`;
     if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
     const keyboard = [];
@@ -488,7 +488,7 @@ class ContentController {
 
       await bot.sendMessage(chatId, `📦 *Meu Conteúdo*\n\nEscolha uma categoria abaixo:`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
     } catch (e) {
-      bot.sendMessage(chatId, '❌ Erro ao abrir conteúdo.');
+      box.sendMessage(chatId, '❌ Erro ao abrir conteúdo.');
     }
   }
 
@@ -575,13 +575,20 @@ class ContentController {
     await bot.sendMessage(chatId, `📺 *${escaparMarkdownSeguro(serie.title)}*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
   }
 
+  // 🚀 ATUALIZADO: Injeção de Disclaimer no topo quando reabrir o player do "Meu Conteúdo"
   async mostrarDetalhesConteudo(chatId, contentId) {
     const PurchasedContentModel = db.getPurchasedContentModel();
     const content = await PurchasedContentModel.findById(contentId);
     if (!content) return bot.sendMessage(chatId, '❌ Conteúdo indisponível.');
 
     const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${content.token}`;
-    const msg = `🎯 *Link Liberado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
+    
+    let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
+    disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
+    disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
+    disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
+
+    const msg = `${disclaimer}🎯 *Link Liberado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
     
     await bot.sendMessage(chatId, msg, {
       parse_mode: 'Markdown',
@@ -629,9 +636,16 @@ class ContentController {
     });
   }
 
+  // 🚀 ATUALIZADO: Injeção de Disclaimer no topo quando o link for recém comprado/gerado
   async _enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, mediaType = 'movie') {
     const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${token}`;
-    await bot.sendMessage(chatId, `✅ *Liberado! Clique no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
+    
+    let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
+    disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
+    disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
+    disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
+
+    await bot.sendMessage(chatId, `${disclaimer}✅ *Liberado! Clique no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
       parse_mode: 'Markdown',
       reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 Meu Conteúdo', callback_data: 'my_content' }]] }
     });
