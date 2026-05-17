@@ -88,12 +88,6 @@ async function startServer() {
       app 
     );
 
-    // 🚀 ACIONAMENTO SEGURO DO WORKER: Apenas a instância principal consome a fila de downloads
-    const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
-    if (isPrimaryInstance) {
-      bunnyCacheService.startWorker();
-    }
-
     // ============================
     // LiveTV Buffer Provisioning
     // ============================
