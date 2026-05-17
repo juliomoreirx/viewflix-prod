@@ -1,4 +1,5 @@
-require('dotenv').config();
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '../.env') });
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const proxyChain = require('proxy-chain');
@@ -9,11 +10,12 @@ puppeteer.use(StealthPlugin());
 // ==========================================
 // 1. VALIDAÇÃO DE AMBIENTE (Failsafe)
 // ==========================================
+// 🚀 CORREÇÃO APLICADA: Agora usamos RES_PROXY_* igual à tua .env
 const {
-    PROXY_HOST,
-    PROXY_PORT = '33335',
-    PROXY_USER,
-    PROXY_PASS,
+    RES_PROXY_HOST,
+    RES_PROXY_PORT = '33335',
+    RES_PROXY_USER,
+    RES_PROXY_PASS,
     LOGIN_USER,
     LOGIN_PASS,
     TARGET_URL = 'http://vouver.me/index.php?page=login',
@@ -36,56 +38,44 @@ async function syncViewflixCookies() {
     let browser = null;
 
     try {
-        // Configuração do Proxy (se existir)
         let puppeteerArgs = [
             '--no-sandbox',
             '--disable-setuid-sandbox',
             '--disable-web-security',
+            '--window-size=1920,1080',
             '--disable-features=IsolateOrigins,site-per-process,AutoUpgradeMixedContent,HttpsUpgrades',
             '--disable-site-isolation-trials',
-            '--allow-running-insecure-content',
             '--ignore-certificate-errors',
             '--force-device-scale-factor=1',
             '--disable-dev-shm-usage',
-            '--disable-gpu',
-            '--unsafely-treat-insecure-origin-as-secure=http://vouver.me'
+            '--disable-gpu'
         ];
 
-        if (PROXY_HOST && PROXY_USER && PROXY_PASS) {
-            const proxyUrlCompleta = `http://${PROXY_USER}:${PROXY_PASS}@${PROXY_HOST}:${PROXY_PORT}`;
+        // 🚀 CORREÇÃO APLICADA: Validação usando as variáveis com RES_
+        if (RES_PROXY_HOST && RES_PROXY_USER && RES_PROXY_PASS) {
+            const proxyUrlCompleta = `http://${RES_PROXY_USER}:${RES_PROXY_PASS}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
             proxyLocalAutenticado = await proxyChain.anonymizeProxy(proxyUrlCompleta);
             puppeteerArgs.push(`--proxy-server=${proxyLocalAutenticado}`);
-            console.log('🛡️ Proxy configurado e anonimizado.');
+            console.log('🛡️ Proxy Bright Data configurado e anonimizado!');
         } else {
             console.warn('⚠️ A rodar sem Proxy Residencial. Risco elevado de bloqueio do Cloudflare!');
         }
 
         browser = await puppeteer.launch({
-            headless: true,
+            headless: 'new',
             ignoreHTTPSErrors: true,
             args: puppeteerArgs
         });
 
         const page = await browser.newPage();
+        await page.setViewport({ width: 1920, height: 1080 });
 
-        // Evasão Avançada de Deteção
-        await page.evaluateOnNewDocument(() => {
-            Object.defineProperty(navigator, 'webdriver', { get: () => false });
-            window.chrome = { runtime: {} };
-            Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3] });
-            Object.defineProperty(navigator, 'languages', { get: () => ['pt-BR', 'pt', 'en-US'] });
-        });
-
-        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, cheerful Gecko) Chrome/124.0.0.0 Safari/537.36');
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
         await page.setDefaultNavigationTimeout(60000);
 
-        // Otimização de Performance: Bloquear apenas mídia pesada. Deixar STYLESHEET livre para o Cloudflare!
         await page.setRequestInterception(true);
         page.on('request', (req) => {
-            if (['image', 'font', 'media'].includes(req.resourceType())) {
-                return req.abort();
-            }
-            if (req.isNavigationRequest() && req.redirectChain().length > 3) {
+            if (['font', 'media'].includes(req.resourceType())) {
                 return req.abort();
             }
             req.continue();
@@ -99,20 +89,12 @@ async function syncViewflixCookies() {
             console.warn('⚠️ O carregamento demorou muito, forçando continuação...');
         }
 
-        // Lidar com o Cloudflare ou Erros SSL (Bypass forçado)
-        const content = await page.content();
-        if (content.includes('--google-blue') || content.includes('ERR_')) {
-            console.log('🔄 Intervenção necessária. Tentando bypass via about:blank...');
-            await page.goto('about:blank');
-            await new Promise(r => setTimeout(r, 2000));
-            await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
-        }
+        console.log('⏳ Analisando a página (Aguardando Cloudflare ou Login)...');
+        await new Promise(r => setTimeout(r, 8000)); 
 
-        // Esperar pelo input de forma inteligente
-        console.log('⏳ Aguardando formulário de login...');
-        await page.waitForSelector('#username', { visible: true, timeout: 30000 });
+        await page.waitForSelector('#username', { visible: true, timeout: 45000 });
+        console.log('✅ Tela de login alcançada!');
 
-        // Preencher e submeter o formulário
         await page.evaluate((u, p) => {
             document.getElementById('username').value = u;
             document.getElementById('sifre').value = p;
@@ -170,7 +152,17 @@ async function syncViewflixCookies() {
 
     } catch (error) {
         console.error('❌ [Erro Crítico]:', error.message);
-    } finally { // 🚀 CORREÇÃO SUPREMA: Alterado de 'file' para 'finally' com sucesso!
+        
+        if (browser) {
+            try {
+                const pages = await browser.pages();
+                if (pages.length > 0) {
+                    await pages[0].screenshot({ path: '/root/viewflix/viewflix-prod/viewflix-worker/debug-cloudflare.png', fullPage: true });
+                    console.log('📸 Screenshot da tela de bloqueio salvo em: debug-cloudflare.png');
+                }
+            } catch (e) {}
+        }
+    } finally {
         console.log('🧹 Limpando processos...');
         if (browser) await browser.close();
         if (proxyLocalAutenticado) await proxyChain.closeAnonymizedProxy(proxyLocalAutenticado, true);
@@ -192,11 +184,8 @@ process.on('SIGTERM', async () => {
 // ==========================================
 // 4. AGENDAMENTO E START DE GLOBAL SCOPE
 // ==========================================
-
-// Executa imediatamente ao ligar o processo de forma isolada
 syncViewflixCookies();
 
-// Agenda para rodar estritamente de hora em hora
 cron.schedule('0 * * * *', () => {
     console.log('⏰ [Cron] Disparando rotina automática de atualização de cookies...');
     syncViewflixCookies();
