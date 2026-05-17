@@ -49,18 +49,26 @@ function initBot(models, services, dominio, app) {
   // 5. Ativar as rotinas assíncronas de manutenção (Cleanup / Notificações)
   startJobs();
 
-  // 6. 🚀 FIX WEBHOOK: Remoção do express.json() local para evitar conflito com o parser global do Express
+  // 6. 🚀 CONFIGURAÇÃO DE WEBHOOK COM PRIORIDADE MÁXIMA (TOP OF THE STACK)
   if (app) {
-    app.post('/api/telegram-webhook', (req, res) => {
-      // Verifica se o corpo da requisição foi devidamente capturado pelo middleware global
+    // Declaramos a rota isolada com seu próprio express.json()
+    app.post('/api/telegram-webhook', express.json(), (req, res) => {
       if (req.body && Object.keys(req.body).length > 0) {
         bot.processUpdate(req.body);
       } else {
-        // Log de diagnóstico em nível de infraestrutura para monitoramento no PM2
         console.warn('⚠️ [Telegram Webhook] Alerta: Recebeu uma requisição POST mas o req.body veio vazio ou não parseado.');
       }
       res.sendStatus(200);
     });
+
+    // 🚀 MASTER HACK DE INFRAESTRUTURA SÊNIOR:
+    // Retira a rota que acabou de ser empurrada para o final do array e injeta ela no topo absoluto (index 0).
+    // Isso garante a execução dela antes de qualquer middleware de 404 ou roteamento curinga do app.js!
+    if (app._router && app._router.stack) {
+      const camadaDoBot = app._router.stack.pop();
+      app._router.stack.unshift(camadaDoBot);
+      console.log('⚡ [Telegram Webhook] Rota injetada com prioridade máxima no topo da pilha do Express.');
+    }
 
     // Prática Sênior: Apenas a instância '0' do PM2 faz a chamada à API do Telegram para registrar o endereço
     const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
@@ -176,7 +184,7 @@ Você não foi cobrado novamente. Clique no botão abaixo para retentar o downlo
 
 /requeue_${purchase._id}
 
-Precisar de ajuda? Entre com contato com o suporte.
+Precisar de ajuda? Entre em contato com o suporte.
     `.trim();
     
     await bot.sendMessage(userId, texto, { parse_mode: 'Markdown' }).catch((err) => {
