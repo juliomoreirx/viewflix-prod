@@ -236,7 +236,6 @@ class ContentController {
     const saldoAtual = await paymentService.getUserCredits(chatId);
     const keyboard = [];
 
-    // Adiciona os botões dos episódios da página atual
     for (let i = 0; i < pageData.items.length; i++) {
       const ep = pageData.items[i];
       const globalIndex = (pageData.current - 1) * EPISODES_PER_PAGE + i;
@@ -249,27 +248,18 @@ class ContentController {
       }]);
     }
 
-    // Paginação dos episódios
     const navRow = buildPaginationRow(`season_${id}_${season}_page`, pageData.current, pageData.totalPages);
     if (navRow.length > 0) keyboard.push(navRow);
 
-    // ========================================================
-    // 🚀 LÓGICA DE UPSELL: BOTÃO DA LOJA DA TEMPORADA NO FINAL
-    // ========================================================
     if (restantes === 0) {
-      // Já comprou toda a temporada
       keyboard.push([{ text: '✅ Temporada completa já adquirida', callback_data: 'noop' }]);
     } else {
-      // O Botão de Loja/Upsell solicitado
       keyboard.push([{ text: `🛒 Comprar Mais Episódios ou Temporada`, callback_data: `buy_season_${id}_${season}_${precoTotal}` }]);
-      
-      // Se não tem saldo suficiente para comprar todos os restantes, exibe o alerta visual
       if (saldoAtual < precoTotal) {
         keyboard.push([{ text: `⚠️ Faltam ${formatMoney(precoTotal - saldoAtual)} para a temporada toda`, callback_data: 'menu_add_credits' }]);
       }
     }
 
-    // Botões padrão de navegação
     keyboard.push([{ text: '⬅️ Voltar aos Detalhes', callback_data: `details_${id}_series` }]);
     keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
@@ -561,9 +551,11 @@ class ContentController {
     if (!serie) return this.mostrarMeuConteudoSeries(chatId);
 
     const episodeEntries = [];
-    
     const sortedSeasons = Object.entries(serie.seasons).sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10));
     
+    // 🚀 LÓGICA DE DETECÇÃO AUTOMÁTICA DE UPSELL (Compara o catálogo x comprado)
+    const seasonUpsells = [];
+
     for (const [seasonKey, episodes] of sortedSeasons) {
       const sortedEpisodes = [...episodes].sort((a, b) => {
         const numA = (a.episodeIndex !== undefined && a.episodeIndex !== null) 
@@ -574,6 +566,18 @@ class ContentController {
           : (parseInt(String(b.episodeName || '').match(/\d+/)?.[0], 10) || 0);
         return numA - numB;
       });
+
+      // Extrai os dados do lote do banco salvos durante a compra
+      const anyEp = episodes[0];
+      const totalCatalog = anyEp?.totalEpisodes || 0;
+      const seriesId = anyEp?.seriesId;
+
+      // Se possui menos do que o catálogo total daquela temporada, prepara o link da loja
+      if (seriesId && totalCatalog > 0 && episodes.length < totalCatalog) {
+        if (!seasonUpsells.some(u => u.season === seasonKey)) {
+          seasonUpsells.push({ seriesId, season: seasonKey });
+        }
+      }
 
       for (const ep of sortedEpisodes) {
         episodeEntries.push({ season: seasonKey, label: `▶️ ${ep.episodeName || 'Episódio'}`, expiresAt: ep.expiresAt, id: ep._id });
@@ -595,6 +599,17 @@ class ContentController {
 
     const navRow = buildPaginationRow(`myseries_${index}_page`, pageData.current, pageData.totalPages);
     if (navRow.length > 0) buttons.push(navRow);
+
+    // 🚀 INJETA O BOTÃO DE UPSELL CASO FALTE COMPRAR EPISÓDIOS NAQUELA TEMPORADA ATIVA
+    if (seasonUpsells.length > 0) {
+      seasonUpsells.forEach(up => {
+        buttons.push([{ 
+          text: `🛒 Comprar mais episódios (Temp. ${up.season})`, 
+          callback_data: `season_${up.seriesId}_${up.season}` 
+        }]);
+      });
+    }
+
     buttons.push([{ text: '⬅️ Voltar', callback_data: 'mycontent_series' }]);
 
     await bot.sendMessage(chatId, `📺 *${escaparMarkdownSeguro(serie.title)}*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
