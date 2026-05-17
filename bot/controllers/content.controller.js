@@ -31,7 +31,7 @@ class ContentController {
     const loadingMsg = await bot.sendMessage(chatId, '🔍 *Carregando detalhes...*\n\nAguarde um segundinho enquanto busco as informações...', { parse_mode: 'Markdown' });
     bot.deleteMessage(chatId, msgId).catch(() => {});
 
-    // 🚀 SEGUNDO PLANO: INTERCEPTAÇÃO E ATIVAÇÃO DO FLUXO DE CANAL AO VIVO
+    // SEGUNDO PLANO: INTERCEPTAÇÃO E ATIVAÇÃO DO FLUXO DE CANAL AO VIVO
     if (type === 'livetv' || type === 'live') {
       bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
       
@@ -44,7 +44,6 @@ class ContentController {
       
       const tituloCanal = decodificarHTML(canal.name || canal.title || `Canal ${id}`);
       const saldoAtual = await paymentService.getUserCredits(chatId);
-      // 🚀 CORREÇÃO: Puxa o preço do config oficial de 5 reais por 24h
       const precoCanal = config.PRECO_LIVETV_FIXO || 5; 
       
       let mensagemCanal = `📡 *${escaparMarkdownSeguro(tituloCanal)}*\n\n`;
@@ -94,7 +93,7 @@ class ContentController {
     let mensagem = `🎬 *${tituloSeguro}*\n\n`;
     if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
     if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
-    if (detalhes.info?.imdb) message += `⭐ IMDB: ${detalhes.info.imdb}\n`;
+    if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
     if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
     const keyboard = [];
@@ -488,7 +487,7 @@ class ContentController {
 
       await bot.sendMessage(chatId, `📦 *Meu Conteúdo*\n\nEscolha uma categoria abaixo:`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
     } catch (e) {
-      box.sendMessage(chatId, '❌ Erro ao abrir conteúdo.');
+      bot.sendMessage(chatId, '❌ Erro ao abrir conteúdo.');
     }
   }
 
@@ -575,25 +574,36 @@ class ContentController {
     await bot.sendMessage(chatId, `📺 *${escaparMarkdownSeguro(serie.title)}*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
   }
 
-  // 🚀 ATUALIZADO: Injeção de Disclaimer no topo quando reabrir o player do "Meu Conteúdo"
   async mostrarDetalhesConteudo(chatId, contentId) {
-    const PurchasedContentModel = db.getPurchasedContentModel();
-    const content = await PurchasedContentModel.findById(contentId);
-    if (!content) return bot.sendMessage(chatId, '❌ Conteúdo indisponível.');
+    // 🚀 AQUI ESTÁ O LEÃO DE CHÁCARA: Previne crashes de Banco de Dados se o _id for undefined
+    if (!contentId || contentId === 'undefined') {
+      return bot.sendMessage(chatId, '❌ Este conteúdo expirou ou é inválido.\n\nRetorne ao menu e compre novamente.', {
+        reply_markup: { inline_keyboard: [[{ text: '🏠 Menu Principal', callback_data: 'back_main' }]] }
+      });
+    }
 
-    const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${content.token}`;
-    
-    let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
-    disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
-    disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
-    disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
+    try {
+      const PurchasedContentModel = db.getPurchasedContentModel();
+      const content = await PurchasedContentModel.findById(contentId);
+      if (!content) return bot.sendMessage(chatId, '❌ Conteúdo indisponível.');
 
-    const msg = `${disclaimer}🎯 *Link Liberado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
-    
-    await bot.sendMessage(chatId, msg, {
-      parse_mode: 'Markdown',
-      reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 Voltar', callback_data: 'my_content' }]] }
-    });
+      const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${content.token}`;
+      
+      let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
+      disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
+      disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
+      disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
+
+      const msg = `${disclaimer}🎯 *Link Liberado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
+      
+      await bot.sendMessage(chatId, msg, {
+        parse_mode: 'Markdown',
+        reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 Voltar', callback_data: 'my_content' }]] }
+      });
+    } catch (error) {
+      logger.error(`[ContentController] Erro ao buscar ID do conteúdo: ${contentId}`, error);
+      bot.sendMessage(chatId, '❌ Erro ao buscar informações do conteúdo no banco de dados.');
+    }
   }
 
   // ==========================================
@@ -607,17 +617,22 @@ class ContentController {
     for (const item of conteudos) {
       const title = decodificarHTML(item.title || '');
       const purchaseDate = item.purchaseDate ? new Date(item.purchaseDate) : new Date(0);
-      if (item.mediaType === 'movie') { movies.push({ ...item, title, purchaseDate }); continue; }
-      if (item.mediaType === 'livetv') { livetv.push({ ...item, title, purchaseDate }); continue; }
+      
+      // 🚀 SALVAÇÃO DO MONGOOSE: Transforma o monstro do MongoDB em um JS Object purinho
+      // Isso extrai as variáveis _id e expiresAt ocultas para o iterador conseguir ler!
+      const plainItem = item.toObject ? item.toObject() : item;
 
-      const key = normalizeTitle(title || item.title || '');
-      if (!seriesMap.has(key)) seriesMap.set(key, { title: title || item.title, seasons: new Map(), totalEpisodes: 0, lastPurchaseDate: purchaseDate });
+      if (item.mediaType === 'movie') { movies.push({ ...plainItem, title, purchaseDate }); continue; }
+      if (item.mediaType === 'livetv' || item.mediaType === 'live') { livetv.push({ ...plainItem, title, purchaseDate }); continue; }
+
+      const key = normalizeTitle(title || plainItem.title || '');
+      if (!seriesMap.has(key)) seriesMap.set(key, { title: title || plainItem.title, seasons: new Map(), totalEpisodes: 0, lastPurchaseDate: purchaseDate });
       
       const group = seriesMap.get(key);
       if (purchaseDate > group.lastPurchaseDate) group.lastPurchaseDate = purchaseDate;
-      const seasonKey = String(item.season || '1');
+      const seasonKey = String(plainItem.season || '1');
       if (!group.seasons.has(seasonKey)) group.seasons.set(seasonKey, []);
-      group.seasons.get(seasonKey).push({ ...item, episodeName: item.episodeName, expiresAt: item.expiresAt, _id: item._id });
+      group.seasons.get(seasonKey).push({ ...plainItem, episodeName: plainItem.episodeName, expiresAt: plainItem.expiresAt, _id: plainItem._id });
       group.totalEpisodes += 1;
     }
     
@@ -636,15 +651,13 @@ class ContentController {
     });
   }
 
-  // 🚀 ATUALIZADO: Injeção de Disclaimer no topo quando o link for recém comprado/gerado
   async _enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, mediaType = 'movie') {
     const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${token}`;
     
-    let disclaimer = `⚠️ *AVISO DE STREAMING VIEWFLIX SPACE* ⚠️\n`;
+    let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
     disclaimer += `• _Para rodar sem travamentos, use uma conexão Wi-Fi/Rede Estável._\n`;
     disclaimer += `• _Recomendamos abrir o link usando o navegador Google Chrome ou Safari._\n`;
     disclaimer += `• _Se o player travar na tela preta inicial, basta atualizar (F5) a página._\n\n`;
-    disclaimer += `• _Se o player demorar iniciar, só apertar o botão de play e esperar iniciar._\n\n`;
 
     await bot.sendMessage(chatId, `${disclaimer}✅ *Liberado! Clique no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
       parse_mode: 'Markdown',
