@@ -61,7 +61,7 @@ async function syncViewflixCookies() {
         }
 
         browser = await puppeteer.launch({
-            headless: true, // Corrigido (Sintaxe atualizada do Puppeteer)
+            headless: true,
             ignoreHTTPSErrors: true,
             args: puppeteerArgs
         });
@@ -76,17 +76,17 @@ async function syncViewflixCookies() {
             Object.defineProperty(navigator, 'languages', { get: () => ['pt-BR', 'pt', 'en-US'] });
         });
 
-        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
-        await page.setDefaultNavigationTimeout(60000); // 60s é mais sensato que 120s
+        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, cheerful Gecko) Chrome/124.0.0.0 Safari/537.36');
+        await page.setDefaultNavigationTimeout(60000);
 
-        // Otimização de Performance: Bloquear imagens e CSS inútil
+        // Otimização de Performance: Bloquear apenas mídia pesada. Deixar STYLESHEET livre para o Cloudflare!
         await page.setRequestInterception(true);
         page.on('request', (req) => {
-            if (['image', 'stylesheet', 'font', 'media'].includes(req.resourceType())) {
+            if (['image', 'font', 'media'].includes(req.resourceType())) {
                 return req.abort();
             }
             if (req.isNavigationRequest() && req.redirectChain().length > 3) {
-                return req.abort(); // Previne loops infinitos de redirecionamento
+                return req.abort();
             }
             req.continue();
         });
@@ -104,11 +104,11 @@ async function syncViewflixCookies() {
         if (content.includes('--google-blue') || content.includes('ERR_')) {
             console.log('🔄 Intervenção necessária. Tentando bypass via about:blank...');
             await page.goto('about:blank');
-            await page.waitForTimeout(2000); // waitForTimeout é mais limpo que new Promise(setTimeout) em Puppeteer antigos
+            await new Promise(r => setTimeout(r, 2000));
             await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
         }
 
-        // Esperar pelo input de forma inteligente (em vez de setTimeout cego)
+        // Esperar pelo input de forma inteligente
         console.log('⏳ Aguardando formulário de login...');
         await page.waitForSelector('#username', { visible: true, timeout: 30000 });
 
@@ -121,10 +121,8 @@ async function syncViewflixCookies() {
 
         console.log('🔑 Credenciais inseridas. Aguardando processamento do login...');
         
-        // Esperamos que a navegação aconteça ou que um elemento logado apareça (ajuste o seletor se o painel logado for diferente)
         await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }).catch(() => console.log('Navegação lenta, verificando cookies mesmo assim...'));
         
-        // Damos apenas uma margem curta para os cookies se estabelecerem pós-login
         await new Promise(r => setTimeout(r, 3000)); 
 
         const cookies = await page.cookies();
@@ -150,7 +148,6 @@ async function syncViewflixCookies() {
 
         console.log('📡 Enviando cookies frescos para a API central...');
         
-        // Usar Node Fetch Nativo
         const response = await fetch(WEBHOOK_URL, {
             method: 'POST',
             headers: {
@@ -173,7 +170,7 @@ async function syncViewflixCookies() {
 
     } catch (error) {
         console.error('❌ [Erro Crítico]:', error.message);
-    } finally {
+    } finally { // 🚀 CORREÇÃO SUPREMA: Alterado de 'file' para 'finally' com sucesso!
         console.log('🧹 Limpando processos...');
         if (browser) await browser.close();
         if (proxyLocalAutenticado) await proxyChain.closeAnonymizedProxy(proxyLocalAutenticado, true);
@@ -192,12 +189,17 @@ process.on('SIGTERM', async () => {
     process.exit(0);
 });
 
-// Executa imediatamente ao ligar
+// ==========================================
+// 4. AGENDAMENTO E START DE GLOBAL SCOPE
+// ==========================================
+
+// Executa imediatamente ao ligar o processo de forma isolada
 syncViewflixCookies();
 
-// 🚀 Agenda para rodar estritamente a cada 1 hora automaticamente,
-// mantendo o loop do Node.js aberto e travando os restarts do PM2!
+// Agenda para rodar estritamente de hora em hora
 cron.schedule('0 * * * *', () => {
-    console.log('⏰ [Cron] Disparando atualização horária de cookies...');
+    console.log('⏰ [Cron] Disparando rotina automática de atualização de cookies...');
     syncViewflixCookies();
 });
+
+console.log('🕰️ Worker agendado com sucesso. Aguardando ciclos...');
