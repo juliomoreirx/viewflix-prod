@@ -1,3 +1,4 @@
+// bot/jobs/cleanup.js
 const bot = require('../instance');
 const config = require('../config');
 const state = require('../state');
@@ -34,7 +35,7 @@ async function verificarConteudosExpirando() {
       notificationSent: false
     });
 
-    // Buscar canais ao vivo prestes a expirar (próximas 2 hours)
+    // Buscar canais ao vivo prestes a expirar (próximas 2 horas)
     const canaisExpirando = await PurchasedContentModel.find({
       mediaType: 'livetv',
       ...getPurchaseVisibilityFilter({ expiresAt: { $gt: agora, $lte: daquiA2Horas } }),
@@ -92,34 +93,21 @@ async function verificarConteudosExpirando() {
 }
 
 module.exports = function startJobs() {
-  // 1. Limpeza de memória RAM de estados inativos a cada 30 minutos
-  setInterval(() => {
-    const agora = Date.now();
-    
-    // Limpar userStates inativos há mais de 1 hora
-    for (const chatId in state.userStates) {
-      if (state.userStates[chatId].updatedAt && (agora - state.userStates[chatId].updatedAt > 3600000)) {
-        delete state.userStates[chatId];
-      }
-    }
-    
-    // Limpar pagamentos pendentes expirados há mais de 30 minutos
-    for (const pixId in state.pendingPayments) {
-      if (state.pendingPayments[pixId].timestamp && (agora - state.pendingPayments[pixId].timestamp > 1800000)) {
-        delete state.pendingPayments[pixId];
-      }
-    }
-  }, 1800000);
+  // 🚀 NOTA DE EVOLUÇÃO: O Intervalo 1 (Limpeza de RAM de userStates) foi totalmente removido
+  // porque a Etapa 2 agora usa TTL nativo do Redis, economizando loops de CPU na VPS!
 
-  // 2. Verificação periódica de expiração de pagamentos em intervalos finos (a cada 5 minutos)
+  // 1. Verificação periódica de expiração de pagamentos em intervalos finos (a cada 5 minutos)
   setInterval(() => {
     const agora = Date.now();
     const TEMPO_EXPIRACAO = 15 * 60 * 1000; // 15 minutos
     
-    for (const [paymentId, payment] of Object.entries(state.pendingPayments)) {
-      if (agora - payment.timestamp > TEMPO_EXPIRACAO) {
-        delete state.pendingPayments[paymentId];
-        if (state.paymentCheckIntervals[paymentId]) {
+    // 🚀 FIX DE SEGURANÇA SENIOR: Adicionado o fallback || {} para evitar crash por undefined
+    const pendentes = state.pendingPayments || {};
+    
+    for (const [paymentId, payment] of Object.entries(pendentes)) {
+      if (payment && payment.timestamp && (agora - payment.timestamp > TEMPO_EXPIRACAO)) {
+        delete pendentes[paymentId];
+        if (state.paymentCheckIntervals && state.paymentCheckIntervals[paymentId]) {
           clearInterval(state.paymentCheckIntervals[paymentId]);
           delete state.paymentCheckIntervals[paymentId];
         }
@@ -127,7 +115,7 @@ module.exports = function startJobs() {
     }
   }, 300000);
 
-  // 3. Limpeza física de registos expirados no MongoDB a cada 1 hora
+  // 2. Limpeza física de registos expirados no MongoDB a cada 1 hora
   setInterval(async () => {
     try {
       const PurchasedContentModel = db.getPurchasedContentModel();
@@ -140,7 +128,7 @@ module.exports = function startJobs() {
     }
   }, 3600000);
 
-  // 4. Agendamento das notificações de expiração (A cada 1 hora, com gatilho inicial de 30 segundos)
+  // 3. Agendamento das notificações de expiração (A cada 1 hora, com gatilho inicial de 30 segundos)
   setInterval(verificarConteudosExpirando, 3600000);
   setTimeout(verificarConteudosExpirando, 30000);
 };

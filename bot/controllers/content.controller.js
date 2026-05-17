@@ -23,7 +23,7 @@ class ContentController {
 
     bot.answerCallbackQuery(query.id, { text: '🔄 A carregar...' });
     
-    const loadingMsg = await bot.sendMessage(chatId, '🔍 *A carregar detalhes...*\n\nAguarde um segundo enquanto procuro as informações...', { parse_mode: 'Markdown' });
+    const loadingMsg = await bot.sendMessage(chatId, '🔍 *Carregando detalhes...*\n\nAguarde um instante enquanto busco as informações.', { parse_mode: 'Markdown' });
     bot.deleteMessage(chatId, msgId).catch(() => {});
 
     if (type === 'livetv' || type === 'live') {
@@ -589,10 +589,10 @@ class ContentController {
 
       const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${content.token}`;
       
-      let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
-      disclaimer += `• _Para correr sem travamentos, utiliza uma ligação Wi-Fi/Rede Estável._\n`;
+      let disclaimer = `⚠️ *AVISO DE STREAMING VIEWFLIX SPACE* ⚠️\n`;
+      disclaimer += `• _Para correr sem travamentos, utiliza uma conexão Wi-Fi/Rede Estável._\n`;
       disclaimer += `• _Recomendamos abrir o link no Google Chrome ou Safari._\n`;
-      disclaimer += `• _Se o player encravar no início, atualiza (F5) a página._\n\n`;
+      disclaimer += `• _Se o player travar no início, atualiza (F5) a página._\n\n`;
 
       const msg = `${disclaimer}🎯 *Link Libertado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
       
@@ -643,12 +643,12 @@ class ContentController {
 
     if (!lockAdquirido) {
       // Outro utilizador já ativou a preparação deste conteúdo! Evitamos enviar para o BullMQ de novo.
-      await bot.sendMessage(chatId, `🍿 *Infraestrutura Ativa!*\n\nEste conteúdo já está a ser descarregado e preparado neste exato momento (outro utilizador solicitou há pouco tempo).\n\nGarantiste um atalho! Vai à tua aba 📦 *O Meu Conteúdo* dentro de alguns minutos para assistires.`, { parse_mode: 'Markdown' });
+      await bot.sendMessage(chatId, `🍿 *Infraestrutura Ativa!*\n\nEsse conteúdo já está sendo preparado neste momento, porque outro usuário solicitou recentemente.\n\nVocê pegou um atalho! Daqui a alguns minutos, ele estará disponível na aba 📦 Meu Conteúdo para assistir.`, { parse_mode: 'Markdown' });
       return;
     }
 
     // Se a tranca foi adquirida com sucesso, a infraestrutura prossegue normalmente
-    const msg = await bot.sendMessage(chatId, `⏳ *A preparar o teu conteúdo no servidor...*\n\nA tua solicitação entrou na fila de processamento automático do Redis.`, { parse_mode: 'Markdown' }).catch(() => null);
+    const msg = await bot.sendMessage(chatId, `⏳ *Preparando seu conteúdo...*\n\nSeu pedido foi recebido e já está sendo processado automaticamente no servidor.`, { parse_mode: 'Markdown' }).catch(() => null);
 
     bunnyCacheService.enqueue(purchase, {
       chatId: chatId,
@@ -661,12 +661,12 @@ class ContentController {
   async _enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, mediaType = 'movie') {
     const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${token}`;
     
-    let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
-    disclaimer += `• _Para correr sem travamentos, utiliza uma ligação Wi-Fi/Rede Estável._\n`;
+    let disclaimer = `⚠️ *AVISO DE STREAMING VIEWFLIX SPACE* ⚠️\n`;
+    disclaimer += `• _Para correr sem travamentos, utiliza uma conexão Wi-Fi/Rede Estável._\n`;
     disclaimer += `• _Recomendamos abrir o link no Google Chrome ou Safari._\n`;
-    disclaimer += `• _Se o player encravar no início, atualiza (F5) a página._\n\n`;
+    disclaimer += `• _Se o player travar no início, atualiza (F5) a página._\n\n`;
 
-    await bot.sendMessage(chatId, `${disclaimer}✅ *Libertado! Clica no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
+    await bot.sendMessage(chatId, `${disclaimer}✅ *Libertado! Clique no "Assistir Agora" para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
       parse_mode: 'Markdown',
       reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 O Meu Conteúdo', callback_data: 'my_content' }]] }
     });
