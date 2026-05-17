@@ -11,6 +11,24 @@ class VouverProvider extends BaseProvider {
   }
 
   /**
+   * 🛡️ Filtro Leão de Chácara: Bloqueia conteúdos pesados ou incompatíveis (HEVC/H.265)
+   * Usa uma Regex Case-Insensitive para barrar 4K, HDR e Hybrid.
+   * @private
+   */
+  _blindarCatalogo(items) {
+    if (!Array.isArray(items)) return items;
+    
+    // Regex implacável: Pega 4K, 4k, HDR, hdr, Hybrid, HYBRID. E ignora os colchetes.
+    const regexBloqueio = /(4k|hdr|hybrid)/i;
+    
+    return items.filter(item => {
+      const titulo = item.title || item.name || '';
+      // Retorna TRUE (mantém na lista) apenas se o regex NÃO encontrar as palavras proibidas
+      return !regexBloqueio.test(titulo);
+    });
+  }
+
+  /**
    * Busca o catálogo completo (filmes + séries)
    */
   async fetchCatalog() {
@@ -24,6 +42,14 @@ class VouverProvider extends BaseProvider {
 
         if (!response.data || !Array.isArray(response.data.movies)) {
           throw new Error('Formato de resposta inválido do Vouver');
+        }
+
+        // 🚀 Aplica a blindagem no catálogo global ANTES de salvar na memória da VPS
+        if (response.data.movies) {
+          response.data.movies = this._blindarCatalogo(response.data.movies);
+        }
+        if (response.data.series) {
+          response.data.series = this._blindarCatalogo(response.data.series);
         }
 
         return response.data;
@@ -80,7 +106,9 @@ class VouverProvider extends BaseProvider {
           throw new Error(`HTTP ${response.status}: Busca falhou`);
         }
 
-        return response.data?.results || [];
+        // 🚀 Filtra os resultados da busca ativa para o usuário no Telegram
+        const resultados = response.data?.results || [];
+        return this._blindarCatalogo(resultados);
       },
       `searchMovies(${term})`
     );
@@ -101,7 +129,9 @@ class VouverProvider extends BaseProvider {
           throw new Error(`HTTP ${response.status}: Busca falhou`);
         }
 
-        return response.data?.results || [];
+        // 🚀 Filtra os resultados da busca ativa para o usuário no Telegram
+        const resultados = response.data?.results || [];
+        return this._blindarCatalogo(resultados);
       },
       `searchSeries(${term})`
     );
