@@ -17,7 +17,6 @@ const {
     RES_PROXY_PASS,
     WEBHOOK_URL,
     WEBHOOK_TOKEN,
-    // 🚀 URL exata extraída do trace de rede
     CATALOG_URL = 'http://vouver.me/ajax/search.php?q=a' 
 } = process.env;
 
@@ -65,14 +64,13 @@ async function atualizarCatalogoFila() {
             console.warn('⚠️ Nenhum cookie ativo localizado. Tentando requisição...');
         }
 
-        // 🚀 CABEÇALHOS IDÊNTICOS AO SEU NAVEGADOR (TRACE DE REDE)
         let axiosConfig = {
             timeout: 90000, 
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:150.0) Gecko/20100101 Firefox/150.0',
                 'Accept': 'application/json, text/javascript, */*; q=0.01',
                 'Accept-Language': 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7',
-                'X-Requested-With': 'XMLHttpRequest', // O disfarce do AJAX
+                'X-Requested-With': 'XMLHttpRequest',
                 'Connection': 'keep-alive',
                 'Referer': 'http://vouver.me/index.php?page=homepage',
                 'Cookie': cookiesAtivos || ''
@@ -90,12 +88,10 @@ async function atualizarCatalogoFila() {
         
         const response = await axios.get(CATALOG_URL, axiosConfig);
         
-        // Valida se a resposta tem a estrutura {"status":true, "data": {...}}
         if (!response.data || !response.data.status || !response.data.data) {
             throw new Error(`Payload inválido. Estrutura encapsulada 'data' ausente.`);
         }
 
-        // 🚀 O pulo do gato: desempacotar o JSON real que fica dentro de "data"
         const catalogoBruto = response.data.data;
         console.log('✅ Resposta AJAX recebida e desempacotada. Processando filtragem...');
 
@@ -107,12 +103,17 @@ async function atualizarCatalogoFila() {
 
         console.log(`📊 Métricas do novo catálogo:\n ├ Filmes: ${catalogoFiltrado.movies.length}\n ├ Séries: ${catalogoFiltrado.series.length}\n └ Canais Ao Vivo: ${catalogoFiltrado.livetv.length}`);
 
+        // 🚀 O pulo do gato: A API espera que a string do Redis já venha empacotada da mesma forma que o vouverService faz
         const redisKey = 'fasttv:catalog:global';
         await redis.set(redisKey, JSON.stringify(catalogoFiltrado));
-        console.log('📥 [Redis] Novo catálogo filtrado persistido com sucesso!');
+        console.log('📥 [Redis] Novo catálogo filtrado persistido com sucesso (Estrutura nativa API)!');
 
-        console.log('📡 Notificando API central via Webhook...');
-        const webhookResponse = await axios.post(WEBHOOK_URL, {
+        const portaApi = process.env.PORT || 3000;
+        const localWebhookUrl = `http://127.0.0.1:${portaApi}/api/telegram-webhook`;
+        
+        console.log(`📡 Notificando API central via rede interna: ${localWebhookUrl}`);
+        
+        const webhookResponse = await axios.post(localWebhookUrl, {
             source: 'catalog_worker',
             status: 'refreshed'
         }, {
