@@ -19,7 +19,7 @@ const logger = require('../../src/lib/logger');
 class ContentController {
 
   // ==========================================
-  // 1. EXIBIÇÃO DE DETALHES (FILME / SÉRIE)
+  // 1. EXIBIÇÃO DE DETALHES (FILME / SÉRIE / CANAL)
   // ==========================================
   async handleDetails(query) {
     const chatId = query.message.chat.id;
@@ -31,6 +31,48 @@ class ContentController {
     const loadingMsg = await bot.sendMessage(chatId, '🔍 *Carregando detalhes...*\n\nAguarde um segundinho enquanto busco as informações...', { parse_mode: 'Markdown' });
     bot.deleteMessage(chatId, msgId).catch(() => {});
 
+    // 🚀 SEGUNDO PLANO: INTERCEPTAÇÃO E ATIVAÇÃO DO FLUXO DE CANAL AO VIVO
+    if (type === 'livetv' || type === 'live') {
+      bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
+      
+      const cache = contentService.getCacheSafe();
+      const canal = (cache.livetv || []).find(item => String(item.id) === String(id));
+      
+      if (!canal) {
+        return bot.sendMessage(chatId, '❌ Canal não localizado no catálogo atual.');
+      }
+      
+      const tituloCanal = decodificarHTML(canal.name || canal.title || `Canal ${id}`);
+      const saldoAtual = await paymentService.getUserCredits(chatId);
+      const precoCanal = canal.price || 0; // Canais geralmente custam 0 ou valor fixo configurado
+      
+      let mensagemCanal = `📡 *${escaparMarkdownSeguro(tituloCanal)}*\n\n`;
+      mensagemCanal += `📺 *Categoria:* Ao Vivo\n`;
+      mensagemCanal += `💰 *Preço para liberar:* ${formatMoney(precoCanal)}\n`;
+      mensagemCanal += `💳 *Seu saldo:* ${formatMoney(saldoAtual)}`;
+      
+      const keyboardCanal = [];
+      if (saldoAtual < precoCanal) {
+        keyboardCanal.push([{ text: '💰 Adicionar Créditos', callback_data: 'menu_add_credits' }]);
+      } else {
+        // Encaixa perfeitamente no interpretador do método handleWatchLive abaixo
+        keyboardCanal.push([{ text: `▶️ Assistir Agora - ${formatMoney(precoCanal)}`, callback_data: `watch_live_${id}_${precoCanal}` }]);
+      }
+      keyboardCanal.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
+      
+      // Tenta enviar a capa/logo do canal se existir
+      const imgUrl = canal.coverUrl || canal.logo || canal.logoUrl || canal.capa || '';
+      if (imgUrl) {
+        try {
+          const urlAbsoluta = imgUrl.startsWith('http') ? imgUrl : `${String(config.dynamic.DOMINIO_PUBLICO).replace(/\/$/, '')}${imgUrl}`;
+          await bot.sendPhoto(chatId, urlAbsoluta, { caption: `📡 Canal: ${tituloCanal}` }).catch(() => {});
+        } catch (e) {}
+      }
+      
+      return bot.sendMessage(chatId, mensagemCanal, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: keyboardCanal } });
+    }
+
+    // Fluxo convencional de Filmes e Séries mantido intacto abaixo
     const buscarDetalhes = contentService.vouverService.buscarDetalhes;
     if (!buscarDetalhes) {
       bot.deleteMessage(chatId, loadingMsg.message_id).catch(() => {});
@@ -63,7 +105,6 @@ class ContentController {
         minutos = await contentService.vouverService.estimarDuracao('movie', id);
       }
 
-      // 🚀 CORRIGIDO: Variável 'minutos' (PT-BR) passada corretamente para o precificador
       const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos });
       mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 Seu saldo: ${formatMoney(saldoAtual)}`;
 
