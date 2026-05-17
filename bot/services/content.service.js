@@ -3,12 +3,17 @@ const db = require('./db.service');
 const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const config = require('../config');
+const path = require('path');
+const fs = require('fs');
 
-// 🚀 NOVO: Importação do ecossistema de infraestrutura para reaproveitar a conexão nativa do Redis
+// 🚀 Importação do ecossistema de infraestrutura para reaproveitar a conexão nativa do Redis
 const bunnyCacheService = require('../../src/services/bunny-cache.service');
 
 // CORE: Expressão regular para capturar formatos de filmes/séries incompatíveis na web
 const REGEX_BLOQUEIO_4K = /(4k|hdr|hybrid)/i;
+
+// 🚀 CONFIGURAÇÃO LOCAL-FIRST: Aponta para a tua pasta centralizada de dumps/output
+const OUTPUT_BASE_DIR = process.env.OUTPUT_DIR || path.join(__dirname, '../../output');
 
 /**
  * Auxiliar interno para varrer os arrays de filmes/séries e remover os itens incompatíveis
@@ -30,9 +35,7 @@ function _filtrarListaIncompativel(items) {
 function _filtrarCanaisIncompativeis(items) {
   if (!Array.isArray(items)) return items;
   
-  // Regra 1: Canais que iniciam estritamente com [24H] (escapando os colchetes na ancoragem de início de string ^)
   const regexInicio24h = /^\[24h\]/i;
-  // Regra 2: Canais que contenham as codificações pesadas H265 ou HDR
   const regexContemIncompativel = /(h265|hdr)/i;
   
   return items.filter(item => {
@@ -44,13 +47,97 @@ function _filtrarCanaisIncompativeis(items) {
 // Armazenamento em memória isolado para o interceptor trabalhar localmente na thread ativa
 let _cacheInternoBlindado = { movies: [], series: [], livetv: [] };
 
+// Referência guardada internamente para o raspador remoto atuar como contingência (Fallback)
+let _buscarDetalhesRemoto = null;
+
+/**
+ * Procura um ficheiro de metadados JSON local mapeando as possíveis estruturas de diretórios da pasta output
+ * @private
+ */
+function _encontrarMetadataLocal(id, type) {
+  const folderType = type === 'movie' ? 'movies' : 'series';
+  
+  // Mapeamento resiliente de caminhos baseados na tua estrutura estruturada de raspagem
+  const caminhosPossiveis = [
+    path.join(OUTPUT_BASE_DIR, folderType, String(id), 'details.json'),
+    path.join(OUTPUT_BASE_DIR, folderType, String(id), 'info.json'),
+    path.join(OUTPUT_BASE_DIR, folderType, String(id), `${id}.json`),
+    path.join(OUTPUT_BASE_DIR, type, String(id), 'details.json'),
+    path.join(OUTPUT_BASE_DIR, type, String(id), `${id}.json`)
+  ];
+
+  for (const caminho of caminhosPossiveis) {
+    if (fs.existsSync(caminho)) {
+      return caminho;
+    }
+  }
+  return null;
+}
+
+/**
+ * Interceptor de Alta Velocidade Local-First. Lê metadados do SSD local em 3ms.
+ * Caso não encontre, recorre à API externa e persiste o resultado para as próximas consultas.
+ * @private
+ */
+async function _buscarDetalhesLocalFirst(id, type) {
+  try {
+    const caminhoLocal = _encontrarMetadataLocal(id, type);
+    
+    if (caminhoLocal) {
+      const rawData = fs.readFileSync(caminhoLocal, 'utf8');
+      const detalhes = JSON.parse(rawData);
+      
+      // Normalizações básicas de contrato de dados
+      if (!detalhes.mediaType) detalhes.mediaType = type;
+      if (!detalhes.id) detalhes.id = id;
+      
+      // 🚀 CAPA LOCAL INTELIGENTE: Se não houver coverPath definido, varre a pasta à procura do .jpg correspondente
+      if (!detalhes.coverPath) {
+        const folderPath = path.dirname(caminhoLocal);
+        const arquivos = fs.readdirSync(folderPath);
+        const imagem = arquivos.find(f => /\.(jpg|jpeg|png)$/i.test(f));
+        if (imagem) {
+          detalhes.coverPath = path.join(folderPath, imagem);
+        }
+      }
+
+      console.log(`⚡ [Local-First Engine] Conteúdo [${type}] ID: ${id} resolvido instantaneamente do disco local.`);
+      return detalhes;
+    }
+  } catch (err) {
+    console.error(`⚠️ Erro ao processar leitura do cache local do ID ${id}:`, err.message);
+  }
+
+  // FALLBACK: Se não localizou no disco rígido da VPS, dispara o robô remoto convencional
+  if (_buscarDetalhesRemoto) {
+    console.log(`🌐 [Remote Fallback] ID: ${id} não localizado na pasta output. Acionando raspador remoto...`);
+    const detalhesRemotos = await _buscarDetalhesRemoto(id, type);
+    
+    // Auto-Alimentação: Grava o resultado remotamente no disco para blindar a próxima consulta
+    if (detalhesRemotos) {
+      try {
+        const folderType = type === 'movie' ? 'movies' : 'series';
+        const targetFolder = path.join(OUTPUT_BASE_DIR, folderType, String(id));
+        if (!fs.existsSync(targetFolder)) {
+          fs.mkdirSync(targetFolder, { recursive: true });
+        }
+        fs.writeFileSync(path.join(targetFolder, 'details.json'), JSON.stringify(detalhesRemotos, null, 2), 'utf8');
+        console.log(`💾 [Local-First System] Cache gerado com sucesso para o ID ${id} dentro de output/${folderType}.`);
+      } catch (saveErr) {
+        console.warn(`⚠️ Falha ao salvar persistência de contingência local:`, saveErr.message);
+      }
+    }
+    return detalhesRemotos;
+  }
+  return null;
+}
+
 // Integração com o serviço de cache injetado
 let vouverService = {
-  buscarDetalhes: null,
+  buscarDetalhes: _buscarDetalhesLocalFirst, // Injetado por padrão como Local-First
   estimarDuracao: async () => 109,
   atualizarCache: async () => {},
   
-  // INTERCEPTOR DINÂMICO: Garante blindagem total independente de onde o cache venha
   get CACHE_CONTEUDO() {
     return _cacheInternoBlindado;
   },
@@ -60,14 +147,12 @@ let vouverService = {
       return;
     }
     
-    // Processa a higienização dos metadados cortando lixos e containers pesados
     _cacheInternoBlindado = {
       movies: _filtrarListaIncompativel(novoCache.movies || []),
       series: _filtrarListaIncompativel(novoCache.series || []),
       livetv: _filtrarCanaisIncompativeis(novoCache.livetv || novoCache.channels || [])
     };
     
-    // 🚀 EVOLUÇÃO REDIS: Sempre que o cache sofrer mutação, sincroniza em background com o banco em memória Redis
     bunnyCacheService.redisConnection.set('fasttv:catalog:global', JSON.stringify(_cacheInternoBlindado))
       .then(() => {
         console.log(`📥 [Redis Catalog] Catálogo de segurança persistido e sincronizado no Redis com sucesso.`);
@@ -80,7 +165,12 @@ let vouverService = {
 
 function setExternalServices(services) {
   if (!services) return;
-  vouverService.buscarDetalhes = services.buscarDetalhes || services.getDetails || null;
+  // Redireciona o buscador externo para a nossa variável de fallback seguro
+  _buscarDetalhesRemoto = services.buscarDetalhes || services.getDetails || null;
+  
+  // Mantém a API do bot amarrada ao interceptor local de alta performance
+  vouverService.buscarDetalhes = _buscarDetalhesLocalFirst;
+  
   vouverService.estimarDuracao = services.estimarDuracao || services.estimateDuration || vouverService.estimarDuracao;
   vouverService.atualizarCache = services.atualizarCache || vouverService.atualizarCache;
   if (services.CACHE_CONTEUDO) {
@@ -93,8 +183,6 @@ function getCacheSafe() {
 }
 
 async function ensureCacheLoaded() {
-  // 🚀 EVOLUÇÃO REDIS: Se a instância do Node acabar de reiniciar e a memória RAM interna estiver zerada,
-  // tenta puxar instantaneamente o catálogo salvo e higienizado diretamente do Redis antes de bater na API externa.
   if (_cacheInternoBlindado.movies.length === 0 && _cacheInternoBlindado.series.length === 0 && _cacheInternoBlindado.livetv.length === 0) {
     try {
       const cacheSalvoNoRedis = await bunnyCacheService.redisConnection.get('fasttv:catalog:global');
@@ -109,7 +197,6 @@ async function ensureCacheLoaded() {
     }
   }
 
-  // Fallback de segurança: Se nem a RAM local nem o Redis possuírem o catálogo, força o provisioning completo
   const cache = getCacheSafe();
   if ((!cache.movies || cache.movies.length === 0) && (!cache.series || cache.series.length === 0) && (!cache.livetv || cache.livetv.length === 0)) {
     await vouverService.atualizarCache();
@@ -118,7 +205,7 @@ async function ensureCacheLoaded() {
 
 function gerarTokenAcesso(userId, videoId, mediaType) {
   try {
-    const tempoSegundos = (mediaType === 'series' || mediaType === 'serie') ? 604800 : 86400; // 7 dias ou 24h
+    const tempoSegundos = (mediaType === 'series' || mediaType === 'serie') ? 604800 : 86400; 
     return jwt.sign(
       { userId, videoId, mediaType, exp: Math.floor(Date.now() / 1000) + tempoSegundos },
       config.JWT_SECRET
