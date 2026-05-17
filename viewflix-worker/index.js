@@ -195,6 +195,9 @@ process.on('SIGTERM', async () => {
 // Executa imediatamente ao ligar
 syncViewflixCookies();
 
-// Agenda para rodar de hora a hora
-cron.schedule('0 * * * *', () => syncViewflixCookies());
-console.log('🕰️ Worker agendado. Aguardando ciclos...');
+// 🚀 Agenda para rodar estritamente a cada 1 hora automaticamente,
+// mantendo o loop do Node.js aberto e travando os restarts do PM2!
+cron.schedule('0 * * * *', () => {
+    console.log('⏰ [Cron] Disparando atualização horária de cookies...');
+    syncViewflixCookies();
+});
