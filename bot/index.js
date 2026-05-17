@@ -1,5 +1,4 @@
 // bot/index.js
-const express = require('express'); 
 const bot = require('./instance');
 const config = require('./config');
 const state = require('./state');
@@ -25,10 +24,6 @@ const { sanitizarTexto } = require('../src/services/text-utils.service');
 
 /**
  * Inicializador global do Bot do Telegram (Suporta Webhook Compartilhado e PM2 Cluster)
- * @param {Object} models - Modelos do Mongoose do ecossistema principal
- * @param {Object} services - Serviços de cache e provedores injetados
- * @param {string} dominio - Domínio público HTTPS configurado na VPS
- * @param {Object} app - Instância do servidor Express principal da aplicação
  */
 function initBot(models, services, dominio, app) {
   // 1. Injetar os modelos do Mongoose no Barramento de Dados Isolado
@@ -49,67 +44,28 @@ function initBot(models, services, dominio, app) {
   // 5. Ativar as rotinas assíncronas de manutenção (Cleanup / Notificações)
   startJobs();
 
-  // 6. 🚀 ROTEAMENTO CIRÚRGICO: Içamento Inteligente (Route Hoisting)
-  if (app) {
-    // Desliga qualquer rastro de polling antigo para evitar conflitos de porta com o Webhook
-    try {
-      bot.stopPolling();
-    } catch (e) { /* Ignora se já estiver parado */ }
+  // 6. 🚀 LIMPEZA DE ARQUITETURA: Sem rotas Express forçadas!
+  // Agora dependemos puramente da rota nativa inserida no src/routes/index.js
+  
+  // Paralisa o long-polling antigo para evitar travamentos e conflito 409
+  try { bot.stopPolling(); } catch (e) { /* Ignora */ }
 
-    // Cria a rota padrão protegida
-    app.post('/api/telegram-webhook', express.json(), (req, res) => {
-      console.log('⚡ [Telegram Webhook] Sinal capturado pela Rota Oficial!');
-      if (req.body && Object.keys(req.body).length > 0) {
-        bot.processUpdate(req.body);
-      } else {
-        console.warn('⚠️ [Telegram Webhook] O corpo da requisição está vazio. O Telegram enviou um payload nulo.');
-      }
-      res.sendStatus(200);
-    });
-
-    // 🚀 MASTER HACK: O "Içamento de Rota" (Route Hoisting)
-    // O Express lê as rotas em ordem. Nossa rota acabou de cair no final da fila (atrás do 404).
-    // Nós vamos varrer a arquitetura, puxar ela do final e colocar APÓS as rotas reais, mas ANTES do 404!
-    if (app._router && app._router.stack) {
-      const stack = app._router.stack;
-      const webhookLayer = stack.pop(); // Remove a nossa rota do abismo do final da fila
-      
-      let insertIndex = 0;
-      // Procura de trás pra frente a última rota válida declarada
-      for (let i = stack.length - 1; i >= 0; i--) {
-        // Ignora Middlewares de Erro (geralmente recebem 4 argumentos) ou Middlewares sem rota específica (Catch-Alls)
-        if (stack[i].route || stack[i].name === 'router') {
-          insertIndex = i + 1;
-          break;
-        }
-      }
-      
-      // Se não achou nada (impossível), coloca quase no topo, pra não quebrar o logger/body-parser
-      if (insertIndex === 0) insertIndex = stack.length; 
-      
-      stack.splice(insertIndex, 0, webhookLayer);
-      console.log(`🛡️ [Telegram Webhook] Içamento Ativo: Rota blindada na posição [${insertIndex}] (Bypass do 404 concluído).`);
-    }
-
-    // Apenas a instância principal (0) do Cluster PM2 notifica os servidores do Telegram
-    const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
+  // Apenas a instância principal (0) do Cluster PM2 notifica os servidores do Telegram
+  const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
+  
+  if (isPrimaryInstance && dominio) {
+    const webhookUrl = `${dominio.replace(/\/$/, '')}/api/telegram-webhook`;
     
-    if (isPrimaryInstance && dominio) {
-      const webhookUrl = `${dominio.replace(/\/$/, '')}/api/telegram-webhook`;
-      
-      bot.setWebHook(webhookUrl)
-        .then(() => {
-          console.log(`🚀 [Telegram Webhook] Sincronizado com sucesso! Escutando Webhooks em: ${webhookUrl}`);
-        })
-        .catch((err) => {
-          console.error('❌ [Telegram Webhook] Erro crítico ao registrar webhook no Telegram:', err.message);
-        });
-    }
-    console.log('🚀 [FastTV Bot] Inicializado com sucesso em modo WEBHOOK distribuído (Pronto para PM2 -i max).');
-  } else {
-    bot.startPolling();
-    console.log('⚠️ [FastTV Bot] Inicializado em modo LONGBOLLING de Fallback (Não utilize em modo Cluster do PM2).');
+    bot.setWebHook(webhookUrl)
+      .then(() => {
+        console.log(`🚀 [Telegram Webhook] URL Ativada no Servidor do Telegram: ${webhookUrl}`);
+      })
+      .catch((err) => {
+        console.error('❌ [Telegram Webhook] Erro crítico ao registrar webhook:', err.message);
+      });
   }
+  
+  console.log('🚀 [FastTV Bot] Módulos carregados. Aguardando disparo de eventos pelo Express Router.');
 }
 
 /**
