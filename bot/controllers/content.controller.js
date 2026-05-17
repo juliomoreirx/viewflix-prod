@@ -541,7 +541,7 @@ class ContentController {
     await bot.sendMessage(chatId, `📡 *Os Meus Canais Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
   }
 
-  async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
+async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
     const currentState = await state.getUserState(chatId);
     const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
@@ -550,7 +550,9 @@ class ContentController {
     if (!serie) return this.mostrarMeuConteudoSeries(chatId);
 
     const episodeEntries = [];
-    for (const [seasonKey, episodes] of serie.seasons.entries()) {
+    
+    // 🚀 FIX REDIS: Iterando sobre um Objeto Simples em vez de um Map()
+    for (const [seasonKey, episodes] of Object.entries(serie.seasons)) {
       for (const ep of episodes) {
         episodeEntries.push({ season: seasonKey, label: `▶️ ${ep.episodeName || 'Episódio'}`, expiresAt: ep.expiresAt, id: ep._id });
       }
@@ -606,7 +608,7 @@ class ContentController {
     }
   }
 
-  _buildMeuConteudoGroups(conteudos) {
+_buildMeuConteudoGroups(conteudos) {
     const movies = [];
     const livetv = [];
     const seriesMap = new Map();
@@ -620,13 +622,18 @@ class ContentController {
       if (item.mediaType === 'livetv' || item.mediaType === 'live') { livetv.push({ ...plainItem, title, purchaseDate }); continue; }
 
       const key = normalizeTitle(title || plainItem.title || '');
-      if (!seriesMap.has(key)) seriesMap.set(key, { title: title || plainItem.title, seasons: new Map(), totalEpisodes: 0, lastPurchaseDate: purchaseDate });
+      
+      // 🚀 FIX REDIS: Inicializando 'seasons' como um Objeto Simples {} em vez de Map()
+      if (!seriesMap.has(key)) seriesMap.set(key, { title: title || plainItem.title, seasons: {}, totalEpisodes: 0, lastPurchaseDate: purchaseDate });
       
       const group = seriesMap.get(key);
       if (purchaseDate > group.lastPurchaseDate) group.lastPurchaseDate = purchaseDate;
       const seasonKey = String(plainItem.season || '1');
-      if (!group.seasons.has(seasonKey)) group.seasons.set(seasonKey, []);
-      group.seasons.get(seasonKey).push({ ...plainItem, episodeName: plainItem.episodeName, expiresAt: plainItem.expiresAt, _id: plainItem._id });
+      
+      // Alimentando o objeto simples de forma compatível com JSON
+      if (!group.seasons[seasonKey]) group.seasons[seasonKey] = [];
+      group.seasons[seasonKey].push({ ...plainItem, episodeName: plainItem.episodeName, expiresAt: plainItem.expiresAt, _id: plainItem._id });
+      
       group.totalEpisodes += 1;
     }
     
