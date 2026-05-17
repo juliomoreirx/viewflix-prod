@@ -3,12 +3,46 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const config = require('../config');
 
+// 🚀 CORE: Expressão regular implacável para capturar os formatos problemáticos na web
+const REGEX_BLOQUEIO_4K = /(4k|hdr|hybrid)/i;
+
+/**
+ * Auxiliar interno para varrer os arrays e remover os itens incompatíveis
+ * @private
+ */
+function _filtrarListaIncompativel(items) {
+  if (!Array.isArray(items)) return items;
+  return items.filter(item => {
+    const titulo = item.title || item.name || item.titulo || '';
+    // Mantém na lista apenas se o título NÃO der match com 4K, HDR ou Hybrid
+    return !REGEX_BLOQUEIO_4K.test(titulo);
+  });
+}
+
+// Armazenamento em memória isolado para o interceptor trabalhar
+let _cacheInternoBlindado = { movies: [], series: [], livetv: [] };
+
 // Integração com o serviço de cache injetado
 let vouverService = {
   buscarDetalhes: null,
   estimarDuracao: async () => 109,
   atualizarCache: async () => {},
-  CACHE_CONTEUDO: { movies: [], series: [], livetv: [] }
+  
+  // 🚀 INTERCEPTOR DINÂMICO: Garante blindagem não importa a origem do carregamento do cache
+  get CACHE_CONTEUDO() {
+    return _cacheInternoBlindado;
+  },
+  set CACHE_CONTEUDO(novoCache) {
+    if (!novoCache) {
+      _cacheInternoBlindado = { movies: [], series: [], livetv: [] };
+      return;
+    }
+    _cacheInternoBlindado = {
+      movies: _filtrarListaIncompativel(novoCache.movies || []),
+      series: _filtrarListaIncompativel(novoCache.series || []),
+      livetv: _filtrarListaIncompativel(novoCache.livetv || novoCache.channels || [])
+    };
+  }
 };
 
 function setExternalServices(services) {
@@ -16,10 +50,11 @@ function setExternalServices(services) {
   vouverService.buscarDetalhes = services.buscarDetalhes || services.getDetails || null;
   vouverService.estimarDuracao = services.estimarDuracao || services.estimateDuration || vouverService.estimarDuracao;
   vouverService.atualizarCache = services.atualizarCache || vouverService.atualizarCache;
-  vouverService.CACHE_CONTEUDO = services.CACHE_CONTEUDO || vouverService.CACHE_CONTEUDO;
+  vouverService.CACHE_CONTEUDO = services.CACHE_CONTEUDO || services.CACHE_CONTEUDO;
 }
 
 function getCacheSafe() {
+  // Retorna o cache que já passou obrigatoriamente pelo filtro do Setter
   return vouverService.CACHE_CONTEUDO || { movies: [], series: [], livetv: [] };
 }
 
