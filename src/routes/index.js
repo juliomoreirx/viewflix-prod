@@ -14,10 +14,10 @@ const batchRoutes = require('./batch.routes');
 // 🚀 IMPORTAÇÕES DE INFRAESTRUTURA SEGUROS
 const botModule = require('../../bot');
 const bunnyCacheService = require('../services/bunny-cache.service');
+const contentServiceLocal = require('../../bot/services/content.service'); // ← Importação do Serviço para recarregar o cache
 
 const router = express.Router();
 
-// 🚀 ETAPA 4: INTERCEPTADOR ANTI-FLOOD ATÓMICO COM REDIS
 router.post(['/telegram-webhook', '/api/telegram-webhook'], async (req, res) => {
   const update = req.body;
 
@@ -25,6 +25,25 @@ router.post(['/telegram-webhook', '/api/telegram-webhook'], async (req, res) => 
     return res.sendStatus(200);
   }
 
+  // 🚀 INTERCEPTADOR DO MICROSERVIÇO DE CATÁLOGO (Bypass de Segurança)
+  if (update.source === 'catalog_worker') {
+    console.log('🔄 [Webhook] Catálogo atualizado pelo microserviço! Recarregando memória RAM da API...');
+    try {
+      // Limpa o cache antigo da memória RAM para forçar a releitura
+      contentServiceLocal.vouverService.CACHE_CONTEUDO = null;
+      // Puxa o JSON fresco do Redis para a RAM em menos de 10ms
+      await contentServiceLocal.ensureCacheLoaded();
+      console.log('✅ [Sincronização] Memória RAM da API central atualizada com os dados do Redis!');
+      
+      // Responde com sucesso e mata o processo aqui (não vai para o bot)
+      return res.status(200).json({ ok: true, msg: 'RAM reloaded from Redis' });
+    } catch (err) {
+      console.error('❌ Erro ao recarregar cache da API via Webhook:', err.message);
+      return res.status(500).json({ ok: false, error: err.message });
+    }
+  }
+
+  // 🚀 ETAPA 4: INTERCEPTADOR ANTI-FLOOD ATÓMICO COM REDIS (Para utilizadores do Telegram)
   // Identifica o Chat ID de forma cirúrgica (seja mensagem de texto ou clique inline callback)
   const chatId = update.message?.chat?.id || update.callback_query?.message?.chat?.id;
 
@@ -56,7 +75,7 @@ router.post(['/telegram-webhook', '/api/telegram-webhook'], async (req, res) => 
         await bunnyCacheService.redisConnection.del(counterKey);
 
         // Envia um aviso educacional para o utilizador no Telegram
-        botModule.bot.sendMessage(chatId, "⚠️ *Aviso de Segurança FastTV* ⚠️\n\nEstás a enviar comandos ou cliques rápido demais! Por segurança do servidor, os teus acessos foram suspensos por *30 segundos*.\n\nVá com calma, parceiro!  popcorn", { parse_mode: 'Markdown' }).catch(() => {});
+        botModule.bot.sendMessage(chatId, "⚠️ *Aviso de Segurança FastTV* ⚠️\n\nEstás a enviar comandos ou cliques rápido demais! Por segurança do servidor, os teus acessos foram suspensos por *30 segundos*.\n\nVá com calma, parceiro! 🍿", { parse_mode: 'Markdown' }).catch(() => {});
         
         return res.sendStatus(200);
       }

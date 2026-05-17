@@ -59,7 +59,7 @@ async function startServer() {
     cookieManager.startMonitoring();
 
     if (cookiesReady) {
-      await contentService.atualizarCache(true);
+      logger.info({ msg: 'Cookies validados. Sincronização do catálogo delegada ao catalog-worker via Redis.' });
     } else {
       logger.warn({
         msg: 'Cookies incompletos no boot; cache inicial adiado',
