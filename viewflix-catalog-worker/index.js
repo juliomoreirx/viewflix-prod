@@ -10,16 +10,13 @@ const cron = require('node-cron');
 // 1. CONFIGURAÇÕES E AMBIENTE
 // ==========================================
 const {
-    REDIS_HOST = '127.0.0.1',
-    REDIS_PORT = 6379,
-    REDIS_PASSWORD,
+    REDIS_URL, // 🚀 Padrão absoluto centralizado
     RES_PROXY_HOST,
     RES_PROXY_PORT = '33335',
     RES_PROXY_USER,
     RES_PROXY_PASS,
     WEBHOOK_URL,
     WEBHOOK_TOKEN,
-    // URL padrão do fornecedor para puxar o JSON completo do catálogo
     CATALOG_URL = 'http://vouver.me/api/content.json' 
 } = process.env;
 
@@ -28,12 +25,9 @@ if (!WEBHOOK_URL || !WEBHOOK_TOKEN) {
     process.exit(1);
 }
 
-// Inicializa conexão nativa com o Redis do ecossistema
-const redis = new Redis({
-    host: REDIS_HOST,
-    port: parseInt(REDIS_PORT, 10),
-    password: REDIS_PASSWORD || undefined
-});
+// Inicializa o Redis passando a string de conexão completa diretamente
+const redis = REDIS_URL ? new Redis(REDIS_URL) : new Redis();
+console.log('🔌 [Redis] Inicializado com sucesso via string de conexão.');
 
 const REGEX_BLOQUEIO_4K = /(4k|hdr|hybrid)/i;
 
@@ -65,17 +59,15 @@ async function atualizarCatalogoFila() {
     console.log(`[${new Date().toISOString()}] 🔄 Iniciando ciclo de atualização do catálogo...`);
 
     try {
-        // 🚀 PASSO A: Buscar cookies frescos da sessão ativa gerados pelo robô Puppeteer
-        // Se o seu bot salva os cookies no Redis com outra chave, ajuste o nome aqui
+        // Buscar cookies frescos gerados pelo robô Puppeteer
         let cookiesAtivos = await redis.get('fasttv:cookies:current') || process.env.SESSION_COOKIES;
         
         if (!cookiesAtivos) {
             console.warn('⚠️ Nenhum cookie ativo localizado no Redis ou .env. Tentando requisição limpa...');
         }
 
-        // PASSO B: Configurar o agente do Proxy Residencial Bright Data para evitar o Erro 403
         let axiosConfig = {
-            timeout: 90000, // 90 segundos (arquivos grandes exigem fôlego de rede)
+            timeout: 90000, 
             headers: {
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
                 'Accept': 'application/json, text/plain, */*',
@@ -90,7 +82,6 @@ async function atualizarCatalogoFila() {
             console.log('🛡️ Roteamento via Proxy Bright Data ativado.');
         }
 
-        // PASSO C: Baixar o arquivo bruto
         console.log(`📡 Efetuando download do catálogo de: ${CATALOG_URL}`);
         const response = await axios.get(CATALOG_URL, axiosConfig);
         
@@ -101,7 +92,6 @@ async function atualizarCatalogoFila() {
         const catalogoBruto = response.data;
         console.log('✅ Download concluído. Processando filtragem de segurança...');
 
-        // PASSO D: Filtrar os conteúdos em tempo de execução
         const catalogoFiltrado = {
             movies: filtrarFilmesESeries(catalogoBruto.movies || catalogoBruto.filmes || []),
             series: filtrarFilmesESeries(catalogoBruto.series || catalogoBruto.animes || []),
@@ -110,12 +100,10 @@ async function atualizarCatalogoFila() {
 
         console.log(`📊 Métricas do novo catálogo:\n ├ Filmes: ${catalogoFiltrado.movies.length}\n ├ Séries: ${catalogoFiltrado.series.length}\n └ Canais Ao Vivo: ${catalogoFiltrado.livetv.length}`);
 
-        // PASSO E: Injetar diretamente na persistência global do Redis
         const redisKey = 'fasttv:catalog:global';
         await redis.set(redisKey, JSON.stringify(catalogoFiltrado));
-        console.log('📥 [Redis] Novo catálogo persistido e sincronizado com sucesso!');
+        console.log('📥 [Redis] Novo catálogo filtrado persistido com sucesso!');
 
-        // PASSO F: Enviar sinal de Webhook para a API recarregar os dados na memória RAM instantaneamente
         console.log('📡 Notificando API central via Webhook...');
         const webhookResponse = await axios.post(WEBHOOK_URL, {
             source: 'catalog_worker',
@@ -131,7 +119,7 @@ async function atualizarCatalogoFila() {
         if (webhookResponse.status === 200 || webhookResponse.status === 204) {
             console.log('🚀 [Sincronização] API central notificada e atualizada com sucesso!');
         } else {
-            console.warn(`⚠️ API central respondeu com status: ${webhookResponse.status}. Verifique as rotas.`);
+            console.warn(`⚠️ API central respondeu com status: ${webhookResponse.status}.`);
         }
 
     } catch (error) {
@@ -142,10 +130,8 @@ async function atualizarCatalogoFila() {
 // ==========================================
 // 4. CICLO DE VIDA E AGENDAMENTO
 // ==========================================
-// Executa uma vez no boot imediato do processo
 atualizarCatalogoFila();
 
-// Agenda para rodar de hora em hora (Minuto 0 de cada hora)
 cron.schedule('0 * * * *', () => {
     console.log('⏰ [Cron] Disparando rotina automática de atualização de catálogo...');
     atualizarCatalogoFila();
