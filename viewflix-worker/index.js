@@ -43,15 +43,13 @@ async function syncViewflixCookies() {
             '--disable-web-security',
             '--ignore-certificate-errors',
             '--disable-dev-shm-usage',
-            '--disable-gpu'
+            '--disable-gpu',
+            '--disable-features=IsolateOrigins,site-per-process,AutoUpgradeMixedContent,HttpsUpgrades'
         ];
 
-        // 🚀 FIX: Aplicado encodeURIComponent para blindar contra caracteres especiais na senha da Bright Data
+        // 🚀 FIX: Sem encodeURIComponent! Usando a string bruta que a Bright Data espera!
         if (RES_PROXY_HOST && RES_PROXY_USER && RES_PROXY_PASS) {
-            const userEncoded = encodeURIComponent(RES_PROXY_USER);
-            const passEncoded = encodeURIComponent(RES_PROXY_PASS);
-            const proxyUrlCompleta = `http://${userEncoded}:${passEncoded}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
-            
+            const proxyUrlCompleta = `http://${RES_PROXY_USER}:${RES_PROXY_PASS}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
             proxyLocalAutenticado = await proxyChain.anonymizeProxy(proxyUrlCompleta);
             puppeteerArgs.push(`--proxy-server=${proxyLocalAutenticado}`);
             console.log('🛡️ Proxy Bright Data configurado e anonimizado!');
@@ -60,7 +58,7 @@ async function syncViewflixCookies() {
         }
 
         browser = await puppeteer.launch({
-            headless: true, 
+            headless: true,
             ignoreHTTPSErrors: true,
             args: puppeteerArgs
         });
@@ -69,14 +67,27 @@ async function syncViewflixCookies() {
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
         await page.setDefaultNavigationTimeout(45000);
 
-        // 🚀 FIX SUPREMO: Removido o page.setRequestInterception(true) que gerava o ERR_BLOCKED_BY_CLIENT!
+        // 🚀 Aceleração máxima: corta peso morto da rede residencial
+        await page.setRequestInterception(true);
+        page.on('request', (req) => {
+            if (['image', 'font', 'media'].includes(req.resourceType())) {
+                return req.abort();
+            }
+            req.continue();
+        });
+
         console.log(`🌐 Navegando para: ${TARGET_URL}`);
-        await page.goto(TARGET_URL, { waitUntil: 'load', timeout: 45000 });
+        
+        try {
+            await page.goto(TARGET_URL, { waitUntil: 'domcontentloaded', timeout: 45000 });
+        } catch (err) {
+            console.warn(`⚠️ Timeout na rede (${err.message}). Continuando...`);
+        }
 
         console.log('⏳ Aguardando formulário de login...');
         await page.waitForSelector('#username', { visible: true, timeout: 30000 });
 
-        // Preencher e submeter o formulário
+        console.log('✅ Tela de login alcançada!');
         await page.evaluate((u, p) => {
             document.getElementById('username').value = u;
             document.getElementById('sifre').value = p;
@@ -84,9 +95,9 @@ async function syncViewflixCookies() {
         }, LOGIN_USER, LOGIN_PASS);
 
         console.log('🔑 Credenciais inseridas. Aguardando processamento...');
-        await page.waitForNavigation({ waitUntil: 'load', timeout: 30000 }).catch(() => {});
+        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }).catch(() => {});
         
-        await new Promise(r => setTimeout(r, 4000)); 
+        await new Promise(r => setTimeout(r, 3000)); 
 
         const cookies = await page.cookies();
         const cookieMap = new Map();
@@ -132,6 +143,15 @@ async function syncViewflixCookies() {
 
     } catch (error) {
         console.error('❌ [Erro Crítico]:', error.message);
+        if (browser) {
+            try {
+                const pages = await browser.pages();
+                if (pages.length > 0) {
+                    await pages[0].screenshot({ path: '/root/viewflix/viewflix-prod/viewflix-worker/debug-cloudflare.png', fullPage: true });
+                    console.log('📸 Screenshot para debug salvo em: debug-cloudflare.png');
+                }
+            } catch (e) {}
+        }
     } finally {
         console.log('🧹 Limpando processos...');
         if (browser) await browser.close();
