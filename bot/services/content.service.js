@@ -3,19 +3,37 @@ const jwt = require('jsonwebtoken');
 const crypto = require('crypto');
 const config = require('../config');
 
-// 🚀 CORE: Expressão regular implacável para capturar os formatos problemáticos na web
+// 🚀 CORE: Expressão regular para capturar formatos de filmes/séries incompatíveis na web
 const REGEX_BLOQUEIO_4K = /(4k|hdr|hybrid)/i;
 
 /**
- * Auxiliar interno para varrer os arrays e remover os itens incompatíveis
+ * Auxiliar interno para varrer os arrays de filmes/séries e remover os itens incompatíveis
  * @private
  */
 function _filtrarListaIncompativel(items) {
   if (!Array.isArray(items)) return items;
   return items.filter(item => {
     const titulo = item.title || item.name || item.titulo || '';
-    // Mantém na lista apenas se o título NÃO der match com 4K, HDR ou Hybrid
     return !REGEX_BLOQUEIO_4K.test(titulo);
+  });
+}
+
+/**
+ * Auxiliar interno para varrer e blindar a lista de canais ao vivo (Live TV)
+ * Regras: Remover canais que iniciam com [24H] e canais que contenham [H265] ou [HDR]
+ * @private
+ */
+function _filtrarCanaisIncompativeis(items) {
+  if (!Array.isArray(items)) return items;
+  
+  // Regra 1: Canais que iniciam estritamente com [24H] (escapando os colchetes na ancoragem de início de string ^)
+  const regexInicio24h = /^\[24h\]/i;
+  // Regra 2: Canais que contenham as codificações pesadas H265 ou HDR
+  const regexContemIncompativel = /(h265|hdr)/i;
+  
+  return items.filter(item => {
+    const titulo = item.title || item.name || item.titulo || '';
+    return !regexInicio24h.test(titulo) && !regexContemIncompativel.test(titulo);
   });
 }
 
@@ -28,7 +46,7 @@ let vouverService = {
   estimarDuracao: async () => 109,
   atualizarCache: async () => {},
   
-  // 🚀 INTERCEPTOR DINÂMICO: Garante blindagem não importa a origem do carregamento do cache
+  // 🚀 INTERCEPTOR DINÂMICO: Garante blindagem total independente de onde o cache venha
   get CACHE_CONTEUDO() {
     return _cacheInternoBlindado;
   },
@@ -40,7 +58,7 @@ let vouverService = {
     _cacheInternoBlindado = {
       movies: _filtrarListaIncompativel(novoCache.movies || []),
       series: _filtrarListaIncompativel(novoCache.series || []),
-      livetv: _filtrarListaIncompativel(novoCache.livetv || novoCache.channels || [])
+      livetv: _filtrarCanaisIncompativeis(novoCache.livetv || novoCache.channels || [])
     };
   }
 };
@@ -54,7 +72,6 @@ function setExternalServices(services) {
 }
 
 function getCacheSafe() {
-  // Retorna o cache que já passou obrigatoriamente pelo filtro do Setter
   return vouverService.CACHE_CONTEUDO || { movies: [], series: [], livetv: [] };
 }
 
