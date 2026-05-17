@@ -49,28 +49,31 @@ function initBot(models, services, dominio, app) {
   // 5. Ativar as rotinas assíncronas de manutenção (Cleanup / Notificações)
   startJobs();
 
-  // 6. 🚀 CONFIGURAÇÃO DE WEBHOOK COM PRIORIDADE MÁXIMA (TOP OF THE STACK)
+  // 6. 🚀 ROTEAMENTO CIRÚRGICO DE WEBHOOK: Autônomo e Prioritário
   if (app) {
-    // Declaramos a rota isolada com seu próprio express.json()
-    app.post('/api/telegram-webhook', express.json(), (req, res) => {
+    // Declaramos um mini-roteador isolado para garantir que a rota leve o parser JSON consigo para o topo da pilha
+    const botRouter = express.Router();
+    
+    botRouter.post('/api/telegram-webhook', express.json(), (req, res) => {
       if (req.body && Object.keys(req.body).length > 0) {
         bot.processUpdate(req.body);
       } else {
-        console.warn('⚠️ [Telegram Webhook] Alerta: Recebeu uma requisição POST mas o req.body veio vazio ou não parseado.');
+        console.log('⚠️ [Telegram Webhook] Recebeu POST, mas o corpo está vazio. O express.json() pode estar falhando.');
       }
       res.sendStatus(200);
     });
 
-    // 🚀 MASTER HACK DE INFRAESTRUTURA SÊNIOR:
-    // Retira a rota que acabou de ser empurrada para o final do array e injeta ela no topo absoluto (index 0).
-    // Isso garante a execução dela antes de qualquer middleware de 404 ou roteamento curinga do app.js!
+    app.use(botRouter);
+
+    // 🚀 MASTER HACK: Move o mini-roteador do bot para o topo absoluto do Express (Index 0).
+    // Isso garante que ele atenda a porta ANTES de qualquer regra 404, auth ou middleware global que possa bloquear.
     if (app._router && app._router.stack) {
       const camadaDoBot = app._router.stack.pop();
       app._router.stack.unshift(camadaDoBot);
-      console.log('⚡ [Telegram Webhook] Rota injetada com prioridade máxima no topo da pilha do Express.');
+      console.log('⚡ [Telegram Webhook] Escudo ativado! Rota do bot movida para o topo da pilha do Express.');
     }
 
-    // Prática Sênior: Apenas a instância '0' do PM2 faz a chamada à API do Telegram para registrar o endereço
+    // Apenas a instância principal (0) do Cluster PM2 notifica os servidores do Telegram
     const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
     
     if (isPrimaryInstance && dominio) {
@@ -78,7 +81,7 @@ function initBot(models, services, dominio, app) {
       
       bot.setWebHook(webhookUrl)
         .then(() => {
-          console.log(`🚀 [Telegram Webhook] Sincronizado com sucesso! Escutando em: ${webhookUrl}`);
+          console.log(`🚀 [Telegram Webhook] Sincronizado com sucesso! Escutando Webhooks em: ${webhookUrl}`);
         })
         .catch((err) => {
           console.error('❌ [Telegram Webhook] Erro crítico ao registrar webhook no Telegram:', err.message);
@@ -86,7 +89,7 @@ function initBot(models, services, dominio, app) {
     }
     console.log('🚀 [FastTV Bot] Inicializado com sucesso em modo WEBHOOK distribuído (Pronto para PM2 -i max).');
   } else {
-    // Fallback de segurança para desenvolvimento local se o app não for injetado
+    // Fallback de segurança
     bot.startPolling();
     console.log('⚠️ [FastTV Bot] Inicializado em modo LONGBOLLING de Fallback (Não utilize em modo Cluster do PM2).');
   }
