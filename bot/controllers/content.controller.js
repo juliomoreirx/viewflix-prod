@@ -85,18 +85,19 @@ class ContentController {
     let mensagem = `🎬 *${tituloSeguro}*\n\n`;
     if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
     if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
-    if (detalhes.info?.imdb) message += `⭐ IMDB: ${detalhes.info.imdb}\n`;
+    // 🚀 FIX: Corrigido de 'message +=' para 'mensagem +=' para evitar ReferenceError fatal!
+    if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
     if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
     const keyboard = [];
 
     if (detalhes.mediaType === 'movie') {
-      let minutos = parseInt(detalhes.info?.duracaoMinutos || detalhes.info?.duracao || 0, 10);
-      if (!Number.isFinite(minutos) || minutos <= 0) {
-        minutos = await contentService.vouverService.estimarDuracao('movie', id);
+      let minutes = parseInt(detalhes.info?.duracaoMinutos || detalhes.info?.duracao || 0, 10);
+      if (!Number.isFinite(minutes) || minutes <= 0) {
+        minutes = await contentService.vouverService.estimarDuracao('movie', id);
       }
 
-      const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutos });
+      const pricing = calcularPrecoFinal({ mediaType: 'movie', duracaoMinutos: minutes });
       mensagem += `⏱️ Duração: ~${pricing.duracaoMinutos}min\n💰 Preço: ${formatMoney(pricing.precoFinal)}\n⏰ Válido por: 24 horas\n💳 O teu saldo: ${formatMoney(saldoAtual)}`;
 
       if (saldoAtual < pricing.precoFinal) {
@@ -376,12 +377,12 @@ class ContentController {
     const currentState = await state.getUserState(chatId);
     bot.answerCallbackQuery(query.id);
 
-    let episodios = currentState?.data?.seasons?.[season] || [];
-    if (episodios.length === 0) return bot.sendMessage(chatId, '❌ Falha ao recuperar episódios.');
+    let id_episodios = currentState?.data?.seasons?.[season] || [];
+    if (id_episodios.length === 0) return bot.sendMessage(chatId, '❌ Falha ao recuperar episódios.');
 
-    const episodeIds = episodios.map(ep => String(ep.id));
+    const episodeIds = id_episodios.map(ep => String(ep.id));
     const ownedEpisodes = await userService.getOwnedEpisodesSet(chatId, currentState.data.title, season, episodeIds);
-    const restantes = episodios.filter(ep => !ownedEpisodes.has(String(ep.id)));
+    const restantes = id_episodios.filter(ep => !ownedEpisodes.has(String(ep.id)));
 
     if (restantes.length === 0) return bot.sendMessage(chatId, '✅ Já tens todos os episódios ativos!');
 
@@ -401,11 +402,11 @@ class ContentController {
 
     const tituloSerie = currentState?.data?.title || 'Série';
     const seriesId = currentState?.id || null;
-    const totalEpisodes = episodios.length;
+    const totalEpisodes = id_episodios.length;
 
     for (let i = 0; i < restantes.length; i++) {
       const ep = restantes[i];
-      const episodeIndex = episodios.findIndex(e => String(e.id) === String(ep.id)) + 1;
+      const episodeIndex = id_episodios.findIndex(e => String(e.id) === String(ep.id)) + 1;
 
       const saved = await contentService.salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season, { seriesId, episodeIndex, totalEpisodes });
       
@@ -554,7 +555,6 @@ class ContentController {
     const sortedSeasons = Object.entries(serie.seasons).sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10));
     
     for (const [seasonKey, episodes] of sortedSeasons) {
-      // 🚀 MASTER FIX DE ORDENAÇÃO DE EPISÓDIOS: Força a ordenação crescente (Começa do Episódio 1 para baixo)
       const sortedEpisodes = [...episodes].sort((a, b) => {
         const numA = (a.episodeIndex !== undefined && a.episodeIndex !== null) 
           ? parseInt(a.episodeIndex, 10) 
