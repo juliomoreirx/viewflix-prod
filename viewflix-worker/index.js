@@ -46,8 +46,12 @@ async function syncViewflixCookies() {
             '--disable-gpu'
         ];
 
+        // 🚀 FIX: Aplicado encodeURIComponent para blindar contra caracteres especiais na senha da Bright Data
         if (RES_PROXY_HOST && RES_PROXY_USER && RES_PROXY_PASS) {
-            const proxyUrlCompleta = `http://${RES_PROXY_USER}:${RES_PROXY_PASS}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
+            const userEncoded = encodeURIComponent(RES_PROXY_USER);
+            const passEncoded = encodeURIComponent(RES_PROXY_PASS);
+            const proxyUrlCompleta = `http://${userEncoded}:${passEncoded}@${RES_PROXY_HOST}:${RES_PROXY_PORT}`;
+            
             proxyLocalAutenticado = await proxyChain.anonymizeProxy(proxyUrlCompleta);
             puppeteerArgs.push(`--proxy-server=${proxyLocalAutenticado}`);
             console.log('🛡️ Proxy Bright Data configurado e anonimizado!');
@@ -56,7 +60,7 @@ async function syncViewflixCookies() {
         }
 
         browser = await puppeteer.launch({
-            headless: true, // Voltando para o modo nativo clássico
+            headless: true, 
             ignoreHTTPSErrors: true,
             args: puppeteerArgs
         });
@@ -65,17 +69,9 @@ async function syncViewflixCookies() {
         await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36');
         await page.setDefaultNavigationTimeout(45000);
 
-        // 🚀 Alta Velocidade: Bloqueia tudo o que é inútil para o login carregar na hora pela proxy
-        await page.setRequestInterception(true);
-        page.on('request', (req) => {
-            if (['image', 'stylesheet', 'font', 'media'].includes(req.resourceType())) {
-                return req.abort();
-            }
-            req.continue();
-        });
-
+        // 🚀 FIX SUPREMO: Removido o page.setRequestInterception(true) que gerava o ERR_BLOCKED_BY_CLIENT!
         console.log(`🌐 Navegando para: ${TARGET_URL}`);
-        await page.goto(TARGET_URL, { waitUntil: 'networkidle2', timeout: 45000 });
+        await page.goto(TARGET_URL, { waitUntil: 'load', timeout: 45000 });
 
         console.log('⏳ Aguardando formulário de login...');
         await page.waitForSelector('#username', { visible: true, timeout: 30000 });
@@ -88,9 +84,9 @@ async function syncViewflixCookies() {
         }, LOGIN_USER, LOGIN_PASS);
 
         console.log('🔑 Credenciais inseridas. Aguardando processamento...');
-        await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: 30000 }).catch(() => {});
+        await page.waitForNavigation({ waitUntil: 'load', timeout: 30000 }).catch(() => {});
         
-        await new Promise(r => setTimeout(r, 3000)); 
+        await new Promise(r => setTimeout(r, 4000)); 
 
         const cookies = await page.cookies();
         const cookieMap = new Map();
@@ -152,10 +148,8 @@ process.on('SIGTERM', async () => { process.exit(0); });
 // ==========================================
 // 4. EXECUÇÃO EM ESCOPO GLOBAL DO CRON
 // ==========================================
-// Executa a sincronização imediatamente no boot do processo
 syncViewflixCookies();
 
-// Mantém o loop do Node aberto agendando de hora em hora
 cron.schedule('0 * * * *', () => {
     console.log('⏰ [Cron] Disparando rotina automática de atualização de cookies...');
     syncViewflixCookies();
