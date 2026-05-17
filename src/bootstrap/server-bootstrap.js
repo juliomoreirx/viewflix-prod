@@ -75,6 +75,7 @@ async function startServer() {
     // ======================
     // INICIALIZAÇÃO DO BOT (nova estrutura)
     // ======================
+    // 🚀 ATUALIZADO: Injetado o objeto 'app' (Express) como 4º argumento para ativar o modo Webhook distribuído
     botModule.initBot(
       models,
       {
@@ -83,7 +84,8 @@ async function startServer() {
         buscarDetalhes: buscarDetalhesFn,
         estimarDuracao: estimarDuracaoFn
       },
-      env.DOMINIO_PUBLICO
+      env.DOMINIO_PUBLICO,
+      app 
     );
 
     // ============================
@@ -120,7 +122,7 @@ async function startServer() {
     // ENCERRAMENTO GRACIOSO
     // ============================
     const gracefulShutdown = async (signal) => {
-      logger.info({ msg: `Sinal ${signal} recebido. Encerrando servidor graciosamente...` });
+      logger.info({ msg: `Sinal ${signal} received. Encerrando servidor graciosamente...` });
       try {
         server.close(async () => {
           logger.info({ msg: 'Servidor HTTP fechado.' });

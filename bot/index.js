@@ -1,3 +1,5 @@
+// bot/index.js
+const express = require('express'); // 🚀 Garantia de isolamento de rotas
 const bot = require('./instance');
 const config = require('./config');
 const state = require('./state');
@@ -22,9 +24,13 @@ const { formatMoney } = require('./utils/formatters');
 const { sanitizarTexto } = require('../src/services/text-utils.service');
 
 /**
- * Inicializador global do Bot do Telegram (Substitui a antiga initBot do monólito)
+ * Inicializador global do Bot do Telegram (Suporta Webhook Compartilhado e PM2 Cluster)
+ * @param {Object} models - Modelos do Mongoose do ecossistema principal
+ * @param {Object} services - Serviços de cache e provedores injetados
+ * @param {string} dominio - Domínio público HTTPS configurado na VPS
+ * @param {Object} app - Instância do servidor Express principal da aplicação
  */
-function initBot(models, services, dominio) {
+function initBot(models, services, dominio, app) {
   // 1. Injetar os modelos do Mongoose no Barramento de Dados Isolado
   db.setModels(models);
 
@@ -43,9 +49,35 @@ function initBot(models, services, dominio) {
   // 5. Ativar as rotinas assíncronas de manutenção (Cleanup / Notificações)
   startJobs();
 
-  // 6. Abrir o canal de comunicação real (Polling) com o Telegram
-  bot.startPolling();
-  console.log('🚀 [FastTV Bot] Módulo refatorado inicializado com sucesso e escutando eventos em modo assíncrono.');
+  // 6. 🚀 EVOLUÇÃO WEBHOOK: Configuração de Rota Distribuída e Amigável a Clusters do PM2
+  if (app) {
+    // Injeta o express.json() diretamente na rota para evitar conflitos com parsers customizados do app principal
+    app.post('/api/telegram-webhook', express.json(), (req, res) => {
+      bot.processUpdate(req.body);
+      res.sendStatus(200);
+    });
+
+    // Prática Sênior: Apenas a instância '0' do PM2 faz a chamada à API do Telegram para registrar o endereço
+    const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
+    
+    if (isPrimaryInstance && dominio) {
+      // Saneia a URL removendo possíveis barras duplicadas no final do domínio
+      const webhookUrl = `${dominio.replace(/\/$/, '')}/api/telegram-webhook`;
+      
+      bot.setWebHook(webhookUrl)
+        .then(() => {
+          console.log(`🚀 [Telegram Webhook] Sincronizado com sucesso! Escutando em: ${webhookUrl}`);
+        })
+        .catch((err) => {
+          console.error('❌ [Telegram Webhook] Erro crítico ao registrar webhook no Telegram:', err.message);
+        });
+    }
+    console.log('🚀 [FastTV Bot] Inicializado com sucesso em modo WEBHOOK distribuído (Pronto para PM2 -i max).');
+  } else {
+    // Fallback de segurança para desenvolvimento local se o app não for injetado
+    bot.startPolling();
+    console.log('⚠️ [FastTV Bot] Inicializado em modo LONGBOLLING de Fallback (Não utilize em modo Cluster do PM2).');
+  }
 }
 
 /**
