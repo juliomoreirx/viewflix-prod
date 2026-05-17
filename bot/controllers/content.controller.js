@@ -85,7 +85,7 @@ class ContentController {
     let mensagem = `🎬 *${tituloSeguro}*\n\n`;
     if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
     if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
-    if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
+    if (detalhes.info?.imdb) message += `⭐ IMDB: ${detalhes.info.imdb}\n`;
     if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
     const keyboard = [];
@@ -107,7 +107,6 @@ class ContentController {
     } else {
       mensagem += `📺 *Temporadas disponíveis:*\n\n⏰ Válido por: 7 dias\n💳 O teu saldo: ${formatMoney(saldoAtual)}\n\n`;
       
-      // 🚀 CORREÇÃO: Força a ordenação crescente das temporadas (1 para baixo)
       const temporadasOrdenadas = Object.keys(detalhes.seasons || {}).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
       
       temporadasOrdenadas.forEach((seasonKey) => {
@@ -493,7 +492,6 @@ class ContentController {
 
     const pageData = paginateList(myContent.movies, page, 10);
     
-    // 🚀 CORREÇÃO: Força o parsing da string em instância de Date para anular o NaNm
     const buttons = pageData.items.map(item => [{
       text: `🎬 ${item.title.substring(0, 40)} | ${formatTimeRemaining(new Date(item.expiresAt))}`,
       callback_data: `mycontent_details_${item._id}`
@@ -531,7 +529,6 @@ class ContentController {
 
     const pageData = paginateList(myContent.livetv, page, 10);
     
-    // 🚀 CORREÇÃO: Força o parsing da string em instância de Date para anular o NaNm
     const buttons = pageData.items.map(item => [{
       text: `📡 ${item.title.substring(0, 40)} | ${formatTimeRemaining(new Date(item.expiresAt))}`,
       callback_data: `mycontent_details_${item._id}`
@@ -554,12 +551,21 @@ class ContentController {
 
     const episodeEntries = [];
     
-    // 🚀 CORREÇÃO: Força a ordenação crescente das temporadas no Meu Conteúdo (1 para baixo)
     const sortedSeasons = Object.entries(serie.seasons).sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10));
     
     for (const [seasonKey, episodes] of sortedSeasons) {
-      for (const ep of episodes) {
-        // 🚀 CORREÇÃO: Garante que os episódios carreguem a data em string de forma segura
+      // 🚀 MASTER FIX DE ORDENAÇÃO DE EPISÓDIOS: Força a ordenação crescente (Começa do Episódio 1 para baixo)
+      const sortedEpisodes = [...episodes].sort((a, b) => {
+        const numA = (a.episodeIndex !== undefined && a.episodeIndex !== null) 
+          ? parseInt(a.episodeIndex, 10) 
+          : (parseInt(String(a.episodeName || '').match(/\d+/)?.[0], 10) || 0);
+        const numB = (b.episodeIndex !== undefined && b.episodeIndex !== null) 
+          ? parseInt(b.episodeIndex, 10) 
+          : (parseInt(String(b.episodeName || '').match(/\d+/)?.[0], 10) || 0);
+        return numA - numB;
+      });
+
+      for (const ep of sortedEpisodes) {
         episodeEntries.push({ season: seasonKey, label: `▶️ ${ep.episodeName || 'Episódio'}`, expiresAt: ep.expiresAt, id: ep._id });
       }
     }
@@ -574,7 +580,6 @@ class ContentController {
         buttons.push([{ text: `📂 Temporada ${currentSeason}`, callback_data: 'noop' }]);
       }
       
-      // 🚀 CORREÇÃO: Injetado o 'new Date()' para converter a data serializada do Redis
       buttons.push([{ text: `${entry.label} | ${formatTimeRemaining(new Date(entry.expiresAt))}`, callback_data: `mycontent_details_${entry.id}` }]);
     }
 
@@ -604,7 +609,6 @@ class ContentController {
       disclaimer += `• _Recomendamos abrir o link no Google Chrome ou Safari._\n`;
       disclaimer += `• _Se o player encravar no início, atualiza (F5) a página._\n\n`;
 
-      // 🚀 CORREÇÃO: Aplicação protetiva do construtor de Date
       const msg = `${disclaimer}🎯 *Link Libertado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(new Date(content.expiresAt))}`;
       
       await bot.sendMessage(chatId, msg, {
@@ -632,7 +636,6 @@ class ContentController {
 
       const key = normalizeTitle(title || plainItem.title || '');
       
-      // 🚀 FIX DE SERIALIZAÇÃO DO REDIS: Saneia as subchaves estruturadas como objeto puramente compatível com JSON {}
       if (!seriesMap.has(key)) seriesMap.set(key, { title: title || plainItem.title, seasons: {}, totalEpisodes: 0, lastPurchaseDate: purchaseDate });
       
       const group = seriesMap.get(key);
