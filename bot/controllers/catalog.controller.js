@@ -114,7 +114,6 @@ class CatalogController {
     }
   }
 
-  // NOVO: Abre o prompt de digitação mudando o step do usuário
   iniciarBusca(chatId, tipo) {
     state.clearUserState(chatId);
     state.setUserState(chatId, { step: `search_${tipo}` });
@@ -128,7 +127,6 @@ class CatalogController {
     });
   }
 
-  // NOVO: Executa a busca textual no cache e pagina os resultados
   async renderBuscaPaginada(chatId, termoOriginal, tipo, pagina = 1, msgId = null) {
     try {
       const ITENS_POR_PAGINA = 20;
@@ -139,7 +137,6 @@ class CatalogController {
       const termoBusca = removerAcentos(String(termoOriginal || '').trim()).toLowerCase();
       const isAdulto = (nome) => /[\[\(]xxx|\+18|adulto|hentai|playboy|brasileirinhas/i.test(nome || '');
 
-      // Filtra os conteúdos batendo com o termo digitado
       const resultados = lista.filter(item => {
         const nomeNormalizado = removerAcentos(decodificarHTML(item?.name || '')).toLowerCase();
         return !isAdulto(item.name) && nomeNormalizado.includes(termoBusca);
@@ -161,7 +158,6 @@ class CatalogController {
       const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
       const itensPagina = resultados.slice(inicio, inicio + ITENS_POR_PAGINA);
 
-      // Salva os dados da busca no estado para gerenciar a paginação sem estourar os bytes do Telegram
       state.setUserState(chatId, { step: 'viewing_search', searchTerm: termoOriginal, searchType: tipo });
 
       let ownedMovieIds = new Set();
@@ -194,7 +190,6 @@ class CatalogController {
       const textoFinal = `🔎 *Resultados de ${tipoTexto} para:* "${escaparMarkdownSeguro(termoOriginal)}"\n\n📋 Mostrando ${inicio + 1}-${Math.min(inicio + ITENS_POR_PAGINA, totalItens)} de ${totalItens} itens encontrados.`;
 
       if (msgId) {
-        // Se veio de paginação, limpamos a tela apagando a antiga e mandando nova para evitar quebra de layout
         bot.deleteMessage(chatId, msgId).catch(() => {});
       }
       
@@ -224,9 +219,10 @@ class CatalogController {
       const inicio = (paginaAtual - 1) * ITENS_POR_PAGINA;
       const itensPagina = canais.slice(inicio, inicio + ITENS_POR_PAGINA);
 
+      // 🚀 CORREÇÃO AQUI: Mudando de live_details_ID para details_ID_livetv
       const buttons = itensPagina.map((item) => {
         const name = decodificarHTML(item.name || `Canal ${item.id}`);
-        return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `live_details_${item.id}` }];
+        return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `details_${item.id}_livetv` }];
       });
 
       const navRow = [];
@@ -273,9 +269,10 @@ class CatalogController {
 
     state.setUserState(chatId, { step: 'viewing_search', searchTerm: termoOriginal, searchType: 'livetv' });
 
+    // 🚀 CORREÇÃO AQUI: Mudando de live_details_ID para details_ID_livetv
     const buttons = itensPagina.map((item) => {
       const name = decodificarHTML(item.name || `Canal ${item.id}`);
-      return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `live_details_${item.id}` }];
+      return [{ text: `📡 ${name.substring(0, 54)}${name.length > 54 ? '...' : ''}`, callback_data: `details_${item.id}_livetv` }];
     });
 
     const navRow = [];

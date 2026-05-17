@@ -33,7 +33,7 @@ module.exports = function registerCallbackHandlers() {
       }
 
       // ==========================================
-      // PAGINAÇÃO E CONTROLE DAS BUSCAS TEXTUAIS
+      // PAGINAÇÃO E CONTROLE DAS BUSCAS TEXTUAIS E LISTAS
       // ==========================================
       if (data.startsWith('searchpage_')) {
         bot.answerCallbackQuery(query.id);
@@ -51,6 +51,21 @@ module.exports = function registerCallbackHandlers() {
           return catalogController.renderBuscaCanaisPaginada(chatId, currentState.searchTerm, pagina, msgId);
         }
       }
+      
+      // 🚀 CORREÇÃO AQUI: Paginação da Lista Geral de Canais
+      if (data.startsWith('livepage_')) {
+        bot.answerCallbackQuery(query.id);
+        bot.deleteMessage(chatId, msgId).catch(() => {});
+        return catalogController.listarCanaisAoVivo(chatId, parseInt(data.split('_')[1], 10));
+      }
+      
+      // 🚀 CORREÇÃO AQUI: Botão "Lista Completa" nos resultados da busca de canais
+      if (data === 'list_livetv') {
+        bot.answerCallbackQuery(query.id);
+        bot.deleteMessage(chatId, msgId).catch(() => {});
+        return catalogController.listarCanaisAoVivo(chatId, 1);
+      }
+
       if (data.startsWith('retry_search_')) {
         bot.answerCallbackQuery(query.id);
         bot.deleteMessage(chatId, msgId).catch(() => {});
@@ -58,8 +73,9 @@ module.exports = function registerCallbackHandlers() {
       }
 
       // ==========================================
-      // FLUXO DE DETALHES, SÉRIES E EPISÓDIOS
+      // FLUXO DE DETALHES E INTERAÇÃO PRINCIPAL
       // ==========================================
+      // Ao trocar no catálogo para details_ID_livetv, a linha abaixo captura perfeitamente o clique!
       if (data.startsWith('details_')) return contentController.handleDetails(query);
       if (data.startsWith('season_')) return contentController.handleSeason(query);
       if (data.startsWith('episode_')) return contentController.handleEpisode(query);
