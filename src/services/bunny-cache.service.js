@@ -6,8 +6,8 @@ const fsp = require('fs/promises');
 const path = require('path');
 const os = require('os');
 const { HttpProxyAgent } = require('http-proxy-agent');
-const { Queue, Worker } = require('bullmq'); // 🚀 INJETADO: Motores do BullMQ
-const Redis = require('ioredis'); // 🚀 INJETADO: Driver de Conexão Redis
+const { Queue, Worker } = require('bullmq'); // 🚀 Motores do BullMQ
+const Redis = require('ioredis'); // 🚀 Driver de Conexão Redis
 const env = require('../config/env');
 const bunnyStorage = require('./bunny-storage.service');
 const hlsPipeline = require('./hls-pipeline.service');
@@ -153,22 +153,10 @@ async function isValidVideoFile(filePath) {
     await fd.read(buffer, 0, 16, 0);
     await fd.close();
 
-    // 1. MP4 (ftyp)
-    if (buffer[4] === 0x66 && buffer[5] === 0x74 && buffer[6] === 0x79 && buffer[7] === 0x70) {
-      return true;
-    }
-    // 2. MPEG-TS (0x47)
-    if (buffer[0] === 0x47) {
-      return true;
-    }
-    // 3. MKV / WebM (EBML)
-    if (buffer[0] === 0x1a && buffer[1] === 0x45 && buffer[2] === 0xdf && buffer[3] === 0xa3) {
-      return true;
-    }
-    // 🚀 CORRIGIDO: 4. FLV ('F', 'L', 'V' -> 0x46, 0x4c, 0x56)
-    if (buffer[0] === 0x46 && buffer[1] === 0x4c && buffer[2] === 0x56) {
-      return true;
-    }
+    if (buffer[4] === 0x66 && buffer[5] === 0x74 && buffer[6] === 0x79 && buffer[7] === 0x70) return true;
+    if (buffer[0] === 0x47) return true;
+    if (buffer[0] === 0x1a && buffer[1] === 0x45 && buffer[2] === 0xdf && buffer[3] === 0xa3) return true;
+    if (buffer[0] === 0x46 && buffer[1] === 0x4c && buffer[2] === 0x56) return true;
     return false;
   } catch (error) {
     return false;
@@ -177,29 +165,41 @@ async function isValidVideoFile(filePath) {
 
 class BunnyCacheService {
   constructor() {
-    // Inicialização da conexão compartilhada com o banco de chaves do Redis
     this.redisConfig = process.env.REDIS_URL || 'redis://127.0.0.1:6379';
     this.redisConnection = new Redis(this.redisConfig, { maxRetriesPerRequest: null });
 
     // Instanciação da fila do BullMQ gerenciada via Redis
     this.queue = new Queue('bunny-cache-stream', { connection: this.redisConnection });
 
-    this.maxConcurrent = parseInt(env.BUNNY_CACHE_CONCURRENCY || '2', 10);
+    // Prática Recomendada para 2GB RAM: Limitar concorrência local para 1 por instância ativada
+    this.maxConcurrent = parseInt(env.BUNNY_CACHE_CONCURRENCY || '1', 10);
     this.maxRetries = parseInt(env.BUNNY_CACHE_RETRIES || '2', 10);
-
-    // Dispara a escuta do Worker consumidor em background
-    this._initWorker();
+    
+    this.worker = null;
+    // 🚀 EVOLUÇÃO DE ISOLAMENTO: O Worker não liga mais sozinho no constructor!
   }
 
   /**
-   * Enfileira a tarefa de processamento persistindo metadados no Redis
-   * @param {Object} purchase - Documento do Mongoose de compra
-   * @param {Object} telegramMetadata - { chatId, statusMessageId, caption, mediaType, bulkStateId }
+   * Ativador explícito do Consumidor Worker (Garante controle de concorrência centralizado)
+   */
+  startWorker() {
+    if (this.worker) return;
+    this._initWorker();
+    console.log(`⚙️ [BullMQ Worker] Escuta de downloads ativa. Capacidade máxima: ${this.maxConcurrent} job(s) por instância.`);
+  }
+
+  /**
+   * Enfileira a tarefa de processamento aplicando regras estratégicas de prioridade
    */
   async enqueue(purchase, telegramMetadata = {}) {
     if (!purchase || !purchase.videoId) return;
 
-    // Envia a carga de execução estruturada para a fila atômica do Redis
+    // 🚀 EVOLUÇÃO FILA DE PRIORIDADE JUSTA (Fair-Share):
+    // Se for download de temporada em massa (bulk), joga a prioridade para 10 (baixa).
+    // Se for clique avulso de um filme ou episódio, ganha prioridade 1 (máxima)!
+    const isBulk = !!telegramMetadata.bulkStateId;
+    const jobPriority = isBulk ? 10 : 1;
+
     await this.queue.add('process-cache-job', {
       purchaseId: String(purchase._id),
       telegramMetadata: {
@@ -215,7 +215,8 @@ class BunnyCacheService {
       attempts: this.maxRetries + 1,
       backoff: { type: 'exponential', delay: 5000 },
       removeOnComplete: true,
-      removeOnFail: false
+      removeOnFail: false,
+      priority: jobPriority // ← INJETADO AQUI
     });
   }
 
@@ -227,7 +228,6 @@ class BunnyCacheService {
     this.worker = new Worker('bunny-cache-stream', async (job) => {
       const { purchaseId, telegramMetadata } = job.data;
 
-      // Lazy load dos modelos do banco para evitar travamento de dependência circular
       const db = require('../../bot/services/db.service');
       const PurchasedContentModel = db.getPurchasedContentModel();
       const purchase = await PurchasedContentModel.findById(purchaseId);
@@ -236,7 +236,6 @@ class BunnyCacheService {
         throw new Error(`[BullMQ Worker] Registro de compra ${purchaseId} não localizado no MongoDB.`);
       }
 
-      // Executa o faturamento de mídia reaproveitando a engine central estável
       await this._executeTaskProcessing(job, purchase, telegramMetadata);
 
     }, {
@@ -275,7 +274,6 @@ class BunnyCacheService {
     const emitReady = async (manifestUrl) => {
       const bot = require('../../bot/instance');
       
-      // Fluxo 1: Se for liberação em massa (Bulk Season), incrementa o contador atômico no Redis
       if (telegramMetadata.bulkStateId && telegramMetadata.statusMessageId && telegramMetadata.chatId) {
         const currentReady = await this.redisConnection.incr(`bulk:${telegramMetadata.bulkStateId}:ready`);
         const totalEpisodes = await this.redisConnection.get(`bulk:${telegramMetadata.bulkStateId}:total`) || 1;
@@ -298,7 +296,6 @@ class BunnyCacheService {
         return;
       }
 
-      // Fluxo 2: Notificação padrão individual de Filme ou Episódio Avulso
       if (telegramMetadata.chatId) {
         if (telegramMetadata.statusMessageId) {
           await bot.deleteMessage(telegramMetadata.chatId, telegramMetadata.statusMessageId).catch(() => {});
@@ -338,7 +335,6 @@ class BunnyCacheService {
         });
 
         await emitReady(hlsManifestUrl);
-        logger.info(`[Bunny Cache] HLS já existe: ${hlsManifestUrl}`);
         return;
       }
     } catch (err) {
@@ -408,7 +404,6 @@ class BunnyCacheService {
     logDebug({ stage: 'resolve-final-url', finalUrl });
 
     await purchase.updateOne({ $set: { cacheStatus: 'uploading', cacheProgress: 0, cacheUpdatedAt: new Date() } });
-    logDebug({ stage: 'download-start', url: finalUrl });
 
     const useCurlDownload = String(env.BUNNY_DOWNLOAD_USE_CURL || 'false').toLowerCase() === 'true';
     const downloadResponse = await axios.get(finalUrl, {

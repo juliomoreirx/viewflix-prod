@@ -72,7 +72,7 @@ async function startServer() {
     const buscarDetalhesFn = contentService.buscarDetalhes || contentService.getDetails || contentService.fetchDetails || null;
     const estimarDuracaoFn = contentService.estimarDuracao || contentService.estimateDuration || null;
 
-    // ======================
+// ======================
     // INICIALIZAÇÃO DO BOT (nova estrutura)
     // ======================
     // 🚀 ATUALIZADO: Injetado o objeto 'app' (Express) como 4º argumento para ativar o modo Webhook distribuído
@@ -87,6 +87,12 @@ async function startServer() {
       env.DOMINIO_PUBLICO,
       app 
     );
+
+    // 🚀 ACIONAMENTO SEGURO DO WORKER: Apenas a instância principal consome a fila de downloads
+    const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
+    if (isPrimaryInstance) {
+      bunnyCacheService.startWorker();
+    }
 
     // ============================
     // LiveTV Buffer Provisioning
