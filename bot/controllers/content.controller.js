@@ -23,7 +23,7 @@ class ContentController {
 
     bot.answerCallbackQuery(query.id, { text: '🔄 A carregar...' });
     
-    const loadingMsg = await bot.sendMessage(chatId, '🔍 *Carregando detalhes...*\n\nAguarde um instante enquanto busco as informações.', { parse_mode: 'Markdown' });
+    const loadingMsg = await bot.sendMessage(chatId, '🔍 *A carregar detalhes...*\n\nAguarde um segundo enquanto procuro as informações...', { parse_mode: 'Markdown' });
     bot.deleteMessage(chatId, msgId).catch(() => {});
 
     if (type === 'livetv' || type === 'live') {
@@ -106,7 +106,11 @@ class ContentController {
       }
     } else {
       mensagem += `📺 *Temporadas disponíveis:*\n\n⏰ Válido por: 7 dias\n💳 O teu saldo: ${formatMoney(saldoAtual)}\n\n`;
-      Object.keys(detalhes.seasons || {}).forEach((seasonKey) => {
+      
+      // 🚀 CORREÇÃO: Força a ordenação crescente das temporadas (1 para baixo)
+      const temporadasOrdenadas = Object.keys(detalhes.seasons || {}).sort((a, b) => parseInt(a, 10) - parseInt(b, 10));
+      
+      temporadasOrdenadas.forEach((seasonKey) => {
         const eps = detalhes.seasons[seasonKey] || [];
         keyboard.push([{ text: `Temporada ${seasonKey} (${eps.length} ep)`, callback_data: `season_${id}_${String(seasonKey)}` }]);
       });
@@ -155,7 +159,6 @@ class ContentController {
     const precoNum = parseInt(parts[3], 10);
     const minutosReais = parts[4] ? parseInt(parts[4], 10) : 110;
     
-    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
     const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:${id}`, '1', 'EX', 5, 'NX');
     if (!actionLock) {
       return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
@@ -322,7 +325,6 @@ class ContentController {
     const [, , epId, preco, season] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
     
-    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
     const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:${epId}`, '1', 'EX', 5, 'NX');
     if (!actionLock) return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
 
@@ -369,7 +371,6 @@ class ContentController {
     const [, , id, season, preco] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
     
-    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
     const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:season:${season}`, '1', 'EX', 5, 'NX');
     if (!actionLock) return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
 
@@ -410,7 +411,6 @@ class ContentController {
       const saved = await contentService.salvarConteudoComprado(chatId, ep.id, 'series', tituloSerie, 0, ep.name, season, { seriesId, episodeIndex, totalEpisodes });
       
       if (saved?.token) {
-        // 🚀 MUTEX: Bloqueio de Infraestrutura de Massa (Anti-Double FFmpeg para a mesma série)
         const lockKey = `lock:transcode:${ep.id}`;
         const lockAdquirido = await bunnyCacheService.redisConnection.set(lockKey, '1', 'EX', 900, 'NX');
         
@@ -431,7 +431,6 @@ class ContentController {
     const [, , id, preco] = query.data.split('_');
     const precoNum = parseInt(preco, 10);
 
-    // 🚀 MUTEX: Bloqueio de Duplo Clique (5 segundos)
     const actionLock = await bunnyCacheService.redisConnection.set(`lock:btn:${chatId}:live:${id}`, '1', 'EX', 5, 'NX');
     if (!actionLock) return bot.answerCallbackQuery(query.id, { text: '⏳ A processar... Aguarde.', show_alert: true });
 
@@ -493,8 +492,10 @@ class ContentController {
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
     const pageData = paginateList(myContent.movies, page, 10);
+    
+    // 🚀 CORREÇÃO: Força o parsing da string em instância de Date para anular o NaNm
     const buttons = pageData.items.map(item => [{
-      text: `🎬 ${item.title.substring(0, 40)} | ${formatTimeRemaining(item.expiresAt)}`,
+      text: `🎬 ${item.title.substring(0, 40)} | ${formatTimeRemaining(new Date(item.expiresAt))}`,
       callback_data: `mycontent_details_${item._id}`
     }]);
 
@@ -529,8 +530,10 @@ class ContentController {
     if (!myContent) return this.mostrarMeuConteudo(chatId);
 
     const pageData = paginateList(myContent.livetv, page, 10);
+    
+    // 🚀 CORREÇÃO: Força o parsing da string em instância de Date para anular o NaNm
     const buttons = pageData.items.map(item => [{
-      text: `📡 ${item.title.substring(0, 40)} | ${formatTimeRemaining(item.expiresAt)}`,
+      text: `📡 ${item.title.substring(0, 40)} | ${formatTimeRemaining(new Date(item.expiresAt))}`,
       callback_data: `mycontent_details_${item._id}`
     }]);
 
@@ -541,7 +544,7 @@ class ContentController {
     await bot.sendMessage(chatId, `📡 *Os Meus Canais Ativos*`, { parse_mode: 'Markdown', reply_markup: { inline_keyboard: buttons } });
   }
 
-async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
+  async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
     const currentState = await state.getUserState(chatId);
     const myContent = currentState?.myContent;
     if (!myContent) return this.mostrarMeuConteudo(chatId);
@@ -551,9 +554,12 @@ async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
 
     const episodeEntries = [];
     
-    // 🚀 FIX REDIS: Iterando sobre um Objeto Simples em vez de um Map()
-    for (const [seasonKey, episodes] of Object.entries(serie.seasons)) {
+    // 🚀 CORREÇÃO: Força a ordenação crescente das temporadas no Meu Conteúdo (1 para baixo)
+    const sortedSeasons = Object.entries(serie.seasons).sort((a, b) => parseInt(a[0], 10) - parseInt(b[0], 10));
+    
+    for (const [seasonKey, episodes] of sortedSeasons) {
       for (const ep of episodes) {
+        // 🚀 CORREÇÃO: Garante que os episódios carreguem a data em string de forma segura
         episodeEntries.push({ season: seasonKey, label: `▶️ ${ep.episodeName || 'Episódio'}`, expiresAt: ep.expiresAt, id: ep._id });
       }
     }
@@ -567,7 +573,9 @@ async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
         currentSeason = entry.season;
         buttons.push([{ text: `📂 Temporada ${currentSeason}`, callback_data: 'noop' }]);
       }
-      buttons.push([{ text: `${entry.label} | ${formatTimeRemaining(entry.expiresAt)}`, callback_data: `mycontent_details_${entry.id}` }]);
+      
+      // 🚀 CORREÇÃO: Injetado o 'new Date()' para converter a data serializada do Redis
+      buttons.push([{ text: `${entry.label} | ${formatTimeRemaining(new Date(entry.expiresAt))}`, callback_data: `mycontent_details_${entry.id}` }]);
     }
 
     const navRow = buildPaginationRow(`myseries_${index}_page`, pageData.current, pageData.totalPages);
@@ -591,12 +599,13 @@ async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
 
       const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${content.token}`;
       
-      let disclaimer = `⚠️ *AVISO DE STREAMING VIEWFLIX SPACE* ⚠️\n`;
-      disclaimer += `• _Para correr sem travamentos, utiliza uma conexão Wi-Fi/Rede Estável._\n`;
+      let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
+      disclaimer += `• _Para correr sem travamentos, utiliza uma ligação Wi-Fi/Rede Estável._\n`;
       disclaimer += `• _Recomendamos abrir o link no Google Chrome ou Safari._\n`;
-      disclaimer += `• _Se o player travar no início, atualiza (F5) a página._\n\n`;
+      disclaimer += `• _Se o player encravar no início, atualiza (F5) a página._\n\n`;
 
-      const msg = `${disclaimer}🎯 *Link Libertado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(content.expiresAt)}`;
+      // 🚀 CORREÇÃO: Aplicação protetiva do construtor de Date
+      const msg = `${disclaimer}🎯 *Link Libertado*\n\n🍿 Conteúdo: *${escaparMarkdownSeguro(content.title)}*\n${content.episodeName ? `📺 Ep: ${escaparMarkdownSeguro(content.episodeName)}\n` : ''}\n⏰ Tempo restante: ${formatTimeRemaining(new Date(content.expiresAt))}`;
       
       await bot.sendMessage(chatId, msg, {
         parse_mode: 'Markdown',
@@ -608,7 +617,7 @@ async mostrarMeuConteudoSerieDetalhes(chatId, index, page = 1) {
     }
   }
 
-_buildMeuConteudoGroups(conteudos) {
+  _buildMeuConteudoGroups(conteudos) {
     const movies = [];
     const livetv = [];
     const seriesMap = new Map();
@@ -623,14 +632,13 @@ _buildMeuConteudoGroups(conteudos) {
 
       const key = normalizeTitle(title || plainItem.title || '');
       
-      // 🚀 FIX REDIS: Inicializando 'seasons' como um Objeto Simples {} em vez de Map()
+      // 🚀 FIX DE SERIALIZAÇÃO DO REDIS: Saneia as subchaves estruturadas como objeto puramente compatível com JSON {}
       if (!seriesMap.has(key)) seriesMap.set(key, { title: title || plainItem.title, seasons: {}, totalEpisodes: 0, lastPurchaseDate: purchaseDate });
       
       const group = seriesMap.get(key);
       if (purchaseDate > group.lastPurchaseDate) group.lastPurchaseDate = purchaseDate;
       const seasonKey = String(plainItem.season || '1');
       
-      // Alimentando o objeto simples de forma compatível com JSON
       if (!group.seasons[seasonKey]) group.seasons[seasonKey] = [];
       group.seasons[seasonKey].push({ ...plainItem, episodeName: plainItem.episodeName, expiresAt: plainItem.expiresAt, _id: plainItem._id });
       
@@ -640,22 +648,18 @@ _buildMeuConteudoGroups(conteudos) {
     return { movies, livetv, series: Array.from(seriesMap.values()) };
   }
 
-  // 🚀 MUTEX: Bloqueio de Infraestrutura (15 Minutos) para Transcodes Paralelos
   async _iniciarCacheComNotificacao(chatId, purchase, caption, mediaType) {
     const videoId = purchase.videoId;
     const lockKey = `lock:transcode:${videoId}`;
     
-    // Tenta adquirir o bloqueio por 15 minutos (900 segundos) para impedir downloads simultâneos do mesmo vídeo
     const lockAdquirido = await bunnyCacheService.redisConnection.set(lockKey, '1', 'EX', 900, 'NX');
 
     if (!lockAdquirido) {
-      // Outro utilizador já ativou a preparação deste conteúdo! Evitamos enviar para o BullMQ de novo.
-      await bot.sendMessage(chatId, `🍿 *Infraestrutura Ativa!*\n\nEsse conteúdo já está sendo preparado neste momento, porque outro usuário solicitou recentemente.\n\nVocê pegou um atalho! Daqui a alguns minutos, ele estará disponível na aba 📦 Meu Conteúdo para assistir.`, { parse_mode: 'Markdown' });
+      await bot.sendMessage(chatId, `🍿 *Infraestrutura Ativa!*\n\nEste conteúdo já está a ser descarregado e preparado neste exato momento (outro utilizador solicitou há pouco tempo).\n\nGarantiste um atalho! Vai à tua aba 📦 *O Meu Conteúdo* dentro de alguns minutos para assistires.`, { parse_mode: 'Markdown' });
       return;
     }
 
-    // Se a tranca foi adquirida com sucesso, a infraestrutura prossegue normalmente
-    const msg = await bot.sendMessage(chatId, `⏳ *Preparando seu conteúdo...*\n\nSeu pedido foi recebido e já está sendo processado automaticamente no servidor.`, { parse_mode: 'Markdown' }).catch(() => null);
+    const msg = await bot.sendMessage(chatId, `⏳ *A preparar o teu conteúdo no servidor...*\n\nA tua solicitação entrou na fila de processamento automático do Redis.`, { parse_mode: 'Markdown' }).catch(() => null);
 
     bunnyCacheService.enqueue(purchase, {
       chatId: chatId,
@@ -668,12 +672,12 @@ _buildMeuConteudoGroups(conteudos) {
   async _enviarVideoComLink(chatId, token, caption, precoNum, videoInfo, mediaType = 'movie') {
     const playerUrl = `${config.dynamic.DOMINIO_PUBLICO}/player/${token}`;
     
-    let disclaimer = `⚠️ *AVISO DE STREAMING VIEWFLIX SPACE* ⚠️\n`;
-    disclaimer += `• _Para correr sem travamentos, utiliza uma conexão Wi-Fi/Rede Estável._\n`;
+    let disclaimer = `⚠️ *AVISO DE STREAMING FASTTV* ⚠️\n`;
+    disclaimer += `• _Para correr sem travamentos, utiliza uma ligação Wi-Fi/Rede Estável._\n`;
     disclaimer += `• _Recomendamos abrir o link no Google Chrome ou Safari._\n`;
-    disclaimer += `• _Se o player travar no início, atualiza (F5) a página._\n\n`;
+    disclaimer += `• _Se o player encravar no início, atualiza (F5) a página._\n\n`;
 
-    await bot.sendMessage(chatId, `${disclaimer}✅ *Libertado! Clique no "Assistir Agora" para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
+    await bot.sendMessage(chatId, `${disclaimer}✅ *Libertado! Clica no player para assistir:*\n\n${escaparMarkdownSeguro(caption)}`, {
       parse_mode: 'Markdown',
       reply_markup: { inline_keyboard: [[{ text: '▶️ Assistir Agora', url: playerUrl }], [{ text: '📦 O Meu Conteúdo', callback_data: 'my_content' }]] }
     });
