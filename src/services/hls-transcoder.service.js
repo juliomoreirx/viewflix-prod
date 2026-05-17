@@ -14,7 +14,7 @@ const logger = require('../lib/logger');
 class HLSTranscoderService {
   constructor() {
     this.ffmpegPath = this._detectFFmpegPath();
-    this.segmentDuration = 10; // seconds (remuxing preserves original resolution/bitrate)
+    this.segmentDuration = 10;
     
     if (this.ffmpegPath) {
       logger.info(`[HLS Remux] FFmpeg found at: ${this.ffmpegPath}`);
@@ -23,53 +23,24 @@ class HLSTranscoderService {
     }
   }
 
-  /**
-   * Detect FFmpeg path
-   * @private
-   */
   _detectFFmpegPath() {
     const envPath = process.env.FFMPEG_PATH;
-    if (envPath && this._checkCommand(envPath)) {
-      return envPath;
-    }
+    if (envPath && this._checkCommand(envPath)) return envPath;
 
-    const commonPaths = [
-      '/usr/bin/ffmpeg',
-      '/usr/local/bin/ffmpeg',
-      '/opt/homebrew/bin/ffmpeg',
-      '/usr/local/Cellar/ffmpeg/*/bin/ffmpeg'
-    ];
-
-    for (const p of commonPaths) {
-      if (this._checkCommand(p)) {
-        return p;
-      }
-    }
+    const commonPaths = ['/usr/bin/ffmpeg', '/usr/local/bin/ffmpeg', '/opt/homebrew/bin/ffmpeg', '/usr/local/Cellar/ffmpeg/*/bin/ffmpeg'];
+    for (const p of commonPaths) if (this._checkCommand(p)) return p;
 
     try {
       const result = execSync('which ffmpeg', { encoding: 'utf8' }).trim();
       if (result) return result;
     } catch (e) {}
 
-    const winPaths = [
-      'C:\\ffmpeg\\bin\\ffmpeg.exe',
-      'C:\\Program Files\\ffmpeg\\bin\\ffmpeg.exe',
-      'ffmpeg.exe'
-    ];
-
-    for (const p of winPaths) {
-      if (this._checkCommand(p)) {
-        return p;
-      }
-    }
+    const winPaths = ['C:\\ffmpeg\\bin\\ffmpeg.exe', 'C:\\Program Files\\ffmpeg\\bin\\ffmpeg.exe', 'ffmpeg.exe'];
+    for (const p of winPaths) if (this._checkCommand(p)) return p;
 
     return null;
   }
 
-  /**
-   * Check if command exists
-   * @private
-   */
   _checkCommand(cmd) {
     try {
       execSync(`${cmd} -version`, { stdio: 'ignore' });
@@ -79,29 +50,16 @@ class HLSTranscoderService {
     }
   }
 
-  /**
-   * Transcode MP4 to HLS
-   * @param {string} inputPath - Path to MP4 file
-   * @param {string} outputDir - Output directory for m3u8 + ts files
-   * @returns {Promise<{success: boolean, outputDir: string, manifestPath: string, error?: string}>}
-   */
   async transcodeToHLS(inputPath, outputDir) {
     try {
-      if (!inputPath || inputPath === 'undefined') {
-        throw new Error('Invalid input path');
-      }
-
-      if (!this.ffmpegPath) {
-        throw new Error('FFmpeg not found - install FFmpeg or set FFMPEG_PATH environment variable');
-      }
+      if (!inputPath || inputPath === 'undefined') throw new Error('Invalid input path');
+      if (!this.ffmpegPath) throw new Error('FFmpeg not found');
 
       logger.info(`[HLS Remux] Starting: ${inputPath}`);
 
       try {
         const stats = await fs.stat(inputPath);
-        if (!stats.isFile()) {
-          throw new Error(`Input path is not a file: ${inputPath}`);
-        }
+        if (!stats.isFile()) throw new Error(`Input path is not a file: ${inputPath}`);
         logger.info(`[HLS Remux] ✅ Input file verified: ${(stats.size / 1024 / 1024).toFixed(2)}MB`);
       } catch (err) {
         throw new Error(`Cannot read input file: ${err.message}`);
@@ -112,16 +70,16 @@ class HLSTranscoderService {
       const manifestPath = path.join(outputDir, 'index.m3u8');
       const segmentPattern = path.join(outputDir, '%04d.ts');
 
-      // 🚀 FFmpeg Args HACKED: Isolamento Cirúrgico de Trilha e Expurgos de Legendas
+      // 🚀 FFmpeg Args BLINDADO PARA WEB PLAYER
       const ffmpegArgs = [
         '-i', inputPath,
-        '-map', '0:v:0',       // 🚀 FORCE: Isola a primeira e principal trilha de vídeo
-        '-map', '0:a:0?',      // 🚀 FORCE: Isola a primeira trilha de áudio (o '?' evita falha se for vídeo mudo)
-        '-c:v', 'copy',        // Copy video stream as-is
-        '-c:a', 'copy',        // Copy audio stream as-is
-        '-sn',                 // 🚀 FORCE: Arranca todas as legendas embutidas (Causadoras do fragParsingError)
-        '-dn',                 // 🚀 FORCE: Arranca pacotes de dados cegos/fonts que quebram o player web
-        '-bsf:a', 'aac_adtstoasc',
+        '-map', '0:V:0',       // 🚀 V MAIÚSCULO: Ignora fotos de capa embutidas, pega só o filme real
+        '-map', '0:a:0?',      // Pega o primeiro áudio principal
+        '-c:v', 'copy',        // Copia o vídeo intacto (rápido e sem perda de qualidade)
+        '-c:a', 'aac',         // 🚀 FORÇA AAC: Converte o áudio original (Dolby/AC3) para AAC. Garante 100% suporte Web!
+        '-b:a', '256k',        // Define uma qualidade altíssima para o áudio convertido
+        '-sn',                 // Arranca legendas causadoras de conflito
+        '-dn',                 // Arranca dados extras embutidos
         '-f', 'hls',
         '-hls_time', this.segmentDuration.toString(),
         '-hls_list_size', '0',
@@ -138,12 +96,10 @@ class HLSTranscoderService {
         if (durationSec && durationSec > 0) {
           const byDuration = Math.ceil(durationSec * factorMsPerSec);
           computedTimeout = Math.max(envTimeout, byDuration);
-          logger.info(`[HLS Remux] Calculated FFmpeg timeout ${computedTimeout}ms based on duration ${Math.round(durationSec)}s and factor ${factorMsPerSec}ms/s`);
-        } else {
-          logger.info(`[HLS Remux] Could not determine duration, using env timeout ${envTimeout}ms`);
+          logger.info(`[HLS Remux] Calculated FFmpeg timeout ${computedTimeout}ms based on duration`);
         }
       } catch (err) {
-        logger.warn(`[HLS Remux] ffprobe failed to get duration, using env timeout ${envTimeout}ms: ${err.message}`);
+        logger.warn(`[HLS Remux] ffprobe failed to get duration, using env timeout ${envTimeout}ms`);
       }
 
       return new Promise((resolve, reject) => {
@@ -162,9 +118,7 @@ class HLSTranscoderService {
           reject(new Error(`FFmpeg transcode timeout after ${ffmpegTimeout}ms`));
         }, ffmpegTimeout);
 
-        ffmpeg.stdout.on('data', (data) => {
-          stdout += data.toString();
-        });
+        ffmpeg.stdout.on('data', (data) => stdout += data.toString());
 
         ffmpeg.stderr.on('data', (data) => {
           const text = data.toString();
@@ -182,32 +136,23 @@ class HLSTranscoderService {
             if ((now - lastProgressLog) > 2000) {
               lastProgressLog = now;
               const elapsedSecs = Math.round((now - ffmpegStartTime) / 1000);
-              const fpsMatch = text.match(/fps=\s*([0-9.]+)/);
-              const fps = fpsMatch ? parseFloat(fpsMatch[1]) : 0;
-              const timeMatch = text.match(/time=(\d+):(\d+):([0-9.]+)/);
+              const fps = text.match(/fps=\s*([0-9.]+)/) ? text.match(/fps=\s*([0-9.]+)/)[1] : 0;
+              
               let currentTime = 'N/A';
+              const timeMatch = text.match(/time=(\d+):(\d+):([0-9.]+)/);
               if (timeMatch) {
-                const h = parseInt(timeMatch[1]);
-                const m = parseInt(timeMatch[2]);
-                const s = parseFloat(timeMatch[3]);
-                currentTime = `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(Math.floor(s)).padStart(2, '0')}`;
+                currentTime = `${String(timeMatch[1]).padStart(2, '0')}:${String(timeMatch[2]).padStart(2, '0')}:${String(Math.floor(timeMatch[3])).padStart(2, '0')}`;
               }
               
-              const bitrateMatch = text.match(/bitrate=\s*([0-9.]+kbits\/s)/);
-              const bitrate = bitrateMatch ? bitrateMatch[1] : 'N/A';
-              const speedMatch = text.match(/speed=\s*([0-9.]+x)/);
-              const speed = speedMatch ? speedMatch[1] : 'N/A';
+              const bitrate = text.match(/bitrate=\s*([0-9.]+kbits\/s)/) ? text.match(/bitrate=\s*([0-9.]+kbits\/s)/)[1] : 'N/A';
+              const speed = text.match(/speed=\s*([0-9.]+x)/) ? text.match(/speed=\s*([0-9.]+x)/)[1] : 'N/A';
               
-              logger.info(
-                `[HLS Remux] ⏱️ ${elapsedSecs}s | 📺 Frame: ${currentFrame} | ⚡ ${fps} fps | 🎬 Time: ${currentTime} | 📊 ${bitrate} | 🚀 ${speed}`
-              );
+              logger.info(`[HLS Remux] ⏱️ ${elapsedSecs}s | 📺 Frame: ${currentFrame} | ⚡ ${fps} fps | 🎬 Time: ${currentTime} | 📊 ${bitrate} | 🚀 ${speed}`);
 
               if (currentFrame === lastFrameCount && lastFrameCount > 0) {
                 stallCounter++;
-                logger.warn(`[HLS Remux] ⚠️ Stall detected! Frame stuck at ${currentFrame} (${stallCounter}/4)`);
-                
                 if (stallCounter >= 4) {
-                  logger.error(`[HLS Remux] 💥 FFmpeg stalled for too long - killing process`);
+                  logger.error(`[HLS Remux] 💥 FFmpeg stalled for too long`);
                   ffmpeg.kill('SIGKILL');
                   clearTimeout(timeoutHandle);
                   reject(new Error(`FFmpeg stalled at frame ${currentFrame}`));
@@ -227,55 +172,21 @@ class HLSTranscoderService {
           const elapsedSecs = Math.round(elapsedMs / 1000);
           
           if (code !== 0) {
-            let errorMsg = 'Unknown error';
-            if (stderr) {
-              const errorPatterns = [
-                /Unknown codec/i,
-                /Decoder .* not found/i,
-                /Input\/output error/i,
-                /Permission denied/i,
-                /No such file or directory/i,
-                /Invalid data found/i,
-                /not a valid/i
-              ];
-              
-              for (const pattern of errorPatterns) {
-                const match = stderr.match(pattern);
-                if (match) {
-                  errorMsg = match[0];
-                  break;
-                }
-              }
-              
-              if (errorMsg === 'Unknown error' && stderr.length > 0) {
-                errorMsg = stderr.substring(Math.max(0, stderr.length - 500));
-              }
-            }
-            
-            logger.error(`[HLS Remux] 💥 FFmpeg error (code ${code}, ${elapsedSecs}s)`);
-            logger.error(`[HLS Remux] ❌ Error detail: ${errorMsg}`);
-            return reject(new Error(`FFmpeg transcode failed: ${errorMsg}`));
+            logger.error(`[HLS Remux] 💥 FFmpeg error (code ${code})`);
+            return reject(new Error(`FFmpeg transcode failed (code ${code})`));
           }
 
           try {
             const files = await fs.readdir(outputDir);
             const tsFiles = files.filter(f => f.endsWith('.ts'));
-            const hasManifest = files.includes('index.m3u8');
-
-            if (!hasManifest || tsFiles.length === 0) {
+            if (!files.includes('index.m3u8') || tsFiles.length === 0) {
               throw new Error('Transcode completed but output files missing');
             }
 
-            const totalSize = (await Promise.all(
-              tsFiles.map(f => fs.stat(path.join(outputDir, f)).then(s => s.size).catch(() => 0))
-            )).reduce((a, b) => a + b, 0);
-
+            const totalSize = (await Promise.all(tsFiles.map(f => fs.stat(path.join(outputDir, f)).then(s => s.size).catch(() => 0)))).reduce((a, b) => a + b, 0);
             const totalMB = (totalSize / 1024 / 1024).toFixed(2);
-            const avgBitrate = ((totalSize * 8) / elapsedMs / 1000).toFixed(2);
-
-            logger.info(
-              `[HLS Remux] ✅ Complete in ${elapsedSecs}s | 📦 ${tsFiles.length} segments | 💾 ${totalMB}MB | 📊 ${avgBitrate}kbps avg`
-            );
+            
+            logger.info(`[HLS Remux] ✅ Complete in ${elapsedSecs}s | 📦 ${tsFiles.length} segments | 💾 ${totalMB}MB`);
 
             resolve({
               success: true,
@@ -293,82 +204,20 @@ class HLSTranscoderService {
 
         ffmpeg.on('error', (err) => {
           clearTimeout(timeoutHandle);
-          logger.error('[HLS Remux] Spawn error:', err);
           reject(err);
         });
-
-        logger.info(`[HLS Remux] 🚀 FFmpeg remuxing started | mode=copy (no re-encoding) | segments=${this.segmentDuration}s | ~50-100x faster`);
       });
     } catch (error) {
-      logger.error('[HLS Remux] Error:', error);
       throw error;
     }
   }
 
   async getVideoDuration(filePath) {
     return new Promise((resolve, reject) => {
-      const ffprobeArgs = [
-        '-v', 'error',
-        '-show_entries', 'format=duration',
-        '-of', 'default=noprint_wrappers=1:nokey=1:noesc=1',
-        filePath
-      ];
-
-      const ffprobe = spawn('ffprobe', ffprobeArgs);
+      const ffprobe = spawn('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'default=noprint_wrappers=1:nokey=1:noesc=1', filePath]);
       let output = '';
-
-      ffprobe.stdout.on('data', (data) => {
-        output += data.toString();
-      });
-
-      ffprobe.on('close', (code) => {
-        if (code === 0 && output) {
-          const duration = parseFloat(output.trim());
-          resolve(duration);
-        } else {
-          reject(new Error('ffprobe failed'));
-        }
-      });
-
-      ffprobe.on('error', reject);
-    });
-  }
-
-  async getVideoInfo(filePath) {
-    return new Promise((resolve, reject) => {
-      const ffprobeArgs = [
-        '-v', 'error',
-        '-show_format',
-        '-show_streams',
-        '-print_format', 'json',
-        filePath
-      ];
-
-      const ffprobe = spawn('ffprobe', ffprobeArgs);
-      let output = '';
-
-      ffprobe.stdout.on('data', (data) => {
-        output += data.toString();
-      });
-
-      ffprobe.on('close', (code) => {
-        if (code === 0 && output) {
-          try {
-            const data = JSON.parse(output);
-            resolve({
-              duration: data.format?.duration ? parseFloat(data.format.duration) : null,
-              bitrate: data.format?.bit_rate ? parseInt(data.format.bit_rate) : null,
-              size: data.format?.size ? parseInt(data.format.size) : null,
-              streams: data.streams || []
-            });
-          } catch (err) {
-            reject(err);
-          }
-        } else {
-          reject(new Error('ffprobe failed'));
-        }
-      });
-
+      ffprobe.stdout.on('data', (data) => output += data.toString());
+      ffprobe.on('close', (code) => code === 0 && output ? resolve(parseFloat(output.trim())) : reject(new Error('ffprobe failed')));
       ffprobe.on('error', reject);
     });
   }
@@ -376,14 +225,9 @@ class HLSTranscoderService {
   async cleanup(outputDir) {
     try {
       const files = await fs.readdir(outputDir);
-      for (const file of files) {
-        await fs.unlink(path.join(outputDir, file));
-      }
+      for (const file of files) await fs.unlink(path.join(outputDir, file));
       await fs.rmdir(outputDir);
-      logger.info(`[HLS Remux] Cleaned up: ${outputDir}`);
-    } catch (error) {
-      logger.warn(`[HLS Remux] Cleanup warning: ${error.message}`);
-    }
+    } catch (error) {}
   }
 }
 
