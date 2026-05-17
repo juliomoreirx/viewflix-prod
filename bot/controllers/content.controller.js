@@ -85,7 +85,6 @@ class ContentController {
     let mensagem = `🎬 *${tituloSeguro}*\n\n`;
     if (detalhes.info?.genero) mensagem += `🎭 ${escaparMarkdownSeguro(detalhes.info.genero)}\n`;
     if (detalhes.info?.ano) mensagem += `📅 ${detalhes.info.ano}\n`;
-    // 🚀 FIX: Corrigido de 'message +=' para 'mensagem +=' para evitar ReferenceError fatal!
     if (detalhes.info?.imdb) mensagem += `⭐ IMDB: ${detalhes.info.imdb}\n`;
     if (detalhes.info?.sinopse) mensagem += `\n${escaparMarkdownSeguro(String(detalhes.info.sinopse).substring(0, 400))}\n\n`;
 
@@ -237,6 +236,7 @@ class ContentController {
     const saldoAtual = await paymentService.getUserCredits(chatId);
     const keyboard = [];
 
+    // Adiciona os botões dos episódios da página atual
     for (let i = 0; i < pageData.items.length; i++) {
       const ep = pageData.items[i];
       const globalIndex = (pageData.current - 1) * EPISODES_PER_PAGE + i;
@@ -249,17 +249,27 @@ class ContentController {
       }]);
     }
 
+    // Paginação dos episódios
     const navRow = buildPaginationRow(`season_${id}_${season}_page`, pageData.current, pageData.totalPages);
     if (navRow.length > 0) keyboard.push(navRow);
 
+    // ========================================================
+    // 🚀 LÓGICA DE UPSELL: BOTÃO DA LOJA DA TEMPORADA NO FINAL
+    // ========================================================
     if (restantes === 0) {
-      keyboard.push([{ text: '✅ Temporada inteira já adquirida', callback_data: 'noop' }]);
-    } else if (saldoAtual >= precoTotal) {
-      keyboard.push([{ text: `📥 Comprar Temporada (${restantes} ep) - ${formatMoney(precoTotal)}`, callback_data: `buy_season_${id}_${season}_${precoTotal}` }]);
+      // Já comprou toda a temporada
+      keyboard.push([{ text: '✅ Temporada completa já adquirida', callback_data: 'noop' }]);
     } else {
-      keyboard.push([{ text: `⚠️ Saldo Insuficiente - Faltam ${formatMoney(precoTotal - saldoAtual)}`, callback_data: 'menu_add_credits' }]);
+      // O Botão de Loja/Upsell solicitado
+      keyboard.push([{ text: `🛒 Comprar Mais Episódios ou Temporada`, callback_data: `buy_season_${id}_${season}_${precoTotal}` }]);
+      
+      // Se não tem saldo suficiente para comprar todos os restantes, exibe o alerta visual
+      if (saldoAtual < precoTotal) {
+        keyboard.push([{ text: `⚠️ Faltam ${formatMoney(precoTotal - saldoAtual)} para a temporada toda`, callback_data: 'menu_add_credits' }]);
+      }
     }
 
+    // Botões padrão de navegação
     keyboard.push([{ text: '⬅️ Voltar aos Detalhes', callback_data: `details_${id}_series` }]);
     keyboard.push([{ text: '🏠 Menu Principal', callback_data: 'back_main' }]);
 
