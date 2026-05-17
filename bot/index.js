@@ -1,5 +1,5 @@
 // bot/index.js
-const express = require('express'); // 🚀 Garantia de isolamento de rotas
+const express = require('express'); 
 const bot = require('./instance');
 const config = require('./config');
 const state = require('./state');
@@ -49,11 +49,16 @@ function initBot(models, services, dominio, app) {
   // 5. Ativar as rotinas assíncronas de manutenção (Cleanup / Notificações)
   startJobs();
 
-  // 6. 🚀 EVOLUÇÃO WEBHOOK: Configuração de Rota Distribuída e Amigável a Clusters do PM2
+  // 6. 🚀 FIX WEBHOOK: Remoção do express.json() local para evitar conflito com o parser global do Express
   if (app) {
-    // Injeta o express.json() diretamente na rota para evitar conflitos com parsers customizados do app principal
-    app.post('/api/telegram-webhook', express.json(), (req, res) => {
-      bot.processUpdate(req.body);
+    app.post('/api/telegram-webhook', (req, res) => {
+      // Verifica se o corpo da requisição foi devidamente capturado pelo middleware global
+      if (req.body && Object.keys(req.body).length > 0) {
+        bot.processUpdate(req.body);
+      } else {
+        // Log de diagnóstico em nível de infraestrutura para monitoramento no PM2
+        console.warn('⚠️ [Telegram Webhook] Alerta: Recebeu uma requisição POST mas o req.body veio vazio ou não parseado.');
+      }
       res.sendStatus(200);
     });
 
@@ -61,7 +66,6 @@ function initBot(models, services, dominio, app) {
     const isPrimaryInstance = !process.env.NODE_APP_INSTANCE || process.env.NODE_APP_INSTANCE === '0';
     
     if (isPrimaryInstance && dominio) {
-      // Saneia a URL removendo possíveis barras duplicadas no final do domínio
       const webhookUrl = `${dominio.replace(/\/$/, '')}/api/telegram-webhook`;
       
       bot.setWebHook(webhookUrl)
@@ -118,7 +122,6 @@ async function dispararCampanhaTelegram({ message, bonusAmount = 0, bonusLimit =
       });
       sentCount += 1;
 
-      // Se houver bônus financeiro atrelado à campanha e limite disponível
       if (bonusCentavos > 0 && bonusGrantedCount < bonusMax) {
         await paymentService.addCredits(user.userId, bonusCentavos);
         bonusGrantedCount += 1;
@@ -173,7 +176,7 @@ Você não foi cobrado novamente. Clique no botão abaixo para retentar o downlo
 
 /requeue_${purchase._id}
 
-Precisar de ajuda? Entre em contato com o suporte.
+Precisar de ajuda? Entre com contato com o suporte.
     `.trim();
     
     await bot.sendMessage(userId, texto, { parse_mode: 'Markdown' }).catch((err) => {
@@ -184,7 +187,6 @@ Precisar de ajuda? Entre em contato com o suporte.
   }
 }
 
-// Interface Pública idêntica às assinaturas originais exigidas pelo ecossistema do App
 module.exports = {
   bot,
   initBot,
